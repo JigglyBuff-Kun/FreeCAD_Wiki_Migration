@@ -1,0 +1,127 @@
+---
+title: PartDesign Rainure
+---
+|  |
+| --- |
+| PartDesign Rainure |
+| Emplacement du menu |
+| PartDesign → Créer une fonction soustractive → Rainure |
+| Ateliers |
+| [PartDesign](/PartDesign_Workbench/fr "PartDesign Workbench/fr") |
+| Raccourci par défaut |
+| *Aucun* |
+| Introduit dans la version |
+| - |
+| Voir aussi |
+| [PartDesign Révolution](/PartDesign_Revolution/fr "PartDesign Revolution/fr") |
+|  |
+
+## Description
+
+L'outil **Rainure** fait pivoter une esquisse ou un profil sélectionné autour d'un axe donné en découpant la matière du support.
+
+![](/images/PartDesign_Groove_example.svg)
+
+Ci-dessus : l'esquisse (A) tourne autour de l'axe (B).  
+La rainure résultante sur le solide (C) est illustrée à droite.
+
+## Utilisation
+
+1. Sélectionnez une seule esquisse ou une ou plusieurs faces du corps.
+2. Appuyez sur le bouton ![](/images/PartDesign_Groove.svg) Rainure.
+3. Définissez les paramètres de la rainure, voir [Options](#Options) ci-dessous.
+4. Appuyez sur le bouton OK.
+
+## Options
+
+Lors de la création d'une rainure, ou après avoir double-cliqué sur une rainure existante dans la [vue en arborescence](/Tree_view/fr "Tree view/fr"), le panneau de tâches **Paramètres de la rainure** s'affiche. Il propose les paramètres suivants :
+
+![](/images/Partdesign_groove_parameters.png)
+
+### Type
+
+[introduit dans la version 1.0](/Release_notes_1.0/fr "Release notes 1.0/fr")
+
+Type offre cinq façons différentes de spécifier l'angle de la rainure :
+
+#### Dimension
+
+Entrez une valeur numérique pour l'**angle** de la rainure. Avec l'option **Symétrique au plan**, la rainure s'étendra à la moitié de l'angle donné de chaque côté de l'esquisse ou de la face.
+
+#### À travers tout
+
+La rainure sera prolongée jusqu'à la dernière face du support qu'elle rencontrera dans sa direction. Avec l'option **Symétrique au plan**, la rainure traversera tout le matériau dans les deux directions.
+
+#### Au plus proche
+
+La rainure sera prolongée jusqu'à la première face du support qu'elle rencontrera dans sa direction.
+
+#### Jusqu'à une face
+
+La rainure sera prolongée jusqu'à une face. Appuyez sur le bouton Face et sélectionnez une face ou un [plan de référence](/PartDesign_Plane/fr "PartDesign Plane/fr") du corps.
+
+#### Deux dimensions
+
+Cela permet d'entrer un deuxième angle dans lequel la rainure doit s'étendre dans la direction opposée. Les directions peuvent être inversées en cochant l'option **Inverser**.
+
+### Axe
+
+Spécifie l'axe de la rainure :
+
+* **Axe vertical de l'esquisse** : sélectionne l'axe vertical de l'esquisse.
+* **Axe d'esquisse horizontal** : sélectionne l'axe horizontal de l'esquisse.
+* **Ligne de construction** : sélectionne une ligne de construction de l'esquisse utilisée par la rainure. La liste déroulante contient une entrée pour chaque ligne de construction. La première ligne de construction sera étiquetée *Ligne de construction 1*.
+* **Axe (X/Y/Z) de base** : sélectionne l'axe X, Y ou Z de l'origine du corps.
+* **Sélectionner une référence...** : permet de sélectionner une ligne droite ou une [ligne de référence](/PartDesign_Line/fr "PartDesign Line/fr") du corps.
+
+Remarquez que lors d'un changement d'axe, l'option **Inverser** peut être (dé)cochée automatiquement.
+
+### Angle
+
+Définit l'angle de la rainure. Cette option n'est disponible que si **Type** est sur **Dimension** ou **Deux dimensions**. Les angles supérieurs à 360° ne sont pas possibles. Les valeurs négatives ne le sont pas non plus, utilisez plutôt l'option **Inverser**.
+
+### Symétrique au plan
+
+Cochez cette option pour étendre la rainure de la moitié de l'angle donné de chaque côté de l'esquisse ou de la face, si **Type** est sur **Dimension**, ou **A travers tout** si c'est **Type**.
+
+### Inverser
+
+Inverse la direction de la rainure.
+
+### 2ème angle
+
+[introduit dans la version 1.0](/Release_notes_1.0/fr "Release notes 1.0/fr")
+
+Définit l'angle de la rainure dans la direction opposée. Cette option n'est disponible que si **Type** est sur **Deux dimensions** et que **Angle** est inférieur à 360°.
+
+## Propriétés
+
+### Données
+
+Groove
+
+* Données**Type** (`Enumeration`)
+* Données**Base** (`Vector`): (lecture seulement)
+* Données**Axis** (`Vector`): (lecture seulement)
+* Données**Angle** (`Angle`)
+* Données**Angle2** (`Angle`)
+* Données**Up To Face** (`LinkSub`)
+* Données**Reference Axis** (`LinkSub`)
+
+Part Design
+
+* Données**Refine** (`Bool`)
+
+Sketch Based
+
+* Données**Profile** (`LinkSub`)
+* Données**Midplane** (`Bool`)
+* Données**Reversed** (`Bool`)
+* Données**Allow Multi Face** (`Bool`)
+
+## Remarques
+
+* Une ![](/images/PartDesign_ShapeBinder.svg) [PartDesign Forme liée](/PartDesign_ShapeBinder/fr "PartDesign ShapeBinder/fr") ne peut pas être utilisée pour le profil.
+* Lors de l'utilisation d'une ![](/images/PartDesign_SubShapeBinder.svg) [PartDesign Sous forme liée](/PartDesign_SubShapeBinder/fr "PartDesign SubShapeBinder/fr") pour le profil, la sélection de la liaison dans la [vue en arborescence](/Tree_view/fr "Tree view/fr") échouera, mais la face de la liaison devra être sélectionnée dans la [vue 3D](/3D_view/fr "3D view/fr").
+
+Retrieved from "<http://wiki.freecad.org/index.php?title=PartDesign_Groove/fr&oldid=1557279>"

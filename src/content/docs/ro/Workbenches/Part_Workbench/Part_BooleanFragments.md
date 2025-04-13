@@ -1,0 +1,110 @@
+---
+title: Part Boolean Fragments
+---
+|  |
+| --- |
+| Part BooleanFragments |
+| Menu location |
+| Part → Split → Boolean Fragments |
+| Workbenches |
+| [Part](/Part_Workbench "Part Workbench") |
+| Default shortcut |
+| *None* |
+| Introduced in version |
+| 0.17 |
+| See also |
+| [Part Slice](/Part_Slice "Part Slice"), [Part XOR](/Part_XOR "Part XOR"), [Part Join features](/Part_CompJoinFeatures "Part CompJoinFeatures"), [Part Boolean](/Part_Boolean "Part Boolean") |
+|  |
+
+## Description
+
+## Descriere
+
+Tool to compute all fragments that can result from applying Boolean operations between input shapes. For example, for two intersecting spheres, three non-overlapping but touching solids are generated.
+
+![](/images/Part_BooleanFragments_Demo.png)
+
+(pe imaginea de mai sus, piesele au fost mutate separat manual după aceea, pentru a dezvălui felierea)
+
+Forma de ieșire este întotdeauna un compus. Conținutul compusului depinde de tipurile de intrare și de modul de operare. Asta înseamnă că nu primești imediat accesul la piesele individuale ale rezultatului - piesele rămân grupate împreună. Piesele individuale pot fi extrase prin explodarea compusului ([Draft Downgrade](/Draft_Downgrade "Draft Downgrade")).
+
+Instrumentul are trei moduri: "Standard", "Split" și "CompSolid".
+
+"Standard" și "Split" diferă de acțiunea instrumentului pe fire/polilinii, shells și compsolids: dacă este "Split", acestea sunt separate; dacă este "Standard", acestea sunt păstrate împreună (obțineți segmente suplimentare).
+
+Structura de comprimare în modurile "Standard" și "Split" urmează structura de compunere a intrărilor. Adică, dacă se alimentează cu doi compuși, fiecare conținând o sferă ca în exemplul de mai sus, rezultatul va conține de asemenea doi compuși, fiecare conținând bucățile sferei conținute inițial. Aceasta înseamnă că piesa comună va fi repetată de două ori în rezultat. Numai în cazul în care shperes de intrare ambele nu sunt în compuși, rezultatul va conține piesa comună o singură dată.
+
+În modul "CompSolid", solidele sunt unite într-un compsolid (compsolid este un set de solide conectate prin fețe, ele sunt legate de solide, cum ar fi firele sunt legate de margini, și shell-urile sunt legate de fețe, numele fiind probabil o scurtă expresie "solid compozit"). Rezultatul este un compus non-imbricat de compsolids
+
+## Usage
+
+## Cum se utilizează
+
+1. Selectați obiectele care urmează să fie intersectate.   
+    Ordinea de selecție nu este importantă, deoarece acțiunea instrumentului este simetrică. Este suficient să selectați o sub-formă a fiecărui obiect (de exemplu, fețele). De asemenea, puteți selecta un compus care conține toate formele de conectat, de ex. [Array Draft](/Draft_Array "Draft Array").
+2. Invoca comanda BooleanFragments parte.
+
+## Properties
+
+## Proprietăți
+
+Boolean Fragments
+
+* Date**Objects**:Lista obiectelor care urmează să fie intersectate. În general, sunt necesare cel puțin două obiecte, dar un singur compus care conține formele care se intersectează va face și el. (din FreeCAD v0.17.8053, această proprietate nu este afișată în editorul de proprietăți și poate fi accesată numai prin Python).
+* Date **Mod**: "Standard", "Split" sau "CompSolid". "Standard" este implicit. Standard și Split diferă prin acțiunea instrumentului pe formele de tip agregate: dacă sunt separate, acestea sunt separate; altfel ele sunt păstrate împreună (obțineți segmente suplimentare).
+* Date **Tolerance**: valoarea "fuzziness". Aceasta este o toleranță suplimentară aplicabilă în cazul căutării intersecțiilor, pe lângă toleranțele stocate în formele de intrare.
+
+## Implementation details
+
+## Implementarea detaliilor
+
+Funcția Boolean Fragments ("Fragmente booleene") în modul "Standard" este operatorul general al siguranței OpenCascade (GFA). Acceptă o combinație de probabil toate tipurile de forme, iar logica ieșirii este destul de complicată. Vedeți [OpenCascade user guide: Boolean operations](https://www.opencascade.com/doc/occt-7.0.0/overview/html/occt_user_guides__boolean_operations.html).
+
+Pentru modurile "Split" și "CompSolid", post-procesarea suplimentară este efectuată de FreeCAD.
+
+## Script
+
+Instrumentul poate fi utilizat în [macros](/Macros "Macros") și din consola python utilizând următoarea funcție:
+
+```
+BOPTools.SplitFeatures.makeBooleanFragments(name)
+
+```
+
+* Creează o funcție()onalitate BooleanFragments vidă. Proprietatea "Obiecte" trebuie să fie atribuită în mod explicit, după aceea.
+* Returnează obiectul nou creat.
+
+BooleanFragments poate fi aplicată și în forme simple, fără a avea nevoie de un obiect de document, prin:
+
+```
+import BOPTools.SplitAPI
+BOPTools.SplitAPI.booleanFragments(list_of_shapes, mode, tolerance = 0.0)
+
+# OR, for Standard mode:
+
+list_of_shapes = [App.ActiveDocument.Sphere.Shape, App.ActiveDocument.Sphere001.Shape]
+pieces, map = list_of_shapes[0].generalFuse(list_of_shapes[1:], tolerance)
+# pieces receives a compound of shapes; map receives a list of lists of shapes, defining list_of_shapes <--> pieces correspondence
+
+```
+
+Acest lucru poate fi util pentru crearea de caracteristici scripturi personalizate Python.
+
+Exempluː
+
+```
+import BOPTools.SplitFeatures
+j = BOPTools.SplitFeatures.makeBooleanFragments(name= 'BooleanFragments')
+j.Objects = FreeCADGui.Selection.getSelection()
+
+```
+
+Instrumentul propriu-zis este implementat în Python, vezi /Mod/Part/BOPTools/SplitFeatures.py unde este instalat FreeCAD.
+
+## Notes
+
+## Versiune
+
+Acest instrument a fost introdus în FreeCAD v0.17.8053. FreeCAD și necesită compilarea cu OCC 6.9.0 sau mai recent; altfel instrumentul este inutilizabil.
+
+Retrieved from "<http://wiki.freecad.org/index.php?title=Part_BooleanFragments/ro&oldid=1496760>"

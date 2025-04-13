@@ -1,0 +1,45 @@
+---
+title: Std StoreWorkingView/ru
+---
+|  |
+| --- |
+| Std StoreWorkingView |
+| Menu location |
+| View → Standard views → Store working view |
+| Workbenches |
+| All |
+| Default shortcut |
+| Shift+End |
+| Introduced in version |
+| 0.21 |
+| See also |
+| [Std RecallWorkingView](/Std_RecallWorkingView "Std RecallWorkingView"), [Std FreezeViews](/Std_FreezeViews "Std FreezeViews") |
+|  |
+
+## Описание
+
+The **Std StoreWorkingView** command stores the camera settings of the active [3D view](/3D_view "3D view") in its temporary working view. This view can be recalled with the [Std RecallWorkingView](/Std_RecallWorkingView "Std RecallWorkingView") command.
+
+Each 3D view has its own working view. Storing a new working view will overwrite the existing working view of the active 3D view. When a 3D view is closed its working view is lost.
+
+## Применение
+
+1. Make sure a [3D view](/3D_view "3D view") is active.
+2. There are several ways to invoke the command:
+   * Select the **View → Standard views → Store working view** option from the menu.
+   * Use the keyboard shortcut: Shift+End.
+
+## Программирование
+
+*Смотрите так же:* [Основы составления скриптов в FreeCAD](/FreeCAD_Scripting_Basics/ru "FreeCAD Scripting Basics/ru").
+
+To store the current camera settings of the active 3D view in a working view:
+
+```
+import FreeCADGui
+
+FreeCADGui.runCommand("Std_StoreWorkingView", 0)
+
+```
+
+Retrieved from "<http://wiki.freecad.org/index.php?title=Std_StoreWorkingView/ru&oldid=1449660>"

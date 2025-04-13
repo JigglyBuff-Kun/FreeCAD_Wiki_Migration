@@ -1,0 +1,115 @@
+---
+title: FreeCAD API/ru
+---
+:::caution
+(Октябрь 2019) Не редактируйте эту страницу. Информация является неполной и устаревшей. Для получения последней версии API см.автосгенерированную API документацию, или вы можете сгенерировать документацию самостоятельно, смотритеИсходня документация.
+:::
+
+This is the principal (root) module of FreeCAD. It can also be called by "App" from the FreeCAD interpreter. It contains everything that is needed to manipulate documents and their contents (objects).
+
+Example:
+
+```
+import FreeCAD
+print FreeCAD.listDocuments()
+mydoc = FreeCAD.activeDocument()
+
+```
+
+![](/images/Method.png) **ConfigDump(****)**
+
+**Description**: Prints a dictionary containing all the FreeCAD configuration environment.
+
+**Returns**:
+
+![](/images/Method.png) **ConfigGet(***[string]***)**
+
+**Description**: Returns the value of the given key. If no key is given, the complete configuration is returned
+
+**Returns**: A string.
+
+![](/images/Method.png) **ConfigSet(***string, string***)**
+
+**Description**: Set the given key (first string) to the given value (second string).
+
+**Returns**:
+
+![](/images/Method.png) **Version(****)**
+
+**Description**: Prints the FreeCAD version.
+
+**Returns**:
+
+![](/images/Method.png) **activeDocument(****)**
+
+**Description**: Return the active document or None if there is no active document.
+
+**Returns**: A FreeCAD Document.
+
+![](/images/Method.png) **addExportType(***string, string***)**
+
+**Description**: Adds a new export file type to FreeCAD. The first string must be formatted like this example: "Word Document (\*.doc)". The second string is the name of a python script/module containing an export() function.
+
+**Returns**:
+
+![](/images/Method.png) **addImportType(***string, string***)**
+
+**Description**: Adds a new import file type to FreeCAD, works the same way as addExportType, the handling python module must contain an open() and/or an import() function.
+
+**Returns**:
+
+![](/images/Method.png) **closeDocument(***Document name***)**
+
+**Description**: Closes the given document
+
+**Returns**:
+
+![](/images/Method.png) **getDocument(***Document name***)**
+
+**Description**: Returns a document or raise an exception if there is no document with the given name.
+
+**Returns**:
+
+![](/images/Method.png) **getExportType(***string***)**
+
+**Description**: Returns the name of the module that can export the specified filetype.
+
+**Returns**: A string.
+
+![](/images/Method.png) **getImportType(***string***)**
+
+**Description**: Returns the name of the module that can import the specified filetype.
+
+**Returns**: A string.
+
+![](/images/Method.png) **listDocuments(****)**
+
+**Description**: Returns a dictionary of names and object pointers of all documents.
+
+**Returns**: A dictionary of names and object pointers.
+
+![](/images/Method.png) **newDocument(***[string], [hidden=False]***)**
+
+**Description**: Creates and returns a new document with a given name. The document name must be unique, which is checked automatically. If no name is supplied, the document will be named "Untitled". If hidden=True is passed, then FreeCAD in GUI mode won't display the document and won't show a tab for the document; this allows performing automatic operations on a temporary document (or create a document and save it) without disrupting the user interface.
+
+**Returns**: The newly created document.
+
+![](/images/Method.png) **open(***string***)**
+
+**Description**: See openDocument
+
+**Returns**:
+
+![](/images/Method.png) **openDocument(***filepath, [hidden]***)**
+
+**Description**: Creates and returns a document and load a project file into the document. The string argument must point to an existing file. If the file doesn't exist or the file cannot be loaded an I/O exception is thrown. In this case the created document is kept, but will be empty. If hidden=True is passed, then FreeCAD in GUI mode won't display the document and won't show a tab for the document; this allows performing automatic operations on a document and close it without disrupting the user interface.
+
+**Returns**: The opened FreeCAD Document.
+
+![](/images/Method.png) **setActiveDocument(***Document name***)**
+
+**Description**: Set the active document by its name.
+
+**Returns**:
+
+Retrieved from "<http://wiki.freecad.org/index.php?title=FreeCAD_API/ru&oldid=926524>"

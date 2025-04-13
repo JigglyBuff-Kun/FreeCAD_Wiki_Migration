@@ -1,0 +1,16 @@
+---
+title: Zbrojenie Odstępy niestandardowe
+---
+## Opis
+
+Narzędzie **Odstępy niestandardowe** umożliwia użytkownikowi utworzenie rozkładu prętów zbrojeniowych w elemencie konstrukcyjnym. Można zdefiniować trzy następujące podziały. W przypadku pierwszego i trzeciego segmentu można podać zarówno liczbę prętów zbrojeniowych, jak i odstępy między prętami zbrojeniowymi. W przypadku drugiego segmentu można podać tylko liczbę prętów zbrojeniowych lub odstępy między prętami zbrojeniowymi, ponieważ jedna wartość automatycznie określa drugą.
+
+Na przykład: Podane wartości wejściowe do okna dialogowego Rozmieszczenie zbrojenia:
+
+![](/images/RebarDistributionDialog.png)
+
+Dane wyjściowe generowane przez okno dialogowe Rozmieszczenie zbrojenia, gdy użytkownik kliknie przycisk OK:
+
+![](/images/RebarDistribution.png)
+
+Retrieved from "<http://wiki.freecad.org/index.php?title=Reinforcement_Custom_Spacing/pl&oldid=1433619>"

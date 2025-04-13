@@ -1,0 +1,108 @@
+---
+title: Draft Arc 3Points
+---
+
+|                                                                                    |
+| ---------------------------------------------------------------------------------- |
+| Draft Arc 3Points                                                                  |
+| Menu location                                                                      |
+| Drafting → Arc tools → Arc by 3 points 2D Drafting → Arc by 3 points               |
+| Workbenches                                                                        |
+| [Draft](/Draft_Workbench "Draft Workbench"), [BIM](/BIM_Workbench "BIM Workbench") |
+| Default shortcut                                                                   |
+| A T                                                                                |
+| Introduced in version                                                              |
+| 0.19                                                                               |
+| See also                                                                           |
+| [Draft Arc](/Draft_Arc "Draft Arc"), [Draft Circle](/Draft_Circle "Draft Circle")  |
+|                                                                                    |
+
+## Description
+
+The ![](/src/assets/images/Draft_Arc_3Points.svg) **Draft Arc 3Points** command creates a circular arc on the current [working plane](/Draft_SelectPlane "Draft SelectPlane") from three points that define its circumference. The center and radius are calculated from these points.
+
+A Draft Arc is in fact a [Draft Circle](/Draft_Circle "Draft Circle") with a Data**First Angle** that is not the same as its Data**Last Angle**.
+
+![](/src/assets/images/Draft_Arc_3Points_example.png)
+
+Arc defined by three points on its circumference
+
+## Usage
+
+See also: [Draft Tray](/Draft_Tray "Draft Tray"), [Draft Snap](/Draft_Snap "Draft Snap") and [Draft Constrain](/Draft_Constrain "Draft Constrain").
+
+1. There are several ways to invoke the command:
+   - Press the ![](/src/assets/images/Draft_Arc_3Points.svg) [Arc by 3 points](/Draft_Arc_3Points "Draft Arc 3Points") button.
+   - [Draft](/Draft_Workbench "Draft Workbench"): Select the **Drafting → Arc tools → ![](/src/assets/images/Draft_Arc_3Points.svg) Arc by 3 points** option from the menu.
+   - [BIM](/BIM_Workbench "BIM Workbench"): Select the **2D Drafting → ![](/src/assets/images/Draft_Arc_3Points.svg) Arc by 3 points** option from the menu.
+   - Use the keyboard shortcut: A then T.
+2. The **Arc by 3 points** task panel opens. See [Options](#Options) for more information.
+3. Pick the first point in the [3D view](/3D_view "3D view"), or type coordinates and press the ![](/src/assets/images/Draft_AddPoint.svg) Enter point button.
+4. Pick the second point in the [3D view](/3D_view "3D view"), or type coordinates and press the ![](/src/assets/images/Draft_AddPoint.svg) Enter point button.
+5. Pick the third point in the [3D view](/3D_view "3D view"), or type coordinates and press the ![](/src/assets/images/Draft_AddPoint.svg) Enter point button.
+
+## Options
+
+The single character keyboard shortcuts available in the task panel can be changed. See [Draft Preferences](/Draft_Preferences "Draft Preferences"). The shortcuts mentioned here are the default shortcuts (for version 1.0).
+
+- To manually enter coordinates enter the X, Y and Z component, and press Enter after each. Or you can press the ![](/src/assets/images/Draft_AddPoint.svg) Enter point button when you have the desired values. It is advisable to move the pointer out of the [3D view](/3D_view "3D view") before entering coordinates.
+- Press R or click the **Relative** checkbox to toggle relative mode. If relative mode is on, coordinates are relative to the last point, if available, else they are relative to the coordinate system origin.
+- Press G or click the **Global** checkbox to toggle global mode. If global mode is on, coordinates are relative to the global coordinate system, else they are relative to the [working plane](/Draft_SelectPlane "Draft SelectPlane") coordinate system.
+- Press N or click the **Continue** checkbox to toggle continue mode. If continue mode is on, the command will restart after finishing, allowing you to continue creating arcs.
+- Press S to switch [Draft snapping](/Draft_Snap "Draft Snap") on or off.
+- Press Esc or the Close button to abort the command.
+
+## Notes
+
+- A Draft Arc can be edited with the [Draft Edit](/Draft_Edit "Draft Edit") command.
+
+## Preferences
+
+See also: [Preferences Editor](/Preferences_Editor "Preferences Editor") and [Draft Preferences](/Draft_Preferences "Draft Preferences").
+
+- If the **Edit → Preferences... → Draft → General → Create Part primitives if possible** option is checked, the command will create a non-editable [Part Feature](/Part_Feature "Part Feature") instead of a Draft Circle.
+
+## Properties
+
+See [Draft Circle](/Draft_Circle#Properties "Draft Circle").
+
+## Scripting
+
+See also: [Autogenerated API documentation](https://freecad.github.io/SourceDoc/) and [FreeCAD Scripting Basics](/FreeCAD_Scripting_Basics "FreeCAD Scripting Basics").
+
+To create a Draft Arc by 3 points use the `make_arc_3points` method of the Draft module:
+
+```
+arc = make_arc_3points(points, placement=None, face=False, support=None, map_mode="Deactivated", primitive=False)
+
+```
+
+- Creates an `arc` object from the given `points` list.
+- If a `placement` is given, the center of the circular arc will be moved to this place. See [Placement](/Placement "Placement") for more information.
+- If `face` is `True`, the arc will make a face, that is, it will appear filled.
+- If `support` is given, it is a `LinkSubList`, that is, a list indicating an object and a subelement of that object. This is used so that the object appears referenced to this support.
+
+: For example: `support=[(obj, ("Face1"))]`.
+
+- If `map_mode` is given, it is a string defining a type of mapping, for example: `map_mode='FlatFace'`, `map_mode='ThreePointsPlane'`, etc. See [Part EditAttachment](/Part_EditAttachment "Part EditAttachment") for more information.
+- If `primitive` is `True`, the arc created will be a simple [Part Feature](/Part_Feature "Part Feature"), not a complex Draft object.
+
+Example:
+
+```
+import FreeCAD as App
+import Draft
+
+doc = App.newDocument()
+
+points = [App.Vector(0, 0, 0),
+          App.Vector(5, 10, 0),
+          App.Vector(10, 0, 0)]
+
+arc = Draft.make_arc_3points(points)
+
+doc.recompute()
+
+```
+
+Retrieved from "<http://wiki.freecad.org/index.php?title=Draft_Arc_3Points/en&oldid=1513305>"

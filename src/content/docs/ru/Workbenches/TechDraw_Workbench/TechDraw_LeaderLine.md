@@ -1,0 +1,112 @@
+---
+title: TechDraw "Добавить Линию-выноску в Вид"
+---
+|  |
+| --- |
+| Добавить Линию-выноску в Вид |
+| Расположение в меню |
+| TechDraw → Добавить Линии → Добавить Линию-выноску в Вид |
+| Верстаки |
+| [TechDraw](/TechDraw_Workbench/ru "TechDraw Workbench/ru") |
+| Быстрые клавиши |
+| *Нет* |
+| Представлено в версии |
+| 0.19 |
+| См. также |
+| [Вставка аннотаций форматированным текстом](/TechDraw_RichTextAnnotation/ru "TechDraw RichTextAnnotation/ru"), [Добавить информацию о сварке в указательную линию](/TechDraw_WeldSymbol/ru "TechDraw WeldSymbol/ru"), [Группы линий](/TechDraw_LineGroup/ru "TechDraw LineGroup/ru") |
+|  |
+
+## Описание
+
+The **TechDraw LeaderLine** tool adds a line to a View. Other annotation objects (such as [Rich Text Annotations](/TechDraw_RichTextAnnotation "TechDraw RichTextAnnotation")) can be connected to the leaderline to form complex annotations.
+
+![](/images/TechDraw_LeaderLine_sample.png)
+
+Leaderline added to a View
+
+## Применение
+
+1. Select a View.
+2. There are several ways to invoke the tool:
+   * Press the ![](/images/TechDraw_LeaderLine.svg) [Add Leaderline to View](/TechDraw_LeaderLine "TechDraw LeaderLine") button.
+   * Select the **TechDraw → Add Lines → ![](/images/TechDraw_LeaderLine.svg) Add Leaderline to View** option from the menu.
+3. A task panel opens.
+4. Press the Pick points button.
+5. Pick the first point on the page to define the start point of the line.
+6. Pick the next point on the page. Hold down Ctrl to snap to multiples of 22.5° angles. Optionally use a double-click instead of a single-click to finish entering points.
+7. Optionally add more points.
+8. If you have not double-clicked a point: press the Save Points button.
+9. Optionally change the **Start Symbol**, **End Symbol**, **Color**, **Width** and **Style** of the leader. See [Properties](#Properties) for more information.
+10. Press the OK button.
+
+## Usage edit
+
+1. Double-click a Leaderline in the [Tree view](/Tree_view "Tree view").
+2. A task panel opens.
+3. To edit the points:
+   1. Press the Edit points button.
+   2. The Leaderline is marked with temporary nodes.
+   3. Drag one or more of the nodes to a new position.
+   4. Press the Save changes button.
+4. Optionally change the **Start Symbol**, **End Symbol**, **Color**, **Width** and **Style** of the leader. See [Properties](#Properties) for more information.
+5. Press the OK button.
+
+## Notes
+
+* You cannot add or remove points from an existing Leaderline.
+* If no points were specified at creation time a short line is placed at the center of the View. There is no way to fix such a line, it should be deleted.
+* By default the **Leader Line Auto Horizontal** [preference](/TechDraw_Preferences#Annotation "TechDraw Preferences") is checked. This means that the last line segment of new Leaderlines is drawn horizontally. If there is only one segment the result is then a single horizontal line.
+* You can turn off this auto horizontal feature for existing Leaderlines by changing their Данные**Auto Horizontal** property.
+
+## Свойства
+
+### Data
+
+Base
+
+* Данные**Start Symbol** (`Enumeration`): The symbol at the start of the leaderline. Options: ![](/images/Arrowfilled.svg) Filled Arrow, ![](/images/Arrowopen.svg) Open Arrow, ![](/images/Arrowtick.svg) Tick, ![](/images/Arrowdot.svg) Dot, ![](/images/Arrowopendot.svg) Open Circle, ![](/images/Arrowfork.svg) Fork, ![](/images/Arrowpyramid.svg) Filled Triangle, None.
+* Данные**End Symbol** (`Enumeration`): The symbol at the end of the leaderline. Idem.
+* Данные**X** (`Distance`): The X coordinate of the leaderline relative to the View.
+* Данные**Y** (`Distance`): The Y coordinate of the leaderline relative to the View.
+
+Leader
+
+* Данные**Leader Parent** (`Link`): The View the leaderline is attached to.
+* Данные**Way Points** (`VectorList`): The points of the leaderline.
+* Данные**Scalable** (`Bool`): Specifies if the leaderline scales with Данные**Leader Parent**.
+* Данные**Auto Horizontal** (`Bool`): Specifies if the last leaderline segment is forced to be horizontal.
+
+### View
+
+Base
+
+* Вид**Keep Label** (`Bool`): Not used.
+* Вид**Stack Order** (`Integer`): Over or underlap relative to other drawing objects. [introduced in 0.21](/Release_notes_0.21 "Release notes 0.21")
+
+Line Format
+
+* Вид**Color** (`Color`): The color of the leaderline.
+* Вид**Line Style** (`Enumeration`): The style of the leaderline. Options: NoLine, ![](/images/Continuous-line.svg) Continuous, ![](/images/Dash-line.svg) Dash, ![](/images/Dot-line.svg) Dot, ![](/images/DashDot-line.svg) DashDot, ![Length](/images/DashDotDot-line.svg) DashDotDot.
+* Вид**Line Width** (`Length`): The width of the leaderline.
+
+## Программирование
+
+*См. так же:* [TechDraw API](/TechDraw_API/ru "TechDraw API/ru") и [Основы составления скриптов FreeCAD](/FreeCAD_Scripting_Basics/ru "FreeCAD Scripting Basics/ru").
+
+The LeaderLine tool can be used in [macros](/Macros "Macros") and from the [Python](/Python "Python") console by using the following functions:
+
+```
+myPage = FreeCAD.ActiveDocument().Page
+myBase = FreeCAD.ActiveDocument().View
+leaderObj = FreeCAD.ActiveDocument.addObject('TechDraw::DrawLeaderLine','DrawLeaderLine')
+FreeCAD.activeDocument().myPage.addView(leaderObj)
+FreeCAD.activeDocument().leaderObj.LeaderParent = myBase
+#first waypoint is always (0,0,0)  
+#rest of waypoints are positions relative to (0,0,0)
+leaderObj.WayPoints = [p0,p1,p2]
+leaderObj.X = 5
+leaderObj.Y = 5
+
+```
+
+Retrieved from "<http://wiki.freecad.org/index.php?title=TechDraw_LeaderLine/ru&oldid=1292842>"

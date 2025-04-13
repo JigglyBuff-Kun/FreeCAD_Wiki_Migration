@@ -1,0 +1,226 @@
+---
+title: Profile Based Shapes
+---
+
+:::caution
+This documentation is a work in progress. Please don't mark it as translatable since it will change in the next hours and days.
+::::::caution
+This documentation is not finished. Please help and contribute documentation.GuiCommand modelexplains how commands should be documented. BrowseCategory:UnfinishedDocuto see more incomplete pages like this one. SeeCategory:Command Referencefor all commands.SeeWikiPagesto learn about editing the wiki pages, and go toHelp FreeCADto learn about other ways in which you can contribute.
+:::
+
+## Temporary section to adjust the content while WIP
+
+Editor's note: There is a mix-up of terms on this page which is confusing. "Extrusion" should not be used when discussing swept shapes for example. And "Prismatic shapes" and "Rotated shapes" should be "Extruded shapes" and "Revolved shapes" instead.
+
+Author's note: It is not to easy to contribute to projects like FreeCAD since the project language Is English and most of us are not native speakers. This leads to strange terms in English that are also hardly translatable into other languages. I'd like to use technical correct terms rather than terms matching with certain command names.
+
+- If you just stumbled upon this page and have a solid background on descriptive geometry, please improve the terminology. See Discussion tab of this page. -
+
+* Extruded parts in the real world are not always rigid and will be forced into shape on assembly. The tools to model these assembled parts depend on the final shape and have different names but they all still represent extruded parts.
+* Sweep shapes, prismatic shapes and rotated shapes are meant in a descriptive geometry sense, but the technical terms might lack precision.
+* I'm also not happy with the correction of "invariable" to "fixed" as the latter is has too many other meanings than being invariable (repaired, immobile, static, (problem) solved...).
+
+Let' switch to the Discussion tab.
+
+## Introduction
+
+**Profile based design** builds on the principle of tracing the movement of a profile through 3D space to create 3D shapes, either along a 3D curve, or via several supporting 2D curves. This page tries to name and describe several types of shapes properly, and links to the FreeCAD tools that can be used for their creation. (please improve poorly chosen terms if found)
+
+Several tools distinguish between **profile** and **section** for an open or closed **2D contour** (line, arc, circle, or polyline), if more than one contours are used. The first one is always called profile, optional or required additional ones are called sections. Wiki pages often use **cross-section** for the latter to avoid confusion with section meaning section view, and so does this page.
+
+## Profile based design
+
+Generally there are two principle ways to create 3D shapes from 2D contours: **Tracing** a profile along a spine and **distributing** a face between two or more supporting 2D contours (3D curves may be accepted by some tools but using 2D curves are tried and trusted since the days of manual drafting).
+
+- **Tracing** an **invariable** contour from the first profile along a spine to the last cross-section is the original way of designing [sweep shapes](#Sweep_shapes). Modern CAD applications including FreeCAD also allow to vary its contour by using different cross-sections along the spine with their sweep tools, resulting shapes are rather transition shapes than sweep shapes.
+
+- **Distributing** a face from profile to cross-section via one or more optional supporting cross-sections (usually open contours) but without a spine is the original way to create [loft shapes](#Loft_shapes). Modern CAD applications including FreeCAD also allow closed contours with their loft tools but don't remind users to use identical numbers of contour segments and to align start points correctly, that's why creating loft shapes from open contours is quite self explaining in contrast to creating loft shapes from closed contours.
+
+Filled base profile and end cross-section give a closed shell, sometimes called a volume. Part tools will not create volumes, but will automatically create solid shapes instead.
+
+Open profiles usually result in surface shapes and so they currently cannot be used to create PartDesign features.
+
+### Prismatic shapes
+
+Prismatic shapes have invariable cross-sections traced along a straight line/vector, and we have to decide if we need a surface shape or a solid shape.
+
+: Tracing along a straight line/vector is called extrusion (Part) or padding (PartDesign) in FreeCAD.
+
+#### Prismatic surface shapes
+
+Prismatic surface shapes can be created with ![](/src/assets/images/Part_Extrude.svg) [Part Extrude](/Part_Extrude "Part Extrude"). The elements of the profile have an influence on the resulting shape:
+
+- A single straight line results in a planar face.
+- A circle or an arc results in a closed or open cylindric face.
+- A polyline results in a shell, a shape made of connected faces
+
+![](/src/assets/images/ProfileBased_Example01.png) ![](/src/assets/images/ProfileBased_Example02.png)
+
+Profiles (green), extrusion vector (yellow), and resulting shapes
+
+#### Prismatic solid shapes
+
+Prismatic solid shapes can be created with ![](/src/assets/images/Part_Extrude.svg) [Part Extrude](/Part_Extrude "Part Extrude"), too if the option **Create solid** is checked, or with ![](/src/assets/images/PartDesign_Pad.svg) [PartDesign Pad](/PartDesign_Pad "PartDesign Pad").
+
+![](/src/assets/images/ProfileBased_Example03.png)
+
+Closed profiles from above and resulting Part shapes with option Create solid enabled
+
+See [PartDesign Examples](/PartDesign_Examples#Prismatic_Primitives "PartDesign Examples") for more prismatic solids.
+
+Another tool to to create prismatic solid shapes is provided by the external ![](/src/assets/images/Sheetmetal_workbench_icon.svg) [SheetMetal](/SheetMetal_Workbench "SheetMetal Workbench") workbench: ![](/src/assets/images/SheetMetal_AddBase.svg) [Make Base Wall](/SheetMetal_AddBase "SheetMetal AddBase") uses creates planar objects (blanks) from closed contours and unfoldable bent objects from open contours.
+
+![](/src/assets/images/SheetMetal_AddBase-03.png) ![](/src/assets/images/Button_right.svg)
+![](/src/assets/images/SheetMetal_AddBase-04.png) /
+![](/src/assets/images/SheetMetal_AddBase-01.png) ![](/src/assets/images/Button_right.svg)
+![](/src/assets/images/SheetMetal_AddBase-02.png)
+
+Right: Closed profiles (nested included) result in blanks having a thickness / Left open profiles result in profile objects having a thickness and a length
+
+### Rotated shapes
+
+Rotated shapes have invariable cross-sections traced around an axis (which is the same as along a circular line) and we have again to decide if we need a surface shape or a solid shape.
+
+: Tracing around an axis is called revolving in FreeCAD.
+
+#### Rotatated surface shapes
+
+Rotated surface shapes can be created with ![](/src/assets/images/Part_Revolve.svg) [Part Revolve](/Part_Revolve "Part Revolve"). The elements of the profile have an influence on the resulting shape:
+
+- A single straight results in a cylindric, a conical, or a planar face.
+- A circle or an arc results in a closed or open section of a torus surface.
+- A polyline results in a rotation shell, a shape made of connected faces of the above types.
+
+![](/src/assets/images/ProfileBased_Example04.png) ![](/src/assets/images/ProfileBased_Example05.png)
+
+Profiles (green), rotation axis (yellow), and resulting shapes
+
+#### Rotatated solid shapes
+
+Rotatated solid shapes can be created with ![](/src/assets/images/Part_Revolve.svg) [Part Revolve](/Part_Revolve "Part Revolve"), too if the option **Create solid** is checked, or with ![](/src/assets/images/PartDesign_Revolution.svg) [PartDesign Revolution](/PartDesign_Revolution "PartDesign Revolution").
+
+![](/src/assets/images/ProfileBased_Example06.png)
+
+Closed profiles from above and resulting Part shapes with option Create solid enabled → solid
+
+See [PartDesign Examples](/PartDesign_Examples#Circular_Sweep_Objects "PartDesign Examples") for rotated solids. (They show profiles distributed along a circular spine, but the resulting shapes are the same as if the profiles were rotated)
+
+### Sweep shapes
+
+Sweep shapes have invariable cross-sections distributed and traced along a spine. (the spine is a 2D or 3D backbone curve that controlls the location and normal direction of cross-sections) We have in this case as well to decide if we need a surface shape or a solid shape.
+
+#### Sweep surface shapes
+
+Sweep surface shapes can be created with ![](/src/assets/images/Part_Sweep.svg) [Part Sweep](/Part_Sweep "Part Sweep").
+
+![](/src/assets/images/ProfileBased_Example07.png) ![](/src/assets/images/ProfileBased_Example08.png)
+
+Profiles (green), spine (yellow), and resulting shapes)
+
+#### Sweep solid shapes
+
+Sweep solid shapes can be created with ![](/src/assets/images/Part_Sweep.svg) [Part Sweep](/Part_Sweep "Part Sweep"), too if the option **Create solid** is checked, or with ![](/src/assets/images/PartDesign_AdditivePipe.svg) [PartDesign AdditivePipe](/PartDesign_AdditivePipe "PartDesign AdditivePipe").
+
+![](/src/assets/images/ProfileBased_Example09.png)
+
+Closed profiles from above and resulting Part shapes with option Create solid enabled
+
+### Notes on Profiles
+
+- Part tools accept several outline objects to be traced in one operation, but each object is restricted to contain only one contour. Editor's note: this only applies to swept shapes.
+- PartDesign tools accept outline objects containing several nested contours as long as the result is a single solid.
+
+### Extruded items
+
+Real world extruded items are produced by [extrusion](https://en.wikipedia.org/wiki/Extrusion) i.e. pushing material through a die. The manufacturing condition of such items is usually modeled using prismatic shapes while sweep shapes are used for their assembled condition. This applies to [rolled](<https://en.wikipedia.org/wiki/Rolling_(metalworking)>) items as well.
+
+In relation with CAD to extrude usually means to distribute a profile along a straight line or vector. Even open profiles with no thickness can be extruded, which is impossible in the real world.
+
+![](/src/assets/images/ProfileBased_Example10.png)
+
+An L-shaped rolled and bent frame modelled with ![](/src/assets/images/Part_Sweep.svg) [Part Sweep](/Part_Sweep "Part Sweep"), with a mounted sealing profile (a sweep object with a nested contour) made with ![](/src/assets/images/PartDesign_AdditivePipe.svg) [PartDesign AdditivePipe](/PartDesign_AdditivePipe "PartDesign AdditivePipe"), both based on the same spine
+
+Prismatic and rotated shapes can be created with the sweep tools as well if lines, and arcs or circles are used as spines. See [PartDesign Examples](/PartDesign_Examples#Circular_Sweep_Objects "PartDesign Examples").
+
+### Tracing profiles
+
+What does a CAD application in the background? As stated above, we supply the profile and some kind of spine and the sweep tools do the uncomfortable work:
+
+1. Distributing the profile:
+   - Creating working planes normal to the spine in each knot (start/end point) of spine segments.
+   - Copying profiles, i.e. redrawing the profile on a working plane.
+2. The actual tracing:
+   - Connecting the related points of profile and cross-section(s) with curves that run parallel to the spine.
+   - Filling the faces between a profile segment, a cross-section segment, and two connection lines/curves.
+   - Filling faces inside the profile and the last cross-section to close volumes and create solids.
+
+To visualize the steps we use a profile similar to the "Hamburger Zipfel" that has taught generations of automotive students how to distribute and sealing profiles manually.
+
+![](/src/assets/images/ProfileBased_Example11.gif)
+
+Profile (green), spine (yellow), normal planes on start/end points of segments (light blue), cross-sections (light green), connecting curves (grey), and faces (blue) in order of appearance
+
+FreeCAD's sweep tools allow to use profiles that do not lie on planes that are normal to the spine, but they are still controlled by the virtual working planes.This should be avoided as this leads to kinks in the object surfaces:
+
+![](/src/assets/images/ProfileBased_Example16.png)
+
+Profile tilted out of the normal plane (purple) and the resulting shape in comparison with the previous example (grey profile and dashed lines); the kinks are clearly visible
+
+### Notes on spines
+
+- Spines alone are not able to control the X direction of the (virtual) working planes and as a consequence the alignment of the cross-sections. Some more conditions apply:
+  - The origin of a (virtual) working plane is on the spine and its normal/Z axis is collinear to the tangent of the spine in this point.
+  - Straight segments keep the direction of X axes parallel (and all normals/Z axes are collinear).
+  - Circular segments keep a constant angle between X axes and the lines connecting origin and arc center.
+  - Arbitrary curve segments work like circular segments in principle but they do not refer to the same (virtual) center point between their limits. Varying center points along the spine may result in unwanted twists of the shape.
+- To control the X direction of the (virtual) working planes independently from internal conditions another curve can be used. ![](/src/assets/images/PartDesign_AdditivePipe.svg) [PartDesign AdditivePipe](/PartDesign_AdditivePipe "PartDesign AdditivePipe") has an **Auxiliary** option that uses a guide curve (secondary path) to control the X direction. (Activating the Auxiliary mode opens a "Profile" box to add the guide curve)
+
+![](/src/assets/images/ProfileBased_Example17.png)
+
+This example uses a straight spine (yellow) and a guide curve (orange) that is a quarter turn of a helix around the spine to demonstrate the principle how a guide curve twists a profile around the spine
+
+### Why could a sweep operation fail?
+
+A too small radius: If the radius of the spine is too small the cross-sections will intersect resulting in non-manifold geometry, but to a certain degree the sweep tools are able to render a shape anyway:
+
+![](/src/assets/images/ProfileBased_Example12.png) ![](/src/assets/images/ProfileBased_Example13.png)
+
+Profile and intersecting cross-sections resulting in an impossible shape
+
+![](/src/assets/images/ProfileBased_Example14.png) ![](/src/assets/images/ProfileBased_Example15.png)
+
+View from a different angle and bottom view. If the spine's radius is further decreased so that the yellow face would completely lie inside the shape, the sweep tools can no longer render or update the shape
+
+### Loft shapes
+
+Loft shapes usually connect a profile with a cross-section different shape without a spine so that they in general have varying cross-sections. They are rather used to create a transition shape between profile and cross-Section. FreeCAD's loft tools ![](/src/assets/images/Part_Loft.svg) [Part Loft](/Part_Loft "Part Loft") and ![](/src/assets/images/PartDesign_AdditiveLoft.svg) [PartDesign AdditiveLoft](/PartDesign_AdditiveLoft "PartDesign AdditiveLoft") use straight lines as connecting curves for a profile and a single cross-section, or 3D splines in case of several cross-sections. The latter can be switched to straight lines, too by activating the **Ruled Surface** option.
+
+All cross-sections have to be placed in 3D space manually.
+
+#### Loft surface shapes
+
+Loft surface shapes can be created with ![](/src/assets/images/Part_Loft.svg) [Part Loft](/Part_Loft "Part Loft")
+
+#### Loft solid shapes
+
+Loft solid shapes can be created with ![](/src/assets/images/Part_Loft.svg) [Part Loft](/Part_Loft "Part Loft"), too if the **Create solid** option is checked, or with ![](/src/assets/images/PartDesign_AdditiveLoft.svg) [PartDesign AdditiveLoft](/PartDesign_AdditiveLoft "PartDesign AdditiveLoft").
+
+#### Lofts from identical profiles
+
+Loft shapes from identical profiles usually don't make much sense, but they are included here for a rough comparison with sweep shapes.
+
+![](/src/assets/images/ProfileBased_Example18.png) ![](/src/assets/images/ProfileBased_Example19.png)
+
+Profile and cross-sections of the sweep distribution example used as loft profiles (dashed lines represent the sweep shape). Right: default settings. Left: Ruled surface option activated
+
+### Scaled shapes
+
+Some tools allow to select a point (or a sketch containing only a single point) for either the profile or the last cross-section to grow or respectively shrink a profile from the profile to the cross-section. This is a way to model pyramids, cones (both regular and tilted), or horns
+
+Truncated pyramids, cones, or horns require to copy and scale the profile to create one or more cross-sections, with subshape binders for instance.
+
+### Drafted shapes
+
+### Transition shapes
+
+Retrieved from "<http://wiki.freecad.org/index.php?title=Profile_Based_Shapes&oldid=1559473>"

@@ -1,0 +1,121 @@
+---
+title: Draft Tratteggio
+---
+|  |
+| --- |
+| Draft Tratteggio |
+| Posizione nel menu |
+| Drafting → Tratteggio Annotazione → Tratteggio |
+| Ambiente |
+| [Draft](/Draft_Workbench/it "Draft Workbench/it"), [BIM](/BIM_Workbench/it "BIM Workbench/it") |
+| Avvio veloce |
+| H A |
+| Introdotto nella versione |
+| 0.20 |
+| Vedere anche |
+| [Draft Campitura](/Draft_Pattern/it "Draft Pattern/it") |
+|  |
+
+## Descrizione
+
+Il comando ![](/images/Draft_Hatch.svg) **Tratteggio** crea dei tratteggi sulle facce piane di un oggetto selezionato.
+
+## Utilizzo
+
+1. Selezionare un oggetto con facce. Verranno tratteggiate solo le facce piane dell'oggetto.
+2. Esistono diversi modi per invocare il comando:
+   * Premere il pulsante ![](/images/Draft_Hatch.svg) Tratteggio.
+   * [Draft](/Draft_Workbench/it "Draft Workbench/it"): Selezionare l'opzione **Drafting → ![](/images/Draft_Hatch.svg) Tratteggio** dal menu.
+   * [BIM](/BIM_Workbench/it "BIM Workbench/it"): Selezionare l'opzione **Annotazione → ![](/images/Draft_Hatch.svg) Tratteggio** dal menu.
+   * Usare la scorciatoia da tastiera: H poi A.
+3. Si apre il pannello attività **Tratteggio**. Vedere [Opzioni](#Options) per maggiori informazioni.
+4. Premere il pulsante OK per terminare il comando.
+
+## Opzioni
+
+* Premere il pulsante ... per selezionare un **file PAT**. Vedere [Note](#Note).
+* Selezionare un **Motivo** dal file.
+* Specificare un **Scala** per il motivo.
+* Specificare un **Rotazione** per il motivo.
+* Premere Esc o il pulsante Annulla per interrompere il comando.
+
+## Allineamento motivo
+
+Quando per una faccia viene calcolato il motivo del tratteggio, questo viene temporaneamente tradotto nel piano XY globale per impostazione predefinita. Per una faccia con bordi dritti, il primo bordo dritto determina come questo avviene. Il primo punto di quel bordo viene posizionato sull'origine e il bordo stesso viene allineato con l'asse X. Se vengono create [Polilinee](/Draft_Wire/it "Draft Wire/it") con questo presupposto, si può controllare come il motivo del tratteggio verrà allineato con il contorno della faccia.
+
+Se tutte le facce dell'oggetto selezionate si trovano sul piano XY globale, si può disattivare questo comportamento predefinito impostando la proprietà Dati**Translate** del Tratteggio su `false`. Il motivo di tratteggio verrà quindi allineato con l'origine e l'asse X del sistema di coordinate globale. Per le facce sul piano XY con spigoli dritti, la proprietà Dati**Translate** può essere utilizzata per alternare tra motivi assoluti (a sinistra nell'immagine) e relativi (a destra nell'immagine).
+
+![](/images/Draft_Hatch_alignment.png)
+
+Due Polilinee con Tratteggio.  
+Le Polilinee sono state create in senso antiorario partendo dal punto in basso a sinistra.  
+Per il tratteggio a sinistra, la proprietà Translate è impostata su false.  
+Per il tratteggio sulla destra è impostata su true.
+
+## Note
+
+* Per ora il consiglio è di scaricare un file PAT. Molti possono essere trovati online. Ad esempio, si può eseguire una ricerca web per acad.pat o acadiso.pat.
+* Un piccolo file PAT viene installato con FreeCAD: <program\_folder>/data/Mod/TechDraw/PAT/FCPAT.pat, dove <program\_folder> è la cartella del programma FreeCAD:
+  + Su Linux di solito è /usr/share/freecad.
+  + Su Windows di solito è C:\Program Files\FreeCAD.
+  + Su macOS di solito è /Applications/FreeCAD.
+* versione 1.0 e precedenti: I modelli con linee tratteggiate non vengono gestiti correttamente.
+
+## Preferenze
+
+Vedere anche: [Impostare le preferenze](/Preferences_Editor/it "Preferences Editor/it") e [Preferenze per l'ambiente Draft](/Draft_Preferences/it "Draft Preferences/it").
+
+Sono coinvolte le seguenti preferenze:
+
+* PAT file: **Tools → Edit parameters... → BaseApp → Preferences → Mod → TechDraw → PAT → FilePattern**.
+* Motivo: **Tools → Edit parameters... → BaseApp → Preferences → Mod → TechDraw → PAT → NamePattern**.
+* Scala: **Tools → Edit parameters... → BaseApp → Preferences → Mod → Draft → HatchPatternScale**.
+* Rotazione: **Tools → Edit parameters... → BaseApp → Preferences → Mod → Draft → HatchPatternRotation**.
+
+## Proprietà
+
+Vedere anche: [Editor delle proprietà](/Property_editor/it "Property editor/it").
+
+Un oggetto Tratteggio è derivato da una [Funzione Part](/Part_Feature/it "Part Feature/it") e ne eredita tutte le proprietà. Ha anche le seguenti proprietà aggiuntive:
+
+### Dati
+
+Hatch
+
+* Dati**Base** (`Link`): specifica l'oggetto le cui facce sono tratteggiate.
+* Dati**File** (`File`): specifica il file PAT.
+* Dati**Pattern** (`String`): specifica il nome del motivo.
+* Dati**Rotation** (`Angle`): specifica la rotazione del motivo.
+* Dati**Scale** (`Float`): specifica la scala del motivo.
+* Dati**Translate** (`Bool`): specifica se le facce vengono traslate temporaneamente sul piano XY globale durante il processo di tratteggio. Impostandolo su `false` si potrebbero ottenere risultati errati per le facce non XY.
+
+## Script
+
+Vedere anche: [Autogenerated API documentation](https://freecad.github.io/SourceDoc/) e [Script di base per FreeCAD](/FreeCAD_Scripting_Basics/it "FreeCAD Scripting Basics/it").
+
+Per creare un Draft Tratteggio utilizzare il metodo `make_hatch` del modulo Draft.
+
+```
+hatch = make_hatch(baseobject, filename, pattern, scale, rotation)
+
+```
+
+Esempio:
+
+```
+import FreeCAD as App
+import Draft
+
+doc = App.newDocument()
+
+rectangle = Draft.make_rectangle(4000, 1000)
+rectangle.MakeFace = True
+filename = App.getHomePath() + "data/Mod/TechDraw/PAT/FCPAT.pat"
+pattern = "Horizontal5"
+hatch = Draft.make_hatch(rectangle, filename, pattern, scale=50, rotation=45)
+
+doc.recompute()
+
+```
+
+Retrieved from "<http://wiki.freecad.org/index.php?title=Draft_Hatch/it&oldid=1562508>"

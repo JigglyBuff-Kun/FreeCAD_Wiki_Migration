@@ -1,0 +1,237 @@
+---
+title: Sketcher Tutorium
+---
+
+|                    |
+| ------------------ |
+| Tutorium           |
+| Thema              |
+| Sketcher           |
+| Niveau             |
+| Anfänger           |
+| Zeit zum Abschluss |
+|                    |
+| Autoren            |
+| Ulrich             |
+| FreeCAD-Version    |
+|                    |
+| Beispieldateien    |
+|                    |
+| Siehe auch         |
+| _None_             |
+|                    |
+
+## Einleitung
+
+Der Sketcher ist ein Werkzeug zur Erzeugung von 2D-Objekten zur Verwendung in der Bauteilkonstruktion. Der Sketcher unterscheidet sich von herkömmlichen Zeichenwerkzeugen. Eine Möglichkeit, den Unterschied aufzuzeigen, ist die Konstruktion eines Dreiecks. Ein Dreieck wird durch 3 Werte vollständig definiert, eine beliebige Kombination von Werten aus folgender Liste: Seitenlänge, Winkel, Höhe, Fläche. Die einzige Ausnahme sind drei Winkel, die die Größe nicht definieren.
+
+Um ein Dreieck aus 3 Längen auf herkömmliche Weise zu konstruieren, ist folgendes zu tun:
+
+- die Grundlinie zeichnen
+- zwei Kreise mit Radien zeichnen, die durch die beiden anderen Seitenlängen gegeben sind, oder alternativ die Koordinaten des dritten Knotens berechnen
+- die fehlenden beiden Seiten von den Endpunkten der Grundlinie bis zum Schnittpunkt der beiden Kreise oder dem berechneten Knoten zeichnen.
+
+![](/src/assets/images/Traditional_triangle.png)
+
+Die Seite [wikipedia Dreieck](https://de.wikipedia.org/wiki/Dreieck) zeigt eine Sammlung von Formeln zur Berechnung der fehlenden Informationen, um aus der Mindestangabe ein Dreieck zu zeichnen. Diese werden benötigt, wenn das Dreieck durch vorberechnete Koordinaten definiert werden soll.
+
+Der Sketcher ist anders. Die Formeln und die obigen Hilfskonstruktionen werden nicht benötigt. Um den Unterschied zu verstehen, ist es am besten, selbst ein Dreieck zu konstruieren.
+
+## Erste Skizze: ein Dreieck
+
+Für die Anfertigung einer Skizze wird ein geöffnetes Dokument benötigt. Wenn kein Dokument geöffnet ist, wird durch Klicken auf ![](/src/assets/images/Std_New.svg) ein neues Dokument erstellt. Dann wird der Arbeitsbereich Sketcher ausgewählt:
+
+![](/src/assets/images/Workbench_select_sketcher.png)
+
+Eine neue Skizze wird durch Klicken auf ![](/src/assets/images/Sketcher_NewSketch.svg) erstellt. Es erscheint ein Dialogfeld, in dem die Ausrichtung der neuen Skizze im 3D-Raum ausgewählt werden kann. In diesem Fall spielt es keine Rolle, sodass die XY-Ebene übernommen werden kann. Es wird eine neue leere Skizze erstellt und im Bearbeitungsmodus geöffnet. Es wird ein Gitter mit einem Koordinatensystem angezeigt mit einem roten Punkt am Ursprung.
+
+Im Sketcher ist es in Ordnung, ein beliebiges Dreieck mit dem ![](/src/assets/images/Sketcher_CreatePolyline.svg) Linienzugwerkzeug zu zeichnen und seine Eigenschaften in einem späteren Schritt festzulegen. Jeder Klick in der Zeichenebene setzt einen Eckpunkt. Das Dreieck muss geschlossen sein, daher ist für die letzte Linie ein Klick auf den ersten erzeugten Knoten erforderlich. Vor dem Klicken sollte ein roter Punkt in der Nähe des Mauszeigers sichtbar sein.
+
+![](/src/assets/images/Closed_triangle_with_pointer_small.png)
+
+Dies sorgt dafür, dass der letzte Knoten mit dem ersten identisch ist und damit das Profil geschlossen. Die Symbole, die unterhalb des Mauszeigers erscheinen, zeigen die automatischen Randbedingungen an. Sie werden automatisch festgelegt, wenn man an diese Stelle klickt. Der rote Punkt unter dem Zeiger weist auf die Randbedingung Koinzidenz zwischen den beiden Knoten hin, das heißt, dass die Knoten dieser unterschiedlichen Zeichnungselemente an derselben Stelle zusammengelegt werden.
+
+Das erstellte Dreieck ist flexibel. Ein Knoten kann mit der Maus berührt und herumgezogen werden. Die Seiten des Dreiecks folgen dem Knoten. Dasselbe kann mit einer Linie gemacht werden.
+
+Jede Seitenlänge kann nun einfach durch Auswahl mit der Maus festgelegt werden: Das ausgewählte Element färbt sich grün. Wenn man auf das Werkzeug ![](/src/assets/images/Sketcher_ConstrainDistance.svg) Abstand festlegen klickt, öffnet sich ein Dialog und die gewünschte Länge kann eingegeben werden. Das Bild unten zeigt ein Dreieck mit Seitenlängen von 35 mm, 27 mm und 25 mm. Die Grundlinie wurde horizontal festgelegt, indem sie ausgewählt und auf das Werkzeug ![](/src/assets/images/Sketcher_ConstrainHorizontal.svg) Horizontal festlegen geklickt wurde.
+
+![](/src/assets/images/Sketcher_triangle3_small.png)
+
+Diese Längen-Festlegungen werden (maßliche) Randbedingungen genannt (oder auch Beschränkungen, Einschränkungen, Zwänge). Randbedingungen werden verwendet, um aus der flexiblen geometrischen Eingabe eine unbewegliche (statisch bestimmte) Konstruktion festzulegen. Der Sketcher bietet alle Randbedingungen, die zur Definition jeder Art von Dreieck erforderlich sind. Nur die Fläche (der Flächeninhalt) kann nicht zur Definition eines Dreiecks verwendet werden. So kann das erstellte Dreieck kann neu festgelegt werden, indem der Wert einer Randbedingung geändert wird oder indem Randbedingungen gelöscht und andere hinzugefügt werden. Hier folgt eine Liste von Dreiecken mit anderen vorgegebenen Eigenschaften. Es ist kein Problem, das soeben erstellte Dreieck in eines dieser Dreiecke zu verwandeln.
+
+- Ein oder zwei vorgegebene Winkel: Zwei Seiten des Dreiecks müssen ausgewählt werden. Ein Klick auf ![](/src/assets/images/Sketcher_ConstrainAngle.svg) öffnet einen Dialog zur Festlegung des Winkels.
+
+![](/src/assets/images/Triangel_angle_small.png)
+
+- Rechtwinkliges Dreieck: Zwei Seiten des Dreiecks müssen ausgewählt werden. Ein Klick auf ![](/src/assets/images/Sketcher_ConstrainPerpendicular.svg) legt einen rechten Winkel zwischen den beiden Seiten fest.
+
+![](/src/assets/images/Right_triangle_sketcher.png)
+
+- Gleichseitiges Dreieck: Für eine Seite muss eine Länge festgelegt werden. Dann müssen alle Seiten ausgewählt werden und ein Klick auf ![](/src/assets/images/Sketcher_ConstrainEqual.svg) Gleichheit festlegen erstellt diese Randbedingung zweimal, um alle Seiten auf die gleiche Länge zu bringen.
+
+![](/src/assets/images/Triangle_equilateral_small.png)
+
+- Gleichschenkliges Dreieck (zwei identische Längen) mit gegebener Höhe: Zuerst die beiden Seiten mit der gleichen Länge auswählen. Ein Klick auf ![](/src/assets/images/Sketcher_ConstrainEqual.svg) legt eine (Längen-) Gleichheit zwischen den beiden Seiten fest. Dann die Grundlinie und den oberen Knoten auswählen und auf das Werkzeug ![](/src/assets/images/Sketcher_ConstrainDistance.svg) Abstand festlegen klicken.
+
+![](/src/assets/images/Triangle_isosceles_small.png)
+
+Randbedingungen können durch Klicken auf das Symbol oder durch Klicken in der Liste Einschränkungen (im Aufgabenbereich) ausgewählt werden. Sie können gelöscht oder im Falle von Randbedingungen mit einem Wert nach einem Doppelklick editiert werden. Ein gegebenes Dreieck kann später in einen anderen Typ von Dreieck umgewandelt werden, indem die Randbedingungen bearbeitet oder geändert werden. Der Sketcher ist ein Teil des parametrischen FreeCAD-Modellierungsansatzes. Was man erstellt hat, kann zu einem späteren Zeitpunkt leicht geändert werden, wenn beispielsweise eine Variante der Konstruktion benötigt wird.
+
+Die oben gezeigten Dreiecke haben weiße Linien. Das ist ein Hinweis darauf, dass die Skizze noch einige nicht bestimmte Freiheitsgrade hat. Dies kann durch Ziehen an einigen Linien oder Punkten getestet werden. Wenn sich die Linie oder der Punkt bewegt, ist dieser Punkt nicht vollständig festgelegt (bestimmt). Eine Skizze, die keine nicht bestimmten Freiheitsgrade mehr hat, wird grün.
+
+Dem gleichschenkligen Dreieck fehlt die Festlegung für die Länge der Grundlinie und es kann sich auf der Zeichnungsebene des Sketchers frei bewegen und drehen.
+
+Wenn die Dreieckseigenschaften definiert sind, muss es immer noch in der Zeichenebene fixiert werden. Die Zeichenebene des Sketchers hat ein Koordinatensystem. Der Ursprung des Koordinatensystems ist als roter Punkt in der Mitte der rosa x-Achse und der hellgrünen y-Achse sichtbar. Am einfachsten lässt er sich fixieren, indem ein Knoten ausgewählt und auf ![](/src/assets/images/Sketcher_ConstrainLock.svg) geklickt wird. Dadurch wird ein horizontaler und ein vertikaler Abstand vom Knoten zum Ursprung des Koordinatensystems hinzugefügt. Das Dreieck kann immer noch einen Freiheitsgrad für die Drehung haben. Daher muss eine Seite horizontal, vertikal oder mit einem Winkel zu einer der Koordinatenachsen festgelegt werden. Das nächste Bild zeigt eine vollständig bestimmte Skizze. Alle Linien und Knoten sind jetzt grün.
+
+![](/src/assets/images/Sketcher_triangle3_fc_small.png)
+
+## Mehr über Randbedingungen
+
+Der Sketcher kennt die Dreiecksformeln aus Wikipedia nicht. Stattdessen erstellt er ein Gleichungssystem für die 2-dimensionalen Koordinaten auf der Grundlage der gegebenen Randbedingungen. Dieses Gleichungssystem wird dann numerisch gelöst (berechnet).
+
+Auf diesem Weg kann eine Vielzahl von geometrischen Problemen gelöst werden. Es gibt aber auch einen Nachteil. Wenn der Gleichungssatz mehrere Lösungen hat, erhalten wir vielleicht etwas ganz anderes als das, was wir erwarten. Dies ist besonders ärgerlich, wenn die gleiche Konstruktion für verschiedene Abmessungen verwendet werden soll. Das typische Symptom ist, dass die Skizze nach einer Änderung einer Längenfestlegung auf etwas völlig anderes umspringt. Ein einfaches Beispiel ist die Aufteilung einer Strecke in drei gleiche Teilungen. Das folgende Bild zeigt drei Linien in einer Reihe, wobei Randbedingungen für Gleichheit und Parallelität festgelegt wurden. Der Gesamtabstand ist auf 10 mm eingestellt.
+
+![](/src/assets/images/Dimension_partitions_parallel.png)
+
+Das funktioniert gut, solange nur größere Abstände eingegeben werden. Wenn der Abstand über ein bestimmtes Verhältnis hinaus verringert wird, falten sich die Linien zusammen. Wir erhalten also nicht mehr ein Drittel des gegebenen Abstandes, sondern den Abstand selbst oder zwei Drittel davon. Einige Linien unserer Reihe haben ihre Ausrichtung geändert. Dies gibt immer noch eine gültige Lösung für die Menge der Zwänge, ist aber nicht das, was beabsichtigt war. Das folgende Bild der gleichen Skizze zeigt dies. Die Längenfestlegung wurde auf 1000 mm gesetzt und dann auf 5 mm reduziert.
+
+![](/src/assets/images/Dimension_partitions_flipped.png)
+
+Die Lösung ist die Festlegung eines Winkels von 180° zwischen den Teilungslinien als Ersatz für die Parallelitätsbedingung. Für die 180°-Bedingung gibt es nur eine Lösung. Die Skizze ist nun robust gegenüber großen Änderungen des Abstands. Es muss gesagt werden, dass ggf. auch eine 0°-Bedingung dem gleichen Zweck dient.
+
+![](/src/assets/images/Constraint180_600x400.png)
+
+Die 180°-Bedingung ist eine Lösung für viele Probleme. Einige ältere Versionen von FreeCAD haben Probleme mit der Darstellung der 180°-Bedingung in der Skizzenebene. In den meisten Fällen wird der 180°-Bogen **nicht** in der Skizzenbene wie erwartet dargestellt. Dies ist ein bekanntes Problem für FreeCAD vor Version 14.3613.
+
+Bei mehreren inkrementellen Abmessungen in einer geraden Linie kann es ratsam sein, zuerst eine Zick-Zack-Linie zu zeichnen und dann die 180°-Bedingungen festzulegen. Das hilft, keine zu vergessen, oder eine zweimal zu setzen.
+
+Die folgende Tabelle zeigt einige Kombinationen von Randbedingungen für die Festlegung eines einfachen Winkels. Die Kombination wurde getestet, indem die horizontale Abmessung von 10 mm Länge auf größere Werte vergrößert wurde, bis der Winkel seine Ausrichtung umkehrt. Die Tabelle dokumentiert für jede gezeigte Kombination der Randbedingung die geänderte Länge, an der das Umkippen erfolgt.
+
+| Kombination der Randbedingungen | Anmerkungen                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| ------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|                                 | Festlegung der Länge: Randbedingung Gleichheit festlegen für beide Längen Festlegung der Ausrichtung: Randbedingungen Horizontal festlegen und Vertikal festlegen Kippt bei 51 mm                                                                                                                                                                                                                                                                                                                                                                                                                               |
+|                                 | Festlegung der Länge: Randbedingung Gleichheit festlegen für die vertikale Länge, ein Bogen für die horizontalen Länge. Festlegung der Ausrichtung: zwei Punkte für die horizontale Ausrichtung und Randbedingung Vertikal festlegen Kippt bei 52 mm                                                                                                                                                                                                                                                                                                                                                            |
+|                                 | Festlegung der Länge: Randbedingung Gleichheit festlegen für beide Längen Festlegung der Ausrichtung: Randbedingung Rechtwinklig festlegen zwischen Y-Achse und horizontaler Linie und Randbedingung Vertikal festlegen. Kippt bei 51 mm                                                                                                                                                                                                                                                                                                                                                                        |
+|                                 | Festlegung der Länge: Randbedingung Abstand festlegen für die horizontale Länge. Randbedingung Gleichheit festlegen für die vertikale Länge. Festlegung der Ausrichtung: Randbedingungen Horizontal festlegen und Vertikal festlegen Kippt bei 82 mm Festlegung der Länge: Randbedingung Horizontalen Abstand festlegen für die horizontale Länge. Randbedingung Gleichheit festlegen für die vertikale Länge. Festlegung der Ausrichtung: Randbedingungen Horizontal festlegen und Vertikal festlegen Die horizontale Linie kippt bei einem Test von 10 km nicht um, aber die vertikale Linie wurde umgedreht! |
+|                                 | Festlegung der Länge: Gleichheitsbeschränkung für die Festlegung der Länge Festlegung der Ausrichtung: Randbedingung Winkel festlegen mit 90°zwischen den Linien und Randbedingung Vertikal festlegen für die vertikale Linie kippt nicht, getestet bis zu 10 km                                                                                                                                                                                                                                                                                                                                                |
+
+Der Test hat folgendes gezeigt: Größere Änderungen der maßlichen Randbedingungen können aufgrund von Mehrfachlösungen des zugrundeliegenden Gleichungssystems zu einem Umkippen einiger Linien der Skizze führen. Die einzigen Randbedingungen, die die Ausrichtung der Elemente, auf die sie angewendet werden, beibehalten, sind die Winkelfestlegung sowie die horizontalen und vertikalen maßlichen Festlegungen.
+Die Unterschiede zwischen den anderen Randbedingungen hinsichtlich der Beibehaltung der Orientierung sind gering.
+
+Empfehlung: **Verwende die Randbedingungen Winkel festlegen, Horizontal festlegen und Vertikal Festlegen an kritischen Stellen, um eine Skizze robust gegenüber Maßänderungen zu machen.**
+
+## Problematische Kombination von Randbedingungen
+
+Manchmal legen zwei oder mehr Randbedingungen die gleiche Eigenschaft fest. Als Beispiel können für zwei verbundene Linien dienen, wobei der Verbindungspunkt der Mittelpunkt einer Symmetriebedingung für die Endpunkte der Linien ist. Diese Linien haben nun die gleiche Länge und sind parallel. All dies ist die Folge der Randbedingung Symmetrie festlegen.
+
+Was passiert, wenn diese beiden Linien bereits eine Gleichheitsbedingung und eine Parallelfestlegung haben und die Symmetriebedingung ebenfalls hinzugefügt wird? Nun wird die Eigenschaft Parallelität durch zwei Bedingungen definiert, und die gleichen Längen werden ebenfalls durch zwei Bedingungen definiert. Im Prinzip sollte das zugrundeliegende Gleichungssystem eine Lösung haben. Aber es kann numerische Probleme geben. Dies kann getestet werden, indem man versucht, die Linien zu verschieben. In den meisten Fällen sind die Linien eingefroren, auch wenn der Skechert noch mehrere nicht bestimmte Freiheitsgrade angibt.
+
+Der obige Fall zeigt ein Problem, das für die Programmierer des Sketchers schwer zu lösen zu sein scheint. Der Anwender muss also vorsichtig vorgehen, um solche Situationen zu vermeiden. Überbestimmte Skizzen, d.h. solche mit überzähligen Randbedingungen, verhalten sich unerwartet und problematisch. Symptome dieser überzähligen Randbedingungen sind der oben beschriebene eingefrorene Zustand oder Meldungen bezüglich überzähliger Randbedingungen nach der Änderung eines anderen Objekts in der Skizze.
+
+Im Allgemeinen gibt der Sketcher eine Warnung aus, wenn überzählige Randbedingungen entdeckt werden. Dieser Erkennungsmechanismus scheint jedoch nicht in allen Fällen zu funktionieren. Wenn das Problem erkannt wird, kann es vermieden werden, indem einfach die überzähligen Randbedingungen gelöscht werden. Manchmal ist es nötig, eine andere Kombination von Randbedingungen zu wählen.
+
+Die folgenden Fälle sind Quellen für überzählige Randbedingungen:
+
+- Eine Gleichheitsfestlegung für zwei Radien desselben Bogens
+- Eine Symmetriefestlegung für zwei Radien desselben Bogens
+- Eine Symmetriefestlegung in Kombination mit Parallel-, Gleichheits- und oder Rechtwinklig-Festlegungen
+
+Ein anderer problematischer Fall sind Parallelen mit einem Schnittpunkt im Unendlichen. Es ist möglich, eine 180°-Festlegung für zwei parallele Linien ohne Schnittpunkt zu setzen. Dies wird _nicht'_ empfohlen. Stattdessen sollte ein Winkel zu einer anderen Linie oder Achse festgelegt werden.
+
+Ein anderes Problem ist die Änderung der Ausrichtung von Winkeln. Dies kann passieren, wenn Winkeländerungen über 180° vorgenommen werden. Wenn dies in kleineren Schritten geschieht, wird das Problem vermieden.
+
+## Konstruktionslinien - Schritt-für-Schritt-Beispiel
+
+Im ersten Teil wurde gezeigt, dass Konstruktionsgeometrie für die Konstruktion von Dreiecken nicht notwendig ist. Dennoch beinhaltet der Sketcher auch Konstruktionsgeometrie, die bei komplexeren Problemen nützlich ist. Jede Linie kann mit der Schaltfläche ![](/src/assets/images/Sketcher_ToggleConstruction.svg) in eine Konstruktionslinie umgewandelt werden. Die Konstruktionslinien werden in der Skizze als blaue Linien dargestellt. Sie können auf die gleiche Weise wie andere Linien mit Randbedingungen verwendet werden, werden jedoch nicht angezeigt und nicht verwendet, wenn die Skizze geschlossen wird.
+
+Die Aufgabe ist, ein Rechteck mit Seitenlängen, die dem goldenen Schnitt entsprechen, zu bilden. Wikipedia zeigt, wie man zwei Linien mit einem Längenverhältnis des Goldenen Schnittes konstruiert.
+
+![](/src/assets/images/Goldener_Schnitt_Konstr_beliebt.svg)
+
+Der Sketcher ist ein perfektes Werkzeug, um ein Rechteck mit dem goldenen Schnitt für die Seitenlänge zu konstruieren. Die Größe des Rechtecks kann später geändert werden, ohne eine neue Konstruktion zu erstellen. Die Konstruktionsschritte für den Goldenen Schnitt nach Wikipedia sind:
+
+1. Mit einer Strecke AB wird ein Lot BC im Punkt B gefällt, wobei BC die halbe Länge von AB hat und anschließend die Hypotenuse AC gezeichnet.
+2. Einen Bogen mit Radius BC um den Mittelpunkt C zeichnen. Dieser Bogen schneidet die Hypotenuse AC im Punkt D.
+3. Einen Bogen mit Radius AD um den Mittelpunkt A zeichnen. Dieser Bogen schneidet das ursprüngliche Liniensegment AB im Punkt S. Punkt S teilt die ursprüngliche Strecke AB in die Teilstrecken AS und SB mit Längen im Verhältnis des goldenen Schnitts.
+
+Hier ist eine Schritt-für-Schritt-Erklärung, wie dies erreicht werden kann.
+
+- Eine neue Skizze erstellen, wie am Dreiecksbeispiel erläutert.
+- In der Skizze ein Rechteck zeichnen. Die Schaltfläche ![](/src/assets/images/Sketcher_CreateRectangle.svg) drücken. Die folgende Abbildung zeigt das Rechteck. FreeCAD hat dem Rechteck horizontale und vertikale Beschränkungen hinzugefügt. Dieses Rechteck kann nicht gedreht werden.
+
+![](/src/assets/images/Step1_rectangle_600x400.png)
+
+Das Rechteck sollte in der Mitte des Koordinatensystems bleiben. Um dies zu erreichen, wird eine Symmetriebebedingung zu einer horizontalen Linie hinzugefügt. Dies geschieht, indem zuerst die beiden Knoten der horizontalen Linie und dann die vertikale Achse des Koordinatensystems ausgewählt werden. Die Symmetriebedingung wird durch Klicken auf die Schaltfläche ![](/src/assets/images/Sketcher_ConstrainSymmetric.svg) hinzugefügt. Dasselbe geschieht für eine vertikale Linie, aber stattdessen wird jetzt die horizontale Achse als Symmetrieachse ausgewählt. Die Abbildung unten zeigt das Ergebnis. Das Rechteck bleibt nun in der Mitte und kann nur in der Größe verändert, aber nicht verschoben werden.
+
+![](/src/assets/images/Step2_rectangle_with_symmetry_600x400.png)
+
+Dies war die Vorbereitung für das Rechteck. Die obere horizontale Linie sollte der Abstand AS für die Konstruktion des goldenen Schnittes sein. Eine zusätzliche Linie ist erforderlich, um den SB-Abstand darzustellen. Sie wird ein wenig schräg gezeichnet, wie unten gezeigt. Dadurch wird die automatische Randbedingung Horizontal festlegen vermieden. Diese Linie sollte stattdessen später mit einem Winkel von 180° festgelegt werden, um zu vermeiden, dass es mehrere Lösungen für die konstruierte Kombination der Randbedingungen gibt. Wenn die Linie mit der Bedingung horizontal festlegen gezeichnet wird, beschwert sich der Sketcher später beim Hinzufügen der 180°-Winkelbedingung. Die horizontale Festlegung muss in einem solchen Fall entfernt werden. Das Bild zeigt, wie eine Winkelabedingung hinzugefügt wird, indem zwei Linien ausgewählt und auf ![](/src/assets/images/Sketcher_ConstrainAngle.svg) geklickt wird. Nach dem Hinzufügen einer Linie ist es oft ratsam, mit der Maus an der Linie zu ziehen. Dadurch ist leicht zu erkennen, wenn eine Linie nicht mit den anderen gezeichneten Elementen verbunden ist. Wenn eine Linie nicht korrekt mit den anderen Linien verbunden ist, können in späteren Schritten der Bauteilkonstruktion Probleme auftreten.
+
+![](/src/assets/images/Step3_making_SB_600x400.png)
+
+Die letzte Linie ist nicht Teil des Rechtecks. Sie muss daher in eine Konstruktionslinie gewandelt werden. Durch Markieren der Linie und Klicken auf die Schaltfläche ![](/src/assets/images/Sketcher_ToggleConstruction.svg) wird die Konvertierung durchgeführt.
+
+![](/src/assets/images/Step4_make_SB_construction_line_600x400.png)
+
+Die Linie hat nun eine blaue Farbe, wie unten zu sehen ist. Das Rezept aus Wikipedia für den goldenen Schnitt erfordert eine Linie mit der Hälfte der Entfernung AB. Um dafür einen Bezugspunkt zu erhalten, wird mit dem Werkzeug ![](/src/assets/images/Sketcher_CreatePoint.svg) Punkt erstellen ein zusätzlicher Knoten an die Linie gesetzt. Dies ist unten dargestellt.
+
+![](/src/assets/images/Step5_helper_vertex.png)
+
+Der Referenzpunkt sollte in der Mitte des Abstands AB bleiben. Dies wird erreicht, indem zuerst die beiden Endpunkte des Abstands AB und als drittes der Mittelpunkt ausgewählt werden. Wenn alle drei Punkte in der richtigen Reihenfolge ausgewählt wurden, kann die Symmetriebedingungung durch Klicken auf die Schaltfläche ![](/src/assets/images/Sketcher_ConstrainSymmetric.svg) gesetzt werden, wie unten dargestellt.
+
+![](/src/assets/images/Step6_symmetry_setting.png)
+
+Das Bild unten zeigt bereits die zweite Seite BC des Konstruktionsdreiecks. Diese Linie wurde wie oben beschrieben gezeichnet und in eine Konstruktionslinie umgewandelt. Diese Linie muss eine vertikale Festlegung erhalten, wie im Bild zu sehen ist. Dies kann leicht erreicht werden, indem die Linie nahezu vertikal gezeichnet wird. Wenn die Linie nahezu vertikal verläuft, wird das Symbol der Randbedingung Vertikal festlegen angezeigt und (diese) vom Sketcher gesetzt, wenn die Linie in diesem Zustand fertiggestellt wird.
+
+Die Linie BC muss die Hälfte der Länge von AB haben. Für diesen Zweck steht nur ein Bezugspunkt zur Verfügung, so dass die Gleichheitsbedingung nicht verwendet werden kann. Die Gleichheitsbedingung würde eine Linie mit dieser Länge als Referenz benötigen, die in der Konstruktion nicht vorhanden ist. Daher wird der klassische Bogen zur Festlegung der Länge BC verwendet. Das folgende Bild zeigt die Zeichnung des Bogens. Es wird das Bogen-Werkzeug ![](/src/assets/images/Sketcher_CreateArc.svg) verwendet. Zuerst wird der Mittelpunkt auf B gesetzt. Der Punkt sollte beim Klicken auf B unter dem Bogenwerkzeug sichtbar sein. Oft muss das Bogenwerkzeug nicht direkt über dem Zielpunkt, sondern etwas darunter liegen, um den Koinzidenzpunkt sichtbar zu machen. Danach wird der Radius des Bogens definiert, indem der nächste Punkt auf den Referenzpunkt gesetzt wird. Der letzte Punkt des Bogens wird in der Nähe des Punktes C gesetzt. Es ist wichtig, dass die ersten beiden Punkte auf C und den Mittelpunkt festgelegt werden. Dies sollte nach Fertigstellung des Bogens durch Ziehen am Bogen getestet werden.
+
+![](/src/assets/images/Step7_arc_defining_BC.png)
+
+Um die Länge von BC zu definieren, muss die Linie am Bogen enden. Dies geschieht durch die Einstellung einer Koinzidenzbedingung zwischen dem letzten Bogenpunkt und dem Punkt C, wie unten dargestellt. Beide Punkte müssen ausgewählt werden, und die Schaltfläche ![](/src/assets/images/Constraint_PointOnPoint.svg) Koinzidenz festlegen muss angeklickt werden.
+
+![](/src/assets/images/Step8_arc_BC_finishing.png)
+
+Das nächste Bild zeigt das fertige Dreieck. Die Hypotenuse AC ist bereits gezeichnet und in eine Konstruktionslinie umgewandelt.
+
+![](/src/assets/images/Step9_triangle_ready.png)
+
+Nun muss Schritt 2 des Wikipedia-Rezepts konstruiert werden. Es muss ein zweiter Bogen gezeichnet werden mit dem Mittelpunkt bei C und dem Startpunkt bei B. Der letzte Punkt sollte bei der Hypotenuse enden, wie im Bild unten gezeigt.
+
+![](/src/assets/images/Step10_second_arc.png)
+
+Der gezeichnete Bogen wurde in eine Konstruktionslinie umgewandelt. Nun beginnt Schritt 3 des Wikipedia Rezepts mit dem Zeichnen des letzten Bogens, wie in der Abbildung unten gezeigt. Der Radius dieses Bogens muss mit dem oben konstruierten Punkt auf der Hypotenuse definiert werden. Der letzte Punkt wird normalerweise nicht an einer Ecke des Rechtecks enden. Dies ist jedoch kein Problem, da es später behoben wird. Der letzte Punkt kann wie unten gezeigt gesetzt werden.
+
+![](/src/assets/images/Step11_last_arc.png)
+
+Nun muss der letzte Schritt erfolgen, um die horizontale Linie des Rechtecks gleich dem Abstand AS zu machen. Dies wird unten gezeigt, indem man die Randbedingung Koinzidenz festlegen zwischen dem Ende des letzten Bogens und der Ecke des Rechtecks festlegt.
+
+![](/src/assets/images/Step12_define_ratio.png)
+
+Nun muss die vertikale Linie zur Länge des Abstandes SC gemacht werden. Dies geschieht durch Einstellen einer Gleichheitsbedingung durch Auswahl der Schaltfläche ![](/src/assets/images/Sketcher_ConstrainEqual.svg) wie unten gezeigt.
+
+![](/src/assets/images/Step12_define_rectangle.png)
+
+Das nächste Bild zeigt das Rechteck mit einem Seitenlängenverhältnis, das dem Goldenen Schnitt entspricht. Das Rechteck sollte nur noch einen Freiheitsgrad haben. Daher sollte es beim Ziehen an ihm nur seine Größe verändern, aber sich nicht bewegen. Wenn eine bestimmte Größe einer Seite benötigt wird, kann dieser Seite eine Längenfestlegung hinzugefügt werden. Ansonsten ist die Skizze fertig und kann geschlossen werden. Im FreeCAD-Fenster sollte dann nur noch ein Rechteck sichtbar sein.
+
+![](/src/assets/images/Step14_rectangle_with_golden_ratio.png)
+
+## Übung: elastische Skizze
+
+Das obige Beispiel führte Konstruktionslinien ein. Nun werden einige wichtige Dinge zur Erstellung belastbarer Skizzen besprochen. Hier ist eine Übung, um etwas Praxis im Umgang mit dem Sketcher zu bekommen. Ziel ist es, eine Skizze für so etwas wie einen speziellen Rahmen, wie unten gezeigt, anzufertigen.
+
+![](/src/assets/images/Frame_erxercise_pad.png)
+
+Es sollten nur drei Maße zur Festlegung des Rahmens erforderlich sein. Um das Ändern von Maßen zu erleichtern, können die Randbedingungen in etwas Einprägsames umbenannt werden. Einfach die Randbedingung in der Listenansicht auswählen und <F2> drücken. Die Randbedingung kann z.B. in "Dicke" umbenannt werden.
+Die Zeichnung unten zeigt die Maße. Die Spitze auf der rechten Seite sollte die zweifache Wanddicke haben.
+
+![](/src/assets/images/Frame_exercise_dimensions.png)
+
+Die Skizze sollte auch nach Änderung der Schlüsselmaße, z.B. auf 2000 mm und wieder auf 30 mm, wie beabsichtigt aussehen. Möglicherweise müssen an bestimmten Stellen Winkelbedingungen verwendet werden, um dieses Ziel zu erreichen. Das Bild unten zeigt eine Skizze, die nicht robust gegenüber solchen Änderungen war. Sie ist jetzt unbrauchbar. Um den ursprünglichen Zustand wieder herzustellen, kann die Rückgängig-Schaltfläche ![](/src/assets/images/Std_Undo.svg) verwendet werden.
+
+![](/src/assets/images/Frame_erxercise_failed_sketch.png)
+
+Die obige Skizze ist für den Arbeitsbereich Part-Design unbrauchbar. Nur Profile ohne sich schneidende Linien sind erlaubt. Konstruktionslinien dürfen sich schneiden. Diese werden nicht zur Herstellung von Volumenkörpern verwendet.
+
+Einer der Haupteinsatzbereiche des Sketchers ist die Konstruktion von Bauteilen im Arbeitsbereich Part-Design. Bereits vorhandene Geometrie kann ähnlich wie Konstruktionslinien verwendet werden. Da sich dieses Tutorial mehr auf die grundlegende Sketcher-Funktionalität konzentriert, sollte man hier einen Blick auf die Verwendung von externer Geometrie werfen: [Sketcher Extern](/Sketcher_External/de "Sketcher External/de")
+
+Retrieved from "<http://wiki.freecad.org/index.php?title=Sketcher_Tutorial/de&oldid=1202866>"

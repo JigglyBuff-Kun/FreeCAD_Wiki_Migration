@@ -1,0 +1,142 @@
+---
+title: CirclePlus
+---
+
+|                                                                                                                                                                                                                                                                                                                                                                            |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Macro CirclePlus                                                                                                                                                                                                                                                                                                                                                           |
+| Descrizione                                                                                                                                                                                                                                                                                                                                                                |
+| Crea un cerchio o un arco dando raggio, diametro, circonferenza, area, inizio, fine, arco, anglecenter, corda, freccia, centro (punto), placemObject a scelta (con interfaccia grafica). Versione macro: 0.4 Ultima modifica: 2019/04/07 Versione FreeCAD: All Download: [ToolBar Icon](https://www.freecadweb.org/wiki/images/4/4c/Macro_CirclePlus.png). Autore: mario52 |
+| Autore                                                                                                                                                                                                                                                                                                                                                                     |
+| [mario52](/User:Mario52 "User:Mario52")                                                                                                                                                                                                                                                                                                                                    |
+| Download                                                                                                                                                                                                                                                                                                                                                                   |
+| [ToolBar Icon](https://www.freecadweb.org/wiki/images/4/4c/Macro_CirclePlus.png).                                                                                                                                                                                                                                                                                          |
+| Link                                                                                                                                                                                                                                                                                                                                                                       |
+| [Raccolta di macro](/Macros_recipes/it "Macros recipes/it") [Come installare le macro](/How_to_install_macros/it "How to install macros/it") [Personalizzare la toolbar](/Customize_Toolbars/it "Customize Toolbars/it")                                                                                                                                                   |
+| Versione macro                                                                                                                                                                                                                                                                                                                                                             |
+| 0.4                                                                                                                                                                                                                                                                                                                                                                        |
+| Data ultima modifica                                                                                                                                                                                                                                                                                                                                                       |
+| 2019/04/07                                                                                                                                                                                                                                                                                                                                                                 |
+| Versioni di FreeCAD                                                                                                                                                                                                                                                                                                                                                        |
+| All                                                                                                                                                                                                                                                                                                                                                                        |
+| Scorciatoia                                                                                                                                                                                                                                                                                                                                                                |
+| _Nessuna_                                                                                                                                                                                                                                                                                                                                                                  |
+| Vedere anche                                                                                                                                                                                                                                                                                                                                                               |
+| _Nessuno_                                                                                                                                                                                                                                                                                                                                                                  |
+|                                                                                                                                                                                                                                                                                                                                                                            |
+|                                                                                                                                                                                                                                                                                                                                                                            |
+
+## Descrizione
+
+Questa macro crea un cerchio o un arco e consente all'utente, utilizzando la seguente opzione (tramite una finestra di dialogo), di personalizzare:
+_raggio, diametro, circonferenza, area, angolo iniziale, angolo finale, arco, angolo al centro, corda, freccia, centro (punto),_ e _placemObject_ .
+
+Il cerchio, per impostazione predefinita, è rivolto verso lo schermo (si riferisce alla funzione getCameraOrientation per ottenere il suo orientamento). È possibile modificare manualmente questa funzione per personalizzare il posizionamento della forma.
+
+### Legenda
+
+Nella finestra di dialogo CirclePlus alcuni spinbox cambiano colore. Il verde indica che una casella di selezione è stata modificata ed è pronta per essere eseguita. Arancione indica una casella di selezione opzionale che l'utente può utilizzare se lo ritiene necessario. Il rosso indica un valore mancante o inadeguato. Anche Ok diventa rosso e non funziona fino a quando non verranno utilizzati i valori corretti.
+
+Temporary code for external macro link. Do not use this code. This code is used exclusively by [Addon Manager](/Std_AddonMgr "Std AddonMgr"). _Link for optional manual installation: [Macro](https://gist.githubusercontent.com/mario52a/0ed8129bacbe9124a41e3ae1d378d5b7/raw/3f810ac142dd0d9245c5ccc964b8b2d7d750b276/Macro%2520CirclePlus.FCMacro)_
+
+```
+
+# This code is copied instead of the original macro code
+# to guide the user to the online download page.
+# Use it if the code of the macro is larger than 64 KB and cannot be included in the wiki
+# or if the RAW code URL is somewhere else in the wiki.
+
+from PySide import QtGui, QtCore
+
+diag = QtGui.QMessageBox(QtGui.QMessageBox.Information,
+    "Information",
+    "This macro must be downloaded from this link\n"
+    "\n"
+    "https://gist.githubusercontent.com/mario52a/0ed8129bacbe9124a41e3ae1d378d5b7/raw/3f810ac142dd0d9245c5ccc964b8b2d7d750b276/Macro%2520CirclePlus.FCMacro" + "\n"
+    "\n"
+    "Quit this window to access the download page")
+
+diag.setWindowFlags(QtCore.Qt.WindowStaysOnTopHint)
+diag.setWindowModality(QtCore.Qt.ApplicationModal)
+diag.exec_()
+
+import webbrowser
+webbrowser.open("https://gist.githubusercontent.com/mario52a/0ed8129bacbe9124a41e3ae1d378d5b7/raw/3f810ac142dd0d9245c5ccc964b8b2d7d750b276/Macro%2520CirclePlus.FCMacro")
+
+```
+
+<class="rawcodeurl"><a href="<https://gist.githubusercontent.com/mario52a/0ed8129bacbe9124a41e3ae1d378d5b7/raw/3f810ac142dd0d9245c5ccc964b8b2d7d750b276/Macro%2520CirclePlus.FCMacro>">raw code</a>
+
+## Utilizzo
+
+Copiare il codice e incollarlo nella directory delle macro
+
+![](/images/Macro_CirclePlus_00.png)
+
+- **X Y Z** : coordinate del cerchio, se non vengono fornite le coordinate il cerchio è creato sul punto 0,0,0
+- **radius** : raggio del cerchio
+- **diameter** : diametro del cerchio
+- **Reset** : resetta il valore delle coordinate
+- **Equal** : copia il valore di X nelle caselle Y e Z.
+- **CheckBox :**
+- **Options** : altre opzioni per creare il cerchio
+- **Point** : se selezionato, viene creato il punto centrale
+- **Info** : se selezionato, mostra le informazioni fornite nella macro
+- **Face** : se selezionato, nel cerchio viene creata una faccia
+- **Sector** : se selezionato, viene creato un settore
+- **Segment** : se selezionato, viene creato un segmento
+- *SpinBox 1.0'* : incremento di passo per raggio e diametro (Default: 1.0 (per modificare il valore cambiare il valore riga 87 **"incrementDS = xx.xx"**))
+- **SpinBox 8** : assegna l'altezza del testo nella macro
+
+- **Quit** : esce dalla macro (questo pulsante è colorato in rosso in caso di errore)
+- **Ok** : crea il cerchio
+
+![](/images/Macro_CirclePlus_01.png)
+
+- **Opzioni disponibili**
+- **circumference** : circonferenza del cerchio
+- **area** : area del cerchio
+- **startangle** : angolo iniziale per un arco
+- **endangle** : angolo finale per un arco
+- **arc** e **anglecenter** : arco in combinazione con anglecenter
+  - **arc** = lunghezza dell'arco
+  - **anglecenter** = angolo al centro del cerchio, alle estremità dell'arco
+- **cord** e **arrow** : corda in combinazione con la freccia del cerchio
+  - **cord** : lunghezza della corda del cerchio
+  - **arrow** : lunghezza della freccia del cerchio
+
+## Script
+
+Scaricare l'icona ![](/images/Macro_CirclePlus.png) e inserirla nella stessa directory della macro (non cambiare il suo nome)
+
+[![](/images/Nuvola_apps_download_manager.png)](https://gist.github.com/mario52a/0ed8129bacbe9124a41e3ae1d378d5b7)
+
+[Ultima versione di Macro_CirclePlus e le icone alla fine della pagina](https://gist.github.com/mario52a/0ed8129bacbe9124a41e3ae1d378d5b7)
+
+## Promemoria sulle circonferenze
+
+**Esempi di codice**
+
+![examples 1, 2, 3](/images/Macro_Circle_01.png)
+
+examples 1, 2, 3
+
+![examples](/images/Macro_Circle_02.png)
+
+examples
+
+## Versione
+
+ver 04 , 07-04-2019 : replace setStyleSheet DoubleSpinBox by setStyleSheet Label cause: the increment in the Dspinbox does not work ??!
+
+ver 03 , 06-04-2019 : supp all "(QtGui.QApplication.translate("MainWindow", "Diameter", None, QtGui.QApplication.UnicodeUTF8))" give error in 0.18.16093 (Git) Hash: 690774c0effe4fd7b8d2b5e2fb2b8c8d145e21ce
+Python version: 3.6.6
+Qt version: 5.6.2
+
+ver 0.2 , 05-04-2019 : add increment the step from 1.0 to 0.1 (DoubleSpinbox)
+
+ver 0.1 , 2018-07-14 : add create segment
+
+ver 0.0 , 2018-07-10 :
+
+Retrieved from "<http://wiki.freecad.org/index.php?title=Macro_CirclePlus/it&oldid=1358348>"

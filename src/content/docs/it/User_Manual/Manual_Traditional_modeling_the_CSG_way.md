@@ -1,0 +1,164 @@
+---
+title: Manuale Modellazione tradizionale, il metodo CSG
+---
+
+[CSG](https://en.wikipedia.org/wiki/Constructive_solid_geometry) sta per Geometria Solida Costruttiva e rappresenta il metodo fondamentale per lavorare con la geometria solida 3D. Comporta la creazione di oggetti complessi aggiungendo o rimuovendo parti da solidi mediante operazioni booleane quali unione, sottrazione o intersezione.
+
+Come discusso in precedenza in questo manuale, FreeCAD supporta vari tipi di geometria. Tuttavia, il tipo preferito e più pratico per la progettazione di oggetti 3D del mondo reale in FreeCAD è la geometria solida [BREP](https://en.wikipedia.org/wiki/Boundary_representation), gestita principalmente dall'Ambiente Part. BREP definisce gli oggetti 3D specificandone i confini spaziali. Gli aspetti chiave di BREP includono: facce, gli elementi di superficie dell'oggetto; spigoli, le linee di confine in cui si incontrano due facce; e vertici, i punti in cui gli spigoli convergono.
+
+BREP offre diversi vantaggi. Innanzitutto, definisce le superfici utilizzando equazioni matematiche, consentendo una modellazione precisa e accurata. Questa precisione è fondamentale per le applicazioni ingegneristiche in cui sono richieste dimensioni esatte. Inoltre, BREP fornisce superfici lisce e dettagliate, a differenza delle [mesh poligonali](https://en.wikipedia.org/wiki/Polygon_mesh) che approssimano le superfici curve con sfaccettature. Ciò è simile alla differenza tra immagini vettoriali, che scalano senza perdere qualità, e immagini bitmap, che possono apparire pixelate se ingrandite. BREP conserva informazioni topologiche complete sull'oggetto, comprese le relazioni tra facce, spigoli e vertici, il che è essenziale per operazioni complesse come calcoli booleani e raccordi.
+
+![](/src/assets/images/Mesh_vs_brep.jpg)
+
+A sinistra una rappresentazione mesh e a destra una rappresentazione BREP
+
+Le mesh poligonali sono composte da vertici, spigoli e facce che formano triangoli o quadrilateri. Le mesh sono più semplici e veloci per il rendering, ma mancano di precisione. Quando vengono ingrandite o stampate su larga scala, le mesh mostrano superfici sfaccettate anziché curve lisce. Al contrario, BREP utilizza curve e superfici definite matematicamente, offrendo una precisione e una scorrevolezza superiori. I modelli BREP sono preferibili per le applicazioni CAD in cui è richiesta precisione.
+
+In FreeCAD, la geometria basata su BREP è gestita da [OpenCasCade](https://en.wikipedia.org/wiki/Open_Cascade_Technology), una libreria software open source. L'interfaccia principale tra FreeCAD e il kernel OpenCasCade è l'Ambiente Part, che funge da base per la maggior parte degli altri ambienti, fornendo strumenti essenziali per la creazione e la manipolazione di oggetti BREP. Part include strumenti per la creazione di primitive, come forme di base come scatole (box), cilindri e sfere. Ha anche strumenti per operazioni booleane come fusione, intersezione e sottrazione di forme, nonché strumenti per spostare, ruotare, ridimensionare e clonare oggetti.
+
+Sebbene altri ambienti di FreeCAD, come PartDesign e Surface, offrono strumenti più avanzati per la creazione e la manipolazione della geometria, essi si basano sull'ambiente Part. Comprendere come gli oggetti Part funzionano internamente ed essere esperti con gli strumenti Part di base è utile. Spesso, questi strumenti più semplici possono risolvere problemi che strumenti più complessi potrebbero non gestire in modo efficace.
+
+Per illustrare l'utilizzo dell'ambiente Part, modelliamo questo tavolo, utilizzando solo operazioni CSG (tranne le viti, per cui useremo uno degli addons, e la quotatura che vedremo nel prossimo capitolo):
+
+![](/src/assets/images/Exercise_table_complete.jpg)
+
+Creiamo un nuovo documento (**Ctrl+N** o menu **File → Nuovo**) per il nostro progetto del tavolo. Il documento è inizialmente chiamato "Senza nome" nella scheda Modello nel pannello Vista combinata. Se si salva il documento (**Ctrl+Maiusc+S** o menu **File → Salva con nome**) come "table.FCStd", il documento verrà rinominato "table", che identifica più chiaramente il progetto. Useremo millimetri (mm) come unità di lunghezza. Si è liberi di cambiare unità utilizzando il menu situato nell'angolo in basso a destra, in base alle proprie preferenze.
+
+Ora si può passare all'ambiente Part per creare la prima gamba del tavolo.
+
+- Premere il pulsante ![](/src/assets/images/Part_Box.svg)**Cubo**
+- Selezionare il cubo, quindi impostare le seguenti proprietà (nella scheda **Dati**):
+  - Lunghezza: 80 mm
+  - Larghezza: 80 mm
+  - Altezza: 750 mm
+- Duplicare il cubo premendo **Ctrl+C** quindi **Ctrl+V** (o menu **Modifica → Copia** e **Incolla**). Non si vedrà alcun cambiamento nella vista 3D, perché il secondo oggetto si sovrappone al primo. Si può dire che il nuovo cubo è stato incollato perché la vista ad albero ora mostra un oggetto chiamato "Cubo001".
+- Selezionare Cube001 nella vista ad albero
+- Modificare la posizione di Cube001 modificando la sua proprietà Posizionamento nella scheda Dati (cliccare sulla freccia accanto a Posizione per espandere):
+  - Posizione x: 8 mm
+  - Posizione y: 8 mm
+
+Ora si dovrebbero vedere due cubi alti, uno spostato di 8 mm rispetto all'altro in entrambe le direzioni X e Y:
+
+![](/src/assets/images/Exercise_table_01.jpg)
+
+- Ora possiamo sottrarre un cubo dall'altro per ottenere la gamba del tavolo a forma di L: Selezionare il cubo originale, parte del quale rimarrà dopo l'operazione di taglio. Quindi, con il tasto Ctrl premuto, selezionare Cube001, che verrà sottratto dal primo. Notare che l'ordine di selezione determina il risultato dell'operazione di taglio. Premere il pulsante ![](/src/assets/images/Part_Cut.svg) **Taglio**:
+
+![](/src/assets/images/Exercise_table_02.jpg)
+
+L'oggetto appena creato, denominato "Cut", contiene i due cubi che abbiamo utilizzato come operandi. In effetti, i due cubi sono ancora nel documento e sono stati semplicemente nascosti e raggruppati sotto l'oggetto Cut nella vista ad albero. E' possibile ancora selezionarli espandendo la freccia accanto all'oggetto Cut. Se lo si desidera, è possibile renderli nuovamente visibili cliccando sulle icone a forma di occhio accanto alle etichette dei loro oggetti, nei loro menu di scelta rapida o modificandone le proprietà.
+
+È inoltre possibile eseguire operazioni di taglio e altre operazioni booleane con lo strumento ![](/src/assets/images/Part_Boolean.svg) [Booleano](/Part_Boolean/it "Part Boolean/it").
+
+- Ora creiamo le altre tre gambe del tavolo realizzando sei copie aggiuntive del nostro cubo originale. Poiché è ancora copiato negli appunti, si può semplicemente incollare (Ctrl+V) 6 volte. Cambiare la posizione di ogni nuovo cubo come segue:
+
+  - Cube002: x: 0, y: 800 mm
+  - Cube003: x: 8 mm, y: 792 mm
+  - Cube004: x: 1200 mm, y: 0
+  - Cube005: x: 1192 mm, y: 8 mm
+  - Cube006: x: 1200 mm, y: 800 m
+  - Cube007: x: 1192 mm, y: 792 mm
+
+- Ora eseguiamo tre operazioni di taglio aggiuntive selezionando prima il cubo "host" e poi il cubo da tagliare. Ora abbiamo quattro oggetti Cut:
+
+![](/src/assets/images/Exercise_table_03.jpg)
+
+Invece di duplicare il cubo di base sei volte, avremmo potuto duplicare la gamba completa tre volte copiando e incollando l'oggetto Cut creato sopra dai nostri primi due cubi e ruotando ogni gamba tagliata nel suo corretto orientamento. In FreeCAD ci sono spesso più modi per ottenere lo stesso risultato. È importante ricordarlo, perché è possibile trovare più facile o più efficiente usare tecniche diverse in contesti diversi.
+
+- Ora faremo i fori per le viti, usando la stessa operazione di taglio. Poiché abbiamo bisogno di 8 fori (due in ogni gamba), potremmo creare 8 oggetti da sottrarre. Tuttavia, esploriamo un altro modo. Possiamo creare 4 cilindri, ognuno dei quali interseca una coppia di gambe. Quindi, creiamoli con lo strumento ![](/src/assets/images/Part_Cylinder.svg) **Cilindro**. Si può creare un cilindro e duplicarlo tre volte. Assegnare a ogni cilindro un raggio di 6 mm. Questa volta, dovremo ruotare i cilindri usando la proprietà **Posizionamento** nella scheda Dati _(**Nota:** modificare la proprietà Asse_ prima _di impostare Angolo, altrimenti la rotazione non verrà applicata)_:
+  - Cilindro: altezza: 1300 mm, angolo: 90°, asse: x: 0, y: 1, z: 0, posizione: x: -10 mm, y: 40 mm, z: 720 mm
+  - Cilindro001: altezza: 1300 mm, angolo: 90°, asse: x: 0, y: 1, z: 0, posizione: x: -10 mm, y: 840 m, z: 720 mm
+  - Cilindro002: altezza: 900 mm, angolo: 90°, asse: x: -1, y: 0, z: 0, posizione: x: 40 mm, y: -10 mm, z: 700 m
+  - Cilindro003: altezza: 900 mm, angolo: 90°, asse: x: -1, y: 0, z: 0, posizione: x: 1240 mm, y: -10 mm, z: 700 mm
+
+![](/src/assets/images/Exercise_table_04.jpg)
+
+Noterete che i cilindri si estendono oltre le gambe del tavolo. Questo perché, come in tutte le applicazioni 3D basate su solidi, le operazioni booleane in FreeCAD a volte falliscono quando le facce degli oggetti sono complanari. Possiamo evitare potenziali errori posizionando le estremità dei cilindri oltre le superfici delle gambe.
+
+- Ora facciamo le sottrazioni per creare i fori nelle gambe del tavolo. Selezionare la prima gamba; quindi, tenendo premuto Ctrl, selezionare uno dei cilindri che la interseca e premere il pulsante **Taglio**. Il foro verrà creato nella gamba e il cilindro verrà nascosto. Lo si può trovare nella vista ad albero espandendo il nuovo oggetto tagliato della gamba.
+- Selezionare l'altra gamba che interseca questo cilindro nascosto e ripetere l'operazione. Questa volta, selezionare il cilindro nella vista ad albero, poiché è nascosto nella vista 3D. (In alternativa, è possibile rendere nuovamente visibile il cilindro e selezionarlo nella vista 3D.) Ripetere questa operazione per le altre gambe finché ciascuna di esse non avrà due fori:
+
+![](/src/assets/images/Exercise_table_05.jpg)
+
+Come si può vedere, ogni gamba è ora descritta da una serie di operazioni multiple annidate nella vista ad albero. Tutta la geometria che abbiamo creato rimane parametrica ee è possibile modificare qualsiasi parametro di una qualsiasi delle operazioni più vecchie in qualsiasi momento. In FreeCAD, ci riferiamo a questa serie come "cronologia della modellazione", poiché registra la cronologia delle operazioni che abbiamo eseguito.
+
+Un'altra particolarità di FreeCAD è che il concetto di oggetto 3D e il concetto di operazione 3D tendono a fondersi in uno. "Taglio" si riferisce ad un'operazione, e anche all'oggetto 3D risultante da questa operazione. In FreeCAD questo è talvolta chiamato "feature" (caratteristica), piuttosto che "oggetto" o "operazione".
+
+Ora modelliamo il piano del tavolo. Sarà un semplice prisma rettangolare, quindi iniziamo con un altro **Cubo** e cambiamo le sue dimensioni nella scheda Dati come segue:
+
+- Box: lunghezza: 1260 mm, larghezza: 860 mm, altezza: 80 mm, posizione: x: 10 mm, y: 10 mm, z: 670 mm.
+
+Nella scheda **Vista**, è possibile dargli un colore marroncino, simile al legno, cambiando la sua proprietà **Shape Appearance**:
+
+Ora che i nostri cinque pezzi sono completi, è il momento giusto per dare loro nomi più descrittivi di "Cut015". Facendo clic con il pulsante destro del mouse su ogni oggetto nella vista ad albero (o premendo **F2** con un oggetto selezionato), è possibile rinominarli con un nome più significativo. Dare un nome appropriato ai propri oggetti può essere importante tanto quanto il modo in cui sono stati modellati.
+
+- Ora inseriremo alcune viti con un componente aggiuntivo. [Fasteners](https://github.com/shaise/FreeCAD_FastenersWB) è un componente aggiuntivo estremamente utile sviluppato da un membro della comunità FreeCAD. Lo si può trovare nel repository [FreeCAD addons](https://github.com/FreeCAD/FreeCAD-addons). Installare gli ambienti dei componenti aggiuntivi è facile! Consultare [Addon manager](/Std_AddonMgr/it "Std AddonMgr/it") per maggiori informazioni.
+- Dopo aver installato l'ambiente Fasteners e riavviato FreeCAD, selezionare Fasteners nell'elenco a discesa degli ambienti. Aggiungiamo una vite a uno dei fori che abbiamo modellato sopra. Per prima cosa, selezionare il bordo circolare di un foro in una delle gambe del tavolo:
+
+![](/src/assets/images/FastenerWorkbench.png)
+
+- Quindi, selezionare una delle viti fornite nell'ambiente Fasteners. Per questo esercizio, utilizziamo la **EN 1665 Hexagon bolt with flanges, heavy series**. La vite verrà posizionata e allineata con il nostro foro; e il diametro corrisponderà automaticamente alla dimensione del nostro foro. A volte l'orientamento della vite dovrà essere invertito, utilizzando la sua proprietà **Invert**:
+
+![](/src/assets/images/FastenerWorkbench_sel.png)
+
+- Ripetere questa operazione per gli altri sette fori e il nostro tavolo è completo!
+
+Come detto in precedenza, è possibile ottenere lo stesso risultato seguendo diversi passaggi. Per dimostrarlo, creiamo lo stesso tavolo usando una metodologia diversa. Da ricordare, non esiste un modo giusto o sbagliato, solo la creatività individuale.
+
+Inizieremo in modo simile, creando un cubo con le seguenti dimensioni: lunghezza 80 mm, larghezza 8 mm e altezza 750 mm
+
+- Creare un cubo selezionando il pulsante ![](/src/assets/images/Part_Box.svg)**Cubo** e impostare le seguenti proprietà (nella scheda **Dati**):
+  - Lunghezza: 80 mm
+  - Larghezza: 8 mm
+  - Altezza: 750 mm
+- Quindi, creare un ![](/src/assets/images/Part_Cylinder.svg) **Cilindro** con le seguenti proprietà:
+  - raggio: 6 mm, altezza: 100 mm, angolo: 90°, asse: x: 1, y: 0, z: 0, posizione: x: 40 mm, y: 40 mm, z: 720 mm
+- Quindi, applicare l'operazione Taglio. Selezionare il cubo; quindi, tenere premuto il tasto Ctrl e selezionare il cilindro. Tenere presente che l'ordine è importante per definire quale rimane. Quindi, premere il pulsante ![](/src/assets/images/Part_Cut.svg) **Taglio**.
+- Copiare e incollare quindi l'oggetto tagliato premendo **Ctrl+C** quindi **Ctrl+V** (o menu **Modifica → Copia** e **Incolla**):
+  - angolo: 90°, asse: x: 0, y: 0, z: 1, posizione: x: 8 mm
+- Selezionare i due oggetti e applicare lo strumento ![](/src/assets/images/Part_Fuse.svg) **Unione**. Ora i due oggetti sono uniti ottenendo una gamba del tavolo a forma di L.
+- Copiare e incollare la gamba unita, posizionandola a
+  - angolo: 90°, asse: x: 0, y: 0, z: 1, posizione y: 800 mm.
+- Selezionare le due gambe e creare un ![](/src/assets/images/Part_Compound.svg) **Composto**. \* Copiare e incollare il composto, posizionandolo a:
+  - angolo: 180°, asse: x:0, y:0, z:1, posizione x: 1200 mm, y: 800 mm. Abbiamo le nostre gambe.
+
+Creare il piano del tavolo.
+
+- Creare un cubo e modificare le sue proprietà come segue:
+  - Lunghezza: 752 mm
+  - Larghezza: 1184 mm
+  - Altezza: 784 mm
+  - posizione x: 8 mm, y: 8 mm, z: 670 mm.
+
+Ora, continuare aggingendo le viti con Fasteners come fatto prima.
+
+![](/src/assets/images/Tabble_alternative_complete.png)
+
+**La struttura interna degli oggetti Part**
+
+Come abbiamo visto sopra, in FreeCAD è possibile selezionare non solo oggetti interi ma anche parti di essi, ad esempio il bordo circolare del nostro foro per vite. Questo è un buon momento per dare una rapida occhiata a come gli oggetti Part sono costruiti internamente. Ogni ambiente che produce geometria Part sarà basato su questi:
+
+- **Vertici**: sono punti (solitamente estremi) su cui è costruito tutto il resto. Ad esempio, una linea ha due vertici.
+- **Spigoli**: gli spigoli (edges) possono assumere la forma di linee, archi, ellissi o curve [NURBS](https://en.wikipedia.org/wiki/Non-uniform_rational_B-spline). Di solito hanno due vertici, ma alcuni casi speciali ne hanno solo uno (ad esempio un cerchio chiuso).
+- **Polilinee**: una polilinea (wire) è una sequenza di spigoli collegati dai loro estremi. Una polilinea può contenere spigoli di qualsiasi tipo e può essere chiusa o meno.
+- **Facce**: le facce (faces) possono essere planari o curve. Possono essere definite da una polilinea chiusa che forma il bordo della faccia o da più di una se la faccia ha dei fori.
+- **Gusci**: i gusci (shell) sono gruppi di facce collegate dai loro spigoli. Possono essere aperti o chiusi.
+- **Solidi**: un guscio chiuso può essere trasformato in un solido. I solidi (solids) hanno la nozione di interno ed esterno. Molti ambienti si basano su questo per assicurarsi che gli oggetti che producono possano essere costruiti nel mondo reale.
+- **Composti**: i composti (compounds) combinano altre forme di uno o più tipi in un singolo oggetto.
+
+Nella vista 3D, si può selezionare singoli **vertici**, **spigoli** o **facce**. Selezionando uno di questi si seleziona anche l'intero oggetto a cui appartiene.
+
+**Una nota sulla progettazione condivisa**
+
+Si potrebbe guardare il tavolo sopra e pensare che il suo design non sia molto buono. Le gambe non sembrano attaccate al tavolo in modo molto sicuro! Inoltre si potrebbe voler aggiungere pezzi di rinforzo o fare altri miglioramenti. È qui che la condivisione diventa interessante. E' possibile scaricare il file creato durante questo esercizio dal link sottostante e modificarlo per migliorarlo. Quindi, condividendo quel file migliorato, altri potrebbero essere in grado di migliorarlo ulteriormente o di usare il tuo tavolo ben progettato nei loro progetti. Il tuo design potrebbe quindi dare altre idee ad altre persone e forse avrai contribuito a un mondo migliore...
+
+**Download**
+
+- Il file prodotto in questo esercizio: <https://github.com/yorikvanhavre/FreeCAD-manual/blob/master/files/table.FCStd>
+
+**Approfondimenti**
+
+- [L'ambiente Part](/Part_Workbench/it "Part Workbench/it")
+- [The FreeCAD addons repository](https://github.com/FreeCAD/FreeCAD-addons)
+- [The Fasteners Workbench](https://github.com/shaise/FreeCAD_FastenersWB)
+
+Retrieved from "<http://wiki.freecad.org/index.php?title=Manual:Traditional_modeling,_the_CSG_way/it&oldid=1549209>"
