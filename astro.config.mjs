@@ -5,6 +5,8 @@ import starlightImageZoom from "starlight-image-zoom";
 
 // https://astro.build/config
 export default defineConfig({
+  site: "https://JigglyBuff-Kun@github.io",
+  base: "FreeCAD_Wiki_Migration",
   integrations: [
     starlight({
       plugins: [starlightImageZoom()],
