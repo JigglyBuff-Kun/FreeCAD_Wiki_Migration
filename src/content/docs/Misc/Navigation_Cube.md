@@ -6,7 +6,7 @@ title: Navigation Cube
 
 The **Navigation Cube** gives visual information about the camera orientation in the current [3D view](/3D_view "3D view") and can be used to change it. By default it is visible and resides in the upper right corner of the view.
 
-![](/src/assets/images/Navigation_Cube_Example.png)
+![](/images/Navigation_Cube_Example.png)
 
 The Navigation Cube consists of a number of parts:
 
@@ -36,12 +36,12 @@ Clicking the round button in the top right corner of the Navigation Cube rotates
 
 Clicking the small cube in the bottom right corner of the Navigation Cube brings up a menu with the following options:
 
-- **![](/src/assets/images/Std_OrthographicCamera.svg) [Orthographic view](/Std_OrthographicCamera "Std OrthographicCamera")**: switches to an orthographic view.
-- **![](/src/assets/images/Std_PerspectiveCamera.svg) [Perspective view](/Std_PerspectiveCamera "Std PerspectiveCamera")**: switches to a perspective view.
-- **![](/src/assets/images/Std_ViewIsometric.svg) [Isometric](/Std_ViewIsometric "Std ViewIsometric")**: switches to an isometric view.
-- **![](/src/assets/images/Std_ViewFitAll.svg) [Fit all](/Std_ViewFitAll "Std ViewFitAll")**: zooms and pans the camera so that all visible objects fit inside the view.
-- **![](/src/assets/images/Std_ViewFitSelection.svg) [Fit selection](/Std_ViewFitSelection "Std ViewFitSelection")**: zooms and pans the camera so that all selected objects fit inside the view. [introduced in 1.0](/Release_notes_1.0 "Release notes 1.0")
-- **![](/src/assets/images/Std_AlignToSelection.svg) [Align to selection](/Std_AlignToSelection "Std AlignToSelection")**: points the camera in the view in the opposite direction of the normal of a planar face, or the opposite direction of a straight edge. [introduced in 1.0](/Release_notes_1.0 "Release notes 1.0")
+- **![](/images/Std_OrthographicCamera.svg) [Orthographic view](/Std_OrthographicCamera "Std OrthographicCamera")**: switches to an orthographic view.
+- **![](/images/Std_PerspectiveCamera.svg) [Perspective view](/Std_PerspectiveCamera "Std PerspectiveCamera")**: switches to a perspective view.
+- **![](/images/Std_ViewIsometric.svg) [Isometric](/Std_ViewIsometric "Std ViewIsometric")**: switches to an isometric view.
+- **![](/images/Std_ViewFitAll.svg) [Fit all](/Std_ViewFitAll "Std ViewFitAll")**: zooms and pans the camera so that all visible objects fit inside the view.
+- **![](/images/Std_ViewFitSelection.svg) [Fit selection](/Std_ViewFitSelection "Std ViewFitSelection")**: zooms and pans the camera so that all selected objects fit inside the view. [introduced in 1.0](/Release_notes_1.0 "Release notes 1.0")
+- **![](/images/Std_AlignToSelection.svg) [Align to selection](/Std_AlignToSelection "Std AlignToSelection")**: points the camera in the view in the opposite direction of the normal of a planar face, or the opposite direction of a straight edge. [introduced in 1.0](/Release_notes_1.0 "Release notes 1.0")
 - **Movable navigation cube**: if this checkbox ([introduced in 0.21](/Release_notes_0.21 "Release notes 0.21")) is checked the entire Navigation Cube can be moved by holding down the left mouse button anywhere on the main cube and dragging. This is intended to temporarily move the cube out of the way. The [advanced parameters](#Advanced_parameters) OffsetX and OffsetY can be used to permanently reposition the cube, see below.
 
 ## Customization
@@ -56,7 +56,7 @@ Some advanced Navigation Cube parameters cannot be changed in the [Preferences E
 
 To manually set colors:
 
-1. Start the ![](/src/assets/images/Std_DlgParameter.svg) [Parameter editor](/Std_DlgParameter "Std DlgParameter").
+1. Start the ![](/images/Std_DlgParameter.svg) [Parameter editor](/Std_DlgParameter "Std DlgParameter").
 2. In the panel on the left browse to **BaseApp → Preferences → NaviCube**.
 3. Right-click the panel on the right and select **New unsigned item** from the context menu.
 4. Enter the name of one of these colors:

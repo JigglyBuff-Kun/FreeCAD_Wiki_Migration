@@ -21,13 +21,13 @@ title: PartDesign CoordinateSystem
 
 Creates a **local coordinate system** which can be used as reference for other datum geometry. It also helps identify the orientation of the referenced datum geometry in 3D space.
 
-![](/src/assets/images/PartDesign_LocalCoordinateSystem_Example.png)
+![](/images/PartDesign_LocalCoordinateSystem_Example.png)
 
 Local coordinate system originating out of a datum plane's origin.
 
 ## Usage
 
-1. Press the ![](/src/assets/images/PartDesign_CoordinateSystem.svg) [Create a local coordinate system](/PartDesign_CoordinateSystem "PartDesign CoordinateSystem") button.
+1. Press the ![](/images/PartDesign_CoordinateSystem.svg) [Create a local coordinate system](/PartDesign_CoordinateSystem "PartDesign CoordinateSystem") button.
 2. Define Coordinate System parameters. Select a first reference in the 3D view to filter the available attachment modes.
 3. Depending on the selected reference, there may be one or more attachment modes available in the the list. The most likely one will automatically be selected and shown in bold in the list. The text _Attached with mode_ along with the attachment mode name will appear in green at the top of the Parameters panel.
 4. To add an additional reference, press the next Reference button. Once pressed its label changes to _Selecting..._ until a selection is made.

@@ -23,15 +23,15 @@ This documentation is not finished. Please help and contribute documentation.Gui
 
 ## Description
 
-The ![](/src/assets/images/Assembly3_workbench_icon.svg) [Resolve constraints](/Assembly3_ResolveConstraints "Assembly3 ResolveConstraints") command starts the solver algorithm that relocates all objects of an assembly according to the constraints in the ![](/src/assets/images/Assembly_Assembly_Constraints_Tree.svg) [Constraints container](/Assembly3_CreateAssembly#Description "Assembly3 CreateAssembly").
+The ![](/images/Assembly3_workbench_icon.svg) [Resolve constraints](/Assembly3_ResolveConstraints "Assembly3 ResolveConstraints") command starts the solver algorithm that relocates all objects of an assembly according to the constraints in the ![](/images/Assembly_Assembly_Constraints_Tree.svg) [Constraints container](/Assembly3_CreateAssembly#Description "Assembly3 CreateAssembly").
 
-This tool is used to recompute an assembly after adding/removing constraints or after editing constraint parameters. To run this command automatically after each modification use the ![](/src/assets/images/Assembly_AutoRecompute.svg) [Auto recompute](/Assembly3_AutoRecompute "Assembly3 AutoRecompute") toggle.
+This tool is used to recompute an assembly after adding/removing constraints or after editing constraint parameters. To run this command automatically after each modification use the ![](/images/Assembly_AutoRecompute.svg) [Auto recompute](/Assembly3_AutoRecompute "Assembly3 AutoRecompute") toggle.
 
 ## Usage
 
-1. Activate the ![](/src/assets/images/Assembly3_workbench_icon.svg) **Resolve constraints** command using one of the following:
-   - The ![](/src/assets/images/Assembly3_workbench_icon.svg) [Resolve constraints](/Assembly3_ResolveConstraints "Assembly3 ResolveConstraints") button.
-   - The **Assembly3 → ![](/src/assets/images/Assembly3_workbench_icon.svg) Resolve constraints** menu option.
+1. Activate the ![](/images/Assembly3_workbench_icon.svg) **Resolve constraints** command using one of the following:
+   - The ![](/images/Assembly3_workbench_icon.svg) [Resolve constraints](/Assembly3_ResolveConstraints "Assembly3 ResolveConstraints") button.
+   - The **Assembly3 → ![](/images/Assembly3_workbench_icon.svg) Resolve constraints** menu option.
    - The keyboard shortcut: A then S.
 
 Retrieved from "<http://wiki.freecad.org/index.php?title=Assembly3_ResolveConstraints/en&oldid=1096309>"

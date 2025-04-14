@@ -30,7 +30,7 @@ title: crank simul
 
 My simple animation uses sketch and sketcher solver to determine piston position and conrod position/rotation.
 
-![](/src/assets/images/Crank_00.gif)
+![](/images/Crank_00.gif)
 
 ## Use
 
@@ -49,7 +49,7 @@ To stop animation type :
 
 ## Script
 
-ToolBar Icon ![](/src/assets/images/Macro_crank_simul.png)
+ToolBar Icon ![](/images/Macro_crank_simul.png)
 
 **crank_simul.FCMacro**
 

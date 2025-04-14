@@ -19,19 +19,19 @@ title: Surface GeomFillSurface
 
 ## Description
 
-![](/src/assets/images/Surface_GeomFillSurface.svg) [Surface GeomFillSurface](/Surface_GeomFillSurface "Surface GeomFillSurface") creates a parametric surface from two, three, or four boundary edges, trying to create a smooth transition between them.
+![](/images/Surface_GeomFillSurface.svg) [Surface GeomFillSurface](/Surface_GeomFillSurface "Surface GeomFillSurface") creates a parametric surface from two, three, or four boundary edges, trying to create a smooth transition between them.
 
-![](/src/assets/images/Surface_GeomFillSurface_4_edges.png) ![](/src/assets/images/Surface_GeomFillSurface_4_edges_example.png)
+![](/images/Surface_GeomFillSurface_4_edges.png) ![](/images/Surface_GeomFillSurface_4_edges_example.png)
 
-![](/src/assets/images/Surface_GeomFillSurface_3_edges.png) ![](/src/assets/images/Surface_GeomFillSurface_3_edges_example.png)
+![](/images/Surface_GeomFillSurface_3_edges.png) ![](/images/Surface_GeomFillSurface_3_edges_example.png)
 
-![](/src/assets/images/Surface_GeomFillSurface_2_edges.png) ![](/src/assets/images/Surface_GeomFillSurface_2_edges_example.png)
+![](/images/Surface_GeomFillSurface_2_edges.png) ![](/images/Surface_GeomFillSurface_2_edges_example.png)
 
 Left: edges that are used to generate a surface with the [GeomFillSurface](/Surface_GeomFillSurface "Surface GeomFillSurface") tool, 4 connected edges, 3 connected edges, and 2 disconnected edges. Right: resulting surface from using the 4, 3, and 2 edges, respectively.
 
 ## Usage
 
-1. Press the ![](/src/assets/images/Surface_GeomFillSurface.svg) [Fill boundary curves](/Surface_GeomFillSurface "Surface GeomFillSurface") button.
+1. Press the ![](/images/Surface_GeomFillSurface.svg) [Fill boundary curves](/Surface_GeomFillSurface "Surface GeomFillSurface") button.
 2. Select edges in the [3D view](/3D_view "3D view"). The edges must connect together so that they formed a closed profile.
 3. Press OK.
 
@@ -39,7 +39,7 @@ _Note:_ once created, it is not possible to apply additional constraints to the 
 
 ## Options
 
-**Fill type**: ![](/src/assets/images/RadioButtonTrue.svg) Stretch, ![](/src/assets/images/RadioButtonTrue.svg) Coons, or ![](/src/assets/images/RadioButtonTrue.svg) Curved.
+**Fill type**: ![](/images/RadioButtonTrue.svg) Stretch, ![](/images/RadioButtonTrue.svg) Coons, or ![](/images/RadioButtonTrue.svg) Curved.
 
 ## Properties
 
@@ -63,7 +63,7 @@ Base
 
 ## Twisting of the surface
 
-The shape of the surface depends on the direction of the chosen edges; if edges are selected and the result is a surface that "twists" on itself, one of the edges may need its list of vertices in the reverse order. A surface that twists on itself will probably have self-intersections, and thus will be an invalid [Shape](/Part_TopoShape "Part TopoShape"); this can be verified with ![](/src/assets/images/Part_CheckGeometry.svg) [Part CheckGeometry](/Part_CheckGeometry "Part CheckGeometry").
+The shape of the surface depends on the direction of the chosen edges; if edges are selected and the result is a surface that "twists" on itself, one of the edges may need its list of vertices in the reverse order. A surface that twists on itself will probably have self-intersections, and thus will be an invalid [Shape](/Part_TopoShape "Part TopoShape"); this can be verified with ![](/images/Part_CheckGeometry.svg) [Part CheckGeometry](/Part_CheckGeometry "Part CheckGeometry").
 
 For example, if two curves have the points
 
@@ -73,7 +73,7 @@ curve2 = [e, f, g]
 
 ```
 
-and the resulting surface after using ![](/src/assets/images/Surface_GeomFillSurface.svg) [GeomFillSurface](/Surface_GeomFillSurface "Surface GeomFillSurface") or ![](/src/assets/images/Surface_Sections.svg) [Sections](/Surface_Sections "Surface Sections") is a twisted surface, you may create a third curve that is equal to one of the two original curves but with a reversed list of points.
+and the resulting surface after using ![](/images/Surface_GeomFillSurface.svg) [GeomFillSurface](/Surface_GeomFillSurface "Surface GeomFillSurface") or ![](/images/Surface_Sections.svg) [Sections](/Surface_Sections "Surface Sections") is a twisted surface, you may create a third curve that is equal to one of the two original curves but with a reversed list of points.
 
 Either
 
@@ -97,7 +97,7 @@ In practical terms this means that all edges used to generate a surface should b
 
 When the surface's View**Lighting** property is `One side`, a face will be painted completely black if its normal direction points into the [3D view](/3D_view "3D view") (away from the current viewer), indicating a flipped face with respect to the other colored faces.
 
-![](/src/assets/images/Surface_twisting_example_smooth.png) ![](/src/assets/images/Surface_twisting_example_twisted.png)
+![](/images/Surface_twisting_example_smooth.png) ![](/images/Surface_twisting_example_twisted.png)
 
 Left: the boundary edges are oriented in the same direction, and thus the generated surface is smooth. Right: the boundary edges have opposite directions, and thus the generated surface twists on itself, resulting in self-intersections.
 

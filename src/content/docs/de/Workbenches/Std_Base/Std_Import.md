@@ -26,7 +26,7 @@ Der Befehl **Std Import** importiert Geometrie aus einem anderen Dateiformat in 
 ## Anwendung
 
 1. Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
-   - Den Menüeintrag **Datei → ![](/src/assets/images/Std_Import.svg) Importieren...** auswählen.
+   - Den Menüeintrag **Datei → ![](/images/Std_Import.svg) Importieren...** auswählen.
    - Das Tastaturkürzel: Ctrl+I. 1.0 und davor
    - Das Tastaturkürzel: Ctrl + Shift + I. [eingeführt in 1.1](/Release_notes_1.1/de "Release notes 1.1/de")
 2. Wahlweise das richtige Dateiformat im Dialogfeld auswählen.
@@ -57,7 +57,7 @@ Standardmäßig wird die Bildebene auf der globalen XY-Ebene angelegt. Die Ausga
 
 1. Zum bearbeiten einer Bildebene gibt es folgende Möglichkeiten:
    - Ein Doppelklick auf die Bildebene In der [Baumansicht](/Tree_view/de "Tree view/de").
-   - Ein Rechtsklick auf die Bildebene in der Baumansicht und die Menüoption **![](/src/assets/images/Image-scaling.svg) Bild ändern...** im Kontextmenü auswählen.
+   - Ein Rechtsklick auf die Bildebene in der Baumansicht und die Menüoption **![](/images/Image-scaling.svg) Bild ändern...** im Kontextmenü auswählen.
 2. Ist die Bildebene nicht parallel zu einer der XY-, XZ- oder YZ-Ebenen des globalen Koordinatensystems, wird sie parallel zur XY-Ebene ausgerichtet.
 3. Der Aufgaben-Bereich **Bildebenen-Einstellungen** wird geöffnet.
 4. Wahlweise die **XY-Ebene**, **XZ-Ebene** oder **YZ-Ebene** des globalen Koordinatensystems auswählen.

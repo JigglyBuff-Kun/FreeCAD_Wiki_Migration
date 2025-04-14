@@ -23,16 +23,16 @@ This documentation is not finished. Please help and contribute documentation.Gui
 
 ## Description
 
-![](/src/assets/images/FCGear_CycloidRack-01.png)
+![](/images/FCGear_CycloidRack-01.png)
 
 Cycloid racks from left to right: Spur gearing, helical gearing, double helical gearing
 
 ## Usage
 
-1. Switch to the ![](/src/assets/images/FCGear_workbench_icon.svg) [FCGear Workbench](/FCGear_Workbench "FCGear Workbench").
+1. Switch to the ![](/images/FCGear_workbench_icon.svg) [FCGear Workbench](/FCGear_Workbench "FCGear Workbench").
 2. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/FCGear_CycloidRack.svg) [Cycloid Rack](/FCGear_CycloidRack "FCGear CycloidRack") button in the toolbar.
-   - Select the **Gear → ![](/src/assets/images/FCGear_CycloidRack.svg) Cycloid Rack** option from the menu.
+   - Press the ![](/images/FCGear_CycloidRack.svg) [Cycloid Rack](/FCGear_CycloidRack "FCGear CycloidRack") button in the toolbar.
+   - Select the **Gear → ![](/images/FCGear_CycloidRack.svg) Cycloid Rack** option from the menu.
 3. Change the gear parameter to the required conditions (see [Properties](#Properties)).
 
 ## Properties

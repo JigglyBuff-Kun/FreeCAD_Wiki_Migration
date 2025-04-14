@@ -43,7 +43,7 @@ Install OpenSCAD in the appropriate manner for your operating system. See [the O
 
 FreeCAD needs to be told where to find the OpenSCAD executable:
 
-- Switch to the ![](/src/assets/images/Workbench_OpenSCAD.svg) [OpenSCAD Workbench](/OpenSCAD_Workbench "OpenSCAD Workbench") via **View → Workbench → OpenSCAD**
+- Switch to the ![](/images/Workbench_OpenSCAD.svg) [OpenSCAD Workbench](/OpenSCAD_Workbench "OpenSCAD Workbench") via **View → Workbench → OpenSCAD**
 - Open the preferences dialog **Edit → Preferences**
 - Click on "OpenSCAD" on the left plane
 - Click on the button labled ... in **General Settings → General OpenSCAD Settings → OpenSCAD executable** to browse the directory or enter the path (e.g. Ubuntu based Linux distributions `/usr/bin/openscad`) directly into the line input right to the button

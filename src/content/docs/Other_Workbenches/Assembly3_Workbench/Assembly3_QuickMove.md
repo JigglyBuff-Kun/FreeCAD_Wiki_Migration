@@ -23,14 +23,14 @@ This documentation is not finished. Please help and contribute documentation.Gui
 
 ## Description
 
-The ![](/src/assets/images/Assembly_QuickMove.svg) [Quick move](/Assembly3_QuickMove "Assembly3 QuickMove") command moves a pre-selected object to the cursor position and keeps it sticking to the cursor until one of the mouse buttons is pressed.
+The ![](/images/Assembly_QuickMove.svg) [Quick move](/Assembly3_QuickMove "Assembly3 QuickMove") command moves a pre-selected object to the cursor position and keeps it sticking to the cursor until one of the mouse buttons is pressed.
 
 ## Usage
 
 1. Select a single object.
-2. Activate the ![](/src/assets/images/Assembly_QuickMove.svg) **Quick move** command using one of the following:
-   - The ![](/src/assets/images/Assembly_QuickMove.svg) [Quick move](/Assembly3_QuickMove "Assembly3 QuickMove") button.
-   - The **Assembly3 → ![](/src/assets/images/Assembly_QuickMove.svg) Quick move** menu option.
+2. Activate the ![](/images/Assembly_QuickMove.svg) **Quick move** command using one of the following:
+   - The ![](/images/Assembly_QuickMove.svg) [Quick move](/Assembly3_QuickMove "Assembly3 QuickMove") button.
+   - The **Assembly3 → ![](/images/Assembly_QuickMove.svg) Quick move** menu option.
    - The keyboard shortcut: A then Q.
 3. Drag the Object to a desired position.
 4. Press one of the mouse buttons to finish the task:

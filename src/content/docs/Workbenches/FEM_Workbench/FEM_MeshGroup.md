@@ -25,11 +25,11 @@ FEM MeshGroup therefore enables FreeCAD to be used with external solvers (or vie
 
 ## Usage
 
-1. To enable the command a ![](/src/assets/images/FEM_MeshGmshFromShape.svg) [FEM mesh from shape by Gmsh](/FEM_MeshGmshFromShape "FEM MeshGmshFromShape") must be provided first.
+1. To enable the command a ![](/images/FEM_MeshGmshFromShape.svg) [FEM mesh from shape by Gmsh](/FEM_MeshGmshFromShape "FEM MeshGmshFromShape") must be provided first.
 2. Select the Mesh object in the [Tree view](/Tree_view "Tree view").
 3. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/FEM_MeshGroup.svg) [FEM mesh group](/FEM_MeshGroup "FEM MeshGroup") button.
-   - Select the **Mesh → ![](/src/assets/images/FEM_MeshGroup.svg) FEM mesh group** option from the menu.
+   - Press the ![](/images/FEM_MeshGroup.svg) [FEM mesh group](/FEM_MeshGroup "FEM MeshGroup") button.
+   - Select the **Mesh → ![](/images/FEM_MeshGroup.svg) FEM mesh group** option from the menu.
 4. Select whether the group is named or labeled
    - If **Name** is selected, the name of the MeshGroup is used when exporting the mesh.
    - If **Label** is selected, the specified label name will be used when exporting the mesh.

@@ -2,13 +2,13 @@
 title: Reverse Engineering Workbench
 ---
 
-![](/src/assets/images/Workbench_Reverse_Engineering.svg)
+![](/images/Workbench_Reverse_Engineering.svg)
 
 Reverse Engineering workbench icon
 
 ## Introduction
 
-The ![](/src/assets/images/Workbench_Reverse_Engineering.svg) [Reverse Engineering Workbench](/Reverse_Engineering_Workbench "Reverse Engineering Workbench") is intended to give you specific tools to convert shapes, solids, and meshes into parametric FreeCAD features.
+The ![](/images/Workbench_Reverse_Engineering.svg) [Reverse Engineering Workbench](/Reverse_Engineering_Workbench "Reverse Engineering Workbench") is intended to give you specific tools to convert shapes, solids, and meshes into parametric FreeCAD features.
 
 At the moment there is no functionality present in this workbench. It is used as a sandbox by the programmers.
 
@@ -16,7 +16,7 @@ At the moment there is no functionality present in this workbench. It is used as
 
 The Reverse Engineering tools are all located in the Reverse Engineering menu and the Reverse Engineering toolbar that appear when you load the Reverse Engineering workbench from the workbench dropdown menu.
 
-- ![](/src/assets/images/FitSurface.svg) Approximate a B-spline surface:
+- ![](/images/FitSurface.svg) Approximate a B-spline surface:
 
 ## Development
 

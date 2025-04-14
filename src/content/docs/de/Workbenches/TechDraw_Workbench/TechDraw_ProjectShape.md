@@ -21,15 +21,15 @@ title: TechDraw FormProjizieren
 
 Das Werkzeug **TechDraw FormProjizieren** erzeugt Projektionen von Formen. Die Projektionen werden in der [3D-Ansicht](/3D_view/de "3D view/de") erzeugt und nicht auf einem [TechDraw-Zeichnungsblatt](/TechDraw_PageDefault/de "TechDraw PageDefault/de").
 
-![](/src/assets/images/ProjectShape1_it.png)
+![](/images/ProjectShape1_it.png)
 
 ## Anwendung
 
 1. Wahlweise die [3D-Ansicht](/3D_view/de "3D view/de") drehen. Die Objekte werden auf eine Ebene parallel zum Bildschirm projiziert d.h. entlang der Blickrichtung der Kamera der 3D-Ansicht, die standardmäßig als Daten-Eigenschaft**Direction** verwendet wird.
 2. Ein oder mehrere Objekte auswählen. Für jedes Objekt wird eine eigene Projektion erzeugt.
 3. Es gibt mehrere Möglichkeiten das Werkzeug aufzurufen:
-   - Die Schaltfläche ![](/src/assets/images/TechDraw_ProjectShape.svg) Form projizieren... drücken.
-   - Den Menüeintrag **TechDraw → TechDraw Views → ![](/src/assets/images/TechDraw_ProjectShape.svg) Form projizieren...** auswählen.
+   - Die Schaltfläche ![](/images/TechDraw_ProjectShape.svg) Form projizieren... drücken.
+   - Den Menüeintrag **TechDraw → TechDraw Views → ![](/images/TechDraw_ProjectShape.svg) Form projizieren...** auswählen.
 4. Das Dialogfeld **Formen projizieren** wird geöffnet. Siehe [Eigenschaften](#Eigenschaften).
 5. Die gewünschten Optionen einstellen.
 6. Die gewählten Optionen sollten nicht zu einer leeren Projektion führen, weil das einen Fehler verursacht. Bei einem Objekt mit scharfen Kanten, wie etwa [Part Würfel](/Part_Box/de "Part Box/de"), muss die Option **Sichtbare scharfe Kanten** und/oder **Verdeckte scharfe Kanten** ausgewählt werden.

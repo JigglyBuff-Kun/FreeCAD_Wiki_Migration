@@ -21,7 +21,7 @@ title: TechDraw 2PointCenterLine
 
 The **TechDraw 2PointCenterLine** tool adds a centerline between two points.
 
-![](/src/assets/images/CL2PointsSample.png)
+![](/images/CL2PointsSample.png)
 
 Centerline between two points
 
@@ -29,8 +29,8 @@ Centerline between two points
 
 1. Select two points in a View.
 2. There are several ways to invoke the tool:
-   - Press the ![](/src/assets/images/TechDraw_2PointCenterLine.svg) [Add Centerline between 2 points](/TechDraw_2PointCenterLine "TechDraw 2PointCenterLine") button.
-   - Select the **TechDraw → Add Lines → ![](/src/assets/images/TechDraw_2PointCenterLine.svg) Add Centerline between 2 points** option from the menu.
+   - Press the ![](/images/TechDraw_2PointCenterLine.svg) [Add Centerline between 2 points](/TechDraw_2PointCenterLine "TechDraw 2PointCenterLine") button.
+   - Select the **TechDraw → Add Lines → ![](/images/TechDraw_2PointCenterLine.svg) Add Centerline between 2 points** option from the menu.
 3. A task panel opens. See [TechDraw FaceCenterLine](/TechDraw_FaceCenterLine#Options "TechDraw FaceCenterLine") for more information.
 4. Press the OK button to confirm.
 5. A centerline is added between the selected points.

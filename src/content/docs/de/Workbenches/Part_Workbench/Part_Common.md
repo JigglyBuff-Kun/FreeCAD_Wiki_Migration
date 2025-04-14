@@ -24,7 +24,7 @@ Extrahiert den gemeinsamen Teil (Schnittmenge) zweier ausgewählter Part-Objekte
 ## Anwendung
 
 1. Wähle zwei Formen
-2. Drücke die ![](/src/assets/images/Part_Common.svg) Schnitt Schaltfläche.
+2. Drücke die ![](/images/Part_Common.svg) Schnitt Schaltfläche.
 
 ## Unterstützte Eingaben
 

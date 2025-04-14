@@ -27,8 +27,8 @@ This page has been updated for version 1.0.
 
 1. Select one or more objects.
 2. There are several ways to invoke the command:
-   - Select the **View → ![](/src/assets/images/Std_RandomColor.svg) Random color** option from the menu.
-   - Select the **![](/src/assets/images/Std_RandomColor.svg) Random color** option from the [Tree view](/Tree_view "Tree view") context menu or [3D view](/3D_view "3D view") context menu.
+   - Select the **View → ![](/images/Std_RandomColor.svg) Random color** option from the menu.
+   - Select the **![](/images/Std_RandomColor.svg) Random color** option from the [Tree view](/Tree_view "Tree view") context menu or [3D view](/3D_view "3D view") context menu.
 
 ## Notes
 

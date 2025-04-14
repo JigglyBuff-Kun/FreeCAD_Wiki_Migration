@@ -6,12 +6,12 @@ title: TechDraw Schraffieren
 
 Der Arbeitsbereich Techdraw verfügt über zwei Schraffierwerkzeuge:
 
-- ![](/src/assets/images/TechDraw_Hatch.svg) [TechDraw Schraffur](/TechDraw_Hatch/de "TechDraw Hatch/de") (basiert auf gekachelten SVG- oder Bitmap-Bildern)
-- ![](/src/assets/images/TechDraw_GeometricHatch.svg) [TechDraw GeometrischeSchraffur](/TechDraw_GeometricHatch/de "TechDraw GeometricHatch/de") (linienbasiert)
+- ![](/images/TechDraw_Hatch.svg) [TechDraw Schraffur](/TechDraw_Hatch/de "TechDraw Hatch/de") (basiert auf gekachelten SVG- oder Bitmap-Bildern)
+- ![](/images/TechDraw_GeometricHatch.svg) [TechDraw GeometrischeSchraffur](/TechDraw_GeometricHatch/de "TechDraw GeometricHatch/de") (linienbasiert)
 
 ## Bildbasierte Schraffur
 
-![](/src/assets/images/TechDraw_Hatch.svg) [TechDraw Schraffur](/TechDraw_Hatch/de "TechDraw Hatch/de") verwendet gekachelte [SVG](/SVG/de "SVG/de")- oder ([eingeführt in 0.21](/Release_notes_0.21/de "Release notes 0.21/de")) Bitmap-Bilder, um die ausgewählte Fläche zu schraffieren. Der Ursprung des Kachelrasters liegt auf dem Mittelpunkt der Fläche
+![](/images/TechDraw_Hatch.svg) [TechDraw Schraffur](/TechDraw_Hatch/de "TechDraw Hatch/de") verwendet gekachelte [SVG](/SVG/de "SVG/de")- oder ([eingeführt in 0.21](/Release_notes_0.21/de "Release notes 0.21/de")) Bitmap-Bilder, um die ausgewählte Fläche zu schraffieren. Der Ursprung des Kachelrasters liegt auf dem Mittelpunkt der Fläche
 
 [SVG](/SVG/de "SVG/de")-Kacheln sind typischerweise Bilder (mit einer Größe) von **64x64** Pixeln. Alle Schraffurdateien, die mit FreeCAD ausgeliefert werden, sind verfügbar unter [GitHub](https://github.com/FreeCAD/FreeCAD/tree/master/src/Mod/Draft/Resources/patterns).
 
@@ -21,105 +21,105 @@ Die Standard-Schraffurmusterdatei kann in den [TechDraw Einstellungen](/TechDraw
 
 ### Verfügbare SVG-Muster
 
-- ![aluminium](/src/assets/images/Aluminium.svg)
+- ![aluminium](/images/Aluminium.svg)
 
   aluminium
 
-- ![brick01](/src/assets/images/Brick01.svg)
+- ![brick01](/images/Brick01.svg)
 
   brick01
 
-- ![concrete](/src/assets/images/Concrete.svg)
+- ![concrete](/images/Concrete.svg)
 
   concrete
 
-- ![cross](/src/assets/images/Cross.svg)
+- ![cross](/images/Cross.svg)
 
   cross
 
-- ![cuprous](/src/assets/images/Cuprous.svg)
+- ![cuprous](/images/Cuprous.svg)
 
   cuprous
 
-- ![diagonal1](/src/assets/images/Diagonal1.svg)
+- ![diagonal1](/images/Diagonal1.svg)
 
   diagonal1
 
-- ![diagonal2](/src/assets/images/Diagonal2.svg)
+- ![diagonal2](/images/Diagonal2.svg)
 
   diagonal2
 
-- ![earth](/src/assets/images/Earth.svg)
+- ![earth](/images/Earth.svg)
 
   earth
 
-- ![general_steel](/src/assets/images/General_steel.svg)
+- ![general_steel](/images/General_steel.svg)
 
   general_steel
 
-- ![glass](/src/assets/images/Glass.svg)
+- ![glass](/images/Glass.svg)
 
   glass
 
-- ![hatch45L](/src/assets/images/Hatch45L.svg)
+- ![hatch45L](/images/Hatch45L.svg)
 
   hatch45L
 
-- ![hatch45R](/src/assets/images/Hatch45R.svg)
+- ![hatch45R](/images/Hatch45R.svg)
 
   hatch45R
 
-- ![hbone](/src/assets/images/Hbone.svg)
+- ![hbone](/images/Hbone.svg)
 
   hbone
 
-- ![line](/src/assets/images/Line.svg)
+- ![line](/images/Line.svg)
 
   line
 
-- ![plastic](/src/assets/images/Plastic.svg)
+- ![plastic](/images/Plastic.svg)
 
   plastic
 
-- ![plus](/src/assets/images/Plus.svg)
+- ![plus](/images/Plus.svg)
 
   plus
 
-- ![simple](/src/assets/images/Simple.svg)
+- ![simple](/images/Simple.svg)
 
   simple
 
-- ![solid](/src/assets/images/Solid.svg)
+- ![solid](/images/Solid.svg)
 
   solid
 
-- ![square](/src/assets/images/Square.svg)
+- ![square](/images/Square.svg)
 
   square
 
-- ![steel](/src/assets/images/Steel.svg)
+- ![steel](/images/Steel.svg)
 
   steel
 
-- ![titanium](/src/assets/images/Titanium.svg)
+- ![titanium](/images/Titanium.svg)
 
   titanium
 
-- ![wood](/src/assets/images/Wood.svg)
+- ![wood](/images/Wood.svg)
 
   wood
 
-- ![woodgrain](/src/assets/images/Woodgrain.svg)
+- ![woodgrain](/images/Woodgrain.svg)
 
   woodgrain
 
-- ![zinc](/src/assets/images/Zinc.svg)
+- ![zinc](/images/Zinc.svg)
 
   zinc
 
 ## Geometrische Schraffur
 
-![](/src/assets/images/TechDraw_GeometricHatch.svg) [TechDraw Geometrische Schraffur](/TechDraw_GeometricHatch/de "TechDraw GeometricHatch/de") bildet ein Muster von Linien basierend auf einer aus einer Datei gelesenen Spezifikation. Diese Datei ist im Allgemeinen kompatibel mit dem weit verbreiteten AutoDesk® PAT-Format. Eine kleine Auswahl von Mustern ist in der Datei FCPAT.pat enthalten:
+![](/images/TechDraw_GeometricHatch.svg) [TechDraw Geometrische Schraffur](/TechDraw_GeometricHatch/de "TechDraw GeometricHatch/de") bildet ein Muster von Linien basierend auf einer aus einer Datei gelesenen Spezifikation. Diese Datei ist im Allgemeinen kompatibel mit dem weit verbreiteten AutoDesk® PAT-Format. Eine kleine Auswahl von Mustern ist in der Datei FCPAT.pat enthalten:
 
 ```
 ; standard PAT patterns

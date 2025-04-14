@@ -62,7 +62,7 @@ webbrowser.open("https://gist.githubusercontent.com/mario52a/68c81c32a0727a693d3
 
 <class="rawcodeurl"><a href="<https://gist.githubusercontent.com/mario52a/68c81c32a0727a693d3a/raw/91cbf54580d8af331f9b371f4951a40b9ef506f3/Macro_FCSpring_Helix_Variable.FCMacro>">raw code</a>
 
-![](/src/assets/images/TruncateSpring00.png)
+![](/images/TruncateSpring00.png)
 
 FCSpring Helix Variable
 
@@ -72,37 +72,37 @@ This section is used to configuration the spring
 
 Schematic detail of spring configuration
 
-![](/src/assets/images/Macro_TruncateSpring_01.png)
+![](/images/Macro_TruncateSpring_01.png)
 
 #### Gui
 
-![](/src/assets/images/Macro_FCSpring_Helix_Variable_01.png)
+![](/images/Macro_FCSpring_Helix_Variable_01.png)
 
 #### Configuration
 
-- 10 coils ![](/src/assets/images/SpinBox.svg) **Number of coil** : Total of coil to spring. Default = 10
-- 20,000 mm ![](/src/assets/images/SpinBox.svg) **Radius of spring** : Radius of spring. Default = 20.0
-- 15,000 mm ![](/src/assets/images/SpinBox.svg) **Pitch of spring** : Pitch of spring general. Default = 15.0
-- 5 ( 72 points ) ![](/src/assets/images/SpinBox.svg) **Precision of turn** : Precision of turn the precision correspond the number of point for 1 turn the coil and is calculate : precision (number points) = (pitch / (360/precision)). Default = 5 (72 points)
-- 20,000 mm ![](/src/assets/images/SpinBox.svg) : Radius of large circle of the cone (check the ![](/src/assets/images/CheckBoxTrue.svg) Spring conical for use)
+- 10 coils ![](/images/SpinBox.svg) **Number of coil** : Total of coil to spring. Default = 10
+- 20,000 mm ![](/images/SpinBox.svg) **Radius of spring** : Radius of spring. Default = 20.0
+- 15,000 mm ![](/images/SpinBox.svg) **Pitch of spring** : Pitch of spring general. Default = 15.0
+- 5 ( 72 points ) ![](/images/SpinBox.svg) **Precision of turn** : Precision of turn the precision correspond the number of point for 1 turn the coil and is calculate : precision (number points) = (pitch / (360/precision)). Default = 5 (72 points)
+- 20,000 mm ![](/images/SpinBox.svg) : Radius of large circle of the cone (check the ![](/images/CheckBoxTrue.svg) Spring conical for use)
 
-* ![](/src/assets/images/CheckBoxFalse.svg) Spring conical : Give the large diameter of the cone that dimension will always be greater than the radius
-* ![](/src/assets/images/CheckBoxFalse.svg) Angles : Check box choice for activate the function Begin and End angle of the coil unchecked by default.  
-   If the function is checked. The accuracy is automatically set "precision" is ordered 1 ( 360 points ) ![](/src/assets/images/SpinBox.svg) to 1 (360 points per turn 1 point = 1 degrees)
+* ![](/images/CheckBoxFalse.svg) Spring conical : Give the large diameter of the cone that dimension will always be greater than the radius
+* ![](/images/CheckBoxFalse.svg) Angles : Check box choice for activate the function Begin and End angle of the coil unchecked by default.  
+   If the function is checked. The accuracy is automatically set "precision" is ordered 1 ( 360 points ) ![](/images/SpinBox.svg) to 1 (360 points per turn 1 point = 1 degrees)
 
-- 0 deg ![](/src/assets/images/SpinBox.svg) **Begin** : Begin angle of the spring first coil.
-- 360 deg ![](/src/assets/images/SpinBox.svg) **End** : End angle of the spring last coil.
+- 0 deg ![](/images/SpinBox.svg) **Begin** : Begin angle of the spring first coil.
+- 360 deg ![](/images/SpinBox.svg) **End** : End angle of the spring last coil.
 
-![](/src/assets/images/Macro_FCSpring_Helix_Variable_02.png)
+![](/images/Macro_FCSpring_Helix_Variable_02.png)
 
 #### Type line
 
-- ![](/src/assets/images/RadioButtonTrue.svg) ![](/src/assets/images/Draft_BSpline.svg) Bspline **BSpline** : Type line BSpline.
-- ![](/src/assets/images/RadioButtonFalse.svg) ![](/src/assets/images/Draft_Wire.svg) Wire **Wire** : Type line Wire.
-- ![](/src/assets/images/CheckBoxFalse.svg) ![](/src/assets/images/Draft_Point.svg) Points **Points** : Check box point if the check box is activate one point is create of on each point.
-- ![](/src/assets/images/CheckBoxFalse.svg) Reverse **Reverse** : Check box reverse if the check box is activate the spring changes direction
+- ![](/images/RadioButtonTrue.svg) ![](/images/Draft_BSpline.svg) Bspline **BSpline** : Type line BSpline.
+- ![](/images/RadioButtonFalse.svg) ![](/images/Draft_Wire.svg) Wire **Wire** : Type line Wire.
+- ![](/images/CheckBoxFalse.svg) ![](/images/Draft_Point.svg) Points **Points** : Check box point if the check box is activate one point is create of on each point.
+- ![](/images/CheckBoxFalse.svg) Reverse **Reverse** : Check box reverse if the check box is activate the spring changes direction
 
-![](/src/assets/images/Macro_FCSpring_Helix_Variable_03.png)
+![](/images/Macro_FCSpring_Helix_Variable_03.png)
 
 #### Options
 
@@ -117,11 +117,11 @@ Detection : Cylinder (radius), Sphere (radius), Toroid (radius) , Cone (little 
 - Point Mouse : If the click mouse is on one face the spring is created on this point (Default)
   - Center Face : If the button Point Mouse is pressed, the button change to Center Face, the spring is created on the center face selected
 
-* ![](/src/assets/images/CheckBoxFalse.svg) Position **Position** : If two object are selected (First axis, Second the spring (or other object)), this checkBox is enabled and you can modify the placement object 2 (spring) along the on object 1 (axis), if this ![](/src/assets/images/CheckBoxTrue.svg) Position is checked the "Position" option is enabled for use
+* ![](/images/CheckBoxFalse.svg) Position **Position** : If two object are selected (First axis, Second the spring (or other object)), this checkBox is enabled and you can modify the placement object 2 (spring) along the on object 1 (axis), if this ![](/images/CheckBoxTrue.svg) Position is checked the "Position" option is enabled for use
 
 - Circle : If three points click mouse are selected the Circle button is enabled and it possible to create a circle which can serve as a base for a spring
 
-![](/src/assets/images/Macro_FCSpring_Helix_Variable_02_1.png)
+![](/images/Macro_FCSpring_Helix_Variable_02_1.png)
 
 #### Position (0)(xx)
 
@@ -129,63 +129,63 @@ Detection : Cylinder (radius), Sphere (radius), Toroid (radius) , Cone (little 
 
 - Begin/End : Position the spring on begin, middle, end axis
 - Reverse Spr. : Reverse the spring of the axis
-- 0,1 mm ![](/src/assets/images/SpinBox.svg) : Shifting the spring with precision (0.1 mm) along its axis
+- 0,1 mm ![](/images/SpinBox.svg) : Shifting the spring with precision (0.1 mm) along its axis
 - Reverse Count. : Reverse the counter ex: Begin 0 to 10.. or End 0 to 10..
 - **Slider** : Position the spring on its axis
 
-![](/src/assets/images/Macro_FCSpring_Helix_Variable_02_2.png)
+![](/images/Macro_FCSpring_Helix_Variable_02_2.png)
 
 #### Coil special dimension
 
-- Num: 2 ![](/src/assets/images/SpinBox.svg) **Numbering of coil** : Numbering of coil to modify. (Default : none)
+- Num: 2 ![](/images/SpinBox.svg) **Numbering of coil** : Numbering of coil to modify. (Default : none)
 
-* ![](/src/assets/images/CheckBoxFalse.svg) Smoothing **Smoothing** This checkBox discover one spinBox for determine the grade of smoothing the maximum value is the precision value -1 (this option is still at the prototype stage and the result can be satisfying or completely wrong)
+* ![](/images/CheckBoxFalse.svg) Smoothing **Smoothing** This checkBox discover one spinBox for determine the grade of smoothing the maximum value is the precision value -1 (this option is still at the prototype stage and the result can be satisfying or completely wrong)
 
-- 0,000 mm ![](/src/assets/images/SpinBox.svg) **Pitch of coil** : Pitch of coil to modify. (Default : none)
+- 0,000 mm ![](/images/SpinBox.svg) **Pitch of coil** : Pitch of coil to modify. (Default : none)
 - 15.0 mm : If the button is pressed the value of the "Pitch of string" is affected of the "Pitch of coil" (This value is automatically aligned of the value Pitch of string)
-- 0,000 mm ![](/src/assets/images/SpinBox.svg) **Radius of coil** : Radius of coil to modify. (Default : none)
+- 0,000 mm ![](/images/SpinBox.svg) **Radius of coil** : Radius of coil to modify. (Default : none)
 - 20.0 mm : If the button is pressed the value of the "Radius of string" is affected of the "Radius of coil" (This value is automatically aligned of the value Radius of string)
 
-* ![](/src/assets/images/FCSpring_Helix_Variable_Icon_01.png) Accept the value modified : Button to accept the modification after select the numbering of coil and modify the pitch of coil.
+* ![](/images/FCSpring_Helix_Variable_Icon_01.png) Accept the value modified : Button to accept the modification after select the numbering of coil and modify the pitch of coil.
 
 - **Text edit** : This window displayed all coil modified.
 - Clear : Clean the text editor
 - Zoom : Button "Zoom" enlarge the text-edit window
 
-![](/src/assets/images/Macro_FCSpring_Helix_Variable_04.png)
+![](/images/Macro_FCSpring_Helix_Variable_04.png)
 
 #### Command
 
-- ![](/src/assets/images/FCSpring_Helix_Variable_Icon_02.png) Load : The Lead button open a dialogue box to read a file **.FCSpring**.
-- ![](/src/assets/images/FCSpring_Helix_Variable_Icon_03.png) Save : The Save button open a dialogue box to save a file **.FCSpring** with configuration spring modify or not.
-- ![](/src/assets/images/FCSpring_Helix_Variable_Icon_02b.png) Load Coordinates : Open a dialogue box to read a file **.FCSpringCoor** (all coordinates of points of the spring).
-- ![](/src/assets/images/FCSpring_Helix_Variable_Icon_03b.png) Save Coordinates : Open a dialogue box to save a file **.FCSpringCoor** (all coordinates of points of the spring).
-- ![](/src/assets/images/FCSpring_Helix_Variable_Icon_04.png) Quit : Quit the macro.
-- ![](/src/assets/images/FCSpring_Helix_Variable_Icon_05.png) Reset : Reset the macro to default configuration.
-- ![](/src/assets/images/FCSpring_Helix_Variable_Icon_06.png) Launch : Launch the macro and create the spring configured.
+- ![](/images/FCSpring_Helix_Variable_Icon_02.png) Load : The Lead button open a dialogue box to read a file **.FCSpring**.
+- ![](/images/FCSpring_Helix_Variable_Icon_03.png) Save : The Save button open a dialogue box to save a file **.FCSpring** with configuration spring modify or not.
+- ![](/images/FCSpring_Helix_Variable_Icon_02b.png) Load Coordinates : Open a dialogue box to read a file **.FCSpringCoor** (all coordinates of points of the spring).
+- ![](/images/FCSpring_Helix_Variable_Icon_03b.png) Save Coordinates : Open a dialogue box to save a file **.FCSpringCoor** (all coordinates of points of the spring).
+- ![](/images/FCSpring_Helix_Variable_Icon_04.png) Quit : Quit the macro.
+- ![](/images/FCSpring_Helix_Variable_Icon_05.png) Reset : Reset the macro to default configuration.
+- ![](/images/FCSpring_Helix_Variable_Icon_06.png) Launch : Launch the macro and create the spring configured.
 
 * Help : This button display the wiki page int the FreeCAD browser.
 
-![](/src/assets/images/Macro_FCSpring_Helix_Variable_05.png)
+![](/images/Macro_FCSpring_Helix_Variable_05.png)
 
 ## Report view
 
 The window report view displayed all value modified.
 
-![](/src/assets/images/Macro_FCSpring_Helix_Variable_06.png)
+![](/images/Macro_FCSpring_Helix_Variable_06.png)
 
 ## Example spring
 
 Example to spring modified
 
-![](/src/assets/images/Macro_FCSpring_Helix_Variable_07.png)
+![](/images/Macro_FCSpring_Helix_Variable_07.png)
 
 ## Example Report view
 
 When the macro is launched full list of turns is displayed in tabular form.
 
 Here the data of the spring above and displayed in the Report view
-![](/src/assets/images/Macro_FCSpring_Helix_Variable_08.png)
+![](/images/Macro_FCSpring_Helix_Variable_08.png)
 
 ## Icon
 
@@ -195,13 +195,13 @@ Click the image, in the new window position the mouse over the image, click the 
 
 ToolBar button
 
-![Button](/src/assets/images/FCSpring_Helix_Variable.png)
+![Button](/images/FCSpring_Helix_Variable.png)
 
 Button
 
 Macro icons
 
-![](/src/assets/images/FCSpring_Helix_Variable_Icon_01.png) ![](/src/assets/images/FCSpring_Helix_Variable_Icon_02.png) ![](/src/assets/images/FCSpring_Helix_Variable_Icon_02b.png) ![](/src/assets/images/FCSpring_Helix_Variable_Icon_03.png) ![](/src/assets/images/FCSpring_Helix_Variable_Icon_03b.png) ![](/src/assets/images/FCSpring_Helix_Variable_Icon_04.png) ![](/src/assets/images/FCSpring_Helix_Variable_Icon_05.png) ![](/src/assets/images/FCSpring_Helix_Variable_Icon_06.png)
+![](/images/FCSpring_Helix_Variable_Icon_01.png) ![](/images/FCSpring_Helix_Variable_Icon_02.png) ![](/images/FCSpring_Helix_Variable_Icon_02b.png) ![](/images/FCSpring_Helix_Variable_Icon_03.png) ![](/images/FCSpring_Helix_Variable_Icon_03b.png) ![](/images/FCSpring_Helix_Variable_Icon_04.png) ![](/images/FCSpring_Helix_Variable_Icon_05.png) ![](/images/FCSpring_Helix_Variable_Icon_06.png)
 
 ## Script
 
@@ -215,46 +215,46 @@ The above file is a macro in the form of GitHub code. Download the Zip on GitHub
 
 ## Examples
 
-- ![Valves Assembly IN EX with permit and created by r.tec see Inlet & Exhaust Valves Assembly and Spiralfeder thanks r.tec](/src/assets/images/Valves_Assembly_IN_EX.png)
+- ![Valves Assembly IN EX with permit and created by r.tec see Inlet & Exhaust Valves Assembly and Spiralfeder thanks r.tec](/images/Valves_Assembly_IN_EX.png)
 
   Valves Assembly IN EX with permit and created by r.tec see [Inlet & Exhaust Valves Assembly](http://forum.freecadweb.org/viewtopic.php?f=24&t=14183) and [Spiralfeder](http://forum.freecadweb.org/viewtopic.php?f=13&t=14143) thanks r.tec
 
-* ![](/src/assets/images/Macro_FCSpring_Helix_Variable_12.png)
-* ![](/src/assets/images/Macro_FCSpring_Helix_Variable_13.png)
+* ![](/images/Macro_FCSpring_Helix_Variable_12.png)
+* ![](/images/Macro_FCSpring_Helix_Variable_13.png)
 
-* ![](/src/assets/images/Macro_FCSpring_Helix_Variable_14.png)
-* ![](/src/assets/images/Macro_FCSpring_Helix_Variable_15.png)
+* ![](/images/Macro_FCSpring_Helix_Variable_14.png)
+* ![](/images/Macro_FCSpring_Helix_Variable_15.png)
 
-* ![](/src/assets/images/Macro_FCSpring_Helix_Variable_16.png)
-* ![](/src/assets/images/Macro_FCSpring_Helix_Variable_17.png)
+* ![](/images/Macro_FCSpring_Helix_Variable_16.png)
+* ![](/images/Macro_FCSpring_Helix_Variable_17.png)
 
-* ![](/src/assets/images/Macro_FCSpring_Helix_Variable_18.png)
+* ![](/images/Macro_FCSpring_Helix_Variable_18.png)
 
-- ![Example polygonal Spiral by 3 points](/src/assets/images/Macro_FCSpring_Helix_Variable_polygonalSpiral00.png)
+- ![Example polygonal Spiral by 3 points](/images/Macro_FCSpring_Helix_Variable_polygonalSpiral00.png)
 
   Example polygonal Spiral by 3 points
 
-- ![Example polygonal Spiral by 4 points](/src/assets/images/Macro_FCSpring_Helix_Variable_polygonalSpiral01.png)
+- ![Example polygonal Spiral by 4 points](/images/Macro_FCSpring_Helix_Variable_polygonalSpiral01.png)
 
   Example polygonal Spiral by 4 points
 
-- [![Difference between Smooth (here 71 with precision 5 (72 points)) and normal](/src/assets/images/Macro_FCSpring_Helix_Variable_19.png)](/File:Macro_FCSpring_Helix_Variable_19.png "Difference between Smooth (here 71 with precision 5 (72 points)) and normal")
+- [![Difference between Smooth (here 71 with precision 5 (72 points)) and normal](/images/Macro_FCSpring_Helix_Variable_19.png)](/File:Macro_FCSpring_Helix_Variable_19.png "Difference between Smooth (here 71 with precision 5 (72 points)) and normal")
 
   Difference between Smooth (here 71 with precision 5 (72 points)) and normal
 
-- ![Example](/src/assets/images/Macro_FCSpring_Helix_Variable.gif)
+- ![Example](/images/Macro_FCSpring_Helix_Variable.gif)
 
   Example
 
-- ![Example create conical spring](/src/assets/images/Macro_FCSpringHelixVariable_Example_02.gif)
+- ![Example create conical spring](/images/Macro_FCSpringHelixVariable_Example_02.gif)
 
   Example create conical spring
 
-- ![Example create spring on circle](/src/assets/images/Macro_FCSpringHelixVariable_Spring_On_Circle.gif)
+- ![Example create spring on circle](/images/Macro_FCSpringHelixVariable_Spring_On_Circle.gif)
 
   Example create spring on circle
 
-- ![Move along the axis](/src/assets/images/Macro_FCSpringHelixVarable_Spring_Along_Axis.gif)
+- ![Move along the axis](/images/Macro_FCSpringHelixVarable_Spring_Along_Axis.gif)
 
   Move along the axis
 
@@ -379,20 +379,20 @@ ligne = FreeCAD.ActiveDocument.Line.Placement=App.Placement(App.Vector(0.0,0.0,0
 
 During sweep tests here are the mistakes I have obtained !
 
-- ![For the moment the macro is not adapted for the square, rectangle... Only circle work well](/src/assets/images/Macro_FCSpring_Helix_Variable_20.png)
+- ![For the moment the macro is not adapted for the square, rectangle... Only circle work well](/images/Macro_FCSpring_Helix_Variable_20.png)
 
   For the moment the macro is not adapted for the square, rectangle...  
   Only circle work well
 
-- ![ACCESS VIOLATION](/src/assets/images/Macro_FCSpring_Helix_Variable_09.png)
+- ![ACCESS VIOLATION](/images/Macro_FCSpring_Helix_Variable_09.png)
 
   ACCESS VIOLATION
 
-- ![TCollection_IndexedDataMap](/src/assets/images/Macro_FCSpring_Helix_Variable_10.png)
+- ![TCollection_IndexedDataMap](/images/Macro_FCSpring_Helix_Variable_10.png)
 
   TCollection_IndexedDataMap
 
-- ![Wrong usage of punctual sections](/src/assets/images/Macro_FCSpring_Helix_Variable_11.png)
+- ![Wrong usage of punctual sections](/images/Macro_FCSpring_Helix_Variable_11.png)
 
   Wrong usage of punctual sections
 

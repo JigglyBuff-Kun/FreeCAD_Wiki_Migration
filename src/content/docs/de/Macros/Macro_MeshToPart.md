@@ -32,7 +32,7 @@ Dieses Makro konvertiert ausgewählte Netze in Teile. Es hat eine große Toleran
 
 ## Skript
 
-ToolBar Icon ![](/src/assets/images/Macro_MeshToPart.png)
+ToolBar Icon ![](/images/Macro_MeshToPart.png)
 
 **Macro_MeshToPart.FCMacro**
 

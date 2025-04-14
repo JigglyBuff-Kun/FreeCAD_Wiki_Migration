@@ -19,14 +19,14 @@ title: Curves SegmentSurface
 
 ## Description
 
-The ![](/src/assets/images/Curves_SegmentSurface.svg) [Curves SegmentSurface](/Curves_SegmentSurface "Curves SegmentSurface") tool allows to segment a surface on isocurves.
+The ![](/images/Curves_SegmentSurface.svg) [Curves SegmentSurface](/Curves_SegmentSurface "Curves SegmentSurface") tool allows to segment a surface on isocurves.
 
 ## Usage
 
 1. Select a face in the [3D view](/3D_view "3D view").
 2. There are several ways to invoke the tool:
-   - Press the ![](/src/assets/images/Curves_SegmentSurface.svg) [Segment surface](/Curves_SegmentSurface "Curves SegmentSurface") button.
-   - Select the **Surfaces → ![](/src/assets/images/Curves_SegmentSurface.svg) Segment surface** option from the menu.
+   - Press the ![](/images/Curves_SegmentSurface.svg) [Segment surface](/Curves_SegmentSurface "Curves SegmentSurface") button.
+   - Select the **Surfaces → ![](/images/Curves_SegmentSurface.svg) Segment surface** option from the menu.
 3. A **Segment_Surface** object is created.
 4. Optionally edit the values in the [Property editor](/Property_editor "Property editor") to adjust the related properties (see Properties below).
 

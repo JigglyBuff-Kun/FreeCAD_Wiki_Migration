@@ -31,7 +31,7 @@ Dreht das ausgewählte Objekt um eine gegebene Achse. Die folgenden Formtypen si
 
 Eine [Skizze](/Sketcher_Workbench/de "Sketcher Workbench/de") kann auch verwendet werden. Volumenkörper oder Verbundkörper sind nicht als Eingabeformen zulässig. Normale Verbünde sind derzeit ebenfalls nicht zulässig.
 
-![](/src/assets/images/Dialog-revolve.png)
+![](/images/Dialog-revolve.png)
 
 Das Winkelargument gibt an, wie weit das Objekt gedreht werden soll. Die Koordinaten verschieben den Ursprung der Rotationsachse relativ zum Urspung des Koordinatensystems.
 

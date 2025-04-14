@@ -25,9 +25,9 @@ Der **Std Kopieren**-Befehl kopiert Objekte in die Zwischenablage.
 
 1. Ein oder mehrere Objekte auswählen.
 2. Es gibt mehrere Wege, den Befehl aufzurufen:
-   - Die Schaltfläche ![](/src/assets/images/Std_Copy.svg) Kopieren drücken.
-   - Den Menüeintrag **Bearbeiten → ![](/src/assets/images/Std_Copy.svg) Kopieren** auswählen.
-   - Die Option **Bearbeiten → ![](/src/assets/images/Std_Copy.svg) Kopieren** aus dem Kontextmenü der [Baumansicht](/Tree_view/de "Tree view/de") auswählen.
+   - Die Schaltfläche ![](/images/Std_Copy.svg) Kopieren drücken.
+   - Den Menüeintrag **Bearbeiten → ![](/images/Std_Copy.svg) Kopieren** auswählen.
+   - Die Option **Bearbeiten → ![](/images/Std_Copy.svg) Kopieren** aus dem Kontextmenü der [Baumansicht](/Tree_view/de "Tree view/de") auswählen.
    - Das Tastaturkürzel Strg + C.
 3. Falls die Objekte Abhängigkeiten besitzen, die nicht ausgewählt wurden, öffnet sich eine Dialog-Box, um abzufragen, welche davon zur Auswahl hinzugefügt werden sollen.
 

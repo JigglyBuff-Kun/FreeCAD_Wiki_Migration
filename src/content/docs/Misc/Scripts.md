@@ -117,7 +117,7 @@ Write above lines of code after `# Script functions` and press the green arrow i
 
 You will see some magic things, a new document is open named "Wiki_example" and you will see in the 3d view a [Cube](/Part_Box "Part Box"), like the one in the image below.
 
-![](/src/assets/images/Cubo.png)
+![](/images/Cubo.png)
 
 Test cube
 
@@ -182,7 +182,7 @@ set_view()
 
 Launch the script with the green arrow and we will see in the 3D view something like:
 
-![](/src/assets/images/Cucil.png)
+![](/images/Cucil.png)
 
 Cube and cylinder
 

@@ -27,8 +27,8 @@ Um andere Objekte auszuschneiden, kannst der Befehl [Std Kopieren](/Std_Copy/de 
 
 1. Eine oder mehrere Zellen in der Kalkulationstabelle auswählen.
 2. Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
-   - Die Schaltfläche ![](/src/assets/images/Std_Cut.svg) Ausschneiden drücken.
-   - Den Menüeintrag **Bearbeiten → ![](/src/assets/images/Std_Cut.svg) Ausschneiden** auswählen.
+   - Die Schaltfläche ![](/images/Std_Cut.svg) Ausschneiden drücken.
+   - Den Menüeintrag **Bearbeiten → ![](/images/Std_Cut.svg) Ausschneiden** auswählen.
 
 ## Hinweise
 

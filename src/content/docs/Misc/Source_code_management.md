@@ -16,7 +16,7 @@ Everybody can access and get a copy of the FreeCAD source code, but only the Fre
 
 If your source code changes are significant, you are advised to explain them in the pull request section of the [FreeCAD forum](http://forum.freecadweb.org/viewforum.php?f=17).
 
-![](/src/assets/images/FreeCAD_git_workflow.svg)
+![](/images/FreeCAD_git_workflow.svg)
 
 Generic workflow to develop code for FreeCAD; everybody can get the code from the main repository, but the main developers have the exclusive right to review and merge submissions by other developers.
 
@@ -157,7 +157,7 @@ git remote show upstream
 Never develop on your localmainbranch. Instead, create a local branch for development, and then merge this local branch to the upstream main branch through a pull request. Please readGit Branching,Basic Branching and Merging, andGitHub - Contributing to a projectto learn more.
 :::
 
-![](/src/assets/images/FreeCAD_git_branches_workflow.svg)
+![](/images/FreeCAD_git_branches_workflow.svg)
 
 Generic workflow to develop code for FreeCAD using `git`; the main repository is forked online and cloned to an offline computer (0); new branches (1) are used to commit local changes and additions to the code (2); the branches are rebased to the latest online code (3), and then are pushed to the remote repository (4); then a pull request is created in order to merge the code into the main repository (5). Then the personal clone is updated with the new main code (a); this updated main is also pushed to the remote repository (b) in order to have the same code both online and offline.
 

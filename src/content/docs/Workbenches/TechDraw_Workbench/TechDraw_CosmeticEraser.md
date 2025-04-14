@@ -25,8 +25,8 @@ The **TechDraw CosmeticEraser** tool removes cosmetic objects. Cosmetic objects 
 
 1. Select one or more cosmetic objects on a page.
 2. There are several ways to invoke the tool:
-   - Press the ![](/src/assets/images/TechDraw_CosmeticEraser.svg) [Remove Cosmetic Object](/TechDraw_CosmeticEraser "TechDraw CosmeticEraser") button.
-   - Select the **TechDraw → ![](/src/assets/images/TechDraw_CosmeticEraser.svg) Remove Cosmetic Object** option from the menu.
+   - Press the ![](/images/TechDraw_CosmeticEraser.svg) [Remove Cosmetic Object](/TechDraw_CosmeticEraser "TechDraw CosmeticEraser") button.
+   - Select the **TechDraw → ![](/images/TechDraw_CosmeticEraser.svg) Remove Cosmetic Object** option from the menu.
 
 ## Notes
 

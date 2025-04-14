@@ -28,25 +28,25 @@ rc = page.addView(view)
 
 ```
 
-![](/src/assets/images/Method.png) **EdgeWalker(\***listOfEdges, [bool]**\*)**
+![](/images/Method.png) **EdgeWalker(\***listOfEdges, [bool]**\*)**
 
 **Description**: Erzeugt Kantenzüge aus Kanten in der Eingabe durch planare Graphenquerung. Wahlweise den äußeren Draht (OuterWire) ausschließen, indem der optionale Parameter auf false gesetzt wird.
 
 **Returns**: Liste der Kantenzüge sortiert nach Größe (absteigend)
 
-![](/src/assets/images/Method.png) **findOuterWire(\***listOfEdges**\*)**
+![](/images/Method.png) **findOuterWire(\***listOfEdges**\*)**
 
 **Description**: Findet den äußeren Draht (OuterWire) (den größten) einer Liste von Kanten (die einen planaren Graphen bilden).
 
 **Returns**: Outer wire
 
-![](/src/assets/images/Method.png) **findShapeOutline(\***TopoShape, Maßstab, Richtung**\*)**
+![](/images/Method.png) **findShapeOutline(\***TopoShape, Maßstab, Richtung**\*)**
 
 **Description**: Form in Richtung projizieren und den äußeren Draht des Ergebnisses finden.
 
 **Returns**: Outline wire
 
-![](/src/assets/images/Method.png) **viewPartAsDxf(\***DrawViewPart**\*)**
+![](/images/Method.png) **viewPartAsDxf(\***DrawViewPart**\*)**
 
 **Description**: Return the edges of a DrawViewPart in Dxf format.
 
@@ -66,7 +66,7 @@ dxfFile.close()
 
 ```
 
-![](/src/assets/images/Method.png) **viewPartAsSvg(\***DrawViewPart**\*)**
+![](/images/Method.png) **viewPartAsSvg(\***DrawViewPart**\*)**
 
 **Description**: Return the edges of a DrawViewPart in Svg format.
 
@@ -90,7 +90,7 @@ svgFile.close()
 
 ```
 
-![](/src/assets/images/Method.png) **writeDXFView(\***DrawViewPart, FileName**\*)**
+![](/images/Method.png) **writeDXFView(\***DrawViewPart, FileName**\*)**
 
 **Description**: Save the DrawViewPart in Dxf.
 
@@ -104,7 +104,7 @@ TechDraw.writeDXFView(myPart,myFileName)
 
 ```
 
-![](/src/assets/images/Method.png) **writeDXFPage(\***DrawPage, FileName**\*)**
+![](/images/Method.png) **writeDXFPage(\***DrawPage, FileName**\*)**
 
 **Description**: Save the DrawPage in Dxf.
 

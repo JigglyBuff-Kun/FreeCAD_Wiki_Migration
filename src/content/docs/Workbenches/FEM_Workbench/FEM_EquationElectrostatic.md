@@ -25,10 +25,10 @@ For info about the math of the equation, see the [Elmer models manual](http://ww
 
 ## Usage
 
-1. Add an ![](/src/assets/images/FEM_SolverElmer.svg) [Elmer solver](/FEM_SolverElmer#Equations "FEM SolverElmer").
+1. Add an ![](/images/FEM_SolverElmer.svg) [Elmer solver](/FEM_SolverElmer#Equations "FEM SolverElmer").
 2. Select it in the [Tree view](/Tree_view "Tree view").
 3. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/FEM_EquationElectrostatic.svg) [Electrostatic equation](/FEM_EquationElectrostatic "FEM EquationElectrostatic") button.
+   - Press the ![](/images/FEM_EquationElectrostatic.svg) [Electrostatic equation](/FEM_EquationElectrostatic "FEM EquationElectrostatic") button.
    - Select the **Solve → Electromagnetic Equations → Electrostatic equation** option from the menu.
 4. Change the [equation's solver settings](#Solver_Settings) or the [general solver settings](/FEM_SolverElmer_SolverSettings "FEM SolverElmer SolverSettings") if necessary.
 
@@ -51,13 +51,13 @@ The electrostatic equation provides these special settings:
 
 The electrostatic equation takes the following analysis features into account if they are set:
 
-- ![](/src/assets/images/FEM_ConstraintElectrostaticPotential.svg) [Electrostatic potential boundary condition](/FEM_ConstraintElectrostaticPotential "FEM ConstraintElectrostaticPotential")
-- ![](/src/assets/images/FEM_ConstraintElectricChargeDensity.svg) [Electric charge density](/FEM_ElectricChargeDensity "FEM ElectricChargeDensity") - [introduced in 1.1](/Release_notes_1.1 "Release notes 1.1")
-- ![](/src/assets/images/FEM_ConstantVacuumPermittivity.svg) [Constant vacuum permittivity](/FEM_ConstantVacuumPermittivity "FEM ConstantVacuumPermittivity")
+- ![](/images/FEM_ConstraintElectrostaticPotential.svg) [Electrostatic potential boundary condition](/FEM_ConstraintElectrostaticPotential "FEM ConstraintElectrostaticPotential")
+- ![](/images/FEM_ConstraintElectricChargeDensity.svg) [Electric charge density](/FEM_ElectricChargeDensity "FEM ElectricChargeDensity") - [introduced in 1.1](/Release_notes_1.1 "Release notes 1.1")
+- ![](/images/FEM_ConstantVacuumPermittivity.svg) [Constant vacuum permittivity](/FEM_ConstantVacuumPermittivity "FEM ConstantVacuumPermittivity")
 
 ### Note
 
-Except for calculations in 2D, for ![](/src/assets/images/FEM_ConstraintElectrostaticPotential.svg) [electrostatic potential boundary conditions](/FEM_ConstraintElectrostaticPotential "FEM ConstraintElectrostaticPotential") it is important that they act on a face or body. Boundary conditions in 3D set to lines or vertices are not recognized by the Elmer solver.
+Except for calculations in 2D, for ![](/images/FEM_ConstraintElectrostaticPotential.svg) [electrostatic potential boundary conditions](/FEM_ConstraintElectrostaticPotential "FEM ConstraintElectrostaticPotential") it is important that they act on a face or body. Boundary conditions in 3D set to lines or vertices are not recognized by the Elmer solver.
 
 ## Results
 

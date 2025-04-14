@@ -19,7 +19,7 @@ title: Sketcher CreatePoint
 
 ## Description
 
-The ![](/src/assets/images/Sketcher_CreatePoint.svg) [Sketcher CreatePoint](/Sketcher_CreatePoint "Sketcher CreatePoint") tool creates a point.
+The ![](/images/Sketcher_CreatePoint.svg) [Sketcher CreatePoint](/Sketcher_CreatePoint "Sketcher CreatePoint") tool creates a point.
 
 ## Usage
 
@@ -28,9 +28,9 @@ See also: [Drawing aids](/Sketcher_Workbench#Drawing_aids "Sketcher Workbench").
 Pos-OVP = Positional [On-View-Parameters](/Sketcher_Preferences#General "Sketcher Preferences"). [introduced in 1.0](/Release_notes_1.0 "Release notes 1.0")
 
 1. There are several ways to invoke the tool:
-   - Press the ![](/src/assets/images/Sketcher_CreatePoint.svg) [Create point](/Sketcher_CreatePoint "Sketcher CreatePoint") button.
-   - Select the **Sketcher → Sketcher geometries → ![](/src/assets/images/Sketcher_CreatePoint.svg) Create point** option from the menu.
-   - Right-click in the [3D view](/3D_view "3D view") and select the **![](/src/assets/images/Sketcher_CreatePoint.svg) Create point** option from the context menu.
+   - Press the ![](/images/Sketcher_CreatePoint.svg) [Create point](/Sketcher_CreatePoint "Sketcher CreatePoint") button.
+   - Select the **Sketcher → Sketcher geometries → ![](/images/Sketcher_CreatePoint.svg) Create point** option from the menu.
+   - Right-click in the [3D view](/3D_view "3D view") and select the **![](/images/Sketcher_CreatePoint.svg) Create point** option from the context menu.
    - Use the keyboard shortcut: G then Y.
 2. The cursor changes to a cross with the tool icon.
 3. Pick a point. Or with Pos-OVP: enter its X and/or Y coordinate.

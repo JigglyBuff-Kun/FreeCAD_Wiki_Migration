@@ -24,7 +24,7 @@ The **Std ViewZoomIn** command zooms in in the active [3D view](/3D_view "3D vie
 ## Usage
 
 1. There are several ways to invoke the command:
-   - Select the **View → Zoom → ![](/src/assets/images/Std_ViewZoomIn.svg) Zoom In** option from the menu.
+   - Select the **View → Zoom → ![](/images/Std_ViewZoomIn.svg) Zoom In** option from the menu.
    - Use the keyboard shortcut: Ctrl++.
 
 ## Notes

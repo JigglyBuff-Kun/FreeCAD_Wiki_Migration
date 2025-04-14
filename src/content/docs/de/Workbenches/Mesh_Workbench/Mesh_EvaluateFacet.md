@@ -33,8 +33,8 @@ Beispiel der Informationen, die im Ausgabefenster angezeigt werden
 
 1. Es ist ratsam das [Ausgabefenster](/Report_view/de "Report view/de") zu aktivieren. Der Befehl gibt dort detaillierte Informationen aus.
 2. Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
-   - Die Schaltfläche ![](/src/assets/images/Mesh_EvaluateFacet.svg) Dreiecksinformation drücken.
-   - Den Menüeintrag **Netze → Analysieren → ![](/src/assets/images/Mesh_EvaluateFacet.svg) Dreicksinformation** auswählen.
+   - Die Schaltfläche ![](/images/Mesh_EvaluateFacet.svg) Dreiecksinformation drücken.
+   - Den Menüeintrag **Netze → Analysieren → ![](/images/Mesh_EvaluateFacet.svg) Dreicksinformation** auswählen.
 3. Der Mauszeiger wandelt sich in ein Pipetten-Symbol.
 4. Eine Fläche eines Netzobjekts auswählen.
 5. Ihr Index wird in der [3D-Ansicht](/3D_view/de "3D view/de") angezeigt.

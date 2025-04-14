@@ -21,7 +21,7 @@ title: Std AuswahlDokumentfenster
 
 [3D-Ansichten](/3D_view/de "3D view/de") können vom Hauptansichtsbereich der [FreeCAD-Oberfläche](/Interface/de "Interface/de") abgedockt und beispielsweise auf einen anderen Bildschirm verschoben werden.
 
-![](/src/assets/images/FinestraNonAgganciata.png)
+![](/images/FinestraNonAgganciata.png)
 
 Eine abgedockte 3D-Ansicht
 

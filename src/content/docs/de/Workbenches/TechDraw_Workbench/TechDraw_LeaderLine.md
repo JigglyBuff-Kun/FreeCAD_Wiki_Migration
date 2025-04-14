@@ -21,7 +21,7 @@ title: TechDraw Hinweislinie
 
 Das Werkzeug **TechDraw Hinweislinie** fügt einer Ansicht eine Hinweislinie hinzu. Andere Beschriftungsobjekte (wie z.B. die [FormatierteTextAnmerkung](/TechDraw_RichTextAnnotation/de "TechDraw RichTextAnnotation/de")) können mit der Hinweislinie verbunden werden, um komplexe Beschriftungen zusammenzustellen.
 
-![](/src/assets/images/TechDraw_LeaderLine_sample.png)
+![](/images/TechDraw_LeaderLine_sample.png)
 
 Hinweislinie zur Ansicht View hinzugefügt
 
@@ -29,8 +29,8 @@ Hinweislinie zur Ansicht View hinzugefügt
 
 1. Eine Ansicht auswählen.
 2. Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
-   - Die Schaltfläche ![](/src/assets/images/TechDraw_LeaderLine.svg) Hinweislinie zur Ansicht hinzufügen drücken.
-   - Den Menüeintrag **TechDraw → Page → ![](/src/assets/images/TechDraw_LeaderLine.svg) Hinweislinie zur Ansicht hinzufügen** auswählen.
+   - Die Schaltfläche ![](/images/TechDraw_LeaderLine.svg) Hinweislinie zur Ansicht hinzufügen drücken.
+   - Den Menüeintrag **TechDraw → Page → ![](/images/TechDraw_LeaderLine.svg) Hinweislinie zur Ansicht hinzufügen** auswählen.
 3. Ein Dialog wird geöffnet.
 4. Die Schaltfläche Punkte auswählen drücken
 5. Den ersten Punkt auf dem Zeichnungsblatt auswählen, um den Startpunkt der Linie festzulegen.
@@ -66,7 +66,7 @@ Hinweislinie zur Ansicht View hinzugefügt
 
 Basis
 
-- Daten-Eigenschaft**Start Symbol** (`Enumeration`): Das Symbol am Anfang der Hinweislinie. Optionen (unter Einstellungen): ![](/src/assets/images/Arrowfilled.svg) Filled Arrow (Gefüllte Pfeilspitze), ![](/src/assets/images/Arrowopen.svg) Open Arrow (Offene Pfeilspitze), ![](/src/assets/images/Arrowtick.svg) Tick (Schrägstrich), ![](/src/assets/images/Arrowdot.svg) Dot (Punkt), ![](/src/assets/images/Arrowopendot.svg) Open Circle (Ring), ![](/src/assets/images/Arrowfork.svg) Fork (Gabel), ![](/src/assets/images/Arrowpyramid.svg) Filled Triangle (Gefülltes Dreieck), None (Kein).
+- Daten-Eigenschaft**Start Symbol** (`Enumeration`): Das Symbol am Anfang der Hinweislinie. Optionen (unter Einstellungen): ![](/images/Arrowfilled.svg) Filled Arrow (Gefüllte Pfeilspitze), ![](/images/Arrowopen.svg) Open Arrow (Offene Pfeilspitze), ![](/images/Arrowtick.svg) Tick (Schrägstrich), ![](/images/Arrowdot.svg) Dot (Punkt), ![](/images/Arrowopendot.svg) Open Circle (Ring), ![](/images/Arrowfork.svg) Fork (Gabel), ![](/images/Arrowpyramid.svg) Filled Triangle (Gefülltes Dreieck), None (Kein).
 - Daten-Eigenschaft**End Symbol** (`Enumeration`): Das Symbol am Ende der Hinweislinie. Wie vorher.
 - Daten-Eigenschaft**X** (`Distance`): Die X-Koordinate der Hinweislinie relativ zur Ansicht.
 - Daten-Eigenschaft**Y** (`Distance`): Die Y-Koordinate der Hinweislinie relativ zur Ansicht.
@@ -88,7 +88,7 @@ Basis
 Line Format
 
 - Ansicht-Eigenschaft**Color** (`Color`): Die Farbe der Hinweislinie.
-- Ansicht-Eigenschaft**Line Style** (`Enumeration`): Der Stil der Hinweislinie. Optionen: NoLine (Keine), ![](/src/assets/images/Continuous-line.svg) Continuous (Volllinie), ![](/src/assets/images/Dash-line.svg) Dash (Strichlinie), ![](/src/assets/images/Dot-line.svg) Dot (Punktlinie), ![](/src/assets/images/DashDot-line.svg) DashDot (Strich-Punkt-Linie), ![Length](/src/assets/images/DashDotDot-line.svg) DashDotDot (Strich-Zweipunkt-Linie).
+- Ansicht-Eigenschaft**Line Style** (`Enumeration`): Der Stil der Hinweislinie. Optionen: NoLine (Keine), ![](/images/Continuous-line.svg) Continuous (Volllinie), ![](/images/Dash-line.svg) Dash (Strichlinie), ![](/images/Dot-line.svg) Dot (Punktlinie), ![](/images/DashDot-line.svg) DashDot (Strich-Punkt-Linie), ![Length](/images/DashDotDot-line.svg) DashDotDot (Strich-Zweipunkt-Linie).
 - Ansicht-Eigenschaft**Line Width** (`Length`): Strichstarke der Hinweislinie.
 
 ## Skripten

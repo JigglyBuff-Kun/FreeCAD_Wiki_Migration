@@ -21,15 +21,15 @@ title: Std OrthographicCamera
 
 The **Std OrthographicCamera** command switches the camera in the active [3D view](/3D_view "3D view") to orthographic view mode. In this mode, objects that are further from the camera do not appear smaller than those that are closer.
 
-![](/src/assets/images/Std_OrthographicCamera_example.svg)
+![](/images/Std_OrthographicCamera_example.svg)
 
 Two cubes with the same dimensions in orthographic view
 
 ## Usage
 
 1. There are several ways to invoke the command:
-   - Select the **View → ![](/src/assets/images/Std_OrthographicCamera.svg) Orthographic view** option from the menu.
-   - Select the **![](/src/assets/images/Std_OrthographicCamera.svg) Orthographic view** option from the Mini-cube menu of the [Navigation Cube](/Navigation_Cube "Navigation Cube").
+   - Select the **View → ![](/images/Std_OrthographicCamera.svg) Orthographic view** option from the menu.
+   - Select the **![](/images/Std_OrthographicCamera.svg) Orthographic view** option from the Mini-cube menu of the [Navigation Cube](/Navigation_Cube "Navigation Cube").
    - Use the keyboard shortcut: V then O.
 
 ## Preferences

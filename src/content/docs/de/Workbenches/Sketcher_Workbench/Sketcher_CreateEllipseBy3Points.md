@@ -19,15 +19,15 @@ title: Sketcher EllipseDurch3PunkteErstellen
 
 ## Beschreibung
 
-Das Werkzeug ![](/src/assets/images/Sketcher_CreateEllipseBy3Points.svg) EllipseDurch3PunkteErstellen: Erstellt eine Ellipse durch Festlegen beider Endpunkte einer ihrer Achsen und eines Punktes im Verlauf ihres Umfangs. [eingeführt in 1.0](/Release_notes_1.0/de "Release notes 1.0/de"): Dies ist dasselbe Werkzeug wie [EllipseUmMittelpunktErstellen](/Sketcher_CreateEllipseByCenter/de "Sketcher CreateEllipseByCenter/de") aber mit einem anderen Startmodus.
+Das Werkzeug ![](/images/Sketcher_CreateEllipseBy3Points.svg) EllipseDurch3PunkteErstellen: Erstellt eine Ellipse durch Festlegen beider Endpunkte einer ihrer Achsen und eines Punktes im Verlauf ihres Umfangs. [eingeführt in 1.0](/Release_notes_1.0/de "Release notes 1.0/de"): Dies ist dasselbe Werkzeug wie [EllipseUmMittelpunktErstellen](/Sketcher_CreateEllipseByCenter/de "Sketcher CreateEllipseByCenter/de") aber mit einem anderen Startmodus.
 
 ## Anwendung
 
 Siehe auch: [Zeichnungshilfen](/Sketcher_Workbench/de#Zeichnungshilfen "Sketcher Workbench/de").
 
 1. Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
-   - Die Schaltfläche ![](/src/assets/images/Sketcher_CreateEllipseBy3Points.svg) Ellipse durch 3 Punkte erstellen drücken.
-   - Den Menüeintrag **Skizze → Skizzengeometrien → ![](/src/assets/images/Sketcher_CreateEllipseBy3Points.svg) Ellipse durch 3 Punkte erstellen** auswählen.
+   - Die Schaltfläche ![](/images/Sketcher_CreateEllipseBy3Points.svg) Ellipse durch 3 Punkte erstellen drücken.
+   - Den Menüeintrag **Skizze → Skizzengeometrien → ![](/images/Sketcher_CreateEllipseBy3Points.svg) Ellipse durch 3 Punkte erstellen** auswählen.
    - Das Tastaturkürzel G dann 3 dann E.
 2. Für weitere Schritte siehe [Sketcher EllipseUmMittelpunktErstellen](/Sketcher_CreateEllipseByCenter/de#Anwendung "Sketcher CreateEllipseByCenter/de").
 

@@ -23,13 +23,13 @@ The **TechDraw ProjectionGroup** tool creates a [multiview projection](https://e
 
 [introduced in 1.0](/Release_notes_1.0 "Release notes 1.0"): The [TechDraw View](/TechDraw_View "TechDraw View") tool can also create a Projection Group. It is advisable to use that tool instead.
 
-![](/src/assets/images/TechDraw_ProjGroup_example.png)
+![](/images/TechDraw_ProjGroup_example.png)
 
 Three orthogonal views and one isometric view of a solid object
 
 ## Usage
 
-See [TechDraw View](/TechDraw_View#Usage_Projection_Group_Item_and_Projection_Group "TechDraw View"), but to invoke the tool select the **TechDraw → TechDraw Views → ![](/src/assets/images/TechDraw_ProjectionGroup.svg) Insert Projection Group** option from the menu.
+See [TechDraw View](/TechDraw_View#Usage_Projection_Group_Item_and_Projection_Group "TechDraw View"), but to invoke the tool select the **TechDraw → TechDraw Views → ![](/images/TechDraw_ProjectionGroup.svg) Insert Projection Group** option from the menu.
 
 ## Properties
 

@@ -21,25 +21,25 @@ title: Std DialogMakroAufzeichnen
 
 Der **Std DlgMacroRecord** Befehl startet eine [Makro](/Macros/de "Macros/de") Aufnahmesitzung, während der Benutzeraktionen in einem FreeCAD Makro, einer Datei mit der .FCMacro Erweiterung gespeichert werden. Ein Makro kann später wiedergegeben und ausgeführt werden, um die aufgezeichneten Aktionen zu wiederholen.
 
-![](/src/assets/images/Std_DlgMacroRecord_dialog.png)
+![](/images/Std_DlgMacroRecord_dialog.png)
 
 Das Dialogfeld Makroaufzeichnung
 
 ## Anwendung
 
 1. Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
-   - Die Schaltfläche ![](/src/assets/images/Std_DlgMacroRecord.svg) Makro aufzeichnen... drücken.
-   - Den Menüeintrag **Makro → ![](/src/assets/images/Std_DlgMacroRecord.svg) Makro aufzeichnen...** auswählen.
+   - Die Schaltfläche ![](/images/Std_DlgMacroRecord.svg) Makro aufzeichnen... drücken.
+   - Den Menüeintrag **Makro → ![](/images/Std_DlgMacroRecord.svg) Makro aufzeichnen...** auswählen.
 2. Das Dialogfeld **Makroaufzeichnung** wird geöffnet.
 3. Im Eingabefeld **Makroname** einen Namen für das Makro eingeben.
 4. Wahlweise den **Makro-Zielpfad** durch drücken der Schaltfläche ... anpassen.
 5. Die Stop-Taste funktioniert zu diesem Zeitpunkt nicht.
 6. Die Schaltfläche Aufzeichnen drücken, um das Dialogfeld zu schließen und die Aufzeichnung zu starten.
-7. Das Schaltflächensymbol des Befehls ändert sich zu ![](/src/assets/images/Std_MacroStopRecord.svg) und der Menütext ändert sich zu **Stop macro recording**.
+7. Das Schaltflächensymbol des Befehls ändert sich zu ![](/images/Std_MacroStopRecord.svg) und der Menütext ändert sich zu **Stop macro recording**.
 8. Die Aktionen ausführen, die aufgezeichnet werden sollen.
 9. Um die Aufnahmesitzung zu beenden, gibt es folgenden Möglichkeiten:
-   - Die Schaltfläche ![](/src/assets/images/Std_MacroStopRecord.svg) Makroaufzeichnung beenden drücken.
-   - Den Menüeintrag **Makro → ![](/src/assets/images/Std_MacroStopRecord.svg) Makroaufzeichnung beenden** auswählen.
+   - Die Schaltfläche ![](/images/Std_MacroStopRecord.svg) Makroaufzeichnung beenden drücken.
+   - Den Menüeintrag **Makro → ![](/images/Std_MacroStopRecord.svg) Makroaufzeichnung beenden** auswählen.
 
 ## Optionen
 

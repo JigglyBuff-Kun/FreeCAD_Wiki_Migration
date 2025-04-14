@@ -32,6 +32,6 @@ Based on one planar element's ICS both other elements' ICSs' origins are positio
 1. Place two objects into an assembly
 2. Select two point elements, two line elements or two planar elements of one object
 3. Select a planar element of the other object
-4. Press the ![](/src/assets/images/Assembly_ConstraintGeneral.svg) [Symmetric vertical](/Assembly3_ConstraintSymmetricVertical "Assembly3 ConstraintSymmetricVertical") button.
+4. Press the ![](/images/Assembly_ConstraintGeneral.svg) [Symmetric vertical](/Assembly3_ConstraintSymmetricVertical "Assembly3 ConstraintSymmetricVertical") button.
 
 Retrieved from "<http://wiki.freecad.org/index.php?title=Assembly3_ConstraintSymmetricVertical/en&oldid=911305>"

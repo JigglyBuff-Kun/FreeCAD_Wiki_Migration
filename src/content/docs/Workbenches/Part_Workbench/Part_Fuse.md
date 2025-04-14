@@ -19,15 +19,15 @@ title: Part Fuse
 
 ## Description
 
-The ![](/src/assets/images/Part_Fuse.svg) [Part Fuse](/Part_Fuse "Part Fuse") tool fuses (unites) selected Part objects into one. This operation is fully parametric and the components can be modified and the result recomputed.
+The ![](/images/Part_Fuse.svg) [Part Fuse](/Part_Fuse "Part Fuse") tool fuses (unites) selected Part objects into one. This operation is fully parametric and the components can be modified and the result recomputed.
 
-**Note:** This command is an automated form of the ![](/src/assets/images/Part_Boolean.svg) [Boolean operation](/Part_Boolean "Part Boolean").
+**Note:** This command is an automated form of the ![](/images/Part_Boolean.svg) [Boolean operation](/Part_Boolean "Part Boolean").
 
 ## Usage
 
 1. Select two or more shapes
 2. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/Part_Fuse.svg) Part Fuse button in the **Part tools** toolbar
+   - Press the ![](/images/Part_Fuse.svg) Part Fuse button in the **Part tools** toolbar
    - Use the **Part → Boolean → Union** entry in the Part menu
 
 ## Supported inputs
@@ -44,6 +44,6 @@ Compounds are supported; however, it is assumed that shapes packed into a compou
 
 ## Options
 
-Items can be added and removed from a fusion, by dragging them in or out of the fusion feature in the tree view with the mouse. To drag items out of a fusion you have to drop them onto the document node (the filename) of your model. A manual recompute (press F5 key or click on the ![](/src/assets/images/Std_Refresh.svg) [Refresh/Recompute](/Std_Refresh "Std Refresh") icon) is required to see the results.
+Items can be added and removed from a fusion, by dragging them in or out of the fusion feature in the tree view with the mouse. To drag items out of a fusion you have to drop them onto the document node (the filename) of your model. A manual recompute (press F5 key or click on the ![](/images/Std_Refresh.svg) [Refresh/Recompute](/Std_Refresh "Std Refresh") icon) is required to see the results.
 
 Retrieved from "<http://wiki.freecad.org/index.php?title=Part_Fuse/en&oldid=1466673>"

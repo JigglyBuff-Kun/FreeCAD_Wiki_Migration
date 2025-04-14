@@ -21,15 +21,15 @@ title: Std DlgMacroExecute
 
 The **Std DlgMacroExecute** command opens the _Execute macro_ dialog box. From this dialog box macros can be executed, edited and managed.
 
-![](/src/assets/images/Std_DlgMacroExecute_dialog.png)
+![](/images/Std_DlgMacroExecute_dialog.png)
 
 The Execute macro dialog box
 
 ## Usage
 
 1. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/Std_DlgMacroExecute.svg) [Macros...](/Std_DlgMacroExecute "Std DlgMacroExecute") button.
-   - Select the **Macro → ![](/src/assets/images/Std_DlgMacroExecute.svg) Macros...** option from the menu.
+   - Press the ![](/images/Std_DlgMacroExecute.svg) [Macros...](/Std_DlgMacroExecute "Std DlgMacroExecute") button.
+   - Select the **Macro → ![](/images/Std_DlgMacroExecute.svg) Macros...** option from the menu.
 2. The **Execute macro** dialog box opens. See [Options](#Options).
 
 ## Options

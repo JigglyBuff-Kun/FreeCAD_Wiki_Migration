@@ -69,7 +69,7 @@ Kopiere das Makro in den Makro-Ordner und starte es (siehe [How to install macro
 Die neueste Version des Makros ist zu finden auf:
 <https://github.com/FreeCAD/FreeCAD-macros/blob/master/Utility/SelectVisible.FCMacro>
 
-Werkzeugleistensymbol ![](/src/assets/images/SelectVisible.png)
+Werkzeugleistensymbol ![](/images/SelectVisible.png)
 
 **Macro_Select.FCMacro**
 

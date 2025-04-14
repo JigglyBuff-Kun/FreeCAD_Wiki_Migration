@@ -19,11 +19,11 @@ title: Draft Mirror
 
 ## Description
 
-The ![](/src/assets/images/Draft_Mirror.svg) **Draft Mirror** command creates mirrored copies, [Part Mirror](/Part_Mirror "Part Mirror") objects, from selected objects. A [Part Mirror](/Part_Mirror "Part Mirror") object is parametric, it will update if its source object changes.
+The ![](/images/Draft_Mirror.svg) **Draft Mirror** command creates mirrored copies, [Part Mirror](/Part_Mirror "Part Mirror") objects, from selected objects. A [Part Mirror](/Part_Mirror "Part Mirror") object is parametric, it will update if its source object changes.
 
 The command can be used on 2D objects created with the [Draft Workbench](/Draft_Workbench "Draft Workbench") or [Sketcher Workbench](/Sketcher_Workbench "Sketcher Workbench"), but also on many 3D objects such as those created with the [Part Workbench](/Part_Workbench "Part Workbench"), [PartDesign Workbench](/PartDesign_Workbench "PartDesign Workbench") or [BIM Workbench](/BIM_Workbench "BIM Workbench").
 
-![](/src/assets/images/Draft_Mirror_example.jpg)
+![](/images/Draft_Mirror_example.jpg)
 
 Mirroring an object
 
@@ -33,21 +33,21 @@ See also: [Draft Snap](/Draft_Snap "Draft Snap") and [Draft Constrain](/Draft_Co
 
 1. Optionally select one or more objects.
 2. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/Draft_Mirror.svg) [Mirror](/Draft_Mirror "Draft Mirror") button.
-   - [Draft](/Draft_Workbench "Draft Workbench"): Select the **Modification → ![](/src/assets/images/Draft_Mirror.svg) Mirror** option from the menu.
-   - [BIM](/BIM_Workbench "BIM Workbench"): Select the **Modify → ![](/src/assets/images/Draft_Mirror.svg) Mirror** option from the menu.
+   - Press the ![](/images/Draft_Mirror.svg) [Mirror](/Draft_Mirror "Draft Mirror") button.
+   - [Draft](/Draft_Workbench "Draft Workbench"): Select the **Modification → ![](/images/Draft_Mirror.svg) Mirror** option from the menu.
+   - [BIM](/BIM_Workbench "BIM Workbench"): Select the **Modify → ![](/images/Draft_Mirror.svg) Mirror** option from the menu.
    - Use the keyboard shortcut: M then I.
 3. If you have not yet selected an object: select an object in the [3D view](/3D_view "3D view").
 4. The **Mirror** task panel opens. See [Options](#Options) for more information.
-5. Pick the first point of the mirror plane in the [3D view](/3D_view "3D view"), or type coordinates and press the ![](/src/assets/images/Draft_AddPoint.svg) Enter point button.
-6. Pick the second point of the mirror plane in the [3D view](/3D_view "3D view"), or type coordinates and press the ![](/src/assets/images/Draft_AddPoint.svg) Enter point button.
+5. Pick the first point of the mirror plane in the [3D view](/3D_view "3D view"), or type coordinates and press the ![](/images/Draft_AddPoint.svg) Enter point button.
+6. Pick the second point of the mirror plane in the [3D view](/3D_view "3D view"), or type coordinates and press the ![](/images/Draft_AddPoint.svg) Enter point button.
 7. The mirror plane is defined by the selected points and the normal of the [Draft working plane](/Draft_SelectPlane "Draft SelectPlane").
 
 ## Options
 
 The single character keyboard shortcuts available in the task panel can be changed. See [Draft Preferences](/Draft_Preferences "Draft Preferences"). The shortcuts mentioned here are the default shortcuts.
 
-- To manually enter coordinates enter the X, Y and Z component, and press Enter after each. Or you can press the ![](/src/assets/images/Draft_AddPoint.svg) Enter point button when you have the desired values. It is advisable to move the pointer out of the [3D view](/3D_view "3D view") before entering coordinates.
+- To manually enter coordinates enter the X, Y and Z component, and press Enter after each. Or you can press the ![](/images/Draft_AddPoint.svg) Enter point button when you have the desired values. It is advisable to move the pointer out of the [3D view](/3D_view "3D view") before entering coordinates.
 - Press R or click the **Relative** checkbox to toggle relative mode. If relative mode is on, the coordinates of the second point are relative to the first point, else they are relative to the coordinate system origin.
 - Press G or click the **Global** checkbox to toggle global mode. If global mode is on, coordinates are relative to the global coordinate system, else they are relative to the [working plane](/Draft_SelectPlane "Draft SelectPlane") coordinate system.
 - Press S to switch [Draft snapping](/Draft_Snap "Draft Snap") on or off.

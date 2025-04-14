@@ -21,13 +21,13 @@ title: Std Windows
 
 The **Std Windows** command opens a dialog box with a list of [Main view area](/Main_view_area "Main view area") windows. From this list a selected window can be activated.
 
-![](/src/assets/images/Std_Windows_dialog.png)
+![](/images/Std_Windows_dialog.png)
 
 The Choose Window dialog box
 
 ## Usage
 
-1. Select the **Windows → ![](/src/assets/images/Std_Windows.svg) Windows...** option from the menu.
+1. Select the **Windows → ![](/images/Std_Windows.svg) Windows...** option from the menu.
 2. The **Choose Window** dialog box opens.
 3. Do one of the following:
    - Select a window in the list and press the Activate button.

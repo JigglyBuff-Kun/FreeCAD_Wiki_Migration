@@ -24,8 +24,8 @@ A launch lug is a small tube attached to the side of the rocket that allows the 
 ## Usage
 
 1. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/Rocket_LaunchLug.svg) [Launch Lug](/Rocket_LaunchLug "Rocket LaunchLug") button.
-   - Select the **Rocket → Launch Guides→ ![](/src/assets/images/Rocket_LaunchLug.svg) Launch Lug** option from the menu.
+   - Press the ![](/images/Rocket_LaunchLug.svg) [Launch Lug](/Rocket_LaunchLug "Rocket LaunchLug") button.
+   - Select the **Rocket → Launch Guides→ ![](/images/Rocket_LaunchLug.svg) Launch Lug** option from the menu.
    - Double click on a Launch Lug object in the [Tree view](/Tree_view "Tree view").
 2. Set options and press OK.
 

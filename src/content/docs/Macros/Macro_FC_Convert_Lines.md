@@ -60,7 +60,7 @@ webbrowser.open("https://gist.githubusercontent.com/mario52a/3d719574089a5f9044e
 
 <class="rawcodeurl"><a href="<https://gist.githubusercontent.com/mario52a/3d719574089a5f9044ec/raw/812769b6b296a1da2e9c8cd8153ad7266fe80f8d/Macro_FCConvertLines.FCMacro>">raw code</a>
 
-![](/src/assets/images/Macro_FCConvertLines_00.png)
+![](/images/Macro_FCConvertLines_00.png)
 
 ConvertLines Dash, Dash dot, Dash dot dot
 
@@ -68,7 +68,7 @@ ConvertLines Dash, Dash dot, Dash dot dot
 
 Copy the macro in your macros folder and launch FCConvertLines Gui
 
-![FCConvertLines Gui](/src/assets/images/Macro_FCConvertLines_01.png)
+![FCConvertLines Gui](/images/Macro_FCConvertLines_01.png)
 
 FCConvertLines Gui
 
@@ -76,7 +76,7 @@ First section :
 
 Cut line (Checked by default)
 
-![FCConvertLines](/src/assets/images/Macro_FCConvertLines_02.png)
+![FCConvertLines](/images/Macro_FCConvertLines_02.png)
 
 FCConvertLines
 
@@ -93,7 +93,7 @@ Second section :
 
 Type line : Dash
 
-![FCConvertLines](/src/assets/images/Macro_FCConvertLines_03.png)
+![FCConvertLines](/images/Macro_FCConvertLines_03.png)
 
 FCConvertLines
 
@@ -107,7 +107,7 @@ Third section :
 
 Type line : DashDot
 
-![FCConvertLines](/src/assets/images/Macro_FCConvertLines_04.png)
+![FCConvertLines](/images/Macro_FCConvertLines_04.png)
 
 FCConvertLines
 
@@ -122,7 +122,7 @@ Fourth section :
 
 Type line : DashDotDot
 
-![FCConvertLines](/src/assets/images/Macro_FCConvertLines_05.png)
+![FCConvertLines](/images/Macro_FCConvertLines_05.png)
 
 FCConvertLines
 
@@ -137,7 +137,7 @@ Fifth section :
 
 Type line : ZigZag
 
-![FCConvertLines](/src/assets/images/Macro_FCConvertLines_06.png)
+![FCConvertLines](/images/Macro_FCConvertLines_06.png)
 
 FCConvertLines
 
@@ -156,7 +156,7 @@ Sixth section :
 
 Type line : Hand
 
-![FCConvertLines](/src/assets/images/Macro_FCConvertLines_07.png)
+![FCConvertLines](/images/Macro_FCConvertLines_07.png)
 
 FCConvertLines
 
@@ -170,7 +170,7 @@ Seventh section :
 
 Options line :
 
-![FCConvertLines](/src/assets/images/Macro_FCConvertLines_08.png)
+![FCConvertLines](/images/Macro_FCConvertLines_08.png)
 
 FCConvertLines
 
@@ -186,7 +186,7 @@ Option Plane
 
 This option are available only for **"ZigZag"** and **"Hand"**
 
-![FCConvertLines](/src/assets/images/Macro_FCConvertLines_09.png)
+![FCConvertLines](/images/Macro_FCConvertLines_09.png)
 
 FCConvertLines
 
@@ -198,7 +198,7 @@ Ninth section :
 
 Button
 
-![FCConvertLines](/src/assets/images/Macro_FCConvertLines_10.png)
+![FCConvertLines](/images/Macro_FCConvertLines_10.png)
 
 FCConvertLines
 
@@ -214,49 +214,49 @@ FCConvertLines
 
 **The icon for the toolBar**
 
-![Macro_FCConvertLines](/src/assets/images/Macro_FCConvertLines.png)
+![Macro_FCConvertLines](/images/Macro_FCConvertLines.png)
 
 Macro_FCConvertLines
 
 **Title**
 
-![ConvertLines_Title](/src/assets/images/Macro_FCConvertLines_Title.png)
+![ConvertLines_Title](/images/Macro_FCConvertLines_Title.png)
 
 ConvertLines_Title
 
 **Line Dash** :
 
-![ConvertLines_Dash](/src/assets/images/Macro_FCConvertLines_Dash.png)
+![ConvertLines_Dash](/images/Macro_FCConvertLines_Dash.png)
 
 ConvertLines_Dash
 
 **Line DashDot** :
 
-![ConvertLines Dash dot](/src/assets/images/Macro_FCConvertLines_DashDot.png)
+![ConvertLines Dash dot](/images/Macro_FCConvertLines_DashDot.png)
 
 ConvertLines Dash dot
 
 **Line DashDotDot** :
 
-![ConvertLines Dash dot dot](/src/assets/images/Macro_FCConvertLines_DashDotDot.png)
+![ConvertLines Dash dot dot](/images/Macro_FCConvertLines_DashDotDot.png)
 
 ConvertLines Dash dot dot
 
 **Line Zigzag** :
 
-![ConvertLines_Zigzag](/src/assets/images/Macro_FCConvertLines_Zigzag.png)
+![ConvertLines_Zigzag](/images/Macro_FCConvertLines_Zigzag.png)
 
 ConvertLines_Zigzag
 
 **Line Hand** :
 
-![ConvertLines_Hand](/src/assets/images/Macro_FCConvertLines_Hand.png)
+![ConvertLines_Hand](/images/Macro_FCConvertLines_Hand.png)
 
 ConvertLines_Hand
 
 **View** :
 
-![ConvrtLines_View-front](/src/assets/images/Macro_FCConvrtLines_View-front.png) ![ConvrtLines_View-right](/src/assets/images/Macro_FCConvrtLines_View-right.png) ![ConvrtLines_View-right](/src/assets/images/Macro_FCConvrtLines_View-top.png)
+![ConvrtLines_View-front](/images/Macro_FCConvrtLines_View-front.png) ![ConvrtLines_View-right](/images/Macro_FCConvrtLines_View-right.png) ![ConvrtLines_View-right](/images/Macro_FCConvrtLines_View-top.png)
 
 ## Script
 
@@ -264,7 +264,7 @@ Copy the macro **Macro_FCConvertLines.FCMacro** in your macros folder.
 
 The script on Gist [Macro_FCConvertLines.FCMacro](https://gist.github.com/mario52a/3d719574089a5f9044ec)
 
-ToolBar icon ![](/src/assets/images/Macro_FCConvertLines.png)
+ToolBar icon ![](/images/Macro_FCConvertLines.png)
 
 **Macro_FCConvertLines.FCMacro**
 
@@ -272,25 +272,25 @@ ToolBar icon ![](/src/assets/images/Macro_FCConvertLines.png)
 
 Example dot, dash dot, dash dot, dash dot dot
 
-![](/src/assets/images/Macro_FCConvertLines_11b.png)
+![](/images/Macro_FCConvertLines_11b.png)
 
 Example hand, zigzag
 
-![](/src/assets/images/Macro_FCConvertLines_11.png)
+![](/images/Macro_FCConvertLines_11.png)
 
 Example hand
 
-![](/src/assets/images/Macro_FCConvertLines_012.png)
+![](/images/Macro_FCConvertLines_012.png)
 
 All lines created the configuration specifications set in this Option lines
 
 Example hand can make beautiful sine wave or totally anarchic
 
-![](/src/assets/images/Macro_FCConvertLines_013.png)
+![](/images/Macro_FCConvertLines_013.png)
 
 Example convert ShapeString to sketch (the curves hare not authorized for convert Shape to Sketch)
 
-![](/src/assets/images/ShapeString_To_Sketch.gif)
+![](/images/ShapeString_To_Sketch.gif)
 
 ## Version
 

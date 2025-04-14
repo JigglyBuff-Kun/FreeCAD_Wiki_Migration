@@ -23,7 +23,7 @@ The **TechDraw DiameterDimension** tool adds a diameter dimension to a View. The
 
 For more information see [TechDraw RadiusDimension](/TechDraw_RadiusDimension "TechDraw RadiusDimension").
 
-![](/src/assets/images/TechDraw_Dimension_Diameter_example.png)
+![](/images/TechDraw_Dimension_Diameter_example.png)
 
 Measuring a circle, indicating the diameter
 

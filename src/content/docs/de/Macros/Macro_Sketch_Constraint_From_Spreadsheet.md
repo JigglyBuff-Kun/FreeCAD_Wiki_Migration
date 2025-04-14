@@ -34,7 +34,7 @@ Makro, das mit einem einfachen Klick in die Zelle einer Kalkulationstabelle eine
 
 Wähle eine Linie, zwei Punkte oder eine Beschränkung, klicke auf eine Tabellenzelle und führe das Makro aus. Es können Linien, Punkte am Ende der Line, Punkte, Kreise oder Bögen von Kreisen ausgewählt werden.
 
-![](/src/assets/images/SketchConstraintFromSpreadsheet1.gif)
+![](/images/SketchConstraintFromSpreadsheet1.gif)
 
 Temporary code for external macro link. Do not use this code. This code is used exclusively by [Addon Manager](/Std_AddonMgr "Std AddonMgr"). _Link for optional manual installation: [Macro](https://raw.githubusercontent.com/2cv001/FreeCAD-macros/master/Spreadsheet/Sketch_Constraint_From_Spreadsheet.FCMacro)_
 
@@ -72,7 +72,7 @@ webbrowser.open("https://raw.githubusercontent.com/2cv001/FreeCAD-macros/master/
 
 Wenn das Makro ausgeführt wird bevor eine Kalkulationstabelle, ein Körper oder eine Skizze erstellt wurde, schlägt das Makro vor eine zu erstellen. Anschließend wird die Skizze im Bearbeitungsmodus und die Kalkulationstabelle geöffnet, so dass sie ausgefüllt werden kann.
 
-![](/src/assets/images/SketchConstraintFromSpreadsheet7.gif)
+![](/images/SketchConstraintFromSpreadsheet7.gif)
 
 ### Automatische Alias-Erzeugung
 
@@ -86,18 +86,18 @@ Zwei Modi:
 
 Ein automatischer Modus, in dem Alias automatisch unter Verwendung eines durch eine Zelle definierten Textbereichs erstellt wird. Der Bereich umfasst die Zelle und die darunterliegenden Zellen. Diese Texte stimmen mit dem Alias-Namen überein. Der Alias rechts des Textes erzeugt. Die benannte Zelle (hier A3) kann in diesem Dialog geändert werden:
 
-![Alias automatic creation](/src/assets/images/SketchConstraintFromSpreadsheet2302.png)
+![Alias automatic creation](/images/SketchConstraintFromSpreadsheet2302.png)
 
-![Alias automatic creation](/src/assets/images/SketchConstraintFromSpreadsheet2303.png)
-![Alias automatic creation](/src/assets/images/SketchConstraintFromSpreadsheet2304.gif)
+![Alias automatic creation](/images/SketchConstraintFromSpreadsheet2303.png)
+![Alias automatic creation](/images/SketchConstraintFromSpreadsheet2304.gif)
 
 #### Manueller Modus
 
 Um den manuellen Modus zu nutzen, aktiviere die Option "Automatischer Alias".
 
-![Alias creation](/src/assets/images/SketchConstraintFromSpreadsheet2301.png)
+![Alias creation](/images/SketchConstraintFromSpreadsheet2301.png)
 
-![Alias creation](/src/assets/images/SketchConstraintFromSpreadsheet8.gif)
+![Alias creation](/images/SketchConstraintFromSpreadsheet8.gif)
 
 ### Beschränkungen erzeugen
 
@@ -107,42 +107,42 @@ Um den manuellen Modus zu nutzen, aktiviere die Option "Automatischer Alias".
 - zwei Punkte (Ende einer Linie, Zentrum des Kreises, etc.)
 - oder eine Längenbeschränkung.
 
-![](/src/assets/images/SelectPoints.png)
+![](/images/SelectPoints.png)
 
 2. Klicke auf die Zelle einer Kalkulationstabelle, mit oder ohne Alias, die einen numerischen Wert beinhaltet:
 
-![](/src/assets/images/Capture1.png)
+![](/images/Capture1.png)
 
 3. Führe das Makro aus.
 
 4. Wähle die gewünschte Art der Beschränkung:
 
-![](/src/assets/images/Choose_type_of_constraint.png)
+![](/images/Choose_type_of_constraint.png)
 
 Wenn die Zelle einen Alias hat, wird die Längen-Eigenschaft der Beschränkung in etwa zu 'Spreadsheet.Alias'. Andernfalls in etwa zu 'Spreadsheet.D4'.
 
-![](/src/assets/images/If_the_spreadsheet_has_an_alias.png)
+![](/images/If_the_spreadsheet_has_an_alias.png)
 
 5. Wenn die Beschränkungen einen Konflikt hervorruft und die Option "Konflikterkennung" aktiviert ist, schlägt das Makro vor die neue Beschränkung zu löschen:
 
-![](/src/assets/images/SketchConstraintFromSpreadsheet3.gif)
+![](/images/SketchConstraintFromSpreadsheet3.gif)
 
 Wenn eine bestehende Beschränkung ausgewählt wird, kann der Wert durch den Wert einer Kalkulationstabelle ersetzt werden:
 
-![](/src/assets/images/SketchConstraintFromSpreadsheet2.gif)
-![](/src/assets/images/SketchConstraintFromSpreadsheet4.gif)
+![](/images/SketchConstraintFromSpreadsheet2.gif)
+![](/images/SketchConstraintFromSpreadsheet4.gif)
 
 Das Makro kann auch mit externer Geometrie einer anderen Skizze umgehen:
 
-![](/src/assets/images/SketchConstraintFromSpreadsheet9.gif)
+![](/images/SketchConstraintFromSpreadsheet9.gif)
 
 Um die Dinge noch weiter zu verfeinern, wenn z. B. eine Linie eher horizontal als vertikal ist, liegt der Fokus beim Öffnen des Dialogfelds auf der Schaltfläche für die Anwendung einer horizontalen Beschränkung. Wenn die Linie nicht horizontal, sondern vertikal ist, liegt der Fokus auf der Schaltfläche für die vertikalen Beschränkung. Drücke in beiden Fällen einfach die Eingabetaste, wenn die Wahl zufriedenstellend ist.
 
-![](/src/assets/images/SketchConstraintFromSpreadsheet5.gif)
+![](/images/SketchConstraintFromSpreadsheet5.gif)
 
 Das Makro funktioniert auch für Objekteigenschften. Wird z.B. auf die Eigenschaft Length einer Aufpolsterung geklickt und anschließend auf eine Zelle mit dem gewünschten Wert, wird die Eigenschaft Length der Aufpolsterung automatisch angepasst.
 
-![](/src/assets/images/SketchConstraintFromSpreadsheetchangePropertyPad.gif)
+![](/images/SketchConstraintFromSpreadsheetchangePropertyPad.gif)
 
 You can use formulas.
 
@@ -150,7 +150,7 @@ Principle: The macro transforms the alias before inserting it into the parameter
 
 Example of usage:
 
-![](/src/assets/images/SketchConstraintFromSpreadsheetcformulaMult.gif)
+![](/images/SketchConstraintFromSpreadsheetcformulaMult.gif)
 
 If your alias is: radius_f\_\_mul_2_plu_1  
 The expression will be:  
@@ -193,7 +193,7 @@ Danke an L'ami René für Überprüfungen und Ideen.
 
 ## Skript
 
-ToolBar Icon ![](/src/assets/images/Macro_Sketch_Constraint_From_Spreadsheet.svg)
+ToolBar Icon ![](/images/Macro_Sketch_Constraint_From_Spreadsheet.svg)
 
 ### Code
 
@@ -201,7 +201,7 @@ ver 02.02 2025/03/30 by 2cv001 **Macro_Sketch_Constraint_From_Spreadsheet.FCMacr
 
 #### Herunterladen
 
-[![](/src/assets/images/Nuvola_apps_download_manager.png)](https://raw.githubusercontent.com/2cv001/FreeCAD-macros/master/Spreadsheet/Sketch_Constraint_From_Spreadsheet.FCMacro)
+[![](/images/Nuvola_apps_download_manager.png)](https://raw.githubusercontent.com/2cv001/FreeCAD-macros/master/Spreadsheet/Sketch_Constraint_From_Spreadsheet.FCMacro)
 
 [Download latest version of the macro](https://raw.githubusercontent.com/2cv001/FreeCAD-macros/master/Spreadsheet/Sketch_Constraint_From_Spreadsheet.FCMacro)
 

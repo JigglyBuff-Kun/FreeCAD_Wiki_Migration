@@ -19,15 +19,15 @@ title: Part ShapeFromMesh
 
 ## Introduction
 
-The ![](/src/assets/images/Part_ShapeFromMesh.svg) **Part ShapeFromMesh** command creates shapes from [mesh objects](/Mesh "Mesh"). Mesh objects have limited editing capabilities in FreeCAD, converting them to [shapes](/Shape "Shape") will allow their use with many more boolean and modification commands.
+The ![](/images/Part_ShapeFromMesh.svg) **Part ShapeFromMesh** command creates shapes from [mesh objects](/Mesh "Mesh"). Mesh objects have limited editing capabilities in FreeCAD, converting them to [shapes](/Shape "Shape") will allow their use with many more boolean and modification commands.
 
-The inverse operation is [Mesh FromPartShape](/Mesh_FromPartShape "Mesh FromPartShape") from the ![](/src/assets/images/Workbench_Mesh.svg) [Mesh Workbench](/Mesh_Workbench "Mesh Workbench").
+The inverse operation is [Mesh FromPartShape](/Mesh_FromPartShape "Mesh FromPartShape") from the ![](/images/Workbench_Mesh.svg) [Mesh Workbench](/Mesh_Workbench "Mesh Workbench").
 
 ## Usage
 
-1. Analyzing and repairing the mesh object, if needed, should be done before launching this command. Appropriate tools for this task are available in the ![](/src/assets/images/Workbench_Mesh.svg) [Mesh Workbench](/Mesh_Workbench "Mesh Workbench").
+1. Analyzing and repairing the mesh object, if needed, should be done before launching this command. Appropriate tools for this task are available in the ![](/images/Workbench_Mesh.svg) [Mesh Workbench](/Mesh_Workbench "Mesh Workbench").
 2. Select one or more mesh objects.
-3. Select the **Part → ![](/src/assets/images/Part_ShapeFromMesh.svg) Create shape from mesh** option from the menu.
+3. Select the **Part → ![](/images/Part_ShapeFromMesh.svg) Create shape from mesh** option from the menu.
 4. The **Shape from mesh** dialog opens.
 5. Optionally check the **Sew shape** checkbox and specify a tolerance:
    - This option is usually not needed. It is meant for mesh objects that are not watertight and have small gaps between edges.
@@ -35,8 +35,8 @@ The inverse operation is [Mesh FromPartShape](/Mesh_FromPartShape "Mesh FromPart
    - The sewing operation may be computationally demanding.
 6. Press the OK button.
 7. For each selected mesh object a [shape](/Shape "Shape") is created as a separate new object.
-8. Optionally use ![](/src/assets/images/Part_RefineShape.svg) [Part RefineShape](/Part_RefineShape "Part RefineShape") on these objects.
-9. Optionally turn the final objects into solids with ![](/src/assets/images/Part_MakeSolid.svg) [Part MakeSolid](/Part_MakeSolid "Part MakeSolid").
+8. Optionally use ![](/images/Part_RefineShape.svg) [Part RefineShape](/Part_RefineShape "Part RefineShape") on these objects.
+9. Optionally turn the final objects into solids with ![](/images/Part_MakeSolid.svg) [Part MakeSolid](/Part_MakeSolid "Part MakeSolid").
 
 ## Properties
 

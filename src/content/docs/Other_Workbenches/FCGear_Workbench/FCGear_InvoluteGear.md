@@ -21,16 +21,16 @@ title: FCGear InvoluteGear
 
 Due to the favourable meshing ratio and the relatively simple production, involute gearing is the most common tooth form in mechanical engineering. Gear wheels can be found wherever movement and force are to be transferred from one part to another. For example, they can be found in machines, cars, watches or household appliances. The movement is often transferred directly from one gear wheel to the other, but sometimes also via a chain. In addition, the direction of rotation can be changed. It is also possible to change a radial movement into a linear one via an [involute rack](/FCGear_InvoluteRack "FCGear InvoluteRack").
 
-![](/src/assets/images/Involute-Gear_example.png)
+![](/images/Involute-Gear_example.png)
 
 From left to right: Spur gearing, helical gearing, double helical gearing
 
 ## Usage
 
-1. Switch to the ![](/src/assets/images/FCGear_workbench_icon.svg) [FCGear Workbench](/FCGear_Workbench "FCGear Workbench").
+1. Switch to the ![](/images/FCGear_workbench_icon.svg) [FCGear Workbench](/FCGear_Workbench "FCGear Workbench").
 2. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/FCGear_InvoluteGear.svg) [Involute Gear](/FCGear_InvoluteGear "FCGear InvoluteGear") button in the toolbar.
-   - Select the **Gear → ![](/src/assets/images/FCGear_InvoluteGear.svg) Involute Gear** option from the menu.
+   - Press the ![](/images/FCGear_InvoluteGear.svg) [Involute Gear](/FCGear_InvoluteGear "FCGear InvoluteGear") button in the toolbar.
+   - Select the **Gear → ![](/images/FCGear_InvoluteGear.svg) Involute Gear** option from the menu.
 3. Change the gear parameter to the required conditions (see [Properties](#Properties)).
 
 ## Properties

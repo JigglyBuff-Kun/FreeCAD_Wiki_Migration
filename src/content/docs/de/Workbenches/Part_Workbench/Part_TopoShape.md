@@ -10,11 +10,11 @@ Die topologischen Formen sowie deren Methoden werden durch den [OpenCASCADE Tech
 
 Eine andere Art von Klasse ist die des [Polygonnetzes](/Mesh/de "Mesh/de"); diese Klasse ist nicht sehr parametrisch, da sie nicht einfach umdefiniert werden kann, außer durch die Angabe einzelner Knoten und dreieckiger Oberflächen.
 
-![](/src/assets/images/Shape_and_mesh.svg)
+![](/images/Shape_and_mesh.svg)
 
 Links: parametrische Part_TopoForm, definiert durch Eigenschaften. Rechts: nichtparametrisches [Polygonnetz](/Mesh/de "Mesh/de"), definiert durch Knoten und und dreieckigen Oberflächen.
 
-![](/src/assets/images/FreeCAD_core_objects.svg)
+![](/images/FreeCAD_core_objects.svg)
 
 Vereinfachtes Diagramm der Beziehungen zwischen den Kernobjekten im Programm. Die Klasse `Part::TopoShape` wird in das `Part::Feature` Objekt eingebettet und von dort auf alle davon abgeleiteten Objekte übertragen.
 
@@ -62,7 +62,7 @@ obj.Shape.exportStl("my_file.stl")
 
 ```
 
-Eine vollständige Liste der Attribute und Methoden kannst Du in der [Quelldokumentation](/Source_documentation/de "Source documentation/de") und dem ![](/src/assets/images/Std_PythonHelp.svg) [Std PythonHilfe](/Std_PythonHelp/de "Std PythonHelp/de") Werkzeug nachschlagen.
+Eine vollständige Liste der Attribute und Methoden kannst Du in der [Quelldokumentation](/Source_documentation/de "Source documentation/de") und dem ![](/images/Std_PythonHelp.svg) [Std PythonHilfe](/Std_PythonHelp/de "Std PythonHelp/de") Werkzeug nachschlagen.
 
 Du kannst eine schnelle Zusammenfassung aller Methoden erhalten ddurch Verwendung der in Python eingebauten `help()` Funktion.
 

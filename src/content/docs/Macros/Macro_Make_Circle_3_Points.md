@@ -30,7 +30,7 @@ title: Make Circle 3 Points
 
 This macro creates a circle circumscribed on 3 selected points, orthogonal manner or in 3D at the option space. Points can be objects such as cubes, cylinders,... then selected coordinates will be the centre of these forms.
 
-![](/src/assets/images/Macro_Draft_Circle_3_Points01.png)
+![](/images/Macro_Draft_Circle_3_Points01.png)
 
 Circle built on 3 selected points
 
@@ -39,7 +39,7 @@ Circle built on 3 selected points
 Select 3 points, or forms in the 3D view and run the macro.  
 If the shape is a line, the coordinate will be the center of the line.
 
-![Circle_on_3_points](/src/assets/images/Circle_on_3_points.png)
+![Circle_on_3_points](/images/Circle_on_3_points.png)
 
 ## Options
 
@@ -81,28 +81,28 @@ If the shape is a line, the coordinate will be the center of the line.
     :   View-Front (Z,X) = Green(Axe Y)
     :   View-Left (Z,Y) = Red(Axe X)
 
-- [![Circumcircle on 3 forms (front view),](/src/assets/images/Macro_Draft_Circle_3_Points02.png)](/File:Macro_Draft_Circle_3_Points02.png "Circumcircle on 3 forms (front view),")
+- [![Circumcircle on 3 forms (front view),](/images/Macro_Draft_Circle_3_Points02.png)](/File:Macro_Draft_Circle_3_Points02.png "Circumcircle on 3 forms (front view),")
 
   Circumcircle on 3 forms (front view),
 
-- [![in an orthogonal manner on the form chosen (right view)](/src/assets/images/Macro_Draft_Circle_3_Points03.png)](/File:Macro_Draft_Circle_3_Points03.png "in an orthogonal manner on the form chosen (right view)")
+- [![in an orthogonal manner on the form chosen (right view)](/images/Macro_Draft_Circle_3_Points03.png)](/File:Macro_Draft_Circle_3_Points03.png "in an orthogonal manner on the form chosen (right view)")
 
   in an orthogonal manner on the form chosen (right view)
 
-* ![](/src/assets/images/Macro_Draft_Circle_3_Points04.png)
+* ![](/images/Macro_Draft_Circle_3_Points04.png)
 
-- ![Three bystanders orthogonal circles by the form chosen.](/src/assets/images/Macro_Draft_Circle_3_Points05.png)
+- ![Three bystanders orthogonal circles by the form chosen.](/images/Macro_Draft_Circle_3_Points05.png)
 
   Three bystanders orthogonal circles by the form chosen.
 
 ## Script
 
-![](/src/assets/images/View-Top.png) ![](/src/assets/images/View-Left.png) ![](/src/assets/images/View-Front.png) ![](/src/assets/images/View-C3P.png)
+![](/images/View-Top.png) ![](/images/View-Left.png) ![](/images/View-Front.png) ![](/images/View-C3P.png)
 
 The three icons must be in the same directory as the module.  
 To download them, resting your mouse over the icon and then right-click and **save image as...**
 
-ToolBar Icon ![](/src/assets/images/Macro_Make_Circle_3_Points.png)
+ToolBar Icon ![](/images/Macro_Make_Circle_3_Points.png)
 
 **Make_Circle_3_Points.FCMacro**
 
@@ -629,10 +629,10 @@ path = FreeCAD.ConfigGet("AppHomePath") # chemin
 
 ## Anaglyphe
 
-Here an Anaglyph view that allows you to see two different positions of the view by using glasses with filters red and Cyan ![](/src/assets/images/Anaglyph_Tango.png).  
+Here an Anaglyph view that allows you to see two different positions of the view by using glasses with filters red and Cyan ![](/images/Anaglyph_Tango.png).  
 Watch alternately with the left eye and the right eye to see the views separately.
 
-![Anaglyphe](/src/assets/images/Cercle3Points2D_anaglyphe.png)
+![Anaglyphe](/images/Cercle3Points2D_anaglyphe.png)
 
 ## Crédits
 

@@ -19,22 +19,22 @@ title: FCGear BevelGear
 
 ## Description
 
-The ![](/src/assets/images/FCGear_BevelGear.svg) [FCGear BevelGear](/FCGear_BevelGear "FCGear BevelGear") tool creates a basic bevel gear, a solid object that needs to be trimmed to the correct final shape in following steps.
+The ![](/images/FCGear_BevelGear.svg) [FCGear BevelGear](/FCGear_BevelGear "FCGear BevelGear") tool creates a basic bevel gear, a solid object that needs to be trimmed to the correct final shape in following steps.
 
 Partly because of the noise they generate, bevel gears are not used as often as other types of gear. But they are still used in certain sectors, such as food packaging and canned food, lawn and garden equipment, machines such as drills and mills, compression systems for the gas and oil market and flow control valves.
 
 Spiral bevel gears have curved teeth to provide softer engagement and greater tooth to tooth contact compared to a straight bevel gear. This reduces the vibration and noise. They can be used at high speeds and are typically used in motorcycle and bicycle transmissions.
 
-![](/src/assets/images/Bevel-Gear_example.png)
+![](/images/Bevel-Gear_example.png)
 
 From left to right: Spur gearing, spiral gearing
 
 ## Usage
 
-1. Switch to the ![](/src/assets/images/FCGear_workbench_icon.svg) [FCGear Workbench](/FCGear_Workbench "FCGear Workbench").
+1. Switch to the ![](/images/FCGear_workbench_icon.svg) [FCGear Workbench](/FCGear_Workbench "FCGear Workbench").
 2. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/FCGear_BevelGear.svg) [Bevel Gear](/FCGear_BevelGear "FCGear BevelGear") button in the toolbar.
-   - Select the **Gear → ![](/src/assets/images/FCGear_BevelGear.svg) Bevel Gear** option from the menu.
+   - Press the ![](/images/FCGear_BevelGear.svg) [Bevel Gear](/FCGear_BevelGear "FCGear BevelGear") button in the toolbar.
+   - Select the **Gear → ![](/images/FCGear_BevelGear.svg) Bevel Gear** option from the menu.
 3. A BevelGear object is created according to the default settings.
 4. Change the gear parameter to the required conditions (see [Properties](#Properties)).
 

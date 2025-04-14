@@ -19,17 +19,17 @@ title: Part Loft
 
 ## Description
 
-The ![](/src/assets/images/Part_Loft.svg) [Part Loft](/Part_Loft "Part Loft") command creates a face, a shell, or a solid shape from two or more profiles (cross-sections).
+The ![](/images/Part_Loft.svg) [Part Loft](/Part_Loft "Part Loft") command creates a face, a shell, or a solid shape from two or more profiles (cross-sections).
 
-![](/src/assets/images/Part_Loft_solid_ruled_from3profiles_example_FreeCAD_0_13.jpg)
+![](/images/Part_Loft_solid_ruled_from3profiles_example_FreeCAD_0_13.jpg)
 
 Loft from three profiles which are two [Part Circles](/Part_Circle "Part Circle") and one [Part Ellipse](/Part_Ellipse "Part Ellipse"). Parameters are Solid "True" and Ruled "True".
 
 ## Usage
 
 1. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/Part_Loft.svg) [Loft...](/Part_Loft "Part Loft") button.
-   - Select the **Part → ![](/src/assets/images/Part_Loft.svg) Loft...** option from the menu.
+   - Press the ![](/images/Part_Loft.svg) [Loft...](/Part_Loft "Part Loft") button.
+   - Select the **Part → ![](/images/Part_Loft.svg) Loft...** option from the menu.
 2. The Loft [task panel](/Task_panel "Task panel") opens.
 3. In the _Available Profiles_ list on the left select the first profile and click on the right arrow to place it in the _Selected profiles_ list on the right.
 4. Repeat for the second profile and again if more than two profiles are desired.

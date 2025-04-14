@@ -8,7 +8,7 @@ The main purpose of a technical drawing is that others understand what the desig
 
 Take for example this part:
 
-![](/src/assets/images/TechDraw_Hole-Position-Example.png)
+![](/images/TechDraw_Hole-Position-Example.png)
 
 In the application an axis should be put through the 2 holes of the part. That means we have to specify the following things
 
@@ -62,9 +62,9 @@ With the properties Data**X** and Data**Y** you can change the horizontal and ve
 1. Create a [dimension](/TechDraw_Workbench#Dimensions "TechDraw Workbench") in your drawing
 2. Either double-click on the dimension in the drawing or onto the dimension object in the model tree
 3. In the appearing dimension dialog specify as **Overtolerance** the amount by which the dimension can be exceeded.  
-   This will result in an equal tolerance like this: ![](/src/assets/images/TechDraw_equal-tolerance.png)
+   This will result in an equal tolerance like this: ![](/images/TechDraw_equal-tolerance.png)
 4. If you have unequal tolerances, specify as **Undertolerance** the amount by which the dimension can be smaller and uncheck the option **Equal Tolerance**.  
-   This will result in an unequal tolerance like this: ![](/src/assets/images/TechDraw_Non-equal-tolerance.png)
+   This will result in an unequal tolerance like this: ![](/images/TechDraw_Non-equal-tolerance.png)
 
 #### Deletion
 
@@ -84,7 +84,7 @@ Tolerances are created by using the [Balloon](/TechDraw_Balloon "TechDraw Balloo
 
 ### Tolerance indicator
 
-![](/src/assets/images/TechDraw_GD%26T-Toleranced-rod.png)
+![](/images/TechDraw_GD%26T-Toleranced-rod.png)
 
 Example of a toleranced rod. (The run-out already defines the straightness, it is only there as example.)
 
@@ -110,7 +110,7 @@ Datums in the GD&T sense of the meaning are surfaces your tolerance is relative 
 - drag the bubble with the mouse so that the triangle points away from the datum surface.
 - since it is common to have a straight line for datums unless the datum surface is not perpendicular to X or Y, assure that either the properties Data**X** and Data**Origin X** or Data**Y** and Data**Origin Y** are equal to get a straight Balloon line.
 
-![](/src/assets/images/TechDraw_GD%26T-Datum.png)
+![](/images/TechDraw_GD%26T-Datum.png)
 
 Example of a datum in a drawing
 

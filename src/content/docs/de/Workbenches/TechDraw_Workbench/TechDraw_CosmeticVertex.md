@@ -21,7 +21,7 @@ title: TechDraw Hilfspunkt
 
 Das Werkzeug **TechDraw Hilfspunkt** fügt einer Ansicht einen Hilfspunkt ([Knoten](/Glossary/de#Vertex "Glossary/de")) hinzu, der nicht Teil der Quellgeometrie ist. Dieser Hilfspunkt verhält sich wie jeder andere Knoten und kann für die Bemaßung verwendet werden.
 
-![](/src/assets/images/TechDraw_CosmeticVertex_Sample.png)
+![](/images/TechDraw_CosmeticVertex_Sample.png)
 
 Hilfspunkte, verwendet, um ein sonst unmögliches Maß einzutragen
 
@@ -29,8 +29,8 @@ Hilfspunkte, verwendet, um ein sonst unmögliches Maß einzutragen
 
 1. Eine Ansicht auswählen.
 2. Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
-   - Die Schaltfläche ![](/src/assets/images/TechDraw_CosmeticVertex.svg) Hilfspunkt hinzufügen drücken.
-   - Den Menüeintrag **TechDraw → Knoten hinzufügen → ![](/src/assets/images/TechDraw_CosmeticVertex.svg) Hilfspunkt hinzufügen** auswählen.
+   - Die Schaltfläche ![](/images/TechDraw_CosmeticVertex.svg) Hilfspunkt hinzufügen drücken.
+   - Den Menüeintrag **TechDraw → Knoten hinzufügen → ![](/images/TechDraw_CosmeticVertex.svg) Hilfspunkt hinzufügen** auswählen.
 3. Ein Aufgaben-Bereich wird geöffnet.
 4. Wahlweise die Schaltfläche Punkt-Auswahl drücken und einen Punkt auf dem Zeichnungsblatt auswählen. Die Schaltfläche Auswahl abbrechen drücken, um diesen Vorgang abzubrechen.
 5. Wahlweise die X- und Y-Koordinaten des Punktes anpassen oder festlegen. Die Koordinaten beziehen sich auf das Zentrum der Ansicht.

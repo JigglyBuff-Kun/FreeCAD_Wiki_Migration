@@ -19,13 +19,13 @@ title: Curves ParametricComb
 
 ## Description
 
-The ![](/src/assets/images/Curves_ParametricComb.svg) **Curves ParametricComb** tool can help to visualize the regularity or smoothness of a curve as well as the continuity between two curves.
+The ![](/images/Curves_ParametricComb.svg) **Curves ParametricComb** tool can help to visualize the regularity or smoothness of a curve as well as the continuity between two curves.
 
 Note: A comb is only for visualization.
 
 A 3D comb will be created for 3D curves. Sample and scale can be changed.
 
-![](/src/assets/images/Curves_ParametricComb_demo.jpg)
+![](/images/Curves_ParametricComb_demo.jpg)
 
 Above: a curve before (left) and after (right) the application of this tool
 
@@ -33,8 +33,8 @@ Above: a curve before (left) and after (right) the application of this tool
 
 1. Select one or more shapes (sketch, wire, face, etc.).
 2. There are several ways to invoke the tool:
-   - Press the ![](/src/assets/images/Curves_ParametricComb.svg) [Comb plot](/Curves_ParametricComb "Curves ParametricComb") button.
-   - Select the **Curves → ![](/src/assets/images/Curves_ParametricComb.svg) Comb plot** option from the menu.
+   - Press the ![](/images/Curves_ParametricComb.svg) [Comb plot](/Curves_ParametricComb "Curves ParametricComb") button.
+   - Select the **Curves → ![](/images/Curves_ParametricComb.svg) Comb plot** option from the menu.
 3. A **Comb** object is created, showing the curvature of the select shapes (sketches, wires), or their sub elements (borders and iso-curves in case of faces).
 4. Optionally edit the values in the [Property editor](/Property_editor "Property editor") (see Properties below):
    - Adjust the number of samples and the comb scale for all comb plots.

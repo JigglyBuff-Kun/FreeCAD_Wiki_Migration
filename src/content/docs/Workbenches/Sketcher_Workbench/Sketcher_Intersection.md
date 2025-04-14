@@ -19,14 +19,14 @@ title: Sketcher Intersection
 
 ## Description
 
-The ![](/src/assets/images/Sketcher_Intersection.svg) [Sketcher Intersection](/Sketcher_Intersection "Sketcher Intersection") tool ([introduced in 1.1](/Release_notes_1.1 "Release notes 1.1")) intersects faces and/or edges belonging to objects outside the sketch with the sketch plane. The intersected geometry is called "external geometry". It stays parametrically linked to its source objects. External geometry is marked with a dedicated [color](/Sketcher_Preferences#Appearance "Sketcher Preferences") (default magenta). It can be defining geometry that is visible outside the sketch or construction geometry that is not visible outside the sketch.
+The ![](/images/Sketcher_Intersection.svg) [Sketcher Intersection](/Sketcher_Intersection "Sketcher Intersection") tool ([introduced in 1.1](/Release_notes_1.1 "Release notes 1.1")) intersects faces and/or edges belonging to objects outside the sketch with the sketch plane. The intersected geometry is called "external geometry". It stays parametrically linked to its source objects. External geometry is marked with a dedicated [color](/Sketcher_Preferences#Appearance "Sketcher Preferences") (default magenta). It can be defining geometry that is visible outside the sketch or construction geometry that is not visible outside the sketch.
 
 ## Usage
 
 1. There are several ways to invoke the tool:
-   - Press the ![](/src/assets/images/Sketcher_Intersection.svg) [Create external intersection geometry](/Sketcher_Intersection "Sketcher Intersection") button.
-   - Select the **Sketcher → Sketcher tools → ![](/src/assets/images/Sketcher_Intersection.svg) Create external intersection geometry** option from the menu.
-   - Right-click in the [3D view](/3D_view "3D view") and select the **![](/src/assets/images/Sketcher_Intersection.svg) Create external intersection geometry** option from the context menu.
+   - Press the ![](/images/Sketcher_Intersection.svg) [Create external intersection geometry](/Sketcher_Intersection "Sketcher Intersection") button.
+   - Select the **Sketcher → Sketcher tools → ![](/images/Sketcher_Intersection.svg) Create external intersection geometry** option from the menu.
+   - Right-click in the [3D view](/3D_view "3D view") and select the **![](/images/Sketcher_Intersection.svg) Create external intersection geometry** option from the context menu.
    - Use the keyboard shortcut: G then I.
 2. The cursor changes to a cross with the tool icon.
 3. Select one or more external faces and/or edges. See [Notes](#Notes).

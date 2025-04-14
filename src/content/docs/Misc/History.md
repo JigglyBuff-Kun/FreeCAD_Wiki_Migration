@@ -4,11 +4,11 @@ title: History
 
 ## History
 
-![](/src/assets/images/Screenshot_mesh.jpg)
+![](/images/Screenshot_mesh.jpg)
 
 Early FreeCAD, version unknown.
 
-![](/src/assets/images/Part_BooleanOperations.png)
+![](/images/Part_BooleanOperations.png)
 
 FreeCAD version 0.7 from 2009.
 

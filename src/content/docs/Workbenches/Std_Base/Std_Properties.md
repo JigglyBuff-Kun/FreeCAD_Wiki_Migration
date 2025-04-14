@@ -25,8 +25,8 @@ The **Std Properties** command displays the [Property view panel](/Property_edit
 
 1. Select one or more objects.
 2. There are several ways to invoke the command:
-   - Select the **Edit → ![](/src/assets/images/Std_Properties.svg) Properties** option from the menu.
-   - Select the **![](/src/assets/images/Std_Properties.svg) Properties** option from the [Tree view](/Tree_view "Tree view") context menu.
+   - Select the **Edit → ![](/images/Std_Properties.svg) Properties** option from the menu.
+   - Select the **![](/images/Std_Properties.svg) Properties** option from the [Tree view](/Tree_view "Tree view") context menu.
    - Use the keyboard shortcut: Alt+Enter.
 3. The Property view panel is displayed.
 

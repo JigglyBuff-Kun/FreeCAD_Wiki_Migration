@@ -25,7 +25,7 @@ This page shows a model to document aGui Command. Under theSelectable blocksecti
 
 While the page is under construction, add the [Template:UnfinishedDocu](/Template:UnfinishedDocu "Template:UnfinishedDocu") template at the top of the page by simply typing: **{{UnfinishedDocu}}**
 
-In this first paragraph give a short description of what the command does. The description can refer to other workbenches such as the ![](/src/assets/images/Workbench_Sketcher.svg) [Sketcher Workbench](/Sketcher_Workbench "Sketcher Workbench"). (_Editor note:_ The image is 24px, not 16px)
+In this first paragraph give a short description of what the command does. The description can refer to other workbenches such as the ![](/images/Workbench_Sketcher.svg) [Sketcher Workbench](/Sketcher_Workbench "Sketcher Workbench"). (_Editor note:_ The image is 24px, not 16px)
 
 Remember to use [Template:Version](/Template:Version "Template:Version"), [Template:VersionMinus](/Template:VersionMinus "Template:VersionMinus"), [Template:VersionPlus](/Template:VersionPlus "Template:VersionPlus") and [Template:Obsolete](/Template:Obsolete "Template:Obsolete"), or their superscript variants [Template:VersionNote](/Template:VersionNote "Template:VersionNote"), [Template:VersionNoteMinus](/Template:VersionNoteMinus "Template:VersionNoteMinus"), [Template:VersionNotePlus](/Template:VersionNotePlus "Template:VersionNotePlus") and [Template:VersionNoteObsolete](/Template:VersionNoteObsolete "Template:VersionNoteObsolete") (to avoid brackets), when applicable.
 
@@ -33,13 +33,13 @@ For example:
 
 - The `App::Link` feature ([introduced in 0.19](/Release_notes_0.19 "Release notes 0.19")) allows linking between sub-assemblies etc...
 
-* ![](/src/assets/images/Assembly_CreateSimulation.svg) [Create Simulation](/Assembly_CreateSimulation "Assembly CreateSimulation"): creates a simulation of the current assembly. [introduced in 1.1](/Release_notes_1.1 "Release notes 1.1")
+* ![](/images/Assembly_CreateSimulation.svg) [Create Simulation](/Assembly_CreateSimulation "Assembly CreateSimulation"): creates a simulation of the current assembly. [introduced in 1.1](/Release_notes_1.1 "Release notes 1.1")
 
 - ...workbenches, macros, preference packs, bundles[introduced in 1.1](/Release_notes_1.1 "Release notes 1.1"), and generic "other" collections of tools[introduced in 1.1](/Release_notes_1.1 "Release notes 1.1")...
 
 Add an image if possible, and please follow the guidelines in [WikiPages](/WikiPages#Graphics "WikiPages"). Example taken from [Part Sweep](/Part_Sweep "Part Sweep"):
 
-![](/src/assets/images/Part_Sweep_simple.png)
+![](/images/Part_Sweep_simple.png)
 
 Optional: add a caption below the image to explain what the tool does
 
@@ -48,9 +48,9 @@ Closing and opening translate tags should surround images, and other fixed eleme
 ## Usage
 
 1. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/Std_Open.svg) [Base ExampleCommandModel](/GuiCommand_model "GuiCommand model") button. (_Editor note:_ This uses the [Template:Button](/Template:Button "Template:Button") template, it is necessary to link to the command as shown in this example)
-   - Select the **Menu → Submenu → ![](/src/assets/images/Std_Open.svg) Menu text for the command** option from the menu. (_Editor note:_ This uses the [Template:MenuCommand](/Template:MenuCommand "Template:MenuCommand") template)
-   - Select the **Submenu → ![](/src/assets/images/Std_Open.svg) Menu text for the command** option from the [Tree view](/Tree_view "Tree view") context menu or [3D view](/3D_view "3D view") context menu. (_Editor note:_ This also uses the [Template:MenuCommand](/Template:MenuCommand "Template:MenuCommand") template, not all commands can be accessed from a context menu)
+   - Press the ![](/images/Std_Open.svg) [Base ExampleCommandModel](/GuiCommand_model "GuiCommand model") button. (_Editor note:_ This uses the [Template:Button](/Template:Button "Template:Button") template, it is necessary to link to the command as shown in this example)
+   - Select the **Menu → Submenu → ![](/images/Std_Open.svg) Menu text for the command** option from the menu. (_Editor note:_ This uses the [Template:MenuCommand](/Template:MenuCommand "Template:MenuCommand") template)
+   - Select the **Submenu → ![](/images/Std_Open.svg) Menu text for the command** option from the [Tree view](/Tree_view "Tree view") context menu or [3D view](/3D_view "3D view") context menu. (_Editor note:_ This also uses the [Template:MenuCommand](/Template:MenuCommand "Template:MenuCommand") template, not all commands can be accessed from a context menu)
    - Use the keyboard shortcut F then C or Ctrl+Z. (_Editor note:_ This uses the [Template:KEY](/Template:KEY "Template:KEY") template, not all commands have a keyboard shortcut)
 2. Detailed steps as needed. Some steps may need Keyboard presses while others may require using the mouse to click on a Button.
 3. Set options and press OK.

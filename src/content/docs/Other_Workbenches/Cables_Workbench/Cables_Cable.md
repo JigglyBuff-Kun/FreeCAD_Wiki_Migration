@@ -19,16 +19,16 @@ title: Cables Cable
 
 ## Description
 
-The ![](/src/assets/images/Cables_Cable.svg) [Cable](/Cables_Cable "Cables Cable") creates a Cable object based on selected [Cables WireFlex](/Cables_WireFlex "Cables WireFlex") and [Cables Profile](/Cables_Profile "Cables Profile"). The **Cable** is fully parametric and is derived from [Arch Pipe](/Arch_Pipe "Arch Pipe") and inherits all of its properties. Some properties specific for **Arch Pipe** are hidden and not used by **Cable**.
+The ![](/images/Cables_Cable.svg) [Cable](/Cables_Cable "Cables Cable") creates a Cable object based on selected [Cables WireFlex](/Cables_WireFlex "Cables WireFlex") and [Cables Profile](/Cables_Profile "Cables Profile"). The **Cable** is fully parametric and is derived from [Arch Pipe](/Arch_Pipe "Arch Pipe") and inherits all of its properties. Some properties specific for **Arch Pipe** are hidden and not used by **Cable**.
 
 The **Cable** automatically creates several subcomponents based on a given **Profile**. These are:
 
-- Two profile ![](/src/assets/images/Draft_Clone.svg) [Clones](/Draft_Clone "Draft Clone") (**A_Profile** and **B_Profile**) positioned on both ends of a **Base** wire and aligned perpendicular to **Base** wire end edges.
+- Two profile ![](/images/Draft_Clone.svg) [Clones](/Draft_Clone "Draft Clone") (**A_Profile** and **B_Profile**) positioned on both ends of a **Base** wire and aligned perpendicular to **Base** wire end edges.
 - Several additional **WireFlex** subwires attacheched to A and B Profiles at central points of single conductor wires. **WireFlex** subwires are named according to **Sub Colors** property.
 
 **Cable** object can be colored with [Arch Multimaterial](/Arch_MultiMaterial "Arch MultiMaterial") attached to the **Material** property.
 
-![](/src/assets/images/Cables_Example1.png)
+![](/images/Cables_Example1.png)
 
 Example of three-core flat cable:  
 Multimaterial cable shape and its base wire, profile and subwires.
@@ -38,9 +38,9 @@ Multimaterial cable shape and its base wire, profile and subwires.
 1. Select the existing [WireFlex](/Cables_WireFlex "Cables WireFlex") in the [3D view](/3D_view "3D view").
 2. Select the existing [Cable Profile](/Cables_Profile "Cables Profile") in the [3D view](/3D_view "3D view") holding the CTRL key.
 3. Create cable by one of these methods:
-   - Press the ![](/src/assets/images/Cables_Cable.svg) [Cable](/Cables_Cable "Cables Cable") button.
-   - Select the **Cables → ![](/src/assets/images/Cables_Cable.svg) Cable** option from the menu.
-   - Right-click in the [Tree view](/Tree_view "Tree view") or the [3D view](/3D_view "3D view") and select the **Cables → ![](/src/assets/images/Cables_Cable.svg) Cable** option from the context menu.
+   - Press the ![](/images/Cables_Cable.svg) [Cable](/Cables_Cable "Cables Cable") button.
+   - Select the **Cables → ![](/images/Cables_Cable.svg) Cable** option from the menu.
+   - Right-click in the [Tree view](/Tree_view "Tree view") or the [3D view](/3D_view "3D view") and select the **Cables → ![](/images/Cables_Cable.svg) Cable** option from the context menu.
 
 Once created the cable is placed at the position of selected **WireFlex** in the 3D space.
 

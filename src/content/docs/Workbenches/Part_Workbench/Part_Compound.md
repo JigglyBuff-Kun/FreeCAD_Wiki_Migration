@@ -24,7 +24,7 @@ This command creates a compound of objects with a topological shape such as soli
 ## Usage
 
 1. Mark the topological shapes to be added to the compound in the [tree view](/Tree_view "Tree view")
-2. Choose **Part → Compound → Make Compound** entry in the Part menu or click on the ![](/src/assets/images/Part_Compound.svg) button.
+2. Choose **Part → Compound → Make Compound** entry in the Part menu or click on the ![](/images/Part_Compound.svg) button.
 
 ## Notes
 

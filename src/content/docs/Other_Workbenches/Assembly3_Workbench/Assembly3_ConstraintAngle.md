@@ -35,7 +35,7 @@ The constraint accepts straight edges and planar faces.
 
 1. Place two or more objects into an assembly.
 2. Select one straight edge element or one planar face element of each object.
-3. Press the ![](/src/assets/images/Assembly_ConstraintAngle.svg) Create "Angle" Constraint button.
+3. Press the ![](/images/Assembly_ConstraintAngle.svg) Create "Angle" Constraint button.
 4. Optionally change the value of the Data**Angle** property.
 
 ## Notes

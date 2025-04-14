@@ -2,11 +2,11 @@
 title: Spreadsheet Einstellungen
 ---
 
-Die Einstellungen für den Arbeitsbereich ![](/src/assets/images/Workbench_Spreadsheet.svg) [Spreadsheet](/Spreadsheet_Workbench/de "Spreadsheet Workbench/de") befinden sich im [Voreinstellungseditor](/Preferences_Editor/de "Preferences Editor/de"). Den Menüeintrag **Bearbeiten → Einstellungen...** auswählen und dann **![](/src/assets/images/Workbench_Spreadsheet.svg) Spreadsheet**. Diese Gruppe steht nur dann zur Verfügung, wenn der Arbeitsbereich Spreadsheet in der aktuellen FreeCAD-Sitzung geladen wurde.
+Die Einstellungen für den Arbeitsbereich ![](/images/Workbench_Spreadsheet.svg) [Spreadsheet](/Spreadsheet_Workbench/de "Spreadsheet Workbench/de") befinden sich im [Voreinstellungseditor](/Preferences_Editor/de "Preferences Editor/de"). Den Menüeintrag **Bearbeiten → Einstellungen...** auswählen und dann **![](/images/Workbench_Spreadsheet.svg) Spreadsheet**. Diese Gruppe steht nur dann zur Verfügung, wenn der Arbeitsbereich Spreadsheet in der aktuellen FreeCAD-Sitzung geladen wurde.
 
 Es gibt nur eine Seite: Spreadsheet.
 
-![](/src/assets/images/Preferences_Spreadsheet_Page_Spreadsheet.png)
+![](/images/Preferences_Spreadsheet_Page_Spreadsheet.png)
 
 Auf dieser Seite kann Folgendes festgelegt werden:
 

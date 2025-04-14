@@ -56,18 +56,18 @@ The particular parameter values for our variants are described in this table:
 
 1. Create a new [spreadsheet](/Spreadsheet_CreateSheet "Spreadsheet CreateSheet") with a heading row. Leave the second row empty. That row will hold the current configuration and will automatically be filled later. Add parameters for M10 and M12 in rows 3 and 4:
 
-   ![](/src/assets/images/Variant-link-spreadsheet-table-example-before-configuration-table.png)
+   ![](/images/Variant-link-spreadsheet-table-example-before-configuration-table.png)
 
 2. Use the [PartDesign Workbench](/PartDesign_Workbench "PartDesign Workbench") to create a [Body](/PartDesign_Body "PartDesign Body") and [Sketch](/PartDesign_NewSketch "PartDesign NewSketch") for the hex nut. Dimensional constraint will be added in a later step.
 
-   ![](/src/assets/images/Variant-link-example-hex-nut-sketch-unconstrained.png)
+   ![](/images/Variant-link-example-hex-nut-sketch-unconstrained.png)
 
 3. [Pad](/PartDesign_Pad "PartDesign Pad") the Sketch. Accept the default Length value.
 4. Right-click cell A2 in the spreadsheet and select **Configuration table...** from the context menu.
 5. The **Setup Configuration Table** dialog opens.
 6. Enter the following:
 
-   ![](/src/assets/images/Variant-link-example-setup-configuration-table.png)
+   ![](/images/Variant-link-example-setup-configuration-table.png)
 
    This fills out the second row in the table, adds a new Data**Configuration** property to the Body and binds the configuration table to it.
 
@@ -75,11 +75,11 @@ The particular parameter values for our variants are described in this table:
 8. If cell A2 shows `#PENDING`, you can right-click the spreadsheet in the [Tree view](/Tree_view "Tree view") and choose **Recompute object** to show the correct value.
 9. Set an alias for the 3 cells in row 2 underneath Diameter, WidthAcrossCorners, and Thickness. Each alias should match the cell's column heading.
 
-   ![](/src/assets/images/Variant-link-spreadsheet-table-example.png)
+   ![](/images/Variant-link-spreadsheet-table-example.png)
 
 10. Constrain the Sketch with two constraints and bind the [expressions](/Expressions "Expressions") `Spreadsheet.Diameter` and `Spreadsheet.WidthAcrossCorners` to them:
 
-    ![](/src/assets/images/Variant-link-example-hex-nut-sketch.png)
+    ![](/images/Variant-link-example-hex-nut-sketch.png)
 
 11. Bind `Spreadsheet.Thickness` to the Data**Length** of the pad.
 12. Create a [PartDesign SubShapeBinder](/PartDesign_SubShapeBinder "PartDesign SubShapeBinder").
@@ -91,7 +91,7 @@ The particular parameter values for our variants are described in this table:
 18. Change the Data**Placement** of the Binder so that it's away from the Body.
 19. Once finished, you should have something like the following:
 
-    ![](/src/assets/images/Variant-link-finished-example-document.png)
+    ![](/images/Variant-link-finished-example-document.png)
 
 ### Use Std Link instead of PartDesign SubShapeBinder
 

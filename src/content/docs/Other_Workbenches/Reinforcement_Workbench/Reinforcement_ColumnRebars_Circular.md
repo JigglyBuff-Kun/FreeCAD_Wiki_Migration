@@ -21,7 +21,7 @@ title: Reinforcement ColumnRebars Circular
 
 The [Reinforcement ColumnRebars](/Reinforcement_ColumnRebars "Reinforcement ColumnRebars") tool allows the user to create reinforcing bars inside a Column [Arch Structure](/Arch_Structure "Arch Structure") object. This page shows an additional usage example for the tool.
 
-This tool is part of the [Reinforcement Workbench](/Reinforcement_Workbench "Reinforcement Workbench"), an [external workbench](/External_workbenches "External workbenches") that can be installed with the ![](/src/assets/images/Std_AddonMgr.svg) [Addon Manager](/Std_AddonMgr "Std AddonMgr").
+This tool is part of the [Reinforcement Workbench](/Reinforcement_Workbench "Reinforcement Workbench"), an [external workbench](/External_workbenches "External workbenches") that can be installed with the ![](/images/Std_AddonMgr.svg) [Addon Manager](/Std_AddonMgr "Std AddonMgr").
 
 Three usage examples are available:
 
@@ -29,24 +29,24 @@ Three usage examples are available:
 - [Two ties six rebars rectangular column](/Reinforcement_ColumnRebars_TwoTiesSixRebars "Reinforcement ColumnRebars TwoTiesSixRebars")
 - [Circular column (see below)](#Usage)
 
-![](/src/assets/images/Arch_Rebar_Circular_ColumnReinforcement_example.png)
+![](/images/Arch_Rebar_Circular_ColumnReinforcement_example.png)
 
 Circular reinforcement inside a [column](/Arch_Structure "Arch Structure")
 
 ## Usage
 
-1. Select top face of a previously created ![](/src/assets/images/Arch_Structure.svg) [Arch Structure](/Arch_Structure "Arch Structure") object.
+1. Select top face of a previously created ![](/images/Arch_Structure.svg) [Arch Structure](/Arch_Structure "Arch Structure") object.
 
-2. Then select ![](/src/assets/images/Reinforcement_ColumnRebars.svg) [Column Reinforcement](/Reinforcement_ColumnRebars "Reinforcement ColumnRebars") from the rebar tools.
+2. Then select ![](/images/Reinforcement_ColumnRebars.svg) [Column Reinforcement](/Reinforcement_ColumnRebars "Reinforcement ColumnRebars") from the rebar tools.
 
 3. A dialog box will pop-out on screen as shown below.
 
-: ![](/src/assets/images/ColumnReinforcementDialog_Ties.png)
+: ![](/images/ColumnReinforcementDialog_Ties.png)
 : Dialog Box for the Arch Rebar ColumnReinforcement tool
 
 4. Select the Circular Column radio button in column reinforcement dialog.
 
-: ![](/src/assets/images/CircularColumnReinforcementDialog.png)
+: ![](/images/CircularColumnReinforcementDialog.png)
 : Dialog Box for Circular Column Reinforcement
 
 5. Give inputs for data related to circular column reinforcement.

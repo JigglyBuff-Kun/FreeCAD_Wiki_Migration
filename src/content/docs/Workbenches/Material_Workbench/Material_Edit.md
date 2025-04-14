@@ -21,22 +21,22 @@ title: Material Edit
 
 The **Material Edit** tool provides access to the material editor which is part of the [material](/Material "Material") system of FreeCAD. The material system can be used by all workbenches. It handles the material properties and also the appearance properties of objects.
 
-![](/src/assets/images/Material_Edit_Dialog.png)
+![](/images/Material_Edit_Dialog.png)
 
 ## Usage
 
 1. There are several ways to launch the editor:
    - [Material Workbench](/Material_Workbench "Material Workbench"):
-     - Press the ![](/src/assets/images/Material_Edit.svg) [Edit...](/Material_Edit "Material Edit") button.
-     - Select the **Materials → ![](/src/assets/images/Material_Edit.svg) Edit...** option from the menu.
+     - Press the ![](/images/Material_Edit.svg) [Edit...](/Material_Edit "Material Edit") button.
+     - Select the **Materials → ![](/images/Material_Edit.svg) Edit...** option from the menu.
    - [FEM Workbench](/FEM_Workbench "FEM Workbench"):
-     - Press the ![](/src/assets/images/FEM_MaterialEditor.svg) [Material editor](/FEM_MaterialEditor "FEM MaterialEditor") button.
-     - Select the **Model → Materials → ![](/src/assets/images/FEM_MaterialEditor.svg) Material editor** option from the menu.
+     - Press the ![](/images/FEM_MaterialEditor.svg) [Material editor](/FEM_MaterialEditor "FEM MaterialEditor") button.
+     - Select the **Model → Materials → ![](/images/FEM_MaterialEditor.svg) Material editor** option from the menu.
    - All workbenches:
      1. Select an object.
      2. Do one of the following:
-        - Select the **View → ![](/src/assets/images/Material_Edit.svg) Material...** option from the menu.
-        - Select the **![](/src/assets/images/Material_Edit.svg) Material...** option from the [Tree view](/Tree_view "Tree view") or [3D view](/3D_view "3D view") context menu.
+        - Select the **View → ![](/images/Material_Edit.svg) Material...** option from the menu.
+        - Select the **![](/images/Material_Edit.svg) Material...** option from the [Tree view](/Tree_view "Tree view") or [3D view](/3D_view "3D view") context menu.
      3. The **Material** task panel opens.
      4. Press the Launch editor button.
 2. Select a material from the multilevel list in the left panel. The following categories are available:

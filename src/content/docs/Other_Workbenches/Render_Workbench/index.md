@@ -2,7 +2,7 @@
 title: Render Workbench
 ---
 
-![](/src/assets/images/Render_workbench_icon.svg)
+![](/images/Render_workbench_icon.svg)
 
 Render Workbench icon
 
@@ -10,92 +10,92 @@ Render Workbench icon
 
 The Render Workbench let's you produce high-quality images from FreeCAD models, using open-source external rendering engines.
 
-- ![Barcelona pavilion Screenshot](/src/assets/images/Pabellon_de_Barcelona.png)
+- ![Barcelona pavilion Screenshot](/images/Pabellon_de_Barcelona.png)
 
   Barcelona pavilion  
   Screenshot
 
-- ![Barcelona pavilion Povray rendering](/src/assets/images/Pabellon_de_Barcelona_Pov_large.png)
+- ![Barcelona pavilion Povray rendering](/images/Pabellon_de_Barcelona_Pov_large.png)
 
   Barcelona pavilion  
   Povray rendering
 
-- ![Barcelona pavilion Cycles rendering](/src/assets/images/Pabellon_de_Barcelona_Cycles.png)
+- ![Barcelona pavilion Cycles rendering](/images/Pabellon_de_Barcelona_Cycles.png)
 
   Barcelona pavilion  
   Cycles rendering
 
-- ![Asm V4 Screenshot](/src/assets/images/Asm_V4.png)
+- ![Asm V4 Screenshot](/images/Asm_V4.png)
 
   Asm V4  
   Screenshot
 
-- ![Asm V4 LuxCore rendering](/src/assets/images/Asm_V4_lux.png)
+- ![Asm V4 LuxCore rendering](/images/Asm_V4_lux.png)
 
   Asm V4  
   LuxCore rendering
 
-- ![Asm V4 Ospray rendering](/src/assets/images/Asm_V4_ospray2.png)
+- ![Asm V4 Ospray rendering](/images/Asm_V4_ospray2.png)
 
   Asm V4  
   Ospray rendering
 
-- ![Church of the light Screenshot](/src/assets/images/Church_of_the_light.png)
+- ![Church of the light Screenshot](/images/Church_of_the_light.png)
 
   Church of the light  
   Screenshot
 
-- ![Church of the light LuxCore rendering](/src/assets/images/Church_of_the_light_lux2.png)
+- ![Church of the light LuxCore rendering](/images/Church_of_the_light_lux2.png)
 
   Church of the light  
   LuxCore rendering
 
-- ![Church of the light Cycles rendering](/src/assets/images/Church_of_the_light_cycles.png)
+- ![Church of the light Cycles rendering](/images/Church_of_the_light_cycles.png)
 
   Church of the light  
   Cycles rendering
 
-- ![Car Screenshot](/src/assets/images/Car.png)
+- ![Car Screenshot](/images/Car.png)
 
   Car  
   Screenshot
 
-- ![Car Ospray rendering](/src/assets/images/Car_ospray.png)
+- ![Car Ospray rendering](/images/Car_ospray.png)
 
   Car  
   Ospray rendering
 
-- ![Car LuxCore rendering](/src/assets/images/Car_lux.png)
+- ![Car LuxCore rendering](/images/Car_lux.png)
 
   Car  
   LuxCore rendering
 
-- ![Brick assembly Screenshot](/src/assets/images/Brick_assembly.png)
+- ![Brick assembly Screenshot](/images/Brick_assembly.png)
 
   Brick assembly  
   Screenshot
 
-- ![Brick assembly Appleseed rendering](/src/assets/images/Brick_assembly_appleseed.png)
+- ![Brick assembly Appleseed rendering](/images/Brick_assembly_appleseed.png)
 
   Brick assembly  
   Appleseed rendering
 
-- ![Brick assembly Luxcore rendering](/src/assets/images/Brick_assembly_luxcore.png)
+- ![Brick assembly Luxcore rendering](/images/Brick_assembly_luxcore.png)
 
   Brick assembly  
   Luxcore rendering
 
-- ![Villa Savoye Screenshot](/src/assets/images/VillaSavoye.png)
+- ![Villa Savoye Screenshot](/images/VillaSavoye.png)
 
   Villa Savoye  
   Screenshot
 
-- ![Villa Savoye Appleseed rendering](/src/assets/images/VillaSavoye_appleseed.png)
+- ![Villa Savoye Appleseed rendering](/images/VillaSavoye_appleseed.png)
 
   Villa Savoye  
   Appleseed rendering
 
-- ![Villa Savoye Cycles rendering](/src/assets/images/VillaSavoye_Cycles.png)
+- ![Villa Savoye Cycles rendering](/images/VillaSavoye_Cycles.png)
 
   Villa Savoye  
   Cycles rendering

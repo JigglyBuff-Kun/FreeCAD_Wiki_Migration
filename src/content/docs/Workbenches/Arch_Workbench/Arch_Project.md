@@ -31,7 +31,7 @@ Note that, although any other BIM object can be added to a Project, which the IF
 
 ## Usage
 
-1. Press the ![](/src/assets/images/Arch_Project.svg) [Arch Project](/Arch_Project "Arch Project") button, or press the P then O keys.
+1. Press the ![](/images/Arch_Project.svg) [Arch Project](/Arch_Project "Arch Project") button, or press the P then O keys.
 2. Add any object to your project by drag-and-dropping them onto the Project in the [Tree view](/Tree_view "Tree view").
 
 Retrieved from "<http://wiki.freecad.org/index.php?title=Arch_Project/en&oldid=1467148>"

@@ -19,9 +19,9 @@ title: Sketcher ConstrainDistance
 
 ## Description
 
-The ![](/src/assets/images/Sketcher_ConstrainDistance.svg) [Sketcher ConstrainDistance](/Sketcher_ConstrainDistance "Sketcher ConstrainDistance") tool fixes the length of a line, the distance between two points, the perpendicular distance between a point and a line; or, [introduced in 0.21](/Release_notes_0.21 "Release notes 0.21"), the distance between the edges of two circles or arcs, or between the edge of a circle or arc and a line; or, [introduced in 1.0](/Release_notes_1.0 "Release notes 1.0"), the length of an arc.
+The ![](/images/Sketcher_ConstrainDistance.svg) [Sketcher ConstrainDistance](/Sketcher_ConstrainDistance "Sketcher ConstrainDistance") tool fixes the length of a line, the distance between two points, the perpendicular distance between a point and a line; or, [introduced in 0.21](/Release_notes_0.21 "Release notes 0.21"), the distance between the edges of two circles or arcs, or between the edge of a circle or arc and a line; or, [introduced in 1.0](/Release_notes_1.0 "Release notes 1.0"), the length of an arc.
 
-![](/src/assets/images/Sketcher_ConstrainDistance_example.png)
+![](/images/Sketcher_ConstrainDistance_example.png)
 
 ## Usage
 
@@ -31,10 +31,10 @@ See also: [Drawing aids](/Sketcher_Workbench#Drawing_aids "Sketcher Workbench").
 
 1. Make sure there is no selection.
 2. There are several ways to invoke the tool:
-   - [introduced in 1.0](/Release_notes_1.0 "Release notes 1.0"): If the **Dimensioning constraints** [preference](/Sketcher_Preferences#General "Sketcher Preferences") is set to `Single tool` (default): press the down arrow to the right of the ![](/src/assets/images/Sketcher_Dimension.svg)![](/src/assets/images/Toolbar_flyout_arrow.svg) button and select the **![](/src/assets/images/Sketcher_ConstrainDistance.svg) Constrain distance** option from the dropdown.
-   - If this preference has a different value (and in 0.21 and below): press the ![](/src/assets/images/Sketcher_ConstrainDistance.svg) [Constrain distance](/Sketcher_ConstrainDistance "Sketcher ConstrainDistance") button.
-   - Select the **Sketch → Sketcher constraints → ![](/src/assets/images/Sketcher_ConstrainDistance.svg) Constrain distance** option from the menu.
-   - [introduced in 1.0](/Release_notes_1.0 "Release notes 1.0"): Right-click in the [3D view](/3D_view "3D view") and select the **Dimension → ![](/src/assets/images/Sketcher_ConstrainDistance.svg) Constrain distance** option from the context menu.
+   - [introduced in 1.0](/Release_notes_1.0 "Release notes 1.0"): If the **Dimensioning constraints** [preference](/Sketcher_Preferences#General "Sketcher Preferences") is set to `Single tool` (default): press the down arrow to the right of the ![](/images/Sketcher_Dimension.svg)![](/images/Toolbar_flyout_arrow.svg) button and select the **![](/images/Sketcher_ConstrainDistance.svg) Constrain distance** option from the dropdown.
+   - If this preference has a different value (and in 0.21 and below): press the ![](/images/Sketcher_ConstrainDistance.svg) [Constrain distance](/Sketcher_ConstrainDistance "Sketcher ConstrainDistance") button.
+   - Select the **Sketch → Sketcher constraints → ![](/images/Sketcher_ConstrainDistance.svg) Constrain distance** option from the menu.
+   - [introduced in 1.0](/Release_notes_1.0 "Release notes 1.0"): Right-click in the [3D view](/3D_view "3D view") and select the **Dimension → ![](/images/Sketcher_ConstrainDistance.svg) Constrain distance** option from the context menu.
    - Use the keyboard shortcut K then D.
 3. The cursor changes to a cross with the tool icon.
 4. Do one of the following:

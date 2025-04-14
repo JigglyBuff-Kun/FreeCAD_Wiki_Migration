@@ -19,12 +19,12 @@ title: CAM SimpleCopy
 
 ## Description
 
-The tool ![](/src/assets/images/CAM_SimpleCopy.svg) [SimpleCopy](/CAM_SimpleCopy "CAM SimpleCopy") creates a non-parametric copy of a given path.
+The tool ![](/images/CAM_SimpleCopy.svg) [SimpleCopy](/CAM_SimpleCopy "CAM SimpleCopy") creates a non-parametric copy of a given path.
 
 ## Usage
 
 1. Select one [CAM](/CAM_Workbench "CAM Workbench") object
-2. Press the ![](/src/assets/images/CAM_SimpleCopy.svg) [Simple Copy](/CAM_SimpleCopy "CAM SimpleCopy") button
+2. Press the ![](/images/CAM_SimpleCopy.svg) [Simple Copy](/CAM_SimpleCopy "CAM SimpleCopy") button
 
 ## Options
 

@@ -31,13 +31,13 @@ See also [Preference Packs](/Preference_Packs "Preference Packs").
 
 Begin by adding a custom repository. Go to **Edit → Preferences → Addon manager options** and click the + button to open the **Custom repository** dialog.
 
-![](/src/assets/images/Preferences_AM_addrepo.png)
+![](/images/Preferences_AM_addrepo.png)
 
 ### Custom repository dialog
 
 Enter the URL of the github repository and the branch.
 
-![](/src/assets/images/Preferences_AM_customrepo.png)
+![](/images/Preferences_AM_customrepo.png)
 
 In this example I have added:
 
@@ -47,7 +47,7 @@ Click OK when complete.
 
 ### Preferences with custom repository added
 
-![](/src/assets/images/Preferences_AM_after.png)
+![](/images/Preferences_AM_after.png)
 
 Click OK when complete.
 
@@ -55,13 +55,13 @@ Click OK when complete.
 
 The custom pack can now be installed using **Tools → Addon manager**.
 
-![](/src/assets/images/PreferencePack_in_AM.png)
+![](/images/PreferencePack_in_AM.png)
 
 ## Apply the preference pack
 
 Once installed go to **Edit → Preferences → General**, find the preference pack, and click Apply.
 Follow any instructions offered.
 
-![](/src/assets/images/PeferencesPP_apply.png)
+![](/images/PeferencesPP_apply.png)
 
 Retrieved from "<http://wiki.freecad.org/index.php?title=Private_Preference_Packs/en&oldid=1251859>"

@@ -23,17 +23,17 @@ This documentation is not finished. Please help and contribute documentation.Gui
 
 ## Description
 
-The ![](/src/assets/images/Curves_MixedCurve.svg) **Curves MixedCurve** tool creates a 3D intersection curve of two projected curves.
+The ![](/images/Curves_MixedCurve.svg) **Curves MixedCurve** tool creates a 3D intersection curve of two projected curves.
 
 ## Usage
 
 1. Select two curves.
 2. There are several ways to invoke the tool:
-   - Press the ![](/src/assets/images/Curves_MixedCurve.svg) [Mixed curve](/Curves_MixedCurve "Curves MixedCurve") button.
-   - Select the **Curves → ![](/src/assets/images/Curves_MixedCurve.svg) Mixed curve** option from the menu.
+   - Press the ![](/images/Curves_MixedCurve.svg) [Mixed curve](/Curves_MixedCurve "Curves MixedCurve") button.
+   - Select the **Curves → ![](/images/Curves_MixedCurve.svg) Mixed curve** option from the menu.
 3. A **Mixed_Curve** object is created.
 4. In the [Property editor](/Property_editor "Property editor") edit the Data**Direction1** and Data**Direction2** properties to set the projection directions.  
-   This is optional if both selected curves were made with the ![](/src/assets/images/Workbench_Sketcher.svg) [Sketcher Workbench](/Sketcher_Workbench "Sketcher Workbench").
+   This is optional if both selected curves were made with the ![](/images/Workbench_Sketcher.svg) [Sketcher Workbench](/Sketcher_Workbench "Sketcher Workbench").
 
 ## Notes
 

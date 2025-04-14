@@ -21,7 +21,7 @@ title: TechDraw ExtensionPosHorizChainDimension
 
 The **TechDraw ExtensionPosHorizChainDimension** tool aligns horizontal dimensions to create a chain dimension.
 
-![](/src/assets/images/TechDraw_ExtensionPosHorizChainDimensionExample.png)
+![](/images/TechDraw_ExtensionPosHorizChainDimensionExample.png)
 
 On the right the aligned dimensions
 
@@ -30,8 +30,8 @@ On the right the aligned dimensions
 1. Select two or more horizontal dimensions.
 2. The first dimension defines the position. This dimension will not be move.
 3. There are several ways to invoke the tool:
-   - Press the ![](/src/assets/images/TechDraw_ExtensionPosHorizChainDimension.svg) [Position Horizontal Chain Dimensions](/TechDraw_ExtensionPosHorizChainDimension "TechDraw ExtensionPosHorizChainDimension") button.
-   - Select the **TechDraw → Extensions: Attributes/Modifications → ![](/src/assets/images/TechDraw_ExtensionPosHorizChainDimension.svg) Position Horizontal Chain Dimensions** option from the menu.
+   - Press the ![](/images/TechDraw_ExtensionPosHorizChainDimension.svg) [Position Horizontal Chain Dimensions](/TechDraw_ExtensionPosHorizChainDimension "TechDraw ExtensionPosHorizChainDimension") button.
+   - Select the **TechDraw → Extensions: Attributes/Modifications → ![](/images/TechDraw_ExtensionPosHorizChainDimension.svg) Position Horizontal Chain Dimensions** option from the menu.
 4. The dimensions are aligned and their dimension texts are centered.
 
 ## Notes

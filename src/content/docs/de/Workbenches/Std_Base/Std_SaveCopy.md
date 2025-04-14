@@ -23,7 +23,7 @@ Der Befehl **Std KopieSpeichern** speichert eine Kopie des aktiven Dokuments unt
 
 ## Anwendung
 
-1. Menüeintrag **Datei → ![](/src/assets/images/Std_SaveCopy.svg) Speichern einer Kopie...** auswählen.
+1. Menüeintrag **Datei → ![](/images/Std_SaveCopy.svg) Speichern einer Kopie...** auswählen.
 2. Einen Dateinamen im Dialogfeld eingeben.
 3. Schaltfläche Speichern drücken.
 

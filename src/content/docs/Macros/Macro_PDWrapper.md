@@ -32,7 +32,7 @@ PDWrapper encapsulates solids created in other workbenches inside a PartDesign::
 
 Examples and full documentation can be found on github: [PDWrapper](https://github.com/mwganson/pdwrapper).
 
-![](/src/assets/images/Pdwrapper_scr.png)
+![](/images/Pdwrapper_scr.png)
 
 Macro PDWrapper screenshot‎
 
@@ -69,13 +69,13 @@ webbrowser.open("https://gist.github.com/mwganson/4106e84eeaaf4d6e056cd286cbc391
 <class="rawcodeurl"><a href="<https://gist.github.com/mwganson/4106e84eeaaf4d6e056cd286cbc39170/raw/addc2f23ca223fd4f3332cfa04f2264ef0ee908b/Pdwrapper.FCMacro>">raw code</a>
 
 ToolBar Icon
-![](/src/assets/images/Workbench_PartDesign.svg)
+![](/images/Workbench_PartDesign.svg)
 
 ## Script
 
 **Macro Pdwrapper.FCMacro**
 
-[![](/src/assets/images/Nuvola_apps_download_manager.png)](https://gist.github.com/mwganson/4106e84eeaaf4d6e056cd286cbc39170)
+[![](/images/Nuvola_apps_download_manager.png)](https://gist.github.com/mwganson/4106e84eeaaf4d6e056cd286cbc39170)
 
 [Pdwrapper.FCMacro](https://gist.github.com/mwganson/4106e84eeaaf4d6e056cd286cbc39170)
 

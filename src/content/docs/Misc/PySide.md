@@ -15,7 +15,7 @@ For more information see:
 - [Wikipedia:PySide](https://en.wikipedia.org/wiki/PySide)
 - [Differences Between PySide and PyQt](https://wiki.qt.io/Differences_Between_PySide_and_PyQt)
 
-![](/src/assets/images/PySideScreenSnapshot1.jpg) ![](/src/assets/images/PySideScreenSnapshot2.jpg)
+![](/images/PySideScreenSnapshot1.jpg) ![](/images/PySideScreenSnapshot2.jpg)
 
 Examples created with PySide. Left: a simple dialog. Right: a more complex dialog with graphs.
 

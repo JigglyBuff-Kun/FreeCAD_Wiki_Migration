@@ -24,7 +24,7 @@ This feature explodes a fusion or a compound back to single parts applying rando
 ## Usage
 
 1. Select fusion/compound to be exploded
-2. Click on ![](/src/assets/images/OpenSCAD_ExplodeGroup.svg) or choose OpenSCAD → ![](/src/assets/images/OpenSCAD_ExplodeGroup.svg) Explode Group from the top menu.
+2. Click on ![](/images/OpenSCAD_ExplodeGroup.svg) or choose OpenSCAD → ![](/images/OpenSCAD_ExplodeGroup.svg) Explode Group from the top menu.
 
 ## Limitations
 

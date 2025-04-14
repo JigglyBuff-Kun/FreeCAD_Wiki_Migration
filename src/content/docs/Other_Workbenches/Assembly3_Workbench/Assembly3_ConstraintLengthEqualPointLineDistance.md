@@ -34,9 +34,9 @@ The length value of the first selected line equals the shortest distance between
 1. Select a point.
 2. Select the 2D line to be constrained.
 3. Select the line that defines the distance to the point.
-4. Press the ![](/src/assets/images/Assembly_ConstraintLengthEqualPointLineDistance.svg) [Length Equal Point Line Distance](/Assembly3_ConstraintLengthEqualPointLineDistance "Assembly3 ConstraintLengthEqualPointLineDistance") button.
-5. Press the ![](/src/assets/images/Assembly3_workbench_icon.svg) [Solve constraints](/Assembly3_ResolveConstraints "Assembly3 ResolveConstraints") or the ![](/src/assets/images/Assembly_QuickSolve.svg) [Quick solve](/Assembly3_QuickSolve "Assembly3 QuickSolve") button to recompute
+4. Press the ![](/images/Assembly_ConstraintLengthEqualPointLineDistance.svg) [Length Equal Point Line Distance](/Assembly3_ConstraintLengthEqualPointLineDistance "Assembly3 ConstraintLengthEqualPointLineDistance") button.
+5. Press the ![](/images/Assembly3_workbench_icon.svg) [Solve constraints](/Assembly3_ResolveConstraints "Assembly3 ResolveConstraints") or the ![](/images/Assembly_QuickSolve.svg) [Quick solve](/Assembly3_QuickSolve "Assembly3 QuickSolve") button to recompute
 
-: : (if ![](/src/assets/images/Assembly_AutoRecompute.svg) [Auto recompute](/Assembly3_AutoRecompute "Assembly3 AutoRecompute") and ![](/src/assets/images/Assembly_SmartRecompute.svg) [Smart recompute](/Assembly3_SmartRecompute "Assembly3 SmartRecompute") are disabled).
+: : (if ![](/images/Assembly_AutoRecompute.svg) [Auto recompute](/Assembly3_AutoRecompute "Assembly3 AutoRecompute") and ![](/images/Assembly_SmartRecompute.svg) [Smart recompute](/Assembly3_SmartRecompute "Assembly3 SmartRecompute") are disabled).
 
 Retrieved from "<http://wiki.freecad.org/index.php?title=Assembly3_ConstraintLengthEqualPointLineDistance/en&oldid=923319>"

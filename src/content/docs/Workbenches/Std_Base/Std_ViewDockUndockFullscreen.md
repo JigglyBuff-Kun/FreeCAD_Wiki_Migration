@@ -21,7 +21,7 @@ title: Std ViewDockUndockFullscreen
 
 [3D views](/3D_view "3D view") can be undocked from the main [FreeCAD interface](/Interface "Interface") and moved to a different display for example.
 
-![](/src/assets/images/FinestraNonAgganciata.png)
+![](/images/FinestraNonAgganciata.png)
 
 An undocked 3D view
 

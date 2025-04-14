@@ -23,7 +23,7 @@ The [CreateImagePlane](/Image_CreateImagePlane "Image CreateImagePlane") tool im
 
 ## Usage
 
-1. Press the ![](/src/assets/images/Image_CreateImagePlane.svg) [Image CreateImagePlane](/Image_CreateImagePlane "Image CreateImagePlane") button.
+1. Press the ![](/images/Image_CreateImagePlane.svg) [Image CreateImagePlane](/Image_CreateImagePlane "Image CreateImagePlane") button.
 2. Select the desired image in your system.
 3. Choose the plane where the image will be placed, give an offset value, and press OK.
 

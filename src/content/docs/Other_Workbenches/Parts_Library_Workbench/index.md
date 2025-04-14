@@ -18,7 +18,7 @@ Detailed description [here](https://github.com/FreeCAD/FreeCAD-library?tab=readm
 
 Parts Library Selector
 
-![](/src/assets/images/PatsLibrary-selector.png)
+![](/images/PatsLibrary-selector.png)
 
 ## Installation
 

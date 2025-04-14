@@ -23,14 +23,14 @@ Das Werkzeug **TechDraw Bild** fügt eine [Bitmap](/Bitmap/de "Bitmap/de")-Grafi
 
 [eingeführt in 1.0](/Release_notes_1.0/de "Release notes 1.0/de"): Auch das Werkzeug [TechDraw Ansicht](/TechDraw_View/de "TechDraw View/de") kann eine Bildansicht erstellen.
 
-![](/src/assets/images/TechDraw_Image_example.png)
+![](/images/TechDraw_Image_example.png)
 
 Ein auf dem Zeichnungsblatt eingefügtes Bild
 
 ## Anwendung
 
 1. Wenn mehrere Zeichnungsblätter im Dokument vorhanden sind: Wahlweise das gewünschte Zeichnungsblatt durch Auswahl in der [Baumansicht](/Tree_view/de "Tree view/de") aktivieren.
-2. Den Menüeintrag **TechDraw → TechDraw Ansichten → ![](/src/assets/images/TechDraw_Image.svg) Bitmap-Grafik einfügen** auswählen.
+2. Den Menüeintrag **TechDraw → TechDraw Ansichten → ![](/images/TechDraw_Image.svg) Bitmap-Grafik einfügen** auswählen.
 3. Wenn mehrere Zeichnungsblätter im Dokument vorhanden sind und noch kein Blatt aktiviert wurde, wird das Dialogfeld **Blattauswahl** geöffnet:
    1. Das gewünschte Blatt auswählen.
    2. Die Schaltfläche OK drücken.

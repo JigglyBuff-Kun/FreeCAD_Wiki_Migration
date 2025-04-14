@@ -66,11 +66,11 @@ webbrowser.open("https://raw.githubusercontent.com/easyw/FreeCAD_Macros/master/A
 
 ## Tools
 
-\*_Aligner_- ![](/src/assets/images/Macro_Center_Align_Objects_with_Faces_or_Edges.svg): a set of tools to move and align 3D parts
+\*_Aligner_- ![](/images/Macro_Center_Align_Objects_with_Faces_or_Edges.svg): a set of tools to move and align 3D parts
 
-\*_Mover_- ![](/src/assets/images/Manipulator_Mover.svg): a set of tools to move and rotate 3D parts on different Axis
+\*_Mover_- ![](/images/Manipulator_Mover.svg): a set of tools to move and rotate 3D parts on different Axis
 
-\*_Measure_- ![](/src/assets/images/Manipulator_Caliper.svg): a set of tools to measure 3D parts, with some Snap facility and Radius, Length, Angle measurements.
+\*_Measure_- ![](/images/Manipulator_Caliper.svg): a set of tools to measure 3D parts, with some Snap facility and Radius, Length, Angle measurements.
 
 These helpers work with **Part, App::Part and Body objects**.
 Each Tool can be **Floating** or **Docked Left or Right**.
@@ -85,17 +85,17 @@ This macro covers the following constraints:
 - Constraint on center Faces and/or Edges.
 - It works also with the new Body and App::Part containers, as well as with STEP hierarchy.
 
-![](/src/assets/images/Center-align-faces.png)
+![](/images/Center-align-faces.png)
 
-![](/src/assets/images/Center-align-faces-in-action.gif)
+![](/images/Center-align-faces-in-action.gif)
 
-![](/src/assets/images/Center-align-Body-objects.gif)
+![](/images/Center-align-Body-objects.gif)
 
-![](/src/assets/images/Utube-alignment-tool-tutorial.png)
+![](/images/Utube-alignment-tool-tutorial.png)
 
 [Aligning tool video tutorial](https://youtu.be/qzixT157jJU)
 
-![](/src/assets/images/Utube-alignment-STEP-models.png)
+![](/images/Utube-alignment-STEP-models.png)
 
 [Aligning STEP models video tutorial](https://youtu.be/aQcPqhlgHBU)
 
@@ -105,7 +105,7 @@ Faces or Edges constraint among non cylindrical parts: Just open a FC document, 
 
 ## Script
 
-The icon for your toolbar ![](/src/assets/images/Macro_Center_Align_Objects_with_Faces_or_Edges.png)
+The icon for your toolbar ![](/images/Macro_Center_Align_Objects_with_Faces_or_Edges.png)
 
 **CenterAlignObjectswFacesEdges.py**
 

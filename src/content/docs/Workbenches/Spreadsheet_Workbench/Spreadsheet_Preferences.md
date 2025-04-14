@@ -2,11 +2,11 @@
 title: Spreadsheet Preferences
 ---
 
-The preferences for the ![](/src/assets/images/Workbench_Spreadsheet.svg) [Spreadsheet Workbench](/Spreadsheet_Workbench "Spreadsheet Workbench") can be found in the [Preferences Editor](/Preferences_Editor "Preferences Editor"). In the menu select **Edit → Preferences...** and then **![](/src/assets/images/Workbench_Spreadsheet.svg) Spreadsheet**. This group is only available if the Spreadsheet Workbench has been loaded in the current FreeCAD session.
+The preferences for the ![](/images/Workbench_Spreadsheet.svg) [Spreadsheet Workbench](/Spreadsheet_Workbench "Spreadsheet Workbench") can be found in the [Preferences Editor](/Preferences_Editor "Preferences Editor"). In the menu select **Edit → Preferences...** and then **![](/images/Workbench_Spreadsheet.svg) Spreadsheet**. This group is only available if the Spreadsheet Workbench has been loaded in the current FreeCAD session.
 
 There is only one page: Spreadsheet.
 
-![](/src/assets/images/Preferences_Spreadsheet_Page_Spreadsheet.png)
+![](/images/Preferences_Spreadsheet_Page_Spreadsheet.png)
 
 On this page you can specify the following:
 

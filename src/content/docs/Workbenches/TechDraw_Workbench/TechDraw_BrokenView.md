@@ -21,11 +21,11 @@ title: TechDraw BrokenView
 
 The **TechDraw BrokenView** tool inserts a "broken view" that is either based on an existing [part view](/TechDraw_View "TechDraw View"), or one or more objects, such as [Bodies](/PartDesign_Body "PartDesign Body") or [Parts](/Std_Part "Std Part"). The broken view also requires one or more [sketches](/Sketcher_NewSketch "Sketcher NewSketch") that define the location and size of the areas to be removed. The BrokenView behaves similarly to other Views. The projection direction is taken from the existing part view, the 3D camera direction or the normal of a selected face.
 
-![](/src/assets/images/TechDraw_BrokenView_example3d.png)
+![](/images/TechDraw_BrokenView_example3d.png)
 
 A shape to be broken and the sketches defining the breaks
 
-![](/src/assets/images/TechDraw_BrokenView_example2d.png)
+![](/images/TechDraw_BrokenView_example2d.png)
 
 The result
 
@@ -35,8 +35,8 @@ The result
 2. Select the object you want to create a broken view of, or select an existing TechDraw view that contains this object.
 3. Add one or more break sketches to the selection by selecting them in the [Tree view](/Tree_view "Tree view"). Each sketch should only contain two parallel lines. You can also use other objects with two parallel edges.
 4. There are several ways to invoke the tool:
-   - Press the ![](/src/assets/images/TechDraw_BrokenView.svg) [Insert Broken View](/TechDraw_BrokenView "TechDraw BrokenView") button.
-   - Select the **TechDraw → TechDraw Views → ![](/src/assets/images/TechDraw_BrokenView.svg) Insert Broken View** option from the menu.
+   - Press the ![](/images/TechDraw_BrokenView.svg) [Insert Broken View](/TechDraw_BrokenView "TechDraw BrokenView") button.
+   - Select the **TechDraw → TechDraw Views → ![](/images/TechDraw_BrokenView.svg) Insert Broken View** option from the menu.
 
 ## Properties
 

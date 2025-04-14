@@ -21,65 +21,65 @@ title: Reinforcement FootingRebars
 
 The [Reinforcement FootingRebars](/Reinforcement_FootingRebars "Reinforcement FootingRebars") tool allows the user to create reinforcing bars inside a Footing [Arch Structure](/Arch_Structure "Arch Structure") object.
 
-This tool is part of the [Reinforcement Workbench](/Reinforcement_Workbench "Reinforcement Workbench"), an [external workbench](/External_workbenches "External workbenches") that can be installed with the ![](/src/assets/images/Std_AddonMgr.svg) [Addon Manager](/Std_AddonMgr "Std AddonMgr").
+This tool is part of the [Reinforcement Workbench](/Reinforcement_Workbench "Reinforcement Workbench"), an [external workbench](/External_workbenches "External workbenches") that can be installed with the ![](/images/Std_AddonMgr.svg) [Addon Manager](/Std_AddonMgr "Std AddonMgr").
 
-![](/src/assets/images/Isometric_view_of_Columns_footing.png)
+![](/images/Isometric_view_of_Columns_footing.png)
 
 An Example of Footing reinforcement in Footing [Arch Structure](/Arch_Structure "Arch Structure")
 
-![](/src/assets/images/Front_View_of_Column_footing.png)
+![](/images/Front_View_of_Column_footing.png)
 
 Front view of given Footing Reinforcement example
 
 ## Usage
 
-1. Select vertical face of a previously created Footing ![](/src/assets/images/Arch_Structure.svg) [Arch Structure](/Arch_Structure "Arch Structure") object as shown in below image.
+1. Select vertical face of a previously created Footing ![](/images/Arch_Structure.svg) [Arch Structure](/Arch_Structure "Arch Structure") object as shown in below image.
 
-: ![](/src/assets/images/Footing_Face_selected.png)
+: ![](/images/Footing_Face_selected.png)
 : Selected face for Footing Arch Structure
 
 2. Then select [Footing Reinforcement](/Reinforcement_FootingRebars "Reinforcement FootingRebars") from the rebar tools.
 
 3. A footing reinforcement dialog box will pop-out on screen as shown below.
 
-: ![](/src/assets/images/Footing_Reinforcement_GUI_.png)
+: ![](/images/Footing_Reinforcement_GUI_.png)
 : Dialog Box for the Footing Reinforcement
 
 4. Select the desired rebar type and other input data for rebars in parallel direction of selected face in footing reinforcement mesh as show in below image.
 
-: ![](/src/assets/images/Input_Fields_for_Parallel_rebars_in_footing_GUI_Dialog_box.png)
+: ![](/images/Input_Fields_for_Parallel_rebars_in_footing_GUI_Dialog_box.png)
 : Dialog Box for Footing Reinforcement of the Rebars in parallel direction of selected face
 
 5. Now click Next or select Cross Rebars in list view and fill desired data for input data for rebars in cross direction of selected face in footing reinforcement mesh as show in below image.
 
-: ![](/src/assets/images/GUICrossRebarInputsFooting.png)
+: ![](/images/GUICrossRebarInputsFooting.png)
 : Dialog Box for Footing Reinforcement of the Rebars in cross direction of selected face
 
 6. Click Next or click on Columns in list view and fill desired input for columns in footing reinforcement. Here you can select to add secondary rebars in columns or not.
 
-: ![](/src/assets/images/Columns_input_fields_for_column_footing.png)
+: ![](/images/Columns_input_fields_for_column_footing.png)
 : Dialog Box for input fields of Columns in Footing Reinforcement
 
 7. Click Next or click on Ties in list view and fill desired input for Ties in columns of footing reinforcement.
 
-: ![](/src/assets/images/Ties_input_fields_for_column_footing.png)
+: ![](/images/Ties_input_fields_for_column_footing.png)
 : Dialog Box for input fields of Ties in columns of Footing Reinforcement
 
 8. Click Next or click on Main rebars in list view and fill desired input for main rebars in columns of footing reinforcement.
 
-: ![](/src/assets/images/Main_Rebar_input_fields_for_column_footing.png)
+: ![](/images/Main_Rebar_input_fields_for_column_footing.png)
 : Dialog Box for input fields of Main rebars in columns of Footing Reinforcement
 
 Note: step 9 and 10 are required, only if secondary rebars check is enable in step 6.
 
 9. Click Next or click on XDir Secondary rebar in list view and fill desired input for secondary rebars in X direction in a column in footing reinforcement.
 
-: ![](/src/assets/images/X_Direction_secondary_rebar_sinput_fields_for_column_footing_Reinforcement.png)
+: ![](/images/X_Direction_secondary_rebar_sinput_fields_for_column_footing_Reinforcement.png)
 : Dialog Box for input fields of X direction rebars in columns of Footing Reinforcement
 
 10. Click Next or click on YDir Secondary rebar in list view and fill desired input for secondary rebars in Y direction in a column in footing reinforcement.
 
-: ![](/src/assets/images/Y_Direction_secondary_rebars_input_fields_for_Column_footing_reinforcement.png)
+: ![](/images/Y_Direction_secondary_rebars_input_fields_for_Column_footing_reinforcement.png)
 : Dialog Box for input fields of Y direction rebars in columns of Footing Reinforcement
 
 11. Click OK or Apply or Finish to generate Footing reinforcement.

@@ -23,7 +23,7 @@ Der Befehl **Std ObjekteEinblenden** zeigt alle Objekte, die zum aktiven Dokumen
 
 ## Anwendung
 
-1. Menüeintrag **Ansicht → Sichtbarkeit → ![](/src/assets/images/Std_ShowObjects.svg) Alle Objekte einblenden** auswählen.
+1. Menüeintrag **Ansicht → Sichtbarkeit → ![](/images/Std_ShowObjects.svg) Alle Objekte einblenden** auswählen.
 
 ## Hinweise
 

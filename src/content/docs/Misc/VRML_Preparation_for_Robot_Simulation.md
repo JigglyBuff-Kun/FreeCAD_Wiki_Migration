@@ -28,14 +28,14 @@ workbench.
 
 ## Overview
 
-This tutorial explains how to use FreeCAD and the ![](/src/assets/images/Workbench_Robot.svg) [Robot Simulation Workbench](/Robot_Workbench "Robot Workbench") to simulate the motions of 6-axis serial robot. **The tutorial focuses on the creation of the VRML file** used as visualization. The base of the VRML file is a FreeCAD model. The version of FreeCAD used is 0.11.4252ppa1 on Ubuntu 32bit.
+This tutorial explains how to use FreeCAD and the ![](/images/Workbench_Robot.svg) [Robot Simulation Workbench](/Robot_Workbench "Robot Workbench") to simulate the motions of 6-axis serial robot. **The tutorial focuses on the creation of the VRML file** used as visualization. The base of the VRML file is a FreeCAD model. The version of FreeCAD used is 0.11.4252ppa1 on Ubuntu 32bit.
 
 ## Open a file or create one with FreeCAD
 
 The tutorial is based on a STEP-file of a Stäubli TX40 (TX40-HB.stp). You can download the file from [Stäubli](https://secure.staubli.com/Intranet_Applications/Robotics/Group/RobDoc.nsf/ea05b3f4b301f597c1256d5f005665e8/bc3707ec036c9f6bc12576c700327958/$FILE/page.html). However, though I still didn't have time to check this, the method should also apply to a model completely made in FreeCAD.
 After opening the file, you should obtain this:
 
-![](/src/assets/images/Staeubli_step_import.png)
+![](/images/Staeubli_step_import.png)
 
 Notice, that on import, the robot is made of 8 shapes, directly on the root of the document tree. The structure of the exported VRML file may change if groups are used. The shapes are ordered from the base to the tool. The last shape contains the axes of rotations of all robot axes. The correlation shape name – part name is given by (as for now (March 2011) FreeCAD doesn't import the names included in STEP files):
 
@@ -142,7 +142,7 @@ You can notice that we have 8 independent groups corresponding to the 8 shapes.
 
 All shapes in the VRML file are expressed in the base frame, independently from each other. For the [Robot Simulation Workbench](/Robot_Workbench "Robot Workbench"), we need to create a structure where a movement of a shape induces a movement of all shapes situated afterwards in the structure. The placement of the shapes will be relative to the preceding shape, so we need to include some translations from the absolute reference system to the relative one. The translations are described in the following picture:
 
-![](/src/assets/images/Staeubli_important_points.png)
+![](/images/Staeubli_important_points.png)
 
 With
 

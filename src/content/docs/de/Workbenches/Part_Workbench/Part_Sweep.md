@@ -19,19 +19,19 @@ title: Part Austragung
 
 ## Beschreibung
 
-Der Befehl ![](/src/assets/images/Part_Sweep.svg) Part Austragung (Sweep) wird verwendet, um eine Fläche, eine Schale (dünnwandiges Objekt) oder eine Festkörper-Form aus einem oder mehreren Profilen (Querschnitten) entlang eines Spines (Rückgratkurve) zu erzeugen.
+Der Befehl ![](/images/Part_Sweep.svg) Part Austragung (Sweep) wird verwendet, um eine Fläche, eine Schale (dünnwandiges Objekt) oder eine Festkörper-Form aus einem oder mehreren Profilen (Querschnitten) entlang eines Spines (Rückgratkurve) zu erzeugen.
 
-Der Befehl Part Austragung ähnelt dem ![](/src/assets/images/Part_Loft.svg) [Part Ausformung](/Part_Loft/de "Part Loft/de") mit einem hinzugefügten Spine.
+Der Befehl Part Austragung ähnelt dem ![](/images/Part_Loft.svg) [Part Ausformung](/Part_Loft/de "Part Loft/de") mit einem hinzugefügten Spine.
 
-![](/src/assets/images/Part_Sweep_simple.png)
+![](/images/Part_Sweep_simple.png)
 
 Ein Festkörper-Sweep-Objekt aus einem einzelnen Profil (A) entlang eines Spines (B) ausgetragen
 
 ## Anwendung
 
 1. Es gibt mehrere Möglichkeiten, den Befehl auzurufen:
-   - Die Schaltfläche ![](/src/assets/images/Part_Sweep.svg) Sweep... drücken.
-   - Den Menüeintrag **Part → ![](/src/assets/images/Part_Sweep.svg) Sweep...** auswählen.
+   - Die Schaltfläche ![](/images/Part_Sweep.svg) Sweep... drücken.
+   - Den Menüeintrag **Part → ![](/images/Part_Sweep.svg) Sweep...** auswählen.
 2. Der [Aufgaben-Bereich](/Task_panel/de "Task panel/de") Sweep wird geöffnet.
 3. In der linken Liste _Verfügbare Profile_ ein Profil auswählen und auf den Pfeil nach rechts klicken, um es in die rechte Liste _Ausgewählte Profile_ zu verschieben.
 4. Wiederholen, wenn mehr als ein Profil verwendet werden soll.
@@ -58,7 +58,7 @@ Wenn "Festkörper erstellen" auf "true" gesetzt ist, erstellt FreeCAD einen Fest
 
 #### Frenet
 
-![](/src/assets/images/Sweep-frenet-comp.png)
+![](/images/Sweep-frenet-comp.png)
 
 Die Eigenschaft "Frenet" steuert, wie sich die Profilausrichtung ändert, Während sie dem Sweep-Spine folgt. Wenn "Frenet" "falsch" ist, wird die Ausrichtung des Profils von Punkt zu Punkt konsistent gehalten. Die resultierende Form weist die kleinstmögliche Verdrehung auf. Wenn ein Profil entlang einer Spirale ausgetragen wird, führt dies unwillkürlich dazu, dass das Profil langsam kriecht (dreht), während es der Spirale folgt. Wird "Frenet" auf "true" gesetzt, wird dies verhindert.
 

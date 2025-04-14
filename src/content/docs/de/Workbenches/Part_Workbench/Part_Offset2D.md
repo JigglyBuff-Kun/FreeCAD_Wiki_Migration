@@ -19,16 +19,16 @@ title: Part 2DVersatz
 
 ## Beschreibung
 
-Das Werkzeug ![](/src/assets/images/Part_Offset2D.svg) **Part Offset2D** konstruiert einen Draht, parallel zum ursprünglichen Draht, in einem bestimmten Abstand von diesem. Oder vergrößert/schrumpft entsprechend eine ebene Fläche.
+Das Werkzeug ![](/images/Part_Offset2D.svg) **Part Offset2D** konstruiert einen Draht, parallel zum ursprünglichen Draht, in einem bestimmten Abstand von diesem. Oder vergrößert/schrumpft entsprechend eine ebene Fläche.
 
 Der Draht/Fläche muss plan sein. Es kann mehrere Drähte in einem Objekt geben, nicht unbedingt koplanar.
 
-![](/src/assets/images/Part_Offset2D_Demo.png)
+![](/images/Part_Offset2D_Demo.png)
 
 ## Anwendung
 
 1. Ein Objekt zum Versetzen auswählen.
-2. Die Schaltfläche ![](/src/assets/images/Part_Offset2D.svg) 2D Offset drücken.
+2. Die Schaltfläche ![](/images/Part_Offset2D.svg) 2D Offset drücken.
 3. Den Versatz im [Aufgabenbereich](/Task_Panel/de "Task Panel/de") einstellen.
 4. OK drücken.
 
@@ -62,15 +62,15 @@ Der Draht/Fläche muss plan sein. Es kann mehrere Drähte in einem Objekt geben,
 
 - Daten-Eigenschaft**Modus** ("Pipe" oder "Skin"): Legt fest, wie nicht geschlosseneDrähte verarbeitet werden. Bei "Pipe" wird der Draht so umrissen, als wäre er eine extrem dünne, geschlossene Kontur. Wenn "Skin", wird ein offener Draht erzeugt.
 
-: ![](/src/assets/images/Part_Offset2D_Mode.png)
+: ![](/images/Part_Offset2D_Mode.png)
 
 - Daten-Eigenschaft**Fügen** ("Bogen", "Tangente", "Schnittpunkt"): legt das Verhalten um Knicke fest. Wenn "Bogen", sind Offsetsegmente mit einem Kreisbogen verbunden, der am Scheitelpunkt zentriert ist. "Tangente" wird auf OCC7.0.0.0. "Schnittpunkt" nicht unterstützt: Versetzte Segmente werden bis zum Schnittpunkt verlängert.
 
-: ![](/src/assets/images/Part_Offset2D_Join.png)
+: ![](/images/Part_Offset2D_Join.png)
 
 - Daten-Eigenschaft**Knotenpunkt** ("falsch", "wahr"): setzt, ob mehrere Drähte gemeinsam oder unabhängig behandelt werden. Wenn "falsch", werden die Drähte unabhängig voneinander versetzt, Knotenpunkte zwischen den resultierenden Drähten werden ignoriert. Wenn "true", werden die Drähte auf kollektive Weise versetzt.
 
-: ![](/src/assets/images/Part_Offset2D_Intersection.png)
+: ![](/images/Part_Offset2D_Intersection.png)
 
 : Nur Drähte innerhalb einer Verbindung werden gekoppelt. Wenn die Struktur beispielsweise wie der Verbund (Draht1, Draht2, Verbindung (Draht3, Draht4)) ist, werden Draht1 und Draht2 gemeinsam, aber unabhängig von Draht3 und Draht4 behandelt. Ebenso werden Draht3 und Draht4 gemeinsam, aber unabhängig von Draht1+Draht2 behandelt.
 
@@ -80,7 +80,7 @@ Der Draht/Fläche muss plan sein. Es kann mehrere Drähte in einem Objekt geben,
 
 - Daten-Eigenschaft**Ausfüllen** ("false", "true"): wenn "true", wird der Raum zwischen dem ursprünglichen Draht/Fläche und dem Offset mit einer Fläche gefüllt.
 
-: ![](/src/assets/images/Part_Offset2D_Fill.png)
+: ![](/images/Part_Offset2D_Fill.png)
 
 ## Skripten
 

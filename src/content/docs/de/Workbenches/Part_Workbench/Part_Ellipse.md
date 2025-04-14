@@ -19,11 +19,11 @@ title: Part Ellipse
 
 ## Beschreibung
 
-Eine ![](/src/assets/images/Part_Ellipse.svg) **Part Ellipse** ist eine parametrische Form, die mit dem Befehl ![](/src/assets/images/Part_Primitives.svg) [Part Grundelemente](/Part_Primitives/de "Part Primitives/de") erstellt werden kann. Im Koordinatensystem durch ihre Daten-Eigenschaft**Placement** festgelegt, liegt die Ellipse auf der XY-Ebene mit ihrer Mittelpunkt im Ursprung. Ihre Hauptachse liegt parallel zur X-Achse.
+Eine ![](/images/Part_Ellipse.svg) **Part Ellipse** ist eine parametrische Form, die mit dem Befehl ![](/images/Part_Primitives.svg) [Part Grundelemente](/Part_Primitives/de "Part Primitives/de") erstellt werden kann. Im Koordinatensystem durch ihre Daten-Eigenschaft**Placement** festgelegt, liegt die Ellipse auf der XY-Ebene mit ihrer Mittelpunkt im Ursprung. Ihre Hauptachse liegt parallel zur X-Achse.
 
 Ein Part-Ellipse ist eigentlich ein gegen den Uhrzeigersinn verlaufender 360°-Ellipsenbogen. Er kann in einen Ellipsensegment gewandelt werden, indem die Daten-Eigenschaft**Angle1** und/oder die Daten-Eigenschaft**Angle2** geändert wird.
 
-![](/src/assets/images/Part_Ellipse_Example.png)
+![](/images/Part_Ellipse_Example.png)
 
 ## Anwendung
 
@@ -31,7 +31,7 @@ Siehe [Part Grundelemente](/Part_Primitives/de#Anwendung "Part Primitives/de").
 
 ## Beispiel
 
-![](/src/assets/images/Part_Ellipse_Scripting_Example.png)
+![](/images/Part_Ellipse_Scripting_Example.png)
 
 Part-Ellipse aus dem Skriptbeispiel
 

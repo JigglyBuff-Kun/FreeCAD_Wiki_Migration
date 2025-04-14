@@ -19,7 +19,7 @@ title: Sketcher TangentialFestlegen
 
 ## Beschreibung
 
-The ![](/src/assets/images/Sketcher_ConstrainTangent.svg) [Sketcher ConstrainTangent](/Sketcher_ConstrainTangent "Sketcher ConstrainTangent") tool constrains two edges, or an edge and an axis, to be tangent. Lines are treated as infinite, and open curves are virtually extended as well. The constraint can also connect two edges, forcing them to be tangent at the joint. If two lines are selected, or a line and the endpoint of another line, the lines are made collinear.
+The ![](/images/Sketcher_ConstrainTangent.svg) [Sketcher ConstrainTangent](/Sketcher_ConstrainTangent "Sketcher ConstrainTangent") tool constrains two edges, or an edge and an axis, to be tangent. Lines are treated as infinite, and open curves are virtually extended as well. The constraint can also connect two edges, forcing them to be tangent at the joint. If two lines are selected, or a line and the endpoint of another line, the lines are made collinear.
 
 Die Randbedingung TangentialFestlegen legt fest, dass sich zwei Kurven berühren (sie tangential sind). Linien werden als unendlich angesehen, und Bögen werden wie Vollkreise/Ellipsen behandelt. Die Randbedingung ist auch in der Lage, zwei Kurven miteinander zu verbinden, und sie gleichzeitig an der Verbindungsstelle tangential festzulegen, wodurch die Verbindung glatt wird.
 
@@ -31,9 +31,9 @@ Siehe auch: [Zeichnungshilfen](/Sketcher_Workbench/de#Zeichnungshilfen "Sketcher
 
 1. Sicherstellen, dass die Auswahl leer ist.
 2. Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
-   - Die Schaltfläche ![](/src/assets/images/Sketcher_ConstrainTangent.svg) Tangential oder kollinear festlegen drücken.
-   - Den Menüeintrag **Skizze → Sketcher-Randbedingungen → ![](/src/assets/images/Sketcher_ConstrainTangent.svg) Tangential oder kollinear festlegen** auswählen.
-   - [eingeführt in 1.0](/Release_notes_1.0/de "Release notes 1.0/de"): Ein Rechtsklick in die [3D-Ansicht](/3D_view/de "3D view/de") und die Menüoption **Festlegen → ![](/src/assets/images/Sketcher_ConstrainTangent.svg) Tangential oder kollinear festlegen** im Kontextmenü auswählen.
+   - Die Schaltfläche ![](/images/Sketcher_ConstrainTangent.svg) Tangential oder kollinear festlegen drücken.
+   - Den Menüeintrag **Skizze → Sketcher-Randbedingungen → ![](/images/Sketcher_ConstrainTangent.svg) Tangential oder kollinear festlegen** auswählen.
+   - [eingeführt in 1.0](/Release_notes_1.0/de "Release notes 1.0/de"): Ein Rechtsklick in die [3D-Ansicht](/3D_view/de "3D view/de") und die Menüoption **Festlegen → ![](/images/Sketcher_ConstrainTangent.svg) Tangential oder kollinear festlegen** im Kontextmenü auswählen.
    - Das Tastaturkürzel T.
 3. Der Mauszeiger wandelt sich zu einem Kreuz mit Werkzeugsymbol.
 4. Eine der folgenden Möglichkeiten auswählen:
@@ -52,14 +52,14 @@ Siehe auch: [Zeichnungshilfen](/Sketcher_Workbench/de#Zeichnungshilfen "Sketcher
    - Eine Kante und den Endpunkt einer anderen Kante auswählen (in beliebiger Reihenfolge).
    - Einen Punkt und zwei Kanten auswählen (wie vorher).
 2. Das Werkzeug aufrufen, wie oben beschrieben oder mit der folgenden zusätzlichen Möglichkeit:
-   - [eingeführt in 1.0](/Release_notes_1.0/de "Release notes 1.0/de"): Ein Rechtsklick in die [3D-Ansicht](/3D_view/de "3D view/de") und die Menüoption **![](/src/assets/images/Sketcher_ConstrainTangent.svg) Tangential oder kollinear festlegen** im Kontextmenü auswählen.
+   - [eingeführt in 1.0](/Release_notes_1.0/de "Release notes 1.0/de"): Ein Rechtsklick in die [3D-Ansicht](/3D_view/de "3D view/de") und die Menüoption **![](/images/Sketcher_ConstrainTangent.svg) Tangential oder kollinear festlegen** im Kontextmenü auswählen.
 3. Eine Randbedingung Tangential oder kollinear festlegen wird hinzugefügt. Wurden ein Punkt und zwei Kanten ausgewählt, können auch bis zu zwei Randbedingungen [Punkt auf Objekt festlegen](/Sketcher_ConstrainPointOnObject/de "Sketcher ConstrainPointOnObject/de") hinzugefügt werden. Siehe [Beispiele](#Zwischen_zwei_Kanten_in_einem_Punkt).
 
 ## Beispiele
 
 ### Zwischen zwei Kanten
 
-![](/src/assets/images/Sketcher_ConsraintTangent_mode1.png)
+![](/images/Sketcher_ConsraintTangent_mode1.png)
 
 Die zwei Kanten werden tangential ausgerichtet. Ist eine der Kanten ein [Kegelschnitt](/Sketcher_Workbench/de#Sketcher_CompCreateConic "Sketcher Workbench/de"), wird ein [Punktobjekt](/Sketcher_CreatePoint/de "Sketcher CreatePoint/de") hinzugefügt, das mit jeweils einer Randbedingung [Punkt auf Objekt festlegen](/Sketcher_ConstrainPointOnObject/de "Sketcher ConstrainPointOnObject/de") mit beiden (verlängerten) Kanten verbunden ist.
 
@@ -67,19 +67,19 @@ Es wird nicht empfohlen den Berührpunkt manuell zu bestimmen, indem ein Punkt e
 
 ### Zwischen zwei Endpunkten
 
-![](/src/assets/images/Sketcher_ConsraintTangent_mode2.png)
+![](/images/Sketcher_ConsraintTangent_mode2.png)
 
 Die Endpunkte werden koinzident (deckungsgleich) festgelegt und der Winkel zwischen den Kanten in diesem Punkt auf 180° (stumpfe Verbindung) oder 0° (Scharfe Verbindung) festgelegt, abhängig von der Positionierung der Kanten bevor die Randbedingung zugeordnet wurde.
 
 ### Zwischen Kante und Endpunkt
 
-![](/src/assets/images/Sketcher_ConsraintTangent_mode3.png)
+![](/images/Sketcher_ConsraintTangent_mode3.png)
 
 Der Endpunkt einer Kante wird auf der anderen Kante liegend und die Kanten in diesem Punkt tangential zueinander festgelegt.
 
 ### Zwischen zwei Kanten in einem Punkt
 
-![](/src/assets/images/Sketcher_ConsraintTangent_mode4.png)
+![](/images/Sketcher_ConsraintTangent_mode4.png)
 
 Die zwei Kanten werden in einem gegebenen Punkt tangential zueinander festgelegt. Der Punkt kann ein beliebiger Punkt sein z.B. der Mittelpunkt eines Kreises, der Endpunkt einer Kante oder der Ursprung; er kann zu einer der Kanten gehören und er kann auch ein [Punktobjekt](/Sketcher_CreatePoint/de "Sketcher CreatePoint/de") sein. Wenn erforderlich, werden Randbedingungen [Punkt auf Objekt festlegen](/Sketcher_ConstrainPointOnObject/de "Sketcher ConstrainPointOnObject/de") hinzugefügt, um sicherzustellen, dass der Punkt auf beiden (verlängerten) Kanten liegt. Diese zusätzlichen Randbedingungen werden These additional constraints are called [Helferrandbedingungen](/Sketcher_helper_constraint/de "Sketcher helper constraint/de") genannt.
 
@@ -87,7 +87,7 @@ Verglichen mit der direkten Tangentialität ist diese Randbedingung langsamer, w
 
 ### Zwischen zwei Linien
 
-![](/src/assets/images/Sketcher_ConstraintTangent_mode5.png)
+![](/images/Sketcher_ConstraintTangent_mode5.png)
 
 Die beiden Linien werden kollinear zueinander ausgerichtet.
 

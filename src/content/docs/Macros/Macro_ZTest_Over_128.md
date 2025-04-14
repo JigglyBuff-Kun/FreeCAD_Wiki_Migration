@@ -41,7 +41,7 @@ None
 
 ## Scripting
 
-ToolBar Icon ![](/src/assets/images/Macro_ZTest_Over_128.png)
+ToolBar Icon ![](/images/Macro_ZTest_Over_128.png)
 
 **Macro_ZTest_Over_128.FCMacro**
 

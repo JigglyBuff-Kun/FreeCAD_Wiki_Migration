@@ -43,7 +43,7 @@ The page discussion [Kerkythea Rendering System](http://forum.freecadweb.org/vie
 
 ## Script
 
-ToolBar Icon ![](/src/assets/images/Macro_FreeCAD_to_Kerkythea.png)
+ToolBar Icon ![](/images/Macro_FreeCAD_to_Kerkythea.png)
 
 **Macro ExportToKerkythea.py**
 

@@ -21,17 +21,17 @@ title: Std Schnittebene
 
 Der Befehl **Std Schnittebene** blendet Objekte und Teile von Objekten aus, die sich auf jeweils einer Seite von bis zu drei virtuellen Ebenen in der [3D-Ansicht](/3D_view/de "3D view/de") befinden.
 
-![](/src/assets/images/Std_ToggleClipPlane_example.png)
+![](/images/Std_ToggleClipPlane_example.png)
 
 Ein beschnittenes, hohles Objekt
 
-![](/src/assets/images/Std_ToggleClipPlane_Dialog.png)
+![](/images/Std_ToggleClipPlane_Dialog.png)
 
 Der Dialogbereich Clipping
 
 ## Anwendung
 
-1. Menüeintrag **Ansicht → ![](/src/assets/images/Std_ToggleClipPlane.svg) Schnittebene** auswählen.
+1. Menüeintrag **Ansicht → ![](/images/Std_ToggleClipPlane.svg) Schnittebene** auswählen.
 2. Das Dialogfenster **Abschneiden** wird geöffnet.
 3. Eine der folgenden Möglichkeiten auswählen:
    - Eine oder mehrere der Checkboxen **Abschneiden in X** bis **Abschneiden in Z** aktivieren.

@@ -31,9 +31,9 @@ One issue that arises in a professional CNC shop is that there are many assumpti
 
 Commercial shops will often create a 'setup book' which documents all these assumptions and gives the operators what they need to configure the machine and produce a part.
 
-![](/src/assets/images/CAM_Sanity.svg) [CAM Sanity](/CAM_Sanity "CAM Sanity") is the tool in CAM workbench to generate this kind of information. The output of this command is a stand-alone .html file with embedded images.
+![](/images/CAM_Sanity.svg) [CAM Sanity](/CAM_Sanity "CAM Sanity") is the tool in CAM workbench to generate this kind of information. The output of this command is a stand-alone .html file with embedded images.
 
-![](/src/assets/images/Sanity.jpg)
+![](/images/Sanity.jpg)
 
 Above: Example of a CAM Sanity generated report
 
@@ -75,10 +75,10 @@ Warnings and errors detected by [CAM Sanity](/CAM_Sanity "CAM Sanity"). These ma
 
 ## Usage
 
-1. Select a ![](/src/assets/images/CAM_Job.svg) [CAM Job](/CAM_Job "CAM Job") in the [Tree view](/Tree_view "Tree view").
+1. Select a ![](/images/CAM_Job.svg) [CAM Job](/CAM_Job "CAM Job") in the [Tree view](/Tree_view "Tree view").
 2. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/CAM_Sanity.svg) [CAM Sanity](/CAM_Sanity "CAM Sanity") button.
-   - Select the **CAM → ![](/src/assets/images/CAM_Sanity.svg) Check the CAM job for common errors** option from the menu.
+   - Press the ![](/images/CAM_Sanity.svg) [CAM Sanity](/CAM_Sanity "CAM Sanity") button.
+   - Select the **CAM → ![](/images/CAM_Sanity.svg) Check the CAM job for common errors** option from the menu.
    - Use the keyboard shortcut: P then S.
 3. The relevant information is collected into a Python dictionary and then formatted into asciidoc format.
 4. The asciidoc file is written to disk in the same location as the file that will be post-processed.

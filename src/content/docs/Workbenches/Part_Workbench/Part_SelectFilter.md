@@ -27,28 +27,28 @@ The **Part SelectFilter** command can be used to restrict selection in the [3D v
 
 1. This option only allows the selection of vertices.
 2. There are several ways to invoke this option:
-   - Click on the black down arrow to the right of the ![](/src/assets/images/Part_SelectFilter.svg) button in the toolbar and select the **![](/src/assets/images/Vertex-selection.svg) Vertex selection** option from the flyout. Note: the button image will change depending on the selected option.
+   - Click on the black down arrow to the right of the ![](/images/Part_SelectFilter.svg) button in the toolbar and select the **![](/images/Vertex-selection.svg) Vertex selection** option from the flyout. Note: the button image will change depending on the selected option.
    - Use the keyboard shortcut: X then S.
 
 ### Edge selection
 
 1. This option only allows the selection of edges.
 2. There are several ways to invoke this option:
-   - Select the **![](/src/assets/images/Edge-selection.svg) Edge selection** option from the toolbar. See above.
+   - Select the **![](/images/Edge-selection.svg) Edge selection** option from the toolbar. See above.
    - Use the keyboard shortcut: E then S.
 
 ### Face selection
 
 1. This option only allows the selection of faces.
 2. There are several ways to invoke this option:
-   - Select the **![](/src/assets/images/Face-selection.svg) Face selection** option from the toolbar. See above.
+   - Select the **![](/images/Face-selection.svg) Face selection** option from the toolbar. See above.
    - Use the keyboard shortcut: F then S.
 
 ### All selection filters cleared
 
 1. This option allows the selection of all subelements and of whole objects.
 2. There are several ways to invoke this option:
-   - Select the **![](/src/assets/images/Clear-selection.svg) All selection filters cleared** option from the toolbar. See above.
+   - Select the **![](/images/Clear-selection.svg) All selection filters cleared** option from the toolbar. See above.
    - Use the keyboard shortcut: C then S.
 
 ## Notes

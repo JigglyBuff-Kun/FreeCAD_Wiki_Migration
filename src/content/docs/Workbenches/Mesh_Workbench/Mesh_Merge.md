@@ -25,8 +25,8 @@ The **Mesh Merge** command creates a new non-parametric mesh object, a [Mesh Fea
 
 1. Select two or more mesh objects.
 2. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/Mesh_Merge.svg) [Merge](/Mesh_Merge "Mesh Merge") button.
-   - Select the **Meshes → ![](/src/assets/images/Mesh_Merge.svg) Merge** option from the menu.
+   - Press the ![](/images/Mesh_Merge.svg) [Merge](/Mesh_Merge "Mesh Merge") button.
+   - Select the **Meshes → ![](/images/Mesh_Merge.svg) Merge** option from the menu.
 
 ## Properties
 

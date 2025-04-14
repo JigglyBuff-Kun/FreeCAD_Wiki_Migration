@@ -10,7 +10,7 @@ Essentially all objects that are displayed in the [3D view](/3D_view "3D view") 
 
 See [Part TopoShape](/Part_TopoShape "Part TopoShape") for more information about this type of object.
 
-![](/src/assets/images/Shape_and_mesh.svg)
+![](/images/Shape_and_mesh.svg)
 
 Left: parametric [shape](/Shape "Shape") defined by properties. Right: [mesh](/Mesh "Mesh"), defined by vertices and triangular surfaces.
 

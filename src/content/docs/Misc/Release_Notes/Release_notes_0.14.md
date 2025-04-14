@@ -4,7 +4,7 @@ title: Release notes 0.14
 
 FreeCAD 0.14 was released on July 1, 2014. This is a summary of the most interesting changes. The complete list of changes can be found in the [Mantis changelog](http://www.freecadweb.org/tracker/changelog_page.php). Older versions at: [0.13](/Release_notes_0.13 "Release notes 0.13") - [0.12](/Release_notes_0.12 "Release notes 0.12") - [0.11](/Release_notes_0.11 "Release notes 0.11")
 
-![](/src/assets/images/Freecad_jeep.png)
+![](/images/Freecad_jeep.png)
 
 Jeep model by Psicofil
 
@@ -30,7 +30,7 @@ The last year has seen a couple of interesting side projects emerge along FreeCA
 
 Another similar but more ambitious project is [BOLTS](http://bolts-library.org/), which is also a parts library, but built from parametric scripts, able to produce a wide variety of parametric parts. BOLTS, although application-independent, can also be run from FreeCAD by launching a macro. The image below shows BOLTS running inside FreeCAD.
 
-![](/src/assets/images/Freecad-bearing.png)
+![](/images/Freecad-bearing.png)
 
 Another interesting external project is the [EAGLE importer](http://sourceforge.net/projects/eaglepcb2freecad/), which allows you to import PCB board designs made from several applications into FreeCAD.
 
@@ -46,7 +46,7 @@ Finally, a [units](/Units "Units") system has been implemented at FreeCAD level,
 
 FreeCAD 0.14 becomes even more customizable with the addition of [Style Sheets](http://forum.freecadweb.org/viewtopic.php?f=8&t=4700&start=30) being used to control the background image in the main window. No longer is the user stuck with the grey stone background. Almost any image, picture or custom tile may be used to fill the background space in FreeCAD's main Window.
 
-![](/src/assets/images/Style_Sheets.png)
+![](/images/Style_Sheets.png)
 
 ### Display style override
 
@@ -78,7 +78,7 @@ The [Part Workbench](/Part_Workbench "Part Workbench") now features a [Make Comp
 
 New Part primitives have been added to the [Part CreatePrimitives](/Part_CreatePrimitives "Part CreatePrimitives") tool: Prisms, regular polygons and spirals are now easy to create by filling out a couple of parameters. Furthermore, some tools from the [Draft Workbench](/Draft_Workbench "Draft Workbench") can now take advantage of this feature and create these primitives too, instead of their regular Draft object, when the appropriate option is set in the Draft preferences settings.
 
-![](/src/assets/images/Part_Create_Primitives1.jpeg)
+![](/images/Part_Create_Primitives1.jpeg)
 
 ### Measure tools
 
@@ -100,7 +100,7 @@ An [involute gear generator](/PartDesign_InvoluteGear "PartDesign InvoluteGear")
 
 The Drawing Workbench continues to be improved with some exciting new features. Orthographic Projections now allows all views to be displayed as well as much greater control over individual views. Another key feature, Drawing Templates may now contain data defining Border and Title Block locations that will automatically confine Projections within the border while at the same time automatically avoiding the space occupied by the Title Block.
 
-![](/src/assets/images/DrawingWB.png)
+![](/images/DrawingWB.png)
 
 ### Symbols
 
@@ -110,7 +110,7 @@ A new [Drawing Symbol](/Drawing_Symbol "Drawing Symbol") tool is available on th
 
 ### New rendering tools
 
-![](/src/assets/images/Raytracing_example.jpg)
+![](/images/Raytracing_example.jpg)
 
 The [Raytracing workbench](/Raytracing_Workbench "Raytracing Workbench") has also received some love, and its toolbar has been reworked. The "old" buttons that manually produced partial povray files have been removed (they are still there in the Raytracing menu), and you can now produce a rendering pretty much the same way as you use the [Drawing workbench](/Drawing_Workbench "Drawing Workbench"): You create a new project, give it a template, then fill it with views of your objects. When you are done, just hit the render button, or export it to a file that is ready to render outside of FreeCAD.
 
@@ -126,7 +126,7 @@ Together with the existing support for [POV-Ray](http://en.wikipedia.org/wiki/PO
 
 A new [Spreadsheet Workbench](/Spreadsheet_Workbench "Spreadsheet Workbench") has been added to FreeCAD. It allows you to create [spreadsheet](/Spreadsheet_Create "Spreadsheet Create") objects, that contain 2-dimensional spreadsheet data. It also features an editor so you can edit the spreadsheet contents (texts, numbers and some basic formulas are supported), and a special [cell controller](/Spreadsheet_Controller "Spreadsheet Controller") object, that can scan the document for certain types of objects, extract a certain property from them, and fill a certain range of cells with these values.
 
-![](/src/assets/images/Arch_tutorial_53.jpg)
+![](/images/Arch_tutorial_53.jpg)
 
 ## Draft
 
@@ -142,13 +142,13 @@ The [Draft to Drawing](/Draft_Drawing "Draft Drawing") tool, used to place Draft
 
 The [Draft Dimension](/Draft_Dimension "Draft Dimension") tool has been fully recoded, and dimension objects now behave much better, and have gained a few new properties, allowing to fine-tune them better, such as nicer and scalable arrows, more control over the position of the text and the direction of the dimension, and, above all, better support for the [Drawing Workbench](/Drawing_Workbench "Drawing Workbench"). You can now place dimensions in any plane of the 3D space, and expect correct results when placing them on a Drawing sheet with the [Draft Drawing](/Draft_Drawing "Draft Drawing") tool.
 
-![](/src/assets/images/Draft_dimensions_recode.jpg)
+![](/images/Draft_dimensions_recode.jpg)
 
 ### Hatches
 
 The [Draft workbench](/Draft_Workbench "Draft Workbench") also features a new toy: hatching. On specific Draft objects (those that form a closed shape such as closed polylines, rectangles, regular polygons or circles), it is now possible to apply hatching. Currently, only a couple of default hatch patterns are available, but since those patterns are very easy to create (they are simple svg files), and custom patterns can already be added by the user, the default collection might grow quickly. Draft objects with patterns are also faithfully supported by the [Drawing workbench](/Drawing_Workbench "Drawing Workbench").
 
-![](/src/assets/images/Draft_hatches.jpg)
+![](/images/Draft_hatches.jpg)
 
 ### Ellipses
 
@@ -184,7 +184,7 @@ The [Arch Structure](/Arch_Structure "Arch Structure") tool has gained several i
 
 The [Arch Window](/Arch_Window "Arch Window") tool also gained a new presets system. Although still based on sketches, which ensures maximum flexibility (virtually any window type can be easily created), new windows can now be made from a series of presets. You only need to choose a preset, fill a couple of parameters, and place your window, in an exiting wall or structural element if you wish so. Underneath, an appropriate sketch will be created, which is still editable at any later time.
 
-![](/src/assets/images/Screenshot_arch_window.jpg)
+![](/images/Screenshot_arch_window.jpg)
 
 ### Spaces
 
@@ -194,7 +194,7 @@ A new [Space](/Arch_Space "Arch Space") object is now available, allowing you to
 
 [Walls](/Arch_Wall "Arch Wall") can now be multilayer, with a very simple trick: Several walls can be based on a same baseline, specifying an offset distance from the baseline. This, combined for example with [Arch Frames](/Arch_Frame "Arch Frame"), allows for example to create complex framed walls, or walls with an insulation layer. Furthermore, these walls are aware of their "brothers" (other walls based on the same baseline), and any window placed on one of these walls will also create a hole on its brothers.
 
-![](/src/assets/images/Screenshot_arch_multiwall.jpg)
+![](/images/Screenshot_arch_multiwall.jpg)
 
 ### Stairs
 
@@ -204,7 +204,7 @@ A new [Stairs](/Arch_Stairs "Arch Stairs") tool has also been added, which allow
 
 Reinforcing bars (also called rebars) have been introduced with the [Arch Rebar](/Arch_Rebar "Arch Rebar") tool. They are also based on sketches, which ensures great flexibility. They are created basically by drawing the diagrams of the bars on the appropriate faces of [structural elements](/Arch_Structure "Arch Structure"), then turning those diagrams into actual rebars.
 
-![](/src/assets/images/Screenshot_arch_rebar.jpg)
+![](/images/Screenshot_arch_rebar.jpg)
 
 ### Frames
 

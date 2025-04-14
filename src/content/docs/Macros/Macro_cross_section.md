@@ -30,9 +30,9 @@ title: cross section
 
 Macro to display a cross-section of the objects in the scene: the cross-section plane can be moved by a slider bar.
 
-![](/src/assets/images/Cross-section.png)
+![](/images/Cross-section.png)
 
-![](/src/assets/images/Macro_Cross_Section_02.png)
+![](/images/Macro_Cross_Section_02.png)
 
 ## Use
 
@@ -45,7 +45,7 @@ Macro to display a cross-section of the objects in the scene: the cross-section 
 
 See [forum](http://forum.freecadweb.org/viewtopic.php?f=28&t=15084&p=120159#p120159)
 
-![](/src/assets/images/Macro_Cross_Section_01.png)
+![](/images/Macro_Cross_Section_01.png)
 
 Look down right: "Keep the sectional view"
 
@@ -63,7 +63,7 @@ Changes by g.becu include.
 
 Changes by Chris_G include.
 
-ToolBar Icon ![](/src/assets/images/Macro_cross_section.png)
+ToolBar Icon ![](/images/Macro_cross_section.png)
 
 **Macro cross section.FCMacro**
 
@@ -653,7 +653,7 @@ myWidget = CrossSectionWindow()
 
 ## Example
 
-![](/src/assets/images/Macro_Cross_Section_03.gif)
+![](/images/Macro_Cross_Section_03.gif)
 
 ## Links
 

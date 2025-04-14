@@ -21,15 +21,15 @@ title: Std Bewegen
 
 Der Befehl **Std Bewegen** ermöglicht Rotations- und Verschiebungswerte inkrementell auf ein ausgewähltes Objekt anzuwenden. Dies kann entweder durch Ziehen des interaktiven "Draggers" in der 3D-Ansicht (1.0 und davor) oder zusätzlich durch Eingabe präziser Werte im Aufgaben-Dialog erfolgen, entweder im lokalen (Dragger-Position) oder globalen (Dokument-) Koordinatensystem ([eingeführt in 1.1](/Release_notes_1.1/de "Release notes 1.1/de")). Objekte werden immer um das Koordinatensystem an der Dragger-Position und in der Ausrichtung der 3D-Ansicht bewegt, wobei sich die Ausrichtung des Draggers zum zu bewegenden Objekt nicht verändert.
 
-![](/src/assets/images/Std_Transform_Manip_Example_1.1.png)
+![](/images/Std_Transform_Manip_Example_1.1.png)
 
 ## Einfache Anwendung
 
 1. Ein Objekt mit einer Daten-Eigenschaft**Placement** auswählen. Siehe [Hinweise](#Hinweise).
 2. Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
-   - Den Menüeintrag **Bearbeiten → ![](/src/assets/images/Std_TransformManip.svg) Bewegen** auswählen.
-   - Die Menüoption **![](/src/assets/images/Std_TransformManip.svg) Bewegen** im Kontextmenü der [Baumansicht](/Tree_view/de "Tree view/de") auswählen.
-   - Ist der [Bearbeitungsmodus](/Std_UserEditMode/de "Std UserEditMode/de") auf **![](/src/assets/images/Std_UserEditModeTransform.svg) Transformieren** gesetzt, kann ein Objekt in der Baumansicht doppelt angeklickt werden.
+   - Den Menüeintrag **Bearbeiten → ![](/images/Std_TransformManip.svg) Bewegen** auswählen.
+   - Die Menüoption **![](/images/Std_TransformManip.svg) Bewegen** im Kontextmenü der [Baumansicht](/Tree_view/de "Tree view/de") auswählen.
+   - Ist der [Bearbeitungsmodus](/Std_UserEditMode/de "Std UserEditMode/de") auf **![](/images/Std_UserEditModeTransform.svg) Transformieren** gesetzt, kann ein Objekt in der Baumansicht doppelt angeklickt werden.
 3. Das Aufgaben-Fenster **Transform** wird geöffnet.
 4. Wahlweise die Einrastparameter anpassen: Dies sind Werte für die Schrittweiten, auf die der Dragger beim Ziehen in der 3D-Ansicht einrastet, sowohl für Verschiebungen, als auch für Drehungen.
 5. Zum Bewegen hat man folgende Möglichkeiten:
@@ -45,7 +45,7 @@ Der Befehl **Std Bewegen** ermöglicht Rotations- und Verschiebungswerte inkreme
 
 Es gibt neue Optionen für dieses Werkzeug ([eingeführt in 1.1](/Release_notes_1.1/de "Release notes 1.1/de")). Standardmäßig sind die Optionen so eingestellt, dass sie auf die gleiche Weise wie vorher (1.0 und davor) arbeiten.
 
-![](/src/assets/images/Std_Transform_Manip_relnotes_1.1.gif)
+![](/images/Std_Transform_Manip_relnotes_1.1.gif)
 
 Folgende Optionen können eingestellt werden:
 
@@ -107,7 +107,7 @@ Schnelle Verfahren zum Bewegen des ausgewählten Objekts.
 
 - Sobald das Objekt in der [3D-Ansicht](/3D_view/de "3D view/de") verschoben/gedreht wird, werden diese Änderungen übernommen.
 - Einige Objekte mit einer Daten-Eigenschaft**Placement**, wie z.B. Skizzen, oder Objekte, die an anderen Objekten befestigt sind, können nicht bewegt werden.
-- Es gibt keine Schaltfläche Abbrechen in 0.21 und davor, in diesen Versionen muss man zunächst die Schaltfläche OK drücken und anschließend den Befehl ![](/src/assets/images/Std_Undo.svg) [Rückgängig](/Std_Undo/de "Std Undo/de") verwenden, um die Änderungen nachträglich rückgängig zu machen.
+- Es gibt keine Schaltfläche Abbrechen in 0.21 und davor, in diesen Versionen muss man zunächst die Schaltfläche OK drücken und anschließend den Befehl ![](/images/Std_Undo.svg) [Rückgängig](/Std_Undo/de "Std Undo/de") verwenden, um die Änderungen nachträglich rückgängig zu machen.
 
 ## Beispiele
 
@@ -122,7 +122,7 @@ Ist der Dragger nicht sichtbar oder an einer unerwünschten Position, kann er en
 
 Beispielanimation (Bild anklicken, wenn die Animation nicht startet):
 
-![](/src/assets/images/Std_Transform_Manip_Pick_Custom_Dragger_1.1.gif)
+![](/images/Std_Transform_Manip_Pick_Custom_Dragger_1.1.gif)
 
 ### Formelement auf den globalen Ursprung bewegen
 
@@ -136,7 +136,7 @@ Dies ermöglicht Körper und importierte STEP-Dateien mit Bezug zu besonderen Fo
 
 Beispielanimation (Bild anklicken, wenn die Animation nicht startet):
 
-![](/src/assets/images/Std_Transform_Manip_Move_Feature_to_Global_Origin_1.1.gif)
+![](/images/Std_Transform_Manip_Move_Feature_to_Global_Origin_1.1.gif)
 
 ### Zum Zielobjekt ausrichten
 
@@ -151,7 +151,7 @@ Wenn ein Objekt auf eine Zielposition (Referenz) bewegt werden soll:
 
 Beispielanimation (Bild anklicken, wenn die Animation nicht startet):
 
-![](/src/assets/images/Std_Transform_Manip_Align_to_Target_Object_1.1.gif)
+![](/images/Std_Transform_Manip_Align_to_Target_Object_1.1.gif)
 
 ### Im globalen Koordinatensystem ziehen, wenn das Objekt nicht ausgerichtet ist
 
@@ -166,7 +166,7 @@ Wenn ein Objekt (importiert oder bewegt) nicht zum globalen Koordinatensystem X,
 
 Beispielanimation (Bild anklicken, wenn die Animation nicht startet):
 
-![](/src/assets/images/Std_Transform_Manip_Drag_in_Document_CS_1.1.gif)
+![](/images/Std_Transform_Manip_Drag_in_Document_CS_1.1.gif)
 
 ### BIM-Objekte in benutzerdefinierte Richtungen bewegen
 
@@ -179,6 +179,6 @@ Um beispielsweise eine BIM-Tür entlang eines schrägen Wandelements zu verschie
 
 Beispielanimation (Bild anklicken, wenn die Animation nicht startet):
 
-![](/src/assets/images/Std_Transform_Manip_BIM_Door_1.1.gif)
+![](/images/Std_Transform_Manip_BIM_Door_1.1.gif)
 
 Retrieved from "<http://wiki.freecad.org/index.php?title=Std_TransformManip/de&oldid=1535099>"

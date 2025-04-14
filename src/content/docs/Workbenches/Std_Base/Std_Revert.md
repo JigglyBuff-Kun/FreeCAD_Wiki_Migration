@@ -23,7 +23,7 @@ The **Std Revert** command closes the active document and reopens the last saved
 
 ## Usage
 
-1. Select the **File → ![](/src/assets/images/Std_Revert.svg) Revert** option from the menu.
+1. Select the **File → ![](/images/Std_Revert.svg) Revert** option from the menu.
 2. Press the Yes button in the dialog box to confirm you want to lose all changes since the last file save.
 
 ## Options

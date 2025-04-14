@@ -6,7 +6,7 @@ title: Sketcher Dialog
 
 While a sketch is being edited, or, in other words, while a sketch is in edit mode, the Sketcher Dialog is displayed on the Task tab of the [Combo view](/Combo_view "Combo view").
 
-To put a sketch in edit mode see ![](/src/assets/images/Sketcher_EditSketch.svg) [Sketcher EditSketch](/Sketcher_EditSketch "Sketcher EditSketch"). To finish edit mode see ![](/src/assets/images/Sketcher_LeaveSketch.svg) [Sketcher LeaveSketch](/Sketcher_LeaveSketch "Sketcher LeaveSketch").
+To put a sketch in edit mode see ![](/images/Sketcher_EditSketch.svg) [Sketcher EditSketch](/Sketcher_EditSketch "Sketcher EditSketch"). To finish edit mode see ![](/images/Sketcher_LeaveSketch.svg) [Sketcher LeaveSketch](/Sketcher_LeaveSketch "Sketcher LeaveSketch").
 
 The Sketcher Dialog has the following sections:
 
@@ -16,7 +16,7 @@ The Sketcher Dialog has the following sections:
 
 Some tools add a parameters section at the top of the dialog. Available options and/or modes depend on the tool.
 
-![](/src/assets/images/Sketcher_Dialog_Line_parameters.png)
+![](/images/Sketcher_Dialog_Line_parameters.png)
 
 The parameters section of the [Sketcher CreateLine](/Sketcher_CreateLine "Sketcher CreateLine") tool
 
@@ -35,11 +35,11 @@ The possible messages are:
 - Under constrained: n DoF(s)
 - Fully constrained
 
-If a sketch is under-constrained the number of degrees of freedom (or DoFs) is indicated. Clicking the underlined text will select the under-constrained sketch elements. See ![](/src/assets/images/Sketcher_SelectElementsWithDoFs.svg) [Sketcher SelectElementsWithDoFs](/Sketcher_SelectElementsWithDoFs "Sketcher SelectElementsWithDoFs").
+If a sketch is under-constrained the number of degrees of freedom (or DoFs) is indicated. Clicking the underlined text will select the under-constrained sketch elements. See ![](/images/Sketcher_SelectElementsWithDoFs.svg) [Sketcher SelectElementsWithDoFs](/Sketcher_SelectElementsWithDoFs "Sketcher SelectElementsWithDoFs").
 
-If a sketch has redundant constraints or is over-constrained the indices of the involved constraints are indicated. Clicking the underlined text will select them. See ![](/src/assets/images/Sketcher_SelectRedundantConstraints.svg) [Sketcher SelectRedundantConstraints](/Sketcher_SelectRedundantConstraints "Sketcher SelectRedundantConstraints") and ![](/src/assets/images/Sketcher_SelectConflictingConstraints.svg) [Sketcher SelectConflictingConstraints](/Sketcher_SelectConflictingConstraints "Sketcher SelectConflictingConstraints").
+If a sketch has redundant constraints or is over-constrained the indices of the involved constraints are indicated. Clicking the underlined text will select them. See ![](/images/Sketcher_SelectRedundantConstraints.svg) [Sketcher SelectRedundantConstraints](/Sketcher_SelectRedundantConstraints "Sketcher SelectRedundantConstraints") and ![](/images/Sketcher_SelectConflictingConstraints.svg) [Sketcher SelectConflictingConstraints](/Sketcher_SelectConflictingConstraints "Sketcher SelectConflictingConstraints").
 
-Malformed constraints can be fixed with ![](/src/assets/images/Sketcher_ValidateSketch.svg) [Sketcher ValidateSketch](/Sketcher_ValidateSketch "Sketcher ValidateSketch").
+Malformed constraints can be fixed with ![](/images/Sketcher_ValidateSketch.svg) [Sketcher ValidateSketch](/Sketcher_ValidateSketch "Sketcher ValidateSketch").
 
 Some messages are displayed in red for a reason: they are warnings that should not be ignored. They signal issues that must be addressed as they interfere with the solver. The messages are not mutually exclusive. If more than one applies only the first in the list is displayed.
 
@@ -84,7 +84,7 @@ Available options:
 
 This section lists the constraints in the sketch. Unchecking a constraint in the list will hide it in the sketch. Constraints can be selected in the list as well as in the sketch.
 
-Constraints can also be (un)hidden with ![](/src/assets/images/Sketcher_SwitchVirtualSpace.svg) [Sketcher SwitchVirtualSpace](/Sketcher_SwitchVirtualSpace "Sketcher SwitchVirtualSpace").
+Constraints can also be (un)hidden with ![](/images/Sketcher_SwitchVirtualSpace.svg) [Sketcher SwitchVirtualSpace](/Sketcher_SwitchVirtualSpace "Sketcher SwitchVirtualSpace").
 
 Available options:
 

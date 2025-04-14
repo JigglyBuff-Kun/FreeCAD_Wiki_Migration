@@ -23,7 +23,7 @@ Der Befehl **Std SceneInspector** öffnet ein Dialogfeld, das eine Übersicht ü
 
 ## Anwendung
 
-1. Den Menüeintrag **Werkzeuge → ![](/src/assets/images/Std_SceneInspector.svg) Szeneninspektor...** auswählen.
+1. Den Menüeintrag **Werkzeuge → ![](/images/Std_SceneInspector.svg) Szeneninspektor...** auswählen.
 2. Es öffnet sich das Dialogfeld **Szeneninspektor**.
 3. Das Dialogfeld ist nicht modal, d.h. es kann geöffnet bleiben, während man in FreeCAD weiterarbeitet.
 4. Wahlweise die Schaltfläche Aktualisieren drücken, um die Übersicht zu aktualisieren.

@@ -25,8 +25,8 @@ Das Werkzeug **TechDraw Maß** ist das TechDraw-Equivalent zum Werkzeug [Sketche
 
 1. Wahlweise einige geometrische Elemente vorauswählen (Knoten, Kanten oder Flächen).
 2. Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
-   - Die Schaltflöche ![](/src/assets/images/TechDraw_Dimension.svg) Maß einfügen drücken.
-   - Den Menüeintrag **TechDraw → Maßeinträge → ![](/src/assets/images/TechDraw_Dimension.svg) Maß einfügen** auswählen.
+   - Die Schaltflöche ![](/images/TechDraw_Dimension.svg) Maß einfügen drücken.
+   - Den Menüeintrag **TechDraw → Maßeinträge → ![](/images/TechDraw_Dimension.svg) Maß einfügen** auswählen.
    - Das Tastaturkürzel D.
 3. Der Mauszeiger wandelt sich zu einem Kreuz mit Werkzeugsymbol.
 4. Wenn noch nichts ausgewählt wurde: Ein Element auswählen.

@@ -30,7 +30,7 @@ title: Ellipse-Center+2Points
 
 Erzeugt eine Ellipse durch Auswahl von drei Punkten (in dieser Reihenfolge): Mittelpunkt, Hauptradius und Nebenradius
 
-![](/src/assets/images/EllipseCenter2Point.png)
+![](/images/EllipseCenter2Point.png)
 
 ## Neueste Version
 
@@ -38,7 +38,7 @@ Die neueste Version des Makros ist zu finden auf [EllipseCenter2Points.FCMacro](
 
 ## Skript
 
-ToolBar Icon ![](/src/assets/images/Macro_Ellipse-Center%2B2Points.png)
+ToolBar Icon ![](/images/Macro_Ellipse-Center%2B2Points.png)
 
 **Macro_EllipseCenter2Points.FCMacro**
 

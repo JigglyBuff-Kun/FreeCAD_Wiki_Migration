@@ -21,13 +21,13 @@ title: Std DemoMode
 
 The **Std DemoMode** command will continuously rotate the camera in a [3D view](/3D_view "3D view").
 
-![](/src/assets/images/Std_DemoMode_dialog.png)
+![](/images/Std_DemoMode_dialog.png)
 
 The View Turntable dialog box
 
 ## Usage
 
-1. Select the **Tools → ![](/src/assets/images/Std_DemoMode.svg) View turntable...** option from the menu.
+1. Select the **Tools → ![](/images/Std_DemoMode.svg) View turntable...** option from the menu.
 2. The **View Turntable** dialog box opens.
 3. Move the **Angle** slider to tilt the camera's virtual turn table.
 4. Move the **Speed** slider to adjust the rotation speed of the camera.

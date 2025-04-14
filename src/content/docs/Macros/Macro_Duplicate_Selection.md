@@ -38,7 +38,7 @@ Select your objects. If a selected objects is a duplicate the "ForbiddenCursor" 
 
 ## Script
 
-Icon for the toolbar ![](/src/assets/images/Macro_Duplicate_Selection.png)
+Icon for the toolbar ![](/images/Macro_Duplicate_Selection.png)
 
 **Macro_Duplicate_Selection.FCMacro**
 

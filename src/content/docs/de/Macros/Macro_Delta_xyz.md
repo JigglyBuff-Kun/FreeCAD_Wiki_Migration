@@ -63,11 +63,11 @@ Um den Wert zu ändern, gehen sie zu : FreeCAD → Menu → Tools → Edit para
 - `true` 1: Das Makro bleibt resident (Geben Sie Q ein, um das Programm zu beenden).
 - `false` 0: Das Makro wird beim Ausführen verwendet und nach der Verwendung beendet
 
-![](/src/assets/images/DeltaXYZ.png)
+![](/images/DeltaXYZ.png)
 
 ## Skript
 
-ToolBar Icon ![](/src/assets/images/Macro_Delta_xyz.png)
+ToolBar Icon ![](/images/Macro_Delta_xyz.png)
 
 **Macro_Delta_xyz.FCMacro**
 

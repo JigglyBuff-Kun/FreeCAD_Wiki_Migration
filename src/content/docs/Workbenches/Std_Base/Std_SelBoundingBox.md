@@ -23,7 +23,7 @@ The **Std SelBoundingBox** command toggles the global bounding box highlighting 
 
 ## Usage
 
-1. Select the **View → ![](/src/assets/images/Std_SelBoundingBox.svg) Bounding box** option from the menu.
+1. Select the **View → ![](/images/Std_SelBoundingBox.svg) Bounding box** option from the menu.
 
 ## Scripting
 

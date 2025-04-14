@@ -30,15 +30,15 @@ title: EdgesToArc
 
 Manchmal hat man mit einem Wire zu tun, bei dem ein Kreisbogen aus vielen kleinen geraden Segmenten aufgebaut ist. Dieser Fall tritt häufig auf, wenn man mit Dateien arbeitet, die mit anderen Programmen erstellt wurden. Mit diesem Macro kann man solche diskretisierten Kreisbögen in echte Kreisbögen umwandeln. Das führt zu kleineren und aufgeräumteren Dateien.
 
-Um dieses Makro zu verwenden, muss man den Linienzug mit der ![](/src/assets/images/Draft_Downgrade.svg) [Herabstufen](/Draft_Downgrade/de "Draft Downgrade/de")-Funktion in seine einzelnen Segmente zerlegen. Dann markiert man die Segmente, die man durch einen Kreisbogen ersetzen will und führt das Makro aus. Man muss mindestens zwei Segmente markiert haben.
+Um dieses Makro zu verwenden, muss man den Linienzug mit der ![](/images/Draft_Downgrade.svg) [Herabstufen](/Draft_Downgrade/de "Draft Downgrade/de")-Funktion in seine einzelnen Segmente zerlegen. Dann markiert man die Segmente, die man durch einen Kreisbogen ersetzen will und führt das Makro aus. Man muss mindestens zwei Segmente markiert haben.
 
 Das Macro prüft, ob alle Segmente auf einem gemeinsamen Kreisbogen liegen und bricht ab, falls nicht. Im anderen Fall wird der Kreisbogen erstellt, und die geraden Segmente entfernt.
 
-Bei den Berechnungen treten kleine Fehler auf. Aus diesem Grund kann es manchmal passieren, dass die ![](/src/assets/images/Draft_Upgrade.svg) [Hochstufen](/Draft_Upgrade/de "Draft Upgrade/de")-Funktion die Kreisbögen und die unveränderten Segmente nicht wieder zu einem Linienzug zusammensetzen kann. In diesem Fall ist das [SuperWire](/Macro_SuperWire/de "Macro SuperWire/de")-Makro eine robustere Alternative.
+Bei den Berechnungen treten kleine Fehler auf. Aus diesem Grund kann es manchmal passieren, dass die ![](/images/Draft_Upgrade.svg) [Hochstufen](/Draft_Upgrade/de "Draft Upgrade/de")-Funktion die Kreisbögen und die unveränderten Segmente nicht wieder zu einem Linienzug zusammensetzen kann. In diesem Fall ist das [SuperWire](/Macro_SuperWire/de "Macro SuperWire/de")-Makro eine robustere Alternative.
 
 ## Script
 
-ToolBar Icon ![](/src/assets/images/Macro_EdgesToArc.png)
+ToolBar Icon ![](/images/Macro_EdgesToArc.png)
 
 **Macro_EdgesToArc.FCMacro**
 

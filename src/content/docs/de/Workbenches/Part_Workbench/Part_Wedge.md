@@ -19,9 +19,9 @@ title: Part Keil
 
 ## Beschreibung
 
-Ein ![](/src/assets/images/Part_Wedge.svg) **Part Keil** ist ein parametrischer Volumenkörper, der mit dem Befehl ![](/src/assets/images/Part_Primitives.svg) [Part Grundelemente](/Part_Primitives/de "Part Primitives/de") erstellt werden kann. Er besteht aus vier bis sechs ebene Flächen. Er wird über virtuelle vorder- und rückseitige Hauptflächen definiert, auf denen jeweils eine rechteckige Fläche (Vorgabe), eine einzige gerade Kante oder ein einzelner Punkt erstellt wird. Diese Grundformen definieren die vier drei- oder vierseitigen Flächen, die sie verbinden. Der entstehende Volumenkörper ist nur dann ein echter Keil, wenn eine der Grundformen eine rechteckige Fläche und die andere eine gerade Kante ist. Im Koordinatensystem durch seine Daten-Eigenschaft**Placement** festgelegt, liegen die virtuellen vorder- und rückseitigen Hauptflächen des Keils ebenenparallel zur XZ-Ebene und die Kanten der Grundformen sind parallel zu der X- oder Z-Achse. Alle seiner Koordinaten beziehen sich auf dieses Koordinatensystem.
+Ein ![](/images/Part_Wedge.svg) **Part Keil** ist ein parametrischer Volumenkörper, der mit dem Befehl ![](/images/Part_Primitives.svg) [Part Grundelemente](/Part_Primitives/de "Part Primitives/de") erstellt werden kann. Er besteht aus vier bis sechs ebene Flächen. Er wird über virtuelle vorder- und rückseitige Hauptflächen definiert, auf denen jeweils eine rechteckige Fläche (Vorgabe), eine einzige gerade Kante oder ein einzelner Punkt erstellt wird. Diese Grundformen definieren die vier drei- oder vierseitigen Flächen, die sie verbinden. Der entstehende Volumenkörper ist nur dann ein echter Keil, wenn eine der Grundformen eine rechteckige Fläche und die andere eine gerade Kante ist. Im Koordinatensystem durch seine Daten-Eigenschaft**Placement** festgelegt, liegen die virtuellen vorder- und rückseitigen Hauptflächen des Keils ebenenparallel zur XZ-Ebene und die Kanten der Grundformen sind parallel zu der X- oder Z-Achse. Alle seiner Koordinaten beziehen sich auf dieses Koordinatensystem.
 
-![](/src/assets/images/Part_Wedge_Example.png)
+![](/images/Part_Wedge_Example.png)
 
 ## Anwendung
 
@@ -29,7 +29,7 @@ Siehe [Part Grundelemente](/Part_Primitives/de#Anwendung "Part Primitives/de").
 
 ## Beispiel
 
-![](/src/assets/images/Part_Wedge_Scripting_Example.png)
+![](/images/Part_Wedge_Scripting_Example.png)
 
 Part-Keil aus dem Skriptbeispiel
 

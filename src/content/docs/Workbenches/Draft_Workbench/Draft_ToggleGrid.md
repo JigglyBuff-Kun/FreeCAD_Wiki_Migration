@@ -19,7 +19,7 @@ title: Draft ToggleGrid
 
 ## Description
 
-The ![](/src/assets/images/Draft_ToggleGrid.svg) **Draft ToggleGrid** command changes the visibility of the grid.
+The ![](/images/Draft_ToggleGrid.svg) **Draft ToggleGrid** command changes the visibility of the grid.
 
 [introduced in 1.0](/Release_notes_1.0 "Release notes 1.0"): Each [3D view](/3D_view "3D view") has its own grid that can either always be visible, only be visible during commands, or invisible. The initial visibility of the grid in new views depends on the [preferences](#Preferences).
 
@@ -27,10 +27,10 @@ The ![](/src/assets/images/Draft_ToggleGrid.svg) **Draft ToggleGrid** command ch
 
 1. The command can be used while another command is active.
 2. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/Draft_ToggleGrid.svg) [Toggle grid](/Draft_ToggleGrid "Draft ToggleGrid") button in the Draft snap toolbar.
-   - [Draft](/Draft_Workbench "Draft Workbench"): Press the ![](/src/assets/images/Draft_ToggleGrid.svg) [Toggle grid](/Draft_ToggleGrid "Draft ToggleGrid") button in the [Draft snap widget](/Draft_snap_widget "Draft snap widget").
-   - Draft: Select the **Utilities → ![](/src/assets/images/Draft_ToggleGrid.svg) Toggle grid** option from the menu, or from the [Tree view](/Tree_view "Tree view") or [3D view](/3D_view "3D view") context menu.
-   - [BIM](/BIM_Workbench "BIM Workbench"): Select the **Snapping → ![](/src/assets/images/Draft_ToggleGrid.svg) Toggle grid** option from the menu, or from the 3D view context menu.
+   - Press the ![](/images/Draft_ToggleGrid.svg) [Toggle grid](/Draft_ToggleGrid "Draft ToggleGrid") button in the Draft snap toolbar.
+   - [Draft](/Draft_Workbench "Draft Workbench"): Press the ![](/images/Draft_ToggleGrid.svg) [Toggle grid](/Draft_ToggleGrid "Draft ToggleGrid") button in the [Draft snap widget](/Draft_snap_widget "Draft snap widget").
+   - Draft: Select the **Utilities → ![](/images/Draft_ToggleGrid.svg) Toggle grid** option from the menu, or from the [Tree view](/Tree_view "Tree view") or [3D view](/3D_view "3D view") context menu.
+   - [BIM](/BIM_Workbench "BIM Workbench"): Select the **Snapping → ![](/images/Draft_ToggleGrid.svg) Toggle grid** option from the menu, or from the 3D view context menu.
    - Use the keyboard shortcut: G then R. This shortcut cannot be used if another command is active.
 3. The visibility of the grid belonging to the current 3D view has changed:
    - If no other command is active:

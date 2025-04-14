@@ -19,11 +19,11 @@ title: Sketcher ExterneGeometrie
 
 ## Beschreibung
 
-1.0 und davor: Das Werkzeug ![](/src/assets/images/Sketcher_External.svg) Externe Geometrie projiziert Kanten und/oder Knoten, die zu Objekten außerhalb der Skizze gehören, auf die Skizzenebene. Die projizierte Geometrie wird "externe Geometrie" genannt. Sie bleibt dauerhaft mit den zugrundeliegenden Objekten verknüpft. Kanten der externen Geometrie werden mit einer bestimmten [Farbe](/Sketcher_Preferences/de#Erscheinungsbild "Sketcher Preferences/de") (Standardfarbe Magenta) und ([eingeführt in 1.0](/Release_notes_1.0/de "Release notes 1.0/de")) mit einer bestimmten Linienart gekennzeichnet. Ähnlich der Hilfsgeometrie ist externe Geometrie außerhalb der Skizze nicht sichtbar. Sie ist dazu gedacht, bei der Festlegung von Randbedingungen oder anderen Geometrien innerhalb der Skizze zu helfen.
+1.0 und davor: Das Werkzeug ![](/images/Sketcher_External.svg) Externe Geometrie projiziert Kanten und/oder Knoten, die zu Objekten außerhalb der Skizze gehören, auf die Skizzenebene. Die projizierte Geometrie wird "externe Geometrie" genannt. Sie bleibt dauerhaft mit den zugrundeliegenden Objekten verknüpft. Kanten der externen Geometrie werden mit einer bestimmten [Farbe](/Sketcher_Preferences/de#Erscheinungsbild "Sketcher Preferences/de") (Standardfarbe Magenta) und ([eingeführt in 1.0](/Release_notes_1.0/de "Release notes 1.0/de")) mit einer bestimmten Linienart gekennzeichnet. Ähnlich der Hilfsgeometrie ist externe Geometrie außerhalb der Skizze nicht sichtbar. Sie ist dazu gedacht, bei der Festlegung von Randbedingungen oder anderen Geometrien innerhalb der Skizze zu helfen.
 
-1.1 und neuer: Siehe ![](/src/assets/images/Sketcher_Projection.svg) [Sketcher Projektion](/Sketcher_Projection/de "Sketcher Projection/de")
+1.1 und neuer: Siehe ![](/images/Sketcher_Projection.svg) [Sketcher Projektion](/Sketcher_Projection/de "Sketcher Projection/de")
 
-![](/src/assets/images/Sketcher_ExternalEsempio1.png)
+![](/images/Sketcher_ExternalEsempio1.png)
 
 Die zwei magentafarbenen Linien sind externe Geometrie, die mit Kanten eines vorhandene [Blocks](/PartDesign_Pad/de "PartDesign Pad/de") verknüpft sind. Sie werden eingesetzt, um die Kreise festzulegen.
 
@@ -32,9 +32,9 @@ Die zwei magentafarbenen Linien sind externe Geometrie, die mit Kanten eines vor
 Siehe auch: [Zeichnungshilfen](/Sketcher_Workbench/de#Zeichnungshilfen "Sketcher Workbench/de").
 
 1. Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
-   - Die Schaltfläche ![](/src/assets/images/Sketcher_External.svg) Externe Geometrie erstellen drücken.
-   - Den Menüeintrag **Skizze → Sketcher-Werkzeuge → ![](/src/assets/images/Sketcher_External.svg) Externe Geometrie erstellen** auswählen.
-   - Ein Rechtsklick in die [3D-Ansicht](/3D_view/de "3D view/de") und die Menüoption **![](/src/assets/images/Sketcher_External.svg) Externe Geometrie erstellen** im Kontextmenü auswählen.
+   - Die Schaltfläche ![](/images/Sketcher_External.svg) Externe Geometrie erstellen drücken.
+   - Den Menüeintrag **Skizze → Sketcher-Werkzeuge → ![](/images/Sketcher_External.svg) Externe Geometrie erstellen** auswählen.
+   - Ein Rechtsklick in die [3D-Ansicht](/3D_view/de "3D view/de") und die Menüoption **![](/images/Sketcher_External.svg) Externe Geometrie erstellen** im Kontextmenü auswählen.
    - Das Tastaturkürzel G then X.
 2. Der Mauszeiger wandelt sich zu einem Kreuz mit Werkzeugsymbol.
 3. Eine externe Kante oder einen externen Knoten auswählen. Siehe [Hinweise](#Hinweise).

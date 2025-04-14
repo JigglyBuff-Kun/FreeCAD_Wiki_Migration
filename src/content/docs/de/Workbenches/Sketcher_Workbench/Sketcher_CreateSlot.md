@@ -19,9 +19,9 @@ title: Sketcher NutErstellen
 
 ## Beschreibung
 
-Das Werkzeug ![](/src/assets/images/Sketcher_CreateSlot.svg) Sketcher NutErstellen erstellt eine "Nut", ein geschlossenen Linienzug, der aus zwei Halbkreisen besteht, die mit zwei parallelen geraden Linien verbunden sind.
+Das Werkzeug ![](/images/Sketcher_CreateSlot.svg) Sketcher NutErstellen erstellt eine "Nut", ein geschlossenen Linienzug, der aus zwei Halbkreisen besteht, die mit zwei parallelen geraden Linien verbunden sind.
 
-![](/src/assets/images/SketcherCreateSlotExample.png)
+![](/images/SketcherCreateSlotExample.png)
 
 ## Anwendung
 
@@ -31,8 +31,8 @@ Pos-OVP = Positional [On-View-Parameters](/Sketcher_Preferences/de#Allgemein "Sk
 Dim-OVP = Dimensional On-View-Parameters (In-Ansicht-Parameter zur maßlichen Festlegung). [eingeführt in 1.0](/Release_notes_1.0/de "Release notes 1.0/de")
 
 1. Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
-   - Die Schaltfläche ![](/src/assets/images/Sketcher_CreateSlot.svg) NutErstellen drücken.
-   - Den Menüeintrag **Skizze → Skizzengeometrien → ![](/src/assets/images/Sketcher_CreateSlot.svg) Nut erstellen** auswählen.
+   - Die Schaltfläche ![](/images/Sketcher_CreateSlot.svg) NutErstellen drücken.
+   - Den Menüeintrag **Skizze → Skizzengeometrien → ![](/images/Sketcher_CreateSlot.svg) Nut erstellen** auswählen.
    - Das Tastaturkürzel G dann S.
 2. Der Mauszeiger wandelt sich zu einem Kreuz mit Werkzeugsymbol.
 3. Den Mittelpunkt des ersten Halbkreises auswählen. Oder mit Pos-OVP: seine X- und/oder Y-Koordinate eingeben.

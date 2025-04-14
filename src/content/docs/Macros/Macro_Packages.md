@@ -30,7 +30,7 @@ title: Packages
 
 This is a Gui front end for pip for installing pypi packages into the FreeCAD Python environment.
 
-![](/src/assets/images/Packages_scr001.png)
+![](/images/Packages_scr001.png)
 
 Packages screenshot
 
@@ -45,7 +45,7 @@ The installed packages will go into a subfolder based on the Python version in u
 ## Script
 
 ToolBar icon
-![](/src/assets/images/Packages_icon.svg)
+![](/images/Packages_icon.svg)
 
 **packages.py**
 

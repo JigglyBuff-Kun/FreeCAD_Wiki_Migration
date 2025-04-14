@@ -40,7 +40,7 @@ Einfaches Makro, um den aus der zuvor in der 3D-Ansicht gewählten Oberfläche N
 ## Skript
 
 ToolBar Icon
-![](/src/assets/images/Macro_Normal_Vector.png)
+![](/images/Macro_Normal_Vector.png)
 
 **Macro_Normal_Vector.FCMacro**
 

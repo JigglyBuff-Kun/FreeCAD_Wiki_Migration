@@ -920,23 +920,23 @@ Sketcher shortcuts can never cause conflicts with other workbenches because they
 
 These images show sketcher shortcuts in the shape of your keyboard. This may be convenient as a reference, but some shortcuts could not be included.
 
-- ![Sketcher main](/src/assets/images/Sketcher_Main.png)
+- ![Sketcher main](/images/Sketcher_Main.png)
 
   Sketcher main
 
-- ![Sketcher geometry](/src/assets/images/Sketcher_Create_Geometry.png)
+- ![Sketcher geometry](/images/Sketcher_Create_Geometry.png)
 
   Sketcher geometry
 
-- ![Sketcher edit](/src/assets/images/Sketcher_Edit.png)
+- ![Sketcher edit](/images/Sketcher_Edit.png)
 
   Sketcher edit
 
-- ![Sketcher constrain](/src/assets/images/Sketcher_Constrain.png)
+- ![Sketcher constrain](/images/Sketcher_Constrain.png)
 
   Sketcher constrain
 
-- ![Sketcher view](/src/assets/images/Sketcher_View.png)
+- ![Sketcher view](/images/Sketcher_View.png)
 
   Sketcher view
 

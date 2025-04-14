@@ -28,9 +28,9 @@ title: ForceRecompute
 
 ## Description
 
-Sometimes when a user applies changes to the model, FreeCAD does not seem to recognize/integrate them. In addition to that, the blue ![](/src/assets/images/Std_Refresh.svg) [Refresh/Recompute](/Std_Refresh "Std Refresh") button remains greyed out. Hence this small macro was designed to force a manual recompute of the model.
+Sometimes when a user applies changes to the model, FreeCAD does not seem to recognize/integrate them. In addition to that, the blue ![](/images/Std_Refresh.svg) [Refresh/Recompute](/Std_Refresh "Std Refresh") button remains greyed out. Hence this small macro was designed to force a manual recompute of the model.
 
-**Note:** As of 0.17 and above the effect of this macro can be achieved through the GUI. Right-click project in [model tree view](/Tree_view "Tree view"), and pick Mark to recompute from the context menu. What this does is make the Refresh/Recompute icon active again. Now press on the ![](/src/assets/images/Std_Refresh.svg) [Refresh/Recompute](/Std_Refresh "Std Refresh") button to trigger a recompute.
+**Note:** As of 0.17 and above the effect of this macro can be achieved through the GUI. Right-click project in [model tree view](/Tree_view "Tree view"), and pick Mark to recompute from the context menu. What this does is make the Refresh/Recompute icon active again. Now press on the ![](/images/Std_Refresh.svg) [Refresh/Recompute](/Std_Refresh "Std Refresh") button to trigger a recompute.
 
 ## Usage
 
@@ -39,7 +39,7 @@ Run the macro when necessary.
 ## Script
 
 ToolBar Icon
-![](/src/assets/images/Force_Recompute.png)
+![](/images/Force_Recompute.png)
 
 **Macro Force_Recompute.py**
 

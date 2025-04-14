@@ -23,7 +23,7 @@ Der Befehl **Std ObjekteUmschalten** schaltet die Sichtbarkeit aller Objekte, di
 
 ## Anwendung
 
-1. Menüeintrag **Ansicht → Sichtbarkeit → ![](/src/assets/images/Std_ToggleObjects.svg) Alle Objekte umkehren** auswählen.
+1. Menüeintrag **Ansicht → Sichtbarkeit → ![](/images/Std_ToggleObjects.svg) Alle Objekte umkehren** auswählen.
 
 ## Hinweise
 

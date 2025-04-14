@@ -23,7 +23,7 @@ The **Mesh Difference** command creates a new non-parametric mesh object, a [Mes
 
 [OpenSCAD](http://www.openscad.org/) must be installed to use this command, and the path to its executable must be set in the [OpenSCAD preferences](/OpenSCAD_Preferences "OpenSCAD Preferences").
 
-![](/src/assets/images/Mesh_Difference_example.png)
+![](/images/Mesh_Difference_example.png)
 
 On the left two mesh objects, on the right the mesh object that is the difference of those objects if the cube is selected as the main object
 
@@ -32,8 +32,8 @@ On the left two mesh objects, on the right the mesh object that is the differenc
 1. Select the main mesh object.
 2. Add the mesh object you want to cut from the main object to the selection. The mesh objects must overlap.
 3. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/Mesh_Difference.svg) [Difference](/Mesh_Difference "Mesh Difference") button.
-   - Select the **Meshes → Boolean → ![](/src/assets/images/Mesh_Difference.svg) Difference** option from the menu.
+   - Press the ![](/images/Mesh_Difference.svg) [Difference](/Mesh_Difference "Mesh Difference") button.
+   - Select the **Meshes → Boolean → ![](/images/Mesh_Difference.svg) Difference** option from the menu.
 
 ## Properties
 

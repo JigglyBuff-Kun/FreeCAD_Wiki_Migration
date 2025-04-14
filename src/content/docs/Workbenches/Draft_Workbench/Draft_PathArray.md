@@ -19,11 +19,11 @@ title: Draft PathArray
 
 ## Description
 
-The ![](/src/assets/images/Draft_PathArray.svg) **Draft PathArray** command creates a regular array from a selected object by placing copies along a path. Use the [Draft PathLinkArray](/Draft_PathLinkArray "Draft PathLinkArray") command to create a more efficient [Link](/App_Link "App Link") array instead. Except for the type of array that is created, Link array or regular array, the [Draft PathLinkArray](/Draft_PathLinkArray "Draft PathLinkArray") command is identical to this command.
+The ![](/images/Draft_PathArray.svg) **Draft PathArray** command creates a regular array from a selected object by placing copies along a path. Use the [Draft PathLinkArray](/Draft_PathLinkArray "Draft PathLinkArray") command to create a more efficient [Link](/App_Link "App Link") array instead. Except for the type of array that is created, Link array or regular array, the [Draft PathLinkArray](/Draft_PathLinkArray "Draft PathLinkArray") command is identical to this command.
 
 Both commands can be used on 2D objects created with the [Draft Workbench](/Draft_Workbench "Draft Workbench") or [Sketcher Workbench](/Sketcher_Workbench "Sketcher Workbench"), but also on many 3D objects such as those created with the [Part Workbench](/Part_Workbench "Part Workbench"), [PartDesign Workbench](/PartDesign_Workbench "PartDesign Workbench") or [BIM Workbench](/BIM_Workbench "BIM Workbench").
 
-![](/src/assets/images/Draft_PathArray_Example.png)
+![](/images/Draft_PathArray_Example.png)
 
 Draft PathArray
 
@@ -32,9 +32,9 @@ Draft PathArray
 1. Select the object you wish to array.
 2. Add the path object to the selection. It is also possible to select edges instead. The edges must belong to the same object and they must be connected.
 3. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/Draft_PathArray.svg) [Path array](/Draft_PathArray "Draft PathArray") button.
-   - [Draft](/Draft_Workbench "Draft Workbench"): Select the **Modification → Array tools → ![](/src/assets/images/Draft_PathArray.svg) Path array** option from the menu.
-   - [BIM](/BIM_Workbench "BIM Workbench"): Select the **Modify → ![](/src/assets/images/Draft_PathArray.svg) Path array** option from the menu.
+   - Press the ![](/images/Draft_PathArray.svg) [Path array](/Draft_PathArray "Draft PathArray") button.
+   - [Draft](/Draft_Workbench "Draft Workbench"): Select the **Modification → Array tools → ![](/images/Draft_PathArray.svg) Path array** option from the menu.
+   - [BIM](/BIM_Workbench "BIM Workbench"): Select the **Modify → ![](/images/Draft_PathArray.svg) Path array** option from the menu.
 4. The array is created.
 5. Optionally change the [properties](#Properties) of the array in the [Property editor](/Property_editor "Property editor").
 
@@ -42,7 +42,7 @@ Draft PathArray
 
 The alignment of the elements in a Draft PathArray depends on the properties of the array and the orientation of the source object. The position of the source object is ignored: for the purpose of the array the `x`, `y` and `z` are set to `0`. If the Data**Align** property of the array is set to `false` the orientation of the array elements is identical to that of the source object. If it is set to `true` the X axis of the local coordinate system of each element placement is tangent to the path. The Y and Z axes of the local coordinate systems depend on the Data**Align Mode** property of the array. Other array properties involved in the alignment include Data**Tangent Vector**, Data**Force Vertical** and Data**Vertical Vector**.
 
-![](/src/assets/images/Draft_PathArray_example2.png)
+![](/images/Draft_PathArray_example2.png)
 
 3 arrays based on the same non-planar path. From left to right: Align is false, Align is true with Align Mode Original and Align is true with Align Mode Frenet
 

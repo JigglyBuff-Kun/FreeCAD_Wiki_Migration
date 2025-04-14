@@ -66,11 +66,11 @@ After installation you can select **Utilities → Open FEM examples** in the FEM
 
 ## Usage
 
-1. Create an ![](/src/assets/images/FEM_Analysis.svg) [Analysis container](/FEM_Analysis "FEM Analysis").
+1. Create an ![](/images/FEM_Analysis.svg) [Analysis container](/FEM_Analysis "FEM Analysis").
 2. There are several ways to invoke the command:
-   - Select **Solve → ![](/src/assets/images/FEM_SolverMystran.svg) Solver Mystran** option from the menu.
+   - Select **Solve → ![](/images/FEM_SolverMystran.svg) Solver Mystran** option from the menu.
    - Use the keyboard shortcut: S then M.
-3. Double-click the ![](/src/assets/images/FEM_SolverMystran.svg) SolverMystran object.
+3. Double-click the ![](/images/FEM_SolverMystran.svg) SolverMystran object.
 4. Press the Write button.
 5. Press the Run button.
 

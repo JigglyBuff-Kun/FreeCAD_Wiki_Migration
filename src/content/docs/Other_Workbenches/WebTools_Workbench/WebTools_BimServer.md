@@ -34,13 +34,13 @@ In order to use this command, the following conditions must be met:
 ## Usage
 
 1. Make sure the above requirements are met, and you have access to a running BIMServer instance.
-2. Select menu **Web Tools → ![](/src/assets/images/WebTools_BimServer.svg) [BIM Server](/WebTools_BimServer "WebTools BimServer")**
+2. Select menu **Web Tools → ![](/images/WebTools_BimServer.svg) [BIM Server](/WebTools_BimServer "WebTools BimServer")**
 3. Press the **Connect** button and fill in your credential details
 4. Once the connection to the BIMServer has been made, choose a project to work with from the **Project** drop-down box
 
 ## Options
 
-![](/src/assets/images/Arch_Bimserver_panel.jpg)
+![](/images/Arch_Bimserver_panel.jpg)
 
 - If this is the first time you are connecting to a BIMServer from FreeCAD, press the **Connect** button, and fill in the server URL, your login (which is always an email address) and your password in the dialog box that will pop up. If you wish to log in automatically the next time you will use the BimServer command, check the **save credentials** option (your login and password are not saved by FreeCAD, only a session cookie).
 - Once FreeCAD has successfully connected to a BIMServer instance, the **Connect** button will turn to **Connected**. Click the button again to disconnect. This will also erase the stored session cookie, so you will need to enter your credentials again next time.

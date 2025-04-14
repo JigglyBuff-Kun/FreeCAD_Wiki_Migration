@@ -19,9 +19,9 @@ title: Part Line
 
 ## Description
 
-A ![](/src/assets/images/Part_Line.svg) **Part Line** is a parametric line that can be created with the ![](/src/assets/images/Part_Primitives.svg) [Part Primitives](/Part_Primitives "Part Primitives") command. The coordinates of its start and end point are relative to the coordinate system defined by its Data**Placement** property.
+A ![](/images/Part_Line.svg) **Part Line** is a parametric line that can be created with the ![](/images/Part_Primitives.svg) [Part Primitives](/Part_Primitives "Part Primitives") command. The coordinates of its start and end point are relative to the coordinate system defined by its Data**Placement** property.
 
-![](/src/assets/images/Part_Line_Example.png)
+![](/images/Part_Line_Example.png)
 
 ## Usage
 

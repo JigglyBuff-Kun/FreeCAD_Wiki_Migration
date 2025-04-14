@@ -37,13 +37,13 @@ While most designs consist of solids, it's often highly recommended to use wires
 
 - if a part is slender (long and thin) and beam-like and has a regular cross-section of one of the currently supported beam section types (rectangular, circular or pipe) then it should be analyzed using beam elements (unless there are some specific forms of loading, response or unavoidable geometry details that invalidate this assumption). Basically, one should draw a centerline (some tips on how to extract it from existing solid geometry can be found in [this forum thread](https://forum.freecad.org/viewtopic.php?t=81589) - in short, use [Draft Wire](/Draft_Wire "Draft Wire") or [Draft BSpline](/Draft_BSpline "Draft BSpline") with proper [snaps](/Draft_Workbench#Draft_snap_toolbar "Draft Workbench") and [lines](/Draft_Line "Draft Line") as supports) and apply [beam section](/FEM_ElementGeometry1D "FEM ElementGeometry1D") with optional [rotation](/FEM_ElementRotation1D "FEM ElementRotation1D"). There's no single rule dictating when beam elements can be used but it's often advised that the cross-section dimensions should be < 1/10 of part's length for the beam assumption to be valid.
 
-![](/src/assets/images/FEM_beam_model.JPG)
+![](/images/FEM_beam_model.JPG)
 
 Slender part suitable for analysis with beam elements - centerline highlighted
 
 - if a part is thin-walled (such as sheet metal parts) then it should be analyzed using shell elements (unless accurate contact results are needed or some limitations of shell elements are encountered). This is very important and often overlooked. To obtain proper accuracy of results (especially when bending is involved), one needs a few elements (at least 3-5) in the thickness direction. In the case of thin-walled parts, this usually results in large meshes (especially when tetrahedrons are used since hexahedral elements can't be generated in FreeCAD) and large computational cost - high computer power requirements and long solving time. To obtain the geometry suitable for analysis with shell elements, one should draw a midsurface of the part (some tips on how to extract it from existing solid geometry can be found in [this forum thread](https://forum.freecad.org/viewtopic.php?t=67505), [this one](https://forum.freecad.org/viewtopic.php?t=71821) and [this one](https://forum.freecad.org/viewtopic.php?t=81834) - in short, apply [PartDesign SubShapeBinder](/PartDesign_SubShapeBinder "PartDesign SubShapeBinder") or [Draft Facebinder](/Draft_Facebinder "Draft Facebinder"), then [Part Offset](/Part_Offset "Part Offset") and finally use SubShapeBinder and [Extrude](/Part_Extrude "Part Extrude") to extend edges of the midsurfaces and thus close the gaps between them) and apply proper [thickness](/FEM_ElementGeometry2D "FEM ElementGeometry2D"). Again, there's no single rule but it's usually recommended that the thickness should be < 1/10 of a typical global dimension (length/width) for the shell assumption to be valid.
 
-![](/src/assets/images/FEM_shell_model.JPG)
+![](/images/FEM_shell_model.JPG)
 
 Thin-walled part suitable for analysis with shell elements - midsurface highlighted
 
@@ -71,11 +71,11 @@ Designs prepared in CAD software are typically too detailed to be suitable for F
 
 The [Part Defeaturing](/Part_Defeaturing "Part Defeaturing") tool and add-on [Defeaturing Workbench](/Defeaturing_Workbench "Defeaturing Workbench") can be helpful when simplifying parts for simulations.
 
-![](/src/assets/images/FEM_bracket_original.PNG)
+![](/images/FEM_bracket_original.PNG)
 
 Original bracket geometry
 
-![](/src/assets/images/FEM_bracket_simplified.PNG)
+![](/images/FEM_bracket_simplified.PNG)
 
 Bracket geometry simplified using only the Part Defeaturing tool
 
@@ -95,7 +95,7 @@ The use of symmetry (1/2, 1/4 or 1/8 of the model) is recommended whenever possi
 
 Applied force should be properly reduced if the symmetry plane cuts the region to which the force is applied (irrelevant when pressure load is used).
 
-![](/src/assets/images/FEM_symmetric_vessel.JPG)
+![](/images/FEM_symmetric_vessel.JPG)
 
 Model of 1/8 of a cylindrical pressure vessel with symmetry boundary conditions and internal pressure load
 
@@ -105,7 +105,7 @@ Another, less common type of symmetry available in FreeCAD FEM is cyclic symmetr
 
 So-called partitioning is a division of the geometry into smaller segments. In other software, it's commonly used to allow hex meshing but in FreeCAD it can be useful for other reasons too. The main application of partitioning is when a load (or a boundary condition) has to be applied only to a selected region of the part's surface. The easiest way to achieve it is to create a sketch with a proper contour on that face and use the [Part Boolean Fragments](/Part_BooleanFragments "Part BooleanFragments") tool to split the face with the sketch. Another reason for partitioning is when multiple materials have to be applied to a single part (without having to use multiple parts connected with each other). Then partitioning can be done using a [datum plane](/PartDesign_Plane "PartDesign Plane") and Boolean Fragments tool with the _Compsolid_ mode. Partitioning can be also used to create regions for [mesh refinement](/FEM_MeshRegion "FEM MeshRegion").
 
-![](/src/assets/images/FEM_partition.JPG)
+![](/images/FEM_partition.JPG)
 
 Part with a face partition for load or boundary condition application
 
@@ -120,7 +120,7 @@ One of the current major limitations of the FEM workbench is that multiple meshe
 
 It's important to mention that if the parts are touching, a continuous mesh will be created on the boolean object and no constraints will be needed for the simulation. If there's even a small gap (or an intersection within a Part Compound) between the parts, the mesh won't be continuous and constraints like [tie](/FEM_ConstraintTie "FEM ConstraintTie") or [contact](/FEM_ConstraintContact "FEM ConstraintContact") will be needed. Running a frequency analysis is a good way to reveal if the mesh is continuous or not - if the parts are not connected, the first mode shapes with deformation visualized using [Warp filter](/FEM_PostFilterWarp "FEM PostFilterWarp") will show separation - the parts will "fly away".
 
-![](/src/assets/images/FEM_modal_separation.JPG)
+![](/images/FEM_modal_separation.JPG)
 
 The first mode shape of a frequency analysis visualized with the Warp filter - two cubes with a small initial gap were analyzed
 
@@ -134,15 +134,15 @@ Selection of internal regions (faces/volumes) can be tricky. It might be needed 
 
 Too coarse mesh is one of the most common sources of inaccuracies and other issues in FEM. It's often a partial fault of automatic mesher settings - they typically generate very coarse, unsuitable meshes when the element size is not manually specified but left with a default value. One should always know the approximate dimensions of the part, especially the size of the smallest relevant feature ([Std Measure](/Std_Measure "Std Measure") tool can be used to find it) and specify the proper maximum element size based on that. There is also a minimum element size setting that can prevent the creation of too tiny elements around small geometric features which may lead to unnecessarily dense meshes (and sometimes even FreeCAD crashing or freezing when trying to generate such meshes). Generally speaking, it's better to start with a coarser mesh (taking less time to generate), see what it looks like (some experience is necessary) and refine it if necessary. It often makes sense to use dense mesh only around the areas of interest (locations with large stress gradients/concentrations - notches) and relatively coarse mesh away from them. This way, the number of elements can be significantly reduced, leading to shorter solving times. Local mesh refinement is defined using [FEM MeshRegion](/FEM_MeshRegion "FEM MeshRegion").
 
-![](/src/assets/images/FEM_default_mesh.PNG)
+![](/images/FEM_default_mesh.PNG)
 
 Default, too coarse mesh
 
-![](/src/assets/images/FEM_globally_refined_mesh.PNG)
+![](/images/FEM_globally_refined_mesh.PNG)
 
 Globally refined mesh
 
-![](/src/assets/images/FEM_locally_refined_mesh.PNG)
+![](/images/FEM_locally_refined_mesh.PNG)
 
 Locally refined mesh
 
@@ -186,7 +186,7 @@ Typical ways of dealing with stress singularities are:
 - including plasticity in material behavior to enable stress redistribution and limit the stresses to values allowed by the plasticity definition while observing the proper level of yielding (plastic strain),
 - ignoring singularities and reading stresses away from them if possible (based on St. Venant’s Principle).
 
-![](/src/assets/images/FEM_mesh_convergence.PNG)
+![](/images/FEM_mesh_convergence.PNG)
 
 Typical mesh convergence plots:
 

@@ -21,7 +21,7 @@ title: Sandbox TutorialArchBIM
 | _None_                                                                                              |
 |                                                                                                     |
 
-![](/src/assets/images/At2_goal.jpg)
+![](/images/At2_goal.jpg)
 
 - [João Batista Vilanova Artigas](http://en.wikipedia.org/wiki/Jo%C3%A3o_Batista_Vilanova_Artigas)
 - [Pictures by Pedro Kok](http://www.pedrokok.com.br/2010/02/residencia-artigas-sao-paulo-sp/img_8258-533px/)
@@ -72,10 +72,10 @@ All Images not already on wiki are named and uploaded to \*File:at2\_\*\*
 
 #### Markups
 
-- ![](/src/assets/images/At2_Fixme.gif)FIXME Comment
+- ![](/images/At2_Fixme.gif)FIXME Comment
   - When something needs a closer look, rewrite or other..
-- ![](/src/assets/images/At2_Tip.png)Tip
-- ![](/src/assets/images/At2_Delete.gif)Delete ?
+- ![](/images/At2_Tip.png)Tip
+- ![](/images/At2_Delete.gif)Delete ?
   - Something You think should be deleted
 
 This way it is easy to do a quick text search to find topics of concern
@@ -88,7 +88,7 @@ The purpose of the [Arch Workbench](/Arch_Workbench "Arch Workbench") is to offe
 
 Here are, for example, a couple of interesting features of FreeCAD's [Arch Workbench](/Arch_Workbench "Arch Workbench") that you'll hardly find in other BIM apps:
 
-- ![](/src/assets/images/At2_Fixme.gif)FIXME **_The next sentence, is that strictly true?_** Architectural objects are always solids. From FreeCAD's strong mechanical background, we learned the importance of always working with solid objects. This ensures a much more error-free workflow, and very reliable boolean operations. Since cutting through 3D objects with a 2D plane, in order to extract sections, is also a boolean operation, you can immediately see the importance of this point.
+- ![](/images/At2_Fixme.gif)FIXME **_The next sentence, is that strictly true?_** Architectural objects are always solids. From FreeCAD's strong mechanical background, we learned the importance of always working with solid objects. This ensures a much more error-free workflow, and very reliable boolean operations. Since cutting through 3D objects with a 2D plane, in order to extract sections, is also a boolean operation, you can immediately see the importance of this point.
 
 * Architectural objects can always have any shape. No restrictions. Walls don't need to be vertical, slabs don't need to look like slabs. Any solid object can always become any architectural object. Very complex things, usually hard to define in other BIM applications, like a floor slab curving up and becoming a wall (yes Zaha Hadid, it's you we're talking about), present no particular problem at all in FreeCAD.
 
@@ -122,17 +122,17 @@ You can download drawings in dwg format [here](http://www.bibliocad.com/library/
 
 After downloading and unzipping the file, you'll want to open it with a DWG application such as [DraftSight](http://www.3ds.com/products-services/draftsight/overview/). Alternatively, you can convert it to DXF with a free utility such as the [Teigha File Converter](http://www.opendesign.com/guestfiles/TeighaFileConverter). If you have the Teigha converter installed (and its path set in the Arch Preferences settings), [FreeCAD is also able to import DWG files directly](https://www.freecadweb.org/wiki/Draft_DXF). But since these files can sometimes be of bad quality and very heavy, it's usually better to open it first with a 2D CAD application and do some cleaning. You should remove all the unnecessary information (title-blocks, page layouts, unused entities, layers, etc.) and organize the drawings in a logical way (sections and elevations aligned with the plan view, and move everything to the (0,0) point). After, you should organize your drawing it in different layers. This will be handy later on if you need to temporarily hide some of its elements to make it easy to model. This is the result when you import to FreeCAD after organizing the DXF in different layers:
 
-![](/src/assets/images/DXF_Import.jpg)
+![](/images/DXF_Import.jpg)
 
-![](/src/assets/images/At2_Tip.png) Before importing your file, you want to make sure that you have the "Group layers into blocks" option selected. That way, each layer will be grouped as one object, making it easier to work within FreeCAD. To enable that option, you go to Edit > Preferences > Import-Export.
+![](/images/At2_Tip.png) Before importing your file, you want to make sure that you have the "Group layers into blocks" option selected. That way, each layer will be grouped as one object, making it easier to work within FreeCAD. To enable that option, you go to Edit > Preferences > Import-Export.
 
-![](/src/assets/images/At2_Tip.png) Sometimes when importing DXF files into FreeCAD, the drawing may be out of scale. If that happens, open the DXF on a program such as Draftsight, create a new file and copy/paste all objects. After, just save it as a new DXF file, give it a new name and import it again into FreeCAD.
+![](/images/At2_Tip.png) Sometimes when importing DXF files into FreeCAD, the drawing may be out of scale. If that happens, open the DXF on a program such as Draftsight, create a new file and copy/paste all objects. After, just save it as a new DXF file, give it a new name and import it again into FreeCAD.
 
 You could also organize your layers accordingly to the different elements that make up the project. By that I mean you could make a layer for the plan view, another for the south elevation, north elevation, and so on. Feel free to try out and find the way it suits you best or follow the suggestions above if you prefer.
 
 After that, our file can be opened quite efficiently in FreeCAD. Check the different options available in Edit → Preferences →
 
-![](/src/assets/images/Arch_tutorial_02.jpg)
+![](/images/Arch_tutorial_02.jpg)
 
 This is how the file looks after being opened in FreeCAD. In this example, thickness of walls were changed, and a couple of doors that were imported with wrong X scale were flipped, with the [Draft Scale tool](/Draft_Scale "Draft Scale").
 
@@ -147,7 +147,7 @@ To model your project using plan views, sections and elevations, another method 
 
 **NOTE:** Notice that by importing different .dxf drawings to one file, you'll be loading them as separate elements. In some computers, you might experience a slightly lower performance than if you would by importing just one .dxf file with all drawings. However, this option allows you to rotate and move these drawings independently from one another, to hide one elevation while keeping another, and so on. Besides, you can always hide all the imported elements and only keep the drawing you need for a particular operation, which will improve significantly your computer performance, if you have a problem with it. Experiment, give it a try and choose the work method that suits you better.
 
-![](/src/assets/images/At2_Tip.png)Tip
+![](/images/At2_Tip.png)Tip
 You may also want to try to import or save the various views into separate [FCStd](/File_Format_FCStd "File Format FCStd") files. This keeps the files smaller and quicker to work with.
 Naming of files is Your choice, but it is a good idea to use a naming convention.
 
@@ -160,26 +160,26 @@ If You want to skip this step, the imported dxf files can be found here.
 
 Start with importing and placing the Plan View.
 
-![](/src/assets/images/At2_PlanView.png)
+![](/images/At2_PlanView.png)
 
 If you don't have the option "Group layers into blocks" selected, as suggested before, when importing your DXF file your geometry will show up as several edges. This can make FreeCAD run slower. However, depending on what you want to do, you may want to have your object divided in edges instead of grouped into blocks. Either way, make a good habit of organizing your file by compiling these edges into a [group](/Std_Group "Std Group"). The Group can be created before or after importing. Once you have imported your .dxf file into FreeCAD, just select all the imported edges and ‘drag/drop’ them into the [group](/Std_Group "Std Group").
 
-![](/src/assets/images/At2_PlanGroup.png)
+![](/images/At2_PlanGroup.png)
 
 Now, do the same for all the other views.
 Next in this document, we will place the various views at their location, elevation and rotation, according to our ArchAxisSystem.
 Before Rotating and placing the various views, we need to do some planning.
 
-![](/src/assets/images/At2_Tip.png)Tip
+![](/images/At2_Tip.png)Tip
 
-![](/src/assets/images/At2_Fixme.gif)FIXME needs Checking
+![](/images/At2_Fixme.gif)FIXME needs Checking
 
 FreeCad dxf import treats everything as Edges or Shapes, This is generally ok for lines.
 Bad for circles. No easy way to find Center.
 
 ## Planning
 
-![](/src/assets/images/At2_Fixme.gif)FIXME Needs more work
+![](/images/At2_Fixme.gif)FIXME Needs more work
 
 There are no set rules for how to organize Your work. Having said that, planning always pays off. The following list contains some points to get You started.
 
@@ -201,13 +201,13 @@ Most of the guidelines or rules proposed here, are common to any CAD system.
 
 **A defined project zero / origin – with local x,y,z coordinates 0,0,0 shall be defined and used throughout the project.**
 
-![](/src/assets/images/At2_Tip.png)Tip
+![](/images/At2_Tip.png)Tip
 
 For further planning of File structure jump to the IFC section of this document
 
 In this project we will follow Axis system of downloaded original Drawings.
 
-![](/src/assets/images/At2_Origin.png)
+![](/images/At2_Origin.png)
 
 Defining the project origin at intersection of Axis 01 & D. By our convention this equals SouthWest corner of model. Observe that the axis pass through the center of walls.
 
@@ -216,7 +216,7 @@ By the way, partial IFC files seem to be the trend at the moment. Mainly split b
 The split can be by discipline or other. It is good practice to have a common origin and orientation across these models (files). This makes it easy to copy paste groups between files as needed.
 It also provides a good basis for several people to work on the project as needed.
 
-![](/src/assets/images/At2_Tip.png)Tip
+![](/images/At2_Tip.png)Tip
 
 For reference we have made the assumption that global Y-axis equals North.
 
@@ -225,29 +225,29 @@ For reference we have made the assumption that global Y-axis equals North.
 We now want to make an [ArchAxisSystem](/Arch_Axis/en "Arch Axis/en") for reference when modeling our building.
 The result will look something like this:
 
-![](/src/assets/images/At2_ArchAxisSystem.png)
+![](/images/At2_ArchAxisSystem.png)
 
 To find the data for making the [ArchAxisSystem](/Arch_Axis/en "Arch Axis/en") study the Plan View of the imported dwg. This will show You Axis and Dimensions.
 
-![](/src/assets/images/At2_AxisMeasure.png)
+![](/images/At2_AxisMeasure.png)
 
 Alternatively measure between the various axis in Freecad.
 This can be done in several ways, using the part workbench Measure linear, [Tape Measure works fine for this](/Part_Measure_Linear "Part Measure Linear").
 
-![](/src/assets/images/At2_metrics.png)
+![](/images/At2_metrics.png)
 
 By Studying original dxf files.
 
-![](/src/assets/images/At2_AxisX11.png)
+![](/images/At2_AxisX11.png)
 
 When measuring distance between axis 10 and 11, we find Delta X = 3.6246
 Index 11 above, has been adjusted since if possible, we like to work with ‘round’ figures.
 
-![](/src/assets/images/At2_ColumnsEast.JPG)
+![](/images/At2_ColumnsEast.JPG)
 
 We also observe that the Eastern Columns are tangent to East wall of Studio. This is not good practice.
 
-![](/src/assets/images/At2_Fixme.gif)FIXME Comment
+![](/images/At2_Fixme.gif)FIXME Comment
 
 Will reduce the distance between axis 10 and 11. Will try with 3550mm.
 
@@ -256,17 +256,17 @@ Will reduce the distance between axis 10 and 11. Will try with 3550mm.
 Now, let’s make the Axis along global X:
 The Freecad Command is [Arch Axis](/Arch_Axis "Arch Axis")
 
-![](/src/assets/images/At2_AxisXCreate.png)
+![](/images/At2_AxisXCreate.png)
 
 Image shows Data and labels Used.
 
 #### Arch Y-Axis
 
-![](/src/assets/images/At2_AxisYCreate.png)
+![](/images/At2_AxisYCreate.png)
 
 Image shows Data and labels Used.
 
-![](/src/assets/images/At2_Tip.png)Tip
+![](/images/At2_Tip.png)Tip
 
 Observe the 270deg rotation and offset of placement to get labels to get desired layout.
 
@@ -274,7 +274,7 @@ Observe the 270deg rotation and offset of placement to get labels to get desired
 
 Arch [AxisSystem](/Arch_AxisSystem "Arch AxisSystem") is used to combine the x and y Arch Axis into an Arch Axis system.
 
-![](/src/assets/images/At2_Tip.png)Tip
+![](/images/At2_Tip.png)Tip
 
 If You save Your AxisSystem to a file, without any other geometry, it does not seem to open as the first file. FreeCad simply Crashes.
 However, not such a big deal, because if You open another file containing geometry first, then You are able to open the file containing only the AxisSystem without any problem.
@@ -290,17 +290,17 @@ In order to place 2d views in 3d, we need to prepare some helper objects.
 In FreeCad we have several ways we can set-up, store and name [Working Planes](/Draft_SelectPlane "Draft SelectPlane") .
 We can name these and store them by using a [WorkingPlaneProxy object](/Draft_WorkingPlaneProxy "Draft WorkingPlaneProxy").
 
-![](/src/assets/images/At2_2dReferences.png)
+![](/images/At2_2dReferences.png)
 
 You should end up with something looking like this
 
-![](/src/assets/images/At2_Tip.png)Tip
+![](/images/At2_Tip.png)Tip
 
 By placing and rotating the imported 2d view, You will have a good way of checking their consistency.
 
 ## Adding reference planes
 
-![](/src/assets/images/At2_Fixme.gif)FIXME needs documenting
+![](/images/At2_Fixme.gif)FIXME needs documenting
 
 After starting to look at <#WokFeature_Approach>. Think this is a great way of implementing working planes.
 
@@ -317,18 +317,18 @@ Like most [Arch](/Arch_Workbench "Arch Workbench") objects, [walls](/Arch_Wall "
 
 There are different possible strategies to build walls in FreeCAD. One might want to build a complete "floor plan" with the [sketcher](/Sketcher_Workbench "Sketcher Workbench"), and build one, big, wall object from it. This technique works, but you can only give one thickness for all the walls of the project. Or, you can build each piece of wall from separate line segments.
 
-![](/src/assets/images/At2_Delete.gif)Delete ?
+![](/images/At2_Delete.gif)Delete ?
 _Or, this is what we will do here, a mix of both: We will build a couple of [wires](/Draft_Wire "Draft Wire") on top of the imported plan, one for each type of wall:_
 Have found that editing a wire is currently more cumbersome than editing a line
 
-![](/src/assets/images/Arch_tutorial_03.jpg)
+![](/images/Arch_tutorial_03.jpg)
 
 The RED lines that will become concrete walls (a [pictures search](http://www.google.com/search?tbm=isch&q=casa+artigas+brooklin) of the house can help you to see the different wall types), the GREEN ones are the exterior brick walls, and the BLUE ones will become the inner walls. Lines are passed through the doors, because doors will be inserted in the walls later, and will create their openings automatically. Walls can also be aligned left, right or centrally on their baseline, so it doesn't matter which side you draw the baseline. Take care on **avoiding intersections** as much as You can.
 Our model will be cleaner that way. This will save us some headache later, for example if we export our work to other applications, that might not like it.
 
 When this is done, place all those lines in a new [group](/Std_Group "Std Group") if you want, select each line one by one, and press the [Arch Wall](/Arch_Wall "Arch Wall") tool to build a wall from each of them. You can also select several lines at once. After doing that, and correcting widths (exterior walls are 25cm wide, inner walls are 15cm wide) and some alignments, we have our walls ready:
 
-![](/src/assets/images/At_2Walls01.png)
+![](/images/At_2Walls01.png)
 
 You should now have a model resembling something like this.
 
@@ -346,7 +346,7 @@ Walls have been grouped like:
   - WallsExternal
   - WallsInternal
 
-![](/src/assets/images/At2_Tip.png)Tip
+![](/images/At2_Tip.png)Tip
 
 Have found the KISS principle (Keep It Simple & Stupid) is a good approach.
 
@@ -355,7 +355,7 @@ Have found the KISS principle (Keep It Simple & Stupid) is a good approach.
   - When editing the line defining a wall, the wall will update
 - At a later stage You can always join them as needed.
 
-![](/src/assets/images/At2_Tip.png)Tip
+![](/images/At2_Tip.png)Tip
 
 Saving Your walls to a new file at this stage can be a good idea.
 
@@ -379,7 +379,7 @@ With this work flow:
   - You will generate a lot of files
   - Be particular how You name Your various files, or get lost.
 
-![](/src/assets/images/At2_Fixme.gif)FIXME
+![](/images/At2_Fixme.gif)FIXME
 
 So, how to organize?
 Believe the main differing factor is Structural / Non Structural
@@ -391,7 +391,7 @@ Next Level Inner / Outer
 
 All Arch objects have a great feature: you can add one to another. Doing that will unite their geometries, but they are still editable independently after. To add one of our crossing walls to the other, just select one, CTRL + select the other, and press the Arch Add tool:
 
-![](/src/assets/images/Arch_tutorial_05.jpg)
+![](/images/Arch_tutorial_05.jpg)
 
 On the left are the two intersecting walls, on the right the result after adding one to the other.
 
@@ -413,7 +413,7 @@ Before making our roof and cutting the walls, let's make the remaining objects t
 
 We will now make a [Workplane](/Draft_SelectPlane/en "Draft SelectPlane/en") and a [workplaneProxy](/Draft_WorkingPlaneProxy "Draft WorkingPlaneProxy") object at the studio elevation.
 
-![](/src/assets/images/At2_StudioElev.png)
+![](/images/At2_StudioElev.png)
 
 Before establishing the elevation, take a look at the base 2d drawings. Something is wrong in paradise.
 
@@ -421,7 +421,7 @@ We will set top of Studio floor (Slab) to 2425,0 mm
 
 This can be done in many ways. Probably the easiest is to draw the baseline for studio wall on top of the Plan View, and moving it up 2425mm.
 
-![](/src/assets/images/At2_Delete.gif)Delete ?
+![](/images/At2_Delete.gif)Delete ?
 
 The walls of the studio are made the same way as we did, on the superior floor plan, but they will be raised up to level 2.6m. So we will give them the needed height so their top is at 6m too, that is, 3.4m. Once this is done, let's move our walls up by 2.6m: Select them both, put yourself in frontal view (View → Standard Views → Front), press the [Draft Move](/Draft_Move "Draft Move") button, select a first point, then enter 0, 2.6, 0 as coordinates, and press enter. Your objects now have jumped 2.6m high:
 
@@ -433,7 +433,7 @@ The [Draft](/Draft_Workbench "Draft Workbench") objects, and most [Arch](/Arch_W
 
 Now let's move our walls horizontally, to their correct location. Since we have points to snap to, this is easier: Select both walls, press the [Draft Move](/Draft_Move "Draft Move") tool, and move them from one point to the other:
 
-![](/src/assets/images/Arch_tutorial_07.jpg)
+![](/images/Arch_tutorial_07.jpg)
 
 Finally, I changed the color of some walls to a brick-like color (so it's easier to differentiate), and made a small correction: Some walls don't go up to the roof, but stop at a height of 2.60m. I corrected the height of those walls.
 
@@ -453,8 +453,8 @@ In this Approach we will draw and extrude with correct 3d location
 - Extrude to a dimension larger than total width of elements we want to cut
 - If needed, set workplane to top view, move to top view and move extrusion so it covers the with of the building
 
-![](/src/assets/images/At_2RoofCut.png)
-![](/src/assets/images/At2_RoofCut02.png)
+![](/images/At_2RoofCut.png)
+![](/images/At2_RoofCut02.png)
 
 #### Approach Two
 
@@ -462,17 +462,17 @@ Now it is time to build our subtraction volume. The easiest way will be to draw 
 
 Let's draw a volume, bigger than the roof, that will be subtracted from our walls. To do that, I drew two lines on top of the base of the roof, then extended them a bit further with the [Draft Trimex](/Draft_Trimex "Draft Trimex") tool. Then, I drew a [wire](/Draft_Wire "Draft Wire"), snapping on these lines, and going well above our 6 meters. I also drew a blue line on the ground level (0.00), that will be our rotation axis.
 
-![](/src/assets/images/Arch_tutorial_09.jpg)
+![](/images/Arch_tutorial_09.jpg)
 
 Now is the tricky part: We will use the [Draft Rotate](/Draft_Rotate "Draft Rotate") tool to rotate our profile 90 degrees up, in the right position to be extruded. To do that, we must first change the [working plane](/Draft_SelectPlane "Draft SelectPlane") to the YZ plane. Once this is done, the rotation will happen in that plane. But if we do like we did a bit earlier, and set our view to side view, it will be hard to see and select our profile, and to know where is the basepoint around which it must rotate, right? Then we must set the working plane manually: Press the [Draft SelectPlane](/Draft_SelectPlane "Draft SelectPlane") button (it is in the "tasks" tab of the tree view), and set it to YZ (which is the "side" plane). Once you set the working plane manually, like that, it won't change depending on your view. You can now rotate your view until you have a good view of all the things you must select. To switch the working plane back to "automatic" mode later, press the [Draft SelectPlane](/Draft_SelectPlane "Draft SelectPlane") button again and set it to "None".
 
 Now the rotation will be easy to do: Select the profile, press the [Draft Rotate](/Draft_Rotate "Draft Rotate") button, click on a point of the blue line, enter 0 as start angle, and 90 as rotation:
 
-![](/src/assets/images/Arch_tutorial_10.jpg)
+![](/images/Arch_tutorial_10.jpg)
 
 Now all we need to do it to move the profile a bit closer to the model (set the working plane to XY if needed), and extrude it. This can be done either with the [Part Extrude](/Part_Extrude "Part Extrude") tool, or [Draft Trimex](/Draft_Trimex "Draft Trimex"), which also has the special hidden power to extrude faces. Make sure your extrusion is larger than all the walls it will be subtracted from, to avoid face-on-face situations:
 
-![](/src/assets/images/Arch_tutorial_11.jpg)
+![](/images/Arch_tutorial_11.jpg)
 
 #### Common to both approaches
 
@@ -480,7 +480,7 @@ Now, here comes into action the contrary of the [Arch Add](/Arch_Add "Arch Add")
 
 Now, select the volume in the tree vieew, CTRL + select the next wall, press [Arch Remove](/Arch_Remove "Arch Remove"). Repeat for the next walls until you have everything properly cut:
 
-![](/src/assets/images/Arch_tutorial_12.jpg)
+![](/images/Arch_tutorial_12.jpg)
 
 Remember that for both [Arch Add](/Arch_Add "Arch Add") and [Arch Remove](/Arch_Remove "Arch Remove"), the order you select the objects is important. The host is always the last one, like in "Remove X from Y" or "Add X to Y"
 
@@ -488,7 +488,7 @@ Remember that for both [Arch Add](/Arch_Add "Arch Add") and [Arch Remove](/Arch_
 
 Arch objects that support such additions and subtractions (all of them except the "visual" helper objects such as the axes) keep track of such objects by having two properties, respectively "Additions" and "Subtractions", that contain a list of links to other objects to be subtracted or added. A same object can be in the lists of several other objects, as it is the case of our subtraction volume here. Each of the fathers will want to swallow it in the tree view, though, so it will usually "live" in the last one. But you can always edit those lists for any object, by double-clicking it in the tree view, which in FreeCAD enters edit mode. Pressing the escape key exits edit mode.
 
-![](/src/assets/images/At2_Tip.png)Tip
+![](/images/At2_Tip.png)Tip
 
 Work flow note:
 
@@ -496,9 +496,9 @@ It is probably a good Idea to store Your RoofCutVolume in a separate file for la
 
 ### Bathroom Geometry
 
-![](/src/assets/images/At2_Fixme.gif)FIXME
+![](/images/At2_Fixme.gif)FIXME
 
-![](/src/assets/images/At2_BathroomGeometry.png)
+![](/images/At2_BathroomGeometry.png)
 
 Looking at bathroom geometry, something is not clear.
 
@@ -506,18 +506,18 @@ Looking at bathroom geometry, something is not clear.
 
 Generally defined as Slabs
 
-![](/src/assets/images/Empty_group.png)
+![](/images/Empty_group.png)
 
 To start with, Create a [group](/Std_Group "Std Group") for Floors
 
-![](/src/assets/images/At2_Tip.png)Tip
+![](/images/At2_Tip.png)Tip
 
 - Groups are created by Right + Click -> Create Group
 - Groups are created at the position of Your Cursor, meaning You may also create a [group](/Std_Group "Std Group") as a subgroup.
 - You may also move a goup to another group by Drag & Drop
 - Groups are Renamed by hitting F2, or right click a group and select Rename, or Double Click
 
-![](/src/assets/images/At2_SetGroup.png)![](/src/assets/images/At2_Group02.png)
+![](/images/At2_SetGroup.png)![](/images/At2_Group02.png)
 
 By setting our Group to FloorSlabs, we insure that what we create from now on will be located in this group. (if You forget this step, You can always Drag&Drop entities to this group later)
 
@@ -525,7 +525,7 @@ By setting our Group to FloorSlabs, we insure that what we create from now on wi
 
 In practice the inner walls (non structural) will probably be placed above the FloorSlabs. For tutorial purposes, we will assume that all walls and columns penetrate the FloorSlabs
 
-![](/src/assets/images/At2_FloorSnap01.png)
+![](/images/At2_FloorSnap01.png)
 
 Next set the desired [snap settings](/Draft_Snap "Draft Snap"). Especially for new users, conflicting snap settings are a cause of frustration.
 
@@ -543,27 +543,27 @@ Now, draw a closed loop to make FloorSlab. This can be done either with lines, o
 
 Remember that single lines are easier to edit than a dWire, so in many cases it is more efficient to draw single lines, edit, join and add to them, before Joining them to create a dwire.
 
-![](/src/assets/images/At2_FloorSlab01.png)
+![](/images/At2_FloorSlab01.png)
 
 You Should now have something Like image above. **Observe** we have changed the Label to FloorSlab, and ifcRole to Slab (We don't want our floor to be exported as a Column)
 
 #### Cutting FloorSlabs
 
-![](/src/assets/images/At2_Fixme.gif)FIXME Yorik, can You please confirm best practice. Cloning walls to be used for cutting objects does not work. Need to copy cutting objects before ![](/src/assets/images/Arch_Remove.svg) **Remove**?
+![](/images/At2_Fixme.gif)FIXME Yorik, can You please confirm best practice. Cloning walls to be used for cutting objects does not work. Need to copy cutting objects before ![](/images/Arch_Remove.svg) **Remove**?
 
 In order to Cut FloorSlab with Our walls, without walls disappearing, we need to first make a Copy of them.
 
 Select the walls You want to cut the FloorSlab with , and Copy/Paste them.
 
-![](/src/assets/images/At2_FloorSlabCut03.png)
+![](/images/At2_FloorSlabCut03.png)
 
 We can see that Copied walls have been created in the FloorSlab Group
 
-![](/src/assets/images/At2_FloorSlabCut04.png)
+![](/images/At2_FloorSlabCut04.png)
 
-Now select the cutting objects, and the object to be cut (Parent) as the last one, and Press the ![](/src/assets/images/Arch_Remove.svg) **Remove** button
+Now select the cutting objects, and the object to be cut (Parent) as the last one, and Press the ![](/images/Arch_Remove.svg) **Remove** button
 
-![](/src/assets/images/At2_FloorSlabCut05.png)
+![](/images/At2_FloorSlabCut05.png)
 Your result should now look something like this. Observe the cutting objects have been 'swallowed' by the FloorSlab object.
 
 Next we need to do the same with the Columns. But first we have to model them.
@@ -574,7 +574,7 @@ If you have started with making the Arch Grid, tis is a piece of cake. All colum
 
 When measuring the columns, we find they are ø300mm. Probably they could be thinner, but we will stick with original design here.
 
-![](/src/assets/images/At2_Col01.png)![](/src/assets/images/At2_Col02.png)
+![](/images/At2_Col01.png)![](/images/At2_Col02.png)
 
 Probably the easiest is to use a circle with R=150 as base for columns. then extrude to 6000mm.
 
@@ -588,19 +588,19 @@ Next Cut the columns going up to the roof, using the same procedure and cutting 
 
 Starting With outer Beams
 
-![](/src/assets/images/At2_RoofBeam01.png)
+![](/images/At2_RoofBeam01.png)
 
 Looking at the section of the Outer Beams, we can see it is aligned with outer wall. At least in some countries with rougher weather conditions this would be bad practice. Will increase width to 200mm, and have the beam extend 50mm outside the wall.
 
-![](/src/assets/images/At2_DripNose.png)Would also like to have what we sometimes call a drip nose. Feel it is a bit complicated to add at the moment.
+![](/images/At2_DripNose.png)Would also like to have what we sometimes call a drip nose. Feel it is a bit complicated to add at the moment.
 
 Showing Section of Beam with DripNose
 
-![](/src/assets/images/At2_RoofBeam03.png)
+![](/images/At2_RoofBeam03.png)
 
 Created as separate extrudes, added to BuildingPart
 
-![](/src/assets/images/At2_Fixme.gif)FIXME
+![](/images/At2_Fixme.gif)FIXME
 
 Struggling with determining best way to model..
 
@@ -612,7 +612,7 @@ The cut results in error when exporting
 
 Open at2_ReferenceComplete ([can be downloaded from here](https://github.com/FreeCAD/Examples/blob/master/at2_Examples/ref/2dReferenceComplete.fcstd))
 
-![](/src/assets/images/AT2_RoofCenterSlab.svg.png)
+![](/images/AT2_RoofCenterSlab.svg.png)
 
 Choose Edit->Copy (Ctrl+C)
 
@@ -622,15 +622,15 @@ Choose Edit->Paste (Ctrl+V)
 
 Make Your workplane perpendicular to the shapes. This can be done in many ways.
 
-![](/src/assets/images/At2_Fixme.gif)FIXME Comment
+![](/images/At2_Fixme.gif)FIXME Comment
 Add list and ill. of various ways.
 
-![](/src/assets/images/At2_Tip.png)Tip
+![](/images/At2_Tip.png)Tip
 If You made the slab by extrude from Front Plane, it will need to be moved by the global Y-axis.
 If You move the extrusion, by means of Draft->Move, this will lead to wrongly placed geometry when exporting to IFC.
 For IFC export to work correct, You need to also move the underlying or defining geometry.
 
-![](/src/assets/images/At2_Fixme.gif)FIXME Comment
+![](/images/At2_Fixme.gif)FIXME Comment
 Add Illustration + Arch Move
 
 Look at [Arch Component](/Arch_Component "Arch Component")
@@ -644,14 +644,14 @@ Some posts relating to issue and resolution
 
 **Correct supporting wall**
 
-![](/src/assets/images/AT2_RoofCentSlabWall.jpg)
+![](/images/AT2_RoofCentSlabWall.jpg)
 
 If You cut the wall (RED in image above), we now discover that this is supporting The Roof Center Slab.
 
 This gives us a great opportunity test editing this wall with [Arch remove command](https://www.freecadweb.org/wiki/Arch_Remove%7C)
-![](/src/assets/images/At2_Fixme.gif)**_FIXME Think the doc needs some updating_**
+![](/images/At2_Fixme.gif)**_FIXME Think the doc needs some updating_**
 
-![](/src/assets/images/At2_RoofEast03.jpg)
+![](/images/At2_RoofEast03.jpg)
 
 In order to add some flexibility beneath Roof slabs, we have made them as image above.
 
@@ -659,7 +659,7 @@ This means modifying cuts to inner walls and adding a suspended ceiling.
 
 We will also need to add some covering to the Roof Slabs
 
-![](/src/assets/images/At2_RoofCenter03.jpg)
+![](/images/At2_RoofCenter03.jpg)
 
 01
 
@@ -673,23 +673,23 @@ We will also need to add some covering to the Roof Slabs
 - Adjust and construct link between Inner wall and roof of Dormer
   - The inner wall (Green) needs to be combined with the Roof of the Dormer
 
-![](/src/assets/images/At2_RoofCenter04.png)
+![](/images/At2_RoofCenter04.png)
 
 The two highlighted inner walls should probably extend to form the side walls of Dormer
 
-![](/src/assets/images/At2_Tip.png)Tip Add Remove
+![](/images/At2_Tip.png)Tip Add Remove
 
-![](/src/assets/images/At2_TippRemove01.png)
+![](/images/At2_TippRemove01.png)
 
 Right + Click, Go to Selection --> DblClick Gets You to Component Structure / Edit
 
-- ![](/src/assets/images/At2_Fixme.gif)FIXME Yorik, is this Correct naming ?
+- ![](/images/At2_Fixme.gif)FIXME Yorik, is this Correct naming ?
 
 #### Adding Roof slabs
 
 It is tempting to the roof slabs by grabbing geometry from section A-A.
 Set working plane to front.
-![](/src/assets/images/At2_Fixme.gif)FIXME needs image
+![](/images/At2_Fixme.gif)FIXME needs image
 Draw geometry from section A-A.
 
 - If You use lines, join them to make a wire.
@@ -701,7 +701,7 @@ I am wondering why we have the two different entity types, wire and dwire.
 
 - dwire entity is easily editable at vertex level, wire entity is not
 
-* ![](/src/assets/images/At2_Tip.png)It would be tempting to extrude symmetric elements like these slabs, with a symmetrical extrusion. This works fine in Freecad, but sadly this does not seem to export correctly if exporting to IFC
+* ![](/images/At2_Tip.png)It would be tempting to extrude symmetric elements like these slabs, with a symmetrical extrusion. This works fine in Freecad, but sadly this does not seem to export correctly if exporting to IFC
 
 #### Adding Dormer
 
@@ -711,7 +711,7 @@ Make a plane for the two half of the Roof using
 
 Try to use [Work features](/Macro_WorkFeatures "Macro WorkFeatures"), installed as WorkBench
 
-![](/src/assets/images/WF.png)
+![](/images/WF.png)
 
 Also try [Macro_Align_View_to_Face](/Macro_Align_View_to_Face "Macro Align View to Face")
 
@@ -719,7 +719,7 @@ Also try [Macro_Align_View_to_Face](/Macro_Align_View_to_Face "Macro Align View 
 
 Started Playing with this.. First interesting feature.. If You select An Arch Axis -> place point at extreme, it will place points at all ends of all the selected axis
 
-![](/src/assets/images/At2_X-AxisWorkFeature.png)
+![](/images/At2_X-AxisWorkFeature.png)
 
 View image, by selecting the X-Axis System and hitting WorkFeature->Create Points at Line Extreme. Thew workFreature macro will create workpoints at end of all defined lines in ArchAxis. In this case AxesX
 
@@ -733,7 +733,7 @@ Also:
 
 When Building part is exported to IFC, it creates 4xIFCproxyElements, and a parent Beam object
 
-![](/src/assets/images/At2_Fixme.gif)FIXME needs updating Check if Fixed
+![](/images/At2_Fixme.gif)FIXME needs updating Check if Fixed
 
 ### Stairs
 
@@ -832,11 +832,11 @@ This paragraph or chapter will contain Ideas for improvements, expansion and vie
 
 This is where we have temporarily stored snippets of text, that maybe should be placed somewhere in the document
 
-These texts are all in a ![](/src/assets/images/At2_Fixme.gif)FIXME Comment State
+These texts are all in a ![](/images/At2_Fixme.gif)FIXME Comment State
 
 ### Snapping Tools
 
-![](/src/assets/images/At2_Fixme.gif)FIXME needs updating
+![](/images/At2_Fixme.gif)FIXME needs updating
 
 [Noob. Architecture best practices, workflow and other questions](https://forum.freecadweb.org/viewtopic.php?f=3&t=30132) Quoting forum post:
 
@@ -857,13 +857,13 @@ If You have struggled with this when learning FreeCAD, take some comfort in that
 
 This is an example "customized" Arch workbench:
 
-![](/src/assets/images/Arch_tutorial_01.jpg)
+![](/images/Arch_tutorial_01.jpg)
 
 In this tutorial, we will model the house in 3D, based on the 2D drawings we will download from the net, and extract from it 2D documents, such as plans, elevations and sections.
 
 ### Abbreviations
 
-![](/src/assets/images/At2_Fixme.gif)FIXME Comment
+![](/images/At2_Fixme.gif)FIXME Comment
 
 make list of common abbreviations
 
@@ -897,7 +897,7 @@ Code: Select all
 
 ### VDC
 
-![](/src/assets/images/At2_Fixme.gif)FIXME Want to fit VDC in somewhere
+![](/images/At2_Fixme.gif)FIXME Want to fit VDC in somewhere
 
 Virtual Design and Construction seems to be the next Buzz word after BIM.
 
@@ -1034,7 +1034,7 @@ sys.path.append("/usr/lib/python2.7/site-packages")
 
 ```
 
-![](/src/assets/images/At2_Fixme.gif)FIXME This does not seem to work?
+![](/images/At2_Fixme.gif)FIXME This does not seem to work?
 
 ```
 peter@peter-HP-Z400-Workstation:~/.FreeCAD/Macro$ sudo rsync -azv /home/peter/Downloads/ifcopenshell /usr/local/lib/python2.7/site-packages/

@@ -23,17 +23,17 @@ This documentation is not finished. Please help and contribute documentation.Gui
 
 ## Description
 
-The ![](/src/assets/images/SheetMetal_Extrude.svg) **SheetMetal Extrude** command extends a sheet metal plate at a selected edge face.
+The ![](/images/SheetMetal_Extrude.svg) **SheetMetal Extrude** command extends a sheet metal plate at a selected edge face.
 
 It creates a **simple extension** along the face normal of the selected edge face:
 
-![](/src/assets/images/SheetMetal_Extrude-01.png) ![](/src/assets/images/Button_right.svg)
-![](/src/assets/images/SheetMetal_Extrude-02.png)
+![](/images/SheetMetal_Extrude-01.png) ![](/images/Button_right.svg)
+![](/images/SheetMetal_Extrude-02.png)
 
 If an outline sketch is added it creates **interlocking geometry** to close a profile:
 
-![](/src/assets/images/SheetMetal_Extrude-05.png) ![](/src/assets/images/Button_right.svg)
-![](/src/assets/images/SheetMetal_Extrude-04.png)
+![](/images/SheetMetal_Extrude-05.png) ![](/images/Button_right.svg)
+![](/images/SheetMetal_Extrude-04.png)
 
 Three profiles with outline sketches to add → three results
 
@@ -43,9 +43,9 @@ Three profiles with outline sketches to add → three results
 
 1. Select one or more edge face(s) to be extended.
 2. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/SheetMetal_Extrude.svg) [Extend Face](/SheetMetal_Extrude "SheetMetal Extrude") button.
-   - Select the **Sheet Metal → ![](/src/assets/images/SheetMetal_Extrude.svg) Extend Face** option from the menu.
-   - Right-click in the [Tree view](/Tree_view "Tree view") or the [3D view](/3D_view "3D view") and select the **Sheet Metal → ![](/src/assets/images/SheetMetal_Extrude.svg) Extend Face** option from the context menu.
+   - Press the ![](/images/SheetMetal_Extrude.svg) [Extend Face](/SheetMetal_Extrude "SheetMetal Extrude") button.
+   - Select the **Sheet Metal → ![](/images/SheetMetal_Extrude.svg) Extend Face** option from the menu.
+   - Right-click in the [Tree view](/Tree_view "Tree view") or the [3D view](/3D_view "3D view") and select the **Sheet Metal → ![](/images/SheetMetal_Extrude.svg) Extend Face** option from the context menu.
    - Use the keyboard shortcut: E.
 3. An **Extend** object will be created and the **Extend properties** [Task panel](/Task_panel "Task panel") opens (introduced in version 0.5.00).
 
@@ -63,7 +63,7 @@ A [Task panel](/Task_panel "Task panel") was introduced in version 0.5.00
 
 Double-click an existing Extend object in the [Tree view](/Tree_view "Tree view") to re-open the Task panel and edit the parameters.
 
-![](/src/assets/images/SheetMetal_Extrude-Task.png)
+![](/images/SheetMetal_Extrude-Task.png)
 
 - Select: Changes the amount of faces in the **base Object** property.
 - **Length**: Sets the **length** property.
@@ -73,7 +73,7 @@ Double-click an existing Extend object in the [Tree view](/Tree_view "Tree view"
 
 ### Interlocking Extension
 
-: (Prepare a ![](/src/assets/images/Workbench_Sketcher.svg) [sketch](/Sketcher_Workbench "Sketcher Workbench") for interlocking tabs)
+: (Prepare a ![](/images/Workbench_Sketcher.svg) [sketch](/Sketcher_Workbench "Sketcher Workbench") for interlocking tabs)
 
 1. Select the edge face to be extended.
 2. Invoke the command as described above.
@@ -85,10 +85,10 @@ Double-click an existing Extend object in the [Tree view](/Tree_view "Tree view"
 6. Set the property Data**Use Subtraction** to `true` to create cut-outs to make room for the extensions.
 7. Set the property Data**Offset** to adjust the clearance around the extension.
 
-![](/src/assets/images/SheetMetal_Extrude-03.png) ![](/src/assets/images/Button_right.svg)
-![](/src/assets/images/SheetMetal_Extrude-05.png) ![](/src/assets/images/Button_right.svg)
-![](/src/assets/images/SheetMetal_Extrude-06.png) ![](/src/assets/images/Button_right.svg)
-![](/src/assets/images/SheetMetal_Extrude-04.png)
+![](/images/SheetMetal_Extrude-03.png) ![](/images/Button_right.svg)
+![](/images/SheetMetal_Extrude-05.png) ![](/images/Button_right.svg)
+![](/images/SheetMetal_Extrude-06.png) ![](/images/Button_right.svg)
+![](/images/SheetMetal_Extrude-04.png)
 
 Three profiles → position of the sketches → results without cut-outs → final results
 
@@ -104,8 +104,8 @@ Three profiles → position of the sketches → results without cut-outs → fin
 
 - Shapes other than rectangles may behave little bit strange and even though the object can be unfolded, the result will not turn out as expected.
 
-![](/src/assets/images/SheetMetal_Extrude-07.png) ![](/src/assets/images/Button_right.svg)
-![](/src/assets/images/SheetMetal_Extrude-08.png)
+![](/images/SheetMetal_Extrude-07.png) ![](/images/Button_right.svg)
+![](/images/SheetMetal_Extrude-08.png)
 
 Three outline sketches and their resulting extensions: separate triangle plate with a rectangular cut-out, circle without clearance → unfold solid is split at an unexpected position
 

@@ -17,13 +17,13 @@ title: Crowdin Administration
 
 ## Filtering strings
 
-![](/src/assets/images/Crowdin_Filter_Strings.png)
+![](/images/Crowdin_Filter_Strings.png)
 
 Filtering strings is a useful feature for proofreaders and managers. It give the person ability to effectively sort through many translation strings to for example show only strings that have been marked as 'missing more contextual information' or 'incorrect source string'. This service that the translators are doing for FreeCAD provides an extra layer of QA testing. Many typos, grammar issues, and even bugs can be exposed via checking translation strings. And so users mark these said problematic strings for us to respond to and eventually 'Resolve'.
 
 ## Keyboard shortcuts
 
-![](/src/assets/images/Crowdin_keyboard_shortcuts.png)
+![](/images/Crowdin_keyboard_shortcuts.png)
 
 Using keyboard shortcuts is a major time-saving and efficiency tip. It is worth learning if you're a translator, proofreader, or manager. It is possible to see the list of keyboard shortcuts by pressing on the keyboard icon in the top right-hand portion of the Crowdin user interface.
 

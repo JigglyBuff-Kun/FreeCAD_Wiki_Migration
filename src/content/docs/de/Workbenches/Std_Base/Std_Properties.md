@@ -25,8 +25,8 @@ Der Befehl **Std Eigenschaften** Zeigt das Fenster [Eigenschaften-Ansicht](/Prop
 
 1. Ein oder mehrere Objekte auswählen.
 2. Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
-   - Den Menüeintrag **Bearbeiten → ![](/src/assets/images/Std_Properties.svg) Eigenschaften** auswählen.
-   - Die Menüoption **![](/src/assets/images/Std_Properties.svg) Eigenschaften** im Kontextmenü der [Baumansicht](/Tree_view/de "Tree view/de") auswählen.
+   - Den Menüeintrag **Bearbeiten → ![](/images/Std_Properties.svg) Eigenschaften** auswählen.
+   - Die Menüoption **![](/images/Std_Properties.svg) Eigenschaften** im Kontextmenü der [Baumansicht](/Tree_view/de "Tree view/de") auswählen.
    - Das Tastaturkürzel Alt + Eingabe.
 3. Das Fenster Eigenschaften-Ansicht wird angezeigt.
 

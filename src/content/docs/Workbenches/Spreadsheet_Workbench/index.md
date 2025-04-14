@@ -2,55 +2,55 @@
 title: Spreadsheet Workbench
 ---
 
-![](/src/assets/images/Workbench_Spreadsheet.svg)
+![](/images/Workbench_Spreadsheet.svg)
 
 Spreadsheet workbench icon
 
 ## Introduction
 
-The ![](/src/assets/images/Workbench_Spreadsheet.svg) [Spreadsheet Workbench](/Spreadsheet_Workbench "Spreadsheet Workbench") allows you to create and edit spreadsheets, use data from the spreadsheet as parameters in a model, fill the spreadsheet with data retrieved from a model, perform calculations, and export the data to other spreadsheet applications such as LibreOffice or Microsoft Excel.
+The ![](/images/Workbench_Spreadsheet.svg) [Spreadsheet Workbench](/Spreadsheet_Workbench "Spreadsheet Workbench") allows you to create and edit spreadsheets, use data from the spreadsheet as parameters in a model, fill the spreadsheet with data retrieved from a model, perform calculations, and export the data to other spreadsheet applications such as LibreOffice or Microsoft Excel.
 
-![](/src/assets/images/Spreadsheet_screenshot.jpg)
+![](/images/Spreadsheet_screenshot.jpg)
 
 A spreadsheet with certain cells filled with text and quantities
 
 ## Tools
 
-- ![](/src/assets/images/Spreadsheet_CreateSheet.svg) [Create sheet](/Spreadsheet_CreateSheet "Spreadsheet CreateSheet"): create a new spreadsheet.
+- ![](/images/Spreadsheet_CreateSheet.svg) [Create sheet](/Spreadsheet_CreateSheet "Spreadsheet CreateSheet"): create a new spreadsheet.
 
-- ![](/src/assets/images/Spreadsheet_Import.svg) [Import](/Spreadsheet_Import "Spreadsheet Import"): import a CSV file into a spreadsheet.
+- ![](/images/Spreadsheet_Import.svg) [Import](/Spreadsheet_Import "Spreadsheet Import"): import a CSV file into a spreadsheet.
 
-- ![](/src/assets/images/Spreadsheet_Export.svg) [Export](/Spreadsheet_Export "Spreadsheet Export"): export a CSV file from a spreadsheet.
+- ![](/images/Spreadsheet_Export.svg) [Export](/Spreadsheet_Export "Spreadsheet Export"): export a CSV file from a spreadsheet.
 
-- ![](/src/assets/images/Spreadsheet_MergeCells.svg) [Merge cells](/Spreadsheet_MergeCells "Spreadsheet MergeCells"): merge selected cells.
+- ![](/images/Spreadsheet_MergeCells.svg) [Merge cells](/Spreadsheet_MergeCells "Spreadsheet MergeCells"): merge selected cells.
 
-- ![](/src/assets/images/Spreadsheet_SplitCell.svg) [Split cell](/Spreadsheet_SplitCell "Spreadsheet SplitCell"): split previously merged cells.
+- ![](/images/Spreadsheet_SplitCell.svg) [Split cell](/Spreadsheet_SplitCell "Spreadsheet SplitCell"): split previously merged cells.
 
-- ![](/src/assets/images/Spreadsheet_AlignLeft.svg) [Align left](/Spreadsheet_AlignLeft "Spreadsheet AlignLeft"): align the contents of selected cells to the left.
+- ![](/images/Spreadsheet_AlignLeft.svg) [Align left](/Spreadsheet_AlignLeft "Spreadsheet AlignLeft"): align the contents of selected cells to the left.
 
-- ![](/src/assets/images/Spreadsheet_AlignCenter.svg) [Align center](/Spreadsheet_AlignCenter "Spreadsheet AlignCenter"): align the contents of selected cells to the center horizontally.
+- ![](/images/Spreadsheet_AlignCenter.svg) [Align center](/Spreadsheet_AlignCenter "Spreadsheet AlignCenter"): align the contents of selected cells to the center horizontally.
 
-- ![](/src/assets/images/Spreadsheet_AlignRight.svg) [Align right](/Spreadsheet_AlignRight "Spreadsheet AlignRight"): align the contents of selected cells to the right.
+- ![](/images/Spreadsheet_AlignRight.svg) [Align right](/Spreadsheet_AlignRight "Spreadsheet AlignRight"): align the contents of selected cells to the right.
 
-- ![](/src/assets/images/Spreadsheet_AlignTop.svg) [Align top](/Spreadsheet_AlignTop "Spreadsheet AlignTop"): align the contents of selected cells to the top.
+- ![](/images/Spreadsheet_AlignTop.svg) [Align top](/Spreadsheet_AlignTop "Spreadsheet AlignTop"): align the contents of selected cells to the top.
 
-- ![](/src/assets/images/Spreadsheet_AlignVCenter.svg) [Align vertical center](/Spreadsheet_AlignVCenter "Spreadsheet AlignVCenter"): align the contents of selected cells to the center vertically.
+- ![](/images/Spreadsheet_AlignVCenter.svg) [Align vertical center](/Spreadsheet_AlignVCenter "Spreadsheet AlignVCenter"): align the contents of selected cells to the center vertically.
 
-- ![](/src/assets/images/Spreadsheet_AlignBottom.svg) [Align bottom](/Spreadsheet_AlignBottom "Spreadsheet AlignBottom"): top align the contents of selected cells to the bottom.
+- ![](/images/Spreadsheet_AlignBottom.svg) [Align bottom](/Spreadsheet_AlignBottom "Spreadsheet AlignBottom"): top align the contents of selected cells to the bottom.
 
-- ![](/src/assets/images/Spreadsheet_StyleBold.svg) [Style bold](/Spreadsheet_StyleBold "Spreadsheet StyleBold"): toggle the contents of selected cells to/from bold.
+- ![](/images/Spreadsheet_StyleBold.svg) [Style bold](/Spreadsheet_StyleBold "Spreadsheet StyleBold"): toggle the contents of selected cells to/from bold.
 
-- ![](/src/assets/images/Spreadsheet_StyleItalic.svg) [Style italic](/Spreadsheet_StyleItalic "Spreadsheet StyleItalic"): toggle the contents of selected cells to/from italic.
+- ![](/images/Spreadsheet_StyleItalic.svg) [Style italic](/Spreadsheet_StyleItalic "Spreadsheet StyleItalic"): toggle the contents of selected cells to/from italic.
 
-- ![](/src/assets/images/Spreadsheet_StyleUnderline.svg) [Style underline](/Spreadsheet_StyleUnderline "Spreadsheet StyleUnderline"): toggle the contents of selected cells to/from underlined.
+- ![](/images/Spreadsheet_StyleUnderline.svg) [Style underline](/Spreadsheet_StyleUnderline "Spreadsheet StyleUnderline"): toggle the contents of selected cells to/from underlined.
 
-- ![](/src/assets/images/Spreadsheet_SetAlias.svg) [Set alias](/Spreadsheet_SetAlias "Spreadsheet SetAlias"): set the alias for a selected cell.
+- ![](/images/Spreadsheet_SetAlias.svg) [Set alias](/Spreadsheet_SetAlias "Spreadsheet SetAlias"): set the alias for a selected cell.
 
 * Black and White set the foreground and the background colors of selected cells.
 
 ## Preferences
 
-- ![](/src/assets/images/Preferences-spreadsheet.svg) [Preferences](/Spreadsheet_Preferences "Spreadsheet Preferences"): the preferences for the Spreadsheet Workbench. [introduced in 0.20](/Release_notes_0.20 "Release notes 0.20")
+- ![](/images/Preferences-spreadsheet.svg) [Preferences](/Spreadsheet_Preferences "Spreadsheet Preferences"): the preferences for the Spreadsheet Workbench. [introduced in 0.20](/Release_notes_0.20 "Release notes 0.20")
 
 ## Removing cells can be dangerous
 
@@ -78,7 +78,7 @@ The cut and copy operations store the contents, properties and aliases of the ce
 
 The properties of a spreadsheet cell can be edited by right-clicking the cell and selecting **Properties...** from the context menu. The following dialog pops up:
 
-![](/src/assets/images/SpreadsheetCellPropDialog.png)
+![](/images/SpreadsheetCellPropDialog.png)
 
 As indicated by the tabs, the following properties can be changed:
 
@@ -153,7 +153,7 @@ Editing a spreadsheet will trigger a recompute of the 3D model, even if the chan
 There are three solutions to deal with this:
 
 1. Temporarily skip recomputes:
-   - In the [Tree view](/Tree_view "Tree view") right-click the ![](/src/assets/images/Document.svg) document that contains the spreadsheet.
+   - In the [Tree view](/Tree_view "Tree view") right-click the ![](/images/Document.svg) document that contains the spreadsheet.
    - Select the **Skip recomputes** option from the context menu.
    - There is a big disadvantage to this solution. New values entered in the spreadsheet will not be displayed until the document is recomputed. Instead `#PENDING` is shown.
    - You can either recompute manually, using the [Std Refresh](/Std_Refresh "Std Refresh") command, or disable **Skip recomputes** when you are done editing.
@@ -216,12 +216,12 @@ To bind, for example, the cell range A3-C4 to the cell range B1-D2:
 2. Right-click and select **Bind...** from the context menu.
 3. The **Bind Spreadsheet Cells** dialog opens.
 4. Set the range B1-D2 for the **To cells**:
-   ![](/src/assets/images/Spreadsheet_binding-dialog.png)
+   ![](/images/Spreadsheet_binding-dialog.png)
 5. Press OK.
 6. Bound cells have a blue border to highlight the binding.
 7. If you now enter something in cell C1, the same will immediately appear in cell B3.
 
-![](/src/assets/images/Spreadsheet_binding-result.png)
+![](/images/Spreadsheet_binding-result.png)
 
 The spreadsheet may now look like this
 

@@ -32,15 +32,15 @@ This macro creates an stl file with perfect rounding, i.e. without visible facet
 
 After the creation of the stl file you can, for example, open your slicer with the stl file, switch on your printer, heat the printer bed and, if necessary, trigger additional commands in your home automation.
 
-![](/src/assets/images/Macro_3D_Printer_Workflow_Dialog.png)
+![](/images/Macro_3D_Printer_Workflow_Dialog.png)
 
 ### Principle of smoothing
 
-![](/src/assets/images/Macro_3D_Printer_Workflow_With_Facets.png)
+![](/images/Macro_3D_Printer_Workflow_With_Facets.png)
 
 With visible facets
 
-![](/src/assets/images/Macro_3D_Printer_Workflow_Without_Facets.png)
+![](/images/Macro_3D_Printer_Workflow_Without_Facets.png)
 
 Without visible facets
 
@@ -66,7 +66,7 @@ If you run the macro as it is, it will just create the stl without visible facet
 1. Select one or more solid objects to print.
 2. Start the macro.
 3. The dialog opens:  
-   ![](/src/assets/images/Macro_3D_Printer_Workflow_Dialog.png)
+   ![](/images/Macro_3D_Printer_Workflow_Dialog.png)
 4. Check the desired options in the left column.
 5. Enter the **Accuracy (param deviation)**:
    - 0.5 is the default value in FreeCAD.
@@ -90,7 +90,7 @@ Thanks to Mario 52, David69 and Roy_043 for the help on this wiki.
 
 ## Script
 
-ToolBar Icon ![](/src/assets/images/Macro_3D_Printer_Workflow.png)
+ToolBar Icon ![](/images/Macro_3D_Printer_Workflow.png)
 
 ### Code
 

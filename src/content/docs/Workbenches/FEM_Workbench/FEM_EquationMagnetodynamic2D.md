@@ -27,10 +27,10 @@ For more general analyses in 3D using the Maxwell's equations FreeCAD supports E
 
 ## Usage
 
-1. Add an ![](/src/assets/images/FEM_SolverElmer.svg) [Elmer solver](/FEM_SolverElmer#Equations "FEM SolverElmer").
+1. Add an ![](/images/FEM_SolverElmer.svg) [Elmer solver](/FEM_SolverElmer#Equations "FEM SolverElmer").
 2. Select it in the [Tree view](/Tree_view "Tree view").
 3. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/FEM_EquationMagnetodynamic2D.svg) [Magnetodynamic2D equation](/FEM_EquationMagnetodynamic2D "FEM EquationMagnetodynamic2D") button.
+   - Press the ![](/images/FEM_EquationMagnetodynamic2D.svg) [Magnetodynamic2D equation](/FEM_EquationMagnetodynamic2D "FEM EquationMagnetodynamic2D") button.
    - Select the **Solve → Electromagnetic Equations → Magnetodynamic2D equation** option from the menu.
 4. Change the [equation's solver settings](#Solver_Settings) or the [general solver settings](/FEM_SolverElmer_SolverSettings "FEM SolverElmer SolverSettings") if necessary.
 
@@ -58,10 +58,10 @@ The magnetodynamic 2D equation provides these special settings:
 
 The magnetodynamic 2D equation takes the following analysis features into account if they are set:
 
-- ![](/src/assets/images/FEM_ConstraintElectrostaticPotential.svg) [Electrostatic potential boundary condition](/FEM_ConstraintElectrostaticPotential "FEM ConstraintElectrostaticPotential")
-- ![](/src/assets/images/FEM_ConstraintCurrentDensity.svg) [Current density boundary condition](/FEM_ConstraintCurrentDensity "FEM ConstraintCurrentDensity")
-- ![](/src/assets/images/FEM_ConstraintMagnetization.svg) [Magnetization boundary condition](/FEM_ConstraintMagnetization "FEM ConstraintMagnetization")
-- ![](/src/assets/images/FEM_ConstantVacuumPermittivity.svg) [Constant vacuum permittivity](/FEM_ConstantVacuumPermittivity "FEM ConstantVacuumPermittivity")
+- ![](/images/FEM_ConstraintElectrostaticPotential.svg) [Electrostatic potential boundary condition](/FEM_ConstraintElectrostaticPotential "FEM ConstraintElectrostaticPotential")
+- ![](/images/FEM_ConstraintCurrentDensity.svg) [Current density boundary condition](/FEM_ConstraintCurrentDensity "FEM ConstraintCurrentDensity")
+- ![](/images/FEM_ConstraintMagnetization.svg) [Magnetization boundary condition](/FEM_ConstraintMagnetization "FEM ConstraintMagnetization")
+- ![](/images/FEM_ConstantVacuumPermittivity.svg) [Constant vacuum permittivity](/FEM_ConstantVacuumPermittivity "FEM ConstantVacuumPermittivity")
 
 ## Results
 

@@ -25,8 +25,8 @@ The **Std HideSelection** command hides selected objects in [3D views](/3D_view 
 
 1. Select one or more objects.
 2. There are several ways to invoke the command:
-   - Select the **View → Visibility → ![](/src/assets/images/Std_HideSelection.svg) Hide selection** option from the menu.
-   - Select the **![](/src/assets/images/Std_HideSelection.svg) Hide selection** option from the [Tree view](/Tree_view "Tree view") context menu.
+   - Select the **View → Visibility → ![](/images/Std_HideSelection.svg) Hide selection** option from the menu.
+   - Select the **![](/images/Std_HideSelection.svg) Hide selection** option from the [Tree view](/Tree_view "Tree view") context menu.
 
 ## Notes
 

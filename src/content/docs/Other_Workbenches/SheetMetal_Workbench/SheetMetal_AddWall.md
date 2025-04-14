@@ -23,19 +23,19 @@ This documentation is not finished. Please help and contribute documentation.Gui
 
 ## Description
 
-The ![](/src/assets/images/SheetMetal_AddWall.svg) **SheetMetal AddWall** command creates flanges on selected edges of a base plate. By changing the Data**angle** property a flange it can be turned into a hem.
+The ![](/images/SheetMetal_AddWall.svg) **SheetMetal AddWall** command creates flanges on selected edges of a base plate. By changing the Data**angle** property a flange it can be turned into a hem.
 
 A **flange** consists of a 90° cylindrical bend and a planar strip (wall).
 
-![](/src/assets/images/SheetMetal_AddWall-12.png) ![](/src/assets/images/Button_right.svg)
-![](/src/assets/images/SheetMetal_AddWall-13.png)
+![](/images/SheetMetal_AddWall-12.png) ![](/images/Button_right.svg)
+![](/images/SheetMetal_AddWall-13.png)
 
 Two selected edges → two flanges
 
 Resetting the Data**angle** property to about 180° in a second step will create a **hem** instead.
 
-![](/src/assets/images/SheetMetal_AddWall-14.png) ![](/src/assets/images/Button_right.svg)
-![](/src/assets/images/SheetMetal_AddWall-15.png)
+![](/images/SheetMetal_AddWall-14.png) ![](/images/Button_right.svg)
+![](/images/SheetMetal_AddWall-15.png)
 
 Two selected edges → two hems
 
@@ -43,9 +43,9 @@ Two selected edges → two hems
 
 1. Select one or more edge(s) of a base plate.
 2. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/SheetMetal_AddWall.svg) [Make Wall](/SheetMetal_AddWall "SheetMetal AddWall") button.
-   - Select the **Sheet Metal → ![](/src/assets/images/SheetMetal_AddWall.svg) Make Wall** option from the menu.
-   - Right-click in the [Tree view](/Tree_view "Tree view") or the [3D view](/3D_view "3D view") and select the **Sheet Metal → ![](/src/assets/images/SheetMetal_AddWall.svg) Make Wall** option from the context menu.
+   - Press the ![](/images/SheetMetal_AddWall.svg) [Make Wall](/SheetMetal_AddWall "SheetMetal AddWall") button.
+   - Select the **Sheet Metal → ![](/images/SheetMetal_AddWall.svg) Make Wall** option from the menu.
+   - Right-click in the [Tree view](/Tree_view "Tree view") or the [3D view](/3D_view "3D view") and select the **Sheet Metal → ![](/images/SheetMetal_AddWall.svg) Make Wall** option from the context menu.
    - Use the keyboard shortcut: W.
 3. A **Bend** object is created and the **Flange properties** [Task panel](/Task_panel "Task panel") opens with the **General** tab selected.
 
@@ -66,15 +66,15 @@ Double-click an existing Bend object in the [Tree view](/Tree_view "Tree view") 
 
 #### General
 
-![](/src/assets/images/SheetMetal_AddWall-Task1.png)
+![](/images/SheetMetal_AddWall-Task1.png)
 
 - Select: Changes the amount of edges in the **base Object** property.
 - **Length**: Sets the **length** property.
-- ![](/src/assets/images/Invert_On.svg) Reverse the wall: Toggles the **invert** property.
+- ![](/images/Invert_On.svg) Reverse the wall: Toggles the **invert** property.
 - **Length mode**: Sets the **Length Spec** property.
 - **Bend radius**: Sets the **radius** property.
 - **Bend angle**: Sets the **angle** property.
-- ![](/src/assets/images/FaceSelection_On.svg) Face reference: Toggles the **Angle Face Ref Mode** property.
+- ![](/images/FaceSelection_On.svg) Face reference: Toggles the **Angle Face Ref Mode** property.
 
   : If activated, it switches the **Bend angle** option to read-only mode and displays two further options:
 
@@ -85,7 +85,7 @@ Double-click an existing Bend object in the [Tree view](/Tree_view "Tree view") 
 
 #### Offsets
 
-![](/src/assets/images/SheetMetal_AddWall-Task2.png)
+![](/images/SheetMetal_AddWall-Task2.png)
 
 - **Gap A**: Sets the **gap1** property.
 - **Gap B**: Sets the **gap2** property.
@@ -97,7 +97,7 @@ Double-click an existing Bend object in the [Tree view](/Tree_view "Tree view") 
 
 #### Miter
 
-![](/src/assets/images/SheetMetal_AddWall-Task3.png)
+![](/images/SheetMetal_AddWall-Task3.png)
 
 - **Auto Miter**: Toggles the **Auto Miter** property.
 
@@ -113,7 +113,7 @@ Double-click an existing Bend object in the [Tree view](/Tree_view "Tree view") 
 
 #### Perforation
 
-![](/src/assets/images/SheetMetal_AddWall-Task4.png)
+![](/images/SheetMetal_AddWall-Task4.png)
 
 - **Perforate**: Toggles the **Perforate** property.
 
@@ -126,28 +126,28 @@ Double-click an existing Bend object in the [Tree view](/Tree_view "Tree view") 
 
 ## Notes
 
-To create a base plate use a closed 2D outline - preferably a ![](/src/assets/images/Sketcher_NewSketch.svg) [Sketch](/Sketcher_NewSketch "Sketcher NewSketch") - with the ![](/src/assets/images/SheetMetal_AddBase.svg) [Make Base Wall](/SheetMetal_AddBase "SheetMetal AddBase") command.
+To create a base plate use a closed 2D outline - preferably a ![](/images/Sketcher_NewSketch.svg) [Sketch](/Sketcher_NewSketch "Sketcher NewSketch") - with the ![](/images/SheetMetal_AddBase.svg) [Make Base Wall](/SheetMetal_AddBase "SheetMetal AddBase") command.
 
-Alternatively a base plate (blank) can be created with commands from the ![](/src/assets/images/Workbench_Part.svg) [Part Workbench](/Part_Workbench "Part Workbench") or ![](/src/assets/images/Workbench_PartDesign.svg) [PartDesign Workbench](/PartDesign_Workbench "PartDesign Workbench").
+Alternatively a base plate (blank) can be created with commands from the ![](/images/Workbench_Part.svg) [Part Workbench](/Part_Workbench "Part Workbench") or ![](/images/Workbench_PartDesign.svg) [PartDesign Workbench](/PartDesign_Workbench "PartDesign Workbench").
 
 To create a blank with the [Part Workbench](/Part_Workbench "Part Workbench"):
 
 1. Create a solid using either:
-   - ![](/src/assets/images/Part_Box.svg) [Part Box](/Part_Box "Part Box").
-   - ![](/src/assets/images/Part_Extrude.svg) [Part Extrude](/Part_Extrude "Part Extrude") from:
-     - A ![](/src/assets/images/Draft_Rectangle.svg) [Draft Rectangle](/Draft_Rectangle "Draft Rectangle").
-     - A ![](/src/assets/images/Draft_Wire.svg) [Draft Wire](/Draft_Wire "Draft Wire").
-     - A ![](/src/assets/images/Sketcher_NewSketch.svg) [Sketch](/Sketcher_NewSketch "Sketcher NewSketch").
+   - ![](/images/Part_Box.svg) [Part Box](/Part_Box "Part Box").
+   - ![](/images/Part_Extrude.svg) [Part Extrude](/Part_Extrude "Part Extrude") from:
+     - A ![](/images/Draft_Rectangle.svg) [Draft Rectangle](/Draft_Rectangle "Draft Rectangle").
+     - A ![](/images/Draft_Wire.svg) [Draft Wire](/Draft_Wire "Draft Wire").
+     - A ![](/images/Sketcher_NewSketch.svg) [Sketch](/Sketcher_NewSketch "Sketcher NewSketch").
 2. Make sure one the dimensions of the Box or the extrusion distance equals the sheet metal thickness.
 
 To create a blank with the [PartDesign Workbench](/PartDesign_Workbench "PartDesign Workbench"):
 
 1. Create a solid using either:
-   - ![](/src/assets/images/PartDesign_AdditiveBox.svg) [Additive Box](/PartDesign_AdditiveBox "PartDesign AdditiveBox").
-   - ![](/src/assets/images/PartDesign_Pad.svg) [PartDesign Pad](/PartDesign_Pad "PartDesign Pad") from a ![](/src/assets/images/Sketcher_NewSketch.svg) [Sketch](/Sketcher_NewSketch "Sketcher NewSketch").
+   - ![](/images/PartDesign_AdditiveBox.svg) [Additive Box](/PartDesign_AdditiveBox "PartDesign AdditiveBox").
+   - ![](/images/PartDesign_Pad.svg) [PartDesign Pad](/PartDesign_Pad "PartDesign Pad") from a ![](/images/Sketcher_NewSketch.svg) [Sketch](/Sketcher_NewSketch "Sketcher NewSketch").
 2. Make sure one the dimensions of the Box or the Data**Length** property of the Pad equals the sheet metal thickness.
 
-If you start with a ![](/src/assets/images/PartDesign_Body.svg) [PartDesign Body](/PartDesign_Body "PartDesign Body"), you can mix SheetMetal features with PartDesign features such as ![](/src/assets/images/PartDesign_Pocket.svg) [PartDesign Pocket](/PartDesign_Pocket "PartDesign Pocket") or ![](/src/assets/images/PartDesign_Hole.svg) [PartDesign Hole](/PartDesign_Hole "PartDesign Hole").
+If you start with a ![](/images/PartDesign_Body.svg) [PartDesign Body](/PartDesign_Body "PartDesign Body"), you can mix SheetMetal features with PartDesign features such as ![](/images/PartDesign_Pocket.svg) [PartDesign Pocket](/PartDesign_Pocket "PartDesign Pocket") or ![](/images/PartDesign_Hole.svg) [PartDesign Hole](/PartDesign_Hole "PartDesign Hole").
 
 ## Properties
 
@@ -231,7 +231,7 @@ Parameters Relief
 
 ## Example
 
-![](/src/assets/images/SheetMetal_AddWall-01.png)
+![](/images/SheetMetal_AddWall-01.png)
 
 A simple tray
 
@@ -240,7 +240,7 @@ A simple tray
 This tray is made of a rectangular blank with walls added to its outline edges.
 And so one outline sketch for the blank has to be prepared in advance.
 
-![](/src/assets/images/SheetMetal_AddWall-02.png)
+![](/images/SheetMetal_AddWall-02.png)
 
 Just a rectangular outline
 
@@ -248,29 +248,29 @@ Just a rectangular outline
 
 1. Create a blank
    1. Select the outline sketch  
-      ![](/src/assets/images/SheetMetal_AddWall-03.png)
-   2. Press the ![](/src/assets/images/SheetMetal_AddBase.svg) [Make Base Wall](/SheetMetal_AddBase "SheetMetal AddBase") button  
+      ![](/images/SheetMetal_AddWall-03.png)
+   2. Press the ![](/images/SheetMetal_AddBase.svg) [Make Base Wall](/SheetMetal_AddBase "SheetMetal AddBase") button  
       or use the keyboard shortcut: C then F  
-      ![](/src/assets/images/SheetMetal_AddWall-04.png)  
+      ![](/images/SheetMetal_AddWall-04.png)  
       (The blank is padded in z direction
 2. Add walls to the outline edges
    1. Select the blank's **outline edges**  
-      ![](/src/assets/images/SheetMetal_AddWall-05.png)
-   2. Press the ![](/src/assets/images/SheetMetal_AddWall.svg) [Make Wall](/SheetMetal_AddWall "SheetMetal AddWall") button  
+      ![](/images/SheetMetal_AddWall-05.png)
+   2. Press the ![](/images/SheetMetal_AddWall.svg) [Make Wall](/SheetMetal_AddWall "SheetMetal AddWall") button  
       or use the keyboard shortcut: W  
-      ![](/src/assets/images/SheetMetal_AddWall-06.png)
+      ![](/images/SheetMetal_AddWall-06.png)
    3. If the fold is 90° down set the value of **invert** property to true to reverse the direction (and **length** to a lower value for smaller walls)  
-      ![](/src/assets/images/SheetMetal_AddWall-01.png)
+      ![](/images/SheetMetal_AddWall-01.png)
 3. Add some more walls
    1. Select the tray's **upper outside edges**  
-      ![](/src/assets/images/SheetMetal_AddWall-08.png)
-   2. Press the ![](/src/assets/images/SheetMetal_AddWall.svg) [Make Wall](/SheetMetal_AddWall "SheetMetal AddWall") button  
+      ![](/images/SheetMetal_AddWall-08.png)
+   2. Press the ![](/images/SheetMetal_AddWall.svg) [Make Wall](/SheetMetal_AddWall "SheetMetal AddWall") button  
       or use the keyboard shortcut: W  
-      ![](/src/assets/images/SheetMetal_AddWall-09.png)
+      ![](/images/SheetMetal_AddWall-09.png)
    3. The walls are a bit too long (but nicely trimmed) and so the **length** property has to be set to a lower value  
-      ![](/src/assets/images/SheetMetal_AddWall-10.png)
+      ![](/images/SheetMetal_AddWall-10.png)
    4. If you like the folds swing outward set the **invert** value to true  
-      ![](/src/assets/images/SheetMetal_AddWall-11.png)
+      ![](/images/SheetMetal_AddWall-11.png)
 
 Done!
 

@@ -19,12 +19,12 @@ title: Part ReverseShape
 
 ## Description
 
-The ![](/src/assets/images/Part_ReverseShape.svg) **Part ReverseShape** command creates parametric copies with reversed face normals from selected objects.
+The ![](/images/Part_ReverseShape.svg) **Part ReverseShape** command creates parametric copies with reversed face normals from selected objects.
 
 ## Usage
 
 1. Select one or more objects.
-2. Select the **Part → ![](/src/assets/images/Part_ReverseShape.svg) Reverse shapes** option from the menu.
+2. Select the **Part → ![](/images/Part_ReverseShape.svg) Reverse shapes** option from the menu.
 3. For each selected object a reversed shape is created.
 
 ## Notes

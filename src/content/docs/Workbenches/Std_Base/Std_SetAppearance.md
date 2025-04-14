@@ -23,7 +23,7 @@ The **Std SetAppearance** command sets the display properties of selected object
 
 This page has been updated for version 1.0.
 
-![](/src/assets/images/Std_SetAppearance_Taskpanel.png)
+![](/images/Std_SetAppearance_Taskpanel.png)
 
 The Display properties task panel
 
@@ -31,8 +31,8 @@ The Display properties task panel
 
 1. Select one or more objects.
 2. There are several ways to invoke the command:
-   - Select the **View → ![](/src/assets/images/Std_SetAppearance.svg) Appearance...** option from the menu.
-   - Select the **![](/src/assets/images/Std_SetAppearance.svg) Appearance...** option from the [Tree view](/Tree_view "Tree view") context menu or [3D view](/3D_view "3D view") context menu.
+   - Select the **View → ![](/images/Std_SetAppearance.svg) Appearance...** option from the menu.
+   - Select the **![](/images/Std_SetAppearance.svg) Appearance...** option from the [Tree view](/Tree_view "Tree view") context menu or [3D view](/3D_view "3D view") context menu.
    - Use the keyboard shortcut: Ctrl+D.
 3. The **Display properties** task panel opens. See [Options](#Options).
 4. Change one or more properties.

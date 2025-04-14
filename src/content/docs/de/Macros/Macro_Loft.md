@@ -60,7 +60,7 @@ webbrowser.open("https://gist.githubusercontent.com/mario52a/c477f892233d6abe02d
 
 <class="rawcodeurl"><a href="<https://gist.githubusercontent.com/mario52a/c477f892233d6abe02df5e97af828ff4/raw/d633193c577e8257ef458b8c1824d1047c3c6613/Macro_FCCreaLoft.FCMacro>">raw code</a>
 
-![](/src/assets/images/Texture_001_Logo.png)
+![](/images/Texture_001_Logo.png)
 
 Texture_001_Logo
 
@@ -86,13 +86,13 @@ Das Makro und das Symbol in das Makroverzeichnis kopieren.
 
 ### Die Schnittstelle
 
-![FCCreaLoft002](/src/assets/images/Macro_FCCreaLoft_01.png)
+![FCCreaLoft002](/images/Macro_FCCreaLoft_01.png)
 
 FCCreaLoft002
 
 ## Skript
 
-Das Symbol für die Werkzeugleiste ![](/src/assets/images/FCCreaLoft.png)
+Das Symbol für die Werkzeugleiste ![](/images/FCCreaLoft.png)
 
 Laden Sie das Makro in herunter Gist [**Macro_FCCreaLoft.FCMacro**](https://gist.github.com/mario52a/c477f892233d6abe02df5e97af828ff4)
 

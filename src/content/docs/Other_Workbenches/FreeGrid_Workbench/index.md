@@ -2,29 +2,29 @@
 title: FreeGrid Workbench
 ---
 
-![](/src/assets/images/FreeGridWorkbench.svg)
+![](/images/FreeGridWorkbench.svg)
 
 FreeGrid workbench icon
 
-The ![](/src/assets/images/FreeGridWorkbench.svg) **FreeGrid Workbench** is an [external workbench](/External_workbenches "External workbenches") for generating FreeGrid storage system components. In which are included grids, boxes and bit cartridge holders.
+The ![](/images/FreeGridWorkbench.svg) **FreeGrid Workbench** is an [external workbench](/External_workbenches "External workbenches") for generating FreeGrid storage system components. In which are included grids, boxes and bit cartridge holders.
 
-![](/src/assets/images/FreeGrid_example.png)
+![](/images/FreeGrid_example.png)
 
 Example of a FreeGrid 6x4 grid containing 3 boxes and one bit cartridge holder.
 
 ## Installation
 
-1. Install the FreeGrid Workbench via the ![](/src/assets/images/AddonManager.svg) [Addon Manager](/Std_AddonMgr "Std AddonMgr"). For manual installation, see [Installing more workbenches](/Installing_more_workbenches "Installing more workbenches").
+1. Install the FreeGrid Workbench via the ![](/images/AddonManager.svg) [Addon Manager](/Std_AddonMgr "Std AddonMgr"). For manual installation, see [Installing more workbenches](/Installing_more_workbenches "Installing more workbenches").
 2. Restart FreeCAD.
 
 ## Tools
 
 ### FreeGrid object generation
 
-- ![](/src/assets/images/FreeGrid_StorageBox.svg) [Storage box](/FreeGrid_StorageBox "FreeGrid StorageBox"): Creates a storage box.
-- ![](/src/assets/images/FreeGrid_BitCartridgeHolder.svg) [Bit cartridge holder](/FreeGrid_BitCartridgeHolder "FreeGrid BitCartridgeHolder"): Creates a bit cartridge holder.
-- ![](/src/assets/images/FreeGrid_StorageGrid.svg) [Storage grid](/FreeGrid_StorageGrid "FreeGrid StorageGrid"): Creates a storage grid.
-- ![](/src/assets/images/FreeGrid_Sketch.svg) [Sketch](/FreeGrid_Sketch "FreeGrid Sketch"): Generates an inner box profile sketch.
+- ![](/images/FreeGrid_StorageBox.svg) [Storage box](/FreeGrid_StorageBox "FreeGrid StorageBox"): Creates a storage box.
+- ![](/images/FreeGrid_BitCartridgeHolder.svg) [Bit cartridge holder](/FreeGrid_BitCartridgeHolder "FreeGrid BitCartridgeHolder"): Creates a bit cartridge holder.
+- ![](/images/FreeGrid_StorageGrid.svg) [Storage grid](/FreeGrid_StorageGrid "FreeGrid StorageGrid"): Creates a storage grid.
+- ![](/images/FreeGrid_Sketch.svg) [Sketch](/FreeGrid_Sketch "FreeGrid Sketch"): Generates an inner box profile sketch.
 
 ### Utilities
 

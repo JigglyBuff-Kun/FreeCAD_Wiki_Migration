@@ -31,11 +31,11 @@ The boundary layer has the advantage of creating highly defined, anisotropic mes
 
 ## Usage
 
-1. To enable the command a ![](/src/assets/images/FEM_MeshGmshFromShape.svg) [FEM mesh from shape by Gmsh](/FEM_MeshGmshFromShape "FEM MeshGmshFromShape") must be provided first.
+1. To enable the command a ![](/images/FEM_MeshGmshFromShape.svg) [FEM mesh from shape by Gmsh](/FEM_MeshGmshFromShape "FEM MeshGmshFromShape") must be provided first.
 2. Select the Mesh object in the [Tree view](/Tree_view "Tree view").
 3. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/FEM_MeshBoundaryLayer.svg) [FEM mesh boundary layer](/FEM_MeshBoundaryLayer "FEM MeshBoundaryLayer") button.
-   - Select the **Mesh → ![](/src/assets/images/FEM_MeshBoundaryLayer.svg) FEM mesh boundary layer** option from the menu.
+   - Press the ![](/images/FEM_MeshBoundaryLayer.svg) [FEM mesh boundary layer](/FEM_MeshBoundaryLayer "FEM MeshBoundaryLayer") button.
+   - Select the **Mesh → ![](/images/FEM_MeshBoundaryLayer.svg) FEM mesh boundary layer** option from the menu.
 4. Edit the start element size, the growth rate and the number of growth layers.
 5. Select a vertex, edge, face.
 6. Click the OK button.
@@ -52,15 +52,15 @@ You can create as many different mesh boundary layers as needed.
 
 ## Visual examples
 
-![](/src/assets/images/FEMMeshBoundaryLayer_Example1.png.png)
+![](/images/FEMMeshBoundaryLayer_Example1.png.png)
 
 Example 1: The initial coarse FEMMeshGMSH on a 2D case
 
-![](/src/assets/images/FEMMeshBoundaryLayer_Example2.png.png)
+![](/images/FEMMeshBoundaryLayer_Example2.png.png)
 
 Example 2: After applying a Mesh boundary layer
 
-![](/src/assets/images/FEMMeshBoundaryLayer_Example3.png.png)
+![](/images/FEMMeshBoundaryLayer_Example3.png.png)
 
 Example 3: A simple example of the resulting Model Tree
 

@@ -21,7 +21,7 @@ title: TechDraw HoleShaftFit
 
 The **TechDraw HoleShaftFit** tool adds hole or shaft tolerances using ISO 286 to a linear dimension or a diameter dimension.
 
-![](/src/assets/images/TechDraw_HoleShaftFitExample.png)
+![](/images/TechDraw_HoleShaftFitExample.png)
 
 On the left the task panel, on the right some added tolerances
 
@@ -29,8 +29,8 @@ On the left the task panel, on the right some added tolerances
 
 1. Select a single linear dimension ([length](/TechDraw_LengthDimension "TechDraw LengthDimension"), [horizontal](/TechDraw_HorizontalDimension "TechDraw HorizontalDimension") or [vertical](/TechDraw_VerticalDimension "TechDraw VerticalDimension")) or a single [diameter](/TechDraw_DiameterDimension "TechDraw DiameterDimension") dimension.
 2. There are several ways to invoke the tool:
-   - Press the ![](/src/assets/images/TechDraw_HoleShaftFit.svg) [Add hole or shaft fit](/TechDraw_HoleShaftFit "TechDraw HoleShaftFit") button.
-   - Select the **TechDraw → Symbols → ![](/src/assets/images/TechDraw_HoleShaftFit.svg) Add hole or shaft fit** option from the menu.
+   - Press the ![](/images/TechDraw_HoleShaftFit.svg) [Add hole or shaft fit](/TechDraw_HoleShaftFit "TechDraw HoleShaftFit") button.
+   - Select the **TechDraw → Symbols → ![](/images/TechDraw_HoleShaftFit.svg) Add hole or shaft fit** option from the menu.
 3. A task panel opens.
 4. Specify **shaft fit** or **hole fit** as applicable.
 5. Select the desired ISO 286 fit option from the combo box. The corresponding field and the fit type (loose fit, snug fit or press fit) are updated.

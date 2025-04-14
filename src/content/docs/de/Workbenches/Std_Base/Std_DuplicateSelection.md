@@ -24,7 +24,7 @@ Der Befehl **Std AuswahlDuplizieren** dupliziert Objekte innerhalb des aktiven D
 ## Anwendung
 
 1. Ein oder mehrere Objekte auswählen.
-2. Menüeintrag **Bearbeiten → ![](/src/assets/images/Std_DuplicateSelection.svg) Auswahl duplizieren** auswählen.
+2. Menüeintrag **Bearbeiten → ![](/images/Std_DuplicateSelection.svg) Auswahl duplizieren** auswählen.
 3. Wenn die Objekte Abhängigkeiten besitzen, die nicht ausgewählt wurden, wird ein Dialogfeld zur Angabe der zu berücksichtigenden Abhängigkeiten auffordern.
 
 ## Hinweise

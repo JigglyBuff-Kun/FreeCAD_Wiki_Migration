@@ -6,7 +6,7 @@ title: PartDesign Feature
 
 A [PartDesign Feature](/PartDesign_Feature "PartDesign Feature") refers to a "step" in the modelling process that happens inside of a [PartDesign Body](/PartDesign_Body "PartDesign Body"). For example, each time you add a solid box with [PartDesign AdditiveBox](/PartDesign_AdditiveBox "PartDesign AdditiveBox"), you add a feature; when you add a chamfer to an edge with [PartDesign Chamfer](/PartDesign_Chamfer "PartDesign Chamfer"), you add another feature; when you cut a hole using a [sketch](/Sketch "Sketch") and [PartDesign Pocket](/PartDesign_Pocket "PartDesign Pocket"), you add another feature.
 
-![](/src/assets/images/PartDesign_Feature_example.png)
+![](/images/PartDesign_Feature_example.png)
 
 Feature editing in a [PartDesign Body](/PartDesign_Body "PartDesign Body") with three sequential features.
 
@@ -41,7 +41,7 @@ The features can be placed in different categories:
 
 ## Inheritance
 
-![](/src/assets/images/FreeCAD_core_objects.svg)
+![](/images/FreeCAD_core_objects.svg)
 
 Simplified diagram of the relationships between the core objects in the program. The `PartDesign::Feature` objects are used to build parametric 3D solids, and thus are derived from the basic `Part::Feature` object.
 

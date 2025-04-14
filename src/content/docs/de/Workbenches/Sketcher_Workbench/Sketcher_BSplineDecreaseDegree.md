@@ -19,15 +19,15 @@ title: Sketcher BSplineGradVerringern
 
 ## Beschreibung
 
-Das Werkzeug ![](/src/assets/images/Sketcher_BSplineDecreaseDegree.svg) Sketcher BSplineGradVerringern verringert den Grad (Ordnung) von [B-Splines](/B-Splines "B-Splines").
+Das Werkzeug ![](/images/Sketcher_BSplineDecreaseDegree.svg) Sketcher BSplineGradVerringern verringert den Grad (Ordnung) von [B-Splines](/B-Splines "B-Splines").
 
 ## Anwendung
 
 1. Einen oder mehrere B-Splines auswählen.
 2. Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
-   - Die Schaltfläche ![](/src/assets/images/Sketcher_BSplineDecreaseDegree.svg) Grad des B-Splines verringern drücken.
-   - Den Menüeintrag **Skizze → B-Spline-Werkzeuge → ![](/src/assets/images/Sketcher_BSplineDecreaseDegree.svg) Grad des B-Splines verringern** auswählen.
-   - [eingeführt in 1.0](/Release_notes_1.0/de "Release notes 1.0/de"): Ein Rechtsklick in die [3D-Ansicht](/3D_view/de "3D view/de") und die Menüoption **![](/src/assets/images/Sketcher_BSplineDecreaseDegree.svg) Grad des B-Splines verringern** im Kontextmenü auswählen.
+   - Die Schaltfläche ![](/images/Sketcher_BSplineDecreaseDegree.svg) Grad des B-Splines verringern drücken.
+   - Den Menüeintrag **Skizze → B-Spline-Werkzeuge → ![](/images/Sketcher_BSplineDecreaseDegree.svg) Grad des B-Splines verringern** auswählen.
+   - [eingeführt in 1.0](/Release_notes_1.0/de "Release notes 1.0/de"): Ein Rechtsklick in die [3D-Ansicht](/3D_view/de "3D view/de") und die Menüoption **![](/images/Sketcher_BSplineDecreaseDegree.svg) Grad des B-Splines verringern** im Kontextmenü auswählen.
 
 ## Beispiel
 

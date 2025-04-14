@@ -25,8 +25,8 @@ Der Befehl **Mesh Skalieren** passt die Größe von Netzobjekten an.
 
 1. Select one or more mesh objects.
 2. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/Mesh_Scale.svg) [Scale...](/Mesh_Scale "Mesh Scale") button.
-   - Select the **Meshes → ![](/src/assets/images/Mesh_Scale.svg) Scale...** option from the menu.
+   - Press the ![](/images/Mesh_Scale.svg) [Scale...](/Mesh_Scale "Mesh Scale") button.
+   - Select the **Meshes → ![](/images/Mesh_Scale.svg) Scale...** option from the menu.
 3. The **Scaling** dialog box opens.
 4. Specify a scaling factor, the value must be larger than `0`.
 5. Press the OK button to finish the command.

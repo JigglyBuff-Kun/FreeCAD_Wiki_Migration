@@ -4,7 +4,7 @@ title: Draft Preferences
 
 ## Introduction
 
-The preferences for the ![](/src/assets/images/Workbench_Draft.svg) [Draft Workbench](/Draft_Workbench "Draft Workbench") can be found in the [Preferences Editor](/Preferences_Editor "Preferences Editor"). In the menu select **Edit → Preferences...** and then **![](/src/assets/images/Workbench_Draft.svg) Draft**. This group is only available if the Draft Workbench has been loaded in the current FreeCAD session.
+The preferences for the ![](/images/Workbench_Draft.svg) [Draft Workbench](/Draft_Workbench "Draft Workbench") can be found in the [Preferences Editor](/Preferences_Editor "Preferences Editor"). In the menu select **Edit → Preferences...** and then **![](/images/Workbench_Draft.svg) Draft**. This group is only available if the Draft Workbench has been loaded in the current FreeCAD session.
 
 There are five pages: [General](#General), [Interface](#Interface), [Grid and snapping](#Grid_and_snapping), [Visual](#Visual) and [Texts and dimensions](#Texts_and_dimensions).
 
@@ -16,7 +16,7 @@ In 0.21 and below some preferences may appear on a different page, and in some c
 
 ## General
 
-![](/src/assets/images/Preferences_Draft_Page_General.png)
+![](/images/Preferences_Draft_Page_General.png)
 
 On this page you can specify the following:
 
@@ -41,7 +41,7 @@ On this page you can specify the following:
 
 ## Interface
 
-![](/src/assets/images/Preferences_Draft_Page_Interface.png)
+![](/images/Preferences_Draft_Page_Interface.png)
 
 On this page you can specify the following:
 
@@ -75,7 +75,7 @@ On this page you can specify the following:
 
 ## Grid and snapping
 
-![](/src/assets/images/Preferences_Draft_Page_Grid_and_snapping.png)
+![](/images/Preferences_Draft_Page_Grid_and_snapping.png)
 
 Note that several grid preferences can also be changed with the [Draft SelectPlane](/Draft_SelectPlane "Draft SelectPlane") command.
 
@@ -102,7 +102,7 @@ On this page you can specify the following:
 
 ## Visual
 
-![](/src/assets/images/Preferences_Draft_Page_Visual.png)
+![](/images/Preferences_Draft_Page_Visual.png)
 
 On this page you can specify the following:
 
@@ -116,7 +116,7 @@ On this page you can specify the following:
 
 ## Texts and dimensions
 
-![](/src/assets/images/Preferences_Draft_Page_Texts_and_dimensions.png)
+![](/images/Preferences_Draft_Page_Texts_and_dimensions.png)
 
 These preferences are the defaults used when creating new objects. Changing them does not affect existing objects.
 

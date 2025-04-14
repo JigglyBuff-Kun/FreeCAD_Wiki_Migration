@@ -2,7 +2,7 @@
 title: TechDraw Roadmap
 ---
 
-![](/src/assets/images/Preferences-techdraw.svg)
+![](/images/Preferences-techdraw.svg)
 
 Here is a rough roadmap of areas to be addressed in the [TechDraw Workbench](/TechDraw_Workbench "TechDraw Workbench") in 2023.
 

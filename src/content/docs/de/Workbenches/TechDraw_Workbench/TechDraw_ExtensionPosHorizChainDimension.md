@@ -21,7 +21,7 @@ title: TechDraw ErgänzungHorizontaleKettenmaßeAnordnen
 
 Das Werkzeug **TechDraw ErgänzungHorizontaleKettenmaßeAnordnen** verbindet horizontale Maße zu einer Maßkette.
 
-![](/src/assets/images/TechDraw_ExtensionPosHorizChainDimensionExample.png)
+![](/images/TechDraw_ExtensionPosHorizChainDimensionExample.png)
 
 Rechts die als Kette angeordneten Maße
 
@@ -30,8 +30,8 @@ Rechts die als Kette angeordneten Maße
 1. Zwei oder mehr horizontale Maße auswählen.
 2. Das erste Maß legt die Position fest. Dieses Maß wird nicht bewegt.
 3. Es gibt mehrere Möglichkeiten das Werkzeug aufzurufen:
-   - Die Schaltfläche ![](/src/assets/images/TechDraw_ExtensionPosHorizChainDimension.svg) Horizontale Kettenmaße anordnen drücken.
-   - Den Menüeintrag **TechDraw → Ergänzungen: Merkmale/Änderungen → ![](/src/assets/images/TechDraw_ExtensionPosHorizChainDimension.svg) Horizontale Kettenmaße anordnen** auswählen.
+   - Die Schaltfläche ![](/images/TechDraw_ExtensionPosHorizChainDimension.svg) Horizontale Kettenmaße anordnen drücken.
+   - Den Menüeintrag **TechDraw → Ergänzungen: Merkmale/Änderungen → ![](/images/TechDraw_ExtensionPosHorizChainDimension.svg) Horizontale Kettenmaße anordnen** auswählen.
 4. Die Maße werden fluchtend ausgerichtet, die Maßzahlen werden zentriert.
 
 ## Hinweise

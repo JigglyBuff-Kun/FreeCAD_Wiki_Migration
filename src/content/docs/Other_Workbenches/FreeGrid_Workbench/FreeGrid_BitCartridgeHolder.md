@@ -21,13 +21,13 @@ title: FreeGrid BitCartridgeHolder
 
 The [FreeGrid BitCartridgeHolder](/FreeGrid_BitCartridgeHolder "FreeGrid BitCartridgeHolder") tool creates a bit cartridge holder.
 
-This tool is part of the [FreeGrid Workbench](/FreeGrid_Workbench "FreeGrid Workbench"), an [external workbench](/External_workbenches "External workbenches") that can be installed with the ![](/src/assets/images/Std_AddonMgr.svg) [Addon Manager](/Std_AddonMgr "Std AddonMgr").
+This tool is part of the [FreeGrid Workbench](/FreeGrid_Workbench "FreeGrid Workbench"), an [external workbench](/External_workbenches "External workbenches") that can be installed with the ![](/images/Std_AddonMgr.svg) [Addon Manager](/Std_AddonMgr "Std AddonMgr").
 
 ## Usage
 
 1. There are several ways to invoke the tool:
-   - Press the ![](/src/assets/images/FreeGrid_BitCartridgeHolder.svg) [Bit cartridge holder](/FreeGrid_BitCartridgeHolder "FreeGrid BitCartridgeHolder") button.
-   - Select the **FreeGrid → ![](/src/assets/images/FreeGrid_BitCartridgeHolder.svg) Bit cartridge holder** option from the menu.
+   - Press the ![](/images/FreeGrid_BitCartridgeHolder.svg) [Bit cartridge holder](/FreeGrid_BitCartridgeHolder "FreeGrid BitCartridgeHolder") button.
+   - Select the **FreeGrid → ![](/images/FreeGrid_BitCartridgeHolder.svg) Bit cartridge holder** option from the menu.
 2. A bit cartridge holder is created with properties based on the current preferences.
 3. Optionally select the object and change its properties in the [Property editor](/Property_editor "Property editor").
 

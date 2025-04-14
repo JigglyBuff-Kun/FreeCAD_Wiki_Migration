@@ -29,7 +29,7 @@ The **Arch Pipe** tool allows to create pipes from scratch, or from selected obj
 
 1. Optionally, select a linear [Part](/Part_Workbench "Part Workbench") shape such as a [Draft Line](/Draft_Line "Draft Line"), a [Draft Wire](/Draft_Wire "Draft Wire") or an open [Sketch](/Sketcher_NewSketch "Sketcher NewSketch").
 2. Invoke this command using several methods:
-   - Pressing the ![](/src/assets/images/Arch_Pipe.svg) [Pipe](/Arch_Pipe "Arch Pipe") button on the toolbar.
+   - Pressing the ![](/images/Arch_Pipe.svg) [Pipe](/Arch_Pipe "Arch Pipe") button on the toolbar.
    - Pressing the P then I keyboard shortcut.
    - Pressing the **3D/BIM → Pipe** entry from the top menu.
 
@@ -63,7 +63,7 @@ Pipe
 
 - Start by placing sanitary/hydraulic appliance items (below is an imported step file). You turn these objects into Arch Equipments by selecting them, and pressing the [Arch Equipment](/Arch_Equipment "Arch Equipment") button.
 
-![](/src/assets/images/Arch_pipe_example_01.jpg)
+![](/images/Arch_pipe_example_01.jpg)
 
 - Arch Equipments now have a new **SnapPoints** property, which is a list of 3D vectors. This allows you to add custom snap points, to which you can snap when the new [Draft Special](/Draft_Snap_Special "Draft Snap Special") snap button is turned on. Currently that property is only available to Python, though. In the case above I added a new snap point at the exit of the WC appliance. The vectors inside SnapPoints appear on the model as white dots:
 
@@ -72,27 +72,27 @@ FreeCAD.ActiveDocument.Equipment.SnapPoints=[FreeCAD.Vector(0,0,100)]
 
 ```
 
-![](/src/assets/images/Arch_pipe_example_02.jpg)
+![](/images/Arch_pipe_example_02.jpg)
 
 - With the new ["Snap Special"](/Draft_Snap_Special "Draft Snap Special") Draft Snap, you can now snap to these custom points:
 
-![](/src/assets/images/Arch_pipe_example_03.jpg)
+![](/images/Arch_pipe_example_03.jpg)
 
 - Now we can draw our piping using Draft Lines, Draft Wires, or Sketches. The best way, though, is using only Draft Lines:
 
-![](/src/assets/images/Arch_pipe_example_04.jpg)
+![](/images/Arch_pipe_example_04.jpg)
 
 - The [Draft Slope](/Draft_Slope "Draft Slope") tool allows to change the slope of Draft lines, to, for example, 5% (0.05). So we can quickly give our waste lines a correct slope. Only z coordinates are change by this tool, so we only need to snap them back to each other, the top projection will stay unchanged.
 
-![](/src/assets/images/Arch_pipe_example_05.jpg)
+![](/images/Arch_pipe_example_05.jpg)
 
 - We now only have to select all our lines, and press the [Arch Pipe](/Arch_Pipe "Arch Pipe") button. Arch Pipe works with any Part-based object that contains one and only one open wire.
 
-![](/src/assets/images/Arch_pipe_example_06.jpg)
+![](/images/Arch_pipe_example_06.jpg)
 
 - We can now create connections by selecting 2 or 3 coincident tubes, and press the [Arch PipeConnector](/Arch_PipeConnector "Arch PipeConnector") button. If 3 pipes are selected, two of them must be aligned in order to create a tee element:
 
-![](/src/assets/images/Arch_pipe_example_07.jpg)
+![](/images/Arch_pipe_example_07.jpg)
 
 - Changing the connectors radius doesn't change the length of the underlying base line, only the resulting tube (by changing their OffsetStart or OffsetEnd property). So you can still draw your line layout with only straight lines, without the need to care about curves and radius.
 

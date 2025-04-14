@@ -21,7 +21,7 @@ title: FEM PostFilterContours
 
 Creates iso-contours and iso-lines in the results mesh.
 
-![](/src/assets/images/FEM_PostFilterContours_Example.png)
+![](/images/FEM_PostFilterContours_Example.png)
 
 Iso-contours, depicting the y-component of the absolute magnetic  
 flux density in and around a copper wire that is flown through by  
@@ -32,8 +32,8 @@ For more info about this model, see section 14 of the [Elmer Tutorials](https://
 
 1. Select a previously created [result pipeline](/FEM_PostPipelineFromResult "FEM PostPipelineFromResult").
 2. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/FEM_PostFilterContours.svg) [Contours filter](/FEM_PostFilterContours "FEM PostFilterContours") button.
-   - Select the **Results → ![](/src/assets/images/FEM_PostFilterContours.svg) Contours filter** option from the menu.
+   - Press the ![](/images/FEM_PostFilterContours.svg) [Contours filter](/FEM_PostFilterContours "FEM PostFilterContours") button.
+   - Select the **Results → ![](/images/FEM_PostFilterContours.svg) Contours filter** option from the menu.
 3. Adjust the **Result display options** like for the [result pipeline](/FEM_PostPipelineFromResult "FEM PostPipelineFromResult"). You might need to hide the pipeline to see the effect of the filter in the preview.
 4. In the dialog that appears set the result field and the number of contours.
 5. Click the OK button to finish the command.
@@ -49,7 +49,7 @@ The dialog offers the following settings:
 - **Relaxation Factor**: Controls the level of smoothing via amount of vertex displacement (if smoothing is enabled). [introduced in 1.1](/Release_notes_1.1 "Release notes 1.1")
 - **No color**: Don't apply a color to the contours.
 
-**Note**: A **Field** can only be set if a filter function exists and has been applied with ![](/src/assets/images/FEM_PostApplyChanges.svg) [Apply Changes](/FEM_PostApplyChanges "FEM PostApplyChanges"). Alternatively you can reopen the filter dialog.
+**Note**: A **Field** can only be set if a filter function exists and has been applied with ![](/images/FEM_PostApplyChanges.svg) [Apply Changes](/FEM_PostApplyChanges "FEM PostApplyChanges"). Alternatively you can reopen the filter dialog.
 
 ## File Size Information
 

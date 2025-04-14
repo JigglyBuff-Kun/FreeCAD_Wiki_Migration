@@ -19,14 +19,14 @@ title: Part TransformierteKopie
 
 ## Beschreibung
 
-Der Befehl ![](/src/assets/images/Part_TransformedCopy.svg) Part TransformierteKopie erstellt nichtparametrische Kopien von Objekten. Er ist gedacht für Objekte, die in Behältern eingebettet sind.
+Der Befehl ![](/images/Part_TransformedCopy.svg) Part TransformierteKopie erstellt nichtparametrische Kopien von Objekten. Er ist gedacht für Objekte, die in Behältern eingebettet sind.
 
 Die Daten**Placement** der Kopien werden unter Berücksichtigung der Platzierung des Containers/der Container so angepasst, dass ihre Position und Drehung relativ zum globalen Koordinatensystem mit der der Originalobjekte übereinstimmt. Wenn die ausgewählten Objekte nicht verschachtelt sind oder in einem Container mit einer Standardplatzierung verschachtelt sind, führt dieser Befehl zu den gleichen Ergebnissen wie [Part EinfacheKopie](/Part_SimpleCopy/de "Part SimpleCopy/de").
 
 ## Anwendung
 
 1. Ein oder mehrere Objekte auswählen.
-2. Den Menüeintrag **Part → Kopie erstellen → ![](/src/assets/images/Part_TransformedCopy.svg) Transformierte Kopie erstellen** auswählen.
+2. Den Menüeintrag **Part → Kopie erstellen → ![](/images/Part_TransformedCopy.svg) Transformierte Kopie erstellen** auswählen.
 
 ## Eigenschaften
 

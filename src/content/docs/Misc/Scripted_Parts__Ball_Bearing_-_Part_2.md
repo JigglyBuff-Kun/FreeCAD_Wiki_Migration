@@ -28,7 +28,7 @@ This tutorial will cover how to build a ball bearing with a workflow that consis
 The code will produce a new FreeCAD document with 12 shapes (Inner Ring, Outer Ring and 10 balls/spheres).  
 It will look like this:
 
-![](/src/assets/images/Tutorial_BallBearing01.jpg)
+![](/images/Tutorial_BallBearing01.jpg)
 
 ### Workflow
 
@@ -38,7 +38,7 @@ Just some small differences.
 - Create a new empty document and make it the active document
 - Draw the basic shape of the outer ring consisting of four straight lines and four arcs
 
-![](/src/assets/images/TutorialBallBearing_P2-Sketch.png)
+![](/images/TutorialBallBearing_P2-Sketch.png)
 
 - Connect the lines and arcs and upgrade them to one single wire
 - Upgrade the wire to a face

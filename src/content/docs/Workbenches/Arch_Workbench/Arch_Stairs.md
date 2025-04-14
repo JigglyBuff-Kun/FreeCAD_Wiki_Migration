@@ -27,7 +27,7 @@ The [Arch Stairs](/Arch_Stairs "Arch Stairs") tool allows you to build several t
 
 See the [Stairs entry in wikipedia](https://en.wikipedia.org/wiki/Stairs) for a definition of the different terms used to describe parts of stairs.
 
-![](/src/assets/images/Arch_Stairs_example.jpg)
+![](/images/Arch_Stairs_example.jpg)
 
 Two constructed stairs, one with a massive structure and a landing, the other with a single stringer.
 
@@ -40,14 +40,14 @@ Two constructed stairs, one with a massive structure and a landing, the other wi
    - Draft Lines and Sketches with a single edge will be used to create flights.
    - If the vertices of all lines and wires have correct Z coordinates, the created stairs will use this information. A Sketch (plane-parallel to the XY plane) with a single edge, or a Draft Line without a delta Z will also work for a flight, the Height is then be used to construct the flight.
    - The base objects must be selected in the correct order starting with the bottom object.
-2. Press the ![](/src/assets/images/Arch_Stairs.svg) [Stairs](/Arch_Stairs "Arch Stairs") button, or press S, R keys.
+2. Press the ![](/images/Arch_Stairs.svg) [Stairs](/Arch_Stairs "Arch Stairs") button, or press S, R keys.
 3. Adjust the desired properties. Some parts of the stairs, such as the structure, might not appear immediately, if any of the properties makes it impossible, such as a structure thickness of 0.
 
-![](/src/assets/images/Stairs_and_Landing_02.png)
+![](/images/Stairs_and_Landing_02.png)
 
-![](/src/assets/images/Stairs_and_Landing_01.png)
+![](/images/Stairs_and_Landing_01.png)
 
-![](/src/assets/images/Arch_Stairs_Complex_Example.png)
+![](/images/Arch_Stairs_Complex_Example.png)
 
 Complex stairs based on a selection of lines and wired as shown on the left.  
 In red the wires used for the landings at Z=1500mm, Z=3000mm and Z=4500mm.  

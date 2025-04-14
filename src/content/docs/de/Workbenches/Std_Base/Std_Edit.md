@@ -24,7 +24,7 @@ Der **Std Bearbeiten**-Befehl aktiviert oder deaktiviert den Bearbeitungsmodus e
 ## Anwendung
 
 1. Falls kein Objekt im Bearbeitungsmodus ist: wähle ein einzelnes Objekt.
-2. Wähle die **Bearbeiten → ![](/src/assets/images/Std_Edit.svg) Bearbeitungsmodus umschalten**-Option aus dem Menü.
+2. Wähle die **Bearbeiten → ![](/images/Std_Edit.svg) Bearbeitungsmodus umschalten**-Option aus dem Menü.
 3. Entweder wird der vorgegebene Bearbeitungsmodus des gewählten Objekts aktiviert oder der bestehende Bearbeitungsmodus wird deaktiviert.
 
 ## Hinweise

@@ -19,9 +19,9 @@ title: Part Helix
 
 ## Beschreibung
 
-Eine ![](/src/assets/images/Part_Helix.svg) **Part Helix** ist ein parametrischer Volumenkörper, der mit dem Befehl ![](/src/assets/images/Part_Primitives.svg) [Part Grundelemente](/Part_Primitives/de "Part Primitives/de") erstellt werden kann. Im Koordinatensystem durch ihre Daten-Eigenschaft**Placement** festgelegt, fluchtet die Achse der Helix mit der Z-Achse und ihr unterer Startpunkt liegt auf der X-Achse.
+Eine ![](/images/Part_Helix.svg) **Part Helix** ist ein parametrischer Volumenkörper, der mit dem Befehl ![](/images/Part_Primitives.svg) [Part Grundelemente](/Part_Primitives/de "Part Primitives/de") erstellt werden kann. Im Koordinatensystem durch ihre Daten-Eigenschaft**Placement** festgelegt, fluchtet die Achse der Helix mit der Z-Achse und ihr unterer Startpunkt liegt auf der X-Achse.
 
-![](/src/assets/images/Part_Helix_Example.png)
+![](/images/Part_Helix_Example.png)
 
 ## Anwendung
 
@@ -29,7 +29,7 @@ Siehe [Part Grundelemente](/Part_Primitives/de#Anwendung "Part Primitives/de").
 
 ## Beispiel
 
-![](/src/assets/images/Part_Helix_Scripting_Example.png)
+![](/images/Part_Helix_Scripting_Example.png)
 
 Part-Helix aus dem Skriptbeispiel
 

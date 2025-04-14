@@ -34,7 +34,7 @@ The purpose of timing gears is to allow the camshaft and crankshaft to turn the 
 
 Timing gears are connected to a timing belt or timing chain.
 
-![](/src/assets/images/TimingGear_usage.png)
+![](/images/TimingGear_usage.png)
 
 Above: Example of usage of 2 timing pulleys created with the TimingGear macro. Both pulleys were modified to add more features. The GT2 pulleys drive the Z axis of a 3 axis CNC machine.
 
@@ -63,7 +63,7 @@ Above: Example of usage of 2 timing pulleys created with the TimingGear macro. B
 ## Script
 
 ToolBar Icon
-![](/src/assets/images/TimingGear_icon.png)
+![](/images/TimingGear_icon.png)
 
 **Macro_TimingGear.FCMacro**
 

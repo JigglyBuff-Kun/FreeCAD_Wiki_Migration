@@ -23,7 +23,7 @@ Der Befehl **Std AnsichtStereoAus** schaltet den Ansicht-Modus Stereo in der akt
 
 ## Anwendung
 
-1. Den Menüeintrag **Ansicht → Stereo → ![](/src/assets/images/Std_ViewIvStereoOff.svg) Stereo aus** auswählen.
+1. Den Menüeintrag **Ansicht → Stereo → ![](/images/Std_ViewIvStereoOff.svg) Stereo aus** auswählen.
 
 ## Skripten
 

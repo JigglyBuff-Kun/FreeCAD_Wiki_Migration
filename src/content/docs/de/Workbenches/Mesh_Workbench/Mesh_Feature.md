@@ -4,7 +4,7 @@ title: Mesh Formelement
 
 ## Einleitung
 
-![](/src/assets/images/Mesh_Tree.svg)
+![](/images/Mesh_Tree.svg)
 
 Ein Mesh Feature-Objekt (Mesh Formelement) oder formal ein `Mesh::Feature` ist ein einfaches Element mit einem ihm zugeordneten [Mesh MeshObject](/Mesh_MeshObject/de "Mesh MeshObject/de") (Mesh-Objekt), das in der [3D-Ansicht](/3D_view/de "3D view/de") angezeigt werden kann.
 
@@ -12,7 +12,7 @@ Ein Mesh Formelement ähnelt konzeptionell einem [Part Formelement](/Part_Featur
 
 Bitte beachten, dass der Arbeitsbereich [FEM](/FEM_Workbench/de "FEM Workbench/de") ebenfalls Polygonnetze verwendet, aber in diesem Fall wird ein anderes Objekt verwendet, das [FEM FemMeshObject](/FEM_Mesh/de "FEM Mesh/de") genannt wird (`Fem::FemMeshObject`-Klasse). Dieses Objekt ist nicht von dem Mesh Formelement abgeleitet und hat andere Eigenschaften.
 
-![](/src/assets/images/FreeCAD_core_objects.svg)
+![](/images/FreeCAD_core_objects.svg)
 
 Vereinfachtes Diagramm der Beziehungen zwischen den Kernobjekten in FreeCAD.
 

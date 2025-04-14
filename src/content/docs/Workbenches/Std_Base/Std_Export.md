@@ -29,7 +29,7 @@ The **Std Export** command exports selected objects to a different file format. 
    - Select a [Std Group](/Std_Group "Std Group") or a [Std Part](/Std_Part "Std Part") by only picking the parent object itself or the objects nested inside it.
    - Do not use the [Std SelectAll](/Std_SelectAll "Std SelectAll") command as it will also select sub-elements of PartDesign Bodies.
 2. There are several ways to invoke the command:
-   - Select the **File → ![](/src/assets/images/Std_Export.svg) Export...** option from the menu.
+   - Select the **File → ![](/images/Std_Export.svg) Export...** option from the menu.
    - Use the keyboard shortcut: Ctrl+E.
 3. Select the correct file format in the dialog box.
 4. Enter a filename.

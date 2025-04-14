@@ -21,15 +21,15 @@ title: Std OrthogonaleKamera
 
 Der Befehl **Std OrthogonaleKamera** schaltet die Kamera in der aktiven [3D Ansicht](/3D_view/de "3D view/de") in den orthogonalen Ansichtsmodus. In diesem Modus erscheinen Objekte, die weiter von der Kamera entfernt sind, nicht kleiner als solche, die näher sind.
 
-![](/src/assets/images/Std_OrthographicCamera_example.svg)
+![](/images/Std_OrthographicCamera_example.svg)
 
 Zwei Würfel mit den gleichen Abmessungen in orthogonaler Ansicht
 
 ## Anwendung
 
 1. Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
-   - Den Menüeintrag **Ansicht → ![](/src/assets/images/Std_OrthographicCamera.svg) Orthogonale Ansicht** auswählen.
-   - Die Menüoption **![](/src/assets/images/Std_OrthographicCamera.svg) Orthogonale Ansicht** im Miniwürfelmenü des [Navigationswürfels](/Navigation_Cube/de "Navigation Cube/de") auswählen.
+   - Den Menüeintrag **Ansicht → ![](/images/Std_OrthographicCamera.svg) Orthogonale Ansicht** auswählen.
+   - Die Menüoption **![](/images/Std_OrthographicCamera.svg) Orthogonale Ansicht** im Miniwürfelmenü des [Navigationswürfels](/Navigation_Cube/de "Navigation Cube/de") auswählen.
    - Das Tastaturkürzel: V dann O.
 
 ## Einstellungen

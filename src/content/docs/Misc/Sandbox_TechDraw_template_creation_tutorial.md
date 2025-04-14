@@ -49,7 +49,7 @@ Where `$INSTALL_DIR` is the directory where FreeCAD was installed, for example
 
 ## Create the base document
 
-1. Open a new document in Inkscape. All of the following steps will be carried out within Inkscape. During this tutorial, FreeCAD and TechDraw are only useful for inspecting the state of your template by opening the TechDraw workbench, clicking [![TechDraw PageTemplate](/src/assets/images/TechDraw_PageTemplate.svg)](/TechDraw_PageTemplate "TechDraw PageTemplate ") [TechDraw PageTemplate](/TechDraw_PageTemplate "TechDraw PageTemplate") and selecting the template you are working on.
+1. Open a new document in Inkscape. All of the following steps will be carried out within Inkscape. During this tutorial, FreeCAD and TechDraw are only useful for inspecting the state of your template by opening the TechDraw workbench, clicking [![TechDraw PageTemplate](/images/TechDraw_PageTemplate.svg)](/TechDraw_PageTemplate "TechDraw PageTemplate ") [TechDraw PageTemplate](/TechDraw_PageTemplate "TechDraw PageTemplate") and selecting the template you are working on.
 
 2. Use the built-in XML Editor **Edit → XML Editor...** or Shift+Ctrl+X) to add a "freecad" namespace clause to the `<svg>` item.
 
@@ -59,7 +59,7 @@ Where `$INSTALL_DIR` is the directory where FreeCAD was installed, for example
 
 Note that your editable texts will _not_ work if you use "https://...", even though the wiki is reached via https these days. Since SVG is a human readable format you could also enter the line above into the file with a text editor.
 
-![](/src/assets/images/InkXMLNameSpace.png)
+![](/images/InkXMLNameSpace.png)
 
 Inkscape: XML Editor adding the "freecad" namespace clause to the <svg> item
 
@@ -68,7 +68,7 @@ Inkscape: XML Editor adding the "freecad" namespace clause to the <svg> item
 The finished template is likely to turn out irregular and messy if made without any references for the placement of lines, text and other items.
 
 - Open **File → Document Properties → Grids** and click New to create a new grid.
-- A set of grid properties will shown, adjust these to your liking. For example, to get a 1 by 1 mm grid, set **Grid units:** to mm ![](/src/assets/images/ComboBox.svg) and both **Spacing X:** and **Spacing Y:** to 1.0 ![](/src/assets/images/SpinBox.svg)
+- A set of grid properties will shown, adjust these to your liking. For example, to get a 1 by 1 mm grid, set **Grid units:** to mm ![](/images/ComboBox.svg) and both **Spacing X:** and **Spacing Y:** to 1.0 ![](/images/SpinBox.svg)
 - Also, you can set the interval of major grid lines for easier readability by changing the **Major grid line every:** parameter.
 
 4. Set page size
@@ -78,7 +78,7 @@ In Document Properties (**File → Document Properties** or Shift+Ctrl+D)
 - Select page size "US Letter" or "A4" and orientation "landscape".
 - Set default units to "mm". For US Letter, set the page size to width "279.4" and height "215.9". For A4 you would use "210" and "297".
 
-![](/src/assets/images/InkDocProp.png)
+![](/images/InkDocProp.png)
 
 Inkscape: document with page size and orientation
 
@@ -113,7 +113,7 @@ Here is some information that is almost universally written on drafts:
 
 8. The finished template should look something like this:
 
-![](/src/assets/images/InkFinishedArt.png)
+![](/images/InkFinishedArt.png)
 
 Inkscape: tentative template layout
 
@@ -123,7 +123,7 @@ Inkscape: tentative template layout
 
 - Use the XML Editor to add a `freecad:editable` tag to each editable `<text>` item. The process is similar to adding the freecad namespace clause as described in section 2. Select the <svg:text> item that you want to make editable and add a new attribute. For 'name,' write freecad:editable and for 'value,' assign a meaningful name. Caution: if two or more text items share the same name, they will also display the same text.
 
-![](/src/assets/images/InkXMLeditableTag.png)
+![](/images/InkXMLeditableTag.png)
 
 Inkscape: XML Editor adding the "freecad:editable" property to the desired <text> item
 
@@ -133,13 +133,13 @@ Inkscape: XML Editor adding the "freecad:editable" property to the desired <text
 
 - It is four values, in the format `"0 0 width height"`
 
-![](/src/assets/images/InkXMLviewBox.png)
+![](/images/InkXMLviewBox.png)
 
 Inkscape: XML Editor adjusting the viewbox to match the page size in millimeters
 
 11. Your template will now appear much bigger than desired.
 
-![](/src/assets/images/InkMuchTooBig.png)
+![](/images/InkMuchTooBig.png)
 
 Inkscape: tentative template layout exceeding the page size
 
@@ -173,7 +173,7 @@ Inkscape: tentative template layout exceeding the page size
 
 21. Try it in FreeCAD and [TechDraw Workbench](/TechDraw_Workbench "TechDraw Workbench") with [TechDraw PageTemplate](/TechDraw_PageTemplate "TechDraw PageTemplate").
 
-![](/src/assets/images/FCTemplateHow.png)
+![](/images/FCTemplateHow.png)
 
 FreeCAD: finished template with an editable text field being modified
 

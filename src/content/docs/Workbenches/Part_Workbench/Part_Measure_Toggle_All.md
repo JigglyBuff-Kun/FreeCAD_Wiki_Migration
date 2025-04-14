@@ -25,12 +25,12 @@ This command is obsolete, it is not available in1.0 and above.UseStd Measureinst
 
 This command toggles the visibility of all measurements in the [3D view](/3D_view "3D view").
 
-![](/src/assets/images/MeasureLinear3DandDelta1.PNG)
+![](/images/MeasureLinear3DandDelta1.PNG)
 
 ## Usage
 
 1. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/Part_Measure_Toggle_All.svg) [Toggle All](/Part_Measure_Toggle_All "Part Measure Toggle All") button.
-   - Select the **Measure → ![](/src/assets/images/Part_Measure_Toggle_All.svg) Toggle All** option from the menu.
+   - Press the ![](/images/Part_Measure_Toggle_All.svg) [Toggle All](/Part_Measure_Toggle_All "Part Measure Toggle All") button.
+   - Select the **Measure → ![](/images/Part_Measure_Toggle_All.svg) Toggle All** option from the menu.
 
 Retrieved from "<http://wiki.freecad.org/index.php?title=Part_Measure_Toggle_All/en&oldid=1458160>"

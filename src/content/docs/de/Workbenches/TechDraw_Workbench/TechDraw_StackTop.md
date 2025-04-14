@@ -25,8 +25,8 @@ Das Werkzeug **TechDraw StapelOberseite** bewegt Ansichten auf die Oberseite des
 
 1. Eine oder mehrere Ansichten auf dem [Zeichnungsblatt](/TechDraw_PageDefault/de "TechDraw PageDefault/de") oder in der [Baumansicht](/Tree_view/de "Tree view/de") auswählen. Für dieses Werkzeug und für [TechDraw StapelUnterseite](/TechDraw_StackBottom/de "TechDraw StackBottom/de"), ist die Reihenfolge der Auswahl wichtig.
 2. Es gibt mehrere Möglichkeiten das Werkzeug aufzurufen:
-   - Die Schaltfläche ![](/src/assets/images/TechDraw_StackTop.svg) Stapel Oben drücken.
-   - Den Menüeintrag **TechDraw → Stacking → ![](/src/assets/images/TechDraw_StackTop.svg) Ansicht auf die Stapeloberseite bewegen** auswählen.
+   - Die Schaltfläche ![](/images/TechDraw_StackTop.svg) Stapel Oben drücken.
+   - Den Menüeintrag **TechDraw → Stacking → ![](/images/TechDraw_StackTop.svg) Ansicht auf die Stapeloberseite bewegen** auswählen.
 3. Die Ansicht-Eigenschaft**Stack Order** der Ansichten wird geändert.
 
 ## Skripten

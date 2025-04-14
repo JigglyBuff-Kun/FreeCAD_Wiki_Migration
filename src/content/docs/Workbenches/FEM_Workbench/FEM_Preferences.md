@@ -4,20 +4,20 @@ title: FEM Preferences
 
 ## Introduction
 
-The preferences for the ![](/src/assets/images/Workbench_FEM.svg) [FEM Workbench](/FEM_Workbench "FEM Workbench") can be found in the [Preferences Editor](/Preferences_Editor "Preferences Editor"). In the menu select **Edit → Preferences...** and then **![](/src/assets/images/Workbench_FEM.svg) FEM**. This group is only available if the FEM Workbench has been loaded in the current FreeCAD session.
+The preferences for the ![](/images/Workbench_FEM.svg) [FEM Workbench](/FEM_Workbench "FEM Workbench") can be found in the [Preferences Editor](/Preferences_Editor "Preferences Editor"). In the menu select **Edit → Preferences...** and then **![](/images/Workbench_FEM.svg) FEM**. This group is only available if the FEM Workbench has been loaded in the current FreeCAD session.
 
 There are seven pages: [General](#General), [Gmsh](#Gmsh), [CalculiX](#CalculiX), [Elmer](#Elmer), [Mystran](#Mystran), [Z88](#Z88) and [Netgen](#Netgen). All pages apart from the first control how FEM interacts with external meshers and solvers.
 
 The currently supported external solvers are:
 
-- ![](/src/assets/images/FEM_SolverCalculixCxxtools.svg) [CalculiX](/FEM_SolverCalculixCxxtools "FEM SolverCalculixCxxtools")
-- ![](/src/assets/images/FEM_SolverElmer.svg) [Elmer](/FEM_SolverElmer "FEM SolverElmer")
-- ![](/src/assets/images/FEM_SolverMystran.svg) [Mystran](/FEM_SolverMystran "FEM SolverMystran")
-- ![](/src/assets/images/FEM_SolverZ88.svg) [Z88](/FEM_SolverZ88 "FEM SolverZ88")
+- ![](/images/FEM_SolverCalculixCxxtools.svg) [CalculiX](/FEM_SolverCalculixCxxtools "FEM SolverCalculixCxxtools")
+- ![](/images/FEM_SolverElmer.svg) [Elmer](/FEM_SolverElmer "FEM SolverElmer")
+- ![](/images/FEM_SolverMystran.svg) [Mystran](/FEM_SolverMystran "FEM SolverMystran")
+- ![](/images/FEM_SolverZ88.svg) [Z88](/FEM_SolverZ88 "FEM SolverZ88")
 
 ## General
 
-![](/src/assets/images/Preferences_FEM_Page_General.png)
+![](/images/Preferences_FEM_Page_General.png)
 
 On this page you can specify the following:
 
@@ -32,7 +32,7 @@ On this page you can specify the following:
 
 ## Gmsh
 
-![](/src/assets/images/Preferences_FEM_Page_Gmsh.png)
+![](/images/Preferences_FEM_Page_Gmsh.png)
 
 On this page you can specify the following:
 
@@ -44,7 +44,7 @@ On this page you can specify the following:
 
 ## CalculiX
 
-![](/src/assets/images/Preferences_FEM_Page_CalculiX.png)
+![](/images/Preferences_FEM_Page_CalculiX.png)
 
 On this page you can specify the following:
 
@@ -73,7 +73,7 @@ On this page you can specify the following:
 
 ## Elmer
 
-![](/src/assets/images/Preferences_FEM_Page_Elmer.png)
+![](/images/Preferences_FEM_Page_Elmer.png)
 
 On this page you can specify the following:
 
@@ -90,7 +90,7 @@ On this page you can specify the following:
 
 ## Mystran
 
-![](/src/assets/images/Preferences_FEM_Page_Mystran.png)
+![](/images/Preferences_FEM_Page_Mystran.png)
 
 On this page you can specify the following:
 
@@ -102,7 +102,7 @@ On this page you can specify the following:
 
 ## Z88
 
-![](/src/assets/images/Preferences_FEM_Page_Z88.png)
+![](/images/Preferences_FEM_Page_Z88.png)
 
 On this page you can specify the following:
 
@@ -116,7 +116,7 @@ On this page you can specify the following:
 
 ## Netgen
 
-![](/src/assets/images/Preferences_FEM_Page_Netgen.png)
+![](/images/Preferences_FEM_Page_Netgen.png)
 
 On this page you can specify the following:
 

@@ -23,7 +23,7 @@ Der Befehl **Std Projektinformationen** öffnet ein Dialogfeld mit Einzelheiten 
 
 ## Anwendung
 
-1. Den Menüeintrag **Datei → ![](/src/assets/images/Std_ProjectInfo.svg) Dokumentinformationen...** auswählen.
+1. Den Menüeintrag **Datei → ![](/images/Std_ProjectInfo.svg) Dokumentinformationen...** auswählen.
 2. EinDialogfenster mit den folgenden Informationen wird geöffnet:
    - **Name**: Der Name des Dokuments. Entspricht der Eigenschaft Label des Dokuments. _Nicht überschreibbar._
    - **Pfad**: Der vollständige Dateipfad. Leer, wenn die Datei noch nicht gespeichert wurde. _Nicht überschreibbar._

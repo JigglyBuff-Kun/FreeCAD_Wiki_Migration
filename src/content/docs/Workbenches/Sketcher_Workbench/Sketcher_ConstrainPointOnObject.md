@@ -19,7 +19,7 @@ title: Sketcher ConstrainPointOnObject
 
 ## Description
 
-The ![](/src/assets/images/Sketcher_ConstrainPointOnObject.svg) [Sketcher ConstrainPointOnObject](/Sketcher_ConstrainPointOnObject "Sketcher ConstrainPointOnObject") tool fixes points on edges or axes. Lines are treated as infinite, and open curves are virtually extended as well.
+The ![](/images/Sketcher_ConstrainPointOnObject.svg) [Sketcher ConstrainPointOnObject](/Sketcher_ConstrainPointOnObject "Sketcher ConstrainPointOnObject") tool fixes points on edges or axes. Lines are treated as infinite, and open curves are virtually extended as well.
 
 [introduced in 1.0](/Release_notes_1.0 "Release notes 1.0"): This tool is replaced by the [Sketcher ConstrainCoincidentUnified](/Sketcher_ConstrainCoincidentUnified "Sketcher ConstrainCoincidentUnified") tool if the **Unify Coincident and PointOnObject** option is selected in the [preferences](/Sketcher_Preferences#General "Sketcher Preferences").
 
@@ -31,8 +31,8 @@ See also: [Drawing aids](/Sketcher_Workbench#Drawing_aids "Sketcher Workbench").
 
 1. Make sure there is no selection.
 2. There are several ways to invoke the tool:
-   - Press the ![](/src/assets/images/Sketcher_ConstrainPointOnObject.svg) [Constrain point on object](/Sketcher_ConstrainPointOnObject "Sketcher ConstrainPointOnObject") button.
-   - Select the **Sketch → Sketcher constraints → ![](/src/assets/images/Sketcher_ConstrainPointOnObject.svg) Constrain point on object** option from the menu.
+   - Press the ![](/images/Sketcher_ConstrainPointOnObject.svg) [Constrain point on object](/Sketcher_ConstrainPointOnObject "Sketcher ConstrainPointOnObject") button.
+   - Select the **Sketch → Sketcher constraints → ![](/images/Sketcher_ConstrainPointOnObject.svg) Constrain point on object** option from the menu.
    - Use the keyboard shortcut: O.
 3. The cursor changes to a cross with the tool icon.
 4. Select a single point and a single edge (in any order).

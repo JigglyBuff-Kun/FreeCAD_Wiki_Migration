@@ -25,12 +25,12 @@ THIS COMMAND IS PART OF THE INTEGRATEDBIM WORKBENCHIN V1.0This page has been upd
 
 The **Arch MeshToShape** tool converts a selected [Mesh](/Mesh "Mesh") ([Mesh Feature](/Mesh_Feature "Mesh Feature")) object into a [Shape](/Shape "Shape") ([Part Feature](/Part_Feature "Part Feature")) object.
 
-This tool is optimized for objects with flat faces (no curves). The corresponding tool ![](/src/assets/images/Part_ShapeFromMesh.svg) [Part ShapeFromMesh](/Part_ShapeFromMesh "Part ShapeFromMesh") from the ![](/src/assets/images/Workbench_Part.svg) [Part Workbench](/Part_Workbench "Part Workbench") might be more suited for objects that contain curved surfaces.
+This tool is optimized for objects with flat faces (no curves). The corresponding tool ![](/images/Part_ShapeFromMesh.svg) [Part ShapeFromMesh](/Part_ShapeFromMesh "Part ShapeFromMesh") from the ![](/images/Workbench_Part.svg) [Part Workbench](/Part_Workbench "Part Workbench") might be more suited for objects that contain curved surfaces.
 
 ## Usage
 
 1. Select a mesh object.
-2. Select the **Utils → ![](/src/assets/images/Arch_MeshToShape.svg) Mesh to Shape** option from the menu.
+2. Select the **Utils → ![](/images/Arch_MeshToShape.svg) Mesh to Shape** option from the menu.
 
 ## Properties
 

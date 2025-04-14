@@ -21,7 +21,7 @@ title: PartDesign AdditivePipe
 
 **Additive Pipe** creates a solid in the active Body by sweeping one or more sketches (also referred to as cross-sections) along an open or closed path. If the Body already contains features, the additive pipe will be merged to them.
 
-![](/src/assets/images/PartDesign_AdditivePipe_example.svg)
+![](/images/PartDesign_AdditivePipe_example.svg)
 
 On the left: cross-sections (A) and (B) to be swept along path (C); resulting Additive pipe on the right.
 
@@ -34,8 +34,8 @@ The example image above shows two different cross-section shapes. The text below
    - one for the cross-section shape, e.g. a circle as the first shape in the image above. Instead of a sketch also the face of a 3D object can be used. ([introduced in 0.20](/Release_notes_0.20 "Release notes 0.20"))
 2. **Arrange** the two shapes in 3D correctly. It is recommended to place the origin of the cross-section onto the line of the path. The two sketches should in most cases be **orthogonal**. This can be done with the 'Map Mode' function (make both sketches visible with Space. Select the cross-section sketch. Select Properties/DataTab/MapMode. Click the appearing ... button at the right side. In the Attachment Dialog select a vertex of the path sketch and select the correct mode to get the two sketches aligned correctly.
 3. There are several ways to invoke the tool:
-   - Press the ![](/src/assets/images/PartDesign_AdditivePipe.svg) [Additive pipe](/PartDesign_AdditivePipe "PartDesign AdditivePipe") button.
-   - Select the **PartDesign → Create an additive feature → ![](/src/assets/images/PartDesign_AdditivePipe.svg) Additive pipe** option from the menu.
+   - Press the ![](/images/PartDesign_AdditivePipe.svg) [Additive pipe](/PartDesign_AdditivePipe "PartDesign AdditivePipe") button.
+   - Select the **PartDesign → Create an additive feature → ![](/images/PartDesign_AdditivePipe.svg) Additive pipe** option from the menu.
 4. In the **Select feature** dialog select a sketch to be used as a cross-section and click OK.
    - Alternatively, a sketch or a face of a 3D object ([introduced in 0.20](/Release_notes_0.20 "Release notes 0.20")) can be selected before starting the tool. You will not get this dialog then.
 5. In the **Pipe parameters** under **Path to sweep along**, press the Object button.

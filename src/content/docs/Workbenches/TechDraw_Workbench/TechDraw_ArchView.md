@@ -19,17 +19,17 @@ title: TechDraw ArchView
 
 ## Description
 
-The **TechDraw ArchView** tool inserts an Arch View, a view of an ![](/src/assets/images/Arch_SectionPlane.svg) [Arch SectionPlane](/Arch_SectionPlane "Arch SectionPlane"), on a [TechDraw page](/TechDraw_PageDefault "TechDraw PageDefault").
+The **TechDraw ArchView** tool inserts an Arch View, a view of an ![](/images/Arch_SectionPlane.svg) [Arch SectionPlane](/Arch_SectionPlane "Arch SectionPlane"), on a [TechDraw page](/TechDraw_PageDefault "TechDraw PageDefault").
 
 [introduced in 1.0](/Release_notes_1.0 "Release notes 1.0"): The [TechDraw View](/TechDraw_View "TechDraw View") tool can also create an Arch View.
 
-![](/src/assets/images/TechDraw_Arch_example.jpg)
+![](/images/TechDraw_Arch_example.jpg)
 
 ## Usage
 
 1. Select an Arch section plane in the [3D view](/3D_view "3D view") or [Tree view](/Tree_view "Tree view").
 2. If there are multiple drawing pages in the document: optionally add the desired page to the selection by selecting it in the [Tree view](/Tree_view "Tree view").
-3. Select the **TechDraw → Views From Other Workbenches → ![](/src/assets/images/TechDraw_ArchView.svg) Insert BIM Workbench Object** option from the menu.
+3. Select the **TechDraw → Views From Other Workbenches → ![](/images/TechDraw_ArchView.svg) Insert BIM Workbench Object** option from the menu.
 4. If there are multiple drawing pages in the document, and if no page is displayed in the [Main view area](/Main_view_area "Main view area") and you have not yet selected a page, the **Page Chooser** dialog box opens:
    1. Select the desired page.
    2. Press the OK button.
@@ -46,11 +46,11 @@ The **TechDraw ArchView** tool inserts an Arch View, a view of an ![](/src/asset
 
 : The image below illustrates the difference between the two rendering modes:
 
-: ![](/src/assets/images/TechDraw_Arch_rendering.jpg)
+: ![](/images/TechDraw_Arch_rendering.jpg)
 
 - Only the base line of [Arch Pipes](/Arch_Pipe "Arch Pipe") is rendered, not the full volume of the tube:
 
-: ![](/src/assets/images/TechDraw_Arch_piping.jpg)
+: ![](/images/TechDraw_Arch_piping.jpg)
 
 ## Notes
 

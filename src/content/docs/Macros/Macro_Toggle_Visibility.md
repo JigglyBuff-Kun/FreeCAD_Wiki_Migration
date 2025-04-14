@@ -49,7 +49,7 @@ This version new version (00.02) include the tree macro in one.
 
 ## Script
 
-The macro icon ![](/src/assets/images/Macro_SelectVisible.png)
+The macro icon ![](/images/Macro_SelectVisible.png)
 
 **Macro_ToggleSelectedObjectVisibility.FCMacro**
 

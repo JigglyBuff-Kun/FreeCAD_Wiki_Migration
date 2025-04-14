@@ -28,8 +28,8 @@ Defines the CalculiX's rigid body constraint that constrains the motion of the n
 ## Usage
 
 1. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/FEM_ConstraintRigidBody.svg) [Rigid body constraint](/FEM_ConstraintRigidBody "FEM ConstraintRigidBody") button.
-   - Select the **Model → Mechanical boundary conditions and loads → ![](/src/assets/images/FEM_ConstraintRigidBody.svg) Rigid body constraint** option from the menu.
+   - Press the ![](/images/FEM_ConstraintRigidBody.svg) [Rigid body constraint](/FEM_ConstraintRigidBody "FEM ConstraintRigidBody") button.
+   - Select the **Model → Mechanical boundary conditions and loads → ![](/images/FEM_ConstraintRigidBody.svg) Rigid body constraint** option from the menu.
 2. Press the Add button.
 3. In the [3D view](/3D_view "3D view") select the geometrical element(s) (vertices, edges or faces but not a mix of them) to which the constraint should be applied. To remove objects from the selection, press the Remove button and click on them.
 4. Specify the coordinates of the reference node. A spherical symbol will show this location.
@@ -38,11 +38,11 @@ Defines the CalculiX's rigid body constraint that constrains the motion of the n
    - _Constraint_ - displacement/rotation boundary condition with a specified value (default: 0 = fixed) on that DOF - for rotation, one needs to set an axis (X, Y or Z) and specify the _Angle_
    - _Load_ - force/moment load with a specified value on that DOF
 
-![](/src/assets/images/FEM_rigid_body_torsion.PNG)
+![](/images/FEM_rigid_body_torsion.PNG)
 
 Cantilever beam subjected to torsion. Green pins show the face to which rigid body constraint is applied, large green sphere is a reference node. Moment is defined in the proper axis.
 
-![](/src/assets/images/FEM_rigid_body_bending_and_torsion.PNG)
+![](/images/FEM_rigid_body_bending_and_torsion.PNG)
 
 Cantilever beam subjected to combined loading (bending and torsion) via so-called remote force. Reference node is offset from a beam and a force pointing downwards is applied to it.
 

@@ -60,13 +60,13 @@ webbrowser.open("https://raw.githubusercontent.com/FreeCAD/FreeCAD-macros/master
 
 <class="rawcodeurl"><a href="<https://raw.githubusercontent.com/FreeCAD/FreeCAD-macros/master/Utility/HighlightCommon.FCMacro>">raw code</a>
 
-![](/src/assets/images/Captura_de_pantalla_de_2015-09-10_11-17-30.png)
+![](/images/Captura_de_pantalla_de_2015-09-10_11-17-30.png)
 
 Volume common of objects selected
 
 ## Script
 
-ToolBar Icon ![](/src/assets/images/Macro_HighlightCommon.png)
+ToolBar Icon ![](/images/Macro_HighlightCommon.png)
 
 **Macro_HighlightCommon.FCMacro**
 

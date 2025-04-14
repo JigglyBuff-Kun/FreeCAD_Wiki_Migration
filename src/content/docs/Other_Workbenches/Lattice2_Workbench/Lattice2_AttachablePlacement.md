@@ -23,13 +23,13 @@ This documentation is not finished. Please help and contribute documentation.Gui
 
 ## Description
 
-The ![](/src/assets/images/Lattice2_AttachablePlacement.svg) [Lattice2 AttachablePlacement](/Lattice2_AttachablePlacement "Lattice2 AttachablePlacement") command assigns a placement or handle to an object so it can later be referred to by a location.
+The ![](/images/Lattice2_AttachablePlacement.svg) [Lattice2 AttachablePlacement](/Lattice2_AttachablePlacement "Lattice2 AttachablePlacement") command assigns a placement or handle to an object so it can later be referred to by a location.
 
 ## Usage
 
-1. Switch to the ![](/src/assets/images/Lattice2_workbench_icon.svg) [Lattice2](/Lattice2_Workbench "Lattice2 Workbench") external workbench
+1. Switch to the ![](/images/Lattice2_workbench_icon.svg) [Lattice2](/Lattice2_Workbench "Lattice2 Workbench") external workbench
 2. Invoke the Attached Placement command several ways:
-   - Press the ![](/src/assets/images/Lattice2_AttachablePlacement.svg) icon in the Lattice2 toolbar
+   - Press the ![](/images/Lattice2_AttachablePlacement.svg) icon in the Lattice2 toolbar
    - Use the **Lattice2 → Attached Placement → Attached Placement** from the Lattice2 dropdown
    - Use the {{{1}}} {{{1}}} keyboard shortcut
 3. Choose the options from the dialog menu

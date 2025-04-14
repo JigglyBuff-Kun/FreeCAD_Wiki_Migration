@@ -30,7 +30,7 @@ title: CenterFace
 
 This macro red trace (editable) the center face (mass) with 1 point and print the coordinates.
 
-![](/src/assets/images/Macro_CenterFace_00.png)
+![](/images/Macro_CenterFace_00.png)
 
 CenterFace
 
@@ -54,7 +54,7 @@ Download the file image and copy in your macro repertory.
 
 Click the image, in the new window position the mouse over the image, click the right mouse and do "Save target as ..."
 
-![Button](/src/assets/images/CenterFace.png)
+![Button](/images/CenterFace.png)
 
 ## Script
 

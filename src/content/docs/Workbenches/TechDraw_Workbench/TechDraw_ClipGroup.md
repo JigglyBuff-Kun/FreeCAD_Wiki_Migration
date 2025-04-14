@@ -21,7 +21,7 @@ title: TechDraw ClipGroup
 
 The **TechDraw ClipGroup** tool creates a clipping window which can contain Views.
 
-![](/src/assets/images/TechDraw_Clipview.png)
+![](/images/TechDraw_Clipview.png)
 
 Viewport window clipping different existing views
 
@@ -29,8 +29,8 @@ Viewport window clipping different existing views
 
 1. If there are multiple drawing pages in the document: optionally activate the desired page by selecting it in the [Tree view](/Tree_view "Tree view").
 2. There are several ways to invoke the tool:
-   - Press the ![](/src/assets/images/TechDraw_ClipGroup.svg) [Insert Clip Group](/TechDraw_ClipGroup "TechDraw ClipGroup") button.
-   - Select the **TechDraw → TechDraw Views → ![](/src/assets/images/TechDraw_ClipGroup.svg) Insert Clip Group** option from the menu.
+   - Press the ![](/images/TechDraw_ClipGroup.svg) [Insert Clip Group](/TechDraw_ClipGroup "TechDraw ClipGroup") button.
+   - Select the **TechDraw → TechDraw Views → ![](/images/TechDraw_ClipGroup.svg) Insert Clip Group** option from the menu.
 3. If there are multiple drawing pages in the document and you have not yet activated a page, the **Page Chooser** dialog box opens:
    1. Select the desired page.
    2. Press the OK button.

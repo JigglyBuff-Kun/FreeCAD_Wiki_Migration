@@ -27,13 +27,13 @@ title: FEM SolverCalculixCxxtools
 
 ## Usage
 
-1. A ![](/src/assets/images/FEM_SolverCalculixCxxtools.svg) CalculiXcxxTools solver object is created automatically with the creation of an ![](/src/assets/images/FEM_Analysis.svg) [Analysis container](/FEM_Analysis "FEM Analysis").  
+1. A ![](/images/FEM_SolverCalculixCxxtools.svg) CalculiXcxxTools solver object is created automatically with the creation of an ![](/images/FEM_Analysis.svg) [Analysis container](/FEM_Analysis "FEM Analysis").  
    To create it manually, do one of the following:
-   - Press the ![](/src/assets/images/FEM_SolverCalculixCxxtools.svg) [Solver CalculiX Standard](/FEM_SolverCalculixCxxtools "FEM SolverCalculixCxxtools") button.
-   - Select **Solve → ![](/src/assets/images/FEM_SolverCalculixCxxtools.svg) Solver CalculiX Standard** from the menu.
+   - Press the ![](/images/FEM_SolverCalculixCxxtools.svg) [Solver CalculiX Standard](/FEM_SolverCalculixCxxtools "FEM SolverCalculixCxxtools") button.
+   - Select **Solve → ![](/images/FEM_SolverCalculixCxxtools.svg) Solver CalculiX Standard** from the menu.
    - Press the S then X shortcut keys.
-2. Optionally change the properties of the ![](/src/assets/images/FEM_SolverCalculixCxxtools.svg) CalculiXcxxTools solver object in the [Property editor](/Property_editor "Property editor").
-3. Double click the ![](/src/assets/images/FEM_SolverCalculixCxxtools.svg) CalculiXcxxTools solver object.
+2. Optionally change the properties of the ![](/images/FEM_SolverCalculixCxxtools.svg) CalculiXcxxTools solver object in the [Property editor](/Property_editor "Property editor").
+3. Double click the ![](/images/FEM_SolverCalculixCxxtools.svg) CalculiXcxxTools solver object.
 4. Select the **Analysis type**.
 5. Click the Write .inp file button.
 6. Click the Run CalculiX button.
@@ -101,7 +101,7 @@ Default values can be set in the menu **Edit → Preferences → FEM → Calculi
 - Data**Material Nonlinearity**:
 
   - linear - only linear material properties will be included in the analysis
-  - nonlinear - nonlinear material properties will be used from ![](/src/assets/images/FEM_MaterialMechanicalNonlinear.svg) [Nonlinear mechanical material](/FEM_MaterialMechanicalNonlinear "FEM MaterialMechanicalNonlinear") object
+  - nonlinear - nonlinear material properties will be used from ![](/images/FEM_MaterialMechanicalNonlinear.svg) [Nonlinear mechanical material](/FEM_MaterialMechanicalNonlinear "FEM MaterialMechanicalNonlinear") object
 
 - Data**Matrix Solver Type**: type of the solver to solve equation system inside finite element analysis. It may significantly affect calculation speed and memory demands. Suitability depends on your finite element model and available hardware
 

@@ -23,14 +23,14 @@ This documentation is not finished. Please help and contribute documentation.Gui
 
 ## Description
 
-The ![](/src/assets/images/Curves_Approximate.svg) Curves Approximate tool approximates points to NURBS curve or surface.
+The ![](/images/Curves_Approximate.svg) Curves Approximate tool approximates points to NURBS curve or surface.
 
 ## Usage
 
 1. Select one or more objects that contain at least two vertices each.
 2. There are several ways to invoke the tool:
-   - Press the ![](/src/assets/images/Curves_Approximate.svg) Approximate button.
-   - Select the **Curves → ![](/src/assets/images/Curves_Approximate.svg) Approximate** option from the menu.
+   - Press the ![](/images/Curves_Approximate.svg) Approximate button.
+   - Select the **Curves → ![](/images/Curves_Approximate.svg) Approximate** option from the menu.
 3. An **Approximation_Curve** object is created for each selected object.
 4. Optionally edit the values in the [Property editor](/Property_editor "Property editor") to choose a different approximation method and parametrization type and also adjust the related properties (see Properties below).
 

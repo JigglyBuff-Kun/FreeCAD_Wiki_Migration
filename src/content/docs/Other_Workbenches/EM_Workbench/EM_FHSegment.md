@@ -21,27 +21,27 @@ title: EM FHSegment
 
 The FHSegment tool inserts a FastHenry segment object.
 
-![](/src/assets/images/EM_FHSegment_Example.png)
+![](/images/EM_FHSegment_Example.png)
 
 FastHenry FHSegment
 
 ## Usage
 
-The FHSegment object can be based on the position of a ![](/src/assets/images/Draft_Line.svg) [Draft Line](/Draft_Line "Draft Line") object, or on two existing ![](/src/assets/images/EM_FHNode.svg) [FHNodes](/EM_FHNode "EM FHNode") that will be the FHSegment end points, or you can select the 3D location of the two end points, where two additional FHNodes will be created.
+The FHSegment object can be based on the position of a ![](/images/Draft_Line.svg) [Draft Line](/Draft_Line "Draft Line") object, or on two existing ![](/images/EM_FHNode.svg) [FHNodes](/EM_FHNode "EM FHNode") that will be the FHSegment end points, or you can select the 3D location of the two end points, where two additional FHNodes will be created.
 
-1. Press the ![](/src/assets/images/EM_FHSegment.svg) [EM FHSegment](/EM_FHSegment "EM FHSegment") button, or press E then S keys.
-2. Click a first point on the 3D view, or type coordinates and press the ![](/src/assets/images/Draft_AddPoint.svg) add point button.
-3. Click a second point on the 3D view, or type coordinates and press the ![](/src/assets/images/Draft_AddPoint.svg) add point button.
+1. Press the ![](/images/EM_FHSegment.svg) [EM FHSegment](/EM_FHSegment "EM FHSegment") button, or press E then S keys.
+2. Click a first point on the 3D view, or type coordinates and press the ![](/images/Draft_AddPoint.svg) add point button.
+3. Click a second point on the 3D view, or type coordinates and press the ![](/images/Draft_AddPoint.svg) add point button.
 
 Alternatively, you can also:
 
 1. Select two [FHNode](/EM_FHNode "EM FHNode") objects
-2. Press the ![](/src/assets/images/EM_FHSegment.svg) [EM FHSegment](/EM_FHSegment "EM FHSegment") button, or press E then S keys.
+2. Press the ![](/images/EM_FHSegment.svg) [EM FHSegment](/EM_FHSegment "EM FHSegment") button, or press E then S keys.
 
 Or:
 
 1. Select one or multiple [Draft Line](/Draft_Line "Draft Line") object(s)
-2. Press the ![](/src/assets/images/EM_FHSegment.svg) [EM FHSegment](/EM_FHSegment "EM FHSegment") button, or press E then S keys. As many FHSegment objects will be created as the Draft Line objects.
+2. Press the ![](/images/EM_FHSegment.svg) [EM FHSegment](/EM_FHSegment "EM FHSegment") button, or press E then S keys. As many FHSegment objects will be created as the Draft Line objects.
 
 ### Remarks:
 
@@ -51,7 +51,7 @@ Or:
 
 ## Options
 
-- To enter coordinates manually, simply enter the numbers, then press Enter between each X, Y and Z component. You can press the ![](/src/assets/images/Draft_AddPoint.svg) add point button when you have the desired values to insert the point.
+- To enter coordinates manually, simply enter the numbers, then press Enter between each X, Y and Z component. You can press the ![](/images/Draft_AddPoint.svg) add point button when you have the desired values to insert the point.
 - Press Esc or the Close button to abort the current command.
 
 ## Properties

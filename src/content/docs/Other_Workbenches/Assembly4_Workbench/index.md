@@ -2,7 +2,7 @@
 title: Assembly4 Workbench
 ---
 
-![](/src/assets/images/Assembly4_workbench_icon.svg)
+![](/images/Assembly4_workbench_icon.svg)
 
 External workbench icon
 
@@ -20,7 +20,7 @@ Assembly4 can be installed from the [Addon Manager](/Std_AddonMgr "Std AddonMgr"
 
 Assembly4 was developed from the new tools created for [Assembly3](/Assembly3_Workbench "Assembly3 Workbench"), in particular, the [App Link](/App_Link "App Link") object and the improved [expression engine](/Expressions "Expressions").
 
-Assembly4 was inspired by ![](/src/assets/images/A2p_workbench.svg) [A2plus](/A2plus_Workbench "A2plus Workbench") and ![](/src/assets/images/Assembly3_workbench_icon.svg) [Assembly3](/Assembly3_Workbench "Assembly3 Workbench") but it is not compatible with them. If you have older models made in those two workbenches, you should use those workbenches to open your models only.
+Assembly4 was inspired by ![](/images/A2p_workbench.svg) [A2plus](/A2plus_Workbench "A2plus Workbench") and ![](/images/Assembly3_workbench_icon.svg) [Assembly3](/Assembly3_Workbench "Assembly3 Workbench") but it is not compatible with them. If you have older models made in those two workbenches, you should use those workbenches to open your models only.
 
 ## Links
 

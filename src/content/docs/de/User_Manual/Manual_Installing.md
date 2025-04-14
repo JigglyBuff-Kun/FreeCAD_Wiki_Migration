@@ -17,9 +17,9 @@ Ist geplant, FreeCAD auf einer virtuellen Maschine zu installieren, sollte man n
 ## Installation unter Windows
 
 1. Ein Installationspaket (.exe) von der Download-Seite herunterladen. Die FreeCAD-Installationsprogramme sollten auf jeder Windows-Version ab Windows 7 funktionieren.
-2. Die Bedingungen der LGPL-Lizenz akzeptieren; dies ist einer der wenigen Fälle, wo man wirklich gefahrlos die Schaltfläche "Akzeptieren" drücken kann ohne den Text zu lesen. Kein Kleingedrucktes: ![](/src/assets/images/LicenseAgreement_0212.jpeg)
-3. Den Standardpfad hier unverändert lassen oder, wenn gewünscht, ändern: ![](/src/assets/images/Path0212.jpeg)
-4. Sicherstellen, dass alle zu installierenden Komponenten markiert sind: ![](/src/assets/images/Components0212.jpeg)
+2. Die Bedingungen der LGPL-Lizenz akzeptieren; dies ist einer der wenigen Fälle, wo man wirklich gefahrlos die Schaltfläche "Akzeptieren" drücken kann ohne den Text zu lesen. Kein Kleingedrucktes: ![](/images/LicenseAgreement_0212.jpeg)
+3. Den Standardpfad hier unverändert lassen oder, wenn gewünscht, ändern: ![](/images/Path0212.jpeg)
+4. Sicherstellen, dass alle zu installierenden Komponenten markiert sind: ![](/images/Components0212.jpeg)
 5. Das war's. Die Installation ist jetzt komplett und das Erkunden von FreeCADs Fähigkeiten kann beginnen.
 
 **Installation einer Entwicklungsversion**
@@ -32,7 +32,7 @@ Für Anwender moderner Linux-Distributionen wie Ubuntu, Fedora, openSUSE, Debian
 
 1. Den Softwaremanager öffnen und nach "freecad" suchen:
 2. Die Schaltfläche "Installieren" anklicken, das war's, FreeCAD wird installiert. Nicht vergessen, es danach zu bewerten!  
-   ![](/src/assets/images/LinuxInstallation.png)
+   ![](/images/LinuxInstallation.png)
 
 **Alternative Wege**
 
@@ -43,13 +43,13 @@ Eine der großen Freuden bei der Verwendung von Linux ist die Vielzahl an Mögli
 Die Installation von FreeCAD unter Mac OSX ist heutzutage genauso einfach wie auf anderen Plattformen. Da es jedoch weniger Leute in der Gemeinschaft gibt, die einen Mac besitzen, hinken die verfügbaren Pakete manchmal ein paar Versionen hinter den anderen Plattformen her.
 
 1. Ein deiner Version entsprechendes gezipptes Paket von der [Download-Seite](https://github.com/FreeCAD/FreeCAD/releases) herunterladen.
-2. Den Ordner Downloads öffnen und die heruntergeladene zip-Datei entpacken: ![](/src/assets/images/Freecad-mac-01.jpg)
-3. Die FreeCAD-Anwendung aus der zip-Datei in den Ordner Anwendungen ziehen: ![](/src/assets/images/Freecad-mac-02.jpg)
-4. Das war's, FreeCAD ist installiert! ![](/src/assets/images/Freecad-mac-03.jpg)
+2. Den Ordner Downloads öffnen und die heruntergeladene zip-Datei entpacken: ![](/images/Freecad-mac-01.jpg)
+3. Die FreeCAD-Anwendung aus der zip-Datei in den Ordner Anwendungen ziehen: ![](/images/Freecad-mac-02.jpg)
+4. Das war's, FreeCAD ist installiert! ![](/images/Freecad-mac-03.jpg)
 
 5. Wenn das System den Start von FreeCAD aufgrund eingeschränkter Berechtigungen für Anwendungen, die nicht aus dem App-Store kommen, verhindert, muss dies in den Systemeinstellungen aktiviert werden:
 
-![](/src/assets/images/Freecad-mac-04.jpg)
+![](/images/Freecad-mac-04.jpg)
 
 ### Deinstallation
 
@@ -61,14 +61,14 @@ Nach dem Installieren von FreeCAD, möchte man es wahrscheinlich personalisieren
 
 #### Kategorie Allgemein, Registerkarte Allgemein
 
-![](/src/assets/images/FreeCAD_022_GeneralGen.png)
+![](/images/FreeCAD_022_GeneralGen.png)
 
 1. **Sprache**: Standardmäßig wählt FreeCAD die Sprache deines Betriebssystems aus, du hast jedoch die Möglichkeit, diese zu ändern. Dank des Engagements vieler Mitwirkender ist FreeCAD in einer Vielzahl von Sprachen verfügbar.
 2. **Einheiten**: Mit dieser Einstellung kannst du das Standardeinheitensystem für deine Projekte auswählen.
 
 #### Kategorie „Allgemein“, Registerkarte „Dokument“
 
-![](/src/assets/images/FreeCAD_022_GeneralDoc.png)
+![](/images/FreeCAD_022_GeneralDoc.png)
 
 1. **Beim Start ein neues Dokument erstellen**: FreeCAD öffnet bei jedem Programmstart automatisch ein neues Dokument.
 2. **Speicheroptionen**: Konfiguriere hier Einstellungen, die dir helfen, deine Arbeit im Falle eines Absturzes wiederherzustellen.
@@ -76,20 +76,20 @@ Nach dem Installieren von FreeCAD, möchte man es wahrscheinlich personalisieren
 
 #### Kategorie Anzeige, Registerkarte Navigation
 
-![](/src/assets/images/FreeCAD_022_DisplayNav.png)
+![](/images/FreeCAD_022_DisplayNav.png)
 
 1. **Zoom am Cursor**: Wenn aktiviert, werden Zoomaktionen auf den Mauszeiger zentriert. Wenn deaktiviert, wird der Zoom auf die Mitte der Ansicht fokussiert.
 2. **Zoom umkehren**: Diese Option kehrt die Zoomrichtung in Bezug auf die Mausbewegung um.
 
 #### Registerkarte Arbeitsbereiche
 
-![](/src/assets/images/FreeCAD_022_WBMenu.png)
+![](/images/FreeCAD_022_WBMenu.png)
 
 Obwohl FreeCAD normalerweise die Startseite öffnet, kannst du diese mit dieser Einstellung umgehen. Du kannst direkt in deinem bevorzugten Workbench beginnen. Darüber hinaus kannst du anpassen, welche Workbenches im Auswahlmenü angezeigt werden.
 
 #### Registerkarte Import / Export
 
-![](/src/assets/images/FreeCAD_022_ImportExport.png)
+![](/images/FreeCAD_022_ImportExport.png)
 
 Definiere hier grundlegende Parameter für den Import und Export in verschiedene Formate.
 
@@ -97,7 +97,7 @@ Definiere hier grundlegende Parameter für den Import und Export in verschiedene
 
 So wie die FreeCAD-Gemeinschaft wächst und sich das Anpassen vereinfacht, tauchen auch mehr externe Beiträge und Nebenprojekte von Gemeinschaftsmitgliedern und anderen Begeisterten überall im Internet auf. Viele dieser Projekte liegen in Form von Arbeitsbereichen oder Makros vor und können einfach über den [Addon-Manager](/Std_AddonMgr/de "Std AddonMgr/de") dem eigenen Werkzeugkasten hinzugefügt werden. Der Addon-Manager ist über das Menü **Werkzeuge** zu erreichen, eröffnet eine Welt von Möglichkeiten und ermöglicht verschiedene interessante Komponenten zu installieren:
 
-![](/src/assets/images/FreeCAD_022_AddonsMenu.png)
+![](/images/FreeCAD_022_AddonsMenu.png)
 
 1. Eine Bauteilbibliothek [Parts library](https://github.com/FreeCAD/FreeCAD-library). Diese Bibliothek ist eine Schatzkiste nützlicher Modelle oder Modellteile, die von FreeCAD-Anwendern erstellt wurden. Alle Elemente dieser Bibliothek stehen zur freien Verfügung für die Verwendung in eigenen Modellen und können direkt innerhalb der FreeCAD-Installation aufgerufen werden.
 2. [Zusätzliche Arbeitsbereiche](https://github.com/FreeCAD/FreeCAD-addons). Dies sind spezialisierte Ergänzungen die die Funktionalität von FreeCAD für bestimmte Aufgaben erweitern. Beispielanwendungen schließen die Animation von Modellteilen oder die Verwaltung bestimmter Konstruktionsprozesse, wie z.B. das Abkanten von Blechen oder BIM (Building Information Modeling = Bauwerksdatenmodellierung). Detaillierte Informationen über jeden Arbeitsbereich einschließlich eines Überblicks über die darin enthaltenen Werkzeuge stehen auf der jeweiligen Addon-Seite zur Verfügung, auf die über eine Verknüpfung im Addon-Manager zugegriffen werden kann.

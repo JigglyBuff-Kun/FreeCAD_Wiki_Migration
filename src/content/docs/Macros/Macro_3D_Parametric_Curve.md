@@ -30,7 +30,7 @@ title: 3D Parametric Curve
 
 This macro creates a curve described by parametric equations x(t), y(t) and z(t), with the possibility to choose between B-spline and polyline for the type of line between points.
 
-![](/src/assets/images/ParametricCurve.png)
+![](/images/ParametricCurve.png)
 
 Example Epicycloid curve‎
 
@@ -41,9 +41,9 @@ You can find the updated code (13/05/2015) on the following Github repository:
 
 ## Modified Script
 
-![Example Epicycloid curve‎](/src/assets/images/Macro_3D_Parametric_Curve00.png)
+![Example Epicycloid curve‎](/images/Macro_3D_Parametric_Curve00.png)
 
-ToolBar Icon ![](/src/assets/images/Macro_3D_Parametric_Curve.png)
+ToolBar Icon ![](/images/Macro_3D_Parametric_Curve.png)
 
 **Macro 3D Parametric Curve.FCMacro**
 

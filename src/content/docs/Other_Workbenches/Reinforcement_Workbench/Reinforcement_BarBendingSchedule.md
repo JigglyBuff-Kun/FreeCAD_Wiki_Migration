@@ -21,21 +21,21 @@ title: Reinforcement BarBendingSchedule
 
 The [Reinforcement BarBendingSchedule](/Reinforcement_BarBendingSchedule "Reinforcement BarBendingSchedule") tool allows the user to create the bar bending schedule of reinforcing bars.
 
-This tool is part of the [Reinforcement Workbench](/Reinforcement_Workbench "Reinforcement Workbench"), an [external workbench](/External_workbenches "External workbenches") that can be installed with the ![](/src/assets/images/Std_AddonMgr.svg) [Addon Manager](/Std_AddonMgr "Std AddonMgr").
+This tool is part of the [Reinforcement Workbench](/Reinforcement_Workbench "Reinforcement Workbench"), an [external workbench](/External_workbenches "External workbenches") that can be installed with the ![](/images/Std_AddonMgr.svg) [Addon Manager](/Std_AddonMgr "Std AddonMgr").
 
-![](/src/assets/images/Reinforcement_Bar_Bending_Schedule_example.svg)
+![](/images/Reinforcement_Bar_Bending_Schedule_example.svg)
 
 Bar Bending Schedule of reinforcing bars
 
 ## Usage
 
-1. Select ![](/src/assets/images/Arch_Rebar.svg) [Arch Rebar](/Arch_Rebar "Arch Rebar") and Rebar2 objects you want to include in Bar Bending Schedule. Or select ![](/src/assets/images/Arch_Structure.svg) [Arch Structure](/Arch_Structure "Arch Structure") objects to include ![](/src/assets/images/Arch_Rebar.svg) [Arch Rebar](/Arch_Rebar "Arch Rebar") and Rebar2 objects hosted by those into Bar Bending Schedule. If nothing is selected, then Bar Bending Schedule will be generated for all ![](/src/assets/images/Arch_Rebar.svg) [Arch Rebar](/Arch_Rebar "Arch Rebar") and Rebar2 objects present in the model.
+1. Select ![](/images/Arch_Rebar.svg) [Arch Rebar](/Arch_Rebar "Arch Rebar") and Rebar2 objects you want to include in Bar Bending Schedule. Or select ![](/images/Arch_Structure.svg) [Arch Structure](/Arch_Structure "Arch Structure") objects to include ![](/images/Arch_Rebar.svg) [Arch Rebar](/Arch_Rebar "Arch Rebar") and Rebar2 objects hosted by those into Bar Bending Schedule. If nothing is selected, then Bar Bending Schedule will be generated for all ![](/images/Arch_Rebar.svg) [Arch Rebar](/Arch_Rebar "Arch Rebar") and Rebar2 objects present in the model.
 
-2. Then select ![](/src/assets/images/Reinforcement_BarBendingSchedule.svg) [Bar Bending Schedule](/Reinforcement_BarBendingSchedule "Reinforcement BarBendingSchedule") from the rebar tools.
+2. Then select ![](/images/Reinforcement_BarBendingSchedule.svg) [Bar Bending Schedule](/Reinforcement_BarBendingSchedule "Reinforcement BarBendingSchedule") from the rebar tools.
 
 3. A dialog box will pop-out on the screen as shown below.
 
-: ![](/src/assets/images/Reinforcement_Bar_Bending_Schedule_Dialog.png)
+: ![](/images/Reinforcement_Bar_Bending_Schedule_Dialog.png)
 : Dialog Box for the Reinforcement Bar Bending Schedule tool
 
 4. Modify data to suit your requirements.

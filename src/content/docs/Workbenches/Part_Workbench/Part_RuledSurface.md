@@ -19,15 +19,15 @@ title: Part RuledSurface
 
 ## Description
 
-The ![](/src/assets/images/Part_RuledSurface.svg) **Part RuledSurface** command creates a [ruled surface](https://en.wikipedia.org/wiki/Ruled_surface) spanning between two selected edges/wires.
+The ![](/images/Part_RuledSurface.svg) **Part RuledSurface** command creates a [ruled surface](https://en.wikipedia.org/wiki/Ruled_surface) spanning between two selected edges/wires.
 
-![](/src/assets/images/PartRuledSurface_it.png)
+![](/images/PartRuledSurface_it.png)
 
 ## Usage
 
 1. Select two edges or wires (open or closed contours).
 2. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/Part_RuledSurface.svg) [Part RuledSurface](/Part_RuledSurface "Part RuledSurface") button
+   - Press the ![](/images/Part_RuledSurface.svg) [Part RuledSurface](/Part_RuledSurface "Part RuledSurface") button
    - Use the **Part → RuledSurface** entry in the Part menu
 3. A ruled surface is created between the selected edges/wires.
 

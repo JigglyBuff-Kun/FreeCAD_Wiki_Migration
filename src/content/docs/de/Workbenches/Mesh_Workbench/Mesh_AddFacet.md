@@ -26,8 +26,8 @@ The **Mesh AddFacet** command adds faces along a boundary of an open mesh object
 1. During the command edit mode will be active. In this mode it is impossible to rotate or pan the [3D view](/3D_view "3D view"), although zooming still works. But you can temporarily switch out of edit mode with the [Std ToggleNavigation](/Std_ToggleNavigation "Std ToggleNavigation") command should you need to change the view.
 2. Select a single open mesh object.
 3. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/Mesh_AddFacet.svg) [Add triangle](/Mesh_AddFacet "Mesh AddFacet") button.
-   - Select the **Meshes → ![](/src/assets/images/Mesh_AddFacet.svg) Add triangle** option from the menu.
+   - Press the ![](/images/Mesh_AddFacet.svg) [Add triangle](/Mesh_AddFacet "Mesh AddFacet") button.
+   - Select the **Meshes → ![](/images/Mesh_AddFacet.svg) Add triangle** option from the menu.
 4. If you hover over a vertex along a boundary of the mesh a yellow marker will appear and a left-click will select it.
 5. Select two additional points to define a triangular face. The order of the three points, clockwise or counterclockwise, determines the direction of the normal of the face.
 6. A menu pops up with the following options:

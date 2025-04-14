@@ -23,7 +23,7 @@ The **TechDraw HorizontalDimension** tool adds a horizontal dimension to a View.
 
 For more information see [TechDraw LengthDimension](/TechDraw_LengthDimension "TechDraw LengthDimension").
 
-![](/src/assets/images/TechDraw_Dimension_Horizontal_example.png)
+![](/images/TechDraw_Dimension_Horizontal_example.png)
 
 Horizontal dimension taken from two points
 

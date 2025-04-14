@@ -21,13 +21,13 @@ title: PartDesign SubtractiveWedge
 
 Inserts a subtractive wedge in the active Body. Its shape is subtracted from the existing solid.
 
-![](/src/assets/images/PartDesign_SubtractiveWedge_example.svg)
+![](/images/PartDesign_SubtractiveWedge_example.svg)
 
 _On the left: active body (A) shown in grey and subtractive wedge (B) shown in transparent red; result on the right._
 
 ## Usage
 
-1. Press the ![](/src/assets/images/PartDesign_SubtractiveWedge.svg) **Subtractive Wedge** button. **Note**: the Subtractive Wedge is part of an icon menu labelled _Create an additive primitive_. After launching FreeCAD, the Subtractive Box is the one displayed in the toolbar. To get the Wedge, click on the down arrow besides the visible icon and select Subtractive Wedge in the menu.
+1. Press the ![](/images/PartDesign_SubtractiveWedge.svg) **Subtractive Wedge** button. **Note**: the Subtractive Wedge is part of an icon menu labelled _Create an additive primitive_. After launching FreeCAD, the Subtractive Box is the one displayed in the toolbar. To get the Wedge, click on the down arrow besides the visible icon and select Subtractive Wedge in the menu.
 2. Set the Primitive parameters and [Attachment](/Part_EditAttachment "Part EditAttachment").
 3. Click OK.
 4. A Wedge feature appears under the active Body.

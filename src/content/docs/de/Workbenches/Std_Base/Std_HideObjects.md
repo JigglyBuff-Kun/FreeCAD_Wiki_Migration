@@ -23,7 +23,7 @@ Der Befehl **Std ObjekteAusblenden** blendet alle Objekte, die zum aktiven Dokum
 
 ## Anwendung
 
-1. Menüeintrag **Ansicht → Sichtbarkeit → ![](/src/assets/images/Std_HideObjects.svg) Alle Objekte ausblenden** auswählen.
+1. Menüeintrag **Ansicht → Sichtbarkeit → ![](/images/Std_HideObjects.svg) Alle Objekte ausblenden** auswählen.
 
 ## Hinweise
 

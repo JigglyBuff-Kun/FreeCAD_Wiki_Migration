@@ -10,11 +10,11 @@ The topological shapes, as well as their methods, are defined by the [OpenCASCAD
 
 Another type of class is that of [meshes](/Mesh "Mesh"); this class is not very parametric because it can't be redefined easily except by specifying individual vertices and triangular surfaces.
 
-![](/src/assets/images/Shape_and_mesh.svg)
+![](/images/Shape_and_mesh.svg)
 
 Left: parametric [Part TopoShape](/Part_TopoShape "Part TopoShape") defined by properties. Right: non-parametric [mesh](/Mesh "Mesh"), defined by vertices and triangular surfaces.
 
-![](/src/assets/images/FreeCAD_core_objects.svg)
+![](/images/FreeCAD_core_objects.svg)
 
 Simplified diagram of the relationships between the core objects in the program. The `Part::TopoShape` class is embedded in the `Part::Feature` object and from there it is propagated to all objects that are derived from it.
 
@@ -62,7 +62,7 @@ obj.Shape.exportStl("my_file.stl")
 
 ```
 
-For a full list of attributes and methods, consult the [source documentation](/Source_documentation "Source documentation"), and the ![](/src/assets/images/Std_PythonHelp.svg) [Std PythonHelp](/Std_PythonHelp "Std PythonHelp") tool.
+For a full list of attributes and methods, consult the [source documentation](/Source_documentation "Source documentation"), and the ![](/images/Std_PythonHelp.svg) [Std PythonHelp](/Std_PythonHelp "Std PythonHelp") tool.
 
 You can obtain a quick summary of all methods using Python's built-in `help()` function.
 

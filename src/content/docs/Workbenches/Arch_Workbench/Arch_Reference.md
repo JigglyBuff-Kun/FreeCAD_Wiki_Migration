@@ -25,11 +25,11 @@ THIS COMMAND IS PART OF THE INTEGRATEDBIM WORKBENCHIN V1.0This page has been upd
 
 The **Arch Reference tool** allows you to place an object in the current document that copies its shape and colors from a [Part](/Part_Workbench "Part Workbench")-based object (including [Arch BuildingPart](/Arch_BuildingPart "Arch BuildingPart")) stored in another FreeCAD file. If that FreeCAD file changes, the reference object is marked to be reloaded.
 
-![](/src/assets/images/Arch_reference_screenshot.png)
+![](/images/Arch_reference_screenshot.png)
 
 ## Usage
 
-1. Press the ![](/src/assets/images/Arch_Reference.svg) [External reference](/Arch_Reference "Arch Reference") button,
+1. Press the ![](/images/Arch_Reference.svg) [External reference](/Arch_Reference "Arch Reference") button,
 2. Press the "Choose file..." button and select an existing FreeCAD file,
 3. Select one of the included Part-based objects from the drop-down list,
 4. Press **OK**.

@@ -19,9 +19,9 @@ title: Sketcher CreatePolyline
 
 ## Description
 
-The ![](/src/assets/images/Sketcher_CreatePolyline.svg) [Sketcher CreatePolyline](/Sketcher_CreatePolyline "Sketcher CreatePolyline") tool creates a series of line and arc segments connected by their endpoints. The tool has several modes.
+The ![](/images/Sketcher_CreatePolyline.svg) [Sketcher CreatePolyline](/Sketcher_CreatePolyline "Sketcher CreatePolyline") tool creates a series of line and arc segments connected by their endpoints. The tool has several modes.
 
-![](/src/assets/images/Sketcher_PolylineExample1.png)
+![](/images/Sketcher_PolylineExample1.png)
 
 Polyline started with a line, a tangent arc, a perpendicular arc then a tangent line.
 
@@ -30,9 +30,9 @@ Polyline started with a line, a tangent arc, a perpendicular arc then a tangent 
 See also: [Drawing aids](/Sketcher_Workbench#Drawing_aids "Sketcher Workbench").
 
 1. There are several ways to invoke the tool:
-   - Press the ![](/src/assets/images/Sketcher_CreatePolyline.svg) [Create polyline](/Sketcher_CreatePolyline "Sketcher CreatePolyline") button.
-   - Select the **Sketcher → Sketcher geometries → ![](/src/assets/images/Sketcher_CreatePolyline.svg) Create polyline** option from the menu.
-   - Right-click in the [3D view](/3D_view "3D view") and select the **![](/src/assets/images/Sketcher_CreatePolyline.svg) Create polyline** option from the context menu.
+   - Press the ![](/images/Sketcher_CreatePolyline.svg) [Create polyline](/Sketcher_CreatePolyline "Sketcher CreatePolyline") button.
+   - Select the **Sketcher → Sketcher geometries → ![](/images/Sketcher_CreatePolyline.svg) Create polyline** option from the menu.
+   - Right-click in the [3D view](/3D_view "3D view") and select the **![](/images/Sketcher_CreatePolyline.svg) Create polyline** option from the context menu.
    - Use the keyboard shortcut: G then M.
 2. The cursor changes to a cross with the tool icon.
 3. The modes of the tool require a previous segment. Do one of the following:

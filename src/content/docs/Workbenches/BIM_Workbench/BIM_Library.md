@@ -19,15 +19,15 @@ title: BIM Library
 
 ## Description
 
-The **BIM Library** tool allows you to place, in the current model, an object from the [Parts Library](/Parts_Library_Workbench "Parts Library Workbench"), which must be installed via the ![](/src/assets/images/Std_AddonMgr.svg) [Addon Manager](/Std_AddonMgr "Std AddonMgr") for this tool to be available.
+The **BIM Library** tool allows you to place, in the current model, an object from the [Parts Library](/Parts_Library_Workbench "Parts Library Workbench"), which must be installed via the ![](/images/Std_AddonMgr.svg) [Addon Manager](/Std_AddonMgr "Std AddonMgr") for this tool to be available.
 
-![](/src/assets/images/BIM_Library_screenshot.png)
+![](/images/BIM_Library_screenshot.png)
 
 The **Library browser** dialog in the [Task panel](/Task_panel "Task panel") on the left
 
 ## Usage
 
-1. Press the ![](/src/assets/images/BIM_Library.svg) [Objects library](/BIM_Library "BIM Library") button
+1. Press the ![](/images/BIM_Library.svg) [Objects library](/BIM_Library "BIM Library") button
 
    : Result: In the [Combo view](/Combo_view "Combo view") → [Task panel](/Task_panel "Task panel"), a dialog titled **Library browser** is displayed
 
@@ -38,7 +38,7 @@ The **Library browser** dialog in the [Task panel](/Task_panel "Task panel") on 
 ## Options
 
 - [FCStd](/File_Format_FCStd "File Format FCStd"), STEP and [brep](/File_Format_FCStd#*.brep "File Format FCStd") files are supported. Only STEP and BREP files are placeable. FCStd files will not allow you to choose a placement, as they might be composed of a complex series of objects with significant positions. When choosing an FCStd file, its contents will be inserted at the position that is defined in the file.
-- STEP and BREP objects are inserted as ![](/src/assets/images/Arch_Equipment.svg) [Equipment](/Arch_Equipment "Arch Equipment") with no separated base shape. Adding a base shape to these objects afterwards will destroy their current shape.
+- STEP and BREP objects are inserted as ![](/images/Arch_Equipment.svg) [Equipment](/Arch_Equipment "Arch Equipment") with no separated base shape. Adding a base shape to these objects afterwards will destroy their current shape.
 - On placing an object, you can choose their insertion point between original (the (`0,0,0`) point defined in the file), top, middle, bottom and left, center and right.
 - The Library can work offline, in which case it relies on the Parts Library addon to be installed (and updated by the user), or online, in which case it browses directly from the [Parts Library Git repository](https://github.com/FreeCAD/FreeCAD-library) and allows to download directly from there.
 

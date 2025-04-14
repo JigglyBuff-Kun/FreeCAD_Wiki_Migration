@@ -21,7 +21,7 @@ title: TechDraw ErgänzungQuadratsymbolEinfügen
 
 Das Werkzeug **TechDraw ErgänzungQuadratsymbolEinfügen** fügt ein □-Symbol am Anfang des Maßtextes ein.
 
-![](/src/assets/images/TechDraw_extensionInsertSquareExample.png)
+![](/images/TechDraw_extensionInsertSquareExample.png)
 
 Rechts ein Maß mit dem eingefügten Symbol
 
@@ -29,8 +29,8 @@ Rechts ein Maß mit dem eingefügten Symbol
 
 1. Ein oder mehrere Maße auswählen.
 2. Es gibt mehrere Möglichkeiten das Werkzeug aufzurufen:
-   - Die Schaltfläche ![](/src/assets/images/TechDraw_ExtensionInsertSquare.svg) '□'-Symbol einfügen drücken.
-   - Den Menüeintrag **TechDraw → Ergänzungen: Maße → ![](/src/assets/images/TechDraw_ExtensionInsertSquare.svg) '□'-Symbol einfügen** auswählen.
+   - Die Schaltfläche ![](/images/TechDraw_ExtensionInsertSquare.svg) '□'-Symbol einfügen drücken.
+   - Den Menüeintrag **TechDraw → Ergänzungen: Maße → ![](/images/TechDraw_ExtensionInsertSquare.svg) '□'-Symbol einfügen** auswählen.
 3. Das □-Symbol wird in die Maßtexte der gewählten Maße eingefügt.
 
 Retrieved from "<http://wiki.freecad.org/index.php?title=TechDraw_ExtensionInsertSquare/de&oldid=1492885>"

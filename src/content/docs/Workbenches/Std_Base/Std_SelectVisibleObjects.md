@@ -23,6 +23,6 @@ The **Std SelectVisibleObjects** command selects all visible objects. Note that 
 
 ## Usage
 
-1. Select the **View → Visibility → ![](/src/assets/images/Std_SelectVisibleObjects.svg) Select visible objects** option from the menu.
+1. Select the **View → Visibility → ![](/images/Std_SelectVisibleObjects.svg) Select visible objects** option from the menu.
 
 Retrieved from "<http://wiki.freecad.org/index.php?title=Std_SelectVisibleObjects/en&oldid=1451210>"

@@ -28,11 +28,11 @@ title: FlächeZuSkizze
 
 ## Beschreibung
 
-Dieses Makro zerlegt deine Form mit der Funktion ![](/src/assets/images/Draft_Downgrade.svg) [Enwurf Herabstufen](/Draft_Downgrade/de "Draft Downgrade/de") und überführt die gewählte Fläche in eine Skizze ohne Beschränkungen, die dann bearbeitet werden kann.
+Dieses Makro zerlegt deine Form mit der Funktion ![](/images/Draft_Downgrade.svg) [Enwurf Herabstufen](/Draft_Downgrade/de "Draft Downgrade/de") und überführt die gewählte Fläche in eine Skizze ohne Beschränkungen, die dann bearbeitet werden kann.
 
 ## Skript
 
-Werkzeugleistensymbol ![](/src/assets/images/Macro_FaceToSketch.png)
+Werkzeugleistensymbol ![](/images/Macro_FaceToSketch.png)
 
 **Macro_FaceToSketch.FCMacro**
 

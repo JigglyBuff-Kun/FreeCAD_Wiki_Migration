@@ -25,11 +25,11 @@ For info about the math of the equation, see the [Elmer models manual](https://w
 
 ## Usage
 
-1. Add an ![](/src/assets/images/FEM_SolverElmer.svg) [Elmer solver](/FEM_SolverElmer#Equations "FEM SolverElmer").
+1. Add an ![](/images/FEM_SolverElmer.svg) [Elmer solver](/FEM_SolverElmer#Equations "FEM SolverElmer").
 2. Select it in the [Tree view](/Tree_view "Tree view").
 3. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/FEM_EquationHeat.svg) [Heat equation](/FEM_EquationHeat "FEM EquationHeat") button.
-   - Select the **Solve → ![](/src/assets/images/FEM_EquationHeat.svg) Heat equation** option from the menu.
+   - Press the ![](/images/FEM_EquationHeat.svg) [Heat equation](/FEM_EquationHeat "FEM EquationHeat") button.
+   - Select the **Solve → ![](/images/FEM_EquationHeat.svg) Heat equation** option from the menu.
 4. Change the [equation's solver settings](#Solver_Settings) or the [general solver settings](/FEM_SolverElmer_SolverSettings "FEM SolverElmer SolverSettings") if necessary.
 
 ## Solver Settings
@@ -54,9 +54,9 @@ Equation:
 
 The heat equation takes the following analysis features into account if they are set:
 
-- ![](/src/assets/images/FEM_ConstraintBodyHeatSource.svg) [Body heat source](/FEM_ConstraintBodyHeatSource "FEM ConstraintBodyHeatSource")
-- ![](/src/assets/images/FEM_ConstraintInitialTemperature.svg) [Initial temperature condition](/FEM_ConstraintInitialTemperature "FEM ConstraintInitialTemperature")
-- ![](/src/assets/images/FEM_ConstraintTemperature.svg) [Temperature boundary condition](/FEM_ConstraintTemperature "FEM ConstraintTemperature")
+- ![](/images/FEM_ConstraintBodyHeatSource.svg) [Body heat source](/FEM_ConstraintBodyHeatSource "FEM ConstraintBodyHeatSource")
+- ![](/images/FEM_ConstraintInitialTemperature.svg) [Initial temperature condition](/FEM_ConstraintInitialTemperature "FEM ConstraintInitialTemperature")
+- ![](/images/FEM_ConstraintTemperature.svg) [Temperature boundary condition](/FEM_ConstraintTemperature "FEM ConstraintTemperature")
 
 ### Note
 

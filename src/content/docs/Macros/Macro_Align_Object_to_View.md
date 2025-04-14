@@ -37,7 +37,7 @@ This macro aligns and Position the selected object to the current View.
 
 ## Script
 
-ToolBar Icon ![](/src/assets/images/Macro_Align_Object_to_View.png)
+ToolBar Icon ![](/images/Macro_Align_Object_to_View.png)
 
 **Macro_Align_Object_to_View.FCMacro**
 
@@ -67,19 +67,19 @@ App.ActiveDocument.getObject(Nameelement).Placement=pl
 
 ## Example
 
-- ![Your object in its original position XY.](/src/assets/images/Macro_Align_Object_to_View_01.png)
+- ![Your object in its original position XY.](/images/Macro_Align_Object_to_View_01.png)
 
   Your object in its original position XY.
 
-- ![Rotate the screen X? Y? Z? or use this macro Macro_Rotate_View for precise rotation.](/src/assets/images/Macro_Align_Object_to_View_02.png)
+- ![Rotate the screen X? Y? Z? or use this macro Macro_Rotate_View for precise rotation.](/images/Macro_Align_Object_to_View_02.png)
 
   Rotate the screen X? Y? Z? or use this macro [Macro_Rotate_View](/Macro_Rotate_View "Macro Rotate View") for precise rotation.
 
-- [![Select the object and run the macro (the object face the screen).](/src/assets/images/Macro_Align_Object_to_View_03.png)](/File:Macro_Align_Object_to_View_03.png "Select the object and run the macro (the object face the screen).")
+- [![Select the object and run the macro (the object face the screen).](/images/Macro_Align_Object_to_View_03.png)](/File:Macro_Align_Object_to_View_03.png "Select the object and run the macro (the object face the screen).")
 
   Select the object and run the macro (the object face the screen).
 
-- [![Your object return in the XY display and in its new coordinates position (Placement,Angle)](/src/assets/images/Macro_Align_Object_to_View_04.png)](/File:Macro_Align_Object_to_View_04.png "Your object return in the XY display and in its new coordinates position (Placement,Angle)")
+- [![Your object return in the XY display and in its new coordinates position (Placement,Angle)](/images/Macro_Align_Object_to_View_04.png)](/File:Macro_Align_Object_to_View_04.png "Your object return in the XY display and in its new coordinates position (Placement,Angle)")
 
   Your object return in the XY display and in its new coordinates position (Placement,Angle)
 

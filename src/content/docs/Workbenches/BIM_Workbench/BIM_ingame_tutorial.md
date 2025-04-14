@@ -6,7 +6,7 @@ title: BIM ingame tutorial
 This documentation is not finished. Please help and contribute documentation.GuiCommand modelexplains how commands should be documented. BrowseCategory:UnfinishedDocuto see more incomplete pages like this one. SeeCategory:Command Referencefor all commands.SeeWikiPagesto learn about editing the wiki pages, and go toHelp FreeCADto learn about other ways in which you can contribute.
 :::
 
-![](/src/assets/images/BIM_tutorial_screenshot.png)
+![](/images/BIM_tutorial_screenshot.png)
 
 **Tutorial steps**
 
@@ -14,7 +14,7 @@ This is the in-game tutorial of the [BIM Workbench](/BIM_Workbench "BIM Workbenc
 
 ### Welcome to the BIM Workbench!
 
-![](/src/assets/images/BIM_Tutorial_title.jpg)
+![](/images/BIM_Tutorial_title.jpg)
 
 This tutorial will walk you through the different functionalities of the [BIM Workbench](/BIM_Workbench "BIM Workbench") and help you to get on track by modeling a very simple pavilion building. It should take between one and two hours to complete entirely, depending on your previous experience with 3D applications.
 
@@ -40,17 +40,17 @@ FreeCAD has a large preferences system with many options to set, located under m
 
 The BIM Workbench provides a [simplified setup window](/BIM_Setup "BIM Setup"), which allows to quickly set some of the most useful preferences for BIM work. This setup window is located under menu **Manage → BIM Setup...** (you can also click the corresponding button on the Manage toolbar):
 
-![](/src/assets/images/BIM_Tutorial_01.jpg)
+![](/images/BIM_Tutorial_01.jpg)
 
 Open the simplified setup window now, and set the different options to your liking.
 
 In case of need, hover the mouse over any option or setting to see a description of what it is used for:
 
-![](/src/assets/images/BIM_Tutorial_02.jpg)
+![](/images/BIM_Tutorial_02.jpg)
 
 In this tutorial, we will work in centimeters. Therefore, we recommend that you set your preferred working units to **centimeters** and the default size of a grid square to **10 cm**. These settings can be changed at any time from the working plane button located on the main toolbar, and the units indicator located on the status bar (bottom right):
 
-![](/src/assets/images/BIM_tutorial_14.jpg)
+![](/images/BIM_tutorial_14.jpg)
 
 **Tutorial steps**
 
@@ -66,15 +66,15 @@ True if ((FreeCAD.ParamGet("User parameter:BaseApp/Preferences/Units").GetInt("U
 
 If you just installed FreeCAD, you are probably currently looking at the **FreeCAD Start Page**:
 
-![](/src/assets/images/BIM_tutorial_13.jpg)
+![](/images/BIM_tutorial_13.jpg)
 
 The start page lists the latest documents you have been working with, and, on its different tabs, explains how to get help. But in order to start working, we need to create a new, empty **document**. If you haven't done it yet, create now a new document by using the "Create new..." item of the start page, or by navigating to menu **File → New**:
 
-![](/src/assets/images/BIM_tutorial_09.jpg)
+![](/images/BIM_tutorial_09.jpg)
 
 You will then find yourself in the 3D space of FreeCAD, ready to work:
 
-![](/src/assets/images/BIM_tutorial_10.jpg)
+![](/images/BIM_tutorial_10.jpg)
 
 **Tutorial steps**
 
@@ -86,11 +86,11 @@ True if FreeCAD.ActiveDocument else False
 
 There are several ways to interact with the mouse in FreeCAD. These are called [navigation styles](/Mouse_navigation "Mouse navigation"). You can change the current navigation style anytime by clicking on the navigation style button in the status bar. Hovering the mouse over that button will also show you what each mouse button does. Several of them are made to match other well-known applications. Choose one you are comfortable with.
 
-![](/src/assets/images/BIM_Tutorial_03.jpg)
+![](/images/BIM_Tutorial_03.jpg)
 
 Controlling how you look at your model in the 3D view can be done in multiple ways: Using the **mouse** (depending on the navigation style you chose), the **keyboard** (explore the contents of the **View** menu to find out more), or the [Navigation Cube](/Navigation_Cube "Navigation Cube") (click the different arrows and faces of the cube to align the view).
 
-![](/src/assets/images/BIM_Tutorial_04.jpg)
+![](/images/BIM_Tutorial_04.jpg)
 
 **Tutorial steps**
 
@@ -106,13 +106,13 @@ True if FreeCADGui.ActiveDocument.ActiveView.getViewDirection().getAngle(FreeCAD
 
 All panels and toolbars in FreeCAD can be moved and reorganized. Larger panels can also be joined by dragging and dropping them on another one. If your screen is too small to display all the toolbars and their contents (truncated toolbars will appear with a >> sign), it might be a good idea to move them to a better position.
 
-![](/src/assets/images/BIM_Tutorial_05.jpg)
+![](/images/BIM_Tutorial_05.jpg)
 
 Toolbars and panels can also be turned on and off from the **View** menu.
 
 The BIM Workbench also features switch buttons in the status bar, that turns additional panels like selection view, report view and Python console on and off. These panels are often useful while working with FreeCAD, but they use precious screen space. You can usually turn everything off until you need them. Remember that error messages are printed in the report window, so in case anything goes wrong, be sure to have a look there.
 
-![](/src/assets/images/BIM_tutorial_17.jpg)
+![](/images/BIM_tutorial_17.jpg)
 
 **Tutorial steps**
 
@@ -126,13 +126,13 @@ The [BIM Workbench](/BIM_Workbench "BIM Workbench") contains tools borrowed from
 
 These tools allow you to draw flat objects, such as lines, polylines, rectangles, arcs, etc... that will become the bases of your BIM objects. For example, you can use a polyline to define the base trace of a wall, or a rectangle as a profile for a beam. All 2D objects are created in the current [working plane](/Draft_SelectPlane "Draft SelectPlane").
 
-![](/src/assets/images/BIM_Tutorial_35.jpg)
+![](/images/BIM_Tutorial_35.jpg)
 
 #### 3D/BIM
 
 This category contains tools to create BIM objects such as [walls](/Arch_Wall "Arch Wall") or [windows](/Arch_Window "Arch Window"), and generic, non-BIM 3D objects such as [boxes](/BIM_Box "BIM Box"), that you can turn into BIM objects later on. The result is different if you use the tool with an object selected or not. If not, you will be presented with a creation interface. If you have selected an object before running the tool, an object of the corresponding type will be created using the selected object as a base.
 
-![](/src/assets/images/BIM_Tutorial_33.jpg)
+![](/images/BIM_Tutorial_33.jpg)
 
 A typical example is to press the [wall](/Arch_Wall "Arch Wall") button with a selected [line](/Draft_Line "Draft Line") or [polyline](/Draft_Wire "Draft Wire"). A wall will be created automatically, using the line or polyline as its baseline.
 
@@ -142,7 +142,7 @@ Non-BIM objects, including objects made in other workbenches, can be turned into
 
 These tools produce annotative objects such as dimensions, texts, labels or grids, that are not used for modeling but to annotate your models and produce understandable drawings.
 
-![](/src/assets/images/BIM_Tutorial_34.jpg)
+![](/images/BIM_Tutorial_34.jpg)
 
 #### Snapping
 
@@ -172,11 +172,11 @@ As you will have noticed, view angle and working plane are not tied together. Yo
 
 Set the working plane in "Top" mode now:
 
-![](/src/assets/images/BIM_Tutorial_06.jpg)
+![](/images/BIM_Tutorial_06.jpg)
 
 The [snapping tools](/Draft_Snap "Draft Snap") allow you to place new objects and points precisely according to existing geometry. However, enabling many snapping locations might slow down the drawing operations, so it is wise to only enable the snapping tools you intent to use. Take a moment to review what each of them does, so when needed you will know which can be disabled.
 
-![](/src/assets/images/BIM_Tutorial_07.jpg)
+![](/images/BIM_Tutorial_07.jpg)
 
 Take special notice of the last one, the **working plane snapping** tool, as it will force any snapped point to lie on the working plane, thus preventing you to snap above or under the working plane. You will often need to turn it on or off, depending on the operation you are performing.
 
@@ -196,11 +196,11 @@ Let's start building our pavilion by creating some walls. Walls can be made eith
 
 First, zoom out until a good part or all of the grid is seen. This will make it much easier to see what we are doing:
 
-![](/src/assets/images/BIM_tutorial_15.jpg)
+![](/images/BIM_tutorial_15.jpg)
 
-Then, press the ![](/src/assets/images/Arch_Wall.png) **Wall** button from the toolbar (or choose menu item **3D/BIM → Wall**). Click two points on the grid, vertically aligned, distant by **300 cm**. Pressing SHIFT after the first point has been clicked will help you to keep your wall horizontal or vertical. The side panel will inform you of the length of wall while drawing.
+Then, press the ![](/images/Arch_Wall.png) **Wall** button from the toolbar (or choose menu item **3D/BIM → Wall**). Click two points on the grid, vertically aligned, distant by **300 cm**. Pressing SHIFT after the first point has been clicked will help you to keep your wall horizontal or vertical. The side panel will inform you of the length of wall while drawing.
 
-![](/src/assets/images/BIM_tutorial_16.jpg)
+![](/images/BIM_tutorial_16.jpg)
 
 If you created a wrong wall, no worries! Simply delete it or undo it (menu **Edit → Undo**) and try again.
 
@@ -212,23 +212,23 @@ bool(len([o for o in FreeCAD.ActiveDocument.Objects if "MakeBlocks" in o.Propert
 
 ### Draw a second wall
 
-Make a second, horizontal wall of 4 meters (or 400 centimeters) long. Select the ![](/src/assets/images/Arch_Wall.png) **Wall** tool again, pan and zoom out until you see a good area of the grid, and pick two points from the grid to define the start and end points of the new wall:
+Make a second, horizontal wall of 4 meters (or 400 centimeters) long. Select the ![](/images/Arch_Wall.png) **Wall** tool again, pan and zoom out until you see a good area of the grid, and pick two points from the grid to define the start and end points of the new wall:
 
-![](/src/assets/images/BIM_tutorial_11.jpg)
+![](/images/BIM_tutorial_11.jpg)
 
 After they are created, select both walls by pressing CTRL and clicking them both in the 3D view or in the [tree view](/Document_structure "Document structure"), and adjust their **height** property to 2.5 meters and their **width** to 20 centimeters (or any other measurement you are comfortable with, if working in another unit), so they look like this (Use the mouse to rotate the view, according to the navigation style you choose):
 
-![](/src/assets/images/BIM_tutorial_08.jpg)
+![](/images/BIM_tutorial_08.jpg)
 
 You can always correct or change properties after a wall or any other BIM object has been created. By expanding the wall object in the tree view, then double-clicking the baseline of the wall, you can also modify its base 2D object. Most BIM objects in FreeCAD are based on another object, such as a baseline or a profile.
 
-![](/src/assets/images/BIM_tutorial_12.jpg)
+![](/images/BIM_tutorial_12.jpg)
 
 #### Important note
 
 You will notice that some property changes, in FreeCAD, don't reflect immediately on the object in the 3D view. Instead, the object is marked with a "to be recomputed" blue mark in the tree:
 
-![](/src/assets/images/BIM_Tutorial_20.jpg)
+![](/images/BIM_Tutorial_20.jpg)
 
 The reason for this is that a FreeCAD document can be a very complex chain of inter-dependent objects. Updating one can trigger an update on many others, and therefore take a long time. To avoid this, some operations simply mark the object to be recomputed, and you trigger the recomputation yourself by using menu **Edit → Refresh** or pressing **Ctrl+R**.
 
@@ -262,34 +262,34 @@ We will now place a roof slab on top of our walls. Instead of drawing the slab d
 
 It is often convenient to consider the top XY plane (the ground plane) as a kind of "drawing board", where we will be building our objects, and move then next to their correct position. There is an additional advantage here, our working plane is already in "Top" mode, so we don't need to change it.
 
-Set yourself in top view, zoom out a bit until you see both walls, and draw a rectangle encompassing them both. Press the ![](/src/assets/images/Draft_Rectangle.png) **Rectangle** button from the toolbar (or choose menu item **2D Drafting → Rectangle**):
+Set yourself in top view, zoom out a bit until you see both walls, and draw a rectangle encompassing them both. Press the ![](/images/Draft_Rectangle.png) **Rectangle** button from the toolbar (or choose menu item **2D Drafting → Rectangle**):
 
-![](/src/assets/images/BIM_Tutorial_18.jpg)
+![](/images/BIM_Tutorial_18.jpg)
 
 Rotate your view to inspect the results. By default, the rectangle is filled with a face. This can be changed by changing the **Make Face** property of our rectangle to False. For the slab we are going to build, this has no impact, for other types of objects, however, the base object being a polyline or a face can make a difference.
 
-![](/src/assets/images/BIM_Tutorial_19.jpg)
+![](/images/BIM_Tutorial_19.jpg)
 
 The next step is to build a slab by _extruding_ it with our rectangle as its base _profile_. In FreeCAD, structural objects such as columns, beams, or slabs are all created using the same object called a **Structure**. After a structural object is created, setting its **IFC Type** property to the desired type (column, slab, etc...) is all that is needed to change its type.
 
-Make sure our rectangle is selected, then press the ![](/src/assets/images/BIM_Slab.png) **Slab** button from the toolbar (or choose menu item **3D/BIM → Slab**). As stated above, this can also be done with the Column or Beam tools, as they all produce the same type of object. After our object is created, we need to make the following changes to its properties:
+Make sure our rectangle is selected, then press the ![](/images/BIM_Slab.png) **Slab** button from the toolbar (or choose menu item **3D/BIM → Slab**). As stated above, this can also be done with the Column or Beam tools, as they all produce the same type of object. After our object is created, we need to make the following changes to its properties:
 
 - Set its **Height** to **20 cm**
 - Verify its **IFC Type** is set to **Slab**
 
 Now we need to move our new roof slab to its correct position, that is, above the walls. So we need to move it upwards, in the Z direction, by a distance of 250 cm, which is the height of our walls. We can simply edit the **Placement** property of our slab, expand its **Position** attribute, and set the value of **z** to 250 cm. Our slab is now well in place:
 
-![](/src/assets/images/BIM_Tutorial_21.jpg)
+![](/images/BIM_Tutorial_21.jpg)
 
-Another way to move our slab to its correct position, is to use the ![](/src/assets/images/Draft_Move.png) **Move** tool from the **Modify** menu. For that, we need to set our working plane in a vertical plane first, by pressing the ![](/src/assets/images/Draft_SelectPlane.png) **working plane** button (make sure you don't have any face selected), and setting it to **XZ (Front)**. By setting ourselves in front view (press key **1**), we can now select the slab, press the ![](/src/assets/images/Draft_Move.png) **Move** button, and move our slab by clicking one of its base points, and, with **Shift** pressed to restrict the movement vertically, click one point on top of the walls:
+Another way to move our slab to its correct position, is to use the ![](/images/Draft_Move.png) **Move** tool from the **Modify** menu. For that, we need to set our working plane in a vertical plane first, by pressing the ![](/images/Draft_SelectPlane.png) **working plane** button (make sure you don't have any face selected), and setting it to **XZ (Front)**. By setting ourselves in front view (press key **1**), we can now select the slab, press the ![](/images/Draft_Move.png) **Move** button, and move our slab by clicking one of its base points, and, with **Shift** pressed to restrict the movement vertically, click one point on top of the walls:
 
-![](/src/assets/images/BIM_Tutorial_23.jpg)
+![](/images/BIM_Tutorial_23.jpg)
 
 #### Method 2: Draw the slab directly in the correct plane
 
-Another useful method is directly working on the intended plane. We can easily set the working plane to the top surface of the walls, which is where we want our slab. Selecting a face and pressing the ![](/src/assets/images/Draft_SelectPlane.png) **working plane** button sets the working plane to coincide with the selected face. Select the top face of the wall and set it as the current working plane. The placement of the grid moves to show the current working plane.
+Another useful method is directly working on the intended plane. We can easily set the working plane to the top surface of the walls, which is where we want our slab. Selecting a face and pressing the ![](/images/Draft_SelectPlane.png) **working plane** button sets the working plane to coincide with the selected face. Select the top face of the wall and set it as the current working plane. The placement of the grid moves to show the current working plane.
 
-![](/src/assets/images/BIM_Tutorial_22.jpg)
+![](/images/BIM_Tutorial_22.jpg)
 
 Everything we draw from now on will happen in that plane. If you like, you can now set yourself in top view, but this is not necessary. Once your working plane is set, and if **working plane snapping** is enabled, you can draw directly in any type of 3D view.
 
@@ -313,11 +313,11 @@ In FreeCAD, it is very easy to turn objects or groups on and off, and the tree s
 
 The **Column** tool (as well as the Beam tool) has some built-in profiles that we will use now. Make sure nothing is selected, then press the Column button. In the **Structure options**, select the category **CHS** (for "Circular Hollow Section"; RHS stands for "Rectangular Hollow Section", HEA, HEB, etc. are various "H" sections, etc.):
 
-![](/src/assets/images/BIM_Tutorial_24.jpg)
+![](/images/BIM_Tutorial_24.jpg)
 
 And click a point to place your column, more or less at this position. Make sure the new column has an IFC Type of "Column" and give it a Height of 250 cm to make it the same height as our walls.
 
-![](/src/assets/images/BIM_Tutorial_25.jpg)
+![](/images/BIM_Tutorial_25.jpg)
 
 The default CHS preset has a diameter option of 21.3 mm, which is too thin to support our concrete roof slab. Fortunately, as everything is parametric, it is easy to change the diameter. Expand the new structural object in the tree view, and you will find its profile object, named CHS21.3x2.6\_. Change its diameter to 12 cm and its thickness to 8 mm. Now we have a strong enough column. Notice that you can specify units on the fly and switch between 0.8 cm and 8 mm without issue. FreeCAD will take care of conversion.
 
@@ -329,15 +329,15 @@ Let's start by changing the height of our column from 250 cm to 249 cm, to give 
 
 Using the Slab tool again, create a structural object from the rectangle, give it a height of 1 cm, and move it to a height of 249 cm:
 
-![](/src/assets/images/BIM_Tutorial_26.jpg)
+![](/images/BIM_Tutorial_26.jpg)
 
-Now let's add our plate to the column. BIM objects in FreeCAD have two properties named **Additions** and **Subtractions** that can receive objects that need to be unioned or subtracted to/from them. To add the plate to our column, select the plate, then, with **Ctrl** pressed, select the column and use the ![](/src/assets/images/Arch_Add.png) **Add** tool from the **Modify** menu. Our plate is now part of the column:
+Now let's add our plate to the column. BIM objects in FreeCAD have two properties named **Additions** and **Subtractions** that can receive objects that need to be unioned or subtracted to/from them. To add the plate to our column, select the plate, then, with **Ctrl** pressed, select the column and use the ![](/images/Arch_Add.png) **Add** tool from the **Modify** menu. Our plate is now part of the column:
 
-![](/src/assets/images/BIM_Tutorial_27.jpg)
+![](/images/BIM_Tutorial_27.jpg)
 
 By starting from simple shapes as _profiles_, and adding or subtracting objects, we can quickly create very complex BIM objects. Note that the Additions and Subtractions of a given BIM object can easily be changed by double-clicking them in the tree view and using the Add and Remove buttons there. The same object can also be used as an addition or subtraction to several other objects.
 
-![](/src/assets/images/BIM_Tutorial_28.jpg)
+![](/images/BIM_Tutorial_28.jpg)
 
 **Tutorial steps**
 
@@ -355,21 +355,21 @@ Like columns and beams, doors and windows are created from the same [Window](/Ar
 
 Let's insert a 80 cm x 210 cm glass door in one of our walls. Start by placing the working plane on a face of a wall, which will make it easier to precisely place our door:
 
-![](/src/assets/images/BIM_Tutorial_29.jpg)
+![](/images/BIM_Tutorial_29.jpg)
 
 Then, with the wall selected, select **Door** from the **BIM** menu. Select the **Glass door** preset, and set the **Width** to 80 cm and **Height** to 210 cm. You can set the other values as you like:
 
-![](/src/assets/images/BIM_Tutorial_30.jpg)
+![](/images/BIM_Tutorial_30.jpg)
 
 Click a point on the base of the wall where you wish to place the window. This can be difficult, as the grid lines don't necessarily correspond to the wall edges. Press the **Q** key while you have an active snap at a grid intersection, and press it again with an active snap on the bottom of the wall. FreeCAD will create a new snap point where their horizontal/vertical axis intersect. Use this to find a suitable point:
 
-![](/src/assets/images/BIM_Tutorial_31.jpg)
+![](/images/BIM_Tutorial_31.jpg)
 
 If your door didn't get placed correctly, try the **Move** tool to move it to its correct position. Otherwise use undo or delete it from the model tree and try again.
 
 When everything is done, you should obtain a door properly inserted into its wall:
 
-![](/src/assets/images/BIM_Tutorial_32.jpg)
+![](/images/BIM_Tutorial_32.jpg)
 
 **Tutorial steps**
 
@@ -389,7 +389,7 @@ A third way to organize things is by using **layers**. Layers are independent of
 
 Finally, BIM applications usually allow you to group objects into **levels** (or storeys) and **buildings**. FreeCAD offers these tools as well under the **3D/BIM** menu. Like beams and columns, levels and buildings use the same object type called [Building Part](/Arch_BuildingPart "Arch BuildingPart") with a different IFC type. They work the same way as groups, once created, you can drag and drop any object in and out of it. Building Parts are compatible with groups, so you can place groups inside them.
 
-![](/src/assets/images/BIM_Tutorial_36.jpg)
+![](/images/BIM_Tutorial_36.jpg)
 
 Building Parts have many other uses, refer to their [documentation](/Arch_BuildingPart "Arch BuildingPart") to know more.
 
@@ -416,7 +416,7 @@ One of the most common operations performed on a BIM model is to extract 2D draw
 
 In both cases, it starts with placing a [Section Plane](/Arch_SectionPlane "Arch SectionPlane") in your model:
 
-![](/src/assets/images/BIM_Tutorial_37.jpg)
+![](/images/BIM_Tutorial_37.jpg)
 
 1. Select the Level object that contains your objects, that we created in the last step
 2. Add a Section Plane from menu **Annotations → Section Plane**
@@ -439,13 +439,13 @@ bool(len([o for o in FreeCAD.ActiveDocument.Objects if "Section" in o.Name and (
 
 Once your section plane is in place we can create 2D geometry from what it sees using the [Shape-based view](/BIM_Shape2DView "BIM Shape2DView") tool:
 
-![](/src/assets/images/BIM_Tutorial_38.jpg)
+![](/images/BIM_Tutorial_38.jpg)
 
 1. Select the section plane
 2. Create a Shape 2D View using **Annotation → Shape-based view**
 3. Our view object is hidden under the walls. Hide the level and the section plane by selecting them both in the tree view and pressing the space bar, so we can see our result better:
 
-![](/src/assets/images/BIM_Tutorial_39.jpg)
+![](/images/BIM_Tutorial_39.jpg)
 
 The 2D view we created is an all-in-one 2D object and will be located on the (0,0) ground plane in the model. It can be moved around, and will be recalculated if the model changes.
 
@@ -465,17 +465,17 @@ bool(len([o for o in FreeCAD.ActiveDocument.Objects if "Shape2DView" in o.Name])
 
 You can place [Texts](/Draft_Text "Draft Text"), [Labels](/Draft_Label "Draft Label") (text with line and arrow), [Dimensions](/Draft_Dimension "Draft Dimension") on anything in the model space: Either directly on the 3D model, or on the 2D view that we created in the step above. The choice is yours, depending on what you wish to achieve. If you leave the 2D view exactly under the 3D model, you might also want to do both in one go.
 
-![](/src/assets/images/BIM_Tutorial_34.jpg)
+![](/images/BIM_Tutorial_34.jpg)
 
 Annotations (texts, labels, dimensions) will be placed on the current **Working Plane**. Be sure to place your working plane where you want your annotations. You can this way place annotations in any plane of the 3D space: Horizontally or vertically. You can also move or rotate them after creation.
 
 Let's place a horizontal dimension between the extremities of our two walls:
 
-![](/src/assets/images/BIM_Tutorial_40.jpg)
+![](/images/BIM_Tutorial_40.jpg)
 
 1. Set the **working plane** to **Top** position
 2. Orient your view to be able to view the base of both walls
-3. Choose menu **Annotations** → ![](/src/assets/images/Draft_Dimension.png) [Dimension](/Draft_Dimension "Draft Dimension")
+3. Choose menu **Annotations** → ![](/images/Draft_Dimension.png) [Dimension](/Draft_Dimension "Draft Dimension")
 4. Click a first point at the extremity of the left wall
 5. Press **SHIFT** to constrain the dimension vertically or horizontally
 6. Click a second point at the extremity of the right wall
@@ -485,9 +485,9 @@ Let's place a horizontal dimension between the extremities of our two walls:
 
 Now let's add a text:
 
-![](/src/assets/images/BIM_Tutorial_41.jpg)
+![](/images/BIM_Tutorial_41.jpg)
 
-1. Choose menu **Annotations** → ![](/src/assets/images/Draft_Text.png) [Text](/Draft_Text "Draft Text")
+1. Choose menu **Annotations** → ![](/images/Draft_Text.png) [Text](/Draft_Text "Draft Text")
 2. Click a location in the 3D view to place the text
 3. Write the text you wish, for example **Pavilion**, then click the **Create text** button or press Enter twice.
 
@@ -507,7 +507,7 @@ Let's try to export our 2D work to DXF:
 
 If you don't use any 2D CAD program, there are several free and open-source applications that can open DXF files (apart from FreeCAD itself, of course!) such as [LibreCAD](https://librecad.org/) and [QCAD CE](https://qcad.org/).
 
-![](/src/assets/images/BIM_Tutorial_42.jpg)
+![](/images/BIM_Tutorial_42.jpg)
 
 **Tutorial steps**
 

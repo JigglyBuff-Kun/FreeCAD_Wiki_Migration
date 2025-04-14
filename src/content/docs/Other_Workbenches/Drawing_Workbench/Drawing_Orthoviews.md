@@ -27,7 +27,7 @@ The Orthoviews tool creates all of the orthographic projections is the proper lo
 
 1. Select a feature in the model tree.
 2. If there is more than one page, multi-select the desired page (while keeping the feature selected).
-3. Press the ![](/src/assets/images/Drawing_Orthoviews.png) [Insert orthographic views](/Drawing_Orthoviews "Drawing Orthoviews") button.
+3. Press the ![](/images/Drawing_Orthoviews.png) [Insert orthographic views](/Drawing_Orthoviews "Drawing Orthoviews") button.
 4. Define your desired view creation options. See [Options](#Options).
 5. Click OK to create the views of the selected feature on the selected page.
 
@@ -35,7 +35,7 @@ The Orthoviews tool creates all of the orthographic projections is the proper lo
 
 Depending on the selections made, some options may not be available.
 
-![](/src/assets/images/Drawing_Orthoviews_Options.png)
+![](/images/Drawing_Orthoviews_Options.png)
 
 - **Projection**: Select whether you want a third angle (default) or first angle projection
 - **View from**: Choose the axis that will face out of the drawing sheet toward the user.

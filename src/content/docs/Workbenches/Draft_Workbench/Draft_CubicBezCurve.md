@@ -19,13 +19,13 @@ title: Draft CubicBezCurve
 
 ## Description
 
-The ![](/src/assets/images/Draft_CubicBezCurve.svg) **Draft CubicBezCurve** command creates a [Bézier curve](http://en.wikipedia.org/wiki/Bezier_curve) of the third degree (four points required).
+The ![](/images/Draft_CubicBezCurve.svg) **Draft CubicBezCurve** command creates a [Bézier curve](http://en.wikipedia.org/wiki/Bezier_curve) of the third degree (four points required).
 
 The Bézier Curve is one of the most commonly used curves in computer graphics. This command allows you to create a continuous spline made up of several 3rd-degree Bézier segments, in a way that is similar to the Bézier tool in [Inkscape](https://inkscape.org/). A general Bézier curve of any degree can be created with the [Draft BezCurve](/Draft_BezCurve "Draft BezCurve") command.
 
 The [Draft BezCurve](/Draft_BezCurve "Draft BezCurve") and the Draft CubicBezCurve commands use _control points_ to define the position and curvature of the spline. The [Draft BSpline](/Draft_BSpline "Draft BSpline") command, on the other hand, specifies the _exact points_ through which the curve will pass.
 
-![](/src/assets/images/Draft_CubicBezCurve_example.png)
+![](/images/Draft_CubicBezCurve_example.png)
 
 Spline consisting of three cubic Bézier segments. The first segment is defined by four points. Subsequent segments reuse two points from the previous segment and therefore require only two additional points.
 
@@ -34,9 +34,9 @@ Spline consisting of three cubic Bézier segments. The first segment is defined 
 See also: [Draft Tray](/Draft_Tray "Draft Tray"), [Draft Snap](/Draft_Snap "Draft Snap") and [Draft Constrain](/Draft_Constrain "Draft Constrain").
 
 1. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/Draft_CubicBezCurve.svg) [Cubic Bézier curve](/Draft_CubicBezCurve "Draft CubicBezCurve") button.
-   - [Draft](/Draft_Workbench "Draft Workbench"): Select the **Drafting → Bézier tools → ![](/src/assets/images/Draft_CubicBezCurve.svg) Cubic Bézier curve** option from the menu.
-   - [BIM](/BIM_Workbench "BIM Workbench"): Select the **2D Drafting → ![](/src/assets/images/Draft_CubicBezCurve.svg) Cubic Bézier curve** option from the menu.
+   - Press the ![](/images/Draft_CubicBezCurve.svg) [Cubic Bézier curve](/Draft_CubicBezCurve "Draft CubicBezCurve") button.
+   - [Draft](/Draft_Workbench "Draft Workbench"): Select the **Drafting → Bézier tools → ![](/images/Draft_CubicBezCurve.svg) Cubic Bézier curve** option from the menu.
+   - [BIM](/BIM_Workbench "BIM Workbench"): Select the **2D Drafting → ![](/images/Draft_CubicBezCurve.svg) Cubic Bézier curve** option from the menu.
 2. The **Cubic Bézier curve** task panel opens. See [Options](#Options) for more information.
 3. It is not possible the enter points via the task panel.
 4. For the following [Mouse Navigation Models](/Mouse_navigation "Mouse navigation") a keyboard key must to be held down:
@@ -79,7 +79,7 @@ For each cubic Bézier segment four points must be used, of which the two extrem
 - In general, the last point in a group of four is shared with the following three points maximum to create another Bézier segment.
 - To have smooth curves, with no straight segments, the number of points should be `3n + 1` or `3n`, where `n` is the number of segments, for `n >= 1`.
 
-![](/src/assets/images/Draft_CubicBezCurve_API_example.png)
+![](/images/Draft_CubicBezCurve_API_example.png)
 
 Examples of Bézier curves produced by using 2, 3, 4, 5, 6, 7, and 8 points. The solid lines indicate cubic Bézier segments; the other lines are quadratic or linear.
 

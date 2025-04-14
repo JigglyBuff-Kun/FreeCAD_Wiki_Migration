@@ -22,7 +22,7 @@ Read below for more details.
 
 The [BIM Workbench](/BIM_Workbench "BIM Workbench") offers two modes to work with IFC files. Switching between the two modes is done by clicking the **lock button** on the FreeCAD status bar:
 
-![](/src/assets/images/BIM-statusbar-lock.jpg)
+![](/images/BIM-statusbar-lock.jpg)
 
 - **Unlocked mode** (default): You can have both Native IFC projects and non-IFC elements in a same FreeCAD document. You can also work on BIM models without creating any Native IFC project, and still export your model as IFC.
 - **Locked mode**: Your FreeCAD document is an IFC file. Anything you do will cause changes in the IFC file. Any new object you add is instantly converted to IFC.
@@ -73,11 +73,11 @@ When creating a new IFC project, there is no attached IFC file yet. On first sav
 **In locked mode:**
 
 1. Create a new FreeCAD document with menu File -> New
-2. Press the ![](/src/assets/images/IFC.svg) [IFC Lock](/index.php?title=BIM_ToggleNativeIFC&action=edit&redlink=1 "BIM ToggleNativeIFC (page does not exist)") button on the status bar to lock the document
+2. Press the ![](/images/IFC.svg) [IFC Lock](/index.php?title=BIM_ToggleNativeIFC&action=edit&redlink=1 "BIM ToggleNativeIFC (page does not exist)") button on the status bar to lock the document
 
 **In unlocked mode:**
 
-1. Press the ![](/src/assets/images/BIM_Project.svg) [Project](/BIM_Project "BIM Project") button to create a native IFC project in the current FreeCAD document. You can have more than one in a same FreeCAD document
+1. Press the ![](/images/BIM_Project.svg) [Project](/BIM_Project "BIM Project") button to create a native IFC project in the current FreeCAD document. You can have more than one in a same FreeCAD document
 
 ## Saving and exporting IFC files
 

@@ -25,7 +25,7 @@ Die **Drucken**-Anweisung ist in erster Linie zum Drucken von [TechDraw Arbeitsb
 
 1. Falls nötig, die richtige TechDraw-Seite aktivieren oder die 3D-Ansicht nach eigenem Geschmack ändern.
 2. Es gibt mehrere Möglichkeiten den Befehl aufzurufen:
-   - Den Menüeintrag **Datei → ![](/src/assets/images/Std_Print.svg) Drucken...** auswählen.
+   - Den Menüeintrag **Datei → ![](/images/Std_Print.svg) Drucken...** auswählen.
    - Das Tastaturkürzel Ctrl+P.
 3. Das Standard-Druckdialog-Fenster wird geöffnet.
 

@@ -21,8 +21,8 @@ title: TechDraw Schnittansicht
 
 Das Werkzeug **TechDraw Schnittansicht** Fügt, von einer bestehenden Bauteilansicht ausgehend, (dem Zeichnungsblatt) eine Schnittansicht (kurz: einen Schnitt) hinzu.
 
-![](/src/assets/images/TechDraw_section_ANSI.png)  
-![](/src/assets/images/TechDraw_section_ISO.png)
+![](/images/TechDraw_section_ANSI.png)  
+![](/images/TechDraw_section_ISO.png)
 
 Schnitt (Schnittdarstellung) einer bereits vorhandenen Ansicht, der die innenliegende Bohrung und eine schraffierte Schnittfläche zeigt.  
 Das obere Bild zeigt die Schnittpfeile nach ANSI-Vorgabe.  
@@ -32,11 +32,11 @@ Das untere Bild zeigt die Schnittpfeile nach ISO-Vorgabe.
 
 1. Eine Bauteilansicht in der 3D-Ansicht oder in der Baumansicht auswählen.
 2. Es gibt mehrere Möglichkeiten dieses Werkzeug aufzurufen:
-   - Die Schaltfläche ![](/src/assets/images/TechDraw_SectionView.svg) Schnittansicht drücken.
-   - Den Menüeintrag **TechDraw→ TechDraw Views → ![](/src/assets/images/TechDraw_SectionView.svg) Schnittansicht einfügen** auswählen.
+   - Die Schaltfläche ![](/images/TechDraw_SectionView.svg) Schnittansicht drücken.
+   - Den Menüeintrag **TechDraw→ TechDraw Views → ![](/images/TechDraw_SectionView.svg) Schnittansicht einfügen** auswählen.
 3. Im Aufgabenbereich wird ein Dialog geöffnet, der bei der Berechnung verschiedener Eigenschaften hilft. Es werden sinnvolle Werte für die Blickrichtung errechnet; diese können aber geändert werden.
 
-![](/src/assets/images/TechDraw_Section_Taskview.png)
+![](/images/TechDraw_Section_Taskview.png)
 
 Aufgabenbereich zum Definieren des Schnitts einer Ansicht
 
@@ -136,11 +136,11 @@ doc.recompute()
 
 Für weitere Information über Schnittansichten und einige Beispiele siehe: [TechDraw Schnittbeispiele](/TechDraw_Section_Examples/de "TechDraw Section Examples/de").
 
-![](/src/assets/images/TechDraw_ExampleSection-10.png)
-![](/src/assets/images/TechDraw_ExampleSection-13.png)
-![](/src/assets/images/TechDraw_ExampleSection-15.png)
-![](/src/assets/images/TechDraw_ExampleSection-17.png)
-![](/src/assets/images/TechDraw_ExampleSection-34.png)
-![](/src/assets/images/TechDraw_ExampleSection-35.png)
+![](/images/TechDraw_ExampleSection-10.png)
+![](/images/TechDraw_ExampleSection-13.png)
+![](/images/TechDraw_ExampleSection-15.png)
+![](/images/TechDraw_ExampleSection-17.png)
+![](/images/TechDraw_ExampleSection-34.png)
+![](/images/TechDraw_ExampleSection-35.png)
 
 Retrieved from "<http://wiki.freecad.org/index.php?title=TechDraw_SectionView/de&oldid=1500213>"

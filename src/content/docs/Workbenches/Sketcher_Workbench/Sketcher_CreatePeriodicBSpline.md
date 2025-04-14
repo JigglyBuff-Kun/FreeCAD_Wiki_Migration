@@ -19,15 +19,15 @@ title: Sketcher CreatePeriodicBSpline
 
 ## Description
 
-The ![](/src/assets/images/Sketcher_CreatePeriodicBSpline.svg) [Sketcher CreatePeriodicBSpline](/Sketcher_CreatePeriodicBSpline "Sketcher CreatePeriodicBSpline") tool creates a periodic (closed) [B-spline](/B-Splines "B-Splines") curve by control points. [introduced in 1.0](/Release_notes_1.0 "Release notes 1.0"): This is the same tool as [Sketcher CreateBSpline](/Sketcher_CreateBSpline "Sketcher CreateBSpline") but with a different initial mode.
+The ![](/images/Sketcher_CreatePeriodicBSpline.svg) [Sketcher CreatePeriodicBSpline](/Sketcher_CreatePeriodicBSpline "Sketcher CreatePeriodicBSpline") tool creates a periodic (closed) [B-spline](/B-Splines "B-Splines") curve by control points. [introduced in 1.0](/Release_notes_1.0 "Release notes 1.0"): This is the same tool as [Sketcher CreateBSpline](/Sketcher_CreateBSpline "Sketcher CreateBSpline") but with a different initial mode.
 
 ## Usage
 
 See also: [Drawing aids](/Sketcher_Workbench#Drawing_aids "Sketcher Workbench").
 
 1. There are several ways to invoke the tool:
-   - Press the ![](/src/assets/images/Sketcher_CreatePeriodicBSpline.svg) [Periodic B-spline by control points](/Sketcher_CreatePeriodicBSpline "Sketcher CreatePeriodicBSpline") button.
-   - Select the **Sketcher → Sketcher geometries → ![](/src/assets/images/Sketcher_CreatePeriodicBSpline.svg) Create periodic B-spline** option from the menu.
+   - Press the ![](/images/Sketcher_CreatePeriodicBSpline.svg) [Periodic B-spline by control points](/Sketcher_CreatePeriodicBSpline "Sketcher CreatePeriodicBSpline") button.
+   - Select the **Sketcher → Sketcher geometries → ![](/images/Sketcher_CreatePeriodicBSpline.svg) Create periodic B-spline** option from the menu.
    - Use the keyboard shortcut: G then B, then P.
 2. For further steps see [Sketcher CreateBSpline](/Sketcher_CreateBSpline#Usage "Sketcher CreateBSpline").
 

@@ -24,8 +24,8 @@ The **Std New** command creates a new empty document and makes it the active doc
 ## Usage
 
 1. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/Std_New.svg) [New](/Std_New "Std New") button.
-   - Select the **File → ![](/src/assets/images/Std_New.svg) New** option from the menu.
+   - Press the ![](/images/Std_New.svg) [New](/Std_New "Std New") button.
+   - Select the **File → ![](/images/Std_New.svg) New** option from the menu.
    - Use the keyboard shortcut: Ctrl+N.
 
 ## Preferences

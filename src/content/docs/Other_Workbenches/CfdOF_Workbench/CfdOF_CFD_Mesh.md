@@ -30,18 +30,18 @@ The CFD Mesh dialogue panel is used to build the mesh from the geometry.
 Once the [Analysis Container](/CfdOF_Analysis "CfdOF Analysis") has been created, the CFD Mesh dialogue panel can be added to the tree in the following ways:
 
 1. Select the Geometry that you wish to mesh.
-2. Both the ![](/src/assets/images/CfdOF_CFD_Mesh.svg) button and the **CfdOF → ![](/src/assets/images/CfdOF_CFD_Mesh.svg) CFD Mesh‏‎** menu option, become available.
+2. Both the ![](/images/CfdOF_CFD_Mesh.svg) button and the **CfdOF → ![](/images/CfdOF_CFD_Mesh.svg) CFD Mesh‏‎** menu option, become available.
 3. Click on either the:
-   - ![](/src/assets/images/CfdOF_CFD_Mesh.svg) button or,
-   * **CfdOF → ![](/src/assets/images/CfdOF_CFD_Mesh.svg) CFD Mesh‏‎** menu option.
+   - ![](/images/CfdOF_CFD_Mesh.svg) button or,
+   * **CfdOF → ![](/images/CfdOF_CFD_Mesh.svg) CFD Mesh‏‎** menu option.
 4. The CFD Mesh dialogue panel will open.
-5. ![](/src/assets/images/CfdOF_CFD_Mesh.svg) **[Geometry Name]\_Mesh** will be created in the tree.
+5. ![](/images/CfdOF_CFD_Mesh.svg) **[Geometry Name]\_Mesh** will be created in the tree.
 
 ## Options
 
 The dialogue panel offers the following settings:
 
-![CfdOF CFD Mesh Dialog Panel](/src/assets/images/CfdOF_DialogCFDMesh2.png)
+![CfdOF CFD Mesh Dialog Panel](/images/CfdOF_DialogCFDMesh2.png)
 
 CfdOF CFD Mesh Dialog Panel
 
@@ -75,7 +75,7 @@ CfdOF CFD Mesh Dialog Panel
 
 The following parameters are only available when the snappyHexMesh Mesh Utility has been selected.
 
-![CfdOF CFD Mesh Dialog Panel snappyHexMesh](/src/assets/images/CfdOF_DialogCFDMesh.png)
+![CfdOF CFD Mesh Dialog Panel snappyHexMesh](/images/CfdOF_DialogCFDMesh.png)
 
 CfdOF CFD Mesh Dialog Panel snappyHexMesh
 
@@ -87,7 +87,7 @@ CfdOF CFD Mesh Dialog Panel snappyHexMesh
 
 : The **base element size** has already been defined above. Volume or surface refinement is achieved by splitting the base cells into 4 quads for 2D or 8 hexes for 3D models. The figure below shows the base cell being split into 4 quads at the first split n=1 and then each new cell being again split into 4 quads on the second spit, n=2.
 
-![CfdOF CFD Mesh Cell Split](/src/assets/images/CfdOF-MeshCellSplit.png)
+![CfdOF CFD Mesh Cell Split](/images/CfdOF-MeshCellSplit.png)
 
 CfdOF Mesh Cell Split
 
@@ -95,7 +95,7 @@ CfdOF Mesh Cell Split
 
 : To achieve a smooth transition between the split cells, ensure that there are a number of cells between consecutive refinement levels. The **No. of cells between levels** input box accepts integer values above or equal to 1 with a default value of 3.
 
-![Mesh Cell Split with refinement level 2](/src/assets/images/CfdOF_MeshCellSplitn2.png)
+![Mesh Cell Split with refinement level 2](/images/CfdOF_MeshCellSplitn2.png)
 
 Mesh Cell Split with refinement level 2
 

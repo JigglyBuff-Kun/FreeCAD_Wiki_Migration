@@ -19,14 +19,14 @@ title: Sketcher ReorientSketch
 
 ## Description
 
-The ![](/src/assets/images/Sketcher_ReorientSketch.svg) [Sketcher ReorientSketch](/Sketcher_ReorientSketch "Sketcher ReorientSketch") tool places a sketch on one of the main planes with an optional offset. It can also be used to detach a sketch.
+The ![](/images/Sketcher_ReorientSketch.svg) [Sketcher ReorientSketch](/Sketcher_ReorientSketch "Sketcher ReorientSketch") tool places a sketch on one of the main planes with an optional offset. It can also be used to detach a sketch.
 
 ## Usage
 
 1. Select a sketch.
 2. There are several ways to invoke the tool:
-   - Press the ![](/src/assets/images/Sketcher_ReorientSketch.svg) [Reorient sketch](/Sketcher_ReorientSketch "Sketcher ReorientSketch") button (not available in the [PartDesign Workbench](/PartDesign_Workbench "PartDesign Workbench")).
-   - Select the **Sketch → ![](/src/assets/images/Sketcher_ReorientSketch.svg) Reorient sketch** option from the menu.
+   - Press the ![](/images/Sketcher_ReorientSketch.svg) [Reorient sketch](/Sketcher_ReorientSketch "Sketcher ReorientSketch") button (not available in the [PartDesign Workbench](/PartDesign_Workbench "PartDesign Workbench")).
+   - Select the **Sketch → ![](/images/Sketcher_ReorientSketch.svg) Reorient sketch** option from the menu.
 3. If the sketch is attached:
    1. The **Sketch has support** dialog opens.
    2. Press the Yes button to detach the sketch.

@@ -28,11 +28,11 @@ title: Qt Example
 
 This macro is an example of using Qt commands their connections, extraction and data assignment.
 
-- ![Qt example](/src/assets/images/Qt_Example_00.png)
+- ![Qt example](/images/Qt_Example_00.png)
 
   Qt example
 
-- ![Qt example details](/src/assets/images/Qt_Example_01.png)
+- ![Qt example details](/images/Qt_Example_01.png)
 
   Qt example details
 
@@ -77,9 +77,9 @@ you can create a convertuitopy.bat file to automate the process:
 
 ### The icons used
 
-![](/src/assets/images/MEpipe01.png) ![](/src/assets/images/MEpipe02.png) ![](/src/assets/images/MEPlan.png) ![](/src/assets/images/MEPlanD.png) ![](/src/assets/images/MEPlanF.png) ![](/src/assets/images/MEPlanT.png) ![](/src/assets/images/MEPlanI.png)
+![](/images/MEpipe01.png) ![](/images/MEpipe02.png) ![](/images/MEPlan.png) ![](/images/MEPlanD.png) ![](/images/MEPlanF.png) ![](/images/MEPlanT.png) ![](/images/MEPlanI.png)
 
-![](/src/assets/images/MEPlanFC.png) ![](/src/assets/images/MEPlanPY.png)
+![](/images/MEPlanFC.png) ![](/images/MEPlanPY.png)
 
 You must copy and paste the images in the same directory as the macro, here:
 

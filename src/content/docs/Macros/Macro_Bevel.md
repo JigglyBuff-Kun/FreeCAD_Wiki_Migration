@@ -34,7 +34,7 @@ Usage: Select vertices in the 3D view that you desire to bevel and run the macro
 
 Full documentation can be found on github: [Bevel](https://github.com/mwganson/Bevel).
 
-![](/src/assets/images/Bevel_scr.png)
+![](/images/Bevel_scr.png)
 
 Macro Bevel screenshot‎
 
@@ -71,13 +71,13 @@ webbrowser.open("https://gist.github.com/mwganson/25ee4dc925c8bcf1182bd9979025ed
 <class="rawcodeurl"><a href="<https://gist.github.com/mwganson/25ee4dc925c8bcf1182bd9979025ed2d/raw/db5e9ecdba031bc743a9bd1e3a39e257ee523abc/Bevel.FCMacro>">raw code</a>
 
 ToolBar Icon
-![](/src/assets/images/Bevel.svg)
+![](/images/Bevel.svg)
 
 ## Script
 
 **Macro Bevel.FCMacro**
 
-[![](/src/assets/images/Nuvola_apps_download_manager.png)](https://gist.github.com/mwganson/25ee4dc925c8bcf1182bd9979025ed2d)
+[![](/images/Nuvola_apps_download_manager.png)](https://gist.github.com/mwganson/25ee4dc925c8bcf1182bd9979025ed2d)
 
 [Bevel.FCMacro](https://gist.github.com/mwganson/25ee4dc925c8bcf1182bd9979025ed2d)
 

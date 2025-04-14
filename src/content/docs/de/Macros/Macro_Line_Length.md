@@ -38,7 +38,7 @@ Die Standardwerte sind: x1 = 0, y1 = 0, z1 = 0, Länge = 10, Winkel = 0
 
 ## Skript
 
-ToolBar Icon ![](/src/assets/images/Macro_Line_Length.png)
+ToolBar Icon ![](/images/Macro_Line_Length.png)
 
 **Macro Line_Length.py**
 

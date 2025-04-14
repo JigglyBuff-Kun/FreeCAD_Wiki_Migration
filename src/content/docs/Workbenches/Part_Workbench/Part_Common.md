@@ -24,7 +24,7 @@ Extracts the common part (intersection) between selected Part objects. This oper
 ## Usage
 
 1. Select two shapes
-2. Press the ![](/src/assets/images/Part_Common.svg) [Common](/Part_Common "Part Common") button.
+2. Press the ![](/images/Part_Common.svg) [Common](/Part_Common "Part Common") button.
 
 ## Supported inputs
 

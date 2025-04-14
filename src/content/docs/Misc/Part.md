@@ -4,15 +4,15 @@ title: Part
 
 ## Introduction
 
-In FreeCAD the word "[Part](/Part "Part")" is normally used to refer to a ![](/src/assets/images/Std_Part.svg) [Std Part](/Std_Part "Std Part") (`App::Part` class), a type of container object that is defined by the base system. This Part is used to manage the position of 3D shapes in order to create mechanical assemblies.
+In FreeCAD the word "[Part](/Part "Part")" is normally used to refer to a ![](/images/Std_Part.svg) [Std Part](/Std_Part "Std Part") (`App::Part` class), a type of container object that is defined by the base system. This Part is used to manage the position of 3D shapes in order to create mechanical assemblies.
 
-See ![](/src/assets/images/Std_Part.svg) [Std Part](/Std_Part "Std Part") for more information about this type of object.
+See ![](/images/Std_Part.svg) [Std Part](/Std_Part "Std Part") for more information about this type of object.
 
 ## Usage
 
 The Std Part tool is not defined by a particular workbench, but by the base system, thus it is found in the **structure toolbar**, which is available in all [workbenches](/Workbenches "Workbenches").
 
-1. Press the ![](/src/assets/images/Std_Part.svg) [Std Part](/Std_Part "Std Part") button. An empty Part is created and automatically becomes _[active](/Std_Part#Active_status "Std Part")_.
+1. Press the ![](/images/Std_Part.svg) [Std Part](/Std_Part "Std Part") button. An empty Part is created and automatically becomes _[active](/Std_Part#Active_status "Std Part")_.
 
 ## Notes
 

@@ -23,7 +23,7 @@ Encouraging results from David_D:
 - [FreeCAD Forum Post](https://forum.freecadweb.org/viewtopic.php?p=411563#p411563)
 - GitHub Repo - <https://github.com/DavidDaish/freecad_sphinx_docs>
 
-![](/src/assets/images/Freecad-sphinx-docs-preview.png)
+![](/images/Freecad-sphinx-docs-preview.png)
 
 ## FreeCAD Forum Discussion
 

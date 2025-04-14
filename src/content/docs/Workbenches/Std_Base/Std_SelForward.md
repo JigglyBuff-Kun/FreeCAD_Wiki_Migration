@@ -25,8 +25,8 @@ The **Std SelForward** command restores the next recorded [Tree view](/Tree_view
 
 1. There has to be a next Tree view selection.
 2. There are several ways to invoke the command:
-   - Click on the black down arrow to the right of the ![](/src/assets/images/Std_TreeSyncView.svg) button and select the **![](/src/assets/images/Std_SelForward.svg) Selection forward** option from the flyout. Note: the button image will change depending on the selected option.
-   - Select the **View → TreeView actions → ![](/src/assets/images/Std_SelForward.svg) Selection forward** option from the menu.
+   - Click on the black down arrow to the right of the ![](/images/Std_TreeSyncView.svg) button and select the **![](/images/Std_SelForward.svg) Selection forward** option from the flyout. Note: the button image will change depending on the selected option.
+   - Select the **View → TreeView actions → ![](/images/Std_SelForward.svg) Selection forward** option from the menu.
    - Use the keyboard shortcut: S then F.
 3. The next selection is restored.
 

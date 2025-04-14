@@ -23,7 +23,7 @@ Inserts a new empty trajectory-object into the scene.
 
 ## Usage
 
-Click on ![](/src/assets/images/Robot_CreateTrajectory.svg) or choose Robot → ![](/src/assets/images/Robot_CreateTrajectory.svg) Create trajectory from the top menu.
+Click on ![](/images/Robot_CreateTrajectory.svg) or choose Robot → ![](/images/Robot_CreateTrajectory.svg) Create trajectory from the top menu.
 
 ## Notes
 

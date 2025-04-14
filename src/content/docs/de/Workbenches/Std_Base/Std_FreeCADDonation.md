@@ -25,6 +25,6 @@ Aktuell verweist dieser Befehl auf die Seite <https://wiki.freecad.org/Donate>.
 
 ## Anwendung
 
-1. Den Menüeintrag **Hilfe → ![](/src/assets/images/Std_FreeCADDonation.svg) Spenden** auswählen.
+1. Den Menüeintrag **Hilfe → ![](/images/Std_FreeCADDonation.svg) Spenden** auswählen.
 
 Retrieved from "<http://wiki.freecad.org/index.php?title=Std_FreeCADDonation/de&oldid=1454739>"

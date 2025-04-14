@@ -19,9 +19,9 @@ title: Draft Slope
 
 ## Description
 
-The ![](/src/assets/images/Draft_Slope.svg) **Draft Slope** command slopes selected [Draft Lines](/Draft_Line "Draft Line") or [Draft Wires](/Draft_Wire "Draft Wire") by increasing, or decreasing, the Z coordinate of all points after the first one. It can also be used to flatten [Draft Wires](/Draft_Wire "Draft Wire"). Note that the slope is relative to the XY plane defined by the Data**Placement** of the objects.
+The ![](/images/Draft_Slope.svg) **Draft Slope** command slopes selected [Draft Lines](/Draft_Line "Draft Line") or [Draft Wires](/Draft_Wire "Draft Wire") by increasing, or decreasing, the Z coordinate of all points after the first one. It can also be used to flatten [Draft Wires](/Draft_Wire "Draft Wire"). Note that the slope is relative to the XY plane defined by the Data**Placement** of the objects.
 
-![](/src/assets/images/Draft_Slope_example.png)
+![](/images/Draft_Slope_example.png)
 
 On the left a horizontal Draft Line. On the right the same line with a slope value of 1 (angle is 45°)
 
@@ -29,9 +29,9 @@ On the left a horizontal Draft Line. On the right the same line with a slope val
 
 1. Select one or more [Draft Lines](/Draft_Line "Draft Line") and/or [Draft Wires](/Draft_Wire "Draft Wire").
 2. There are several ways to invoke the command:
-   - [Draft](/Draft_Workbench "Draft Workbench"): Press the ![](/src/assets/images/Draft_Slope.svg) [Set slope](/Draft_Slope "Draft Slope") button.
-   - Draft: Select the **Modification → ![](/src/assets/images/Draft_Slope.svg) Set slope** option from the menu.
-   - [BIM](/BIM_Workbench "BIM Workbench"): Select the **Utils → ![](/src/assets/images/Draft_Slope.svg) Set slope** option from the menu.
+   - [Draft](/Draft_Workbench "Draft Workbench"): Press the ![](/images/Draft_Slope.svg) [Set slope](/Draft_Slope "Draft Slope") button.
+   - Draft: Select the **Modification → ![](/images/Draft_Slope.svg) Set slope** option from the menu.
+   - [BIM](/BIM_Workbench "BIM Workbench"): Select the **Utils → ![](/images/Draft_Slope.svg) Set slope** option from the menu.
 3. Enter a **Slope** value. `0` means each segment is horizontal, `0.5` means the delta height for each segment is `0.5` times its length, etc. The value can also be negative.
 4. Press Enter or the OK button to finish the command.
 

@@ -23,7 +23,7 @@ This is an unfinished experimental feature.Enable Experimental Features
 
 ## Description
 
-The ![](/src/assets/images/CAM_Slot.svg) [Slot](/CAM_Slot "CAM Slot") tool creates a simple slotting operation using various methods of input.
+The ![](/images/CAM_Slot.svg) [Slot](/CAM_Slot "CAM Slot") tool creates a simple slotting operation using various methods of input.
 
 Inputs include:
 
@@ -31,7 +31,7 @@ Inputs include:
 - selecting two vertices.
 - entering two custom points.
 
-The CAM Slot object is made to be part of a ![](/src/assets/images/CAM_Job.svg) [CAM Job](/CAM_Job "CAM Job").
+The CAM Slot object is made to be part of a ![](/images/CAM_Job.svg) [CAM Job](/CAM_Job "CAM Job").
 
 ## Usage
 
@@ -40,8 +40,8 @@ The CAM Slot object is made to be part of a ![](/src/assets/images/CAM_Job.svg) 
    - two vertices.
    - **_nothing_** to use two custom points entered in the Property View of the Data tab: Custom Point1 and Custom Point2.
 2. Invoke the Slot command using several methods:
-   - Pressing the ![](/src/assets/images/CAM_Slot.svg) [Slot](/CAM_Slot "CAM Slot") button in the toolbar.
-   - Using the CAM → ![](/src/assets/images/CAM_Slot.svg) [Slot](/CAM_Slot "CAM Slot") entry from the top menu.
+   - Pressing the ![](/images/CAM_Slot.svg) [Slot](/CAM_Slot "CAM Slot") button in the toolbar.
+   - Using the CAM → ![](/images/CAM_Slot.svg) [Slot](/CAM_Slot "CAM Slot") entry from the top menu.
 3. Adjust the desired properties. Descriptions of available properties are found below.
 
 #### Usage Notes
@@ -98,7 +98,7 @@ Depth
 - Data**Start Depth**: Starting depth of Tool - _first cut depth in Z_
 - Data**Step Down**: Incremental step down of Tool during operation
 
-![](/src/assets/images/Path-DepthsAndHeights.gif)
+![](/images/Path-DepthsAndHeights.gif)
 
 Visual reference for Depth properties (settings)
 

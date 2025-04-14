@@ -19,16 +19,16 @@ title: Sketcher BSplinePolygon
 
 ## Beschreibung
 
-Das Werkzeug ![](/src/assets/images/Sketcher_BSplinePolygon.svg) Sketcher BSplinePolygon blendet das Kontrollpolygon der [B-splines](/B-Splines/de "B-Splines/de") in allen Skizzen ein bzw. aus.
+Das Werkzeug ![](/images/Sketcher_BSplinePolygon.svg) Sketcher BSplinePolygon blendet das Kontrollpolygon der [B-splines](/B-Splines/de "B-Splines/de") in allen Skizzen ein bzw. aus.
 
-![](/src/assets/images/Sketcher_B-spline_example01.png)
+![](/images/Sketcher_B-spline_example01.png)
 
 Das Kontrollpolygon besteht (grüne gerade Linien) verbindet die Kontrollpunkte (mit dunkelgelben Gewichtskreisen gekennzeichnet).
 
 ## Anwendung
 
 1. Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
-   - Die Schaltfläche ![](/src/assets/images/Sketcher_BSplinePolygon.svg) B-Spline-Kontrollpolygon ein- / ausblenden drücken.
-   - Den Menüeintrag **Skizze → Sketcher visuell → B-Spline Informationsebene ein- / ausblenden → ![](/src/assets/images/Sketcher_BSplinePolygon.svg) B-Spline-Kontrollpolygon ein- / ausblenden** auswählen.
+   - Die Schaltfläche ![](/images/Sketcher_BSplinePolygon.svg) B-Spline-Kontrollpolygon ein- / ausblenden drücken.
+   - Den Menüeintrag **Skizze → Sketcher visuell → B-Spline Informationsebene ein- / ausblenden → ![](/images/Sketcher_BSplinePolygon.svg) B-Spline-Kontrollpolygon ein- / ausblenden** auswählen.
 
 Retrieved from "<http://wiki.freecad.org/index.php?title=Sketcher_BSplinePolygon/de&oldid=1417038>"

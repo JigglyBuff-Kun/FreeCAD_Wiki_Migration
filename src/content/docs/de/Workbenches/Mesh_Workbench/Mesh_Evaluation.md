@@ -21,7 +21,7 @@ title: Netz Auswertung
 
 Der Befehl **Mesh Auswertung** wertet ein Netzobjekte aus und repariert es.
 
-![](/src/assets/images/Mesh_Evaluation_dialog.png)
+![](/images/Mesh_Evaluation_dialog.png)
 
 Das Dialogfenster Netz auswerten & reparieren mit aktivierter Option Folds on surface
 
@@ -29,8 +29,8 @@ Das Dialogfenster Netz auswerten & reparieren mit aktivierter Option Folds on su
 
 1. Optionally select a single mesh object.
 2. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/Mesh_Evaluation.svg) [Evaluate and repair mesh...](/Mesh_Evaluation "Mesh Evaluation") button.
-   - Select the **Meshes → Analyze → ![](/src/assets/images/Mesh_Evaluation.svg) Evaluate and repair mesh...** option from the menu.
+   - Press the ![](/images/Mesh_Evaluation.svg) [Evaluate and repair mesh...](/Mesh_Evaluation "Mesh Evaluation") button.
+   - Select the **Meshes → Analyze → ![](/images/Mesh_Evaluation.svg) Evaluate and repair mesh...** option from the menu.
 3. The **Evaluate & Repair Mesh** dialog box opens.
 4. Optionally press the Settings... button to change the following settings:
    - **Check for non-manifold points**

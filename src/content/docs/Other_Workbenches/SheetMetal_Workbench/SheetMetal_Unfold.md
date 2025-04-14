@@ -23,15 +23,15 @@ This documentation is not finished. Please help and contribute documentation.Gui
 
 ## Description
 
-The ![](/src/assets/images/SheetMetal_Unfold.svg) **SheetMetal Unfold** command unfolds a sheet metal object.
+The ![](/images/SheetMetal_Unfold.svg) **SheetMetal Unfold** command unfolds a sheet metal object.
 
 ## Usage
 
 1. Select a planar face of the sheet metal part.
 2. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/SheetMetal_Unfold.svg) [Unfold](/SheetMetal_Unfold "SheetMetal Unfold") button.
-   - Select the **Sheet Metal → ![](/src/assets/images/SheetMetal_Unfold.svg) [Unfold](/SheetMetal_Unfold "SheetMetal Unfold")** option from the menu.
-   - Right-click in the [Tree view](/Tree_view "Tree view") or the [3D view](/3D_view "3D view") and select the **Sheet Metal → ![](/src/assets/images/SheetMetal_Unfold.svg) [Unfold](/SheetMetal_Unfold "SheetMetal Unfold")** option from the context menu.
+   - Press the ![](/images/SheetMetal_Unfold.svg) [Unfold](/SheetMetal_Unfold "SheetMetal Unfold") button.
+   - Select the **Sheet Metal → ![](/images/SheetMetal_Unfold.svg) [Unfold](/SheetMetal_Unfold "SheetMetal Unfold")** option from the menu.
+   - Right-click in the [Tree view](/Tree_view "Tree view") or the [3D view](/3D_view "3D view") and select the **Sheet Metal → ![](/images/SheetMetal_Unfold.svg) [Unfold](/SheetMetal_Unfold "SheetMetal Unfold")** option from the context menu.
    - Use the keyboard shortcut: U.
 3. An **Unfold** object is created and the **Unfold properties** [Task panel](/Task_panel "Task panel") opens.
    - Optionally press the Face button and select a different planar face to re-position the Unfold object.
@@ -61,7 +61,7 @@ A [Task panel](/Task_panel "Task panel") was introduced in version 0.6.10
 
 Double-click an existing Unfold object in the [Tree view](/Tree_view "Tree view") to re-open the task panel and edit the parameters.
 
-![](/src/assets/images/SheetMetal_Unfold-Task.png)
+![](/images/SheetMetal_Unfold-Task.png)
 
 - **Material Definition Sheet**: Toggles the **Material Sheet** property.
 - **Manual K-Factor**: Sets the **KFactor** property.

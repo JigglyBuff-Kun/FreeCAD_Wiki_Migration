@@ -23,7 +23,7 @@ title: Roboter 6-Achsen
 
 ## Übersicht
 
-In diesem Artikel geht es darum, einen normalen 6-Achsen-Industrieroboter in FreeCAD für die Simulation im Arbeitsbereich ![](/src/assets/images/Workbench_Robot.svg) [Robot](/Robot_Workbench/de "Robot Workbench/de") zu laden.
+In diesem Artikel geht es darum, einen normalen 6-Achsen-Industrieroboter in FreeCAD für die Simulation im Arbeitsbereich ![](/images/Workbench_Robot.svg) [Robot](/Robot_Workbench/de "Robot Workbench/de") zu laden.
 
 Die Beschreibung folgt dem [Denavit-Hartenberg Parameter](http://en.wikipedia.org/wiki/Denavit-Hartenberg_Parameters) System, wie es auch in John J. Craigs Buch "Introduction to Robotics" beschrieben ist.
 
@@ -78,7 +78,7 @@ Achse 2 & 3 um 90° ändern.
 
 Im Datenblatt finden wir zusätzliche Informationen über die Achse:
 
-![](/src/assets/images/KukaAxisData.jpg)
+![](/images/KukaAxisData.jpg)
 
 Das führt zu dieser vollständigen Tabelle:
 
@@ -195,7 +195,7 @@ App.activeDocument().Robot.RobotVrmlFile = "C:/_Projekte/FreeCAD0.9_build/mod/Ro
 ```
 
 was dir dieses Ergebnis liefern sollte:
-![](/src/assets/images/KukaKR16FreeCAD.jpg)
+![](/images/KukaKR16FreeCAD.jpg)
 
 ### KR 210
 

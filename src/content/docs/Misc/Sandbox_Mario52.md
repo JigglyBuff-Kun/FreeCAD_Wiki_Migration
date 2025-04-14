@@ -41,14 +41,14 @@ Qt version: 5.12.5
 Coin version: 4.0.0
 OCC version: 7.4.0
 
-FALSE ![](/src/assets/images/SpinBox.svg) totoche
+FALSE ![](/images/SpinBox.svg) totoche
 
-TRUE ![](/src/assets/images/SpinBox.svg)totoche
+TRUE ![](/images/SpinBox.svg)totoche
 
-runCommand ![](/src/assets/images/SpinBox.svg)totoche
+runCommand ![](/images/SpinBox.svg)totoche
 
-![](/src/assets/images/SpinBox.svg)totoche
+![](/images/SpinBox.svg)totoche
 
-![](/src/assets/images/SpinBox.svg)totoche
+![](/images/SpinBox.svg)totoche
 
 Retrieved from "<http://wiki.freecad.org/index.php?title=Sandbox:Mario52&oldid=835941>"

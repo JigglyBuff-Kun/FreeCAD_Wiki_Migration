@@ -35,25 +35,25 @@ The Fluid Properties button and Fluid Properties menu item behave differently fo
 
 There are several ways to open the Fluid Properties dialogue panel that was created in the [Analysis Container](/CfdOF_Analysis "CfdOF Analysis") :
 
-: _ Press the ![](/src/assets/images/CfdOF_Fluid_Properties.svg) Fluid Properties button.
-_ Select the **CfdOF → ![](/src/assets/images/CfdOF_Fluid_Properties.svg) Add Fluid_Properties‏‎** option from the menu. \* Click on the ![](/src/assets/images/CfdOF_Fluid_Properties.svg) **Fluid Properties** in the tree.
+: _ Press the ![](/images/CfdOF_Fluid_Properties.svg) Fluid Properties button.
+_ Select the **CfdOF → ![](/images/CfdOF_Fluid_Properties.svg) Add Fluid_Properties‏‎** option from the menu. \* Click on the ![](/images/CfdOF_Fluid_Properties.svg) **Fluid Properties** in the tree.
 
 ### Multiphase
 
 There are several ways to add additional Fluid Properties to the [Analysis Container](/CfdOF_Analysis "CfdOF Analysis"):
 
-: _ Press the ![](/src/assets/images/CfdOF_Fluid_Properties.svg) Fluid Properties button.
-_ Select the **CfdOF → ![](/src/assets/images/CfdOF_Fluid_Properties.svg) Add Fluid_Properties‏‎** option from the menu.
+: _ Press the ![](/images/CfdOF_Fluid_Properties.svg) Fluid Properties button.
+_ Select the **CfdOF → ![](/images/CfdOF_Fluid_Properties.svg) Add Fluid_Properties‏‎** option from the menu.
 
 To open the Fluid Properties dialogue panel for the fluid you wish to edit:
 
-: \* Click on the ![](/src/assets/images/CfdOF_Fluid_Properties.svg) **[Material name]** in the tree.
+: \* Click on the ![](/images/CfdOF_Fluid_Properties.svg) **[Material name]** in the tree.
 
 ## Options
 
 The options selected in the [Physics Model](/CfdOF_Physics_Model "CfdOF Physics Model") dictate the inputs required in the Fluid Properties dialogue panel. The image below shows the Fluid Properties dialogue panel for an non-isothermal simulation.
 
-![CfdOF Fluid Properties Dialog Panel](/src/assets/images/CfdOF_DialogFluidProperties.png)
+![CfdOF Fluid Properties Dialog Panel](/images/CfdOF_DialogFluidProperties.png)
 
 CfdOF Properties Dialog Panel
 

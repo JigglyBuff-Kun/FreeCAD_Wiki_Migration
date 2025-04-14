@@ -34,13 +34,13 @@ Macro for automatic drawing generation with 3 normal projections and one isometr
 
 Open the model and run the macro program (check input parameters inside macro for adjustments).
 
-![](/src/assets/images/PRDC_GenerateDrawing_FC.png)
+![](/images/PRDC_GenerateDrawing_FC.png)
 
 ## Script
 
 ToolBar Icon
 
-![](/src/assets/images/GenerateDrawing.svg)
+![](/images/GenerateDrawing.svg)
 
 **GenerateDrawing.FCMacro**
 

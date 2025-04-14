@@ -19,13 +19,13 @@ title: Part Thickness
 
 ## Description
 
-The ![](/src/assets/images/Part_Thickness.svg) [Thickness](/Part_Thickness "Part Thickness") tool works on a solid shape and transforms it into a hollow object, giving to each of its faces a defined and constant thickness. On some solids it allows you to significantly speed up the work, and avoids making extrusions and pockets.
+The ![](/images/Part_Thickness.svg) [Thickness](/Part_Thickness "Part Thickness") tool works on a solid shape and transforms it into a hollow object, giving to each of its faces a defined and constant thickness. On some solids it allows you to significantly speed up the work, and avoids making extrusions and pockets.
 
 ## Usage
 
 1. Create a solid
 2. Select one or more faces
-3. Click on the ![](/src/assets/images/Part_Thickness.svg) **Part Thickness** tool
+3. Click on the ![](/images/Part_Thickness.svg) **Part Thickness** tool
 4. Set the parameters (see [Options](#Options))
 5. Click OK to confirm, create the operation and exit the function
 6. In the Properties table adjust the parameters if necessary
@@ -61,23 +61,23 @@ A good example on how to use this tool on the forum: [Re: Help designing a simpl
 
 **Hollow cylinder**
 
-1. Create ![](/src/assets/images/Part_Cylinder.svg) [Cylinder](/Part_Cylinder "Part Cylinder") with radius 10mm and height 20mm
+1. Create ![](/images/Part_Cylinder.svg) [Cylinder](/Part_Cylinder "Part Cylinder") with radius 10mm and height 20mm
 2. Select the top and bottom surface of the cylinder
-3. Click on the ![](/src/assets/images/Part_Thickness.svg) Thickness button (no need to change default settings) and press OK
+3. Click on the ![](/images/Part_Thickness.svg) Thickness button (no need to change default settings) and press OK
 
 Notes:
 
-- For this shape, consider using ![](/src/assets/images/Part_Tube.svg) [Tube](/Part_Tube "Part Tube") instead.
+- For this shape, consider using ![](/images/Part_Tube.svg) [Tube](/Part_Tube "Part Tube") instead.
 - Select the cylinder's top surface only to create a receptacle.
 
-![](/src/assets/images/ThicknessEsempio1.png)
+![](/images/ThicknessEsempio1.png)
 
-![](/src/assets/images/ThicknessEsempio2.png)
+![](/images/ThicknessEsempio2.png)
 
 **Box-Enclosure**
 
-![](/src/assets/images/ThicknessEsempio3.png)
+![](/images/ThicknessEsempio3.png)
 
-![](/src/assets/images/ThicknessEsempio4.png)
+![](/images/ThicknessEsempio4.png)
 
 Retrieved from "<http://wiki.freecad.org/index.php?title=Part_Thickness/en&oldid=1336233>"

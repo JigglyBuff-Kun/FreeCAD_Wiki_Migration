@@ -19,12 +19,12 @@ title: CAM DressupDogbone
 
 ## Description
 
-The tool ![](/src/assets/images/CAM_DressupDogbone.svg) [DressupDogbone](/CAM_DressupDogbone "CAM DressupDogbone") dresses up an existing path to overcut corners on inside angles of a profile or contour operation. A cylindrical cutter cannot cut all the way into an acute corner without colliding with the model. In certain cases, it may be preferable to violate the model and ensure that the material at the corner is removed. This is especially necessary if parts are going to intersect/interlock with each other.
+The tool ![](/images/CAM_DressupDogbone.svg) [DressupDogbone](/CAM_DressupDogbone "CAM DressupDogbone") dresses up an existing path to overcut corners on inside angles of a profile or contour operation. A cylindrical cutter cannot cut all the way into an acute corner without colliding with the model. In certain cases, it may be preferable to violate the model and ensure that the material at the corner is removed. This is especially necessary if parts are going to intersect/interlock with each other.
 
 ## Usage
 
 1. Select a contour or profile path [CAM](/CAM_Workbench "CAM Workbench") objects.
-2. Select the **CAM → Path Dressup → ![](/src/assets/images/CAM_DressupDogbone.svg) Dogbone** option from the menu.
+2. Select the **CAM → Path Dressup → ![](/images/CAM_DressupDogbone.svg) Dogbone** option from the menu.
 
 ## Options
 

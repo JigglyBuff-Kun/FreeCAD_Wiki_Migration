@@ -8,7 +8,7 @@ In this page we will show how to build a simple graphical interface with [Qt Des
 
 In this example, the entire interface is defined in [Python](/Python "Python"). Although this is possible for small interfaces, for larger interfaces the recommendation is to load the created .ui files directly into the program.
 
-![](/src/assets/images/FreeCAD_creating_interfaces.svg)
+![](/images/FreeCAD_creating_interfaces.svg)
 
 Two general methods to create interfaces, by including the interface in the Python file, or by using `.ui` files.
 
@@ -24,11 +24,11 @@ There are a couple of concepts to know when designing interface:
 
 So, now that we have well defined what we will do, it's time to open the qt designer. Let's design a very simple dialog, like this:
 
-![](/src/assets/images/Qttestdialog.jpg)
+![](/images/Qttestdialog.jpg)
 
 We will then use this dialog in FreeCAD to produce a nice rectangular plane. You might find it not very useful to produce nice rectangular planes, but it will be easy to change it later to do more complex things. When you open it, Qt Designer looks like this:
 
-![](/src/assets/images/Qtdesigner-screenshot.jpg)
+![](/images/Qtdesigner-screenshot.jpg)
 
 ## Creating the dialog
 
@@ -46,7 +46,7 @@ Qt Designer is very simple to use. On the left bar you have elements that can be
 
 That's about all we need to do in Qt Designer. One last thing, though, let's rename all our elements with simpler names, so it will be easier to identify them in our scripts:
 
-![](/src/assets/images/Qtpropeditor.jpg)
+![](/images/Qtpropeditor.jpg)
 
 ## Converting our dialog to python
 

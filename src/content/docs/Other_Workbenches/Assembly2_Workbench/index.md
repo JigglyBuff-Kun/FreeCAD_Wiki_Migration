@@ -15,7 +15,7 @@ For other options see [Assembly3](/Assembly3_Workbench "Assembly3 Workbench") or
 
 As stated by its author [on the forum](https://forum.freecadweb.org/viewtopic.php?f=17&t=16591), it is no longer maintained since 2016, therefore it may have issues with FreeCAD 0.17 and above. The newer and actively maintained [A2plus Workbench](/A2plus_Workbench "A2plus Workbench") is a good alternative.
 
-![](/src/assets/images/Assembly2_example.jpg)
+![](/images/Assembly2_example.jpg)
 
 ## Usage
 
@@ -49,33 +49,33 @@ Limitations
 
 Toolbar
 
-![](/src/assets/images/Assembly2-menu-orizz.png)
+![](/images/Assembly2-menu-orizz.png)
 
 Drop down menu
 
-![](/src/assets/images/Assembly2-menu-vert.png)
+![](/images/Assembly2-menu-vert.png)
 
-- ![](/src/assets/images/Assembly2_ImportPart.png) Import a part from another FreeCAD document
-- ![](/src/assets/images/Assembly2_UpdatePart.png) Update parts imported into the assembly
-- ![](/src/assets/images/Assembly2_Move.png) Move
-- ![](/src/assets/images/Assembly2_CircularEdgeConstraint.png) Add circular edge constraint
-- ![](/src/assets/images/Assembly2_PlaneConstraint.png) Add plane constraint
-- ![](/src/assets/images/Assembly2_AxialConstraint.png) Add axial constraint
-- ![](/src/assets/images/Assembly2_AngularConstraint.png) Create an angular constraint between two planes
-- ![](/src/assets/images/Assembly2_SphericalSurfaceConstraint.png) Add Spherical surface constraint
-- ![](/src/assets/images/Assembly2_DOFAnimation.png) Animate degrees of freedom
-- ![](/src/assets/images/Assembly2_Assembly2Constraint.png) Solve Assembly2 constraint
-- ![](/src/assets/images/Assembly2_Mux.png) Combine assembly into a single object (use to create a drawing of the assembly, and so on...)
-- ![](/src/assets/images/Assembly2_ListParts.png) Create a parts list from the objects imported using the assembly2 workbench
-- ![](/src/assets/images/Assembly2_Ceck.png) Ceck assembly for part overlap/interferance
+- ![](/images/Assembly2_ImportPart.png) Import a part from another FreeCAD document
+- ![](/images/Assembly2_UpdatePart.png) Update parts imported into the assembly
+- ![](/images/Assembly2_Move.png) Move
+- ![](/images/Assembly2_CircularEdgeConstraint.png) Add circular edge constraint
+- ![](/images/Assembly2_PlaneConstraint.png) Add plane constraint
+- ![](/images/Assembly2_AxialConstraint.png) Add axial constraint
+- ![](/images/Assembly2_AngularConstraint.png) Create an angular constraint between two planes
+- ![](/images/Assembly2_SphericalSurfaceConstraint.png) Add Spherical surface constraint
+- ![](/images/Assembly2_DOFAnimation.png) Animate degrees of freedom
+- ![](/images/Assembly2_Assembly2Constraint.png) Solve Assembly2 constraint
+- ![](/images/Assembly2_Mux.png) Combine assembly into a single object (use to create a drawing of the assembly, and so on...)
+- ![](/images/Assembly2_ListParts.png) Create a parts list from the objects imported using the assembly2 workbench
+- ![](/images/Assembly2_Ceck.png) Ceck assembly for part overlap/interferance
 
 Other
 
-- ![](/src/assets/images/Assembly2_BoltMultipleCircularEdges.png) Bolt multiple circular edges
-- ![](/src/assets/images/Assembly2_FlipConstraint.png) Flip constraint
-- ![](/src/assets/images/Assembly2_LockRotation.png) Lock rotation
-- ![](/src/assets/images/Assembly2_Preferences.png) Preferences
-- ![](/src/assets/images/Assembly2_Assembly2.png) Assembly2 WB icon
+- ![](/images/Assembly2_BoltMultipleCircularEdges.png) Bolt multiple circular edges
+- ![](/images/Assembly2_FlipConstraint.png) Flip constraint
+- ![](/images/Assembly2_LockRotation.png) Lock rotation
+- ![](/images/Assembly2_Preferences.png) Preferences
+- ![](/images/Assembly2_Assembly2.png) Assembly2 WB icon
 
 ## Installation
 

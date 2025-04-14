@@ -30,8 +30,8 @@ See [TechDraw LengthDimension](/TechDraw_LengthDimension#Limitation "TechDraw Le
 1. Select two point objects in the [3D view](/3D_view "3D view") or [Tree view](/Tree_view "Tree view").
 2. Add the correct TechDraw View to the selection by selecting it in the [Tree view](/Tree_view "Tree view").
 3. There are several ways to invoke the tool:
-   - Press the ![](/src/assets/images/TechDraw_LandmarkDimension.svg) [Insert Landmark Dimension - EXPERIMENTAL](/TechDraw_LandmarkDimension "TechDraw LandmarkDimension") button.
-   - Select the **TechDraw → Dimensions → ![](/src/assets/images/TechDraw_LandmarkDimension.svg) Insert Landmark Dimension - EXPERIMENTAL** option from the menu.
+   - Press the ![](/images/TechDraw_LandmarkDimension.svg) [Insert Landmark Dimension - EXPERIMENTAL](/TechDraw_LandmarkDimension "TechDraw LandmarkDimension") button.
+   - Select the **TechDraw → Dimensions → ![](/images/TechDraw_LandmarkDimension.svg) Insert Landmark Dimension - EXPERIMENTAL** option from the menu.
 4. A dimension is added to the View.
 5. The dimension may be dragged to the desired position.
 6. If needed, add tolerances as described on [this page](/TechDraw_Geometric_dimensioning_and_tolerancing#Tolerances "TechDraw Geometric dimensioning and tolerancing").

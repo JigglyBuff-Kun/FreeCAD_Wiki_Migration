@@ -19,14 +19,14 @@ title: Part MakeSolid
 
 ## Description
 
-The ![](/src/assets/images/Part_MakeSolid.svg) **Part MakeSolid** command creates solids from shape objects.
+The ![](/images/Part_MakeSolid.svg) **Part MakeSolid** command creates solids from shape objects.
 
 This command is typically used as one of the steps to create a solid from a mesh. See [Part ShapeFromMesh](/Part_ShapeFromMesh#Usage "Part ShapeFromMesh") for more information.
 
 ## Usage
 
 1. Select one or more shape objects.
-2. Select the **Part → ![](/src/assets/images/Part_MakeSolid.svg) Convert to solid** option from the menu.
+2. Select the **Part → ![](/images/Part_MakeSolid.svg) Convert to solid** option from the menu.
 3. For each selected object a solid is created as a separate new object.
 
 ## Notes

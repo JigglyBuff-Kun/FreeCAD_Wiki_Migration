@@ -43,6 +43,6 @@ This can be used to define the fixed set in a static assembly as well as in a ki
 
 1. Place an object into an assembly.
 2. Select one element of the object.
-3. Press the ![](/src/assets/images/Assembly_ConstraintLock.svg) [Locked](/Assembly3_ConstraintLock "Assembly3 ConstraintLock") button.
+3. Press the ![](/images/Assembly_ConstraintLock.svg) [Locked](/Assembly3_ConstraintLock "Assembly3 ConstraintLock") button.
 
 Retrieved from "<http://wiki.freecad.org/index.php?title=Assembly3_ConstraintLock/en&oldid=887284>"

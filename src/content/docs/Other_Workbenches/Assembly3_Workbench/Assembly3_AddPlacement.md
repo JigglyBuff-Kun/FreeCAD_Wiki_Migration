@@ -23,11 +23,11 @@ This documentation is not finished. Please help and contribute documentation.Gui
 
 ## Description
 
-The ![](/src/assets/images/Assembly_Add_Placement.svg) [Add placement](/Assembly3_AddPlacement "Assembly3 AddPlacement") command adds a Placement to an active assembly.
+The ![](/images/Assembly_Add_Placement.svg) [Add placement](/Assembly3_AddPlacement "Assembly3 AddPlacement") command adds a Placement to an active assembly.
 
 A Placement object will be created inside the Parts container of the assembly tree and a related placement item will be placed in the 3D view. It is placed at the assembly's origin and inherits the orientation of the assembly's local coordinate system, if the Assembly object was selected directly.
 
-![](/src/assets/images/Assembly3_AddPlacement-01.png) ![](/src/assets/images/Assembly3_AddPlacement-02.png)
+![](/images/Assembly3_AddPlacement-01.png) ![](/images/Assembly3_AddPlacement-02.png)
 
 Left: Tree view. Right: A placement near the assembly origin (shown as file origin here)
 
@@ -37,8 +37,8 @@ Valid items are e.g. elements, bodies, vertexes, edges, faces, origins, workplan
 
 ## Usage
 
-1. Activate the ![](/src/assets/images/Assembly_Add_Placement.svg) **Add placement** command using one of the following:
-   - The ![](/src/assets/images/Assembly_Add_Placement.svg) [Add placement](/Assembly3_AddPlacement "Assembly3 AddPlacement") button.
-   - The **Assembly3 → Workplane and origin → ![](/src/assets/images/Assembly_Add_Placement.svg) Add placement** menu option.
+1. Activate the ![](/images/Assembly_Add_Placement.svg) **Add placement** command using one of the following:
+   - The ![](/images/Assembly_Add_Placement.svg) [Add placement](/Assembly3_AddPlacement "Assembly3 AddPlacement") button.
+   - The **Assembly3 → Workplane and origin → ![](/images/Assembly_Add_Placement.svg) Add placement** menu option.
 
 Retrieved from "<http://wiki.freecad.org/index.php?title=Assembly3_AddPlacement/en&oldid=1097335>"

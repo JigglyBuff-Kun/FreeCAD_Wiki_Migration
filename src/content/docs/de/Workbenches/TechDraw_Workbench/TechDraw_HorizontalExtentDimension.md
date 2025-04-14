@@ -21,7 +21,7 @@ title: TechDraw MaßHorizontaleAusdehnung
 
 Das Werkzeug **TechDraw MaßHorizontaleAusdehnung** fügt einer Ansicht ein lineares Maß hinzu. Das Maß erstreckt sich vom äußersten linken Punkt der ausgewählten Objekte bis zum äußersten rechten Punkt.
 
-![](/src/assets/images/TechDraw_Dimension_Horizontal_Extent_example.png)
+![](/images/TechDraw_Dimension_Horizontal_Extent_example.png)
 
 Maße für die horizontale und die vertikale Ausdehnung eines B-Splines
 
@@ -29,9 +29,9 @@ Maße für die horizontale und die vertikale Ausdehnung eines B-Splines
 
 1. Eine Ansicht oder mehrere Kanten in einer Ansicht auswählen.
 2. Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
-   - [eingeführt in 1.0](/Release_notes_1.0/de "Release notes 1.0/de"): Ist die [Einstellung](/TechDraw_Preferences/de#Maßeinträge "TechDraw Preferences/de") **Maß-Werkzeuge** auf `Einzelnes Werkzeug` (Standardeinstellung) gesetzt: Den Nach-unten-Pfeil rechts neben der Schaltfläche ![](/src/assets/images/TechDraw_Dimension.svg) ![](/src/assets/images/Toolbar_flyout_arrow.svg) drücken und die Menüoption **![](/src/assets/images/TechDraw_HorizontalExtentDimension.svg) Horizontale Ausdehnung** in der Ausklappliste auswählen.
-   - Hat die Einstellung einen anderen Wert (und in 0.21 und davor): Die Schaltfläche ![](/src/assets/images/TechDraw_HorizontalExtentDimension.svg) Horizontale Ausdehnung drücken.
-   - Den Menüeintrag **TechDraw → Page → ![](/src/assets/images/TechDraw_HorizontalExtentDimension.svg) Horizontale Ausdehnung** auswählen.
+   - [eingeführt in 1.0](/Release_notes_1.0/de "Release notes 1.0/de"): Ist die [Einstellung](/TechDraw_Preferences/de#Maßeinträge "TechDraw Preferences/de") **Maß-Werkzeuge** auf `Einzelnes Werkzeug` (Standardeinstellung) gesetzt: Den Nach-unten-Pfeil rechts neben der Schaltfläche ![](/images/TechDraw_Dimension.svg) ![](/images/Toolbar_flyout_arrow.svg) drücken und die Menüoption **![](/images/TechDraw_HorizontalExtentDimension.svg) Horizontale Ausdehnung** in der Ausklappliste auswählen.
+   - Hat die Einstellung einen anderen Wert (und in 0.21 und davor): Die Schaltfläche ![](/images/TechDraw_HorizontalExtentDimension.svg) Horizontale Ausdehnung drücken.
+   - Den Menüeintrag **TechDraw → Page → ![](/images/TechDraw_HorizontalExtentDimension.svg) Horizontale Ausdehnung** auswählen.
 3. Ein Maß wird zur Ansicht hinzugefügt.
 4. Das Maß kann an die gewünschte Position gezogen werden.
 5. Falls erforderlich, können Toleranzen, wie auf der [GD&T-Seite](/TechDraw_Geometric_dimensioning_and_tolerancing/de#Toleranzen "TechDraw Geometric dimensioning and tolerancing/de") beschrieben, hinzugefügt werden.

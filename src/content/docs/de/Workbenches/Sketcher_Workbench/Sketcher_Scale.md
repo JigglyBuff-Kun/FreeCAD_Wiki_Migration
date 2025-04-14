@@ -19,7 +19,7 @@ title: Sketcher Scale/de
 
 ## Beschreibung
 
-The ![](/src/assets/images/Sketcher_Scale.svg) [Sketcher Scale](/Sketcher_Scale "Sketcher Scale") tool scales or optionally creates scaled copies of selected elements.
+The ![](/images/Sketcher_Scale.svg) [Sketcher Scale](/Sketcher_Scale "Sketcher Scale") tool scales or optionally creates scaled copies of selected elements.
 
 ## Anwendung
 
@@ -30,9 +30,9 @@ Dim-OVP = Dimensional On-View-Parameters (In-Ansicht-Parameter zur maßlichen Fe
 
 1. Select one or more edges and/or [Point objects](/Sketcher_CreatePoint "Sketcher CreatePoint"). Constraints restricted to the selected elements are also processed. If the original elements are scaled, any other constraints associated with them will be deleted.
 2. There are several ways to invoke the tool:
-   - Press the ![](/src/assets/images/Sketcher_Scale.svg) [Scale transform](/Sketcher_Scale "Sketcher Scale") button.
-   - Select the **Sketch → Sketcher tools → ![](/src/assets/images/Sketcher_Scale.svg) Scale transform** option from the menu.
-   - Right-click in the [3D view](/3D_view "3D view") and select the **![](/src/assets/images/Sketcher_Scale.svg) Scale transform** option from the context menu.
+   - Press the ![](/images/Sketcher_Scale.svg) [Scale transform](/Sketcher_Scale "Sketcher Scale") button.
+   - Select the **Sketch → Sketcher tools → ![](/images/Sketcher_Scale.svg) Scale transform** option from the menu.
+   - Right-click in the [3D view](/3D_view "3D view") and select the **![](/images/Sketcher_Scale.svg) Scale transform** option from the context menu.
    - Use the keyboard shortcut: Z then P, then S.
 3. The cursor changes to a cross with the tool icon.
 4. The **Scale parameters** section is added at the top of the [Sketcher Dialog](/Sketcher_Dialog "Sketcher Dialog").

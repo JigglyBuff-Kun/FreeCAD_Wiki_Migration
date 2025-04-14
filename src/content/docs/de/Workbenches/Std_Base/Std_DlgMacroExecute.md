@@ -21,15 +21,15 @@ title: Std DialogMakroAusführen
 
 Der Befehl **Std DlgMakroAusführen** öffnet das Dialogfenster Makro ausführen. Von diesem Dialogfenster aus können Makros ausgeführt, bearbeitet und verwaltet werden.
 
-![](/src/assets/images/Std_DlgMacroExecute_dialog.png)
+![](/images/Std_DlgMacroExecute_dialog.png)
 
 Das Dialogfenster Makro ausführen
 
 ## Anwendung
 
 1. Es gibt mehrere Möglichkeiten den Befehl aufzurufen:
-   - Die Schaltfläche ![](/src/assets/images/Std_DlgMacroExecute.svg) Makros... drücken.
-   - Den Menüeintrag **Makro → ![](/src/assets/images/Std_DlgMacroExecute.svg) Makros...** auswählen.
+   - Die Schaltfläche ![](/images/Std_DlgMacroExecute.svg) Makros... drücken.
+   - Den Menüeintrag **Makro → ![](/images/Std_DlgMacroExecute.svg) Makros...** auswählen.
 2. Das Dialogfenster **Makro ausführen wird** geöffnet. Siehe [Optionen](#Optionen).
 
 ## Optionen

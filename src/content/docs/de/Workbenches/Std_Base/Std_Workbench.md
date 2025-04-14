@@ -21,11 +21,11 @@ title: Std Arbeitsbereich
 
 Der Befehl **Std Arbeitsbereich** aktiviert einen ausgewählten [Arbeitsbereich](/Workbenches/de "Workbenches/de").
 
-![](/src/assets/images/Std_Workbench_ComboBox_Icons_And_Text.png)
+![](/images/Std_Workbench_ComboBox_Icons_And_Text.png)
 
 Die voreingestellte Arbeitsbereichsauswahl als ComboBox
 
-![](/src/assets/images/Std_Workbench_TabBar_Icons_Only.png)
+![](/images/Std_Workbench_TabBar_Icons_Only.png)
 
 Die optionale Arbeitsbereichsauswahl als Tab-Leiste (hier die Darstellung nur mit Symbolen) [eingeführt in 1.0](/Release_notes_1.0/de "Release notes 1.0/de")
 
@@ -33,18 +33,18 @@ Die optionale Arbeitsbereichsauswahl als Tab-Leiste (hier die Darstellung nur mi
 
 1. Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
    - Einen Arbeitsbereich in der Combo-Ansicht oder in der Tab-Leiste ([introduced in 1.0](/Release_notes_1.0 "Release notes 1.0")) der Symbolleiste Arbeitsbereich auswählen.
-   - Die Schaltfläche ![](/src/assets/images/List-add.svg)![](/src/assets/images/Toolbar_flyout_arrow.svg) in der Tab-Leiste drücken, um einen Arbeitsbereich, der in den [Voreinstellungen](/Preferences_Editor/de#Vorhandene_Arbeitsbereiche "Preferences Editor/de") deaktiviert wurde, in dem Menü auszuwählen, das geöffnet wird.
+   - Die Schaltfläche ![](/images/List-add.svg)![](/images/Toolbar_flyout_arrow.svg) in der Tab-Leiste drücken, um einen Arbeitsbereich, der in den [Voreinstellungen](/Preferences_Editor/de#Vorhandene_Arbeitsbereiche "Preferences Editor/de") deaktiviert wurde, in dem Menü auszuwählen, das geöffnet wird.
    - Einen Arbeitsbereich im Untermenü **Ansicht → Arbeitsbereich** auswählen.
 
 ## Hinweise
 
-- Zusätzliche [Externe Arbeitsbereiche](/External_workbenches/de "External workbenches/de") können mit dem ![](/src/assets/images/Std_AddonMgr.svg) [Addon-Manager](/Std_AddonMgr/de "Std AddonMgr/de") heruntergeladen werden.
+- Zusätzliche [Externe Arbeitsbereiche](/External_workbenches/de "External workbenches/de") können mit dem ![](/images/Std_AddonMgr.svg) [Addon-Manager](/Std_AddonMgr/de "Std AddonMgr/de") heruntergeladen werden.
 
 ## Einstellungen
 
 Siehe auch: [Voreinstellungseditor](/Preferences_Editor/de "Preferences Editor/de").
 
-- Es gibt eine [Seite mit zugehörigen Einstellungen](/Preferences_Editor/de#Vorhandene_Arbeitsbereiche "Preferences Editor/de"): **Bearbeiten → Einstellungen... → Arbeitsbereiche → Vorhandene Arbeitsbereiche**. Der **Startarbeitsbereich**, die **Arbeitsbereichsauswahl** und weitere können angepasst werden. Mit der Schaltfläche ![](/src/assets/images/List-add.svg)![](/src/assets/images/Toolbar_flyout_arrow.svg) in der Tab-Leiste kann man über ihr Menü auf diese Seite zugreifen.
+- Es gibt eine [Seite mit zugehörigen Einstellungen](/Preferences_Editor/de#Vorhandene_Arbeitsbereiche "Preferences Editor/de"): **Bearbeiten → Einstellungen... → Arbeitsbereiche → Vorhandene Arbeitsbereiche**. Der **Startarbeitsbereich**, die **Arbeitsbereichsauswahl** und weitere können angepasst werden. Mit der Schaltfläche ![](/images/List-add.svg)![](/images/Toolbar_flyout_arrow.svg) in der Tab-Leiste kann man über ihr Menü auf diese Seite zugreifen.
 
 ## Skripten
 

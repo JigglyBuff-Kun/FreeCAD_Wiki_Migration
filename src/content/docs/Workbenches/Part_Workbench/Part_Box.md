@@ -19,15 +19,15 @@ title: Part Box
 
 ## Description
 
-The ![](/src/assets/images/Part_Box.svg) **Part Box** command creates a parametric box solid, a [rectangular cuboid](https://en.wikipedia.org/wiki/Cuboid#Rectangular_cuboid). In the coordinate system defined by its Data**Placement** property, the bottom face of the box lies on the XY plane with its front left corner at the origin, and its front edge parallel to the X axis.
+The ![](/images/Part_Box.svg) **Part Box** command creates a parametric box solid, a [rectangular cuboid](https://en.wikipedia.org/wiki/Cuboid#Rectangular_cuboid). In the coordinate system defined by its Data**Placement** property, the bottom face of the box lies on the XY plane with its front left corner at the origin, and its front edge parallel to the X axis.
 
-![](/src/assets/images/Part_Box_Example.png)
+![](/images/Part_Box_Example.png)
 
 ## Usage
 
 1. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/Part_Box.svg) [Cube](/Part_Box "Part Box") button.
-   - Select the **Part → Primitives → ![](/src/assets/images/Part_Box.svg) Cube** option from the menu.
+   - Press the ![](/images/Part_Box.svg) [Cube](/Part_Box "Part Box") button.
+   - Select the **Part → Primitives → ![](/images/Part_Box.svg) Cube** option from the menu.
 2. The box is created.
 3. Optionally change the dimensions and Data**Placement** of the box by doing one of the following:
    - Double-click the object in the [Tree view](/Tree_view "Tree view"):
@@ -36,11 +36,11 @@ The ![](/src/assets/images/Part_Box.svg) **Part Box** command creates a parametr
      3. The object is dynamically updated in the [3D view](/3D_view "3D view").
      4. Press the OK button.
    - Change the properties in the [Property editor](/Property_editor "Property editor").
-   - Change the Data**Placement** with the ![](/src/assets/images/Std_TransformManip.svg) [Std TransformManip](/Std_TransformManip "Std TransformManip") command.
+   - Change the Data**Placement** with the ![](/images/Std_TransformManip.svg) [Std TransformManip](/Std_TransformManip "Std TransformManip") command.
 
 ## Example
 
-![](/src/assets/images/Part_Box_Scripting_Example.png)
+![](/images/Part_Box_Scripting_Example.png)
 
 Part Box from the scripting example
 
@@ -48,7 +48,7 @@ A Part Box object created with the [scripting example](#Scripting) below is show
 
 ## Notes
 
-- A Part Box can also be created with the ![](/src/assets/images/Part_Primitives.svg) [Part Primitives](/Part_Primitives "Part Primitives") command. With that command you can specify the dimensions and placement at creation time.
+- A Part Box can also be created with the ![](/images/Part_Primitives.svg) [Part Primitives](/Part_Primitives "Part Primitives") command. With that command you can specify the dimensions and placement at creation time.
 
 ## Properties
 

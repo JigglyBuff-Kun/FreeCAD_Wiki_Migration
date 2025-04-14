@@ -30,7 +30,7 @@ title: MultiCopy
 
 '**MultiCopy'** is a user-created macro to be used within the FreeCAD application. MultiCopy allows the duplication (copy and paste) of multiple FreeCAD objects that can be labelled sequentially and in a custom manner.
 
-![](/src/assets/images/MultiCopy-reduced.png)    This is the **MultiCopy Macro** icon.
+![](/images/MultiCopy-reduced.png)    This is the **MultiCopy Macro** icon.
 
 The MultiCopy Macro can be downloaded using the in-built [Addon Manager](/Std_AddonMgr "Std AddonMgr") within the FreeCAD software.
 
@@ -47,7 +47,7 @@ The MultiCopy Macro can be downloaded using the in-built [Addon Manager](/Std_Ad
 - Unique 'Paste Code Commands' that allow multiple duplication procedurally as well as in nested loops
 - Both CUI and GUI methods available
 
-[![Macro_MultiCopy_Main_Dialog.png](/src/assets/images/0/0f/Macro_MultiCopy_Main_Dialog.png)](/File:Macro_MultiCopy_Main_Dialog.png)
+[![Macro_MultiCopy_Main_Dialog.png](/images/0/0f/Macro_MultiCopy_Main_Dialog.png)](/File:Macro_MultiCopy_Main_Dialog.png)
 
 **Caption : MultiCopy Macro Main Dialog Box**
 
@@ -167,7 +167,7 @@ MultiCopy.Run(some_paste_code_commands, True, True, 'SomeDocumentLabel')
 
 ## Paste Code Commands
 
-[![Macro_MultiCopy_Commands.png](/src/assets/images/6/61/Macro_MultiCopy_Commands.png)](/File:Macro_MultiCopy_Commands.png)
+[![Macro_MultiCopy_Commands.png](/images/6/61/Macro_MultiCopy_Commands.png)](/File:Macro_MultiCopy_Commands.png)
 
 **Caption : MultiCopy Macro 'Paste Code Commands' List**
 
@@ -266,17 +266,17 @@ Pasted-Body-002-B
 
 ```
 
-[![Macro_MultiCopy_Input_Signal.png](/src/assets/images/d/d0/Macro_MultiCopy_Input_Signal.png)](/File:Macro_MultiCopy_Input_Signal.png)
+[![Macro_MultiCopy_Input_Signal.png](/images/d/d0/Macro_MultiCopy_Input_Signal.png)](/File:Macro_MultiCopy_Input_Signal.png)
 
 **Caption : MultiCopy Macro 'Paste Code Commands'  
 INPUT Signal**
 
-[![Macro_MultiCopy_Incorrect_Signal.png](/src/assets/images/5/50/Macro_MultiCopy_Incorrect_Signal.png)](/File:Macro_MultiCopy_Incorrect_Signal.png)
+[![Macro_MultiCopy_Incorrect_Signal.png](/images/5/50/Macro_MultiCopy_Incorrect_Signal.png)](/File:Macro_MultiCopy_Incorrect_Signal.png)
 
 **Caption : MultiCopy Macro 'Paste Code Commands'  
 INCORRECT Signal**
 
-[![Macro_MultiCopy_Correct_Signal.png](/src/assets/images/4/41/Macro_MultiCopy_Correct_Signal.png)](/File:Macro_MultiCopy_Correct_Signal.png)
+[![Macro_MultiCopy_Correct_Signal.png](/images/4/41/Macro_MultiCopy_Correct_Signal.png)](/File:Macro_MultiCopy_Correct_Signal.png)
 
 **Caption : MultiCopy Macro 'Paste Code Commands'  
 CORRECT Signal**

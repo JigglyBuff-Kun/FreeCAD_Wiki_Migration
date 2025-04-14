@@ -25,9 +25,9 @@ Der Befehl **Mesh Exportieren** exportiert ein Netzobjekt in ein Netz-Dateiforma
 
 1. Ein einzelnes Netzobjekt auswählen.
 2. Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
-   - Die Schaltfläche ![](/src/assets/images/Mesh_Export.svg) Netz exportieren... drücken.
-   - Den Menüeintrag **Netze → ![](/src/assets/images/Mesh_Export.svg) Netz exportieren...** auswählen.
-   - Die Menüoption **![](/src/assets/images/Mesh_Export.svg) Netz exportieren...** im Kontextmenü der [Baumansicht](/Tree_view/de "Tree view/de") oder der [3D-Ansicht](/3D_view/de "3D view/de") auswählen.
+   - Die Schaltfläche ![](/images/Mesh_Export.svg) Netz exportieren... drücken.
+   - Den Menüeintrag **Netze → ![](/images/Mesh_Export.svg) Netz exportieren...** auswählen.
+   - Die Menüoption **![](/images/Mesh_Export.svg) Netz exportieren...** im Kontextmenü der [Baumansicht](/Tree_view/de "Tree view/de") oder der [3D-Ansicht](/3D_view/de "3D view/de") auswählen.
 3. Im Dialogfeld das richtige Dateiformat auswählen.
 4. Einen Dateinamen eingeben. Wenn im vorherigen Schritt die Option `Alle Dateien (*.*)` ausgewählt wurde und hier keine Dateierweiterung angegeben wird, wird die Erweiterung .stl verwendet.
 5. Die Schaltfläche Speichern drücken.

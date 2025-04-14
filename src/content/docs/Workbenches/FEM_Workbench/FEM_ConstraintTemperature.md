@@ -28,8 +28,8 @@ Defines a temperature boundary condition or, optionally, a concentrated heat flu
 ## Usage
 
 1. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/FEM_ConstraintTemperature.svg) [Temperature boundary condition](/FEM_ConstraintTemperature "FEM ConstraintTemperature") button.
-   - Select the **Model → Thermal boundary conditions and loads → ![](/src/assets/images/FEM_ConstraintTemperature.svg) Temperature boundary condition** option from the menu.
+   - Press the ![](/images/FEM_ConstraintTemperature.svg) [Temperature boundary condition](/FEM_ConstraintTemperature "FEM ConstraintTemperature") button.
+   - Select the **Model → Thermal boundary conditions and loads → ![](/images/FEM_ConstraintTemperature.svg) Temperature boundary condition** option from the menu.
 2. Press the Add button.
 3. In the [3D view](/3D_view "3D view") select the objects the boundary condition should be applied to, which can be vertices, edges, or faces. Optionally, press the Remove button and click on the objects that you want to remove from the selection.
 4. Choose the constraint type and specify its parameter:

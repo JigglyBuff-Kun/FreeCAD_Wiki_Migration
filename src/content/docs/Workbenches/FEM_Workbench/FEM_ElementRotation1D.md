@@ -28,15 +28,15 @@ title: FEM ElementRotation1D
 ## Usage
 
 1. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/FEM_ElementRotation1D.svg) [Beam rotation](/FEM_ElementRotation1D "FEM ElementRotation1D") button.
-   - Select the **Model → Element Geometry → ![](/src/assets/images/FEM_ElementRotation1D.svg) Beam rotation** option from the menu.
+   - Press the ![](/images/FEM_ElementRotation1D.svg) [Beam rotation](/FEM_ElementRotation1D "FEM ElementRotation1D") button.
+   - Select the **Model → Element Geometry → ![](/images/FEM_ElementRotation1D.svg) Beam rotation** option from the menu.
 2. Specify the angle by which the beam profile is to be rotated.
 
-![](/src/assets/images/FEM_beam_no_rotation.png)
+![](/images/FEM_beam_no_rotation.png)
 
 No rotation, default orientation - local axis 1 aligned with the global Y axis (green)
 
-![](/src/assets/images/FEM_beam_rotation.png)
+![](/images/FEM_beam_rotation.png)
 
 90 degree rotation
 

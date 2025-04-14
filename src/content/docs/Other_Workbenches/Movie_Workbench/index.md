@@ -5,13 +5,13 @@ title: Movie Workbench
 :::caution
 This documentation is not finished. Please help and contribute documentation.GuiCommand modelexplains how commands should be documented. BrowseCategory:UnfinishedDocuto see more incomplete pages like this one. SeeCategory:Command Referencefor all commands.SeeWikiPagesto learn about editing the wiki pages, and go toHelp FreeCADto learn about other ways in which you can contribute.
 :::
-![](/src/assets/images/Movie_Workbench_icon.svg)
+![](/images/Movie_Workbench_icon.svg)
 
 Movie workbench icon
 
 ## Introduction
 
-![](/src/assets/images/Movie_Workbench_icon.svg) Movie is an [external workbench](/External_workbenches "External workbenches") that is used to...
+![](/images/Movie_Workbench_icon.svg) Movie is an [external workbench](/External_workbenches "External workbenches") that is used to...
 
 [top](#top)
 

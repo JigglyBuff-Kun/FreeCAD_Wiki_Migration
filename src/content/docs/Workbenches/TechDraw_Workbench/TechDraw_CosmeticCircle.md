@@ -21,7 +21,7 @@ title: TechDraw CosmeticCircle
 
 The **TechDraw CosmeticCircle** tool adds a cosmetic circle at a selected center point. The point can be 2D or 3D.
 
-![](/src/assets/images/CosmeticCircleSample.png)
+![](/images/CosmeticCircleSample.png)
 
 Cosmetic circle
 
@@ -30,8 +30,8 @@ Cosmetic circle
 1. Select a center point in a TechDraw View or in the [3D view](/3D_view "3D view").
 2. If you have selected a point in the 3D view: add the correct TechDraw View to the selection by selecting it in the [Tree view](/Tree_view "Tree view").
 3. There are several ways to invoke the tool:
-   - Press the ![](/src/assets/images/TechDraw_CosmeticCircle.svg) [Add Cosmetic Circle](/TechDraw_CosmeticCircle "TechDraw CosmeticCircle") button.
-   - Select the **TechDraw → Add Lines → ![](/src/assets/images/TechDraw_CosmeticCircle.svg) Add Cosmetic Circle** option from the menu.
+   - Press the ![](/images/TechDraw_CosmeticCircle.svg) [Add Cosmetic Circle](/TechDraw_CosmeticCircle "TechDraw CosmeticCircle") button.
+   - Select the **TechDraw → Add Lines → ![](/images/TechDraw_CosmeticCircle.svg) Add Cosmetic Circle** option from the menu.
 4. A task panel opens.
 5. Optionally adjust the coordinates of the center point, the radius, and the start and end angles of the circle.
 6. Press the OK button.
@@ -43,8 +43,8 @@ To change the attributes of a cosmetic circle:
 
 1. Select the cosmetic circle.
 2. There are several ways to invoke the tool:
-   - Press the ![](/src/assets/images/TechDraw_CosmeticCircle.svg) [Add Cosmetic Circle](/TechDraw_CosmeticCircle "TechDraw CosmeticCircle") button.
-   - Select the **TechDraw → Add Lines → ![](/src/assets/images/TechDraw_CosmeticCircle.svg) Add Cosmetic Circle** option from the menu.
+   - Press the ![](/images/TechDraw_CosmeticCircle.svg) [Add Cosmetic Circle](/TechDraw_CosmeticCircle "TechDraw CosmeticCircle") button.
+   - Select the **TechDraw → Add Lines → ![](/images/TechDraw_CosmeticCircle.svg) Add Cosmetic Circle** option from the menu.
 3. A task panel opens.
 4. Adjust the coordinates of the center point, the radius, or the start and end angles of the circle.
 5. Press the OK button.
@@ -52,7 +52,7 @@ To change the attributes of a cosmetic circle:
 ## Notes
 
 - To delete a cosmetic circle select it and press Delete.
-- To change the appearance of a cosmetic circle use ![](/src/assets/images/TechDraw_DecorateLine.svg) [TechDraw DecorateLine](/TechDraw_DecorateLine "TechDraw DecorateLine").
+- To change the appearance of a cosmetic circle use ![](/images/TechDraw_DecorateLine.svg) [TechDraw DecorateLine](/TechDraw_DecorateLine "TechDraw DecorateLine").
 
 ## Properties
 

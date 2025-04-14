@@ -19,9 +19,9 @@ title: Sketcher RadiusFestlegen
 
 ## Beschreibung
 
-Das Werkzeug ![](/src/assets/images/Sketcher_ConstrainRadius.svg) Sketcher RadiusFestlegen legt den Radius von Kreisen, Bögen und [B-Spline-Gewichtskreisen](/Sketcher_CreateBSpline/de#Hinweise "Sketcher CreateBSpline/de") fest.
+Das Werkzeug ![](/images/Sketcher_ConstrainRadius.svg) Sketcher RadiusFestlegen legt den Radius von Kreisen, Bögen und [B-Spline-Gewichtskreisen](/Sketcher_CreateBSpline/de#Hinweise "Sketcher CreateBSpline/de") fest.
 
-![](/src/assets/images/Sketcher_ConstrainRadius_example.png)
+![](/images/Sketcher_ConstrainRadius_example.png)
 
 ## Anwendung
 
@@ -31,10 +31,10 @@ Siehe auch: [Zeichnungshilfen](/Sketcher_Workbench/de#Zeichnungshilfen "Sketcher
 
 1. Sicherstellen, dass die Auswahl leer ist.
 2. Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
-   - [eingeführt in 1.0](/Release_notes_1.0/de "Release notes 1.0/de"): Ist die [Voreinstellung](/Sketcher_Preferences/de#Allgemein "Sketcher Preferences/de") **Werkzeuge für Maßeinträge** auf `Einzelnes Werkzeug` gesetzt (Standardeinstellung): Den Abwärtspfeil rechts neben der Schaltfläche ![](/src/assets/images/Sketcher_Dimension.svg)![](/src/assets/images/Toolbar_flyout_arrow.svg) drücken und die Menüoption **![](/src/assets/images/Sketcher_ConstrainRadius.svg) Radius festlegen** im Ausklappmenü auswählen.
-   - Besitzt die Voreinstellung einen anderen Wert (und in 0.21 und davor): Die Schaltfläche ![](/src/assets/images/Sketcher_ConstrainRadius.svg) Radius festlegen drücken.
-   - Den Menüeintrag **Skizze → Sketcher-Randbedingungen → ![](/src/assets/images/Sketcher_ConstrainRadius.svg) Radius festlegen** auswählen.
-   - [eingeführt in 1.0](/Release_notes_1.0/de "Release notes 1.0/de"): Ein Rechtsklick in die [3D-Ansicht](/3D_view/de "3D view/de") und die Menüoption **Abmessung → ![](/src/assets/images/Sketcher_ConstrainRadius.svg) Radius festlegen** im Kontextmenü auswählen.
+   - [eingeführt in 1.0](/Release_notes_1.0/de "Release notes 1.0/de"): Ist die [Voreinstellung](/Sketcher_Preferences/de#Allgemein "Sketcher Preferences/de") **Werkzeuge für Maßeinträge** auf `Einzelnes Werkzeug` gesetzt (Standardeinstellung): Den Abwärtspfeil rechts neben der Schaltfläche ![](/images/Sketcher_Dimension.svg)![](/images/Toolbar_flyout_arrow.svg) drücken und die Menüoption **![](/images/Sketcher_ConstrainRadius.svg) Radius festlegen** im Ausklappmenü auswählen.
+   - Besitzt die Voreinstellung einen anderen Wert (und in 0.21 und davor): Die Schaltfläche ![](/images/Sketcher_ConstrainRadius.svg) Radius festlegen drücken.
+   - Den Menüeintrag **Skizze → Sketcher-Randbedingungen → ![](/images/Sketcher_ConstrainRadius.svg) Radius festlegen** auswählen.
+   - [eingeführt in 1.0](/Release_notes_1.0/de "Release notes 1.0/de"): Ein Rechtsklick in die [3D-Ansicht](/3D_view/de "3D view/de") und die Menüoption **Abmessung → ![](/images/Sketcher_ConstrainRadius.svg) Radius festlegen** im Kontextmenü auswählen.
    - Das Tastaturkürzel K dann R.
 3. Der Mauszeiger wandelt sich zu einem Kreuz mit Werkzeugsymbol.
 4. Für weitere Schritte siehe [Sketcher Radiam festlegen](/Sketcher_ConstrainRadiam/de#Continue_mode "Sketcher ConstrainRadiam/de").

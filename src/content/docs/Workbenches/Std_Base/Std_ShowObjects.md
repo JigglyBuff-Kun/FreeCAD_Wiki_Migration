@@ -23,7 +23,7 @@ The **Std ShowObjects** command shows all objects belonging to the active docume
 
 ## Usage
 
-1. Select the **View → Visibility → ![](/src/assets/images/Std_ShowObjects.svg) Show all objects** option from the menu.
+1. Select the **View → Visibility → ![](/images/Std_ShowObjects.svg) Show all objects** option from the menu.
 
 ## Notes
 

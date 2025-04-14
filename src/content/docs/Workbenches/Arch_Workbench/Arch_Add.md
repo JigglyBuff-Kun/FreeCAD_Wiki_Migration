@@ -25,21 +25,21 @@ THIS COMMAND IS PART OF THE INTEGRATEDBIM WORKBENCHIN V1.0This page has been upd
 
 The Add tool allows you to do 4 kinds of operations:
 
-- Add [shape](/Part_Workbench "Part Workbench")-based objects to an Arch component, such as a ![](/src/assets/images/Arch_Wall.svg) [wall](/Arch_Wall "Arch Wall") or ![](/src/assets/images/Arch_Structure.svg) [structure](/Arch_Structure "Arch Structure"). These objects make then part of the Arch component, and allow you to modify its shape but keeping its base properties such as width and height
-- Add Arch components, such as a ![](/src/assets/images/Arch_Wall.svg) [Arch Walls](/Arch_Wall "Arch Wall") or ![](/src/assets/images/Arch_Structure.svg) [Arch Structures](/Arch_Structure "Arch Structure"), to a group-based arch object such as ![](/src/assets/images/Arch_Floor.svg) [Arch Floors](/Arch_Floor "Arch Floor").
-- Add ![](/src/assets/images/Arch_Axis.svg) [Axis systems](/Arch_Axis "Arch Axis") to ![](/src/assets/images/Arch_Structure.svg) [structural objects](/Arch_Structure "Arch Structure")
-- Add objects to ![](/src/assets/images/Arch_SectionPlane.svg) [section planes](/Arch_SectionPlane "Arch SectionPlane")
+- Add [shape](/Part_Workbench "Part Workbench")-based objects to an Arch component, such as a ![](/images/Arch_Wall.svg) [wall](/Arch_Wall "Arch Wall") or ![](/images/Arch_Structure.svg) [structure](/Arch_Structure "Arch Structure"). These objects make then part of the Arch component, and allow you to modify its shape but keeping its base properties such as width and height
+- Add Arch components, such as a ![](/images/Arch_Wall.svg) [Arch Walls](/Arch_Wall "Arch Wall") or ![](/images/Arch_Structure.svg) [Arch Structures](/Arch_Structure "Arch Structure"), to a group-based arch object such as ![](/images/Arch_Floor.svg) [Arch Floors](/Arch_Floor "Arch Floor").
+- Add ![](/images/Arch_Axis.svg) [Axis systems](/Arch_Axis "Arch Axis") to ![](/images/Arch_Structure.svg) [structural objects](/Arch_Structure "Arch Structure")
+- Add objects to ![](/images/Arch_SectionPlane.svg) [section planes](/Arch_SectionPlane "Arch SectionPlane")
 
-The counterpart of this tool is the ![](/src/assets/images/Arch_Remove.svg) [Arch Remove](/Arch_Remove "Arch Remove") tool.
+The counterpart of this tool is the ![](/images/Arch_Remove.svg) [Arch Remove](/Arch_Remove "Arch Remove") tool.
 
-![](/src/assets/images/Arch_Add_example.jpg)
+![](/images/Arch_Add_example.jpg)
 
 A box added to a wall as a component.
 
 ## Usage
 
 1. Select the objects to be added together. The last object selected will be the host Arch object.
-2. Press the ![](/src/assets/images/Arch_Add.svg) [Add component](/Arch_Add "Arch Add") button, or use **Modify → ![](/src/assets/images/Arch_Add.svg) Add component** from the top menu.
+2. Press the ![](/images/Arch_Add.svg) [Add component](/Arch_Add "Arch Add") button, or use **Modify → ![](/images/Arch_Add.svg) Add component** from the top menu.
 
 ## Scripting
 

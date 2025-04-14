@@ -19,9 +19,9 @@ title: Sketcher CreateEllipseByCenter
 
 ## Description
 
-The ![](/src/assets/images/Sketcher_CreateEllipseByCenter.svg) [Sketcher CreateEllipseByCenter](/Sketcher_CreateEllipseByCenter "Sketcher CreateEllipseByCenter") tool creates an ellipse by its center, an endpoint of one of its axes, and a point along the ellipse. [introduced in 1.0](/Release_notes_1.0 "Release notes 1.0"): Or optionally by both endpoints of one of its axes and a point along the ellipse.
+The ![](/images/Sketcher_CreateEllipseByCenter.svg) [Sketcher CreateEllipseByCenter](/Sketcher_CreateEllipseByCenter "Sketcher CreateEllipseByCenter") tool creates an ellipse by its center, an endpoint of one of its axes, and a point along the ellipse. [introduced in 1.0](/Release_notes_1.0 "Release notes 1.0"): Or optionally by both endpoints of one of its axes and a point along the ellipse.
 
-![](/src/assets/images/Sketcher_CreateEllipseByCenter_Example.png)
+![](/images/Sketcher_CreateEllipseByCenter_Example.png)
 
 Ellipse (white) with internal geometry (dark yellow)
 
@@ -33,17 +33,17 @@ Pos-OVP = Positional [On-View-Parameters](/Sketcher_Preferences#General "Sketche
 Dim-OVP = Dimensional On-View-Parameters. [introduced in 1.0](/Release_notes_1.0 "Release notes 1.0")
 
 1. There are several ways to invoke the tool:
-   - Press the ![](/src/assets/images/Sketcher_CreateEllipseByCenter.svg) [Ellipse by center, radius, rim point](/Sketcher_CreateEllipseByCenter "Sketcher CreateEllipseByCenter") button.
-   - Select the **Sketcher → Sketcher geometries → ![](/src/assets/images/Sketcher_CreateEllipseByCenter.svg) Create ellipse by center** option from the menu.
+   - Press the ![](/images/Sketcher_CreateEllipseByCenter.svg) [Ellipse by center, radius, rim point](/Sketcher_CreateEllipseByCenter "Sketcher CreateEllipseByCenter") button.
+   - Select the **Sketcher → Sketcher geometries → ![](/images/Sketcher_CreateEllipseByCenter.svg) Create ellipse by center** option from the menu.
    - Use the keyboard shortcut: G then E, then E.
 2. The cursor changes to a cross with the current tool mode icon.
 3. The **Ellipse parameters** section ([introduced in 1.0](/Release_notes_1.0 "Release notes 1.0")) is added at the top of the [Sketcher Dialog](/Sketcher_Dialog "Sketcher Dialog").
 4. Optionally press the M key or select from the dropdown list in the parameters section to change the tool mode:
-   - ![](/src/assets/images/Sketcher_CreateEllipseByCenter.svg) **Center**:
+   - ![](/images/Sketcher_CreateEllipseByCenter.svg) **Center**:
      1. Pick the center of the ellipse. Or with Pos-OVP: enter its X and/or Y coordinate.
      2. Pick an endpoint of one of the axes of the ellipse, this also defines one of its radii. Or with Dim-OVP: enter this radius and/or the angle of this axis.
      3. Pick a point to define the other radius of the ellipse. Or with Dim-OVP: enter this radius.
-   - ![](/src/assets/images/Sketcher_CreateEllipseBy3Points.svg) **Axis endpoints**: [introduced in 1.0](/Release_notes_1.0 "Release notes 1.0")
+   - ![](/images/Sketcher_CreateEllipseBy3Points.svg) **Axis endpoints**: [introduced in 1.0](/Release_notes_1.0 "Release notes 1.0")
      1. Pick the endpoints of one of the axes of the ellipse, this also defines one of its radii. Or with Pos-OVP: enter their X and/or Y coordinates. No constraints are created for these points.
      2. Pick a point to define the other radius of the ellipse. Or with Pos-OVP: enter its X and/or Y coordinate. No constraint is created for this point.
 5. The ellipse is created, including a set of internal geometry (major axis, minor axis and two foci), and applicable Pos-OVP and Dim-OVP based constraints are added.

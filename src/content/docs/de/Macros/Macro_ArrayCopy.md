@@ -32,7 +32,7 @@ Dieses Makro kopiert das Objekt mehrmals in einem Array-Raster. Sie können die 
 
 ## Skript
 
-ToolBar Icon ![](/src/assets/images/Macro_ArrayCopy.png)
+ToolBar Icon ![](/images/Macro_ArrayCopy.png)
 
 **Macro_ArrayCopy.FCMacro**
 

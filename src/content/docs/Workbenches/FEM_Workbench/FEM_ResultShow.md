@@ -31,14 +31,14 @@ The visualization of the results is only active when the dialog is open. However
 
 1. Select the result object in the [Tree view](/Tree_view "Tree view").
 2. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/FEM_ResultShow.svg) [Show result](/FEM_ResultShow "FEM ResultShow") button.
-   - Select the **Results → ![](/src/assets/images/FEM_ResultShow.svg) Show result** option from the menu.
+   - Press the ![](/images/FEM_ResultShow.svg) [Show result](/FEM_ResultShow "FEM ResultShow") button.
+   - Select the **Results → ![](/images/FEM_ResultShow.svg) Show result** option from the menu.
    - Use the keyboard shortcut: R then S.
 3. Alternatively you can also double-click on the result object in the Tree view.
 
 When the dialog is open, the result mesh will automatically be shown.
 
-![](/src/assets/images/FEM_Result-Object-Dialog.png)
+![](/images/FEM_Result-Object-Dialog.png)
 
 The dialog is shown at the left and offers the following features:
 

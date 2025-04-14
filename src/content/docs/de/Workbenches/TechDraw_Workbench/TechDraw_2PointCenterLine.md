@@ -21,7 +21,7 @@ title: TechDraw 2PunkteMittellinie
 
 Das Werkzeug **TechDraw 2PunkteMittellinie** fügt eine Mittellinie zwischen zwei Punkten hinzu.
 
-![](/src/assets/images/CL2PointsSample.png)
+![](/images/CL2PointsSample.png)
 
 Mittellinie zwischen zwei Punkten
 
@@ -29,8 +29,8 @@ Mittellinie zwischen zwei Punkten
 
 1. Zwei Punkte in einer Ansicht auswählen.
 2. Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
-   - Die Schaltfläche ![](/src/assets/images/TechDraw_2PointCenterLine.svg) Mittellinie zwischen 2 Punkten hinzufügen drücken.
-   - Den Menüeintrag **TechDraw → Linien hinzufügen → ![](/src/assets/images/TechDraw_2PointCenterLine.svg) Mittellinie zwischen 2 Punkten hinzufügen** auswählen.
+   - Die Schaltfläche ![](/images/TechDraw_2PointCenterLine.svg) Mittellinie zwischen 2 Punkten hinzufügen drücken.
+   - Den Menüeintrag **TechDraw → Linien hinzufügen → ![](/images/TechDraw_2PointCenterLine.svg) Mittellinie zwischen 2 Punkten hinzufügen** auswählen.
 3. Ein Aufgaben-Bereich wird geöffnet. Siehe [TechDraw FlächenMittellinie](/TechDraw_FaceCenterLine/de#Optionen "TechDraw FaceCenterLine/de") für weitere Informationen.
 4. Die Schaltfläche OK zum Bestätigen drücken.
 5. Eine Mittellinie wird zwischen den ausgewählten Punkten hinzugefügt.

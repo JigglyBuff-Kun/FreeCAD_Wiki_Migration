@@ -35,7 +35,7 @@ Tool utility to create:
 - Planes (from 3 points, from one axis and a point...)
 - And many other useful features to facilitate the creation of your project. This utility is up next in the combo view with "Work Features" label.
 
-![](/src/assets/images/WF.png)
+![](/images/WF.png)
 
 WorkFeatures
 
@@ -43,15 +43,15 @@ WorkFeatures
 
 **Work Features**
 
-- ![After activating Work Features, the tool moves to the left in the window Combo view.](/src/assets/images/Macro_WorkFeatures_01.png)
+- ![After activating Work Features, the tool moves to the left in the window Combo view.](/images/Macro_WorkFeatures_01.png)
 
   After activating Work Features, the tool moves to the left in the window Combo view.
 
-- ![Each use and each Tag that corresponds to a function group is a group created in the name of Tag used. The Axis, Point and Planes origin are directly keyed to hidden.](/src/assets/images/Macro_WorkFeatures_07.png)
+- ![Each use and each Tag that corresponds to a function group is a group created in the name of Tag used. The Axis, Point and Planes origin are directly keyed to hidden.](/images/Macro_WorkFeatures_07.png)
 
   Each use and each Tag that corresponds to a function group is a group created in the name of Tag used. The Axis, Point and Planes origin are directly keyed to hidden.
 
-- [![You can ENTERING AND USING common commands to make visible the created function. Example key Space or select your object and click right of mouse and click "Hide selection" or "Show selection".](/src/assets/images/Macro_WorkFeatures_08.png)](/File:Macro_WorkFeatures_08.png 'You can ENTERING AND USING common commands to make visible the created function. Example key Space or select your object and click right of mouse and click "Hide selection" or "Show selection ".')
+- [![You can ENTERING AND USING common commands to make visible the created function. Example key Space or select your object and click right of mouse and click "Hide selection" or "Show selection".](/images/Macro_WorkFeatures_08.png)](/File:Macro_WorkFeatures_08.png 'You can ENTERING AND USING common commands to make visible the created function. Example key Space or select your object and click right of mouse and click "Hide selection" or "Show selection ".')
 
   You can ENTERING AND USING common commands to make visible the created function.  
   Example key **Space** or select your object and click right of mouse and click "**Hide selection**" or "**Show selection**".
@@ -108,18 +108,18 @@ WorkFeatures
 
 After downloading the file compressed here
 
-ToolBar Icon ![](/src/assets/images/WF_wf.png)
+ToolBar Icon ![](/images/WF_wf.png)
 
 **[Download the latest version on GitHub](https://github.com/Rentlau/WorkFeature)** ,
 you must unzip the zip and copy all the files in your macro directory.
 
 **PS: This macro is still in development please visit this page for commonly be sure to have the latest version.**
 
-![Download in GitHub click the Download ZIP button](/src/assets/images/Macro_Work_Features_GitHub_00.png)
+![Download in GitHub click the Download ZIP button](/images/Macro_Work_Features_GitHub_00.png)
 
 Download in GitHub click the Download ZIP button
 
-Use ![](/src/assets/images/AddonManager.svg) [Addons installer](/Std_AddonMgr "Std AddonMgr"), **Menu → Tools → Addon installer** for easy installation of WorkFeatures and other interesting macros
+Use ![](/images/AddonManager.svg) [Addons installer](/Std_AddonMgr "Std AddonMgr"), **Menu → Tools → Addon installer** for easy installation of WorkFeatures and other interesting macros
 
 Here for [How to install macros](/How_to_install_macros "How to install macros") detailed
 
@@ -131,60 +131,60 @@ Here for [How to install macros](/How_to_install_macros "How to install macros")
 Angle is an angle between the cutting Plane and the Ref. Plane.
 Thickness is the wide of the of the cutting Plane.
 
-- ![Here we have selected a cylinder.](/src/assets/images/CuttingSettings.jpg)
+- ![Here we have selected a cylinder.](/images/CuttingSettings.jpg)
 
   Here we have selected a cylinder.
 
-- ![The result will be : the cylinder is then cut in two parts!](/src/assets/images/CuttingResult.jpg)
+- ![The result will be : the cylinder is then cut in two parts!](/images/CuttingResult.jpg)
 
   The result will be : the cylinder is then cut in two parts!
 
 **Example the practice**
 
-- ![Select the Tab Plane](/src/assets/images/Macro_Work_Features_Cutting_01.png)
+- ![Select the Tab Plane](/images/Macro_Work_Features_Cutting_01.png)
 
   Select the **Tab Plane**
 
-- [![and click the Plane button (you can change the dimensions of the plane (Default: 10 x 10)).](/src/assets/images/Macro_Work_Features_Cutting_02.png)](/File:Macro_Work_Features_Cutting_02.png "and click the Plane button (you can change the dimensions of the plane (Default: 10 x 10)).")
+- [![and click the Plane button (you can change the dimensions of the plane (Default: 10 x 10)).](/images/Macro_Work_Features_Cutting_02.png)](/File:Macro_Work_Features_Cutting_02.png "and click the Plane button (you can change the dimensions of the plane (Default: 10 x 10)).")
 
   and click the Plane button  
    (you can change the dimensions of the plane (**Default: 10 x 10**)).
 
-- [![click you work object. The plane is created tangent of the object (here a cylinder)](/src/assets/images/Macro_Work_Features_Cutting_03.png)](/File:Macro_Work_Features_Cutting_03.png "click you work object. The plane is created tangent of the object (here a cylinder)")
+- [![click you work object. The plane is created tangent of the object (here a cylinder)](/images/Macro_Work_Features_Cutting_03.png)](/File:Macro_Work_Features_Cutting_03.png "click you work object. The plane is created tangent of the object (here a cylinder)")
 
   click you work object. The plane is created tangent of the object (here a cylinder)
 
-- [![click the Tab Modif, and 1 : click your object for cutting 2 : click the Select object button (here the cylinder and then name is displayed)](/src/assets/images/Macro_Work_Features_Cutting_04.png)](/File:Macro_Work_Features_Cutting_04.png "click the Tab Modif, and 1 : click your object for cutting 2 : click the Select object button (here the cylinder and then name is displayed)")
+- [![click the Tab Modif, and 1 : click your object for cutting 2 : click the Select object button (here the cylinder and then name is displayed)](/images/Macro_Work_Features_Cutting_04.png)](/File:Macro_Work_Features_Cutting_04.png "click the Tab Modif, and 1 : click your object for cutting 2 : click the Select object button (here the cylinder and then name is displayed)")
 
   click the Tab Modif, and  
   **1 :** click your object for cutting  
   **2 :** click the Select object button (here the cylinder and then name is displayed)
 
-- [![3 : click your line for cutting your cylinder 4 : click the Select Cut Line (then name is displayed)](/src/assets/images/Macro_Work_Features_Cutting_05.png)](/File:Macro_Work_Features_Cutting_05.png "3 : click your line for cutting your cylinder 4 : click the Select Cut Line (then name is displayed)")
+- [![3 : click your line for cutting your cylinder 4 : click the Select Cut Line (then name is displayed)](/images/Macro_Work_Features_Cutting_05.png)](/File:Macro_Work_Features_Cutting_05.png "3 : click your line for cutting your cylinder 4 : click the Select Cut Line (then name is displayed)")
 
   **3 :** click your line for cutting your cylinder  
   **4 :** click the Select Cut Line (then name is displayed)
 
-- [![5 : click the work plane 6 : click the Select Ref. Plane button (then name is displayed)](/src/assets/images/Macro_Work_Features_Cutting_06.png)](/File:Macro_Work_Features_Cutting_06.png "5 : click the work plane 6 : click the Select Ref. Plane button (then name is displayed)")
+- [![5 : click the work plane 6 : click the Select Ref. Plane button (then name is displayed)](/images/Macro_Work_Features_Cutting_06.png)](/File:Macro_Work_Features_Cutting_06.png "5 : click the work plane 6 : click the Select Ref. Plane button (then name is displayed)")
 
   **5 :** click the work plane  
   **6 :** click the Select Ref. Plane button (then name is displayed)
 
-- ![click the Apply button](/src/assets/images/Macro_Work_Features_Cutting_07.png)
+- ![click the Apply button](/images/Macro_Work_Features_Cutting_07.png)
 
   click the Apply button
 
-- ![The operation is completed and all operations are preserved.](/src/assets/images/Macro_Work_Features_Cutting_08.png)
+- ![The operation is completed and all operations are preserved.](/images/Macro_Work_Features_Cutting_08.png)
 
   The operation is completed and all operations are preserved.
 
-- ![you can also give Angle and Thickness for your cut.](/src/assets/images/Macro_Work_Features_Cutting_09.png)
+- ![you can also give Angle and Thickness for your cut.](/images/Macro_Work_Features_Cutting_09.png)
 
   you can also give Angle and Thickness for your cut.
 
 ### Concentric constraint between two non cylindrical parts
 
-- ![](/src/assets/images/Concentric_Constraint_Between_two_non_cylindrical_parts.gif)
+- ![](/images/Concentric_Constraint_Between_two_non_cylindrical_parts.gif)
 
 |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -192,13 +192,13 @@ Thickness is the wide of the of the cutting Plane.
 
 ### Rotation Object
 
-- ![Click the image for see the animation.](/src/assets/images/WorkFeature_Rotation_Object.gif)
+- ![Click the image for see the animation.](/images/WorkFeature_Rotation_Object.gif)
 
   Click the image for see the animation.
 
 ### Plane on face tangent
 
-- ![Click the image for see the animation. Click the object, click the Face tangent button, click the point on face for create the plane.](/src/assets/images/Macro_Work_Features_PlaneFaceTangent.gif)
+- ![Click the image for see the animation. Click the object, click the Face tangent button, click the point on face for create the plane.](/images/Macro_Work_Features_PlaneFaceTangent.gif)
 
   Click the image for see the animation.  
   Click the object, click the Face tangent button, click the point on face for create the plane.
@@ -219,9 +219,9 @@ New workbenches are in development, stay tuned!
 
 **Icons :**
 
-![](/src/assets/images/WF_wf.png)
+![](/images/WF_wf.png)
 
-![](/src/assets/images/WF_centerObjectsPlanes.png)
+![](/images/WF_centerObjectsPlanes.png)
 
 **Sources :**
 

@@ -19,47 +19,47 @@ title: Std VerknüpfungErstellen
 
 ## Beschreibung
 
-![](/src/assets/images/Std_LinkMake.svg) Std VerknüpfungErstellen erstellt ein [App-Link](/App_Link/de "App Link/de")-Objekt (`App::Link` class), das auf ein anderes Objekt innerhalb desselben Dokuments oder in einem anderen Dokument verweist oder eine Verknüpfung zu ihm erzeugt. Es ist speziell dafür entwickelt worden einzelne Objekte effizient zu vervielfältigen, was bei der Erstellung komplexer [Baugruppen](/Assembly/de "Assembly/de") aus kleineren Unterbaugruppen und vielen Wiederholteilen wie Schrauben, Muttern und ähnlichen Befestigungselementen hilft.
+![](/images/Std_LinkMake.svg) Std VerknüpfungErstellen erstellt ein [App-Link](/App_Link/de "App Link/de")-Objekt (`App::Link` class), das auf ein anderes Objekt innerhalb desselben Dokuments oder in einem anderen Dokument verweist oder eine Verknüpfung zu ihm erzeugt. Es ist speziell dafür entwickelt worden einzelne Objekte effizient zu vervielfältigen, was bei der Erstellung komplexer [Baugruppen](/Assembly/de "Assembly/de") aus kleineren Unterbaugruppen und vielen Wiederholteilen wie Schrauben, Muttern und ähnlichen Befestigungselementen hilft.
 
-Das [App-Link](/App_Link/de "App Link/de")-Objekt wurde mit der Version 0.19 neu eingeführt; in der Vergangenheit wurde das einfache Duplizieren von Objekten durch ![](/src/assets/images/Draft_Clone.svg) [Draft Klonen](/Draft_Clone/de "Draft Clone/de") erreicht, aber das ist eine weniger effiziente Lösung, da sie entsprechend ihrer Implementierung zwingend eine Kopie der internen [Form](/Part_TopoShape/de "Part TopoShape/de") des Quellobjekts erzeugt. Stattdessen referenziert ein App-Link direkt auf die originale Form und ist dadurch speichereffizienter.
+Das [App-Link](/App_Link/de "App Link/de")-Objekt wurde mit der Version 0.19 neu eingeführt; in der Vergangenheit wurde das einfache Duplizieren von Objekten durch ![](/images/Draft_Clone.svg) [Draft Klonen](/Draft_Clone/de "Draft Clone/de") erreicht, aber das ist eine weniger effiziente Lösung, da sie entsprechend ihrer Implementierung zwingend eine Kopie der internen [Form](/Part_TopoShape/de "Part TopoShape/de") des Quellobjekts erzeugt. Stattdessen referenziert ein App-Link direkt auf die originale Form und ist dadurch speichereffizienter.
 
-Das [App-Link](/App_Link "App Link")-Objekt allein kann schon wie ein Array genutzt werden um das Basisobjekt zu vervielfältigen; das kann erreicht werden, durch das Ändern der Daten-Eigenschaft**Element Count** auf `1` oder größer. Dieses "[Link-Array](#Link_Array)"-Object kann auch mit den verschiedenen Array-Werkzeugen des ![](/src/assets/images/Workbench_Draft.svg) [Draft-Arbeitsbereichs](/Draft_Workbench/de "Draft Workbench/de") erzeugt werden, z.B. ![](/src/assets/images/Draft_OrthoArray.svg) [Draft Rechtwinklige Anordnung](/Draft_OrthoArray/de "Draft OrthoArray/de"), ![](/src/assets/images/Draft_PolarArray.svg) [Draft Polare Anordnung](/Draft_PolarArray/de "Draft PolarArray/de"), and ![](/src/assets/images/Draft_CircularArray.svg) [Draft Kreisanordnung](/Draft_CircularArray/de "Draft CircularArray/de").
+Das [App-Link](/App_Link "App Link")-Objekt allein kann schon wie ein Array genutzt werden um das Basisobjekt zu vervielfältigen; das kann erreicht werden, durch das Ändern der Daten-Eigenschaft**Element Count** auf `1` oder größer. Dieses "[Link-Array](#Link_Array)"-Object kann auch mit den verschiedenen Array-Werkzeugen des ![](/images/Workbench_Draft.svg) [Draft-Arbeitsbereichs](/Draft_Workbench/de "Draft Workbench/de") erzeugt werden, z.B. ![](/images/Draft_OrthoArray.svg) [Draft Rechtwinklige Anordnung](/Draft_OrthoArray/de "Draft OrthoArray/de"), ![](/images/Draft_PolarArray.svg) [Draft Polare Anordnung](/Draft_PolarArray/de "Draft PolarArray/de"), and ![](/images/Draft_CircularArray.svg) [Draft Kreisanordnung](/Draft_CircularArray/de "Draft CircularArray/de").
 
-Im ![](/src/assets/images/Workbench_PartDesign.svg) [PartDesign Arbeitsbereich](/PartDesign_Workbench/de "PartDesign Workbench/de") sind Verknüpfungen zur Verwendung mit ![](/src/assets/images/PartDesign_Body.svg) [PartDesign Körper](/PartDesign_Body/de "PartDesign Body/de") vorgesehen. Es empfiehlt sich daher Ansicht**Display Mode Body** auf `Tip` zu setzen, um Eigenschaften des gesamten Körpers und nicht einzelner Eigenschaften auszuwählen. Um Muster interner [PartDesign Formelemente](/PartDesign_Feature/de "PartDesign Feature/de") zu erstellen, verwendet man ![](/src/assets/images/PartDesign_LinearPattern.svg) [PartDesign Lineares Muster](/PartDesign_LinearPattern/de "PartDesign LinearPattern/de"), ![](/src/assets/images/PartDesign_PolarPattern.svg) [PartDesign Polares Muster](/PartDesign_PolarPattern/de "PartDesign PolarPattern/de"), and ![](/src/assets/images/PartDesign_MultiTransform.svg) [PartDesign MultiTransform](/PartDesign_MultiTransform "PartDesign MultiTransform")
+Im ![](/images/Workbench_PartDesign.svg) [PartDesign Arbeitsbereich](/PartDesign_Workbench/de "PartDesign Workbench/de") sind Verknüpfungen zur Verwendung mit ![](/images/PartDesign_Body.svg) [PartDesign Körper](/PartDesign_Body/de "PartDesign Body/de") vorgesehen. Es empfiehlt sich daher Ansicht**Display Mode Body** auf `Tip` zu setzen, um Eigenschaften des gesamten Körpers und nicht einzelner Eigenschaften auszuwählen. Um Muster interner [PartDesign Formelemente](/PartDesign_Feature/de "PartDesign Feature/de") zu erstellen, verwendet man ![](/images/PartDesign_LinearPattern.svg) [PartDesign Lineares Muster](/PartDesign_LinearPattern/de "PartDesign LinearPattern/de"), ![](/images/PartDesign_PolarPattern.svg) [PartDesign Polares Muster](/PartDesign_PolarPattern/de "PartDesign PolarPattern/de"), and ![](/images/PartDesign_MultiTransform.svg) [PartDesign MultiTransform](/PartDesign_MultiTransform "PartDesign MultiTransform")
 
-![](/src/assets/images/Std_LinkMake.svg) Std LinkMake ist nicht für einen speziellen Arbeitsbereich vorgesehen, sondern für das grundlegende System. Deshalb kann es aus der **Strukturellen Werkzeugleiste** verwendet werden, die in allen [Arbeitsbereichen](/Workbenches/de "Workbenches/de") enthalten ist. Das Verknüpfungsobjekt (link object) zusammen mit ![](/src/assets/images/Std_Part.svg) [Std Teil](/Std_Part/de "Std Part/de") zur Gruppierung verschiedener Objekte, stellt die Grundlage der ![](/src/assets/images/Assembly3_workbench_icon.svg) [Arbeitsbereich Assembly3](/Assembly3_Workbench/de "Assembly3 Workbench/de") und ![](/src/assets/images/Assembly4_workbench_icon.svg) [Arbeitsbereich Assembly4](/Assembly4_Workbench/de "Assembly4 Workbench/de") Arbeitsbereiche dar.
+![](/images/Std_LinkMake.svg) Std LinkMake ist nicht für einen speziellen Arbeitsbereich vorgesehen, sondern für das grundlegende System. Deshalb kann es aus der **Strukturellen Werkzeugleiste** verwendet werden, die in allen [Arbeitsbereichen](/Workbenches/de "Workbenches/de") enthalten ist. Das Verknüpfungsobjekt (link object) zusammen mit ![](/images/Std_Part.svg) [Std Teil](/Std_Part/de "Std Part/de") zur Gruppierung verschiedener Objekte, stellt die Grundlage der ![](/images/Assembly3_workbench_icon.svg) [Arbeitsbereich Assembly3](/Assembly3_Workbench/de "Assembly3 Workbench/de") und ![](/images/Assembly4_workbench_icon.svg) [Arbeitsbereich Assembly4](/Assembly4_Workbench/de "Assembly4 Workbench/de") Arbeitsbereiche dar.
 
 ## Anwendung
 
 Mit Auswahl:
 
 1. Ein Objekt in der [Baumansicht](/Tree_view/de "Tree view/de") oder der [3D-Ansicht](/3D_view/de "3D view/de") auswählen, für das eine Verknüpfung erstellt werden soll.
-2. Die Schaltfläche ![](/src/assets/images/Std_LinkMake.svg) Verknüpfung erstellen drücken. Das erzeugte Objekt hat dasselbe Symbol wie das Originalobjekt, ist jedoch mit einem Pfeil überlagert, der darauf hinweist, dass es sich um eine Verknüpfung handelt.
+2. Die Schaltfläche ![](/images/Std_LinkMake.svg) Verknüpfung erstellen drücken. Das erzeugte Objekt hat dasselbe Symbol wie das Originalobjekt, ist jedoch mit einem Pfeil überlagert, der darauf hinweist, dass es sich um eine Verknüpfung handelt.
 
 Ohne Auswahl:
 
-1. Wenn kein Objekt ausgewählt wurde, wird durch das Drücken der Schaltfläche ![](/src/assets/images/Std_LinkMake.svg) Verknüpfung erstellen eine leere ![](/src/assets/images/Link.svg) Verknüpfung erstellt.
+1. Wenn kein Objekt ausgewählt wurde, wird durch das Drücken der Schaltfläche ![](/images/Std_LinkMake.svg) Verknüpfung erstellen eine leere ![](/images/Link.svg) Verknüpfung erstellt.
 2. Zum [Eigenschafteneditor](/Property_editor/de "Property editor/de") wechseln, dann auf die Daten-Eigenschaft**Linked Object** klicken, um den Dialog Link zu öffnen (siehe [Auswahlmethoden](/Selection_methods/de "Selection methods/de")) und ein Objekt auszuwählen, anschließend OK drücken.
-3. Anstatt ein komplettes Objekt in der [Baumansicht](/Tree_view/de "Tree view/de") auszuwählen, kann man auch Unterelemente (Knoten, Kanten oder Flächen) eines einzigen Objekts in der [3D-Ansicht](/3D_view/de "3D view/de") auswählen. In diesem Falle dupliziert die Verknüpfung nur diese Unterelemente und der überlagerte Pfeil sieht anders aus. Dies kann auch mit ![](/src/assets/images/Std_LinkMakeRelative.svg) [Unterverknüpfung erstellen](/Std_LinkMakeRelative/de "Std LinkMakeRelative/de") erreicht werden.
+3. Anstatt ein komplettes Objekt in der [Baumansicht](/Tree_view/de "Tree view/de") auszuwählen, kann man auch Unterelemente (Knoten, Kanten oder Flächen) eines einzigen Objekts in der [3D-Ansicht](/3D_view/de "3D view/de") auswählen. In diesem Falle dupliziert die Verknüpfung nur diese Unterelemente und der überlagerte Pfeil sieht anders aus. Dies kann auch mit ![](/images/Std_LinkMakeRelative.svg) [Unterverknüpfung erstellen](/Std_LinkMakeRelative/de "Std LinkMakeRelative/de") erreicht werden.
 
-![](/src/assets/images/Std_Link_tree_example.png) ![](/src/assets/images/Std_Link_example.png)
+![](/images/Std_Link_tree_example.png) ![](/images/Std_Link_example.png)
 
 (1) Ein Objekt, (2) eine leere Verknüpfung, (3) eine vollständige Verknüpfung zum ersten Objekt (mit überlagerndem Material) und (4) eine Verknüpfung nur mit einzelnen Unterelementen des Objektes. Die leere Verknüpfung ist nicht an das reale Objekt gebunden und wird daher nicht in der [3D Ansicht](/3D_view/de "3D view/de") angezeigt.
 
 ## Verwendung externer Dokumente
 
 1. Wir beginnen mit einem Dokument, das mindestens ein Objekt enthält, das die Quelle der Verknüpfung darstellt.
-2. Wir öffnen ein neues oder bereits existierendes Dokument. Zur Vereinfachung nutzen wir die Schaltfläche ![](/src/assets/images/Std_TreeMultiDocument.svg) [Std BaumMehrfachdokument](/Std_TreeMultiDocument/de "Std TreeMultiDocument/de"), um beide Dokumente in der [Baumansicht](/Tree_view/de "Tree view/de") anzuzeigen. Wir [Speichern](/Std_Save/de "Std Save/de") beide Dokumente, bevor wir weitergehen. Das Verknüpfungswerkzeug kann seine Quelle und sein Ziel nicht finden, wenn die Dokumente nicht gespeichert wurden.
+2. Wir öffnen ein neues oder bereits existierendes Dokument. Zur Vereinfachung nutzen wir die Schaltfläche ![](/images/Std_TreeMultiDocument.svg) [Std BaumMehrfachdokument](/Std_TreeMultiDocument/de "Std TreeMultiDocument/de"), um beide Dokumente in der [Baumansicht](/Tree_view/de "Tree view/de") anzuzeigen. Wir [Speichern](/Std_Save/de "Std Save/de") beide Dokumente, bevor wir weitergehen. Das Verknüpfungswerkzeug kann seine Quelle und sein Ziel nicht finden, wenn die Dokumente nicht gespeichert wurden.
 3. Im ersten Dokument wählen wir das Objekt, das wir verknüpfen wollen. Dann wählen wir den Reiter im [Hauptansichtsbereich](/Main_view_area/de "Main view area/de"), um zum zweiten Dokument zu wechseln.
-4. Nun die Schaltfläche ![](/src/assets/images/Std_LinkMake.svg) Std VerknüpfungErstellen anklicken. Das erstellte Ojekt hat dasselbe Icon, wie das Originalobjekt, hat aber einen zusätzlichen, überlagernden Pfeil, der es als Verknüpfung aus einem externen Dokument anzeigt.
+4. Nun die Schaltfläche ![](/images/Std_LinkMake.svg) Std VerknüpfungErstellen anklicken. Das erstellte Ojekt hat dasselbe Icon, wie das Originalobjekt, hat aber einen zusätzlichen, überlagernden Pfeil, der es als Verknüpfung aus einem externen Dokument anzeigt.
 
 _Hinweise:_
 
 - Wenn das Dokument mit der Verknüpfung gespeichert wird, wird ebenfalls gebeten, das Quelldokument mit dem Originalobjekt zu [Std Speichern](/Std_Save/de "Std Save/de").
-- Um das Originalobjekt in das Dokument mit der Verknüpfung einzufügen, betätigen wir die Schaltfläche ![](/src/assets/images/Std_LinkImport.svg) [Std VerknüpfungImportieren](/Std_LinkImport/de "Std LinkImport/de") oder ![](/src/assets/images/Std_LinkImportAll.svg) [Std AlleVerknüpfungenImportieren](/Std_LinkImportAll/de "Std LinkImportAll/de").
-- Die Schaltfläche ![](/src/assets/images/Std_LinkMake.svg) Std VerknüpfungErstellen kann auf eine existierende Verknüpfung angewendet werden, um eine Verknüpfung auf eine Verknüpfung zu erstellen, die sich letztendlich in eine Verknüpfung auf das Originalobjekt im Quelldokument auflöst. Das kann auch mit der Schaltfläche ![](/src/assets/images/Std_LinkMakeRelative.svg) [Std UnterverknüpfungErstellen](/Std_LinkMakeRelative "Std LinkMakeRelative") verwendet werden, um nur einzelne Unterelemente zu verknüpfen.
+- Um das Originalobjekt in das Dokument mit der Verknüpfung einzufügen, betätigen wir die Schaltfläche ![](/images/Std_LinkImport.svg) [Std VerknüpfungImportieren](/Std_LinkImport/de "Std LinkImport/de") oder ![](/images/Std_LinkImportAll.svg) [Std AlleVerknüpfungenImportieren](/Std_LinkImportAll/de "Std LinkImportAll/de").
+- Die Schaltfläche ![](/images/Std_LinkMake.svg) Std VerknüpfungErstellen kann auf eine existierende Verknüpfung angewendet werden, um eine Verknüpfung auf eine Verknüpfung zu erstellen, die sich letztendlich in eine Verknüpfung auf das Originalobjekt im Quelldokument auflöst. Das kann auch mit der Schaltfläche ![](/images/Std_LinkMakeRelative.svg) [Std UnterverknüpfungErstellen](/Std_LinkMakeRelative "Std LinkMakeRelative") verwendet werden, um nur einzelne Unterelemente zu verknüpfen.
 
-![](/src/assets/images/Std_Link_tree_documents_example.png) ![](/src/assets/images/Std_Link_documents_example.png)
+![](/images/Std_Link_tree_documents_example.png) ![](/images/Std_Link_documents_example.png)
 
 (1, 2) Zwei Objekte eines Quelldokumentes verknüpft mit einem Zieldokument, (3) eine Verknüpfung auf eine zweite Verknüpfung (mit überlagerndem Material) und (4) eine Verknüpfung zu einem Unterelement der zweiten Verknüpfung.
 
@@ -77,21 +77,21 @@ Ziehen und Loslassen mit den Zusatztasten Ctrl und Alt kann auch in einem einzel
 
 ## Gruppen
 
-![](/src/assets/images/Std_LinkMake.svg) Std VerknüpfungErstellen kann auf ![](/src/assets/images/Std_Part.svg) [Standard Teil](/Std_Part/de "Std Part/de") angewendet werden, um schnell Objektgruppen im Raum zu vervielfältigen, wie z.B. [Zusammenbauten](/Assembly "Assembly").
+![](/images/Std_LinkMake.svg) Std VerknüpfungErstellen kann auf ![](/images/Std_Part.svg) [Standard Teil](/Std_Part/de "Std Part/de") angewendet werden, um schnell Objektgruppen im Raum zu vervielfältigen, wie z.B. [Zusammenbauten](/Assembly "Assembly").
 
-![](/src/assets/images/Std_Link_tree_Std_Part_example.png)
+![](/images/Std_Link_tree_Std_Part_example.png)
 
 Eine Verknüpfung, die aus einem [Standard Teil](/Std_Part/de "Std Part/de") erstellt wurde. Die Objekte wurden nicht kopiert, sondern sie werden unter der Originalgruppierung und unter der verknüpften Gruppierung angezeigt.
 
-Ein normale ![](/src/assets/images/Std_Group.svg) [Std Gruppe](/Std_Group/de "Std Group/de") besitzt keine Daten**Positionierungs**-Eigenschaft. Daher kann es die Position der Objekte darin nicht steuern. Wenn jedoch ![](/src/assets/images/Std_LinkMake.svg) Std VerknüpfungErstellen mit ![](/src/assets/images/Std_Group.svg) [Std Gruppe](/Std_Group/de "Std Group/de") verwendet wird, verhält sich die daraus entstandene Verknüpfung wie ein ![](/src/assets/images/Std_Part.svg) [Standard Teil](/Std_Part/de "Std Part/de") und kann ebenso im Raum bewegt werden.
+Ein normale ![](/images/Std_Group.svg) [Std Gruppe](/Std_Group/de "Std Group/de") besitzt keine Daten**Positionierungs**-Eigenschaft. Daher kann es die Position der Objekte darin nicht steuern. Wenn jedoch ![](/images/Std_LinkMake.svg) Std VerknüpfungErstellen mit ![](/images/Std_Group.svg) [Std Gruppe](/Std_Group/de "Std Group/de") verwendet wird, verhält sich die daraus entstandene Verknüpfung wie ein ![](/images/Std_Part.svg) [Standard Teil](/Std_Part/de "Std Part/de") und kann ebenso im Raum bewegt werden.
 
-![](/src/assets/images/Std_Link_tree_Std_Group_example.png) ![](/src/assets/images/Std_Link_Std_Group_example.png)
+![](/images/Std_Link_tree_Std_Group_example.png) ![](/images/Std_Link_Std_Group_example.png)
 
 Eine Verknüpfung, erstellt aus [Std Grupppe](/Std_Group/de "Std Group/de"); die Objekte sind nicht vervielfältigt, werden aber sowohl im Ursprungsbehälter als auch im verknüpften Behälter angezeigt. Die Verknüpfung (mit überlagerndem Material) kann im Raum bewegt werden, ebenso wie [Standardd Teil](/Std_Part/de "Std Part/de").
 
-Eine Verknüpfung auf ein ![](/src/assets/images/Std_Part.svg) [Standard Teil](/Std_Part/de "Std Part/de") hält die Sichtbarkeit der Objekte synchron zum Originalteil. Wird also ein Objekt in einer Verknüpfung verborgen, so wird es in allen dazugehörigen Verknüpfungen und dem Originalteil verborgen. Dem gegenüber erlaubt eine Verknüpfung auf eine ![](/src/assets/images/Std_Group.svg) [Std Gruppe](/Std_Group/de "Std Group/de") unabhängige Kontrolle auf die Sichtbarkeit.
+Eine Verknüpfung auf ein ![](/images/Std_Part.svg) [Standard Teil](/Std_Part/de "Std Part/de") hält die Sichtbarkeit der Objekte synchron zum Originalteil. Wird also ein Objekt in einer Verknüpfung verborgen, so wird es in allen dazugehörigen Verknüpfungen und dem Originalteil verborgen. Dem gegenüber erlaubt eine Verknüpfung auf eine ![](/images/Std_Group.svg) [Std Gruppe](/Std_Group/de "Std Group/de") unabhängige Kontrolle auf die Sichtbarkeit.
 
-![](/src/assets/images/Std_Link_tree_Std_Part_visibility.png) ![](/src/assets/images/Std_Link_tree_Std_Group_visibility.png)
+![](/images/Std_Link_tree_Std_Part_visibility.png) ![](/images/Std_Link_tree_Std_Group_visibility.png)
 
 Links: ein [Standard Teil](/Std_Part/de "Std Part/de") mit zwei Objekten und zwei Verknüpfungen auf das Teil; die Sichtbarkeit der Objekte ist synchron. Rechts: [Std Gruppe](/Std_Group/de "Std Group/de") mit zwei Objekten und zwei Verknüpfungen auf die Gruppe; die Sichtbarkeit der Objekte ist unabhängig in jeder Gruppe einstellbar.
 
@@ -110,7 +110,7 @@ Unabhängig vom Status der Eigenschaft Ansicht**Override Material** ist es mögl
 
 _Hinweis:_ da in Version v0.19 die Färbung der Unterelemente Teil des [Topologisches Benennungsproblems](/Topological_naming_problem/de "Topological naming problem/de") ist, sollte dies der letzte Schritt der Gestaltung des Models sein, wenn nichts mehr am Modell geändert werden soll.
 
-![](/src/assets/images/Std_Link_override_color_example.png)
+![](/images/Std_Link_override_color_example.png)
 
 (1) das Original, (2) eine Verknüpfung mit überlagerndem Material und (3) eine weitere Verknüpfung mit individuell angepaßten Unterelementen.
 
@@ -124,13 +124,13 @@ Wenn, wie voreingestellt die Eigenschaft Daten**Show Element** `true` ist und de
 
 In gleicher Weise kann die Erscheinung jedes Elementes des Musters verändert werden, entweder über die Eigenschaften Ansicht**Override Material** und Ansicht**Shape Material** oder über das Menü **Override colors** auf das ganze Muster und anschließender Wahl einzelner Oberflächen. Das ist in [Darstellung der Überlagerung](#Overriding_appearance) beschrieben.
 
-![](/src/assets/images/Std_Link_tree_array_example.png) ![](/src/assets/images/Std_Link_array_example.png)
+![](/images/Std_Link_tree_array_example.png) ![](/images/Std_Link_array_example.png)
 
 (1) das Original und (2, 3, 4) ein Muster mit drei Verknüpfungen als deren Elemente, jede in einer anderen Position. Die erste Verknüpfung hat ein überlagerndes Material und transparente Oberflächen. Die beiden anderen haben selbst geänderte Oberflächenfarben.
 
 Wenn Position und Eigenschaften der Verküpfungen im Muster passen, kann die Eigenschaft Daten**Show Element** auf `false` gesetzt werden, um die einzelnen Verknüpfungen in der [Baumansicht](/Tree_view/de "Tree view/de") auszublenden. Dadurch reagiert das System schneller, vor allem, wenn es viele Objekte im Dokument gibt.
 
-Bei diesem Muster mit Verknüpfungen muß jedes Element manuell positioniert werden. Soll aber ein spezielles Muster der Verknüpfungen entstehen, können die Werkzeuge des ![](/src/assets/images/Workbench_Draft.svg) [Arbeitsbereiches Draft](/Draft_Workbench/de "Draft Workbench/de"), wie ![](/src/assets/images/Draft_OrthoArray.svg) [Draft RechtwinkligeAnordnung](/Draft_OrthoArray/de "Draft OrthoArray/de"), ![](/src/assets/images/Draft_PolarArray.svg) [Draft PolareAnordnung](/Draft_PolarArray/de "Draft PolarArray/de") und ![](/src/assets/images/Draft_CircularArray.svg) [Draft KreisAnordnung](/Draft_CircularArray/de "Draft CircularArray/de") verwendet werden. Diese Anweisungen erstellen normale Kopien oder Kopien der Verknüpfungen, abhängig von den eingestellten Optionen während der Erstellung.
+Bei diesem Muster mit Verknüpfungen muß jedes Element manuell positioniert werden. Soll aber ein spezielles Muster der Verknüpfungen entstehen, können die Werkzeuge des ![](/images/Workbench_Draft.svg) [Arbeitsbereiches Draft](/Draft_Workbench/de "Draft Workbench/de"), wie ![](/images/Draft_OrthoArray.svg) [Draft RechtwinkligeAnordnung](/Draft_OrthoArray/de "Draft OrthoArray/de"), ![](/images/Draft_PolarArray.svg) [Draft PolareAnordnung](/Draft_PolarArray/de "Draft PolarArray/de") und ![](/images/Draft_CircularArray.svg) [Draft KreisAnordnung](/Draft_CircularArray/de "Draft CircularArray/de") verwendet werden. Diese Anweisungen erstellen normale Kopien oder Kopien der Verknüpfungen, abhängig von den eingestellten Optionen während der Erstellung.
 
 ## Sichtbarkeit
 
@@ -140,18 +140,18 @@ Ein anderer Weg einzelne Elemente zu verbergen ist die Verwendung des **Override
 
 1. Das Muster wählen und mit einem Rechtsklick das **Override colors**-Menü öffnen.
 2. In der [3D Ansicht](/3D_view/de "3D view/de") ein Unterelement einer Verknüpfung im Musters anklicken.
-3. Die Schaltfläche Hide klicken. Ein Icon eines Auges ![](/src/assets/images/Invisible.svg) erscheint und zeigt an, daß dieses Element in der [3D Ansicht](/3D_view/de "3D view/de") verborgen ist. Das Element wird kurz angezeigt, wenn der Cursor über das Icon ![](/src/assets/images/Invisible.svg) gezogen wird.
+3. Die Schaltfläche Hide klicken. Ein Icon eines Auges ![](/images/Invisible.svg) erscheint und zeigt an, daß dieses Element in der [3D Ansicht](/3D_view/de "3D view/de") verborgen ist. Das Element wird kurz angezeigt, wenn der Cursor über das Icon ![](/images/Invisible.svg) gezogen wird.
 4. Mit einem Klick auf die Schaltfläche OK wird die Ausführung bestätigt und der Vorgang verlassen. Die Verknüpfung bleibt verborgen, auch wenn sie in der [Baumansicht](/Tree_view/de "Tree view/de") als sichtbar angezeigt wird.
 
-![](/src/assets/images/Std_Link_array_visibility_example.png)
+![](/images/Std_Link_array_visibility_example.png)
 
 Die Elementenfarbwahl zeigt sich beim Öffnen des Kontextmenüs zu einer Verknüpfung in der Baumansicht.
 
 Soll die Sichtbarkeit des Elementes in einem Muster wiederhergestellt werden, dann muß das Kontextmenü wieder geöffnet werden und das Augenicon angeklickt werden. Danach auf die Schaltfläche Remove klicken, um das Verbergen abzuschalten, und auf die Schaltfläche OK klicken, um den Vorgang zu bestätigen und zu abzuschließen. Das Element zeigt sich in der [3D Anischt](/3D_view/de "3D view/de") wieder.
 
-Weist die Verknüpfung auf ein ![](/src/assets/images/Std_Part.svg) [Standard Teil](/Std_Part/de "Std Part/de") oder eine ![](/src/assets/images/Std_Group.svg) [Std Gruppe](/Std_Group/de "Std Group/de"), verhält sich das **Override colors**-Menü ähnlich zu den Mustern. Es ermöglicht die Einstellung einer Oberflächenfarbe, der Farbe des ganzen Objektes und die Sichtbarkeit des Objektes in der Gruppe.
+Weist die Verknüpfung auf ein ![](/images/Std_Part.svg) [Standard Teil](/Std_Part/de "Std Part/de") oder eine ![](/images/Std_Group.svg) [Std Gruppe](/Std_Group/de "Std Group/de"), verhält sich das **Override colors**-Menü ähnlich zu den Mustern. Es ermöglicht die Einstellung einer Oberflächenfarbe, der Farbe des ganzen Objektes und die Sichtbarkeit des Objektes in der Gruppe.
 
-![](/src/assets/images/Std_Link_Std_Part_visibility_example.png) ![](/src/assets/images/Std_Link_Std_Part_visibility_example_3D.png)
+![](/images/Std_Link_Std_Part_visibility_example.png) ![](/images/Std_Link_Std_Part_visibility_example_3D.png)
 
 Ein [Standard Teil](/Std_Part/de "Std Part/de") enthält drei Objekte und eine Verknüpfung zu diesem Teil. In der Verknüpfung (1) ist das erste Objekt unsichtbar. (2) das zweite Objekt hat einige Unterelemente mit unterschiedlichen Farben. (3) das ganze dritte Objekt hat unterschiedliche Farben und einen gewissen Grad an Transparenz.
 
@@ -179,7 +179,7 @@ Link
 - Daten (Hidden, LockDynamic)**LinkCopyOnChangeTouched** (`Bool`): Indicating the copy on change source object has been changed
 - Daten (LockDynamic)**LinkExecute** (`String`): name of the execute function that will run for this particular Link object. It defaults to `'appLinkExecute'`. Set it to `'None'` to disable it.
 - Daten (Hidden, LockDynamic)**Link Placement** (`Placement`): it is an offset applied on top of the Daten**Placement** of the Daten**Linked Object**. This property is normally hidden but appears if Daten**Link Transform** is set to `true`; in this case, Daten**Placement** now becomes hidden.
-- Daten**Link Transform** (`Bool`): it defaults to `false`, in which case the Link will override the Daten**Linked Object'**s own placement. If it is set to `true`, the Link will be placed in the same position as the Daten**Linked Object**, and its placement will be relative to the Daten**Linked Object'**s placement. This can also be achieved with ![](/src/assets/images/Std_LinkMakeRelative.svg) [Std LinkMakeRelative](/Std_LinkMakeRelative "Std LinkMakeRelative").
+- Daten**Link Transform** (`Bool`): it defaults to `false`, in which case the Link will override the Daten**Linked Object'**s own placement. If it is set to `true`, the Link will be placed in the same position as the Daten**Linked Object**, and its placement will be relative to the Daten**Linked Object'**s placement. This can also be achieved with ![](/images/Std_LinkMakeRelative.svg) [Std LinkMakeRelative](/Std_LinkMakeRelative "Std LinkMakeRelative").
 - Daten**Linked Object** (`XLink`): it indicates the source object of the [App Link](/App_Link "App Link"); this can be an entire object, or a subelement of it (vertex, edge, or face).
 - Daten**Placement** (`Placement`): the placement of the Link in absolute coordinates.
 - Daten (LockDynamic)**PlacementList** (`PlacementList`): The placement for each Link element
@@ -239,7 +239,7 @@ Es zeigt zusätzlich die Ansichtseigenschaften des ursprünglichen Daten**Linked
 
 An [App Link](/App_Link "App Link") is formally an instance of the class `App::Link`, whose parent is the basic [App DocumentObject](/App_DocumentObject "App DocumentObject") (`App::DocumentObject` class). It is a very low level object, which can be used with most other document objects.
 
-![](/src/assets/images/FreeCAD_core_objects.svg)
+![](/images/FreeCAD_core_objects.svg)
 
 Simplified diagram of the relationships between the core objects in the program. The `App::Link` object is a core component of the system, it does not depend on any workbench, but it can be used with most objects created in all workbenches.
 

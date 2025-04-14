@@ -30,7 +30,7 @@ title: Tragflächenprofil
 
 **AeroFoil** (Tragflächenprofil) ist ein vom Anwender erstelltes Makro, das innerhalb der FreeCAD-Anwendung verwendet werden kann. AeroFoil erstellt Tragflächenkurven und -flächen unter Verwendung vordefinierter Modelle, algebraischer Funktionen sowie importierter DAT- oder CSV-Dateien.
 
-![](/src/assets/images/AeroFoil-reduced.png)    Dies ist das **Tragflächenprofil Makro** Symbol.
+![](/images/AeroFoil-reduced.png)    Dies ist das **Tragflächenprofil Makro** Symbol.
 
 Das AeroFoil Makro kann über den integrierten [Erweiterungsverwalter](/Std_AddonMgr/de "Std AddonMgr/de") innerhalb der FreeCAD Software heruntergeladen werden.
 
@@ -61,11 +61,11 @@ Base
 - Daten**Design Curve Type** (`String`)
 - Daten**Number Of Points** (`Integer`)
 
-[![AeroFoil-output-types.gif](/src/assets/images/9/94/AeroFoil-output-types.gif)](/File:AeroFoil-output-types.gif)
+[![AeroFoil-output-types.gif](/images/9/94/AeroFoil-output-types.gif)](/File:AeroFoil-output-types.gif)
 
 **Caption : AeroFoil Macro Output Types**
 
-[![AeroFoil-input-types.gif](/src/assets/images/0/0a/AeroFoil-input-types.gif)](/File:AeroFoil-input-types.gif)
+[![AeroFoil-input-types.gif](/images/0/0a/AeroFoil-input-types.gif)](/File:AeroFoil-input-types.gif)
 
 **Caption : AeroFoil Macro Input Types**
 
@@ -155,7 +155,7 @@ Once the AeroFoil macro has been loaded, follow the instructions in the respecti
 11. Increasing the **refine** and **quantity** parameters increases the computation time and resources.
 12. Absolute chord length, in millimetres, cannot be less than **1mm**.
 
-[![AeroFoil-preset-functions.png](/src/assets/images/a/a4/AeroFoil-preset-functions.png)](/File:AeroFoil-preset-functions.png)
+[![AeroFoil-preset-functions.png](/images/a/a4/AeroFoil-preset-functions.png)](/File:AeroFoil-preset-functions.png)
 
 **Caption : Preset Characters and Functions**
 

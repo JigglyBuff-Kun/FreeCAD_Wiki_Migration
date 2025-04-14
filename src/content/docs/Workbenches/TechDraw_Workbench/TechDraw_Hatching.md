@@ -6,12 +6,12 @@ title: TechDraw Hatching
 
 The TechDraw workbench includes two hatching tools:
 
-- ![](/src/assets/images/TechDraw_Hatch.svg) [TechDraw Hatch](/TechDraw_Hatch "TechDraw Hatch") (based on tiled SVG or bitmap images)
-- ![](/src/assets/images/TechDraw_GeometricHatch.svg) [TechDraw GeometricHatch](/TechDraw_GeometricHatch "TechDraw GeometricHatch") (line based)
+- ![](/images/TechDraw_Hatch.svg) [TechDraw Hatch](/TechDraw_Hatch "TechDraw Hatch") (based on tiled SVG or bitmap images)
+- ![](/images/TechDraw_GeometricHatch.svg) [TechDraw GeometricHatch](/TechDraw_GeometricHatch "TechDraw GeometricHatch") (line based)
 
 ## Image based hatch
 
-![](/src/assets/images/TechDraw_Hatch.svg) [TechDraw Hatch](/TechDraw_Hatch "TechDraw Hatch") uses tiled [SVG](/SVG "SVG") or bitmap ([introduced in 0.21](/Release_notes_0.21 "Release notes 0.21")) images to cover the selected Face. The origin of the tiling grid will match the geometric center of the face.
+![](/images/TechDraw_Hatch.svg) [TechDraw Hatch](/TechDraw_Hatch "TechDraw Hatch") uses tiled [SVG](/SVG "SVG") or bitmap ([introduced in 0.21](/Release_notes_0.21 "Release notes 0.21")) images to cover the selected Face. The origin of the tiling grid will match the geometric center of the face.
 
 [SVG](/SVG "SVG") tiles are typically **64x64** pixel images. All pattern files that come with FreeCAD are available on [GitHub](https://github.com/FreeCAD/FreeCAD/tree/master/src/Mod/TechDraw/Patterns).
 
@@ -21,105 +21,105 @@ The default hatch pattern file can be specified in the [TechDraw Preferences](/T
 
 ### Available SVG patterns
 
-- ![aluminium](/src/assets/images/Aluminium.svg)
+- ![aluminium](/images/Aluminium.svg)
 
   aluminium
 
-- ![brick01](/src/assets/images/Brick01.svg)
+- ![brick01](/images/Brick01.svg)
 
   brick01
 
-- ![concrete](/src/assets/images/Concrete.svg)
+- ![concrete](/images/Concrete.svg)
 
   concrete
 
-- ![cross](/src/assets/images/Cross.svg)
+- ![cross](/images/Cross.svg)
 
   cross
 
-- ![cuprous](/src/assets/images/Cuprous.svg)
+- ![cuprous](/images/Cuprous.svg)
 
   cuprous
 
-- ![diagonal1](/src/assets/images/Diagonal1.svg)
+- ![diagonal1](/images/Diagonal1.svg)
 
   diagonal1
 
-- ![diagonal2](/src/assets/images/Diagonal2.svg)
+- ![diagonal2](/images/Diagonal2.svg)
 
   diagonal2
 
-- ![earth](/src/assets/images/Earth.svg)
+- ![earth](/images/Earth.svg)
 
   earth
 
-- ![general_steel](/src/assets/images/General_steel.svg)
+- ![general_steel](/images/General_steel.svg)
 
   general_steel
 
-- ![glass](/src/assets/images/Glass.svg)
+- ![glass](/images/Glass.svg)
 
   glass
 
-- ![hatch45L](/src/assets/images/Hatch45L.svg)
+- ![hatch45L](/images/Hatch45L.svg)
 
   hatch45L
 
-- ![hatch45R](/src/assets/images/Hatch45R.svg)
+- ![hatch45R](/images/Hatch45R.svg)
 
   hatch45R
 
-- ![hbone](/src/assets/images/Hbone.svg)
+- ![hbone](/images/Hbone.svg)
 
   hbone
 
-- ![line](/src/assets/images/Line.svg)
+- ![line](/images/Line.svg)
 
   line
 
-- ![plastic](/src/assets/images/Plastic.svg)
+- ![plastic](/images/Plastic.svg)
 
   plastic
 
-- ![plus](/src/assets/images/Plus.svg)
+- ![plus](/images/Plus.svg)
 
   plus
 
-- ![simple](/src/assets/images/Simple.svg)
+- ![simple](/images/Simple.svg)
 
   simple
 
-- ![solid](/src/assets/images/Solid.svg)
+- ![solid](/images/Solid.svg)
 
   solid
 
-- ![square](/src/assets/images/Square.svg)
+- ![square](/images/Square.svg)
 
   square
 
-- ![steel](/src/assets/images/Steel.svg)
+- ![steel](/images/Steel.svg)
 
   steel
 
-- ![titanium](/src/assets/images/Titanium.svg)
+- ![titanium](/images/Titanium.svg)
 
   titanium
 
-- ![wood](/src/assets/images/Wood.svg)
+- ![wood](/images/Wood.svg)
 
   wood
 
-- ![woodgrain](/src/assets/images/Woodgrain.svg)
+- ![woodgrain](/images/Woodgrain.svg)
 
   woodgrain
 
-- ![zinc](/src/assets/images/Zinc.svg)
+- ![zinc](/images/Zinc.svg)
 
   zinc
 
 ## Geometric hatch
 
-![](/src/assets/images/TechDraw_GeometricHatch.svg) [TechDraw GeometricHatch](/TechDraw_GeometricHatch "TechDraw GeometricHatch") forms a pattern of lines based on a specification read from a file. This file is generally compatible with the widely used AutoDesk® PAT format. A small selection of patterns is included in the FCPAT.pat file:
+![](/images/TechDraw_GeometricHatch.svg) [TechDraw GeometricHatch](/TechDraw_GeometricHatch "TechDraw GeometricHatch") forms a pattern of lines based on a specification read from a file. This file is generally compatible with the widely used AutoDesk® PAT format. A small selection of patterns is included in the FCPAT.pat file:
 
 ```
 ; standard PAT patterns

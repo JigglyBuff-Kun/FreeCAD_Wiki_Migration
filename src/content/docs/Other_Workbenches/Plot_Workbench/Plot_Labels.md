@@ -21,13 +21,13 @@ title: Plot Labels
 
 This tool allows the user to edit the title and axes labels, as well as their font sizes.
 
-![](/src/assets/images/Plot_MultiAxes_Example.png)
+![](/images/Plot_MultiAxes_Example.png)
 
 ## Usage
 
 Select the plot tab that you want to edit, and run this tool. In case of multi-axes plots you can select the set of axes to be edited
 
-![Plot axes selector](/src/assets/images/Plot_Axes_Active.png)
+![Plot axes selector](/images/Plot_Axes_Active.png)
 
 Selector for the set of axes to de edited
 

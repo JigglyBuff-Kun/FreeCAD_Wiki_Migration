@@ -19,16 +19,16 @@ title: Sketcher NewSketch
 
 ## Description
 
-The ![](/src/assets/images/Sketcher_NewSketch.svg) [Sketcher NewSketch](/Sketcher_NewSketch "Sketcher NewSketch") tool creates a new sketch and opens the [Sketcher Dialog](/Sketcher_Dialog "Sketcher Dialog") to edit it.
+The ![](/images/Sketcher_NewSketch.svg) [Sketcher NewSketch](/Sketcher_NewSketch "Sketcher NewSketch") tool creates a new sketch and opens the [Sketcher Dialog](/Sketcher_Dialog "Sketcher Dialog") to edit it.
 
-Note that the ![](/src/assets/images/Workbench_PartDesign.svg) [PartDesign Workbench](/PartDesign_Workbench "PartDesign Workbench") has its own [new sketch](/PartDesign_NewSketch "PartDesign NewSketch") tool. When working on a [PartDesign Body](/PartDesign_Body "PartDesign Body") that tool should be used instead.
+Note that the ![](/images/Workbench_PartDesign.svg) [PartDesign Workbench](/PartDesign_Workbench "PartDesign Workbench") has its own [new sketch](/PartDesign_NewSketch "PartDesign NewSketch") tool. When working on a [PartDesign Body](/PartDesign_Body "PartDesign Body") that tool should be used instead.
 
 ## Usage
 
 1. If the sketch should be [attached](/Part_EditAttachment "Part EditAttachment") to existing geometry: select an object with a shape, or one or more vertices, edges, and/or faces, and/or a plane.
 2. There are several ways to invoke the tool:
-   - Press the ![](/src/assets/images/Sketcher_NewSketch.svg) [Create sketch](/Sketcher_NewSketch "Sketcher NewSketch") button.
-   - Select the **Sketch → ![](/src/assets/images/Sketcher_NewSketch.svg) Create sketch** option from the menu.
+   - Press the ![](/images/Sketcher_NewSketch.svg) [Create sketch](/Sketcher_NewSketch "Sketcher NewSketch") button.
+   - Select the **Sketch → ![](/images/Sketcher_NewSketch.svg) Create sketch** option from the menu.
 3. If geometry has been selected:
    1. The **Sketch attachment** dialog opens.
    2. Select an [attachment method](/Part_EditAttachment#Attachment_modes "Part EditAttachment") from the dropdown list. Or select **Don't attach** to ignore the selection.
@@ -48,7 +48,7 @@ Note that the ![](/src/assets/images/Workbench_PartDesign.svg) [PartDesign Workb
    4. Press the OK button.
 5. A sketch is created.
 6. The sketch is put in edit mode and the [Sketcher Dialog](/Sketcher_Dialog "Sketcher Dialog") opens.
-7. To finish edit mode see ![](/src/assets/images/Sketcher_LeaveSketch.svg) [Sketcher LeaveSketch](/Sketcher_LeaveSketch "Sketcher LeaveSketch").
+7. To finish edit mode see ![](/images/Sketcher_LeaveSketch.svg) [Sketcher LeaveSketch](/Sketcher_LeaveSketch "Sketcher LeaveSketch").
 
 ## Notes
 

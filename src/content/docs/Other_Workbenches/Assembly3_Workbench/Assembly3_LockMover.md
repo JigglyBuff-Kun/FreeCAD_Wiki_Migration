@@ -23,15 +23,15 @@ This documentation is not finished. Please help and contribute documentation.Gui
 
 ## Description
 
-The ![](/src/assets/images/Assembly_LockMover.svg) [Lock mover](/Assembly3_LockMover "Assembly3 LockMover") command is a toggle that prevents parts from being moved if they are fixed with a ![](/src/assets/images/Assembly_ConstraintLock.svg) [Locked](/Assembly3_ConstraintLock "Assembly3 ConstraintLock") constraint.
+The ![](/images/Assembly_LockMover.svg) [Lock mover](/Assembly3_LockMover "Assembly3 LockMover") command is a toggle that prevents parts from being moved if they are fixed with a ![](/images/Assembly_ConstraintLock.svg) [Locked](/Assembly3_ConstraintLock "Assembly3 ConstraintLock") constraint.
 
-When activated, none of the mover commands ![](/src/assets/images/Assembly_Move.svg) [Move part](/Assembly3_MovePart "Assembly3 MovePart"), ![](/src/assets/images/Assembly_AxialMove.svg) [Axial move](/Assembly3_AxialMove "Assembly3 AxialMove"), or ![](/src/assets/images/Assembly_QuickMove.svg) [Quick move](/Assembly3_QuickMove "Assembly3 QuickMove") can be selected as long as the current selection contains a fixed object. This seems not to apply to 2D geometry (see [Notes](#Notes)).
+When activated, none of the mover commands ![](/images/Assembly_Move.svg) [Move part](/Assembly3_MovePart "Assembly3 MovePart"), ![](/images/Assembly_AxialMove.svg) [Axial move](/Assembly3_AxialMove "Assembly3 AxialMove"), or ![](/images/Assembly_QuickMove.svg) [Quick move](/Assembly3_QuickMove "Assembly3 QuickMove") can be selected as long as the current selection contains a fixed object. This seems not to apply to 2D geometry (see [Notes](#Notes)).
 
 ## Usage
 
-1. Activate the ![](/src/assets/images/Assembly_LockMover.svg) **Lock mover** command using one of the following:
-   - The ![](/src/assets/images/Assembly_LockMover.svg) [Lock mover](/Assembly3_LockMover "Assembly3 LockMover") button.
-   - The **Assembly3 → ![](/src/assets/images/Assembly_LockMover.svg) Lock mover** menu option.
+1. Activate the ![](/images/Assembly_LockMover.svg) **Lock mover** command using one of the following:
+   - The ![](/images/Assembly_LockMover.svg) [Lock mover](/Assembly3_LockMover "Assembly3 LockMover") button.
+   - The **Assembly3 → ![](/images/Assembly_LockMover.svg) Lock mover** menu option.
 
 ## Notes
 

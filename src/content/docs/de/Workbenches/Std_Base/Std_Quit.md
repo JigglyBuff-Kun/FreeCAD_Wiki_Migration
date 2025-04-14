@@ -24,7 +24,7 @@ Der Befehl **Std Beenden** schließt das Programm FreeCAD und speichert bei Beda
 ## Anwendung
 
 1. Es gibt mehrere Möglichkeiten den Befehl aufzurufen:
-   - Menüeintrag **Datei → ![](/src/assets/images/Std_Quit.svg) Exit** auswählen.
+   - Menüeintrag **Datei → ![](/images/Std_Quit.svg) Exit** auswählen.
    - Das Tastaturkürzel Alt+F4.
 2. Wenn ungesicherte Dokumente vorhanden sind erscheint ein Dialogfeld mit der Aufforderung sie zu speichern:
    - Die Schaltfläche Speichern drücken, um das aktive Dokument zu speichern. Wenn nötig, vorher einen Dateinamen eingeben.

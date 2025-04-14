@@ -19,12 +19,12 @@ title: CAM DressupPathBoundary
 
 ## Description
 
-The tool ![](/src/assets/images/CAM_DressupPathBoundary.svg) [DressupPathBoundary](/CAM_DressupPathBoundary "CAM DressupPathBoundary") allows restricting the extent of a path to a smaller part of the object. For example, restricting a profile path to just one face or part of the model.
+The tool ![](/images/CAM_DressupPathBoundary.svg) [DressupPathBoundary](/CAM_DressupPathBoundary "CAM DressupPathBoundary") allows restricting the extent of a path to a smaller part of the object. For example, restricting a profile path to just one face or part of the model.
 
 ## Usage
 
 1. Select a path such as contour, profile or pocket operation.
-2. Select the **CAM → Path Dressup → ![](/src/assets/images/CAM_DressupPathBoundary.svg) Boundary** option from the menu.
+2. Select the **CAM → Path Dressup → ![](/images/CAM_DressupPathBoundary.svg) Boundary** option from the menu.
 
 ## Options
 

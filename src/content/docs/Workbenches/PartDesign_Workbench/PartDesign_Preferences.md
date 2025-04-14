@@ -4,7 +4,7 @@ title: PartDesign Preferences
 
 ## Introduction
 
-The ![](/src/assets/images/Workbench_Part.svg) [Part Workbench](/Part_Workbench "Part Workbench") and the ![](/src/assets/images/Workbench_PartDesign.svg) [PartDesign Workbench](/PartDesign_Workbench "PartDesign Workbench") use the same preferences. They can be found in the [Preferences Editor](/Preferences_Editor "Preferences Editor"). In the menu select **Edit → Preferences...** and then **![](/src/assets/images/Preferences-part_design.svg) Part/Part Design**. This group is only available if one of the workbenches has been loaded in the current FreeCAD session.
+The ![](/images/Workbench_Part.svg) [Part Workbench](/Part_Workbench "Part Workbench") and the ![](/images/Workbench_PartDesign.svg) [PartDesign Workbench](/PartDesign_Workbench "PartDesign Workbench") use the same preferences. They can be found in the [Preferences Editor](/Preferences_Editor "Preferences Editor"). In the menu select **Edit → Preferences...** and then **![](/images/Preferences-part_design.svg) Part/Part Design**. This group is only available if one of the workbenches has been loaded in the current FreeCAD session.
 
 Some advanced preferences can only be changed in the [Parameter editor](/Std_DlgParameter "Std DlgParameter"). See [Fine-tuning](/Fine-tuning#PartDesign_Workbench "Fine-tuning").
 
@@ -16,7 +16,7 @@ There are three pages: [General](#General), [Shape view](#Shape_view) and [Shape
 
 ### General
 
-![](/src/assets/images/Preferences_PartDesign_Page_General.png)
+![](/images/Preferences_PartDesign_Page_General.png)
 
 On this page you can specify the following:
 
@@ -29,7 +29,7 @@ On this page you can specify the following:
 
 ### Shape view
 
-![](/src/assets/images/Preferences_PartDesign_Page_Shape_view.png)
+![](/images/Preferences_PartDesign_Page_Shape_view.png)
 
 On this page you can specify the following:
 
@@ -40,7 +40,7 @@ On this page you can specify the following:
 
 ### Shape appearance
 
-![](/src/assets/images/Preferences_PartDesign_Page_Shape_appearance.png)
+![](/images/Preferences_PartDesign_Page_Shape_appearance.png)
 
 An explanation of the colors can be found [here](/Part_ColorPerFace#Usage "Part ColorPerFace").
 

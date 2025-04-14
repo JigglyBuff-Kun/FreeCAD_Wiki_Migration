@@ -49,6 +49,6 @@ FreeCAD's development is active.
 
 ## Additional modules and macros
 
-The FreeCAD community provides many additional modules and macros. They can be easily installed from within FreeCAD using the ![](/src/assets/images/Std_AddonMgr.svg) [Addon manager](/Std_AddonMgr "Std AddonMgr").
+The FreeCAD community provides many additional modules and macros. They can be easily installed from within FreeCAD using the ![](/images/Std_AddonMgr.svg) [Addon manager](/Std_AddonMgr "Std AddonMgr").
 
 Retrieved from "<http://wiki.freecad.org/index.php?title=Download/en&oldid=1509142>"

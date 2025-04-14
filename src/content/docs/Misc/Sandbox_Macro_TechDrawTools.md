@@ -73,62 +73,62 @@ The 38 tools are split into three tabs:
 
 Before starting the work, select the desired line attributes. This is done by clicking the appropriate radio buttons in the boxes displayed in the _Attributes and Modifications_ tab.
 
-![](/src/assets/images/TechDraw_TechDrawToolsExample01.png)
+![](/images/TechDraw_TechDrawToolsExample01.png)
 
 - When creating a new line object, the preset line attributes will be used.
-- To change attributes of existing lines use the ![](/src/assets/images/TechDraw_TechDrawTools.svg) [Change the line attributes](/index.php?title=Void&action=edit&redlink=1 "Void (page does not exist)") button.
+- To change attributes of existing lines use the ![](/images/TechDraw_TechDrawTools.svg) [Change the line attributes](/index.php?title=Void&action=edit&redlink=1 "Void (page does not exist)") button.
 
 #### Attributes and Modifications
 
 Tools setting/changing attributes and positions of objects.
 
-- ![](/src/assets/images/TechDraw_TechDrawTools.svg) [Extend a line](/index.php?title=Void&action=edit&redlink=1 "Void (page does not exist)"): Extend a line at both ends.
-- ![](/src/assets/images/TechDraw_TechDrawTools.svg) [Shorten a line](/index.php?title=Void&action=edit&redlink=1 "Void (page does not exist)"): Shorten a line at both ends.
-- ![](/src/assets/images/TechDraw_TechDrawTools.svg) [Lock/Unlock a view](/index.php?title=Void&action=edit&redlink=1 "Void (page does not exist)"): Lock/unlock a view.
-- ![](/src/assets/images/TechDraw_TechDrawTools.svg) [Orthogonal projection group: section view positioning](/index.php?title=Void&action=edit&redlink=1 "Void (page does not exist)"): Position a section view at same x or y as its base view.
-- ![](/src/assets/images/TechDraw_TechDrawTools.svg) [Position a horizontal chain dimension](/index.php?title=Void&action=edit&redlink=1 "Void (page does not exist)"): Arranges the selected horizontal dimensions at the same line.
-- ![](/src/assets/images/TechDraw_TechDrawTools.svg) [Position a vertical chain dimension](/index.php?title=Void&action=edit&redlink=1 "Void (page does not exist)"): Arranges the selected vertical dimensions at the same line.
-- ![](/src/assets/images/TechDraw_TechDrawTools.svg) [Position an oblique dimension chain](/index.php?title=Void&action=edit&redlink=1 "Void (page does not exist)"): Position an oblique dimension chain.
-- ![](/src/assets/images/TechDraw_TechDrawTools.svg) [Cascade horizontal dimensions](/index.php?title=Void&action=edit&redlink=1 "Void (page does not exist)"): Spaces (vertically) at the set value the selected horizontal dimensions.
-- ![](/src/assets/images/TechDraw_TechDrawTools.svg) [Cascade vertical dimensions](/index.php?title=Void&action=edit&redlink=1 "Void (page does not exist)"): Spaces (horizontally) at the set value the selected vertical dimensions.
-- ![](/src/assets/images/TechDraw_TechDrawTools.svg) [Cascade oblique dimensions](/index.php?title=Void&action=edit&redlink=1 "Void (page does not exist)"): Cascade oblique dimensions.
-- ![](/src/assets/images/TechDraw_TechDrawTools.svg) [Change the line attributes](/index.php?title=Void&action=edit&redlink=1 "Void (page does not exist)"): Change the attributes of the selected lines.
+- ![](/images/TechDraw_TechDrawTools.svg) [Extend a line](/index.php?title=Void&action=edit&redlink=1 "Void (page does not exist)"): Extend a line at both ends.
+- ![](/images/TechDraw_TechDrawTools.svg) [Shorten a line](/index.php?title=Void&action=edit&redlink=1 "Void (page does not exist)"): Shorten a line at both ends.
+- ![](/images/TechDraw_TechDrawTools.svg) [Lock/Unlock a view](/index.php?title=Void&action=edit&redlink=1 "Void (page does not exist)"): Lock/unlock a view.
+- ![](/images/TechDraw_TechDrawTools.svg) [Orthogonal projection group: section view positioning](/index.php?title=Void&action=edit&redlink=1 "Void (page does not exist)"): Position a section view at same x or y as its base view.
+- ![](/images/TechDraw_TechDrawTools.svg) [Position a horizontal chain dimension](/index.php?title=Void&action=edit&redlink=1 "Void (page does not exist)"): Arranges the selected horizontal dimensions at the same line.
+- ![](/images/TechDraw_TechDrawTools.svg) [Position a vertical chain dimension](/index.php?title=Void&action=edit&redlink=1 "Void (page does not exist)"): Arranges the selected vertical dimensions at the same line.
+- ![](/images/TechDraw_TechDrawTools.svg) [Position an oblique dimension chain](/index.php?title=Void&action=edit&redlink=1 "Void (page does not exist)"): Position an oblique dimension chain.
+- ![](/images/TechDraw_TechDrawTools.svg) [Cascade horizontal dimensions](/index.php?title=Void&action=edit&redlink=1 "Void (page does not exist)"): Spaces (vertically) at the set value the selected horizontal dimensions.
+- ![](/images/TechDraw_TechDrawTools.svg) [Cascade vertical dimensions](/index.php?title=Void&action=edit&redlink=1 "Void (page does not exist)"): Spaces (horizontally) at the set value the selected vertical dimensions.
+- ![](/images/TechDraw_TechDrawTools.svg) [Cascade oblique dimensions](/index.php?title=Void&action=edit&redlink=1 "Void (page does not exist)"): Cascade oblique dimensions.
+- ![](/images/TechDraw_TechDrawTools.svg) [Change the line attributes](/index.php?title=Void&action=edit&redlink=1 "Void (page does not exist)"): Change the attributes of the selected lines.
 
 #### Centerlines and Threading
 
 Tools creating centerlines and threads.
 
-- ![](/src/assets/images/TechDraw_ExtensionCircleCenterLines.svg) [Draw circle centerlines](/TechDraw_ExtensionCircleCenterLines "TechDraw ExtensionCircleCenterLines"): Draw a centerline cross at circles.
-- ![](/src/assets/images/TechDraw_ExtensionHoleCircle.svg) [Draw bolt circle centerlines](/TechDraw_ExtensionHoleCircle "TechDraw ExtensionHoleCircle"): Draw the centerlines of a bolt circle.
-- ![](/src/assets/images/TechDraw_ExtensionVertexAtIntersection.svg) [Create vertex(es) at intersection](/TechDraw_ExtensionVertexAtIntersection "TechDraw ExtensionVertexAtIntersection"): Create the vertexes at the intersection of lines.
-- ![](/src/assets/images/TechDraw_ExtensionDrawCosmArc.svg) [Draw a cosmetic arc (center and two vertexes)](/TechDraw_ExtensionDrawCosmArc "TechDraw ExtensionDrawCosmArc"): Draw an arc rotating math. positive.
-- ![](/src/assets/images/TechDraw_TechDrawTools.svg) [Draw a cosmetic circunference (center and 2 vertexes)](/index.php?title=Void&action=edit&redlink=1 "Void (page does not exist)"): Draw a cosmetic arc.
-- ![](/src/assets/images/TechDraw_TechDrawTools.svg) [Create a line perpendicular to another line](/index.php?title=Void&action=edit&redlink=1 "Void (page does not exist)"): Create a perpendicular to another line through a vertex.
-- ![](/src/assets/images/TechDraw_TechDrawTools.svg) [Create a line parallel to another line](/index.php?title=Void&action=edit&redlink=1 "Void (page does not exist)"): Create a line parallel to another line through a vertex.
-- ![](/src/assets/images/TechDraw_TechDrawTools.svg) [Draw one center line](/index.php?title=Void&action=edit&redlink=1 "Void (page does not exist)"): Draw a center line between two lines.
-- ![](/src/assets/images/TechDraw_ExtensionThreadHoleBottom.svg) [Cosmetic hole thread ground view](/TechDraw_ExtensionThreadHoleBottom "TechDraw ExtensionThreadHoleBottom"): Draw cosmetic holes thread ground view.
-- ![](/src/assets/images/TechDraw_ExtensionThreadBoltBottom.svg) [Screw/pin/shaft thread in plan](/TechDraw_ExtensionThreadBoltBottom "TechDraw ExtensionThreadBoltBottom"): Draw a technical symbol of the thread in plant.
-- ![](/src/assets/images/TechDraw_ExtensionThreadHoleSide.svg) [Cosmetic thread side view](/TechDraw_ExtensionThreadHoleSide "TechDraw ExtensionThreadHoleSide"): Draw a cosmetic thread.
-- ![](/src/assets/images/TechDraw_ExtensionThreadBoltSide.svg) [Thread screw/pin/shaft side view/section](/TechDraw_ExtensionThreadBoltSide "TechDraw ExtensionThreadBoltSide"): Draw a technical symbol of the thread in side or section view.
+- ![](/images/TechDraw_ExtensionCircleCenterLines.svg) [Draw circle centerlines](/TechDraw_ExtensionCircleCenterLines "TechDraw ExtensionCircleCenterLines"): Draw a centerline cross at circles.
+- ![](/images/TechDraw_ExtensionHoleCircle.svg) [Draw bolt circle centerlines](/TechDraw_ExtensionHoleCircle "TechDraw ExtensionHoleCircle"): Draw the centerlines of a bolt circle.
+- ![](/images/TechDraw_ExtensionVertexAtIntersection.svg) [Create vertex(es) at intersection](/TechDraw_ExtensionVertexAtIntersection "TechDraw ExtensionVertexAtIntersection"): Create the vertexes at the intersection of lines.
+- ![](/images/TechDraw_ExtensionDrawCosmArc.svg) [Draw a cosmetic arc (center and two vertexes)](/TechDraw_ExtensionDrawCosmArc "TechDraw ExtensionDrawCosmArc"): Draw an arc rotating math. positive.
+- ![](/images/TechDraw_TechDrawTools.svg) [Draw a cosmetic circunference (center and 2 vertexes)](/index.php?title=Void&action=edit&redlink=1 "Void (page does not exist)"): Draw a cosmetic arc.
+- ![](/images/TechDraw_TechDrawTools.svg) [Create a line perpendicular to another line](/index.php?title=Void&action=edit&redlink=1 "Void (page does not exist)"): Create a perpendicular to another line through a vertex.
+- ![](/images/TechDraw_TechDrawTools.svg) [Create a line parallel to another line](/index.php?title=Void&action=edit&redlink=1 "Void (page does not exist)"): Create a line parallel to another line through a vertex.
+- ![](/images/TechDraw_TechDrawTools.svg) [Draw one center line](/index.php?title=Void&action=edit&redlink=1 "Void (page does not exist)"): Draw a center line between two lines.
+- ![](/images/TechDraw_ExtensionThreadHoleBottom.svg) [Cosmetic hole thread ground view](/TechDraw_ExtensionThreadHoleBottom "TechDraw ExtensionThreadHoleBottom"): Draw cosmetic holes thread ground view.
+- ![](/images/TechDraw_ExtensionThreadBoltBottom.svg) [Screw/pin/shaft thread in plan](/TechDraw_ExtensionThreadBoltBottom "TechDraw ExtensionThreadBoltBottom"): Draw a technical symbol of the thread in plant.
+- ![](/images/TechDraw_ExtensionThreadHoleSide.svg) [Cosmetic thread side view](/TechDraw_ExtensionThreadHoleSide "TechDraw ExtensionThreadHoleSide"): Draw a cosmetic thread.
+- ![](/images/TechDraw_ExtensionThreadBoltSide.svg) [Thread screw/pin/shaft side view/section](/TechDraw_ExtensionThreadBoltSide "TechDraw ExtensionThreadBoltSide"): Draw a technical symbol of the thread in side or section view.
 
 #### Dimensions
 
 Tools creating dimensions.
 
-- ![](/src/assets/images/TechDraw_TechDrawTools.svg) [Insert a '⌀' sign](/index.php?title=Void&action=edit&redlink=1 "Void (page does not exist)"): Insert a '⌀'sign in a measure.
-- ![](/src/assets/images/TechDraw_TechDrawTools.svg) [Insert a '〼' sign](/index.php?title=Void&action=edit&redlink=1 "Void (page does not exist)"): Insert a'〼'sign in a measure.
-- ![](/src/assets/images/TechDraw_TechDrawTools.svg) [Create horizontal chain dimensions](/index.php?title=Void&action=edit&redlink=1 "Void (page does not exist)"): Create horizontal chain dimensions.
-- ![](/src/assets/images/TechDraw_TechDrawTools.svg) [Create vertical chain dimensions](/index.php?title=Void&action=edit&redlink=1 "Void (page does not exist)"): Create vertical chain dimensions.
-- ![](/src/assets/images/TechDraw_TechDrawTools.svg) [Create an oblique chain dimension](/index.php?title=Void&action=edit&redlink=1 "Void (page does not exist)"): Create an oblique chain dimension.
-- ![](/src/assets/images/TechDraw_TechDrawTools.svg) [Create horizontal coordinate dimensions](/index.php?title=Void&action=edit&redlink=1 "Void (page does not exist)"): Create horizontal coordinate dimensions.
-- ![](/src/assets/images/TechDraw_TechDrawTools.svg) [Create vertical coordinate dimensions](/index.php?title=Void&action=edit&redlink=1 "Void (page does not exist)"): Create vertical coordinate dimensions.
-- ![](/src/assets/images/TechDraw_TechDrawTools.svg) [Create an oblique coordinate dimension](/index.php?title=Void&action=edit&redlink=1 "Void (page does not exist)"): Create an oblique coordinate dimension.
-- ![](/src/assets/images/TechDraw_TechDrawTools.svg) [Create a horizontal chamfer dimension](/index.php?title=Void&action=edit&redlink=1 "Void (page does not exist)"): Create a horizontal chamfer dimension.
-- ![](/src/assets/images/TechDraw_TechDrawTools.svg) [Create a vertical chamfer dimension](/index.php?title=Void&action=edit&redlink=1 "Void (page does not exist)"): Create a vertical chamfer dimension.
-- ![](/src/assets/images/TechDraw_TechDrawTools.svg) [Create development/length arc](/index.php?title=Void&action=edit&redlink=1 "Void (page does not exist)"): Enter the development length of an arc with the symbol '∩'.
-- ![](/src/assets/images/TechDraw_TechDrawTools.svg) [Create a hole table](/index.php?title=Void&action=edit&redlink=1 "Void (page does not exist)"): Create a hole table.
-- ![](/src/assets/images/TechDraw_TechDrawTools.svg) [Increase decimal places (max. 9)](/index.php?title=Void&action=edit&redlink=1 "Void (page does not exist)"): Increase decimal places (max. 9).
-- ![](/src/assets/images/TechDraw_TechDrawTools.svg) [Decrease decimal places](/index.php?title=Void&action=edit&redlink=1 "Void (page does not exist)"): Decrease decimal places.
-- ![](/src/assets/images/TechDraw_TechDrawTools.svg) [Create an annotation showing the area](/index.php?title=Void&action=edit&redlink=1 "Void (page does not exist)"): Creates an anotation of the area value, the unit of which is determined by the preferences.
+- ![](/images/TechDraw_TechDrawTools.svg) [Insert a '⌀' sign](/index.php?title=Void&action=edit&redlink=1 "Void (page does not exist)"): Insert a '⌀'sign in a measure.
+- ![](/images/TechDraw_TechDrawTools.svg) [Insert a '〼' sign](/index.php?title=Void&action=edit&redlink=1 "Void (page does not exist)"): Insert a'〼'sign in a measure.
+- ![](/images/TechDraw_TechDrawTools.svg) [Create horizontal chain dimensions](/index.php?title=Void&action=edit&redlink=1 "Void (page does not exist)"): Create horizontal chain dimensions.
+- ![](/images/TechDraw_TechDrawTools.svg) [Create vertical chain dimensions](/index.php?title=Void&action=edit&redlink=1 "Void (page does not exist)"): Create vertical chain dimensions.
+- ![](/images/TechDraw_TechDrawTools.svg) [Create an oblique chain dimension](/index.php?title=Void&action=edit&redlink=1 "Void (page does not exist)"): Create an oblique chain dimension.
+- ![](/images/TechDraw_TechDrawTools.svg) [Create horizontal coordinate dimensions](/index.php?title=Void&action=edit&redlink=1 "Void (page does not exist)"): Create horizontal coordinate dimensions.
+- ![](/images/TechDraw_TechDrawTools.svg) [Create vertical coordinate dimensions](/index.php?title=Void&action=edit&redlink=1 "Void (page does not exist)"): Create vertical coordinate dimensions.
+- ![](/images/TechDraw_TechDrawTools.svg) [Create an oblique coordinate dimension](/index.php?title=Void&action=edit&redlink=1 "Void (page does not exist)"): Create an oblique coordinate dimension.
+- ![](/images/TechDraw_TechDrawTools.svg) [Create a horizontal chamfer dimension](/index.php?title=Void&action=edit&redlink=1 "Void (page does not exist)"): Create a horizontal chamfer dimension.
+- ![](/images/TechDraw_TechDrawTools.svg) [Create a vertical chamfer dimension](/index.php?title=Void&action=edit&redlink=1 "Void (page does not exist)"): Create a vertical chamfer dimension.
+- ![](/images/TechDraw_TechDrawTools.svg) [Create development/length arc](/index.php?title=Void&action=edit&redlink=1 "Void (page does not exist)"): Enter the development length of an arc with the symbol '∩'.
+- ![](/images/TechDraw_TechDrawTools.svg) [Create a hole table](/index.php?title=Void&action=edit&redlink=1 "Void (page does not exist)"): Create a hole table.
+- ![](/images/TechDraw_TechDrawTools.svg) [Increase decimal places (max. 9)](/index.php?title=Void&action=edit&redlink=1 "Void (page does not exist)"): Increase decimal places (max. 9).
+- ![](/images/TechDraw_TechDrawTools.svg) [Decrease decimal places](/index.php?title=Void&action=edit&redlink=1 "Void (page does not exist)"): Decrease decimal places.
+- ![](/images/TechDraw_TechDrawTools.svg) [Create an annotation showing the area](/index.php?title=Void&action=edit&redlink=1 "Void (page does not exist)"): Creates an anotation of the area value, the unit of which is determined by the preferences.
 
 Retrieved from "<http://wiki.freecad.org/index.php?title=Sandbox:Macro_TechDrawTools&oldid=1433996>"

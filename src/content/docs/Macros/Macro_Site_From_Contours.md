@@ -30,11 +30,11 @@ title: Site From Contours
 
 This macro allows you to select a series of objects containing level contours and create an Arch Site from them. The contours can be grouped in any number of objects, and don't need to form closed wires. All this will be taken care of by the macro. Internally, one bspline will be created from each contour, then ruled surfaces will be created between the contours, then these ruled surfaces will be united in a shell object, and finally an Arch Site will be created using this shell as its Terrain.
 
-![](/src/assets/images/Macro_Site_From_Contour_Example.jpg)
+![](/images/Macro_Site_From_Contour_Example.jpg)
 
 ## Script
 
-ToolBar Icon ![](/src/assets/images/Macro_Site_From_Contours.png)
+ToolBar Icon ![](/images/Macro_Site_From_Contours.png)
 
 **Macro Site From Contours.FCMacro**
 

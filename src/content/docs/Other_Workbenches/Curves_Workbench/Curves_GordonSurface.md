@@ -19,9 +19,9 @@ title: Curves GordonSurface
 
 ## Description
 
-The ![](/src/assets/images/Curves_GordonSurface.svg) [Curves GordonSurface](/Curves_GordonSurface "Curves GordonSurface") creates a surface that skins a network of curves. This tool is part of the [external workbench](/External_workbenches "External workbenches") called [Curves](/Curves_Workbench "Curves Workbench").
+The ![](/images/Curves_GordonSurface.svg) [Curves GordonSurface](/Curves_GordonSurface "Curves GordonSurface") creates a surface that skins a network of curves. This tool is part of the [external workbench](/External_workbenches "External workbenches") called [Curves](/Curves_Workbench "Curves Workbench").
 
-![](/src/assets/images/GordonSurf-1.png)
+![](/images/GordonSurf-1.png)
 
 ## Usage
 
@@ -35,14 +35,14 @@ The ![](/src/assets/images/Curves_GordonSurface.svg) [Curves GordonSurface](/Cur
      - Each "rib" is in a separate sketch.
    - The sketches containing the extent/shape (yellow) lines will typically reference external geometry from the "rib" sketches for accurate positioning.
 5. These need to be created before the next step.
-6. Switch to the ![](/src/assets/images/Curves_workbench_icon.svg) [Curves](/Curves_Workbench "Curves Workbench") workbench (install from ![](/src/assets/images/Std_AddonMgr.svg) [Addon Manager](/Std_AddonMgr "Std AddonMgr") is necessary, if not previously installed)
+6. Switch to the ![](/images/Curves_workbench_icon.svg) [Curves](/Curves_Workbench "Curves Workbench") workbench (install from ![](/images/Std_AddonMgr.svg) [Addon Manager](/Std_AddonMgr "Std AddonMgr") is necessary, if not previously installed)
 7. Now select all the lines of that will define the surface.
 8. The order of selection defines the stitching or tenting order.
 9. Use multi-select to select all lines defining the surface. (Left click while holding the Ctrl key.)
 10. Select the ribs first, in order. (In the example above, select the blue lines from left to right. or right to left.)
 11. Continue to hold the Ctrl key and select the extent lines. (Yellow lines in the example above.)
 12. To invoke the command, do one of the following:
-    - Press the ![](/src/assets/images/Curves_GordonSurface.svg) button
+    - Press the ![](/images/Curves_GordonSurface.svg) button
     - Use the **Surfaces → Gordon surface**
 
 ## Properties
@@ -60,14 +60,14 @@ The ![](/src/assets/images/Curves_GordonSurface.svg) [Curves GordonSurface](/Cur
   - This value is used to determine density of the mesh when the Output property is set to Wireframe.
   - Gordon surface in wire frame mode, U=16, V=16
 
-![](/src/assets/images/GordonSurf-wireframe.png)
+![](/images/GordonSurf-wireframe.png)
 
 ## Notes
 
 - The curves of each group (ribs and rails) should touch all curves of the other group.
   - In other words, they must form a grid or net pattern as shown here:
 
-![](/src/assets/images/Grid.png)
+![](/images/Grid.png)
 
 - In general, the surface normal of the resulting Gordon surface will be determined by the direction of the ribs.
 
@@ -75,7 +75,7 @@ In this example, the surface on the left, the rails were drawn from +Y to -Y and
 
 On the right, the ribs are drawn from -Y to +Y, resulting in the surface normal oriented -Z.
 
-![](/src/assets/images/Normals_shown.png)
+![](/images/Normals_shown.png)
 
 - [Part Extrude](/Part_Extrude "Part Extrude") can be used to create a solid from the surface.
 

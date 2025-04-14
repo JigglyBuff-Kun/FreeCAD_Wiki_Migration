@@ -23,16 +23,16 @@ This documentation is not finished. Please help and contribute documentation.Gui
 
 ## Description
 
-![](/src/assets/images/FCGear_InternalInvoluteGear-01.png)
+![](/images/FCGear_InternalInvoluteGear-01.png)
 
 Internal involute gears from left to right: Spur gearing, helical gearing, double helical gearing
 
 ## Usage
 
-1. Switch to the ![](/src/assets/images/FCGear_workbench_icon.svg) [FCGear Workbench](/FCGear_Workbench "FCGear Workbench").
+1. Switch to the ![](/images/FCGear_workbench_icon.svg) [FCGear Workbench](/FCGear_Workbench "FCGear Workbench").
 2. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/FCGear_InternalInvoluteGear.svg) [Internal Involute Gear](/FCGear_InternalInvoluteGear "FCGear InternalInvoluteGear") button in the toolbar.
-   - Select the **Gear → ![](/src/assets/images/FCGear_InternalInvoluteGear.svg) Internal Involute Gear** option from the menu.
+   - Press the ![](/images/FCGear_InternalInvoluteGear.svg) [Internal Involute Gear](/FCGear_InternalInvoluteGear "FCGear InternalInvoluteGear") button in the toolbar.
+   - Select the **Gear → ![](/images/FCGear_InternalInvoluteGear.svg) Internal Involute Gear** option from the menu.
 3. Change the gear parameter to the required conditions (see [Properties](#Properties)).
 
 ## Properties

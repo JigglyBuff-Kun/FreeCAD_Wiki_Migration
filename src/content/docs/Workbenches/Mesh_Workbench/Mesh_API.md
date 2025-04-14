@@ -18,419 +18,419 @@ d.recompute()
 
 ```
 
-![](/src/assets/images/Method.png) **addFacet(\***Facet**\*)**
+![](/images/Method.png) **addFacet(\***Facet**\*)**
 
 **Description**: Adds a facet to the mesh
 
 **Returns**:
 
-![](/src/assets/images/Method.png) **addFacets(\***list**\*)**
+![](/images/Method.png) **addFacets(\***list**\*)**
 
 **Description**: Adds a list of facets to the mesh
 
 **Returns**:
 
-![](/src/assets/images/Method.png) **addMesh(\***Mesh**\*)**
+![](/images/Method.png) **addMesh(\***Mesh**\*)**
 
 **Description**: Combines this mesh with another mesh.
 
 **Returns**:
 
-![](/src/assets/images/Method.png) **clear(\*\***)\*\*
+![](/images/Method.png) **clear(\*\***)\*\*
 
 **Description**: Clears the mesh
 
 **Returns**:
 
-![](/src/assets/images/Method.png) **coarsen(\*\***)\*\*
+![](/images/Method.png) **coarsen(\*\***)\*\*
 
 **Description**: Coarsens the mesh
 
 **Returns**:
 
-![](/src/assets/images/Method.png) **collapseEdge(\***Edge**\*)**
+![](/images/Method.png) **collapseEdge(\***Edge**\*)**
 
 **Description**: Removes an edge and both facets that share this edge
 
 **Returns**:
 
-![](/src/assets/images/Method.png) **collapseFacet(\***Facet**\*)**
+![](/images/Method.png) **collapseFacet(\***Facet**\*)**
 
 **Description**: Removes a facet
 
 **Returns**:
 
-![](/src/assets/images/Method.png) **collapseFacets(\***list**\*)**
+![](/images/Method.png) **collapseFacets(\***list**\*)**
 
 **Description**: Removes a list of facets
 
 **Returns**:
 
-![](/src/assets/images/Method.png) **copy(\*\***)\*\*
+![](/images/Method.png) **copy(\*\***)\*\*
 
 **Description**: Creates a copy of this mesh
 
 **Returns**: a Mesh object
 
-![](/src/assets/images/Method.png) **countComponents(\*\***)\*\*
+![](/images/Method.png) **countComponents(\*\***)\*\*
 
 **Description**: Get the number of topological independent areas
 
 **Returns**: an integer
 
-![](/src/assets/images/Method.png) **countNonUniformOrientedFacets(\*\***)\*\*
+![](/images/Method.png) **countNonUniformOrientedFacets(\*\***)\*\*
 
 **Description**: Get the number of wrong oriented facets
 
 **Returns**: an integer
 
-![](/src/assets/images/Method.png) **countSegments(\*\***)\*\*
+![](/images/Method.png) **countSegments(\*\***)\*\*
 
 **Description**: Get the number of segments which may also be 0
 
 **Returns**: an integer
 
-![](/src/assets/images/Method.png) **crossSections(\*\***)\*\*
+![](/images/Method.png) **crossSections(\*\***)\*\*
 
 **Description**: Get cross-sections of the mesh through several planes
 
 **Returns**:
 
-![](/src/assets/images/Method.png) **difference(\***Mesh**\*)**
+![](/images/Method.png) **difference(\***Mesh**\*)**
 
 **Description**: Difference of this and the given mesh object.
 
 **Returns**:
 
-![](/src/assets/images/Method.png) **fillupHoles(\*\***)\*\*
+![](/images/Method.png) **fillupHoles(\*\***)\*\*
 
 **Description**: Fillup holes
 
 **Returns**:
 
-![](/src/assets/images/Method.png) **fixDeformations(\*\***)\*\*
+![](/images/Method.png) **fixDeformations(\*\***)\*\*
 
 **Description**: Repair deformed facets
 
 **Returns**:
 
-![](/src/assets/images/Method.png) **fixDegenerations(\*\***)\*\*
+![](/images/Method.png) **fixDegenerations(\*\***)\*\*
 
 **Description**: Remove degenerated facets
 
 **Returns**:
 
-![](/src/assets/images/Method.png) **fixIndices(\*\***)\*\*
+![](/images/Method.png) **fixIndices(\*\***)\*\*
 
 **Description**: Repair any invalid indices
 
 **Returns**:
 
-![](/src/assets/images/Method.png) **fixSelfIntersections(\*\***)\*\*
+![](/images/Method.png) **fixSelfIntersections(\*\***)\*\*
 
 **Description**: Repair self-intersections
 
 **Returns**:
 
-![](/src/assets/images/Method.png) **flipNormals(\*\***)\*\*
+![](/images/Method.png) **flipNormals(\*\***)\*\*
 
 **Description**: Flip the mesh normals
 
 **Returns**:
 
-![](/src/assets/images/Method.png) **foraminate(\*\***)\*\*
+![](/images/Method.png) **foraminate(\*\***)\*\*
 
 **Description**: Get a list of facet indices and intersection points
 
 **Returns**:
 
-![](/src/assets/images/Method.png) **getPlanes(\*\***)\*\*
+![](/images/Method.png) **getPlanes(\*\***)\*\*
 
 **Description**: Get all planes of the mesh as segment. In the worst case each triangle can be regarded as single plane if none of its neighbors is coplanar.
 
 **Returns**:
 
-![](/src/assets/images/Method.png) **getSegment(\***integer**\*)**
+![](/images/Method.png) **getSegment(\***integer**\*)**
 
 **Description**: Get a list of facet indices that describes a segment
 
 **Returns**:
 
-![](/src/assets/images/Method.png) **getSeparateComponents(\*\***)\*\*
+![](/images/Method.png) **getSeparateComponents(\*\***)\*\*
 
 **Description**: Returns a list containing the different components (separated areas) of the mesh as separate meshes
 
 **Returns**: a list
 
-![](/src/assets/images/Method.png) **harmonizeNormals(\*\***)\*\*
+![](/images/Method.png) **harmonizeNormals(\*\***)\*\*
 
 **Description**: Adjust wrong oriented facets
 
 **Returns**:
 
-![](/src/assets/images/Method.png) **hasNonManifolds(\*\***)\*\*
+![](/images/Method.png) **hasNonManifolds(\*\***)\*\*
 
 **Description**: Check if the mesh has non-manifolds
 
 **Returns**: a boolean
 
-![](/src/assets/images/Method.png) **hasNonUniformOrientedFacets(\*\***)\*\*
+![](/images/Method.png) **hasNonUniformOrientedFacets(\*\***)\*\*
 
 **Description**: Checks if the mesh has facets with inconsistent orientation
 
 **Returns**:
 
-![](/src/assets/images/Method.png) **hasSelfIntersections(\*\***)\*\*
+![](/images/Method.png) **hasSelfIntersections(\*\***)\*\*
 
 **Description**: Check if the mesh intersects itself
 
 **Returns**:
 
-![](/src/assets/images/Method.png) **inner(\*\***)\*\*
+![](/images/Method.png) **inner(\*\***)\*\*
 
 **Description**: Get the part inside of the intersection
 
 **Returns**:
 
-![](/src/assets/images/Method.png) **insertVertex(\***Vertex**\*)**
+![](/images/Method.png) **insertVertex(\***Vertex**\*)**
 
 **Description**: Inserts a vertex into a facet
 
 **Returns**:
 
-![](/src/assets/images/Method.png) **intersect(\***Mesh**\*)**
+![](/images/Method.png) **intersect(\***Mesh**\*)**
 
 **Description**: Intersection of this and the given mesh object.
 
 **Returns**:
 
-![](/src/assets/images/Method.png) **isSolid(\*\***)\*\*
+![](/images/Method.png) **isSolid(\*\***)\*\*
 
 **Description**: Check if the mesh is a solid
 
 **Returns**:
 
-![](/src/assets/images/Method.png) **meshFromSegment(\*\***)\*\*
+![](/images/Method.png) **meshFromSegment(\*\***)\*\*
 
 **Description**: Create a mesh from segment
 
 **Returns**:
 
-![](/src/assets/images/Method.png) **nearestFacetOnRay(\***tuple, tuple**\*)**
+![](/images/Method.png) **nearestFacetOnRay(\***tuple, tuple**\*)**
 
 **Description**: Get the index and intersection point of the nearest facet to a ray. The first parameter is a tuple of three floats the base point of the ray, the second parameter is ut uple of three floats for the direction. The result is a dictionary with an index and the intersection point or an empty dictionary if there is no intersection.
 
 **Returns**: a dictionary
 
-![](/src/assets/images/Method.png) **offset(\***float**\*)**
+![](/images/Method.png) **offset(\***float**\*)**
 
 **Description**: Move the point along their normals
 
 **Returns**:
 
-![](/src/assets/images/Method.png) **offsetSpecial(\***float**\*)**
+![](/images/Method.png) **offsetSpecial(\***float**\*)**
 
 **Description**: Move the point along their normals
 
 **Returns**:
 
-![](/src/assets/images/Method.png) **optimizeEdges(\*\***)\*\*
+![](/images/Method.png) **optimizeEdges(\*\***)\*\*
 
 **Description**: Optimize the edges to get nicer facets
 
 **Returns**:
 
-![](/src/assets/images/Method.png) **optimizeTopology(\*\***)\*\*
+![](/images/Method.png) **optimizeTopology(\*\***)\*\*
 
 **Description**: Optimize the edges to get nicer facets
 
 **Returns**:
 
-![](/src/assets/images/Method.png) **outer(\*\***)\*\*
+![](/images/Method.png) **outer(\*\***)\*\*
 
 **Description**: Get the part outside the intersection
 
 **Returns**:
 
-![](/src/assets/images/Method.png) **printInfo(\*\***)\*\*
+![](/images/Method.png) **printInfo(\*\***)\*\*
 
 **Description**: Get detailed information about the mesh
 
 **Returns**:
 
-![](/src/assets/images/Method.png) **read(\*\***)\*\*
+![](/images/Method.png) **read(\*\***)\*\*
 
 **Description**: Read in a mesh object from file.
 
 **Returns**:
 
-![](/src/assets/images/Method.png) **refine(\*\***)\*\*
+![](/images/Method.png) **refine(\*\***)\*\*
 
 **Description**: Refine the mesh
 
 **Returns**:
 
-![](/src/assets/images/Method.png) **removeComponents(\***integer**\*)**
+![](/images/Method.png) **removeComponents(\***integer**\*)**
 
 **Description**: Remove components with less or equal to number of given facets
 
 **Returns**:
 
-![](/src/assets/images/Method.png) **removeDuplicatedFacets(\*\***)\*\*
+![](/images/Method.png) **removeDuplicatedFacets(\*\***)\*\*
 
 **Description**: Remove duplicated facets
 
 **Returns**:
 
-![](/src/assets/images/Method.png) **removeDuplicatedPoints(\*\***)\*\*
+![](/images/Method.png) **removeDuplicatedPoints(\*\***)\*\*
 
 **Description**: Remove duplicated points
 
 **Returns**:
 
-![](/src/assets/images/Method.png) **removeFacets(\***list**\*)**
+![](/images/Method.png) **removeFacets(\***list**\*)**
 
 **Description**: Remove a list of facet indices from the mesh
 
 **Returns**:
 
-![](/src/assets/images/Method.png) **removeFoldsOnSurface(\*\***)\*\*
+![](/images/Method.png) **removeFoldsOnSurface(\*\***)\*\*
 
 **Description**: Remove folds on surfaces
 
 **Returns**:
 
-![](/src/assets/images/Method.png) **removeNonManifolds(\*\***)\*\*
+![](/images/Method.png) **removeNonManifolds(\*\***)\*\*
 
 **Description**: Remove non-manifolds
 
 **Returns**:
 
-![](/src/assets/images/Method.png) **rotate(\*\***)\*\*
+![](/images/Method.png) **rotate(\*\***)\*\*
 
 **Description**: Apply a rotation to the mesh
 
 **Returns**:
 
-![](/src/assets/images/Method.png) **setPoint(\***int, Vector**\*)**
+![](/images/Method.png) **setPoint(\***int, Vector**\*)**
 
 **Description**: Sets the point at index.
 
 **Returns**:
 
-![](/src/assets/images/Method.png) **smooth(\*\***)\*\*
+![](/images/Method.png) **smooth(\*\***)\*\*
 
 **Description**: Smooth the mesh
 
 **Returns**:
 
-![](/src/assets/images/Method.png) **snapVertex(\*\***)\*\*
+![](/images/Method.png) **snapVertex(\*\***)\*\*
 
 **Description**: Insert a new facet at the border
 
 **Returns**:
 
-![](/src/assets/images/Method.png) **splitEdge(\*\***)\*\*
+![](/images/Method.png) **splitEdge(\*\***)\*\*
 
 **Description**: Split edge
 
 **Returns**:
 
-![](/src/assets/images/Method.png) **splitEdges(\*\***)\*\*
+![](/images/Method.png) **splitEdges(\*\***)\*\*
 
 **Description**: Split all edges
 
 **Returns**:
 
-![](/src/assets/images/Method.png) **splitFacet(\*\***)\*\*
+![](/images/Method.png) **splitFacet(\*\***)\*\*
 
 **Description**: Split facet
 
 **Returns**:
 
-![](/src/assets/images/Method.png) **swapEdge(\*\***)\*\*
+![](/images/Method.png) **swapEdge(\*\***)\*\*
 
 **Description**: Swap the common edge with the neighbor
 
 **Returns**:
 
-![](/src/assets/images/Method.png) **transform(\*\***)\*\*
+![](/images/Method.png) **transform(\*\***)\*\*
 
 **Description**: Apply a transformation to the mesh
 
 **Returns**:
 
-![](/src/assets/images/Method.png) **transformToEigen(\*\***)\*\*
+![](/images/Method.png) **transformToEigen(\*\***)\*\*
 
 **Description**: Transform the mesh to its eigenbase
 
 **Returns**:
 
-![](/src/assets/images/Method.png) **translate(\***Vector**\*)**
+![](/images/Method.png) **translate(\***Vector**\*)**
 
 **Description**: Apply a translation to the mesh
 
 **Returns**:
 
-![](/src/assets/images/Method.png) **unite(\***Mesh**\*)**
+![](/images/Method.png) **unite(\***Mesh**\*)**
 
 **Description**: Union of this and the given mesh object.
 
 **Returns**:
 
-![](/src/assets/images/Method.png) **write(\***string**\*)**
+![](/images/Method.png) **write(\***string**\*)**
 
 **Description**: Write the mesh object into file.
 
 **Returns**:
 
-![](/src/assets/images/Method.png) **writeInventor(\*\***)\*\*
+![](/images/Method.png) **writeInventor(\*\***)\*\*
 
 **Description**: Write the mesh in OpenInventor format to a string.
 
 **Returns**: a string
 
-![](/src/assets/images/Property.png) **Area**
+![](/images/Property.png) **Area**
 
 **Returns**: the area of the mesh object.
 
-![](/src/assets/images/Property.png) **CountEdges**
+![](/images/Property.png) **CountEdges**
 
 **Returns**: the number of vertices of the mesh object.
 
-![](/src/assets/images/Property.png) **CountFacets**
+![](/images/Property.png) **CountFacets**
 
 **Returns**: the number of facets of the mesh object.
 
-![](/src/assets/images/Property.png) **CountPoints**
+![](/images/Property.png) **CountPoints**
 
 **Returns**: the number of points of the mesh object.
 
-![](/src/assets/images/Property.png) **Facets**
+![](/images/Property.png) **Facets**
 
 **Returns**: A collection of facets; With this attribute it is possible to get access to the facets of the mesh: for f in mesh.Facets: print f. Facet.Points is a list of coordinate-tupels for the vertices. Facet.PointIndices is a list of indice for the vertices of the facet. WARNING! store Facets in a local variable as it is generated on the fly, each time it is accessed.
 
-![](/src/assets/images/Property.png) **Points**
+![](/images/Property.png) **Points**
 
 **Returns**: A collection of the mesh points; With this attribute it is possible to get access to the points of the mesh: for p in mesh.Points: print p.x, p.y, p.z,p.Index.WARNING! store Points in a local variable as it is generated on the fly, each time it is accessed.
 
-![](/src/assets/images/Property.png) **Topology**
+![](/images/Property.png) **Topology**
 
 **Returns**: the points and face indices as tuple. Topology[0] is a list of all vertices. Each being a tuple of 3 coordinates. Topology[1] is a list of all polygons. Each being a list of vertex indice into Topology[0] WARNING! store Topology in a local variable as it is generated on the fly, each time it is accessed.
 
-![](/src/assets/images/Property.png) **Volume**
+![](/images/Property.png) **Volume**
 
 **Returns**: the volume of the mesh object.
 
-![](/src/assets/images/Property.png) **BoundBox**
+![](/images/Property.png) **BoundBox**
 
 **Returns**: the BoundBox of the object
 
-![](/src/assets/images/Property.png) **Matrix**
+![](/images/Property.png) **Matrix**
 
 **Returns**: the current transformation of the object as matrix
 
-![](/src/assets/images/Property.png) **Placement**
+![](/images/Property.png) **Placement**
 
 **Returns**: the current transformation of the object as placement
 

@@ -19,11 +19,11 @@ title: Draft Line
 
 ## Description
 
-The ![](/src/assets/images/Draft_Line.svg) **Draft Line** command creates a straight line.
+The ![](/images/Draft_Line.svg) **Draft Line** command creates a straight line.
 
 A Draft Line is in fact a [Draft Wire](/Draft_Wire "Draft Wire") with only two points.
 
-![](/src/assets/images/Draft_Line_example.jpg)
+![](/images/Draft_Line_example.jpg)
 
 Line defined by two points
 
@@ -32,19 +32,19 @@ Line defined by two points
 See also: [Draft Tray](/Draft_Tray "Draft Tray"), [Draft Snap](/Draft_Snap "Draft Snap") and [Draft Constrain](/Draft_Constrain "Draft Constrain").
 
 1. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/Draft_Line.svg) [Line](/Draft_Line "Draft Line") button.
-   - [Draft](/Draft_Workbench "Draft Workbench"): Select the **Drafting → ![](/src/assets/images/Draft_Line.svg) Line** option from the menu.
-   - [BIM](/BIM_Workbench "BIM Workbench"): Select the **2D Drafting → ![](/src/assets/images/Draft_Line.svg) Line** option from the menu.
+   - Press the ![](/images/Draft_Line.svg) [Line](/Draft_Line "Draft Line") button.
+   - [Draft](/Draft_Workbench "Draft Workbench"): Select the **Drafting → ![](/images/Draft_Line.svg) Line** option from the menu.
+   - [BIM](/BIM_Workbench "BIM Workbench"): Select the **2D Drafting → ![](/images/Draft_Line.svg) Line** option from the menu.
    - Use the keyboard shortcut: L then I.
 2. The **Line** task panel opens. See [Options](#Options) for more information.
-3. Pick the first point in the [3D view](/3D_view "3D view"), or type coordinates and press the ![](/src/assets/images/Draft_AddPoint.svg) Enter point button.
-4. Pick the second point in the [3D view](/3D_view "3D view"), or type coordinates and press the ![](/src/assets/images/Draft_AddPoint.svg) Enter point button.
+3. Pick the first point in the [3D view](/3D_view "3D view"), or type coordinates and press the ![](/images/Draft_AddPoint.svg) Enter point button.
+4. Pick the second point in the [3D view](/3D_view "3D view"), or type coordinates and press the ![](/images/Draft_AddPoint.svg) Enter point button.
 
 ## Options
 
 The single character keyboard shortcuts available in the task panel can be changed. See [Draft Preferences](/Draft_Preferences "Draft Preferences"). The shortcuts mentioned here are the default shortcuts (for version 1.0).
 
-- To manually enter coordinates enter the X, Y and Z component, and press Enter after each. Or you can press the ![](/src/assets/images/Draft_AddPoint.svg) Enter point button when you have the desired values. It is advisable to move the pointer out of the [3D view](/3D_view "3D view") before entering coordinates.
+- To manually enter coordinates enter the X, Y and Z component, and press Enter after each. Or you can press the ![](/images/Draft_AddPoint.svg) Enter point button when you have the desired values. It is advisable to move the pointer out of the [3D view](/3D_view "3D view") before entering coordinates.
 - To use polar coordinates enter a value for the **Length** and a value for the **Angle**, and press Enter after each.
 - Check the **Angle** checkbox to constrain the pointer to the specified angle.
 - Press L to change the focus from the **X** input box to the **Length** input box and back. Depending on the input box that receives the focus the **Angle** checkbox is checked or unchecked.

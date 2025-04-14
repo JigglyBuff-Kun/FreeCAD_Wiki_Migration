@@ -40,7 +40,7 @@ Select any complex object, for example, a [PartDesign Body](/PartDesign_Body "Pa
 
 After pressing OK, the selected objects are copied into memory, and then can be pasted in the document to duplicate these objects only.
 
-![](/src/assets/images/ObjectSelection.png)
+![](/images/ObjectSelection.png)
 
 Object selection dialog that is launched from the [selection view](/Selection_view "Selection view").
 
@@ -71,7 +71,7 @@ Gui.Selection.Filter
 
 ```
 
-The `addSelectionGate` method prevents the user from selecting objects not specified in the selection string. A ![](/src/assets/images/Button_invalid.svg) symbol appears when the pointer is over an item not in the specified group.
+The `addSelectionGate` method prevents the user from selecting objects not specified in the selection string. A ![](/images/Button_invalid.svg) symbol appears when the pointer is over an item not in the specified group.
 
 ```
 Gui.Selection.addSelectionGate("SELECT Part::Feature SUBELEMENT Edge")

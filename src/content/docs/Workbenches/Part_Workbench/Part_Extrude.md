@@ -29,17 +29,17 @@ In most common scenarios, the following lists the expected output shape type fro
 - Extrude a open Wire (e.g. a Draft Wire), will produce a open shell (several joined faces)
 - Extrude a closed Wire (e.g. a Draft Wire), will optionally produce a shell (several joined faces) or if the parameter "solid" is "true" will produce a solid
 - Extrude a face (e.g. plane), will produce a solid (e.g. Cuboid)
-- Extrude a ![](/src/assets/images/Draft_ShapeString.svg) [Draft ShapeString](/Draft_ShapeString "Draft ShapeString"), will produce a compound of solids (the string is a compound of the letters which are each a solid)
+- Extrude a ![](/images/Draft_ShapeString.svg) [Draft ShapeString](/Draft_ShapeString "Draft ShapeString"), will produce a compound of solids (the string is a compound of the letters which are each a solid)
 - Extrude a shell of faces, will produce a Compsolid.
 
-![](/src/assets/images/Part_Extrude_demo.png)
+![](/images/Part_Extrude_demo.png)
 
 Examples of extrusion
 
 ## Usage
 
 1. Select the shape(s) in the [3D view](/3D_view "3D view") or in the Model [tree view](/Tree_view "Tree view")
-2. Click on the ![](/src/assets/images/Part_Extrude.svg) [Part Extrude](/Part_Extrude "Part Extrude") button in the toolbar, or go to the **Part → Extrude...** menu
+2. Click on the ![](/images/Part_Extrude.svg) [Part Extrude](/Part_Extrude "Part Extrude") button in the toolbar, or go to the **Part → Extrude...** menu
 3. Set the direction and length and optionally other parameters (see the following [Parameters](#Parameters) section for more details).
 4. Click OK.
 
@@ -82,7 +82,7 @@ The Extrude shape is defined by the following parameters, which can be edited af
 
 ## Task dialog
 
-![](/src/assets/images/Part_Extrude_dialog.png)
+![](/images/Part_Extrude_dialog.png)
 
 - OK button creates the extrusion, and closes the dialog.
 

@@ -30,7 +30,7 @@ title: Pinger
 
 Use this macro to ping another user on the forum so that user gets a notification. Pinging requires knowing the username exactly and the user id number. You also must know the syntax required to produce the ping. It's very user-unfriendly, to say the least. In comes the Pinger macro to save the day. Run the macro, select the user you wish to ping, click the Ping button, copy-paste the code into the forum post.
 
-![](/src/assets/images/Pinger_scr.png)
+![](/images/Pinger_scr.png)
 
 Pinger screenshot
 
@@ -41,7 +41,7 @@ The Macro supports user parameters, which are used for the added users list. It 
 ## Script
 
 ToolBar icon
-![](/src/assets/images/Pinger_Icon.svg)
+![](/images/Pinger_Icon.svg)
 
 **Macro_Snip.FCMacro**
 

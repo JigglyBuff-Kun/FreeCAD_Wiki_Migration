@@ -25,11 +25,11 @@ For info about the math of the equation, see the [Elmer models manual](https://w
 
 ## Usage
 
-1. Add an ![](/src/assets/images/FEM_SolverElmer.svg) [Elmer solver](/FEM_SolverElmer#Equations "FEM SolverElmer").
+1. Add an ![](/images/FEM_SolverElmer.svg) [Elmer solver](/FEM_SolverElmer#Equations "FEM SolverElmer").
 2. Select it in the [Tree view](/Tree_view "Tree view").
 3. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/FEM_EquationFlow.svg) [Flow equation](/FEM_EquationFlow "FEM EquationFlow") button.
-   - Select the **Solve → ![](/src/assets/images/FEM_EquationFlow.svg) Flow equation** option from the menu.
+   - Press the ![](/images/FEM_EquationFlow.svg) [Flow equation](/FEM_EquationFlow "FEM EquationFlow") button.
+   - Select the **Solve → ![](/images/FEM_EquationFlow.svg) Flow equation** option from the menu.
 4. Change the [equation's solver settings](#Solver_Settings) or the [general solver settings](/FEM_SolverElmer_SolverSettings "FEM SolverElmer SolverSettings") if necessary.
 
 ## Solver Settings
@@ -46,7 +46,7 @@ The flow equation provides these special settings:
 
 Equation:
 
-- Data**Convection**: The type of convection to be used in the ![](/src/assets/images/FEM_EquationHeat.svg) [Heat equation](/FEM_EquationHeat "FEM EquationHeat").  
+- Data**Convection**: The type of convection to be used in the ![](/images/FEM_EquationHeat.svg) [Heat equation](/FEM_EquationHeat "FEM EquationHeat").  
   **Note**: For thermal flows it must be set to _Computed_ (the default).
 - Data**Magnetic Induction**: If set to _true_ the magnetic induction equation will be solved along with the [Navier-Stokes equations](https://en.wikipedia.org/wiki/Navier%E2%80%93Stokes_equations).
 
@@ -63,16 +63,16 @@ If the solver results do not converge, you can try these things (in the given or
 
 The flow equation takes the following analysis features into account if they are set:
 
-- ![](/src/assets/images/FEM_ConstraintFlowVelocity.svg) [Flow velocity boundary condition](/FEM_ConstraintFlowVelocity "FEM ConstraintFlowVelocity")
-- ![](/src/assets/images/FEM_ConstraintInitialFlowVelocity.svg) [Initial flow velocity condition](/FEM_ConstraintInitialFlowVelocity "FEM ConstraintInitialFlowVelocity")
-- ![](/src/assets/images/FEM_ConstraintPressure.svg) [Pressure load](/FEM_ConstraintPressure "FEM ConstraintPressure")
-- ![](/src/assets/images/FEM_ConstraintInitialPressure.svg) [Initial pressure condition](/FEM_ConstraintInitialPressure "FEM ConstraintInitialPressure") ([introduced in 0.21](/Release_notes_0.21 "Release notes 0.21"))
+- ![](/images/FEM_ConstraintFlowVelocity.svg) [Flow velocity boundary condition](/FEM_ConstraintFlowVelocity "FEM ConstraintFlowVelocity")
+- ![](/images/FEM_ConstraintInitialFlowVelocity.svg) [Initial flow velocity condition](/FEM_ConstraintInitialFlowVelocity "FEM ConstraintInitialFlowVelocity")
+- ![](/images/FEM_ConstraintPressure.svg) [Pressure load](/FEM_ConstraintPressure "FEM ConstraintPressure")
+- ![](/images/FEM_ConstraintInitialPressure.svg) [Initial pressure condition](/FEM_ConstraintInitialPressure "FEM ConstraintInitialPressure") ([introduced in 0.21](/Release_notes_0.21 "Release notes 0.21"))
 
 ### Notes
 
 - Except for calculations in 2D, for all above boundary conditions it is important that they act on a face or body. Boundary conditions for 3D set to lines or vertices are not recognized by the Elmer solver.
-- Since ![](/src/assets/images/FEM_ConstraintPressure.svg) [Pressure load](/FEM_ConstraintPressure "FEM ConstraintPressure") can only be set to faces, pressure loads cannot be used for calculations in 2D.
-- If there is no ![](/src/assets/images/FEM_ConstraintPressure.svg) [Pressure load](/FEM_ConstraintPressure "FEM ConstraintPressure") set, ![](/src/assets/images/FEM_ConstraintInitialPressure.svg) [Initial pressure condition](/FEM_ConstraintInitialPressure "FEM ConstraintInitialPressure") will only be taken into account if Data**Gradp Discretization** is set to _true_.
+- Since ![](/images/FEM_ConstraintPressure.svg) [Pressure load](/FEM_ConstraintPressure "FEM ConstraintPressure") can only be set to faces, pressure loads cannot be used for calculations in 2D.
+- If there is no ![](/images/FEM_ConstraintPressure.svg) [Pressure load](/FEM_ConstraintPressure "FEM ConstraintPressure") set, ![](/images/FEM_ConstraintInitialPressure.svg) [Initial pressure condition](/FEM_ConstraintInitialPressure "FEM ConstraintInitialPressure") will only be taken into account if Data**Gradp Discretization** is set to _true_.
 
 ## Results
 
@@ -88,6 +88,6 @@ s
 P
 a
 {\displaystyle {\rm {Pa}}}
-![{\displaystyle {\rm {Pa}}}](https://wikimedia.org/api/rest_v1/media/math/render/svg/c9835d51ddcf6f8ce955d02f677df5789506606a). If there is no ![](/src/assets/images/FEM_ConstraintInitialPressure.svg) [Initial pressure condition](/FEM_ConstraintInitialPressure "FEM ConstraintInitialPressure") and ![](/src/assets/images/FEM_ConstraintPressure.svg) [Pressure load](/FEM_ConstraintPressure "FEM ConstraintPressure") given, the resulting pressure will be relative not absolute. Since pressure must act on a face, absolute pressure results cannot be obtained in 2D simulations.
+![{\displaystyle {\rm {Pa}}}](https://wikimedia.org/api/rest_v1/media/math/render/svg/c9835d51ddcf6f8ce955d02f677df5789506606a). If there is no ![](/images/FEM_ConstraintInitialPressure.svg) [Initial pressure condition](/FEM_ConstraintInitialPressure "FEM ConstraintInitialPressure") and ![](/images/FEM_ConstraintPressure.svg) [Pressure load](/FEM_ConstraintPressure "FEM ConstraintPressure") given, the resulting pressure will be relative not absolute. Since pressure must act on a face, absolute pressure results cannot be obtained in 2D simulations.
 
 Retrieved from "<http://wiki.freecad.org/index.php?title=FEM_EquationFlow/en&oldid=1569130>"

@@ -38,7 +38,7 @@ The macro will feature a list widget showing all the currently open editors. The
 
 Full documentation can be found on GitHub: [Editor Assistant](https://github.com/mwganson/Editor_Assistant).
 
-![](/src/assets/images/Editor_Assistant_scr1.png)
+![](/images/Editor_Assistant_scr1.png)
 
 Macro Editor Assistant screenshot‎
 
@@ -75,13 +75,13 @@ webbrowser.open("https://gist.github.com/mwganson/20475dad57d9b659190f082d20e3bd
 <class="rawcodeurl"><a href="<https://gist.github.com/mwganson/20475dad57d9b659190f082d20e3bde6/raw/f3a9d8fa95e8c3f264f376b06f5566c8b03eff5a/Editor_Assistant.FCMacro>">raw code</a>
 
 ToolBar Icon
-![](/src/assets/images/Editor_Assistant_Icon.svg)
+![](/images/Editor_Assistant_Icon.svg)
 
 ## Script
 
 **Macro Editor_Assitant.FCMacro**
 
-[![](/src/assets/images/Nuvola_apps_download_manager.png)](https://gist.github.com/mwganson/20475dad57d9b659190f082d20e3bde6)
+[![](/images/Nuvola_apps_download_manager.png)](https://gist.github.com/mwganson/20475dad57d9b659190f082d20e3bde6)
 
 [Editor_Assitant.FCMacro](https://gist.github.com/mwganson/20475dad57d9b659190f082d20e3bde6)
 

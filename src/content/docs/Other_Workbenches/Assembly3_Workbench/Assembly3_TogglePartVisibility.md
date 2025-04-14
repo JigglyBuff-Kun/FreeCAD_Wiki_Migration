@@ -23,13 +23,13 @@ This documentation is not finished. Please help and contribute documentation.Gui
 
 ## Description
 
-The ![](/src/assets/images/Assembly_TogglePartVisibility.svg) [Toggle part visibility](/Assembly3_TogglePartVisibility "Assembly3 TogglePartVisibility") command toggles the visibility of the part object that is connected to a preselected **Element** object.
+The ![](/images/Assembly_TogglePartVisibility.svg) [Toggle part visibility](/Assembly3_TogglePartVisibility "Assembly3 TogglePartVisibility") command toggles the visibility of the part object that is connected to a preselected **Element** object.
 
 ## Usage
 
-1. Activate the ![](/src/assets/images/Assembly_TogglePartVisibility.svg) **Toggle part visibility** command using one of the following:
-   - The ![](/src/assets/images/Assembly_TogglePartVisibility.svg) [Toggle part visibility](/Assembly3_TogglePartVisibility "Assembly3 TogglePartVisibility") button.
-   - The **Assembly3 → ![](/src/assets/images/Assembly_TogglePartVisibility.svg) Toggle part visibility** menu option.
+1. Activate the ![](/images/Assembly_TogglePartVisibility.svg) **Toggle part visibility** command using one of the following:
+   - The ![](/images/Assembly_TogglePartVisibility.svg) [Toggle part visibility](/Assembly3_TogglePartVisibility "Assembly3 TogglePartVisibility") button.
+   - The **Assembly3 → ![](/images/Assembly_TogglePartVisibility.svg) Toggle part visibility** menu option.
    - The keyboard shortcut: A then Space.
 
 Retrieved from "<http://wiki.freecad.org/index.php?title=Assembly3_TogglePartVisibility/en&oldid=1096314>"

@@ -23,9 +23,9 @@ This documentation is not finished. Please help and contribute documentation.Gui
 
 ## Description
 
-The ![](/src/assets/images/Curves_FlattenFace.svg) **Curves FlattenFace** tool creates a flat developed face from conical or cylindrical faces.
+The ![](/images/Curves_FlattenFace.svg) **Curves FlattenFace** tool creates a flat developed face from conical or cylindrical faces.
 
-![](/src/assets/images/Curves_FlattenFace01.png)
+![](/images/Curves_FlattenFace01.png)
 
 A truncated cone and two Flatten objects, one in place (green), and one on the XY plane (red)
 
@@ -33,8 +33,8 @@ A truncated cone and two Flatten objects, one in place (green), and one on the X
 
 1. Select one or more conical or cylindrical faces.
 2. There are several ways to invoke the tool:
-   - Press the ![](/src/assets/images/Curves_FlattenFace.svg) [Flatten face](/Curves_FlattenFace "Curves FlattenFace") button.
-   - Select the **Surfaces → ![](/src/assets/images/Curves_FlattenFace.svg) Flatten face** option from the menu.
+   - Press the ![](/images/Curves_FlattenFace.svg) [Flatten face](/Curves_FlattenFace "Curves FlattenFace") button.
+   - Select the **Surfaces → ![](/images/Curves_FlattenFace.svg) Flatten face** option from the menu.
 3. A **Flatten** object is created for each selected face.
 
 ## Properties

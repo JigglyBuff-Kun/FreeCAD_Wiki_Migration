@@ -23,7 +23,7 @@ Der Befehl **Std SpeichernUnter** speichert das aktive Dokument unter einem neue
 
 ## Anwendung
 
-1. Menüeintrag **Datei → ![](/src/assets/images/Std_SaveAs.svg) Speichern unter...** auswählen.
+1. Menüeintrag **Datei → ![](/images/Std_SaveAs.svg) Speichern unter...** auswählen.
 2. Einen Dateinamen im Dialogfeld eingeben.
 3. Schaltfläche Speichern drücken.
 

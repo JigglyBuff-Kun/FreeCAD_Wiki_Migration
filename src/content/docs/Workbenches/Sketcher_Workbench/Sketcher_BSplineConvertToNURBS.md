@@ -19,13 +19,13 @@ title: Sketcher BSplineConvertToNURBS
 
 ## Description
 
-The ![](/src/assets/images/Sketcher_BSplineConvertToNURBS.svg) [Sketcher BSplineConvertToNURBS](/Sketcher_BSplineConvertToNURBS "Sketcher BSplineConvertToNURBS") tool converts edges to [B-splines](/B-Splines "B-Splines").
+The ![](/images/Sketcher_BSplineConvertToNURBS.svg) [Sketcher BSplineConvertToNURBS](/Sketcher_BSplineConvertToNURBS "Sketcher BSplineConvertToNURBS") tool converts edges to [B-splines](/B-Splines "B-Splines").
 
-![](/src/assets/images/Sketcher_BSplineConvertToNurb.png)
+![](/images/Sketcher_BSplineConvertToNurb.png)
 
 Various objects before conversion.
 
-![](/src/assets/images/Sketcher_BSplineConvertToNurb1.png)
+![](/images/Sketcher_BSplineConvertToNurb1.png)
 
 The same objects after conversion to B-splines.
 
@@ -33,8 +33,8 @@ The same objects after conversion to B-splines.
 
 1. Select one or more edges.
 2. There are several ways to invoke the tool:
-   - Press the ![](/src/assets/images/Sketcher_BSplineConvertToNURBS.svg) [Convert geometry to B-spline](/Sketcher_BSplineConvertToNURBS "Sketcher BSplineConvertToNURBS") button.
-   - Select the **Sketch → Sketcher B-spline tools → ![](/src/assets/images/Sketcher_BSplineConvertToNURBS.svg) Convert geometry to B-spline** option from the menu.
+   - Press the ![](/images/Sketcher_BSplineConvertToNURBS.svg) [Convert geometry to B-spline](/Sketcher_BSplineConvertToNURBS "Sketcher BSplineConvertToNURBS") button.
+   - Select the **Sketch → Sketcher B-spline tools → ![](/images/Sketcher_BSplineConvertToNURBS.svg) Convert geometry to B-spline** option from the menu.
 3. The edges are converted.
 
 ## Notes

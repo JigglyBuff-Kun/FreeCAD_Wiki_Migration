@@ -5,7 +5,7 @@ title: Material Workbench
 :::caution
 This documentation is not finished. Please help and contribute documentation.GuiCommand modelexplains how commands should be documented. BrowseCategory:UnfinishedDocuto see more incomplete pages like this one. SeeCategory:Command Referencefor all commands.SeeWikiPagesto learn about editing the wiki pages, and go toHelp FreeCADto learn about other ways in which you can contribute.
 :::
-![](/src/assets/images/Workbench_Material.svg)
+![](/images/Workbench_Material.svg)
 
 Material workbench icon
 
@@ -13,16 +13,16 @@ Material workbench icon
 
 [introduced in 1.0](/Release_notes_1.0 "Release notes 1.0")
 
-The ![](/src/assets/images/Workbench_Material.svg) [Material Workbench](/Material_Workbench "Material Workbench") handles the FreeCAD material system.
+The ![](/images/Workbench_Material.svg) [Material Workbench](/Material_Workbench "Material Workbench") handles the FreeCAD material system.
 
 ## Tools
 
 All Material Workbench tools can be accessed from the Material menu. Almost all are also available in the Material toolbar.
 
-- ![](/src/assets/images/Material_Edit.svg) [Material Edit](/Material_Edit "Material Edit"): Opens a new material editor.
+- ![](/images/Material_Edit.svg) [Material Edit](/Material_Edit "Material Edit"): Opens a new material editor.
 
 ## Preferences
 
-- ![](/src/assets/images/Preferences-material.svg) [Preferences](/Material_Preferences "Material Preferences"): Preferences for the Material Workbench.
+- ![](/images/Preferences-material.svg) [Preferences](/Material_Preferences "Material Preferences"): Preferences for the Material Workbench.
 
 Retrieved from "<http://wiki.freecad.org/index.php?title=Material_Workbench/en&oldid=1550110>"

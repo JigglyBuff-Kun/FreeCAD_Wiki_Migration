@@ -33,7 +33,7 @@ This macro delete all objects not selected !!.
 ## Script
 
 ToolBar Icon
-![](/src/assets/images/Macro_If_Selected_Stay_If_Not_Then_Delete.png)
+![](/images/Macro_If_Selected_Stay_If_Not_Then_Delete.png)
 
 **Macro_If_Selected_Stay_If_Not_Then_Delete.FCMacro**
 

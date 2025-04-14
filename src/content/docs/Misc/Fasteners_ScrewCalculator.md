@@ -19,17 +19,17 @@ title: Fasteners ScrewCalculator
 
 ## Description
 
-The ![](/src/assets/images/Fasteners_ScrewCalculator.svg) **Fasteners ScrewCalculator** command shows a calculator to determine the tap hole size of screws.
+The ![](/images/Fasteners_ScrewCalculator.svg) **Fasteners ScrewCalculator** command shows a calculator to determine the tap hole size of screws.
 
-![](/src/assets/images/Fasteners_ScrewCalculator_Dialog.png)
+![](/images/Fasteners_ScrewCalculator_Dialog.png)
 
 The Screw hole calculator dialog box
 
 ## Usage
 
 1. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/Fasteners_ScrewCalculator.svg) [Screw calculator](/Fasteners_ScrewCalculator "Fasteners ScrewCalculator") button.
-   - Select the **Fasteners → ![](/src/assets/images/Fasteners_ScrewCalculator.svg) Screw calculator** option from the menu.
+   - Press the ![](/images/Fasteners_ScrewCalculator.svg) [Screw calculator](/Fasteners_ScrewCalculator "Fasteners ScrewCalculator") button.
+   - Select the **Fasteners → ![](/images/Fasteners_ScrewCalculator.svg) Screw calculator** option from the menu.
 2. The **Screw hole calculator** dialog box opens.
 3. Specify the **Fastener type** and the **Screw diameter**.
 4. The **Suggested hole diameter** is displayed.

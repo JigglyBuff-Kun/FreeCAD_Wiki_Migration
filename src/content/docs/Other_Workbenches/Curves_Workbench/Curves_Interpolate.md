@@ -23,14 +23,14 @@ This documentation is not finished. Please help and contribute documentation.Gui
 
 ## Description
 
-The ![](/src/assets/images/Curves_Interpolate.svg) [Curves Interpolate](/Curves_Interpolate "Curves Interpolate") tool interpolates points with a B-spline curve.
+The ![](/images/Curves_Interpolate.svg) [Curves Interpolate](/Curves_Interpolate "Curves Interpolate") tool interpolates points with a B-spline curve.
 
 ## Usage
 
 1. Select several vertices or one object containing at least 2 vertices.
 2. There are several ways to invoke the tool:
-   - Press the ![](/src/assets/images/Curves_Interpolate.svg) [Curves Interpolate](/Curves_Interpolate "Curves Interpolate") button.
-   - Select the **Curves → ![](/src/assets/images/Curves_Interpolate.svg) Interpolate** option from the menu.
+   - Press the ![](/images/Curves_Interpolate.svg) [Curves Interpolate](/Curves_Interpolate "Curves Interpolate") button.
+   - Select the **Curves → ![](/images/Curves_Interpolate.svg) Interpolate** option from the menu.
 3. An **Interpolation_Curve** object is created.
 
 ## Properties

@@ -28,8 +28,8 @@ Das Werkzeug **Std AbstendMessen** erstellt ein Distance-Objekt, das den Abstand
 ## Anwendung
 
 1. Es gibt mehrere Möglichkeiten den Befehl aufzurufen:
-   - Die Schaltfläche ![](/src/assets/images/Std_MeasureDistance.svg) Std Abstand messen drücken.
-   - Den Menüeintrag **Werkzeuge → ![](/src/assets/images/Std_MeasureDistance.svg) Abstand messen** auswählen.
+   - Die Schaltfläche ![](/images/Std_MeasureDistance.svg) Std Abstand messen drücken.
+   - Den Menüeintrag **Werkzeuge → ![](/images/Std_MeasureDistance.svg) Abstand messen** auswählen.
 2. Den ersten Messpunkt irgendwo auf einem Objekt in der [3D-Ansicht](/3D_view/de "3D view/de") auswählen.
 3. Den zweiten Messpunkt irgendwo auf einem Objekt in der3D-Ansicht auswählen.
 4. Die Auswahlreihenfolge der Punkte kann die Lage der Maßlinie beeinflussen.
@@ -39,7 +39,7 @@ Das Werkzeug **Std AbstendMessen** erstellt ein Distance-Objekt, das den Abstand
 
 - Das Fangwerkzeug des Arbeitsbereichs [Draft](/Draft_Workbench/de "Draft Workbench/de") kann nicht mit diesem Werkzeug zusammen verwendet werden.
 - Um einer Zeichnung Maße hinzuzufügen, werden die Bemaßungswerkzeuge des Arbeitsbereichs [TechDraw](/TechDraw_Workbench/de "TechDraw Workbench/de") verwendet.
-- Für umfangreichere Messwerkzeuge kann der [externe Arbeitsbereich](/External_workbenches/de "External workbenches/de") ![](/src/assets/images/Manipulator_workbench_icon.svg) [Manipulatorverwendet](/Manipulator_Workbench/de "Manipulator Workbench/de") werden.
+- Für umfangreichere Messwerkzeuge kann der [externe Arbeitsbereich](/External_workbenches/de "External workbenches/de") ![](/images/Manipulator_workbench_icon.svg) [Manipulatorverwendet](/Manipulator_Workbench/de "Manipulator Workbench/de") werden.
 
 ## Eigenschaften
 

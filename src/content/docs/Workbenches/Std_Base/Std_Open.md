@@ -24,8 +24,8 @@ The **Std Open** command opens a file. If the file is not a native FreeCAD file 
 ## Usage
 
 1. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/Std_Open.svg) [Open...](/Std_Open "Std Open") button.
-   - Select the **File → ![](/src/assets/images/Std_Open.svg) Open...** option from the menu.
+   - Press the ![](/images/Std_Open.svg) [Open...](/Std_Open "Std Open") button.
+   - Select the **File → ![](/images/Std_Open.svg) Open...** option from the menu.
    - Use the keyboard shortcut: Ctrl+O.
 2. Optionally select the correct file format in the dialog box.
 3. Select a file.

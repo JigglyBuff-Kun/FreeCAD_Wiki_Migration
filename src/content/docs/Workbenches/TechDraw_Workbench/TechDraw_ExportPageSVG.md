@@ -25,8 +25,8 @@ The **TechDraw ExportPageSVG** tool saves the current drawing page as an [SVG](/
 
 1. If there are multiple drawing pages in the document: optionally activate the desired page by selecting it in the [Tree view](/Tree_view "Tree view").
 2. There are several ways to invoke the tool:
-   - Press the ![](/src/assets/images/TechDraw_ExportPageSVG.svg) [Export Page as SVG](/TechDraw_ExportPageSVG "TechDraw ExportPageSVG") button.
-   - Select the **TechDraw → Page → ![](/src/assets/images/TechDraw_ExportPageSVG.svg) Export Page as SVG** option from the menu.
+   - Press the ![](/images/TechDraw_ExportPageSVG.svg) [Export Page as SVG](/TechDraw_ExportPageSVG "TechDraw ExportPageSVG") button.
+   - Select the **TechDraw → Page → ![](/images/TechDraw_ExportPageSVG.svg) Export Page as SVG** option from the menu.
    - If a page is displayed in the [Main view area](/Main_view_area "Main view area"): right-click the page's window and select the **Export SVG** option from the context menu.
 3. If there are multiple drawing pages in the document and you have not yet activated a page, the **Page Chooser** dialog box opens:
    1. Select the desired page.

@@ -19,9 +19,9 @@ title: TechDraw Hatch
 
 ## Description
 
-The **TechDraw Hatch** tool fills a closed region in a View with a tiled [SVG](/SVG "SVG") or bitmap ([introduced in 0.21](/Release_notes_0.21 "Release notes 0.21")) based hatch pattern. Alternatively the ![](/src/assets/images/TechDraw_GeometricHatch.svg) [TechDraw GeometricHatch](/TechDraw_GeometricHatch "TechDraw GeometricHatch") tool uses PAT based hatch patterns. See [Hatching](/TechDraw_Hatching "TechDraw Hatching") for details.
+The **TechDraw Hatch** tool fills a closed region in a View with a tiled [SVG](/SVG "SVG") or bitmap ([introduced in 0.21](/Release_notes_0.21 "Release notes 0.21")) based hatch pattern. Alternatively the ![](/images/TechDraw_GeometricHatch.svg) [TechDraw GeometricHatch](/TechDraw_GeometricHatch "TechDraw GeometricHatch") tool uses PAT based hatch patterns. See [Hatching](/TechDraw_Hatching "TechDraw Hatching") for details.
 
-![](/src/assets/images/TechDraw_Hatch_example.png)
+![](/images/TechDraw_Hatch_example.png)
 
 SVG hatch pattern on a face
 
@@ -29,8 +29,8 @@ SVG hatch pattern on a face
 
 1. Select a closed region in a View.
 2. There are several ways to invoke the tool:
-   - Press the ![](/src/assets/images/TechDraw_Hatch.svg) [TechDraw Hatch](/TechDraw_Hatch "TechDraw Hatch") button.
-   - Select the **TechDraw → Hatching → ![](/src/assets/images/TechDraw_Hatch.svg) Hatch a Face using Image File** option from the menu.
+   - Press the ![](/images/TechDraw_Hatch.svg) [TechDraw Hatch](/TechDraw_Hatch "TechDraw Hatch") button.
+   - Select the **TechDraw → Hatching → ![](/images/TechDraw_Hatch.svg) Hatch a Face using Image File** option from the menu.
 3. The **Apply Hatch to Face** task panel opens.
 4. Optionally change the **Pattern File**.
 5. Optionally change the **Pattern Scale** and the **Line Color**. These settings are ignored for bitmap patterns.

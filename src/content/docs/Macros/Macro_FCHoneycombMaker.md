@@ -30,15 +30,15 @@ title: FCHoneycombMaker
 
 This macro creates a parametric honeycomb grid. The parametric properties are contained in a spreadsheet.
 
-![](/src/assets/images/Honeycombmaker-pd-screenshot.png)
+![](/images/Honeycombmaker-pd-screenshot.png)
 
 You could also change the base object for the honeycomb grid to achieve other interesting arrays, such as this egg crate by changing the base hexagon object with an egg-shaped ellipsoid:
 
-![](/src/assets/images/Honeycombmaker-screenshot8.png)
+![](/images/Honeycombmaker-screenshot8.png)
 
 ## Script
 
-ToolBar Icon ![](/src/assets/images/FCHoneycombMakerIcon.png)
+ToolBar Icon ![](/images/FCHoneycombMakerIcon.png)
 
 **Macro_FCHoneycombMaker.FCMacro**
 

@@ -39,7 +39,7 @@ Comments from yorik and normandc:
 
 Hello readers, the following document is meant as both a proof of concept and as a test platform to try new ideas; this in order to set a new standard in the creation of tutorials. Hopefully you will find it useful whether as a real guideline or as reference material. And so, without further ado allow me to describe each section of the document. What you are reading right now is meant to be used as a brief summary for your work, perhaps mentioning what workbenches you will use and screenshot of the finished project to use as a thumbnail (hopefully someone will figure how to do it). The box to the right is a new template for tutorials in which concise information can be obtained, such as author, FreeCAD version, and the intended user level.
 
-![](/src/assets/images/Screenshot_arch_window.jpg)
+![](/images/Screenshot_arch_window.jpg)
 
 Thumbnail for the project.
 
@@ -66,7 +66,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 Avoid abusing boxes, however. Perhaps one per two sections of the tutorial might be enough.
 Note that you can include images wihtin the boxes as well.
 
-![](/src/assets/images/Screenshot_arch_window.jpg)
+![](/images/Screenshot_arch_window.jpg)
 
 Thumbnail for the project.
 
@@ -90,19 +90,19 @@ Remember that it is possible to use boxes to occupy the entire width of the page
 | -------------------------- | -------------------------- |
 | Thumbnail for the project. | Thumbnail for the project. |
 
-- [![Astronotus ocellatus (Oscar)](/src/assets/images/Astronotus_ocellatus.jpg)](/File:Astronotus_ocellatus.jpg "Astronotus ocellatus (Oscar)")
+- [![Astronotus ocellatus (Oscar)](/images/Astronotus_ocellatus.jpg)](/File:Astronotus_ocellatus.jpg "Astronotus ocellatus (Oscar)")
 
   _[Astronotus ocellatus](http://commons.wikimedia.org/wiki/Astronotus_ocellatus "commons:Astronotus ocellatus")_ (Oscar)
 
-- [![Salmo salar (Salmon Larva)](/src/assets/images/Salmonlarvakils.jpg)](/File:Salmonlarvakils.jpg "Salmo salar (Salmon Larva)")
+- [![Salmo salar (Salmon Larva)](/images/Salmonlarvakils.jpg)](/File:Salmonlarvakils.jpg "Salmo salar (Salmon Larva)")
 
   _[Salmo salar](http://commons.wikimedia.org/wiki/Salmo_salar "commons:Salmo salar")_ (Salmon Larva)
 
-- [![Epinephelus lanceolatus (Giant grouper)](/src/assets/images/Georgia_Aquarium_-_Giant_Grouper.jpg)](/File:Georgia_Aquarium_-_Giant_Grouper.jpg "Epinephelus lanceolatus (Giant grouper)")
+- [![Epinephelus lanceolatus (Giant grouper)](/images/Georgia_Aquarium_-_Giant_Grouper.jpg)](/File:Georgia_Aquarium_-_Giant_Grouper.jpg "Epinephelus lanceolatus (Giant grouper)")
 
   _[Epinephelus lanceolatus](http://commons.wikimedia.org/wiki/Epinephelus_lanceolatus "commons:Epinephelus lanceolatus")_ (Giant grouper)
 
-- [![Pterois volitans (Red Lionfish)](/src/assets/images/Pterois_volitans_Manado-e.jpg)](/File:Pterois_volitans_Manado-e.jpg "Pterois volitans (Red Lionfish)")
+- [![Pterois volitans (Red Lionfish)](/images/Pterois_volitans_Manado-e.jpg)](/File:Pterois_volitans_Manado-e.jpg "Pterois volitans (Red Lionfish)")
 
   _[Pterois volitans](http://commons.wikimedia.org/wiki/Pterois_volitans "commons:Pterois volitans")_ (Red Lionfish)
 
@@ -110,15 +110,15 @@ Remember that it is possible to use boxes to occupy the entire width of the page
 
   _[Macropodus opercularis](http://commons.wikimedia.org/wiki/Macropodus_opercularis "commons:Macropodus opercularis")_ (Paradise fish)
 
-- [![Canthigaster valentini (Valentinni's sharpnose puffer)](/src/assets/images/Canthigaster_valentini_1.jpg)](/File:Canthigaster_valentini_1.jpg "Canthigaster valentini (Valentinni's sharpnose puffer)")
+- [![Canthigaster valentini (Valentinni's sharpnose puffer)](/images/Canthigaster_valentini_1.jpg)](/File:Canthigaster_valentini_1.jpg "Canthigaster valentini (Valentinni's sharpnose puffer)")
 
   _[Canthigaster valentini](http://commons.wikimedia.org/wiki/Canthigaster_valentini "commons:Canthigaster valentini")_ (Valentinni's sharpnose puffer)
 
-- [![Dactylopterus volitans (Flying gurnard)](/src/assets/images/Flughahn.jpg)](/File:Flughahn.jpg "Dactylopterus volitans (Flying gurnard)")
+- [![Dactylopterus volitans (Flying gurnard)](/images/Flughahn.jpg)](/File:Flughahn.jpg "Dactylopterus volitans (Flying gurnard)")
 
   [![](https://upload.wikimedia.org/wikipedia/commons/d/dc/POTY_ribbon_2007.svg)](/File:POTY_ribbon_2007.svg) _[Dactylopterus volitans](http://commons.wikimedia.org/wiki/Dactylopterus_volitans "commons:Dactylopterus volitans")_ (Flying gurnard)
 
-- [![Semicossyphus pulcher (California Sheephead)](/src/assets/images/Fishmarket_01.jpg)](/File:Fishmarket_01.jpg "Semicossyphus pulcher (California Sheephead)")
+- [![Semicossyphus pulcher (California Sheephead)](/images/Fishmarket_01.jpg)](/File:Fishmarket_01.jpg "Semicossyphus pulcher (California Sheephead)")
 
   _[Semicossyphus pulcher](http://commons.wikimedia.org/wiki/Semicossyphus_pulcher "commons:Semicossyphus pulcher")_ (California Sheephead)
 

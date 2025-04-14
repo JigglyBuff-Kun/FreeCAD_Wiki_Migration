@@ -4,17 +4,17 @@ title: App DocumentObject
 
 ## Introduction
 
-![](/src/assets/images/Px.svg)
+![](/images/Px.svg)
 
 An [App DocumentObject](/App_DocumentObject "App DocumentObject") object, or formally an `App::DocumentObject`, is the base class of all object classes handled in the document.
 
 In general terms, a "DocumentObject" is any "thing" that can appear in the [Tree view](/Tree_view "Tree view"), and which is saved and restored when opening a document.
 
-![](/src/assets/images/App_DocumentObject_example.png)
+![](/images/App_DocumentObject_example.png)
 
 Tree view showing different objects in the document. Each of them is a "document object", ultimately derived from the base `App::DocumentObject` class.
 
-![](/src/assets/images/FreeCAD_core_objects.svg)
+![](/images/FreeCAD_core_objects.svg)
 
 Simplified diagram of the relationships between the core objects in FreeCAD
 

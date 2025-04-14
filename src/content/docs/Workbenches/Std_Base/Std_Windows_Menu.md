@@ -2,7 +2,7 @@
 title: Std Windows Menu
 ---
 
-![](/src/assets/images/Freecad.svg)
+![](/images/Freecad.svg)
 
 Std Base icon
 
@@ -30,16 +30,16 @@ The Windows menu allows switching and rearranging of [Main view area](/Main_view
 
 The following tools are available in this menu:
 
-- ![](/src/assets/images/Std_ActivateNextWindow.svg) [Next](/Std_ActivateNextWindow "Std ActivateNextWindow"): Activates the next window.
+- ![](/images/Std_ActivateNextWindow.svg) [Next](/Std_ActivateNextWindow "Std ActivateNextWindow"): Activates the next window.
 
-- ![](/src/assets/images/Std_ActivatePrevWindow.svg) [Previous](/Std_ActivatePrevWindow "Std ActivatePrevWindow"): Activates the previous window.
+- ![](/images/Std_ActivatePrevWindow.svg) [Previous](/Std_ActivatePrevWindow "Std ActivatePrevWindow"): Activates the previous window.
 
-- ![](/src/assets/images/Std_TileWindows.svg) [Tile](/Std_TileWindows "Std TileWindows"): Tiles the windows.
+- ![](/images/Std_TileWindows.svg) [Tile](/Std_TileWindows "Std TileWindows"): Tiles the windows.
 
-- ![](/src/assets/images/Std_CascadeWindows.svg) [Cascade](/Std_CascadeWindows "Std CascadeWindows"): Cascades the windows.
+- ![](/images/Std_CascadeWindows.svg) [Cascade](/Std_CascadeWindows "Std CascadeWindows"): Cascades the windows.
 
 * ... The first 10 windows are listed here. Select a window to activate it.
 
-- ![](/src/assets/images/Std_Windows.svg) [Windows...](/Std_Windows "Std Windows"): Opens a dialog box from which a window can be activated.
+- ![](/images/Std_Windows.svg) [Windows...](/Std_Windows "Std Windows"): Opens a dialog box from which a window can be activated.
 
 Retrieved from "<http://wiki.freecad.org/index.php?title=Std_Windows_Menu/en&oldid=1454638>"

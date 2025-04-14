@@ -19,14 +19,14 @@ title: Sketcher BSplineKnotenVielfachheitVerringern
 
 ## Beschreibung
 
-Das Werkzeug ![](/src/assets/images/Sketcher_BSplineDecreaseKnotMultiplicity.svg) Sketcher BSplineKnotenVielfachheitVerringern verringert die Vielfachheit eines [B-Spline](/B-Splines/de "B-Splines/de")-Knotens.
+Das Werkzeug ![](/images/Sketcher_BSplineDecreaseKnotMultiplicity.svg) Sketcher BSplineKnotenVielfachheitVerringern verringert die Vielfachheit eines [B-Spline](/B-Splines/de "B-Splines/de")-Knotens.
 
 ## Anwendung
 
 1. Einen B-Spline-Knoten auswählen.
 2. Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
-   - Die Schaltfläche ![](/src/assets/images/Sketcher_BSplineDecreaseKnotMultiplicity.svg) Vielfachheit eines B-Spline-Knotens verringern drücken.
-   - Den Menüeintrag **Skizze → B-Spline-Werkzeuge → ![](/src/assets/images/Sketcher_BSplineDecreaseKnotMultiplicity.svg) Vielfachheit eines B-Spline-Knotens verringern** auswählen.
+   - Die Schaltfläche ![](/images/Sketcher_BSplineDecreaseKnotMultiplicity.svg) Vielfachheit eines B-Spline-Knotens verringern drücken.
+   - Den Menüeintrag **Skizze → B-Spline-Werkzeuge → ![](/images/Sketcher_BSplineDecreaseKnotMultiplicity.svg) Vielfachheit eines B-Spline-Knotens verringern** auswählen.
 
 ## Beispiel
 

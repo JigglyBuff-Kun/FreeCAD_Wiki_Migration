@@ -19,13 +19,13 @@ title: Sketcher SelectVerticalAxis
 
 ## Description
 
-The ![](/src/assets/images/Sketcher_SelectVerticalAxis.svg) [Sketcher SelectVerticalAxis](/Sketcher_SelectVerticalAxis "Sketcher SelectVerticalAxis") tool selects the vertical axis of the sketch.
+The ![](/images/Sketcher_SelectVerticalAxis.svg) [Sketcher SelectVerticalAxis](/Sketcher_SelectVerticalAxis "Sketcher SelectVerticalAxis") tool selects the vertical axis of the sketch.
 
 ## Usage
 
 1. There are several ways to invoke the tool:
-   - Select the **Sketch → Sketcher tools → ![](/src/assets/images/Sketcher_SelectVerticalAxis.svg) Select vertical axis** option from the menu.
-   - Right-click in the **Elements** section of the [Sketcher Dialog](/Sketcher_Dialog "Sketcher Dialog") and select the **![](/src/assets/images/Sketcher_SelectVerticalAxis.svg) Select Vertical Axis** option from the context menu.
+   - Select the **Sketch → Sketcher tools → ![](/images/Sketcher_SelectVerticalAxis.svg) Select vertical axis** option from the menu.
+   - Right-click in the **Elements** section of the [Sketcher Dialog](/Sketcher_Dialog "Sketcher Dialog") and select the **![](/images/Sketcher_SelectVerticalAxis.svg) Select Vertical Axis** option from the context menu.
    - Use the keyboard shortcut: Z then V.
 2. The vertical axis of the sketch is selected.
 

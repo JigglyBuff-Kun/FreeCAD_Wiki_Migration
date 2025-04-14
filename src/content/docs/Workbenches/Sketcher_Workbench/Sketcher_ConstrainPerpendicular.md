@@ -19,7 +19,7 @@ title: Sketcher ConstrainPerpendicular
 
 ## Description
 
-The ![](/src/assets/images/Sketcher_ConstrainPerpendicular.svg) [Sketcher ConstrainPerpendicular](/Sketcher_ConstrainPerpendicular "Sketcher ConstrainPerpendicular") tool constrains two lines to be perpendicular, or two edges, or an edge and an axis, to be perpendicular at their intersection. Lines are treated as infinite, and open curves are virtually extended as well. The constraint can also connect two edges, forcing them to be perpendicular at the joint.
+The ![](/images/Sketcher_ConstrainPerpendicular.svg) [Sketcher ConstrainPerpendicular](/Sketcher_ConstrainPerpendicular "Sketcher ConstrainPerpendicular") tool constrains two lines to be perpendicular, or two edges, or an edge and an axis, to be perpendicular at their intersection. Lines are treated as infinite, and open curves are virtually extended as well. The constraint can also connect two edges, forcing them to be perpendicular at the joint.
 
 ## Usage
 
@@ -29,9 +29,9 @@ See also: [Drawing aids](/Sketcher_Workbench#Drawing_aids "Sketcher Workbench").
 
 1. Make sure there is no selection.
 2. There are several ways to invoke the tool:
-   - Press the ![](/src/assets/images/Sketcher_ConstrainPerpendicular.svg) [Constrain perpendicular](/Sketcher_ConstrainPerpendicular "Sketcher ConstrainPerpendicular") button.
-   - Select the **Sketch → Sketcher constraints → ![](/src/assets/images/Sketcher_ConstrainPerpendicular.svg) Constrain perpendicular** option from the menu.
-   - [introduced in 1.0](/Release_notes_1.0 "Release notes 1.0"): Right-click in the [3D view](/3D_view "3D view") and select the **Constrain → ![](/src/assets/images/Sketcher_ConstrainPerpendicular.svg) Constrain perpendicular** option from the context menu.
+   - Press the ![](/images/Sketcher_ConstrainPerpendicular.svg) [Constrain perpendicular](/Sketcher_ConstrainPerpendicular "Sketcher ConstrainPerpendicular") button.
+   - Select the **Sketch → Sketcher constraints → ![](/images/Sketcher_ConstrainPerpendicular.svg) Constrain perpendicular** option from the menu.
+   - [introduced in 1.0](/Release_notes_1.0 "Release notes 1.0"): Right-click in the [3D view](/3D_view "3D view") and select the **Constrain → ![](/images/Sketcher_ConstrainPerpendicular.svg) Constrain perpendicular** option from the context menu.
    - Use the keyboard shortcut: N.
 3. The cursor changes to a cross with the tool icon.
 4. Do one of the following:
@@ -50,32 +50,32 @@ See also: [Drawing aids](/Sketcher_Workbench#Drawing_aids "Sketcher Workbench").
    - Select an edge and the endpoint of another edge (in any order).
    - Select a point and two edges (idem).
 2. Invoke the tool as explained above, or with the following additional option:
-   - [introduced in 1.0](/Release_notes_1.0 "Release notes 1.0"): Right-click in the [3D view](/3D_view "3D view") and select the **![](/src/assets/images/Sketcher_ConstrainPerpendicular.svg) Constrain perpendicular** option from the context menu.
+   - [introduced in 1.0](/Release_notes_1.0 "Release notes 1.0"): Right-click in the [3D view](/3D_view "3D view") and select the **![](/images/Sketcher_ConstrainPerpendicular.svg) Constrain perpendicular** option from the context menu.
 3. A Perpendicular constraint is added. If a point and two edges have been selected, up to two [Point on object constraints](/Sketcher_ConstrainPointOnObject "Sketcher ConstrainPointOnObject") can also be added. See [Examples](#Between_two_edges_at_point).
 
 ## Examples
 
 ### Between two edges
 
-![](/src/assets/images/Sketcher_ConsraintPerpendicular_mode1.png)
+![](/images/Sketcher_ConsraintPerpendicular_mode1.png)
 
 The two edges are made perpendicular at their (virtual) intersection. If one of the edges is a [conic](/Sketcher_Workbench#Sketcher_CompCreateConic "Sketcher Workbench"), a [Point object](/Sketcher_CreatePoint "Sketcher CreatePoint") that has a [Point on object constraint](/Sketcher_ConstrainPointOnObject "Sketcher ConstrainPointOnObject") with both (extended) edges is added.
 
 ### Between two endpoints
 
-![](/src/assets/images/Sketcher_ConsraintPerpendicular_mode2.png)
+![](/images/Sketcher_ConsraintPerpendicular_mode2.png)
 
 The endpoints are made coincident, and the edges are made perpendicular at that point.
 
 ### Between edge and endpoint
 
-![](/src/assets/images/Sketcher_ConsraintPerpendicular_mode3.png)
+![](/images/Sketcher_ConsraintPerpendicular_mode3.png)
 
 The endpoint of one edge is constrained to lie on the other edge, and the edges are made perpendicular at that point.
 
 ### Between two edges at point
 
-![](/src/assets/images/Sketcher_ConsraintPerpendicular_mode4.png)
+![](/images/Sketcher_ConsraintPerpendicular_mode4.png)
 
 The two edges are made perpendicular at a given point. The point can be any point, e.g. the center of a circle, the endpoint of an edge, or the origin, it can belong to one of the edges, and it can also be a [Point object](/Sketcher_CreatePoint "Sketcher CreatePoint"). If required [Point on object constraint(s)](/Sketcher_ConstrainPointOnObject "Sketcher ConstrainPointOnObject") are added to ensure the point lies on both (extended) edges. These additional constraints are called [helper constraints](/Sketcher_helper_constraint "Sketcher helper constraint").
 

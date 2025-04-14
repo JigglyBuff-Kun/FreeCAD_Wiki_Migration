@@ -23,14 +23,14 @@ This documentation is not finished. Please help and contribute documentation.Gui
 
 ## Description
 
-The ![](/src/assets/images/Curves_RotationSweep.svg) **Curves RotationSweep** tool sweeps profiles along a spine (sweep path) or a point.
+The ![](/images/Curves_RotationSweep.svg) **Curves RotationSweep** tool sweeps profiles along a spine (sweep path) or a point.
 
 ## Usage
 
 1. Select a spine and some profiles.
 2. There are several ways to invoke the tool:
-   - Press the ![](/src/assets/images/Curves_RotationSweep.svg) Rotation Sweep button.
-   - Select the **Surfaces → ![](/src/assets/images/Curves_RotationSweep.svg) Rotation Sweep** option from the menu.
+   - Press the ![](/images/Curves_RotationSweep.svg) Rotation Sweep button.
+   - Select the **Surfaces → ![](/images/Curves_RotationSweep.svg) Rotation Sweep** option from the menu.
 3. A Rotation_Sweep object is created.
 
 Retrieved from "<http://wiki.freecad.org/index.php?title=Curves_RotationSweep&oldid=1562480>"

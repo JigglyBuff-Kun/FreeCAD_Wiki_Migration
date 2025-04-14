@@ -24,8 +24,8 @@ Der Befehl **Std HomeAnsicht** macht die Kamera (-Ausrichtung) in der aktiven [3
 ## Anwendung
 
 1. Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
-   - Den Menüeintrag **Ansicht → Standardansichten → ![](/src/assets/images/Std_ViewHome.svg) Home** auswählen.
-   - Die Menüoption **Standardansichten → ![](/src/assets/images/Std_ViewHome.svg) Home** im Kontextmenü der [3D-Ansicht](/3D_view/de "3D view/de") auswählen.
+   - Den Menüeintrag **Ansicht → Standardansichten → ![](/images/Std_ViewHome.svg) Home** auswählen.
+   - Die Menüoption **Standardansichten → ![](/images/Std_ViewHome.svg) Home** im Kontextmenü der [3D-Ansicht](/3D_view/de "3D view/de") auswählen.
    - Das Tastaturkürzel: Pos1.
 
 ## Einstellungen

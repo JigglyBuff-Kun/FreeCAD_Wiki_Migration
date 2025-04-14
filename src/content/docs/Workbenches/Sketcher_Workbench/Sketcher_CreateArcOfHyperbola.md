@@ -19,9 +19,9 @@ title: Sketcher CreateArcOfHyperbola
 
 ## Description
 
-The ![](/src/assets/images/Sketcher_CreateArcOfHyperbola.svg) [Sketcher CreateArcOfHyperbola](/Sketcher_CreateArcOfHyperbola "Sketcher CreateArcOfHyperbola") tool creates an arc of hyperbola.
+The ![](/images/Sketcher_CreateArcOfHyperbola.svg) [Sketcher CreateArcOfHyperbola](/Sketcher_CreateArcOfHyperbola "Sketcher CreateArcOfHyperbola") tool creates an arc of hyperbola.
 
-![](/src/assets/images/Sketcher_CreateArcOfHyperbola_Example.png)
+![](/images/Sketcher_CreateArcOfHyperbola_Example.png)
 
 Arc of hyperbola (white) with internal geometry (dark yellow)
 
@@ -30,8 +30,8 @@ Arc of hyperbola (white) with internal geometry (dark yellow)
 See also: [Drawing aids](/Sketcher_Workbench#Drawing_aids "Sketcher Workbench").
 
 1. There are several ways to invoke the tool:
-   - Press the ![](/src/assets/images/Sketcher_CreateArcOfHyperbola.svg) [Arc of hyperbola by center, vertex, endpoints](/Sketcher_CreateArcOfHyperbola "Sketcher CreateArcOfHyperbola") button.
-   - Select the **Sketcher → Sketcher geometries → ![](/src/assets/images/Sketcher_CreateArcOfHyperbola.svg) Create arc of hyperbola** option from the menu.
+   - Press the ![](/images/Sketcher_CreateArcOfHyperbola.svg) [Arc of hyperbola by center, vertex, endpoints](/Sketcher_CreateArcOfHyperbola "Sketcher CreateArcOfHyperbola") button.
+   - Select the **Sketcher → Sketcher geometries → ![](/images/Sketcher_CreateArcOfHyperbola.svg) Create arc of hyperbola** option from the menu.
    - Use the keyboard shortcut: G then H.
 2. The cursor changes to a cross with the tool icon.
 3. Pick the center of the major radius of the arc (labelled 1 in the image above).

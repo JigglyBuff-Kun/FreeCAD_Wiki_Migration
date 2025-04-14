@@ -23,7 +23,7 @@ The **BIM views and levels manager** is a dockable window that opens below the n
 
 The aim of this window is to allow to quickly access your levels and working plane configurations, without the need to navigate through the tree to find them.
 
-![](/src/assets/images/BIM_views_screenshot.png)
+![](/images/BIM_views_screenshot.png)
 
 The BIM views and levels manager
 

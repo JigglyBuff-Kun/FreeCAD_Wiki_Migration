@@ -14,7 +14,7 @@ Visit [tutorials](/Tutorials "Tutorials") for high quality written tutorials. A 
 
 ## Product design
 
-Videos that go through modeling of various solid objects using workbenches such as ![](/src/assets/images/Workbench_Part.svg) [Part](/Part_Workbench "Part Workbench"), ![](/src/assets/images/Workbench_PartDesign.svg) [PartDesign](/PartDesign_Workbench "PartDesign Workbench"), and ![](/src/assets/images/Workbench_Sketcher.svg) [Sketcher](/Sketcher_Workbench "Sketcher Workbench").
+Videos that go through modeling of various solid objects using workbenches such as ![](/images/Workbench_Part.svg) [Part](/Part_Workbench "Part Workbench"), ![](/images/Workbench_PartDesign.svg) [PartDesign](/PartDesign_Workbench "PartDesign Workbench"), and ![](/images/Workbench_Sketcher.svg) [Sketcher](/Sketcher_Workbench "Sketcher Workbench").
 
 ### English
 

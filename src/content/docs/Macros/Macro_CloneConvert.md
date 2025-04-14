@@ -95,7 +95,7 @@ In a cube of 5 mm, made​​ **5 / 25.4 = 0.1968503** and enter the value **0,1
 Predefined units are:
 km, hm, dam, m, dm, cm, **mm**, µm, nm, inch, link, foot, yard, perch, chain, furlong, mile, league, nautique.
 
-![CloneConvert](/src/assets/images/Macro_CloneConvert_01.png)
+![CloneConvert](/images/Macro_CloneConvert_01.png)
 
 CloneConvert
 
@@ -143,7 +143,7 @@ CloneConvert
 
 ## Script
 
-The icon ![](/src/assets/images/Macro_CloneConvert.png)
+The icon ![](/images/Macro_CloneConvert.png)
 
 **Macro_CloneConvert.FCMacro**
 

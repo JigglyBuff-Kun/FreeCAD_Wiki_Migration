@@ -21,11 +21,11 @@ title: TechDraw Oberflächensymbole
 
 Das Werkzeug **TechDraw Oberflächensymbole** fügt dem Zeichnungsblatt (Page-Objekt) ein Oberflächensymbol hinzu.
 
-![](/src/assets/images/TechDraw_SurfaceFinishSymbolExample1.png)
+![](/images/TechDraw_SurfaceFinishSymbolExample1.png)
 
 Der Aufgabenbereich, Darstellungsart ISO ausgewählt. Rechts das erstellte Symbol.
 
-![](/src/assets/images/TechDraw_SurfaceFinishSymbolExample2.png)
+![](/images/TechDraw_SurfaceFinishSymbolExample2.png)
 
 Der Aufgabenbereich, Darstellungsart ASME ausgewählt. Rechts das erstellte Symbol.
 
@@ -33,8 +33,8 @@ Der Aufgabenbereich, Darstellungsart ASME ausgewählt. Rechts das erstellte Symb
 
 1. Eine vorhandene Ansicht auswählen.
 2. Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
-   - Die Schaltfläche ![](/src/assets/images/TechDraw_SurfaceFinishSymbols.svg) Oberflächensymbol erstellen drücken.
-   - den Menüeintrag **TechDraw → Symbols → ![](/src/assets/images/TechDraw_SurfaceFinishSymbols.svg) Oberflächensymbol erstellen** auswählen.
+   - Die Schaltfläche ![](/images/TechDraw_SurfaceFinishSymbols.svg) Oberflächensymbol erstellen drücken.
+   - den Menüeintrag **TechDraw → Symbols → ![](/images/TechDraw_SurfaceFinishSymbols.svg) Oberflächensymbol erstellen** auswählen.
 3. Der Aufgaben-Bereich wird geöffnet.
 4. Das erforderliche Symbol durch Anklicken einer der 6 Symbolschaltflächen auswählen.
 5. Wahlweise den Symbolwinkel **Symbol angle** ändern.

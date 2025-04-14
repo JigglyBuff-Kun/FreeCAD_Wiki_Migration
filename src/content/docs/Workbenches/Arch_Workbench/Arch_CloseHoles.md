@@ -28,7 +28,7 @@ This tool identifies holes (circular sequence of open edges) in a [Shape](/Part_
 ## Usage
 
 1. Select a [Shape](/Part_Workbench "Part Workbench") object.
-2. Select the **Utils → ![](/src/assets/images/Arch_CloseHoles.svg) Close holes** option from the menu.
+2. Select the **Utils → ![](/images/Arch_CloseHoles.svg) Close holes** option from the menu.
 
 ## Scripting
 

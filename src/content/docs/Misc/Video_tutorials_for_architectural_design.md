@@ -14,7 +14,7 @@ Visit [tutorials](/Tutorials "Tutorials") for high quality written tutorials. A 
 
 ## Architectural design
 
-Videos that go through modeling of rooms, houses, office buildings, and similar structures, and drawing floor plans, using workbenches such as ![](/src/assets/images/Workbench_Draft.svg) [Draft](/Draft_Workbench "Draft Workbench") and ![](/src/assets/images/Workbench_BIM.svg) [BIM](/BIM_Workbench "BIM Workbench").
+Videos that go through modeling of rooms, houses, office buildings, and similar structures, and drawing floor plans, using workbenches such as ![](/images/Workbench_Draft.svg) [Draft](/Draft_Workbench "Draft Workbench") and ![](/images/Workbench_BIM.svg) [BIM](/BIM_Workbench "BIM Workbench").
 
 - [Yorik van Havre playlists](https://www.youtube.com/user/yorikvanhavre/playlists): the [BIM Workbench](/BIM_Workbench "BIM Workbench") main developer has various lists on FreeCAD for building modeling as well as general architecture.
 

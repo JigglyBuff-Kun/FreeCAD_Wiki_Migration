@@ -15,11 +15,11 @@ There are different possibilities to set up a mesh in the [FEM Workbench](/FEM_W
 
 The Gmsh and Netgen tools support meshing bodies created with the [Part Workbench](/Part_Workbench "Part Workbench") and [PartDesign Workbench](/PartDesign_Workbench "PartDesign Workbench"), as well as simple copies of those solids. In general, any workbench that generates solid objects, like the [BIM Workbench](/BIM_Workbench "BIM Workbench"), can be used as the basis from which to create meshes. Notice that a mesh used for FEA is different from a mesh created or imported from the [Mesh Workbench](/Mesh_Workbench "Mesh Workbench").
 
-![](/src/assets/images/FEM_Workbench_workflow.svg)
+![](/images/FEM_Workbench_workflow.svg)
 
 The FEM Workbench calls the external tool Gmsh to obtain a mesh from a solid body created with any workbench in FreeCAD; it can also import a mesh created externally
 
-![](/src/assets/images/FEM_Mesh.png)
+![](/images/FEM_Mesh.png)
 
 (1) Solid body created with PartDesign; (2) mesh produced by the Gmsh tool inside the FEM Workbench (all triangles); and (3) mesh produced externally by Gmsh, exported to Abaqus format .inp, and then imported into FreeCAD (all quadrangles)
 
@@ -73,7 +73,7 @@ Import and export of mesh elements
 
 - "NI" means the element type is not implemented in FreeCAD but the format would support it.
 
-* ![](/src/assets/images/Edit_Cancel.svg) means the format specification does not support this element type, thus FreeCAD cannot support it.
+* ![](/images/Edit_Cancel.svg) means the format specification does not support this element type, thus FreeCAD cannot support it.
 
 - "?" means it is not known if the format supports this element type.
 
@@ -83,31 +83,31 @@ More information on the elements, and their data structure inside FreeCAD can be
 
 ### Segment element
 
-![](/src/assets/images/FEM_mesh_elements_1_segment.svg)
+![](/images/FEM_mesh_elements_1_segment.svg)
 
 ### Triangle element
 
-![](/src/assets/images/FEM_mesh_elements_2_triangle.svg)
+![](/images/FEM_mesh_elements_2_triangle.svg)
 
 ### Quadrangle element
 
-![](/src/assets/images/FEM_mesh_elements_3_quadrangle.svg)
+![](/images/FEM_mesh_elements_3_quadrangle.svg)
 
 ### Tetrahedron element
 
-![](/src/assets/images/FEM_mesh_elements_4_tetrahedron.svg)
+![](/images/FEM_mesh_elements_4_tetrahedron.svg)
 
 ### Hexahedron element
 
-![](/src/assets/images/FEM_mesh_elements_5_hexahedron.svg)
+![](/images/FEM_mesh_elements_5_hexahedron.svg)
 
 ### Pentahedron element (prism)
 
-![](/src/assets/images/FEM_mesh_elements_6_pentahedron.svg)
+![](/images/FEM_mesh_elements_6_pentahedron.svg)
 
 ### Pyramid element
 
-![](/src/assets/images/FEM_mesh_elements_7_pyramid.svg)
+![](/images/FEM_mesh_elements_7_pyramid.svg)
 
 ## Scripting
 

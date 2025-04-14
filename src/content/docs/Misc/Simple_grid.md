@@ -4,7 +4,7 @@ title: Simple grid
 
 Simple configurable and toggleable grid for FreeCAD
 
-![](/src/assets/images/Simple_grid.png)
+![](/images/Simple_grid.png)
 
 In order to configure it you should open the macro and change the variables at your desire. The following shows the available variables and their defaults:
 

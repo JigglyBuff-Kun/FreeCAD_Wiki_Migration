@@ -31,12 +31,12 @@ Die entfernten Formelemente werden durch die Verlängerung der angrenzenden Flä
 
 Um verfügbar zu sein, muss FreeCAD auf Open Cascade 7.3.0 oder höher basieren. Falls es in deiner Version von FreeCAD nicht verfügbar ist, kannst du einen Blick auf die [Merkmal aus einer Form entfernen](/Defeaturing_Workbench/de "Defeaturing Workbench/de") Erweiterung werfen, die ähnliche Funktionen auch mit älteren Versionen von OCC oder FreeCAD anbietet.
 
-![](/src/assets/images/Part_Defeaturing_example.png)
+![](/images/Part_Defeaturing_example.png)
 
 ## Anwendung
 
 1. Die zu entfernende(n) Fläche(n) des Modells auswählen.
-2. Die Schaltfläche ![](/src/assets/images/Part_Defeaturing.svg) **Formelement entfernen** drücken.
+2. Die Schaltfläche ![](/images/Part_Defeaturing.svg) **Formelement entfernen** drücken.
 3. Ein neues Objekt mit der Bezeichnung '_Defeatured_ wird unter Modell in der [Baumansicht](/Tree_view/de "Tree view/de") erstellt und das ursprüngliche Objekt wird ausgeblendet.
 
 ## Verweise

@@ -8,7 +8,7 @@ This description is based on the MED format as described in [modele de donnes](h
 
 ## Segment element
 
-![](/src/assets/images/FEM_mesh_elements_1_segment.svg)
+![](/images/FEM_mesh_elements_1_segment.svg)
 
 Edges of Seg2 and Seg3
 
@@ -18,7 +18,7 @@ Edges of Seg2 and Seg3
 
 ## Triangle element
 
-![](/src/assets/images/FEM_mesh_elements_2_triangle.svg)
+![](/images/FEM_mesh_elements_2_triangle.svg)
 
 Edges of Tria3 and Tria6
 
@@ -48,7 +48,7 @@ Face by Nodes of Tria6
 
 ## Quadrangle element
 
-![](/src/assets/images/FEM_mesh_elements_3_quadrangle.svg)
+![](/images/FEM_mesh_elements_3_quadrangle.svg)
 
 Edges of Quad4 and Quad8
 
@@ -79,7 +79,7 @@ Face by Nodes of Quad8
 
 ## Tetrahedron element
 
-![](/src/assets/images/FEM_mesh_elements_4_tetrahedron.svg)
+![](/images/FEM_mesh_elements_4_tetrahedron.svg)
 
 Edges of Tetra4 and Tetra10
 
@@ -121,7 +121,7 @@ Faces by Nodes of Tetra10
 
 ## Hexahedron element
 
-![](/src/assets/images/FEM_mesh_elements_5_hexahedron.svg)
+![](/images/FEM_mesh_elements_5_hexahedron.svg)
 
 Edges of Hexa8 and Hexa20
 
@@ -175,7 +175,7 @@ Faces by Nodes of Hexa20
 
 ## Pentahedron element (prism)
 
-![](/src/assets/images/FEM_mesh_elements_6_pentahedron.svg)
+![](/images/FEM_mesh_elements_6_pentahedron.svg)
 
 Edges of Penta6 and Penta15
 
@@ -223,7 +223,7 @@ Faces by Nodes of Penta15
 
 ## Pyramid element
 
-![](/src/assets/images/FEM_mesh_elements_7_pyramid.svg)
+![](/images/FEM_mesh_elements_7_pyramid.svg)
 
 Edges of Pyra5 and Pyra13
 

@@ -19,9 +19,9 @@ title: Part Ebene
 
 ## Beschreibung
 
-Eine ![](/src/assets/images/Part_Plane.svg) **Part Ebene** ist eine parametrische rechteckige Ebene, die mit dem Befehl ![](/src/assets/images/Part_Primitives.svg) [Part Grundelemente](/Part_Primitives/de "Part Primitives/de") erstellt werden kann. Im Koordinatensystem durch ihre Daten-Eigenschaft**Placement** festgelegt, liegt die Ebene auf der XY-Ebene mit ihrer vorderen linken Ecke im Ursprung und ihrer Vorderkante parallel zur X-Achse.
+Eine ![](/images/Part_Plane.svg) **Part Ebene** ist eine parametrische rechteckige Ebene, die mit dem Befehl ![](/images/Part_Primitives.svg) [Part Grundelemente](/Part_Primitives/de "Part Primitives/de") erstellt werden kann. Im Koordinatensystem durch ihre Daten-Eigenschaft**Placement** festgelegt, liegt die Ebene auf der XY-Ebene mit ihrer vorderen linken Ecke im Ursprung und ihrer Vorderkante parallel zur X-Achse.
 
-![](/src/assets/images/Part_Plane_Example.png)
+![](/images/Part_Plane_Example.png)
 
 ## Anwendung
 
@@ -29,7 +29,7 @@ Siehe [Part Grundelemente](/Part_Primitives/de#Anwendung "Part Primitives/de").
 
 ## Beispiel
 
-![](/src/assets/images/Part_Plane_Scripting_Example.png)
+![](/images/Part_Plane_Scripting_Example.png)
 
 Part-Ebene aus dem Skriptbeispiel
 

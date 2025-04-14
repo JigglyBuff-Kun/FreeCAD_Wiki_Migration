@@ -4,7 +4,7 @@ title: Part und PartDesign
 
 ## Übersicht
 
-Im Laufe der Jahre gab es viele Diskussionen über die Unterschiede und Auswirkungen der Verwendung des ![](/src/assets/images/Workbench_Part.svg) [Part](/Part_Workbench/de "Part Workbench/de") und des ![](/src/assets/images/Workbench_PartDesign.svg) [PartDesign](/PartDesign_Workbench/de "PartDesign Workbench/de") Arbeitsbereichs.
+Im Laufe der Jahre gab es viele Diskussionen über die Unterschiede und Auswirkungen der Verwendung des ![](/images/Workbench_Part.svg) [Part](/Part_Workbench/de "Part Workbench/de") und des ![](/images/Workbench_PartDesign.svg) [PartDesign](/PartDesign_Workbench/de "PartDesign Workbench/de") Arbeitsbereichs.
 
 Es ist eine gute Idee, den einen oder den anderen zu verwenden, bis der Benutzer mit dem einen vertraut ist, und dann das andere zu lernen. In der Regel wird auch empfohlen, dass neue Benutzer die beiden nicht mischen, bis sie die Auswirkungen verstanden haben.
 
@@ -15,7 +15,7 @@ Lass uns über diese Auswirkungen sprechen.
 Part Arbeitsbereich ist im Wesentlichen [CSG style modeling](/Constructive_solid_geometry/de "Constructive solid geometry/de"). Der Bediener kombiniert verschiedene Grundelemente, um am Ende eine Darstellung der gewünschten Form zu erhalten. (Tatsächlich geht Part Arbeitsbereich einen Schritt weiter als nur Grundelemente und erlaubt dem Anwender, eine Skizze+Extrudieren Ausführung (oder Skizze+Drehen, Austragen, Ausformen ...) zu verwenden, um auch zufällige Formen zu erstellen.)
 Wenn ein Grundelement oder eine Form erstellt wird, hat es keine Beziehung zu anderen erstellten Objekten (mit Ausnahme von Skizzen und deren Anhängen), es ist ein einzelner solitärer Körper.
 
-![Einzelne Festkörper](/src/assets/images/Part_CSG_Prims.png)
+![Einzelne Festkörper](/images/Part_CSG_Prims.png)
 
 Dieser Zustand bleibt so, bis der Operator eine Operation verwendet, um sie zu kombinieren (normalerweise einen Booleschen Wert, der sie addiert oder subtrahiert).
 Jeder Ausgangskörper bleibt separat zugänglich und die Operation erstellt ein neues Objekt.
@@ -45,7 +45,7 @@ Bei jedem Konstruktionsvorgang ist die letzte verwendete Funktion die „Spitze�
 
 Wenn alles fertig ist, muss das letzte Feature noch als Spitze umdeklariert werden, was dem fertigen Objekt entspricht.
 
-![Kumulativer Körper Festkörper](/src/assets/images/Part_Design_Cumulativ.png)
+![Kumulativer Körper Festkörper](/images/Part_Design_Cumulativ.png)
 
 Dieses Bild zeigt einen Körper. Es handelt sich um einen kumulativen Festkörper, der aus einer gepolsterten Skizze und einem Kegelprimitiv besteht. Dies ist ein einzelner Festkörper.
 
@@ -69,23 +69,23 @@ Es gibt einen Vorbehalt bezüglich der Spitze und ihrer Darstellung des einzelne
 
 In diesem Beispiel erzeugt eine Spiegelung der Spitze (die die Tasche des Schlitzes ist) um eine der Basisebenen oder sogar eine Fläche des Volumenkörpers keinen gespiegelten Volumenkörper des gesamten Modells. (Tatsächlich erzeugt es ein gespiegeltes Feature im Baum, das im Wesentlichen leer ist.)
 
-![](/src/assets/images/PhantomMirror.png)
+![](/images/PhantomMirror.png)
 
 Einzelne Festkörper
 
 In diesem Beispiel wird eine Spiegelung der Spitze (die die Tasche des Schlitzes darstellt) um die Bezugsebene herum durchgeführt und ein gespiegelter Schlitz erzeugt:
 
-![](/src/assets/images/MirroredSlot.png)
+![](/images/MirroredSlot.png)
 
 Einzelne Körper
 
-Weitere Informationen findest du auf der Wiki-Seite zum Tool ![](/src/assets/images/PartDesign_Mirrored.svg) [PartDesign Mirrored](/PartDesign_Mirrored/de "PartDesign Mirrored/de").
+Weitere Informationen findest du auf der Wiki-Seite zum Tool ![](/images/PartDesign_Mirrored.svg) [PartDesign Mirrored](/PartDesign_Mirrored/de "PartDesign Mirrored/de").
 
 ## Vergleich
 
 Unten siehst du dasselbe Beispiel, das mit jeder der beiden Workbenches erstellt wurde. Natürlich gibt es mit jedem Workbench immer mehrere mögliche Konstruktionsmöglichkeiten.
 
-![](/src/assets/images/PartWBvsPartDesignWBexample.jpg)
+![](/images/PartWBvsPartDesignWBexample.jpg)
 
 Konstruktionen mit Part-Werkbank und PartDesign-Werkbank vergleichen
 

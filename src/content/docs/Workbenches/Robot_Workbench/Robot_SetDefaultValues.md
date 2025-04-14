@@ -23,7 +23,7 @@ Set the default values for way-point creation.
 
 ## Usage
 
-1. Choose Robot → ![](/src/assets/images/Robot_SetDefaultValues.svg) Set default values from the top menu, to define:
+1. Choose Robot → ![](/images/Robot_SetDefaultValues.svg) Set default values from the top menu, to define:
 
 : : _ speed
 _ continuous (mode) \* acceleration

@@ -23,14 +23,14 @@ This tool allows you to create a 2D profile of an involute gear or spline. This 
 
 For more detailed information see Wikipedia's entries for: [Gear](https://en.wikipedia.org/wiki/Gear) and [Involute Gear](https://en.wikipedia.org/wiki/Involute_gear)
 
-![](/src/assets/images/PartDesign_Involute_Gear_01.png)
+![](/images/PartDesign_Involute_Gear_01.png)
 
 ## Usage
 
 ### Create the profile
 
 1. Optionally activate the correct body.
-2. Go to the menu **Part Design → ![](/src/assets/images/PartDesign_InvoluteGear.svg) Involute gear...**.
+2. Go to the menu **Part Design → ![](/images/PartDesign_InvoluteGear.svg) Involute gear...**.
 3. Set the Involute parameters.
 4. Click OK.
 5. If there was no active body: drag and drop the gear into a body for the application of further features like padding.
@@ -38,19 +38,19 @@ For more detailed information see Wikipedia's entries for: [Gear](https://en.wik
 ### Create a spur gear
 
 1. Select the gear profile in the [Tree view](/Tree_view "Tree view").
-2. Press the ![](/src/assets/images/PartDesign_Pad.svg) [PartDesign Pad](/PartDesign_Pad "PartDesign Pad") button.
+2. Press the ![](/images/PartDesign_Pad.svg) [PartDesign Pad](/PartDesign_Pad "PartDesign Pad") button.
 3. Set the pad's Data**Length** to the desired face width of the gear.
 4. Click OK.
 
 ### Create a helical gear
 
 1. Select the gear profile in the [Tree view](/Tree_view "Tree view").
-2. Press the ![](/src/assets/images/PartDesign_AdditiveHelix.svg) [PartDesign AdditiveHelix](/PartDesign_AdditiveHelix "PartDesign AdditiveHelix") button.
+2. Press the ![](/images/PartDesign_AdditiveHelix.svg) [PartDesign AdditiveHelix](/PartDesign_AdditiveHelix "PartDesign AdditiveHelix") button.
 3. Choose as Axis the normal of the gear profile, that is **Normal sketch axis** [introduced in 0.20](/Release_notes_0.20 "Release notes 0.20"). (In earlier versions the **Base Z axis** can be used as long as the profile's plane has not been altered.)
 4. Choose a **Height-Turns** mode.
 5. Set the Data**Height** to the desired face width of the gear.
 6. To set the desired helical angle an [Expression](/Expressions "Expressions") for the Data**Turns** is required.
-   1. Click the blue ![](/src/assets/images/Bound-expression.svg) icon at the right of the input field.
+   1. Click the blue ![](/images/Bound-expression.svg) icon at the right of the input field.
    2. Enter the following formula: `Height * tan(25°) / (InvoluteGear.NumberOfTeeth * InvoluteGear.Modules * pi)`, where `25°` is an example for the desired helical angle (also known as beta-value) and `InvoluteGear` is the Data**Name** of the profile.
    3. Click OK to close the formula editor.
 7. Click OK to close the task panel.
@@ -81,7 +81,7 @@ Hint: To make the helical angle an accessible parameter, use a _dynamic property
    - Data**Dedendum Coefficient**: 0.7
    - Data**Root Fillet Coefficient**: 0.3
 3. Select the gear profile in the [Tree view](/Tree_view "Tree view").
-4. Press the ![](/src/assets/images/PartDesign_Pocket.svg) **Pocket** button.
+4. Press the ![](/images/PartDesign_Pocket.svg) **Pocket** button.
 5. Set the pocket's Data**Type** to **Through All**.
 6. Check the pocket's Data**Symmetric To Plane** option.
 7. Click OK.

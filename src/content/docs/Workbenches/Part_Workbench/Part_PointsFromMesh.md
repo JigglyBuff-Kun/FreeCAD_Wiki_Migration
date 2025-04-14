@@ -19,14 +19,14 @@ title: Part PointsFromMesh
 
 ## Description
 
-The ![](/src/assets/images/Part_PointsFromMesh.svg) **Part PointsFromMesh** command creates points objects from geometric objects.
+The ![](/images/Part_PointsFromMesh.svg) **Part PointsFromMesh** command creates points objects from geometric objects.
 
-The resulting shapes are compounds of vertices, which can be used as reference to further create lines, sketches and faces with other commands, like those from the ![](/src/assets/images/Workbench_Sketcher.svg) [Sketcher](/Sketcher_Workbench "Sketcher Workbench") or the ![](/src/assets/images/Workbench_Draft.svg) [Draft](/Draft_Workbench "Draft Workbench") workbenches.
+The resulting shapes are compounds of vertices, which can be used as reference to further create lines, sketches and faces with other commands, like those from the ![](/images/Workbench_Sketcher.svg) [Sketcher](/Sketcher_Workbench "Sketcher Workbench") or the ![](/images/Workbench_Draft.svg) [Draft](/Draft_Workbench "Draft Workbench") workbenches.
 
 ## Usage
 
 1. Select one or more objects.
-2. Select the **Part → ![](/src/assets/images/Part_PointsFromMesh.svg) Create points object from geometry** option from the menu.
+2. Select the **Part → ![](/images/Part_PointsFromMesh.svg) Create points object from geometry** option from the menu.
 3. The **Distance in parameter space** dialog opens.
 4. Enter a distance value.
 5. Press the OK button.

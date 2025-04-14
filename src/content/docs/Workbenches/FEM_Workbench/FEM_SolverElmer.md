@@ -25,7 +25,7 @@ Elmer includes physical models of fluid dynamics, structural mechanics, electrom
 
 Creating the SolverElmer object in the Analysis container in FreeCAD, gives access to the Elmer Equations for simple or multiphysical analysis.
 
-Since FreeCAD already has an extensive integration of ![](/src/assets/images/FEM_SolverCalculiX.svg) [Calculix](/FEM_SolverCalculixCxxtools "FEM SolverCalculixCxxtools") and ![](/src/assets/images/FEM_SolverZ88.svg) [Z88](/FEM_SolverZ88 "FEM SolverZ88") as solvers for mechanical and thermo-mechanical analysis, Elmer will be preferred for computational fluid dynamics (CFD), heat, electrostatics and electrodynamics. It can also be used for mechanical FEA through the Elasticity equation or any combination of the aforementioned equations. This combination makes Elmer the preferred choice for multi-physics analyses.
+Since FreeCAD already has an extensive integration of ![](/images/FEM_SolverCalculiX.svg) [Calculix](/FEM_SolverCalculixCxxtools "FEM SolverCalculixCxxtools") and ![](/images/FEM_SolverZ88.svg) [Z88](/FEM_SolverZ88 "FEM SolverZ88") as solvers for mechanical and thermo-mechanical analysis, Elmer will be preferred for computational fluid dynamics (CFD), heat, electrostatics and electrodynamics. It can also be used for mechanical FEA through the Elasticity equation or any combination of the aforementioned equations. This combination makes Elmer the preferred choice for multi-physics analyses.
 
 ## Installation
 
@@ -40,7 +40,7 @@ There are standalone programs for both of these applications but their installat
 2. In FreeCAD go to **Edit → Preferences → FEM → Elmer**
 3. In the [FEM preferences](/FEM_Preferences#Elmer "FEM Preferences") set the correct path for both `ElmerGrid` and `ElmerSolver`, or 0.21 and above: set the path for `ElmerSolver_mpi` instead of `ElmerSolver` to make Elmer use all available CPU cores.
 
-   : ![Elmer Tab in FEM Preferences](/src/assets/images/Preferences-ElmerPath.png)
+   : ![Elmer Tab in FEM Preferences](/images/Preferences-ElmerPath.png)
    : Elmer preferences dialog menu showing fields to locate important Elmer binaries on Windows OS
 
 You are ready to use Elmer in FreeCAD.
@@ -49,19 +49,19 @@ You are ready to use Elmer in FreeCAD.
 
 ## Usage
 
-1. Switch to the ![](/src/assets/images/Workbench_FEM.svg) [FEM Workbench](/FEM_Workbench "FEM Workbench")
-2. Create an [Analysis](/FEM_Analysis "FEM Analysis") container by pressing the ![](/src/assets/images/FEM_Analysis.svg) icon.
-3. Create a FEM Solver for Elmer, by pressing the ![](/src/assets/images/FEM_SolverElmer.svg) icon.
+1. Switch to the ![](/images/Workbench_FEM.svg) [FEM Workbench](/FEM_Workbench "FEM Workbench")
+2. Create an [Analysis](/FEM_Analysis "FEM Analysis") container by pressing the ![](/images/FEM_Analysis.svg) icon.
+3. Create a FEM Solver for Elmer, by pressing the ![](/images/FEM_SolverElmer.svg) icon.
 
    - Note: A successful analysis will require at least a Model (2D or 3D), a Material ([Fluid](/FEM_MaterialFluid "FEM MaterialFluid") or [Solid](/FEM_MaterialSolid "FEM MaterialSolid")), a [Mesh](/FEM_MeshGmshFromShape "FEM MeshGmshFromShape"), Equations and Boundary conditions
 
-   : ![](/src/assets/images/Elmer_typical_file_tree.png)
+   : ![](/images/Elmer_typical_file_tree.png)
    : Example of a [tree view](/Tree_view "Tree view") once a Solver for Elmer is activated
 
 4. Edit the parameters for the solver in the [Property editor](/Property_editor "Property editor") Data tab of the SolverElmer object in the model [tree view](/Tree_view "Tree view")
-5. Double-click on the ![](/src/assets/images/FEM_SolverElmer.svg) SolverElmer object to prepare an analysis run
+5. Double-click on the ![](/images/FEM_SolverElmer.svg) SolverElmer object to prepare an analysis run
 
-   : ![](/src/assets/images/ElmerSolver_TaskPanel.png)
+   : ![](/images/ElmerSolver_TaskPanel.png)
    : Dialog box to run an Elmer analysis
 
 6. Select the path to write the analysis in by clicking ...
@@ -74,18 +74,18 @@ You are ready to use Elmer in FreeCAD.
 - Disambiguation: The term _Equation_ is used in FreeCAD to describe the different physical mechanisms, the term _Solver_ is used in all Elmer documents. Thus when using in FreeCAD the "Flow Equation", in reality Elmer uses the "Flow Solver" to find a solution to the Navier-Stokes equation.
 - One or several equations can be used at once with Elmer by simply adding the equation object under the SolverElmer object, thus performing multi-physics analyses:
 
-1. Click on the ![](/src/assets/images/FEM_SolverElmer.svg) SolverElmer object in the model [tree view](/Tree_view "Tree view")
+1. Click on the ![](/images/FEM_SolverElmer.svg) SolverElmer object in the model [tree view](/Tree_view "Tree view")
 2. Select one or several of the available equations:
-   - ![](/src/assets/images/FEM_EquationDeformation.svg) [Deformation equation](/FEM_EquationDeformation "FEM EquationDeformation")
-   - ![](/src/assets/images/FEM_EquationElasticity.svg) [Elasticity equation](/FEM_EquationElasticity "FEM EquationElasticity")
-   - ![](/src/assets/images/FEM_EquationElectricforce.svg) [Electricforce equation](/FEM_EquationElectricforce "FEM EquationElectricforce")
-   - ![](/src/assets/images/FEM_EquationElectrostatic.svg) [Electrostatic equation](/FEM_EquationElectrostatic "FEM EquationElectrostatic")
-   - ![](/src/assets/images/FEM_EquationFlow.svg) [Flow equation](/FEM_EquationFlow "FEM EquationFlow")
-   - ![](/src/assets/images/FEM_EquationFlux.svg) [Flux equation](/FEM_EquationFlux "FEM EquationFlux")
-   - ![](/src/assets/images/FEM_EquationHeat.svg) [Heat equation](/FEM_EquationHeat "FEM EquationHeat")
-   - ![](/src/assets/images/FEM_EquationMagnetodynamic.svg) [Magnetodynamic equation](/FEM_EquationMagnetodynamic "FEM EquationMagnetodynamic")
-   - ![](/src/assets/images/FEM_EquationMagnetodynamic2D.svg) [Magnetodynamic 2D equation](/FEM_EquationMagnetodynamic2D "FEM EquationMagnetodynamic2D")
-   - ![](/src/assets/images/FEM_EquationStaticCurrent.svg) [Static current equation](/FEM_EquationStaticCurrent "FEM EquationStaticCurrent") - [introduced in 1.1](/Release_notes_1.1 "Release notes 1.1")
+   - ![](/images/FEM_EquationDeformation.svg) [Deformation equation](/FEM_EquationDeformation "FEM EquationDeformation")
+   - ![](/images/FEM_EquationElasticity.svg) [Elasticity equation](/FEM_EquationElasticity "FEM EquationElasticity")
+   - ![](/images/FEM_EquationElectricforce.svg) [Electricforce equation](/FEM_EquationElectricforce "FEM EquationElectricforce")
+   - ![](/images/FEM_EquationElectrostatic.svg) [Electrostatic equation](/FEM_EquationElectrostatic "FEM EquationElectrostatic")
+   - ![](/images/FEM_EquationFlow.svg) [Flow equation](/FEM_EquationFlow "FEM EquationFlow")
+   - ![](/images/FEM_EquationFlux.svg) [Flux equation](/FEM_EquationFlux "FEM EquationFlux")
+   - ![](/images/FEM_EquationHeat.svg) [Heat equation](/FEM_EquationHeat "FEM EquationHeat")
+   - ![](/images/FEM_EquationMagnetodynamic.svg) [Magnetodynamic equation](/FEM_EquationMagnetodynamic "FEM EquationMagnetodynamic")
+   - ![](/images/FEM_EquationMagnetodynamic2D.svg) [Magnetodynamic 2D equation](/FEM_EquationMagnetodynamic2D "FEM EquationMagnetodynamic2D")
+   - ![](/images/FEM_EquationStaticCurrent.svg) [Static current equation](/FEM_EquationStaticCurrent "FEM EquationStaticCurrent") - [introduced in 1.1](/Release_notes_1.1 "Release notes 1.1")
 
 ### Solver Settings
 
@@ -107,7 +107,7 @@ To make animations of the temporal progression, the best method is currently to:
 
 The result is an animation like this:
 
-![](/src/assets/images/ElmerSolver_TransientAnalysis.gif)
+![](/images/ElmerSolver_TransientAnalysis.gif)
 
 ## Notes
 

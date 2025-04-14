@@ -25,11 +25,11 @@ Part.show(box4) #show defeatured shape
 
 ```
 
-![](/src/assets/images/Box3.PNG)
+![](/images/Box3.PNG)
 
 Box3 shape used in Python code, before defeaturing
 
-![](/src/assets/images/Box4.PNG)
+![](/images/Box4.PNG)
 
 Box4 shape used in Python code, defeatured
 

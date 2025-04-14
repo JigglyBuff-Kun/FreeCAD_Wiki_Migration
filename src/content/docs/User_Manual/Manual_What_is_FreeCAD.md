@@ -2,7 +2,7 @@
 title: What is FreeCAD
 ---
 
-![](/src/assets/images/FreeCAD_022_example.png)
+![](/images/FreeCAD_022_example.png)
 
 As mentioned in the previous section, FreeCAD is a parametric 3D computer-aided design (CAD) modeling application. [Parametric design](https://en.wikipedia.org/wiki/Parametric_design) is a method of designing objects based on defining parameters and relationships between them. In this approach, changes to parameters automatically propagate throughout the associated elements of the design, allowing for rapid iterations and adaptations.
 

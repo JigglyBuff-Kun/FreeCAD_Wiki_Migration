@@ -32,7 +32,7 @@ The aim of BOLTS is to build a free and open-source standard parts library for C
 
 BOLTS for FreeCAD provides a widget that allows to insert parts into the active document. Sizes and variants of a part can be selected in the widget, and the part is given a descriptive label.
 
-![](/src/assets/images/Freecad-bearing.png)
+![](/images/Freecad-bearing.png)
 
 The BOLTS widget and a bearing from BOLTS
 

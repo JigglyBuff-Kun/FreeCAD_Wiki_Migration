@@ -12,13 +12,13 @@ Bonjour !
 
 ## Templates
 
-- Image (défaut à droite) : ![](/src/assets/images/GGTuto1_Vue.PNG)
+- Image (défaut à droite) : ![](/images/GGTuto1_Vue.PNG)
 
   Légende vignette ou au survol image
 
 - video (défaut à droite) :
 
-[![](/src/assets/images/Defeaturing-WB-%40Work_v3.png)](https://raw.githubusercontent.com/easyw/FreeCAD-tutorials/master/testing-files/removing-holes.mp4)
+[![](/images/Defeaturing-WB-%40Work_v3.png)](https://raw.githubusercontent.com/easyw/FreeCAD-tutorials/master/testing-files/removing-holes.mp4)
 
 Title=title_Defeaturing-WB-removing-features
 

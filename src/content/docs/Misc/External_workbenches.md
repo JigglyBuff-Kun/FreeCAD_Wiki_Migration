@@ -8,9 +8,9 @@ title: External workbenches
 
 These workbenches aren't supported by the core FreeCAD development team, so they aren't tested to work with every version of FreeCAD. Questions, bug reports, and improvement requests should be made directly to the authors of the workbench.
 
-Workbenches marked with ![](/src/assets/images/AddonManager.svg) can be installed from the [Addon Manager](/Std_AddonMgr "Std AddonMgr"). For manual installation see [Installing more workbenches](/Installing_more_workbenches "Installing more workbenches"). If there are specific instructions or prerequisites for using an external workbench, then these should be noted on the workbench's home page.
+Workbenches marked with ![](/images/AddonManager.svg) can be installed from the [Addon Manager](/Std_AddonMgr "Std AddonMgr"). For manual installation see [Installing more workbenches](/Installing_more_workbenches "Installing more workbenches"). If there are specific instructions or prerequisites for using an external workbench, then these should be noted on the workbench's home page.
 
-Workbenches marked with ![](/src/assets/images/Edit_Cancel.svg) are not recommended for recent versions of FreeCAD. They are obsolete, unmaintained, superseded by a newer workbench, or maybe they don't work with Python 3 or with Qt5. In most cases they should be avoided.
+Workbenches marked with ![](/images/Edit_Cancel.svg) are not recommended for recent versions of FreeCAD. They are obsolete, unmaintained, superseded by a newer workbench, or maybe they don't work with Python 3 or with Qt5. In most cases they should be avoided.
 
 ## Assembly workbenches
 

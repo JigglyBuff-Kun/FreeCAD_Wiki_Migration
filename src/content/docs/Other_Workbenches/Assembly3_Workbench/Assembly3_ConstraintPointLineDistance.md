@@ -29,6 +29,6 @@ This tool builds a link between two objects of an assembly and fixes the distanc
 
 1. Place two objects into an assembly.
 2. Select one point element of one object and one linear edge element of the other object.
-3. Press the ![](/src/assets/images/Assembly_ConstraintPointLineDistance.svg) [Point line distance](/Assembly3_ConstraintPointLineDistance "Assembly3 ConstraintPointLineDistance") button.
+3. Press the ![](/images/Assembly_ConstraintPointLineDistance.svg) [Point line distance](/Assembly3_ConstraintPointLineDistance "Assembly3 ConstraintPointLineDistance") button.
 
 Retrieved from "<http://wiki.freecad.org/index.php?title=Assembly3_ConstraintPointLineDistance/en&oldid=887377>"

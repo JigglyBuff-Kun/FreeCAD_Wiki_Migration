@@ -397,7 +397,7 @@ Screen management can be a challenge when developing code that has complex and d
 
 With the test stub operated from a toolbar, and an external editor used, the window layout on the screen will be something like:
 
-![](/src/assets/images/PythonDevelopmentEnvironment.jpg)
+![](/images/PythonDevelopmentEnvironment.jpg)
 
 "tree" in the diagram refers to the Combi or Tree browsers, the Python console and Report view are combined into the lower window and selectable by buttons. By selective use of the tools the development stream can be optimised, the above is only one idea. Tailoring is done on a personal basis.
 

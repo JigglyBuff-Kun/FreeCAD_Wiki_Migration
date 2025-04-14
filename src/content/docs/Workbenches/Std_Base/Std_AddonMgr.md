@@ -25,14 +25,14 @@ Due to changes to the GitHub platform in the year 2020 the Addon manager no long
 
 ## Usage
 
-1. Select the **Tools → ![](/src/assets/images/Std_AddonMgr.svg) Addon manager** option from the menu.
+1. Select the **Tools → ![](/images/Std_AddonMgr.svg) Addon manager** option from the menu.
 2. If you are using the Addon manager for the first time, a dialog box will open warning you that the addons in the Addon manager are not officially part of FreeCAD. It also presents several options related to the Addon manager's data usage. Adjust those options to your liking and press the OK button to confirm and continue.
 3. The Addon manager dialog box opens. For more information see [Options](#Options).
 4. If you have installed or updated a workbench a new dialog box will open informing you that you have to restart FreeCAD for the changes to take effect.
 
 ## Options
 
-![](/src/assets/images/AddonManager_Main.png)
+![](/images/AddonManager_Main.png)
 
 1. The Addon manager provides two view layouts: "Condensed" and "Expanded". In "Condensed" view, each addon takes a single line, and its description is truncated to fit the available space. "Expanded" shows additional details, including more of the description text as well as maintainer information, more installation details, etc.
 2. Three different types of addons are supported: [workbenches](/External_workbenches "External workbenches"), [macros](/Macros "Macros"), and [preference packs](/Preference_Packs "Preference Packs"). You can choose to show just one type, or all of them in a single list.
@@ -45,7 +45,7 @@ Due to changes to the GitHub platform in the year 2020 the Addon manager no long
 
 Clicking on an addon in this view brings up the addon's Details page:
 
-![](/src/assets/images/AddonManager_Details.png)
+![](/images/AddonManager_Details.png)
 
 The details page shows buttons allowing installing, uninstalling, updating, and temporarily disabling an addon. For installed addons it lists the currently installed version and the installation date, and whether that is the most recent version available. Below is an embedded web browser window showing the addon's README page (for workbenches and preference packs), or Wiki page (for macros).
 

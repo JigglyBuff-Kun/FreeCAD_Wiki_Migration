@@ -23,7 +23,7 @@ The **Std CloseAllWindows** command closes all windows, thereby closing all docu
 
 ## Usage
 
-1. Select the **File → ![](/src/assets/images/Std_CloseAllWindows.svg) Close All** option from the menu.
+1. Select the **File → ![](/images/Std_CloseAllWindows.svg) Close All** option from the menu.
 2. If there are unsaved documents a dialog box will prompt you to save them:
    - Press the Save button to save the active document. If required enter a filename first.
    - Press the Discard button to discard the active document and lose all changes.

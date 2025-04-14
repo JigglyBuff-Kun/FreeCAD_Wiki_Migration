@@ -19,14 +19,14 @@ title: Curves Discretize
 
 ## Description
 
-The ![](/src/assets/images/Curves_Discretize.svg) **Curves Discretize** tool discretizes an edge or a wire and therefore creates a set of points along the edge/wire according to a chosen discretization method.
+The ![](/images/Curves_Discretize.svg) **Curves Discretize** tool discretizes an edge or a wire and therefore creates a set of points along the edge/wire according to a chosen discretization method.
 
 ## Usage
 
 1. Select one or more edges in the [3D view](/3D_view "3D view").
 2. There are several ways to invoke the tool:
-   - Press the ![](/src/assets/images/Curves_Discretize.svg) [Discretize](/Curves_Discretize "Curves Discretize") button.
-   - Select the **Curves → ![](/src/assets/images/Curves_Discretize.svg) Discretize** option from the menu.
+   - Press the ![](/images/Curves_Discretize.svg) [Discretize](/Curves_Discretize "Curves Discretize") button.
+   - Select the **Curves → ![](/images/Curves_Discretize.svg) Discretize** option from the menu.
 3. A **Discretized_Edge** object is created for each selected edge.
 4. Optionally edit the values in the [Property editor](/Property_editor "Property editor") to choose a different discretization method and adjust the related properties (see Properties below).
 

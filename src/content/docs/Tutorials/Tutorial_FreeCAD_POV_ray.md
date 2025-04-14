@@ -31,7 +31,7 @@ This tutorial shows how to produce a rendered image in FreeCAD, using the POV-Ra
 
 This tutorial is based on the forum post by schupin [FreeCAD / pov ray tutorial](https://forum.freecadweb.org/viewtopic.php?f=36&t=32745), which also includes one `.pov` file required to produce a rendering.
 
-![](/src/assets/images/Povray_before_after.png)
+![](/images/Povray_before_after.png)
 
 Example by schupin of a 3D model and high quality render produced with FreeCAD and POV-Ray.
 
@@ -47,31 +47,31 @@ For direct rendering to work, the `povray` executable must be set in **Edit → 
 
 1. Create an assembly using bodies from the [Part](/Part_Workbench "Part Workbench") or [PartDesign Workbenches](/PartDesign_Workbench "PartDesign Workbench"), or any other workbench that produces solid objects, for example, the [Arch Workbench](/Arch_Workbench "Arch Workbench"). Assign colors or materials to the individual bodies that make the assembly, approximately matching the color that you want in your render.
 
-![](/src/assets/images/01_T04_FreeCAD_POVray_model.png)
+![](/images/01_T04_FreeCAD_POVray_model.png)
 
 Assembly of three bodies created in FreeCAD, and with colors or materials assigned.
 
 2. If your model is very detailed, make sure the View**Deviation** of the body is set to a low value, between `0.1` and `0.01`, or even smaller. The lower this value is, the more detailed the exported mesh will be, and thus the better the quality of the render will be.
 
-![](/src/assets/images/02_T04_FreeCAD_POVray_deviation.png)
+![](/images/02_T04_FreeCAD_POVray_deviation.png)
 
 Deviation property of the bodies created in FreeCAD; the deviation needs to be small in order to export the parts with good resolution.
 
-3. Create a POV-Ray project by clicking ![](/src/assets/images/Raytrace_New.svg) [New](/Raytracing_New "Raytracing New"). If the viewport is set as [orthographic](/Std_OrthographicCamera "Std OrthographicCamera"), change it to [perspective](/Std_PerspectiveCamera "Std PerspectiveCamera"), as the renderer will normally work with a camera with perspective view. Using perspective view will allow you to see better the type of scene that will be rendered.
+3. Create a POV-Ray project by clicking ![](/images/Raytrace_New.svg) [New](/Raytracing_New "Raytracing New"). If the viewport is set as [orthographic](/Std_OrthographicCamera "Std OrthographicCamera"), change it to [perspective](/Std_PerspectiveCamera "Std PerspectiveCamera"), as the renderer will normally work with a camera with perspective view. Using perspective view will allow you to see better the type of scene that will be rendered.
 
-4. Select all objects that you want to add to your scene, then select the created `PovProject` object, and click on ![](/src/assets/images/Raytrace_NewPartSegment.svg) [InsertPart](/Raytracing_InsertPart "Raytracing InsertPart").
+4. Select all objects that you want to add to your scene, then select the created `PovProject` object, and click on ![](/images/Raytrace_NewPartSegment.svg) [InsertPart](/Raytracing_InsertPart "Raytracing InsertPart").
 
 _Note:_ beware of those objects that are not currently visible in the 3D viewport. If they are invisible but are included in the scene, they will still be rendered. On the other hand, if you really want to omit a body from being rendered, don't select it for inclusion into the POV-Ray project.
 
 _Note 2:_ all objects in the POV-Ray project will have a name based on their internal FreeCAD name. It's important to note which is the POV-Ray name, as further options, for example, the material textures, will be assigned to these POV-Ray names.
 
-5. In the 3D viewport, zoom, pan and rotate the view to setup the scene as you want. Make sure the objects are centered in the viewport, then select the created `PovProject` object, and press ![](/src/assets/images/Raytrace_ResetCamera.svg) [ResetCamera](/Raytracing_ResetCamera "Raytracing ResetCamera").
+5. In the 3D viewport, zoom, pan and rotate the view to setup the scene as you want. Make sure the objects are centered in the viewport, then select the created `PovProject` object, and press ![](/images/Raytrace_ResetCamera.svg) [ResetCamera](/Raytracing_ResetCamera "Raytracing ResetCamera").
 
-6. The POV-Ray file is now ready; it contains the selected objects and the camera information. Select the created `PovProject` object, and then press ![](/src/assets/images/Raytrace_ExportProject.svg) [ExportProject](/Raytracing_ExportProject "Raytracing ExportProject") to save the `.pov` file.
+6. The POV-Ray file is now ready; it contains the selected objects and the camera information. Select the created `PovProject` object, and then press ![](/images/Raytrace_ExportProject.svg) [ExportProject](/Raytracing_ExportProject "Raytracing ExportProject") to save the `.pov` file.
 
-7. The created `.pov` file can now be rendered directly from FreeCAD. Select the created `PovProject` object, then press ![](/src/assets/images/Raytrace_Render.svg) [Render](/Raytracing_Render "Raytracing Render"). When the popup image appears on screen, click on it so that it is sent to FreeCAD in its own window tab.
+7. The created `.pov` file can now be rendered directly from FreeCAD. Select the created `PovProject` object, then press ![](/images/Raytrace_Render.svg) [Render](/Raytracing_Render "Raytracing Render"). When the popup image appears on screen, click on it so that it is sent to FreeCAD in its own window tab.
 
-![](/src/assets/images/03_T04_FreeCAD_POVray_first_render.png)
+![](/images/03_T04_FreeCAD_POVray_first_render.png)
 
 First render of the assembly produced with POV-Ray, with the standard template written by the Raytracing Workbench.
 
@@ -90,13 +90,13 @@ The options `+AM2` (type 2, recursive super-sampling) and `+A` trigger antialias
 
 To improve the appearance of the image, use a better template. Double click the `PovProject` object and choose the `RadiosityNormal.pov` template. Then export a new `.pov` file, and run again the renderer. The image should look brighter and generally better.
 
-![](/src/assets/images/04_T04_FreeCAD_POVray_first_render_radiosity.png)
+![](/images/04_T04_FreeCAD_POVray_first_render_radiosity.png)
 
 Render of the assembly produced with POV-Ray, with the RadiosityNormal template written by the Raytracing Workbench.
 
 Once again double click the `PovProject` object and now choose the `RadiosityOutdoorHQ.pov` template. Then export a new `.pov` file, and run again the renderer. The image should take longer to produce, but the result should have better quality.
 
-![](/src/assets/images/05_T04_FreeCAD_POVray_first_render_radiosity_outdoor.png)
+![](/images/05_T04_FreeCAD_POVray_first_render_radiosity_outdoor.png)
 
 Render of the assembly produced with POV-Ray, with the RadiosityOutdoorHQ template written by the Raytracing Workbench.
 
@@ -286,7 +286,7 @@ sky_sphere {
 
 ```
 
-![](/src/assets/images/06_T04_FreeCAD_POVray_render_lights.png)
+![](/images/06_T04_FreeCAD_POVray_render_lights.png)
 
 Starting from the standard template, render of the scene with POV-Ray, with the light source and sky sphere set up.
 
@@ -425,7 +425,7 @@ object {Pov_Body001
 
 ```
 
-![](/src/assets/images/07_T04_FreeCAD_POVray_render_materials.png)
+![](/images/07_T04_FreeCAD_POVray_render_materials.png)
 
 Starting from the standard template, render of the scene with POV-Ray, with the light source and sky sphere set up, and materials assigned.
 
@@ -455,7 +455,7 @@ plane {
 
 ```
 
-![](/src/assets/images/08_T04_FreeCAD_POVray_render_floor_gray.png)
+![](/images/08_T04_FreeCAD_POVray_render_floor_gray.png)
 
 Starting from the standard template, render of the scene with POV-Ray, with the light source and sky sphere set up, materials assigned, and a floor plane with a basic gray texture.
 
@@ -493,7 +493,7 @@ plane {
 
 ```
 
-![](/src/assets/images/09_T04_FreeCAD_POVray_render_floor_wood.png)
+![](/images/09_T04_FreeCAD_POVray_render_floor_wood.png)
 
 Starting from the standard template, render of the scene with POV-Ray, with the light source and sky sphere set up, materials assigned, and a floor plane with a parquet texture.
 
@@ -525,7 +525,7 @@ plane {
 
 ```
 
-![](/src/assets/images/10_T04_FreeCAD_POVray_render_floor_wood_walls.png)
+![](/images/10_T04_FreeCAD_POVray_render_floor_wood_walls.png)
 
 Starting from the standard template, render of the scene with POV-Ray, with the light source and sky sphere set up, materials assigned, a floor plane with a parquet texture, and back walls with drywall textures.
 
@@ -587,7 +587,7 @@ global_settings {
 
 ```
 
-![](/src/assets/images/11_T04_FreeCAD_POVray_render_floor_wood_walls_radiosity_1.png)
+![](/images/11_T04_FreeCAD_POVray_render_floor_wood_walls_radiosity_1.png)
 
 Starting from the standard template, render of the scene with POV-Ray, with the light source and sky sphere set up, materials assigned, a floor plane with a parquet texture, and back walls with drywall textures. Radiosity settings for fast rendering.
 
@@ -684,14 +684,14 @@ The final structure is as follows:
 
 _Note:_ the sections of the `.pov` file can be in any order, although it is probably easier to work with the file if the mesh information is at the end.
 
-The final rendering can be done by clicking ![](/src/assets/images/Raytrace_Render.svg) [Render](/Raytracing_Render "Raytracing Render") or by running the executable from the command line.
+The final rendering can be done by clicking ![](/images/Raytrace_Render.svg) [Render](/Raytracing_Render "Raytracing Render") or by running the executable from the command line.
 
 ```
 povray assembly.pov +W800 +H600 +AM2 +A
 
 ```
 
-![](/src/assets/images/12_T04_FreeCAD_POVray_render_floor_wood_walls_radiosity_final.png)
+![](/images/12_T04_FreeCAD_POVray_render_floor_wood_walls_radiosity_final.png)
 
 Starting from the standard template, render of the scene with POV-Ray, with the light source and sky sphere set up, materials assigned, a floor plane with a parquet texture, and back walls with drywall textures. Radiosity settings for high quality result: `Radiosity_Final` and `recursion_limit 2`.
 

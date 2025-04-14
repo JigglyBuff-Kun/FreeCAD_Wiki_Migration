@@ -19,13 +19,13 @@ title: Curves PipeshellProfile
 
 ## Description
 
-The ![](/src/assets/images/Curves_PipeshellProfile.svg) [Curves PipeshellProfile](/Curves_PipeshellProfile "Curves PipeshellProfile") creates a Profile object for Pipeshell. This tool is part of the [external workbench](/External_workbenches "External workbenches") called [Curves](/Curves_Workbench "Curves Workbench").
+The ![](/images/Curves_PipeshellProfile.svg) [Curves PipeshellProfile](/Curves_PipeshellProfile "Curves PipeshellProfile") creates a Profile object for Pipeshell. This tool is part of the [external workbench](/External_workbenches "External workbenches") called [Curves](/Curves_Workbench "Curves Workbench").
 
 ## Usage
 
-1. Switch to the ![](/src/assets/images/Curves_workbench_icon.svg) [Curves](/Curves_Workbench "Curves Workbench") workbench (install from ![](/src/assets/images/Std_AddonMgr.svg) [Addon Manager](/Std_AddonMgr "Std AddonMgr") is necessary, if not previously installed)
+1. Switch to the ![](/images/Curves_workbench_icon.svg) [Curves](/Curves_Workbench "Curves Workbench") workbench (install from ![](/images/Std_AddonMgr.svg) [Addon Manager](/Std_AddonMgr "Std AddonMgr") is necessary, if not previously installed)
 2. To invoke the command, do one of the following:
-   - Press the ![](/src/assets/images/Curves_PipeshellProfile.svg) button in the Curves toolbar
+   - Press the ![](/images/Curves_PipeshellProfile.svg) button in the Curves toolbar
    - Use the **Surfaces → Pipeshell profile** entry in the dropdown menu.
 
 ## Notes

@@ -23,12 +23,12 @@ The **BIM IfcExplorer** is a simple utility to explore the contents of an [IFC](
 
 The purpose of this explorer is simply to allow you to check what is really written in an IFC file, in case you want to verify if the contents were correctly imported or exported to and from an IFC-aware application such as FreeCAD.
 
-![](/src/assets/images/Arch_IfcExplorer_example.jpg)
+![](/images/Arch_IfcExplorer_example.jpg)
 
 IFC Explorer with several properties
 
 ## Usage
 
-1. Select the **Utils → ![](/src/assets/images/BIM_IfcExplorer.svg) IFC explorer** option from the menu.
+1. Select the **Utils → ![](/images/BIM_IfcExplorer.svg) IFC explorer** option from the menu.
 
 Retrieved from "<http://wiki.freecad.org/index.php?title=BIM_IfcExplorer/en&oldid=1511190>"

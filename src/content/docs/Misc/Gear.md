@@ -21,13 +21,13 @@ Native speakers, feel invited to add local synonyms, or spelling variations
 
 A bevel gear meshes with another bevel gear to connect two angled rotation axes.
 
-![](/src/assets/images/Gear_Example-08.png)
+![](/images/Gear_Example-08.png)
 
 Two meshing bevel gears
 
-The ![](/src/assets/images/FCGear_BevelGear.svg) [FCGear BevelGear](/FCGear_BevelGear "FCGear BevelGear") tool creates a basic bevel gear, a solid object that needs to be trimmed to shape in following steps.
+The ![](/images/FCGear_BevelGear.svg) [FCGear BevelGear](/FCGear_BevelGear "FCGear BevelGear") tool creates a basic bevel gear, a solid object that needs to be trimmed to shape in following steps.
 
-![](/src/assets/images/Gear_Example-06.png) ![](/src/assets/images/Gear_Example-07.png)
+![](/images/Gear_Example-06.png) ![](/images/Gear_Example-07.png)
 
 Left: Raw bevel gears as created with [FCGear BevelGear](/FCGear_BevelGear "FCGear BevelGear"). Right: Bevel gears trimmed to a more recognisable shape.
 
@@ -47,14 +47,14 @@ The driven gear (attached to the rear wheel) of a bicycle drivetrain is usually 
 
 A cog wheel, or cogged wheel, is an assembly of a hub(?) and several inserted teeth, the actual cogs.
 
-![](/src/assets/images/Gear_Example-01.png)
+![](/images/Gear_Example-01.png)
 
 Cog wheel and a single cog ready to get inserted)
 
 Early wooden cog wheels were used to drive [lantern gears](#Lantern_gear). See [gear trains](#Cog_wheel_and_lantern_gear).  
 The cogs could have other angles than 90° relative to the axis to build angled gear trains:
 
-![](/src/assets/images/Gear_Example-04.png)
+![](/images/Gear_Example-04.png)
 
 Large cog wheel resembling a Crown gear
 
@@ -67,13 +67,13 @@ Cog wheels have been replaced with single body gears that are called [sprockets]
 
 A crown gear is similar to a larger bevel gear, but meshes with spur gears instead of another bevel gear. See [Crown gear and spur gear](#Crown_gear_and_spur_gear).
 
-![](/src/assets/images/Gear_Example-09.png)
+![](/images/Gear_Example-09.png)
 
 Crown gear
 
 FreeCAD provides a tools to model crown gears:
 
-- ![](/src/assets/images/FCGear_CrownGear.svg) [FCGear CrownGear](/FCGear_CrownGear "FCGear CrownGear"): Creates a crown gear.
+- ![](/images/FCGear_CrownGear.svg) [FCGear CrownGear](/FCGear_CrownGear "FCGear CrownGear"): Creates a crown gear.
 
 ### Double helical gear
 
@@ -81,8 +81,8 @@ A double helical gear has two symmetric rows of helical teeth that have an angle
 
 FreeCAD provides two tools to model double helical gears:
 
-- ![](/src/assets/images/FCGear_InvoluteGear.svg) [FCGear InvoluteGear](/FCGear_InvoluteGear "FCGear InvoluteGear"): Creates an involute spur gear by default.
-- ![](/src/assets/images/FCGear_CycloidGear.svg) [FCGear CycloidGear](/FCGear_CycloidGear "FCGear CycloidGear"): Creates a cycloid spur gear by default.
+- ![](/images/FCGear_InvoluteGear.svg) [FCGear InvoluteGear](/FCGear_InvoluteGear "FCGear InvoluteGear"): Creates an involute spur gear by default.
+- ![](/images/FCGear_CycloidGear.svg) [FCGear CycloidGear](/FCGear_CycloidGear "FCGear CycloidGear"): Creates a cycloid spur gear by default.
 
 ### Helical gear
 
@@ -90,12 +90,12 @@ A helical gear has helical teeth that have an angle other than 90° to the axis 
 
 FreeCAD provides two tools to model helical gears:
 
-- ![](/src/assets/images/FCGear_InvoluteGear.svg) [FCGear InvoluteGear](/FCGear_InvoluteGear "FCGear InvoluteGear"): Creates an involute spur gear by default.
-- ![](/src/assets/images/FCGear_CycloidGear.svg) [FCGear CycloidGear](/FCGear_CycloidGear "FCGear CycloidGear"): Creates a cycloid spur gear by default.
+- ![](/images/FCGear_InvoluteGear.svg) [FCGear InvoluteGear](/FCGear_InvoluteGear "FCGear InvoluteGear"): Creates an involute spur gear by default.
+- ![](/images/FCGear_CycloidGear.svg) [FCGear CycloidGear](/FCGear_CycloidGear "FCGear CycloidGear"): Creates a cycloid spur gear by default.
 
 ### Internal gear
 
-The ![](/src/assets/images/FCGear_InternalInvoluteGear.svg) [FCGear InternalInvoluteGear](/FCGear_InternalInvoluteGear "FCGear InternalInvoluteGear") tool creates an internal involute gear.
+The ![](/images/FCGear_InternalInvoluteGear.svg) [FCGear InternalInvoluteGear](/FCGear_InternalInvoluteGear "FCGear InternalInvoluteGear") tool creates an internal involute gear.
 
 ### Lantern gear
 
@@ -103,7 +103,7 @@ A lantern gear is an assembly of a front plate(?) and a back plate(?) and severa
 
 This kind of gear looks similar to an ancient lantern or a bird cage, that's why it's called **lantern gear** or **cage gear**.
 
-![](/src/assets/images/Gear_Example-02.png)
+![](/images/Gear_Example-02.png)
 
 Lantern gear and a single roller ready to get inserted
 
@@ -119,9 +119,9 @@ A sprocket is a gear meshing with roller racks, roller chains, or timing belts, 
 
 FreeCAD provides three tools to model sprockets:
 
-- ![](/src/assets/images/FCGear_TimingGear.svg) [FCGear TimingGear](/FCGear_TimingGear "FCGear TimingGear"): Sprockets for timing belts (timing pulleys, toothed pulleys), creates a solid object.
-- ![](/src/assets/images/FCGear_LanternGear.svg) [FCGear LanternGear](/FCGear_LanternGear "FCGear LanternGear"): Sprockets for chains or racks (chain wheels, cogs, pinions), creates a solid object.
-- ![](/src/assets/images/PartDesign_Sprocket.svg) [PartDesign Sprocket](/PartDesign_Sprocket "PartDesign Sprocket"): Sprockets for bike chains (chain wheels, cogs), creates just an outline.
+- ![](/images/FCGear_TimingGear.svg) [FCGear TimingGear](/FCGear_TimingGear "FCGear TimingGear"): Sprockets for timing belts (timing pulleys, toothed pulleys), creates a solid object.
+- ![](/images/FCGear_LanternGear.svg) [FCGear LanternGear](/FCGear_LanternGear "FCGear LanternGear"): Sprockets for chains or racks (chain wheels, cogs, pinions), creates a solid object.
+- ![](/images/PartDesign_Sprocket.svg) [PartDesign Sprocket](/PartDesign_Sprocket "PartDesign Sprocket"): Sprockets for bike chains (chain wheels, cogs), creates just an outline.
 
 ### Spur gear
 
@@ -129,8 +129,8 @@ A spur gear has straight teeth that are aligned parallel to the axis of rotation
 
 FreeCAD provides two tools to model spur gears:
 
-- ![](/src/assets/images/FCGear_InvoluteGear.svg) [FCGear InvoluteGear](/FCGear_InvoluteGear "FCGear InvoluteGear"): Creates an involute spur gear by default.
-- ![](/src/assets/images/FCGear_CycloidGear.svg) [FCGear CycloidGear](/FCGear_CycloidGear "FCGear CycloidGear"): Creates a cycloid spur gear by default.
+- ![](/images/FCGear_InvoluteGear.svg) [FCGear InvoluteGear](/FCGear_InvoluteGear "FCGear InvoluteGear"): Creates an involute spur gear by default.
+- ![](/images/FCGear_CycloidGear.svg) [FCGear CycloidGear](/FCGear_CycloidGear "FCGear CycloidGear"): Creates a cycloid spur gear by default.
 
 ### Timing pulley
 
@@ -138,7 +138,7 @@ Timing (belt) pulleys or or toothed pulleys are [sprockets](#Sprocket) to use wi
 
 ### Worm gear
 
-The ![](/src/assets/images/FCGear_WormGear.svg) [FCGear WormGear](/FCGear_WormGear "FCGear WormGear") tool creates a WormGear.
+The ![](/images/FCGear_WormGear.svg) [FCGear WormGear](/FCGear_WormGear "FCGear WormGear") tool creates a WormGear.
 
 ## Racks
 
@@ -146,23 +146,23 @@ A Rack is like a gear segment having an infinite radius.
 
 ### Cycloid rack
 
-![](/src/assets/images/Gear_Example-12.png)
+![](/images/Gear_Example-12.png)
 
 Cycloid rack
 
 FreeCAD provides a tool to model cycloid racks for spur gearing, helical gearing, and double helical gearing:
 
-- ![](/src/assets/images/FCGear_CycloidRack.svg) [FCGear CycloidRack](/FCGear_CycloidRack "FCGear CycloidRack"): Creates a cycloid rack for spur gearing by default.
+- ![](/images/FCGear_CycloidRack.svg) [FCGear CycloidRack](/FCGear_CycloidRack "FCGear CycloidRack"): Creates a cycloid rack for spur gearing by default.
 
 ### Involute rack
 
-![](/src/assets/images/Gear_Example-11.png)
+![](/images/Gear_Example-11.png)
 
 Involute rack
 
 FreeCAD provides a tool to model involute racks for spur gearing, helical gearing, and double helical gearing:
 
-- ![](/src/assets/images/FCGear_InvoluteRack.svg) [FCGear InvoluteRack](/FCGear_InvoluteRack "FCGear InvoluteRack"): Creates an involute rack for spur gearing by default.
+- ![](/images/FCGear_InvoluteRack.svg) [FCGear InvoluteRack](/FCGear_InvoluteRack "FCGear InvoluteRack"): Creates an involute rack for spur gearing by default.
 
 ### Roller rack
 
@@ -170,11 +170,11 @@ FreeCAD provides a tool to model involute racks for spur gearing, helical gearin
 
 ### Cog wheel and lantern gear
 
-![](/src/assets/images/Gear_Example-GT-01.gif)
+![](/images/Gear_Example-GT-01.gif)
 
 A [cog wheel](#Cog_wheel) on the left meshes with a [lantern gear](#Lantern_gear) (with its front plate removed) on the right
 
-![](/src/assets/images/Gear_Example-GT-02.gif) ![](/src/assets/images/Gear_Example-05.png)
+![](/images/Gear_Example-GT-02.gif) ![](/images/Gear_Example-05.png)
 
 A large [cog wheel](#Cog_wheel) in the background (similar to a [crown gear](#Crown_gear)) meshes with a [lantern gear](#Lantern_gear)
 
@@ -184,13 +184,13 @@ See [Rack and pinion](#Rack_and_pinion).
 
 ### Crown gear and spur gear
 
-![](/src/assets/images/Gear_Example-10.png)
+![](/images/Gear_Example-10.png)
 
 A [crown gear](#Crown_gear) meshes with a [spur gear](#Spur_gear)
 
 ### Skew gears
 
-![](/src/assets/images/Gear_Example-GT-03.gif)
+![](/images/Gear_Example-GT-03.gif)
 
 Skew gears are paired [helical gears](#Helical_gear) having non-parallel and offset axes of rotation
 
@@ -198,13 +198,13 @@ Skew gears are paired [helical gears](#Helical_gear) having non-parallel and off
 
 ### Rack and pinion
 
-![](/src/assets/images/Gear_Example-03.png)
+![](/images/Gear_Example-03.png)
 
 A [pinion](#Pinion) (or cog wheel) meshes with a (ladder-like) roller rack
 
 ### Rack and spur gear
 
-![](/src/assets/images/Gear_Example-13.png) ![](/src/assets/images/Gear_Example-14.png)
+![](/images/Gear_Example-13.png) ![](/images/Gear_Example-14.png)
 
 A [spur gear](#Spur_gear) meshes with a rack. Left: Cycloid gearing. Right: Involute gearing
 

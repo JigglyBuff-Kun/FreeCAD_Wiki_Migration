@@ -21,13 +21,13 @@ title: Std ViewScreenShot
 
 The **Std ViewScreenShot** command opens a dialog box to create an image file, a screenshot, from the active [3D view](/3D_view "3D view").
 
-![](/src/assets/images/Save_picture.png)
+![](/images/Save_picture.png)
 
 The Save image dialog box after pressing the Extended button
 
 ## Usage
 
-1. Select the **Tools → ![](/src/assets/images/Std_ViewScreenShot.svg) Save image...** option from the menu.
+1. Select the **Tools → ![](/images/Std_ViewScreenShot.svg) Save image...** option from the menu.
 2. The **Save image** dialog box opens.
 3. Optionally press the Extended button to reveal an additional panel in the dialog box. For more information see [Options](#Options).
 4. Optionally browse to the correct folder.

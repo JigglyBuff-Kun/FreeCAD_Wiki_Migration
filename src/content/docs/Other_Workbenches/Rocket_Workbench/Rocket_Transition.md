@@ -26,8 +26,8 @@ The most common application is to change from one body diameter to another, such
 ## Usage
 
 1. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/Rocket_Transition.svg) [Transition](/Rocket_Transition "Rocket Transition") button.
-   - Select the **Rocket → ![](/src/assets/images/Rocket_Transition.svg) Transition** option from the menu.
+   - Press the ![](/images/Rocket_Transition.svg) [Transition](/Rocket_Transition "Rocket Transition") button.
+   - Select the **Rocket → ![](/images/Rocket_Transition.svg) Transition** option from the menu.
    - Double click on a Transition object in the [Tree view](/Tree_view "Tree view").
 2. Set options and press OK.
 
@@ -43,11 +43,11 @@ Transitions support all the styles supported by Nose Cones, see [Nose Cone Optio
 
 In addition, transitions have one more style option, _Solid Core_. For this style, the transition is solid but with a hole from one end to another. One example where this might be used is a balsa transition designed to hold a body tube in the manner of a centering ring.
 
-![](/src/assets/images/Core_transition_with_tube.png)
+![](/images/Core_transition_with_tube.png)
 
 Transition with aft shoulder holding a body tube
 
-![](/src/assets/images/Core_transition.png)
+![](/images/Core_transition.png)
 
 Transition with fore and aft shoulders showing the internal core
 
@@ -55,13 +55,13 @@ Transition with fore and aft shoulders showing the internal core
 
 Shapes such as an ogive or a parabola can be applied in one of two ways. The standard, non-clipped, treats the axis parallel to the central axis offset by the smaller of the fore and aft radius as the axis for drawing the shape. The clipped method applies a larger version of the curve centered around the transition axis, and clips the portion forward of the smaller radius. In this example, the non-clipped curve is drawn from _x=0_ to _x=60_ around the _y=10_ axis. The clipped version extends the shape along the x axis until _y=0_ and takes only the portion from _x=0_ to _x=60_.
 
-![](/src/assets/images/ParabolaClippedVsNon.png)
+![](/images/ParabolaClippedVsNon.png)
 
 Clipped and non-clipped curves for a parabolic transition
 
 For some shapes, this makes no difference in the shape of the transition, such as for conical or ogive shapes. In these cases, clipping is ignored.
 
-![](/src/assets/images/OgiveClippedVsNon.png)
+![](/images/OgiveClippedVsNon.png)
 
 Clipped and non-clipped curves for an ogive transition
 

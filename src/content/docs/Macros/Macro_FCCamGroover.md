@@ -32,13 +32,13 @@ This macro creates a groove in a cylinder for a cam to ride in.
 
 The object created is similar to the one shown in this [youtube video](https://youtu.be/io1JL1U7kUs).
 
-![](/src/assets/images/Cam-groover-screenshot.png)
+![](/images/Cam-groover-screenshot.png)
 
-![](/src/assets/images/Cam-groover-animated-opt.gif)
+![](/images/Cam-groover-animated-opt.gif)
 
 ## Script
 
-ToolBar Icon ![](/src/assets/images/Cam-groover-icon-32x32.png)
+ToolBar Icon ![](/images/Cam-groover-icon-32x32.png)
 
 **Macro_FCCamGroover.FCMacro**
 

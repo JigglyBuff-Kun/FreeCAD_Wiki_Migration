@@ -19,23 +19,23 @@ title: Surface Querschnitte
 
 ## Beschreibung
 
-![](/src/assets/images/Surface_Sections.svg) Surface Querschnitte wird verwendet, um eine Oberfläche über Kanten zu erstellen, die Querschnitte einer Fläche repräsentieren.
+![](/images/Surface_Sections.svg) Surface Querschnitte wird verwendet, um eine Oberfläche über Kanten zu erstellen, die Querschnitte einer Fläche repräsentieren.
 
-![](/src/assets/images/Surface_Sections_edges_example.png) ![](/src/assets/images/Surface_Sections_example.png)
+![](/images/Surface_Sections_edges_example.png) ![](/images/Surface_Sections_example.png)
 
 Left: control edges (transversal sections). Right: surface produced from these edges.
 
 ## Anwendung
 
-1. Make sure you have at least two edges or curves in space. For example, these can be created with tools of the ![](/src/assets/images/Workbench_Draft.svg) [Draft Workbench](/Draft_Workbench "Draft Workbench") or the ![](/src/assets/images/Workbench_Sketcher.svg) [Sketcher](/Sketcher_Workbench "Sketcher Workbench").
-2. Press the ![](/src/assets/images/Surface_Sections.svg) [Surface sections](/Surface_Sections "Surface Sections") button.
+1. Make sure you have at least two edges or curves in space. For example, these can be created with tools of the ![](/images/Workbench_Draft.svg) [Draft Workbench](/Draft_Workbench "Draft Workbench") or the ![](/images/Workbench_Sketcher.svg) [Sketcher](/Sketcher_Workbench "Sketcher Workbench").
+2. Press the ![](/images/Surface_Sections.svg) [Surface sections](/Surface_Sections "Surface Sections") button.
 3. Press Add edge.
 4. Use the pointer to pick the desired edges in the [3D view](/3D_view "3D view"); a preview of the final shape will be shown after selecting two valid edges.
 5. Press OK to complete the operation.
 
 ## Optionen
 
-- Add edge: press once to start picking edges in the [3D view](/3D_view "3D view"). Individual lines such as ![](/src/assets/images/Draft_BSpline.svg) [Draft BSplines](/Draft_BSpline "Draft BSpline") and ![](/src/assets/images/Sketcher_CreateBSpline.svg) [Sketcher BSplines](/Sketcher_CreateBSpline "Sketcher CreateBSpline") can be chosen, as well as any edge from solid objects, like those of ![](/src/assets/images/PartDesign_Body.svg) [PartDesign Bodies](/PartDesign_Body "PartDesign Body") and ![](/src/assets/images/Part_Primitives.svg) [Part Primitives](/Part_Primitives "Part Primitives").
+- Add edge: press once to start picking edges in the [3D view](/3D_view "3D view"). Individual lines such as ![](/images/Draft_BSpline.svg) [Draft BSplines](/Draft_BSpline "Draft BSpline") and ![](/images/Sketcher_CreateBSpline.svg) [Sketcher BSplines](/Sketcher_CreateBSpline "Sketcher CreateBSpline") can be chosen, as well as any edge from solid objects, like those of ![](/images/PartDesign_Body.svg) [PartDesign Bodies](/PartDesign_Body "PartDesign Body") and ![](/images/Part_Primitives.svg) [Part Primitives](/Part_Primitives "Part Primitives").
 - Remove edge: press once to start picking edges in the [3D view](/3D_view "3D view"); these must be edges that were previously picked with Add edge.
 - Right mouse button: open the context menu and select Remove, or press Del in the keyboard, to remove the currently selected edge in the list.
 - **Drag**: drag the currently selected element in the list in order to change the order in which it will be processed; the list is processed from top to bottom.
@@ -61,9 +61,9 @@ Base
 
 ## Twisting of the surface
 
-The shape of the surface depends on the direction of the chosen edges; if edges are selected and the result is a surface that "twists" on itself, one of the edges may need its list of vertices in the reverse order. See the information in ![](/src/assets/images/Surface_GeomFillSurface.svg) [GeomFillSurface](/Surface_GeomFillSurface "Surface GeomFillSurface") for a more complete explanation.
+The shape of the surface depends on the direction of the chosen edges; if edges are selected and the result is a surface that "twists" on itself, one of the edges may need its list of vertices in the reverse order. See the information in ![](/images/Surface_GeomFillSurface.svg) [GeomFillSurface](/Surface_GeomFillSurface "Surface GeomFillSurface") for a more complete explanation.
 
-![](/src/assets/images/Surface_twisting_example_smooth.png) ![](/src/assets/images/Surface_twisting_example_twisted.png)
+![](/images/Surface_twisting_example_smooth.png) ![](/images/Surface_twisting_example_twisted.png)
 
 ## Skripten
 

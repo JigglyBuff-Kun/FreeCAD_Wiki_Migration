@@ -2,7 +2,7 @@
 title: OSH Automated Documentation
 ---
 
-![](/src/assets/images/Icon-osh-autodoc.svg)
+![](/images/Icon-osh-autodoc.svg)
 
 OSH Automated Documentation Workbench icon
 
@@ -18,7 +18,7 @@ This software originates from a [peer-reviewed article](https://openhardware.met
 
 The software consists of a **workbench** and a **compiler** that generates a PDF based on a textual description of the manual. The workbench is used to make annotations to the CAD model, for example a STEP file. An example of such an annotation is in the figure below where the camera position is saved to for generating a high-quality image for in the manual:
 
-![](/src/assets/images/Screenshot-camera-position.png)
+![](/images/Screenshot-camera-position.png)
 
 The workbench generates a directory structure with SVG images and a BOM of the parts used for an assembly step. The BOM is a CSV file with images for each part. This output can be used by other software, and in particular or compiler uses it to create PDF images.
 

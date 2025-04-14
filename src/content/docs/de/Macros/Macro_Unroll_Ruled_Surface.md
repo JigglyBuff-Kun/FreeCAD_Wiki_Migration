@@ -30,7 +30,7 @@ title: Unroll Ruled Surface
 
 Das Makro ermöglicht es, die Flächen abzuwickeln und sie auf einer Zeichnung abzubilden.
 
-![](/src/assets/images/Macro_unrollRuledSurface_00.png)
+![](/images/Macro_unrollRuledSurface_00.png)
 
 Macro Unroll Ruled Surface
 
@@ -47,7 +47,7 @@ Siehe auch: [Macro for unrolling ruled surfaces](http://forum.freecadweb.org/vie
 - Blattformat: A4/A3, Cartridge (siehe FreeCAD-Vorlagen)
 - Gruppierte Zeichnungen auf demselben Blatt sind möglich.
 
-![Macro_unrollRuledSurface](/src/assets/images/Macro_UnrollRuledSurface_start_form.png)
+![Macro_unrollRuledSurface](/images/Macro_UnrollRuledSurface_start_form.png)
 
 ## Anwendung
 
@@ -58,9 +58,9 @@ Siehe auch: [Macro for unrolling ruled surfaces](http://forum.freecadweb.org/vie
 
 ## Script
 
-Die neueste Version des Makros ist hier im Wiki zu finden. Eine ältere Version findet man unter [UnrollRuledSurface.FCMacro](https://github.com/FreeCAD/FreeCAD-macros/blob/master/Drawing/UnrollRuledSurface.FCMacro), aber der einfachste Weg zur Installation dieses Makros ist die Verwendung des ![Std_AddonMgr/de](/src/assets/images/Std_AddonMgr.svg) [Addon-Managers](/Std_AddonMgr/de "Std AddonMgr/de").
+Die neueste Version des Makros ist hier im Wiki zu finden. Eine ältere Version findet man unter [UnrollRuledSurface.FCMacro](https://github.com/FreeCAD/FreeCAD-macros/blob/master/Drawing/UnrollRuledSurface.FCMacro), aber der einfachste Weg zur Installation dieses Makros ist die Verwendung des ![Std_AddonMgr/de](/images/Std_AddonMgr.svg) [Addon-Managers](/Std_AddonMgr/de "Std AddonMgr/de").
 
-Werkzeugleistensymbol ![](/src/assets/images/Macro_Unroll_Ruled_Surface.png)
+Werkzeugleistensymbol ![](/images/Macro_Unroll_Ruled_Surface.png)
 
 **Macro_unrollRuledSurface.py**
 

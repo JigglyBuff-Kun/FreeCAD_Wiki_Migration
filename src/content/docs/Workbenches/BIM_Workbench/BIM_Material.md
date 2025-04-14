@@ -24,14 +24,14 @@ Shows the **BIM material** dialog. The dialog allows to quickly and easily perfo
 1. Create new [material](/Arch_SetMaterial "Arch SetMaterial") or [multimaterial](/Arch_MultiMaterial "Arch MultiMaterial")
 2. Attribute an existing material or multimaterial to selected object(s).
 
-![](/src/assets/images/BIM_materials_screenshot.png)
+![](/images/BIM_materials_screenshot.png)
 
 The materials manager
 
 ## Usage
 
 1. (Optionally) select one or more objects
-2. Press the ![](/src/assets/images/BIM_Material.svg) [Material](/BIM_Material "BIM Material") button in the toolbar.
+2. Press the ![](/images/BIM_Material.svg) [Material](/BIM_Material "BIM Material") button in the toolbar.
 
 - If there is no existing material in the active document, the material manager window is not displayed, and a [new material](/Arch_SetMaterial "Arch SetMaterial") will be created.
 - If there is at least one material or multimaterial in the document, the Materials Manager window will open.

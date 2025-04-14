@@ -34,7 +34,7 @@ Finds the intersection between two or three selected edges or faces, also works 
 
 Select two or three edges, faces, Datum Planes or Datum Lines in the [3D view](/3D_view "3D view"), then run the macro. Full documentation can be found on github: [Intersection on github](https://github.com/mwganson/intersection)
 
-![](/src/assets/images/Macro_Intersection_scr.png)
+![](/images/Macro_Intersection_scr.png)
 
 Macro Intersection screenshot
 
@@ -71,13 +71,13 @@ webbrowser.open("https://gist.github.com/mwganson/acf6d419ee0d3b5636ea82221846d7
 <class="rawcodeurl"><a href="<https://gist.github.com/mwganson/acf6d419ee0d3b5636ea82221846d758/raw/dff80f8b50d83312e936104f6b062b88279add64/Intersection.py>">raw code</a>
 
 ToolBar Icon
-![](/src/assets/images/Intersection_Icon.svg)
+![](/images/Intersection_Icon.svg)
 
 ### Script
 
 **Macro Intersection.FCMacro**
 
-[![](/src/assets/images/Nuvola_apps_download_manager.png)](https://gist.github.com/mwganson/acf6d419ee0d3b5636ea82221846d758)
+[![](/images/Nuvola_apps_download_manager.png)](https://gist.github.com/mwganson/acf6d419ee0d3b5636ea82221846d758)
 
 [Intersection.py](https://gist.github.com/mwganson/acf6d419ee0d3b5636ea82221846d758)
 

@@ -21,13 +21,13 @@ title: Std Einheitenrechner
 
 Der Befehl **Std Einheitenrechner** öffnet den Einheitenwandler. Der Einheitenwandler kann genutzt werden, um Werte von einem Einheitensystem in ein anderes umzuwandeln.
 
-![](/src/assets/images/Std_UnitsCalculator_Dialog.png)
+![](/images/Std_UnitsCalculator_Dialog.png)
 
 Das Einheitenwandler-Dialogfenster
 
 ## Anwendung
 
-1. Den Menüeintrag **Werkzeuge → ![](/src/assets/images/Std_UnitsCalculator.svg) Einheitenwandler...** auswählen.
+1. Den Menüeintrag **Werkzeuge → ![](/images/Std_UnitsCalculator.svg) Einheitenwandler...** auswählen.
 2. Das Dialogfenster **Einheitenwandler** wird geöffnet. Mehr Informationen finden sich unter [Optionen](#Optionen).
 3. Das Dialogfenster ist nicht modal, d.h es kann während der Arbeit mit FreeCAD geöffnet bleiben.
 4. Die Schaltfläche Schließen drücken, um das Dialogfenster zu schließen.

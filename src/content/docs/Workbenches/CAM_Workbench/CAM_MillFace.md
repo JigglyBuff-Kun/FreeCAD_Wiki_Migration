@@ -23,7 +23,7 @@ This documentation is not finished. Please help and contribute documentation.Gui
 
 ## Description
 
-The ![](/src/assets/images/CAM_MillFace.svg) [Mill Face](/CAM_MillFace "CAM MillFace") tool creates a path to perform a facing operation on a horizontal surface. This operation is generally used:
+The ![](/images/CAM_MillFace.svg) [Mill Face](/CAM_MillFace "CAM MillFace") tool creates a path to perform a facing operation on a horizontal surface. This operation is generally used:
 
 - to smooth out a rough stock surface,
 - to mill selected face(s) to desired depth in preparation for performing subsequent clearing operations within the boundary of the regions affected by this operation,
@@ -31,7 +31,7 @@ The ![](/src/assets/images/CAM_MillFace.svg) [Mill Face](/CAM_MillFace "CAM Mill
 
 This operation contains a Data**BoundaryShape** property that allows for a modified selection area based upon the selected face(s).
 
-![Sample image of Mill Face operation used to prepare stock surface for subsequent clearing operation.](/src/assets/images/MillFace_Sample.png)
+![Sample image of Mill Face operation used to prepare stock surface for subsequent clearing operation.](/images/MillFace_Sample.png)
 
 Sample image of Mill Face operation used to prepare stock surface for subsequent clearing operation.
 
@@ -39,8 +39,8 @@ Sample image of Mill Face operation used to prepare stock surface for subsequent
 
 1. Select one or more faces to be surfaced. **Note:** If selected faces exist at different heights, then all will be milled to the Final Depth setting.
 2. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/CAM_MillFace.svg) [CAM MillFace](/CAM_MillFace "CAM MillFace") button.
-   - Select the **CAM → ![](/src/assets/images/CAM_MillFace.svg) Face** option from the menu.
+   - Press the ![](/images/CAM_MillFace.svg) [CAM MillFace](/CAM_MillFace "CAM MillFace") button.
+   - Select the **CAM → ![](/images/CAM_MillFace.svg) Face** option from the menu.
 3. Select the correct Data**BoundaryShape** setting to modify the milling area based on the face(s) selected as **Base Geometry**.
 4. Adjust the other properties as needed. They are listed further below.
 

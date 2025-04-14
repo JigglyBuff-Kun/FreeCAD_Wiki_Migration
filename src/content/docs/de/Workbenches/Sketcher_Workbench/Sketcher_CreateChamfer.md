@@ -19,16 +19,16 @@ title: Sketcher FaseErstellen
 
 ## Beschreibung
 
-Das Werkzeug ![](/src/assets/images/Sketcher_CreateChamfer.svg) Sketcher FaseErstellen fügt eine Fase zwischen zwei nicht parallelen Kanten ein. Dies ist dasselbe Werkzeug wie [Sketcher VerrundungErstellen](/Sketcher_CreateFillet/de "Sketcher CreateFillet/de") aber mit einem anderen voreingestellten Modus.
+Das Werkzeug ![](/images/Sketcher_CreateChamfer.svg) Sketcher FaseErstellen fügt eine Fase zwischen zwei nicht parallelen Kanten ein. Dies ist dasselbe Werkzeug wie [Sketcher VerrundungErstellen](/Sketcher_CreateFillet/de "Sketcher CreateFillet/de") aber mit einem anderen voreingestellten Modus.
 
 ## Anwendung
 
 Siehe auch: [Zeichnungshilfen](/Sketcher_Workbench/de#Zeichnungshilfen "Sketcher Workbench/de").
 
 1. Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
-   - Die Schaltfläche ![](/src/assets/images/Sketcher_CreateChamfer.svg) Fase erstellen drücken.
-   - Den Menüeintrag **Skizze → Sketcher-Werkzeuge → ![](/src/assets/images/Sketcher_CreateChamfer.svg) Fase erstellen** auswählen.
-   - Ein Rechtsklick in die [3D-Ansicht](/3D_view/de "3D view/de") und den Menüeintrag **![](/src/assets/images/Sketcher_CreateChamfer.svg) Fase erstellen** im Kontextmenü auswählen
+   - Die Schaltfläche ![](/images/Sketcher_CreateChamfer.svg) Fase erstellen drücken.
+   - Den Menüeintrag **Skizze → Sketcher-Werkzeuge → ![](/images/Sketcher_CreateChamfer.svg) Fase erstellen** auswählen.
+   - Ein Rechtsklick in die [3D-Ansicht](/3D_view/de "3D view/de") und den Menüeintrag **![](/images/Sketcher_CreateChamfer.svg) Fase erstellen** im Kontextmenü auswählen
    - Das Tastaturkürzel G dann F dann C.
 2. Für weitere Schritte siehe [Sketcher VerrundungErstellen](/Sketcher_CreateFillet/de#Anwendung "Sketcher CreateFillet/de").
 

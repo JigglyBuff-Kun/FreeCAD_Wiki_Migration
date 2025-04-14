@@ -30,7 +30,7 @@ title: Fonts Win10 PYMP
 
 This little macro is dedicate to users of Windows 10. The explorer fonts for use the ShapeString is empty and this little macro can help you see easily the font to use.
 
-![](/src/assets/images/Macro_Fonts_Win10_PYMP_00.png)
+![](/images/Macro_Fonts_Win10_PYMP_00.png)
 
 Macro Fonts Win10 PYMP
 
@@ -38,7 +38,7 @@ Macro Fonts Win10 PYMP
 
 Launch the macro select the font and apply.
 
-![Macro Fonts Win10 PYMP](/src/assets/images/Macro_Fonts_Win10_PYMP_01.png)
+![Macro Fonts Win10 PYMP](/images/Macro_Fonts_Win10_PYMP_01.png)
 
 Macro Fonts Win10 PYMP
 
@@ -48,11 +48,11 @@ Macro Fonts Win10 PYMP window
 - **Line edit** : for visualise your path and file used
 - **Combobox** : for choice your font
 - Color : choice the text color
-- 10.00 ![](/src/assets/images/SpinBox.svg) : dimension of text in 3D view
+- 10.00 ![](/images/SpinBox.svg) : dimension of text in 3D view
 
-* ![](/src/assets/images/CheckBoxFalse.svg) Text : create one text with the ShapeString
+* ![](/images/CheckBoxFalse.svg) Text : create one text with the ShapeString
 
-- 20.00 ![](/src/assets/images/SpinBox.svg) : dimension of text displayed in the window macro
+- 20.00 ![](/images/SpinBox.svg) : dimension of text displayed in the window macro
 - Exit : quit Fonts Win10 PYMP
 - Ok : validate your text
 - New folder : other choice path files font
@@ -87,7 +87,7 @@ After the first launch, see :
 
 ## Script
 
-ToolBar Icon ![](/src/assets/images/Macro_Fonts_Win10_PYMP.png)
+ToolBar Icon ![](/images/Macro_Fonts_Win10_PYMP.png)
 
 **Macro Fonts Win10 PYMP.FCMacro**
 

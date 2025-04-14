@@ -25,7 +25,7 @@ The **BIM Diff** tool takes two open FreeCAD documents, and produces a visual di
 
 This tool does the same thing, but graphically. It opens a new document, shows the contents of file B, but highlights:
 
-![](/src/assets/images/BIM_Diff_example.jpg)
+![](/images/BIM_Diff_example.jpg)
 
 This tool is primarily suited for IFC files, as it uses the IFC Global ID to make sure one object in one file is still the same in the other file. However, it will also work with two non-IFC FreeCAD files.
 
@@ -33,7 +33,7 @@ This tool is primarily suited for IFC files, as it uses the IFC Global ID to mak
 
 1. Open a document in FreeCAD.
 2. Open a second document in FreeCAD, that you wish to compare with the first one.
-3. Select the **Utils → ![](/src/assets/images/BIM_Diff.svg) IFC Diff** option from the menu.
+3. Select the **Utils → ![](/images/BIM_Diff.svg) IFC Diff** option from the menu.
 
 ## Options
 

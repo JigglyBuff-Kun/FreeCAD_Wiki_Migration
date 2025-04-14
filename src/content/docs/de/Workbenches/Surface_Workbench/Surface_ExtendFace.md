@@ -19,17 +19,17 @@ title: Surface FlächeErweitern
 
 ## Beschreibung
 
-![](/src/assets/images/Surface_ExtendFace.svg) Surface FlächeErweitern extrapoliert eine vorhandene Fläche oder Oberfläche an ihren Rändern mit ihren lokalen U- und V-Parametern.
+![](/images/Surface_ExtendFace.svg) Surface FlächeErweitern extrapoliert eine vorhandene Fläche oder Oberfläche an ihren Rändern mit ihren lokalen U- und V-Parametern.
 
-![](/src/assets/images/Surface_ExtendFace_base_example.png) ![](/src/assets/images/Surface_ExtendFace_example.png)
+![](/images/Surface_ExtendFace_base_example.png) ![](/images/Surface_ExtendFace_example.png)
 
 Links: Original Fläche. Rechts: Erweiterte Fläche.
 
 ## Anwendung
 
-1. Make sure you have an object that has faces. The object could be created with the ![](/src/assets/images/Workbench_Surface.svg) [Surface Workbench](/Surface_Workbench "Surface Workbench") but it could also be any other object, for example, created with ![](/src/assets/images/Workbench_Part.svg) [Part](/Part_Workbench "Part Workbench") or ![](/src/assets/images/Workbench_PartDesign.svg) [PartDesign](/PartDesign_Workbench "PartDesign Workbench").
+1. Make sure you have an object that has faces. The object could be created with the ![](/images/Workbench_Surface.svg) [Surface Workbench](/Surface_Workbench "Surface Workbench") but it could also be any other object, for example, created with ![](/images/Workbench_Part.svg) [Part](/Part_Workbench "Part Workbench") or ![](/images/Workbench_PartDesign.svg) [PartDesign](/PartDesign_Workbench "PartDesign Workbench").
 2. Select the face to extend by clicking on it on the [3D view](/3D_view "3D view").
-3. Press ![](/src/assets/images/Surface_ExtendFace.svg) [Extend face](/Surface_ExtendFace "Surface ExtendFace").
+3. Press ![](/images/Surface_ExtendFace.svg) [Extend face](/Surface_ExtendFace "Surface ExtendFace").
 
 ## Optionen
 

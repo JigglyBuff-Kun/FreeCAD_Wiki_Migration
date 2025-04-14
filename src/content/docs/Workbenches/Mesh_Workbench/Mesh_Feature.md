@@ -4,7 +4,7 @@ title: Mesh Feature
 
 ## Introduction
 
-![](/src/assets/images/Mesh_Tree.svg)
+![](/images/Mesh_Tree.svg)
 
 A [Mesh Feature](/Mesh_Feature "Mesh Feature") object, or formally a `Mesh::Feature`, is a simple element with an associated [mesh object](/Mesh_MeshObject "Mesh MeshObject") that can be displayed in the [3D view](/3D_view "3D view").
 
@@ -12,7 +12,7 @@ A Mesh Feature is similar conceptually to a [Part Feature](/Part_Feature "Part F
 
 Please note that the [FEM Workbench](/FEM_Workbench "FEM Workbench") also uses meshes, but it uses a different object, called [FEM FemMeshObject](/FEM_Mesh "FEM Mesh") (`Fem::FemMeshObject` class). This object is not derived from the Mesh Feature and has different properties.
 
-![](/src/assets/images/FreeCAD_core_objects.svg)
+![](/images/FreeCAD_core_objects.svg)
 
 Simplified diagram of the relationships between the core objects in FreeCAD
 

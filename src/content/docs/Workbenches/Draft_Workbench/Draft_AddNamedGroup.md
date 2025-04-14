@@ -19,14 +19,14 @@ title: Draft AddNamedGroup
 
 ## Description
 
-The ![](/src/assets/images/Draft_AddNamedGroup.svg) **Draft AddNamedGroup** command creates a named [Std Group](/Std_Group "Std Group") and adds objects to that group.
+The ![](/images/Draft_AddNamedGroup.svg) **Draft AddNamedGroup** command creates a named [Std Group](/Std_Group "Std Group") and adds objects to that group.
 
 ## Usage
 
 1. Optionally select one or more objects.
 2. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/Draft_AddNamedGroup.svg) [New named group](/Draft_AddNamedGroup "Draft AddNamedGroup") button.
-   - Select the **Utilities → ![](/src/assets/images/Draft_AddNamedGroup.svg) New named group** option from the menu, or from the [Tree view](/Tree_view "Tree view") or [3D view](/3D_view "3D view") context menu.
+   - Press the ![](/images/Draft_AddNamedGroup.svg) [New named group](/Draft_AddNamedGroup "Draft AddNamedGroup") button.
+   - Select the **Utilities → ![](/images/Draft_AddNamedGroup.svg) New named group** option from the menu, or from the [Tree view](/Tree_view "Tree view") or [3D view](/3D_view "3D view") context menu.
 3. The **Create new group** dialog box opens. [introduced in 1.1](/Release_notes_1.1 "Release notes 1.1")
 4. Enter a **Group name**.
 5. Press the OK button.

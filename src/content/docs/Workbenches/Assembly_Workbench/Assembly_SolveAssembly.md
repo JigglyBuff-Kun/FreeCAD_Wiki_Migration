@@ -23,13 +23,13 @@ This documentation is not finished. Please help and contribute documentation.Gui
 
 ## Description
 
-The ![](/src/assets/images/Assembly_SolveAssembly.svg) [Assembly SolveAssembly](/Assembly_SolveAssembly "Assembly SolveAssembly") tool solves the currently active Assembly.
+The ![](/images/Assembly_SolveAssembly.svg) [Assembly SolveAssembly](/Assembly_SolveAssembly "Assembly SolveAssembly") tool solves the currently active Assembly.
 
 ## Usage
 
 1. There are several ways to invoke the tool:
-   - Press the ![](/src/assets/images/Assembly_SolveAssembly.svg) [Solve Assembly](/Assembly_SolveAssembly "Assembly SolveAssembly") button.
-   - Select the **Assembly → ![](/src/assets/images/Assembly_SolveAssembly.svg) Solve Assembly** option from the menu.
+   - Press the ![](/images/Assembly_SolveAssembly.svg) [Solve Assembly](/Assembly_SolveAssembly "Assembly SolveAssembly") button.
+   - Select the **Assembly → ![](/images/Assembly_SolveAssembly.svg) Solve Assembly** option from the menu.
    - Use the keyboard shortcut: Z.
 2. ...
 

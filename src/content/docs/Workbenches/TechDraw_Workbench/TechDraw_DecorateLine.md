@@ -21,11 +21,11 @@ title: TechDraw DecorateLine
 
 The **TechDraw DecorateLine** tool changes the appearance of edges, including cosmetic lines and centerlines. It can also make edges invisible.
 
-![](/src/assets/images/TechDrawLineDecorSampleBefore.png)
+![](/images/TechDrawLineDecorSampleBefore.png)
 
 Sample edges before decoration
 
-![](/src/assets/images/TechDrawLineDecorSampleAfter.png)
+![](/images/TechDrawLineDecorSampleAfter.png)
 
 Sample edges after decoration
 
@@ -33,8 +33,8 @@ Sample edges after decoration
 
 1. Select a View or one or more edges in a View.
 2. There are several ways to invoke the tool:
-   - Press the ![](/src/assets/images/TechDraw_DecorateLine.svg) [Change Appearance of Lines](/TechDraw_DecorateLine "TechDraw DecorateLine") button.
-   - Select the **TechDraw → Add Lines → ![](/src/assets/images/TechDraw_DecorateLine.svg) Change Appearance of Lines** option from the menu.
+   - Press the ![](/images/TechDraw_DecorateLine.svg) [Change Appearance of Lines](/TechDraw_DecorateLine "TechDraw DecorateLine") button.
+   - Select the **TechDraw → Add Lines → ![](/images/TechDraw_DecorateLine.svg) Change Appearance of Lines** option from the menu.
    - [introduced in 1.0](/Release_notes_1.0 "Release notes 1.0"): Double-click on a line within a View.
 3. A task panel opens.
 4. If you have selected edges: optionally change their **color**, **style**, **weight** and/or **visibility** in the **Line Decoration** section.

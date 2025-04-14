@@ -28,8 +28,8 @@ Defines an initial temperature for a thermo-mechanical analysis.
 ## Usage
 
 1. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/FEM_ConstraintInitialTemperature.svg) [Initial temperature](/FEM_ConstraintInitialTemperature "FEM ConstraintInitialTemperature") button.
-   - Select the **Model → Thermal boundary conditions and loads → ![](/src/assets/images/FEM_ConstraintInitialTemperature.svg) Initial temperature** option from the menu.
+   - Press the ![](/images/FEM_ConstraintInitialTemperature.svg) [Initial temperature](/FEM_ConstraintInitialTemperature "FEM ConstraintInitialTemperature") button.
+   - Select the **Model → Thermal boundary conditions and loads → ![](/images/FEM_ConstraintInitialTemperature.svg) Initial temperature** option from the menu.
 2. Enter an initial temperature value for the analysis.
 
 ## Limitations

@@ -32,7 +32,7 @@ This macro converts selected meshes to parts. It has a broad tolerance, so use i
 
 ## Script
 
-ToolBar Icon ![](/src/assets/images/Macro_MeshToPart.png)
+ToolBar Icon ![](/images/Macro_MeshToPart.png)
 
 **Macro_MeshToPart.FCMacro**
 

@@ -23,6 +23,6 @@ This tool only toggles the visibility of two more constraint panels.
 
 ## Usage
 
-1. Press the ![](/src/assets/images/Assembly_ConstraintMore.svg) [More](/Assembly3_ConstraintMore "Assembly3 ConstraintMore") button.
+1. Press the ![](/images/Assembly_ConstraintMore.svg) [More](/Assembly3_ConstraintMore "Assembly3 ConstraintMore") button.
 
 Retrieved from "<http://wiki.freecad.org/index.php?title=Assembly3_ConstraintMore/en&oldid=887364>"

@@ -68,17 +68,17 @@ webbrowser.open("https://gist.githubusercontent.com/mario52a/2fc48333deca5a31e62
 3. Select one object
 4. Choose one of the following orientations:
 
-![Interface Rotate to point](/src/assets/images/Macro_Rotate_To_Point_00.png)
+![Interface Rotate to point](/images/Macro_Rotate_To_Point_00.png)
 
 ### [1] Position Rotation
 
 _First operation_
 
-![[1] Position Rotation](/src/assets/images/Macro_Rotate_To_Point_Position-Rotation00.png)
+![[1] Position Rotation](/images/Macro_Rotate_To_Point_Position-Rotation00.png)
 
-- ![](/src/assets/images/CheckBoxFalse.svg) Translation: If this checkBox is ![](/src/assets/images/CheckBoxTrue.svg) checked the rotation is disabled, the object placement is done on the axis selected.
+- ![](/images/CheckBoxFalse.svg) Translation: If this checkBox is ![](/images/CheckBoxTrue.svg) checked the rotation is disabled, the object placement is done on the axis selected.
 
-_The SpinBox 1,00000 Degrees ![](/src/assets/images/SpinBox.svg) is reinitialized to `0.0` and coloured in red_
+_The SpinBox 1,00000 Degrees ![](/images/SpinBox.svg) is reinitialized to `0.0` and coloured in red_
 
 - The time passed with your favourite macro is displayed.
 
@@ -86,7 +86,7 @@ _The SpinBox 1,00000 Degrees ![](/src/assets/images/SpinBox.svg) is reinitialize
 
 _Second operation_
 
-![[2]Translation Rotation](/src/assets/images/Macro_Rotate_To_Point_Translation-Rotation00.png)
+![[2]Translation Rotation](/images/Macro_Rotate_To_Point_Translation-Rotation00.png)
 
 ### Point Rotation
 
@@ -106,11 +106,11 @@ _Second operation_
   - 1: Select the object
   - 2: Select the path
 
-_The SpinBox 1,00000 Degrees ![](/src/assets/images/SpinBox.svg) is reinitialized to `0.0` and coloured in red_
+_The SpinBox 1,00000 Degrees ![](/images/SpinBox.svg) is reinitialized to `0.0` and coloured in red_
 
 ### Coordinates Point clicked
 
-![Rotate To Point Coordinate-On-Point-Clicked](/src/assets/images/Macro_Rotate_To_Point_Coordinate-On-Point-Clicked_00.png)
+![Rotate To Point Coordinate-On-Point-Clicked](/images/Macro_Rotate_To_Point_Coordinate-On-Point-Clicked_00.png)
 
 - DoubleSpinBox: Coordinate X on mouse click (modifiable only with the mode "Point Clicked")
 - DoubleSpinBox: Coordinate Y on mouse click (modifiable only with the mode "Point Clicked")
@@ -120,37 +120,37 @@ _The SpinBox 1,00000 Degrees ![](/src/assets/images/SpinBox.svg) is reinitialize
 
 _Third operation_
 
-![Macro Rotate To Point Work](/src/assets/images/Macro_Rotate_To_Point_Work_00.png)
+![Macro Rotate To Point Work](/images/Macro_Rotate_To_Point_Work_00.png)
 
-- ![](/src/assets/images/CheckBoxFalse.svg) View: If checked, the view return on latest view of the object selected (work with comboBox below it) and all parameters restored.
+- ![](/images/CheckBoxFalse.svg) View: If checked, the view return on latest view of the object selected (work with comboBox below it) and all parameters restored.
 
 * Point: One point is created for visualise the point rotation axis: red X, green Y, blue Z.
 * Center: One point is created on center of circle.
-* Box ![](/src/assets/images/ComboBox.svg): List of all objects used. The choice of the object here, the zoom _(if checkBox view is checked)_ is returned and all parameters restored.
-* 0 ![](/src/assets/images/ComboBox.svg): Select one predefined value.
-* 1.0 ![](/src/assets/images/ComboBox.svg): Select the saved value used.
+* Box ![](/images/ComboBox.svg): List of all objects used. The choice of the object here, the zoom _(if checkBox view is checked)_ is returned and all parameters restored.
+* 0 ![](/images/ComboBox.svg): Select one predefined value.
+* 1.0 ![](/images/ComboBox.svg): Select the saved value used.
 * - Invert: Invert the sign Positif/Negatif of the value displayed.
-* 1,00000 Degrees ![](/src/assets/images/SpinBox.svg): Select the value.
+* 1,00000 Degrees ![](/images/SpinBox.svg): Select the value.
 * Apply: Apply the modification to the object.
 * Line Edit: The line edit displays the original coordinate to axis selected + the input data given in the spinBox.
 * The coordinate is displayed
 
 ### Data to save
 
-![Rotate To Point Data-To-Save](/src/assets/images/Macro_Rotate_To_Point_Data-To-Save_00.png)
+![Rotate To Point Data-To-Save](/images/Macro_Rotate_To_Point_Data-To-Save_00.png)
 
 - Window for display the coordinates stored.
 - Clear: Delete and clean the text editor.
 - Delete: Delete the selected line in the window.
 
-* ![](/src/assets/images/CheckBoxFalse.svg) Memo on Click: If it is checked, the placement is automatically stored in the window with the "Apply" button.
+* ![](/images/CheckBoxFalse.svg) Memo on Click: If it is checked, the placement is automatically stored in the window with the "Apply" button.
 
 - Memorize: Store and display the coordinate in the window, the number of coordinate stored is displayed on this button.
 - Save: Save the data in file
 
-* ![](/src/assets/images/CheckBoxFalse.svg) Macro:
-  - Mode normal ![](/src/assets/images/CheckBoxFalse.svg) Macro the coordinate is saved in this mode : `["Body004001",(0.0,0.0,-1.5),(0.0,0.0,0.0)],`
-  - Mode macro ![](/src/assets/images/CheckBoxTrue.svg) 0,0 Coordinate the coordinate is saved (one object or many objects worked)  
+* ![](/images/CheckBoxFalse.svg) Macro:
+  - Mode normal ![](/images/CheckBoxFalse.svg) Macro the coordinate is saved in this mode : `["Body004001",(0.0,0.0,-1.5),(0.0,0.0,0.0)],`
+  - Mode macro ![](/images/CheckBoxTrue.svg) 0,0 Coordinate the coordinate is saved (one object or many objects worked)  
      in a complete macro directly in your macros directory with the same name of the document with extension .FCMacro
     - **Options of the macro**
     - **\_\_pompe\_\_\_\_engrenage\_\_** : Name of document
@@ -166,25 +166,25 @@ _Third operation_
     - **Type Key M for this message** : Display this Memo
     - For use this options click mouse in the 3D view and type the key desidered
     - \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
-  - Mode normal ![](/src/assets/images/CheckBoxFalse.svg) Memo on Click : The data is not saved on window, you must push the Memo (2) button for save the coordinate
-  - Mode Memo on Click ![](/src/assets/images/CheckBoxTrue.svg) Memo on Demand : The data is automaticly saved with all click op the Apply button
+  - Mode normal ![](/images/CheckBoxFalse.svg) Memo on Click : The data is not saved on window, you must push the Memo (2) button for save the coordinate
+  - Mode Memo on Click ![](/images/CheckBoxTrue.svg) Memo on Demand : The data is automaticly saved with all click op the Apply button
 
 - Copy: Memorize the content of the window in a Rotate_To_Point format : `["Body004001",(0.0,0.0,-1.5),(0.0,0.0,0.0)],`
 
 ### Command
 
-![Rotate To Point Command](/src/assets/images/Macro_Rotate_To_Point_Command_00.png)
+![Rotate To Point Command](/images/Macro_Rotate_To_Point_Command_00.png)
 
 - Quit: Quit the macro
 - Original: After modifying the data of the object you can return to the original placement, If you have not deselected the current object.
 - 0,0,0 : This option places the object in base coordinate `0, 0, 0`.
 - Reset: Reset the data in the macro and deselect the current object.
 
-ToolBar PNG Icon ![](/src/assets/images/Macro_Rotate_To_Point.png) and ToolBar SVG Icon ![](/src/assets/images/Macro_Rotate_To_Point.svg)
+ToolBar PNG Icon ![](/images/Macro_Rotate_To_Point.png) and ToolBar SVG Icon ![](/images/Macro_Rotate_To_Point.svg)
 
 ## Example
 
-![](/src/assets/images/Macro_Rotate_To_Point_01.gif)
+![](/images/Macro_Rotate_To_Point_01.gif)
 
 ## Links
 

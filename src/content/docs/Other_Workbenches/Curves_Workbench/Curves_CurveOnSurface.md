@@ -23,14 +23,14 @@ This documentation is not finished. Please help and contribute documentation.Gui
 
 ## Description
 
-The ![](/src/assets/images/Curves_CurveOnSurface.svg) **Curves CurveOnSurface** tool projects a curve on a face and optionally creates a normal or binormal face.
+The ![](/images/Curves_CurveOnSurface.svg) **Curves CurveOnSurface** tool projects a curve on a face and optionally creates a normal or binormal face.
 
 ## Usage
 
 1. Select a curve and a support face.
 2. There are several ways to invoke the tool:
-   - Press the ![](/src/assets/images/Curves_CurveOnSurface.svg) [CurveOnSurface](/Curves_CurveOnSurface "Curves CurveOnSurface") button.
-   - Select the **Curves → ![](/src/assets/images/Curves_CurveOnSurface.svg) CurveOnSurface** option from the menu.
+   - Press the ![](/images/Curves_CurveOnSurface.svg) [CurveOnSurface](/Curves_CurveOnSurface "Curves CurveOnSurface") button.
+   - Select the **Curves → ![](/images/Curves_CurveOnSurface.svg) CurveOnSurface** option from the menu.
 3. A **CurveOnSurface** object is created.
 4. Optionally edit the values in the [Property editor](/Property_editor "Property editor") to add a normal or binormal face and adjust the related properties (see Properties below).
 

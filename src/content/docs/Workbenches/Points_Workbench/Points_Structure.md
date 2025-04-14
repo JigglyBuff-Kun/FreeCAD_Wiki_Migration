@@ -28,8 +28,8 @@ The command only works for point clouds whose points, when viewed from a certain
 1. The command assumes that the view direction of the point cloud is parallel to the Z axis of the global coordinate system. If this is not the case: adjust the point cloud object's Data**Placement** accordingly.
 2. Select the point cloud object.
 3. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/Points_Structure.svg) [Structured point cloud](/Points_Structure "Points Structure") button.
-   - Select the **Points → ![](/src/assets/images/Points_Structure.svg) Structured point cloud** option from the menu.
+   - Press the ![](/images/Points_Structure.svg) [Structured point cloud](/Points_Structure "Points Structure") button.
+   - Select the **Points → ![](/images/Points_Structure.svg) Structured point cloud** option from the menu.
 
 ## Properties
 

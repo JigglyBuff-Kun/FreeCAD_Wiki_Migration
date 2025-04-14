@@ -21,11 +21,11 @@ title: PartDesign AdditiveSphere
 
 Inserts a primitive sphere in the active Body as the first feature, or fuses it to the existing feature(s).
 
-![](/src/assets/images/PartDesign_AdditiveSphere_example.png)
+![](/images/PartDesign_AdditiveSphere_example.png)
 
 ## Usage
 
-1. Press the ![](/src/assets/images/PartDesign_AdditiveSphere.svg) **Additive Sphere** button. **Note**: the Additive Sphere is part of an icon menu labelled _Create an additive primitive_. After launching FreeCAD, the Additive Box is the one displayed in the toolbar. To get the Sphere, click on the down arrow besides the visible icon and select Additive Sphere in the menu.
+1. Press the ![](/images/PartDesign_AdditiveSphere.svg) **Additive Sphere** button. **Note**: the Additive Sphere is part of an icon menu labelled _Create an additive primitive_. After launching FreeCAD, the Additive Box is the one displayed in the toolbar. To get the Sphere, click on the down arrow besides the visible icon and select Additive Sphere in the menu.
 2. Set the Primitive parameters and [Attachment](/Part_EditAttachment "Part EditAttachment").
 3. Click OK.
 4. A Sphere feature appears under the active Body.

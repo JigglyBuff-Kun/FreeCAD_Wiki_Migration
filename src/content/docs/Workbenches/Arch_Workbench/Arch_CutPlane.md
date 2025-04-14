@@ -25,7 +25,7 @@ THIS COMMAND IS PART OF THE INTEGRATEDBIM WORKBENCHIN V1.0This page has been upd
 
 The **Arch CutPlane** tool cuts a solid Arch object like an [Arch Wall](/Arch_Wall "Arch Wall") or [Arch Structure](/Arch_Structure "Arch Structure") with a planar face.
 
-![](/src/assets/images/Arch_CutPlane_example.jpg)
+![](/images/Arch_CutPlane_example.jpg)
 
 Left: Before applying the CutPlane tool. Middle: resulting wall after the cut is done. Right: yet another optional result
 
@@ -41,8 +41,8 @@ Left: Before applying the CutPlane tool. Middle: resulting wall after the cut is
    - Select an object with a single straight edge. [introduced in 1.0](/Release_notes_1.0 "Release notes 1.0")
    - Select a straight edge in the [3D view](/3D_view "3D view"). [introduced in 1.0](/Release_notes_1.0 "Release notes 1.0")
 4. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/Arch_CutPlane.svg) [Cut with plane](/Arch_CutPlane "Arch CutPlane") button.
-   - Select the **Modify → ![](/src/assets/images/Arch_CutPlane.svg) Cut with plane** option from the menu.
+   - Press the ![](/images/Arch_CutPlane.svg) [Cut with plane](/Arch_CutPlane "Arch CutPlane") button.
+   - Select the **Modify → ![](/images/Arch_CutPlane.svg) Cut with plane** option from the menu.
 5. Choose **Behind** or **Front** to indicate on which side of the cutting face material should be removed.
 6. Press the OK button.
 

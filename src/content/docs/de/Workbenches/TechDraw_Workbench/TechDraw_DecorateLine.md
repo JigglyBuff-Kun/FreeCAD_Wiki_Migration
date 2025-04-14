@@ -21,11 +21,11 @@ title: TechDraw LiniendarstellungÄndern
 
 Das Werkzeug **TechDraw LiniendarstellungÄndern** ändert die Darstellung von Kanten, inklusive der Hilfslinien und Mittellinien. Es kann auch Kanten ausblenden.
 
-![](/src/assets/images/TechDrawLineDecorSampleBefore.png)
+![](/images/TechDrawLineDecorSampleBefore.png)
 
 Beispielkanten vor der Änderung
 
-![](/src/assets/images/TechDrawLineDecorSampleAfter.png)
+![](/images/TechDrawLineDecorSampleAfter.png)
 
 Beispielkanten nach der Änderung
 
@@ -33,8 +33,8 @@ Beispielkanten nach der Änderung
 
 1. Eine Ansicht auswählen oder eine oder mehrere Kanten in einer Ansicht auswählen.
 2. Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
-   - Die Schaltfläche ![](/src/assets/images/TechDraw_DecorateLine.svg) Liniendarstellung ändern drücken.
-   - Den Menüeintrag **TechDraw → Linien hinzufügen → ![](/src/assets/images/TechDraw_DecorateLine.svg) Liniendarstellung ändern** auswählen.
+   - Die Schaltfläche ![](/images/TechDraw_DecorateLine.svg) Liniendarstellung ändern drücken.
+   - Den Menüeintrag **TechDraw → Linien hinzufügen → ![](/images/TechDraw_DecorateLine.svg) Liniendarstellung ändern** auswählen.
    - [eingeführt in 1.0](/Release_notes_1.0/de "Release notes 1.0/de"): Ein Doppelklick auf eine Linie innerhalb einer Ansicht.
 3. Der Aufgaben-Bereich wird geöffnet.
 4. Wurden Kanten ausgewählt, können wahlweise im Abschnitt **Liniendarstellung** ihre **Farbe**, **Stil**, (Strich-)**Stärke** und/oder **Sichtbar**(keit) angepasst werden.

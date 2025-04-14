@@ -33,19 +33,19 @@ For more general information see [Interface Customization](/Interface_Customizat
 
 - Click **Main Menu → Tools → Customize**,
 
-![Customize](/src/assets/images/CustomizeToolBar_01.png)
+![Customize](/images/CustomizeToolBar_01.png)
 
 Customize
 
 - or right click on any toolbar.
 
-![Right mouse click](/src/assets/images/CustomizeToolBar_02.png)
+![Right mouse click](/images/CustomizeToolBar_02.png)
 
 Right mouse click
 
 - The Customize window appears.
 
-![The Customize window appears](/src/assets/images/CustomizeToolBar_03.png)
+![The Customize window appears](/images/CustomizeToolBar_03.png)
 
 The Customize window appears
 
@@ -55,7 +55,7 @@ The Customize window appears
 
 - To add an icon for the provided macro click the Pixmap button (labelled ... ).
 
-![Select a toolbar](/src/assets/images/CustomizeToolBar_04.png)
+![Select a toolbar](/images/CustomizeToolBar_04.png)
 
 Select a toolbar
 
@@ -63,25 +63,25 @@ Select a toolbar
 
 [or add your own icon by clicking Add icons...].                  (expand for an example)
 
-![Add icon](/src/assets/images/CustomizeToolBar_05.png)
+![Add icon](/images/CustomizeToolBar_05.png)
 
 Add icon
 
 [You will get a file selection window, select your custom image file (PNG format, 64x64 pixels)]
 
-![Get a file](/src/assets/images/CustomizeToolBar_06.png)
+![Get a file](/images/CustomizeToolBar_06.png)
 
 Get a file
 
 - Select your icon and click OK.
 
-![Select your icon](/src/assets/images/CustomizeToolBar_07.png)
+![Select your icon](/images/CustomizeToolBar_07.png)
 
 Select your icon
 
 - The icon you selected is now displayed next to the Pixmap button labelled ....
 
-![Your icon is displayed](/src/assets/images/CustomizeToolBar_08.png)
+![Your icon is displayed](/images/CustomizeToolBar_08.png)
 
 Your icon is displayed
 
@@ -89,13 +89,13 @@ Your icon is displayed
 
 - Click the button Add.
 
-![Click the button](/src/assets/images/CustomizeToolBar_09.png)
+![Click the button](/images/CustomizeToolBar_09.png)
 
 Click the button
 
 - The button of the macro-tool is now created.
 
-![Your button is created](/src/assets/images/CustomizeToolBar_10.png)
+![Your button is created](/images/CustomizeToolBar_10.png)
 
 Your button is created
 
@@ -103,33 +103,33 @@ Your button is created
 
 - Select the **Toolbars** tab and choose the workbench (for which the toolbar is provided) in the drop down on the right (**Part** in this example).
 
-[Since version 0.15 there is a  ![](/src/assets/images/Freecad.svg) Global  toolbar. If this is selected, the provided toolbar will be in each workbench.]
+[Since version 0.15 there is a  ![](/images/Freecad.svg) Global  toolbar. If this is selected, the provided toolbar will be in each workbench.]
 
-![Toolbars tab](/src/assets/images/CustomizeToolBar_11.png)
+![Toolbars tab](/images/CustomizeToolBar_11.png)
 
 Toolbars tab
 
 - In the dropdown on the left select **Macros**.
 
-![Macros](/src/assets/images/CustomizeToolBar_12.png)
+![Macros](/images/CustomizeToolBar_12.png)
 
 Macros
 
 - The macro-tool with its icon appears in the list.
 
-![Your icon is listed](/src/assets/images/CustomizeToolBar_13.png)
+![Your icon is listed](/images/CustomizeToolBar_13.png)
 
 Your icon is listed
 
 - Click the button New...
 
-![Click on "New"](/src/assets/images/CustomizeToolBar_14.png)
+![Click on "New"](/images/CustomizeToolBar_14.png)
 
 Click on "New"
 
 - In the window "New Toolbar" enter the name of the provided extra toolbar for the **Part** Workbench and click OK
 
-![Enter the name for your toolbar](/src/assets/images/CustomizeToolBar_15.png)
+![Enter the name for your toolbar](/images/CustomizeToolBar_15.png)
 
 Enter the name for your toolbar
 
@@ -137,7 +137,7 @@ Enter the name for your toolbar
 
 - To add the created macro-tool to this toolbar, select it in the left window and then click the Button with the arrow pointing right.
 
-![Select your macro](/src/assets/images/CustomizeToolBar_16.png)
+![Select your macro](/images/CustomizeToolBar_16.png)
 
 Select your macro
 
@@ -145,13 +145,13 @@ Select your macro
 
 - Click the Close button.
 
-![Close](/src/assets/images/CustomizeToolBar_17.png)
+![Close](/images/CustomizeToolBar_17.png)
 
 Close
 
 - Your new toolbar is now contained in the toolbars' right-click menu. Its Icons (in our example only the camera) are visible, if the toolbar is activated (blue checkmark).
 
-![New Toolbar](/src/assets/images/CustomizeToolBar_18.png)
+![New Toolbar](/images/CustomizeToolBar_18.png)
 
 New Toolbar
 

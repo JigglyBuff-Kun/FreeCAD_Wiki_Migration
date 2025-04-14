@@ -21,13 +21,13 @@ title: Std TextureMapping
 
 The **Std TextureMapping** command temporarily maps a texture onto all objects in a [3D view](/3D_view "3D view").
 
-![](/src/assets/images/Std_TextureMapping_example.png)
+![](/images/Std_TextureMapping_example.png)
 
 Two objects mapped with a 120 by 120 pixel image of a checker pattern
 
 ## Usage
 
-1. Select the **View → ![](/src/assets/images/Std_TextureMapping.svg) Texture Mapping...** option from the menu.
+1. Select the **View → ![](/images/Std_TextureMapping.svg) Texture Mapping...** option from the menu.
 2. The **Texture** task panel opens.
 3. Optionally check the **Environment** checkbox.
 4. Press the ... button.

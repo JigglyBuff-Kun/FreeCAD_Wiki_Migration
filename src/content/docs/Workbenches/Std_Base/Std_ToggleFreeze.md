@@ -24,7 +24,7 @@ The **Std ToggleFreeze** command toggles the freeze state of objects. A frozen o
 ## Usage
 
 1. Select one or more objects.
-2. Select the **![](/src/assets/images/Std_ToggleFreeze.svg) Toggle freeze** option from the [Tree view](/Tree_view "Tree view") context menu.
+2. Select the **![](/images/Std_ToggleFreeze.svg) Toggle freeze** option from the [Tree view](/Tree_view "Tree view") context menu.
 3. Frozen objects are marked with the command icon in the Tree view.
 4. If objects have been thawed: optionally [recompute](/Std_Refresh "Std Refresh") the document.
 

@@ -32,7 +32,7 @@ The operation is extended to all profiles, to yield the equal number of segments
 
 ### Step 2. Establishing correspondence between segments
 
-![](/src/assets/images/Loft_Number_of_verts_match.png)
+![](/images/Loft_Number_of_verts_match.png)
 
 Demonstration of Loft keeping the number of segments in profiles when they match. Note how 3 edges of the top square "collapse" into a small polygonal piece of the bottom profile.
 
@@ -47,7 +47,7 @@ Another thing to note is that when numbers of segments in profiles are equal, th
 
 ### Step 3. Making the loft surface
 
-![](/src/assets/images/Loft_B-spline.png)
+![](/images/Loft_B-spline.png)
 
 A spline interpolation curve (red) that follows the loft surface. The points to interpolate through are shown as red squares.
 

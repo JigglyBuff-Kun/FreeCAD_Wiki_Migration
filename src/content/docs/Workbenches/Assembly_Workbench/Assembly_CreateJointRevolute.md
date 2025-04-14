@@ -23,14 +23,14 @@ This documentation is not finished. Please help and contribute documentation.Gui
 
 ## Description
 
-The ![](/src/assets/images/Assembly_CreateJointRevolute.svg) [Assembly CreateJointRevolute](/Assembly_CreateJointRevolute "Assembly CreateJointRevolute") tool creates a Revolute joint (also known as a hinged joint, or hinge in short) allowing rotation around a single axis between two selected parts.
+The ![](/images/Assembly_CreateJointRevolute.svg) [Assembly CreateJointRevolute](/Assembly_CreateJointRevolute "Assembly CreateJointRevolute") tool creates a Revolute joint (also known as a hinged joint, or hinge in short) allowing rotation around a single axis between two selected parts.
 
 ## Usage
 
 1. Optionally select two geometric entities of two different shapes. Other selections will be rejected.
 2. There are several ways to invoke the tool:
-   - Press the ![](/src/assets/images/Assembly_CreateJointRevolute.svg) [Create Revolute Joint](/Assembly_CreateJointRevolute "Assembly CreateJointRevolute") button.
-   - Select the **Assembly → ![](/src/assets/images/Assembly_CreateJointRevolute.svg) Create Revolute Joint** option from the menu.
+   - Press the ![](/images/Assembly_CreateJointRevolute.svg) [Create Revolute Joint](/Assembly_CreateJointRevolute "Assembly CreateJointRevolute") button.
+   - Select the **Assembly → ![](/images/Assembly_CreateJointRevolute.svg) Create Revolute Joint** option from the menu.
    - Use the keyboard shortcut: R.
 3. The **Create Joint** dialog opens in the [Task panel](/Task_panel "Task panel") listing the pre-selected entities.
 4. For further steps see [Assembly CreateJointFixed](/Assembly_CreateJointFixed#Usage "Assembly CreateJointFixed").

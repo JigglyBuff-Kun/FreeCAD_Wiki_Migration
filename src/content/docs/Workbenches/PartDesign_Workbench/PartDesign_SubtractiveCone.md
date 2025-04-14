@@ -21,13 +21,13 @@ title: PartDesign SubtractiveCone
 
 Inserts a subtractive cone in the active Body. Its shape is subtracted from the existing solid.
 
-![](/src/assets/images/PartDesign_SubtractiveCone_example.png)
+![](/images/PartDesign_SubtractiveCone_example.png)
 
 _On the left: active body (A) shown in grey and subtractive cone (B) shown in transparent red; result on the right._
 
 ## Usage
 
-1. Press the ![](/src/assets/images/PartDesign_SubtractiveCone.svg) **Subtractive Cone** button. **Note**: the Subtractive Cone is part of an icon menu labelled _Create a subtractive primitive_. After launching FreeCAD, the Subtractive Box is the one displayed in the toolbar. To get to the Cone button, click on the down arrow besides the visible icon and select Subtractive Cone in the menu.
+1. Press the ![](/images/PartDesign_SubtractiveCone.svg) **Subtractive Cone** button. **Note**: the Subtractive Cone is part of an icon menu labelled _Create a subtractive primitive_. After launching FreeCAD, the Subtractive Box is the one displayed in the toolbar. To get to the Cone button, click on the down arrow besides the visible icon and select Subtractive Cone in the menu.
 2. Set the Primitive parameters (for a complete cone, set one of the radii to zero) and the [Attachment](/Part_EditAttachment "Part EditAttachment").
 3. Click OK.
 4. A Cone feature appears under the active Body.

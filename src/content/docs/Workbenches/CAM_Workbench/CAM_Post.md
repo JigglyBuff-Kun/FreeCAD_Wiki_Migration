@@ -19,7 +19,7 @@ title: CAM Post
 
 ## Description
 
-The tool ![](/src/assets/images/CAM_Post.svg) [Post](/CAM_Post "CAM Post") exports the selected ![](/src/assets/images/CAM_Job.svg) [CAM Job](/CAM_Job "CAM Job") to a G-code file.
+The tool ![](/images/CAM_Post.svg) [Post](/CAM_Post "CAM Post") exports the selected ![](/images/CAM_Job.svg) [CAM Job](/CAM_Job "CAM Job") to a G-code file.
 
 **Each CNC Controller speaks a specific G-code dialect, requiring a Dialect-correct Postprocessor to translate the final output from the agnostic internal FreeCAD G-code dialect.**
 
@@ -67,10 +67,10 @@ If only one CNC machine is used, or if all CNC machines share a common Postproce
 
 ## Usage
 
-1. Select a ![](/src/assets/images/CAM_Job.svg) [CAM Job](/CAM_Job "CAM Job") in the [Tree view](/Tree_view "Tree view").
+1. Select a ![](/images/CAM_Job.svg) [CAM Job](/CAM_Job "CAM Job") in the [Tree view](/Tree_view "Tree view").
 2. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/CAM_Post.svg) [CAM Post](/CAM_Post "CAM Post") button.
-   - Select the **CAM → ![](/src/assets/images/CAM_Post.svg) Post Process** option from the menu.
+   - Press the ![](/images/CAM_Post.svg) [CAM Post](/CAM_Post "CAM Post") button.
+   - Select the **CAM → ![](/images/CAM_Post.svg) Post Process** option from the menu.
    - Use the keyboard shortcut: P then P.
 3. Confirm the **Output File** name and directory
 

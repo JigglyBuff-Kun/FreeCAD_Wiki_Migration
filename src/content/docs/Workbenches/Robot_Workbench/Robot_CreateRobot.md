@@ -23,7 +23,7 @@ Insert a new robot (KUKA IR500) into the scene.
 
 ## Usage
 
-1. Click on ![](/src/assets/images/Robot_CreateRobot.svg) to insert a KUKA IR500 robot into the scene.
+1. Click on ![](/images/Robot_CreateRobot.svg) to insert a KUKA IR500 robot into the scene.
 2. Inserting different/more robots can be done in two ways via the
 
    - Selecting Robot → Insert Robots from the top menu.

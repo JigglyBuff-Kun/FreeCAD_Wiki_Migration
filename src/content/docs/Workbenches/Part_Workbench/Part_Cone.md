@@ -19,17 +19,17 @@ title: Part Cone
 
 ## Description
 
-The ![](/src/assets/images/Part_Cone.svg) **Part Cone** command creates a parametric cone solid. In the coordinate system defined by its Data**Placement** property, the bottom face of the cone lies on the XY plane with its center at the origin.
+The ![](/images/Part_Cone.svg) **Part Cone** command creates a parametric cone solid. In the coordinate system defined by its Data**Placement** property, the bottom face of the cone lies on the XY plane with its center at the origin.
 
 The default Part Cone is truncated. It can be turned into a full, untruncated, cone by changing its Data**Radius1** or Data**Radius2** property to zero. It can be turned into a segment of a cone by changing its Data**Angle** property.
 
-![](/src/assets/images/Part_Cone_Example.png)
+![](/images/Part_Cone_Example.png)
 
 ## Usage
 
 1. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/Part_Cone.svg) [Cone](/Part_Cone "Part Cone") button.
-   - Select the **Part → Primitives → ![](/src/assets/images/Part_Cone.svg) Cone** option from the menu.
+   - Press the ![](/images/Part_Cone.svg) [Cone](/Part_Cone "Part Cone") button.
+   - Select the **Part → Primitives → ![](/images/Part_Cone.svg) Cone** option from the menu.
 2. The cone is created.
 3. Optionally change the dimensions and Data**Placement** of the cone by doing one of the following:
    - Double-click the object in the [Tree view](/Tree_view "Tree view"):
@@ -38,11 +38,11 @@ The default Part Cone is truncated. It can be turned into a full, untruncated, c
      3. The object is dynamically updated in the [3D view](/3D_view "3D view").
      4. Press the OK button.
    - Change the properties in the [Property editor](/Property_editor "Property editor").
-   - Change the Data**Placement** with the ![](/src/assets/images/Std_TransformManip.svg) [Std TransformManip](/Std_TransformManip "Std TransformManip") command.
+   - Change the Data**Placement** with the ![](/images/Std_TransformManip.svg) [Std TransformManip](/Std_TransformManip "Std TransformManip") command.
 
 ## Example
 
-![](/src/assets/images/Part_Cone_Scripting_Example.png)
+![](/images/Part_Cone_Scripting_Example.png)
 
 Part Cone from the scripting example
 
@@ -50,7 +50,7 @@ A Part Cone object created with the [scripting example](#Scripting) below is sho
 
 ## Notes
 
-- A Part Cone can also be created with the ![](/src/assets/images/Part_Primitives.svg) [Part Primitives](/Part_Primitives "Part Primitives") command. With that command you can specify the dimensions and placement at creation time.
+- A Part Cone can also be created with the ![](/images/Part_Primitives.svg) [Part Primitives](/Part_Primitives "Part Primitives") command. With that command you can specify the dimensions and placement at creation time.
 
 ## Properties
 

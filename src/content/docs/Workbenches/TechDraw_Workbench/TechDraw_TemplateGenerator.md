@@ -685,7 +685,7 @@ And this is the svg-code coming out of this macro:
 
 And what it should look like when inserted (plus magnified title block):
 
-![](/src/assets/images/TechDraw_TemplateGenerator.png)
+![](/images/TechDraw_TemplateGenerator.png)
 
 To color the editable texts in blue is just a personal choice to easier distinguish static and editable texts on the finished drawing.
 

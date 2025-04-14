@@ -19,14 +19,14 @@ title: Sketcher SkizzeAusrichten
 
 ## Beschreibung
 
-Das Werkzeug ![](/src/assets/images/Sketcher_ReorientSketch.svg) Sketcher SkizzeAusrichten verlegt eine Skizze auf eine der Hauptebenen, wahlweise mit einem Abstand. Es kann auch zum Ablösen der Skizze eingesetzt werden.
+Das Werkzeug ![](/images/Sketcher_ReorientSketch.svg) Sketcher SkizzeAusrichten verlegt eine Skizze auf eine der Hauptebenen, wahlweise mit einem Abstand. Es kann auch zum Ablösen der Skizze eingesetzt werden.
 
 ## Anwendung
 
 1. Eine Skizze auswählen.
 2. Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
-   - Die Schaltfläche ![](/src/assets/images/Sketcher_ReorientSketch.svg) Skizze neu ausrichten... drücken (steht im Arbeitsbereich [PartDesign](/PartDesign_Workbench/de "PartDesign Workbench/de")) nicht zur Verfügung.
-   - Den Menüeintrag **Skizze → ![](/src/assets/images/Sketcher_ReorientSketch.svg) Skizze neu ausrichten...** auswählen.
+   - Die Schaltfläche ![](/images/Sketcher_ReorientSketch.svg) Skizze neu ausrichten... drücken (steht im Arbeitsbereich [PartDesign](/PartDesign_Workbench/de "PartDesign Workbench/de")) nicht zur Verfügung.
+   - Den Menüeintrag **Skizze → ![](/images/Sketcher_ReorientSketch.svg) Skizze neu ausrichten...** auswählen.
 3. Wenn die Skizze angeheftet ist:
    1. Ein Dialogfenster wird geöffnet.
    2. Die Schaltfläche Ja drücken, um die Skizze abzulösen.

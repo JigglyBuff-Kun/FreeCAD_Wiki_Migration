@@ -19,13 +19,13 @@ title: Cables CableBox
 
 ## Description
 
-The ![](/src/assets/images/Cables_CableBox.svg) [Cable Box](/Cables_CableBox "Cables CableBox") creates a parametric cable box object. It has default size upon creation, but some parameters, like **Diameter**, **Height** or **Thickness** can be changed later. The **Cable Box** belongs to the [Arch Component](/Arch_Component "Arch Component") class and inherits all of its properties. The **Cable Box** has four inlet holes equipped with support crosses. Each support cross has five vertexes which can be used as attachment supports for up to five cables entering single hole.
+The ![](/images/Cables_CableBox.svg) [Cable Box](/Cables_CableBox "Cables CableBox") creates a parametric cable box object. It has default size upon creation, but some parameters, like **Diameter**, **Height** or **Thickness** can be changed later. The **Cable Box** belongs to the [Arch Component](/Arch_Component "Arch Component") class and inherits all of its properties. The **Cable Box** has four inlet holes equipped with support crosses. Each support cross has five vertexes which can be used as attachment supports for up to five cables entering single hole.
 
 Moreover, the **Cable Box** is equipped with two adjustable helper rings. Their purpose is to offer a temporary snapping points during editing cable subwires in [Draft Edit](/Draft_Edit "Draft Edit") mode to help to give them the desired shape. When not needed anymore, the helper rings can be hidden by setting **Helper Rings Hidden** property. Temporary means that helper rings should not be used as attachment support for vertexes of subwires.
 
 **Cable Box** object can be colored by attaching desired [Material](/Arch_SetMaterial "Arch SetMaterial") to the **Material** property.
 
-![](/src/assets/images/Cables_CableBox_Example1.png)
+![](/images/Cables_CableBox_Example1.png)
 
 Example of the default Cable Box:  
 There are visible support crosses inside holes and helper rings inside a box.
@@ -34,9 +34,9 @@ There are visible support crosses inside holes and helper rings inside a box.
 
 1. Select the vertex, point on surface or object in the [3D view](/3D_view "3D view") or select nothing.
 2. Create Cable Box by one of these methods:
-   - Press the ![](/src/assets/images/Cables_CableBox.svg) [Cable Box](/Cables_CableBox "Cables CableBox") button.
-   - Select the **Cables → ![](/src/assets/images/Cables_CableBox.svg) Cable Box** option from the menu.
-   - Right-click in the [Tree view](/Tree_view "Tree view") or the [3D view](/3D_view "3D view") and select the **Cables → ![](/src/assets/images/Cables_CableBox.svg) Cable Box** option from the context menu.
+   - Press the ![](/images/Cables_CableBox.svg) [Cable Box](/Cables_CableBox "Cables CableBox") button.
+   - Select the **Cables → ![](/images/Cables_CableBox.svg) Cable Box** option from the menu.
+   - Right-click in the [Tree view](/Tree_view "Tree view") or the [3D view](/3D_view "3D view") and select the **Cables → ![](/images/Cables_CableBox.svg) Cable Box** option from the context menu.
 
 Once created the Cable Box is placed at the position of selected vertex, point or object in the 3D space (or at the point (0,0,0) if nothing was selected).
 
@@ -83,7 +83,7 @@ This workflow shows how to build a box with a cable attached and with one subwir
 
 Note: At any time during subwire editing the [Draft Edit](/Draft_Edit "Draft Edit") mode should be exited and the height or diameter of helper ring can be changed. Then again the [Draft Edit](/Draft_Edit "Draft Edit") mode can be entered and editing continued with new positions of helper rings.
 
-![](/src/assets/images/Cables_CableBox_Example2_static.png)
+![](/images/Cables_CableBox_Example2_static.png)
 
 Example of cable subwire shaped inside Cable Box.
 

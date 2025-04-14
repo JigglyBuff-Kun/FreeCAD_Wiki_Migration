@@ -4,9 +4,9 @@ title: FEM Install
 
 ## Introduction
 
-To be able to perform finite element analysis (FEA) within the ![](/src/assets/images/Workbench_FEM.svg) [FEM Workbench](/FEM_Workbench "FEM Workbench"), FreeCAD makes use of two external programs: one is used for generating the [FEM Mesh](/FEM_Mesh "FEM Mesh"), and the other for numerically solving the actual analysis. You can test if your FreeCAD installation is ready for FEA by running the [FEM CalculiX Cantilever 3D](/FEM_CalculiX_Cantilever_3D "FEM CalculiX Cantilever 3D") example which is included with every installation of FreeCAD since v0.17.
+To be able to perform finite element analysis (FEA) within the ![](/images/Workbench_FEM.svg) [FEM Workbench](/FEM_Workbench "FEM Workbench"), FreeCAD makes use of two external programs: one is used for generating the [FEM Mesh](/FEM_Mesh "FEM Mesh"), and the other for numerically solving the actual analysis. You can test if your FreeCAD installation is ready for FEA by running the [FEM CalculiX Cantilever 3D](/FEM_CalculiX_Cantilever_3D "FEM CalculiX Cantilever 3D") example which is included with every installation of FreeCAD since v0.17.
 
-![](/src/assets/images/FEM_Workbench_workflow.svg)
+![](/images/FEM_Workbench_workflow.svg)
 
 Workflow of the FEM Workbench; the workbench calls two external programs to perform meshing of a solid object, and perform the actual solution of the finite element problem
 

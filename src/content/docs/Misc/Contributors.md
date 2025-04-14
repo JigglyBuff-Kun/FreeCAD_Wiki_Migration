@@ -2,7 +2,7 @@
 title: Contributors
 ---
 
-![](/src/assets/images/FreeCAD_Users_Contributors.svg)
+![](/images/FreeCAD_Users_Contributors.svg)
 
 FreeCAD would not be what it is without the generous contributions of many people. Here's an overview of the people and companies who contributed to FreeCAD over time. For credits for the third party libraries see the [Third Party Libraries](/Third_Party_Libraries "Third Party Libraries") page.
 

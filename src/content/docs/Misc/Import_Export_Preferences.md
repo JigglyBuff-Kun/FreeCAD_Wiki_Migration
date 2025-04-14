@@ -14,7 +14,7 @@ This page has been updated for version 1.0.
 
 ### TechDraw pages
 
-The DXF and SVG preferences listed here are not used by the ![](/src/assets/images/TechDraw_ExportPageSVG.svg) [Export Page as SVG](/TechDraw_ExportPageSVG "TechDraw ExportPageSVG") and ![](/src/assets/images/TechDraw_ExportPageDXF.svg) [Export Page as DXF](/TechDraw_ExportPageDXF "TechDraw ExportPageDXF") commands of the ![](/src/assets/images/Workbench_TechDraw.svg) [TechDraw Workbench](/TechDraw_Workbench "TechDraw Workbench"), or by the [TechDraw](/TechDraw_Workbench "TechDraw Workbench") export option: **File → Export → Technical Drawing (\*.svg \*.dxf \*.pdf)**.
+The DXF and SVG preferences listed here are not used by the ![](/images/TechDraw_ExportPageSVG.svg) [Export Page as SVG](/TechDraw_ExportPageSVG "TechDraw ExportPageSVG") and ![](/images/TechDraw_ExportPageDXF.svg) [Export Page as DXF](/TechDraw_ExportPageDXF "TechDraw ExportPageDXF") commands of the ![](/images/Workbench_TechDraw.svg) [TechDraw Workbench](/TechDraw_Workbench "TechDraw Workbench"), or by the [TechDraw](/TechDraw_Workbench "TechDraw Workbench") export option: **File → Export → Technical Drawing (\*.svg \*.dxf \*.pdf)**.
 
 ### IFC files
 
@@ -35,7 +35,7 @@ See the following pages for additional information:
 
 ### DAE
 
-![](/src/assets/images/Preferences_Import-Export_Page_DAE.png)
+![](/images/Preferences_Import-Export_Page_DAE.png)
 
 The [Collada](http://en.wikipedia.org/wiki/COLLADA) DAE (Digital Asset Exchange) format is a standard file format for exchange of Mesh data. FreeCAD can import meshes from .dae files, and export [Shape](/Part_Workbench "Part Workbench")-based objects to the .dae format.
 
@@ -57,7 +57,7 @@ On this page you can specify the following:
 
 ### DWG
 
-![](/src/assets/images/Preferences_Import-Export_Page_DWG.png)
+![](/images/Preferences_Import-Export_Page_DWG.png)
 
 DWG (from drawing) is a proprietary, closed source, binary file format for storing 2D and 3D design data and metadata. FreeCAD requires external converters to process DWG files.
 
@@ -72,7 +72,7 @@ On this page you can specify the following:
 
 ### DXF
 
-![](/src/assets/images/Preferences_Import-Export_Page_DXF.png)
+![](/images/Preferences_Import-Export_Page_DXF.png)
 
 AutoCAD [DXF](/DXF "DXF") (Drawing eXchange Format) is a proprietary format to exchange CAD data between AutoCAD and other programs.
 
@@ -107,7 +107,7 @@ Note for Linux users: To handle this file format FreeCAD requires the [IfcOpenSh
 
 #### IFC import
 
-![](/src/assets/images/Preferences_Import-Export_Page_IFC_import.png)
+![](/images/Preferences_Import-Export_Page_IFC_import.png)
 
 On this page you can specify the following:
 
@@ -134,7 +134,7 @@ On this page you can specify the following:
 
 #### IFC export
 
-![](/src/assets/images/Preferences_Import-Export_Page_IFC_export.png)
+![](/images/Preferences_Import-Export_Page_IFC_export.png)
 
 On this page you can specify the following:
 
@@ -160,11 +160,11 @@ On this page you can specify the following:
 
 ### IGES
 
-![](/src/assets/images/Preferences_Import-Export_Page_IGES.png)
+![](/images/Preferences_Import-Export_Page_IGES.png)
 
 The [Initial Graphics Exchange Specification](https://en.wikipedia.org/wiki/IGES) (IGES) file format is a file format that allows the digital exchange of information among CAD systems. After publication of the [STEP](/Preferences_Editor#STEP "Preferences Editor") file format, IGES development was stopped in 1996, but it is still supported by many CAD programs. IGES files have the .iges or .igs extension.
 
-This page is only shown if the ![](/src/assets/images/Workbench_Part.svg) [Part Workbench](/Part_Workbench "Part Workbench"), ![](/src/assets/images/Workbench_PartDesign.svg) [PartDesign Workbench](/PartDesign_Workbench "PartDesign Workbench"), or ![](/src/assets/images/Workbench_OpenSCAD.svg) [OpenSCAD Workbench](/OpenSCAD_Workbench "OpenSCAD Workbench") has been loaded in the current FreeCAD session.
+This page is only shown if the ![](/images/Workbench_Part.svg) [Part Workbench](/Part_Workbench "Part Workbench"), ![](/images/Workbench_PartDesign.svg) [PartDesign Workbench](/PartDesign_Workbench "PartDesign Workbench"), or ![](/images/Workbench_OpenSCAD.svg) [OpenSCAD Workbench](/OpenSCAD_Workbench "OpenSCAD Workbench") has been loaded in the current FreeCAD session.
 
 On this page you can specify the following:
 
@@ -179,11 +179,11 @@ On this page you can specify the following:
 
 ### INP
 
-![](/src/assets/images/Preferences_Import-Export_Page_INP.png)
+![](/images/Preferences_Import-Export_Page_INP.png)
 
-INP is the input file format for the FEM software [Abaqus](https://en.wikipedia.org/wiki/Abaqus). It is used for the [CalculiX](/FEM_CalculiX "FEM CalculiX") solver in the ![](/src/assets/images/Workbench_FEM.svg) [FEM Workbench](/FEM_Workbench "FEM Workbench").
+INP is the input file format for the FEM software [Abaqus](https://en.wikipedia.org/wiki/Abaqus). It is used for the [CalculiX](/FEM_CalculiX "FEM CalculiX") solver in the ![](/images/Workbench_FEM.svg) [FEM Workbench](/FEM_Workbench "FEM Workbench").
 
-This page is only shown if the ![](/src/assets/images/Workbench_FEM.svg) [FEM Workbench](/FEM_Workbench "FEM Workbench") has been loaded in the current FreeCAD session.
+This page is only shown if the ![](/images/Workbench_FEM.svg) [FEM Workbench](/FEM_Workbench "FEM Workbench") has been loaded in the current FreeCAD session.
 
 On this page you can specify the following:
 
@@ -194,11 +194,11 @@ On this page you can specify the following:
 
 ### Mesh Formats
 
-![](/src/assets/images/Preferences_Import-Export_Page_Mesh_Formats.png)
+![](/images/Preferences_Import-Export_Page_Mesh_Formats.png)
 
-Meshes are a special type of 3D object, composed of triangular faces connected by their [vertices](/Glossary#Vertex "Glossary") and edges. They are widely used for [additive manufacturing](https://en.wikipedia.org/wiki/3D_printing). FreeCAD provides the ![](/src/assets/images/Workbench_Mesh.svg) [Mesh Workbench](/Mesh_Workbench "Mesh Workbench") to create and handle meshes. FreeCAD supports several mesh file formats.
+Meshes are a special type of 3D object, composed of triangular faces connected by their [vertices](/Glossary#Vertex "Glossary") and edges. They are widely used for [additive manufacturing](https://en.wikipedia.org/wiki/3D_printing). FreeCAD provides the ![](/images/Workbench_Mesh.svg) [Mesh Workbench](/Mesh_Workbench "Mesh Workbench") to create and handle meshes. FreeCAD supports several mesh file formats.
 
-This page is only shown if the ![](/src/assets/images/Workbench_Mesh.svg) [Mesh Workbench](/Mesh_Workbench "Mesh Workbench") has been loaded in the current FreeCAD session.
+This page is only shown if the ![](/images/Workbench_Mesh.svg) [Mesh Workbench](/Mesh_Workbench "Mesh Workbench") has been loaded in the current FreeCAD session.
 
 On this page you can specify the following:
 
@@ -212,7 +212,7 @@ On this page you can specify the following:
 
 ### OCA
 
-![](/src/assets/images/Preferences_Import-Export_Page_OCA.png)
+![](/images/Preferences_Import-Export_Page_OCA.png)
 
 The [OCA](https://groups.google.com/g/open_cad_format) file format is a community project to create a free, simple and open CAD file format.
 OCA is largely based on the GCAD file format generated by [gCAD3D](http://www.gcad3d.org/). Both formats can be imported in FreeCAD and the OCA files exported by FreeCAD can be opened in gCAD3D.
@@ -225,11 +225,11 @@ On this page you can specify the following:
 
 ### STEP
 
-![](/src/assets/images/Preferences_Import-Export_Page_STEP.png)
+![](/images/Preferences_Import-Export_Page_STEP.png)
 
 The [Standard for The Exchange of Product model data](https://en.wikipedia.org/wiki/ISO_10303) (STEP) file format is an ISO standard for the computer-interpretable representation and exchange of product manufacturing information. STEP is commonly used to exchange 3D data between CAD software. STEP files have the .step or .stp extension. For compressed files the .stpz extension is used.
 
-This page is only shown if the ![](/src/assets/images/Workbench_Part.svg) [Part Workbench](/Part_Workbench "Part Workbench"), ![](/src/assets/images/Workbench_PartDesign.svg) [PartDesign Workbench](/PartDesign_Workbench "PartDesign Workbench"), or ![](/src/assets/images/Workbench_OpenSCAD.svg) [OpenSCAD Workbench](/OpenSCAD_Workbench "OpenSCAD Workbench") has been loaded in the current FreeCAD session.
+This page is only shown if the ![](/images/Workbench_Part.svg) [Part Workbench](/Part_Workbench "Part Workbench"), ![](/images/Workbench_PartDesign.svg) [PartDesign Workbench](/PartDesign_Workbench "PartDesign Workbench"), or ![](/images/Workbench_OpenSCAD.svg) [OpenSCAD Workbench](/OpenSCAD_Workbench "OpenSCAD Workbench") has been loaded in the current FreeCAD session.
 
 On this page you can specify the following:
 
@@ -256,7 +256,7 @@ On this page you can specify the following:
 
 ### SVG
 
-![](/src/assets/images/Preferences_Import-Export_Page_SVG.png)
+![](/images/Preferences_Import-Export_Page_SVG.png)
 
 [Scalable Vector Graphics](/SVG "SVG") (SVG) is a [vector image](https://en.wikipedia.org/wiki/Vector_graphics) format for two-dimensional graphics. A vector image can be scaled to any size without losing its shape or details. An SVG image can be converted to bitmap formats like PNG or JPEG for printing.
 
@@ -272,11 +272,11 @@ On this page you can specify the following:
 
 ### VTK
 
-![](/src/assets/images/Preferences_Import-Export_Page_VTK.png)
+![](/images/Preferences_Import-Export_Page_VTK.png)
 
-The [Visualization Toolkit](https://en.wikipedia.org/wiki/VTK) (VTK) is an open-source, freely available software system for 3D computer graphics, image processing and visualization. VTK files are used by the ![](/src/assets/images/Workbench_FEM.svg) [FEM Workbench](/FEM_Workbench "FEM Workbench") for the [post processing](/FEM_Post_Processing_based_on_VTK "FEM Post Processing based on VTK") of simulation results.
+The [Visualization Toolkit](https://en.wikipedia.org/wiki/VTK) (VTK) is an open-source, freely available software system for 3D computer graphics, image processing and visualization. VTK files are used by the ![](/images/Workbench_FEM.svg) [FEM Workbench](/FEM_Workbench "FEM Workbench") for the [post processing](/FEM_Post_Processing_based_on_VTK "FEM Post Processing based on VTK") of simulation results.
 
-This page is only shown if the ![](/src/assets/images/Workbench_FEM.svg) [FEM Workbench](/FEM_Workbench "FEM Workbench") has been loaded in the current FreeCAD session.
+This page is only shown if the ![](/images/Workbench_FEM.svg) [FEM Workbench](/FEM_Workbench "FEM Workbench") has been loaded in the current FreeCAD session.
 
 On this page you can specify the following:
 

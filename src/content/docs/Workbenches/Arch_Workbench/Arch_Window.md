@@ -31,7 +31,7 @@ The Window tool features several [presets](#Presets). These allow the user to cr
 
 All information applicable to an Arch Window also applies to an [Arch Door](/Arch_Door "Arch Door"), as it's the same underlying object.
 
-![](/src/assets/images/Arch_Window_example2.jpg)
+![](/images/Arch_Window_example2.jpg)
 
 Complex window being constructed on top of a [Sketch](/Sketcher_Workbench "Sketcher Workbench"). When entering the window's edit mode you can create different components, set their thickness, and select and assign wires from the sketch to them.
 
@@ -40,8 +40,8 @@ Complex window being constructed on top of a [Sketch](/Sketcher_Workbench "Sketc
 ### Using a preset
 
 1. There are several ways to invoke the tool:
-   - Press the ![](/src/assets/images/Arch_Window.svg) [Window](/Arch_Window "Arch Window") button.
-   - Select the **3D/BIM → ![](/src/assets/images/Arch_Window.svg) Window** option from the menu.
+   - Press the ![](/images/Arch_Window.svg) [Window](/Arch_Window "Arch Window") button.
+   - Select the **3D/BIM → ![](/images/Arch_Window.svg) Window** option from the menu.
    - Use the keyboard shortcut: W then I.
 2. Select one of the presets in the list.
 3. Fill out the desired parameters.
@@ -86,43 +86,43 @@ Custom presets will be available in the window tool's presets dropdown menu. Pre
 
 The following presets are available:
 
-- ![Fixed](/src/assets/images/ParametersWindowFixed.svg)
+- ![Fixed](/images/ParametersWindowFixed.svg)
 
   Fixed
 
-- ![Open 1-pane](/src/assets/images/ParametersWindowSimple.svg)
+- ![Open 1-pane](/images/ParametersWindowSimple.svg)
 
   Open 1-pane
 
-- ![Open 2-pane](/src/assets/images/ParametersWindowDouble.svg)
+- ![Open 2-pane](/images/ParametersWindowDouble.svg)
 
   Open 2-pane
 
-- ![Sash 2-pane](/src/assets/images/ParametersWindowStash.svg)
+- ![Sash 2-pane](/images/ParametersWindowStash.svg)
 
   Sash 2-pane
 
-- ![Sliding 2-pane](/src/assets/images/ParametersWindowDouble.svg)
+- ![Sliding 2-pane](/images/ParametersWindowDouble.svg)
 
   Sliding 2-pane
 
-- ![Simple door](/src/assets/images/ParametersDoorSimple.svg)
+- ![Simple door](/images/ParametersDoorSimple.svg)
 
   Simple door
 
-- ![Glass door](/src/assets/images/ParametersDoorGlass.svg)
+- ![Glass door](/images/ParametersDoorGlass.svg)
 
   Glass door
 
-- ![Sliding 4-pane](/src/assets/images/ParametersWindowDouble.svg)
+- ![Sliding 4-pane](/images/ParametersWindowDouble.svg)
 
   Sliding 4-pane
 
-- ![Awning](/src/assets/images/ParametersWindowSimple.svg)
+- ![Awning](/images/ParametersWindowSimple.svg)
 
   Awning
 
-- ![Opening only introduced in 1.0](/src/assets/images/ParametersOpening.svg)
+- ![Opening only introduced in 1.0](/images/ParametersOpening.svg)
 
   Opening only [introduced in 1.0](/Release_notes_1.0 "Release notes 1.0")
 
@@ -138,13 +138,13 @@ Windows can include 4 types of components: frames, solid panels, glass panels an
 - **Hinge**: This allows you to select an edge from the base 2D object, then set that edge as a hinge for this component and the next ones in the list
 - **Opening mode**: If you defined a hinge in this component or any other earlier in the list, setting the opening mode will allow the window to appear open or to display 2D opening symbols in plan or elevation.
 
-![](/src/assets/images/Arch_Window_options.jpg)
+![](/images/Arch_Window_options.jpg)
 
 ## Options
 
 - If the **Auto include in host object** checkbox on the Window creation task panel is unchecked, the window won't be inserted into any host object on creation.
-- Add a selected window to a [wall](/Arch_Wall "Arch Wall") by selecting both, then pressing the ![](/src/assets/images/Arch_Add.svg) [Add](/Arch_Add "Arch Add") button.
-- Remove a selected window from a [wall](/Arch_Wall "Arch Wall") by selecting the window, then pressing the ![](/src/assets/images/Arch_Remove.svg) [Remove](/Arch_Remove "Arch Remove") button.
+- Add a selected window to a [wall](/Arch_Wall "Arch Wall") by selecting both, then pressing the ![](/images/Arch_Add.svg) [Add](/Arch_Add "Arch Add") button.
+- Remove a selected window from a [wall](/Arch_Wall "Arch Wall") by selecting the window, then pressing the ![](/images/Arch_Remove.svg) [Remove](/Arch_Remove "Arch Remove") button.
 - When using presets, it is often convenient to turn the "Near" [Draft Snap](/Draft_Snap "Draft Snap") on, so you can snap your window to an existing face.
 - The hole created by a window in its host object is determined by two properties: Data**Hole Depth** and Data**Hole Wire** ([introduced in 0.17](/Release_notes_0.17 "Release notes 0.17")). The Hole Wire number can be picked in the 3D view from the window's task panel available when double-clicking the window in the tree view
 - Windows can make use of [Multi-Materials](/Arch_MultiMaterial "Arch MultiMaterial"). The window will search in the attached Multi-Material for material layers with a same name for each of its window component, and use it if any is found. For example, a component named "OuterFrame" will search in the attached Multi-Material, for a material layer named "OuterFrame". If such material layer is found, its material will be attributed to the OuterFrame component. The thickness value of the material layer is disregarded.
@@ -155,7 +155,7 @@ _See also:_ [Tutorial for open windows](/Tutorial_for_open_windows "Tutorial for
 
 Doors and windows can appear partially or fully open in the 3D model, or can display opening symbols both in plan and/or elevation. Consequently, these will also appear in extracted 2D views generated by [Draft Shape2DView](/Draft_Shape2DView "Draft Shape2DView") or [TechDraw Workbench](/TechDraw_Workbench "TechDraw Workbench"). To obtain this, at least one of the window components must have a hinge and an opening mode defined (see the [Building components](#Building_components) above). Then, using the Data**Opening**, Data**Symbol Plan** or Data**Symbol Elevation** properties, you can configure the appearance of the window:
 
-![](/src/assets/images/Arch_window_openings.png)
+![](/images/Arch_window_openings.png)
 
 A door showing the symbol plan, symbol elevation and opening properties at work
 
@@ -163,7 +163,7 @@ A door showing the symbol plan, symbol elevation and opening properties at work
 
 Windows can also take advantage of other tools, specifically [PartDesign](/PartDesign_Workbench "PartDesign Workbench") workflows, to define a type. A type is an object that defines the shape of the window. This is specially well suited to work with [App Parts](/App_Part "App Part"):
 
-![](/src/assets/images/Arch_window_type_example.png)
+![](/images/Arch_window_type_example.png)
 
 [Download the example file shown above](https://github.com/FreeCAD/Examples/raw/master/Arch_Example_Files/Window_Type.FCStd)
 

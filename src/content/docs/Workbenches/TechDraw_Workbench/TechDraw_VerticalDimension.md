@@ -23,7 +23,7 @@ The **TechDraw VerticalDimension** tool adds a vertical dimension to a View. The
 
 For more information see [TechDraw LengthDimension](/TechDraw_LengthDimension "TechDraw LengthDimension").
 
-![](/src/assets/images/TechDraw_Dimension_Vertical_example.png)
+![](/images/TechDraw_Dimension_Vertical_example.png)
 
 Vertical dimension taken from two points
 

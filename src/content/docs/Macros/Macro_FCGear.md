@@ -34,7 +34,7 @@ This Macro has been converted in to a workbench calledFCGear Workbench. Please u
 
 Additional Workbench to create different types of gears, involute gear, involute rack, cycloide gear, bevel gear.
 
-![](/src/assets/images/FCGear_00.png)
+![](/images/FCGear_00.png)
 
 FCGear
 
@@ -57,11 +57,11 @@ Note:
 - click on gear symbol
 - change parameters
 
-![Involutegear](/src/assets/images/Involutegear.png)![FCGear_involutegear_par](/src/assets/images/FCGear_involutegear_par.png)
-![Involuterack.](/src/assets/images/Involuterack.png)![FCGear_involuterack_par](/src/assets/images/FCGear_involuterack_par.png)
+![Involutegear](/images/Involutegear.png)![FCGear_involutegear_par](/images/FCGear_involutegear_par.png)
+![Involuterack.](/images/Involuterack.png)![FCGear_involuterack_par](/images/FCGear_involuterack_par.png)
 
-![Cycloidegear](/src/assets/images/Cycloidegear.png)![FCGear_cycloide_par](/src/assets/images/FCGear_cycloide_par.png)
-![Bevelgear](/src/assets/images/Bevelgear.png)![FCGear_bevel_par](/src/assets/images/FCGear_bevel_par.png)
+![Cycloidegear](/images/Cycloidegear.png)![FCGear_cycloide_par](/images/FCGear_cycloide_par.png)
+![Bevelgear](/images/Bevelgear.png)![FCGear_bevel_par](/images/FCGear_bevel_par.png)
 
 ## Links
 

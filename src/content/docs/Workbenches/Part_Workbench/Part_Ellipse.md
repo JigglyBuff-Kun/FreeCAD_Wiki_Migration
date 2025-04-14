@@ -19,11 +19,11 @@ title: Part Ellipse
 
 ## Description
 
-A ![](/src/assets/images/Part_Ellipse.svg) **Part Ellipse** is a parametric shape that can be created with the ![](/src/assets/images/Part_Primitives.svg) [Part Primitives](/Part_Primitives "Part Primitives") command. In the coordinate system defined by its Data**Placement** property, the ellipse lies on the XY plane with its center at the origin. Its mayor axis is parallel to the X axis.
+A ![](/images/Part_Ellipse.svg) **Part Ellipse** is a parametric shape that can be created with the ![](/images/Part_Primitives.svg) [Part Primitives](/Part_Primitives "Part Primitives") command. In the coordinate system defined by its Data**Placement** property, the ellipse lies on the XY plane with its center at the origin. Its mayor axis is parallel to the X axis.
 
 A Part Ellipse is in fact a closed counterclockwise elliptical arc, it can be turned into an arc by changing its Data**Angle1** and/or Data**Angle2** properties.
 
-![](/src/assets/images/Part_Ellipse_Example.png)
+![](/images/Part_Ellipse_Example.png)
 
 ## Usage
 
@@ -31,7 +31,7 @@ See [Part Primitives](/Part_Primitives#Usage "Part Primitives").
 
 ## Example
 
-![](/src/assets/images/Part_Ellipse_Scripting_Example.png)
+![](/images/Part_Ellipse_Scripting_Example.png)
 
 Part Ellipse from the scripting example
 

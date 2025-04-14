@@ -19,15 +19,15 @@ title: Sketcher BrechungNachSnelliusFestlegen
 
 ## Beschreibung
 
-Das Werkzeug ![](/src/assets/images/Sketcher_ConstrainSnellsLaw.svg) Sketcher ConstrainSnellsLaw Legt zwei Linien so fest, dass sie der Lichtbrechung entsprechen, die beim Passieren einer Grenzfläche auftritt, an der zwei Werkstoffe mit unterschiedlichen Brechungsindizes aufeinander treffen. Siehe [Snelliussches_Brechungsgesetz](https://de.wikipedia.org/wiki/Snelliussches_Brechungsgesetz).
+Das Werkzeug ![](/images/Sketcher_ConstrainSnellsLaw.svg) Sketcher ConstrainSnellsLaw Legt zwei Linien so fest, dass sie der Lichtbrechung entsprechen, die beim Passieren einer Grenzfläche auftritt, an der zwei Werkstoffe mit unterschiedlichen Brechungsindizes aufeinander treffen. Siehe [Snelliussches_Brechungsgesetz](https://de.wikipedia.org/wiki/Snelliussches_Brechungsgesetz).
 
-![](/src/assets/images/Snells_law2_witheq.svg)
+![](/images/Snells_law2_witheq.svg)
 
 Snelliussches Gesetz
 
 ## Anwendung
 
-![](/src/assets/images/Sketcher_SnellsLaw_Example1.png)
+![](/images/Sketcher_SnellsLaw_Example1.png)
 
 Die Reihenfolge der Klicks wird durch gelbe Pfeile mit Zahlen angezeigt. n1, n2 zeigen, wo sich die Brechungsindizes befinden.
 
@@ -35,7 +35,7 @@ Die Reihenfolge der Klicks wird durch gelbe Pfeile mit Zahlen angezeigt. n1, n2 
 2. Einen Endpunkt der ersten Linie, einen Endpunkt der zweiten Linie und die Grenzschichtkante auswählen. Bei der Auswahl ist die Reihenfolge zu beachten.
 3. Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
 
-   - Den Menüeintrag **Skizze → Sketcher-Randbedingungen → ![](/src/assets/images/Sketcher_ConstrainSnellsLaw.svg) Lichtbrechung (nach Snellius-Gesetz) festlegen** auswählen.
+   - Den Menüeintrag **Skizze → Sketcher-Randbedingungen → ![](/images/Sketcher_ConstrainSnellsLaw.svg) Lichtbrechung (nach Snellius-Gesetz) festlegen** auswählen.
    - Das Tastaturkürzel K dann W.
 
 4. Der Dialog **Brechungsindex-Verhältnis** wird geöffnet.
@@ -64,9 +64,10 @@ wobei
 
 : _ `Sketch` ein Skizzenobjekt ist.
 _ `line1` und `pointpos1` zwei ganze Zahlen sind, die den Endpunkt der Linie im Medium mit dem Brechungsindex von _n1_ identifizieren. `line1` ist der Index der Linie in der Skizze (der Rückgabewert von Sketch.addGeometry), und `pointpos1` sollte 1 für den Startpunkt und 2 für den Endpunkt sein.
-* `line2` und `pointpos2` die Indizes sind, die den Endpunkt der zweiten Linie angeben (in Medium *n2*)
-* `interface` der Index der Linie ist, die die Position der Grenzfläche zwischen Medium _n1_ und Medium _n2_ darstellt.
-* `n2byn1` eine Gleitkommazahl ist, die dem Verhältnis der Brechungsindizes *n2*/*n1\* entspricht.
+
+- `line2` und `pointpos2` die Indizes sind, die den Endpunkt der zweiten Linie angeben (in Medium _n2_)
+- `interface` der Index der Linie ist, die die Position der Grenzfläche zwischen Medium _n1_ und Medium _n2_ darstellt.
+- `n2byn1` eine Gleitkommazahl ist, die dem Verhältnis der Brechungsindizes _n2_/\*n1\* entspricht.
 
 Die Seite [Sketcher Skripterstellung](/Sketcher_scripting/de "Sketcher scripting/de") erklärt die Werte, die für `line1`, `pointpos1`, `line2`, `pointpos2` und `interface` verwendet werden können und enthält weitere Beispiele, wie man Randbedingungen mit Python-Skripten erstellt.
 

@@ -34,8 +34,8 @@ The link instructs the Dimension to compute it's value directly from the 3D geom
 1. Create an appropriate dimension on the drawing page using any of [TechDraw LengthDimension](/TechDraw_LengthDimension "TechDraw LengthDimension"), [TechDraw HorizontalDimension](/TechDraw_HorizontalDimension "TechDraw HorizontalDimension"), etc. This dimension will be in the right place on the Page, but will show the projected dimension value.
 2. Select the geometry in the 3D view, for example, an edge, that corresponds to the projected geometry of your dimension.
 3. There are several ways to invoke the tool:
-   - Press the ![](/src/assets/images/TechDraw_LinkDimension.svg) [Link Dimension to 3D Geometry](/TechDraw_LinkDimension "TechDraw LinkDimension") button.
-   - Select the **TechDraw → Dimensions → ![](/src/assets/images/TechDraw_LinkDimension.svg) Link Dimension to 3D Geometry** option from the menu.
+   - Press the ![](/images/TechDraw_LinkDimension.svg) [Link Dimension to 3D Geometry](/TechDraw_LinkDimension "TechDraw LinkDimension") button.
+   - Select the **TechDraw → Dimensions → ![](/images/TechDraw_LinkDimension.svg) Link Dimension to 3D Geometry** option from the menu.
 4. A task panel opens.
 5. Select one or more Dimensions to be linked to the selected 3D geometry.
 6. Press OK.

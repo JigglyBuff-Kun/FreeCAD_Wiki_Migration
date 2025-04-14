@@ -62,7 +62,7 @@ webbrowser.open("https://raw.githubusercontent.com/FreeCAD/FreeCAD-macros/master
 
 <class="rawcodeurl"><a href="<https://raw.githubusercontent.com/FreeCAD/FreeCAD-macros/master/PureGui/ViewRotation.FCMacro>">raw code</a>
 
-![Rotate view](/src/assets/images/Macro_View_Rotation_00.png)
+![Rotate view](/images/Macro_View_Rotation_00.png)
 
 Rotate view
 
@@ -72,7 +72,7 @@ Drei Symbole symbolisieren die Drehrichtungen. Eine ZIP-Datei mit diesen Symbole
 
 Die neueste Version des Makros befindet sich unter [ViewRotation.FCMacro](https://github.com/FreeCAD/FreeCAD-macros/blob/master/PureGui/ViewRotation.FCMacro). Der einfachste Weg, dieses Makro zu installieren, ist der [Addon-Manager](/Std_AddonMgr/de "Std AddonMgr/de").
 
-Werkzeugleistensymbol ![](/src/assets/images/Macro_View_Rotation.png)
+Werkzeugleistensymbol ![](/images/Macro_View_Rotation.png)
 
 **Macro View Rotation.FCMacro**
 

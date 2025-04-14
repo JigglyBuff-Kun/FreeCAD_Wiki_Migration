@@ -23,12 +23,12 @@ This documentation is not finished. Please help and contribute documentation.Gui
 
 ## Description
 
-The ![](/src/assets/images/Assembly_AutoRecompute.svg) [Auto recompute](/Assembly3_AutoRecompute "Assembly3 AutoRecompute") command is a toggle that enables the ![](/src/assets/images/Assembly3_workbench_icon.svg) [Resolve constraints](/Assembly3_ResolveConstraints "Assembly3 ResolveConstraints") command to run automatically.
+The ![](/images/Assembly_AutoRecompute.svg) [Auto recompute](/Assembly3_AutoRecompute "Assembly3 AutoRecompute") command is a toggle that enables the ![](/images/Assembly3_workbench_icon.svg) [Resolve constraints](/Assembly3_ResolveConstraints "Assembly3 ResolveConstraints") command to run automatically.
 
 ## Usage
 
-1. Activate the ![](/src/assets/images/Assembly_AutoRecompute.svg) **Auto recompute** command using one of the following:
-   - The ![](/src/assets/images/Assembly_AutoRecompute.svg) [Auto recompute](/Assembly3_AutoRecompute "Assembly3 AutoRecompute") button.
-   - The **Assembly3 → ![](/src/assets/images/Assembly_AutoRecompute.svg) Auto recompute** menu option.
+1. Activate the ![](/images/Assembly_AutoRecompute.svg) **Auto recompute** command using one of the following:
+   - The ![](/images/Assembly_AutoRecompute.svg) [Auto recompute](/Assembly3_AutoRecompute "Assembly3 AutoRecompute") button.
+   - The **Assembly3 → ![](/images/Assembly_AutoRecompute.svg) Auto recompute** menu option.
 
 Retrieved from "<http://wiki.freecad.org/index.php?title=Assembly3_AutoRecompute/en&oldid=1096296>"

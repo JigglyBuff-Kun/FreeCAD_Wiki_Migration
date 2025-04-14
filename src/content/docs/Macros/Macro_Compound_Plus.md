@@ -62,44 +62,44 @@ webbrowser.open("https://gist.githubusercontent.com/mario52a/7be361a8c489deec918
 
 ## Usage
 
-![Macro_Compound_Plus_00](/src/assets/images/Macro_Compound_Plus_00.png)
+![Macro_Compound_Plus_00](/images/Macro_Compound_Plus_00.png)
 
 ### Choice
 
-- ![](/src/assets/images/Part_Compound.svg) Compound I Type I [1 + 1 = 1] : Create one compound unique of all objects selected without history.
-- ![](/src/assets/images/Part_Compound.svg) Compound II Type II [1 + 1 = A (1 + 1)] : Create one compound of all objects selected with history of all objects. Same "**Menu → Part → Make compound**".
+- ![](/images/Part_Compound.svg) Compound I Type I [1 + 1 = 1] : Create one compound unique of all objects selected without history.
+- ![](/images/Part_Compound.svg) Compound II Type II [1 + 1 = A (1 + 1)] : Create one compound of all objects selected with history of all objects. Same "**Menu → Part → Make compound**".
 
 ### Option color
 
-If it ![](/src/assets/images/CheckBoxFalse.svg) checked the colour to object to work are coloured (edge, vertex)
+If it ![](/images/CheckBoxFalse.svg) checked the colour to object to work are coloured (edge, vertex)
 
-- ![](/src/assets/images/Workbench_Image.svg) Color  : Gives a colour to object. (Default Red 255, 0, 0)
+- ![](/images/Workbench_Image.svg) Color  : Gives a colour to object. (Default Red 255, 0, 0)
 
 ### Tools
 
 - LineEdit : display (Iindex of Font / Number of font) the path and name of the font.
 
-* ![](/src/assets/images/Draft_Text.svg) Convert Text (A) : convert the text ![](/src/assets/images/Draft_Text.svg) in a shape string ![](/src/assets/images/Draft_ShapeString.svg) (The height of the text converted is respected but the visual result may not be respected, see the Combo view property for confirm). (A) is Automatic value height of text.
+* ![](/images/Draft_Text.svg) Convert Text (A) : convert the text ![](/images/Draft_Text.svg) in a shape string ![](/images/Draft_ShapeString.svg) (The height of the text converted is respected but the visual result may not be respected, see the Combo view property for confirm). (A) is Automatic value height of text.
 
-  - 0,00 Auto ![](/src/assets/images/SpinBox.svg) : If the spinbox is egual 0.0 the heigth of the VALUE of the text is respected, if other of 0.0 the ![](/src/assets/images/Draft_Text.svg) Convert Text (A) change to ![](/src/assets/images/Draft_Text.svg) Convert Text (M) manual.
+  - 0,00 Auto ![](/images/SpinBox.svg) : If the spinbox is egual 0.0 the heigth of the VALUE of the text is respected, if other of 0.0 the ![](/images/Draft_Text.svg) Convert Text (A) change to ![](/images/Draft_Text.svg) Convert Text (M) manual.
 
-* ![](/src/assets/images/Draft_Line.svg) Convert Wire (A) : This command convert the wire in one line with coordinates. (ex: one compound downgraded does not have coordinates, this function create a line with the coordinate as Draft line and reproduce the DXF wire in a Draft object are detected: Line, Arc, Circle, Ellipse, BSplineCurve.
-  - 0,00 Auto ![](/src/assets/images/SpinBox.svg) : Gives a thickness of the wire. If the spinbox is egual 0.0 the heigth of the VALUE of the text is respected, if other of 0.0 the ![](/src/assets/images/Draft_Line.svg) Convert Wire (A) change to Convert Wire (M) manual.
-* ![](/src/assets/images/CheckBoxFalse.svg) ![](/src/assets/images/Draft_BezCurve.svg) BezierCurve : By default the BezierCurve detected is ![](/src/assets/images/Draft_BezCurve.svg), if it is checked the BezierCurve is Cubic ![](/src/assets/images/Draft_CubicBezCurve.svg) and the button change ![](/src/assets/images/CheckBoxTrue.svg) ![](/src/assets/images/Draft_CubicBezCurve.svg) Cubic BezierCurve
+* ![](/images/Draft_Line.svg) Convert Wire (A) : This command convert the wire in one line with coordinates. (ex: one compound downgraded does not have coordinates, this function create a line with the coordinate as Draft line and reproduce the DXF wire in a Draft object are detected: Line, Arc, Circle, Ellipse, BSplineCurve.
+  - 0,00 Auto ![](/images/SpinBox.svg) : Gives a thickness of the wire. If the spinbox is egual 0.0 the heigth of the VALUE of the text is respected, if other of 0.0 the ![](/images/Draft_Line.svg) Convert Wire (A) change to Convert Wire (M) manual.
+* ![](/images/CheckBoxFalse.svg) ![](/images/Draft_BezCurve.svg) BezierCurve : By default the BezierCurve detected is ![](/images/Draft_BezCurve.svg), if it is checked the BezierCurve is Cubic ![](/images/Draft_CubicBezCurve.svg) and the button change ![](/images/CheckBoxTrue.svg) ![](/images/Draft_CubicBezCurve.svg) Cubic BezierCurve
 
-* ![](/src/assets/images/RadioButtonTrue.svg) ![](/src/assets/images/Std_DrawStyleFlatLines.svg) FlatLines : The objects created is FlatLines.
-* ![](/src/assets/images/RadioButtonFalse.svg) ![](/src/assets/images/Std_DrawStyleWireFrame.svg) Wireframe : The objects created is Wireframe.
-* ![](/src/assets/images/RadioButtonFalse.svg) ![](/src/assets/images/Std_DrawStylePoints.svg) Points : The objects created is Points.
-* ![](/src/assets/images/Draft_Upgrade.svg) UpGrade : UpGrade
-* ![](/src/assets/images/Draft_Downgrade.svg) DownGrade : DownGrade
+* ![](/images/RadioButtonTrue.svg) ![](/images/Std_DrawStyleFlatLines.svg) FlatLines : The objects created is FlatLines.
+* ![](/images/RadioButtonFalse.svg) ![](/images/Std_DrawStyleWireFrame.svg) Wireframe : The objects created is Wireframe.
+* ![](/images/RadioButtonFalse.svg) ![](/images/Std_DrawStylePoints.svg) Points : The objects created is Points.
+* ![](/images/Draft_Upgrade.svg) UpGrade : UpGrade
+* ![](/images/Draft_Downgrade.svg) DownGrade : DownGrade
 
 ### For Compound I and Convert Edge
 
-This section work only with the tools ![](/src/assets/images/Part_Compound.svg) Compound I, ![](/src/assets/images/Draft_Text.svg) Convert Text (A) and ![](/src/assets/images/Draft_Line.svg) Convert Wire (A)
+This section work only with the tools ![](/images/Part_Compound.svg) Compound I, ![](/images/Draft_Text.svg) Convert Text (A) and ![](/images/Draft_Line.svg) Convert Wire (A)
 
-- ![](/src/assets/images/RadioButtonTrue.svg) None : Everything originals objects remains as it is.
-- ![](/src/assets/images/RadioButtonFalse.svg) Hidden original objest(s) : Hidden the originals objest(s).
-- ![](/src/assets/images/RadioButtonFalse.svg) Delete original objest(s) : Delete the originals objest(s).
+- ![](/images/RadioButtonTrue.svg) None : Everything originals objects remains as it is.
+- ![](/images/RadioButtonFalse.svg) Hidden original objest(s) : Hidden the originals objest(s).
+- ![](/images/RadioButtonFalse.svg) Delete original objest(s) : Delete the originals objest(s).
 
 ### Force on a form : Line
 
@@ -107,10 +107,10 @@ If the object line, arc or circle is not reconized (as form in a volume 3D objec
 
 no verification is done, this section tray to create a requested shape 2D (Draft) based on the data provided
 
-- ![](/src/assets/images/RadioButtonTrue.svg) ![](/src/assets/images/Draft_Line.svg) Lines : Tray to create a Line.
-- ![](/src/assets/images/RadioButtonFalse.svg) ![](/src/assets/images/Draft_Arc.svg) Arc : Tray to create a Arc.
-- ![](/src/assets/images/RadioButtonFalse.svg) ![](/src/assets/images/Draft_Circle.svg) Circle : Tray to create a Circle.
-- ![](/src/assets/images/Draft_Line.svg) Force on : Line : Button Force
+- ![](/images/RadioButtonTrue.svg) ![](/images/Draft_Line.svg) Lines : Tray to create a Line.
+- ![](/images/RadioButtonFalse.svg) ![](/images/Draft_Arc.svg) Arc : Tray to create a Arc.
+- ![](/images/RadioButtonFalse.svg) ![](/images/Draft_Circle.svg) Circle : Tray to create a Circle.
+- ![](/images/Draft_Line.svg) Force on : Line : Button Force
 
 ### Command
 
@@ -121,7 +121,7 @@ no verification is done, this section tray to create a requested shape 2D (Draft
 
 ## Script
 
-The icon for you toolBar ![](/src/assets/images/Macro_Compound_Plus.png) copy in same directory to the macro
+The icon for you toolBar ![](/images/Macro_Compound_Plus.png) copy in same directory to the macro
 
 [How to Customize Toolbars](/Customize_Toolbars "Customize Toolbars"), [How to install macros](/How_to_install_macros "How to install macros")
 

@@ -19,9 +19,9 @@ title: Part Prisma
 
 ## Beschreibung
 
-Ein ![](/src/assets/images/Part_Prism.svg) **Part Prisma** ist ein parametrischer Volumenkörper, der mit dem Befehl ![](/src/assets/images/Part_Primitives.svg) [Part Grundelemente](/Part_Primitives/de "Part Primitives/de") erstellt werden kann. Im Koordinatensystem durch seine Daten-Eigenschaft**Placement** festgelegt, liegt die Unterseite des Prismas auf der XY-Ebene mit seinem Mittelpunkt im Ursprung und einem seiner Eckpunkte auf der X-Achse.
+Ein ![](/images/Part_Prism.svg) **Part Prisma** ist ein parametrischer Volumenkörper, der mit dem Befehl ![](/images/Part_Primitives.svg) [Part Grundelemente](/Part_Primitives/de "Part Primitives/de") erstellt werden kann. Im Koordinatensystem durch seine Daten-Eigenschaft**Placement** festgelegt, liegt die Unterseite des Prismas auf der XY-Ebene mit seinem Mittelpunkt im Ursprung und einem seiner Eckpunkte auf der X-Achse.
 
-![](/src/assets/images/Part_Prism_Example.png)
+![](/images/Part_Prism_Example.png)
 
 ## Anwendung
 
@@ -29,7 +29,7 @@ Siehe [Part Grundelemente](/Part_Primitives/de#Anwendung "Part Primitives/de").
 
 ## Beispiel
 
-![](/src/assets/images/Part_Prism_Scripting_Example.png)
+![](/images/Part_Prism_Scripting_Example.png)
 
 Part-Prisma aus dem Skriptbeispiel
 

@@ -34,7 +34,7 @@ Parametric is generally a good thing in 3D modeling, but because defeaturing rel
 
 Full documentation can be found on github: [Parametric Defeaturing](https://github.com/mwganson/parametric_defeaturing).
 
-![](/src/assets/images/Parametric_defeaturing_scr2.png)
+![](/images/Parametric_defeaturing_scr2.png)
 
 Macro Parametric Defeaturing screenshot‎
 
@@ -71,13 +71,13 @@ webbrowser.open("https://gist.github.com/mwganson/0d55a5c51b1d6ff488b7a2f62bf506
 <class="rawcodeurl"><a href="<https://gist.github.com/mwganson/0d55a5c51b1d6ff488b7a2f62bf50656/raw/140e9118deb955981a1ea499778cbf2521818e40/parametric_defeaturing.FCMacro>">raw code</a>
 
 ToolBar Icon
-![](/src/assets/images/Parametric_defeaturing.svg)
+![](/images/Parametric_defeaturing.svg)
 
 ## Script
 
 **Macro parametric_defeaturing.FCMacro**
 
-[![](/src/assets/images/Nuvola_apps_download_manager.png)](https://gist.github.com/mwganson/0d55a5c51b1d6ff488b7a2f62bf50656)
+[![](/images/Nuvola_apps_download_manager.png)](https://gist.github.com/mwganson/0d55a5c51b1d6ff488b7a2f62bf50656)
 
 [parametric_defeaturing.FCMacro](https://gist.github.com/mwganson/0d55a5c51b1d6ff488b7a2f62bf50656)
 

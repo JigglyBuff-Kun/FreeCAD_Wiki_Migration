@@ -19,14 +19,14 @@ title: Sketcher AlleGeometrienLöschen
 
 ## Beschreibung
 
-Das Werkzeug ![](/src/assets/images/Sketcher_DeleteAllGeometry.svg) Sketcher AlleGeometrienLöschen löscht alle Geometrien und alle Randbedingungen aus der Skizze.
+Das Werkzeug ![](/images/Sketcher_DeleteAllGeometry.svg) Sketcher AlleGeometrienLöschen löscht alle Geometrien und alle Randbedingungen aus der Skizze.
 
 ## Anwendung
 
 1. Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
-   - Den Menüeintrag **Skizze → Sketcher-Werkzeuge → ![](/src/assets/images/Sketcher_DeleteAllGeometry.svg) Gesamte Geometrie löschen** auswählen.
+   - Den Menüeintrag **Skizze → Sketcher-Werkzeuge → ![](/images/Sketcher_DeleteAllGeometry.svg) Gesamte Geometrie löschen** auswählen.
    - Das Tastaturkürzel X.
-   - [eingeführt in 1.0](/Release_notes_1.0/de "Release notes 1.0/de"): Ein Rechtsklick in die [3D-Ansicht](/3D_view/de "3D view/de") und die Menüoption **![](/src/assets/images/Sketcher_DeleteAllGeometry.svg) Gesamte Geometrie löschen** im Kontextmenü auswählen (steht nicht zur Verfügung, wenn es eine Auswahl gibt).
+   - [eingeführt in 1.0](/Release_notes_1.0/de "Release notes 1.0/de"): Ein Rechtsklick in die [3D-Ansicht](/3D_view/de "3D view/de") und die Menüoption **![](/images/Sketcher_DeleteAllGeometry.svg) Gesamte Geometrie löschen** im Kontextmenü auswählen (steht nicht zur Verfügung, wenn es eine Auswahl gibt).
 2. Der Dialog **Gesamte Geometrie löschen** wird geöffnet.
 3. Die Schaltfläche Ja drücken, um zu bestätigen und das Werkzeug zu beenden.
 

@@ -40,7 +40,7 @@ Note: an unclosed object return an error
 
 ## Script
 
-ToolBar Icon ![](/src/assets/images/Macro_Creating_faces_from_a_DXF_file.png)
+ToolBar Icon ![](/images/Macro_Creating_faces_from_a_DXF_file.png)
 
 **Macro_Creating_faces_from_a_DXF_file.FCMacro**
 

@@ -30,7 +30,7 @@ title: Assemblage Imprimante 3D
 
 Simulates the motion of a 3D printer in the Z axis.
 
-![](/src/assets/images/Assemblage_Imprimante_3D.gif)
+![](/images/Assemblage_Imprimante_3D.gif)
 
 ## Uses
 
@@ -48,7 +48,7 @@ To stop the animation tip : **animation.stop()**
 
 The script author is **[Javier Martínez García (JMG)](http://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=2538)** and has been adapted for this project.
 
-ToolBar Icon ![](/src/assets/images/Macro_Assemblage_Imprimante_3D.png)
+ToolBar Icon ![](/images/Macro_Assemblage_Imprimante_3D.png)
 
 **00-assemblage-total.FCMacro**
 

@@ -60,7 +60,7 @@ webbrowser.open("https://raw.githubusercontent.com/FreeCAD/FreeCAD-macros/master
 
 <class="rawcodeurl"><a href="<https://raw.githubusercontent.com/FreeCAD/FreeCAD-macros/master/ParametricObjectCreation/geodesic_dome/geodesic_dome.py>">raw code</a>
 
-![](/src/assets/images/Geodome_frequency_parameter.png)
+![](/images/Geodome_frequency_parameter.png)
 
 ## Usage
 
@@ -76,7 +76,7 @@ a dome shape should appear. You can then edit dome parameters by altering proper
 
 (this is an old, non-parametric version of the script. Up-to-date version is in FreeCAD-macros repository, [here!](https://github.com/FreeCAD/FreeCAD-macros/blob/master/ParametricObjectCreation/geodesic_dome/geodesic_dome.py) )
 
-ToolBar Icon ![](/src/assets/images/Macro_Geodesic_Dome.svg)
+ToolBar Icon ![](/images/Macro_Geodesic_Dome.svg)
 
 **Macro_Geodesic_Dome.FCMacro**
 

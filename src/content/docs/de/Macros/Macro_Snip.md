@@ -38,13 +38,13 @@ Beim Veröffentlichen im FreeCAD-Forum ist es oft nützlich, Bildschirmfotos bei
 
 Das Makro kann Bildschirmfotos erstellen oder vorhandene Bildschirmfotos verwenden, die bereits in die Zwischenablage des Systems kopiert wurden. Um das bereits in der Zwischenablage befindliche Bild zu umgehen, drücke die Taste Umschalten, während du das Makro aufrufst. Um das Makro zur Aufnahme des Bildschirmfotos zu verwenden, passe die Größe und Platzierung des eingeblendeten Dialogfelds an und klicke dann auf OK. Wenn du auf OK klickst, versucht das Makro, ein Bildschirmfoto des vom Dialogfeld abgedeckten Bildschirmbereichs zu erstellen. Das Dialogfeld selbst ist halbtransparent, so dass du den Inhalt darunter sehen kannst.
 
-![](/src/assets/images/Snip-Screenshot1.png)
+![](/images/Snip-Screenshot1.png)
 
 Beachte den halbtransparenten Dialog. Es wird nur der Bildschirminhalt unterhalb des Dialogs erfasst.
 
 Nach dem Klicken auf OK erstellt das Makro dann das Bildschirmfoto und speichert es in einer temporären Datei. Am Speicherort der Datei wird dann ein Datei Öffnen Dialogfeld geöffnet. Du kannst die Datei von dort in das Forum ziehen und loslassen im Textbereich, wo du deinen Text für deinen Forumsbeitrag eingibst. Bei Abbruch des Dialogs wird die temporäre Bildschirmfoto-Datei automatisch gelöscht. Du könntest die Bildschirmfotodatei auch in deiner Standardanwendung öffnen, die zum Öffnen von .png-Dateien installiert ist (unter Windows ist dies typischerweise Paint). Dies kann nützlich sein, wenn du dem Bildschirmfoto einige Anmerkungen hinzufügen oder vielleicht zusätzliche Bearbeitungen, wie z.B. Zuschneiden, vornehmen möchtest.
 
-![](/src/assets/images/Snip-Screenshot2.png)
+![](/images/Snip-Screenshot2.png)
 
 Dies ist der Dateiöffnungsdialog, der nach der Aufnahme des Bildschirmfotos automatisch aufklappt. Das Bild kann in das Forum gezogen und losgelassen werden oder es kann zur weiteren Bearbeitung in deiner System-Standardanwendung zum Öffnen von .png-Dateien geöffnet werden.
 Alternativ dazu kannst du auf das Bild rechtsklicken und Öffnen mit.. mit einer anderen Anwendung deiner Wahl öffnen.
@@ -79,7 +79,7 @@ Das Skalieren kann übersprungen werden, wenn die Ctrl-Taste gedrückt gehalten 
 
 ## Skript
 
-Werkzeugleistensymbol ![](/src/assets/images/Snip.png)
+Werkzeugleistensymbol ![](/images/Snip.png)
 
 **Macro_Snip.FCMacro**
 

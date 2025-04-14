@@ -30,7 +30,7 @@ title: Mouse Cross
 
 This small macro turns the arrow of the mouse in a precision cross.
 
-![Macro_Mouse_Cross](/src/assets/images/Macro_Mouse_Cross_00.png)
+![Macro_Mouse_Cross](/images/Macro_Mouse_Cross_00.png)
 
 Small example of using the class **ViewObserver()** and the use of the keyboard with **[SoKeyboardEvent](/Code_snippets#Observing_mouse_events_in_the_3D_viewer_via_Python "Code snippets")**
 
@@ -44,7 +44,7 @@ Small example of using the class **ViewObserver()** and the use of the keyboard 
 
 ## Script
 
-ToolBar icon ![](/src/assets/images/Macro_Mouse_Cross.png)
+ToolBar icon ![](/images/Macro_Mouse_Cross.png)
 
 **Macro_Mouse_Cross.FCMacro**
 

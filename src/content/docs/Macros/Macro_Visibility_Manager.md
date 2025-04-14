@@ -33,7 +33,7 @@ Use this macro to manage visibility of document objects either by type or indivi
 ## Script
 
 ToolBar icon
-![](/src/assets/images/Macro_Visibility_Manager.png)
+![](/images/Macro_Visibility_Manager.png)
 
 **Macro_Visibility_Manager.FCMacro**
 

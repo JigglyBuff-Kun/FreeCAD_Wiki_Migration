@@ -21,7 +21,7 @@ title: TechDraw CosmeticVertex
 
 The **TechDraw CosmeticVertex** tool adds a [vertex](/Glossary#V "Glossary"), which is not part of the source geometry, to a view. This vertex behaves like any other vertex and can be used for dimensioning.
 
-![](/src/assets/images/TechDraw_CosmeticVertex_Sample.png)
+![](/images/TechDraw_CosmeticVertex_Sample.png)
 
 Cosmetic vertices used to create an otherwise impossible dimension
 
@@ -29,8 +29,8 @@ Cosmetic vertices used to create an otherwise impossible dimension
 
 1. Select a view.
 2. There are several ways to invoke the tool:
-   - Press the ![](/src/assets/images/TechDraw_CosmeticVertex.svg) [Add Cosmetic Vertex](/TechDraw_CosmeticVertex "TechDraw CosmeticVertex") button.
-   - Select the **TechDraw → Add Vertices → ![](/src/assets/images/TechDraw_CosmeticVertex.svg) Add Cosmetic Vertex** option from the menu.
+   - Press the ![](/images/TechDraw_CosmeticVertex.svg) [Add Cosmetic Vertex](/TechDraw_CosmeticVertex "TechDraw CosmeticVertex") button.
+   - Select the **TechDraw → Add Vertices → ![](/images/TechDraw_CosmeticVertex.svg) Add Cosmetic Vertex** option from the menu.
 3. A task panel opens.
 4. Optionally press the Point Picker button and pick a point on the page. Press the Escape picking button to cancel this operation.
 5. Optionally change or specify the X and Y coordinates of the point. The coordinates are relative to the center of the view.

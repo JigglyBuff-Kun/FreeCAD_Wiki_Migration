@@ -32,13 +32,13 @@ Based on one planar element's ICS both other elements' ICSs' origins are positio
 1. Place two objects into an assembly
 2. Select two point elements of one object
 3. Select a planar face element of the second object
-4. Press the ![](/src/assets/images/Assembly_ConstraintPointsHorizontal.svg) [Points horizontal](/Assembly3_ConstraintPointsHorizontal "Assembly3 ConstraintPointsHorizontal") button.
+4. Press the ![](/images/Assembly_ConstraintPointsHorizontal.svg) [Points horizontal](/Assembly3_ConstraintPointsHorizontal "Assembly3 ConstraintPointsHorizontal") button.
 
 Or
 
 1. Place three objects into an assembly
 2. Select one point element of the first two objects
 3. Select a planar face element of the third object
-4. Press the ![](/src/assets/images/Assembly_ConstraintPointsHorizontal.svg) [Points horizontal](/Assembly3_ConstraintPointsHorizontal "Assembly3 ConstraintPointsHorizontal") button.
+4. Press the ![](/images/Assembly_ConstraintPointsHorizontal.svg) [Points horizontal](/Assembly3_ConstraintPointsHorizontal "Assembly3 ConstraintPointsHorizontal") button.
 
 Retrieved from "<http://wiki.freecad.org/index.php?title=Assembly3_ConstraintPointsHorizontal/en&oldid=923379>"

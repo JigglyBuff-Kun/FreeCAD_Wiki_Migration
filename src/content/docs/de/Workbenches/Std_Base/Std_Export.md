@@ -29,7 +29,7 @@ Der **Std Export**-Befehl exportiert ausgewählte Objekte in ein anderes Dateifo
    - Eine [Std Gruppe](/Std_Group/de "Std Group/de") oder ein [Std Part](/Std_Part/de "Std Part/de") durch Auswahl nur des Eltern-Objekts selbst oder der darin verschachtelten Objekte.
    - Nicht den Befehl [Std AllesAuswählen](/Std_SelectAll/de "Std SelectAll/de") verwenden, weil er auch Unterelemente von PartDesign-Körpern auswählt.
 2. Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
-   - Den Menüeintrag **Datei → ![](/src/assets/images/Std_Export.svg) Exportieren...** auswählen.
+   - Den Menüeintrag **Datei → ![](/images/Std_Export.svg) Exportieren...** auswählen.
    - Das Tastaturkürzel: Strg + E.
 3. Das richtige Dateiformat in der Dialogbox auswählen.
 4. Einen Dateinamen eingeben.

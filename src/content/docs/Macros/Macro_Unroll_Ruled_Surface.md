@@ -30,7 +30,7 @@ title: Unroll Ruled Surface
 
 The macro allows to unroll ruled surfaces and to draw them on a page.
 
-![](/src/assets/images/Macro_unrollRuledSurface_00.png)
+![](/images/Macro_unrollRuledSurface_00.png)
 
 Macro Unroll Ruled Surface
 
@@ -47,7 +47,7 @@ See also: [Macro for unrolling ruled surfaces](http://forum.freecadweb.org/viewt
 - Page format: A4/A3, cartridge (cf FreeCAD templates).
 - Group drawings on the same page if possible.
 
-![Macro_unrollRuledSurface](/src/assets/images/Macro_UnrollRuledSurface_start_form.png)
+![Macro_unrollRuledSurface](/images/Macro_UnrollRuledSurface_start_form.png)
 
 ## Usage
 
@@ -58,9 +58,9 @@ See also: [Macro for unrolling ruled surfaces](http://forum.freecadweb.org/viewt
 
 ## Script
 
-The latest version of the macro is here on the wiki. An earlier version can be found at [UnrollRuledSurface.FCMacro](https://github.com/FreeCAD/FreeCAD-macros/blob/master/Drawing/UnrollRuledSurface.FCMacro), but the easiest way to install this macro is through the ![Std_AddonMgr](/src/assets/images/Std_AddonMgr.svg) [Addon manager](/Std_AddonMgr "Std AddonMgr").
+The latest version of the macro is here on the wiki. An earlier version can be found at [UnrollRuledSurface.FCMacro](https://github.com/FreeCAD/FreeCAD-macros/blob/master/Drawing/UnrollRuledSurface.FCMacro), but the easiest way to install this macro is through the ![Std_AddonMgr](/images/Std_AddonMgr.svg) [Addon manager](/Std_AddonMgr "Std AddonMgr").
 
-ToolBar Icon ![](/src/assets/images/Macro_Unroll_Ruled_Surface.png)
+ToolBar Icon ![](/images/Macro_Unroll_Ruled_Surface.png)
 
 **Macro_unrollRuledSurface.py**
 

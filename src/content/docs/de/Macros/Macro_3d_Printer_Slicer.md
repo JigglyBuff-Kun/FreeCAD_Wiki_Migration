@@ -32,13 +32,13 @@ Wenn dieser Code ausgeführt wird, wird der derzeit geöffnete Entwurf in eine S
 
 Es wird am besten durch Erstellen eines Links zu dem Makro in der Symbolleiste verwendet. Wenn Sie zum Schneiden des Objekts bereit sind, klicken Sie einfach darauf. Das Objekt wird in FreeCAD auf dem Bildschirm angezeigt und erscheint auf der Benutzeroberfläche der Slicing-Software . Außerdem wird eine STL-Datei mit demselben Dateinamen wie die Designdatei in demselben Verzeichnis wie die Designdatei als Sicherung erstellt.
 
-![](/src/assets/images/Macro_3d_Printer_Slicer_00.png)
+![](/images/Macro_3d_Printer_Slicer_00.png)
 
 ## Skript
 
 Die SLICER-Variable kann in eine beliebige Slicing-Software Ihrer Wahl geändert werden. Vergewissern Sie sich, dass Sie die Variable gesetzt haben, bevor Sie sie ausführen, oder es wird ein Fehler im Skript angezeigt.
 
-ToolBar Icon ![](/src/assets/images/Macro_3d_Printer_Slicer.png)
+ToolBar Icon ![](/images/Macro_3d_Printer_Slicer.png)
 
 **Macro_3d_Printer_Slicer.py**
 

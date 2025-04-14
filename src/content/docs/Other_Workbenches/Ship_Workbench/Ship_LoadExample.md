@@ -27,7 +27,7 @@ Ship works over **Ship entities**, that must be created on top of provided geome
 - Starboard geometry must be included at negatives _y_ domain.
 - Origin (0,0,0) point is the **Midship section** (Midpoint between after and forward perpendicular) and **base line** intersection.
 
-![](/src/assets/images/FreeCAD-Ship-SignCriteria.jpg)
+![](/images/FreeCAD-Ship-SignCriteria.jpg)
 
 Ship sign criteria
 
@@ -41,8 +41,8 @@ In order to help new users, Ship includes a geometries examples loader, with the
 ## Usage
 
 1. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/Ship_LoadExample.svg) [Load an example ship geometry](/Ship_LoadExample "Ship LoadExample") button.
-   - Select the **Ship design → ![](/src/assets/images/Ship_LoadExample.svg) Load‏‎ an example ship geometry** option from the menu.
+   - Press the ![](/images/Ship_LoadExample.svg) [Load an example ship geometry](/Ship_LoadExample "Ship LoadExample") button.
+   - Select the **Ship design → ![](/images/Ship_LoadExample.svg) Load‏‎ an example ship geometry** option from the menu.
 2. A task panel will display, prompting to choose one of the example ship geometries.
 3. Select the example you want to load and press Accept.
 4. Result: The tool loads a new document with the selected geometry.

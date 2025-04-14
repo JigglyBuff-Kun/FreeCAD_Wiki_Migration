@@ -25,7 +25,7 @@ THIS COMMAND IS PART OF THE INTEGRATEDBIM WORKBENCHIN V1.0This page has been upd
 
 The **Arch CurtainWall** tool creates a [curtain wall](<https://en.wikipedia.org/wiki/Curtain_wall_(architecture)>) by subdividing a base face into quadrangular faces, then creating vertical mullion on the vertical edges, horizontal mullions on the horizontal edges, and filling the spaces between mullions with panels.
 
-![](/src/assets/images/Arch_CurtainWall_example.png)
+![](/images/Arch_CurtainWall_example.png)
 
 Curtain Walls can be created from any type of existing object, in which case all the faces of the object will be subdivided. It works therefore best if used with an object that has only one face. Typically, you would first create a face, preferably bound by exactly 4 edges, that represents the area you want to fill with a curtain wall, then apply the tool.
 
@@ -45,8 +45,8 @@ You can also use the curtain wall tool without any selected object, in which cas
 
 1. Make sure nothing is selected
 2. There are several ways to invoke the tool:
-   - Press the ![](/src/assets/images/Arch_CurtainWall.svg) [Curtain Wall](/Arch_CurtainWall "Arch CurtainWall") button.
-   - Select the **3D/BIM → ![](/src/assets/images/Arch_CurtainWall.svg) Curtain Wall** option from the menu.
+   - Press the ![](/images/Arch_CurtainWall.svg) [Curtain Wall](/Arch_CurtainWall "Arch CurtainWall") button.
+   - Select the **3D/BIM → ![](/images/Arch_CurtainWall.svg) Curtain Wall** option from the menu.
    - Use the keyboard shortcut: C then W.
 3. Click a first point on the 3D view, or type coordinates.
 4. Click a second point on the 3D view, or type coordinates.
@@ -83,7 +83,7 @@ An Arch CurtainWall object shares the common properties and behaviors of all [Ar
 - Data**Diagonal Mullion Number**: The number of diagonal mullions
 - Data**Diagonal Mullion Size**: The size of the diagonal mullions, if any, if no profile is used
 - Data**Diagonal Mullion Profile**: A profile for diagonal mullions, if any (disables horizontal mullion size)
-- Data**Override Edges**: ([introduced in 1.0](/Release_notes_1.0 "Release notes 1.0")) Input are index numbers of edges of Base ArchSketch/Sketch geometries (in Edit mode). Selected edges are used to create the shape of this Arch Curtain Wall (instead of using all edges by default). Ignored if Base ArchSketch provided the selected edges. ENHANCEMENT by ArchSketch: GUI 'Edit Curtain Wall' Tool is provided in the external ![](/src/assets/images/SketchArch_Workbench.svg) [SketchArch Add-on](https://github.com/paullee0/FreeCAD_SketchArch) to let users to select the edges interactively. 'Toponaming-Tolerant' if ArchSketch is used in Base (and SketchArch Add-on is installed). Warning: Not 'Toponaming-Tolerant' if just Sketch is used. (See forum thread - <https://forum.freecad.org/viewtopic.php?t=73018&start=40#p756554>)
+- Data**Override Edges**: ([introduced in 1.0](/Release_notes_1.0 "Release notes 1.0")) Input are index numbers of edges of Base ArchSketch/Sketch geometries (in Edit mode). Selected edges are used to create the shape of this Arch Curtain Wall (instead of using all edges by default). Ignored if Base ArchSketch provided the selected edges. ENHANCEMENT by ArchSketch: GUI 'Edit Curtain Wall' Tool is provided in the external ![](/images/SketchArch_Workbench.svg) [SketchArch Add-on](https://github.com/paullee0/FreeCAD_SketchArch) to let users to select the edges interactively. 'Toponaming-Tolerant' if ArchSketch is used in Base (and SketchArch Add-on is installed). Warning: Not 'Toponaming-Tolerant' if just Sketch is used. (See forum thread - <https://forum.freecad.org/viewtopic.php?t=73018&start=40#p756554>)
 - Data**Panel Number**: The number of panels
 - Data**Panel Thickness**: The thickness of the panels
 - Data**Swap Horizontal Vertical**: Swaps horizontal and vertical lines
@@ -97,13 +97,13 @@ An Arch CurtainWall object shares the common properties and behaviors of all [Ar
 
 Curtain walls are convenient to use in conjunction with [walls](/Arch_Wall "Arch Wall") to create frame walls (walls where an inner, structural layer is made of frames, usually wooden or metal, instead of an homogeneous material such as concrete or brick).
 
-![](/src/assets/images/Frame_wall_example.png)
+![](/images/Frame_wall_example.png)
 
 The procedure described below creates a wall and a curtain wall based on a same baseline, then gives the wall a multi-material which leaves an empty space, where the curtain wall is placed:
 
 1. Create a normal [Arch Wall](/Arch_Wall "Arch Wall"), either by clicking two points of from an existing linear object
 2. Select the base object of the newly created arch wall
-3. Press the ![](/src/assets/images/Arch_CurtainWall.svg) [CurtainWall](/Arch_CurtainWall "Arch CurtainWall") button, or press the C then W keys to create a curtain wall from the same baseline as the wall
+3. Press the ![](/images/Arch_CurtainWall.svg) [CurtainWall](/Arch_CurtainWall "Arch CurtainWall") button, or press the C then W keys to create a curtain wall from the same baseline as the wall
 4. Make sure both the wall and curtain wall have the same **Height**
 5. Set the number of **horizontal sections** of the curtain wall to zero if you wish only vertical frames
 6. Set the desired **horizontal mullion width** and **horizontal mullion height** (or use a mullion profile)

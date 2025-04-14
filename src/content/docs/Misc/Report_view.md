@@ -8,7 +8,7 @@ The [Report view](/Report_view "Report view") is a panel that shows text message
 
 Certain properties of this panel, like color of the text and whether to display it automatically on warnings or errors, can be configured in the **General → Report view** tab of the [Preferences Editor](/Preferences_Editor#Report_view "Preferences Editor").
 
-![](/src/assets/images/FreeCAD_Report_view.png)
+![](/images/FreeCAD_Report_view.png)
 
 The report view showing messages when FreeCAD has just started.
 
@@ -25,7 +25,7 @@ The report view displays messages from the internal FreeCAD `Console` class.
 
 These functions can be used from the [Python console](/Python_console "Python console") directly, or from [macros](/Macros "Macros") and custom workbenches.
 
-![](/src/assets/images/FreeCAD_Report_view_example.png)
+![](/images/FreeCAD_Report_view_example.png)
 
 Example messages in the report view: a general message, a warning, an error, and a logged message.
 

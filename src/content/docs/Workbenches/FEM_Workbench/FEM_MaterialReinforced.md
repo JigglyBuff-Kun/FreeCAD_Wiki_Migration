@@ -25,14 +25,14 @@ title: FEM MaterialReinforced
 
 Creates a reinforced matrix material. It combines a matrix material (e.g. concrete) and a reinforcement material (e.g. steel).
 
-![](/src/assets/images/FEM_reinforced_material_task_panel.PNG)
+![](/images/FEM_reinforced_material_task_panel.PNG)
 
 The FEM reinforced material task panel
 
 ## Usage
 
 1. There are several ways to invoke the command:
-   - Click the ![](/src/assets/images/FEM_MaterialReinforced.svg) [Reinforced material (concrete)](/FEM_MaterialReinforced "FEM MaterialReinforced") button or choose the **Model → Materials → ![](/src/assets/images/FEM_MaterialReinforced.svg) Reinforced material (concrete)‏‎** option from the menu.
+   - Click the ![](/images/FEM_MaterialReinforced.svg) [Reinforced material (concrete)](/FEM_MaterialReinforced "FEM MaterialReinforced") button or choose the **Model → Materials → ![](/images/FEM_MaterialReinforced.svg) Reinforced material (concrete)‏‎** option from the menu.
 2. Select the _Matrix Material_ from the drop-down list.
 3. Optionally press the Launch Editor button to access the [material editor](/Material_Edit "Material Edit"). The following material properties have to be defined: Young's modulus, Poisson's ratio, compressive strength and angle of friction.
 4. Select the _Reinforcement Material_ from the drop-down list.

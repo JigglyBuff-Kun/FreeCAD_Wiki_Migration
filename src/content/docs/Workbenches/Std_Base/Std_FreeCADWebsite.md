@@ -25,6 +25,6 @@ Currently the command points to [https://www.freecad.org](https://www.freecad.or
 
 ## Usage
 
-1. Select the **Help → ![](/src/assets/images/Std_FreeCADWebsite.svg) FreeCAD Website** option from the menu.
+1. Select the **Help → ![](/images/Std_FreeCADWebsite.svg) FreeCAD Website** option from the menu.
 
 Retrieved from "<http://wiki.freecad.org/index.php?title=Std_FreeCADWebsite/en&oldid=1454740>"

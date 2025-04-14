@@ -21,7 +21,7 @@ title: TechDraw CommandAddOffsetVertex
 
 The **TechDraw CommandAddOffsetVertex** tool adds a cosmetic vertex at a specified offset from a selected vertex.
 
-![](/src/assets/images/TechDraw_CommandAddOffsetVertex_Example.png)
+![](/images/TechDraw_CommandAddOffsetVertex_Example.png)
 
 Selected vertex and added cosmetic vertex
 
@@ -29,8 +29,8 @@ Selected vertex and added cosmetic vertex
 
 1. Select a vertex.
 2. There are several ways to invoke the tool:
-   - Press the ![](/src/assets/images/TechDraw_CommandAddOffsetVertex.svg) [Add an offset vertex](/TechDraw_CommandAddOffsetVertex "TechDraw CommandAddOffsetVertex") button.
-   - Select the **TechDraw → Extensions: Centerlines/Threading → ![](/src/assets/images/TechDraw_CommandAddOffsetVertex.svg) Add an offset vertex** option from the menu.
+   - Press the ![](/images/TechDraw_CommandAddOffsetVertex.svg) [Add an offset vertex](/TechDraw_CommandAddOffsetVertex "TechDraw CommandAddOffsetVertex") button.
+   - Select the **TechDraw → Extensions: Centerlines/Threading → ![](/images/TechDraw_CommandAddOffsetVertex.svg) Add an offset vertex** option from the menu.
 3. A task panel opens.
 4. Enter the desired (positive or negative) **X-Offset** and **Y-Offset** in mm.
 5. Press the OK button.

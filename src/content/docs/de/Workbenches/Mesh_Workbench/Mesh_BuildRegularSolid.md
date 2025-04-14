@@ -24,16 +24,16 @@ Der Befehl **Mesh RegelgeometrieErstellen** erstellt ein regelmäßiges parametr
 ## Anwendung
 
 1. Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
-   - Die Schaltfläche ![](/src/assets/images/Mesh_BuildRegularSolid.svg) Regelgeometrie... drücken.
-   - Den Menüeintrag **Netze → ![](/src/assets/images/Mesh_BuildRegularSolid.svg) Regelgeometrie...** auswählen.
+   - Die Schaltfläche ![](/images/Mesh_BuildRegularSolid.svg) Regelgeometrie... drücken.
+   - Den Menüeintrag **Netze → ![](/images/Mesh_BuildRegularSolid.svg) Regelgeometrie...** auswählen.
 2. Das Dialogfenster **Regelgeometrie** wird geöffnet.
 3. Zuerst den Typ des Netzobjekts aus der Ausklappliste auswählen:
-   - **![](/src/assets/images/Mesh_Cube.svg) Würfel**
-   - **![](/src/assets/images/Mesh_Cylinder.svg) Zylinder**
-   - **![](/src/assets/images/Mesh_Cone.svg) Kegel**
-   - **![](/src/assets/images/Mesh_Sphere.svg) Kugel**
-   - **![](/src/assets/images/Mesh_Ellipsoid.svg) Ellipsoid**
-   - **![](/src/assets/images/Mesh_Torus.svg) Torus**
+   - **![](/images/Mesh_Cube.svg) Würfel**
+   - **![](/images/Mesh_Cylinder.svg) Zylinder**
+   - **![](/images/Mesh_Cone.svg) Kegel**
+   - **![](/images/Mesh_Sphere.svg) Kugel**
+   - **![](/images/Mesh_Ellipsoid.svg) Ellipsoid**
+   - **![](/images/Mesh_Torus.svg) Torus**
 4. Die erforderlichen Einstellungen festlegen. Welche Einstellungen angezeigt werden, hängt vom Typ des Netzobjekts ab. Siehe [Eigenschaften](#Eigenschaften).
 5. Für Netze mit geschwungenen oberflächen: ein höherer **Sampling**-Wert ergibt ein feineres Netz.
 6. Die Schaltfläche Erstellen drücken, um ein Netzobjekt zu erstellen.

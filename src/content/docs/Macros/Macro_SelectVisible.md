@@ -68,7 +68,7 @@ Copy the macro in your macros' folder and run (see [How to install macros](/How_
 
 The latest version of the macro is to be found at <https://github.com/FreeCAD/FreeCAD-macros/blob/master/Utility/SelectVisible.FCMacro>
 
-ToolBar Icon ![](/src/assets/images/SelectVisible.png)
+ToolBar Icon ![](/images/SelectVisible.png)
 
 **Macro_Select.FCMacro**
 

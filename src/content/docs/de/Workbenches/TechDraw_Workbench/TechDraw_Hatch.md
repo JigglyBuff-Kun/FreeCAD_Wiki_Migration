@@ -19,9 +19,9 @@ title: TechDraw Schraffur
 
 ## Beschreibung
 
-Das Werkzeug **TechDraw Schraffur** füllt einen geschlossenen Bereich in einer Ansicht mit einem gekachelten [SVG](/SVG/de "SVG/de")- oder bitmap-basierten ([eingeführt in 0.21](/Release_notes_0.21/de "Release notes 0.21/de")) Schraffurmuster. Alternativ dazu verwendet das Werkzeug ![](/src/assets/images/TechDraw_GeometricHatch.svg) [TechDraw GeometrischeSchraffur](/TechDraw_GeometricHatch/de "TechDraw GeometricHatch/de") ein PAT-basiertes Schraffurmuster. Siehe [Schraffieren](/TechDraw_Hatching/de "TechDraw Hatching/de") für Einzelheiten.
+Das Werkzeug **TechDraw Schraffur** füllt einen geschlossenen Bereich in einer Ansicht mit einem gekachelten [SVG](/SVG/de "SVG/de")- oder bitmap-basierten ([eingeführt in 0.21](/Release_notes_0.21/de "Release notes 0.21/de")) Schraffurmuster. Alternativ dazu verwendet das Werkzeug ![](/images/TechDraw_GeometricHatch.svg) [TechDraw GeometrischeSchraffur](/TechDraw_GeometricHatch/de "TechDraw GeometricHatch/de") ein PAT-basiertes Schraffurmuster. Siehe [Schraffieren](/TechDraw_Hatching/de "TechDraw Hatching/de") für Einzelheiten.
 
-![](/src/assets/images/TechDraw_Hatch_example.png)
+![](/images/TechDraw_Hatch_example.png)
 
 SVG Schraffurmuster auf einer Fläche
 
@@ -29,8 +29,8 @@ SVG Schraffurmuster auf einer Fläche
 
 1. Einen geschlossenen Bereich in einer Ansicht auswählen.
 2. Es gibt mehrere Möglichkeiten das Werkzeug aufzurufen:
-   - Die Schaltfläche ![](/src/assets/images/TechDraw_Hatch.svg) Fläche mit Muster aus einer Bilddatei schraffieren drücken.
-   - Den Menüeintrag **TechDraw → Hatching → ![](/src/assets/images/TechDraw_Hatch.svg) Fläche mit Muster aus einer Bilddatei schraffieren** auswählen.
+   - Die Schaltfläche ![](/images/TechDraw_Hatch.svg) Fläche mit Muster aus einer Bilddatei schraffieren drücken.
+   - Den Menüeintrag **TechDraw → Hatching → ![](/images/TechDraw_Hatch.svg) Fläche mit Muster aus einer Bilddatei schraffieren** auswählen.
 3. Der Aufgabenbereich zu **Fläche mit Muster aus einer Bilddatei schraffieren** öffnet sich.
 4. Wahlweise kann **Pattern File** geändert werden (wechselt die Schraffurdatei) .
 5. Wahlweise können **Pattern Scale** (Schraffurskalierung) und **Line Color** (Linienfarbe) verändert werden. Diese Einstellungen werden für Bitmap-Muster ignoriert.

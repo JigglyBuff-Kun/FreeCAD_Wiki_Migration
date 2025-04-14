@@ -8,7 +8,7 @@ This documentation is not finished. Please help and contribute documentation.Gui
 
 ## Introduction
 
-FreeCAD uses as internal representation for the generated paths, so called G-codes. They can describe such things as: speed and feed rates, stopping the motor etc... But the most important thing is the movements they describe. These movements are rather simple: They can be straight lines or they can be circular arcs. More sophisticated curves such as B-splines are already approximated by FreeCAD's ![](/src/assets/images/Workbench_CAM.svg) [CAM Workbench](/CAM_Workbench "CAM Workbench").
+FreeCAD uses as internal representation for the generated paths, so called G-codes. They can describe such things as: speed and feed rates, stopping the motor etc... But the most important thing is the movements they describe. These movements are rather simple: They can be straight lines or they can be circular arcs. More sophisticated curves such as B-splines are already approximated by FreeCAD's ![](/images/Workbench_CAM.svg) [CAM Workbench](/CAM_Workbench "CAM Workbench").
 
 ## What the postprocessor can do for you
 
@@ -35,11 +35,11 @@ You may start with a very simple model showing how your machine reads straight l
 
 A file for such paths starting at (0,0,0) and going towards Y would be helpful. Make sure it is the tool itself moving along this path, i.e. no tool radius compensation must be applied.
 
-![](/src/assets/images/Path_PostProcessorSketch.png)
+![](/images/Path_PostProcessorSketch.png)
 
 The path in FreeCAD would look like this. Please note the small blue arrow, it indicates the starting direction. For a very first go you may provide only one level in the XY-plane.
 
-![](/src/assets/images/Path_PostProcessorModel.png)
+![](/images/Path_PostProcessorModel.png)
 
 You can then have a look at the file and compare it to the output of existing postprocessors such as linux_cnc_post.py or grbl_post.py and try yourself to adapt them or you upload your to the [Path/CAM forum](https://forum.freecadweb.org/viewforum.php?f=15) to get some help.
 
@@ -106,6 +106,6 @@ You'll see that both functions also call the "linenumber()" function. If the use
 
 ## Related
 
-- ![](/src/assets/images/CAM_Post.svg) [CAM PostProcess](/CAM_Post "CAM Post")
+- ![](/images/CAM_Post.svg) [CAM PostProcess](/CAM_Post "CAM Post")
 
 Retrieved from "<http://wiki.freecad.org/index.php?title=CAM_Postprocessor_Customization/en&oldid=1482925>"

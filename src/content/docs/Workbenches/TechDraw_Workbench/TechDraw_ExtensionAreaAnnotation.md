@@ -21,7 +21,7 @@ title: TechDraw ExtensionAreaAnnotation
 
 The **TechDraw ExtensionAreaAnnotation** tool calculates the area of selected faces and inserts an area annotation.
 
-![](/src/assets/images/TechDraw_ExtensionAreaAnnotationExample.png)
+![](/images/TechDraw_ExtensionAreaAnnotationExample.png)
 
 On the right the inserted area annotation
 
@@ -29,8 +29,8 @@ On the right the inserted area annotation
 
 1. Select one or more faces.
 2. There are several ways to invoke the tool:
-   - Press the ![](/src/assets/images/TechDraw_ExtensionAreaAnnotation.svg) [Calculate the area of selected faces](/TechDraw_ExtensionAreaAnnotation "TechDraw ExtensionAreaAnnotation") button.
-   - Select the **TechDraw → Extensions: Attributes/Modifications → ![](/src/assets/images/TechDraw_ExtensionAreaAnnotation.svg) Calculate the area of selected faces** option from the menu.
+   - Press the ![](/images/TechDraw_ExtensionAreaAnnotation.svg) [Calculate the area of selected faces](/TechDraw_ExtensionAreaAnnotation "TechDraw ExtensionAreaAnnotation") button.
+   - Select the **TechDraw → Extensions: Attributes/Modifications → ![](/images/TechDraw_ExtensionAreaAnnotation.svg) Calculate the area of selected faces** option from the menu.
 3. The total area of the faces is calculated and an area annotation is inserted.
 
 ## Limitation

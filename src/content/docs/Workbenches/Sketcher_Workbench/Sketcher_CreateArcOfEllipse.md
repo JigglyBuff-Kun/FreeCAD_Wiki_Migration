@@ -19,9 +19,9 @@ title: Sketcher CreateArcOfEllipse
 
 ## Description
 
-The ![](/src/assets/images/Sketcher_CreateArcOfEllipse.svg) [Sketcher CreateArcOfEllipse](/Sketcher_CreateArcOfEllipse "Sketcher CreateArcOfEllipse") tool creates an arc of ellipse.
+The ![](/images/Sketcher_CreateArcOfEllipse.svg) [Sketcher CreateArcOfEllipse](/Sketcher_CreateArcOfEllipse "Sketcher CreateArcOfEllipse") tool creates an arc of ellipse.
 
-![](/src/assets/images/Sketcher_CreateArcOfEllipse_Example.png)
+![](/images/Sketcher_CreateArcOfEllipse_Example.png)
 
 Arc of ellipse (white) with internal geometry (dark yellow)
 
@@ -30,8 +30,8 @@ Arc of ellipse (white) with internal geometry (dark yellow)
 See also: [Drawing aids](/Sketcher_Workbench#Drawing_aids "Sketcher Workbench").
 
 1. There are several ways to invoke the tool:
-   - Press the ![](/src/assets/images/Sketcher_CreateArcOfEllipse.svg) [Arc of ellipse by center, radius, endpoints](/Sketcher_CreateArcOfEllipse "Sketcher CreateArcOfEllipse") button.
-   - Select the **Sketcher → Sketcher geometries → ![](/src/assets/images/Sketcher_CreateArcOfEllipse.svg) Create arc of ellipse** option from the menu.
+   - Press the ![](/images/Sketcher_CreateArcOfEllipse.svg) [Arc of ellipse by center, radius, endpoints](/Sketcher_CreateArcOfEllipse "Sketcher CreateArcOfEllipse") button.
+   - Select the **Sketcher → Sketcher geometries → ![](/images/Sketcher_CreateArcOfEllipse.svg) Create arc of ellipse** option from the menu.
    - Use the keyboard shortcut: G then E, then A.
 2. The cursor changes to a cross with the tool icon.
 3. Pick the center of the arc.

@@ -8,7 +8,7 @@ As discussed earlier in this manual, FreeCAD supports various types of geometry.
 
 BREP offers several advantages. First, it defines surfaces using mathematical equations, enabling precise and accurate modeling. This precision is crucial for engineering applications where exact dimensions are required. Additionally, BREP provides smooth and detailed surfaces, unlike [polygon meshes](https://en.wikipedia.org/wiki/Polygon_mesh) that approximate curved surfaces with facets. This is similar to the difference between vector images, which scale without losing quality, and bitmap images, which can appear pixelated when enlarged. BREP retains comprehensive topological information about the object, including relationships between faces, edges, and vertices, which is essential for complex operations like Boolean calculations and filleting.
 
-![](/src/assets/images/Mesh_vs_brep.jpg)
+![](/images/Mesh_vs_brep.jpg)
 
 On the left a mesh representation and on the right a BREP representation
 
@@ -20,13 +20,13 @@ While other FreeCAD workbenches, such as the PartDesign and Surface Workbenches,
 
 To illustrate the use of the Part Workbench, we will model this table using only CSG operations (except the screws, for which we will use one of the addons, and the dimensions, which will see in the next chapter):
 
-![](/src/assets/images/Exercise_table_complete.jpg)
+![](/images/Exercise_table_complete.jpg)
 
 Let's create a new document (**Ctrl+N** or menu **File → New**) for our table design. The document is initially called "Unnamed" in the Model tab in the Combo View panel. If you save the document (**Ctrl+Shift+S** or menu **File → Save As**) as "table.FCStd", the document will be renamed "table", which more clearly identifies the project. We will use millimeters (mm) as our units of length. Feel free to change units by using the menu located on the lower right corner, according to your preference.
 
 Now we can switch to the Part Workbench and create our first table leg.
 
-- Press the ![](/src/assets/images/Part_Box.svg)**Cube** button
+- Press the ![](/images/Part_Box.svg)**Cube** button
 - Select the cube, then set the following properties (on the **Data** tab):
   - Length: 80 mm
   - Width: 80 mm
@@ -39,15 +39,15 @@ Now we can switch to the Part Workbench and create our first table leg.
 
 You should now see two tall cubes, one shifted 8mm from the other in both X and Y directions:
 
-![](/src/assets/images/Exercise_table_01.jpg)
+![](/images/Exercise_table_01.jpg)
 
-- Now we can subtract one cube from the other to get our L-shaped table leg: Select the original cube, part of which will remain after the Cut operation. Then, with the Ctrl key pressed, select Cube001, which will be subtracted from the first. Note that the selection order determines the result of the Cut operation. Press the ![](/src/assets/images/Part_Cut.svg) **Cut** button:
+- Now we can subtract one cube from the other to get our L-shaped table leg: Select the original cube, part of which will remain after the Cut operation. Then, with the Ctrl key pressed, select Cube001, which will be subtracted from the first. Note that the selection order determines the result of the Cut operation. Press the ![](/images/Part_Cut.svg) **Cut** button:
 
-![](/src/assets/images/Exercise_table_02.jpg)
+![](/images/Exercise_table_02.jpg)
 
 The newly created object, called "Cut", contains the two cubes we used as operands. In fact, the two cubes are still in the document, and have merely been hidden and grouped under the Cut object in the tree view. You can still select them by expanding the arrow next to the Cut object. If you wish, you can make them visible again by clicking the eye icons next to their object labels, in their right-click menus, or by changing their properties.
 
-You can also perform cut and other Boolean operations with the ![](/src/assets/images/Part_Boolean.svg) [Boolean](/Part_Boolean "Part Boolean") tool.
+You can also perform cut and other Boolean operations with the ![](/images/Part_Boolean.svg) [Boolean](/Part_Boolean "Part Boolean") tool.
 
 - Now let's create the three other table legs making six additional copies of our original cube. Since it is still copied on the clipboard, you can simply paste (Ctrl+V) 6 times. Change the position of each new cube as follows:
 
@@ -60,24 +60,24 @@ You can also perform cut and other Boolean operations with the ![](/src/assets/i
 
 - Now let's do three additional cut operations by selecting the "host" cube first and then the cube to be cut off. We now have four Cut objects:
 
-![](/src/assets/images/Exercise_table_03.jpg)
+![](/images/Exercise_table_03.jpg)
 
 Instead of duplicating the base cube six times, we could have duplicated the complete leg three times by copying and pasting the Cut object created above from our first two cubes and rotating each cut leg into their proper orientation. In FreeCAD there are often multiple ways to achieve the same result. This is important to remember, because you may find it easier or more efficient to use different techniques in different contexts.
 
-- We will now make holes for the screws, using the same Cut operation. Since we need 8 holes (two in each leg) we could make 8 objects to be subtracted. However, let's explore another way. We can make 4 cylinders, each intersecting a pair of legs. So, let's create them with the ![](/src/assets/images/Part_Cylinder.svg) **Cylinder** tool. You can make one cylinder and duplicate it three times. Give each cylinder a radius of 6 mm. This time, we will need to rotate the cylinders using the **Placement** property under the Data tab _(**Note:** change the Axis property_ before _setting the Angle, or the rotation will not be applied)_:
+- We will now make holes for the screws, using the same Cut operation. Since we need 8 holes (two in each leg) we could make 8 objects to be subtracted. However, let's explore another way. We can make 4 cylinders, each intersecting a pair of legs. So, let's create them with the ![](/images/Part_Cylinder.svg) **Cylinder** tool. You can make one cylinder and duplicate it three times. Give each cylinder a radius of 6 mm. This time, we will need to rotate the cylinders using the **Placement** property under the Data tab _(**Note:** change the Axis property_ before _setting the Angle, or the rotation will not be applied)_:
   - Cylinder: height: 1300 mm, angle: 90°, axis: x: 0, y: 1, z: 0, position: x: -10 mm, y: 40 mm, z: 720 mm
   - Cylinder001: height: 1300 mm, angle: 90°, axis: x: 0, y: 1, z: 0, position: x: -10 mm, y: 840 m, z: 720 mm
   - Cylinder002: height: 900 mm, angle: 90°, axis: x: -1, y: 0, z: 0, position: x: 40 mm, y: -10 mm, z: 700 m
   - Cylinder003: height: 900 mm, angle: 90°, axis: x: -1, y: 0, z: 0, position: x: 1240 mm, y: -10 mm, z: 700 mm
 
-![](/src/assets/images/Exercise_table_04.jpg)
+![](/images/Exercise_table_04.jpg)
 
 You will notice that the cylinders extend beyond the table legs. This is because, as in all solid-based 3D applications, boolean operations in FreeCAD sometimes fail when objects' faces are co-planar. We can avoid potential errors by putting the ends of the cylinders beyond the legs' surfaces.
 
 - Now let's do the subtractions to create holes in the table legs. Select the first leg; then, with Ctrl pressed, select one of the cylinders that intersects it and press the **Cut** button. The hole will be created in the leg, and the cylinder will be hidden. You can find it in the tree view by expanding the leg's new cut object.
 - Select the other leg that intersects by this hidden cylinder, and repeat the operation. This time, select the cylinder in the Tree view, since it is hidden in the 3D view. (Alternatively, you could make the cylinder visible again and select it in the 3D view.) Repeat this operation for the other legs until each of them has two holes:
 
-![](/src/assets/images/Exercise_table_05.jpg)
+![](/images/Exercise_table_05.jpg)
 
 As you can see, each leg is now described by a series of multiple operations nested in the Tree view. All the geometry we have created remains parametric, and you can change any parameter of any of the older operations any time. In FreeCAD, we refer to this series as "modeling history", since it records the history of the operations we performed.
 
@@ -94,11 +94,11 @@ Now that our five pieces are complete, it is a good time to give them more descr
 - We will now insert some screws with an addon. [Fasteners](https://github.com/shaise/FreeCAD_FastenersWB) is an extremely useful addon developed by a member of the FreeCAD community. You can find it on the [FreeCAD addons](https://github.com/FreeCAD/FreeCAD-addons) repository. Installing addon workbenches is easy! See the [Addon manager](/Std_AddonMgr "Std AddonMgr") for more information.
 - Once you have installed the Fasteners Workbench and restarted FreeCAD, select Fasteners in the workbenches dropdown list. Let's add a screw to one of the holes we modeled above. First, select the circular edge of a hole in one of the table legs:
 
-![](/src/assets/images/FastenerWorkbench.png)
+![](/images/FastenerWorkbench.png)
 
 - Then, select one of the screws provided in the Fasteners Workbench. For this exercise, let's use the **EN 1665 Hexagon bolt with flanges, heavy series**. The screw will be placed in and aligned with our hole; and the diameter will automatically match the size of our hole. Sometimes the orientation of the screw will need to be flipped, using its **Invert** property:
 
-![](/src/assets/images/FastenerWorkbench_sel.png)
+![](/images/FastenerWorkbench_sel.png)
 
 - Repeat this for the other seven holes, and our table is complete!
 
@@ -106,19 +106,19 @@ As mentioned earlier, you can achieve the same result by following different ste
 
 We will start in a similar way, by creating a cube with the following dimensions: length 80 mm, width 8 mm, and height 750 mm
 
-- Create a cube by selecting the ![](/src/assets/images/Part_Box.svg)**Cube** button and set the following properties (in the **Data** tab):
+- Create a cube by selecting the ![](/images/Part_Box.svg)**Cube** button and set the following properties (in the **Data** tab):
   - Length: 80 mm
   - Width: 8 mm
   - Height: 750 mm
-- Next, we will create a ![](/src/assets/images/Part_Cylinder.svg) **Cylinder** with the following properties:
+- Next, we will create a ![](/images/Part_Cylinder.svg) **Cylinder** with the following properties:
   - radius: 6 mm, height: 100 mm, angle: 90°, axis: x: 1, y: 0, z: 0, position: x: 40 mm, y: 40 mm, z: 720 mm
-- Next, we will apply the Cut operation. Select the cube; then, hold the Ctrl key and select the cylinder. Keep in mind that the order is important to define which one stays. Then, press the ![](/src/assets/images/Part_Cut.svg) **Cut** button.
+- Next, we will apply the Cut operation. Select the cube; then, hold the Ctrl key and select the cylinder. Keep in mind that the order is important to define which one stays. Then, press the ![](/images/Part_Cut.svg) **Cut** button.
 - We will then copy and paste the cut object by pressing **Ctrl+C** then **Ctrl+V** (or menu **Edit → Copy** and **Paste**):
   - angle: 90°, axis: x: 0, y: 0, z: 1, position: x: 8 mm
-- Select the two objects and apply the ![](/src/assets/images/Part_Fuse.svg) **Fuse** tool. Now the two objects are fused, and we have an L-shaped table leg.
+- Select the two objects and apply the ![](/images/Part_Fuse.svg) **Fuse** tool. Now the two objects are fused, and we have an L-shaped table leg.
 - Copy and paste the fused leg, positioning it at
   - angle: 90°, axis: x: 0, y: 0, z: 1, position y: 800 mm.
-- Select the two legs and create a ![](/src/assets/images/Part_Compound.svg) **Compound**.
+- Select the two legs and create a ![](/images/Part_Compound.svg) **Compound**.
 - Copy and paste the compound, positioning it at:
   - angle: 180°, axis: x:0, y:0, z:1, position x: 1200 mm, y: 800 mm. We have our legs.
 
@@ -132,7 +132,7 @@ Let's create the table top.
 
 Now, continue adding screws in the Fasteners Workbench as before.
 
-![](/src/assets/images/Tabble_alternative_complete.png)
+![](/images/Tabble_alternative_complete.png)
 
 **The internal structure of Part objects**
 

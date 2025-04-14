@@ -21,7 +21,7 @@ title: TechDraw Quadranten
 
 Das Werkzeug **TechDraw Quadranten** fügt einer oder mehreren ausgewählten Kanten der Länge nach drei [Hilfspunkte](/TechDraw_CosmeticVertex/de "TechDraw CosmeticVertex/de") hinzu. Die Punkte werden bei 25%, 50% und 75% der Länge jeder Kante positioniert. Für eine Kreiskante ergeben sich so Hilfspunkte bei 90°, 180° and 270°, zusätzlich zu ihrem geometrischen Knotenpunkt bei 0°.
 
-![](/src/assets/images/TechDraw_CosmeticQuadrant_Sample.png)
+![](/images/TechDraw_CosmeticQuadrant_Sample.png)
 
 Hilfspunkte an Quadrantengrenzpunkten eines Kreises
 
@@ -29,8 +29,8 @@ Hilfspunkte an Quadrantengrenzpunkten eines Kreises
 
 1. Eine oder mehrere Kanten in einer Ansicht auswählen. Jede Kante kann ausgewählt werden, nicht nur Kreise.
 2. Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
-   - Die Schaltfläche ![](/src/assets/images/TechDraw_Quadrants.svg) Quadrantengrenzpunkte hinzufügen drücken.
-   - Den Menüeintrag **TechDraw → Knoten hinzufügen → ![](/src/assets/images/TechDraw_Quadrants.svg) Quadrantengrenzpunkte hinzufügen** auswählen.
+   - Die Schaltfläche ![](/images/TechDraw_Quadrants.svg) Quadrantengrenzpunkte hinzufügen drücken.
+   - Den Menüeintrag **TechDraw → Knoten hinzufügen → ![](/images/TechDraw_Quadrants.svg) Quadrantengrenzpunkte hinzufügen** auswählen.
 
 ## Hinweise
 

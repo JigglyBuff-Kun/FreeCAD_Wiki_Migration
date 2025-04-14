@@ -23,9 +23,9 @@ A [PartDesign Body](/PartDesign_Body "PartDesign Body") is the base element to c
 
 The Body provides an **Origin** object which includes local X, Y, and Z axes, and standard planes. These elements can be used as references to attach [sketches](/Sketch "Sketch") and [primitive objects](/PartDesign_CompPrimitiveAdditive "PartDesign CompPrimitiveAdditive").
 
-Do not confuse the ![](/src/assets/images/PartDesign_Body.svg) [PartDesign Body](/PartDesign_Body "PartDesign Body") with the ![](/src/assets/images/Std_Part.svg) [Std Part](/Std_Part "Std Part"). The first one is a specific object used in the ![](/src/assets/images/Workbench_PartDesign.svg) [PartDesign Workbench](/PartDesign_Workbench "PartDesign Workbench"), intended to model a [single contiguous solid](/PartDesign_Body#Single_contiguous_solid "PartDesign Body") by means of [PartDesign Features](/PartDesign_Feature "PartDesign Feature"). The [Std Part](/Std_Part "Std Part") is a grouping object intended to create [assemblies](/Assembly "Assembly"); it is not used for modelling, just to arrange different objects in space. Multiple bodies, and other [Std Parts](/Std_Part "Std Part"), can be placed inside a single [Std Part](/Std_Part "Std Part") to create a complex assembly.
+Do not confuse the ![](/images/PartDesign_Body.svg) [PartDesign Body](/PartDesign_Body "PartDesign Body") with the ![](/images/Std_Part.svg) [Std Part](/Std_Part "Std Part"). The first one is a specific object used in the ![](/images/Workbench_PartDesign.svg) [PartDesign Workbench](/PartDesign_Workbench "PartDesign Workbench"), intended to model a [single contiguous solid](/PartDesign_Body#Single_contiguous_solid "PartDesign Body") by means of [PartDesign Features](/PartDesign_Feature "PartDesign Feature"). The [Std Part](/Std_Part "Std Part") is a grouping object intended to create [assemblies](/Assembly "Assembly"); it is not used for modelling, just to arrange different objects in space. Multiple bodies, and other [Std Parts](/Std_Part "Std Part"), can be placed inside a single [Std Part](/Std_Part "Std Part") to create a complex assembly.
 
-![](/src/assets/images/PartDesign_Body_tree.png) ![](/src/assets/images/PartDesign_Body_example.png)
+![](/images/PartDesign_Body_tree.png) ![](/images/PartDesign_Body_example.png)
 
 Left: the tree view showing the features that sequentially produce the final shape of the object. Right: the final object visible in the [3D view](/3D_view "3D view").
 
@@ -33,17 +33,17 @@ Left: the tree view showing the features that sequentially produce the final sha
 
 If no previous solid is selected:
 
-1. Press the ![](/src/assets/images/PartDesign_Body.svg) [Body](/PartDesign_Body "PartDesign Body") button. An empty Body is created and automatically becomes _[active](/PartDesign_Body#Active_status "PartDesign Body")_.
-2. Now you can press ![](/src/assets/images/PartDesign_NewSketch.svg) [New sketch](/PartDesign_NewSketch "PartDesign NewSketch") to create a [sketch](/Sketch "Sketch") in the Body that can be used with ![](/src/assets/images/PartDesign_Pad.svg) [Pad](/PartDesign_Pad "PartDesign Pad").
-3. Alternatively, add a primitive [PartDesign Feature](/PartDesign_Feature "PartDesign Feature"), for example, ![](/src/assets/images/PartDesign_AdditiveBox.svg) [Additive box](/PartDesign_AdditiveBox "PartDesign AdditiveBox").
+1. Press the ![](/images/PartDesign_Body.svg) [Body](/PartDesign_Body "PartDesign Body") button. An empty Body is created and automatically becomes _[active](/PartDesign_Body#Active_status "PartDesign Body")_.
+2. Now you can press ![](/images/PartDesign_NewSketch.svg) [New sketch](/PartDesign_NewSketch "PartDesign NewSketch") to create a [sketch](/Sketch "Sketch") in the Body that can be used with ![](/images/PartDesign_Pad.svg) [Pad](/PartDesign_Pad "PartDesign Pad").
+3. Alternatively, add a primitive [PartDesign Feature](/PartDesign_Feature "PartDesign Feature"), for example, ![](/images/PartDesign_AdditiveBox.svg) [Additive box](/PartDesign_AdditiveBox "PartDesign AdditiveBox").
 
 If a solid object is selected:
 
-1. Press the ![](/src/assets/images/PartDesign_Body.svg) [Body](/PartDesign_Body "PartDesign Body") button. A new Body is created containing a single **Base Feature**. This Base Feature element is a simple reference to another object previously created or imported into the document. See [Base Feature](/PartDesign_Body#Base_Feature "PartDesign Body") for more information. An existing Body or [PartDesign Feature](/PartDesign_Feature "PartDesign Feature") cannot be selected when pressing ![](/src/assets/images/PartDesign_Body.svg) [Body](/PartDesign_Body "PartDesign Body").
+1. Press the ![](/images/PartDesign_Body.svg) [Body](/PartDesign_Body "PartDesign Body") button. A new Body is created containing a single **Base Feature**. This Base Feature element is a simple reference to another object previously created or imported into the document. See [Base Feature](/PartDesign_Body#Base_Feature "PartDesign Body") for more information. An existing Body or [PartDesign Feature](/PartDesign_Feature "PartDesign Feature") cannot be selected when pressing ![](/images/PartDesign_Body.svg) [Body](/PartDesign_Body "PartDesign Body").
 
 ### Notes
 
-- If no Body currently exists when ![](/src/assets/images/PartDesign_NewSketch.svg) [New sketch](/PartDesign_NewSketch "PartDesign NewSketch") is pressed, a new Body will be automatically created. If a Body already exists, it has to be made active before using ![](/src/assets/images/PartDesign_NewSketch.svg) [New sketch](/PartDesign_NewSketch "PartDesign NewSketch").
+- If no Body currently exists when ![](/images/PartDesign_NewSketch.svg) [New sketch](/PartDesign_NewSketch "PartDesign NewSketch") is pressed, a new Body will be automatically created. If a Body already exists, it has to be made active before using ![](/images/PartDesign_NewSketch.svg) [New sketch](/PartDesign_NewSketch "PartDesign NewSketch").
 - Double-click the Body in the [tree view](/Tree_view "Tree view") or open the context menu (right-click) and select **Toggle active body** to activate or deactivate the Body. If another Body is active, it will be deactivated. See [active status](/PartDesign_Body#Active_status "PartDesign Body") for more information.
 
 ## Properties
@@ -84,7 +84,7 @@ A PartDesign Body is intended to model a single contiguous solid. The meaning of
 
 Once these contiguous solids are put together in some type of arrangement, then they become an "assembly". In an assembly, the objects are not fused together, but they are simply "stacked" or placed next to each other, and remain individual parts.
 
-![](/src/assets/images/PartDesign_Body_contiguous_separate.png) ![](/src/assets/images/PartDesign_Body_contiguous_assembly.png)
+![](/images/PartDesign_Body_contiguous_separate.png) ![](/images/PartDesign_Body_contiguous_assembly.png)
 
 Left: three individual contiguous solids, each of them modelled by a PartDesign Body. Right: the individual Bodies put together in an assembly.
 
@@ -94,11 +94,11 @@ A PartDesign Body is intended to work by creating an initial solid, either from 
 
 A PartDesign Body will perform an automatic [fusion](/Part_Fuse "Part Fuse") (union) of the solid elements inside of it. This means that (1) partial solids should be touching when created, and (2) disconnected solids are not allowed.
 
-![](/src/assets/images/PartDesign_Body_two_intersection.png) ![](/src/assets/images/PartDesign_Body_two_fusion.png)
+![](/images/PartDesign_Body_two_intersection.png) ![](/images/PartDesign_Body_two_fusion.png)
 
 Left: two individual solids that intersect each other. Right: a single PartDesign Body with two [additive features](/PartDesign_Feature "PartDesign Feature"); they are automatically fused together, so instead of intersecting, they form a single contiguous solid.
 
-![](/src/assets/images/PartDesign_Body_non-contiguous.png)
+![](/images/PartDesign_Body_non-contiguous.png)
 
 Left: two disconnected solids; this isn't a valid PartDesign Body. Right: two touching solids; this results in a valid PartDesign Body. The newer [feature](/PartDesign_Feature "PartDesign Feature") should always contact or intersect the previous feature so that it is fused to it, and becomes a single contiguous solid.
 
@@ -117,7 +117,7 @@ To activate or de-activate a Body:
 
 Activating a Body automatically switches to the [PartDesign Workbench](/PartDesign_Workbench "PartDesign Workbench"). Only a single Body can be active at a time.
 
-![](/src/assets/images/PartDesign_Body_active.png)
+![](/images/PartDesign_Body_active.png)
 
 Document with two PartDesign Bodies, of which the second one is active.
 
@@ -126,9 +126,9 @@ Document with two PartDesign Bodies, of which the second one is active.
 The Origin consists of the three standard axes (X, Y, Z) and three standard planes (XY, XZ and YZ). [Sketches](/Sketch "Sketch") and other objects can be attached to these elements when creating them.
 
 1. Create the Body.
-2. If the Body is selected in the [tree view](/Tree_view "Tree view"), press ![](/src/assets/images/PartDesign_NewSketch.svg) [New sketch](/PartDesign_NewSketch "PartDesign NewSketch"); the [task panel](/Task_panel "Task panel") will open to allow selecting one of the planes.
+2. If the Body is selected in the [tree view](/Tree_view "Tree view"), press ![](/images/PartDesign_NewSketch.svg) [New sketch](/PartDesign_NewSketch "PartDesign NewSketch"); the [task panel](/Task_panel "Task panel") will open to allow selecting one of the planes.
 3. If the Body is not selected, select the Origin instead and make it visible in the [3D view](/3D_view "3D view") by pressing the Space bar in the keyboard. Also expand the Origin object to see the axes and planes.
-4. Select one of the planes, either in the [tree view](/Tree_view "Tree view") or in the [3D view](/3D_view "3D view"), then press ![](/src/assets/images/PartDesign_NewSketch.svg) [New sketch](/PartDesign_NewSketch "PartDesign NewSketch"). The sketch will be created on the chosen plane.
+4. Select one of the planes, either in the [tree view](/Tree_view "Tree view") or in the [3D view](/3D_view "3D view"), then press ![](/images/PartDesign_NewSketch.svg) [New sketch](/PartDesign_NewSketch "PartDesign NewSketch"). The sketch will be created on the chosen plane.
 
 The same process can be used when creating auxiliary datum geometry like [PartDesign Lines](/PartDesign_Line "PartDesign Line"), [PartDesign Planes](/PartDesign_Plane "PartDesign Plane"), and [PartDesign CoordinateSystems](/PartDesign_CoordinateSystem "PartDesign CoordinateSystem").
 
@@ -136,7 +136,7 @@ _Note:_ the Origin is an [App Origin](/App_OriginGroupExtension "App OriginGroup
 
 _Note 2:_ all elements inside the Body are referenced to the Body's Origin which means that the Body can be moved and rotated in reference to the global coordinate system without affecting the placement of the elements inside.
 
-![](/src/assets/images/PartDesign_Body_Origin_tree.png) ![](/src/assets/images/PartDesign_Body_Origin_view.png)
+![](/images/PartDesign_Body_Origin_tree.png) ![](/images/PartDesign_Body_Origin_view.png)
 
 Left: PartDesign Body Origin in the [tree view](/Tree_view "Tree view"). Right: representation of the Origin elements in the [3D view](/3D_view "3D view").
 
@@ -144,16 +144,16 @@ Left: PartDesign Body Origin in the [tree view](/Tree_view "Tree view"). Right: 
 
 The Base Feature is the first [PartDesign Feature](/PartDesign_Feature "PartDesign Feature") in the Body when the Body is based on another solid shape. This solid can be created by any workbench, or imported from an external file, for example, a STEP file.
 
-![](/src/assets/images/PartDesign_Body_BaseFeature_tree.png)
+![](/images/PartDesign_Body_BaseFeature_tree.png)
 
 Two PartDesign Bodies, each with a single Base Feature taken from a previously created solid.
 
 To create the Base Feature:
 
 1. select a solid shape external to any Body, and
-2. press ![](/src/assets/images/PartDesign_Body.svg) [Body](/PartDesign_Body "PartDesign Body"); this will create a new Body with a single Base Feature.
+2. press ![](/images/PartDesign_Body.svg) [Body](/PartDesign_Body "PartDesign Body"); this will create a new Body with a single Base Feature.
 
-_Note:_ you can't select an existing Body, or any of its [features](/PartDesign_Feature "PartDesign Feature"), when pressing ![](/src/assets/images/PartDesign_Body.svg) [Body](/PartDesign_Body "PartDesign Body").
+_Note:_ you can't select an existing Body, or any of its [features](/PartDesign_Feature "PartDesign Feature"), when pressing ![](/images/PartDesign_Body.svg) [Body](/PartDesign_Body "PartDesign Body").
 
 If you already have a Body, you can create the Base Feature in this way:
 
@@ -166,7 +166,7 @@ _Note 2:_ if the Body already has several features, when you drag and drop the e
 
 The Base Feature is entirely optional; it is only present when including an object from outside the Body. If no external solid is included, you can still build your shape using [sketches](/Sketch "Sketch"), [pads](/PartDesign_Pad "PartDesign Pad"), [primitive objects](/PartDesign_CompPrimitiveAdditive "PartDesign CompPrimitiveAdditive"), and other [PartDesign Features](/PartDesign_Feature "PartDesign Feature"). In this case the Data**Base Feature** property remains empty.
 
-![](/src/assets/images/PartDesign_Body_BaseFeature_Tip.svg)
+![](/images/PartDesign_Body_BaseFeature_Tip.svg)
 
 Left: PartDesign Body with a Base Feature that is taken from an external solid object, and many subsequent [PartDesign Features](/PartDesign_Feature "PartDesign Feature") on top. Right: Body which doesn't have an explicit Base Feature.
 
@@ -174,19 +174,19 @@ _Note:_ If another PartDesign body is selected as a BaseFeature it must have a s
 
 ### Tip
 
-The Tip is the [PartDesign Feature](/PartDesign_Feature "PartDesign Feature") that is exposed outside the Body; that is, if another tool from any workbench (for example, ![](/src/assets/images/Part_SimpleCopy.svg) [Part SimpleCopy](/Part_SimpleCopy "Part SimpleCopy") or ![](/src/assets/images/Part_Cut.svg) [Part Cut](/Part_Cut "Part Cut")) needs to use the shape of the Body, it will use the shape of the Tip. Said in another way, the Tip is the final representation of the Body as if the parametric history didn't exist.
+The Tip is the [PartDesign Feature](/PartDesign_Feature "PartDesign Feature") that is exposed outside the Body; that is, if another tool from any workbench (for example, ![](/images/Part_SimpleCopy.svg) [Part SimpleCopy](/Part_SimpleCopy "Part SimpleCopy") or ![](/images/Part_Cut.svg) [Part Cut](/Part_Cut "Part Cut")) needs to use the shape of the Body, it will use the shape of the Tip. Said in another way, the Tip is the final representation of the Body as if the parametric history didn't exist.
 
-![](/src/assets/images/PartDesign_Body_Tip_final.svg)
+![](/images/PartDesign_Body_Tip_final.svg)
 
 Left: PartDesign Body with full parametric history including intermediate features. Right: the Tip is the final shape that can be exported from the Body, while omitting the model's history.
 
-The Tip is automatically set to the last feature created in the Body. Nevertheless, it can also be set to any of the intermediate features by opening the [tree view](/Tree_view "Tree view") context menu (right-click) and choosing **![](/src/assets/images/PartDesign_MoveTip.svg) [Set tip](/PartDesign_MoveTip "PartDesign MoveTip")**, or by changing the Body's Data**Tip** value in the [property editor](/Property_editor "Property editor").
+The Tip is automatically set to the last feature created in the Body. Nevertheless, it can also be set to any of the intermediate features by opening the [tree view](/Tree_view "Tree view") context menu (right-click) and choosing **![](/images/PartDesign_MoveTip.svg) [Set tip](/PartDesign_MoveTip "PartDesign MoveTip")**, or by changing the Body's Data**Tip** value in the [property editor](/Property_editor "Property editor").
 
 Changing the Tip in effect rolls back its history, making it possible to add features that should have been added earlier. It also exposes a different shape to external tools.
 
 In the [tree view](/Tree_view "Tree view"), the Tip of the Body is recognized by the [PartDesign Feature](/PartDesign_Feature "PartDesign Feature") that has an icon overlay consisting of a white arrow inside a green circle.
 
-![](/src/assets/images/PartDesign_Body_Tip_tree.png)
+![](/images/PartDesign_Body_Tip_tree.png)
 
 Two PartDesign Bodies, each of them with [PartDesign Features](/PartDesign_Feature "PartDesign Feature"). The Tip is the last feature in them, and is marked with an overlay symbol.
 
@@ -198,7 +198,7 @@ Therefore, for interactions with other workbenches, only the Body itself should 
 
 Once the sub-elements have been used with other workbenches, View**Display Mode Body** can be set back to `Through`.
 
-![](/src/assets/images/PartDesign_Body_Tip_Display_mode.svg)
+![](/images/PartDesign_Body_Tip_Display_mode.svg)
 
 Left: when "Display Mode Body" is set to `Through` it is possible to select and perform operations with the individual [PartDesign Features](/PartDesign_Feature "PartDesign Feature"); in general, this is not recommended. Right: when "Display Mode Body" is set to `Tip` all selections and operations done on the Body will be done on the Tip, making sure only the final shape of the Body is exposed.
 
@@ -208,7 +208,7 @@ The Body's visibility supersedes the visibility of any object it contains. If th
 
 Multiple [Sketches](/Sketch "Sketch") may be visible at one time, but only one [PartDesign Feature](/PartDesign_Feature "PartDesign Feature") (solid result) can be visible at a time. Selecting a hidden feature and pressing the Space bar in the keyboard will make it visible, and automatically hide the previously visible feature.
 
-![](/src/assets/images/PartDesign_Body_Visibility.png)
+![](/images/PartDesign_Body_Visibility.png)
 
 PartDesign Body: multiple [Sketches](/Sketch "Sketch") may be visible simultaneously, but only one solid [PartDesign Feature](/PartDesign_Feature "PartDesign Feature") may be visible at one time, whether it is the Tip or not.
 
@@ -220,7 +220,7 @@ PartDesign Body: multiple [Sketches](/Sketch "Sketch") may be visible simultaneo
 
 A [PartDesign Feature](/PartDesign_Feature "PartDesign Feature") that is not attached will be shown with a red overlay symbol next to their icon in the [tree view](/Tree_view "Tree view").
 
-![](/src/assets/images/PartDesign_Body_Feature_attachment.png)
+![](/images/PartDesign_Body_Feature_attachment.png)
 
 PartDesign Body: [PartDesign Features](/PartDesign_Feature "PartDesign Feature") that are not attached to a plane or coordinate system will be shown with an overlay symbol next to their icon in the [tree view](/Tree_view "Tree view").
 
@@ -228,7 +228,7 @@ PartDesign Body: [PartDesign Features](/PartDesign_Feature "PartDesign Feature")
 
 A [PartDesign Body](/PartDesign_Body "PartDesign Body") is formally an instance of the class `PartDesign::Body`, whose parent is [Part Feature](/Part_Feature "Part Feature") (`Part::Feature` class) through the intermediate `Part::BodyBase` class, and is augmented with an Origin extension.
 
-![](/src/assets/images/FreeCAD_core_objects.svg)
+![](/images/FreeCAD_core_objects.svg)
 
 Simplified diagram of the relationships between the core objects in the program. The `PartDesign::Body` object is intended to build parametric 3D solids, and thus is derived from the basic `Part::Feature` object, and has an Origin to control the placement of the features used inside of it.
 

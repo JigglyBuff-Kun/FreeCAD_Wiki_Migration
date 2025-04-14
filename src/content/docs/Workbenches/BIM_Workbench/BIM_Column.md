@@ -28,8 +28,8 @@ The **BIM Column** tool creates a **Column** object, a vertical structure elemen
 ## Usage
 
 1. There are several ways to invoke the tool:
-   - Press the ![](/src/assets/images/BIM_Column.svg) [Column](/BIM_Column "BIM Column") button.
-   - Select the **3D/BIM → ![](/src/assets/images/BIM_Column.svg) Column** option from the menu.
+   - Press the ![](/images/BIM_Column.svg) [Column](/BIM_Column "BIM Column") button.
+   - Select the **3D/BIM → ![](/images/BIM_Column.svg) Column** option from the menu.
    - Use the keyboard shortcut: C then O.
 2. ...
 

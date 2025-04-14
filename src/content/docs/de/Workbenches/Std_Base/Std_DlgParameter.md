@@ -23,13 +23,13 @@ Der Befehl **Std ParameterDialog** öffnet den Parametereditor. Im Parameteredit
 
 Mit dem Parametereditor zu arbeiten erfordert etwas Erfahrung. Für die üblichsten Parameter sollte der benutzerfreundlichere [Voreinstellungseditor](/Preferences_Editor/de "Preferences Editor/de") verwendet werden.
 
-![](/src/assets/images/Std_DlgParameter_dialog.png)
+![](/images/Std_DlgParameter_dialog.png)
 
 Das Dialogfenster des Parametereditors
 
 ## Anwendung
 
-1. Auswahl des Menüeintrags **Werkzeuge → ![](/src/assets/images/Std_DlgParameter.svg) Parameter bearbeiten...**.
+1. Auswahl des Menüeintrags **Werkzeuge → ![](/images/Std_DlgParameter.svg) Parameter bearbeiten...**.
 2. Das Dialogfenster **Parametereditor** wird geöffnet. Siehe [Optionen](#Optionen) für weitere Informationen.
 3. Optional drückt man die Schaltfläche Speichern, um die Datei user.cfg sofort zu aktualisieren. Dies ist nicht zwingend erforderlich, da FreeCAD die Datei automatisch aktualisiert, wenn die Anwendung geschlossen wird.
 4. Schaltfläche Schließen drücken um das Dialogfenster zu schließen und den Befehl zu beenden.

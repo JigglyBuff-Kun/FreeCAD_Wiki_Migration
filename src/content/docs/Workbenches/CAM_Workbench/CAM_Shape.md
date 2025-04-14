@@ -26,20 +26,20 @@ This documentation is not finished. Please help and contribute documentation.Gui
 
 ## Description
 
-The tool ![](/src/assets/images/CAM_Shape.svg) [Shape](/CAM_Shape "CAM Shape") doesn't match the current CAM workflow. For that reason it's moved to the experimental features.
+The tool ![](/images/CAM_Shape.svg) [Shape](/CAM_Shape "CAM Shape") doesn't match the current CAM workflow. For that reason it's moved to the experimental features.
 
 This tool generates tool-paths from CAM Object edges.
 
 Tool-paths are uncompensated for tool radius. There is no Tool controller associated with the generated tool-paths .
 
-![](/src/assets/images/FromShape_image_0.png)
+![](/images/FromShape_image_0.png)
 
 ## Usage
 
 All edges associated with the 3D Model selection will be included.
 
 1. Select edges by selecting the entire object from the [3D view](/3D_view "3D view") or [Tree view](/Tree_view "Tree view"), or by selecting individual edges, or by Faces from the [3D view](/3D_view "3D view").
-2. Press the ![](/src/assets/images/CAM_Shape.svg) [From Shape](/CAM_Shape "CAM Shape") button.
+2. Press the ![](/images/CAM_Shape.svg) [From Shape](/CAM_Shape "CAM Shape") button.
 
 The output tool-path is added outside the CAM Job.
 

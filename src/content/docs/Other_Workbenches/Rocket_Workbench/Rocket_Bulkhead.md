@@ -24,8 +24,8 @@ A bulkhead is a solid section of material used to close off a section of body tu
 ## Usage
 
 1. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/Rocket_Bulkhead.svg) [Bulkhead](/Rocket_Bulkhead "Rocket Bulkhead") button.
-   - Select the **Rocket → ![](/src/assets/images/Rocket_Bulkhead.svg) Bulkhead** option from the menu.
+   - Press the ![](/images/Rocket_Bulkhead.svg) [Bulkhead](/Rocket_Bulkhead "Rocket Bulkhead") button.
+   - Select the **Rocket → ![](/images/Rocket_Bulkhead.svg) Bulkhead** option from the menu.
    - Double click on a Bulkhead object in the [Tree view](/Tree_view "Tree view").
 2. Set options and press OK.
 
@@ -37,7 +37,7 @@ Bulkheads may include a step.
 
 A step may be thought of as an additional bulkhead of smaller diameter stacked on top of the original bulkhead. The most common use is to cap the end of a body tube, such as for an electronics bay. In this case the outer diameter of the bulkhead would match the outer diameter of the body tube, and the outer diameter of the step would match the inner diameter of the body tube.
 
-![](/src/assets/images/Stepped_Bulkhead.png)
+![](/images/Stepped_Bulkhead.png)
 
 A stepped bulkhead used to cap a body tube
 
@@ -45,7 +45,7 @@ A stepped bulkhead used to cap a body tube
 
 A bulkhead may require holes for a variety of reasons, such as for attaching an eye hook. This tool allows you to specify one or more identical holes applied in a radial pattern.
 
-![](/src/assets/images/Bulkhead_2.png)
+![](/images/Bulkhead_2.png)
 
 A stepped bulkhead with 4 holes
 

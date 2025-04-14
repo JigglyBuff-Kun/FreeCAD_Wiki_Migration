@@ -30,7 +30,7 @@ title: Linie Schneiden
 
 Dieses kleine Makro schneidet eine Linie und erzeugt einen Punkt , Linien , zwei Farben der Linie.
 
-![](/src/assets/images/Macro_cutLine_00.png)
+![](/images/Macro_cutLine_00.png)
 
 Linieschneiden
 
@@ -49,7 +49,7 @@ Mit bisColor werden die Linien auf der ursprünglichen Linie durch eine weiße L
 
 ## Skript
 
-ToolBar Icon ![](/src/assets/images/Macro_Cut_Line.png)
+ToolBar Icon ![](/images/Macro_Cut_Line.png)
 
 **Macro_cutLine.FCMacro**
 

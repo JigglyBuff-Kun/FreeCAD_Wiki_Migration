@@ -19,14 +19,14 @@ title: Spreadsheet AusrichtenLinks
 
 ## Beschreibung
 
-Das Werkzeug ![](/src/assets/images/Spreadsheet_AlignLeft.svg) **Spreadsheet AusrichtenLinks** richtet den Inhalt ausgewählter Zellen linksbündig aus.
+Das Werkzeug ![](/images/Spreadsheet_AlignLeft.svg) **Spreadsheet AusrichtenLinks** richtet den Inhalt ausgewählter Zellen linksbündig aus.
 
 ## Anwendung
 
 1. Sicherstellen, dass eine [Kalkulationstabelle](/Spreadsheet_CreateSheet/de "Spreadsheet CreateSheet/de") aktiviert ist.
 2. Eine oder mehrere Zellen auswählen.
 3. Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
-   - Die Schaltfläche ![](/src/assets/images/Spreadsheet_AlignLeft.svg) Linksbündig drücken.
-   - Den Menüeintrag **Kalkulationstabelle → Ausrichtung → ![](/src/assets/images/Spreadsheet_AlignLeft.svg) Linksbündig** auswählen.
+   - Die Schaltfläche ![](/images/Spreadsheet_AlignLeft.svg) Linksbündig drücken.
+   - Den Menüeintrag **Kalkulationstabelle → Ausrichtung → ![](/images/Spreadsheet_AlignLeft.svg) Linksbündig** auswählen.
 
 Retrieved from "<http://wiki.freecad.org/index.php?title=Spreadsheet_AlignLeft/de&oldid=1507620>"

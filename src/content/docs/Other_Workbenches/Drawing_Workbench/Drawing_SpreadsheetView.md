@@ -21,12 +21,12 @@ title: Drawing SpreadsheetView
 
 This tool allows you to place a view of a selected [spreadsheet](/Spreadsheet_Workbench "Spreadsheet Workbench") on a [drawing](/Drawing_Workbench "Drawing Workbench") sheet.
 
-![](/src/assets/images/Drawing_spreadsheetview.jpg)
+![](/images/Drawing_spreadsheetview.jpg)
 
 ## Usage
 
 1. Select a spreadsheet you wish to put on a drawing sheet
-2. Press the ![](/src/assets/images/Drawing_SpreadsheetView.png) [Drawing SpreadsheetView](/Drawing_SpreadsheetView "Drawing SpreadsheetView") button
+2. Press the ![](/images/Drawing_SpreadsheetView.png) [Drawing SpreadsheetView](/Drawing_SpreadsheetView "Drawing SpreadsheetView") button
 
 ## Properties
 

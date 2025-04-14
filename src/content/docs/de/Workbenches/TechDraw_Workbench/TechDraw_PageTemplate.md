@@ -23,7 +23,7 @@ Das Werkzeug **TechDraw Seitenvorlage** erstellt ein neues Page-Objekt (Zeichnun
 
 Das Startverzeichnis für das Dialogfeld kann in den [TechDraw Einstellungen](/TechDraw_Preferences/de "TechDraw Preferences/de") festgelegt werden.
 
-![](/src/assets/images/A4_Landscape_ISO7200_Pep.svg)
+![](/images/A4_Landscape_ISO7200_Pep.svg)
 
 Eine der Vorlagen, die TechDraw mitgeliefert: A4_Landscape_ISO7200_Pep.svg
 
@@ -31,8 +31,8 @@ Eine der Vorlagen, die TechDraw mitgeliefert: A4_Landscape_ISO7200_Pep.svg
 
 1. Ein aktives Dokument muss vorhanden sein.
 2. Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
-   - Die Schaltfläche ![](/src/assets/images/TechDraw_PageTemplate.svg) Neues Zeichnungsblatt aus einer Vorlage erstellen drücken.
-   - Den Menüeintrag **TechDraw → Page → ![](/src/assets/images/TechDraw_PageTemplate.svg) Neues Zeichnungsblatt aus einer Vorlage erstellen** auswählen.
+   - Die Schaltfläche ![](/images/TechDraw_PageTemplate.svg) Neues Zeichnungsblatt aus einer Vorlage erstellen drücken.
+   - Den Menüeintrag **TechDraw → Page → ![](/images/TechDraw_PageTemplate.svg) Neues Zeichnungsblatt aus einer Vorlage erstellen** auswählen.
 
 ## Eigenschaften
 

@@ -19,17 +19,17 @@ title: Sketcher AbgerundetesRechteckErstellen
 
 ## Beschreibung
 
-Das Werkzeug ![](/src/assets/images/Sketcher_CreateOblong.svg) Sketcher AbgerundetesRechteckErstellen erstellt ein abgerundetes Rechteck. [eingeführt in 1.0](/Release_notes_1.0/de "Release notes 1.0/de"): Dies ist dasselbe Werkzeug wie [Sketcher RechteckErstellen](/Sketcher_CreateRectangle/de "Sketcher CreateRectangle/de") aber mit einem anderen Startmodus.
+Das Werkzeug ![](/images/Sketcher_CreateOblong.svg) Sketcher AbgerundetesRechteckErstellen erstellt ein abgerundetes Rechteck. [eingeführt in 1.0](/Release_notes_1.0/de "Release notes 1.0/de"): Dies ist dasselbe Werkzeug wie [Sketcher RechteckErstellen](/Sketcher_CreateRectangle/de "Sketcher CreateRectangle/de") aber mit einem anderen Startmodus.
 
-![](/src/assets/images/SketcherCreateRoundedRectangleExample.png)
+![](/images/SketcherCreateRoundedRectangleExample.png)
 
 ## Anwendung
 
 Siehe auch: [Zeichnungshilfen](/Sketcher_Workbench/de#Zeichnungshilfen "Sketcher Workbench/de").
 
 1. Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
-   - Die Schaltfläche ![](/src/assets/images/Sketcher_CreateOblong.svg) Abgerundetes Rechteck drücken.
-   - Den Menüeintrag **Skizze → Skizzengeometrien → ![](/src/assets/images/Sketcher_CreateOblong.svg) Abgerundetes Rechteck erstellen** auswählen.
+   - Die Schaltfläche ![](/images/Sketcher_CreateOblong.svg) Abgerundetes Rechteck drücken.
+   - Den Menüeintrag **Skizze → Skizzengeometrien → ![](/images/Sketcher_CreateOblong.svg) Abgerundetes Rechteck erstellen** auswählen.
    - Das Tastaturkürzel G dann O.
 2. Für weitere Schritte siehe [Sketcher RechteckErstellen](/Sketcher_CreateRectangle/de#Anwendung "Sketcher CreateRectangle/de").
 

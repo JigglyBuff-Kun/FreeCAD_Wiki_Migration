@@ -31,6 +31,6 @@ It can handle 3D point elements as well as 2D point elements within a work plane
 
 1. Place two objects into an assembly
 2. Select one point element of each object
-3. Press the ![](/src/assets/images/Assembly_ConstraintPointDistance.svg) [Point distance](/Assembly3_ConstraintPointDistance "Assembly3 ConstraintPointDistance") button.
+3. Press the ![](/images/Assembly_ConstraintPointDistance.svg) [Point distance](/Assembly3_ConstraintPointDistance "Assembly3 ConstraintPointDistance") button.
 
 Retrieved from "<http://wiki.freecad.org/index.php?title=Assembly3_ConstraintPointDistance/en&oldid=948611>"

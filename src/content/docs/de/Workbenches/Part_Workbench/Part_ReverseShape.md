@@ -19,12 +19,12 @@ title: Part FormUmkehren
 
 ## Beschreibung
 
-Der Befehl ![](/src/assets/images/Part_ReverseShape.svg) **Part FormUmkehren** erstellt aus ausgewählten Objekten parametrische Kopien mit umgekehrten Flächennormalen.
+Der Befehl ![](/images/Part_ReverseShape.svg) **Part FormUmkehren** erstellt aus ausgewählten Objekten parametrische Kopien mit umgekehrten Flächennormalen.
 
 ## Anwendung
 
 1. Eine oder mehrere Formen auswählen.
-2. Den Menüeintrag **Part → ![](/src/assets/images/Part_ReverseShape.svg) Formen umkehren** auswählen.
+2. Den Menüeintrag **Part → ![](/images/Part_ReverseShape.svg) Formen umkehren** auswählen.
 3. Zu jedem ausgewählten Objekt wird eine umgekehrte Form erstellt.
 
 ## Hinweise

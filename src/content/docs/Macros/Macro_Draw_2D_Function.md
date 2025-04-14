@@ -39,7 +39,7 @@ Has no dialog. Needs to be defined:
 
 ## Script
 
-ToolBar Icon ![](/src/assets/images/Macro_Draw_2D_Function.png)
+ToolBar Icon ![](/images/Macro_Draw_2D_Function.png)
 
 **Macro_Draw_2D_Function.FCMacro**
 

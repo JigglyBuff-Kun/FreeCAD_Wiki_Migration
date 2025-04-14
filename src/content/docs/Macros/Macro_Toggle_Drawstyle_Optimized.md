@@ -32,9 +32,9 @@ Script optimized for all languages and to object selected or all objects.
 
 Tree macro are available:
 
-- Combination that toggle global display mode when nothing is selected and/or toggle selected objects display mode if objects are selected. When objects are selected global display mode is automatically set to As is: [Macro_Toggle_Drawstyle_Optimized.FCMacro](#Script) ![](/src/assets/images/Macro_Toggle_Drawstyle_Optimized.png)
-- Toggle global display mode: [Macro_Toggle_Drawstyle_Optimized_2.FCMacro](#Script_2) ![](/src/assets/images/Macro_Toggle_Drawstyle_Optimized_2.png)
-- Toggle selected object(s) display mode (changes visible only in global As is (located on View toolbar) display mode): [Macro_Toggle_Drawstyle_Optimized_3.FCMacro](#Script_3) ![](/src/assets/images/Macro_Toggle_Drawstyle_Optimized_3.png)
+- Combination that toggle global display mode when nothing is selected and/or toggle selected objects display mode if objects are selected. When objects are selected global display mode is automatically set to As is: [Macro_Toggle_Drawstyle_Optimized.FCMacro](#Script) ![](/images/Macro_Toggle_Drawstyle_Optimized.png)
+- Toggle global display mode: [Macro_Toggle_Drawstyle_Optimized_2.FCMacro](#Script_2) ![](/images/Macro_Toggle_Drawstyle_Optimized_2.png)
+- Toggle selected object(s) display mode (changes visible only in global As is (located on View toolbar) display mode): [Macro_Toggle_Drawstyle_Optimized_3.FCMacro](#Script_3) ![](/images/Macro_Toggle_Drawstyle_Optimized_3.png)
 
 When working with FreeCAD there are times when you want to quickly change the Drawstyle of the object you are working with. This is available through the Drawstyle pull-down menu where any Drawstyle may be selected. This macro makes 2 of the Drawstyles available as a clickable button on a toolbar which the user may click to toggle back and forth between the two Drawstyles.
 
@@ -53,7 +53,7 @@ Select an object, then click on the associated toolbar button, or invoke from th
 
 Combination that toggle global display mode when nothing is selected and/or toggle selected objects display mode if objects are selected. When objects are selected global display mode is automatically set to As is:
 
-The icon ToolBar ![](/src/assets/images/Macro_Toggle_Drawstyle_Optimized.png)
+The icon ToolBar ![](/images/Macro_Toggle_Drawstyle_Optimized.png)
 
 **Macro_Toggle_Drawstyle_Optimized.FCMacro**
 
@@ -131,7 +131,7 @@ else:
 
 Toggle global display mode:
 
-The icon ToolBar ![](/src/assets/images/Macro_Toggle_Drawstyle_Optimized_2.png)
+The icon ToolBar ![](/images/Macro_Toggle_Drawstyle_Optimized_2.png)
 
 **Macro_Toggle_Drawstyle_Optimized_2.FCMacro**
 
@@ -181,7 +181,7 @@ else:
 
 Toggle selected object(s) display mode (changes visible only in global As is (located on View toolbar) display mode):
 
-The icon ToolBar ![](/src/assets/images/Macro_Toggle_Drawstyle_Optimized_3.png)
+The icon ToolBar ![](/images/Macro_Toggle_Drawstyle_Optimized_3.png)
 
 **Macro_Toggle_Drawstyle_Optimized_3.FCMacro**
 

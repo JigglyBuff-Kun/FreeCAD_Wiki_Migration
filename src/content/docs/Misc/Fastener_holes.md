@@ -9,15 +9,15 @@ It recognizes the preselection (faces, edges or points) and place the hole in th
 
 Examples:
 
-![](/src/assets/images/Fastener_holes_1.jpeg)
+![](/images/Fastener_holes_1.jpeg)
 
-![](/src/assets/images/Fastener_holes_2.jpeg)
+![](/images/Fastener_holes_2.jpeg)
 
-![](/src/assets/images/Fastener_holes_3.jpeg)
+![](/images/Fastener_holes_3.jpeg)
 
 Finally, using [Fasteners workbench](https://www.freecadweb.org/wiki/Fasteners_Workbench) you can easily add the fasteners themselves:
 
-![](/src/assets/images/Fastener_holes_4.jpeg)
+![](/images/Fastener_holes_4.jpeg)
 
 ## GitHub download
 

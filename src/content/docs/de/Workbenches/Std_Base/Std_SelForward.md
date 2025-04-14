@@ -25,8 +25,8 @@ Der Befehl **Std AuswahlVorwärts** stellt die nächste aufgezeichnete Auswahl i
 
 1. Eine nächste Auswahl in der Baumansicht muss vorhanden sein.
 2. Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
-   - Den schwarzen Pfeil nach unten, rechts neben der Schaltfläche ![](/src/assets/images/Std_TreeSyncView.svg), anklicken und die Menüoption **![](/src/assets/images/Std_SelForward.svg) Vorwärts** in der Ausklappliste auswählen. Hinweis: Die Abbildung auf der Schaltfläche verändert sich entsprechend der ausgewählten Option.
-   - Den Menüeintrag **Ansicht → Baumansicht-Aktionen → ![](/src/assets/images/Std_SelForward.svg) Vorwärts** auswählen.
+   - Den schwarzen Pfeil nach unten, rechts neben der Schaltfläche ![](/images/Std_TreeSyncView.svg), anklicken und die Menüoption **![](/images/Std_SelForward.svg) Vorwärts** in der Ausklappliste auswählen. Hinweis: Die Abbildung auf der Schaltfläche verändert sich entsprechend der ausgewählten Option.
+   - Den Menüeintrag **Ansicht → Baumansicht-Aktionen → ![](/images/Std_SelForward.svg) Vorwärts** auswählen.
    - Das Tastaturkürzel S dann F.
 3. Die nächste Auswahl wird wiederhergestellt.
 

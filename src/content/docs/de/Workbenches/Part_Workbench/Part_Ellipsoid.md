@@ -19,11 +19,11 @@ title: Part Ellipsoid
 
 ## Beschreibung
 
-Eine ![](/src/assets/images/Part_Ellipsoid.svg) **Part Ellipsoid** ist ein parametrischer Volumenkörper, der mit dem Befehl ![](/src/assets/images/Part_Primitives.svg) [Part Grundelemente](/Part_Primitives/de "Part Primitives/de") erstellt werden kann. Im Koordinatensystem durch ihre Daten-Eigenschaft**Placement** festgelegt, sind die Achsen des Ellipsoids fluchtend mit den X-, Y-, und Z-Achsen und damit sein Mittelpunkt im Ursprung.
+Eine ![](/images/Part_Ellipsoid.svg) **Part Ellipsoid** ist ein parametrischer Volumenkörper, der mit dem Befehl ![](/images/Part_Primitives.svg) [Part Grundelemente](/Part_Primitives/de "Part Primitives/de") erstellt werden kann. Im Koordinatensystem durch ihre Daten-Eigenschaft**Placement** festgelegt, sind die Achsen des Ellipsoids fluchtend mit den X-, Y-, und Z-Achsen und damit sein Mittelpunkt im Ursprung.
 
 A Part Ellipsoid can be truncated at the top and/or bottom by changing its Daten**Angle1** and/or Daten**Angle2** properties. It can be turned into a segment of an ellipsoid by changing its Daten**Angle3** property.
 
-![](/src/assets/images/Part_Ellipsoid_Example.png)
+![](/images/Part_Ellipsoid_Example.png)
 
 ## Anwendung
 
@@ -31,7 +31,7 @@ Siehe [Part Grundelemente](/Part_Primitives/de#Anwendung "Part Primitives/de").
 
 ## Beispiel
 
-![](/src/assets/images/Part_Ellipsoid_Scripting_Example.png)
+![](/images/Part_Ellipsoid_Scripting_Example.png)
 
 Part-Ellipsoid aus dem Skriptbeispiel
 

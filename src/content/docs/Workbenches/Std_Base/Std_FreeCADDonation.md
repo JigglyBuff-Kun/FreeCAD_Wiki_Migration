@@ -25,6 +25,6 @@ Currently the command points to <https://wiki.freecad.org/Donate>.
 
 ## Usage
 
-1. Select the **Help → ![](/src/assets/images/Std_FreeCADDonation.svg) Donate** option from the menu.
+1. Select the **Help → ![](/images/Std_FreeCADDonation.svg) Donate** option from the menu.
 
 Retrieved from "<http://wiki.freecad.org/index.php?title=Std_FreeCADDonation/en&oldid=1454743>"

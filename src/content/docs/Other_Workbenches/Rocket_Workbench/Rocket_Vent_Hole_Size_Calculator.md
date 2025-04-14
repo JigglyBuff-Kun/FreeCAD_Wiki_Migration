@@ -25,11 +25,11 @@ Calculation comes from the rule of thumb of 1/4" vent hole for every 100 cubic i
 
 ## Usage
 
-![](/src/assets/images/Calc_vent_hole_size.png)
+![](/images/Calc_vent_hole_size.png)
 
 1. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/Rocket_Calculator.svg) [Vent Hole Size Calculator](/Rocket_Vent_Hole_Size_Calculator "Rocket Vent Hole Size Calculator") button.
-   - Select the **Rocket → Calculators → ![](/src/assets/images/Rocket_Calculator.svg) Vent Hole Size Calculator** option from the menu.
+   - Press the ![](/images/Rocket_Calculator.svg) [Vent Hole Size Calculator](/Rocket_Vent_Hole_Size_Calculator "Rocket Vent Hole Size Calculator") button.
+   - Select the **Rocket → Calculators → ![](/images/Rocket_Calculator.svg) Vent Hole Size Calculator** option from the menu.
 2. Enter the parameters of your electronics bay.
 
 ## Calculation

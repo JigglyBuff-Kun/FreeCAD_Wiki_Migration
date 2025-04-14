@@ -21,16 +21,16 @@ title: Std ViewBottom
 
 The **Std ViewBottom** command points the camera in the active [3D view](/3D_view "3D view") in the direction of the positive Z axis.
 
-![](/src/assets/images/FreeCAD_views_rear.svg)
+![](/images/FreeCAD_views_rear.svg)
 
 Arrow 5 points in the direction of the bottom view
 
 ## Usage
 
 1. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/Std_ViewBottom.svg) [Bottom](/Std_ViewBottom "Std ViewBottom") button.
-   - Select the **View → Standard views → ![](/src/assets/images/Std_ViewBottom.svg) Bottom** option from the menu.
-   - Select the **Standard views → ![](/src/assets/images/Std_ViewBottom.svg) Bottom** option from the [3D view](/3D_view "3D view") context menu.
+   - Press the ![](/images/Std_ViewBottom.svg) [Bottom](/Std_ViewBottom "Std ViewBottom") button.
+   - Select the **View → Standard views → ![](/images/Std_ViewBottom.svg) Bottom** option from the menu.
+   - Select the **Standard views → ![](/images/Std_ViewBottom.svg) Bottom** option from the [3D view](/3D_view "3D view") context menu.
    - Use the keyboard shortcut: 5.
 
 ## Scripting

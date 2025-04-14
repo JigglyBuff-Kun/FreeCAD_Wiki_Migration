@@ -25,7 +25,7 @@ title: Analysis of reinforced concrete with FEM
 
 The [FEM Workbench](/FEM_Workbench "FEM Workbench") has the capability of estimating the level of reinforcement required in a concrete structure to prevent brittle failure under tension or shear.
 
-![](/src/assets/images/Femconcrete_Wall_3D_rx_PSS.png)
+![](/images/Femconcrete_Wall_3D_rx_PSS.png)
 
 This is done with the method described in ["Computation of reinforcement for solid concrete", P.C.J. Hoogenboom and A. de Boer, HERON Vol. 53 (2008) No. 4](http://heronjournal.nl/53-4/3.pdf). In essence, it is a post-processing routine for CalculiX, which calculates the principal tensile stresses in the concrete from an elastic analysis and uses those to determine the minimum reinforcement in the three coordinate directions required to prevent failure. In the analysis, it is assumed that the concrete material cannot carry tensile stresses, whereas the steel is utilized to its maximum capacity (i.e. reaches yield).
 
@@ -85,11 +85,11 @@ The specific weight of the concrete is taken as 24kN/m^3
 
 The required reinforcement in the x direction is very high (5.4%) and exceeds the typical maximum percentages allowed by code to prevent brittle failure. The high shear stresses at the supports also lead to a requirement of high reinforcement:
 
-![](/src/assets/images/Pre_Stressed_Beam_2_Weight_Load_RR_x_0.054.jpg)
+![](/images/Pre_Stressed_Beam_2_Weight_Load_RR_x_0.054.jpg)
 
 The Mohr-Coulomb plot shows that the beam is indeed prone to crushing on the compression side (Mohr-Coulomb stress > 0.0), as would be expected with a very high reinforcement percentage:
 
-![](/src/assets/images/Pre_Stressed_Beam_2_Weight_Load_MC.jpg)
+![](/images/Pre_Stressed_Beam_2_Weight_Load_MC.jpg)
 
 Both the reinforcement ratio and Mohr-Coulomb stress indicate that we have an issue and that we need to rethink our conceptual design. Potential solutions are to increase the beam dimensions or use pre-stressed concrete. Further details can be found in the following post:
 
@@ -116,11 +116,11 @@ The specific weight of the concrete is taken as 24 kN/m^3
 
 The ParaView plot of the exported VTK file shows that the reinforcement requirement is largest at the top of the beam near the central support. Here the highest bending moment occurs. The maximum reinforcement ratio of 0.02 is at the high end of the practical range quoted earlier:
 
-![](/src/assets/images/Beam_with_Central_Support_rx_full.png)
+![](/images/Beam_with_Central_Support_rx_full.png)
 
 The required area of steel at the central support can be obtained with a ParaView integration filter applied to the mid-section of the beam:
 
-![](/src/assets/images/CoG_Reinforcement.png)
+![](/images/CoG_Reinforcement.png)
 
 The panel at the bottom of this picture shows that the total required steel area at this cross section is 389.6 mm^2. As one reinforcement bar of diameter 12mm has a cross-sectional area of 113mm^2, it means that 4 bars would be required, giving a cross-sectional area of 452 mm^2. These would need to be placed near the top of the beam while maintaining sufficient concrete cover. The theoretical center of gravity for the reinforcement can be found by integration:
 
@@ -163,7 +163,7 @@ The specific weight of the concrete is taken as 24 kN/m^3
 
 The horizontal reinforcement ratio peaks at 0.014 (1.4%) near the bottom center section of the wall and the vertical reinforcement ratio is at a maximum 0.008 (0.8%) near the corners of the wall with the columns, where the shear stresses are highest:
 
-![](/src/assets/images/Wall_3D.jpg)
+![](/images/Wall_3D.jpg)
 
 The above picture shows possible zones of constant reinforcement ratio for the design of reinforcement. Although a minimum reinforcement percentage of 0.2% is chosen, it will be hard to achieve such a low value in practice, given that the spacing should not exceed a practical limit (say 300mm). Even with a light reinforcement grid of 10mm bars (cross-sectional area = 78mm^2), the reinforcement ratio would then be 2 \* 78 / (150 \* 300) = 0.0035 (0.35%). (Note: factor 2 stems from the fact that the grid will be placed at both faces of the wall). If we add one more bar to the grid (halving the distance) the reinforcement ratio would double to 0.7% and one more would give approximately 1%. So most of the reinforcement requirement could be achieved by starting with a grid of d=10mm at 300x300mm spacing and adding bars in horizontal or vertical direction, as required. This would cover all but the requirement at the bottom of the wall, where we could add 3 bars d=12mm, giving a horizontal reinforcement ratio of 3 \* 113mm^2 / (150mm \* 150mm) = 0.015 (1.5%). Here it is assumed that the height of the bottom zone is 150mm. Alternatively, we could choose 2 bars of 16mm diameter, achieving the same reinforcement ratio for a zone of 180mm height.
 
@@ -179,21 +179,21 @@ The beam dimensions are 11.0x4.0x0.6m and it is loaded at the top by a distribut
 
 The reinforcement ratios and principal concrete stresses (compression only) derived with FreeCAD are shown below:
 
-![](/src/assets/images/FIB_Deep_Concrete_Beam_1.png)
+![](/images/FIB_Deep_Concrete_Beam_1.png)
 
 The required horizontal reinforcement (below in red) is determined by integration of the horizontal reinforcement ratio over the vertical cuts of interest (below in black). This is done using a Paraview integration filter.
 
-![](/src/assets/images/FIB_Reinforcement%282%29.jpg)
+![](/images/FIB_Reinforcement%282%29.jpg)
 
 The insert to the above figure shows a comparison of reinforcement requirements (in mm^2 of steel) determined with FreeCAD to those in the FIB report.
 
 The following shows how the integration over lines of interest works in Paraview:
 
-![](/src/assets/images/FIB_Reinforcement_ry.jpg)
+![](/images/FIB_Reinforcement_ry.jpg)
 
 Finally, a plot of compressive and tensile principal stresses to demonstrate how stresses flow through the beam.
 
-![](/src/assets/images/FIB_Beam_Stresses_and_Cables.jpg)
+![](/images/FIB_Beam_Stresses_and_Cables.jpg)
 
 The tensile stress pattern suggests an alternative design concept using pre-stressing cables (superimposed in white). This concept is further elaborated in the following post: <https://forum.freecadweb.org/viewtopic.php?f=18&t=33049>
 

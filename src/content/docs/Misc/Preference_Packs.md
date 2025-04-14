@@ -10,7 +10,7 @@ A **Preference Pack** is a distributable collection of user preferences ([introd
 
 Most user interaction with installed Preference Packs is via the **General** tab in the **General settings** section of the [Preferences editor](/Preferences_Editor "Preferences Editor").
 
-![](/src/assets/images/PreferencePacks_MainInterface.png)
+![](/images/PreferencePacks_MainInterface.png)
 
 ## Applying an installed pack
 
@@ -20,7 +20,7 @@ To apply a Preference Pack, click the Apply button next to its name in the **Gen
 
 Packs can be created by hand, or jump-started by using the Save new... button in the **General** tab of the [Preferences editor](/Preferences_Editor "Preferences Editor"). Clicking the button shows a dialog requesting a name for the new pack, and displays a set of checkboxes allowing only a subset of preferences to be stored.
 
-![](/src/assets/images/PreferencePacks_SaveNewPack.png)
+![](/images/PreferencePacks_SaveNewPack.png)
 
 Because of the way FreeCAD uses preferences internally, only items contained in these template files can be saved automatically using this procedure. Items not included in the template files must be manually included in the pack's \*.cfg file. There is no built-in limit to which preferences items may be included in a preference pack, but authors are strongly discouraged from changing a user's set language, or from modifying the recent files list, or from changing anything related to a temporary UI state (e.g. the saved size of a resizable window, etc.).
 
@@ -195,7 +195,7 @@ Other files may also be included in a distribution, depending on what's required
   - DarkSide.cfg
   - DarkSide.qss
 
-Note the omission of the _pre.FCMacro_ and _post.FCMacro_ files, which are often unnecessary, as well as the inclusion of an icon (for display by the ![](/src/assets/images/Std_AddonMgr.svg) [Addon Manager](/Std_AddonMgr "Std AddonMgr")), and the inclusion of a qss file (which will then be referenced in the _DarkSide.cfg_ configuration data file).
+Note the omission of the _pre.FCMacro_ and _post.FCMacro_ files, which are often unnecessary, as well as the inclusion of an icon (for display by the ![](/images/Std_AddonMgr.svg) [Addon Manager](/Std_AddonMgr "Std AddonMgr")), and the inclusion of a qss file (which will then be referenced in the _DarkSide.cfg_ configuration data file).
 
 The pre- and post- macro files are standard FreeCAD Python macros, and may contain any commands valid in such a macro. If the pre.FCMacro raises an exception (of any type), the application of the preference pack is cancelled. If the post.FCMacro raises an exception (of any type), the application of the pack is rolled back using the backup taken prior to its application. For example, these macros may be used to query the user for license acceptance, or to verify they are happy with the final state of their system after application.
 
@@ -233,7 +233,7 @@ Many add-ons have user-specifiable preference information that is added to the u
 
 ## Distributing a pack
 
-Preference Packs are distributed identically to [External Workbenches](/External_workbenches "External workbenches") through the ![](/src/assets/images/Std_AddonMgr.svg) [Addon Manager](/Std_AddonMgr "Std AddonMgr"). To install a pack manually, use git to clone the package repository into your FreeCAD data directory (enter `App.getUserAppDataDir()` in the [Python console](/Python_console "Python console") to get this path), in a subdirectory called "Preference Packs". Note that user-installed packs with the same name as an included pack take precedence.
+Preference Packs are distributed identically to [External Workbenches](/External_workbenches "External workbenches") through the ![](/images/Std_AddonMgr.svg) [Addon Manager](/Std_AddonMgr "Std AddonMgr"). To install a pack manually, use git to clone the package repository into your FreeCAD data directory (enter `App.getUserAppDataDir()` in the [Python console](/Python_console "Python console") to get this path), in a subdirectory called "Preference Packs". Note that user-installed packs with the same name as an included pack take precedence.
 
 See also [Private Preference Packs](/Private_Preference_Packs "Private Preference Packs").
 

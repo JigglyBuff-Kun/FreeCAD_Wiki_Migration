@@ -100,7 +100,7 @@ A segmentation fault happens at vbo_save_playback_vertex_list(). This means that
 
 ### I cannot change numeric values in FreeCAD's properties panels
 
-![language options](/src/assets/images/Jj62l.png)
+![language options](/images/Jj62l.png)
 
 language options
 
@@ -126,11 +126,11 @@ FreeCAD is [open-source software](http://en.wikipedia.org/wiki/Open-source_softw
 
 ### How do I rotate the 3D view?
 
-- ![From the right button mouse](/src/assets/images/Style_of_navigation.png)
+- ![From the right button mouse](/images/Style_of_navigation.png)
 
   From the right button mouse
 
-- ![From the menu Edit → Preferences →](/src/assets/images/Style_of_navigation_menu.png)
+- ![From the menu Edit → Preferences →](/images/Style_of_navigation_menu.png)
 
   From the menu **Edit → Preferences →**
 
@@ -158,7 +158,7 @@ Please refer to the [Workarounds](/Workarounds "Workarounds") page.
 
 The theory is simple: Lines (or wires), when extruded, form faces. Faces, when extruded, form solids.
 
-If you extrude something and the result is not a solid, then the something was not a face. If you have lines and you want to extrude a solid from them, you must first select lines that form a closed perimeter (select several objects by pressing Ctrl), join them into a wire ([Draft Upgrade](/Draft_Upgrade "Draft Upgrade") tool), then make a face from that wire (![](/src/assets/images/Draft_Upgrade.svg) [Draft Upgrade](/Draft_Upgrade "Draft Upgrade") tool again). There you are, if all went well you can now extrude it to a solid.
+If you extrude something and the result is not a solid, then the something was not a face. If you have lines and you want to extrude a solid from them, you must first select lines that form a closed perimeter (select several objects by pressing Ctrl), join them into a wire ([Draft Upgrade](/Draft_Upgrade "Draft Upgrade") tool), then make a face from that wire (![](/images/Draft_Upgrade.svg) [Draft Upgrade](/Draft_Upgrade "Draft Upgrade") tool again). There you are, if all went well you can now extrude it to a solid.
 
 Now, there can be many little twists that make you obtain the wrong result. The best way to make sure is to check what's inside the object you are extruding. Objects contents can be easily explored with python. Assuming for example you have an object called "Wire", you could type this into the Python console:
 

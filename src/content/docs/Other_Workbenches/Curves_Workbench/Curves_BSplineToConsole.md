@@ -23,14 +23,14 @@ This documentation is not finished. Please help and contribute documentation.Gui
 
 ## Description
 
-The ![](/src/assets/images/Curves_BSplineToConsole.svg) **Curves BSplineToConsole** tool creates a Python script to (re-)create the selected B-spline or Bézier geometries.
+The ![](/images/Curves_BSplineToConsole.svg) **Curves BSplineToConsole** tool creates a Python script to (re-)create the selected B-spline or Bézier geometries.
 
 ## Usage
 
 1. Select one or more Bezier or BSpline curves or surfaces in the [3D View](/3D_view "3D view").
 2. There are several ways to invoke the tool:
-   - Press the ![](/src/assets/images/Curves_BSplineToConsole.svg) BSpline to Console button.
-   - Select the **Misc. → ![](/src/assets/images/Curves_BSplineToConsole.svg) BSpline to Console** option from the menu.
+   - Press the ![](/images/Curves_BSplineToConsole.svg) BSpline to Console button.
+   - Select the **Misc. → ![](/images/Curves_BSplineToConsole.svg) BSpline to Console** option from the menu.
 3. A **BSplineCurve** object is created for each selected curve, and a **BSplineSurface** object for each selected surface, and a related Python script to (re)create each curve or surface can be found in the [Python console](/Python_console "Python console").
 
 ## Properties

@@ -23,7 +23,7 @@ title: Plot Basic tutorial
 
 In this tutorial we will learn how to create a basic plot using the [Plot Workbench](/Plot_Workbench "Plot Workbench") and the [Python console](/Python_console "Python console").
 
-![](/src/assets/images/Plot_Trigonometric_Example.png)
+![](/images/Plot_Trigonometric_Example.png)
 
 Basic plot example
 
@@ -31,10 +31,10 @@ In the image you can see the result that we will approximately obtain. Following
 
 - How to create a Plot from the [Python console](/Python_console "Python console").
 - How to plot some data from the [Python console](/Python_console "Python console").
-- How to show the ![](/src/assets/images/Plot_Grid.svg) [grid lines](/Plot_Grid "Plot Grid").
-- How to show the ![](/src/assets/images/Plot_Legend.svg) [legend](/Plot_Legend "Plot Legend").
-- How to edit ![](/src/assets/images/Plot_Series.svg) [series labels](/Plot_Series "Plot Series"), introducing text in [LaTeX](http://www.latex-project.org).
-- How to edit ![](/src/assets/images/Plot_Labels.svg) [axes labels](/Plot_Labels "Plot Labels"), introducing text in [LaTeX](http://www.latex-project.org).
+- How to show the ![](/images/Plot_Grid.svg) [grid lines](/Plot_Grid "Plot Grid").
+- How to show the ![](/images/Plot_Legend.svg) [legend](/Plot_Legend "Plot Legend").
+- How to edit ![](/images/Plot_Series.svg) [series labels](/Plot_Series "Plot Series"), introducing text in [LaTeX](http://www.latex-project.org).
+- How to edit ![](/images/Plot_Labels.svg) [axes labels](/Plot_Labels "Plot Labels"), introducing text in [LaTeX](http://www.latex-project.org).
 - How to edit series styles.
 - How to save your plot.
 
@@ -61,7 +61,7 @@ Plot.figure("TrigonometricTest")
 
 ```
 
-In FreeCAD version 0.19 it is required to install the ![](/src/assets/images/Workbench_Plot.svg) [Plot Workbench](/Plot_Workbench "Plot Workbench") with the [Add-on manager](/Std_AddonMgr "Std AddonMgr"), while from FreeCAD version 0.20 onward the external add-on is no longer required to perform plots.
+In FreeCAD version 0.19 it is required to install the ![](/images/Workbench_Plot.svg) [Plot Workbench](/Plot_Workbench "Plot Workbench") with the [Add-on manager](/Std_AddonMgr "Std AddonMgr"), while from FreeCAD version 0.20 onward the external add-on is no longer required to perform plots.
 The commands above will create a new tab in the [Main view area](/Main_view_area "Main view area") called **TrigonometricTest**. The newly created document already has a set of axes. Each plot document has at least one set of axes.
 
 ### Drawing functions
@@ -99,13 +99,13 @@ The **plot** command allows the series label as an argument, but since we will e
 
 Change the FreeCAD workbench to the [Plot Workbench](/Plot_Workbench "Plot Workbench") with **View → Workbench → Plot** (you must install the add-on first with the [Add-on manager](/Std_AddonMgr "Std AddonMgr")). When the workbench has been loaded, use the [grid tool](/Plot_Grid "Plot Grid") to show the grid.
 
-![](/src/assets/images/Plot_Grid.svg)
+![](/images/Plot_Grid.svg)
 
 Show/hide grid tool icon
 
 You can repeat the action to hide the grid. Use the [legend tool](/Plot_Legend "Plot Legend") to show, or hide, the legend.
 
-![](/src/assets/images/Plot_Legend.svg)
+![](/images/Plot_Legend.svg)
 
 Show/hide legend tool icon
 
@@ -115,7 +115,7 @@ As you can see, the legend is very small and empty because we have not set any s
 
 With the [series tool](/Plot_Series "Plot Series") you can edit the parameters of each series.
 
-![](/src/assets/images/Plot_Series.svg)
+![](/images/Plot_Series.svg)
 
 Series configuration tool icon
 
@@ -141,7 +141,7 @@ You can set many series properties. Try to set the properties shown in the examp
 
 With the [labels tool](/Plot_Labels "Plot Labels") you can set the title and the labels for the axes.
 
-![](/src/assets/images/Plot_Labels.svg)
+![](/images/Plot_Labels.svg)
 
 Labels tool icon
 
@@ -157,7 +157,7 @@ Also change the font size of the title and all labels to 20.
 
 With the [save tool](/Plot_Save "Plot Save") you can save your plot as an image file in several formats.
 
-![](/src/assets/images/Plot_Save.svg)
+![](/images/Plot_Save.svg)
 
 Save tool icon
 

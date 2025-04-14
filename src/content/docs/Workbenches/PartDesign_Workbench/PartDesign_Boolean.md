@@ -21,14 +21,14 @@ title: PartDesign Boolean
 
 **PartDesign Boolean** imports one or more [PartDesign Bodies](/PartDesign_Body "PartDesign Body") or [PartDesign Clones](/PartDesign_Clone "PartDesign Clone") (designated as "tool bodies") into the active PartDesign Body and applies a Boolean operation (fuse, cut or common).
 
-![](/src/assets/images/PartDesign_Boolean_example.png)
+![](/images/PartDesign_Boolean_example.png)
 
 On the left: active body (A) with tool bodies (B) and (C); result on the right after a Boolean Cut.
 
 ## Usage
 
 1. [Activate the Body](/PartDesign_Body#Active_status "PartDesign Body") which is to receive the Boolean feature. **\*Note**: It is important that neither the active Body nor any of the features it contains be selected!\*
-2. Press the ![](/src/assets/images/PartDesign_Boolean.svg) [PartDesign Boolean](/PartDesign_Boolean "PartDesign Boolean") button.
+2. Press the ![](/images/PartDesign_Boolean.svg) [PartDesign Boolean](/PartDesign_Boolean "PartDesign Boolean") button.
 3. In **Boolean Parameters**, click on the Add body button. The active body temporarily disappears from the [3D view](/3D_view "3D view") to facilitate tool body selection.
 4. In the 3D view, select the Body to use in the Boolean feature. Repeat to add more Bodies.
 5. Select the type of Boolean operation in the drop down menu (Fuse, Cut or Common)

@@ -32,7 +32,7 @@ This code was part of the [Draft Workbench](/Draft_Workbench "Draft Workbench") 
 
 ## Script
 
-ToolBar Icon ![](/src/assets/images/Macro_MacroMenu.png)
+ToolBar Icon ![](/images/Macro_MacroMenu.png)
 
 **Macro_MacroMenu.FCMacro**
 

@@ -28,12 +28,12 @@ The **Arch Site** is a special object that combines properties of a standard Fre
 ## Usage
 
 1. Optionally, select one or more objects to be included in your new site.
-2. Press the ![](/src/assets/images/Arch_Site.svg) [Site](/Arch_Site "Arch Site") button, or press the S then I keys.
+2. Press the ![](/images/Arch_Site.svg) [Site](/Arch_Site "Arch Site") button, or press the S then I keys.
 
 ## Options
 
-- After creating a site, you can add objects to it by drag and dropping them in the [Tree view](/Tree_view "Tree view") or by using the ![](/src/assets/images/Arch_Add.svg) [Arch Add](/Arch_Add "Arch Add") tool. This only determines which objects are part of the given site, and has no effect on the terrain.
-- You can remove objects from a site by drag and dropping them out of it in the [Tree view](/Tree_view "Tree view") or by using the ![](/src/assets/images/Arch_Remove.svg) [Arch Remove](/Arch_Remove "Arch Remove") tool.
+- After creating a site, you can add objects to it by drag and dropping them in the [Tree view](/Tree_view "Tree view") or by using the ![](/images/Arch_Add.svg) [Arch Add](/Arch_Add "Arch Add") tool. This only determines which objects are part of the given site, and has no effect on the terrain.
+- You can remove objects from a site by drag and dropping them out of it in the [Tree view](/Tree_view "Tree view") or by using the ![](/images/Arch_Remove.svg) [Arch Remove](/Arch_Remove "Arch Remove") tool.
 - You can add a terrain object by editing the Site's Data**Terrain** property. The terrain can be an open shell or ([introduced in 0.21](/Release_notes_0.21 "Release notes 0.21")) a solid.
 - You can add volumes to be added or subtracted from the base terrain, by double-clicking the Site, and adding objects to its Additions or Subtractions groups. The objects must be solids.
 - The Data**Extrusion Vector** property can be used to solve some problems that can appear when the terrain is an open shell and there are additions and/or subtractions. In order to perform those additions/subtractions, the open shell is extruded into a solid, which is then appropriately unioned/subtracted. Depending on the terrain topology, this extrusion might fail with the default extrusion vector. You might then be able to remedy the problem by changing this to a different value. This property is ignored if the terrain is a solid.
@@ -89,15 +89,15 @@ Site
 
 Start by creating an object that represents your terrain. For example, it is easy to import mesh data, that can be turned into a Part Shape from menu **Part → Create Shape from Mesh**. Then, create a Site object, and set its Data**Terrain** property to the Part we just created:
 
-![](/src/assets/images/Arch_site_example_01.jpg)
+![](/images/Arch_site_example_01.jpg)
 
 Create some volumes (they must be solids) that represent the areas that you wish to be excavated or filled. Double-click the Site object in the Tree View, and add these volumes to the Additions or Subtractions groups. Click OK.
 
-![](/src/assets/images/Arch_site_example_02.jpg)
+![](/images/Arch_site_example_02.jpg)
 
 The site geometry will be recomputed and the areas, perimeter, and volumes properties recalculated.
 
-![](/src/assets/images/Arch_site_example_03.jpg)
+![](/images/Arch_site_example_03.jpg)
 
 ## Solar and wind diagrams
 
@@ -108,7 +108,7 @@ If [Ladybug](https://www.ladybug.tools/ladybug.html) is installed on your system
 - The diagram can be scaled, oriented and centered on a specific point in the model. It can also be turned on and off. At this point it is a visual rather than functional feature, and provided for display purposes only.
 - If you don't have Ladybug, [pysolar](http://pysolar.org/) (version 0.7 and above) is still supported to generate sun path diagrams, but not wind roses. However, Ladybug is a much more powerful tool that will probably be used more in the future, so we recommend using it instead of pysolar. Ladybug can be installed simply via the [pip](https://github.com/ladybug-tools/ladybug?tab=readme-ov-file#installation) Python package manager.
 
-![](/src/assets/images/Freecad-solar-diagram.jpg)
+![](/images/Freecad-solar-diagram.jpg)
 
 ## Scripting
 

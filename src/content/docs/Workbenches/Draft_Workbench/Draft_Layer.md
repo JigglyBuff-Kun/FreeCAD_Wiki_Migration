@@ -19,14 +19,14 @@ title: Draft Layer
 
 ## Description
 
-The ![](/src/assets/images/Draft_Layer.svg) **Draft Layer** command creates a Draft Layer. A layer is a special kind of group with a number of [visual properties](#View). These properties, and any changes to them, are propagated to the objects placed inside the layer. The layers themselves are put in another special group: the Draft LayerContainer.
+The ![](/images/Draft_Layer.svg) **Draft Layer** command creates a Draft Layer. A layer is a special kind of group with a number of [visual properties](#View). These properties, and any changes to them, are propagated to the objects placed inside the layer. The layers themselves are put in another special group: the Draft LayerContainer.
 
 ## Usage
 
 1. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/Draft_Layer.svg) [Layer](/Draft_Layer "Draft Layer") button.
-   - Select the **Utilities → ![](/src/assets/images/Draft_Layer.svg) New layer** option from the menu, or from the [Tree view](/Tree_view "Tree view") or [3D view](/3D_view "3D view") context menu.
-   - If the layer container already exists: right-click it in the [Tree view](/Tree_view "Tree view") and select the **![](/src/assets/images/Draft_NewLayer.svg) Add new layer** option from context menu.
+   - Press the ![](/images/Draft_Layer.svg) [Layer](/Draft_Layer "Draft Layer") button.
+   - Select the **Utilities → ![](/images/Draft_Layer.svg) New layer** option from the menu, or from the [Tree view](/Tree_view "Tree view") or [3D view](/3D_view "3D view") context menu.
+   - If the layer container already exists: right-click it in the [Tree view](/Tree_view "Tree view") and select the **![](/images/Draft_NewLayer.svg) Add new layer** option from context menu.
 2. If it does not exist the layer container is created first.
 3. A layer is created and put in the layer container.
 4. Optionally change the [properties](#Properties) of the layer.
@@ -39,9 +39,9 @@ The ![](/src/assets/images/Draft_Layer.svg) **Draft Layer** command creates a Dr
 
 For a Draft LayerContainer these additional options are available in the [Tree view](/Tree_view "Tree view") context menu:
 
-- **![](/src/assets/images/Draft_NewLayer.svg) Add new layer**: adds a new layer to the current document.
-- **![](/src/assets/images/Draft_SetStyle.svg) Reassign properties of all layers**: removes [overrides](#Overrides) from objects in all layers by reassigning the properties of the layer they are in. [introduced in 1.1](/Release_notes_1.1 "Release notes 1.1")
-- **![](/src/assets/images/Draft_Layers.svg) Merge layer duplicates**: merges all layers with the same base label.
+- **![](/images/Draft_NewLayer.svg) Add new layer**: adds a new layer to the current document.
+- **![](/images/Draft_SetStyle.svg) Reassign properties of all layers**: removes [overrides](#Overrides) from objects in all layers by reassigning the properties of the layer they are in. [introduced in 1.1](/Release_notes_1.1 "Release notes 1.1")
+- **![](/images/Draft_Layers.svg) Merge layer duplicates**: merges all layers with the same base label.
 
 : The base label of a layer is its Data**Label** stripped of trailing digits and spaces. All layers with the same base label are merged into a single layer with the Data**Label** set to that base label.
 
@@ -49,9 +49,9 @@ For a Draft LayerContainer these additional options are available in the [Tree v
 
 For a Draft Layer these additional options are available in the [Tree view](/Tree_view "Tree view") context menu:
 
-- **![](/src/assets/images/Button_right.svg) [Activate this layer](/Draft_AutoGroup "Draft AutoGroup")**: activates the selected layer.
-- **![](/src/assets/images/Draft_SetStyle.svg) Reassign properties of layer**: removes [overrides](#Overrides) from objects in the layer by reassigning the properties of the layer. [introduced in 1.1](/Release_notes_1.1 "Release notes 1.1")
-- **![](/src/assets/images/Draft_SelectGroup.svg) [Select layer contents](/Draft_SelectGroup "Draft SelectGroup")**: selects the objects inside the selected layer.
+- **![](/images/Button_right.svg) [Activate this layer](/Draft_AutoGroup "Draft AutoGroup")**: activates the selected layer.
+- **![](/images/Draft_SetStyle.svg) Reassign properties of layer**: removes [overrides](#Overrides) from objects in the layer by reassigning the properties of the layer. [introduced in 1.1](/Release_notes_1.1 "Release notes 1.1")
+- **![](/images/Draft_SelectGroup.svg) [Select layer contents](/Draft_SelectGroup "Draft SelectGroup")**: selects the objects inside the selected layer.
 
 ## Drag and drop behavior
 

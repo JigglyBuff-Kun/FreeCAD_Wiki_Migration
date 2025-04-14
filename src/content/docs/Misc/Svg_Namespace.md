@@ -219,7 +219,7 @@ Transform attributes work well with all texts but editable texts will loose conn
 
 #### 1 : Title without textedit
 
-![](/src/assets/images/Svg_Namespace_01.png)
+![](/images/Svg_Namespace_01.png)
 
 ```
   <g
@@ -240,7 +240,7 @@ Transform attributes work well with all texts but editable texts will loose conn
 
 #### 2 : Title with textedit
 
-![](/src/assets/images/Svg_Namespace_02.png)
+![](/images/Svg_Namespace_02.png)
 
 ```
   <g

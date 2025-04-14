@@ -62,11 +62,11 @@ webbrowser.open("https://raw.githubusercontent.com/FreeCAD/FreeCAD-library/maste
 
 This macro, which is also included in the library, will show a browser panel inside the FreeCAD interface, from which you can easily browse the contents of the library, and insert a part into the current document, by double-clicking it.
 
-![](/src/assets/images/Freecad-parts-library.jpg)
+![](/images/Freecad-parts-library.jpg)
 
 ## Script
 
-ToolBar Icon ![](/src/assets/images/FreeCAD_Doc.png)
+ToolBar Icon ![](/images/FreeCAD_Doc.png)
 
 [PartsLibrary.FCMacro](http://github.com/yorikvanhavre/FreeCAD-library/blob/master/PartsLibrary.FCMacro)
 

@@ -2,7 +2,7 @@
 title: WebTools Workbench
 ---
 
-![](/src/assets/images/WebTools_workbench_icon.svg)
+![](/images/WebTools_workbench_icon.svg)
 
 WebTools workbench icon
 
@@ -16,9 +16,9 @@ This workbench can be installed from the [Addon Manager](/Std_AddonMgr "Std Addo
 
 ## Tools
 
-- ![](/src/assets/images/WebTools_BimServer.svg) [BIM server](/WebTools_BimServer "WebTools BimServer"): Opens a [BimServer](http://www.bimserver.org) window
-- ![](/src/assets/images/WebTools_Git.svg) [Git](/WebTools_Git "WebTools Git"): Manages files with [GIT](https://en.wikipedia.org/wiki/Git_%28software%29)
-- ![](/src/assets/images/WebTools_Sketchfab.svg) [Sketchfab](/WebTools_Sketchfab "WebTools Sketchfab"): Exports and uploads objects to your [SketchFab](http://www.sketchfab.com) account.
+- ![](/images/WebTools_BimServer.svg) [BIM server](/WebTools_BimServer "WebTools BimServer"): Opens a [BimServer](http://www.bimserver.org) window
+- ![](/images/WebTools_Git.svg) [Git](/WebTools_Git "WebTools Git"): Manages files with [GIT](https://en.wikipedia.org/wiki/Git_%28software%29)
+- ![](/images/WebTools_Sketchfab.svg) [Sketchfab](/WebTools_Sketchfab "WebTools Sketchfab"): Exports and uploads objects to your [SketchFab](http://www.sketchfab.com) account.
 
 ## Links
 

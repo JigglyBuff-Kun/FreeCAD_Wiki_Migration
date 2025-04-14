@@ -25,8 +25,8 @@ Der Befehl **Std AuswählbarkeitUmschalten** schaltet die Auswählbarkeit von Ob
 
 1. Ein oder mehrere Objekte auswählen.
 2. Es gibt mehrere Möglichkeiten den Befehl aufzurufen:
-   - Den Menüeintrag **Ansicht → Sichtbarkeit → ![](/src/assets/images/Std_ToggleSelectability.svg) Selektierbarkeit an/aus** auswählen.
-   - Die Menüoption **![](/src/assets/images/Std_ToggleSelectability.svg) Selektierbarkeit an/aus** im Kontextmenü der [Baumansicht](/Tree_view/de "Tree view/de") oder der 3D-Ansicht auswählen.
+   - Den Menüeintrag **Ansicht → Sichtbarkeit → ![](/images/Std_ToggleSelectability.svg) Selektierbarkeit an/aus** auswählen.
+   - Die Menüoption **![](/images/Std_ToggleSelectability.svg) Selektierbarkeit an/aus** im Kontextmenü der [Baumansicht](/Tree_view/de "Tree view/de") oder der 3D-Ansicht auswählen.
 
 ## Hinweise
 

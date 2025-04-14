@@ -30,17 +30,17 @@ Defines a tie constraint that connects the two selected surfaces in such a way t
 ## Usage
 
 1. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/FEM_ConstraintTie.svg) [Tie constraint](/FEM_ConstraintTie "FEM ConstraintTie") button.
-   - Select the **Model → Mechanical boundary conditions and loads → ![](/src/assets/images/FEM_ConstraintTie.svg) Tie constraint** option from the menu.
+   - Press the ![](/images/FEM_ConstraintTie.svg) [Tie constraint](/FEM_ConstraintTie "FEM ConstraintTie") button.
+   - Select the **Model → Mechanical boundary conditions and loads → ![](/images/FEM_ConstraintTie.svg) Tie constraint** option from the menu.
 2. Press the Add button in the task panel and then click on the face you want to add to tie constraint definition. Exactly two faces have to be added, one after the other. The first selected face will be the slave face while the second one will be the master face.
 3. Optionally define _Tolerance_ - tie constraint will be applied only to slave surface nodes separated from the master surface by a distance not larger than the one specified here.
 4. [introduced in 1.0](/Release_notes_1.0 "Release notes 1.0"): Optionally check the _Enable Adjust_ box to allow the slave surface nodes to be automatically moved to lie on the master surface if they are involved in the constraint (i.e. meet the tolerance criterion).
 
-![](/src/assets/images/FEM_tie_constraint_example_no_adjust.png)
+![](/images/FEM_tie_constraint_example_no_adjust.png)
 
 Two halves of a beam connected with tie constraint with non-default tolerance accounting for the gap.
 
-![](/src/assets/images/FEM_tie_constraint_example_adjust.png)
+![](/images/FEM_tie_constraint_example_adjust.png)
 
 The same example from above with adjustment enabled - nodes are moved to close the gap.
 

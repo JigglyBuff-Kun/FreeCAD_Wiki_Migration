@@ -21,16 +21,16 @@ title: Std Vorderansicht
 
 Der Befehl **Std Vorderansicht** wendet die Kamerasicht der aktiven [3D-Ansicht](/3D_view/de "3D view/de") in die Richtung der positiven Y-Achse.
 
-![](/src/assets/images/FreeCAD_views_front.svg)
+![](/images/FreeCAD_views_front.svg)
 
 Der Peil 1 zeigt in Richtung der Vorderansicht
 
 ## Anwendung
 
 1. Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
-   - Die Schaltfläche ![](/src/assets/images/Std_ViewFront.svg) Vorderansicht drücken.
-   - Den Menüeintrag **Ansicht → Standardansichten → ![](/src/assets/images/Std_ViewFront.svg) Vorderansicht** auswählen.
-   - Die Menüoption **Standardansichten → ![](/src/assets/images/Std_ViewFront.svg) Vorderansicht** im Kontextmenü der [3D-Ansicht](/3D_view/de "3D view/de") auswählen.
+   - Die Schaltfläche ![](/images/Std_ViewFront.svg) Vorderansicht drücken.
+   - Den Menüeintrag **Ansicht → Standardansichten → ![](/images/Std_ViewFront.svg) Vorderansicht** auswählen.
+   - Die Menüoption **Standardansichten → ![](/images/Std_ViewFront.svg) Vorderansicht** im Kontextmenü der [3D-Ansicht](/3D_view/de "3D view/de") auswählen.
    - Das Tastaturkürzel 1.
 
 ## Skripten

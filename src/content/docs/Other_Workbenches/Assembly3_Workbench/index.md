@@ -2,13 +2,13 @@
 title: Assembly3 Workbench
 ---
 
-![](/src/assets/images/Assembly3_workbench_icon.svg)
+![](/images/Assembly3_workbench_icon.svg)
 
 Assembly3 workbench icon
 
 ## Introduction
 
-![](/src/assets/images/Assembly3_workbench_icon.svg) [Assembly3](/Assembly3_Workbench "Assembly3 Workbench") is an [external workbench](/External_workbenches "External workbenches") that is used to perform assembly of different bodies contained in a single file or in multiple documents. The workbench is based on several core function changes done for the version of FreeCAD 0.19 (e.g. [App Link](/App_Link "App Link")), so the Assembly3 Workbench can not be used with earlier versions.
+![](/images/Assembly3_workbench_icon.svg) [Assembly3](/Assembly3_Workbench "Assembly3 Workbench") is an [external workbench](/External_workbenches "External workbenches") that is used to perform assembly of different bodies contained in a single file or in multiple documents. The workbench is based on several core function changes done for the version of FreeCAD 0.19 (e.g. [App Link](/App_Link "App Link")), so the Assembly3 Workbench can not be used with earlier versions.
 
 The main features of the Assembly3 Workbench are
 
@@ -18,7 +18,7 @@ The main features of the Assembly3 Workbench are
 - **hierarchical assemblies**. As in real life a mechanical assembly may consist of sub-assemblies. Those might consists of sub-assemblies again and so on.
 - **assembly freeze**. As the CPU can only handle a restricted number of concurrent constraints in real time, to freeze an assembly allows to use constraints even for large assemblies. By freezing finished assemblies or constraints that are not required to remain dynamic (e.g. welded, bolted or glued parts) those are excluded from update calculations and considered fixed geometry by the Assembly3 solver.
 
-  : Note that other approaches offer different solution to this problem, e.g. the ![](/src/assets/images/Assembly4_workbench_icon.svg) [Assembly4 Workbench](/Assembly4_Workbench "Assembly4 Workbench").
+  : Note that other approaches offer different solution to this problem, e.g. the ![](/images/Assembly4_workbench_icon.svg) [Assembly4 Workbench](/Assembly4_Workbench "Assembly4 Workbench").
 
 [top](#top)
 
@@ -28,86 +28,86 @@ As of 2020 the Assembly3 workbench features the following toolbars.
 
 #### Main Toolbar
 
-: ![](/src/assets/images/Assembly_New_Assembly.svg) ![](/src/assets/images/Assembly_New_Group.svg) ![](/src/assets/images/Assembly_New_Element.svg) ![](/src/assets/images/Assembly_Import.svg)![](/src/assets/images/AngleDown.svg)![](/src/assets/images/Assembly3_workbench_icon.svg) ![](/src/assets/images/Assembly_QuickSolve.svg) ![](/src/assets/images/Assembly_Move.svg) ![](/src/assets/images/Assembly_AxialMove.svg) ![](/src/assets/images/Assembly_QuickMove.svg) ![](/src/assets/images/Assembly_LockMover.svg) ![](/src/assets/images/Assembly_TogglePartVisibility.svg) ![](/src/assets/images/Assembly_Trace.svg) ![](/src/assets/images/Assembly_AutoRecompute.svg) ![](/src/assets/images/Assembly_SmartRecompute.svg) ![](/src/assets/images/Assembly_AutoFixElement.svg) ![](/src/assets/images/Assembly_AutoElementVis.svg)![](/src/assets/images/AngleDown.svg)![](/src/assets/images/Assembly_Add_Workplane.svg)![](/src/assets/images/AngleDown.svg)![](/src/assets/images/Assembly_TreeItemUp.svg) ![](/src/assets/images/Assembly_TreeItemDown.svg) ![](/src/assets/images/Assembly_ConstraintMultiply.svg)
+: ![](/images/Assembly_New_Assembly.svg) ![](/images/Assembly_New_Group.svg) ![](/images/Assembly_New_Element.svg) ![](/images/Assembly_Import.svg)![](/images/AngleDown.svg)![](/images/Assembly3_workbench_icon.svg) ![](/images/Assembly_QuickSolve.svg) ![](/images/Assembly_Move.svg) ![](/images/Assembly_AxialMove.svg) ![](/images/Assembly_QuickMove.svg) ![](/images/Assembly_LockMover.svg) ![](/images/Assembly_TogglePartVisibility.svg) ![](/images/Assembly_Trace.svg) ![](/images/Assembly_AutoRecompute.svg) ![](/images/Assembly_SmartRecompute.svg) ![](/images/Assembly_AutoFixElement.svg) ![](/images/Assembly_AutoElementVis.svg)![](/images/AngleDown.svg)![](/images/Assembly_Add_Workplane.svg)![](/images/AngleDown.svg)![](/images/Assembly_TreeItemUp.svg) ![](/images/Assembly_TreeItemDown.svg) ![](/images/Assembly_ConstraintMultiply.svg)
 
 : The **Main Toolbar** contains tools that cover the most often used features of the workbench. The tooltips will give the keyboard short cuts.
 
-- ![](/src/assets/images/Assembly_New_Assembly.svg) [Create assembly](/Assembly3_CreateAssembly "Assembly3 CreateAssembly"): Add an assembly folder
+- ![](/images/Assembly_New_Assembly.svg) [Create assembly](/Assembly3_CreateAssembly "Assembly3 CreateAssembly"): Add an assembly folder
 
-  - ![](/src/assets/images/Assembly_New_Group.svg) [Group objects](/Assembly3_GroupObjects "Assembly3 GroupObjects"): Group objects
-  - ![](/src/assets/images/Assembly_New_Element.svg) [Create element](/Assembly3_CreateElement "Assembly3 CreateElement"): Create element.
+  - ![](/images/Assembly_New_Group.svg) [Group objects](/Assembly3_GroupObjects "Assembly3 GroupObjects"): Group objects
+  - ![](/images/Assembly_New_Element.svg) [Create element](/Assembly3_CreateElement "Assembly3 CreateElement"): Create element.
   - Import from STEP. This has two settings
-    - ![](/src/assets/images/Assembly_Import.svg) [Import from STEP](/Assembly3_ImportFromSTEP "Assembly3 ImportFromSTEP"): Import STEP files
-    - ![](/src/assets/images/Assembly_ImportMulti.svg) [Import as multi-document](/Assembly3_ImportMultiDocument "Assembly3 ImportMultiDocument"): Import assemblies from STEP into separate documents
-  - ![](/src/assets/images/Assembly3_workbench_icon.svg) [Resolve constraints](/Assembly3_ResolveConstraints "Assembly3 ResolveConstraints"): Resolve constraints
-  - ![](/src/assets/images/Assembly_QuickSolve.svg) [Quick solve](/Assembly3_QuickSolve "Assembly3 QuickSolve"): Quick resolve constraints
-  - ![](/src/assets/images/Assembly_Move.svg) [Move part](/Assembly3_MovePart "Assembly3 MovePart"): Move parts in 3D, this is specific to Assembly3
-  - ![](/src/assets/images/Assembly_AxialMove.svg) [Axial move](/Assembly3_AxialMove "Assembly3 AxialMove"): Axial move parts in 3D, this is the classical tool available elsewhere in FreeCAD
-  - ![](/src/assets/images/Assembly_QuickMove.svg) [Quick move](/Assembly3_QuickMove "Assembly3 QuickMove"): This will attach the part selected in the tree to the mouse cursor. It will change the position of the part when you click.
+    - ![](/images/Assembly_Import.svg) [Import from STEP](/Assembly3_ImportFromSTEP "Assembly3 ImportFromSTEP"): Import STEP files
+    - ![](/images/Assembly_ImportMulti.svg) [Import as multi-document](/Assembly3_ImportMultiDocument "Assembly3 ImportMultiDocument"): Import assemblies from STEP into separate documents
+  - ![](/images/Assembly3_workbench_icon.svg) [Resolve constraints](/Assembly3_ResolveConstraints "Assembly3 ResolveConstraints"): Resolve constraints
+  - ![](/images/Assembly_QuickSolve.svg) [Quick solve](/Assembly3_QuickSolve "Assembly3 QuickSolve"): Quick resolve constraints
+  - ![](/images/Assembly_Move.svg) [Move part](/Assembly3_MovePart "Assembly3 MovePart"): Move parts in 3D, this is specific to Assembly3
+  - ![](/images/Assembly_AxialMove.svg) [Axial move](/Assembly3_AxialMove "Assembly3 AxialMove"): Axial move parts in 3D, this is the classical tool available elsewhere in FreeCAD
+  - ![](/images/Assembly_QuickMove.svg) [Quick move](/Assembly3_QuickMove "Assembly3 QuickMove"): This will attach the part selected in the tree to the mouse cursor. It will change the position of the part when you click.
 
     : Often added parts are stacked upon each other in the origin. Use this function to grab a part you can not see.
 
-  - ![](/src/assets/images/Assembly_LockMover.svg) [Lock mover](/Assembly3_LockMover "Assembly3 LockMover"): Lock mover for fixed part. Toggle Button. When this is un-selected you can move the parts that have a "Locked" constraint.
-  - ![](/src/assets/images/Assembly_TogglePartVisibility.svg) [Toggle part visibility](/Assembly3_TogglePartVisibility "Assembly3 TogglePartVisibility"): This toggles the visiblity of the selected part on/off.
+  - ![](/images/Assembly_LockMover.svg) [Lock mover](/Assembly3_LockMover "Assembly3 LockMover"): Lock mover for fixed part. Toggle Button. When this is un-selected you can move the parts that have a "Locked" constraint.
+  - ![](/images/Assembly_TogglePartVisibility.svg) [Toggle part visibility](/Assembly3_TogglePartVisibility "Assembly3 TogglePartVisibility"): This toggles the visiblity of the selected part on/off.
 
     : Note that this differs from using space. Using space with selected items from a sub-assembly in the 3D view often does not behave as expected. Use this function in those cases (or shortcut A-Space)
 
-  - ![](/src/assets/images/Assembly_Trace.svg) [Trace part move](/Assembly3_TracePartMove "Assembly3 TracePartMove"): Trace part move (TBD)
-  - ![](/src/assets/images/Assembly_AutoRecompute.svg) [Auto recompute](/Assembly3_AutoRecompute "Assembly3 AutoRecompute"): Auto recompute. Usually enabled.
+  - ![](/images/Assembly_Trace.svg) [Trace part move](/Assembly3_TracePartMove "Assembly3 TracePartMove"): Trace part move (TBD)
+  - ![](/images/Assembly_AutoRecompute.svg) [Auto recompute](/Assembly3_AutoRecompute "Assembly3 AutoRecompute"): Auto recompute. Usually enabled.
 
     : May be un-selected when repairing constraints or fixing parts where the solver gives a _"do not converge"_ message (e.g. by turning the part 180deg)
 
-  - ![](/src/assets/images/Assembly_SmartRecompute.svg) [Smart recompute](/Assembly3_SmartRecompute "Assembly3 SmartRecompute"): Smart recompute. Usually enabled.
-  - ![](/src/assets/images/Assembly_AutoFixElement.svg) [Auto fix element](/Assembly3_AutoFixElement "Assembly3 AutoFixElement"): Element Auto Fixing. Experimental feature in 0.19_pre
+  - ![](/images/Assembly_SmartRecompute.svg) [Smart recompute](/Assembly3_SmartRecompute "Assembly3 SmartRecompute"): Smart recompute. Usually enabled.
+  - ![](/images/Assembly_AutoFixElement.svg) [Auto fix element](/Assembly3_AutoFixElement "Assembly3 AutoFixElement"): Element Auto Fixing. Experimental feature in 0.19_pre
   - Element Style. This has two settings
-    - ![](/src/assets/images/Assembly_AutoElementVis.svg) [Auto element visibility](/Assembly3_AutoElementVisibility "Assembly3 AutoElementVisibility"): Auto element visibility
-    - ![](/src/assets/images/Assembly_ShowElementCS.svg) [Show element coordinate system](/Assembly3_ShowElementCS "Assembly3 ShowElementCS"): Show element coordinate system
+    - ![](/images/Assembly_AutoElementVis.svg) [Auto element visibility](/Assembly3_AutoElementVisibility "Assembly3 AutoElementVisibility"): Auto element visibility
+    - ![](/images/Assembly_ShowElementCS.svg) [Show element coordinate system](/Assembly3_ShowElementCS "Assembly3 ShowElementCS"): Show element coordinate system
   - Workplane and origin. Adds a workplane, placement or origin. A part must be selected. This has five settings
-    - ![](/src/assets/images/Assembly_Add_Workplane.svg) [Add workplane](/Assembly3_AddWorkplane "Assembly3 AddWorkplane"): Add workplane
-    - ![](/src/assets/images/Assembly_Add_WorkplaneXZ.svg) [Add XZ workplane](/Assembly3_AddXZWorkplane "Assembly3 AddXZWorkplane"): Add XZ workplane
-    - ![](/src/assets/images/Assembly_Add_WorkplaneZY.svg) [Add ZY workplane](/Assembly3_AddZYWorkplane "Assembly3 AddZYWorkplane"): Add YZ workplane
-    - ![](/src/assets/images/Assembly_Add_Placement.svg) [Add placement](/Assembly3_AddPlacement "Assembly3 AddPlacement"): Add placement
-    - ![](/src/assets/images/Assembly_Add_Origin.svg) [Add Origin](/Assembly3_AddOrigin "Assembly3 AddOrigin"): Add Origin
-  - ![](/src/assets/images/Assembly_TreeItemUp.svg) [Move item up](/Assembly3_MoveItemUp "Assembly3 MoveItemUp"): Move selected tree item up
-  - ![](/src/assets/images/Assembly_TreeItemDown.svg) [Move item down](/Assembly3_MoveItemDown "Assembly3 MoveItemDown"): Move selected tree item down
+    - ![](/images/Assembly_Add_Workplane.svg) [Add workplane](/Assembly3_AddWorkplane "Assembly3 AddWorkplane"): Add workplane
+    - ![](/images/Assembly_Add_WorkplaneXZ.svg) [Add XZ workplane](/Assembly3_AddXZWorkplane "Assembly3 AddXZWorkplane"): Add XZ workplane
+    - ![](/images/Assembly_Add_WorkplaneZY.svg) [Add ZY workplane](/Assembly3_AddZYWorkplane "Assembly3 AddZYWorkplane"): Add YZ workplane
+    - ![](/images/Assembly_Add_Placement.svg) [Add placement](/Assembly3_AddPlacement "Assembly3 AddPlacement"): Add placement
+    - ![](/images/Assembly_Add_Origin.svg) [Add Origin](/Assembly3_AddOrigin "Assembly3 AddOrigin"): Add Origin
+  - ![](/images/Assembly_TreeItemUp.svg) [Move item up](/Assembly3_MoveItemUp "Assembly3 MoveItemUp"): Move selected tree item up
+  - ![](/images/Assembly_TreeItemDown.svg) [Move item down](/Assembly3_MoveItemDown "Assembly3 MoveItemDown"): Move selected tree item down
 
     : Allows to sort Parts, Elements or Constraints in the tree. Element roll over (top to bottom and vice versa). Only works for a single selection.
 
-  - ![](/src/assets/images/Assembly_ConstraintMultiply.svg) [Multiply constraint](/Assembly3_MultiplyConstraint "Assembly3 MultiplyConstraint"): Multiply Constraint. This can be selected if multiple parts and suitable Elements are present.
+  - ![](/images/Assembly_ConstraintMultiply.svg) [Multiply constraint](/Assembly3_MultiplyConstraint "Assembly3 MultiplyConstraint"): Multiply Constraint. This can be selected if multiple parts and suitable Elements are present.
 
     : It is used e.g. to assign multiple fasteners of the same type into multiple holes with one constraint.
 
 #### Main Constraints Toolbar
 
-: ![](/src/assets/images/Assembly_ConstraintLock.svg) ![](/src/assets/images/Assembly_ConstraintAlignment.svg) ![](/src/assets/images/Assembly_ConstraintCoincidence.svg) ![](/src/assets/images/Assembly_ConstraintAttachment.svg)![](/src/assets/images/AngleDown.svg)![](/src/assets/images/Assembly_ConstraintAxial.svg) ![](/src/assets/images/Assembly_ConstraintSameOrientation.svg) ![](/src/assets/images/Assembly_ConstraintMultiParallel.svg) ![](/src/assets/images/Assembly_ConstraintAngle.svg) ![](/src/assets/images/Assembly_ConstraintPerpendicular.svg) ![](/src/assets/images/Assembly_ConstraintPointCoincident.svg) ![](/src/assets/images/Assembly_ConstraintPointInPlane.svg) ![](/src/assets/images/Assembly_ConstraintPointOnLine.svg) ![](/src/assets/images/Assembly_ConstraintPointOnCircle.svg) ![](/src/assets/images/Assembly_ConstraintPointsDistance.svg) ![](/src/assets/images/Assembly_ConstraintPointPlaneDistance.svg) ![](/src/assets/images/Assembly_ConstraintPointLineDistance.svg) ![](/src/assets/images/Assembly_ConstraintSymmetric.svg) ![](/src/assets/images/Assembly_ConstraintMore.svg)
+: ![](/images/Assembly_ConstraintLock.svg) ![](/images/Assembly_ConstraintAlignment.svg) ![](/images/Assembly_ConstraintCoincidence.svg) ![](/images/Assembly_ConstraintAttachment.svg)![](/images/AngleDown.svg)![](/images/Assembly_ConstraintAxial.svg) ![](/images/Assembly_ConstraintSameOrientation.svg) ![](/images/Assembly_ConstraintMultiParallel.svg) ![](/images/Assembly_ConstraintAngle.svg) ![](/images/Assembly_ConstraintPerpendicular.svg) ![](/images/Assembly_ConstraintPointCoincident.svg) ![](/images/Assembly_ConstraintPointInPlane.svg) ![](/images/Assembly_ConstraintPointOnLine.svg) ![](/images/Assembly_ConstraintPointOnCircle.svg) ![](/images/Assembly_ConstraintPointsDistance.svg) ![](/images/Assembly_ConstraintPointPlaneDistance.svg) ![](/images/Assembly_ConstraintPointLineDistance.svg) ![](/images/Assembly_ConstraintSymmetric.svg) ![](/images/Assembly_ConstraintMore.svg)
 
 : Some tools are actually a menu for more tools.
 
-- ![](/src/assets/images/Assembly_ConstraintLock.svg) [Locked](/Assembly3_ConstraintLock "Assembly3 ConstraintLock"): Add a "Locked" constraint to fix one or more parts.
+- ![](/images/Assembly_ConstraintLock.svg) [Locked](/Assembly3_ConstraintLock "Assembly3 ConstraintLock"): Add a "Locked" constraint to fix one or more parts.
 
       :   You must select a geometry element of the part.
       :   If you fix a vertex or an edge the part is still free to rotate around the vertex or edge.
       :   Fixing a face will completely lock the part.
 
-  - ![](/src/assets/images/Assembly_ConstraintAlignment.svg) [Plane Alignment](/Assembly3_ConstraintAlignment "Assembly3 ConstraintAlignment"): Add a "Plane alignment" constraint to align planar faces of two or more parts.
+  - ![](/images/Assembly_ConstraintAlignment.svg) [Plane Alignment](/Assembly3_ConstraintAlignment "Assembly3 ConstraintAlignment"): Add a "Plane alignment" constraint to align planar faces of two or more parts.
 
     : The faces become coplanar or parallel with an optional distance.
 
-  - ![](/src/assets/images/Assembly_ConstraintCoincidence.svg) [Plane Coincidence](/Assembly3_ConstraintCoincidence "Assembly3 ConstraintCoincidence"): Add a "Plane coincidence" constraint to coincide planar faces of two or more parts.
+  - ![](/images/Assembly_ConstraintCoincidence.svg) [Plane Coincidence](/Assembly3_ConstraintCoincidence "Assembly3 ConstraintCoincidence"): Add a "Plane coincidence" constraint to coincide planar faces of two or more parts.
 
     : The faces are coincided at their centers with an optional distance.
 
   - Attachment. This has two settings
 
-    - ![](/src/assets/images/Assembly_ConstraintAttachment.svg) [Attachment](/Assembly3_ConstraintAttachment "Assembly3 ConstraintAttachment"): Add an "Attachment" constraint to attach two parts with the selected geometry elements.
+    - ![](/images/Assembly_ConstraintAttachment.svg) [Attachment](/Assembly3_ConstraintAttachment "Assembly3 ConstraintAttachment"): Add an "Attachment" constraint to attach two parts with the selected geometry elements.
 
       : This constraint completely fixes the parts relative to each other.
 
-    - ![](/src/assets/images/Assembly_ConstraintAttachmentOffset.svg) [AttachmentOffset](/Assembly3_ConstraintAttachmentOffset "Assembly3 ConstraintAttachmentOffset"): Same as "Attachment" constraint, but maintaining the current relative placement of the involved parts by applying an element offset.
+    - ![](/images/Assembly_ConstraintAttachmentOffset.svg) [AttachmentOffset](/Assembly3_ConstraintAttachmentOffset "Assembly3 ConstraintAttachmentOffset"): Same as "Attachment" constraint, but maintaining the current relative placement of the involved parts by applying an element offset.
 
       : This constraint completely fixes the parts relative to each other.
 
-  - ![](/src/assets/images/Assembly_ConstraintAxial.svg) [Axial Alignment](/Assembly3_ConstraintAxial "Assembly3 ConstraintAxial"): Add an "Axial alignment" constraint to align edges/faces of two or more parts.
+  - ![](/images/Assembly_ConstraintAxial.svg) [Axial Alignment](/Assembly3_ConstraintAxial "Assembly3 ConstraintAxial"): Add an "Axial alignment" constraint to align edges/faces of two or more parts.
 
     : The constraint accepts
 
@@ -117,75 +117,75 @@ As of 2020 the Assembly3 workbench features the following toolbars.
 
     : Different types of geometry elements can be mixed.
 
-  - ![](/src/assets/images/Assembly_ConstraintSameOrientation.svg) [Same orientation](/Assembly3_ConstraintSameOrientation "Assembly3 ConstraintSameOrientation"): Add a "Same orientation" constraint to align faces of two or more parts.
+  - ![](/images/Assembly_ConstraintSameOrientation.svg) [Same orientation](/Assembly3_ConstraintSameOrientation "Assembly3 ConstraintSameOrientation"): Add a "Same orientation" constraint to align faces of two or more parts.
 
     : The planes are aligned to have the same orientation (i.e. rotation)
 
-  - ![](/src/assets/images/Assembly_ConstraintMultiParallel.svg) [Multi parallel](/Assembly3_ConstraintMultiParallel "Assembly3 ConstraintMultiParallel"): Add a "Multi parallel" constraint to make planar faces or linear edges of two or more parts parallel.
-  - ![](/src/assets/images/Assembly_ConstraintAngle.svg) [Angle](/Assembly3_ConstraintAngle "Assembly3 ConstraintAngle"): Add an "Angle" constraint to set the angle of planar faces or linear edges of two parts.
-  - ![](/src/assets/images/Assembly_ConstraintPerpendicular.svg) [Perpendicular](/Assembly3_ConstraintPerpendicular "Assembly3 ConstraintPerpendicular"): Add a "Perpendicular" constraint to make planar faces or linear edges of two parts perpendicular.
-  - ![](/src/assets/images/Assembly_ConstraintPointCoincident.svg) [Points coincident](/Assembly3_ConstraintPointsCoincident "Assembly3 ConstraintPointsCoincident"): Add a "Point coincident" constraint to coincide two points in 2D or 3D.
-  - ![](/src/assets/images/Assembly_ConstraintPointInPlane.svg) [Point on plane](/Assembly3_ConstraintPointInPlane "Assembly3 ConstraintPointInPlane"): Add a "Point on plane" to constrain one or more point onto a plane.
-  - ![](/src/assets/images/Assembly_ConstraintPointOnLine.svg) [Point on line](/Assembly3_ConstraintPointOnLine "Assembly3 ConstraintPointOnLine"): Add a "Point on line" to constrain a point onto a line in 2D or 3D.
-  - ![](/src/assets/images/Assembly_ConstraintPointOnCircle.svg) [Point on circle](/Assembly3_ConstraintPointOnCircle "Assembly3 ConstraintPointOnCircle"): Add a "Point on circle" to constrain one or more points on to a clyndrical surface defined by a cricle.
+  - ![](/images/Assembly_ConstraintMultiParallel.svg) [Multi parallel](/Assembly3_ConstraintMultiParallel "Assembly3 ConstraintMultiParallel"): Add a "Multi parallel" constraint to make planar faces or linear edges of two or more parts parallel.
+  - ![](/images/Assembly_ConstraintAngle.svg) [Angle](/Assembly3_ConstraintAngle "Assembly3 ConstraintAngle"): Add an "Angle" constraint to set the angle of planar faces or linear edges of two parts.
+  - ![](/images/Assembly_ConstraintPerpendicular.svg) [Perpendicular](/Assembly3_ConstraintPerpendicular "Assembly3 ConstraintPerpendicular"): Add a "Perpendicular" constraint to make planar faces or linear edges of two parts perpendicular.
+  - ![](/images/Assembly_ConstraintPointCoincident.svg) [Points coincident](/Assembly3_ConstraintPointsCoincident "Assembly3 ConstraintPointsCoincident"): Add a "Point coincident" constraint to coincide two points in 2D or 3D.
+  - ![](/images/Assembly_ConstraintPointInPlane.svg) [Point on plane](/Assembly3_ConstraintPointInPlane "Assembly3 ConstraintPointInPlane"): Add a "Point on plane" to constrain one or more point onto a plane.
+  - ![](/images/Assembly_ConstraintPointOnLine.svg) [Point on line](/Assembly3_ConstraintPointOnLine "Assembly3 ConstraintPointOnLine"): Add a "Point on line" to constrain a point onto a line in 2D or 3D.
+  - ![](/images/Assembly_ConstraintPointOnCircle.svg) [Point on circle](/Assembly3_ConstraintPointOnCircle "Assembly3 ConstraintPointOnCircle"): Add a "Point on circle" to constrain one or more points on to a clyndrical surface defined by a cricle.
 
     : Note that you must select a point (any geometry element can define a point), and then select the circle (or clyndrical surface),
     : after which you can add more points to your selection if you want.
 
-  - ![](/src/assets/images/Assembly_ConstraintPointsDistance.svg) [Points distance](/Assembly3_ConstraintPointsDistance "Assembly3 ConstraintPointsDistance"): Add a "Points distance" to constrain the distance of two or more points.
-  - ![](/src/assets/images/Assembly_ConstraintPointPlaneDistance.svg) [Point plane distance](/Assembly3_ConstraintPointPlaneDistance "Assembly3 ConstraintPointPlaneDistance"): Add a "Point plane distance" to constrain the distance between one or more points and a plane.
-  - ![](/src/assets/images/Assembly_ConstraintPointLineDistance.svg) [Point line distance](/Assembly3_ConstraintPointLineDistance "Assembly3 ConstraintPointLineDistance"): Add a "Point line distance" to constrain the distance between a point and a linear edge in 2D or 3D.
-  - ![](/src/assets/images/Assembly_ConstraintSymmetric.svg) [Symmetric](/Assembly3_ConstraintSymmetric "Assembly3 ConstraintSymmetric"): Add a "Symmetric" constraint to make geometry elements of two parts symmetric about a plane.
+  - ![](/images/Assembly_ConstraintPointsDistance.svg) [Points distance](/Assembly3_ConstraintPointsDistance "Assembly3 ConstraintPointsDistance"): Add a "Points distance" to constrain the distance of two or more points.
+  - ![](/images/Assembly_ConstraintPointPlaneDistance.svg) [Point plane distance](/Assembly3_ConstraintPointPlaneDistance "Assembly3 ConstraintPointPlaneDistance"): Add a "Point plane distance" to constrain the distance between one or more points and a plane.
+  - ![](/images/Assembly_ConstraintPointLineDistance.svg) [Point line distance](/Assembly3_ConstraintPointLineDistance "Assembly3 ConstraintPointLineDistance"): Add a "Point line distance" to constrain the distance between a point and a linear edge in 2D or 3D.
+  - ![](/images/Assembly_ConstraintSymmetric.svg) [Symmetric](/Assembly3_ConstraintSymmetric "Assembly3 ConstraintSymmetric"): Add a "Symmetric" constraint to make geometry elements of two parts symmetric about a plane.
 
     : The supported elements are linear edge and planar face.
 
-  - ![](/src/assets/images/Assembly_ConstraintMore.svg) [More](/Assembly3_ConstraintMore "Assembly3 ConstraintMore"): Toggle toolbars for more constraints
+  - ![](/images/Assembly_ConstraintMore.svg) [More](/Assembly3_ConstraintMore "Assembly3 ConstraintMore"): Toggle toolbars for more constraints
 
     : Not really a constraint but a toggle switch to show/hide the **Additional Constraints Toolbars**.
 
 #### Additional Constraints Toolbars
 
-: ![](/src/assets/images/Assembly_ConstraintPointDistance.svg) ![](/src/assets/images/Assembly_ConstraintEqualAngle.svg) ![](/src/assets/images/Assembly_ConstraintPointsSymmetric.svg) ![](/src/assets/images/Assembly_ConstraintGeneral.svg) ![](/src/assets/images/Assembly_ConstraintGeneral.svg) ![](/src/assets/images/Assembly_ConstraintSymmetricLine.svg) ![](/src/assets/images/Assembly_ConstraintPointsHorizontal.svg) ![](/src/assets/images/Assembly_ConstraintPointsVertical.svg) ![](/src/assets/images/Assembly_ConstraintLineHorizontal.svg) ![](/src/assets/images/Assembly_ConstraintLineVertical.svg) ![](/src/assets/images/Assembly_ConstraintArcLineTangent.svg) (Assembly3 Constraints2)
+: ![](/images/Assembly_ConstraintPointDistance.svg) ![](/images/Assembly_ConstraintEqualAngle.svg) ![](/images/Assembly_ConstraintPointsSymmetric.svg) ![](/images/Assembly_ConstraintGeneral.svg) ![](/images/Assembly_ConstraintGeneral.svg) ![](/images/Assembly_ConstraintSymmetricLine.svg) ![](/images/Assembly_ConstraintPointsHorizontal.svg) ![](/images/Assembly_ConstraintPointsVertical.svg) ![](/images/Assembly_ConstraintLineHorizontal.svg) ![](/images/Assembly_ConstraintLineVertical.svg) ![](/images/Assembly_ConstraintArcLineTangent.svg) (Assembly3 Constraints2)
 
-: ![](/src/assets/images/Assembly_ConstraintSketchPlane.svg) ![](/src/assets/images/Assembly_ConstraintLineLength.svg) ![](/src/assets/images/Assembly_ConstraintEqualLength.svg) ![](/src/assets/images/Assembly_ConstraintLengthRatio.svg) ![](/src/assets/images/Assembly_ConstraintLengthDifference.svg) ![](/src/assets/images/Assembly_ConstraintLengthEqualPointLineDistance.svg) ![](/src/assets/images/Assembly_ConstraintEqualLineArcLength.svg) ![](/src/assets/images/Assembly_ConstraintMidPoint.svg) ![](/src/assets/images/Assembly_ConstraintDiameter.svg) ![](/src/assets/images/Assembly_ConstraintEqualRadius.svg) ![](/src/assets/images/Assembly_ConstraintPointsProjectDistance.svg) ![](/src/assets/images/Assembly_ConstraintEqualPointLineDistance.svg) ![](/src/assets/images/Assembly_ConstraintColinear.svg) (Assembly3 Sketch Constraints)
+: ![](/images/Assembly_ConstraintSketchPlane.svg) ![](/images/Assembly_ConstraintLineLength.svg) ![](/images/Assembly_ConstraintEqualLength.svg) ![](/images/Assembly_ConstraintLengthRatio.svg) ![](/images/Assembly_ConstraintLengthDifference.svg) ![](/images/Assembly_ConstraintLengthEqualPointLineDistance.svg) ![](/images/Assembly_ConstraintEqualLineArcLength.svg) ![](/images/Assembly_ConstraintMidPoint.svg) ![](/images/Assembly_ConstraintDiameter.svg) ![](/images/Assembly_ConstraintEqualRadius.svg) ![](/images/Assembly_ConstraintPointsProjectDistance.svg) ![](/images/Assembly_ConstraintEqualPointLineDistance.svg) ![](/images/Assembly_ConstraintColinear.svg) (Assembly3 Sketch Constraints)
 
-: You can enable these by selecting the ![](/src/assets/images/Assembly_ConstraintMore.svg) [More](/Assembly3_ConstraintMore "Assembly3 ConstraintMore") button on the Main Constraints toolbar.
+: You can enable these by selecting the ![](/images/Assembly_ConstraintMore.svg) [More](/Assembly3_ConstraintMore "Assembly3 ConstraintMore") button on the Main Constraints toolbar.
 
-- ![](/src/assets/images/Assembly_ConstraintPointDistance.svg) [Point distance](/Assembly3_ConstraintPointDistance "Assembly3 ConstraintPointDistance"): Add a "Point distance" to constrain the distance of two points in 2D or 3D.
+- ![](/images/Assembly_ConstraintPointDistance.svg) [Point distance](/Assembly3_ConstraintPointDistance "Assembly3 ConstraintPointDistance"): Add a "Point distance" to constrain the distance of two points in 2D or 3D.
 
-  - ![](/src/assets/images/Assembly_ConstraintEqualAngle.svg) [Equal angle](/Assembly3_ConstraintEqualAngle "Assembly3 ConstraintEqualAngle"): Add an "Equal angle" to equate the angles between two lines or normals.
-  - ![](/src/assets/images/Assembly_ConstraintPointsSymmetric.svg) [Points symmetric](/Assembly3_ConstraintPointsSymmetric "Assembly3 ConstraintPointsSymmetric"): Add a "Points symmetric" constraint to make two points symmetric about a plane.
-  - ![](/src/assets/images/Assembly_ConstraintGeneral.svg) () [Symmetric horizontal](/Assembly3_ConstraintSymmetricHorizontal "Assembly3 ConstraintSymmetricHorizontal"): Symmetric horizontal
-  - ![](/src/assets/images/Assembly_ConstraintGeneral.svg) () [Symmetric vertical](/Assembly3_ConstraintSymmetricVertical "Assembly3 ConstraintSymmetricVertical"): Symmetric vertical
-  - ![](/src/assets/images/Assembly_ConstraintSymmetricLine.svg) [Symmetric line](/Assembly3_ConstraintSymmetricLine "Assembly3 ConstraintSymmetricLine"): Add a "Symmetric line" constraint to make two points symmetric about a line.
-  - ![](/src/assets/images/Assembly_ConstraintPointsHorizontal.svg) [Points horizontal](/Assembly3_ConstraintPointsHorizontal "Assembly3 ConstraintPointsHorizontal"): Add a "Points horizontal" constraint to make two points horizontal with each other when projected onto a plane.
-  - ![](/src/assets/images/Assembly_ConstraintPointsVertical.svg) [Points vertical](/Assembly3_ConstraintPointsVertical "Assembly3 ConstraintPointsVertical"): Add a "Points vertical" constraint to make two points vertical with each other when projected onto a plane.
-  - ![](/src/assets/images/Assembly_ConstraintLineHorizontal.svg) [Line horizontal](/Assembly3_ConstraintLineHorizontal "Assembly3 ConstraintLineHorizontal"):Add a "Line horizontal" constraint to make a line segment horizontal when projected onto a plane.
-  - ![](/src/assets/images/Assembly_ConstraintLineVertical.svg) [Line vertical](/Assembly3_ConstraintLineVertical "Assembly3 ConstraintLineVertical"): Add a "Line vertical" constraint to make a line segment vertical when projected onto a plane.
-  - ![](/src/assets/images/Assembly_ConstraintArcLineTangent.svg) [Arc line tangent](/Assembly3_ConstraintArcLineTangent "Assembly3 ConstraintArcLineTangent"): Add an "Arc line tangent" constraint to make a line tangent to an arc at the start or end point of the arc.
+  - ![](/images/Assembly_ConstraintEqualAngle.svg) [Equal angle](/Assembly3_ConstraintEqualAngle "Assembly3 ConstraintEqualAngle"): Add an "Equal angle" to equate the angles between two lines or normals.
+  - ![](/images/Assembly_ConstraintPointsSymmetric.svg) [Points symmetric](/Assembly3_ConstraintPointsSymmetric "Assembly3 ConstraintPointsSymmetric"): Add a "Points symmetric" constraint to make two points symmetric about a plane.
+  - ![](/images/Assembly_ConstraintGeneral.svg) () [Symmetric horizontal](/Assembly3_ConstraintSymmetricHorizontal "Assembly3 ConstraintSymmetricHorizontal"): Symmetric horizontal
+  - ![](/images/Assembly_ConstraintGeneral.svg) () [Symmetric vertical](/Assembly3_ConstraintSymmetricVertical "Assembly3 ConstraintSymmetricVertical"): Symmetric vertical
+  - ![](/images/Assembly_ConstraintSymmetricLine.svg) [Symmetric line](/Assembly3_ConstraintSymmetricLine "Assembly3 ConstraintSymmetricLine"): Add a "Symmetric line" constraint to make two points symmetric about a line.
+  - ![](/images/Assembly_ConstraintPointsHorizontal.svg) [Points horizontal](/Assembly3_ConstraintPointsHorizontal "Assembly3 ConstraintPointsHorizontal"): Add a "Points horizontal" constraint to make two points horizontal with each other when projected onto a plane.
+  - ![](/images/Assembly_ConstraintPointsVertical.svg) [Points vertical](/Assembly3_ConstraintPointsVertical "Assembly3 ConstraintPointsVertical"): Add a "Points vertical" constraint to make two points vertical with each other when projected onto a plane.
+  - ![](/images/Assembly_ConstraintLineHorizontal.svg) [Line horizontal](/Assembly3_ConstraintLineHorizontal "Assembly3 ConstraintLineHorizontal"):Add a "Line horizontal" constraint to make a line segment horizontal when projected onto a plane.
+  - ![](/images/Assembly_ConstraintLineVertical.svg) [Line vertical](/Assembly3_ConstraintLineVertical "Assembly3 ConstraintLineVertical"): Add a "Line vertical" constraint to make a line segment vertical when projected onto a plane.
+  - ![](/images/Assembly_ConstraintArcLineTangent.svg) [Arc line tangent](/Assembly3_ConstraintArcLineTangent "Assembly3 ConstraintArcLineTangent"): Add an "Arc line tangent" constraint to make a line tangent to an arc at the start or end point of the arc.
 
-- ![](/src/assets/images/Assembly_ConstraintSketchPlane.svg) [Sketch plane](/Assembly3_ConstraintSketchPlane "Assembly3 ConstraintSketchPlane"): Add a "Sketch plane" to define the work plane of any draft element inside or following this constraint.
+- ![](/images/Assembly_ConstraintSketchPlane.svg) [Sketch plane](/Assembly3_ConstraintSketchPlane "Assembly3 ConstraintSketchPlane"): Add a "Sketch plane" to define the work plane of any draft element inside or following this constraint.
 
       :   Add an empty "Sketch plane" to undefine the previous work plane.
 
-  - ![](/src/assets/images/Assembly_ConstraintLineLength.svg) [Line length](/Assembly3_ConstraintLineLength "Assembly3 ConstraintLineLength"): Add a "Line length" constrain the length of a non-subdivided Draft.Wire.
-  - ![](/src/assets/images/Assembly_ConstraintEqualLength.svg) [Equal length](/Assembly3_ConstraintEqualLength "Assembly3 ConstraintEqualLength"): Add an "Equal length" constraint to make two lines of the same length.
-  - ![](/src/assets/images/Assembly_ConstraintLengthRatio.svg) [Length ratio](/Assembly3_ConstraintLengthRatio "Assembly3 ConstraintLengthRatio"): Add a "Length ratio" to constrain the length ratio of two lines.
-  - ![](/src/assets/images/Assembly_ConstraintLengthDifference.svg) [Length difference](/Assembly3_ConstraintLengthDifference "Assembly3 ConstraintLengthDifference"): Add a "Length difference" to constrain the length difference of two lines.
-  - ![](/src/assets/images/Assembly_ConstraintLengthEqualPointLineDistance.svg) [Length Equal Point Line Distance](/Assembly3_ConstraintLengthEqualPointLineDistance "Assembly3 ConstraintLengthEqualPointLineDistance"): Add a "Length Equal Point Line Distance" to constrain the distance
+  - ![](/images/Assembly_ConstraintLineLength.svg) [Line length](/Assembly3_ConstraintLineLength "Assembly3 ConstraintLineLength"): Add a "Line length" constrain the length of a non-subdivided Draft.Wire.
+  - ![](/images/Assembly_ConstraintEqualLength.svg) [Equal length](/Assembly3_ConstraintEqualLength "Assembly3 ConstraintEqualLength"): Add an "Equal length" constraint to make two lines of the same length.
+  - ![](/images/Assembly_ConstraintLengthRatio.svg) [Length ratio](/Assembly3_ConstraintLengthRatio "Assembly3 ConstraintLengthRatio"): Add a "Length ratio" to constrain the length ratio of two lines.
+  - ![](/images/Assembly_ConstraintLengthDifference.svg) [Length difference](/Assembly3_ConstraintLengthDifference "Assembly3 ConstraintLengthDifference"): Add a "Length difference" to constrain the length difference of two lines.
+  - ![](/images/Assembly_ConstraintLengthEqualPointLineDistance.svg) [Length Equal Point Line Distance](/Assembly3_ConstraintLengthEqualPointLineDistance "Assembly3 ConstraintLengthEqualPointLineDistance"): Add a "Length Equal Point Line Distance" to constrain the distance
 
     : between a point and a line to be the same as the length of a another line.
 
-  - ![](/src/assets/images/Assembly_ConstraintGeneral.svg) ( ![](/src/assets/images/Assembly_ConstraintEqualLineArcLength.svg) )[Equal Line Arc Length](/Assembly3_ConstraintEqualLineArcLength "Assembly3 ConstraintEqualLineArcLength"): Add an "Equal Line Arc Length" constraint to make a line of the same length as an arc.
-  - ![](/src/assets/images/Assembly_ConstraintMidPoint.svg) [Mid point](/Assembly3_ConstraintMidPoint "Assembly3 ConstraintMidPoint"): Add a "Mid point" to constrain a point to the middle point of a line.
-  - ![](/src/assets/images/Assembly_ConstraintDiameter.svg) [Diameter](/Assembly3_ConstraintDiameter "Assembly3 ConstraintDiameter"): Add a "Diameter" to constrain the diameter of a circle/arc.
-  - ![](/src/assets/images/Assembly_ConstraintEqualRadius.svg) [Equal radius](/Assembly3_ConstraintEqualRadius "Assembly3 ConstraintEqualRadius"): Add an "Equal radius" constraint to make two circles/arcs of the same radius.
-  - ![](/src/assets/images/Assembly_ConstraintPointsProjectDistance.svg) [Points project distance](/Assembly3_ConstraintPointsProjectDistance "Assembly3 ConstraintPointsProjectDistance"): Add a "Points project distance" to constrain the distance of two points projected on a line.
-  - ![](/src/assets/images/Assembly_ConstraintEqualPointLineDistance.svg) [Equal point line distance](/Assembly3_ConstraintEqualPointLineDistance "Assembly3 ConstraintEqualPointLineDistance"): Add an "Equal point line distance" to constrain the distance
+  - ![](/images/Assembly_ConstraintGeneral.svg) ( ![](/images/Assembly_ConstraintEqualLineArcLength.svg) )[Equal Line Arc Length](/Assembly3_ConstraintEqualLineArcLength "Assembly3 ConstraintEqualLineArcLength"): Add an "Equal Line Arc Length" constraint to make a line of the same length as an arc.
+  - ![](/images/Assembly_ConstraintMidPoint.svg) [Mid point](/Assembly3_ConstraintMidPoint "Assembly3 ConstraintMidPoint"): Add a "Mid point" to constrain a point to the middle point of a line.
+  - ![](/images/Assembly_ConstraintDiameter.svg) [Diameter](/Assembly3_ConstraintDiameter "Assembly3 ConstraintDiameter"): Add a "Diameter" to constrain the diameter of a circle/arc.
+  - ![](/images/Assembly_ConstraintEqualRadius.svg) [Equal radius](/Assembly3_ConstraintEqualRadius "Assembly3 ConstraintEqualRadius"): Add an "Equal radius" constraint to make two circles/arcs of the same radius.
+  - ![](/images/Assembly_ConstraintPointsProjectDistance.svg) [Points project distance](/Assembly3_ConstraintPointsProjectDistance "Assembly3 ConstraintPointsProjectDistance"): Add a "Points project distance" to constrain the distance of two points projected on a line.
+  - ![](/images/Assembly_ConstraintEqualPointLineDistance.svg) [Equal point line distance](/Assembly3_ConstraintEqualPointLineDistance "Assembly3 ConstraintEqualPointLineDistance"): Add an "Equal point line distance" to constrain the distance
 
     : between a point and a line to be the same as the distance between another point and line.
 
-  - ![](/src/assets/images/Assembly_ConstraintColinear.svg) [Colinear](/Assembly3_ConstraintColinear "Assembly3 ConstraintColinear"): Add a "Colinear" constraint to make two lines collinear.
+  - ![](/images/Assembly_ConstraintColinear.svg) [Colinear](/Assembly3_ConstraintColinear "Assembly3 ConstraintColinear"): Add a "Colinear" constraint to make two lines collinear.
 
 : The **Constraints Toolbars** will be the main interface used when assembling parts.
 : They are greyed out by default but are activated once at least one face, line or point of a part is selected.
@@ -198,24 +198,24 @@ As of 2020 the Assembly3 workbench features the following toolbars.
 
 #### Navigation Toolbar
 
-: ![](/src/assets/images/Assembly_GotoRelation.svg) ![](/src/assets/images/LinkSelect.svg) ![](/src/assets/images/LinkSelectFinal.svg)
+: ![](/images/Assembly_GotoRelation.svg) ![](/images/LinkSelect.svg) ![](/images/LinkSelectFinal.svg)
 
 : Theses functions are useful when working with an assembly with a hierarchy of linked external files
 
-- ![](/src/assets/images/Assembly_GotoRelation.svg) [Go to relation](/Assembly3_GoToRelation "Assembly3 GoToRelation"): Reveals the Relations group (hidden by default) and selects a relation object.
-  - ![](/src/assets/images/Std_LinkSelectLinked.svg) [Select linked object](/Std_LinkSelectLinked "Std LinkSelectLinked"): Selects the linked object and switches to its document. [introduced in 0.19](/Release_notes_0.19 "Release notes 0.19")
-  - ![](/src/assets/images/Std_LinkSelectLinkedFinal.svg) [Select linked final](/Std_LinkSelectLinkedFinal "Std LinkSelectLinkedFinal"): Selects the deepest linked object and switches to its document. [introduced in 0.19](/Release_notes_0.19 "Release notes 0.19")
+- ![](/images/Assembly_GotoRelation.svg) [Go to relation](/Assembly3_GoToRelation "Assembly3 GoToRelation"): Reveals the Relations group (hidden by default) and selects a relation object.
+  - ![](/images/Std_LinkSelectLinked.svg) [Select linked object](/Std_LinkSelectLinked "Std LinkSelectLinked"): Selects the linked object and switches to its document. [introduced in 0.19](/Release_notes_0.19 "Release notes 0.19")
+  - ![](/images/Std_LinkSelectLinkedFinal.svg) [Select linked final](/Std_LinkSelectLinkedFinal "Std LinkSelectLinkedFinal"): Selects the deepest linked object and switches to its document. [introduced in 0.19](/Release_notes_0.19 "Release notes 0.19")
 
 #### Measurement Toolbar
 
-: ![](/src/assets/images/Assembly_MeasurePointDistance.svg) ![](/src/assets/images/Assembly_MeasurePointLineDistance.svg) ![](/src/assets/images/Assembly_MeasurePointPlaneDistance.svg) ![](/src/assets/images/Assembly_MeasureAngle.svg)
+: ![](/images/Assembly_MeasurePointDistance.svg) ![](/images/Assembly_MeasurePointLineDistance.svg) ![](/images/Assembly_MeasurePointPlaneDistance.svg) ![](/images/Assembly_MeasureAngle.svg)
 
 : The **Measurement toolbar** adds functions to measure the distance or the angle between two objects
 
-- ![](/src/assets/images/Assembly_MeasurePointDistance.svg) [Measure points](/Assembly3_MeasurePoints "Assembly3 MeasurePoints"): Add a "Measure points" to measure the distance of two points in 2D or 3D.
-  - ![](/src/assets/images/Assembly_MeasurePointLineDistance.svg) [Measure point to line](/Assembly3_MeasurePointLine "Assembly3 MeasurePointLine"): Add a "Measure point to line" to measure the distance between a point and a linear edge in 2D or 3D.
-  - ![](/src/assets/images/Assembly_MeasurePointPlaneDistance.svg) [Measure point to plane](/Assembly3_MeasurePointPlane "Assembly3 MeasurePointPlane"): Add a "Measure point to plane" to measure the distance between a point and a plane.
-  - ![](/src/assets/images/Assembly_MeasureAngle.svg) [Measure angle](/Assembly3_MeasureAngle "Assembly3 MeasureAngle"): Add a "Measure angle" to measure the angle of planar faces or linear edges of two parts.
+- ![](/images/Assembly_MeasurePointDistance.svg) [Measure points](/Assembly3_MeasurePoints "Assembly3 MeasurePoints"): Add a "Measure points" to measure the distance of two points in 2D or 3D.
+  - ![](/images/Assembly_MeasurePointLineDistance.svg) [Measure point to line](/Assembly3_MeasurePointLine "Assembly3 MeasurePointLine"): Add a "Measure point to line" to measure the distance between a point and a linear edge in 2D or 3D.
+  - ![](/images/Assembly_MeasurePointPlaneDistance.svg) [Measure point to plane](/Assembly3_MeasurePointPlane "Assembly3 MeasurePointPlane"): Add a "Measure point to plane" to measure the distance between a point and a plane.
+  - ![](/images/Assembly_MeasureAngle.svg) [Measure angle](/Assembly3_MeasureAngle "Assembly3 MeasureAngle"): Add a "Measure angle" to measure the angle of planar faces or linear edges of two parts.
 
 : There is no function to measure a radius or diameter.
 : The measurement tools survive part changes, e.g. the distance between edges of a cube when the cube is re-sized.
@@ -322,32 +322,32 @@ Since the AppImage only works for Linux, for Windows users (who want an alternat
 
 There are many ways to create an assembly with Assembly3. Here is the most simple one you can do.
 
-: ![](/src/assets/images/Assembly3_Example-GettingStarted.jpg)
+: ![](/images/Assembly3_Example-GettingStarted.jpg)
 : _Final Result of the Getting Started Example. In the image the Assembly3 Workbench is selected, so its multiple toolbars are visible. Note that the vertical "TabBar" left of the tree view is an AddOn Workbench that is not contained in standard FreeCAD (but can be installed with the Addon-Manager)._
 
-- Press ![](/src/assets/images/Std_New.svg) [New](/Std_New "Std New") to create a new FreeCAD file
-- Change to ![](/src/assets/images/Assembly3_workbench_icon.svg) [Assembly3](/Assembly3_Workbench "Assembly3 Workbench") workbench
-- Select ![](/src/assets/images/Assembly_New_Assembly.svg) [Create assembly](/Assembly3_CreateAssembly "Assembly3 CreateAssembly")
-- Change to ![](/src/assets/images/Workbench_Part.svg) [Part](/Part_Workbench "Part Workbench") workbench and add a ![](/src/assets/images/Part_Cylinder.svg) [Cylinder](/Part_Cylinder "Part Cylinder") and a ![](/src/assets/images/Part_Box.svg) [Cube](/Part_Box "Part Box")
-- ![](/src/assets/images/Std_Save.svg) [Save](/Std_Save "Std Save") the file with any filename you like. ![](/src/assets/images/Std_CloseActiveWindow.svg) [Close](/Std_CloseActiveWindow "Std CloseActiveWindow") and ![](/src/assets/images/Std_Open.svg) [Open...](/Std_Open "Std Open") the file again
+- Press ![](/images/Std_New.svg) [New](/Std_New "Std New") to create a new FreeCAD file
+- Change to ![](/images/Assembly3_workbench_icon.svg) [Assembly3](/Assembly3_Workbench "Assembly3 Workbench") workbench
+- Select ![](/images/Assembly_New_Assembly.svg) [Create assembly](/Assembly3_CreateAssembly "Assembly3 CreateAssembly")
+- Change to ![](/images/Workbench_Part.svg) [Part](/Part_Workbench "Part Workbench") workbench and add a ![](/images/Part_Cylinder.svg) [Cylinder](/Part_Cylinder "Part Cylinder") and a ![](/images/Part_Box.svg) [Cube](/Part_Box "Part Box")
+- ![](/images/Std_Save.svg) [Save](/Std_Save "Std Save") the file with any filename you like. ![](/images/Std_CloseActiveWindow.svg) [Close](/Std_CloseActiveWindow "Std CloseActiveWindow") and ![](/images/Std_Open.svg) [Open...](/Std_Open "Std Open") the file again
 
 The tree view should look like this (0.20.pre and Link Branch):
 
-![](/src/assets/images/Assembly3_Example-Tree-01.png) ![](/src/assets/images/Assembly3_Example-Tree-02.png)
+![](/images/Assembly3_Example-Tree-01.png) ![](/images/Assembly3_Example-Tree-02.png)
 
 - Now _Drag&Drop_ with the mouse both **Cylinder** and **Cube** onto the **Parts** folder. They are moved into that folder.
 
   : That is the quickest way and suitable for simple cases like this. A better way is via the use of link objects:
-  : Select **Cube** and **Cylinder** and then ![](/src/assets/images/Std_LinkMake.svg) [Make link](/Std_LinkMake "Std LinkMake") either from the **Context menu** (-> LinkActions -> MakeLink) or the **Structure** panel.
+  : Select **Cube** and **Cylinder** and then ![](/images/Std_LinkMake.svg) [Make link](/Std_LinkMake "Std LinkMake") either from the **Context menu** (-> LinkActions -> MakeLink) or the **Structure** panel.
   : This adds two link objects. Then _Drag&Drop_ the link objects to the **Parts** folder.
 
 - Click both top surfaces of **Cylinder** and **Cube** (keep Ctrl pressed (Cmd on a Mac))
-- Change to ![](/src/assets/images/Assembly3_workbench_icon.svg) [Assembly3](/Assembly3_Workbench "Assembly3 Workbench") workbench
-- Select ![](/src/assets/images/Assembly_ConstraintCoincidence.svg) [Plane Coincidence](/Assembly3_ConstraintCoincidence "Assembly3 ConstraintCoincidence") from the [Main constraints toolbar](#Main_Constraints_Toolbar).
+- Change to ![](/images/Assembly3_workbench_icon.svg) [Assembly3](/Assembly3_Workbench "Assembly3 Workbench") workbench
+- Select ![](/images/Assembly_ConstraintCoincidence.svg) [Plane Coincidence](/Assembly3_ConstraintCoincidence "Assembly3 ConstraintCoincidence") from the [Main constraints toolbar](#Main_Constraints_Toolbar).
 
 Now the parts should be joined into each other and your tree should look like this (0.20.pre and Link Branch):
 
-![](/src/assets/images/Assembly3_Example-Tree-03.png) ![](/src/assets/images/Assembly3_Example-Tree-04.png)
+![](/images/Assembly3_Example-Tree-03.png) ![](/images/Assembly3_Example-Tree-04.png)
 
 - Right click **\_Element** (either of the two) and select **Flip Part**.
 
@@ -357,15 +357,15 @@ Now the **Cylinder** should be on top of the **Cube**. If the whole thing is ups
 : That means to define one part that should not be moved by constraints. In this example we use the **Cube** for that:
 
     * Select the lower face of the **Cube**. Only the lower face, not the whole **Cube**
-    * select the ![](/src/assets/images/Assembly_ConstraintLock.svg) [Locked](/Assembly3_ConstraintLock "Assembly3 ConstraintLock") constraint from the [Main constraints toolbar](#Main_Constraints_Toolbar)
+    * select the ![](/images/Assembly_ConstraintLock.svg) [Locked](/Assembly3_ConstraintLock "Assembly3 ConstraintLock") constraint from the [Main constraints toolbar](#Main_Constraints_Toolbar)
 
 Done.
 
 The finished assembly tree should look like (0.20.pre and Link Branch):
 
-![](/src/assets/images/Assembly3_Example-Tree-05.png) ![](/src/assets/images/Assembly3_Example-Tree-06.png):
+![](/images/Assembly3_Example-Tree-05.png) ![](/images/Assembly3_Example-Tree-06.png):
 
-If you like you can move the **Locked** constraint upwards in the tree. Use the ![](/src/assets/images/Assembly_TreeItemUp.svg) [Move item up](/Assembly3_MoveItemUp "Assembly3 MoveItemUp") button on the [Main toolbar](#Main_Toolbar) for that.
+If you like you can move the **Locked** constraint upwards in the tree. Use the ![](/images/Assembly_TreeItemUp.svg) [Move item up](/Assembly3_MoveItemUp "Assembly3 MoveItemUp") button on the [Main toolbar](#Main_Toolbar) for that.
 
 **Note:** all new external files must be **saved**, **closed** and re-**opened** at least once, so that Assembly3 can find it.
 

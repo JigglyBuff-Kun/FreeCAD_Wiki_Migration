@@ -25,18 +25,18 @@ THIS COMMAND IS PART OF THE INTEGRATEDBIM WORKBENCHIN V1.0This page has been upd
 
 The **Arch Panel** tool allows you to build all kinds of panel-like elements, typically for panel constructions like the [WikiHouse](https://www.wikihouse.cc/) project, but also for all kinds of objects that are based on a flat profile.
 
-![](/src/assets/images/Arch_Panel_example.jpg)
+![](/images/Arch_Panel_example.jpg)
 
 _The above image shows a series of panel objects, simply made from imported 2D contours from a DXF file. They can then be rotated and assembled to create structures._
 
 Since version 0.17 and above the Arch Panel can also be used to create corrugated or trapezoidal profiles:
 
-![](/src/assets/images/Arch_panel_wave.jpg)
+![](/images/Arch_panel_wave.jpg)
 
 ## Usage
 
 1. Select a 2D shape (Draft object, face or sketch) - optional.
-2. Press the ![](/src/assets/images/Arch_Panel.svg) [Panel](/Arch_Panel "Arch Panel") button, or press P then A keys.
+2. Press the ![](/images/Arch_Panel.svg) [Panel](/Arch_Panel "Arch Panel") button, or press P then A keys.
 3. Adjust the desired properties.
 
 ### Limitations
@@ -49,7 +49,7 @@ Since version 0.17 and above the Arch Panel can also be used to create corrugate
 - Press Esc or the Cancel button to abort the current command.
 - Double-clicking on the panel in the tree view after it is created allows you to enter edit mode and access and modify its additions and subtractions.
 - It is possible to automatically make panels composed of more than one sheet of a material, by raising its Sheets property.
-- Panels can make use of ![](/src/assets/images/Arch_MultiMaterial.svg) [Multi-Materials](/Arch_MultiMaterial "Arch MultiMaterial"). When using a multi-material, the panel will become multi-layer, using the thicknesses specified by the multi-material. Any layer with a thickness of zero will have its thickness defined automatically by the remaining space defined by the Panel's own Thickness value, after subtracting the other layers.
+- Panels can make use of ![](/images/Arch_MultiMaterial.svg) [Multi-Materials](/Arch_MultiMaterial "Arch MultiMaterial"). When using a multi-material, the panel will become multi-layer, using the thicknesses specified by the multi-material. Any layer with a thickness of zero will have its thickness defined automatically by the remaining space defined by the Panel's own Thickness value, after subtracting the other layers.
 
 ## Properties
 

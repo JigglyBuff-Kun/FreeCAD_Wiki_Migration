@@ -23,7 +23,7 @@ Creates a compound out of some single trajectories.
 
 ## Anwendung
 
-1. Click on the ![](/src/assets/images/Robot_TrajectoryCompound.svg) tool or use the **Robot → TrajectoryCompound**
+1. Click on the ![](/images/Robot_TrajectoryCompound.svg) tool or use the **Robot → TrajectoryCompound**
 2. An empty TrajectoryCompound-object will be created
 3. Switch to the "Model"-panel
 4. Select Trajectories/Edge2Trac/DressUp-objects in the [Tree view](/Tree_view "Tree view")

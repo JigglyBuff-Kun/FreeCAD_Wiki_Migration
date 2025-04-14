@@ -19,11 +19,11 @@ title: Sketcher External
 
 ## Description
 
-1.0 and below: The ![](/src/assets/images/Sketcher_External.svg) [Sketcher External](/Sketcher_External "Sketcher External") tool projects edges and/or vertices belonging to objects outside the sketch onto the sketch plane. The projected geometry is called "external geometry". It stays parametrically linked to its source objects. External geometry edges are marked with a dedicated [color](/Sketcher_Preferences#Appearance "Sketcher Preferences") (default magenta) and ([introduced in 1.0](/Release_notes_1.0 "Release notes 1.0")) linetype. Similar to construction geometry, external geometry is not visible outside the sketch, it is intended to help define constraints and other geometry inside the sketch itself.
+1.0 and below: The ![](/images/Sketcher_External.svg) [Sketcher External](/Sketcher_External "Sketcher External") tool projects edges and/or vertices belonging to objects outside the sketch onto the sketch plane. The projected geometry is called "external geometry". It stays parametrically linked to its source objects. External geometry edges are marked with a dedicated [color](/Sketcher_Preferences#Appearance "Sketcher Preferences") (default magenta) and ([introduced in 1.0](/Release_notes_1.0 "Release notes 1.0")) linetype. Similar to construction geometry, external geometry is not visible outside the sketch, it is intended to help define constraints and other geometry inside the sketch itself.
 
-1.1 and above: See ![](/src/assets/images/Sketcher_Projection.svg) [Sketcher Projection](/Sketcher_Projection "Sketcher Projection")
+1.1 and above: See ![](/images/Sketcher_Projection.svg) [Sketcher Projection](/Sketcher_Projection "Sketcher Projection")
 
-![](/src/assets/images/Sketcher_ExternalEsempio1.png)
+![](/images/Sketcher_ExternalEsempio1.png)
 
 The two magenta lines are external geometry linked to edges of a pre-existing [Pad](/PartDesign_Pad "PartDesign Pad"). They are used to constrain the circles.
 
@@ -32,9 +32,9 @@ The two magenta lines are external geometry linked to edges of a pre-existing [P
 See also: [Drawing aids](/Sketcher_Workbench#Drawing_aids "Sketcher Workbench").
 
 1. There are several ways to invoke the tool:
-   - Press the ![](/src/assets/images/Sketcher_External.svg) [Create external geometry](/Sketcher_External "Sketcher External") button.
-   - Select the **Sketcher → Sketcher tools → ![](/src/assets/images/Sketcher_External.svg) Create external geometry** option from the menu.
-   - Right-click in the [3D view](/3D_view "3D view") and select the **![](/src/assets/images/Sketcher_External.svg) Create external geometry** option from the context menu.
+   - Press the ![](/images/Sketcher_External.svg) [Create external geometry](/Sketcher_External "Sketcher External") button.
+   - Select the **Sketcher → Sketcher tools → ![](/images/Sketcher_External.svg) Create external geometry** option from the menu.
+   - Right-click in the [3D view](/3D_view "3D view") and select the **![](/images/Sketcher_External.svg) Create external geometry** option from the context menu.
    - Use the keyboard shortcut: G then X.
 2. The cursor changes to a cross with the tool icon.
 3. Select an external edge or a vertex. See [Notes](#Notes).

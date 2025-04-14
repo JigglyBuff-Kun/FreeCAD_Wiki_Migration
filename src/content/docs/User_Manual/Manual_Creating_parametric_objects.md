@@ -151,11 +151,11 @@ Now, when we type import ParamRectangle, a new parametric rectangle will automat
 - Open menu **Tools -> Customize**
 - Under the "Macros" tab, select our ParamRectangle.py macro, fill in the details as you wish, and press "Add":
 
-![](/src/assets/images/FreeCAD_python_macroRec.png)
+![](/images/FreeCAD_python_macroRec.png)
 
 - Under the Toolbars tab, create a new custom toolbar in the workbench of your choice (or globally), select your macro and add it to the toolbar:
 
-![](/src/assets/images/FreeCAD_python_toolbarCus.png)
+![](/images/FreeCAD_python_toolbarCus.png)
 
 - That's it, we now have a new toolbar button which, when clicked, will create a parametric rectangle.
 

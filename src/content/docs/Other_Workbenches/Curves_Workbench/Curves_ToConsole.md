@@ -19,14 +19,14 @@ title: Curves ToConsole
 
 ## Description
 
-The ![](/src/assets/images/Curves_ToConsole.svg) [Curves ToConsole](/Curves_ToConsole "Curves ToConsole") tool gives access to the selected objects in the Python console.
+The ![](/images/Curves_ToConsole.svg) [Curves ToConsole](/Curves_ToConsole "Curves ToConsole") tool gives access to the selected objects in the Python console.
 
 ## Usage
 
 1. Select one or more objects in the [3D view](/3D_view "3D view") or in the [Tree view](/Tree_view "Tree view").
 2. There are several ways to invoke the tool:
-   - Press the ![](/src/assets/images/Curves_ToConsole.svg) [Objects to Console](/Curves_ToConsole "Curves ToConsole") button
-   - Select the **Misc. → ![](/src/assets/images/Curves_ToConsole.svg) Objects to Console** option from the menu
+   - Press the ![](/images/Curves_ToConsole.svg) [Objects to Console](/Curves_ToConsole "Curves ToConsole") button
+   - Select the **Misc. → ![](/images/Curves_ToConsole.svg) Objects to Console** option from the menu
 3. A list of commands that give access to the objects in the selection, and their actually selected sub-objects is displayed in the [Python console](/Python_console "Python console").
 
 ## Notes

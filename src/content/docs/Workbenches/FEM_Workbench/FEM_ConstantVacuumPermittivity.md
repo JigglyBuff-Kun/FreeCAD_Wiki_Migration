@@ -27,7 +27,7 @@ Overwrites [vacuum permitivity](https://en.wikipedia.org/wiki/Vacuum_permittivit
 
 ## Usage
 
-1. Select the **Model → Overwrite Constants → ![](/src/assets/images/FEM_ConstantVacuumPermittivity.svg) Constant vacuum permittivity** option from the menu.
+1. Select the **Model → Overwrite Constants → ![](/images/FEM_ConstantVacuumPermittivity.svg) Constant vacuum permittivity** option from the menu.
 2. Specify a non-default vacuum permittivity value (in F/m).
 
 ## Notes

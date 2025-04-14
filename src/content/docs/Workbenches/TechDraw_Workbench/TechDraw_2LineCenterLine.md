@@ -21,7 +21,7 @@ title: TechDraw 2LineCenterLine
 
 The **TechDraw 2LineCenterLine** tool adds a centerline between two edges.
 
-![](/src/assets/images/CL2LinesSample.png)
+![](/images/CL2LinesSample.png)
 
 Aligned centerline between two edges
 
@@ -29,8 +29,8 @@ Aligned centerline between two edges
 
 1. Select two edges in a View. The edges should be more or less parallel.
 2. There are several ways to invoke the tool:
-   - Press the ![](/src/assets/images/TechDraw_2LineCenterLine.svg) [Add Centerline between 2 Lines](/TechDraw_2LineCenterLine "TechDraw 2LineCenterLine") button.
-   - Select the **TechDraw → Add Lines → ![](/src/assets/images/TechDraw_2LineCenterLine.svg) Add Centerline between 2 Lines** option from the menu.
+   - Press the ![](/images/TechDraw_2LineCenterLine.svg) [Add Centerline between 2 Lines](/TechDraw_2LineCenterLine "TechDraw 2LineCenterLine") button.
+   - Select the **TechDraw → Add Lines → ![](/images/TechDraw_2LineCenterLine.svg) Add Centerline between 2 Lines** option from the menu.
 3. A task panel opens. See [TechDraw FaceCenterLine](/TechDraw_FaceCenterLine#Options "TechDraw FaceCenterLine") for more information.
 4. Press the OK button to confirm.
 5. A centerline is added between the selected edges.

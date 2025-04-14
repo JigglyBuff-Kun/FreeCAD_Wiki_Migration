@@ -19,14 +19,14 @@ title: Fasteners ChangeParameters
 
 ## Description
 
-The ![](/src/assets/images/Fasteners_ChangeParameters.svg) **Fasteners ChangeParameters** command can be used to change the parameters of fasteners.
+The ![](/images/Fasteners_ChangeParameters.svg) **Fasteners ChangeParameters** command can be used to change the parameters of fasteners.
 
 ## Usage
 
 1. Select one or more fasteners. If multiple fasteners are selected they must be either only screws, only washers or only nuts.
 2. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/Fasteners_ChangeParameters.svg) [Change fastener parameters](/Fasteners_ChangeParameters "Fasteners ChangeParameters") button.
-   - Select the **Fasteners → ![](/src/assets/images/Fasteners_ChangeParameters.svg) Change fastener parameters** option from the menu.
+   - Press the ![](/images/Fasteners_ChangeParameters.svg) [Change fastener parameters](/Fasteners_ChangeParameters "Fasteners ChangeParameters") button.
+   - Select the **Fasteners → ![](/images/Fasteners_ChangeParameters.svg) Change fastener parameters** option from the menu.
 3. The **Change fastener parameters** task panel open.
 4. Optionally change the **Fastener type**.
 5. Optionally change the diameter by doing one of the following:

@@ -23,13 +23,13 @@ This documentation is not finished. Please help and contribute documentation.Gui
 
 ## Description
 
-The ![](/src/assets/images/BIM_Shape2DView.svg) [BIM Shape2DView](/BIM_Shape2DView "BIM Shape2DView") tool creates a 2D projection of the selected objects on the XY plane.
+The ![](/images/BIM_Shape2DView.svg) [BIM Shape2DView](/BIM_Shape2DView "BIM Shape2DView") tool creates a 2D projection of the selected objects on the XY plane.
 
 ## Usage
 
 1. There are several ways to invoke the tool:
-   - Press the ![](/src/assets/images/BIM_Shape2DView.svg) [Shape-based view](/BIM_Shape2DView "BIM Shape2DView") button.
-   - Select the **Annotation → ![](/src/assets/images/BIM_Shape2DView.svg) Shape-based view** option from the menu.
+   - Press the ![](/images/BIM_Shape2DView.svg) [Shape-based view](/BIM_Shape2DView "BIM Shape2DView") button.
+   - Select the **Annotation → ![](/images/BIM_Shape2DView.svg) Shape-based view** option from the menu.
 2. ...
 
 Retrieved from "<http://wiki.freecad.org/index.php?title=BIM_Shape2DView/en&oldid=1447175>"

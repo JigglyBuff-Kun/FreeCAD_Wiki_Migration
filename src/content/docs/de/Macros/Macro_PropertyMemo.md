@@ -30,7 +30,7 @@ title: PropertyMemo
 
 Dieses Makro erstellt eine zusätzliche Eigenschaft (Memo oder anderer Text) für dein Objekt (funktioniert nur mit Draft-Objekten).
 
-![](/src/assets/images/Macro_FCPropertyMemo_00.png)
+![](/images/Macro_FCPropertyMemo_00.png)
 
 Eine Eigenschaft Memo hinzufügen → Name
 
@@ -41,14 +41,14 @@ Das Makro starten, ein Draft-Objekt auswählen, die Eingabefelder ausfüllen und
 - **Property title** : Benennung der Eigenschaft (Gruppenname - group name) für die neue Eigenschaft (Standardwert: Memo).
 - **Property name** : Name der neuen Eigenschaft
 
-* ![](/src/assets/images/CheckBoxTrue.svg) UnCheck for String : Checkbox that determines the memo type. Check the checkbox to change the type to string instead of list.
+* ![](/images/CheckBoxTrue.svg) UnCheck for String : Checkbox that determines the memo type. Check the checkbox to change the type to string instead of list.
 
 - **Property title** : Titel der neuen Eigenschaft (Standard: Memo)
 - **Property name** : Name der neuen Eigenschaft
 
-* ![](/src/assets/images/CheckBoxTrue.svg) UnCheck for String : CheckBox, die die Art des Memos bestimmt. CheckBox aktivieren, um die Art auf Zeichenkette (String) anstelle von Liste umzustellen.
+* ![](/images/CheckBoxTrue.svg) UnCheck for String : CheckBox, die die Art des Memos bestimmt. CheckBox aktivieren, um die Art auf Zeichenkette (String) anstelle von Liste umzustellen.
 
-![Beispiel einer Eigenschaft memo](/src/assets/images/Macro_FCPropertyMemo_01.png)
+![Beispiel einer Eigenschaft memo](/images/Macro_FCPropertyMemo_01.png)
 
 Beispiel einer Eigenschaft memo
 
@@ -56,17 +56,17 @@ Beispiel einer Eigenschaft memo
 - _'Name'_ : Name der Eigenschaft: `Name`.
 - Das Feld ist leer
 
-- ![Beispiel einer Eigenschaft Memo, das eine Liste verwendet.](/src/assets/images/Macro_FCPropertyMemo_02.png)
+- ![Beispiel einer Eigenschaft Memo, das eine Liste verwendet.](/images/Macro_FCPropertyMemo_02.png)
 
   Beispiel einer Eigenschaft Memo, das eine Liste verwendet.
 
-- ![Bearbeiten der Liste.](/src/assets/images/Macro_FCPropertyMemo_03.png)
+- ![Bearbeiten der Liste.](/images/Macro_FCPropertyMemo_03.png)
 
   Bearbeiten der Liste.
 
 ## Skript
 
-Das Symbol für die Symbolleiste ![](/src/assets/images/PropertyMemo.png)
+Das Symbol für die Symbolleiste ![](/images/PropertyMemo.png)
 
 **Macro_FCPropertyMemo.FCMacro**
 

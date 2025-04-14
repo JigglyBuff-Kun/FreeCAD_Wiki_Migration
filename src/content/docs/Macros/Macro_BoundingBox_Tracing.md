@@ -30,7 +30,7 @@ title: BoundingBox Tracing
 
 This macro creates a red outline of the BoundingBox (6 Faces with 6 rectangles) of an object, display the dimension of the rectangle, create volume of boundBox.
 
-: ![](/src/assets/images/Macro_BoundingBox_Tracing_00.png)
+: ![](/images/Macro_BoundingBox_Tracing_00.png)
 : BoundingBox Tracing macro in action
 
 ## Usage
@@ -40,7 +40,7 @@ This macro creates a red outline of the BoundingBox (6 Faces with 6 rectangles) 
 
 : Result: 6 rectangles will be outlined in red.
 
-: ![](/src/assets/images/Macro_BoundingBox_Tracing_01.png)
+: ![](/images/Macro_BoundingBox_Tracing_01.png)
 : Info container
 
 ## Notes
@@ -53,7 +53,7 @@ Download the file image and copy in to your macro directory.
 
 Click the image, in the new window position the mouse over the image, click the right mouse and do "Save target as ..."
 
-ToolBar Icon ![](/src/assets/images/BoundBoxTracing.png)
+ToolBar Icon ![](/images/BoundBoxTracing.png)
 
 ## Script
 

@@ -29,8 +29,8 @@ Creates a non-parametric [Arch](/BIM_Workbench "BIM Workbench") component from a
 
 1. Select a [Part](/Part_Workbench "Part Workbench")-based object.
 2. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/Arch_Component.svg) [Component](/Arch_Component "Arch Component") button.
-   - Select the **3D/BIM → Generic 3D tools → ![](/src/assets/images/Arch_Component.svg) Component** option from the menu.
+   - Press the ![](/images/Arch_Component.svg) [Component](/Arch_Component "Arch Component") button.
+   - Select the **3D/BIM → Generic 3D tools → ![](/images/Arch_Component.svg) Component** option from the menu.
 
 ## Properties
 

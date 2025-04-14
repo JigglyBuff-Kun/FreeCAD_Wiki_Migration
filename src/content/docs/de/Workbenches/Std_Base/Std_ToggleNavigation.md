@@ -27,28 +27,28 @@ Nicht mit dem Befehl [Std Bearbeiten](/Std_Edit/de "Std Edit/de") verwechseln.
 
 _Ein Beispiel zur Anwendung des Befehls:_
 
-1. Zum Arbeitsbereich ![](/src/assets/images/Workbench_Mesh.svg) [Mesh](/Mesh_Workbench/de "Mesh Workbench/de") wechseln.
-2. Die Schaltfläche ![](/src/assets/images/Mesh_BuildRegularSolid.svg) [Regelgeometrie...](/Mesh_BuildRegularSolid/de "Mesh BuildRegularSolid/de") Drücken.
+1. Zum Arbeitsbereich ![](/images/Workbench_Mesh.svg) [Mesh](/Mesh_Workbench/de "Mesh Workbench/de") wechseln.
+2. Die Schaltfläche ![](/images/Mesh_BuildRegularSolid.svg) [Regelgeometrie...](/Mesh_BuildRegularSolid/de "Mesh BuildRegularSolid/de") Drücken.
 3. Das Dialogfenster **Regelgeometrie** wird geöffnet.
 4. **Ellipsoid** aus der Liste auswählen.
 5. Die Schaltfläche Erstellen drücken.
 6. Die Schaltfläche Schließen drücken, um das Dialogfenster zu schließen.
 7. Das Netz-Objekt auswählen.
-8. Die Schaltfläche ![](/src/assets/images/Mesh_PolyCut.svg) [Netz Schneiden](/Mesh_PolyCut/de "Mesh PolyCut/de") drücken.
+8. Die Schaltfläche ![](/images/Mesh_PolyCut.svg) [Netz Schneiden](/Mesh_PolyCut/de "Mesh PolyCut/de") drücken.
 9. Punkte in der 3D-Ansicht auswählen, um ein Vieleck (Polygon) zu erstellen, das eine Hälfte des Netzes überlappt.
 10. Nach einem Klick mit der rechten Maustaste **Innen** im Kontextmenü auswählen.
 11. Das Ergebnis ist ein offenes Netz mit einem Rand.
 12. Das Netz sollte noch immer ausgewählt sein.
-13. Die Schaltfläche ![](/src/assets/images/Mesh_AddFacet.svg) [Dreieck hinzufügen](/Mesh_AddFacet/de "Mesh AddFacet/de") drücken, um den Befehl [Mesh FacetteHinzufügen](/Mesh_AddFacet/de "Mesh AddFacet/de") zu starten.
+13. Die Schaltfläche ![](/images/Mesh_AddFacet.svg) [Dreieck hinzufügen](/Mesh_AddFacet/de "Mesh AddFacet/de") drücken, um den Befehl [Mesh FacetteHinzufügen](/Mesh_AddFacet/de "Mesh AddFacet/de") zu starten.
 14. Schwebt der Mauszeiger über einem Randpunkt, wird eine gelbe Markierung angezeigt, die mit einem Klick der linken Mausteste ausgewählt wird.
 15. Wahlweise zwei weitere Punkte auswählen und ein Dreieck zum Netz hinzufügen.
 16. Jetzt befindet man sich im Edit-Modus und es ist unmöglich die 3D-Ansicht zu drehen oder zu verschieben, während das Zoomen immer noch funktioniert.
 17. Den Befehl **Std NavigationEditieren** aufrufen, um in den Navigations-Modus zu wechseln:
-    - Den Menüeintrag **Ansicht → ![](/src/assets/images/Std_ToggleNavigation.svg) Navigations-/Editier-Modus** auswählen.
+    - Den Menüeintrag **Ansicht → ![](/images/Std_ToggleNavigation.svg) Navigations-/Editier-Modus** auswählen.
     - Oder das Tastaturkürzel: Esc.
 18. Jetzt kann die 3D-Ansicht gedreht und verschoben werden, aber es können keine Punkte zum Hinzufügen von Dreiecken ausgewählt werden.
 19. Den Befehl **Std NavigationEditieren** aufrufen, um in den Editier-Modus zurück zu wechseln:
-    - Den Menüeintrag **Ansicht → ![](/src/assets/images/Std_ToggleNavigation.svg) Navigations-/Editier-Modus** auswählen.
+    - Den Menüeintrag **Ansicht → ![](/images/Std_ToggleNavigation.svg) Navigations-/Editier-Modus** auswählen.
     - Oder das Tastaturkürzel: Esc.
 20. Jetzt können wieder Punkte ausgewählt und Dreiecke hizugefügt werden.
 21. Nach einem Klick mit der rechten Maustaste **Fertig** im Kontextmenü auswählen, um den Befehl [Mesh FacetteHinzufügen](/Mesh_AddFacet/de "Mesh AddFacet/de") zu beenden.

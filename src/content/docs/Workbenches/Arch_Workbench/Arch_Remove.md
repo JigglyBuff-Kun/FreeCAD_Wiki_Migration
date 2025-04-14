@@ -25,24 +25,24 @@ THIS COMMAND IS PART OF THE INTEGRATEDBIM WORKBENCHIN V1.0This page has been upd
 
 The **Arch Remove** tools allows you to do 2 kinds of operations:
 
-- Remove a subcomponent from an Arch object, for example remove a box that has been added to a wall, like in the ![](/src/assets/images/Arch_Add.svg) [Arch Add](/Arch_Add "Arch Add") example.
-- Subtract a [shape](/Part_Workbench "Part Workbench")-based object from an Arch component such as a ![](/src/assets/images/Arch_Wall.svg) [Arch Wall](/Arch_Wall "Arch Wall") or ![](/src/assets/images/Arch_Structure.svg) [Arch Structure](/Arch_Structure "Arch Structure")
+- Remove a subcomponent from an Arch object, for example remove a box that has been added to a wall, like in the ![](/images/Arch_Add.svg) [Arch Add](/Arch_Add "Arch Add") example.
+- Subtract a [shape](/Part_Workbench "Part Workbench")-based object from an Arch component such as a ![](/images/Arch_Wall.svg) [Arch Wall](/Arch_Wall "Arch Wall") or ![](/images/Arch_Structure.svg) [Arch Structure](/Arch_Structure "Arch Structure")
 
-The counterpart of this tool is the ![](/src/assets/images/Arch_Add.svg) [Arch Add](/Arch_Add "Arch Add") tool.
+The counterpart of this tool is the ![](/images/Arch_Add.svg) [Arch Add](/Arch_Add "Arch Add") tool.
 
-![](/src/assets/images/Arch_Remove_example.jpg)
+![](/images/Arch_Remove_example.jpg)
 
 A box subtracted from a wall, leaving a hole in it.
 
 ## Usage
 
 1. Select a subcomponent inside an Arch object.
-2. Press the ![](/src/assets/images/Arch_Remove.svg) [Remove component](/Arch_Remove "Arch Remove") button, or **Modify → ![](/src/assets/images/Arch_Remove.svg) Remove component** from the top menu.
+2. Press the ![](/images/Arch_Remove.svg) [Remove component](/Arch_Remove "Arch Remove") button, or **Modify → ![](/images/Arch_Remove.svg) Remove component** from the top menu.
 
 Or
 
 1. Select objects to be subtracted, the last object selected must the Arch object from which the other objects will be subtracted.
-2. Press the ![](/src/assets/images/Arch_Remove.svg) [Remove component](/Arch_Remove "Arch Remove") button, or **Modify → ![](/src/assets/images/Arch_Remove.svg) Remove component** from the top menu.
+2. Press the ![](/images/Arch_Remove.svg) [Remove component](/Arch_Remove "Arch Remove") button, or **Modify → ![](/images/Arch_Remove.svg) Remove component** from the top menu.
 
 ## Scripting
 

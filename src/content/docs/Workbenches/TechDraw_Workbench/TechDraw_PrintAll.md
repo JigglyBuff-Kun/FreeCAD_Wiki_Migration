@@ -19,13 +19,13 @@ title: TechDraw PrintAll
 
 ## Description
 
-The ![](/src/assets/images/TechDraw_PrintAll.svg) **TechDraw PrintAll** tool sends all pages in a document to the printer.
+The ![](/images/TechDraw_PrintAll.svg) **TechDraw PrintAll** tool sends all pages in a document to the printer.
 
 ## Usage
 
 1. There are several ways to invoke the tool:
-   - Press the ![](/src/assets/images/TechDraw_PrintAll.svg) [Print All Pages](/TechDraw_PrintAll "TechDraw PrintAll") button.
-   - Select the **TechDraw → Page → ![](/src/assets/images/TechDraw_PrintAll.svg) Print All Pages** option from the menu.
+   - Press the ![](/images/TechDraw_PrintAll.svg) [Print All Pages](/TechDraw_PrintAll "TechDraw PrintAll") button.
+   - Select the **TechDraw → Page → ![](/images/TechDraw_PrintAll.svg) Print All Pages** option from the menu.
    - If a page is displayed in the [Main view area](/Main_view_area "Main view area"): right-click the page's window and select the **Print All Pages** option from the context menu.
 
 ## Notes

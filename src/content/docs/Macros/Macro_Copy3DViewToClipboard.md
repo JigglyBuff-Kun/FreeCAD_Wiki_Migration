@@ -80,7 +80,7 @@ See [forum-thread here](http://forum.freecadweb.org/viewtopic.php?f=3&t=16731).
 
 ## Code
 
-The icon for you toolbar ![](/src/assets/images/Macro_Copy3DViewToClipboard.png)
+The icon for you toolbar ![](/images/Macro_Copy3DViewToClipboard.png)
 
 **Macro_Copy3DViewToClipboard.FCMacro**
 

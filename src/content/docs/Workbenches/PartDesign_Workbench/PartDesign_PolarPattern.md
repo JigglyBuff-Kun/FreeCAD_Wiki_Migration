@@ -19,9 +19,9 @@ title: PartDesign PolarPattern
 
 ## Description
 
-The ![](/src/assets/images/PartDesign_PolarPattern.svg) **PartDesign PolarPattern** tool creates a polar pattern of one or more features.
+The ![](/images/PartDesign_PolarPattern.svg) **PartDesign PolarPattern** tool creates a polar pattern of one or more features.
 
-![](/src/assets/images/PartDesign_PolarPattern_example.png)
+![](/images/PartDesign_PolarPattern_example.png)
 
 A slot-shaped pocket (B) made on top of a base pad (A, also referred to as support) is used for a polar pattern. The result (C) is shown on the right.
 
@@ -32,8 +32,8 @@ A slot-shaped pocket (B) made on top of a base pad (A, also referred to as suppo
 1. Optionally [activate](/PartDesign_Body#Active_status "PartDesign Body") the correct Body.
 2. Optionally select one or more features in the [Tree view](/Tree_view "Tree view") or the [3D view](/3D_view "3D view").
 3. There are several ways to invoke the tool:
-   - Press the ![](/src/assets/images/PartDesign_PolarPattern.svg) [PolarPattern](/PartDesign_PolarPattern "PartDesign PolarPattern") button.
-   - Select the **Part Design → Apply a pattern → ![](/src/assets/images/PartDesign_PolarPattern.svg) PolarPattern** option from the menu.
+   - Press the ![](/images/PartDesign_PolarPattern.svg) [PolarPattern](/PartDesign_PolarPattern "PartDesign PolarPattern") button.
+   - Select the **Part Design → Apply a pattern → ![](/images/PartDesign_PolarPattern.svg) PolarPattern** option from the menu.
 4. If there is no active Body, and there are two or more Bodies in the document, the **Active Body Required** dialog will open and prompt you to activate one. If there is a single Body it will be activated automatically.
 5. If no features were selected the **Select feature** [task panel](/Task_panel "Task panel") opens: select one or more (hold down the Ctrl key) from the list and press the OK button.
 6. The **PolarPattern parameters** [task panel](/Task_panel "Task panel") opens. See [Options](#Options) for more information.
@@ -84,7 +84,7 @@ A slot-shaped pocket (B) made on top of a base pad (A, also referred to as suppo
 
 If some of the selected features are additive and others subtractive, their order can have have an impact on the final result. You can change the order by dragging individual features in the list.
 
-![](/src/assets/images/PartDesign_feature-order.gif)
+![](/images/PartDesign_feature-order.gif)
 
 Effect of the feature order
 

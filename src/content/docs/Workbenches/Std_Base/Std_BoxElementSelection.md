@@ -26,7 +26,7 @@ Note that if a whole object falls inside the rectangle, the object itself, inste
 ## Usage
 
 1. There are several ways to invoke the command:
-   - Select the **Edit → ![](/src/assets/images/Std_BoxElementSelection.svg) Box element selection** option from the menu.
+   - Select the **Edit → ![](/images/Std_BoxElementSelection.svg) Box element selection** option from the menu.
    - Use the keyboard shortcut: Shift+E.
 2. Do one of the following:
    - Drag a rectangle from left to right to select faces whose geometric center lies inside the rectangle.

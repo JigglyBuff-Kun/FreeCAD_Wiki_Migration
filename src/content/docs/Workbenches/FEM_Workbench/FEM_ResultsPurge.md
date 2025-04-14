@@ -28,8 +28,8 @@ If you only want to delete a result object and keep the result mesh, create a co
 ## Usage
 
 1. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/FEM_ResultsPurge.svg) [Purge results](/FEM_ResultsPurge "FEM ResultsPurge") button.
-   - Select the **Results → ![](/src/assets/images/FEM_ResultsPurge.svg) Purge results** option from the menu.
+   - Press the ![](/images/FEM_ResultsPurge.svg) [Purge results](/FEM_ResultsPurge "FEM ResultsPurge") button.
+   - Select the **Results → ![](/images/FEM_ResultsPurge.svg) Purge results** option from the menu.
    - Use the keyboard shortcut: R then P.
 
 Retrieved from "<http://wiki.freecad.org/index.php?title=FEM_ResultsPurge/en&oldid=1571152>"

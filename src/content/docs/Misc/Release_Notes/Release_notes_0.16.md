@@ -4,7 +4,7 @@ title: Release notes 0.16
 
 FreeCAD 0.16 was released on 18. April, 2016, get it from [GitHub](https://github.com/FreeCAD/FreeCAD/releases/tag/0.16). This is a summary of the most interesting changes. The complete list of changes can be found in the [Mantis changelog](http://www.freecadweb.org/tracker/changelog_page.php). Older versions at: [0.15](/Release_notes_0.15 "Release notes 0.15") - [0.14](/Release_notes_0.14 "Release notes 0.14") - [0.13](/Release_notes_0.13 "Release notes 0.13") - [0.12](/Release_notes_0.12 "Release notes 0.12") - [0.11](/Release_notes_0.11 "Release notes 0.11")
 
-![](/src/assets/images/Satnogs_Rotator_FreeCAD.jpg)
+![](/images/Satnogs_Rotator_FreeCAD.jpg)
 
 Satnogs Rotator (<https://satnogs.org/>)
 
@@ -12,17 +12,17 @@ Satnogs Rotator (<https://satnogs.org/>)
 
 **Expression support** has been introduced, which allows defining formula relationships between properties of objects. Expression support is a major forward leap, for making better parametric models in FreeCAD. Expressions offer an easy interface for making models controlled by spreadsheets.
 
-![](/src/assets/images/Expressions-demo.png)
+![](/images/Expressions-demo.png)
 
 **Sketcher solver** behavior has been majorly improved. Not only did it became faster and more stable, it also doesn't hang anymore on unsolvable sketches. And automatic document recomputes triggered after each tiny tweak to the sketch can now be switched off, allowing smooth editing of sketches buried under deep dependencies.
 
-![](/src/assets/images/Sketcher-v0.16-demo.png)
+![](/images/Sketcher-v0.16-demo.png)
 
 FreeCAD now supports touchscreen 3D navigation. This makes it possible to use FreeCAD without a mouse on a convertible laptop with touchscreen and pen, away from a desk.
 
 The **FEM workbench** has tons of improvements. It has proven to be usable for various kinds of mechanical analysis.
 
-![](/src/assets/images/Multiple_material.jpg)
+![](/images/Multiple_material.jpg)
 
 ## General
 
@@ -59,20 +59,20 @@ The **FEM workbench** has tons of improvements. It has proven to be usable for v
 - Many **DXF templates** have been added to the corresponding built-in SVG templates, making the export of Drawing pages to DXF much better.
 - [Rectangles](/Draft_Rectangle "Draft Rectangle"),[wires and lines](/Draft_Wire "Draft Wire") can now be **subdivided**, allowing all kinds of new shape combinations.
 
-![](/src/assets/images/Draft_subdivisions.jpg)
+![](/images/Draft_subdivisions.jpg)
 
 ## Drawing Workbench
 
 - A new **[spreadsheet view](/Drawing_SpreadsheetView "Drawing SpreadsheetView")** tool allows placing a range of cells from a [spreadsheet](/Spreadsheet_Workbench "Spreadsheet Workbench") on a Drawing page.
 
-![](/src/assets/images/Drawing_spreadsheetview.jpg)
+![](/images/Drawing_spreadsheetview.jpg)
 
 ## Arch Workbench
 
 - **[Materials support](/Arch_SetMaterial "Arch SetMaterial")**: Arch objects can now have a [material](/Material "Material") attached, which uses FreeCAD's builtin materials framework. These materials are shared among other workbenches. These materials are fully supported by IFC import and export.
 - The **[Section plane](/Arch_SectionPlane "Arch SectionPlane")** can now do clipping of the 3D view, showing the section in realtime.
 
-![](/src/assets/images/Arch_clip_plane.jpg)
+![](/images/Arch_clip_plane.jpg)
 
 - Several improvements to the **IFC importer** such as new options for treating large IFC files, better support for extrusions (now detected on import) and curved segments, and support of 2D annotation objects. The import of Analytical IFC has been added. At the moment import of geometrical representations of all analytical objects is supported.
 - Better **meshing options** for DAE and IFC formats.
@@ -101,7 +101,7 @@ The **FEM workbench** has tons of improvements. It has proven to be usable for v
 
 ## Path Workbench
 
-![](/src/assets/images/Exercise_path_02.jpg)
+![](/images/Exercise_path_02.jpg)
 
 A new [Path Workbench](/Path_Workbench "Path Workbench") has been added to FreeCAD. This workbench, although still under development, already implements some CAM operations, and allows exporting full [G-code](https://en.wikipedia.org/wiki/G-code) programs for a variety of CNC machines.
 
@@ -116,6 +116,6 @@ A couple of new [addons workbenches](https://github.com/FreeCAD/FreeCAD-addons) 
 - A work-in-progress [Menu](http://forum.freecadweb.org/viewtopic.php?f=22&t=10892%7CPie) is also already available.
 - Finally, an [addons repository](https://github.com/FreeCAD/FreeCAD-addons) has been created to gather all the interesting workbenches, modules and other macros that are flourishing around FreeCAD. This repository features a installer that takes care of the installing and updating of these addons for you.
 
-![](/src/assets/images/Macro_installer_02.jpg)
+![](/images/Macro_installer_02.jpg)
 
 Retrieved from "<http://wiki.freecad.org/index.php?title=Release_notes_0.16/en&oldid=1121813>"

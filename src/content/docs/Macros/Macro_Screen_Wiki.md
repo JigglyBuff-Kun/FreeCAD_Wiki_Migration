@@ -60,11 +60,11 @@ webbrowser.open("https://gist.githubusercontent.com/mario52a/61571ce0bd41af04719
 
 <class="rawcodeurl"><a href="<https://gist.githubusercontent.com/mario52a/61571ce0bd41af0471995df7c3ea855f/raw/14deef95d2276c1095ea7eefb75dc5b5e4be4e04/Macro_Screen_Wiki.FCMacro>">raw code</a>
 
-![](/src/assets/images/Macro_Screen_Wiki_00.png)
+![](/images/Macro_Screen_Wiki_00.png)
 
 Macro Screen Wiki Image and configuration window
 
-![](/src/assets/images/Macro_Screen_Wiki_01.png)
+![](/images/Macro_Screen_Wiki_01.png)
 
 Macro Screen Wiki Rotation window
 
@@ -74,34 +74,34 @@ Macro Screen Wiki Rotation window
 
 #### Definition
 
-1. ![](/src/assets/images/RadioButtonFalse.svg) 400x200
-2. ![](/src/assets/images/RadioButtonTrue.svg) 600x400 (Default)
-3. ![](/src/assets/images/RadioButtonFalse.svg) 1024x768
-4. ![](/src/assets/images/RadioButtonFalse.svg) 320x240 (QVGA)
-5. ![](/src/assets/images/RadioButtonFalse.svg) 320x480 (HVGA)
-6. ![](/src/assets/images/RadioButtonFalse.svg) 400x300
-7. ![](/src/assets/images/RadioButtonFalse.svg) 480x360
-8. ![](/src/assets/images/RadioButtonFalse.svg) 640x480 (VGA)
-9. ![](/src/assets/images/RadioButtonFalse.svg) 768x576 (PAL)
-10. ![](/src/assets/images/RadioButtonFalse.svg) 800x600 (SVGA)
-11. ![](/src/assets/images/RadioButtonFalse.svg) 960x720
-12. ![](/src/assets/images/RadioButtonFalse.svg) 1024x768 (XGA)
+1. ![](/images/RadioButtonFalse.svg) 400x200
+2. ![](/images/RadioButtonTrue.svg) 600x400 (Default)
+3. ![](/images/RadioButtonFalse.svg) 1024x768
+4. ![](/images/RadioButtonFalse.svg) 320x240 (QVGA)
+5. ![](/images/RadioButtonFalse.svg) 320x480 (HVGA)
+6. ![](/images/RadioButtonFalse.svg) 400x300
+7. ![](/images/RadioButtonFalse.svg) 480x360
+8. ![](/images/RadioButtonFalse.svg) 640x480 (VGA)
+9. ![](/images/RadioButtonFalse.svg) 768x576 (PAL)
+10. ![](/images/RadioButtonFalse.svg) 800x600 (SVGA)
+11. ![](/images/RadioButtonFalse.svg) 960x720
+12. ![](/images/RadioButtonFalse.svg) 1024x768 (XGA)
 
 #### Format image
 
-1. 600 px ![](/src/assets/images/SpinBox.svg) Length (Default: 600 px)
-2. 400 px ![](/src/assets/images/SpinBox.svg) Height (Default: 400 px)
+1. 600 px ![](/images/SpinBox.svg) Length (Default: 600 px)
+2. 400 px ![](/images/SpinBox.svg) Height (Default: 400 px)
 
 #### Window
 
-1. ![](/src/assets/images/RadioButtonFalse.svg) Window FC : The complete FreeCAD window
-2. ![](/src/assets/images/RadioButtonTrue.svg) Screen 3D : The 3D view of FreeCAD
+1. ![](/images/RadioButtonFalse.svg) Window FC : The complete FreeCAD window
+2. ![](/images/RadioButtonTrue.svg) Screen 3D : The 3D view of FreeCAD
 
 #### BackGround Color
 
-1. ![](/src/assets/images/RadioButtonTrue.svg) Current (Default)
-2. ![](/src/assets/images/RadioButtonFalse.svg) Color
-3. ![](/src/assets/images/RadioButtonFalse.svg) Transparent
+1. ![](/images/RadioButtonTrue.svg) Current (Default)
+2. ![](/images/RadioButtonFalse.svg) Color
+3. ![](/images/RadioButtonFalse.svg) Transparent
 4. Restore
 
 #### Command
@@ -109,29 +109,29 @@ Macro Screen Wiki Rotation window
 1. Set Screen: Docked window
 2. Tile Screen: Fly window
 3. Save Image: Save the image, for ex: imageBox_000.png (the \_000 is incremented with each new image)
-4. Follow: After saving the first image, press this button to save the next image with the same name. The images saved is incremented, for ex: imageBox_001.png, imageBox_002.png, imageBox_003.png, ![](/src/assets/images/Macro_Screen_Wiki_ToolBar_04_4b.png) etc...
+4. Follow: After saving the first image, press this button to save the next image with the same name. The images saved is incremented, for ex: imageBox_001.png, imageBox_002.png, imageBox_003.png, ![](/images/Macro_Screen_Wiki_ToolBar_04_4b.png) etc...
 5. New Image: Save one new image without change the counter
 6. Rotation: Access to the rotation menu (the title of the section "Image options" change to "Rotation options"
 7. Quit: \_\_\_Screen_Wiki end\_\_\_\_\_\_\_\_\_\_
 8. ToolBar: Reduce the image window in a toolBar, the Rotation option is not available in this mode
-   1. ![](/src/assets/images/Macro_Screen_Wiki_ToolBar_01.png)![](/src/assets/images/Macro_Screen_Wiki_ToolBar_02.png)![](/src/assets/images/Macro_Screen_Wiki_ToolBar_03.png)![](/src/assets/images/Macro_Screen_Wiki_ToolBar_04.png)
-   2. The button ![](/src/assets/images/Macro_Screen_Wiki_ToolBar_04_6.png) Flip/Flop Y/N the mini toolBar ![](/src/assets/images/Macro_Screen_Wiki_ToolBar_Mini.png)
+   1. ![](/images/Macro_Screen_Wiki_ToolBar_01.png)![](/images/Macro_Screen_Wiki_ToolBar_02.png)![](/images/Macro_Screen_Wiki_ToolBar_03.png)![](/images/Macro_Screen_Wiki_ToolBar_04.png)
+   2. The button ![](/images/Macro_Screen_Wiki_ToolBar_04_6.png) Flip/Flop Y/N the mini toolBar ![](/images/Macro_Screen_Wiki_ToolBar_Mini.png)
 
 ### Rotation options
 
 #### Rotation on
 
-1. ![](/src/assets/images/RadioButtonFalse.svg) 3D View: The complete view is rotated
-2. ![](/src/assets/images/RadioButtonTrue.svg) Object: The object selected is rotated
+1. ![](/images/RadioButtonFalse.svg) 3D View: The complete view is rotated
+2. ![](/images/RadioButtonTrue.svg) Object: The object selected is rotated
 
 #### Axis
 
-: ![](/src/assets/images/RadioButtonTrue.svg) **X**: Rotation on X axis
-: ![](/src/assets/images/RadioButtonFalse.svg) **Y**: Rotation on Y axis
-: ![](/src/assets/images/RadioButtonFalse.svg) **Z**: Rotation on Z axis
-: ![](/src/assets/images/RadioButtonFalse.svg) **D**: Rotation on Direction.
+: ![](/images/RadioButtonTrue.svg) **X**: Rotation on X axis
+: ![](/images/RadioButtonFalse.svg) **Y**: Rotation on Y axis
+: ![](/images/RadioButtonFalse.svg) **Z**: Rotation on Z axis
+: ![](/images/RadioButtonFalse.svg) **D**: Rotation on Direction.
 
-    :   * To use this option: select first the object, then afterwards select the wire guideline. If ![](/src/assets/images/RadioButtonTrue.svg) **D** is checked and no wire is selected the direction is `Vector(0, 0, 0)`
+    :   * To use this option: select first the object, then afterwards select the wire guideline. If ![](/images/RadioButtonTrue.svg) **D** is checked and no wire is selected the direction is `Vector(0, 0, 0)`
 
 #### Point Rotation BoundBox
 
@@ -143,61 +143,61 @@ Macro Screen Wiki Rotation window
 - Angle Rotation
 
 1. -: Decrease the value by 10 degrees
-2. 0 Degrees ![](/src/assets/images/SpinBox.svg) : Value
+2. 0 Degrees ![](/images/SpinBox.svg) : Value
 3. +: Increase the value by 10 degrees
 
 - Number images
 
 1. -: Decrease the value by 10 images
-2. 0 Images (+1) ![](/src/assets/images/SpinBox.svg) : Value
+2. 0 Images (+1) ![](/images/SpinBox.svg) : Value
 3. +: Increase the value by 10 images
 
 - Angle Begin Rotation
 
 1. -: Decrease the value by 10 degrees
-2. 0 Degrees ![](/src/assets/images/SpinBox.svg) : Value: Angle of the starting rotation
+2. 0 Degrees ![](/images/SpinBox.svg) : Value: Angle of the starting rotation
 3. +: Increase the value by 10 degrees
 
 - Degrees Angle End Rotation
 
 1. -: Decrease the value by 10 degrees
-2. 360 Degrees ![](/src/assets/images/SpinBox.svg): Value: Angle of the end rotation
+2. 360 Degrees ![](/images/SpinBox.svg): Value: Angle of the end rotation
 3. +: Increase the value by 10 degrees
 
 #### Command
 
 - Delay between 2 images
 
-1. 0,00 Delay second ![](/src/assets/images/SpinBox.svg) : If there is a problem saving images due to speed, then add a delay of X seconds.
-2. ![](/src/assets/images/CheckBoxFalse.svg) Reverse: Checked, this option reverses the rotation 3D view or Object
+1. 0,00 Delay second ![](/images/SpinBox.svg) : If there is a problem saving images due to speed, then add a delay of X seconds.
+2. ![](/images/CheckBoxFalse.svg) Reverse: Checked, this option reverses the rotation 3D view or Object
 3. Point center: Visualize the point center of rotation, if the point is visible the point is include in the image (PS: the point can be hidden by an object)
-4. ![](/src/assets/images/CheckBoxTrue.svg) Original position: This option restores the original position of the 3D View or the Object rotated. Instead fo the 3D view or the Object staying in the last position of the rotation.
+4. ![](/images/CheckBoxTrue.svg) Original position: This option restores the original position of the 3D View or the Object rotated. Instead fo the 3D view or the Object staying in the last position of the rotation.
 5. Test Rot.: Testing the rotation without saving images
 6. Save the animation: Save the animation
 
 ## Examples
 
-![](/src/assets/images/Macro_Screen_Wiki_03_Set_Screen.png)
+![](/images/Macro_Screen_Wiki_03_Set_Screen.png)
 
 Captured screen with dimensions of `640px x 400px`
 
-![](/src/assets/images/Macro_Screen_Wiki_04_Tile_Screen.png)
+![](/images/Macro_Screen_Wiki_04_Tile_Screen.png)
 
 Same dimensions as the previous image, this one is captured as 'Tile Screen'.
 
-![](/src/assets/images/Macro_Screen_Wiki_Object_Direction_Object.gif)
+![](/images/Macro_Screen_Wiki_Object_Direction_Object.gif)
 
 Animation mode: Object selected and direction BoundBox center Object.  
 The images must be assembled with a 3rd party application to create an animated .gif  
 such as [GIMP](https://daviesmediadesign.com/project/make-animated-gif-gimp/) or [ScreenToGif](https://www.screentogif.com)
 
-![](/src/assets/images/Macro_Screen_Wiki_Object_Direction_SUBObject.gif)
+![](/images/Macro_Screen_Wiki_Object_Direction_SUBObject.gif)
 
 Animation mode: Object Direction SubObject selected.  
 The images must be assembled with a 3rd party application that creates an animated .gif  
 such as [GIMP](https://daviesmediadesign.com/project/make-animated-gif-gimp/) or [ScreenToGif](https://www.screentogif.com)
 
-![](/src/assets/images/Macro_Screen_Wiki_07.png)
+![](/images/Macro_Screen_Wiki_07.png)
 
 The FreeCAD window resized. The dimension may be different from the definition (depending on the Widget, title bar etc... used.)
 

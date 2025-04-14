@@ -21,7 +21,7 @@ title: TechDraw 2PointCosmeticLine
 
 The **TechDraw 2PointCosmeticLine** tool adds a cosmetic line between two points. The points can be 2D or 3D. The resulting line can be used for dimensioning.
 
-![](/src/assets/images/CosLine2PointsSample.png)
+![](/images/CosLine2PointsSample.png)
 
 Cosmetic line between two points
 
@@ -30,8 +30,8 @@ Cosmetic line between two points
 1. Select two points in a TechDraw View or two points in the [3D view](/3D_view "3D view").
 2. If you have selected points in the 3D view: add the correct TechDraw View to the selection by selecting it in the [Tree view](/Tree_view "Tree view").
 3. There are several ways to invoke the tool:
-   - Press the ![](/src/assets/images/TechDraw_2PointCosmeticLine.svg) [Add Cosmetic Line Through 2 points](/TechDraw_2PointCosmeticLine "TechDraw 2PointCosmeticLine") button.
-   - Select the **TechDraw → Add Lines → ![](/src/assets/images/TechDraw_2PointCosmeticLine.svg) Add Cosmetic Line Through 2 points** option from the menu.
+   - Press the ![](/images/TechDraw_2PointCosmeticLine.svg) [Add Cosmetic Line Through 2 points](/TechDraw_2PointCosmeticLine "TechDraw 2PointCosmeticLine") button.
+   - Select the **TechDraw → Add Lines → ![](/images/TechDraw_2PointCosmeticLine.svg) Add Cosmetic Line Through 2 points** option from the menu.
 4. A task panel opens.
 5. Optionally adjust the coordinates of the points.
 6. Press the OK button.
@@ -43,8 +43,8 @@ To change the endpoints of a cosmetic line:
 
 1. Select the cosmetic line.
 2. There are several ways to invoke the tool:
-   - Press the ![](/src/assets/images/TechDraw_2PointCosmeticLine.svg) [Add Cosmetic Line Through 2 points](/TechDraw_2PointCosmeticLine "TechDraw 2PointCosmeticLine") button.
-   - Select the **TechDraw → Add Lines → ![](/src/assets/images/TechDraw_2PointCosmeticLine.svg) Add Cosmetic Line Through 2 points** option from the menu.
+   - Press the ![](/images/TechDraw_2PointCosmeticLine.svg) [Add Cosmetic Line Through 2 points](/TechDraw_2PointCosmeticLine "TechDraw 2PointCosmeticLine") button.
+   - Select the **TechDraw → Add Lines → ![](/images/TechDraw_2PointCosmeticLine.svg) Add Cosmetic Line Through 2 points** option from the menu.
 3. A task panel opens.
 4. Adjust the coordinates of the points.
 5. Press the OK button.
@@ -52,7 +52,7 @@ To change the endpoints of a cosmetic line:
 ## Notes
 
 - To delete a cosmetic line select it and press Delete. [introduced in 1.0](/Release_notes_1.0 "Release notes 1.0")
-- To change the appearance of a cosmetic line use ![](/src/assets/images/TechDraw_DecorateLine.svg) [TechDraw DecorateLine](/TechDraw_DecorateLine "TechDraw DecorateLine").
+- To change the appearance of a cosmetic line use ![](/images/TechDraw_DecorateLine.svg) [TechDraw DecorateLine](/TechDraw_DecorateLine "TechDraw DecorateLine").
 
 ## Properties
 

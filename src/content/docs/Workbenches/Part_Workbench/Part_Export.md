@@ -19,13 +19,13 @@ title: Part Export
 
 ## Description
 
-The ![](/src/assets/images/Part_Export.svg) **Part Export** command exports selected objects to a different file format. The supported file formats are: [STEP](http://en.wikipedia.org/wiki/Step_file) (with or without colors), [IGES](http://en.wikipedia.org/wiki/IGES) (with or without colors), and [BREP](http://en.wikipedia.org/wiki/BREP).
+The ![](/images/Part_Export.svg) **Part Export** command exports selected objects to a different file format. The supported file formats are: [STEP](http://en.wikipedia.org/wiki/Step_file) (with or without colors), [IGES](http://en.wikipedia.org/wiki/IGES) (with or without colors), and [BREP](http://en.wikipedia.org/wiki/BREP).
 
 ## Usage
 
 1. Set up the [Import Export Preferences](/Import_Export_Preferences "Import Export Preferences") in the [Preferences Editor](/Preferences_Editor "Preferences Editor").
 2. Select one or more objects. See [Std Export](/Std_Export#Usage "Std Export").
-3. Select the **Part → ![](/src/assets/images/Part_Export.svg) Export CAD file...** option from the menu.
+3. Select the **Part → ![](/images/Part_Export.svg) Export CAD file...** option from the menu.
 4. Select the correct file format in the dialog box.
 5. Enter a filename.
 6. Press the Save button.

@@ -24,7 +24,7 @@ Der Befehl **Std DruckZuPDF** ist in erster Linie zum Erstellen von [PDF](/PDF/d
 ## Anwendung
 
 1. Wenn erforderlich, das richtige TechDraw-Zeichnungsblatt aktivieren oder die 3D-Ansicht wie gewünscht einstellen.
-2. Den Menüeintrag **Datei → ![](/src/assets/images/Std_PrintPdf.svg) PDF exportieren...** auswählen.
+2. Den Menüeintrag **Datei → ![](/images/Std_PrintPdf.svg) PDF exportieren...** auswählen.
 3. Einen Dateinamen im Dialogfeld eintragen.
 4. Die Schaltfläche Speichern drücken.
 

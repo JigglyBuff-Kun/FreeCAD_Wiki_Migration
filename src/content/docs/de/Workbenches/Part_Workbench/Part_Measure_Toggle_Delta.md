@@ -28,7 +28,7 @@ Dieser Befehl schaltet die Sichtbarkeit aller Delta-Messungen in der [3D-Ansicht
 ## Anwendung
 
 1. Es gibt mehrere Möglichkeiten den Befehl aufzurufen:
-   - Die Schaltfläche ![](/src/assets/images/Part_Measure_Toggle_Delta.svg) Delta umschalten drücken.
-   - Den Menüeintrag **Messen → ![](/src/assets/images/Part_Measure_Toggle_Delta.svg) Delta umschalten** auswählen.
+   - Die Schaltfläche ![](/images/Part_Measure_Toggle_Delta.svg) Delta umschalten drücken.
+   - Den Menüeintrag **Messen → ![](/images/Part_Measure_Toggle_Delta.svg) Delta umschalten** auswählen.
 
 Retrieved from "<http://wiki.freecad.org/index.php?title=Part_Measure_Toggle_Delta/de&oldid=1425613>"

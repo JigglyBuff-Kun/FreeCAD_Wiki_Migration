@@ -10,7 +10,7 @@ It can be made visible/hidden through the **View → Panels → Python console**
 
 The Python console in FreeCAD has basic syntax highlighting, able to differentiate with various styles and colors, comments, strings, numeric values, built in functions, printed text output, and delimiters like parentheses and commas. These properties of the console can be configured in the [Preferences editor](/Preferences_Editor "Preferences Editor").
 
-![](/src/assets/images/FreeCAD_Python_console.png)
+![](/images/FreeCAD_Python_console.png)
 
 The Python console showing messages when FreeCAD has just started.
 
@@ -24,7 +24,7 @@ The Python console can perform basic code completion when a dot is written after
 
 The console is also able to show the documentation string of a particular function when the opening parenthesis is written, for example, `function(`
 
-![](/src/assets/images/FreeCAD_Python_console_example.png)
+![](/images/FreeCAD_Python_console_example.png)
 
 Example Python code that produces objects in the 3D view.
 

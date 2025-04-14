@@ -25,7 +25,7 @@ This is a cross-post of a [tutorial](http://opensourceecology.org/wiki/FreeCAD_A
 
 ## Presenting FreeCAD
 
-![](/src/assets/images/Arch_panel_tutorial_01.jpg)
+![](/images/Arch_panel_tutorial_01.jpg)
 
 FreeCAD is a parametric 3D modeler. Parametric modeling allows you to easily modify your design by going back into your model history and changing its parameters. FreeCAD is open source (LGPL license) and very modular, allowing for very advanced extension and customization, specially thanks to its intensive use of the Python language.
 
@@ -81,37 +81,37 @@ In menu Edit → Preferences → General → Units
 
 ### 2. Switch to the sketcher workbench and create a new sketch in the XY plane.
 
-![](/src/assets/images/Arch_panel_tutorial_02.jpg)
+![](/images/Arch_panel_tutorial_02.jpg)
 
 Usually, unless there is a specific reason not to do so,you'll always want to start drawing your 2D sketches on the ground plane, around the (0,0) origin point. Then, it is the 3D object generated from that, that will be moved/rotated into position.
 
 ### 3. Draw two rectangles. On each of them, place a vertical constraint of 16 ft and an horizontal constraint of 2 in.
 
-![](/src/assets/images/Arch_panel_tutorial_03.jpg)
+![](/images/Arch_panel_tutorial_03.jpg)
 
 Don't worry about the dimensions your pieces have when you draw them, the constraints will resize them accordingly. To add a dimension constraint (vertical or horizontal), you can either select a line, or two points (with CTRL pressed).
 
 ### 4. Once your two rectangles have the correct size, place a vertical constraint of 0 in between their corner points, and a horizontal constraint of 4 ft.
 
-![](/src/assets/images/Arch_panel_tutorial_04.jpg)
+![](/images/Arch_panel_tutorial_04.jpg)
 
 This ensures that our two rectangles are correctly positioned in relation to each other.
 
 ### 5. Add the two additional 2 in x 6 in pieces
 
-![](/src/assets/images/Arch_panel_tutorial_05.jpg)
+![](/images/Arch_panel_tutorial_05.jpg)
 
 Add two more rectangles and repeat the process. Note that in the example above, we didn't specify the length of these pieces, but rather placed a distance constraint between their extremities and the long vertical pieces, and we let a small gap of 0.05 inches between them. This is because if we make the rectangles touch each other, FreeCAD might deduce the loops wrongly, and we might get strange results with the Arch window tool. This little trick ensures that each rectangle will be recognized as an independent loop by the Arch window tool.
 
 ### 6. Add the corner reinforcement pieces
 
-![](/src/assets/images/Arch_panel_tutorial_06.jpg)
+![](/images/Arch_panel_tutorial_06.jpg)
 
 Same thing. Make them 6 inches wide, and separated them from other rectangles by 0.05 inches.
 
 ### 7. Draw 7 intermediary reinforcement pieces, set their width to 2 inches, and constrain their left and right endpoints at 0.05 inches of the vertical rectangles (or at 0 inch of the endpoints of the other horizontal rectangles)
 
-![](/src/assets/images/Arch_panel_tutorial_07.jpg)
+![](/images/Arch_panel_tutorial_07.jpg)
 
 Depending on your system, FreeCAD might begin to be slow to process new constraints. This is the disadvantage of using constrained objects, they quickly swallow up a lot of system resources. You must always consider if you absolutely need them. You can also delete constraints when they have done their job. These dimensions won't be fixed anymore, but unless you move the pieces around, they won't change. If needed, you can also always re-add constraints later.
 
@@ -119,31 +119,31 @@ Depending on your system, FreeCAD might begin to be slow to process new constrai
 
 In our case, our total length is 192 inches, minus the two end pieces (2 x 2 inches) and the two corner reinforcements (2 x 6 inches), = 192 – (4 + 12) = 176. Removing the 7 reinforcement pieces ( 7 x 2 ) = 162. Dividing this by 8 gives us the space between each reinforcement: 20.25.
 
-![](/src/assets/images/Arch_panel_tutorial_08.jpg)
+![](/images/Arch_panel_tutorial_08.jpg)
 
 ### 9. Obtaining a fully constrained sketcher
 
 On the right panel (Tasks tab in the Combo View -> Solver messages), you can see the message “... 2 degrees of freedom”. This means that our sketch is not fully constrained (it still has two “ways” of being deformed). This is because, although no piece of it can now move in relation to the others, the whole sketch can still move vertically and horizontally. To prevent this, we can simply take one of its corner points, select the origin point of the grid (where the green and red axes intersect) and press the Point Constraint button. This turns our sketch green, meaning it is fully constrained, no part of it can move anymore.
 
-![](/src/assets/images/Arch_panel_tutorial_09.jpg)
+![](/images/Arch_panel_tutorial_09.jpg)
 
 This is actually not absolutely necessary. But it is always better to keep track of the exact position of objects (we are now certain that our corner is at the (0,0) point). In case something goes wrong later, or we need to figure out the position of an object built upon this sketch, this will be useful.
 
 We can now press the “close” button and our base sketch is built:
 
-![](/src/assets/images/Arch_panel_tutorial_10.jpg)
+![](/images/Arch_panel_tutorial_10.jpg)
 
 ### 10. Switch to the Arch workbench and, with the sketch selected, press the “window” button
 
 Our sketch has now vanished and one of its rectangles has been extruded slightly into a solid piece:
 
-![](/src/assets/images/Arch_panel_tutorial_11.jpg)
+![](/images/Arch_panel_tutorial_11.jpg)
 
 Although this seems wrong, it is simply because the Arch Window tool has created a default piece from the biggest loop it could find in the base sketch. We will fix that soon. Also, notice take note that the sketch has not disappeared, it has simply been turned off and “swallowed” by its new parent object. You can still find it in the tree view, by expanding the window object, and turn its display on/off by pressing the SPACE key.
 
 ### 11. Edit the window components by double-clicking it in the tree view
 
-![](/src/assets/images/Arch_panel_tutorial_12.jpg)
+![](/images/Arch_panel_tutorial_12.jpg)
 
 When double-clicking the window, its base sketch becomes visible again, and we get its edit interface: At the left, a list of the loops found in the base sketch, at the right the solid pieces built on it.
 
@@ -153,13 +153,13 @@ Then, select the first loop (Wire0). It will highlight in the 3D view. Press the
 
 The “Type” value will be used to attribute materials to the window (not implemented yet), so you can currently leave to “Frame”.
 
-![](/src/assets/images/Arch_panel_tutorial_13.jpg)
+![](/images/Arch_panel_tutorial_13.jpg)
 
 Then press the “Create component” button. Sometimes FreeCAD fails to guess correctly the direction of the extrusion, and you must therefore edit your component and change the 6 inches value by -6 inches.
 
 Repeat this for all the needed pieces:
 
-![](/src/assets/images/Arch_panel_tutorial_14.jpg)
+![](/images/Arch_panel_tutorial_14.jpg)
 
 When closing the edit panel we obtain the object above. Note that by default, window objects are represented semi-transparent. Since this will actually not be a window, we can just turn that off by setting its Transparency value to 0 in its View properties.
 
@@ -171,11 +171,11 @@ We can therefore constrain this new rectangle 0.05 inches inside the perimeter. 
 
 We can then edit our window again, and add new components. We can see that a new Wire has been found. This time, we will use it to add a 8mm polycarbonate panel (note that you can mix units without problems in FreeCAD, and write “8mm” as the thickness, even if you are working in inches). We will also give it an offset of 0.05 inches, so it is slightly offsetted from the frame, just for consistency, as all the parts of our object have that offest between them.
 
-![](/src/assets/images/Arch_panel_tutorial_15.jpg)
+![](/images/Arch_panel_tutorial_15.jpg)
 
 We can now create another component based on the same Wire, in order to place another panel on top of our frame. This time, we will give it an offset of 6.05 inches. Our panel is finally complete:
 
-![](/src/assets/images/Arch_panel_tutorial_16.jpg)
+![](/images/Arch_panel_tutorial_16.jpg)
 
 ### 13. Turn the window into another type of Arch component
 
@@ -183,7 +183,7 @@ This is not really necessary at the moment, but it might become important later 
 
 The Arch workbench of FreeCAD provides an easy way to handle that, which is that any object type can always become another, by being the base of another type. In this case, let's turn our window into a Panel object, simply by selecting the window and pressing the Panel tool.
 
-![](/src/assets/images/Arch_panel_tutorial_17.jpg)
+![](/images/Arch_panel_tutorial_17.jpg)
 
 Notice that the color of the resulting panel has changed, that is because materials support in FreeCAD and the Arch module is still incomplete. When it is finished, this will be properly handled.
 
@@ -191,7 +191,7 @@ Notice that the color of the resulting panel has changed, that is because materi
 
 Our panel can then be duplicated and copied over in several ways, for example by using copy/paste. But a more interesting way is to use the Draft Clone tool (also present on the Arch workbench, like all other Draft tools). The Clone tool keeps the relationship between the base object and its clone, so any modification to the base object will reflect in all its clones.
 
-![](/src/assets/images/Arch_panel_tutorial_18.jpg)
+![](/images/Arch_panel_tutorial_18.jpg)
 
 In the current development version of FreeCAD, clones of Arch objects are now Arch objects themselves too.
 
@@ -201,8 +201,8 @@ While the assembly workbench of FreeCAD is not ready yet, we need to position ou
 
 Both Draft Rotate and Move tools make use of the Draft Snapping system. Different snapping positions (endpoints, midpoints, etc) are available, that can be switched on/off, allowing to perform very precise positionning and rotations.
 
-![](/src/assets/images/Arch_panel_tutorial_19.jpg)
+![](/images/Arch_panel_tutorial_19.jpg)
 
-![](/src/assets/images/Arch_panel_tutorial_20.jpg)
+![](/images/Arch_panel_tutorial_20.jpg)
 
 Retrieved from "<http://wiki.freecad.org/index.php?title=Arch_panel_tutorial/en&oldid=1433551>"

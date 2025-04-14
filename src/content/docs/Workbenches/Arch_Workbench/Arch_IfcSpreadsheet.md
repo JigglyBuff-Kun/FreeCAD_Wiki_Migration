@@ -29,7 +29,7 @@ This tool creates a spreadsheet to store [IFC](/Arch_IFC "Arch IFC") properties 
 
 1. Select an object.
 2. There are several ways to invoke the tool:
-   - Select the **Utils → ![](/src/assets/images/Arch_IfcSpreadsheet.svg) Create IFC spreadsheet...** option from the menu.
+   - Select the **Utils → ![](/images/Arch_IfcSpreadsheet.svg) Create IFC spreadsheet...** option from the menu.
    - Use the keyboard shortcut: I then P.
 
 ## Scripting

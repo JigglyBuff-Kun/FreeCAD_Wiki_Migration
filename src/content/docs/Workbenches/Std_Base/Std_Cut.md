@@ -27,8 +27,8 @@ To cut other objects you can use the [Std Copy](/Std_Copy "Std Copy") command fo
 
 1. Select one or more cells in the spreadsheet.
 2. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/Std_Cut.svg) [Cut](/Std_Cut "Std Cut") button.
-   - Select the **Edit → ![](/src/assets/images/Std_Cut.svg) Cut** option from the menu.
+   - Press the ![](/images/Std_Cut.svg) [Cut](/Std_Cut "Std Cut") button.
+   - Select the **Edit → ![](/images/Std_Cut.svg) Cut** option from the menu.
 
 ## Notes
 

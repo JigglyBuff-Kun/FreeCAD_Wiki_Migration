@@ -30,15 +30,15 @@ title: EdgesToArc
 
 Sometimes one encounters wires that contain arcs that are made up of small straight segments. This often happens when working with files from other programs. This macro makes it relatively easy to convert these discretized arcs back to circular arcs. This reduces the file size and makes the file more manageable.
 
-To use this macro, you have to break down the wire into individual edges using the ![](/src/assets/images/Draft_Downgrade.svg) [Draft Downgrade](/Draft_Downgrade "Draft Downgrade") function. Then just select the segments that you want to replace by an circular arc and execute the macro. You need at least two segments.
+To use this macro, you have to break down the wire into individual edges using the ![](/images/Draft_Downgrade.svg) [Draft Downgrade](/Draft_Downgrade "Draft Downgrade") function. Then just select the segments that you want to replace by an circular arc and execute the macro. You need at least two segments.
 
 The macro will check whether the segments all lie on a common circle and will abort if this is not the case. Otherwise it will create the arc and remove the segments.
 
-Because of small inaccuracies in the calculations, the ![](/src/assets/images/Draft_Upgrade.svg) [Draft Upgrade](/Draft_Upgrade "Draft Upgrade") function can sometimes fail to recombine the other edges and the arcs back into a wire. In this case the [Macro_SuperWire](/Macro_SuperWire "Macro SuperWire") provides a more robust way to do this.
+Because of small inaccuracies in the calculations, the ![](/images/Draft_Upgrade.svg) [Draft Upgrade](/Draft_Upgrade "Draft Upgrade") function can sometimes fail to recombine the other edges and the arcs back into a wire. In this case the [Macro_SuperWire](/Macro_SuperWire "Macro SuperWire") provides a more robust way to do this.
 
 ## Script
 
-ToolBar Icon ![](/src/assets/images/Macro_EdgesToArc.png)
+ToolBar Icon ![](/images/Macro_EdgesToArc.png)
 
 **Macro_EdgesToArc.FCMacro**
 

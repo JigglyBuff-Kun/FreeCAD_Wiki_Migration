@@ -52,7 +52,7 @@ What we need is an interpolation of the results in between the time steps, which
 
 We go one step further and want to visualise the actual bending of the strip. With the Temporal Interpolator selected, we add Filters → Common → Warp by Vector. Under 'vectors' we choose 'DisplacementVectors' and set the 'scale factor' to 10. When we play the animation now, we can actually see the color-mapped strip bending (exaggerated by a factor of 10).
 
-![](/src/assets/images/Transient_FEM_Bimetal_ParaView_%281%29.JPG)
+![](/images/Transient_FEM_Bimetal_ParaView_%281%29.JPG)
 
 The post-processing we have just done can be saved as a 'state' in ParaView, which can be opened any time again and even be applied to a different set of results.
 

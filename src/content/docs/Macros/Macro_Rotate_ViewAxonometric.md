@@ -32,12 +32,12 @@ This macro rotates the current view in ViewAxonometric (as is: Y).
 
 You have two options:
 
-- mode 1 : axonometric view with Y pointing upwards ![axonometric view with Y pointing upwards](/src/assets/images/Macro_Rotate_View_with_Y_pointing_upwards_.png) mode 1
-- mode 2 : axonometric view with Z pointing upwards ![axonometric view with Z pointing upwards](/src/assets/images/Macro_Rotate_View_with_Z_pointing_upwards_.png) mode 2 (uncomment for use)
+- mode 1 : axonometric view with Y pointing upwards ![axonometric view with Y pointing upwards](/images/Macro_Rotate_View_with_Y_pointing_upwards_.png) mode 1
+- mode 2 : axonometric view with Z pointing upwards ![axonometric view with Z pointing upwards](/images/Macro_Rotate_View_with_Z_pointing_upwards_.png) mode 2 (uncomment for use)
 
 ## Usage
 
-For use the two macros, copy the first macro and name it "**Macro_Rotate_ViewAxonometric_Y**" (mode 1) without change the code and use this icon ![axonometric view with Y pointing upwards](/src/assets/images/Macro_Rotate_View_with_Y_pointing_upwards_.png)
+For use the two macros, copy the first macro and name it "**Macro_Rotate_ViewAxonometric_Y**" (mode 1) without change the code and use this icon ![axonometric view with Y pointing upwards](/images/Macro_Rotate_View_with_Y_pointing_upwards_.png)
 
 Copy the second macro and name it "**Macro_Rotate_ViewAxonometric_Z**" (mode 2) and:
 
@@ -47,12 +47,12 @@ comment the line
 
 and uncomment the line
 
-**12** _rot.setValue(coin.SbVec3f(0,0,1),math.pi/2) # Z pointing upwards (mode 2 uncomment for use)_ and use this icon ![axonometric view with Z pointing upwards](/src/assets/images/Macro_Rotate_View_with_Z_pointing_upwards_.png)
+**12** _rot.setValue(coin.SbVec3f(0,0,1),math.pi/2) # Z pointing upwards (mode 2 uncomment for use)_ and use this icon ![axonometric view with Z pointing upwards](/images/Macro_Rotate_View_with_Z_pointing_upwards_.png)
 
 ## Script
 
-- mode 1 : ToolBar Icon ![](/src/assets/images/Macro_Rotate_View_with_Y_pointing_upwards_.png)
-- mode 2 : ToolBar Icon ![](/src/assets/images/Macro_Rotate_View_with_Z_pointing_upwards_.png) (uncomment for use)
+- mode 1 : ToolBar Icon ![](/images/Macro_Rotate_View_with_Y_pointing_upwards_.png)
+- mode 2 : ToolBar Icon ![](/images/Macro_Rotate_View_with_Z_pointing_upwards_.png) (uncomment for use)
 
 **Macro_Rotate_ViewAxonometric.FCMacro**
 

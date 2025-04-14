@@ -4,7 +4,7 @@ title: Part and PartDesign
 
 ## Overview
 
-There has been much discussion over the years about the differences and ramifications of using the ![](/src/assets/images/Workbench_Part.svg) [Part](/Part_Workbench "Part Workbench") and the ![](/src/assets/images/Workbench_PartDesign.svg) [PartDesign](/PartDesign_Workbench "PartDesign Workbench") workbenches.
+There has been much discussion over the years about the differences and ramifications of using the ![](/images/Workbench_Part.svg) [Part](/Part_Workbench "Part Workbench") and the ![](/images/Workbench_PartDesign.svg) [PartDesign](/PartDesign_Workbench "PartDesign Workbench") workbenches.
 
 It is a good idea to use one or the other until the user is comfortable with one, then learn the other. It is also typically recommended that new users not mix them until the ramifications of doing so are understood.
 
@@ -15,7 +15,7 @@ Let's talk about those ramifications.
 Part Workbench is essentially [CSG style modeling](/Constructive_solid_geometry "Constructive solid geometry"). The operator combines various primitives to end up with a representation of the desired shape. (In fact, Part Workbench goes one step further than just primitives and allows the operator to use a sketch+extrude operation (or sketch+revolve, loft, sweep ...) to create random shapes as well.)
 When each primitive or shape is created, it has no relationship to other objects created (except sketches and their attachments), it is a single solitary solid.
 
-![](/src/assets/images/Part_CSG_Prims.png)
+![](/images/Part_CSG_Prims.png)
 
 Solitary solids
 
@@ -47,7 +47,7 @@ At each time of the construction, the last function used is the "Tip", which can
 
 When everything is finished, you have to redeclare the last feature as Tip, which corresponds to the finished object.
 
-![](/src/assets/images/Part_Design_Cumulativ.png)
+![](/images/Part_Design_Cumulativ.png)
 
 Cumulative Body Solid
 
@@ -73,23 +73,23 @@ There is a caveat with the Tip and it's representation of the single solid in th
 
 In this example, a mirror of the tip (which is the pocket of the slot) around any of the base planes, or even a face of the solid will not produce a mirrored solid of the entire model. (In fact, it will produce a Mirrored feature in the tree that is essentially empty.)
 
-![](/src/assets/images/PhantomMirror.png)
+![](/images/PhantomMirror.png)
 
 Solitary solids
 
 In this example, a mirror of the tip (which is the pocket of the slot) is performed around the datum plane and produces a mirrored slot:
 
-![](/src/assets/images/MirroredSlot.png)
+![](/images/MirroredSlot.png)
 
 Solitary solids
 
-See the ![](/src/assets/images/PartDesign_Mirrored.svg) [PartDesign Mirrored](/PartDesign_Mirrored "PartDesign Mirrored") tool wiki page for more information.
+See the ![](/images/PartDesign_Mirrored.svg) [PartDesign Mirrored](/PartDesign_Mirrored "PartDesign Mirrored") tool wiki page for more information.
 
 ## Comparison
 
 You can see below the same example built with each of the two workbenches. Of course, there are always several possible construction timelines with each workbench.
 
-![](/src/assets/images/PartWBvsPartDesignWBexample.jpg)
+![](/images/PartWBvsPartDesignWBexample.jpg)
 
 Compare constructions with Part workbench and PartDesign workbench
 

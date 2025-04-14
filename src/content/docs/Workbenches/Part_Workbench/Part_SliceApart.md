@@ -20,11 +20,11 @@ title: Part SliceApart
 ## Description
 
 Tool to split shapes by intersection with other shapes. For example, for a box and a plane, two solids are created.
-![](/src/assets/images/Part_Slice_Demo.png)
+![](/images/Part_Slice_Demo.png)
 
 Above: the pieces were moved apart manually afterwards, to reveal the slicing.
 
-[Slice apart](/Part_SliceApart "Part SliceApart") is the same as ![](/src/assets/images/Part_Slice.svg) [Part Slice](/Part_Slice "Part Slice") followed by ![](/src/assets/images/Part_ExplodeCompound.svg) [Part Explode Compound](/Part_ExplodeCompound "Part ExplodeCompound"). While "Slice to compound" is fully-parametric, and causes no trouble as the number of pieces changes, "Slice apart" will not update the number of objects as the number of pieces changes.
+[Slice apart](/Part_SliceApart "Part SliceApart") is the same as ![](/images/Part_Slice.svg) [Part Slice](/Part_Slice "Part Slice") followed by ![](/images/Part_ExplodeCompound.svg) [Part Explode Compound](/Part_ExplodeCompound "Part ExplodeCompound"). While "Slice to compound" is fully-parametric, and causes no trouble as the number of pieces changes, "Slice apart" will not update the number of objects as the number of pieces changes.
 They both create Slice parametric feature, that puts the sliced pieces into a compound, but "Slice apart" explodes the resulting compound into separate objects.
 
 The output shape occupies the same space as the original. But it is split where it intersects with other shapes. The split pieces are individual pieces.
@@ -37,7 +37,7 @@ The Slice Apart command creates more than only the sliced object. In the followi
 
 The slice is created and for each piece of it there is a [Part CompoundFilter](/Part_CompoundFilter "Part CompoundFilter") created, thus the same slice occurs multiple times below each CompoundFilter. All these CompoundFilters are united in a Compound.
 
-![](/src/assets/images/Part_SliceApartTree.png)
+![](/images/Part_SliceApartTree.png)
 
 ## Example
 

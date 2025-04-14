@@ -34,7 +34,7 @@ Depending on the used navigation style preselecting may vary.
 Selectable objects are:
 
 - Corners of solids
-- Points inserted via the ![](/src/assets/images/Workbench_Draft.svg) [Draft Workbench](/Draft_Workbench "Draft Workbench")
+- Points inserted via the ![](/images/Workbench_Draft.svg) [Draft Workbench](/Draft_Workbench "Draft Workbench")
 - Endpoints of sketch-elements such as lines, arcs (sketch must be visible)
 
 Retrieved from "<http://wiki.freecad.org/index.php?title=Robot_InsertWaypointPre/en&oldid=1168188>"

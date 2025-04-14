@@ -44,7 +44,7 @@ It can be used also to convert 'Shape2DView' to Sketch and it works also if BSPl
 
 ## Script
 
-ToolBar Icon ![](/src/assets/images/Macro_DXF_to_Face_and_Sketch.png)
+ToolBar Icon ![](/images/Macro_DXF_to_Face_and_Sketch.png)
 
 **Macro_DXF_to_Face_and_Sketch.FCMacro**
 

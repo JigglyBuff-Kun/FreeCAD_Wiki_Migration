@@ -23,7 +23,7 @@ This documentation is not finished. Please help and contribute documentation.Gui
 
 ## Description
 
-The ![](/src/assets/images/SheetMetal_AddBend.svg) [SheetMetal AddBend](/SheetMetal_AddBend "SheetMetal AddBend") command replaces sharp edges between between two sections (base plate/walls/flanges) of a sheet metal object with rounded bends. Without these bends the object will not be unfoldable.
+The ![](/images/SheetMetal_AddBend.svg) [SheetMetal AddBend](/SheetMetal_AddBend "SheetMetal AddBend") command replaces sharp edges between between two sections (base plate/walls/flanges) of a sheet metal object with rounded bends. Without these bends the object will not be unfoldable.
 
 This command is the third of three steps to convert a shell object made with the [Part Workbench](/Part_Workbench "Part Workbench") or [PartDesign Workbench](/PartDesign_Workbench "PartDesign Workbench") into an unfoldable sheet metal object:
 
@@ -31,10 +31,10 @@ This command is the third of three steps to convert a shell object made with the
 2. [SheetMetal AddJunction](/SheetMetal_AddJunction "SheetMetal AddJunction")
 3. [SheetMetal AddBend](/SheetMetal_AddBend "SheetMetal AddBend")
 
-![](/src/assets/images/SheetMetal_ConvertShellObject-01.png) ![](/src/assets/images/Button_right.svg)
-![](/src/assets/images/SheetMetal_ConvertShellObject-02.png)(/SheetMetal_AddRelief "SheetMetal AddRelief") ![](/src/assets/images/Button_right.svg)
-![](/src/assets/images/SheetMetal_ConvertShellObject-03.png)(/SheetMetal_AddJunction "SheetMetal AddJunction") ![](/src/assets/images/Button_right.svg)
-![](/src/assets/images/SheetMetal_ConvertShellObject-04.png)
+![](/images/SheetMetal_ConvertShellObject-01.png) ![](/images/Button_right.svg)
+![](/images/SheetMetal_ConvertShellObject-02.png)(/SheetMetal_AddRelief "SheetMetal AddRelief") ![](/images/Button_right.svg)
+![](/images/SheetMetal_ConvertShellObject-03.png)(/SheetMetal_AddJunction "SheetMetal AddJunction") ![](/images/Button_right.svg)
+![](/images/SheetMetal_ConvertShellObject-04.png)
 
 Make Bend - replace edges with bends
 
@@ -42,9 +42,9 @@ Make Bend - replace edges with bends
 
 1. Select one or more edges.
 2. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/SheetMetal_AddBend.svg) [Make Bend](/SheetMetal_AddBend "SheetMetal AddBend") button.
-   - Select the **SheetMetal → ![](/src/assets/images/SheetMetal_AddBend.svg) Make Bend** option from the menu.
-   - Right-click in the [Tree view](/Tree_view "Tree view") or the [3D view](/3D_view "3D view") and select the **SheetMetal → ![](/src/assets/images/SheetMetal_AddBend.svg) Make Bend** option from the context menu.
+   - Press the ![](/images/SheetMetal_AddBend.svg) [Make Bend](/SheetMetal_AddBend "SheetMetal AddBend") button.
+   - Select the **SheetMetal → ![](/images/SheetMetal_AddBend.svg) Make Bend** option from the menu.
+   - Right-click in the [Tree view](/Tree_view "Tree view") or the [3D view](/3D_view "3D view") and select the **SheetMetal → ![](/images/SheetMetal_AddBend.svg) Make Bend** option from the context menu.
    - Use the keyboard shortcut: S then B.
 3. The **Bend sharp corner properties** [Task panel](/Task_panel "Task panel") opens (introduced in version 0.5.00).
 4. Optionally press the Select button to add more faces.
@@ -54,12 +54,12 @@ Make Bend - replace edges with bends
 7. A **SolidBend** object will be created consisting of one new bend at each selected edge.
 8. Optionally adjust the parameters in the [Property editor](/Property_editor "Property editor").
 
-![](/src/assets/images/SheetMetal_ConvertShellObject-07.png) ![](/src/assets/images/Button_right.svg)
-![](/src/assets/images/SheetMetal_ConvertShellObject-08.png)
+![](/images/SheetMetal_ConvertShellObject-07.png) ![](/images/Button_right.svg)
+![](/images/SheetMetal_ConvertShellObject-08.png)
 
 ## Notes
 
-The commands ![](/src/assets/images/SheetMetal_AddRelief.svg) **[SheetMetal AddRelief](/SheetMetal_AddRelief "SheetMetal AddRelief")**, ![](/src/assets/images/SheetMetal_AddJunction.svg) **[SheetMetal AddJunction](/SheetMetal_AddJunction "SheetMetal AddJunction")**, and ![](/src/assets/images/SheetMetal_AddBend.svg) **[SheetMetal AddBend](/SheetMetal_AddBend "SheetMetal AddBend")** work best with hollow cuboids i.e. shell objects with a constant thickness and only 90° angles between faces.
+The commands ![](/images/SheetMetal_AddRelief.svg) **[SheetMetal AddRelief](/SheetMetal_AddRelief "SheetMetal AddRelief")**, ![](/images/SheetMetal_AddJunction.svg) **[SheetMetal AddJunction](/SheetMetal_AddJunction "SheetMetal AddJunction")**, and ![](/images/SheetMetal_AddBend.svg) **[SheetMetal AddBend](/SheetMetal_AddBend "SheetMetal AddBend")** work best with hollow cuboids i.e. shell objects with a constant thickness and only 90° angles between faces.
 
 See [SheetMetal AddRelief](/SheetMetal_AddRelief#Notes "SheetMetal AddRelief") for hints about creating shell objects of cuboids.
 

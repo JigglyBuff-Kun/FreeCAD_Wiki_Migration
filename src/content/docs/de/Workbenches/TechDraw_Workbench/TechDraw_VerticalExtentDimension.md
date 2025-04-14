@@ -23,7 +23,7 @@ Das Werkzeug **TechDraw MaßVertikaleAusdehnung** fügt einer Ansicht ein linear
 
 Für weitere Informationen siehe [TechDraw MaßHorizontaleAusdehnung](/TechDraw_HorizontalExtentDimension/de "TechDraw HorizontalExtentDimension/de").
 
-![](/src/assets/images/TechDraw_Dimension_Horizontal_Extent_example.png)
+![](/images/TechDraw_Dimension_Horizontal_Extent_example.png)
 
 Maße für die horizontale und die vertikale Ausdehnung eines B-Splines
 

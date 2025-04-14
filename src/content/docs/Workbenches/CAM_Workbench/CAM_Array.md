@@ -19,12 +19,12 @@ title: CAM Array
 
 ## Description
 
-The tool ![](/src/assets/images/CAM_Array.svg) [Array](/CAM_Array "CAM Array") creates a new path by duplicating another path several times at a certain interval distance.
+The tool ![](/images/CAM_Array.svg) [Array](/CAM_Array "CAM Array") creates a new path by duplicating another path several times at a certain interval distance.
 
 ## Usage
 
 1. Select the operation you want to repeat
-2. Press the ![](/src/assets/images/CAM_Array.svg) [Array](/CAM_Array "CAM Array") button
+2. Press the ![](/images/CAM_Array.svg) [Array](/CAM_Array "CAM Array") button
 3. Press Apply
 4. Adjust the desired properties at the data box
 

@@ -19,14 +19,14 @@ title: Part CheckGeometry
 
 ## Description
 
-The ![](/src/assets/images/Part_CheckGeometry.svg) [Part CheckGeometry](/Part_CheckGeometry "Part CheckGeometry") tool runs a verification and reports if geometry is a valid solid. The tool checks if the [Boundary representation](https://en.wikipedia.org/wiki/Boundary_representation) (BRep or [B-rep](/Glossary#B "Glossary")) of the model is valid.
+The ![](/images/Part_CheckGeometry.svg) [Part CheckGeometry](/Part_CheckGeometry "Part CheckGeometry") tool runs a verification and reports if geometry is a valid solid. The tool checks if the [Boundary representation](https://en.wikipedia.org/wiki/Boundary_representation) (BRep or [B-rep](/Glossary#B "Glossary")) of the model is valid.
 
 ## Usage
 
 1. Select a part (beware to select the whole part and not just a face to check for valid solid)
 2. Invoke the tool by either:
-   - Clicking on the ![](/src/assets/images/Part_CheckGeometry.svg) [CheckGeometry](/Part_CheckGeometry "Part CheckGeometry") button available in the Part workbench toolbar.
-   - Using the **Part → ![](/src/assets/images/Part_CheckGeometry.svg) Check geometry** entry from the top menu.
+   - Clicking on the ![](/images/Part_CheckGeometry.svg) [CheckGeometry](/Part_CheckGeometry "Part CheckGeometry") button available in the Part workbench toolbar.
+   - Using the **Part → ![](/images/Part_CheckGeometry.svg) Check geometry** entry from the top menu.
 3. The **Settings** task panel opens, unless **Skip settings page** is enabled. See [Options](#Options) for more information. Click Run check.
 
 Results will be reported in the [Task panel](/Task_panel "Task panel"). If the check produced errors: click in the report on a specific error message and the corresponding geometric object (edge, face, etc.) will be highlighted in the [3D view](/3D_view "3D view").

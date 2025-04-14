@@ -28,8 +28,8 @@ The **Mesh SegmentationBestFit** command creates separate mesh segments for spec
    - The View**Shape Color** of the mesh object should not be red.
 2. Select a single mesh object.
 3. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/Mesh_SegmentationBestFit.svg) [Create mesh segments from best-fit surfaces...](/Mesh_SegmentationBestFit "Mesh SegmentationBestFit") button.
-   - Select the **Meshes → ![](/src/assets/images/Mesh_SegmentationBestFit.svg) Create mesh segments from best-fit surfaces...** option from the menu.
+   - Press the ![](/images/Mesh_SegmentationBestFit.svg) [Create mesh segments from best-fit surfaces...](/Mesh_SegmentationBestFit "Mesh SegmentationBestFit") button.
+   - Select the **Meshes → ![](/images/Mesh_SegmentationBestFit.svg) Create mesh segments from best-fit surfaces...** option from the menu.
 4. The **Mesh segmentation** task panel opens.
 5. Optionally press one of the Parameters... buttons to identify the parameters of a surface:
    - The **Surface fit** dialog box opens.

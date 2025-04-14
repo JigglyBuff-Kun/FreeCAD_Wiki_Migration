@@ -19,7 +19,7 @@ title: Drawing View
 
 This tool creates a new view of the selected object in the active drawing sheet.
 
-![A drawing sheet with three views: front, top and isometric.](/src/assets/images/Drawing_Views.png)
+![A drawing sheet with three views: front, top and isometric.](/images/Drawing_Views.png)
 
 ### Usage
 
@@ -34,13 +34,13 @@ and the page it should be added to. Then click on the icon to add the view to th
 
 Unfold the Page object in the Project tree, and select the View. Its parameters can be edited in the Property View Data tab.
 
-![](/src/assets/images/Drawing_View_Properties.png)
+![](/images/Drawing_View_Properties.png)
 
-![](/src/assets/images/Drawing_View_Iso.png)
+![](/images/Drawing_View_Iso.png)
 
 Isometric view with smooth lines visibility off
 
-![](/src/assets/images/Drawing_View_Iso_SmoothLines.png)
+![](/images/Drawing_View_Iso_SmoothLines.png)
 
 Isometric view with smooth lines visibility on
 

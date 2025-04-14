@@ -28,15 +28,15 @@ The CfdOF Analysis could be seen as a Container that holds all objects of a Comp
 ## Usage
 
 1. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/CfdOF_analysis.svg) Analysis container button.
-   - Select the **CfdOF → ![](/src/assets/images/CfdOF_analysis.svg) Analysis container‏‎** option from the menu.
+   - Press the ![](/images/CfdOF_analysis.svg) Analysis container button.
+   - Select the **CfdOF → ![](/images/CfdOF_analysis.svg) Analysis container‏‎** option from the menu.
    - Use the keyboard shortcut: N then C.
 2. A new Analysis is created and set to active.
 3. The following child objects are automatically created within the Analysis container:
-   - ![](/src/assets/images/CfdOF_Physics_Model.svg) [Physics Model](/CfdOF_Physics_Model "CfdOF Physics Model")
-   - ![](/src/assets/images/CfdOF_Fluid_Properties.svg) [Fluid Properties](/CfdOF_Fluid_Properties "CfdOF Fluid Properties")
-   - ![](/src/assets/images/CfdOF_Initialise_Flow_Fields.svg) [Initialise Flow Fields](/index.php?title=CfdOF_Initialise_Flow_Fields&action=edit&redlink=1 "CfdOF Initialise Flow Fields (page does not exist)")
-   - ![](/src/assets/images/CfdOF_CFD_Solver.svg) [CFD Solver](/CfdOF_CFD_Solver "CfdOF CFD Solver")
+   - ![](/images/CfdOF_Physics_Model.svg) [Physics Model](/CfdOF_Physics_Model "CfdOF Physics Model")
+   - ![](/images/CfdOF_Fluid_Properties.svg) [Fluid Properties](/CfdOF_Fluid_Properties "CfdOF Fluid Properties")
+   - ![](/images/CfdOF_Initialise_Flow_Fields.svg) [Initialise Flow Fields](/index.php?title=CfdOF_Initialise_Flow_Fields&action=edit&redlink=1 "CfdOF Initialise Flow Fields (page does not exist)")
+   - ![](/images/CfdOF_CFD_Solver.svg) [CFD Solver](/CfdOF_CFD_Solver "CfdOF CFD Solver")
 4. Additional objects can be added to the Analysis container by pressing the CfdOF buttons or selecting from the CfdOF Menu.
 
 ## Options

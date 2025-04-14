@@ -23,16 +23,16 @@ The purpose of timing gears is to allow the camshaft and crankshaft to turn the 
 
 Timing gears are connected to a timing belt or timing chain.
 
-![](/src/assets/images/Timing-Gear_example.png)
+![](/images/Timing-Gear_example.png)
 
 Above: Timing gear
 
 ## Usage
 
-1. Switch to the ![](/src/assets/images/FCGear_workbench_icon.svg) [FCGear Workbench](/FCGear_Workbench "FCGear Workbench").
+1. Switch to the ![](/images/FCGear_workbench_icon.svg) [FCGear Workbench](/FCGear_Workbench "FCGear Workbench").
 2. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/FCGear_TimingGear.svg) [Timing Gear](/FCGear_TimingGear "FCGear TimingGear") button in the toolbar.
-   - Select the **Gear → ![](/src/assets/images/FCGear_TimingGear.svg) Timing Gear** option from the menu.
+   - Press the ![](/images/FCGear_TimingGear.svg) [Timing Gear](/FCGear_TimingGear "FCGear TimingGear") button in the toolbar.
+   - Select the **Gear → ![](/images/FCGear_TimingGear.svg) Timing Gear** option from the menu.
 3. Change the gear parameter to the required conditions (see [Properties](#Properties)).
 
 ## Properties

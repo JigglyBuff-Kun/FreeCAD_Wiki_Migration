@@ -15,123 +15,123 @@ print myViewObj.IV
 
 ```
 
-![](/src/assets/images/Property.png) **Annotation**
+![](/images/Property.png) **Annotation**
 
 **Returns**: the annotation node of a ViewObject
 
-![](/src/assets/images/Property.png) **BoundingBox**
+![](/images/Property.png) **BoundingBox**
 
 **Returns**: the bounding box
 
-![](/src/assets/images/Property.png) **Content**
+![](/images/Property.png) **Content**
 
 **Returns**: an XML representation of a ViewObject's properties
 
-![](/src/assets/images/Property.png) **DisplayMode**
+![](/images/Property.png) **DisplayMode**
 
 **Returns**: the current display mode
 
-![](/src/assets/images/Property.png) **IV**
+![](/images/Property.png) **IV**
 
 **Returns**: an Inventor representation of the ViewObject
 
-![](/src/assets/images/Property.png) **Object**
+![](/images/Property.png) **Object**
 
 **Returns**: the associated FreeCAD Document Object of this ViewObject
 
-![](/src/assets/images/Property.png) **PropertiesList**
+![](/images/Property.png) **PropertiesList**
 
 **Returns**: a list of properties of this ViewObject
 
-![](/src/assets/images/Property.png) **RootNode**
+![](/images/Property.png) **RootNode**
 
 **Returns**: the Inventor node of this ViewObject (pivy.coin object)
 
-![](/src/assets/images/Property.png) **Selectable**
+![](/images/Property.png) **Selectable**
 
 **Returns**: True if the object is selectable
 
-![](/src/assets/images/Property.png) **Type**
+![](/images/Property.png) **Type**
 
 **Returns**: the type of this ViewObject
 
-![](/src/assets/images/Property.png) **Visibility**
+![](/images/Property.png) **Visibility**
 
 **Returns**: True if the viewObject is visible
 
-![](/src/assets/images/Method.png) **getAllDerivedFrom(\*\***)\*\*
+![](/images/Method.png) **getAllDerivedFrom(\*\***)\*\*
 
 **Description**:
 
 **Returns**: all descentences of this object
 
-![](/src/assets/images/Method.png) **getDocumentationOfProperty(\*\***)\*\*
+![](/images/Method.png) **getDocumentationOfProperty(\*\***)\*\*
 
 **Description**:
 
 **Returns**: the documentation string of the property of this class.
 
-![](/src/assets/images/Method.png) **getGroupOfProperty(\*\***)\*\*
+![](/images/Method.png) **getGroupOfProperty(\*\***)\*\*
 
 **Description**:
 
 **Returns**: the name of the group which the property belongs to in this class. The properties sorted in differnt named groups for convenience.
 
-![](/src/assets/images/Method.png) **getPropertyByName(\*\***)\*\*
+![](/images/Method.png) **getPropertyByName(\*\***)\*\*
 
 **Description**:
 
 **Returns**: the value of a named property.
 
-![](/src/assets/images/Method.png) **getTypeOfProperty(\*\***)\*\*
+![](/images/Method.png) **getTypeOfProperty(\*\***)\*\*
 
 **Description**:
 
 **Returns**: the type of a named property. This can be (Hidden,ReadOnly,Output) or any combination.
 
-![](/src/assets/images/Method.png) **hide(\*\***)\*\*
+![](/images/Method.png) **hide(\*\***)\*\*
 
 **Description**: Hides the object.
 
 **Returns**:
 
-![](/src/assets/images/Method.png) **isDerivedFrom(\***string**\*)**
+![](/images/Method.png) **isDerivedFrom(\***string**\*)**
 
 **Description**: Checks if this object is derived from the given object type
 
 **Returns**: True if given type is a father
 
-![](/src/assets/images/Method.png) **isVisible(\*\***)\*\*
+![](/images/Method.png) **isVisible(\*\***)\*\*
 
 **Description**: Checks if the object is visible
 
 **Returns**: a boolean
 
-![](/src/assets/images/Method.png) **listDisplayModes(\*\***)\*\*
+![](/images/Method.png) **listDisplayModes(\*\***)\*\*
 
 **Description**: Shows a list of all display modes
 
 **Returns**: a list
 
-![](/src/assets/images/Method.png) **setTransformation(\***coin.SoTransform**\*)**
+![](/images/Method.png) **setTransformation(\***coin.SoTransform**\*)**
 
 **Description**: Sets a transformation on the Inventor node
 
 **Returns**: nothing
 
-![](/src/assets/images/Method.png) **show(\*\***)\*\*
+![](/images/Method.png) **show(\*\***)\*\*
 
 **Description**: Shows the object if hidden
 
 **Returns**: nothing
 
-![](/src/assets/images/Method.png) **toString(\*\***)\*\*
+![](/images/Method.png) **toString(\*\***)\*\*
 
 **Description**:
 
 **Returns**: a string representation of the Inventor node
 
-![](/src/assets/images/Method.png) **update(\*\***)\*\*
+![](/images/Method.png) **update(\*\***)\*\*
 
 **Description**: Updates the view representation of the object
 

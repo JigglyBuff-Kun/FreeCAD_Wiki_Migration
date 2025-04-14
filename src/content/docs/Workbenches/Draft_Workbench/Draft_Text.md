@@ -19,11 +19,11 @@ title: Draft Text
 
 ## Description
 
-The ![](/src/assets/images/Draft_Text.svg) **Draft Text** command creates a multi-line text at a given point.
+The ![](/images/Draft_Text.svg) **Draft Text** command creates a multi-line text at a given point.
 
 To create a text element with an arrow use the [Draft Label](/Draft_Label "Draft Label") command instead.
 
-![](/src/assets/images/Draft_Text_example.png)
+![](/images/Draft_Text_example.png)
 
 Single point required to position the text
 
@@ -32,19 +32,19 @@ Single point required to position the text
 See also: [Draft Tray](/Draft_Tray "Draft Tray") and [Draft Snap](/Draft_Snap "Draft Snap").
 
 1. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/Draft_Text.svg) [Text](/Draft_Text "Draft Text") button.
-   - Select the **Annotation → ![](/src/assets/images/Draft_Text.svg) Text** option from the menu.
+   - Press the ![](/images/Draft_Text.svg) [Text](/Draft_Text "Draft Text") button.
+   - Select the **Annotation → ![](/images/Draft_Text.svg) Text** option from the menu.
    - Use the keyboard shortcut: T then E.
 2. The **Text** task panel opens. See [Options](#Options) for more information.
-3. Pick a point in the [3D view](/3D_view "3D view"), or type coordinates and press the ![](/src/assets/images/Draft_AddPoint.svg) Enter point button.
+3. Pick a point in the [3D view](/3D_view "3D view"), or type coordinates and press the ![](/images/Draft_AddPoint.svg) Enter point button.
 4. Enter the desired text, press Enter to start a new line.
-5. Press Enter twice or press the ![](/src/assets/images/Button_valid.svg) Create text button to finish the command.
+5. Press Enter twice or press the ![](/images/Button_valid.svg) Create text button to finish the command.
 
 ## Options
 
 The single character keyboard shortcuts available in the task panel can be changed. See [Draft Preferences](/Draft_Preferences "Draft Preferences"). The shortcuts mentioned here are the default shortcuts (for version 1.0).
 
-- To manually enter coordinates enter the X, Y and Z component, and press Enter after each. Or you can press the ![](/src/assets/images/Draft_AddPoint.svg) Enter point button when you have the desired values. It is advisable to move the pointer out of the [3D view](/3D_view "3D view") before entering coordinates.
+- To manually enter coordinates enter the X, Y and Z component, and press Enter after each. Or you can press the ![](/images/Draft_AddPoint.svg) Enter point button when you have the desired values. It is advisable to move the pointer out of the [3D view](/3D_view "3D view") before entering coordinates.
 - Press G or click the **Global** checkbox to toggle global mode. If global mode is on, coordinates are relative to the global coordinate system, else they are relative to the [working plane](/Draft_SelectPlane "Draft SelectPlane") coordinate system.
 - Press N or click the **Continue** checkbox to toggle continue mode. If continue mode is on, the command will restart after finishing, allowing you to continue creating texts. The shortcut does not work in the second task panel. This option is not available in the first task panel in FreeCAD version 0.19 and earlier.
 - Press S to switch [Draft snapping](/Draft_Snap "Draft Snap") on or off.

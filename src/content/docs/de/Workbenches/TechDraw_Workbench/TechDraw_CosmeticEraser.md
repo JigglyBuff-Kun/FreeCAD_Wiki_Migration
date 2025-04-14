@@ -25,8 +25,8 @@ Das Werkzeug **TechDraw HilfsobjektEntfernen** entfernt Hilfsobjekte. Zu den Hil
 
 1. Ein oder mehrere Hilfsobjekte eines Zeichnungsblattes auswählen.
 2. Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
-   - Die Schaltfläche ![](/src/assets/images/TechDraw_CosmeticEraser.svg) Hilfsobjekt entfernen drücken.
-   - Den Menüeintrag **TechDraw → ![](/src/assets/images/TechDraw_CosmeticEraser.svg) Hilfsobjekt entfernen** auswählen.
+   - Die Schaltfläche ![](/images/TechDraw_CosmeticEraser.svg) Hilfsobjekt entfernen drücken.
+   - Den Menüeintrag **TechDraw → ![](/images/TechDraw_CosmeticEraser.svg) Hilfsobjekt entfernen** auswählen.
 
 ## Hinweise
 

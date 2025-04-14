@@ -63,7 +63,7 @@ webbrowser.open("https://gist.githubusercontent.com/mario52a/3ec67a3711202dab695
 
 <class="rawcodeurl"><a href="<https://gist.githubusercontent.com/mario52a/3ec67a3711202dab69592ce53b938924/raw/984cd58c1d64dd391062025cfa82a698c7268e66/Macro_Connect_And_Sweep.FCMacro>">raw code</a>
 
-![](/src/assets/images/Macro_Connect_And_Sweep_00.png)
+![](/images/Macro_Connect_And_Sweep_00.png)
 
 Macro_Connect_And_Sweep
 
@@ -71,27 +71,27 @@ Macro_Connect_And_Sweep
 
 Run the macro select your objects or points choice the form and parameters and click Create.
 
-![](/src/assets/images/Macro_Connect_And_Sweep_01.png)
+![](/images/Macro_Connect_And_Sweep_01.png)
 
 Macro_Connect_And_Sweep
 
-![](/src/assets/images/Macro_Connect_And_Sweep_Discretize.png)
+![](/images/Macro_Connect_And_Sweep_Discretize.png)
 
 Discretize
 
-![](/src/assets/images/Macro_Connect_And_Sweep_Duplicate.png)
+![](/images/Macro_Connect_And_Sweep_Duplicate.png)
 
 Duplicate
 
-![](/src/assets/images/Macro_Connect_And_Sweep_Sweep.png)
+![](/images/Macro_Connect_And_Sweep_Sweep.png)
 
 Sweep
 
-![](/src/assets/images/Macro_Connect_And_Sweep_Loft.png)
+![](/images/Macro_Connect_And_Sweep_Loft.png)
 
 Loft
 
-![](/src/assets/images/Macro_Connect_And_Sweep_Reset.png)
+![](/images/Macro_Connect_And_Sweep_Reset.png)
 
 Reset
 
@@ -101,9 +101,9 @@ These files must be copied to your macros directory
 
 (For download : Click Right button op the image and click "Save Image as ..." (version 0.17))
 
-![Center](/src/assets/images/Macro_Connect_And_Sweep_CE.png) ![Top left](/src/assets/images/Macro_Connect_And_Sweep_TL.png) ![Top rigth](/src/assets/images/Macro_Connect_And_Sweep_TR.png) ![Low left](/src/assets/images/Macro_Connect_And_Sweep_LL.png) ![Low rigth](/src/assets/images/Macro_Connect_And_Sweep_LR.png)
+![Center](/images/Macro_Connect_And_Sweep_CE.png) ![Top left](/images/Macro_Connect_And_Sweep_TL.png) ![Top rigth](/images/Macro_Connect_And_Sweep_TR.png) ![Low left](/images/Macro_Connect_And_Sweep_LL.png) ![Low rigth](/images/Macro_Connect_And_Sweep_LR.png)
 
-The icon for the toolbar ![Icon for the button](/src/assets/images/Macro_Connect_And_Sweep.png)
+The icon for the toolbar ![Icon for the button](/images/Macro_Connect_And_Sweep.png)
 
 ## Script
 
@@ -113,56 +113,56 @@ Download the macro to Gits [**Macro_Connect_And_Sweep.FCMacro**](https://gist.gi
 
 ## Example
 
-Path and tubing with Macro_Connect_And_Sweep and [Macro_Repro_Wire](http://www.freecadweb.org/wiki/index.php?title=Macro_Repro_Wire) ![](/src/assets/images/Macro_ReproWire.png)
+Path and tubing with Macro_Connect_And_Sweep and [Macro_Repro_Wire](http://www.freecadweb.org/wiki/index.php?title=Macro_Repro_Wire) ![](/images/Macro_ReproWire.png)
 
-- ![The sweep to work](/src/assets/images/Macro_Connect_And_Sweep_02.png)
+- ![The sweep to work](/images/Macro_Connect_And_Sweep_02.png)
 
   The sweep to work
 
-- ![Select the two points choice your form, settings and execute the sweep](/src/assets/images/Macro_Connect_And_Sweep_03.png)
+- ![Select the two points choice your form, settings and execute the sweep](/images/Macro_Connect_And_Sweep_03.png)
 
   Select the two points choice your form, settings and execute the sweep
 
-- ![Repeat the operation if needed](/src/assets/images/Macro_Connect_And_Sweep_04.png)
+- ![Repeat the operation if needed](/images/Macro_Connect_And_Sweep_04.png)
 
   Repeat the operation if needed
 
-- ![select the border of cylinder and run the Macro_Repro_Wire](/src/assets/images/Macro_Connect_And_Sweep_05.png)
+- ![select the border of cylinder and run the Macro_Repro_Wire](/images/Macro_Connect_And_Sweep_05.png)
 
-  select the border of cylinder and run the [Macro_Repro_Wire](/Macro_Repro_Wire "Macro Repro Wire") ![](/src/assets/images/Macro_ReproWire.png)
+  select the border of cylinder and run the [Macro_Repro_Wire](/Macro_Repro_Wire "Macro Repro Wire") ![](/images/Macro_ReproWire.png)
 
-- ![the circle is created activate the Sweep tools](/src/assets/images/Macro_Connect_And_Sweep_06.png)
+- ![the circle is created activate the Sweep tools](/images/Macro_Connect_And_Sweep_06.png)
 
-  the circle is created activate the Sweep tools ![](/src/assets/images/Part_Sweep.png)
+  the circle is created activate the Sweep tools ![](/images/Part_Sweep.png)
 
-- ![Select the circle the path and execute the sweep](/src/assets/images/Macro_Connect_And_Sweep_07.png)
+- ![Select the circle the path and execute the sweep](/images/Macro_Connect_And_Sweep_07.png)
 
   Select the circle the path and execute the sweep
 
-- ![Easy ?](/src/assets/images/Macro_Connect_And_Sweep_08.png)
+- ![Easy ?](/images/Macro_Connect_And_Sweep_08.png)
 
   Easy ?
 
 ## Animated example
 
-![](/src/assets/images/Macro_Connect_And_Sweep_Sweep2.gif)
+![](/images/Macro_Connect_And_Sweep_Sweep2.gif)
 
 {clear}}
 
 Object and Object, the connection boundBox center object 1 and boundBox center object 2
-![](/src/assets/images/Connect_And_Sweep_01_Object_Object.gif)
+![](/images/Connect_And_Sweep_01_Object_Object.gif)
 
 Object SubObject, the connection boundBox center object 1 and boundBox center Subobject 1
-![](/src/assets/images/Connect_And_Sweept_02_Object_SubObject.gif)
+![](/images/Connect_And_Sweept_02_Object_SubObject.gif)
 
 SubObject SubObject, the connection boundBox center Subobject 1 and boundBox center Subobject 2
-![](/src/assets/images/Connect_And_Sweep_03_SubObject_SubObject.gif)
+![](/images/Connect_And_Sweep_03_SubObject_SubObject.gif)
 
 Connect And Sweep Direction one object selected or Subobject selected
-![](/src/assets/images/Connect_And_Sweep_4_Direction.gif)
+![](/images/Connect_And_Sweep_4_Direction.gif)
 
 Detect Error of mode selection, if one error of selection is created the mode change to mode 3 and the mode 3 line is colored in orange
-![](/src/assets/images/Connect_And_Sweep_05_Detect_Error.gif)
+![](/images/Connect_And_Sweep_05_Detect_Error.gif)
 
 ## Version
 

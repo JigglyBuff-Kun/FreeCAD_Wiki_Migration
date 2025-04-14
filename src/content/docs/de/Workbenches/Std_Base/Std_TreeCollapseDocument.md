@@ -24,7 +24,7 @@ Der Befehl **Std BaumDokumentReduzieren** wechselt den Dokument-Modus der [Bauma
 ## Anwendung
 
 1. Es gibt mehrere Möglichkeiten den Befehl aufzurufen:
-   - Den nach unten weisenden Pfeil rechts neben der Schaltfläche ![](/src/assets/images/Std_TreeSyncView.svg) anklicken und den Eintrag **Reduzieren/Erweitern** in der angezeigten Liste auswählen. Hinweis: Das Bild der Schaltfläche ändert sich entsprechend der Auswahl.
+   - Den nach unten weisenden Pfeil rechts neben der Schaltfläche ![](/images/Std_TreeSyncView.svg) anklicken und den Eintrag **Reduzieren/Erweitern** in der angezeigten Liste auswählen. Hinweis: Das Bild der Schaltfläche ändert sich entsprechend der Auswahl.
    - Den Menüeintrag **Ansicht → Baumansicht-Aktionen → Reduzieren/Erweitern** auswählen.
 
 Retrieved from "<http://wiki.freecad.org/index.php?title=Std_TreeCollapseDocument/de&oldid=1451621>"

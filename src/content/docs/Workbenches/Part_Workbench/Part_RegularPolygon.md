@@ -19,9 +19,9 @@ title: Part RegularPolygon
 
 ## Description
 
-A ![](/src/assets/images/Part_RegularPolygon.svg) **Part RegularPolygon** is a parametric shape that can be created with the ![](/src/assets/images/Part_Primitives.svg) [Part Primitives](/Part_Primitives "Part Primitives") command. In the coordinate system defined by its Data**Placement** property, the polygon lies on the XY plane with its center at the origin and one of its vertices on the X axis.
+A ![](/images/Part_RegularPolygon.svg) **Part RegularPolygon** is a parametric shape that can be created with the ![](/images/Part_Primitives.svg) [Part Primitives](/Part_Primitives "Part Primitives") command. In the coordinate system defined by its Data**Placement** property, the polygon lies on the XY plane with its center at the origin and one of its vertices on the X axis.
 
-![](/src/assets/images/Part_RegularPolygon_Example.png)
+![](/images/Part_RegularPolygon_Example.png)
 
 ## Usage
 
@@ -29,7 +29,7 @@ See [Part Primitives](/Part_Primitives#Usage "Part Primitives").
 
 ## Example
 
-![](/src/assets/images/Part_RegularPolygon_Scripting_Example.png)
+![](/images/Part_RegularPolygon_Scripting_Example.png)
 
 Part RegularPolygon from the scripting example
 

@@ -26,7 +26,7 @@ Seit FreeCAD Version 0.20 wird dieser Befehl und das Hilfesystem von einem separ
 ## Anwendung
 
 1. Es gibt mehrere Möglichkeiten den Befehl aufzurufen:
-   - Den Menüeintrag **Hilfe → ![](/src/assets/images/Std_OnlineHelp.svg) Hilfe** auswählen.
+   - Den Menüeintrag **Hilfe → ![](/images/Std_OnlineHelp.svg) Hilfe** auswählen.
    - Das Tastaturkürzel F1.
 2. Die Online-Hilfe wird geöffnet.
 

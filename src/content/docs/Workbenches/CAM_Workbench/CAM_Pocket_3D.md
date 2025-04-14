@@ -23,9 +23,9 @@ This documentation is not finished. Please help and contribute documentation.Gui
 
 ## Description
 
-This command inserts a path ![](/src/assets/images/CAM_3DPocket.svg) [3D Pocket](/CAM_Pocket_3D "CAM Pocket 3D") object into the Job. This operation takes into account the bottom surface of the pocket, as well as selected walls that are not vertical. In its current state, this operation is used to rough out a pocket with non-vertical walls and/or non-horizontal bottom. A common finishing technique is to use a ball end mill with the experimental ![](/src/assets/images/CAM_Surface.svg) [3D Surface](/CAM_Surface "CAM Surface") operation.
+This command inserts a path ![](/images/CAM_3DPocket.svg) [3D Pocket](/CAM_Pocket_3D "CAM Pocket 3D") object into the Job. This operation takes into account the bottom surface of the pocket, as well as selected walls that are not vertical. In its current state, this operation is used to rough out a pocket with non-vertical walls and/or non-horizontal bottom. A common finishing technique is to use a ball end mill with the experimental ![](/images/CAM_Surface.svg) [3D Surface](/CAM_Surface "CAM Surface") operation.
 
-![](/src/assets/images/Path_3D_Pocket_Sample.png)
+![](/images/Path_3D_Pocket_Sample.png)
 
 Sample image of 3D Pocket operation used to clear cylindrical battery holder.
 
@@ -34,7 +34,7 @@ Sample image of 3D Pocket operation used to clear cylindrical battery holder.
 ### Creating a 3D Pocket
 
 1. From within a Job, select one or more Faces from the Job Model to include as the Base Geometry.
-2. Invoke the ![](/src/assets/images/CAM_3DPocket.svg) [Pocket 3D](/CAM_Pocket_3D "CAM Pocket 3D") or select CAM → ![](/src/assets/images/CAM_3DPocket.svg) [Pocket 3D](/CAM_Pocket_3D "CAM Pocket 3D") command from the top menu.
+2. Invoke the ![](/images/CAM_3DPocket.svg) [Pocket 3D](/CAM_Pocket_3D "CAM Pocket 3D") or select CAM → ![](/images/CAM_3DPocket.svg) [Pocket 3D](/CAM_Pocket_3D "CAM Pocket 3D") command from the top menu.
 3. Choose a Tool controller from the pop up selection dialogue window.
 4. Add or subtract Base Geometry elements as needed to configure the Operation.
 5. Check the Depths tab to ensure the Start Depth, Finish Depth, and Step Down percentage are correct. The Final Depth is determined by the Body Geometry selection and is not modifiable.
@@ -53,7 +53,7 @@ Sample image of 3D Pocket operation used to clear cylindrical battery holder.
 - Use the Data**Adaptive Pocket Finish** property to attempt to minimize air milling below a 3D Pocket in cases where the pocket is a hole through the model.
 - Use the Data**Adaptive Pocket Start** property to attempt to minimize air milling upon entry to the pocket. For example, look at the sample image above in the [Description](/CAM_Pocket_3D#Description "CAM Pocket 3D") section of this page. In order to reduce the air milling above that 3D Pocket, toggle this property to True and the paths will begin closer to the pocket, much nearer to where the pocket actually begins. See the following image and note the difference in the path start height. The air milling is reduced.
 
-![](/src/assets/images/3D_Pocket_Sample_Adaptive_Start.png)
+![](/images/3D_Pocket_Sample_Adaptive_Start.png)
 
 Sample image of 3D Pocket operation used to clear cylindrical battery holder with the Adaptive Pocket Start enabled in order to reduce air milling upon entry.
 

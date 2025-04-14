@@ -22,7 +22,7 @@ Part.show(Part.makeBox(obj.Length, obj.Width, obj.Height))
 
 ```
 
-![](/src/assets/images/App_featurepython_box.png)
+![](/images/App_featurepython_box.png)
 
 These commands execute Python methods that come with FreeCAD by default:
 
@@ -65,7 +65,7 @@ obj.Shape = Part.makeBox(obj.Length, obj.Width, obj.Height)
 
 ```
 
-![](/src/assets/images/Part_featurepython_no_vp.png)
+![](/images/Part_featurepython_no_vp.png)
 
 Save your changes, switch back to FreeCAD, delete any existing objects, reload the box module, and create a new box object. The new result is somewhat disappointing. There no longer is an extra object in the Tree view, and the icon in the Tree view has changed, but our box in the 3D view is also gone (which is why the icon is gray). What happened? Although we've properly created our box shape and assigned it to a `Part::FeaturePython` object, to make it actually show up in the 3D view we need to assign a [ViewProvider](/Viewprovider "Viewprovider").
 
@@ -187,7 +187,7 @@ This instances the custom ViewProvider class and passes the FeaturePython's buil
 Now, save the changes and return to FreeCAD. Import or reload the box module and call `box.create()`. You should now see two things:
 
 - The icon for the box object has changed.
-- And, more importantly, there is a box in the 3D view. If you do not see it press the ![](/src/assets/images/Std_ViewFitAll.svg) [Std ViewFitAll](/Std_ViewFitAll "Std ViewFitAll") button. You can even alter the dimensions of the box by changing the values in the [Property editor](/Property_editor "Property editor"). Give it a try!
+- And, more importantly, there is a box in the 3D view. If you do not see it press the ![](/images/Std_ViewFitAll.svg) [Std ViewFitAll](/Std_ViewFitAll "Std ViewFitAll") button. You can even alter the dimensions of the box by changing the values in the [Property editor](/Property_editor "Property editor"). Give it a try!
 
 [top](#top)
 

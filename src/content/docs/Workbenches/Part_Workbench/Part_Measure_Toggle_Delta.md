@@ -28,7 +28,7 @@ This command toggles the visibility of delta measurements in the [3D view](/3D_v
 ## Usage
 
 1. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/Part_Measure_Toggle_Delta.svg) [Toggle Delta](/Part_Measure_Toggle_Delta "Part Measure Toggle Delta") button.
-   - Select the **Measure → ![](/src/assets/images/Part_Measure_Toggle_Delta.svg) Toggle Delta** option from the menu.
+   - Press the ![](/images/Part_Measure_Toggle_Delta.svg) [Toggle Delta](/Part_Measure_Toggle_Delta "Part Measure Toggle Delta") button.
+   - Select the **Measure → ![](/images/Part_Measure_Toggle_Delta.svg) Toggle Delta** option from the menu.
 
 Retrieved from "<http://wiki.freecad.org/index.php?title=Part_Measure_Toggle_Delta/en&oldid=1458165>"

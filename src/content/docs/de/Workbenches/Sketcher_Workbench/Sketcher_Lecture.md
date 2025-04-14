@@ -8,7 +8,7 @@ Der Anwender _chrisb_ hat ein über 80 Seiten umfassendes Referenzhandbuch für 
 
 Das Handbuch ist eine laufende Arbeit, da einige Abschnitte je nach der Entwicklung, die im [Skizzierer Arbeitsbereich](/Sketcher_Workbench/de "Sketcher Workbench/de") stattfindet, regelmäßig überprüft und aktualisiert werden. Das Originalhandbuch wurde für FreeCAD 0.17 geschrieben; dann wurde es für 0.18 und 0.19 aktualisiert. Das neueste Handbuch ist im Forumsbeitrag zu finden, [Sketcher Tutorial](https://forum.freecadweb.org/viewtopic.php?f=36&t=30104).
 
-![](/src/assets/images/Sketcher_reference.png)
+![](/images/Sketcher_reference.png)
 
 Beispielskizze im Sketcher-Referenzhandbuch
 

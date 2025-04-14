@@ -19,12 +19,12 @@ title: Surface BlendCurve
 
 ## Description
 
-![](/src/assets/images/Surface_BlendCurve.svg) [Surface Blend Curve](/Surface_BlendCurve "Surface BlendCurve") creates a Bezier curve between two edges, with desired continuity.
+![](/images/Surface_BlendCurve.svg) [Surface Blend Curve](/Surface_BlendCurve "Surface BlendCurve") creates a Bezier curve between two edges, with desired continuity.
 
 The base geometry can belong to curves created with the [Draft Workbench](/Draft_Workbench "Draft Workbench") or the [Sketcher Workbench](/Sketcher_Workbench "Sketcher Workbench"), but can also belong to solid objects such as those created with the [Part Workbench](/Part_Workbench "Part Workbench").
 
-![](/src/assets/images/Surface_BlendCurve_G3_example.png)
-![](/src/assets/images/Surface_BlendCurve_Comb.png)
+![](/images/Surface_BlendCurve_G3_example.png)
+![](/images/Surface_BlendCurve_Comb.png)
 
 Surface Blend Curve joining 2 edges with G3 continuity. Orange polygon represent the control points. Curvature comb (from [Curves addon](/Curves_Workbench "Curves Workbench")) is smooth at contact points.
 
@@ -32,8 +32,8 @@ Surface Blend Curve joining 2 edges with G3 continuity. Orange polygon represent
 
 1. Select two edges in the [3D view](/3D_view "3D view")
 2. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/Surface_BlendCurve.svg) [Surface Blend Curve](/Surface_BlendCurve "Surface BlendCurve") button.
-   - Select the **Surface → ![](/src/assets/images/Surface_BlendCurve.svg) Blend Curve** option from the menu.
+   - Press the ![](/images/Surface_BlendCurve.svg) [Surface Blend Curve](/Surface_BlendCurve "Surface BlendCurve") button.
+   - Select the **Surface → ![](/images/Surface_BlendCurve.svg) Blend Curve** option from the menu.
 3. Adjust the curve shape in the object Data properties
 
 ## Properties

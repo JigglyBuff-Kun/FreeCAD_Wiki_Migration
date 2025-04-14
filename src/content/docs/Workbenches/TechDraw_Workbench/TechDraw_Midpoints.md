@@ -21,7 +21,7 @@ title: TechDraw Midpoints
 
 The **TechDraw Midpoints** tool adds [cosmetic vertices](/TechDraw_CosmeticVertex "TechDraw CosmeticVertex") at the midpoint of one or more selected edges.
 
-![](/src/assets/images/TechDraw_CosmeticMidpoint_Sample.png)
+![](/images/TechDraw_CosmeticMidpoint_Sample.png)
 
 Cosmetic vertices at the midpoint of edges
 
@@ -29,8 +29,8 @@ Cosmetic vertices at the midpoint of edges
 
 1. Select one or more edges in a view.
 2. There are several ways to invoke the tool:
-   - Press the ![](/src/assets/images/TechDraw_Midpoints.svg) [Add Midpoint Vertices](/TechDraw_Midpoints "TechDraw Midpoints") button.
-   - Select the **TechDraw → Add Vertices → ![](/src/assets/images/TechDraw_Midpoints.svg) Add Midpoint Vertices** option from the menu.
+   - Press the ![](/images/TechDraw_Midpoints.svg) [Add Midpoint Vertices](/TechDraw_Midpoints "TechDraw Midpoints") button.
+   - Select the **TechDraw → Add Vertices → ![](/images/TechDraw_Midpoints.svg) Add Midpoint Vertices** option from the menu.
 
 ## Notes
 

@@ -23,13 +23,13 @@ This documentation is not finished. Please help and contribute documentation.Gui
 
 ## Description
 
-The ![](/src/assets/images/BIM_DimensionHorizontal.svg) [BIM DimensionHorizontal](/BIM_DimensionHorizontal "BIM DimensionHorizontal") tool creates an horizontal dimension, a **Dimension** object...
+The ![](/images/BIM_DimensionHorizontal.svg) [BIM DimensionHorizontal](/BIM_DimensionHorizontal "BIM DimensionHorizontal") tool creates an horizontal dimension, a **Dimension** object...
 
 ## Usage
 
 1. There are several ways to invoke the tool:
-   - Press the ![](/src/assets/images/BIM_DimensionHorizontal.svg) [Horizontal dimension](/BIM_DimensionHorizontal "BIM DimensionHorizontal") button.
-   - Select the **Annotation → ![](/src/assets/images/BIM_DimensionHorizontal.svg) Horizontal dimension** option from the menu.
+   - Press the ![](/images/BIM_DimensionHorizontal.svg) [Horizontal dimension](/BIM_DimensionHorizontal "BIM DimensionHorizontal") button.
+   - Select the **Annotation → ![](/images/BIM_DimensionHorizontal.svg) Horizontal dimension** option from the menu.
    - Use the keyboard shortcut: D then H.
 2. ...
 

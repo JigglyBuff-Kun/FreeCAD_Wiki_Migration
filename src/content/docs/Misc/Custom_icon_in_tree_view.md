@@ -10,11 +10,11 @@ This is an example of modifying the icon of a custom [viewprovider](/Viewprovide
 
 Here an example to create an object with properties and icon personalised in ComboView
 
-Download the example icon to the same directory as the macro ![icon Example for the macro](/src/assets/images/FreeCADIco.png)
+Download the example icon to the same directory as the macro ![icon Example for the macro](/images/FreeCADIco.png)
 
 Use of an icon for three different use cases: icon_in_file_disk (format .png), icon_XPM_in_macro (format .XPM) and icon_resource_FreeCAD
 
-![icon personalised](/src/assets/images/Qt_Example_02.png)
+![icon personalised](/images/Qt_Example_02.png)
 
 ```
 import PySide

@@ -60,21 +60,21 @@ webbrowser.open("https://raw.githubusercontent.com/FreeCAD/FreeCAD-macros/master
 
 <class="rawcodeurl"><a href="<https://raw.githubusercontent.com/FreeCAD/FreeCAD-macros/master/Utility/HighlightDifference.FCMacro>">raw code</a>
 
-![](/src/assets/images/Macro_HighlightDifference_02.png)
+![](/images/Macro_HighlightDifference_02.png)
 
 Ergebnis Differenz zwischen zwei erzeugten Objekten
 
 ## Beispiel
 
-- ![Originalobjekte](/src/assets/images/Macro_HighlightDifference_00.png)
+- ![Originalobjekte](/images/Macro_HighlightDifference_00.png)
 
   Originalobjekte
 
-- [![Die resultierenden Objekte sind rot und grün gefärbt (hier versetzt)](/src/assets/images/Macro_HighlightDifference_02.png)](/File:Macro_HighlightDifference_02.png "Die resultierenden Objekte sind rot und grün gefärbt (hier versetzt)")
+- [![Die resultierenden Objekte sind rot und grün gefärbt (hier versetzt)](/images/Macro_HighlightDifference_02.png)](/File:Macro_HighlightDifference_02.png "Die resultierenden Objekte sind rot und grün gefärbt (hier versetzt)")
 
   Die resultierenden Objekte sind rot und grün gefärbt (hier versetzt)
 
-- ![Die Originalobjekte sind zu 80 % transparent und werden nicht verändert.](/src/assets/images/Macro_HighlightDifference_01.png)
+- ![Die Originalobjekte sind zu 80 % transparent und werden nicht verändert.](/images/Macro_HighlightDifference_01.png)
 
   Die Originalobjekte sind zu 80 % transparent und werden nicht verändert.
 

@@ -28,7 +28,7 @@ title: Dump Objects
 
 When developing complex object models it is easy to lose track of exactly which objects are present as some may be hidden, obscured or transparent. Additionally with a large number of objects a naming system becomes necessary to keep track of the objects.
 
-![](/src/assets/images/DumpObjectsScreenSnapshot.jpg)
+![](/images/DumpObjectsScreenSnapshot.jpg)
 
 ## Description
 
@@ -65,11 +65,11 @@ The information will show all objects in the current document. Some of the benef
 
 The first window will take input which configures the Object Dump:
 
-![](/src/assets/images/DumpObjectsGui1.jpg)
+![](/images/DumpObjectsGui1.jpg)
 
 The second window will be the report on the objects in the current document:
 
-![](/src/assets/images/DumpObjectsGui2.jpg)
+![](/images/DumpObjectsGui2.jpg)
 
 ## Options
 
@@ -87,7 +87,7 @@ Although tested with many object types in FreeCAD, there probably are some objec
 
 Toolbar Icon
 
-![](/src/assets/images/Macro_Dump_Objects.png)
+![](/images/Macro_Dump_Objects.png)
 
 **Macro_Dump_Objects.FCMacro**
 

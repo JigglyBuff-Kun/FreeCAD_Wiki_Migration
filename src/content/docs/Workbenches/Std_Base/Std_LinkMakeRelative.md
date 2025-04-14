@@ -19,27 +19,27 @@ title: Std LinkMakeRelative
 
 ## Description
 
-![](/src/assets/images/Std_LinkMakeRelative.svg) [Std LinkMakeRelative](/Std_LinkMakeRelative "Std LinkMakeRelative") creates an [App Link](/App_Link "App Link") (`App::Link` class), just like ![](/src/assets/images/Std_LinkMake.svg) [Std LinkMake](/Std_LinkMake "Std LinkMake"), but it operates on selected subelements first, and sets the Data**Link Transform** to `true`.
+![](/images/Std_LinkMakeRelative.svg) [Std LinkMakeRelative](/Std_LinkMakeRelative "Std LinkMakeRelative") creates an [App Link](/App_Link "App Link") (`App::Link` class), just like ![](/images/Std_LinkMake.svg) [Std LinkMake](/Std_LinkMake "Std LinkMake"), but it operates on selected subelements first, and sets the Data**Link Transform** to `true`.
 
 ## Usage
 
 With selection:
 
 1. Select a subelement in the [3D view](/3D_view "3D view"), this means a vertex, edge, or face, or any combination of these. These subelements must belong to a single object.
-2. Press the ![](/src/assets/images/Std_LinkMakeRelative.svg) [Make sub-link](/Std_LinkMakeRelative "Std LinkMakeRelative") button. The produced object has the same icon as the original object, but has two arrow overlays indicating it is a relative Link.
+2. Press the ![](/images/Std_LinkMakeRelative.svg) [Make sub-link](/Std_LinkMakeRelative "Std LinkMakeRelative") button. The produced object has the same icon as the original object, but has two arrow overlays indicating it is a relative Link.
 
 Without selection:
 
 - If no object is selected, this command does nothing.
 - If an object is selected in the [tree view](/Tree_view "Tree view") only, but no subelement is selected in the [3D view](/3D_view "3D view"), the command does nothing either.
 
-![](/src/assets/images/Std_Link_tree_sublink_example.png) ![](/src/assets/images/Std_Link_sublink_example.png)
+![](/images/Std_Link_tree_sublink_example.png) ![](/images/Std_Link_sublink_example.png)
 
 Original body, and three Links created from the subelements of it, including edges and faces.
 
 ## Properties
 
-This command creates a new [App Link](/App_Link "App Link"); its properties are described in ![](/src/assets/images/Std_LinkMake.svg) [Std LinkMake](/Std_LinkMake "Std LinkMake").
+This command creates a new [App Link](/App_Link "App Link"); its properties are described in ![](/images/Std_LinkMake.svg) [Std LinkMake](/Std_LinkMake "Std LinkMake").
 
 In particular, Data**Link Transform** is set to `true`, so Data**Placement** becomes hidden, and instead Data**Link Placement** controls the position of the Link with respect to the position of Data**Linked Object**.
 

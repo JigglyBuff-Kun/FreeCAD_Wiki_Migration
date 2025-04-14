@@ -26,7 +26,7 @@ This command allows you to display a selected [Drawing page](/Drawing_Landscape_
 1. Create a [Drawing page](/Drawing_Landscape_A3 "Drawing Landscape A3")
 2. Add some [views](/Drawing_View "Drawing View") or other content to your page
 3. [Refresh](/Std_Refresh "Std Refresh") the view if a Drawing view wasn't opened
-4. Press the ![](/src/assets/images/Drawing_Openbrowser.png) [Drawing Openbrowser](/Drawing_Openbrowser "Drawing Openbrowser") button
+4. Press the ![](/images/Drawing_Openbrowser.png) [Drawing Openbrowser](/Drawing_Openbrowser "Drawing Openbrowser") button
 
 ## Limitations
 

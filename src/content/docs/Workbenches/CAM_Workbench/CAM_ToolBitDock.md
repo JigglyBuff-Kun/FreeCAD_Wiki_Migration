@@ -23,7 +23,7 @@ This documentation is not finished. Please help and contribute documentation.Gui
 
 ## Description
 
-The ![](/src/assets/images/CAM_ToolBitDock.svg) [ToolBit Dock](/CAM_ToolBitDock "CAM ToolBitDock") is easily accessible from the main toolbar in the CAM workbench. Pressing the button will toggle the state of the dock. The dock is displayed in the right position by default but may be moved by the user.
+The ![](/images/CAM_ToolBitDock.svg) [ToolBit Dock](/CAM_ToolBitDock "CAM ToolBitDock") is easily accessible from the main toolbar in the CAM workbench. Pressing the button will toggle the state of the dock. The dock is displayed in the right position by default but may be moved by the user.
 
 The purpose of the dock is to display the currently selected library and allow the user to quickly add tool controllers to the CAM Job(s).
 
@@ -40,8 +40,8 @@ The user may also select multiple tools and use the 'add...' button at the botto
 ### Create Tool Controllers
 
 1. There are several ways to open the Toolbit Dock:
-   - Press the ![](/src/assets/images/CAM_ToolBitDock.svg) [CAM ToolBitDock](/CAM_ToolBitDock "CAM ToolBitDock") button.
-   - Select the **CAM → ![](/src/assets/images/CAM_ToolBitDock.svg) ToolBit Dock** option from the menu.
+   - Press the ![](/images/CAM_ToolBitDock.svg) [CAM ToolBitDock](/CAM_ToolBitDock "CAM ToolBitDock") button.
+   - Select the **CAM → ![](/images/CAM_ToolBitDock.svg) ToolBit Dock** option from the menu.
    - Use the keyboard shortcut: P then T.
 2. Use the dock to add tool controllers to a CAM Job.
    - Doubleclick on a toolbit node **(2)** to create a toolcontroller for that toolbit.

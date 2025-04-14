@@ -39,13 +39,13 @@ Note:
 If you're also interested in polyhedrons, then you can use **Macro Polyhedrons**.  
 You can also make use of the the external workbench [Pyramids_and_Polyhedrons](https://github.com/eddyverl/FreeCad-Pyramids-and-Polyhedrons) that contains the same function.
 
-![](/src/assets/images/Polyhedrons.png)
+![](/images/Polyhedrons.png)
 
 Example creation with the external workbench [Pyramids_and_Polyhedrons](https://github.com/eddyverl/FreeCad-Pyramids-and-Polyhedrons) that contains the same function.
 
 ## Usage
 
-- Install: use ![](/src/assets/images/AddonManager.svg) [Addon Manager](/Std_AddonMgr "Std AddonMgr") to install the macro.
+- Install: use ![](/images/AddonManager.svg) [Addon Manager](/Std_AddonMgr "Std AddonMgr") to install the macro.
 - Once installed, open Menu → Macro → Macros. Click on pyramid.py and then click on button execute.
 - A knotted pyramid will appear, similar to Part Cone
 - Change the parameters just like with Part Cone.
@@ -53,7 +53,7 @@ Example creation with the external workbench [Pyramids_and_Polyhedrons](https://
 
 ## Script
 
-Icon ToolBar ![](/src/assets/images/Pyramidicon.svg)
+Icon ToolBar ![](/images/Pyramidicon.svg)
 
 **pyramid.py**
 

@@ -21,7 +21,7 @@ title: Ship AreasCurve
 
 Plot the transversal areas curve
 
-![](/src/assets/images/FreeCAD-Ship-s60Areas.png)
+![](/images/FreeCAD-Ship-s60Areas.png)
 
 Design draft transversal areas curve
 
@@ -31,7 +31,7 @@ Special attention should be paid to the eventual shoulders of the curve, which w
 
 ## Usage
 
-In order to compute the transversal areas curve, select a **Ship instance** (see [Ship CreateShip](/Ship_CreateShip "Ship CreateShip")), and invoke **Ship design → ![](/src/assets/images/Ship_AreasCurve.svg) Areas curve**.
+In order to compute the transversal areas curve, select a **Ship instance** (see [Ship CreateShip](/Ship_CreateShip "Ship CreateShip")), and invoke **Ship design → ![](/images/Ship_AreasCurve.svg) Areas curve**.
 
 The task panel and a free-surface annotation in the [3D view](/3D_view "3D view") are shown. The annotation is temporary and will be removed when you close the tool, so don't worry about that.
 

@@ -19,7 +19,7 @@ title: Sketcher PunktAufObjektFestlegen
 
 ## Beschreibung
 
-Das Werkzeug ![](/src/assets/images/Sketcher_ConstrainPointOnObject.svg) Sketcher PunktAufObjektFestlegen verbindet Punkte mit Kanten oder Achsen. Linien werden als unendlich angesehen und Kurven werden ebenso virtuell verlängert.
+Das Werkzeug ![](/images/Sketcher_ConstrainPointOnObject.svg) Sketcher PunktAufObjektFestlegen verbindet Punkte mit Kanten oder Achsen. Linien werden als unendlich angesehen und Kurven werden ebenso virtuell verlängert.
 
 [eingeführt in 1.0](/Release_notes_1.0/de "Release notes 1.0/de"): Dieses Werkzeug wird durch das Werkzeug [Sketcher KoinzidentFestlegenKombiniert](/Sketcher_ConstrainCoincidentUnified/de "Sketcher ConstrainCoincidentUnified/de") ersetzt, wenn die Option **Koinzidenz und Punkt auf Objekt vereinigen** in den [Voreinstellungen](/Sketcher_Preferences/de#Allgemein "Sketcher Preferences/de") ausgewählt wurde.
 
@@ -31,8 +31,8 @@ Siehe auch: [Zeichnungshilfen](/Sketcher_Workbench/de#Zeichnungshilfen "Sketcher
 
 1. Sicherstellen, dass die Auswahl leer ist.
 2. Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
-   - Die Schaltfläche ![](/src/assets/images/Sketcher_ConstrainPointOnObject.svg) Punkt auf Objekt festlegen drücken.
-   - Den Menüeintrag **Skizze → Sketcher-Randbedingungen → ![](/src/assets/images/Sketcher_ConstrainPointOnObject.svg) Punkt auf Objekt festlegen** auswählen.
+   - Die Schaltfläche ![](/images/Sketcher_ConstrainPointOnObject.svg) Punkt auf Objekt festlegen drücken.
+   - Den Menüeintrag **Skizze → Sketcher-Randbedingungen → ![](/images/Sketcher_ConstrainPointOnObject.svg) Punkt auf Objekt festlegen** auswählen.
    - Das Tastaturkürzel O.
 3. Der Mauszeiger wandelt sich zu einem Kreuz mit Werkzeugsymbol.
 4. Einen einzelnen Punkt und eine einzelne Kante (in beliebiger Reihenfolge) auswählen.

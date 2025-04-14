@@ -60,7 +60,7 @@ webbrowser.open("https://gist.githubusercontent.com/mario52a/c477f892233d6abe02d
 
 <class="rawcodeurl"><a href="<https://gist.githubusercontent.com/mario52a/c477f892233d6abe02df5e97af828ff4/raw/d633193c577e8257ef458b8c1824d1047c3c6613/Macro_FCCreaLoft.FCMacro>">raw code</a>
 
-![](/src/assets/images/Texture_001_Logo.png)
+![](/images/Texture_001_Logo.png)
 
 Texture_001_Logo
 
@@ -86,13 +86,13 @@ Copy the macro and the icon in your macro directory.
 
 ### The interface
 
-![FCCreaLoft002](/src/assets/images/Macro_FCCreaLoft_01.png)
+![FCCreaLoft002](/images/Macro_FCCreaLoft_01.png)
 
 FCCreaLoft002
 
 ## Script
 
-The icons for you ToolBar ![](/src/assets/images/FCCreaLoft.png)
+The icons for you ToolBar ![](/images/FCCreaLoft.png)
 
 Download the macro to Gist [**Macro_FCCreaLoft.FCMacro**](https://gist.github.com/mario52a/c477f892233d6abe02df5e97af828ff4)
 

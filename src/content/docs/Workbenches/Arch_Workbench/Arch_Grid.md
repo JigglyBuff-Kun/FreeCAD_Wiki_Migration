@@ -27,13 +27,13 @@ The **Arch Grid** tool allows you to place a grid-like object in the document. T
 
 The Grid is a 2D object, and can therefore be used anywhere a 2D shape such as a [Draft](/Draft_Workbench "Draft Workbench") or [Sketch](/Sketcher_Workbench "Sketcher Workbench") is needed, but it can also behave as a [Arch AxisSystem](/Arch_AxisSystem "Arch AxisSystem"), and be used to propagate the placement of other Arch objects.
 
-![](/src/assets/images/Arch_Grid_example.jpg)
+![](/images/Arch_Grid_example.jpg)
 
 An array of columns, a railing system, and a window, each based on an [Arch Grid](/Arch_Grid "Arch Grid") object.
 
 ## Usage
 
-1. Press the ![](/src/assets/images/Arch_Grid.svg) [Grid](/Arch_Grid "Arch Grid") button.
+1. Press the ![](/images/Arch_Grid.svg) [Grid](/Arch_Grid "Arch Grid") button.
 2. Set the **Width** and **Height** of the grid in the properties.
 3. Enter edit mode by double-clicking the grid object in the tree view.
 4. Add rows and columns.

@@ -19,7 +19,7 @@ title: Cables SupportPoint
 
 ## Description
 
-The ![](/src/assets/images/Cables_SupportPoint.svg) [Support Point](/Cables_SupportPoint "Cables SupportPoint") creates a [Draft Point](/Draft_Point "Draft Point") in bright color. It serves as support for creating [WireFlex](/Cables_WireFlex "Cables WireFlex"). Its has additional **Attachment** properties which can be used e.g. for attaching cables to walls or ceilings etc. The **Support Point** has the same purpose as [Support Line](/Cables_SupportLine "Cables SupportLine") and can serve as its complement.
+The ![](/images/Cables_SupportPoint.svg) [Support Point](/Cables_SupportPoint "Cables SupportPoint") creates a [Draft Point](/Draft_Point "Draft Point") in bright color. It serves as support for creating [WireFlex](/Cables_WireFlex "Cables WireFlex"). Its has additional **Attachment** properties which can be used e.g. for attaching cables to walls or ceilings etc. The **Support Point** has the same purpose as [Support Line](/Cables_SupportLine "Cables SupportLine") and can serve as its complement.
 
 ## Usage
 

@@ -24,7 +24,7 @@ Hides the elements selected by a polygon from the FEM mesh or results mesh, maki
 ## Usage
 
 1. Select a FEM mesh (created by Netgen/Gmsh or imported) or the results mesh in the tree.
-2. Select the **Mesh → ![](/src/assets/images/FEM_CreateElementsSet.svg) Erase Elements** option from the menu.
+2. Select the **Mesh → ![](/images/FEM_CreateElementsSet.svg) Erase Elements** option from the menu.
 3. Optionally, enter the name of the tool's object that will be created in the tree.
 4. Press the Poly button and click on a few arbitrary locations in the 3D view to define the selection polygon.
 5. Right-click and select _Inner_ or _Outer_ (to choose whether the elements inside the selection polygon should be erased or the ones outside of it) or _Cancel_ if you want to quit the polygonal selection tool.

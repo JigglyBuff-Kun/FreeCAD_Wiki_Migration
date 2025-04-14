@@ -36,21 +36,21 @@ You will practice:
 - modifying their [placement](/Placement "Placement")
 - doing boolean operations
 
-![](/src/assets/images/10_T03_Part_ball_fillet.png)
+![](/images/10_T03_Part_ball_fillet.png)
 
 Final model of the wiffle ball
 
 ## Setup
 
-1. Open FreeCAD, create a new empty document with **File → ![](/src/assets/images/Std_New.svg) [New](/Std_New "Std New")**, and switch to the [Part Workbench](/Part_Workbench "Part Workbench").
+1. Open FreeCAD, create a new empty document with **File → ![](/images/Std_New.svg) [New](/Std_New "Std New")**, and switch to the [Part Workbench](/Part_Workbench "Part Workbench").
 
-: 1.1. Press the ![](/src/assets/images/Std_ViewIsometric.svg) [View isometric](/Std_ViewIsometric "Std ViewIsometric") button, or press 0 in the numerical pad of your keyboard, to change the view to isometric to visualize the 3D solids better.
-: 1.2. Press the ![](/src/assets/images/Std_ViewFitAll.svg) [View fit all](/Std_ViewFitAll "Std ViewFitAll") button whenever you add objects in order to pan and zoom the [3D view](/3D_view "3D view") so that all elements are seen in the view.
+: 1.1. Press the ![](/images/Std_ViewIsometric.svg) [View isometric](/Std_ViewIsometric "Std ViewIsometric") button, or press 0 in the numerical pad of your keyboard, to change the view to isometric to visualize the 3D solids better.
+: 1.2. Press the ![](/images/Std_ViewFitAll.svg) [View fit all](/Std_ViewFitAll "Std ViewFitAll") button whenever you add objects in order to pan and zoom the [3D view](/3D_view "3D view") so that all elements are seen in the view.
 : 1.3. Hold Ctrl while you click to select multiple items. If you selected something wrong or want to de-select everything, just click on empty space in the [3D view](/3D_view "3D view").
 
 ## Insert primitive cubes
 
-2. Insert a primitive cube by clicking on ![](/src/assets/images/Part_Box.svg) [Box](/Part_Box "Part Box").
+2. Insert a primitive cube by clicking on ![](/images/Part_Box.svg) [Box](/Part_Box "Part Box").
 
 : 2.1. Select `Cube` in the [tree view](/Tree_view "Tree view").
 : 2.2. Change the dimensions in the **Data** tab of the [property editor](/Property_editor "Property editor").
@@ -67,7 +67,7 @@ Final model of the wiffle ball
 : 3.5. Change **Z** to `-45 mm`.
 : 3.6. Press the OK button to close the dialog.
 
-4. Repeat the process, inserting a second, smaller cube by clicking on ![](/src/assets/images/Part_Box.svg) [Box](/Part_Box "Part Box").
+4. Repeat the process, inserting a second, smaller cube by clicking on ![](/images/Part_Box.svg) [Box](/Part_Box "Part Box").
 
 : 4.1. The second cube will be created with the same name, but with an additional number to distinguish the object.
 : 4.2. Select `Cube001` in the [tree view](/Tree_view "Tree view"), and change the dimensions and placement like with the previous object.
@@ -87,13 +87,13 @@ Final model of the wiffle ball
 : 5.1. Select `Cube001`, the smaller cube, in the [tree view](/Tree_view "Tree view"), and change the color. In the **View** tab, click on the **Shape Color** value to open the **Select color** dialog, then choose a green color; also change the value of **Line Width** to `2.0`.
 : 5.2. Select `Cube`, the larger cube, in the [tree view](/Tree_view "Tree view"). In the **View** tab, change the value of **Transparency** to `70`.
 
-![](/src/assets/images/01_T03_Part_cubes_visibility.png)
+![](/images/01_T03_Part_cubes_visibility.png)
 
 Solid cube inside another solid cube
 
 ## Insert primitive cylinders
 
-6. Insert a primitive cylinder by clicking on ![](/src/assets/images/Part_Cylinder.svg) [Cylinder](/Part_Cylinder "Part Cylinder").
+6. Insert a primitive cylinder by clicking on ![](/images/Part_Cylinder.svg) [Cylinder](/Part_Cylinder "Part Cylinder").
 
 : 6.1. Select `Cylinder` in the [tree view](/Tree_view "Tree view").
 : 6.2. Change the dimensions in the **Data** tab of the [property editor](/Property_editor "Property editor").
@@ -103,7 +103,7 @@ Solid cube inside another solid cube
 : 6.6. Change **Z** to `-60 mm`.
 : 6.7. Press the OK button to close the dialog.
 
-7. Repeat the process, inserting a second cylinder by clicking on ![](/src/assets/images/Part_Cylinder.svg) [Cylinder](/Part_Cylinder "Part Cylinder").
+7. Repeat the process, inserting a second cylinder by clicking on ![](/images/Part_Cylinder.svg) [Cylinder](/Part_Cylinder "Part Cylinder").
 
 : 7.1. The second cylinder will be created with the same name, but with an additional number to distinguish the object.
 : 7.2. Select `Cylinder001` in the [tree view](/Tree_view "Tree view"), and change the dimensions and placement like with the previous object.
@@ -132,22 +132,22 @@ Solid cube inside another solid cube
 : 9.4. Select `Cylinder002`, in the **View** tab, click on the **Shape Color** value to open the **Select color** dialog, then choose a pink color.
 : 9.5. Select the three cylinders, in the **View** tab also change the value of **Line Width** to `2.0`.
 
-![](/src/assets/images/02_T03_Part_cylinders_visibility.png)
+![](/images/02_T03_Part_cylinders_visibility.png)
 
 Solid cylinders that intersect themselves and the solid cubes.
 
 ## Fuse and cut
 
-10. In the [tree view](/Tree_view "Tree view"), select `Cube001` (the inner, smaller cube), and the tree cylinders, then press ![](/src/assets/images/Part_Fuse.svg) [Fuse](/Part_Fuse "Part Fuse"). This will create a `Fusion` object.
+10. In the [tree view](/Tree_view "Tree view"), select `Cube001` (the inner, smaller cube), and the tree cylinders, then press ![](/images/Part_Fuse.svg) [Fuse](/Part_Fuse "Part Fuse"). This will create a `Fusion` object.
 
 11. Then perform a boolean cut of the `Cube` (larger cube) and the new `Fusion` object.
 
 : 11.1. In the [tree view](/Tree_view "Tree view") select `Cube` first, and then `Fusion`.
-: 11.2. Then press ![](/src/assets/images/Part_Cut.svg) [Cut](/Part_Cut "Part Cut"). This will create a `Cut` object.
+: 11.2. Then press ![](/images/Part_Cut.svg) [Cut](/Part_Cut "Part Cut"). This will create a `Cut` object.
 : _Note:_ the order in which you select the objects is important for the cut operation. The base object is selected first, and the subtracting object comes at the end.
 : 11.3. If the colors look strange, select the new `Cut` object, go to the **View** tab, click on the **Shape Color** value to open the **Select color** dialog, then choose a gray color; also change the value of **Line Width** to `2.0`.
 
-![](/src/assets/images/03_T03_Part_cube_cut.png)
+![](/images/03_T03_Part_cube_cut.png)
 
 Hollow shape produced from cutting a cube and three cylinders from a bigger cube.
 
@@ -155,7 +155,7 @@ Hollow shape produced from cutting a cube and three cylinders from a bigger cube
 
 Now we'll create more cubes that will be used as cutting tools to trim the corners of the previously obtained `Cut` object.
 
-12. Click on ![](/src/assets/images/Part_Box.svg) [Box](/Part_Box "Part Box").
+12. Click on ![](/images/Part_Box.svg) [Box](/Part_Box "Part Box").
 
 : 12.1. Select `Cube002` in the [tree view](/Tree_view "Tree view"), and change the dimensions and placement.
 : 12.2. Change **Length** to `140 mm`.
@@ -167,7 +167,7 @@ Now we'll create more cubes that will be used as cutting tools to trim the corne
 : 12.8. Change **Z** to `-56 mm`.
 : 12.9. Press OK.
 
-13. Click on ![](/src/assets/images/Part_Box.svg) [Box](/Part_Box "Part Box").
+13. Click on ![](/images/Part_Box.svg) [Box](/Part_Box "Part Box").
 
 : 13.1. Select `Cube003` in the [tree view](/Tree_view "Tree view"), and change the dimensions and placement.
 : 13.2. Change **Length** to `180 mm`.
@@ -190,7 +190,7 @@ We'll duplicate the previous two objects again to use once more as cutting objec
 : 16.1. Select the `Cut` object, in the **View** tab, click on the **Shape Color** value to open the **Select color** dialog, then choose a blue color.
 : 16.2. Select all new cubes, `Cube002`, `Cube003`, `Cube004`, and `Cube005`, in the **View** tab, change the value of **Transparency** to `80`.
 
-![](/src/assets/images/04_T03_Part_cube_additional.png)
+![](/images/04_T03_Part_cube_additional.png)
 
 Additional external cubes that will be used as cutting objects for the internal solid.
 
@@ -206,14 +206,14 @@ Additional external cubes that will be used as cutting objects for the internal 
 
 18. In the [tree view](/Tree_view "Tree view") de-select the objects; then select `Cube003` first, the bigger cube, and then `Cube002`, the smaller cube.
 
-: 18.1. Then press ![](/src/assets/images/Part_Cut.svg) [Cut](/Part_Cut "Part Cut"). This will create `Cut001`. This is a hollowed body which intersects the initial `Cut` only at certain corners.
+: 18.1. Then press ![](/images/Part_Cut.svg) [Cut](/Part_Cut "Part Cut"). This will create `Cut001`. This is a hollowed body which intersects the initial `Cut` only at certain corners.
 
 19. To visualize this better we can modify the **View** properties in the [property editor](/Property_editor "Property editor").
 
 : 19.1. Select `Cube004` and `Cube005`, in the **View** tab, then change the value of **Visibility** to `false`, or press Space in the keyboard.
 : 19.2. Select `Cut001`, click on the **Shape Color** value to open the **Select color** dialog, then choose a red color; also change the value of **Transparency** to `90`.
 
-![](/src/assets/images/05_T03_Part_cube_additional_cut_1.png)
+![](/images/05_T03_Part_cube_additional_cut_1.png)
 
 A rotated, hollowed solid, which will be used as a cutting object for some corners of the internal solid.
 
@@ -231,13 +231,13 @@ A rotated, hollowed solid, which will be used as a cutting object for some corne
 
 22. In the [tree view](/Tree_view "Tree view") de-select the objects; then select `Cube005` first, the bigger cube, and then `Cube004`, the smaller cube.
 
-: 22.1. Then press ![](/src/assets/images/Part_Cut.svg) [Cut](/Part_Cut "Part Cut"). This will create `Cut002`. This is a hollowed body which intersects the initial `Cut` only at certain corners.
+: 22.1. Then press ![](/images/Part_Cut.svg) [Cut](/Part_Cut "Part Cut"). This will create `Cut002`. This is a hollowed body which intersects the initial `Cut` only at certain corners.
 
 23. To visualize this better we can modify the **View** properties in the [property editor](/Property_editor "Property editor").
 
 : 23.1. Select `Cut002`, click on the **Shape Color** value to open the **Select color** dialog, then choose a pink color; also change the value of **Transparency** to `90`.
 
-![](/src/assets/images/06_T03_Part_cube_additional_cut_2.png)
+![](/images/06_T03_Part_cube_additional_cut_2.png)
 
 A rotated, hollowed solid, which will be used as a cutting object for some corners of the internal solid.
 
@@ -245,35 +245,35 @@ A rotated, hollowed solid, which will be used as a cutting object for some corne
 
 24. Make sure all objects are visible. In the [tree view](/Tree_view "Tree view") select all objects, in the **View** tab, change the value of **Visibility** to `true`, or press Space in the keyboard.
 
-![](/src/assets/images/07_T03_Part_ball_additional_both.png)
+![](/images/07_T03_Part_ball_additional_both.png)
 
 The internal hollowed solid, together with the external objects which will be used to cut it.
 
 25. In the [tree view](/Tree_view "Tree view") de-select the objects; then select `Cut` first, and then `Cut001`.
 
-: 25.1. Then press ![](/src/assets/images/Part_Cut.svg) [Cut](/Part_Cut "Part Cut"). This will create `Cut003`.
+: 25.1. Then press ![](/images/Part_Cut.svg) [Cut](/Part_Cut "Part Cut"). This will create `Cut003`.
 
-![](/src/assets/images/08_T03_Part_ball_cut_1.png)
+![](/images/08_T03_Part_ball_cut_1.png)
 
 The internal hollowed solid, cut by `Cut001`.
 
 26. In the [tree view](/Tree_view "Tree view") de-select the objects; then select `Cut003` first, and then `Cut002`.
 
-: 26.1. Then press ![](/src/assets/images/Part_Cut.svg) [Cut](/Part_Cut "Part Cut"). This will create `Cut004`. This is the final object.
+: 26.1. Then press ![](/images/Part_Cut.svg) [Cut](/Part_Cut "Part Cut"). This will create `Cut004`. This is the final object.
 : 26.2. Select `Cut004`, click on the **Shape Color** value to open the **Select color** dialog, then choose a green color; also change the value of **Line Width** to `2.0`.
 
-![](/src/assets/images/09_T03_Part_ball_cut_2.png)
+![](/images/09_T03_Part_ball_cut_2.png)
 
 The internal hollowed solid, cut by `Cut001` and `Cut002`. Final model.
 
 27. Real objects don't have perfectly sharp edges or corners, so applying a fillet to the edges can be done to refine the model.
 
-: 27.1. In the [tree view](/Tree_view "Tree view"), select `Cut004` then press ![](/src/assets/images/Part_Fillet.svg) [Fillet](/Part_Fillet "Part Fillet").
+: 27.1. In the [tree view](/Tree_view "Tree view"), select `Cut004` then press ![](/images/Part_Fillet.svg) [Fillet](/Part_Fillet "Part Fillet").
 : 27.2. In the **Fillet edges** [task panel](/Task_panel "Task panel") go to **Selection**, choose **Select edges**, and then press All. As **Fillet type** choose `Constant radius`, then set **Radius** to `1 mm`.
 : 24.3. Press OK. This will create a `Fillet` object.
 : 27.4. In the **View** tab, change the value of **Line Width** to `2.0`.
 
-![](/src/assets/images/10_T03_Part_ball_fillet.png)
+![](/images/10_T03_Part_ball_fillet.png)
 
 Final whiffle ball model with fillets applied to the edges.
 

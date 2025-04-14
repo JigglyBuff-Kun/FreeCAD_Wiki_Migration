@@ -19,9 +19,9 @@ title: Draft WireToBSpline
 
 ## Description
 
-The ![](/src/assets/images/Draft_WireToBSpline.svg) **Draft WireToBSpline** command converts [Draft Wires](/Draft_Wire "Draft Wire") to [Draft BSplines](/Draft_BSpline "Draft BSpline") and vice versa.
+The ![](/images/Draft_WireToBSpline.svg) **Draft WireToBSpline** command converts [Draft Wires](/Draft_Wire "Draft Wire") to [Draft BSplines](/Draft_BSpline "Draft BSpline") and vice versa.
 
-![](/src/assets/images/Draft_Wire2BSpline_example.jpg)
+![](/images/Draft_Wire2BSpline_example.jpg)
 
 Converting a wire to a B-spline, and a closed B-spline to a closed wire
 
@@ -29,8 +29,8 @@ Converting a wire to a B-spline, and a closed B-spline to a closed wire
 
 1. Select a [Draft Wire](/Draft_Wire "Draft Wire") or a [Draft BSpline](/Draft_BSpline "Draft BSpline").
 2. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/Draft_WireToBSpline.svg) [Wire to B-spline](/Draft_WireToBSpline "Draft WireToBSpline") button.
-   - Select the **Modification → ![](/src/assets/images/Draft_WireToBSpline.svg) Wire to B-spline** option from the menu.
+   - Press the ![](/images/Draft_WireToBSpline.svg) [Wire to B-spline](/Draft_WireToBSpline "Draft WireToBSpline") button.
+   - Select the **Modification → ![](/images/Draft_WireToBSpline.svg) Wire to B-spline** option from the menu.
 3. A new object is created.
 
 ## Notes

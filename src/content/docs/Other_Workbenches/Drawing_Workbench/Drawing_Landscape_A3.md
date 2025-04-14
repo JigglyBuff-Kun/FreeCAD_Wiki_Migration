@@ -23,9 +23,9 @@ A **Page** object will be added to the Project tree, taking the form of a folder
 
 To open the Drawing viewer to display the page, simply double-click on the **Page** object, or right-click → Show drawing. The page will be opened in a new tab. You can close the tab and open it again at any time the same way.
 
-If the page does not display, click on the ![](/src/assets/images/View-refresh.png) refresh icon in the main toolbar, or go to _Edit → Refresh_ menu, or shortcut CTRL+R.
+If the page does not display, click on the ![](/images/View-refresh.png) refresh icon in the main toolbar, or go to _Edit → Refresh_ menu, or shortcut CTRL+R.
 
-![](/src/assets/images/Drawing_Page.png)
+![](/images/Drawing_Page.png)
 
 ### Options
 

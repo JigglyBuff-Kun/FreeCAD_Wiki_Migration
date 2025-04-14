@@ -25,15 +25,15 @@ title: FEM ConstraintDisplacement
 
 Creates a FEM boundary condition for a prescribed displacement of a selected object for specified degrees of freedom.
 
-![](/src/assets/images/FEM_Displacement_dialog.PNG)
+![](/images/FEM_Displacement_dialog.PNG)
 
 The FEM displacement task panel
 
 ## Usage
 
 1. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/FEM_ConstraintDisplacement.svg) [Displacement boundary condition](/FEM_ConstraintDisplacement "FEM ConstraintDisplacement") button
-   - Select the **Model → Mechanical boundary conditions and loads → ![](/src/assets/images/FEM_ConstraintDisplacement.svg) Displacement boundary condition** option from the menu.
+   - Press the ![](/images/FEM_ConstraintDisplacement.svg) [Displacement boundary condition](/FEM_ConstraintDisplacement "FEM ConstraintDisplacement") button
+   - Select the **Model → Mechanical boundary conditions and loads → ![](/images/FEM_ConstraintDisplacement.svg) Displacement boundary condition** option from the menu.
 2. Press the Add button.
 3. In the [3D view](/3D_view "3D view") select the object the boundary condition should be applied to, which can be a vertex, edge, or face (but all the selected objects have to be of the same type). To remove objects from the list, press the Remove button and click on them.
 4. Check the boxes next to the degrees of freedom that you want to use. By default, they are set to zero (fixed) but any value ([introduced in 0.21](/Release_notes_0.21 "Release notes 0.21"): or a formula for Elmer) can be specified. Rotations make sense only for beam and shell elements.
@@ -44,7 +44,7 @@ The FEM displacement task panel
 
 ### General
 
-For the ![](/src/assets/images/FEM_SolverElmer.svg) [solver Elmer](/FEM_SolverElmer "FEM SolverElmer") it is possible to define the displacement as a formula. In this case the solver sets the displacement according to the given formula variable.
+For the ![](/images/FEM_SolverElmer.svg) [solver Elmer](/FEM_SolverElmer "FEM SolverElmer") it is possible to define the displacement as a formula. In this case the solver sets the displacement according to the given formula variable.
 
 Take for example the case that we want to perform a [transient analysis](</FEM_SolverElmer_SolverSettings#Timestepping_(transient_analyses)> "FEM SolverElmer SolverSettings"). For every time step the displacement
 
@@ -164,7 +164,7 @@ This code has the following syntax:
 
 ## Notes
 
-For the ![](/src/assets/images/FEM_SolverCalculixCxxtools.svg) [solver CalculiX](/FEM_SolverCalculixCxxtools "FEM SolverCalculixCxxtools"):
+For the ![](/images/FEM_SolverCalculixCxxtools.svg) [solver CalculiX](/FEM_SolverCalculixCxxtools "FEM SolverCalculixCxxtools"):
 
 - This tool uses the [\*BOUNDARY card](https://web.mit.edu/calculix_v2.7/CalculiX/ccx_2.7/doc/ccx/node163.html).
 - Fixing a degree of freedom is explained at <http://web.mit.edu/calculix_v2.7/CalculiX/ccx_2.7/doc/ccx/node164.html>

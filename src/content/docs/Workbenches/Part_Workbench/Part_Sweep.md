@@ -19,19 +19,19 @@ title: Part Sweep
 
 ## Description
 
-The ![](/src/assets/images/Part_Sweep.svg) [Part Sweep](/Part_Sweep "Part Sweep") command creates a face, a shell, or a solid shape from one or more profiles (cross-sections) distributed along a spine.
+The ![](/images/Part_Sweep.svg) [Part Sweep](/Part_Sweep "Part Sweep") command creates a face, a shell, or a solid shape from one or more profiles (cross-sections) distributed along a spine.
 
-The Part Sweep command is similar to ![](/src/assets/images/Part_Loft.svg) [Part Loft](/Part_Loft "Part Loft") with the addition of a spine.
+The Part Sweep command is similar to ![](/images/Part_Loft.svg) [Part Loft](/Part_Loft "Part Loft") with the addition of a spine.
 
-![](/src/assets/images/Part_Sweep_simple.png)
+![](/images/Part_Sweep_simple.png)
 
 A solid sweep generated from a single profile (A) distributed along a spine (B)
 
 ## Usage
 
 1. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/Part_Sweep.svg) [Sweep...](/Part_Sweep "Part Sweep") button.
-   - Select the **Part → ![](/src/assets/images/Part_Sweep.svg) Sweep...** option from the menu.
+   - Press the ![](/images/Part_Sweep.svg) [Sweep...](/Part_Sweep "Part Sweep") button.
+   - Select the **Part → ![](/images/Part_Sweep.svg) Sweep...** option from the menu.
 2. The Sweep [task panel](/Task_panel "Task panel") opens.
 3. In the _Available Profiles_ list on the left select a profile and click on the right arrow to place it in the _Selected profiles_ list on the right.
 4. Repeat if more than one profile is desired.
@@ -58,7 +58,7 @@ If "Solid" is set to "true", FreeCAD creates a solid, provided the profiles are 
 
 #### Frenet
 
-![](/src/assets/images/Sweep-frenet-comp.png)
+![](/images/Sweep-frenet-comp.png)
 
 The "Frenet" property controls how the profile orientation changes as it follows along the sweep path. If "Frenet" is "false", the orientation of the profile is kept consistent from point to point. The resulting shape has the minimum possible twisting. Unintuitively, when a profile is swept along a helix, this results in the orientation of the profile slowly creeping (rotating) as it follows the helix. Setting "Frenet" to true prevents this.
 

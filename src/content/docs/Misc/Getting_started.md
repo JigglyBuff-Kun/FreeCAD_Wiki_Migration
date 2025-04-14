@@ -23,7 +23,7 @@ First of all, download and install FreeCAD. See the [Download](/Download "Downlo
 
 ## Exploring the interface
 
-![](/src/assets/images/FreeCAD_interface_base_divisions.svg)
+![](/images/FreeCAD_interface_base_divisions.svg)
 
 The standard FreeCAD interface
 
@@ -45,13 +45,13 @@ The main concept behind the FreeCAD interface is that it is separated into [work
 
 When you start FreeCAD for the first time, you are presented with the Start page. Here is what it looks like for version 0.19:
 
-![](/src/assets/images/Start_center_0.19_screenshot.png)
+![](/images/Start_center_0.19_screenshot.png)
 
 The Start page allows you to quickly jump to one of the most common workbenches, open one of the recent files, or see the latest news from the FreeCAD world. You can change the default workbench in the [preferences](/Preferences_Editor "Preferences Editor").
 
 ## Navigating in the 3D space
 
-FreeCAD has several [navigation modes](/Mouse_navigation "Mouse navigation") available, that change the way you use your mouse to interact with the objects in the 3D view and the view itself. One of them is specifically made for [touchpads](/Mouse_navigation#Touchpad_navigation "Mouse navigation"), where the middle mouse button is not used. The default navigation mode is [CAD navigation](/Mouse_navigation#CAD_navigation "Mouse navigation"). You can quickly change the current navigation mode by using the ![](/src/assets/images/NavigationCAD_dark.svg) button in the [Status bar](/Status_bar "Status bar") or by right-clicking an empty area of the [3D view](/3D_view "3D view").
+FreeCAD has several [navigation modes](/Mouse_navigation "Mouse navigation") available, that change the way you use your mouse to interact with the objects in the 3D view and the view itself. One of them is specifically made for [touchpads](/Mouse_navigation#Touchpad_navigation "Mouse navigation"), where the middle mouse button is not used. The default navigation mode is [CAD navigation](/Mouse_navigation#CAD_navigation "Mouse navigation"). You can quickly change the current navigation mode by using the ![](/images/NavigationCAD_dark.svg) button in the [Status bar](/Status_bar "Status bar") or by right-clicking an empty area of the [3D view](/3D_view "3D view").
 
 You also have several view presets (top view, front view, etc) available in the View menu, on the View toolbar, and by numeric shortcuts (1, 2, etc...). By right-clicking on an object or on an empty area of the 3D view, you have quick access to some common operations, such as setting a particular view, or locating an object in the Tree view.
 
@@ -83,7 +83,7 @@ Those 2D shapes made with the sketcher are used a lot in the PartDesign workbenc
 
 Which gives you an object like this:
 
-![](/src/assets/images/Partdesign_example.jpg)
+![](/images/Partdesign_example.jpg)
 
 At any moment, you can select the original sketches and modify them, or change the extrusion parameters of the pad or pocket operations, which will update the final object.
 
@@ -107,7 +107,7 @@ A typical workflow with BIM and Draft workbenches might be:
 
 Which will give you this:
 
-![](/src/assets/images/Arch_workflow_example.jpg)
+![](/images/Arch_workflow_example.jpg)
 
 More on the [Tutorials](/Tutorials "Tutorials") page.
 

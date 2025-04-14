@@ -34,8 +34,8 @@ Diese Verknüpfung veranlasst das Maß seinen Wert direkt von der 3D-Geometrie a
 1. Ein geeignetes Maß mit einer der Bemaßungsfunktionen [Längenmaß](/TechDraw_LengthDimension/de "TechDraw LengthDimension/de"), [MaßHorizontal](/TechDraw_HorizontalDimension/de "TechDraw HorizontalDimension/de") usw. auf dem Zeichnungsblatt erstellen. Dieses Maß steht an der richtigen Stelle auf der Seite, zeigt aber den Wert des projizierten Maßes an.
 2. Auswahl der Geometrie in der 3D-Ansicht, z.B. eine Kante, die der bemaßten projizierten Geometrie entspricht.
 3. Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
-   - Die Schaltfläche ![](/src/assets/images/TechDraw_LinkDimension.svg) Maß mit 3D-Geometrie verknüpfen drücken.
-   - Den Menüeintrag **TechDraw → Maßeinträge → ![](/src/assets/images/TechDraw_LinkDimension.svg) Maß mit 3D-Geometrie verknüpfen** auswählen.
+   - Die Schaltfläche ![](/images/TechDraw_LinkDimension.svg) Maß mit 3D-Geometrie verknüpfen drücken.
+   - Den Menüeintrag **TechDraw → Maßeinträge → ![](/images/TechDraw_LinkDimension.svg) Maß mit 3D-Geometrie verknüpfen** auswählen.
 4. Der Aufgaben-Bereich wird geöffnet.
 5. Ein oder mehrere Maß(e) auswählen, die mit der ausgewählten 3D-Geometrie verknüpft werden sollen.
 6. OK drücken.

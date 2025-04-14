@@ -21,7 +21,7 @@ title: TechDraw Längenmaß
 
 Das Werkzeug **TechDraw Längenmaß** fügt einer Ansicht ein lineares Maß hinzu. Das Längenmaß kann der Abstand zwischen zwei Punkten, die Länge einer geraden Kante, der senkrechte Abstand zweier Kanten oder der senkrechte Abstand eines Punkte zu einer Kanten sein.
 
-![](/src/assets/images/TechDraw_Dimension_Length_example.png)
+![](/images/TechDraw_Dimension_Length_example.png)
 
 Längenmaß, zwischen zwei Punkten gemssen
 
@@ -34,16 +34,16 @@ Längenmaß, zwischen zwei Punkten gemssen
    - Einen Punkt und eine Kante auswählen. Dies erstellt ein senkrechtes Maß. In 0.21 und davor ergibt sich nur dann senkrechte Maß, wenn der Punkt senkrecht auf die Kante projiziert werden kann. Andernfalls zeigt das Maß den Abstand des Punktes zum nächstgelegenen Endpunkt der Kante an.
 2. Wurde Geometrie in der 3D-Ansicht ausgewählt, muss die korrekte TechDraw-Ansicht durch Auswählen in der [Baumansicht](/Tree_view/de "Tree view/de") zur Auswahl hinzugefügt werden.
 3. Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
-   - [eingeführt in 1.0](/Release_notes_1.0/de "Release notes 1.0/de"): Ist die [Einstellung](/TechDraw_Preferences/de#Maßeinträge "TechDraw Preferences/de") **Maß-Werkzeuge** auf `Einzelnes Werkzeug` (Standardeinstellung) gesetzt: Den Nach-unten-Pfeil rechts neben der Schaltfläche ![](/src/assets/images/TechDraw_Dimension.svg) ![](/src/assets/images/Toolbar_flyout_arrow.svg) drücken und die Menüoption **![](/src/assets/images/TechDraw_LengthDimension.svg) Längenmaß einfügen** in der Ausklappliste auswählen.
-   - Hat die Einstellung einen anderen Wert (und in 0.21 und davor): Die Schaltfläche ![](/src/assets/images/TechDraw_LengthDimension.svg) Längenmaß einfügen drücken.
-   - Den Menüeintrag **TechDraw → Maßeinträge → ![](/src/assets/images/TechDraw_LengthDimension.svg) Längenmaß einfügen** auswählen.
+   - [eingeführt in 1.0](/Release_notes_1.0/de "Release notes 1.0/de"): Ist die [Einstellung](/TechDraw_Preferences/de#Maßeinträge "TechDraw Preferences/de") **Maß-Werkzeuge** auf `Einzelnes Werkzeug` (Standardeinstellung) gesetzt: Den Nach-unten-Pfeil rechts neben der Schaltfläche ![](/images/TechDraw_Dimension.svg) ![](/images/Toolbar_flyout_arrow.svg) drücken und die Menüoption **![](/images/TechDraw_LengthDimension.svg) Längenmaß einfügen** in der Ausklappliste auswählen.
+   - Hat die Einstellung einen anderen Wert (und in 0.21 und davor): Die Schaltfläche ![](/images/TechDraw_LengthDimension.svg) Längenmaß einfügen drücken.
+   - Den Menüeintrag **TechDraw → Maßeinträge → ![](/images/TechDraw_LengthDimension.svg) Längenmaß einfügen** auswählen.
 4. Ein Maß wird zur Ansicht hinzugefügt.
 5. Das Maß kann an die gewünschte Position gezogen werden.
 6. Falls erforderlich, können Toleranzen, wie auf der [GD&T-Seite](/TechDraw_Geometric_dimensioning_and_tolerancing/de#Toleranzen "TechDraw Geometric dimensioning and tolerancing/de") beschrieben, hinzugefügt werden.
 
 ### 3D-Abmessungen anzeigen
 
-Das Maß zeigt anfangs die projizierte Länge an (d.h. wie auf der Zeichnung dargestellt). Wenn gefordert und wenn das Maß auf 3D-Referenzen basiert, kann es auf die Anzeige der wahren 3D-Länge umgestellt werden, indem seine Daten-Eigenschaft**Measure Type** auf `True` gesetzt wird. Damit ein Maß auf 3D-Referenzen basiert, wird bei seiner Erstellung die Geometrie in der [3D-Ansicht](/3D_view/de "3D view/de") ausgewählt oder es wird das Werkzeug ![](/src/assets/images/TechDraw_DimensionRepair.svg) [TechDraw Maßreparatur](/TechDraw_DimensionRepair/de "TechDraw DimensionRepair/de") zur Aktualisierung vorhandener Maße verwendet.
+Das Maß zeigt anfangs die projizierte Länge an (d.h. wie auf der Zeichnung dargestellt). Wenn gefordert und wenn das Maß auf 3D-Referenzen basiert, kann es auf die Anzeige der wahren 3D-Länge umgestellt werden, indem seine Daten-Eigenschaft**Measure Type** auf `True` gesetzt wird. Damit ein Maß auf 3D-Referenzen basiert, wird bei seiner Erstellung die Geometrie in der [3D-Ansicht](/3D_view/de "3D view/de") ausgewählt oder es wird das Werkzeug ![](/images/TechDraw_DimensionRepair.svg) [TechDraw Maßreparatur](/TechDraw_DimensionRepair/de "TechDraw DimensionRepair/de") zur Aktualisierung vorhandener Maße verwendet.
 
 ### Eigenschaften anpassen
 
@@ -51,15 +51,15 @@ Um die Eigenschaften eines Maßes (Dimension-Objekt) zu ändern, wird es in der 
 
 ## Dialog Maßeintrag
 
-![](/src/assets/images/TechDraw_DimensionDialog.png)
+![](/images/TechDraw_DimensionDialog.png)
 
 Der Dialog Maßeintrag ermöglicht die folgenden Einstellungen:
 
 ### Toleranzen
 
-- **Theoretisch genau**: Wenn diese Option aktiviert ist, wird das Maß als theoretisch genaues Maß angegeben. Als solches darf es keine Toleranzen aufweisen. Das Maß wird durch einen Rahmen um den Wert dargestellt: ![](/src/assets/images/TechDraw_theoretically_exact.png)
+- **Theoretisch genau**: Wenn diese Option aktiviert ist, wird das Maß als theoretisch genaues Maß angegeben. Als solches darf es keine Toleranzen aufweisen. Das Maß wird durch einen Rahmen um den Wert dargestellt: ![](/images/TechDraw_theoretically_exact.png)
 
-- **Symmetrische Toleranz**: Falls aktiviert, sind das obere und das untere Abmaß gleich und der negierte Wert des oberen Abmaßes wird für das untere Abmaß benutzt. Dargestellt wird es ![](/src/assets/images/TechDraw_equal-tolerance.png), anderenfalls ![](/src/assets/images/TechDraw_Non-equal-tolerance.png).
+- **Symmetrische Toleranz**: Falls aktiviert, sind das obere und das untere Abmaß gleich und der negierte Wert des oberen Abmaßes wird für das untere Abmaß benutzt. Dargestellt wird es ![](/images/TechDraw_equal-tolerance.png), anderenfalls ![](/images/TechDraw_Non-equal-tolerance.png).
 
 - **Oberes Abmaß**: Der Wert, um den die Abmessung größer sein darf.
 
@@ -146,8 +146,8 @@ Basis
 
 - Daten-Eigenschaft**Equal Tolerance** (`Bool`) (Symmetrische Toleranz): Falls oberes und unteres Abmaß gleich sind, wird der negative Wert des oberen Abmaßes als unteres Abmaß benutzt.
 
-: : `true` - der negierte Wert von Daten-Eigenschaft**Over Tolerance** (oberes Abmaß) wird als Daten-Eigenschaft**Under Tolerance** (unteres Abmaß) benutzt. Die Anzeige zeigt ![](/src/assets/images/TechDraw_equal-tolerance.png).
-: `false` - der Wert von Daten-Eigenschaft**Under Tolerance** wird benutzt. Die Anzeige zeigt ![](/src/assets/images/TechDraw_Non-equal-tolerance.png).
+: : `true` - der negierte Wert von Daten-Eigenschaft**Over Tolerance** (oberes Abmaß) wird als Daten-Eigenschaft**Under Tolerance** (unteres Abmaß) benutzt. Die Anzeige zeigt ![](/images/TechDraw_equal-tolerance.png).
+: `false` - der Wert von Daten-Eigenschaft**Under Tolerance** wird benutzt. Die Anzeige zeigt ![](/images/TechDraw_Non-equal-tolerance.png).
 
 - Daten-Eigenschaft**Over Tolerance** (`QuantityConstraint`) (oberes Abmaß): Der Betrag, um den das Maß größer sein darf.
 - Daten-Eigenschaft**Under Tolerance** (`QuantityConstraint`) (unteres Abmaß): Der Betrag, um den das Maß kleiner sein darf.
@@ -228,7 +228,7 @@ Dimension Format
 
 - Ansicht-Eigenschaft**Standard And Style** (`Enumeration`) (Standard und Stil): Gibt die Norm (und deren Ausführungsart) an, nach der Maßeingeträge erfolgen:
 
-: : ![Unterschiede zwischen den unterstützten Normen](/src/assets/images/TechDraw_Dimension_standardization.png)
+: : ![Unterschiede zwischen den unterstützten Normen](/images/TechDraw_Dimension_standardization.png)
 : `ISO Oriented` - Darstellung nach ISO 129-1; Text wird so gedreht, dass er parallel zur Tangente an die Maßlinie liegt.
 : `ISO Referencing` - Darstellung nach ISO 129-2; der Text steht immer horizontal, oberhalb einer kürzest möglichen Bezugslinie.
 : `ASME Inlined` - Darstellung nach ASME Y14.5M, der Text steht horizontal, in einem Ausbruch innerhalb der Maßlinie oder des Bogens eingefügt.

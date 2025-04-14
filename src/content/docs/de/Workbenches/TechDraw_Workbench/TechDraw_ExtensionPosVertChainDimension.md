@@ -21,7 +21,7 @@ title: TechDraw ErgänzungVertikaleKettenmaßeAnordnen
 
 Das Werkzeug **TechDraw ErgänzungVertikaleKettenmaßeAnordnen** verbindet vertikale Maße zu einer Maßkette.
 
-![](/src/assets/images/TechDraw_ExtensionPosVertChainDimensionExample.png)
+![](/images/TechDraw_ExtensionPosVertChainDimensionExample.png)
 
 Rechts die als Kette angeordneten Maße
 
@@ -30,8 +30,8 @@ Rechts die als Kette angeordneten Maße
 1. Zwei oder mehr vertikale Maße Auswählen.
 2. Das erste Maß legt die Position fest. Dieses Maß wird nicht bewegt.
 3. Es gibt mehrere Möglichkeiten das Werkzeug aufzurufen:
-   - Die Schaltfläche ![](/src/assets/images/TechDraw_ExtensionPosVertChainDimension.svg) Vertikale Kettenmaße anordnen drücken.
-   - Den Menüeintrag **TechDraw → Extensions: Attributes/Modifications → ![](/src/assets/images/TechDraw_ExtensionPosVertChainDimension.svg) Vertikale Kettenmaße anordnen** auswählen.
+   - Die Schaltfläche ![](/images/TechDraw_ExtensionPosVertChainDimension.svg) Vertikale Kettenmaße anordnen drücken.
+   - Den Menüeintrag **TechDraw → Extensions: Attributes/Modifications → ![](/images/TechDraw_ExtensionPosVertChainDimension.svg) Vertikale Kettenmaße anordnen** auswählen.
 4. Die Maße werden fluchtend ausgerichtet, die Maßzahlen werden zentriert.
 
 ## Hinweise

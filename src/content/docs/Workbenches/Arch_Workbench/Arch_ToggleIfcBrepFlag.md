@@ -28,6 +28,6 @@ The **Arch ToggleIfcBrepFlag** tool turns the IfcBrep flag of a selected [BIM](/
 ## Usage
 
 1. Select an Arch object.
-2. Select the **Utils → ![](/src/assets/images/Arch_ToggleIfcBrepFlag.svg) Toggle IFC B-rep flag** option from the menu.
+2. Select the **Utils → ![](/images/Arch_ToggleIfcBrepFlag.svg) Toggle IFC B-rep flag** option from the menu.
 
 Retrieved from "<http://wiki.freecad.org/index.php?title=Arch_ToggleIfcBrepFlag/en&oldid=1465912>"

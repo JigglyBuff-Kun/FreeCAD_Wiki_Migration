@@ -19,11 +19,11 @@ title: Draft BSpline
 
 ## Description
 
-The ![](/src/assets/images/Draft_BSpline.svg) **Draft BSpline** command creates a [B-spline curve](http://en.wikipedia.org/wiki/B-spline) from several points.
+The ![](/images/Draft_BSpline.svg) **Draft BSpline** command creates a [B-spline curve](http://en.wikipedia.org/wiki/B-spline) from several points.
 
 The Draft BSpline command specifies the _exact points_ through which the curve will pass. The [Draft BezCurve](/Draft_BezCurve "Draft BezCurve") and the [Draft CubicBezCurve](/Draft_CubicBezCurve "Draft CubicBezCurve") commands, on the other hand, use _control points_ to define the position and curvature of the spline.
 
-![](/src/assets/images/Draft_bspline_example.jpg)
+![](/images/Draft_bspline_example.jpg)
 
 Spline defined by multiple points
 
@@ -32,29 +32,29 @@ Spline defined by multiple points
 See also: [Draft Tray](/Draft_Tray "Draft Tray"), [Draft Snap](/Draft_Snap "Draft Snap") and [Draft Constrain](/Draft_Constrain "Draft Constrain").
 
 1. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/Draft_BSpline.svg) [B-spline](/Draft_BSpline "Draft BSpline") button.
-   - [Draft](/Draft_Workbench "Draft Workbench"): Select the **Drafting → ![](/src/assets/images/Draft_BSpline.svg) B-spline** option from the menu.
-   - [BIM](/BIM_Workbench "BIM Workbench"): Select the **2D Drafting → ![](/src/assets/images/Draft_BSpline.svg) B-spline** option from the menu.
+   - Press the ![](/images/Draft_BSpline.svg) [B-spline](/Draft_BSpline "Draft BSpline") button.
+   - [Draft](/Draft_Workbench "Draft Workbench"): Select the **Drafting → ![](/images/Draft_BSpline.svg) B-spline** option from the menu.
+   - [BIM](/BIM_Workbench "BIM Workbench"): Select the **2D Drafting → ![](/images/Draft_BSpline.svg) B-spline** option from the menu.
    - Use the keyboard shortcut: B then S.
 2. The **B-spline** task panel opens. See [Options](#Options) for more information.
-3. Pick the first point in the [3D view](/3D_view "3D view"), or type coordinates and press the ![](/src/assets/images/Draft_AddPoint.svg) Enter point button.
-4. Pick additional points in the [3D view](/3D_view "3D view"), or type coordinates and press the ![](/src/assets/images/Draft_AddPoint.svg) Enter point button.
+3. Pick the first point in the [3D view](/3D_view "3D view"), or type coordinates and press the ![](/images/Draft_AddPoint.svg) Enter point button.
+4. Pick additional points in the [3D view](/3D_view "3D view"), or type coordinates and press the ![](/images/Draft_AddPoint.svg) Enter point button.
 5. Press Esc or the Close button to finish the command.
 
 ## Options
 
 The single character keyboard shortcuts available in the task panel can be changed. See [Draft Preferences](/Draft_Preferences "Draft Preferences"). The shortcuts mentioned here are the default shortcuts (for version 1.0).
 
-- To manually enter coordinates enter the X, Y and Z component, and press Enter after each. Or you can press the ![](/src/assets/images/Draft_AddPoint.svg) Enter point button when you have the desired values. It is advisable to move the pointer out of the [3D view](/3D_view "3D view") before entering coordinates.
+- To manually enter coordinates enter the X, Y and Z component, and press Enter after each. Or you can press the ![](/images/Draft_AddPoint.svg) Enter point button when you have the desired values. It is advisable to move the pointer out of the [3D view](/3D_view "3D view") before entering coordinates.
 - Press R or click the **Relative** checkbox to toggle relative mode. If relative mode is on, coordinates are relative to the last point, if available, else they are relative to the coordinate system origin.
 - Press G or click the **Global** checkbox to toggle global mode. If global mode is on, coordinates are relative to the global coordinate system, else they are relative to the [working plane](/Draft_SelectPlane "Draft SelectPlane") coordinate system.
 - Press F or click the **Filled**1.0 and below or **Make face**[introduced in 1.1](/Release_notes_1.1 "Release notes 1.1") checkbox to toggle make face mode. If make face mode is on, the created spline will have Data**Make Face** set to `true` and have a filled face, provided it is closed and does not self-intersect. A self-intersecting spline with a face will not display properly, for such a spline Data**Make Face** must be set to `false`.
-- Press N or click the **Continue** checkbox to toggle continue mode. If continue mode is on, the command will restart after using ![](/src/assets/images/Draft_FinishLine.svg) Finish or ![](/src/assets/images/Draft_CloseLine.svg) Close, or after creating a closed spline by snapping to the first point of the spline, allowing you to continue creating splines.
-- Press / or the ![](/src/assets/images/Draft_UndoLine.svg) Undo button to undo the last point.
-- Press A or the ![](/src/assets/images/Draft_FinishLine.svg) Finish button to finish the command and leave the spline open.
-- Press O or the ![](/src/assets/images/Draft_CloseLine.svg) Close button to finish the command and close the spline. A closed spline can also be created by snapping to the first point of the spline.
-- Press W or the ![](/src/assets/images/Draft_Wipe.svg) Wipe button to delete the curve segments already placed, but keep working from the last point.
-- Press U or the ![](/src/assets/images/Draft_SelectPlane.svg) [Set WP](/Draft_SelectPlane "Draft SelectPlane") button to adjust the current working plane in the orientation defined by the last and the previous point.
+- Press N or click the **Continue** checkbox to toggle continue mode. If continue mode is on, the command will restart after using ![](/images/Draft_FinishLine.svg) Finish or ![](/images/Draft_CloseLine.svg) Close, or after creating a closed spline by snapping to the first point of the spline, allowing you to continue creating splines.
+- Press / or the ![](/images/Draft_UndoLine.svg) Undo button to undo the last point.
+- Press A or the ![](/images/Draft_FinishLine.svg) Finish button to finish the command and leave the spline open.
+- Press O or the ![](/images/Draft_CloseLine.svg) Close button to finish the command and close the spline. A closed spline can also be created by snapping to the first point of the spline.
+- Press W or the ![](/images/Draft_Wipe.svg) Wipe button to delete the curve segments already placed, but keep working from the last point.
+- Press U or the ![](/images/Draft_SelectPlane.svg) [Set WP](/Draft_SelectPlane "Draft SelectPlane") button to adjust the current working plane in the orientation defined by the last and the previous point.
 - Press S to switch [Draft snapping](/Draft_Snap "Draft Snap") on or off.
 - Press Esc or the Close button to finish the command.
 

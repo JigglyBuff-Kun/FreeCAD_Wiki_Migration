@@ -19,14 +19,14 @@ title: Curves Line
 
 ## Description
 
-The ![](/src/assets/images/Curves_Line.svg) **Curves Line** tool creates a parametric line between two vertices.
+The ![](/images/Curves_Line.svg) **Curves Line** tool creates a parametric line between two vertices.
 
 ## Usage
 
 1. Select two vertices in the [3D view](/3D_view "3D view").
 2. There are several ways to invoke the tool:
-   - Press the ![](/src/assets/images/Curves_Line.svg) [Parametric line](/Curves_Line "Curves Line") button.
-   - Select the **Curves → ![](/src/assets/images/Curves_Line.svg) Parametric line** option from the menu.
+   - Press the ![](/images/Curves_Line.svg) [Parametric line](/Curves_Line "Curves Line") button.
+   - Select the **Curves → ![](/images/Curves_Line.svg) Parametric line** option from the menu.
 3. A **Line** object is created.
 
 ## Properties

@@ -25,8 +25,8 @@ Der **Std Löschen** Befehl löscht die ausgewählten Objekte.
 
 1. Wähle ein oder mehrere Objekte.
    - Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
-   - Wähle die **Bearbeiten → ![](/src/assets/images/Std_Delete.svg) Löschen** Option aus dem Menü.
-   - Wähle die **![](/src/assets/images/Std_Delete.svg) Löschen** Option
+   - Wähle die **Bearbeiten → ![](/images/Std_Delete.svg) Löschen** Option aus dem Menü.
+   - Wähle die **![](/images/Std_Delete.svg) Löschen** Option
 
 aus dem Kontextmenü der [Baumansicht](/Tree_view/de "Tree view/de") oder dem Kontextmenü der [3D Ansicht](/3D_view/de "3D view/de").
 

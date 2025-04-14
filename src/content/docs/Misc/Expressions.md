@@ -4,7 +4,7 @@ title: Expressions
 
 ## Overview
 
-It is possible to define properties using mathematical expressions. In the GUI, spin boxes or input fields that are bound to properties show a blue icon ![](/src/assets/images/Bound-expression.svg) when activated. Clicking on the icon or typing the equal sign = opens the expression editor for that particular property. If the input field shows a ... button instead of an icon, the expression editor can be opened by right-clicking the property and selecting **Expression...** from the context menu.
+It is possible to define properties using mathematical expressions. In the GUI, spin boxes or input fields that are bound to properties show a blue icon ![](/images/Bound-expression.svg) when activated. Clicking on the icon or typing the equal sign = opens the expression editor for that particular property. If the input field shows a ... button instead of an icon, the expression editor can be opened by right-clicking the property and selecting **Expression...** from the context menu.
 
 A FreeCAD expression is a mathematical expression using the standard mathematical [operators](#Supported_operators), [functions](#Supported_functions) and [predefined constants](#Supported_constants) as described below. In addition, the expression may reference object properties, and also use [conditionals](#Conditional_expressions). Numbers in an expression may have an optional [unit](#Units) attached to them.
 

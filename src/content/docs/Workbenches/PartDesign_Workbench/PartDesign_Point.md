@@ -21,13 +21,13 @@ title: PartDesign Point
 
 Creates a **datum point** which can be used as reference for sketches or other datum geometry.
 
-![](/src/assets/images/DatumPoint.png)
+![](/images/DatumPoint.png)
 
 A datum point attached to a sphere with an attachment offset of `2` in the Z direction.
 
 ## Usage
 
-1. Press the ![](/src/assets/images/PartDesign_Point.svg) **Create a datum point** button.
+1. Press the ![](/images/PartDesign_Point.svg) **Create a datum point** button.
 2. Define Point parameters. Select a first reference in the 3D view to filter the available attachment modes.
 3. Depending on the selected reference, there may be one or more attachment modes available in the the list. The most likely one will automatically be selected and shown in bold in the list. The text _Attached with mode_ along with the attachment mode name will appear in green at the top of the Parameters panel.
 4. To add an additional reference, press the next Reference button. Once pressed its label changes to _Selecting..._ until a selection is made.

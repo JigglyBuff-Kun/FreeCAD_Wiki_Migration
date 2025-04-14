@@ -24,7 +24,7 @@ Exports the current camera properties to a pov-file for use in a POV-Ray project
 ## Usage
 
 1. Make sure that the view is set to [perspective view](/Std_PerspectiveCamera "Std PerspectiveCamera")
-2. Choose Raytracing → Utilities →![](/src/assets/images/Raytracing_WriteCamera.svg) Export camera to POV-Ray... from the top menu.
+2. Choose Raytracing → Utilities →![](/images/Raytracing_WriteCamera.svg) Export camera to POV-Ray... from the top menu.
 
 ## Limitations
 

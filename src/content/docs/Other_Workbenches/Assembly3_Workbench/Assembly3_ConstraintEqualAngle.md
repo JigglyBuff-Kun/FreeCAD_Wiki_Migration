@@ -34,7 +34,7 @@ The line directions as well as the face normals are represented by each ICS's z-
 1. Place two objects into an assembly
 2. Select one line element or one planar face element of each object
 3. Select two more line or one planar face elements to extract the value of the angle between them
-4. Press the ![](/src/assets/images/Assembly_ConstraintEqualAngle.svg) [Equal angle](/Assembly3_ConstraintEqualAngle "Assembly3 ConstraintEqualAngle") button.
+4. Press the ![](/images/Assembly_ConstraintEqualAngle.svg) [Equal angle](/Assembly3_ConstraintEqualAngle "Assembly3 ConstraintEqualAngle") button.
 
 : In addition the "Flip element" function of the elements properties panel may be needed if ICSs are not orientated as expected.
 

@@ -2,7 +2,7 @@
 title: Assembly Workbench
 ---
 
-![](/src/assets/images/Workbench_Assembly.svg)
+![](/images/Workbench_Assembly.svg)
 
 Assembly workbench icon
 
@@ -10,79 +10,79 @@ Assembly workbench icon
 
 [introduced in 1.0](/Release_notes_1.0 "Release notes 1.0")
 
-The ![](/src/assets/images/Workbench_Assembly.svg) [Assembly Workbench](/Assembly_Workbench "Assembly Workbench") is FreeCAD's new built-in assembly workbench. It uses the open-source [Ondsel solver](https://github.com/Ondsel-Development/OndselSolver).
+The ![](/images/Workbench_Assembly.svg) [Assembly Workbench](/Assembly_Workbench "Assembly Workbench") is FreeCAD's new built-in assembly workbench. It uses the open-source [Ondsel solver](https://github.com/Ondsel-Development/OndselSolver).
 
-![](/src/assets/images/Assembly_Workbench_Example.png)
+![](/images/Assembly_Workbench_Example.png)
 
 ## Tools
 
 ### Assembly
 
-- ![](/src/assets/images/Assembly_CreateAssembly.svg) [Create Assembly](/Assembly_CreateAssembly "Assembly CreateAssembly"): creates a root assembly in the current document, or a sub-assembly in a pre-existing active assembly.
+- ![](/images/Assembly_CreateAssembly.svg) [Create Assembly](/Assembly_CreateAssembly "Assembly CreateAssembly"): creates a root assembly in the current document, or a sub-assembly in a pre-existing active assembly.
 
-- ![](/src/assets/images/Assembly_InsertLink.svg)![](/src/assets/images/Toolbar_flyout_arrow_blue_background.svg) Insert:
+- ![](/images/Assembly_InsertLink.svg)![](/images/Toolbar_flyout_arrow_blue_background.svg) Insert:
 
-: \- ![](/src/assets/images/Assembly_InsertLink.svg) [Insert Component](/Assembly_InsertLink "Assembly InsertLink"): inserts a component into the active assembly.
+: \- ![](/images/Assembly_InsertLink.svg) [Insert Component](/Assembly_InsertLink "Assembly InsertLink"): inserts a component into the active assembly.
 
-: \- ![](/src/assets/images/Assembly_InsertNewPart.svg) [Insert New Part](/Assembly_InsertNewPart "Assembly InsertNewPart"): inserts a new Part.
+: \- ![](/images/Assembly_InsertNewPart.svg) [Insert New Part](/Assembly_InsertNewPart "Assembly InsertNewPart"): inserts a new Part.
 
-- ![](/src/assets/images/Assembly_SolveAssembly.svg) [Solve Assembly](/Assembly_SolveAssembly "Assembly SolveAssembly"): solves the currently active assembly.
+- ![](/images/Assembly_SolveAssembly.svg) [Solve Assembly](/Assembly_SolveAssembly "Assembly SolveAssembly"): solves the currently active assembly.
 
-- ![](/src/assets/images/Assembly_CreateView.svg) [Create Exploded View](/Assembly_CreateView "Assembly CreateView"): creates an exploded views container in the active assembly that contains one or more exploded views.
+- ![](/images/Assembly_CreateView.svg) [Create Exploded View](/Assembly_CreateView "Assembly CreateView"): creates an exploded views container in the active assembly that contains one or more exploded views.
 
-- ![](/src/assets/images/Assembly_CreateSimulation.svg) [Create Simulation](/Assembly_CreateSimulation "Assembly CreateSimulation"): creates a simulation of the current assembly. [introduced in 1.1](/Release_notes_1.1 "Release notes 1.1")
+- ![](/images/Assembly_CreateSimulation.svg) [Create Simulation](/Assembly_CreateSimulation "Assembly CreateSimulation"): creates a simulation of the current assembly. [introduced in 1.1](/Release_notes_1.1 "Release notes 1.1")
 
-- ![](/src/assets/images/Assembly_CreateBom.svg) [Create Bill of Materials](/Assembly_CreateBom "Assembly CreateBom"): creates a bill of materials (BOM) from a selected assembly or from the document.
+- ![](/images/Assembly_CreateBom.svg) [Create Bill of Materials](/Assembly_CreateBom "Assembly CreateBom"): creates a bill of materials (BOM) from a selected assembly or from the document.
 
-- ![](/src/assets/images/Assembly_ExportASMT.svg) Export ASMT File: exports data of the currently active assembly as an ASMT file for debugging purposes.
+- ![](/images/Assembly_ExportASMT.svg) Export ASMT File: exports data of the currently active assembly as an ASMT file for debugging purposes.
 
 : This tool aims at developers and will not be included in future releases. (see [forum thread](https://forum.freecad.org/viewtopic.php?p=812936#p812925))
 
 ### Joints
 
-- ![](/src/assets/images/Assembly_ToggleGrounded.svg) [Toggle Grounded](/Assembly_ToggleGrounded "Assembly ToggleGrounded"): fixes the position and orientation of a shape in relation to the coordinate system of the assembly it belongs to.
+- ![](/images/Assembly_ToggleGrounded.svg) [Toggle Grounded](/Assembly_ToggleGrounded "Assembly ToggleGrounded"): fixes the position and orientation of a shape in relation to the coordinate system of the assembly it belongs to.
 
-- ![](/src/assets/images/Assembly_CreateJointFixed.svg) [Create Fixed Joint](/Assembly_CreateJointFixed "Assembly CreateJointFixed"): creates a joint locking two assembly parts together, preventing any movement or rotation but can be also used to define other types of joints.
+- ![](/images/Assembly_CreateJointFixed.svg) [Create Fixed Joint](/Assembly_CreateJointFixed "Assembly CreateJointFixed"): creates a joint locking two assembly parts together, preventing any movement or rotation but can be also used to define other types of joints.
 
-- ![](/src/assets/images/Assembly_CreateJointRevolute.svg) [Create Revolute Joint](/Assembly_CreateJointRevolute "Assembly CreateJointRevolute"): creates a hinged joint, allowing rotation around a single axis between two selected parts.
+- ![](/images/Assembly_CreateJointRevolute.svg) [Create Revolute Joint](/Assembly_CreateJointRevolute "Assembly CreateJointRevolute"): creates a hinged joint, allowing rotation around a single axis between two selected parts.
 
-- ![](/src/assets/images/Assembly_CreateJointCylindrical.svg) [Create Cylindrical Joint](/Assembly_CreateJointCylindrical "Assembly CreateJointCylindrical"): creates a cylindrical joint between two selected parts, allowing rotation around a single axis and a movement along the same axis.
+- ![](/images/Assembly_CreateJointCylindrical.svg) [Create Cylindrical Joint](/Assembly_CreateJointCylindrical "Assembly CreateJointCylindrical"): creates a cylindrical joint between two selected parts, allowing rotation around a single axis and a movement along the same axis.
 
-- ![](/src/assets/images/Assembly_CreateJointSlider.svg) [Create Slider Joint](/Assembly_CreateJointSlider "Assembly CreateJointSlider"): creates a slider (prismatic) joint between two selected parts, allowing a linear movement along a single axis while restricting rotation.
+- ![](/images/Assembly_CreateJointSlider.svg) [Create Slider Joint](/Assembly_CreateJointSlider "Assembly CreateJointSlider"): creates a slider (prismatic) joint between two selected parts, allowing a linear movement along a single axis while restricting rotation.
 
-- ![](/src/assets/images/Assembly_CreateJointBall.svg) [Create Ball Joint](/Assembly_CreateJointBall "Assembly CreateJointBall"): creates a spherical joint between two selected parts at a single point, allowing free rotation around the point while keeping both parts connected at this point.
+- ![](/images/Assembly_CreateJointBall.svg) [Create Ball Joint](/Assembly_CreateJointBall "Assembly CreateJointBall"): creates a spherical joint between two selected parts at a single point, allowing free rotation around the point while keeping both parts connected at this point.
 
-- ![](/src/assets/images/Assembly_CreateJointDistance.svg) [Create Distance Joint](/Assembly_CreateJointDistance "Assembly CreateJointDistance"): creates a distance joint between two selected parts, fixing the distance between both parts.
+- ![](/images/Assembly_CreateJointDistance.svg) [Create Distance Joint](/Assembly_CreateJointDistance "Assembly CreateJointDistance"): creates a distance joint between two selected parts, fixing the distance between both parts.
 
-- ![](/src/assets/images/Assembly_CreateJointParallel.svg) [Create Parallel Joint](/Assembly_CreateJointParallel "Assembly CreateJointParallel"): creates a parallel joint between two selected parts, setting the Z axes of selected coordinate systems parallel.
+- ![](/images/Assembly_CreateJointParallel.svg) [Create Parallel Joint](/Assembly_CreateJointParallel "Assembly CreateJointParallel"): creates a parallel joint between two selected parts, setting the Z axes of selected coordinate systems parallel.
 
-- ![](/src/assets/images/Assembly_CreateJointPerpendicular.svg) [Create Perpendicular Joint](/Assembly_CreateJointPerpendicular "Assembly CreateJointPerpendicular"): creates a perpendicular joint between two selected parts, setting the Z axes of selected coordinate systems perpendicular.
+- ![](/images/Assembly_CreateJointPerpendicular.svg) [Create Perpendicular Joint](/Assembly_CreateJointPerpendicular "Assembly CreateJointPerpendicular"): creates a perpendicular joint between two selected parts, setting the Z axes of selected coordinate systems perpendicular.
 
-- ![](/src/assets/images/Assembly_CreateJointAngle.svg) [Create Angle Joint](/Assembly_CreateJointAngle "Assembly CreateJointAngle"): creates an angle joint between two selected parts, fixing the angle between the Z axes of selected coordinate systems.
+- ![](/images/Assembly_CreateJointAngle.svg) [Create Angle Joint](/Assembly_CreateJointAngle "Assembly CreateJointAngle"): creates an angle joint between two selected parts, fixing the angle between the Z axes of selected coordinate systems.
 
-- ![](/src/assets/images/Assembly_CreateJointRackPinion.svg) [Create Rack and Pinion Joint](/Assembly_CreateJointRackPinion "Assembly CreateJointRackPinion"): creates a rack and pinion joint that couples the translation of a part of a slider joint and the rotation of a part of a revolute joint.
+- ![](/images/Assembly_CreateJointRackPinion.svg) [Create Rack and Pinion Joint](/Assembly_CreateJointRackPinion "Assembly CreateJointRackPinion"): creates a rack and pinion joint that couples the translation of a part of a slider joint and the rotation of a part of a revolute joint.
 
-- ![](/src/assets/images/Assembly_CreateJointScrew.svg) [Create Screw Joint](/Assembly_CreateJointScrew "Assembly CreateJointScrew"): creates a screw (helical) joint that couples the translation of a part of a slider joint and the rotation of a part of a revolute joint.
+- ![](/images/Assembly_CreateJointScrew.svg) [Create Screw Joint](/Assembly_CreateJointScrew "Assembly CreateJointScrew"): creates a screw (helical) joint that couples the translation of a part of a slider joint and the rotation of a part of a revolute joint.
 
-- ![](/src/assets/images/Assembly_CreateJointGears.svg)![](/src/assets/images/Toolbar_flyout_arrow_blue_background.svg) Create Gear/Belt Joint:
+- ![](/images/Assembly_CreateJointGears.svg)![](/images/Toolbar_flyout_arrow_blue_background.svg) Create Gear/Belt Joint:
 
-: \- ![](/src/assets/images/Assembly_CreateJointGears.svg) [Create Gears Joint](/Assembly_CreateJointGears "Assembly CreateJointGears"): creates a gears joint that couples the rotation of two parts of two different revolute joints.
+: \- ![](/images/Assembly_CreateJointGears.svg) [Create Gears Joint](/Assembly_CreateJointGears "Assembly CreateJointGears"): creates a gears joint that couples the rotation of two parts of two different revolute joints.
 
-: \- ![](/src/assets/images/Assembly_CreateJointBelt.svg) [Create Belt Joint](/Assembly_CreateJointBelt "Assembly CreateJointBelt"): creates a belt joint that couples the rotation of two parts of two different revolute joints.
+: \- ![](/images/Assembly_CreateJointBelt.svg) [Create Belt Joint](/Assembly_CreateJointBelt "Assembly CreateJointBelt"): creates a belt joint that couples the rotation of two parts of two different revolute joints.
 
 ## Preferences
 
-- ![](/src/assets/images/Preferences-assembly.svg) [Preferences](/Assembly_Preferences "Assembly Preferences"): preferences for the Assembly workbench.
+- ![](/images/Preferences-assembly.svg) [Preferences](/Assembly_Preferences "Assembly Preferences"): preferences for the Assembly workbench.
 
 ## Example crank and slider
 
-![](/src/assets/images/Assembly3_KinematicExample-01.png) This example is temporary and may be removed once proper descriptions/tutorials are available.
+![](/images/Assembly3_KinematicExample-01.png) This example is temporary and may be removed once proper descriptions/tutorials are available.
 
 ### Crank and slider assembly
 
 The assembly to be created consists of four parts: a Base, a Slider Rod, a Crank, and a Connecting Rod. They are connected with four joints.
 
-![](/src/assets/images/Assembly3_KinematicExample-01.png)
+![](/images/Assembly3_KinematicExample-01.png)
 
 Assembled parts: Base (amber), Slider Rod (light blue), Crank (red), Connecting Rod (green)
 
@@ -162,9 +162,9 @@ view.fitAll()
 
 ### Add an assembly
 
-With the ![](/src/assets/images/Assembly_CreateAssembly.svg) [Create Assembly](/Assembly_CreateAssembly "Assembly CreateAssembly") tool add an assembly to the document.
+With the ![](/images/Assembly_CreateAssembly.svg) [Create Assembly](/Assembly_CreateAssembly "Assembly CreateAssembly") tool add an assembly to the document.
 
-![](/src/assets/images/Assembly_KinematicExample-01.png)
+![](/images/Assembly_KinematicExample-01.png)
 
 Tree view of Parts and Assembly
 
@@ -172,23 +172,23 @@ Tree view of Parts and Assembly
 
 In the [Tree view](/Tree_view "Tree view") drag and drop the parts on the Assembly object. They can now be handled by the Assembly's solver.
 
-![](/src/assets/images/Assembly_KinematicExample-02.png)
+![](/images/Assembly_KinematicExample-02.png)
 
 The Parts are in the Assembly container now
 
 ### Ground a part
 
-To keep the assembly at the desired position, the base part should be locked, or grounded as it is called here. Select the Base in the [Tree view](/Tree_view "Tree view") or in the [3D view](/3D_view "3D view") and use the ![](/src/assets/images/Assembly_ToggleGrounded.svg) [Toggle grounded](/Assembly_ToggleGrounded "Assembly ToggleGrounded") tool. This fixes the position of the Base in relation to the local coordinate system (LCS) of the Assembly container. A GroundedJoint object is added to the Joints container.
+To keep the assembly at the desired position, the base part should be locked, or grounded as it is called here. Select the Base in the [Tree view](/Tree_view "Tree view") or in the [3D view](/3D_view "3D view") and use the ![](/images/Assembly_ToggleGrounded.svg) [Toggle grounded](/Assembly_ToggleGrounded "Assembly ToggleGrounded") tool. This fixes the position of the Base in relation to the local coordinate system (LCS) of the Assembly container. A GroundedJoint object is added to the Joints container.
 
-![](/src/assets/images/Assembly_KinematicExample-03.png)
-![](/src/assets/images/Button_right.svg)
-![](/src/assets/images/Assembly_KinematicExample-04.png)
+![](/images/Assembly_KinematicExample-03.png)
+![](/images/Button_right.svg)
+![](/images/Assembly_KinematicExample-04.png)
 
 Expand the Joints container to find the GroundedJoint object
 
 ### Alternative: Insert Link
 
-Instead of the two steps mentioned above it is also possible to use the ![](/src/assets/images/Assembly_InsertLink.svg) [Insert Link](/Assembly_InsertLink "Assembly InsertLink") tool to place objects inside an assembly. The first object automatically becomes the grounded part. So you need to start with the Base object. The tool creates links and the original objects remain outside the assembly. To avoid confusion it is advisable to make them invisible.
+Instead of the two steps mentioned above it is also possible to use the ![](/images/Assembly_InsertLink.svg) [Insert Link](/Assembly_InsertLink "Assembly InsertLink") tool to place objects inside an assembly. The first object automatically becomes the grounded part. So you need to start with the Base object. The tool creates links and the original objects remain outside the assembly. To avoid confusion it is advisable to make them invisible.
 
 ### Apply joints
 
@@ -196,48 +196,48 @@ A joint connects exactly two elements of different parts. They can optionally be
 
 - A Revolute joint between Base and Crank
 
-![](/src/assets/images/Assembly_KinematicExample-05.png)
-![](/src/assets/images/Button_right.svg)
-![](/src/assets/images/Assembly_KinematicExample-06.png)
+![](/images/Assembly_KinematicExample-05.png)
+![](/images/Button_right.svg)
+![](/images/Assembly_KinematicExample-06.png)
 
-Selected elements + ![](/src/assets/images/Assembly_CreateJointRevolute.svg) [Create Revolute Joint](/Assembly_CreateJointRevolute "Assembly CreateJointRevolute") → rearranged Crank
+Selected elements + ![](/images/Assembly_CreateJointRevolute.svg) [Create Revolute Joint](/Assembly_CreateJointRevolute "Assembly CreateJointRevolute") → rearranged Crank
 
 Move the **Crank** using the left mouse button. Only a rotation around the pivot should be possible.
 
 - A Slider joint between Base and Slider Rod
 
-![](/src/assets/images/Assembly_KinematicExample-07.png)
-![](/src/assets/images/Button_right.svg)
-![](/src/assets/images/Assembly_KinematicExample-08.png)
+![](/images/Assembly_KinematicExample-07.png)
+![](/images/Button_right.svg)
+![](/images/Assembly_KinematicExample-08.png)
 
-Selected elements + ![](/src/assets/images/Assembly_CreateJointSlider.svg) [Create Slider Joint](/Assembly_CreateJointSlider "Assembly CreateJointSlider") → rearranged Slider Rod
+Selected elements + ![](/images/Assembly_CreateJointSlider.svg) [Create Slider Joint](/Assembly_CreateJointSlider "Assembly CreateJointSlider") → rearranged Slider Rod
 
 Move the **SliderRod** using the left mouse button. Only a displacement along its centerline should be possible.
 
 - A Revolute joint between Crank and Connecting Rod
 
-![](/src/assets/images/Assembly_KinematicExample-09.png)
-![](/src/assets/images/Button_right.svg)
-![](/src/assets/images/Assembly_KinematicExample-10.png)
+![](/images/Assembly_KinematicExample-09.png)
+![](/images/Button_right.svg)
+![](/images/Assembly_KinematicExample-10.png)
 
-Selected elements + ![](/src/assets/images/Assembly_CreateJointRevolute.svg) [Create Revolute Joint](/Assembly_CreateJointRevolute "Assembly CreateJointRevolute") → rearranged Connecting Rod
+Selected elements + ![](/images/Assembly_CreateJointRevolute.svg) [Create Revolute Joint](/Assembly_CreateJointRevolute "Assembly CreateJointRevolute") → rearranged Connecting Rod
 
 Move the **ConnectingRod** using the left mouse button. Only a rotation around the pivot should be possible.
 
-![](/src/assets/images/Assembly_KinematicExample-11.png)
-![](/src/assets/images/Button_right.svg)
-![](/src/assets/images/Assembly_KinematicExample-12.png)
+![](/images/Assembly_KinematicExample-11.png)
+![](/images/Button_right.svg)
+![](/images/Assembly_KinematicExample-12.png)
 
 If there are several joints in a line we have to help the solver find a sensible solution.  
 If required, click and drag the parts into an easier to compute position.
 
 - A Cylindrical joint between Connecting Rod and Slider Rod
 
-![](/src/assets/images/Assembly_KinematicExample-13.png)
-![](/src/assets/images/Button_right.svg)
-![](/src/assets/images/Assembly_KinematicExample-14.png)
+![](/images/Assembly_KinematicExample-13.png)
+![](/images/Button_right.svg)
+![](/images/Assembly_KinematicExample-14.png)
 
-Selected elements + ![](/src/assets/images/Assembly_CreateJointCylindrical.svg) [Create Cylindrical Joint](/Assembly_CreateJointCylindrical "Assembly CreateJointCylindrical") → finished Assembly
+Selected elements + ![](/images/Assembly_CreateJointCylindrical.svg) [Create Cylindrical Joint](/Assembly_CreateJointCylindrical "Assembly CreateJointCylindrical") → finished Assembly
 
 In the finished assembly use the mouse pointer to drag the parts according to the used joints.
 
@@ -272,11 +272,11 @@ The end of the range must be greater than 360 to also include this angle as a va
 
 ## Example universal joint
 
-![](/src/assets/images/Assembly_UniversalJointExample-01.png) This example is temporary and may be removed once proper descriptions/tutorials are available.
+![](/images/Assembly_UniversalJointExample-01.png) This example is temporary and may be removed once proper descriptions/tutorials are available.
 
 ### Universal joint assembly
 
-![](/src/assets/images/Assembly_UniversalJointExample-01.png)
+![](/images/Assembly_UniversalJointExample-01.png)
 
 In this example a [universal joint](https://en.wikipedia.org/wiki/Universal_joint) is created.
 
@@ -350,7 +350,7 @@ Warning: parts may collide if the angle is too large.
 
 ### Add an assembly
 
-With the ![](/src/assets/images/Assembly_CreateAssembly.svg) [Create Assembly](/Assembly_CreateAssembly "Assembly CreateAssembly") tool add an assembly to the document.
+With the ![](/images/Assembly_CreateAssembly.svg) [Create Assembly](/Assembly_CreateAssembly "Assembly CreateAssembly") tool add an assembly to the document.
 
 ### Move the axles into the assembly
 
@@ -358,11 +358,11 @@ In the [Tree view](/Tree_view "Tree view") drag and drop the axles on the Assemb
 
 ### Ground the axles
 
-Select the two axles in the Tree view and use the ![](/src/assets/images/Assembly_ToggleGrounded.svg) [Toggle grounded](/Assembly_ToggleGrounded "Assembly ToggleGrounded") tool.
+Select the two axles in the Tree view and use the ![](/images/Assembly_ToggleGrounded.svg) [Toggle grounded](/Assembly_ToggleGrounded "Assembly ToggleGrounded") tool.
 
 ### Move the solids into the assembly
 
-For the other objects we will use the ![](/src/assets/images/Assembly_InsertLink.svg) [Insert Component](/Assembly_InsertLink "Assembly InsertLink") tool:
+For the other objects we will use the ![](/images/Assembly_InsertLink.svg) [Insert Component](/Assembly_InsertLink "Assembly InsertLink") tool:
 
 1. Invoke the tool.
 2. In the dialog that opens click the Cross object once, and the Fork object twice.
@@ -374,39 +374,39 @@ For the other objects we will use the ![](/src/assets/images/Assembly_InsertLink
 
 - A Revolute joint between Axle1 and Fork001
 
-![](/src/assets/images/Assembly_UniversalJointExample-02.png)
-![](/src/assets/images/Button_right.svg)
-![](/src/assets/images/Assembly_UniversalJointExample-03.png)
+![](/images/Assembly_UniversalJointExample-02.png)
+![](/images/Button_right.svg)
+![](/images/Assembly_UniversalJointExample-03.png)
 
-Selected elements + ![](/src/assets/images/Assembly_CreateJointRevolute.svg) [Create Revolute Joint](/Assembly_CreateJointRevolute "Assembly CreateJointRevolute") + Offset of +40mm or -40mm → rearranged Fork001
+Selected elements + ![](/images/Assembly_CreateJointRevolute.svg) [Create Revolute Joint](/Assembly_CreateJointRevolute "Assembly CreateJointRevolute") + Offset of +40mm or -40mm → rearranged Fork001
 
 If you invoke the tool first and then select the elements, you can click near the correct endpoint of Axle1 to avoid having to enter an offset.
 
 - A Cylindrical joint between Fork001 and Cross001
 
-![](/src/assets/images/Assembly_UniversalJointExample-04.png)
-![](/src/assets/images/Button_right.svg)
-![](/src/assets/images/Assembly_UniversalJointExample-05.png)
+![](/images/Assembly_UniversalJointExample-04.png)
+![](/images/Button_right.svg)
+![](/images/Assembly_UniversalJointExample-05.png)
 
-Selected elements + ![](/src/assets/images/Assembly_CreateJointCylindrical.svg) [Create Cylindrical Joint](/Assembly_CreateJointCylindrical "Assembly CreateJointCylindrical") → rearranged Cross001
+Selected elements + ![](/images/Assembly_CreateJointCylindrical.svg) [Create Cylindrical Joint](/Assembly_CreateJointCylindrical "Assembly CreateJointCylindrical") → rearranged Cross001
 
 - A Cylindrical joint between Axle2 and Fork002
 
-![](/src/assets/images/Assembly_UniversalJointExample-06.png)
-![](/src/assets/images/Button_right.svg)
-![](/src/assets/images/Assembly_UniversalJointExample-07.png)
+![](/images/Assembly_UniversalJointExample-06.png)
+![](/images/Button_right.svg)
+![](/images/Assembly_UniversalJointExample-07.png)
 
-Selected elements + ![](/src/assets/images/Assembly_CreateJointCylindrical.svg) [Create Cylindrical Joint](/Assembly_CreateJointCylindrical "Assembly CreateJointCylindrical") → rearranged Fork002
+Selected elements + ![](/images/Assembly_CreateJointCylindrical.svg) [Create Cylindrical Joint](/Assembly_CreateJointCylindrical "Assembly CreateJointCylindrical") → rearranged Fork002
 
-If required reverse the direction of the joint using the ![](/src/assets/images/Button_sort.svg) button in the task panel.
+If required reverse the direction of the joint using the ![](/images/Button_sort.svg) button in the task panel.
 
 - A Cylindrical joint between Cross001 and Fork002
 
-![](/src/assets/images/Assembly_UniversalJointExample-08.png)
-![](/src/assets/images/Button_right.svg)
-![](/src/assets/images/Assembly_UniversalJointExample-09.png)
+![](/images/Assembly_UniversalJointExample-08.png)
+![](/images/Button_right.svg)
+![](/images/Assembly_UniversalJointExample-09.png)
 
-Selected elements + ![](/src/assets/images/Assembly_CreateJointCylindrical.svg) [Create Cylindrical Joint](/Assembly_CreateJointCylindrical "Assembly CreateJointCylindrical") → rearranged Cross001 and Fork002
+Selected elements + ![](/images/Assembly_CreateJointCylindrical.svg) [Create Cylindrical Joint](/Assembly_CreateJointCylindrical "Assembly CreateJointCylindrical") → rearranged Cross001 and Fork002
 
 ### Drive the universal joint
 
@@ -420,11 +420,11 @@ If you want to check the situation at distinct rotation angles do the following:
 
 ## Example vise
 
-![](/src/assets/images/Assembly_ViseExample-01.png) This example is temporary and may be removed once proper descriptions/tutorials are available.
+![](/images/Assembly_ViseExample-01.png) This example is temporary and may be removed once proper descriptions/tutorials are available.
 
 ### Assembly of a vise
 
-![](/src/assets/images/Assembly_ViseExample-01.png)
+![](/images/Assembly_ViseExample-01.png)
 
 In this example a [vise](https://en.wikipedia.org/wiki/Vise) is created.
 
@@ -514,7 +514,7 @@ view.fitAll()
 
 ### Add an assembly
 
-With the ![](/src/assets/images/Assembly_CreateAssembly.svg) [Create Assembly](/Assembly_CreateAssembly "Assembly CreateAssembly") tool add an assembly to the document.
+With the ![](/images/Assembly_CreateAssembly.svg) [Create Assembly](/Assembly_CreateAssembly "Assembly CreateAssembly") tool add an assembly to the document.
 
 ### Move the parts into the assembly container
 
@@ -522,25 +522,25 @@ In the [Tree view](/Tree_view "Tree view") drag and drop the parts on the Assemb
 
 ### Ground a part
 
-To keep the assembly at the desired position, the FixedJaw part should be locked, or grounded as it is called here. Select the FixedJaw in the [Tree view](/Tree_view "Tree view") or in the [3D view](/3D_view "3D view") and use the ![](/src/assets/images/Assembly_ToggleGrounded.svg) [Toggle grounded](/Assembly_ToggleGrounded "Assembly ToggleGrounded") tool. A GroundedJoint object is added to the Joints container.
+To keep the assembly at the desired position, the FixedJaw part should be locked, or grounded as it is called here. Select the FixedJaw in the [Tree view](/Tree_view "Tree view") or in the [3D view](/3D_view "3D view") and use the ![](/images/Assembly_ToggleGrounded.svg) [Toggle grounded](/Assembly_ToggleGrounded "Assembly ToggleGrounded") tool. A GroundedJoint object is added to the Joints container.
 
 ### Apply joints
 
 - A Revolute joint between FixedJaw and Crank
 
-![](/src/assets/images/Assembly_ViseExample-02.png)
-![](/src/assets/images/Button_right.svg)
-![](/src/assets/images/Assembly_ViseExample-03.png)
+![](/images/Assembly_ViseExample-02.png)
+![](/images/Button_right.svg)
+![](/images/Assembly_ViseExample-03.png)
 
-Selected elements + ![](/src/assets/images/Assembly_CreateJointRevolute.svg) [Create Revolute Joint](/Assembly_CreateJointRevolute "Assembly CreateJointRevolute") → rearranged Crank
+Selected elements + ![](/images/Assembly_CreateJointRevolute.svg) [Create Revolute Joint](/Assembly_CreateJointRevolute "Assembly CreateJointRevolute") → rearranged Crank
 
 - A Slider joint between FixedJaw and MovableJaw
 
-![](/src/assets/images/Assembly_ViseExample-04.png)
-![](/src/assets/images/Button_right.svg)
-![](/src/assets/images/Assembly_ViseExample-05.png)
+![](/images/Assembly_ViseExample-04.png)
+![](/images/Button_right.svg)
+![](/images/Assembly_ViseExample-05.png)
 
-Selected elements + ![](/src/assets/images/Assembly_CreateJointSlider.svg) [Create Slider Joint](/Assembly_CreateJointSlider "Assembly CreateJointSlider") → rearranged MovableJaw
+Selected elements + ![](/images/Assembly_CreateJointSlider.svg) [Create Slider Joint](/Assembly_CreateJointSlider "Assembly CreateJointSlider") → rearranged MovableJaw
 
 Set the Min length to -77 mm and the Max length to -7 mm. This limits the opening of the vise to 70 mm.
 
@@ -548,37 +548,37 @@ The next three joints are necessary to force the LeverScrew to: translate like t
 
 - A Distance joint between LeverScrew and MovableJaw
 
-![](/src/assets/images/Assembly_ViseExample-06.png)
-![](/src/assets/images/Button_right.svg)
-![](/src/assets/images/Assembly_ViseExample-07.png)
+![](/images/Assembly_ViseExample-06.png)
+![](/images/Button_right.svg)
+![](/images/Assembly_ViseExample-07.png)
 
-Selected elements + ![](/src/assets/images/Assembly_CreateJointDistance.svg) [Create Distance Joint](/Assembly_CreateJointDistance "Assembly CreateJointDistance") → rearranged LeverScrew
+Selected elements + ![](/images/Assembly_CreateJointDistance.svg) [Create Distance Joint](/Assembly_CreateJointDistance "Assembly CreateJointDistance") → rearranged LeverScrew
 
 Select two faces. Set the distance value to 20 mm.
 
 - A Parallel joint between LeverScrew and Crank
 
-![](/src/assets/images/Assembly_ViseExample-08.png)
-![](/src/assets/images/Button_right.svg)
-![](/src/assets/images/Assembly_ViseExample-09.png)
+![](/images/Assembly_ViseExample-08.png)
+![](/images/Button_right.svg)
+![](/images/Assembly_ViseExample-09.png)
 
-Selected elements + ![](/src/assets/images/Assembly_CreateJointParallel.svg) [Create Parallel Joint](/Assembly_CreateJointParallel "Assembly CreateJointParallel") → rearranged LeverScrew
+Selected elements + ![](/images/Assembly_CreateJointParallel.svg) [Create Parallel Joint](/Assembly_CreateJointParallel "Assembly CreateJointParallel") → rearranged LeverScrew
 
 - A Cylindrical joint between LeverScrew and FixedJaw
 
-![](/src/assets/images/Assembly_ViseExample-10.png)
-![](/src/assets/images/Button_right.svg)
-![](/src/assets/images/Assembly_ViseExample-11.png)
+![](/images/Assembly_ViseExample-10.png)
+![](/images/Button_right.svg)
+![](/images/Assembly_ViseExample-11.png)
 
-Selected elements + ![](/src/assets/images/Assembly_CreateJointCylindrical.svg) [Create Cylindrical Joint](/Assembly_CreateJointCylindrical "Assembly CreateJointCylindrical") → rearranged LeverScrew
+Selected elements + ![](/images/Assembly_CreateJointCylindrical.svg) [Create Cylindrical Joint](/Assembly_CreateJointCylindrical "Assembly CreateJointCylindrical") → rearranged LeverScrew
 
 - A Screw joint between MovableJaw and Crank
 
-![](/src/assets/images/Assembly_ViseExample-12.png)
-![](/src/assets/images/Button_right.svg)
-![](/src/assets/images/Assembly_ViseExample-13.png)
+![](/images/Assembly_ViseExample-12.png)
+![](/images/Button_right.svg)
+![](/images/Assembly_ViseExample-13.png)
 
-Selected elements (LeverScrew invisible) + ![](/src/assets/images/Assembly_CreateJointScrew.svg) [Create Screw Joint](/Assembly_CreateJointScrew "Assembly CreateJointScrew") → complete vise mechanism (LeverScrew visible)
+Selected elements (LeverScrew invisible) + ![](/images/Assembly_CreateJointScrew.svg) [Create Screw Joint](/Assembly_CreateJointScrew "Assembly CreateJointScrew") → complete vise mechanism (LeverScrew visible)
 
 If necessary make the LeverScrew invisible during selection.
 
@@ -590,11 +590,11 @@ The vise can be driven by moving Crank or MovableJaw with the left mouse.
 
 ## Example shock absorber
 
-![](/src/assets/images/Assembly_ShockAbsorberExample-01.png) This example is temporary and may be removed once proper descriptions/tutorials are available.
+![](/images/Assembly_ShockAbsorberExample-01.png) This example is temporary and may be removed once proper descriptions/tutorials are available.
 
 ### Assembly of a shock absorber
 
-![](/src/assets/images/Assembly_ShockAbsorberExample.gif)
+![](/images/Assembly_ShockAbsorberExample.gif)
 
 In this example a [shock absorber](https://en.wikipedia.org/wiki/Shock_absorber) is created.
 
@@ -707,7 +707,7 @@ view.fitAll()
 
 ### Add an assembly
 
-With the ![](/src/assets/images/Assembly_CreateAssembly.svg) [Create Assembly](/Assembly_CreateAssembly "Assembly CreateAssembly") tool add an assembly to the document.
+With the ![](/images/Assembly_CreateAssembly.svg) [Create Assembly](/Assembly_CreateAssembly "Assembly CreateAssembly") tool add an assembly to the document.
 
 ### Move the parts into the assembly container
 
@@ -715,25 +715,25 @@ In the [Tree view](/Tree_view "Tree view") drag and drop the parts on the Assemb
 
 ### Ground the two axles
 
-To keep the assembly at the desired position, the two axles should be locked, or grounded as it is called here. Select the two axles in the [Tree view](/Tree_view "Tree view") or in the [3D view](/3D_view "3D view") and use the ![](/src/assets/images/Assembly_ToggleGrounded.svg) [Toggle grounded](/Assembly_ToggleGrounded "Assembly ToggleGrounded") tool. Two GroundedJoint objects are added to the Joints container.
+To keep the assembly at the desired position, the two axles should be locked, or grounded as it is called here. Select the two axles in the [Tree view](/Tree_view "Tree view") or in the [3D view](/3D_view "3D view") and use the ![](/images/Assembly_ToggleGrounded.svg) [Toggle grounded](/Assembly_ToggleGrounded "Assembly ToggleGrounded") tool. Two GroundedJoint objects are added to the Joints container.
 
 ### Apply joints
 
 - A Revolute joint between Axle2 and Piston
 
-![](/src/assets/images/Assembly_ShockAbsorberExample-02.png)
-![](/src/assets/images/Button_right.svg)
-![](/src/assets/images/Assembly_ShockAbsorberExample-03.png)
+![](/images/Assembly_ShockAbsorberExample-02.png)
+![](/images/Button_right.svg)
+![](/images/Assembly_ShockAbsorberExample-03.png)
 
-![](/src/assets/images/Assembly_CreateJointRevolute.svg) [Create Revolute Joint](/Assembly_CreateJointRevolute "Assembly CreateJointRevolute") + Selected elements → rearranged Piston
+![](/images/Assembly_CreateJointRevolute.svg) [Create Revolute Joint](/Assembly_CreateJointRevolute "Assembly CreateJointRevolute") + Selected elements → rearranged Piston
 
 - A Slider joint between Piston and Cylinder
 
-![](/src/assets/images/Assembly_ShockAbsorberExample-04.png)
-![](/src/assets/images/Button_right.svg)
-![](/src/assets/images/Assembly_ShockAbsorberExample-05.png)
+![](/images/Assembly_ShockAbsorberExample-04.png)
+![](/images/Button_right.svg)
+![](/images/Assembly_ShockAbsorberExample-05.png)
 
-![](/src/assets/images/Assembly_CreateJointSlider.svg) [Create Slider Joint](/Assembly_CreateJointSlider "Assembly CreateJointSlider") + Selected elements → rearranged and moved Cylinder
+![](/images/Assembly_CreateJointSlider.svg) [Create Slider Joint](/Assembly_CreateJointSlider "Assembly CreateJointSlider") + Selected elements → rearranged and moved Cylinder
 
 Please pay attention to the location of the coordinate system before selecting a face. It should be in the center of each face.
 
@@ -741,13 +741,13 @@ Drag the Cylinder to create some distinct between it and the Piston. The support
 
 - A Distance joint between Piston and Cylinder
 
-![](/src/assets/images/Assembly_ShockAbsorberExample-06A.png)
-![](/src/assets/images/8/8e/List-add.svg)
-![](/src/assets/images/Assembly_ShockAbsorberExample-06B.png)
-![](/src/assets/images/Button_right.svg)
-![](/src/assets/images/Assembly_ShockAbsorberExample-07.png)
+![](/images/Assembly_ShockAbsorberExample-06A.png)
+![](/images/8/8e/List-add.svg)
+![](/images/Assembly_ShockAbsorberExample-06B.png)
+![](/images/Button_right.svg)
+![](/images/Assembly_ShockAbsorberExample-07.png)
 
-![](/src/assets/images/Assembly_CreateJointDistance.svg) [Create Distance Joint](/Assembly_CreateJointDistance "Assembly CreateJointDistance") + Selected faces → rearranged Cylinder Distance set to 200 mm
+![](/images/Assembly_CreateJointDistance.svg) [Create Distance Joint](/Assembly_CreateJointDistance "Assembly CreateJointDistance") + Selected faces → rearranged Cylinder Distance set to 200 mm
 
 Set the distance value to 200 mm.
 
@@ -755,21 +755,21 @@ The next two joints are necessary to force the hinge of the Cylinder to move on 
 
 - A Cylindrical joint between Axle1 and Rod
 
-![](/src/assets/images/Assembly_ShockAbsorberExample-08.png)
-![](/src/assets/images/Button_right.svg)
-![](/src/assets/images/Assembly_ShockAbsorberExample-09.png)
+![](/images/Assembly_ShockAbsorberExample-08.png)
+![](/images/Button_right.svg)
+![](/images/Assembly_ShockAbsorberExample-09.png)
 
-![](/src/assets/images/Assembly_CreateJointCylindrical.svg) [Create Cylindrical Joint](/Assembly_CreateJointCylindrical "Assembly CreateJointCylindrical") + Selected elements → rearranged Rod
+![](/images/Assembly_CreateJointCylindrical.svg) [Create Cylindrical Joint](/Assembly_CreateJointCylindrical "Assembly CreateJointCylindrical") + Selected elements → rearranged Rod
 
 Make sure the Z axis of the coordinate system (blue) is perpendicular to the Rod by selecting an endpoint.
 
 - A Revolute joint between Rod and Cylinder
 
-![](/src/assets/images/Assembly_ShockAbsorberExample-10.png)
-![](/src/assets/images/Button_right.svg)
-![](/src/assets/images/Assembly_ShockAbsorberExample-11.png)
+![](/images/Assembly_ShockAbsorberExample-10.png)
+![](/images/Button_right.svg)
+![](/images/Assembly_ShockAbsorberExample-11.png)
 
-![](/src/assets/images/Assembly_CreateJointRevolute.svg) [Create Revolute Joint](/Assembly_CreateJointRevolute "Assembly CreateJointRevolute") + Selected elements → rearranged Cylinder
+![](/images/Assembly_CreateJointRevolute.svg) [Create Revolute Joint](/Assembly_CreateJointRevolute "Assembly CreateJointRevolute") + Selected elements → rearranged Cylinder
 
 Again make sure the Z axis of the coordinate system (blue) is perpendicular to the Rod.
 
@@ -784,32 +784,32 @@ The next two joints are necessary to fix the Spring to the support face.
 
 - A Parallel joint between Spring and Piston
 
-![](/src/assets/images/Assembly_ShockAbsorberExample-12A.png)
-![](/src/assets/images/8/8e/List-add.svg)
-![](/src/assets/images/Assembly_ShockAbsorberExample-12B.png)
-![](/src/assets/images/Button_right.svg)
-![](/src/assets/images/Assembly_ShockAbsorberExample-13.png)
+![](/images/Assembly_ShockAbsorberExample-12A.png)
+![](/images/8/8e/List-add.svg)
+![](/images/Assembly_ShockAbsorberExample-12B.png)
+![](/images/Button_right.svg)
+![](/images/Assembly_ShockAbsorberExample-13.png)
 
-![](/src/assets/images/Assembly_CreateJointParallel.svg) [Create Parallel Joint](/Assembly_CreateJointParallel "Assembly CreateJointParallel") + Selected faces → rearranged Spring
+![](/images/Assembly_CreateJointParallel.svg) [Create Parallel Joint](/Assembly_CreateJointParallel "Assembly CreateJointParallel") + Selected faces → rearranged Spring
 
 Select the center of the support face on the Piston and the center of the bottom face of the spring. Keep the distance value 0.
 
 - A Fixed joint between Spring and Piston
 
-![](/src/assets/images/Assembly_ShockAbsorberExample-14A.png)
-![](/src/assets/images/8/8e/List-add.svg)
-![](/src/assets/images/Assembly_ShockAbsorberExample-14B.png)
-![](/src/assets/images/Button_right.svg)
-![](/src/assets/images/Assembly_ShockAbsorberExample-15.png)
+![](/images/Assembly_ShockAbsorberExample-14A.png)
+![](/images/8/8e/List-add.svg)
+![](/images/Assembly_ShockAbsorberExample-14B.png)
+![](/images/Button_right.svg)
+![](/images/Assembly_ShockAbsorberExample-15.png)
 
-![](/src/assets/images/Assembly_CreateJointFixed.svg) [Create Fixed Joint](/Assembly_CreateJointFixed "Assembly CreateJointFixed") + Selected elements → rearranged Spring
+![](/images/Assembly_CreateJointFixed.svg) [Create Fixed Joint](/Assembly_CreateJointFixed "Assembly CreateJointFixed") + Selected elements → rearranged Spring
 
 Select the bottom vertex of the cylinder's seam in the Piston and the corner vertex in the Spring.
 
 - Connect the distance property of the **Distance** joint to the Spring's **Height** property using an [expression](/Expressions "Expressions"):
 
 1. Select the Spring in the [Tree view](/Tree_view "Tree view").
-2. Select the blue icon ![](/src/assets/images/Bound-expression.svg) in the Height property field.
+2. Select the blue icon ![](/images/Bound-expression.svg) in the Height property field.
 3. Enter in the expression editor: `<<Distance>>.Distance`
 
 ### Drive the shock absorber

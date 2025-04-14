@@ -21,7 +21,7 @@ title: OpenSCAD RefineShapeFeature
 
 Cleans unnecessary lines. After a Boolean operation, some lines defining the previous form remain visible, this tool creates a copy of the totally cleaned.
 
-![](/src/assets/images/PartRefineShape_it.png)
+![](/images/PartRefineShape_it.png)
 
 ## Usage
 
@@ -33,7 +33,7 @@ Cleans unnecessary lines. After a Boolean operation, some lines defining the pre
 ## Limitations
 
 - The refinement algorithm only works on shells. Therefore it iterates over the shells of the input shape and then for each shell it creates a new shell with joined faces wherever possible. This means if your input shape is only a face, wire, edge or vertex then the algorithm does nothing.
-- As opposed to ![](/src/assets/images/Part_RefineShape.svg) [Part RefineShape](/Part_RefineShape "Part RefineShape") in the ![](/src/assets/images/Workbench_Part.svg) [Part Workbench](/Part_Workbench "Part Workbench"), this feature **WILL** update when the underlying shapes are changed.
+- As opposed to ![](/images/Part_RefineShape.svg) [Part RefineShape](/Part_RefineShape "Part RefineShape") in the ![](/images/Workbench_Part.svg) [Part Workbench](/Part_Workbench "Part Workbench"), this feature **WILL** update when the underlying shapes are changed.
 
 ## Notes
 

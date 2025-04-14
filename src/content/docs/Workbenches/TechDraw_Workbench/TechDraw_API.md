@@ -28,25 +28,25 @@ rc = page.addView(view)
 
 ```
 
-![](/src/assets/images/Method.png) **EdgeWalker(\***listOfEdges, [bool]**\*)**
+![](/images/Method.png) **EdgeWalker(\***listOfEdges, [bool]**\*)**
 
 **Description**: Creates wires from edges in input by planar graph traversal. Optionally exclude the OuterWire by setting optional parameter to false.
 
 **Returns**: List of wires sorted by size (descending)
 
-![](/src/assets/images/Method.png) **findOuterWire(\***listOfEdges**\*)**
+![](/images/Method.png) **findOuterWire(\***listOfEdges**\*)**
 
 **Description**: Finds the OuterWire (largest) of a list of edges (that form a planar graph).
 
 **Returns**: Outer wire
 
-![](/src/assets/images/Method.png) **findShapeOutline(\***TopoShape, scale, direction**\*)**
+![](/images/Method.png) **findShapeOutline(\***TopoShape, scale, direction**\*)**
 
 **Description**: Project shape in direction and find outer wire of result.
 
 **Returns**: Outline wire
 
-![](/src/assets/images/Method.png) **viewPartAsDxf(\***DrawViewPart**\*)**
+![](/images/Method.png) **viewPartAsDxf(\***DrawViewPart**\*)**
 
 **Description**: Return the edges of a DrawViewPart in Dxf format.
 
@@ -66,7 +66,7 @@ dxfFile.close()
 
 ```
 
-![](/src/assets/images/Method.png) **viewPartAsSvg(\***DrawViewPart**\*)**
+![](/images/Method.png) **viewPartAsSvg(\***DrawViewPart**\*)**
 
 **Description**: Return the edges of a DrawViewPart in Svg format.
 
@@ -90,7 +90,7 @@ svgFile.close()
 
 ```
 
-![](/src/assets/images/Method.png) **writeDXFView(\***DrawViewPart, FileName**\*)**
+![](/images/Method.png) **writeDXFView(\***DrawViewPart, FileName**\*)**
 
 **Description**: Save the DrawViewPart in Dxf.
 
@@ -104,7 +104,7 @@ TechDraw.writeDXFView(myPart,myFileName)
 
 ```
 
-![](/src/assets/images/Method.png) **writeDXFPage(\***DrawPage, FileName**\*)**
+![](/images/Method.png) **writeDXFPage(\***DrawPage, FileName**\*)**
 
 **Description**: Save the DrawPage in Dxf.
 

@@ -19,9 +19,9 @@ title: TechDraw GeometrischeSchraffur
 
 ## Beschreibung
 
-Das Werkzeug **TechDraw GeometrischeSchraffur** füllt einen geschlossenen Bereich in einer Ansicht mit einem Muster, das auf der Spezifikation einer AutoDesk-PAT-Schraffur basiert. Alternativ dazu verwendet das Werkzeug ![](/src/assets/images/TechDraw_Hatch.svg) [TechDraw Schraffur](/TechDraw_Hatch/de "TechDraw Hatch/de") SVG-basierte Schraffurmuster. Siehe [Schraffieren](/TechDraw_Hatching/de "TechDraw Hatching/de") für Einzelheiten.
+Das Werkzeug **TechDraw GeometrischeSchraffur** füllt einen geschlossenen Bereich in einer Ansicht mit einem Muster, das auf der Spezifikation einer AutoDesk-PAT-Schraffur basiert. Alternativ dazu verwendet das Werkzeug ![](/images/TechDraw_Hatch.svg) [TechDraw Schraffur](/TechDraw_Hatch/de "TechDraw Hatch/de") SVG-basierte Schraffurmuster. Siehe [Schraffieren](/TechDraw_Hatching/de "TechDraw Hatching/de") für Einzelheiten.
 
-![](/src/assets/images/TechDraw_GeomHatch_example.png)
+![](/images/TechDraw_GeomHatch_example.png)
 
 Geometrisches Schraffurmuster auf einer Fläche
 
@@ -29,8 +29,8 @@ Geometrisches Schraffurmuster auf einer Fläche
 
 1. Einen geschlossenen Bereich in einer Ansicht auswählen.
 2. Es gibt mehrere Möglichkeiten das Werkzeug aufzurufen:
-   - Die Schaltfläche ![](/src/assets/images/TechDraw_GeometricHatch.svg)Fläche mit einer geometrischen Schraffur versehen drücken.
-   - Den Menüeintrag **TechDraw→ Hatching → ![](/src/assets/images/TechDraw_GeometricHatch.svg) Fläche mit einer geometrischen Schraffur versehen** auswählen.
+   - Die Schaltfläche ![](/images/TechDraw_GeometricHatch.svg)Fläche mit einer geometrischen Schraffur versehen drücken.
+   - Den Menüeintrag **TechDraw→ Hatching → ![](/images/TechDraw_GeometricHatch.svg) Fläche mit einer geometrischen Schraffur versehen** auswählen.
 3. Der Aufgabenbereich zu **Geometrische Schraffur auf Fläche anwenden** wird geöffnet.
 4. Optional können **Pattern File** (Schraffurdatei), **Pattern Name** (Schraffurname), **Pattern Scale** (Schraffurskalierung), **Line Weight** (Linienbreite) und **Line Color** (Linienfarbe) verändert werden.
 5. Die Schaltfläche OK drücken.
@@ -38,7 +38,7 @@ Geometrisches Schraffurmuster auf einer Fläche
 ## Hinweise
 
 - Für eine durchgängige Farbfüllung wird [TechDraw Schraffur](/TechDraw_Hatch/de "TechDraw Hatch/de") verwendet und unter **Datei mit dem Schraffurmuster** solid.svg ausgewählt.
-- Schraffierte Objekte sind anfällig für das "[Problem der topologischen Benennung](/Topological_naming_problem/de "Topological naming problem/de")". Siehe ![](/src/assets/images/TechDraw_LengthDimension.svg) [TechDraw Längenmaß einfügen](/TechDraw_LengthDimension/de "TechDraw LengthDimension/de") für weitere Informationen. Es wird empfohlen, das Schraffieren als einen der letzten Schritte der Zeichnungserstellung auszuführen.
+- Schraffierte Objekte sind anfällig für das "[Problem der topologischen Benennung](/Topological_naming_problem/de "Topological naming problem/de")". Siehe ![](/images/TechDraw_LengthDimension.svg) [TechDraw Längenmaß einfügen](/TechDraw_LengthDimension/de "TechDraw LengthDimension/de") für weitere Informationen. Es wird empfohlen, das Schraffieren als einen der letzten Schritte der Zeichnungserstellung auszuführen.
 - Ein kleiner Satz von Beispielmustern befinden sich unter:
 
 : ```

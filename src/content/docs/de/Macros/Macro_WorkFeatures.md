@@ -35,7 +35,7 @@ Werkzeug-Hilfsprogramm zum Erstellen von:
 - Ebenen (aus 3 Punkten, aus einer Achse und einem Punkt...)
 - Und viele andere nützliche Funktionen, die dir die Erstellung deines Projekts erleichtern. Dieses Hilfsprogramm befindet sich in der Combo-Ansicht mit der Bezeichnung _Work Features_ (Deutsch: _ArbeitsFunktionen_).
 
-![](/src/assets/images/WF.png)
+![](/images/WF.png)
 
 WorkFeatures
 
@@ -43,15 +43,15 @@ WorkFeatures
 
 **ArbeitsFunktionen**
 
-- ![Nach dem Aktivieren von Work Features bewegt sich das Werkzeug im Combo Ansichtsfensters nach links.](/src/assets/images/Macro_WorkFeatures_01.png)
+- ![Nach dem Aktivieren von Work Features bewegt sich das Werkzeug im Combo Ansichtsfensters nach links.](/images/Macro_WorkFeatures_01.png)
 
   Nach dem Aktivieren von Work Features bewegt sich das Werkzeug im Combo Ansichtsfensters nach links.
 
-- ![Jede Verwendung und jedes Tag, das einer Funktionsgruppe entspricht, ist eine Gruppe, die im Namen des verwendeten Kennzeichens erstellt wurde. Der Ursprung von Achse, Punkt und Ebene wird direkt auf ausgeblendet gesetzt.](/src/assets/images/Macro_WorkFeatures_07.png)
+- ![Jede Verwendung und jedes Tag, das einer Funktionsgruppe entspricht, ist eine Gruppe, die im Namen des verwendeten Kennzeichens erstellt wurde. Der Ursprung von Achse, Punkt und Ebene wird direkt auf ausgeblendet gesetzt.](/images/Macro_WorkFeatures_07.png)
 
   Jede Verwendung und jedes Tag, das einer Funktionsgruppe entspricht, ist eine Gruppe, die im Namen des verwendeten Kennzeichens erstellt wurde. Der Ursprung von Achse, Punkt und Ebene wird direkt auf ausgeblendet gesetzt.
 
-- [![Du kannst allgemeine Befehle EINGEBEN UND VERWENDEN, um die erstellte Funktion sichtbar zu machen. Beispieltaste Space oder wähle dein Objekt aus und rechtsklicke mit der Maus und klicke auf "Auswahl ausblenden" oder "Auswahl anzeigen" .](/src/assets/images/Macro_WorkFeatures_08.png)](/File:Macro_WorkFeatures_08.png 'Du kannst allgemeine Befehle EINGEBEN UND VERWENDEN, um die erstellte Funktion sichtbar zu machen. Beispieltaste Space oder wähle dein Objekt aus und rechtsklicke mit der Maus und klicke auf "Auswahl ausblenden" oder "Auswahl anzeigen " .')
+- [![Du kannst allgemeine Befehle EINGEBEN UND VERWENDEN, um die erstellte Funktion sichtbar zu machen. Beispieltaste Space oder wähle dein Objekt aus und rechtsklicke mit der Maus und klicke auf "Auswahl ausblenden" oder "Auswahl anzeigen" .](/images/Macro_WorkFeatures_08.png)](/File:Macro_WorkFeatures_08.png 'Du kannst allgemeine Befehle EINGEBEN UND VERWENDEN, um die erstellte Funktion sichtbar zu machen. Beispieltaste Space oder wähle dein Objekt aus und rechtsklicke mit der Maus und klicke auf "Auswahl ausblenden" oder "Auswahl anzeigen " .')
 
   Du kannst allgemeine Befehle EINGEBEN UND VERWENDEN, um die erstellte Funktion sichtbar zu machen.  
   Beispieltaste **Space** oder wähle dein Objekt aus und rechtsklicke mit der Maus und klicke auf "**Auswahl ausblenden**" oder "**Auswahl anzeigen**" .
@@ -108,18 +108,18 @@ WorkFeatures
 
 Nach dem Herunterladen der komprimierten Datei, hier
 
-Werkzeugleistensymbol ![](/src/assets/images/WF_wf.png)
+Werkzeugleistensymbol ![](/images/WF_wf.png)
 
 **[Herunterladen der neusten Version auf GitHub](https://github.com/Rentlau/WorkFeature)** ,
 musst du die zip Datei entpacken und alle Dateien in dein Makroverzeichnis kopieren.
 
 **PS: Dieses Makro befindet sich noch in der Entwicklung. Bitte besuche diese Seite, um sicher zu sein, dass du die neueste Version hast.**
 
-![Herunterladen in GitHub klicke auf die Download ZIP Schaltfläche](/src/assets/images/Macro_Work_Features_GitHub_00.png)
+![Herunterladen in GitHub klicke auf die Download ZIP Schaltfläche](/images/Macro_Work_Features_GitHub_00.png)
 
 Herunterladen in GitHub klicke auf die Download ZIP Schaltfläche
 
-Verwende den ![](/src/assets/images/AddonManager.svg) [Addon-Manager](/Std_AddonMgr/de "Std AddonMgr/de") **Menü → Werkzeuge → Addon-Manager** zur einfachen Installation von WorkFeatures und anderen interessanten Makros
+Verwende den ![](/images/AddonManager.svg) [Addon-Manager](/Std_AddonMgr/de "Std AddonMgr/de") **Menü → Werkzeuge → Addon-Manager** zur einfachen Installation von WorkFeatures und anderen interessanten Makros
 
 Hier geht es zur ausführlichen [Anleitung zur Installation von Makros](/How_to_install_macros/de "How to install macros/de").
 
@@ -131,55 +131,55 @@ Hier geht es zur ausführlichen [Anleitung zur Installation von Makros](/How_to_
 Winkel ist ein Winkel zwischen der Schneidebene und der Referenzebene.
 Dicke ist die Breite der Schnittebene.
 
-- ![](/src/assets/images/CuttingSettings.jpg)
-- ![](/src/assets/images/CuttingResult.jpg)
+- ![](/images/CuttingSettings.jpg)
+- ![](/images/CuttingResult.jpg)
 
 **Execute practical example**
 
-- ![Select the Tab Plane](/src/assets/images/Macro_Work_Features_Cutting_01.png)
+- ![Select the Tab Plane](/images/Macro_Work_Features_Cutting_01.png)
 
   Select the **Tab Plane**
 
-- [![and click the Plane button (you can change the dimensions of the plane (Default: 10 x 10)).](/src/assets/images/Macro_Work_Features_Cutting_02.png)](/File:Macro_Work_Features_Cutting_02.png "and click the Plane button (you can change the dimensions of the plane (Default: 10 x 10)).")
+- [![and click the Plane button (you can change the dimensions of the plane (Default: 10 x 10)).](/images/Macro_Work_Features_Cutting_02.png)](/File:Macro_Work_Features_Cutting_02.png "and click the Plane button (you can change the dimensions of the plane (Default: 10 x 10)).")
 
   and click the Plane button  
    (you can change the dimensions of the plane (**Default: 10 x 10**)).
 
-- [![click you work object. The plane is created tangent of the object (here a cylinder)](/src/assets/images/Macro_Work_Features_Cutting_03.png)](/File:Macro_Work_Features_Cutting_03.png "click you work object. The plane is created tangent of the object (here a cylinder)")
+- [![click you work object. The plane is created tangent of the object (here a cylinder)](/images/Macro_Work_Features_Cutting_03.png)](/File:Macro_Work_Features_Cutting_03.png "click you work object. The plane is created tangent of the object (here a cylinder)")
 
   click you work object. The plane is created tangent of the object (here a cylinder)
 
-- [![click the Tab Modif, and 1 : click your object for cutting 2 : click the Select object button (here the cylinder and then name is displayed)](/src/assets/images/Macro_Work_Features_Cutting_04.png)](/File:Macro_Work_Features_Cutting_04.png "click the Tab Modif, and 1 : click your object for cutting 2 : click the Select object button (here the cylinder and then name is displayed)")
+- [![click the Tab Modif, and 1 : click your object for cutting 2 : click the Select object button (here the cylinder and then name is displayed)](/images/Macro_Work_Features_Cutting_04.png)](/File:Macro_Work_Features_Cutting_04.png "click the Tab Modif, and 1 : click your object for cutting 2 : click the Select object button (here the cylinder and then name is displayed)")
 
   click the Tab Modif, and  
   **1 :** click your object for cutting  
   **2 :** click the Select object button (here the cylinder and then name is displayed)
 
-- [![3 : click your line for cutting your cylinder 4 : click the Select Cut Line (then name is displayed)](/src/assets/images/Macro_Work_Features_Cutting_05.png)](/File:Macro_Work_Features_Cutting_05.png "3 : click your line for cutting your cylinder 4 : click the Select Cut Line (then name is displayed)")
+- [![3 : click your line for cutting your cylinder 4 : click the Select Cut Line (then name is displayed)](/images/Macro_Work_Features_Cutting_05.png)](/File:Macro_Work_Features_Cutting_05.png "3 : click your line for cutting your cylinder 4 : click the Select Cut Line (then name is displayed)")
 
   **3 :** click your line for cutting your cylinder  
   **4 :** click the Select Cut Line (then name is displayed)
 
-- [![5 : click the work plane 6 : click the Select Ref. Plane button (then name is displayed)](/src/assets/images/Macro_Work_Features_Cutting_06.png)](/File:Macro_Work_Features_Cutting_06.png "5 : click the work plane 6 : click the Select Ref. Plane button (then name is displayed)")
+- [![5 : click the work plane 6 : click the Select Ref. Plane button (then name is displayed)](/images/Macro_Work_Features_Cutting_06.png)](/File:Macro_Work_Features_Cutting_06.png "5 : click the work plane 6 : click the Select Ref. Plane button (then name is displayed)")
 
   **5 :** click the work plane  
   **6 :** click the Select Ref. Plane button (then name is displayed)
 
-- ![click the Apply button](/src/assets/images/Macro_Work_Features_Cutting_07.png)
+- ![click the Apply button](/images/Macro_Work_Features_Cutting_07.png)
 
   click the Apply button
 
-- ![The operation is completed and all operations are preserved.](/src/assets/images/Macro_Work_Features_Cutting_08.png)
+- ![The operation is completed and all operations are preserved.](/images/Macro_Work_Features_Cutting_08.png)
 
   The operation is completed and all operations are preserved.
 
-- ![du kannst auch Winkel und Dicke für deinen Schnitt angeben.](/src/assets/images/Macro_Work_Features_Cutting_09.png)
+- ![du kannst auch Winkel und Dicke für deinen Schnitt angeben.](/images/Macro_Work_Features_Cutting_09.png)
 
   du kannst auch Winkel und Dicke für deinen Schnitt angeben.
 
 ### Konzentrische Beschränkung zwischen zwei nicht zylindrischen Teilen
 
-- ![](/src/assets/images/Concentric_Constraint_Between_two_non_cylindrical_parts.gif)
+- ![](/images/Concentric_Constraint_Between_two_non_cylindrical_parts.gif)
 
 |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -187,13 +187,13 @@ Dicke ist die Breite der Schnittebene.
 
 ### Rotationsobjekt
 
-- ![Click the image for see the animation.](/src/assets/images/WorkFeature_Rotation_Object.gif)
+- ![Click the image for see the animation.](/images/WorkFeature_Rotation_Object.gif)
 
   Click the image for see the animation.
 
 ### Ebene auf Flächentangente
 
-- ![Click the image for see the animation. Click the object, click the Face tangent button, click the point on face for create the plane.](/src/assets/images/Macro_Work_Features_PlaneFaceTangent.gif)
+- ![Click the image for see the animation. Click the object, click the Face tangent button, click the point on face for create the plane.](/images/Macro_Work_Features_PlaneFaceTangent.gif)
 
   Click the image for see the animation.  
   Click the object, click the Face tangent button, click the point on face for create the plane.
@@ -214,9 +214,9 @@ Neue Arbeitsbereiche sind in der Entwicklung, bleib dran!
 
 **Symbole :**
 
-![](/src/assets/images/WF_wf.png)
+![](/images/WF_wf.png)
 
-![](/src/assets/images/WF_centerObjectsPlanes.png)
+![](/images/WF_centerObjectsPlanes.png)
 
 **Quellen :**
 

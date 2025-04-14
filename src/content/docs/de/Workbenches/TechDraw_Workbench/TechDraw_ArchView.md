@@ -19,17 +19,17 @@ title: TechDraw ArchAnsicht
 
 ## Beschreibung
 
-Das Werkzeug **TechDraw ArchAnsicht** fügt eine Arch-Ansicht, eine Ansicht einer ![](/src/assets/images/Arch_SectionPlane.svg) [Arch Schnittebene](/Arch_SectionPlane/de "Arch SectionPlane/de"), auf einem [TechDraw Zeichnungsblatt](/TechDraw_PageDefault/de "TechDraw PageDefault/de") ein.
+Das Werkzeug **TechDraw ArchAnsicht** fügt eine Arch-Ansicht, eine Ansicht einer ![](/images/Arch_SectionPlane.svg) [Arch Schnittebene](/Arch_SectionPlane/de "Arch SectionPlane/de"), auf einem [TechDraw Zeichnungsblatt](/TechDraw_PageDefault/de "TechDraw PageDefault/de") ein.
 
 [eingeführt in 1.0](/Release_notes_1.0/de "Release notes 1.0/de"): Auch das Werkzeug [TechDraw Ansicht](/TechDraw_View/de "TechDraw View/de") kann eine Arch-Ansicht erstellen.
 
-![](/src/assets/images/TechDraw_Arch_example.jpg)
+![](/images/TechDraw_Arch_example.jpg)
 
 ## Anwendung
 
 1. Eine Arch-Schnittebene in der [3D-Ansicht](/3D_view/de "3D view/de") oder der [Baumansicht](/Tree_view/de "Tree view/de") auswählen.
 2. Wenn mehrere Zeichnungsblätter im Dokument vorhanden sind: Wahlweise das gewünschte Zeichnungsblatt durch Auswahl in der [Baumansicht](/Tree_view/de "Tree view/de") zur Auswahl hinzufügen.
-   - Den Menüeintrag **TechDraw → Ansichten von anderen Arbeitsbereichen → ![](/src/assets/images/TechDraw_ArchView.svg) Objekt des Arbeitsbereichs BIM einfügen** auswählen.
+   - Den Menüeintrag **TechDraw → Ansichten von anderen Arbeitsbereichen → ![](/images/TechDraw_ArchView.svg) Objekt des Arbeitsbereichs BIM einfügen** auswählen.
 3. Wenn mehrere Zeichnungsblätter im Dokument vorhanden sind und kein Blatt im [Hauptansichtsbereich](/Main_view_area/de "Main view area/de") angezeigt wird und außerdem noch kein Blatt aktiviert wurde, wird das Dialogfenster **Blattauswahl** geöffnet:
    1. Das gewünschte Blatt auswählen.
    2. Die Schaltfläche OK drücken.
@@ -46,11 +46,11 @@ Das Werkzeug **TechDraw ArchAnsicht** fügt eine Arch-Ansicht, eine Ansicht eine
 
 : Die Abbildung unten veranschaulicht den Unterschied zwischen den beiden Rendermodi:
 
-: ![](/src/assets/images/TechDraw_Arch_rendering.jpg)
+: ![](/images/TechDraw_Arch_rendering.jpg)
 
 - Nur die Basislinie von [Arch-Rohren](/Arch_Pipe/de "Arch Pipe/de") wird gerendert, nicht das volle Volumen des Rohrs:
 
-: ![](/src/assets/images/TechDraw_Arch_piping.jpg)
+: ![](/images/TechDraw_Arch_piping.jpg)
 
 ## Hinweise
 

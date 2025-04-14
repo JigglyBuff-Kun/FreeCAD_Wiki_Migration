@@ -14,14 +14,14 @@ The intention of this page is to serve as a guide for users that are accustomed 
 
 Understanding a little of the history of FreeCAD may help users comprehend it better:
 
-- FreeCAD was initially designed to behave parametrically using the [Constructive solid geometry](/Constructive_solid_geometry "Constructive solid geometry") method (see the ![](/src/assets/images/Workbench_Part.svg) [Part Workbench](/Part_Workbench "Part Workbench")).
-- Later it incorporated the [Feature editing](/Feature_editing "Feature editing") method with the ![](/src/assets/images/Workbench_PartDesign.svg) [PartDesign Workbench](/PartDesign_Workbench "PartDesign Workbench"). SolidWorks also uses this approach.
+- FreeCAD was initially designed to behave parametrically using the [Constructive solid geometry](/Constructive_solid_geometry "Constructive solid geometry") method (see the ![](/images/Workbench_Part.svg) [Part Workbench](/Part_Workbench "Part Workbench")).
+- Later it incorporated the [Feature editing](/Feature_editing "Feature editing") method with the ![](/images/Workbench_PartDesign.svg) [PartDesign Workbench](/PartDesign_Workbench "PartDesign Workbench"). SolidWorks also uses this approach.
 
 ## Tips
 
 The [PartDesign Workbench](/PartDesign_Workbench "PartDesign Workbench") has many functions that are equivalent to SolidWorks. The image below identifies equivalent functions and their names on each platform, as well as functions that are unique to each platform.
 
-![](/src/assets/images/Features_and_Part_Design.png)
+![](/images/Features_and_Part_Design.png)
 
 A comparison between FreeCAD and SolidWorks. Click the image for a higher resolution.
 

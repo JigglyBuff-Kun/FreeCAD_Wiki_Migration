@@ -26,7 +26,7 @@ In 0.21 and below the seventh page, Help, is only available if the [Help Addon](
 
 ### General
 
-![](/src/assets/images/Preferences_General_Page_General.png)
+![](/images/Preferences_General_Page_General.png)
 
 On this page you can specify the following:
 
@@ -51,7 +51,7 @@ On this page you can specify the following:
 
 ### Document
 
-![](/src/assets/images/Preferences_General_Page_Document.png)
+![](/images/Preferences_General_Page_Document.png)
 
 On this page you can specify the following:
 
@@ -77,7 +77,7 @@ On this page you can specify the following:
 
 ### Selection
 
-![](/src/assets/images/Preferences_General_Page_Selection.png)
+![](/images/Preferences_General_Page_Selection.png)
 
 On this page you can specify the following:
 
@@ -94,7 +94,7 @@ On this page you can specify the following:
 
 ### Cache
 
-![](/src/assets/images/Preferences_General_Page_Cache.png)
+![](/images/Preferences_General_Page_Cache.png)
 
 These preferences are related to the cache directory where FreeCAD stores temporary files.
 
@@ -109,7 +109,7 @@ On this page you can specify the following:
 
 ### Notification Area
 
-![](/src/assets/images/Preferences_General_Page_Notification_Area.png)
+![](/images/Preferences_General_Page_Notification_Area.png)
 
 These preferences control the Notification Area and its notifications.
 
@@ -132,7 +132,7 @@ On this page ([introduced in 0.21](/Release_notes_0.21 "Release notes 0.21")) yo
 
 ### Report view
 
-![](/src/assets/images/Preferences_General_Page_Report_view.png)
+![](/images/Preferences_General_Page_Report_view.png)
 
 These preferences control the behavior of the [Report view](/Report_view "Report view"). This panel can be opened using the **View → Panels → Report view** menu option.
 
@@ -160,7 +160,7 @@ On this page you can specify the following:
 
 ### Help
 
-![](/src/assets/images/Preferences_General_Page_Help.png)
+![](/images/Preferences_General_Page_Help.png)
 
 On this page you can specify the following:
 
@@ -176,7 +176,7 @@ This preferences group has six standard pages: 3D View, Light Sources, UI, Navig
 
 ### 3D View
 
-![](/src/assets/images/Preferences_Display_Page_3D_View.png)
+![](/images/Preferences_Display_Page_3D_View.png)
 
 On this page you can specify the following:
 
@@ -199,7 +199,7 @@ On this page you can specify the following:
 
 [introduced in 1.0](/Release_notes_1.0 "Release notes 1.0")
 
-![](/src/assets/images/Preferences_Display_Page_Light_Sources.png)
+![](/images/Preferences_Display_Page_Light_Sources.png)
 
 On this page you can specify the following:
 
@@ -213,11 +213,11 @@ On this page you can specify the following:
 
 [introduced in 1.0](/Release_notes_1.0 "Release notes 1.0")
 
-![](/src/assets/images/Preferences_Display_Page_UI.png)
+![](/images/Preferences_Display_Page_UI.png)
 
 ### Navigation
 
-![](/src/assets/images/Preferences_Display_Page_Navigation.png)
+![](/images/Preferences_Display_Page_Navigation.png)
 
 On this page you can specify the following:
 
@@ -238,7 +238,7 @@ On this page you can specify the following:
 
 ### Colors
 
-![](/src/assets/images/Preferences_Display_Page_Colors.png)
+![](/images/Preferences_Display_Page_Colors.png)
 
 On this page you can specify the following:
 
@@ -256,11 +256,11 @@ On this page you can specify the following:
 
 [introduced in 1.0](/Release_notes_1.0 "Release notes 1.0")
 
-![](/src/assets/images/Preferences_Display_Page_Advanced.png)
+![](/images/Preferences_Display_Page_Advanced.png)
 
 ### Mesh view
 
-![](/src/assets/images/Preferences_Display_Page_Mesh_view.png)
+![](/images/Preferences_Display_Page_Mesh_view.png)
 
 This page is only available if the [Mesh Workbench](/Mesh_Workbench "Mesh Workbench") has been loaded.
 
@@ -283,7 +283,7 @@ This preferences group has a single page: Available Workbenches.
 
 ### Available Workbenches
 
-![](/src/assets/images/Preferences_Workbenches_Page_Available_Workbenches.png)
+![](/images/Preferences_Workbenches_Page_Available_Workbenches.png)
 
 These preferences control workbench loading.
 
@@ -303,7 +303,7 @@ This preferences group ([introduced in 0.21](/Release_notes_0.21 "Release notes 
 
 ### Macro
 
-![](/src/assets/images/Preferences_Python_Page_Macro.png)
+![](/images/Preferences_Python_Page_Macro.png)
 
 On this page you can specify the following:
 
@@ -320,7 +320,7 @@ On this page you can specify the following:
 
 ### General
 
-![](/src/assets/images/Preferences_Python_Page_General.png)
+![](/images/Preferences_Python_Page_General.png)
 
 These preferences control the behavior of the [Python console](/Python_console "Python console"). This console can be opened using the **View → Panels → Python console** menu option.
 
@@ -338,7 +338,7 @@ On this page you can specify the following:
 
 ### Editor
 
-![](/src/assets/images/Preferences_Python_Page_Editor.png)
+![](/images/Preferences_Python_Page_Editor.png)
 
 These preferences control the behavior of the [Macro editor](/Std_DlgMacroExecute#Edit "Std DlgMacroExecute"). This editor can be opened using the **Macro → Macros... → Edit** or **Create** menu option.
 
@@ -365,7 +365,7 @@ This preferences group has a single page: Addon manager options.
 
 ### Addon manager options
 
-![](/src/assets/images/Preferences_Addon_Manager_Page_Addon_manager_options.png)
+![](/images/Preferences_Addon_Manager_Page_Addon_manager_options.png)
 
 These preferences control the behavior of the [Addon manager](/Std_AddonMgr "Std AddonMgr").
 
@@ -402,7 +402,7 @@ This preferences group has a single page: Appearance.
 
 ### Appearance
 
-![](/src/assets/images/Preferences_Measure_Page_Appearance.png)
+![](/images/Preferences_Measure_Page_Appearance.png)
 
 On this page you can specify the following:
 

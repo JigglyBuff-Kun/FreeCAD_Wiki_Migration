@@ -60,7 +60,7 @@ webbrowser.open("https://raw.githubusercontent.com/FreeCAD/FreeCAD-macros/master
 
 <class="rawcodeurl"><a href="<https://raw.githubusercontent.com/FreeCAD/FreeCAD-macros/master/ObjectCreation/ScrewMaker.FCMacro>">raw code</a>
 
-![](/src/assets/images/Macro_screw_maker_01.png)
+![](/images/Macro_screw_maker_01.png)
 
 Screw maker
 
@@ -70,11 +70,11 @@ Screw maker
 2. Wird ein Kreis an einem Loch ausgewählt oder alternativ die Innenfläche eines kreisförmigen Lochs und gleichzeitig der Rand des Lochs, wird die Schraube mit der Schaltfläche Erstellen in das Loch eingefügt.
 3. Es gibt einen Nachrichtentext, der anzeigt, wenn die ausgewählte Kombination von Eigenschaften nicht zur Verfügung steht.
 
-- ![Interface of screw_maker and a few types of screws.](/src/assets/images/Macro_screw_maker_02.png)
+- ![Interface of screw_maker and a few types of screws.](/images/Macro_screw_maker_02.png)
 
   Interface of **screw_maker** and a few types of screws.
 
-- ![A screw with thread](/src/assets/images/Macro_screw_maker_03.png)
+- ![A screw with thread](/images/Macro_screw_maker_03.png)
 
   A screw with thread
 
@@ -84,7 +84,7 @@ Die Erstellung des Gewindes dauert einige Zeit. Seien Sie geduldig und sehen Sie
 
 Die neueste Version des Makros finden Sie unter [ScrewMaker.FCMacro](https://github.com/FreeCAD/FreeCAD-macros/blob/master/ObjectCreation/ScrewMaker.FCMacro), aber der einfachste Weg, dieses Makro zu installieren, ist mit dem [Addon-Manager](/Std_AddonMgr/de "Std AddonMgr/de").
 
-Werkzeugleistensymbol ![](/src/assets/images/Macro_screw_maker1_2.png)
+Werkzeugleistensymbol ![](/images/Macro_screw_maker1_2.png)
 
 **Macro_screw_maker_2.FCMacro**
 

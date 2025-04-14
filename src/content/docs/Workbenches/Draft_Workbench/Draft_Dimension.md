@@ -19,13 +19,13 @@ title: Draft Dimension
 
 ## Description
 
-The ![](/src/assets/images/Draft_Dimension.svg) **Draft Dimension** command creates a [linear dimension](#Linear_dimension), a [radial dimension](#Radial_dimension) or an [angular dimension](#Angular_dimension).
+The ![](/images/Draft_Dimension.svg) **Draft Dimension** command creates a [linear dimension](#Linear_dimension), a [radial dimension](#Radial_dimension) or an [angular dimension](#Angular_dimension).
 
 Linear dimensions based on edges and radial dimensions are parametric. This means that they will update if the measured edge is modified. Measured edges can belong to Draft objects but also to solid bodies. Angular dimensions are not parametric.
 
 Draft Dimensions can be displayed on a [TechDraw Workbench](/TechDraw_Workbench "TechDraw Workbench") page using the [TechDraw DraftView](/TechDraw_DraftView "TechDraw DraftView") or [TechDraw ArchView](/TechDraw_ArchView "TechDraw ArchView") commands. Alternatively the [TechDraw Workbench](/TechDraw_Workbench "TechDraw Workbench") offer its own dimension commands. But these create dimensions that are only displayed on the drawing page and not in the [3D view](/3D_view "3D view").
 
-![](/src/assets/images/Screenshot_Draft_Dimension.jpg)
+![](/images/Screenshot_Draft_Dimension.jpg)
 
 Linear dimension defined by three points
 
@@ -37,19 +37,19 @@ See also: [Draft Tray](/Draft_Tray "Draft Tray"), [Draft Snap](/Draft_Snap "Draf
 
 1. Optionally select a straight edge in the [3D view](/3D_view "3D view").
 2. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/Draft_Dimension.svg) [Dimension](/Draft_Dimension "Draft Dimension") button.
-   - Select the **Annotation → ![](/src/assets/images/Draft_Dimension.svg) Dimension** option from the menu.
+   - Press the ![](/images/Draft_Dimension.svg) [Dimension](/Draft_Dimension "Draft Dimension") button.
+   - Select the **Annotation → ![](/images/Draft_Dimension.svg) Dimension** option from the menu.
    - Use the keyboard shortcut: D then I.
 3. The **Dimension** task panel opens. See [Options](#Options) for more information.
 4. If you have not yet selected an edge do one of the following:
-   - Press E or the ![](/src/assets/images/View-select.svg) Select edge button and select a straight edge in the [3D view](/3D_view "3D view").
+   - Press E or the ![](/images/View-select.svg) Select edge button and select a straight edge in the [3D view](/3D_view "3D view").
    - Hold down the Alt key, select a straight edge in the [3D view](/3D_view "3D view") and release the Alt key.
    - Define the measured distance by picking points:
-     - Pick a first point in the [3D view](/3D_view "3D view"), or type coordinates and press the ![](/src/assets/images/Draft_AddPoint.svg) Enter point button.
-     - Pick a second point in the [3D view](/3D_view "3D view"), or type coordinates and press the ![](/src/assets/images/Draft_AddPoint.svg) Enter point button.
+     - Pick a first point in the [3D view](/3D_view "3D view"), or type coordinates and press the ![](/images/Draft_AddPoint.svg) Enter point button.
+     - Pick a second point in the [3D view](/3D_view "3D view"), or type coordinates and press the ![](/images/Draft_AddPoint.svg) Enter point button.
 5. To position the dimension line do one of the following:
    - For an aligned dimension:
-     - Pick a point in the [3D view](/3D_view "3D view"), or type coordinates and press the ![](/src/assets/images/Draft_AddPoint.svg) Enter point button.
+     - Pick a point in the [3D view](/3D_view "3D view"), or type coordinates and press the ![](/images/Draft_AddPoint.svg) Enter point button.
    - For a horizontal dimension:
      - Move the pointer above or below the edge or points.
      - Hold down the Shift key, move the pointer and pick a point in the [3D view](/3D_view "3D view").
@@ -63,11 +63,11 @@ See also: [Draft Tray](/Draft_Tray "Draft Tray"), [Draft Snap](/Draft_Snap "Draf
 2. Invoke the command as explained above.
 3. The **Dimension** task panel opens. See [Options](#Options) for more information.
 4. If you have not yet selected an edge do one of the following:
-   - Press E or the ![](/src/assets/images/View-select.svg) Select edge button and select a circular edge in the [3D view](/3D_view "3D view").
+   - Press E or the ![](/images/View-select.svg) Select edge button and select a circular edge in the [3D view](/3D_view "3D view").
    - Hold down the Alt key, select a circular edge in the [3D view](/3D_view "3D view") and release the Alt key.
 5. To position the dimension line do one of the following:
    - For a diameter dimension:
-     - Pick a point in the [3D view](/3D_view "3D view"), or type coordinates and press the ![](/src/assets/images/Draft_AddPoint.svg) Enter point button.
+     - Pick a point in the [3D view](/3D_view "3D view"), or type coordinates and press the ![](/images/Draft_AddPoint.svg) Enter point button.
    - For a radial dimension:
      - Hold down the Shift key and pick a point in the [3D view](/3D_view "3D view").
 
@@ -76,7 +76,7 @@ See also: [Draft Tray](/Draft_Tray "Draft Tray"), [Draft Snap](/Draft_Snap "Draf
 1. Invoke the command as explained above.
 2. The **Dimension** task panel opens. See [Options](#Options) for more information.
 3. Do one of the following:
-   - Press E or the ![](/src/assets/images/View-select.svg) Select edge button and select a first straight edge in the [3D view](/3D_view "3D view"). Repeat this to select a second straight edge.
+   - Press E or the ![](/images/View-select.svg) Select edge button and select a first straight edge in the [3D view](/3D_view "3D view"). Repeat this to select a second straight edge.
    - Hold down the Alt key, select two straight edges in the [3D view](/3D_view "3D view") and release the Alt key.
 4. To position the dimension arc pick a point in the [3D view](/3D_view "3D view").
 5. The displayed angle depends on the edges and the picked point.
@@ -85,7 +85,7 @@ See also: [Draft Tray](/Draft_Tray "Draft Tray"), [Draft Snap](/Draft_Snap "Draf
 
 The single character keyboard shortcuts available in the task panel can be changed. See [Draft Preferences](/Draft_Preferences "Draft Preferences"). The shortcuts mentioned here are the default shortcuts (for version 1.0).
 
-- To manually enter coordinates enter the X, Y and Z component, and press Enter after each. Or you can press the ![](/src/assets/images/Draft_AddPoint.svg) Enter point button when you have the desired values. It is advisable to move the pointer out of the [3D view](/3D_view "3D view") before entering coordinates.
+- To manually enter coordinates enter the X, Y and Z component, and press Enter after each. Or you can press the ![](/images/Draft_AddPoint.svg) Enter point button when you have the desired values. It is advisable to move the pointer out of the [3D view](/3D_view "3D view") before entering coordinates.
 - Press R or click the **Relative** checkbox to toggle relative mode. If relative mode is on, coordinates are relative to the last point, if available, else they are relative to the coordinate system origin.
 - Press G or click the **Global** checkbox to toggle global mode. If global mode is on, coordinates are relative to the global coordinate system, else they are relative to the [working plane](/Draft_SelectPlane "Draft SelectPlane") coordinate system.
 - Press N or click the **Continue** checkbox to toggle continue mode. This mode only works for linear dimensions. If continue mode is on, the command will restart after finishing, allowing you to continue creating dimensions. All subsequent dimensions will start from the final point of the previous dimension, and will use the same baseline as the first dimension. Note that edge selection is not possible for subsequent dimensions.

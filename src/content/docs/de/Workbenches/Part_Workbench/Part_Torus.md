@@ -19,17 +19,17 @@ title: Part Torus
 
 ## Beschreibung
 
-Der Befehl ![](/src/assets/images/Part_Torus.svg) **Part Torus** erstellt einen parametrischen Volumenkörper, einen Torus. Er ist das Ergebnis der Austragung eines Kreises entlang eines kreisförmigen Pfades. Im Koordinatensystem durch seine Daten-Eigenschaft**Placement** festgelegt, liegt der kreisförmige Pfad auf der XY-Ebene und seine Mitte im Ursprung.
+Der Befehl ![](/images/Part_Torus.svg) **Part Torus** erstellt einen parametrischen Volumenkörper, einen Torus. Er ist das Ergebnis der Austragung eines Kreises entlang eines kreisförmigen Pfades. Im Koordinatensystem durch seine Daten-Eigenschaft**Placement** festgelegt, liegt der kreisförmige Pfad auf der XY-Ebene und seine Mitte im Ursprung.
 
 Ein Part-Torus kann in ein Torussegment gewandelt werden, durch Änderung der Daten-EigenschaftAngle3 (Umfangswinkel). Durch Änderung der Daten-Eigenschaft**Angle1** und/oder der Daten-Eigenschaft**Angle2** kann das Austragungsprofil in ein Kreissegment geändert werden.
 
-![](/src/assets/images/Part_Torus_Example.png)
+![](/images/Part_Torus_Example.png)
 
 ## Anwendung
 
 1. Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
-   - Die Schaltfläche ![](/src/assets/images/Part_Torus.svg) Torus drücken.
-   - Den Menüeintrag **Part → Grundkörper → ![](/src/assets/images/Part_Torus.svg) Torus** auswählen.
+   - Die Schaltfläche ![](/images/Part_Torus.svg) Torus drücken.
+   - Den Menüeintrag **Part → Grundkörper → ![](/images/Part_Torus.svg) Torus** auswählen.
 2. Der Torus wird erstellt.
 3. Wahlweise die Abmaße und Daten-Eigenschaft**Placement** des Torus anpassen durch eine der folgenden Möglichkeiten:
    - Ein Doppelklick auf das Objekt in der [Baumansicht](/Tree_view/de "Tree view/de"):
@@ -38,11 +38,11 @@ Ein Part-Torus kann in ein Torussegment gewandelt werden, durch Änderung der Da
      3. Das Objekt wird in der [3D-Ansicht](/3D_view/de "3D view/de") dynamisch aktualisiert.
      4. Die Schaltfläche OK drücken.
    - Die Eigenschaften im [Eigenschafteneditor](/Property_editor/de "Property editor/de") ändern.
-   - Die Daten-Eigenschaft**Placement** mit dem Befehl ![](/src/assets/images/Std_TransformManip.svg) [Std Bewegen](/Std_TransformManip/de "Std TransformManip/de") ändern.
+   - Die Daten-Eigenschaft**Placement** mit dem Befehl ![](/images/Std_TransformManip.svg) [Std Bewegen](/Std_TransformManip/de "Std TransformManip/de") ändern.
 
 ## Beispiel
 
-![](/src/assets/images/Part_Torus_Scripting_Example.png)
+![](/images/Part_Torus_Scripting_Example.png)
 
 Part-Torus aus dem Skriptbeispiel
 
@@ -50,7 +50,7 @@ Ein Part-Torus-Objekt, das mit dem [Skriptbeispiel](#Skripten) weiter unten erze
 
 ## Hinweise
 
-- Ein Part kann auch mit dem Befehl ![](/src/assets/images/Part_Primitives.svg) [Part Grundkörper](/Part_Primitives/de "Part Primitives/de") erstellt werden. Mit dem Befehl können die Abmaße und die Positionierung zum Zeitpunkt der Erstellung festgelegt werden.
+- Ein Part kann auch mit dem Befehl ![](/images/Part_Primitives.svg) [Part Grundkörper](/Part_Primitives/de "Part Primitives/de") erstellt werden. Mit dem Befehl können die Abmaße und die Positionierung zum Zeitpunkt der Erstellung festgelegt werden.
 
 ## Eigenschaften
 

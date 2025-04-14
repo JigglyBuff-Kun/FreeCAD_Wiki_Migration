@@ -44,7 +44,7 @@ Siehe auch die folgende Seite für einige Videos über das Ausrichten von Fenste
 
 2. Stelle sicher, dass Deine Einheiten im Menü **Bearbeiten → Einstellungen → Allgemein → Einheiten** korrekt eingestellt sind. Zum Beispiel ist `MKS (m/kg/s/Grad)` gut geeignet, um mit den Abständen in einem typischen Gebäude umzugehen; setze außerdem die Anzahl der Nachkommastellen auf `4`, um auch die kleinsten Teile eines Meters zu berücksichtigen.
 
-3. Benutze die Schaltfläche ![](/src/assets/images/Draft_Grid.svg) [Entwurfsraster ein-/ausschalten](/Draft_ToggleGrid/de "Draft ToggleGrid/de"), um ein Raster mit ausreichender Auflösung einzublenden. Das Erscheinungsbild des Rasters kannst Du im Menü **Bearbeiten → Einstellungen → Draft → Raster und einrasten → Raster** ändern. Setze "Hauptlinien alle" auf `20`, "Rasterabstand" auf `50 mm` und "Rastergröße" auf `1000 Linien` (das Raster wird damit eine Fläche von 50m x 50m abdecken).
+3. Benutze die Schaltfläche ![](/images/Draft_Grid.svg) [Entwurfsraster ein-/ausschalten](/Draft_ToggleGrid/de "Draft ToggleGrid/de"), um ein Raster mit ausreichender Auflösung einzublenden. Das Erscheinungsbild des Rasters kannst Du im Menü **Bearbeiten → Einstellungen → Draft → Raster und einrasten → Raster** ändern. Setze "Hauptlinien alle" auf `20`, "Rasterabstand" auf `50 mm` und "Rastergröße" auf `1000 Linien` (das Raster wird damit eine Fläche von 50m x 50m abdecken).
 
 4. [Zoome im 3D-Ansichtsfenster heraus](/Std_ViewZoomOut/de "Std ViewZoomOut/de"), wenn Du zu nahe am Raster bist.
 
@@ -68,11 +68,11 @@ Jetzt sind wir bereit, ein einfaches Gebäude mit geschlossenen Wänden, 2 Türe
 
 : _Note:_ Wenn die Eigenschaft Daten**Make Face** des Linienzugs `DWire` auf `true` eingestellt ist, wird dieser Schritt einen soliden Block erstellen anstatt nur die Kontur des Linienzugs `DWire` zu nutzen.
 
-![](/src/assets/images/01_T01_wire_wall.png)
+![](/images/01_T01_wire_wall.png)
 
 Basis-Polygon für die Wände; es ist ein geschlossener Linienzug, welcher nicht als Fläche definiert ist
 
-![](/src/assets/images/02_T01_just_wall.png)
+![](/images/02_T01_just_wall.png)
 
 Die aus dem Linienzug konstruierten Wände
 
@@ -83,7 +83,7 @@ Die aus dem Linienzug konstruierten Wände
 : 8.1. Ändere die Fangmethode auf [Mittelpunkt](/Draft_Snap_Midpoint/de "Draft Snap Midpoint/de") und versuche die untere Kante der vorderen Wand auszuwählen. Wenn nötig verdrehe die [Ansicht](/Std_View_Menu/de "Std View Menu/de"), um die Kante und nicht die Wandoberfläche anklicken zu können; wenn der Mittelpunkt aktiv ist, klicke um die Tür zu platzieren.
 : 8.2. Klicke noch einmal auf das Werkzeug [Arch:Fenster](/Arch_Window/de "Arch Window/de") und platziere eine weitere Tür, aber diesmal am Mittelpunkt der rückseitigen Wand; verdrehe dazu die [Ansicht](/Std_View_Menu/de "Std View Menu/de") soweit wie nötig.
 
-![](/src/assets/images/03_T01_wall_place_door_rear.png)
+![](/images/03_T01_wall_place_door_rear.png)
 
 Fangen des Mittelpunktes der unteren Wandkante um die Tür zu platzieren
 
@@ -95,7 +95,7 @@ Fangen des Mittelpunktes der unteren Wandkante um die Tür zu platzieren
 
 : 9.2 Klicke noch einmal auf das Werkzeug [Arch:Fenster](/Arch_Window/de "Arch Window/de") und platziere ein weiteres Fenster, aber diesmal am Mittelpunkt der rechten Wand; verdrehe dazu die [Ansicht](/Std_View_Menu/de "Std View Menu/de") soweit wie nötig. Stelle diesmal die Fensterbreite auf 1,5 m ein und die `Sill height` (Brüstungshöhe) wieder auf 1 m.
 
-![](/src/assets/images/04_T01_wall_place_door_side_right.png)
+![](/images/04_T01_wall_place_door_side_right.png)
 
 Fangen des Mittelpunktes der unteren Wandkante um das Fenster zu platzieren
 
@@ -103,7 +103,7 @@ Fangen des Mittelpunktes der unteren Wandkante um das Fenster zu platzieren
 
 : 9.3. Verschiebe nun des Fenster `Window001` ein Stück höher. Wähle die zugrunde liegende Skizze `Sketch003` aus und ändere seine Daten**Position** von `[3.1 m, 2.0 m, 1.0 m]` auf `[3.1 m, 2.0 m, 1.6 m]`. Das gesamte Fenster `Window001` sollte sich nun nach oben bewegen. Die Wandöffnung kann ggf. noch an seiner vorherigen Position angezeigt werden. Wenn das passiert, klicke mit der rechten Maustaste auf das `Wall`-Element, wähle `Markieren, um neu zu berechnen` aus und drücke dann Ctrl+R um das Modell zu [aktualisieren](/Std_Refresh/de "Std Refresh/de").
 
-![](/src/assets/images/04.1_T01_wall_built.png)
+![](/images/04.1_T01_wall_built.png)
 
 erstellte Wände mit Türen und Fenstern
 
@@ -125,15 +125,15 @@ _Hinweis 2:_ Mitunter wird das Fenster außerhalb der [Wand](/Arch_Wall/de "Arch
 : 11.4. Ändere den `Öffnungsmodus` in Arc 90 oder eine andere Option.
 : 11.5. Klicke auf die Schaltfläche +Erstelle/aktualisiere Komponente und dann Schließen um das Bearbeiten der Tür zu abzuschließen. Der Sketch wird wieder unsichtbar geschaltet.
 
-![](/src/assets/images/05_T01_window_edit.png)
+![](/images/05_T01_window_edit.png)
 
 Dialog zum Bearbeiten eines Fensters oder einer Tür
 
-![](/src/assets/images/06_T01_window_edit_component.png)
+![](/images/06_T01_window_edit_component.png)
 
 Dialog zum Bearbeiten der Einzelkomponenten eines Fensters oder einer Tür
 
-![](/src/assets/images/06.1_T01_window_edit_wire_door_front.png)
+![](/images/06.1_T01_window_edit_wire_door_front.png)
 
 als Gelenk (Scharnier-/Bandseite) einer Tür ausgewählte vertikale Kante des Sketches
 
@@ -143,15 +143,15 @@ als Gelenk (Scharnier-/Bandseite) einer Tür ausgewählte vertikale Kante des Sk
 
 14. Wiederhole nun die Schritte mit der `Tür001` und dem zugrundeliegenden `Sketch001` um diese Tür 75 Grad ins Gebäudeinnere öffnen zu lassen. Aktiviere auch die Symbole in Ansicht und Grundriss.
 
-![](/src/assets/images/07_T01_window_property_view.png)
+![](/images/07_T01_window_property_view.png)
 
 Eigenschaftsdialog der Tür zur Veränderung von Öffnungswinkel, Ansichts- und Grundriss-Symbol sowie anderer Optionen
 
-![](/src/assets/images/08_T01_window_symbol_elevation.png)
+![](/images/08_T01_window_symbol_elevation.png)
 
 Tür mit Öffnungssymbol in Ansicht
 
-![](/src/assets/images/09_T01_window_symbol_plan.png)
+![](/images/09_T01_window_symbol_plan.png)
 
 Tür mit Öffnungssymbol im Grundriss
 
@@ -175,15 +175,15 @@ Tür mit Öffnungssymbol im Grundriss
 19. Wiederhole nun die Schritte mit dem `Window001` und dem zugrundeliegenden `Sketch003`, um dieses Fenster 75 Grad öffnen zu lassen. Aktiviere auch die Symbole in Aufriss und Grundriss.
     Picke diesmal nicht eine vertikale Linie des `InnerFrame` als Scharnier sondern die obere horizontale Linie. Das bedeutet, dass sich dieses Fenster anders öffnet als das andere. Das Aufriss-Symbol wird besser von der [rechten Seitenansicht](/Right_side_view "Right side view") zu sehen sein. Das Grundriss-Symbol wird besser von der [Frontansicht](/Std_ViewFront/de "Std ViewFront/de") zu sehen sein. Falls die Wand den Blick versperren sollte, kannst Du ihre Ansicht**Transparency** auf einen Wert wie 85 ändern, um durch sie hindurch sehen zu können. Alternativ kannst Du den Ansicht**Display Mode** auf `Drahtgitter` ändern, um nur die Kanten anzeigen zu lassen.
 
-![](/src/assets/images/06.2_T01_window_edit_wire_side_right.png)
+![](/images/06.2_T01_window_edit_wire_side_right.png)
 
 als Scharnier für das Fenster ausgewählte horizontale Kante des Sketches
 
-![](/src/assets/images/10_T01_window_all_symbol_axonometric.png)
+![](/images/10_T01_window_all_symbol_axonometric.png)
 
 Auf- und Grundriss-Symbole für alle Elemente, isometrische Darstellung
 
-![](/src/assets/images/11_T01_window_all_symbol_top.png)
+![](/images/11_T01_window_all_symbol_top.png)
 
 Auf- und Grundriss-Symbole für alle Elemente, Draufsicht
 
@@ -193,7 +193,7 @@ Auf- und Grundriss-Symbole für alle Elemente, Draufsicht
 
 _Hinweis:_ Ändere die Eigenschaft Ansicht**Arrow size** der Schnittebene auf einen größeren Wert, zum Beispiel auf `200 mm`, damit die Blickrichtung des Schnittes in der 3D-Ansicht klarer sichtbar ist.
 
-![](/src/assets/images/11.1_T01_Arch_SectionPlane_all.png)
+![](/images/11.1_T01_Arch_SectionPlane_all.png)
 
 Schnittebene, welche solide Objekte einschl. Wände, Türen und Fenster durchschneidet
 
@@ -203,7 +203,7 @@ Schnittebene, welche solide Objekte einschl. Wände, Türen und Fenster durchsch
 
 23. Wähle das `ArchView`-Objekt und ändere die Eigenschaft Daten**Scale** auf `0.02`, was gleichbedeutend mit 1:50 ist, einem gebräuchlichen Maßstab für typische Gebäude. Das bedeutet, dass jeder Meter im Modell als 20mm auf der Seite dargestellt wird. Das Objekt sollte im Zentrum der Seite auftauchen und kann auf eine bessere Position am linken Rand bewegt werden. Es sollten beide Türen geöffnet dargestellt sein, jedoch nur das linke Fenster. Der Grund dafür, dass das rechte Fenster in dieser Projektion nicht erscheint, liegt darin, dass die durch `Section` definierte Ebene dieses Fenster im Modell nicht schneidet.
 
-![Section view of the building, A4 sheet, scale 1:50](/src/assets/images/12_T01_TechDraw_window_all_symbols.png)
+![Section view of the building, A4 sheet, scale 1:50](/images/12_T01_TechDraw_window_all_symbols.png)
 
 Section view of the building, A4 sheet, scale 1:50
 
@@ -216,7 +216,7 @@ Schnittebene, welche solide Objekte einschl. Wände, Türen und Fenster durchsch
 
 _Hinweis:_ Setze Daten**All On** für [TechDraw:ArchView](/TechDraw_ArchView "TechDraw ArchView")-Objekte auf `true`, damit alle von der Schnittebene geschnittenen Elemente in der TechDraw-Seite sichtbar sind, unabhängig von ihrem Sichtbarkeits-Status in der 3D-Modellansicht. Des Weiteren kann die Option Daten**Show Fill** auf `true` gesetzt werden, um die Schnittflächen der von der Ebene geschnittenen Körper schattiert darzustellen.
 
-![](/src/assets/images/13_T01_TechDraw_window_all_symbols_higher.png)
+![](/images/13_T01_TechDraw_window_all_symbols_higher.png)
 
 Schnittansicht des Gebäudes, mit einer zweiten Schnittdarstellung, Format DIN A4 , Maßstab 1:50
 
@@ -227,13 +227,13 @@ Schnittansicht des Gebäudes, mit einer zweiten Schnittdarstellung, Format DIN A
 : 25.1. Drehe die `Section002`, so dass sie das Gebäude vertikal durchschneidet. Ändere dazu die Eigenschaften Daten**Axis** auf `[1, 0, 0]` sowie Daten**Angle** auf `90`.
 : 25.2. Ändere Daten**Position** auf `[1.5 m, -1 m, 1.5 m]`, so dass die Ebene dann vor dem Gebäude liegt.
 
-![](/src/assets/images/14.1_T01_Arch_SectionPlane_three.png)
+![](/images/14.1_T01_Arch_SectionPlane_three.png)
 
 Schnittebenen, welche die massiven Objekte schneiden bzw. auf das Gebäude schauen
 
 26. Gehe zurück zum [TechDraw-Arbeitsbereich](/TechDraw_Workbench/de "TechDraw Workbench/de") und benutze das Werkzeug [Arch:Ansicht](/TechDraw_ArchView/de "TechDraw ArchView/de") mit `Section002`; denke daran, den Maßstab auf `0.02` (1:50) einzustellen. Ändere Daten**Rotation** auf `-90`, um die Ausrichtung der Projektion zu korrigieren. Ordne den `ArchView002` neben den anderen Ansichten auf der Seite an. Diese dritte Projektion schaut von vorn auf das Gebäude.
 
-![](/src/assets/images/14_T01_TechDraw_window_all_symbols_elevation.png)
+![](/images/14_T01_TechDraw_window_all_symbols_elevation.png)
 
 Schnittansicht des Gebäudes, mit zwei Draufsichten und einem Aufriss, Format DIN A4, Maßstab 1:50
 

@@ -8,7 +8,7 @@ Der Hauptzweck einer technischen Zeichnung besteht darin, dass andere verstehen,
 
 Nimm zum Beispiel dieses Teil:
 
-![](/src/assets/images/TechDraw_Hole-Position-Example.png)
+![](/images/TechDraw_Hole-Position-Example.png)
 
 In der Anwendung soll eine Achse durch die zwei Löcher des Bauteils gelegt werden. Das heißt, dass wir die folgenden Dinge festlegen müssen:
 
@@ -62,9 +62,9 @@ With the properties Daten**X** and Daten**Y** you can change the horizontal and 
 1. Ein [Maß](/TechDraw_Workbench/de#Maße "TechDraw Workbench/de") in der Zeichnung eintragen.
 2. Entweder das Maß in der Zeichnung oder das Dimension-Objekt in der Baumansicht doppelklicken.
 3. In dem geöffneten Dialog Maßeintrag wird unter Oberes Abmaß der Wert angegeben, um den eine Abmessung das (Nenn-) Maß überschreiten darf.  
-   Dies ergibt eine symmetrische Toleranz, wie diese: ![](/src/assets/images/TechDraw_equal-tolerance.png)
+   Dies ergibt eine symmetrische Toleranz, wie diese: ![](/images/TechDraw_equal-tolerance.png)
 4. Für unterschiedliche Abmaße wird unter Unteres Abmaß der Wert angegeben, um den eine Abmessung das (Nenn-) Maß unterschreiten darf und die Option "Symmetrische Toleranz" wird deaktiviert.  
-   Dies ergibt eine Toleranz mit unterschiedlichen Abmaßen, wie diese: ![](/src/assets/images/TechDraw_Non-equal-tolerance.png)
+   Dies ergibt eine Toleranz mit unterschiedlichen Abmaßen, wie diese: ![](/images/TechDraw_Non-equal-tolerance.png)
 
 #### Entfernen
 
@@ -84,7 +84,7 @@ Geometrische Toleranzen werden mit der Funktion [Hinweisfeld einfügen](/TechDra
 
 ### Toleranzrahmen
 
-![](/src/assets/images/TechDraw_GD%26T-Toleranced-rod.png)
+![](/images/TechDraw_GD%26T-Toleranced-rod.png)
 
 Beispiel einer tolerierten Stange. (Der Gesamtlauf beinhaltet schon die Geradheit; sie ist hier nur als Beispiel hinzugefügt.)
 
@@ -110,7 +110,7 @@ Datums in the GD&T sense of the meaning are surfaces your tolerance is relative 
 - drag the bubble with the mouse so that the triangle points away from the datum surface.
 - since it is common to have a straight line for datums unless the datum surface is not perpendicular to X or Y, assure that either the properties Daten**X** and Daten**Origin X** or Daten**Y** and Daten**Origin Y** are equal to get a straight Balloon line.
 
-![](/src/assets/images/TechDraw_GD%26T-Datum.png)
+![](/images/TechDraw_GD%26T-Datum.png)
 
 Beispiel eines Bezuges auf der Zeichnung
 

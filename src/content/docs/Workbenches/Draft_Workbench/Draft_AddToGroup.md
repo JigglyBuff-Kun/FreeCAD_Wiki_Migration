@@ -19,18 +19,18 @@ title: Draft AddToGroup
 
 ## Description
 
-The ![](/src/assets/images/Draft_AddToGroup.svg) **Draft AddToGroup** command adds objects to a [Std Group](/Std_Group "Std Group") or a group-like [BIM](/BIM_Workbench "BIM Workbench") object. It can also ungroup objects.
+The ![](/images/Draft_AddToGroup.svg) **Draft AddToGroup** command adds objects to a [Std Group](/Std_Group "Std Group") or a group-like [BIM](/BIM_Workbench "BIM Workbench") object. It can also ungroup objects.
 
 ## Usage
 
 1. Select one or more objects.
 2. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/Draft_AddToGroup.svg) [Add to group...](/Draft_AddToGroup "Draft AddToGroup") button.
-   - Select the **Utilities → ![](/src/assets/images/Draft_AddToGroup.svg) Add to group...** option from the menu, or from the [Tree view](/Tree_view "Tree view") or [3D view](/3D_view "3D view") context menu.
+   - Press the ![](/images/Draft_AddToGroup.svg) [Add to group...](/Draft_AddToGroup "Draft AddToGroup") button.
+   - Select the **Utilities → ![](/images/Draft_AddToGroup.svg) Add to group...** option from the menu, or from the [Tree view](/Tree_view "Tree view") or [3D view](/3D_view "3D view") context menu.
 3. A menu is displayed near the cursor. Do one of the following:
-   - Select **![](/src/assets/images/List-remove.svg) Ungroup** to remove the objects from the group they are in.
+   - Select **![](/images/List-remove.svg) Ungroup** to remove the objects from the group they are in.
    - Select the group you want to add the objects to.
-   - Select **![](/src/assets/images/List-add.svg) Add to new group...** to add the objects to a new group:
+   - Select **![](/images/List-add.svg) Add to new group...** to add the objects to a new group:
      1. The **Create new group** dialog box opens. [introduced in 1.1](/Release_notes_1.1 "Release notes 1.1")
      2. Enter a **Group name**.
      3. Press the OK button.

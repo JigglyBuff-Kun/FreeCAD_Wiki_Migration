@@ -23,15 +23,15 @@ This documentation is not finished. Please help and contribute documentation.Gui
 
 ## Description
 
-The ![](/src/assets/images/Curves_Pipeshell.svg) [Curves Pipeshell](/Curves_Pipeshell "Curves Pipeshell") creates a Pipeshell sweep object. This tool is part of the [external workbench](/External_workbenches "External workbenches") called [Curves](/Curves_Workbench "Curves Workbench").
+The ![](/images/Curves_Pipeshell.svg) [Curves Pipeshell](/Curves_Pipeshell "Curves Pipeshell") creates a Pipeshell sweep object. This tool is part of the [external workbench](/External_workbenches "External workbenches") called [Curves](/Curves_Workbench "Curves Workbench").
 
 ## Usage
 
-1. Switch to the ![](/src/assets/images/Curves_workbench_icon.svg) [Curves](/Curves_Workbench "Curves Workbench") workbench (install from ![](/src/assets/images/Std_AddonMgr.svg) [Addon Manager](/Std_AddonMgr "Std AddonMgr") is necessary, if not previously installed)
+1. Switch to the ![](/images/Curves_workbench_icon.svg) [Curves](/Curves_Workbench "Curves Workbench") workbench (install from ![](/images/Std_AddonMgr.svg) [Addon Manager](/Std_AddonMgr "Std AddonMgr") is necessary, if not previously installed)
 2. Select the edge that builds the sweep path in the [3D view](/3D_view "3D view")
 3. Select one or more required profiles in the [Tree view](/Tree_view "Tree view")
 4. To invoke the command, do one of the following:
-   - Press the ![](/src/assets/images/Curves_Pipeshell.svg) [Creates a Pipeshell sweep object](/Curves_Pipeshell "Curves Pipeshell") button in the tool bar
+   - Press the ![](/images/Curves_Pipeshell.svg) [Creates a Pipeshell sweep object](/Curves_Pipeshell "Curves Pipeshell") button in the tool bar
    - Use the **Surfaces → Pipeshell**
 5. Change the `Pipeshell` parameter to the required conditions
 

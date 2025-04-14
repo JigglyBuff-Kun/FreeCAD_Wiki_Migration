@@ -98,8 +98,8 @@ Defines a heat flux load on a surface. The following heat flux types are support
 ## Usage
 
 1. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/FEM_ConstraintHeatflux.svg) [Heat flux load](/FEM_ConstraintHeatflux "FEM ConstraintHeatflux") button.
-   - Select the **Model → Thermal boundary conditions and loads → ![](/src/assets/images/FEM_ConstraintHeatflux.svg) Heat flux load** option from the menu.
+   - Press the ![](/images/FEM_ConstraintHeatflux.svg) [Heat flux load](/FEM_ConstraintHeatflux "FEM ConstraintHeatflux") button.
+   - Select the **Model → Thermal boundary conditions and loads → ![](/images/FEM_ConstraintHeatflux.svg) Heat flux load** option from the menu.
 2. Click the Add button. In the [3D view](/3D_view "3D view") select the face(s) on which the heat flux load should be applied. Optionally, click the Remove button to remove the selected faces from the selection list.
 3. Choose the heat flux type and specify its parameters:
    - _DFlux_ - general heat flux, enter the _Surface Heat Flux_ in Watts per surface area (W/m^2)

@@ -23,7 +23,7 @@ Insert new LuxRender project in the document.
 
 ## Usage
 
-1. Click on the black "down"-icon after ![](/src/assets/images/Raytracing_Lux.svg) to select between the different pre-defined templates
+1. Click on the black "down"-icon after ![](/images/Raytracing_Lux.svg) to select between the different pre-defined templates
 2. Or choose Raytracing → New Luxrender project and one of the pre-defined templates from the top menu.
 3. A new LuxRender project will be created named "LuxProject"
 

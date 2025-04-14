@@ -23,11 +23,11 @@ This simple calculator determines the minimum average thrust required to maintai
 
 ## Usage
 
-![](/src/assets/images/Calc_thrust_to_weight.png)
+![](/images/Calc_thrust_to_weight.png)
 
 1. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/Rocket_Calculator.svg) [Thrust To Weight Calculator](/Rocket_Thrust_To_Weight_Calculator "Rocket Thrust To Weight Calculator") button.
-   - Select the **Rocket → Calculators → ![](/src/assets/images/Rocket_Calculator.svg) Thrust To Weight Calculator** option from the menu.
+   - Press the ![](/images/Rocket_Calculator.svg) [Thrust To Weight Calculator](/Rocket_Thrust_To_Weight_Calculator "Rocket Thrust To Weight Calculator") button.
+   - Select the **Rocket → Calculators → ![](/images/Rocket_Calculator.svg) Thrust To Weight Calculator** option from the menu.
 2. Enter the weight of your rocket.
 
 ## Calculation

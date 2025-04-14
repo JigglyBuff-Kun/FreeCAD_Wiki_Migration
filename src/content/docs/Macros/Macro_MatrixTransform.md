@@ -131,7 +131,7 @@ This can cause all sorts of trouble. Use only if absolutely necessary.
 
 ## Script
 
-ToolBar Icon ![](/src/assets/images/Macro_MatrixTransform.png)
+ToolBar Icon ![](/images/Macro_MatrixTransform.png)
 
 **MatrixTransform.py:**
 

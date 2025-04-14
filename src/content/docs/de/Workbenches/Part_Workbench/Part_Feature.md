@@ -4,13 +4,13 @@ title: Part Formelement
 
 ## Einleitung
 
-![](/src/assets/images/Part_3D_object.svg)
+![](/images/Part_3D_object.svg)
 
 Ein Part Formelement-Objekt, oder formal ein `Part:: Feature`, ist ein einfaches Element mit einer [topologischen Form](/Part_TopoShape/de "Part TopoShape/de"), das in der [3D-Ansicht](/3D_view/de "3D view/de") angezeigt werden kann.
 
 Das Part-Formelement ist die Elternklasse der meisten 2D-(Draft-, Sketcher-) und 3D- (Part-, PartDesign-) Objekte, mit Ausnahme von Polygonnetzen, die normalerweise auf dem[Mesh Formelement](/Mesh_Feature/de "Mesh Feature/de") oder dem [FEM Polygonnetz](/FEM_Mesh/de "FEM Mesh/de")-Objekt für FEM-Objekte basieren.
 
-![](/src/assets/images/FreeCAD_core_objects.svg)
+![](/images/FreeCAD_core_objects.svg)
 
 Vereinfachtes Diagramm der Beziehungen zwischen den Kernobjekten in FreeCAD
 
@@ -59,7 +59,7 @@ Anzeigeoptionen
 
 - Ansicht**Bounding Box** (`Bool`): if it is `true`, the object will show the bounding box in the [3D view](/3D_view "3D view").
 - Ansicht**Display Mode** (`Enumeration`): `Flat Lines` (regular visualization), `Shaded` (no edges), `Wireframe` (no faces), `Points` (only vertices).
-- Ansicht**Show In Tree** (`Bool`): it defaults to `true`, in which case the object will appear in the [Tree view](/Tree_view "Tree view"); otherwise, the object will be hidden in the tree view. Once an object in the tree is invisible, you can see it again by opening the context menu over the name of the document (right-click), and selecting ![](/src/assets/images/CheckBoxTrue.svg) Show hidden items. Then the hidden item can be chosen and Ansicht**Show In Tree** can be switched back to `true`.
+- Ansicht**Show In Tree** (`Bool`): it defaults to `true`, in which case the object will appear in the [Tree view](/Tree_view "Tree view"); otherwise, the object will be hidden in the tree view. Once an object in the tree is invisible, you can see it again by opening the context menu over the name of the document (right-click), and selecting ![](/images/CheckBoxTrue.svg) Show hidden items. Then the hidden item can be chosen and Ansicht**Show In Tree** can be switched back to `true`.
 - Ansicht**Visibility** (`Bool`): if it is `true`, the object appears in the [3D view](/3D_view "3D view"); otherwise it is invisible. By default this property can be toggled on and off by pressing the Space bar.
 
 Objektstil
@@ -91,7 +91,7 @@ Auswahl
 
 ### Verdrehwinkel und Winkelabweichung
 
-![](/src/assets/images/View_property_Deviation.svg)
+![](/images/View_property_Deviation.svg)
 
 Parameter für Verdrehwinkel und Winkelabweichung: d < lineare Abweichung, α < Winkelabweichung.
 

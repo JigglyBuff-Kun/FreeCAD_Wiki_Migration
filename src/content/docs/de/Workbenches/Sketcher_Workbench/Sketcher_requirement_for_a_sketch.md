@@ -25,12 +25,12 @@ title: Sketcher Anforderungen an Skizzen
 
 Das Erzeugen eines Körpers im Arbeitsbereich PartDesign ist bereits und **nur** mit Hilfe einer geschlossenen Kurve (Profil) möglich. Die vollständige Bestimmung all ihrer Abmessungen und Eigenschaften (_vollständig beschränkt_) ist dafür noch nicht erforderlich.
 
-Dass eine geschlossene Kurve vorliegt, ist nicht selbstverständlich und nicht erkennbar. Beim Anschluss eines Kreisbogens an eine Gerade z.B. werden die beiden Endpunkte nur übereinander liegend erstellt. Sie müssen mit dem Werkzeug ![](/src/assets/images/Constraint_PointOnPoint.svg) [Deckungsgleiche](/Sketcher_ConstrainCoincident/de "Sketcher ConstrainCoincident/de") Beschränkung zu einem einzigen, Gerade und Kreisbogen tatsächlich verbindenden Punkt gemacht werden.
+Dass eine geschlossene Kurve vorliegt, ist nicht selbstverständlich und nicht erkennbar. Beim Anschluss eines Kreisbogens an eine Gerade z.B. werden die beiden Endpunkte nur übereinander liegend erstellt. Sie müssen mit dem Werkzeug ![](/images/Constraint_PointOnPoint.svg) [Deckungsgleiche](/Sketcher_ConstrainCoincident/de "Sketcher ConstrainCoincident/de") Beschränkung zu einem einzigen, Gerade und Kreisbogen tatsächlich verbindenden Punkt gemacht werden.
 
-![](/src/assets/images/Skizze2a.png)
+![](/images/Skizze2a.png)
 
 Eine einfache Skizze.
-Links: Kurve nur an vier Stellen (rot, automatische Beschränkungen beim Zeichnen mit ![](/src/assets/images/Sketcher_CreatePolyline.svg) [Polylinie](/Sketcher_CreatePolyline/de "Sketcher CreatePolyline/de")) geschlossen.
+Links: Kurve nur an vier Stellen (rot, automatische Beschränkungen beim Zeichnen mit ![](/images/Sketcher_CreatePolyline.svg) [Polylinie](/Sketcher_CreatePolyline/de "Sketcher CreatePolyline/de")) geschlossen.
 Mitte: Warnung - ... gebrochene Fläche (gebrochene Kurve).
 Rechts: Kurve an den verbleibenden vier Stellen geschlossen (grün)
 
@@ -40,7 +40,7 @@ Konsequentes parametrisches Arbeiten bedeutet allerdings, dass die Skizze vollst
 
 Selbst eine noch relativ einfache Skizze kann schon Dutzende von Unbestimmtheiten (in der Combo-Ansicht als Zahl von "Freiheitsgraden" angegeben) enthalten. Sie erst am Ende alle gemeinsam zu beseitigen, ist eine relativ unübersichtliche Arbeit.
 
-![](/src/assets/images/Skizze4a.png)
+![](/images/Skizze4a.png)
 
 Eine einfache Skizze; vollständig bestimmt durch 25 Beschränkungen, von denen nur 5 Bemaßungsbeschränkungen sind.
 

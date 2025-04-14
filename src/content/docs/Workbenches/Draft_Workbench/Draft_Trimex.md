@@ -19,9 +19,9 @@ title: Draft Trimex
 
 ## Description
 
-The ![](/src/assets/images/Draft_Trimex.svg) **Draft Trimex** command [trims or extends](#Trim_or_extend) a selected object. Intersections with the edge of another object can be used to determine new endpoints. The command can also be used to [extrude](#Extrude) a face, in which case it creates a [Part Extrude](/Part_Extrude "Part Extrude") object.
+The ![](/images/Draft_Trimex.svg) **Draft Trimex** command [trims or extends](#Trim_or_extend) a selected object. Intersections with the edge of another object can be used to determine new endpoints. The command can also be used to [extrude](#Extrude) a face, in which case it creates a [Part Extrude](/Part_Extrude "Part Extrude") object.
 
-![](/src/assets/images/Draft_trimex_example.jpg)
+![](/images/Draft_trimex_example.jpg)
 
 Top: a Draft Wire extended and then trimmed.  
 Bottom: a face extruded into a solid body.
@@ -32,9 +32,9 @@ Bottom: a face extruded into a solid body.
 
 1. Optionally select one object. The object must be a [Draft Line](/Draft_Line "Draft Line"), a [Draft Wire](/Draft_Wire "Draft Wire"), a [Draft Arc](/Draft_Arc "Draft Arc") or a [Draft Circle](/Draft_Circle "Draft Circle") (which can only be trimmed). If the selected object is closed it must have its Data**Make Face** property set to `false`.
 2. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/Draft_Trimex.svg) [Trimex](/Draft_Trimex "Draft Trimex") button.
-   - [Draft](/Draft_Workbench "Draft Workbench"): Select the **Modification → ![](/src/assets/images/Draft_Trimex.svg) Trimex** option from the menu.
-   - [BIM](/BIM_Workbench "BIM Workbench"): Select the **Modify → ![](/src/assets/images/Draft_Trimex.svg) Trimex** option from the menu.
+   - Press the ![](/images/Draft_Trimex.svg) [Trimex](/Draft_Trimex "Draft Trimex") button.
+   - [Draft](/Draft_Workbench "Draft Workbench"): Select the **Modification → ![](/images/Draft_Trimex.svg) Trimex** option from the menu.
+   - [BIM](/BIM_Workbench "BIM Workbench"): Select the **Modify → ![](/images/Draft_Trimex.svg) Trimex** option from the menu.
    - Use the keyboard shortcut: T then R.
 3. If you have not yet selected an object: select an object in the [3D view](/3D_view "3D view").
 4. The **Trimex** task panel opens. See [Options](#Options) for more information.
@@ -54,7 +54,7 @@ The single character keyboard shortcuts available in the task panel can be chang
 
 Here is an example to explain the modifier keys. The left edge or the bottom edge of the U-shaped wire was extended. All [Draft Snaps](/Draft_Snap "Draft Snap") were turned off.
 
-![](/src/assets/images/Draft_Trimex_example2.png)
+![](/images/Draft_Trimex_example2.png)
 
 1. The arc was clicked near the bottom left corner of the wire. This is the default result.
 2. Alt was held down while the arc was clicked near the bottom left corner of the wire.
@@ -69,8 +69,8 @@ See also: [Draft Snap](/Draft_Snap "Draft Snap") and [Draft Constrain](/Draft_Co
 1. It can be helpful to first change the [Draft working plane](/Draft_SelectPlane "Draft SelectPlane") so that it is not coplanar with the face you want to extrude.
 2. Optionally select a single face or an object with a single face.
 3. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/Draft_Trimex.svg) [Draft Trimex](/Draft_Trimex "Draft Trimex") button.
-   - Select the **Modification → ![](/src/assets/images/Draft_Trimex.svg) Trimex** option from the menu.
+   - Press the ![](/images/Draft_Trimex.svg) [Draft Trimex](/Draft_Trimex "Draft Trimex") button.
+   - Select the **Modification → ![](/images/Draft_Trimex.svg) Trimex** option from the menu.
    - Use the keyboard shortcut: T then R.
 4. If you have not yet selected an object or a face: select an object with a single face in the [3D view](/3D_view "3D view").
 5. The **Trimex** task panel opens. See [Options](#Options_2) for more information.

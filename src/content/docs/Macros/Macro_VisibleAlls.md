@@ -33,7 +33,7 @@ This macro display all objects in the document (Visibility True).
 ## Script
 
 ToolBar Icon
-![](/src/assets/images/Macro_VisibleAlls.png)
+![](/images/Macro_VisibleAlls.png)
 
 **Macro_VisibleAlls.FCMacro**
 

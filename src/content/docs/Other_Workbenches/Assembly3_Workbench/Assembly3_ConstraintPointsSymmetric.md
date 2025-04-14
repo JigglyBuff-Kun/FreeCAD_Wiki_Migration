@@ -32,13 +32,13 @@ Based on the planar element's ICS both point elements have identical x- and y-co
 1. Place two objects into an assembly
 2. Select two point elements of one object
 3. Select a planar element of the other object
-4. Press the ![](/src/assets/images/Assembly_ConstraintPointsSymmetric.svg) [Points symmetric](/Assembly3_ConstraintPointsSymmetric "Assembly3 ConstraintPointsSymmetric") button.
+4. Press the ![](/images/Assembly_ConstraintPointsSymmetric.svg) [Points symmetric](/Assembly3_ConstraintPointsSymmetric "Assembly3 ConstraintPointsSymmetric") button.
 
 Or
 
 1. Place three objects into an assembly
 2. Select one point element of the first two objects
 3. Select a planar element of the third object
-4. Press the ![](/src/assets/images/Assembly_ConstraintPointsSymmetric.svg) [Points symmetric](/Assembly3_ConstraintPointsSymmetric "Assembly3 ConstraintPointsSymmetric") button.
+4. Press the ![](/images/Assembly_ConstraintPointsSymmetric.svg) [Points symmetric](/Assembly3_ConstraintPointsSymmetric "Assembly3 ConstraintPointsSymmetric") button.
 
 Retrieved from "<http://wiki.freecad.org/index.php?title=Assembly3_ConstraintPointsSymmetric/en&oldid=911304>"

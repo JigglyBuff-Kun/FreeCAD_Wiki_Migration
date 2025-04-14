@@ -21,7 +21,7 @@ title: TechDraw RichTextAnnotation
 
 The **TechDraw RichTextAnnotation** tool adds a formatted annotation block to a [Leaderline](/TechDraw_LeaderLine "TechDraw LeaderLine") or a View.
 
-![](/src/assets/images/TechDraw_RichTextBlock_sample.png)
+![](/images/TechDraw_RichTextBlock_sample.png)
 
 Stand alone RichTextAnnotation
 
@@ -30,15 +30,15 @@ Stand alone RichTextAnnotation
 1. If there are multiple drawing pages in the document: optionally activate the desired page by selecting it in the [Tree view](/Tree_view "Tree view").
 2. To attach the RichTextAnnotation to a [Leaderline](/TechDraw_LeaderLine "TechDraw LeaderLine"), select the line in the [Tree view](/Tree_view "Tree view") or on the page.
 3. There are several ways to invoke the tool:
-   - Press the ![](/src/assets/images/TechDraw_RichTextAnnotation.svg) [Insert Rich Text Annotation](/TechDraw_RichTextAnnotation "TechDraw RichTextAnnotation") button.
-   - Select the **TechDraw → Annotations → ![](/src/assets/images/TechDraw_RichTextAnnotation.svg) Insert Rich Text Annotation** option from the menu.
+   - Press the ![](/images/TechDraw_RichTextAnnotation.svg) [Insert Rich Text Annotation](/TechDraw_RichTextAnnotation "TechDraw RichTextAnnotation") button.
+   - Select the **TechDraw → Annotations → ![](/images/TechDraw_RichTextAnnotation.svg) Insert Rich Text Annotation** option from the menu.
 4. If there are multiple drawing pages in the document and you have not yet activated a page, the **Page Chooser** dialog box opens:
    1. Select the desired page.
    2. Press the OK button.
 5. A task panel opens.
 6. The task panel allows quick entry of text.
 7. The Start Rich Text Editor button opens a full featured editor:
-   1. When done, press the ![](/src/assets/images/Document-save.svg) button to save your changes and close the editor.
+   1. When done, press the ![](/images/Document-save.svg) button to save your changes and close the editor.
 8. Press the OK button to close the task panel.
 
 ## Notes

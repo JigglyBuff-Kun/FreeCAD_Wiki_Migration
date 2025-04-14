@@ -21,14 +21,14 @@ title: PartDesign AdditiveHelix
 
 The **Additive Helix** tool creates a solid by sweeping a selected sketch or 2D object along a helix path.
 
-![](/src/assets/images/PartDesign_AdditiveHelix_example_overview.png)
+![](/images/PartDesign_AdditiveHelix_example_overview.png)
 
 _The profile (B), is swept around axis (A) in order to produce the solid helix (C)_
 
 ## Usage
 
 1. Select the sketch to be swept into a helix. A face on the existing solid can alternatively be used.
-2. Press the ![](/src/assets/images/PartDesign_AdditiveHelix.svg) [PartDesign AdditiveHelix](/PartDesign_AdditiveHelix "PartDesign AdditiveHelix") button.
+2. Press the ![](/images/PartDesign_AdditiveHelix.svg) [PartDesign AdditiveHelix](/PartDesign_AdditiveHelix "PartDesign AdditiveHelix") button.
 3. Set the Helix parameters (see next section).
 4. Inspect the Helix in the view window, to ensure that the parameters do not result in a self intersecting helix.
 5. Press OK.
@@ -37,7 +37,7 @@ _The profile (B), is swept around axis (A) in order to produce the solid helix (
 
 When creating an Additive Helix, the **Helix parameters** dialogue offers several parameters specifying how the sketch should be swept.
 
-![](/src/assets/images/PartDesign_AdditiveHelix_taskpanel.png)
+![](/images/PartDesign_AdditiveHelix_taskpanel.png)
 
 ### Axis
 
@@ -111,17 +111,17 @@ If checked, the helix will be shown in the view, and updated automatically on ev
 
 ## Notes
 
-- A ![](/src/assets/images/PartDesign_ShapeBinder.svg) [ShapeBinder](/PartDesign_ShapeBinder "PartDesign ShapeBinder") cannot be used for the profile.
-- When using a ![](/src/assets/images/PartDesign_SubShapeBinder.svg) [SubShapeBinder](/PartDesign_SubShapeBinder "PartDesign SubShapeBinder") for the profile, selecting the binder in the [Tree view](/Tree_view "Tree view") will fail, instead the binder's face has to be selected in the [3D view](/3D_view "3D view").
+- A ![](/images/PartDesign_ShapeBinder.svg) [ShapeBinder](/PartDesign_ShapeBinder "PartDesign ShapeBinder") cannot be used for the profile.
+- When using a ![](/images/PartDesign_SubShapeBinder.svg) [SubShapeBinder](/PartDesign_SubShapeBinder "PartDesign SubShapeBinder") for the profile, selecting the binder in the [Tree view](/Tree_view "Tree view") will fail, instead the binder's face has to be selected in the [3D view](/3D_view "3D view").
 - Helixes are very difficult for the underlying engine to calculate correctly because the curves involved push floating point precision to its limit. That means that performing further operations on a helix like attempting boolean operations with another object can be very sensitive to small changes. When they fail, they often break the model in surprising ways. To avoid this, you should try to make operations on a helix either clearly overlap (interfere) or clearly not overlap. Exact matches where the surface of the helix is perfectly aligned with the surface of another object are fragile. A thread around a bolt cylinder is an example of this. It may even work initially, and then break later when objects are moved slightly.
 
 ## Examples
 
-![](/src/assets/images/PartDesign_AdditiveHelix_example_bspline.png)
+![](/images/PartDesign_AdditiveHelix_example_bspline.png)
 
 Example helix using a [B-spline](/Sketcher_CreateBSpline "Sketcher CreateBSpline") in the sketch
 
-![](/src/assets/images/PartDesign_AdditiveHelix_example_twisting_pad.png)
+![](/images/PartDesign_AdditiveHelix_example_twisting_pad.png)
 
 Example helix where the helix axis is normal to the sketch plane resulting in a "Pad with twist" effect.
 

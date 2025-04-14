@@ -24,8 +24,8 @@ Der Befehl **Std Neu** erzeugt ein neues leeres Dokument und macht es zum aktive
 ## Anwendung
 
 1. Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
-   - Die Schaltfläche ![](/src/assets/images/Std_New.svg) Neu drücken.
-   - Den Menüeintrag **Datei → ![](/src/assets/images/Std_New.svg) Neu** auswählen.
+   - Die Schaltfläche ![](/images/Std_New.svg) Neu drücken.
+   - Den Menüeintrag **Datei → ![](/images/Std_New.svg) Neu** auswählen.
    - Das Tastaturkürzel: Strg + N.
 
 ## Einstellungen

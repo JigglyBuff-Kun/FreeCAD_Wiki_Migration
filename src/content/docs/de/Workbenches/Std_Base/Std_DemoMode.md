@@ -21,13 +21,13 @@ title: Std Präsentationsmodus
 
 Der Befehl **Std Präsentationsmodus** dreht die Kamera kontinuierlich in einer [3D-Ansicht](/3D_view/de "3D view/de").
 
-![](/src/assets/images/Std_DemoMode_dialog.png)
+![](/images/Std_DemoMode_dialog.png)
 
 Das Dialogfenster Drehscheibe
 
 ## Anwendung
 
-1. Den Menüeintrag **Werkzeuge → ![](/src/assets/images/Std_DemoMode.svg) Drehscheibe...** auswählen.
+1. Den Menüeintrag **Werkzeuge → ![](/images/Std_DemoMode.svg) Drehscheibe...** auswählen.
 2. Das Dialogfenster **Drehscheibe** wird geöffnet.
 3. Den Schieberegler **Winkel** bewegen, um die virtuelle Drehscheibe der Kamera zu kippen.
 4. Den Schieberegler **Geschwindigkeit** bewegen, um die Drehgeschwindigkeit der Kamera anzupassen.

@@ -2,21 +2,21 @@
 title: Sketcher Workbench
 ---
 
-![](/src/assets/images/Workbench_Sketcher.svg)
+![](/images/Workbench_Sketcher.svg)
 
 Sketcher workbench icon
 
 ## Introduction
 
-With the ![](/src/assets/images/Workbench_Sketcher.svg) [Sketcher Workbench](/Sketcher_Workbench "Sketcher Workbench") 2D sketches intended for use in other workbenches can be created. 2D sketches are the starting point for many CAD models. They typically define the profiles and paths for operations to create 3D shapes. A model may depend on several sketches for its final shape.
+With the ![](/images/Workbench_Sketcher.svg) [Sketcher Workbench](/Sketcher_Workbench "Sketcher Workbench") 2D sketches intended for use in other workbenches can be created. 2D sketches are the starting point for many CAD models. They typically define the profiles and paths for operations to create 3D shapes. A model may depend on several sketches for its final shape.
 
-Together with boolean operations defined in the ![](/src/assets/images/Workbench_Part.svg) [Part Workbench](/Part_Workbench "Part Workbench"), the Sketcher Workbench, or "The Sketcher" for short, forms the basis of the [constructive solid geometry](/Constructive_solid_geometry "Constructive solid geometry") (CSG) method of building solids. Together with ![](/src/assets/images/Workbench_PartDesign.svg) [PartDesign Workbench](/PartDesign_Workbench "PartDesign Workbench") operations, it also forms the basis of the [feature editing](/Feature_editing "Feature editing") methodology of creating solids. But many other workbenches use sketches as well.
+Together with boolean operations defined in the ![](/images/Workbench_Part.svg) [Part Workbench](/Part_Workbench "Part Workbench"), the Sketcher Workbench, or "The Sketcher" for short, forms the basis of the [constructive solid geometry](/Constructive_solid_geometry "Constructive solid geometry") (CSG) method of building solids. Together with ![](/images/Workbench_PartDesign.svg) [PartDesign Workbench](/PartDesign_Workbench "PartDesign Workbench") operations, it also forms the basis of the [feature editing](/Feature_editing "Feature editing") methodology of creating solids. But many other workbenches use sketches as well.
 
 The Sketcher workbench features [constraints](#Constraints), allowing 2D shapes to follow precise geometrical definitions in terms of length, angles, and relationships (horizontality, verticality, perpendicularity, etc.). A constraint solver calculates the constrained-extent of 2D geometry and allows interactive exploration of the degrees-of-freedom of the sketch.
 
 The Sketcher is not intended for producing 2D blueprints. Once sketches are used to generate a solid feature, they are automatically hidden and Constraints are only visible in Sketch edit mode. If you only need to produce 2D views for print, and don't want to create 3D models, check out the [Draft workbench](/Draft_Workbench "Draft Workbench").
 
-![](/src/assets/images/FC_ConstrainedSketch.png)
+![](/images/FC_ConstrainedSketch.png)
 
 A fully constrained sketch
 
@@ -34,7 +34,7 @@ There are two kinds of constraints: geometric and dimensional. They are detailed
 
 When a [driving dimensional constraint](/Sketcher_ToggleDrivingConstraint "Sketcher ToggleDrivingConstraint") is created, and if the **Ask for value after creating a dimensional constraint** [preference](/Sketcher_Preferences#Display "Sketcher Preferences") is selected (default), a dialog opens to edit its value.
 
-![Sketcher_Edit_Constraint.png](/src/assets/images/Sketcher_Edit_Constraint.png)
+![Sketcher_Edit_Constraint.png](/images/Sketcher_Edit_Constraint.png)
 
 You can enter a numerical value or an [expression](/Expressions "Expressions"), and it is possible to name the constraint to facilitate its use in other expressions. You can also check the **Reference** checkbox to switch the constrain to [reference mode](/Sketcher_ToggleDrivingConstraint "Sketcher ToggleDrivingConstraint").
 
@@ -73,12 +73,12 @@ In sketches that have **Auto constraints** checked (default) several constraints
 
 The following constraints are applied automatically:
 
-- ![](/src/assets/images/Sketcher_ConstrainCoincident.svg) [Coincident](/Sketcher_ConstrainCoincident "Sketcher ConstrainCoincident")
-- ![](/src/assets/images/Sketcher_ConstrainPointOnObject.svg) [Point on object](/Sketcher_ConstrainPointOnObject "Sketcher ConstrainPointOnObject")
-- ![](/src/assets/images/Sketcher_ConstrainHorizontal.svg) [Horizontal](/Sketcher_ConstrainHorizontal "Sketcher ConstrainHorizontal")
-- ![](/src/assets/images/Sketcher_ConstrainVertical.svg) [Vertical](/Sketcher_ConstrainVertical "Sketcher ConstrainVertical")
-- ![](/src/assets/images/Sketcher_ConstrainTangent.svg) [Tangent](/Sketcher_ConstrainTangent "Sketcher ConstrainTangent")
-- [introduced in 1.0](/Release_notes_1.0 "Release notes 1.0"): ![](/src/assets/images/Sketcher_ConstrainSymmetric.svg) [Symmetric](/Sketcher_ConstrainSymmetric "Sketcher ConstrainSymmetric") (line midpoint)
+- ![](/images/Sketcher_ConstrainCoincident.svg) [Coincident](/Sketcher_ConstrainCoincident "Sketcher ConstrainCoincident")
+- ![](/images/Sketcher_ConstrainPointOnObject.svg) [Point on object](/Sketcher_ConstrainPointOnObject "Sketcher ConstrainPointOnObject")
+- ![](/images/Sketcher_ConstrainHorizontal.svg) [Horizontal](/Sketcher_ConstrainHorizontal "Sketcher ConstrainHorizontal")
+- ![](/images/Sketcher_ConstrainVertical.svg) [Vertical](/Sketcher_ConstrainVertical "Sketcher ConstrainVertical")
+- ![](/images/Sketcher_ConstrainTangent.svg) [Tangent](/Sketcher_ConstrainTangent "Sketcher ConstrainTangent")
+- [introduced in 1.0](/Release_notes_1.0 "Release notes 1.0"): ![](/images/Sketcher_ConstrainSymmetric.svg) [Symmetric](/Sketcher_ConstrainSymmetric "Sketcher ConstrainSymmetric") (line midpoint)
 
 ### Snapping
 
@@ -92,17 +92,17 @@ It is possible to [snap](/Sketcher_Snap "Sketcher Snap") to grid lines and grid 
 
 Depending on the selected option in the [preferences](/Sketcher_Preferences#General "Sketcher Preferences") only the dimensional On-View-Parameters or both the dimensional and the positional On-View-Parameters can be enabled. Positional parameters allow the input of exact coordinates, for example the center of a circle, or the start point of a line. Dimensional parameters allow the input of exact dimensions, for example the radius of a circle, or the length and angle of a line. On-View-Parameters are not available for all tools.
 
-![](/src/assets/images/Sketcher_On_view_parameters_positional.png)
+![](/images/Sketcher_On_view_parameters_positional.png)
 
 Determining the center point of a circle with the positional parameters enabled
 
-![](/src/assets/images/Sketcher_On_view_parameters_dimensional.png)
+![](/images/Sketcher_On_view_parameters_dimensional.png)
 
 Determining the radius of a circle with the dimensional parameters enabled
 
 If values are entered and confirmed by pressing Enter or Tab, related constraints are added automatically. If two parameters are displayed at the same time, for example the X and Y coordinate of a point, it is possible to enter one value and pick a point to define the other. Depending on the object additional constraints may be required to fully constrain it. Constraints resulting from On-View-Parameters take precedence over those that may result from [Auto constraints](/Sketcher_Dialog#Constraints "Sketcher Dialog").
 
-![](/src/assets/images/Sketcher_ArcExample3.png)
+![](/images/Sketcher_ArcExample3.png)
 
 Arc created by entering all On-View-Parameters with resulting automatically created constraints
 
@@ -157,291 +157,291 @@ Some tools are also available from the [3D view](/3D_view "3D view") context men
 
 #### Sketcher toolbar
 
-- ![](/src/assets/images/Sketcher_NewSketch.svg) [Create sketch](/Sketcher_NewSketch "Sketcher NewSketch"): Creates a new sketch and opens the [Sketcher Dialog](/Sketcher_Dialog "Sketcher Dialog") to edit it.
+- ![](/images/Sketcher_NewSketch.svg) [Create sketch](/Sketcher_NewSketch "Sketcher NewSketch"): Creates a new sketch and opens the [Sketcher Dialog](/Sketcher_Dialog "Sketcher Dialog") to edit it.
 
-- ![](/src/assets/images/Sketcher_EditSketch.svg) [Edit sketch](/Sketcher_EditSketch "Sketcher EditSketch"): Opens the Sketcher Dialog to edit an existing sketch.
+- ![](/images/Sketcher_EditSketch.svg) [Edit sketch](/Sketcher_EditSketch "Sketcher EditSketch"): Opens the Sketcher Dialog to edit an existing sketch.
 
-- ![](/src/assets/images/Sketcher_MapSketch.svg) [Attach sketch](/Sketcher_MapSketch "Sketcher MapSketch"): Attaches a sketch to selected geometry.
+- ![](/images/Sketcher_MapSketch.svg) [Attach sketch](/Sketcher_MapSketch "Sketcher MapSketch"): Attaches a sketch to selected geometry.
 
-- ![](/src/assets/images/Sketcher_ReorientSketch.svg) [Reorient sketch](/Sketcher_ReorientSketch "Sketcher ReorientSketch"): Places a sketch on one of the main planes with an optional offset. It can also be used to detach a sketch.
+- ![](/images/Sketcher_ReorientSketch.svg) [Reorient sketch](/Sketcher_ReorientSketch "Sketcher ReorientSketch"): Places a sketch on one of the main planes with an optional offset. It can also be used to detach a sketch.
 
-- ![](/src/assets/images/Sketcher_ValidateSketch.svg) [Validate sketch](/Sketcher_ValidateSketch "Sketcher ValidateSketch"): Can analyze and repair a sketch that is no longer editable or has invalid constraints, or add missing coincident constraints.
+- ![](/images/Sketcher_ValidateSketch.svg) [Validate sketch](/Sketcher_ValidateSketch "Sketcher ValidateSketch"): Can analyze and repair a sketch that is no longer editable or has invalid constraints, or add missing coincident constraints.
 
-- ![](/src/assets/images/Sketcher_MergeSketches.svg) [Merge sketches](/Sketcher_MergeSketches "Sketcher MergeSketches"): Merges two or more sketches.
+- ![](/images/Sketcher_MergeSketches.svg) [Merge sketches](/Sketcher_MergeSketches "Sketcher MergeSketches"): Merges two or more sketches.
 
-- ![](/src/assets/images/Sketcher_MirrorSketch.svg) [Mirror sketch](/Sketcher_MirrorSketch "Sketcher MirrorSketch"): Mirrors sketches across their X axis, Y axis, or origin.
+- ![](/images/Sketcher_MirrorSketch.svg) [Mirror sketch](/Sketcher_MirrorSketch "Sketcher MirrorSketch"): Mirrors sketches across their X axis, Y axis, or origin.
 
 #### Sketcher Edit Mode toolbar
 
-- ![](/src/assets/images/Sketcher_LeaveSketch.svg) [Leave sketch](/Sketcher_LeaveSketch "Sketcher LeaveSketch"): Finishes sketch edit mode and closes the [Sketcher Dialog](/Sketcher_Dialog "Sketcher Dialog").
+- ![](/images/Sketcher_LeaveSketch.svg) [Leave sketch](/Sketcher_LeaveSketch "Sketcher LeaveSketch"): Finishes sketch edit mode and closes the [Sketcher Dialog](/Sketcher_Dialog "Sketcher Dialog").
 
-- ![](/src/assets/images/Sketcher_ViewSketch.svg) [View sketch](/Sketcher_ViewSketch "Sketcher ViewSketch"): Aligns the [3D view](/3D_view "3D view") with the sketch.
+- ![](/images/Sketcher_ViewSketch.svg) [View sketch](/Sketcher_ViewSketch "Sketcher ViewSketch"): Aligns the [3D view](/3D_view "3D view") with the sketch.
 
-- ![](/src/assets/images/Sketcher_ViewSection.svg) [View section](/Sketcher_ViewSection "Sketcher ViewSection"): Toggles a temporary section plane that hides any objects and parts of objects in front of the sketch plane.
+- ![](/images/Sketcher_ViewSection.svg) [View section](/Sketcher_ViewSection "Sketcher ViewSection"): Toggles a temporary section plane that hides any objects and parts of objects in front of the sketch plane.
 
 #### Sketcher edit tools toolbar
 
-- ![](/src/assets/images/Sketcher_Grid.svg) [Toggle grid](/Sketcher_Grid "Sketcher Grid"): Toggles the grid in the sketch currently being edited. Settings can be changed in the related menu. [introduced in 0.21](/Release_notes_0.21 "Release notes 0.21")
+- ![](/images/Sketcher_Grid.svg) [Toggle grid](/Sketcher_Grid "Sketcher Grid"): Toggles the grid in the sketch currently being edited. Settings can be changed in the related menu. [introduced in 0.21](/Release_notes_0.21 "Release notes 0.21")
 
-- ![](/src/assets/images/Sketcher_Snap.svg) [Toggle snap](/Sketcher_Snap "Sketcher Snap"): Toggles snapping in all sketches. Settings can be changed in the related menu. [introduced in 0.21](/Release_notes_0.21 "Release notes 0.21")
+- ![](/images/Sketcher_Snap.svg) [Toggle snap](/Sketcher_Snap "Sketcher Snap"): Toggles snapping in all sketches. Settings can be changed in the related menu. [introduced in 0.21](/Release_notes_0.21 "Release notes 0.21")
 
-- ![](/src/assets/images/Sketcher_RenderingOrder.svg) [Configure rendering order](/Sketcher_RenderingOrder "Sketcher RenderingOrder"): The rendering order of all sketches can be changed in the related menu. [introduced in 0.21](/Release_notes_0.21 "Release notes 0.21")
+- ![](/images/Sketcher_RenderingOrder.svg) [Configure rendering order](/Sketcher_RenderingOrder "Sketcher RenderingOrder"): The rendering order of all sketches can be changed in the related menu. [introduced in 0.21](/Release_notes_0.21 "Release notes 0.21")
 
 #### Other
 
-- ![](/src/assets/images/Sketcher_StopOperation.svg) [Stop operation](/Sketcher_StopOperation "Sketcher StopOperation"): Stops any currently running geometry or constraint creation tool.
+- ![](/images/Sketcher_StopOperation.svg) [Stop operation](/Sketcher_StopOperation "Sketcher StopOperation"): Stops any currently running geometry or constraint creation tool.
 
 ### Sketcher geometries
 
 These are tools for creating objects.
 
-- ![](/src/assets/images/Sketcher_CreatePoint.svg) [Point](/Sketcher_CreatePoint "Sketcher CreatePoint"): Creates a point.
+- ![](/images/Sketcher_CreatePoint.svg) [Point](/Sketcher_CreatePoint "Sketcher CreatePoint"): Creates a point.
 
-- ![](/src/assets/images/Sketcher_CreatePolyline.svg) [Polyline](/Sketcher_CreatePolyline "Sketcher CreatePolyline"): Creates a series of line and arc segments connected by their endpoints. The tool has several modes.
+- ![](/images/Sketcher_CreatePolyline.svg) [Polyline](/Sketcher_CreatePolyline "Sketcher CreatePolyline"): Creates a series of line and arc segments connected by their endpoints. The tool has several modes.
 
-- ![](/src/assets/images/Sketcher_CreateLine.svg) [Line](/Sketcher_CreateLine "Sketcher CreateLine"): Creates a line. [introduced in 1.0](/Release_notes_1.0 "Release notes 1.0"): The tool has three modes.
+- ![](/images/Sketcher_CreateLine.svg) [Line](/Sketcher_CreateLine "Sketcher CreateLine"): Creates a line. [introduced in 1.0](/Release_notes_1.0 "Release notes 1.0"): The tool has three modes.
 
-- ![](/src/assets/images/Sketcher_CreateArc.svg)![](/src/assets/images/Toolbar_flyout_arrow_blue_background.svg) Create arc:
+- ![](/images/Sketcher_CreateArc.svg)![](/images/Toolbar_flyout_arrow_blue_background.svg) Create arc:
 
-- ![](/src/assets/images/Sketcher_CreateArc.svg) [Arc by center](/Sketcher_CreateArc "Sketcher CreateArc"): Creates an arc by its center and its endpoints. [introduced in 1.0](/Release_notes_1.0 "Release notes 1.0"): Or by its endpoints and a point along the arc.
+- ![](/images/Sketcher_CreateArc.svg) [Arc by center](/Sketcher_CreateArc "Sketcher CreateArc"): Creates an arc by its center and its endpoints. [introduced in 1.0](/Release_notes_1.0 "Release notes 1.0"): Or by its endpoints and a point along the arc.
 
-- ![](/src/assets/images/Sketcher_Create3PointArc.svg) [Arc by 3 points](/Sketcher_Create3PointArc "Sketcher Create3PointArc"): Creates an arc by its endpoints and a point along the arc. [introduced in 1.0](/Release_notes_1.0 "Release notes 1.0"): This is the same tool as [Arc by center](/Sketcher_CreateArc "Sketcher CreateArc") but with a different initial mode.
+- ![](/images/Sketcher_Create3PointArc.svg) [Arc by 3 points](/Sketcher_Create3PointArc "Sketcher Create3PointArc"): Creates an arc by its endpoints and a point along the arc. [introduced in 1.0](/Release_notes_1.0 "Release notes 1.0"): This is the same tool as [Arc by center](/Sketcher_CreateArc "Sketcher CreateArc") but with a different initial mode.
 
-- ![](/src/assets/images/Sketcher_CreateArcOfEllipse.svg) [Arc of ellipse](/Sketcher_CreateArcOfEllipse "Sketcher CreateArcOfEllipse"): Creates an arc of ellipse.
+- ![](/images/Sketcher_CreateArcOfEllipse.svg) [Arc of ellipse](/Sketcher_CreateArcOfEllipse "Sketcher CreateArcOfEllipse"): Creates an arc of ellipse.
 
-- ![](/src/assets/images/Sketcher_CreateArcOfHyperbola.svg) [Arc of hyperbola](/Sketcher_CreateArcOfHyperbola "Sketcher CreateArcOfHyperbola"): Creates an arc of hyperbola.
+- ![](/images/Sketcher_CreateArcOfHyperbola.svg) [Arc of hyperbola](/Sketcher_CreateArcOfHyperbola "Sketcher CreateArcOfHyperbola"): Creates an arc of hyperbola.
 
-- ![](/src/assets/images/Sketcher_CreateArcOfParabola.svg) [Arc of parabola](/Sketcher_CreateArcOfParabola "Sketcher CreateArcOfParabola"): Creates an arc of parabola.
+- ![](/images/Sketcher_CreateArcOfParabola.svg) [Arc of parabola](/Sketcher_CreateArcOfParabola "Sketcher CreateArcOfParabola"): Creates an arc of parabola.
 
-- ![](/src/assets/images/Sketcher_CreateCircle.svg)![](/src/assets/images/Toolbar_flyout_arrow_blue_background.svg) Create circle/ellipse:
+- ![](/images/Sketcher_CreateCircle.svg)![](/images/Toolbar_flyout_arrow_blue_background.svg) Create circle/ellipse:
 
-- ![](/src/assets/images/Sketcher_CreateCircle.svg) [Circle by center](/Sketcher_CreateCircle "Sketcher CreateCircle"): Creates a circle by its center and a point along the circle. [introduced in 1.0](/Release_notes_1.0 "Release notes 1.0"): Or by three points along the circle.
+- ![](/images/Sketcher_CreateCircle.svg) [Circle by center](/Sketcher_CreateCircle "Sketcher CreateCircle"): Creates a circle by its center and a point along the circle. [introduced in 1.0](/Release_notes_1.0 "Release notes 1.0"): Or by three points along the circle.
 
-- ![](/src/assets/images/Sketcher_Create3PointCircle.svg) [Circle by 3 points](/Sketcher_Create3PointCircle "Sketcher Create3PointCircle"): Creates a circle by three points along the circle. [introduced in 1.0](/Release_notes_1.0 "Release notes 1.0"): This is the same tool as [Circle by center](/Sketcher_CreateCircle "Sketcher CreateCircle") but with a different initial mode.
+- ![](/images/Sketcher_Create3PointCircle.svg) [Circle by 3 points](/Sketcher_Create3PointCircle "Sketcher Create3PointCircle"): Creates a circle by three points along the circle. [introduced in 1.0](/Release_notes_1.0 "Release notes 1.0"): This is the same tool as [Circle by center](/Sketcher_CreateCircle "Sketcher CreateCircle") but with a different initial mode.
 
-- ![](/src/assets/images/Sketcher_CreateEllipseByCenter.svg) [Ellipse by center](/Sketcher_CreateEllipseByCenter "Sketcher CreateEllipseByCenter"): Creates an ellipse by its center, an endpoint of one of its axes, and a point along the ellipse. [introduced in 1.0](/Release_notes_1.0 "Release notes 1.0"): Or by both endpoints of one of its axes and a point along the ellipse.
+- ![](/images/Sketcher_CreateEllipseByCenter.svg) [Ellipse by center](/Sketcher_CreateEllipseByCenter "Sketcher CreateEllipseByCenter"): Creates an ellipse by its center, an endpoint of one of its axes, and a point along the ellipse. [introduced in 1.0](/Release_notes_1.0 "Release notes 1.0"): Or by both endpoints of one of its axes and a point along the ellipse.
 
-- ![](/src/assets/images/Sketcher_CreateEllipseBy3Points.svg) [Ellipse by 3 points](/Sketcher_CreateEllipseBy3Points "Sketcher CreateEllipseBy3Points"): Creates an ellipse by the endpoints of one of its axes and a point along the ellipse. [introduced in 1.0](/Release_notes_1.0 "Release notes 1.0"): This is the same tool as [Ellipse by center](/Sketcher_CreateEllipseByCenter "Sketcher CreateEllipseByCenter") but with a different initial mode.
+- ![](/images/Sketcher_CreateEllipseBy3Points.svg) [Ellipse by 3 points](/Sketcher_CreateEllipseBy3Points "Sketcher CreateEllipseBy3Points"): Creates an ellipse by the endpoints of one of its axes and a point along the ellipse. [introduced in 1.0](/Release_notes_1.0 "Release notes 1.0"): This is the same tool as [Ellipse by center](/Sketcher_CreateEllipseByCenter "Sketcher CreateEllipseByCenter") but with a different initial mode.
 
-- ![](/src/assets/images/Sketcher_CreateRectangle.svg)![](/src/assets/images/Toolbar_flyout_arrow_blue_background.svg) Create rectangle:
+- ![](/images/Sketcher_CreateRectangle.svg)![](/images/Toolbar_flyout_arrow_blue_background.svg) Create rectangle:
 
-- ![](/src/assets/images/Sketcher_CreateRectangle.svg) [Rectangle](/Sketcher_CreateRectangle "Sketcher CreateRectangle"): Creates a rectangle. [introduced in 1.0](/Release_notes_1.0 "Release notes 1.0"): The tool has four modes. Rounded corners and creating an offset copy are optional features.
+- ![](/images/Sketcher_CreateRectangle.svg) [Rectangle](/Sketcher_CreateRectangle "Sketcher CreateRectangle"): Creates a rectangle. [introduced in 1.0](/Release_notes_1.0 "Release notes 1.0"): The tool has four modes. Rounded corners and creating an offset copy are optional features.
 
-- ![](/src/assets/images/Sketcher_CreateRectangle_Center.svg) [Centered rectangle](/Sketcher_CreateRectangle_Center "Sketcher CreateRectangle Center"): Creates a centered rectangle. [introduced in 1.0](/Release_notes_1.0 "Release notes 1.0"): This is the same tool as [Rectangle](/Sketcher_CreateRectangle "Sketcher CreateRectangle") but with a different initial mode.
+- ![](/images/Sketcher_CreateRectangle_Center.svg) [Centered rectangle](/Sketcher_CreateRectangle_Center "Sketcher CreateRectangle Center"): Creates a centered rectangle. [introduced in 1.0](/Release_notes_1.0 "Release notes 1.0"): This is the same tool as [Rectangle](/Sketcher_CreateRectangle "Sketcher CreateRectangle") but with a different initial mode.
 
-- ![](/src/assets/images/Sketcher_CreateOblong.svg) [Rounded rectangle](/Sketcher_CreateOblong "Sketcher CreateOblong"): Creates a rounded rectangle. Idem.
+- ![](/images/Sketcher_CreateOblong.svg) [Rounded rectangle](/Sketcher_CreateOblong "Sketcher CreateOblong"): Creates a rounded rectangle. Idem.
 
-- ![](/src/assets/images/Sketcher_CreateHexagon.svg)![](/src/assets/images/Toolbar_flyout_arrow_blue_background.svg) Create regular polygon:
+- ![](/images/Sketcher_CreateHexagon.svg)![](/images/Toolbar_flyout_arrow_blue_background.svg) Create regular polygon:
 
-- ![](/src/assets/images/Sketcher_CreateTriangle.svg) [Triangle](/Sketcher_CreateTriangle "Sketcher CreateTriangle"): creates an equilateral triangle. [introduced in 1.0](/Release_notes_1.0 "Release notes 1.0"): This is the same tool as [Regular polygon](/Sketcher_CreateRegularPolygon "Sketcher CreateRegularPolygon") but with the number of sides preset to a specif value.
+- ![](/images/Sketcher_CreateTriangle.svg) [Triangle](/Sketcher_CreateTriangle "Sketcher CreateTriangle"): creates an equilateral triangle. [introduced in 1.0](/Release_notes_1.0 "Release notes 1.0"): This is the same tool as [Regular polygon](/Sketcher_CreateRegularPolygon "Sketcher CreateRegularPolygon") but with the number of sides preset to a specif value.
 
-- ![](/src/assets/images/Sketcher_CreateSquare.svg) [Square](/Sketcher_CreateSquare "Sketcher CreateSquare"): Creates a square. Idem.
+- ![](/images/Sketcher_CreateSquare.svg) [Square](/Sketcher_CreateSquare "Sketcher CreateSquare"): Creates a square. Idem.
 
-- ![](/src/assets/images/Sketcher_CreatePentagon.svg) [Pentagon](/Sketcher_CreatePentagon "Sketcher CreatePentagon"): Creates a pentagon. Idem.
+- ![](/images/Sketcher_CreatePentagon.svg) [Pentagon](/Sketcher_CreatePentagon "Sketcher CreatePentagon"): Creates a pentagon. Idem.
 
-- ![](/src/assets/images/Sketcher_CreateHexagon.svg) [Hexagon](/Sketcher_CreateHexagon "Sketcher CreateHexagon"): Creates a hexagon. Idem.
+- ![](/images/Sketcher_CreateHexagon.svg) [Hexagon](/Sketcher_CreateHexagon "Sketcher CreateHexagon"): Creates a hexagon. Idem.
 
-- ![](/src/assets/images/Sketcher_CreateHeptagon.svg) [Heptagon](/Sketcher_CreateHeptagon "Sketcher CreateHeptagon"): Creates a heptagon. Idem.
+- ![](/images/Sketcher_CreateHeptagon.svg) [Heptagon](/Sketcher_CreateHeptagon "Sketcher CreateHeptagon"): Creates a heptagon. Idem.
 
-- ![](/src/assets/images/Sketcher_CreateOctagon.svg) [Octagon](/Sketcher_CreateOctagon "Sketcher CreateOctagon"): Creates an octagon. Idem.
+- ![](/images/Sketcher_CreateOctagon.svg) [Octagon](/Sketcher_CreateOctagon "Sketcher CreateOctagon"): Creates an octagon. Idem.
 
-- ![](/src/assets/images/Sketcher_CreateRegularPolygon.svg) [Regular polygon](/Sketcher_CreateRegularPolygon "Sketcher CreateRegularPolygon"): Creates a regular polygon. The number of sides can be specified.
+- ![](/images/Sketcher_CreateRegularPolygon.svg) [Regular polygon](/Sketcher_CreateRegularPolygon "Sketcher CreateRegularPolygon"): Creates a regular polygon. The number of sides can be specified.
 
-- ![](/src/assets/images/Sketcher_CreateSlot.svg)![](/src/assets/images/Toolbar_flyout_arrow_blue_background.svg) Create slot:
+- ![](/images/Sketcher_CreateSlot.svg)![](/images/Toolbar_flyout_arrow_blue_background.svg) Create slot:
 
-- ![](/src/assets/images/Sketcher_CreateSlot.svg) [Slot](/Sketcher_CreateSlot "Sketcher CreateSlot"): Creates a slot.
+- ![](/images/Sketcher_CreateSlot.svg) [Slot](/Sketcher_CreateSlot "Sketcher CreateSlot"): Creates a slot.
 
-- ![](/src/assets/images/Sketcher_CreateArcSlot.svg) [Arc slot](/Sketcher_CreateArcSlot "Sketcher CreateArcSlot"): Creates an arc slot. [introduced in 1.0](/Release_notes_1.0 "Release notes 1.0")
+- ![](/images/Sketcher_CreateArcSlot.svg) [Arc slot](/Sketcher_CreateArcSlot "Sketcher CreateArcSlot"): Creates an arc slot. [introduced in 1.0](/Release_notes_1.0 "Release notes 1.0")
 
-- ![](/src/assets/images/Sketcher_CreateBSpline.svg)![](/src/assets/images/Toolbar_flyout_arrow_blue_background.svg) Create B-spline:
+- ![](/images/Sketcher_CreateBSpline.svg)![](/images/Toolbar_flyout_arrow_blue_background.svg) Create B-spline:
 
-- ![](/src/assets/images/Sketcher_CreateBSpline.svg) [B-spline by control points](/Sketcher_CreateBSpline "Sketcher CreateBSpline"): Creates a B-spline curve by control points. [introduced in 1.0](/Release_notes_1.0 "Release notes 1.0"): Or by knot points.
+- ![](/images/Sketcher_CreateBSpline.svg) [B-spline by control points](/Sketcher_CreateBSpline "Sketcher CreateBSpline"): Creates a B-spline curve by control points. [introduced in 1.0](/Release_notes_1.0 "Release notes 1.0"): Or by knot points.
 
-- ![](/src/assets/images/Sketcher_CreatePeriodicBSpline.svg) [Periodic B-spline by control points](/Sketcher_CreatePeriodicBSpline "Sketcher CreatePeriodicBSpline"): Creates a periodic (closed) B-spline curve by control points. [introduced in 1.0](/Release_notes_1.0 "Release notes 1.0"): This is the same tool as [B-spline by control points](/Sketcher_CreateBSpline "Sketcher CreateBSpline") but with a different initial mode.
+- ![](/images/Sketcher_CreatePeriodicBSpline.svg) [Periodic B-spline by control points](/Sketcher_CreatePeriodicBSpline "Sketcher CreatePeriodicBSpline"): Creates a periodic (closed) B-spline curve by control points. [introduced in 1.0](/Release_notes_1.0 "Release notes 1.0"): This is the same tool as [B-spline by control points](/Sketcher_CreateBSpline "Sketcher CreateBSpline") but with a different initial mode.
 
-- ![](/src/assets/images/Sketcher_CreateBSplineByInterpolation.svg) [B-spline by knots](/Sketcher_CreateBSplineByInterpolation "Sketcher CreateBSplineByInterpolation"): Creates a B-spline curve by knot points. Idem.
+- ![](/images/Sketcher_CreateBSplineByInterpolation.svg) [B-spline by knots](/Sketcher_CreateBSplineByInterpolation "Sketcher CreateBSplineByInterpolation"): Creates a B-spline curve by knot points. Idem.
 
-- ![](/src/assets/images/Sketcher_CreatePeriodicBSplineByInterpolation.svg) [Periodic B-spline by knots](/Sketcher_CreatePeriodicBSplineByInterpolation "Sketcher CreatePeriodicBSplineByInterpolation"): Creates a periodic (closed) B-spline curve by knot points. Idem.
+- ![](/images/Sketcher_CreatePeriodicBSplineByInterpolation.svg) [Periodic B-spline by knots](/Sketcher_CreatePeriodicBSplineByInterpolation "Sketcher CreatePeriodicBSplineByInterpolation"): Creates a periodic (closed) B-spline curve by knot points. Idem.
 
-- ![](/src/assets/images/Sketcher_ToggleConstruction.svg) [Toggle construction geometry](/Sketcher_ToggleConstruction "Sketcher ToggleConstruction"): Either toggles the geometry creation tools to/from construction mode, or toggles selected geometry to/from construction geometry.
+- ![](/images/Sketcher_ToggleConstruction.svg) [Toggle construction geometry](/Sketcher_ToggleConstruction "Sketcher ToggleConstruction"): Either toggles the geometry creation tools to/from construction mode, or toggles selected geometry to/from construction geometry.
 
 ### Sketcher constraints
 
 These are tools for creating [constraints](#Constraints). Some constraints require the use of [Helper constraints](/Sketcher_helper_constraint "Sketcher helper constraint").
 
-- ![](/src/assets/images/Sketcher_Dimension.svg)![](/src/assets/images/Toolbar_flyout_arrow_blue_background.svg) Dimensional constraints:
+- ![](/images/Sketcher_Dimension.svg)![](/images/Toolbar_flyout_arrow_blue_background.svg) Dimensional constraints:
 
-- ![](/src/assets/images/Sketcher_Dimension.svg) [Dimension](/Sketcher_Dimension "Sketcher Dimension"): Is the context-sensitive constraint tool of the Sketcher Workbench. Based on the current selection, it offers appropriate dimensional constraints, but also geometric constraints. [introduced in 1.0](/Release_notes_1.0 "Release notes 1.0")
+- ![](/images/Sketcher_Dimension.svg) [Dimension](/Sketcher_Dimension "Sketcher Dimension"): Is the context-sensitive constraint tool of the Sketcher Workbench. Based on the current selection, it offers appropriate dimensional constraints, but also geometric constraints. [introduced in 1.0](/Release_notes_1.0 "Release notes 1.0")
 
-- ![](/src/assets/images/Sketcher_ConstrainDistanceX.svg) [Horizontal distance](/Sketcher_ConstrainDistanceX "Sketcher ConstrainDistanceX"): Fixes the horizontal distance between two points or the endpoints of a line. If a single point is pre-selected, the distance is relative to the origin of the sketch.
+- ![](/images/Sketcher_ConstrainDistanceX.svg) [Horizontal distance](/Sketcher_ConstrainDistanceX "Sketcher ConstrainDistanceX"): Fixes the horizontal distance between two points or the endpoints of a line. If a single point is pre-selected, the distance is relative to the origin of the sketch.
 
-- ![](/src/assets/images/Sketcher_ConstrainDistanceY.svg) [Vertical distance](/Sketcher_ConstrainDistanceY "Sketcher ConstrainDistanceY"): Fixes the vertical distance between two points or the endpoints of a line. If a single point is pre-selected, the distance is relative to the origin of the sketch.
+- ![](/images/Sketcher_ConstrainDistanceY.svg) [Vertical distance](/Sketcher_ConstrainDistanceY "Sketcher ConstrainDistanceY"): Fixes the vertical distance between two points or the endpoints of a line. If a single point is pre-selected, the distance is relative to the origin of the sketch.
 
-- ![](/src/assets/images/Sketcher_ConstrainDistance.svg) [Distance](/Sketcher_ConstrainDistance "Sketcher ConstrainDistance"): Fixes the length of a line, the distance between two points, the perpendicular distance between a point and a line; or, [introduced in 0.21](/Release_notes_0.21 "Release notes 0.21"), the distance between the edges of two circles or arcs, or between the edge of a circle or arc and a line; or, [introduced in 1.0](/Release_notes_1.0 "Release notes 1.0"), the length of an arc.
+- ![](/images/Sketcher_ConstrainDistance.svg) [Distance](/Sketcher_ConstrainDistance "Sketcher ConstrainDistance"): Fixes the length of a line, the distance between two points, the perpendicular distance between a point and a line; or, [introduced in 0.21](/Release_notes_0.21 "Release notes 0.21"), the distance between the edges of two circles or arcs, or between the edge of a circle or arc and a line; or, [introduced in 1.0](/Release_notes_1.0 "Release notes 1.0"), the length of an arc.
 
-- ![](/src/assets/images/Sketcher_ConstrainRadiam.svg) [Auto radius/diameter](/Sketcher_ConstrainRadiam "Sketcher ConstrainRadiam"): Fixes the radius of arcs and B-spline weight circles, and the diameter of circles.
+- ![](/images/Sketcher_ConstrainRadiam.svg) [Auto radius/diameter](/Sketcher_ConstrainRadiam "Sketcher ConstrainRadiam"): Fixes the radius of arcs and B-spline weight circles, and the diameter of circles.
 
-- ![](/src/assets/images/Sketcher_ConstrainRadius.svg) [Radius](/Sketcher_ConstrainRadius "Sketcher ConstrainRadius"): Fixes the radius of circles, arcs and B-spline weight circles.
+- ![](/images/Sketcher_ConstrainRadius.svg) [Radius](/Sketcher_ConstrainRadius "Sketcher ConstrainRadius"): Fixes the radius of circles, arcs and B-spline weight circles.
 
-- ![](/src/assets/images/Sketcher_ConstrainDiameter.svg) [Diameter](/Sketcher_ConstrainDiameter "Sketcher ConstrainDiameter"): Fixes the diameter of circles and arcs.
+- ![](/images/Sketcher_ConstrainDiameter.svg) [Diameter](/Sketcher_ConstrainDiameter "Sketcher ConstrainDiameter"): Fixes the diameter of circles and arcs.
 
-- ![](/src/assets/images/Sketcher_ConstrainAngle.svg) [Angle](/Sketcher_ConstrainAngle "Sketcher ConstrainAngle"): Fixes the angle between two edges, the angle of a line with the horizontal axis of the sketch, or the aperture angle of a circular arc.
+- ![](/images/Sketcher_ConstrainAngle.svg) [Angle](/Sketcher_ConstrainAngle "Sketcher ConstrainAngle"): Fixes the angle between two edges, the angle of a line with the horizontal axis of the sketch, or the aperture angle of a circular arc.
 
-- ![](/src/assets/images/Sketcher_ConstrainLock.svg) [Lock](/Sketcher_ConstrainLock "Sketcher ConstrainLock"): Applies [Horizontal distance](/Sketcher_ConstrainDistanceX "Sketcher ConstrainDistanceX") and [Vertical distance](/Sketcher_ConstrainDistanceY "Sketcher ConstrainDistanceY") constraints to points. If a single point is selected the constraints reference the origin of the sketch. If two or more points are selected the constraints reference the last point in the selection.
+- ![](/images/Sketcher_ConstrainLock.svg) [Lock](/Sketcher_ConstrainLock "Sketcher ConstrainLock"): Applies [Horizontal distance](/Sketcher_ConstrainDistanceX "Sketcher ConstrainDistanceX") and [Vertical distance](/Sketcher_ConstrainDistanceY "Sketcher ConstrainDistanceY") constraints to points. If a single point is selected the constraints reference the origin of the sketch. If two or more points are selected the constraints reference the last point in the selection.
 
-- ![](/src/assets/images/Sketcher_ConstrainCoincidentUnified.svg) [Coincident (unified)](/Sketcher_ConstrainCoincidentUnified "Sketcher ConstrainCoincidentUnified"): Creates a coincident constraint between points, fixes points on edges or axes, or creates a concentric constraint. It combines the [Coincident](/Sketcher_ConstrainCoincident "Sketcher ConstrainCoincident") and [Point on object](/Sketcher_ConstrainPointOnObject "Sketcher ConstrainPointOnObject") tools. [introduced in 1.0](/Release_notes_1.0 "Release notes 1.0")
+- ![](/images/Sketcher_ConstrainCoincidentUnified.svg) [Coincident (unified)](/Sketcher_ConstrainCoincidentUnified "Sketcher ConstrainCoincidentUnified"): Creates a coincident constraint between points, fixes points on edges or axes, or creates a concentric constraint. It combines the [Coincident](/Sketcher_ConstrainCoincident "Sketcher ConstrainCoincident") and [Point on object](/Sketcher_ConstrainPointOnObject "Sketcher ConstrainPointOnObject") tools. [introduced in 1.0](/Release_notes_1.0 "Release notes 1.0")
 
-- ![](/src/assets/images/Sketcher_ConstrainCoincident.svg) [Coincident](/Sketcher_ConstrainCoincident "Sketcher ConstrainCoincident"): Creates a coincident constraint between points, or a concentric constraint.
+- ![](/images/Sketcher_ConstrainCoincident.svg) [Coincident](/Sketcher_ConstrainCoincident "Sketcher ConstrainCoincident"): Creates a coincident constraint between points, or a concentric constraint.
 
-- ![](/src/assets/images/Sketcher_ConstrainPointOnObject.svg) [Point on object](/Sketcher_ConstrainPointOnObject "Sketcher ConstrainPointOnObject"): Fixes points on edges or axes.
+- ![](/images/Sketcher_ConstrainPointOnObject.svg) [Point on object](/Sketcher_ConstrainPointOnObject "Sketcher ConstrainPointOnObject"): Fixes points on edges or axes.
 
-- ![](/src/assets/images/Sketcher_ConstrainHorVer.svg)![](/src/assets/images/Toolbar_flyout_arrow_blue_background.svg)Horizontal/vertical constraints:
+- ![](/images/Sketcher_ConstrainHorVer.svg)![](/images/Toolbar_flyout_arrow_blue_background.svg)Horizontal/vertical constraints:
 
-- ![](/src/assets/images/Sketcher_ConstrainHorVer.svg) [Horizontal/vertical](/Sketcher_ConstrainHorVer "Sketcher ConstrainHorVer"): Constrains lines or pairs of points to be horizontal or vertical, whichever is closest to the current alignment. It combines the [Horizontal](/Sketcher_ConstrainHorizontal "Sketcher ConstrainHorizontal") and [Vertical](/Sketcher_ConstrainVertical "Sketcher ConstrainVertical") tools. [introduced in 1.0](/Release_notes_1.0 "Release notes 1.0")
+- ![](/images/Sketcher_ConstrainHorVer.svg) [Horizontal/vertical](/Sketcher_ConstrainHorVer "Sketcher ConstrainHorVer"): Constrains lines or pairs of points to be horizontal or vertical, whichever is closest to the current alignment. It combines the [Horizontal](/Sketcher_ConstrainHorizontal "Sketcher ConstrainHorizontal") and [Vertical](/Sketcher_ConstrainVertical "Sketcher ConstrainVertical") tools. [introduced in 1.0](/Release_notes_1.0 "Release notes 1.0")
 
-- ![](/src/assets/images/Sketcher_ConstrainHorizontal.svg) [Horizontal](/Sketcher_ConstrainHorizontal "Sketcher ConstrainHorizontal"): Constrains lines or pairs of points to be horizontal.
+- ![](/images/Sketcher_ConstrainHorizontal.svg) [Horizontal](/Sketcher_ConstrainHorizontal "Sketcher ConstrainHorizontal"): Constrains lines or pairs of points to be horizontal.
 
-- ![](/src/assets/images/Sketcher_ConstrainVertical.svg) [Vertical](/Sketcher_ConstrainVertical "Sketcher ConstrainVertical"): Constrains lines or pairs of points to be vertical.
+- ![](/images/Sketcher_ConstrainVertical.svg) [Vertical](/Sketcher_ConstrainVertical "Sketcher ConstrainVertical"): Constrains lines or pairs of points to be vertical.
 
-- ![](/src/assets/images/Sketcher_ConstrainParallel.svg) [Parallel](/Sketcher_ConstrainParallel "Sketcher ConstrainParallel"): Constrains lines to be parallel.
+- ![](/images/Sketcher_ConstrainParallel.svg) [Parallel](/Sketcher_ConstrainParallel "Sketcher ConstrainParallel"): Constrains lines to be parallel.
 
-- ![](/src/assets/images/Sketcher_ConstrainPerpendicular.svg) [Perpendicular](/Sketcher_ConstrainPerpendicular "Sketcher ConstrainPerpendicular"): Constrains two lines to be perpendicular, or two edges, or an edge and an axis, to be perpendicular at their intersection. The constraint can also connect two edges, forcing them to be perpendicular at the joint.
+- ![](/images/Sketcher_ConstrainPerpendicular.svg) [Perpendicular](/Sketcher_ConstrainPerpendicular "Sketcher ConstrainPerpendicular"): Constrains two lines to be perpendicular, or two edges, or an edge and an axis, to be perpendicular at their intersection. The constraint can also connect two edges, forcing them to be perpendicular at the joint.
 
-- ![](/src/assets/images/Sketcher_ConstrainTangent.svg) [Tangent or collinear](/Sketcher_ConstrainTangent "Sketcher ConstrainTangent"): Constrains two edges, or an edge and an axis, to be tangent. The constraint can also connect two edges, forcing them to be tangent at the joint. If two lines are selected they are made collinear.
+- ![](/images/Sketcher_ConstrainTangent.svg) [Tangent or collinear](/Sketcher_ConstrainTangent "Sketcher ConstrainTangent"): Constrains two edges, or an edge and an axis, to be tangent. The constraint can also connect two edges, forcing them to be tangent at the joint. If two lines are selected they are made collinear.
 
-- ![](/src/assets/images/Sketcher_ConstrainEqual.svg) [Equal](/Sketcher_ConstrainEqual "Sketcher ConstrainEqual"): Constrains edges to have an equal length (lines) or curvature (other edges except B-splines).
+- ![](/images/Sketcher_ConstrainEqual.svg) [Equal](/Sketcher_ConstrainEqual "Sketcher ConstrainEqual"): Constrains edges to have an equal length (lines) or curvature (other edges except B-splines).
 
-- ![](/src/assets/images/Sketcher_ConstrainSymmetric.svg) [Symmetric](/Sketcher_ConstrainSymmetric "Sketcher ConstrainSymmetric"): Constrains two points to be symmetrical around a line or axis, or around a third point.
+- ![](/images/Sketcher_ConstrainSymmetric.svg) [Symmetric](/Sketcher_ConstrainSymmetric "Sketcher ConstrainSymmetric"): Constrains two points to be symmetrical around a line or axis, or around a third point.
 
-- ![](/src/assets/images/Sketcher_ConstrainBlock.svg) [Block](/Sketcher_ConstrainBlock "Sketcher ConstrainBlock"): Blocks edges in place with a single constraint. It is mainly intended for B-splines.
+- ![](/images/Sketcher_ConstrainBlock.svg) [Block](/Sketcher_ConstrainBlock "Sketcher ConstrainBlock"): Blocks edges in place with a single constraint. It is mainly intended for B-splines.
 
-- ![](/src/assets/images/Sketcher_ConstrainSnellsLaw.svg) [Refraction (Snell's law)](/Sketcher_ConstrainSnellsLaw "Sketcher ConstrainSnellsLaw"): Constrains two lines to follow the law of refraction of light as it penetrates through an interface.
+- ![](/images/Sketcher_ConstrainSnellsLaw.svg) [Refraction (Snell's law)](/Sketcher_ConstrainSnellsLaw "Sketcher ConstrainSnellsLaw"): Constrains two lines to follow the law of refraction of light as it penetrates through an interface.
 
-- ![](/src/assets/images/Sketcher_ToggleDrivingConstraint.svg)![](/src/assets/images/Toolbar_flyout_arrow_blue_background.svg) Toggle constraints:
+- ![](/images/Sketcher_ToggleDrivingConstraint.svg)![](/images/Toolbar_flyout_arrow_blue_background.svg) Toggle constraints:
 
-- ![](/src/assets/images/Sketcher_ToggleDrivingConstraint.svg) [Toggle driving/reference constraint](/Sketcher_ToggleDrivingConstraint "Sketcher ToggleDrivingConstraint"): Toggles the dimensional constraint creation tools between driving and reference mode, or toggles selected dimensional constraints between those modes.
+- ![](/images/Sketcher_ToggleDrivingConstraint.svg) [Toggle driving/reference constraint](/Sketcher_ToggleDrivingConstraint "Sketcher ToggleDrivingConstraint"): Toggles the dimensional constraint creation tools between driving and reference mode, or toggles selected dimensional constraints between those modes.
 
-- ![](/src/assets/images/Sketcher_ToggleActiveConstraint.svg) [Activate/deactivate constraint](/Sketcher_ToggleActiveConstraint "Sketcher ToggleActiveConstraint"): Activates or deactivates selected constraints.
+- ![](/images/Sketcher_ToggleActiveConstraint.svg) [Activate/deactivate constraint](/Sketcher_ToggleActiveConstraint "Sketcher ToggleActiveConstraint"): Activates or deactivates selected constraints.
 
 ### Sketcher tools
 
-- ![](/src/assets/images/Sketcher_CreateFillet.svg)![](/src/assets/images/Toolbar_flyout_arrow_blue_background.svg) Create fillet/chamfer:
+- ![](/images/Sketcher_CreateFillet.svg)![](/images/Toolbar_flyout_arrow_blue_background.svg) Create fillet/chamfer:
 
-- ![](/src/assets/images/Sketcher_CreateFillet.svg) [Fillet](/Sketcher_CreateFillet "Sketcher CreateFillet"): Creates a fillet between two non-parallel edges. [introduced in 1.0](/Release_notes_1.0 "Release notes 1.0"): The tool can also create a chamfer.
+- ![](/images/Sketcher_CreateFillet.svg) [Fillet](/Sketcher_CreateFillet "Sketcher CreateFillet"): Creates a fillet between two non-parallel edges. [introduced in 1.0](/Release_notes_1.0 "Release notes 1.0"): The tool can also create a chamfer.
 
-- ![](/src/assets/images/Sketcher_CreateChamfer.svg) [Chamfer](/Sketcher_CreateChamfer "Sketcher CreateChamfer"): creates a chamfer between two non-parallel edges. This is the same tool as [Fillet](/Sketcher_CreateFillet "Sketcher CreateFillet") but with a different initial mode. [introduced in 1.0](/Release_notes_1.0 "Release notes 1.0")
+- ![](/images/Sketcher_CreateChamfer.svg) [Chamfer](/Sketcher_CreateChamfer "Sketcher CreateChamfer"): creates a chamfer between two non-parallel edges. This is the same tool as [Fillet](/Sketcher_CreateFillet "Sketcher CreateFillet") but with a different initial mode. [introduced in 1.0](/Release_notes_1.0 "Release notes 1.0")
 
-- ![](/src/assets/images/Sketcher_Trimming.svg)![](/src/assets/images/Toolbar_flyout_arrow_blue_background.svg) Edit edge:
+- ![](/images/Sketcher_Trimming.svg)![](/images/Toolbar_flyout_arrow_blue_background.svg) Edit edge:
 
-- ![](/src/assets/images/Sketcher_Trimming.svg) [Trim](/Sketcher_Trimming "Sketcher Trimming"): Trims an edge at the nearest intersections with other edges.
+- ![](/images/Sketcher_Trimming.svg) [Trim](/Sketcher_Trimming "Sketcher Trimming"): Trims an edge at the nearest intersections with other edges.
 
-- ![](/src/assets/images/Sketcher_Split.svg) [Split](/Sketcher_Split "Sketcher Split"): Splits an edge while transferring most constraints.
+- ![](/images/Sketcher_Split.svg) [Split](/Sketcher_Split "Sketcher Split"): Splits an edge while transferring most constraints.
 
-- ![](/src/assets/images/Sketcher_Extend.svg) [Extend](/Sketcher_Extend "Sketcher Extend"): Extends or shortens a line or an arc to an arbitrary location, or to a target edge or point.
+- ![](/images/Sketcher_Extend.svg) [Extend](/Sketcher_Extend "Sketcher Extend"): Extends or shortens a line or an arc to an arbitrary location, or to a target edge or point.
 
-- ![](/src/assets/images/Sketcher_External.svg) [External geometry](/Sketcher_External "Sketcher External"): Projects edges and/or vertices belonging to objects outside the sketch onto the sketch plane. 1.0 and below
+- ![](/images/Sketcher_External.svg) [External geometry](/Sketcher_External "Sketcher External"): Projects edges and/or vertices belonging to objects outside the sketch onto the sketch plane. 1.0 and below
 
-- ![](/src/assets/images/Sketcher_Projection.svg)![](/src/assets/images/Toolbar_flyout_arrow_blue_background.svg) External geometry:
+- ![](/images/Sketcher_Projection.svg)![](/images/Toolbar_flyout_arrow_blue_background.svg) External geometry:
 
-- ![](/src/assets/images/Sketcher_Projection.svg) [Create external projection geometry](/Sketcher_Projection "Sketcher Projection"): Creates the projection edges of external geometry. [introduced in 1.1](/Release_notes_1.1 "Release notes 1.1")
+- ![](/images/Sketcher_Projection.svg) [Create external projection geometry](/Sketcher_Projection "Sketcher Projection"): Creates the projection edges of external geometry. [introduced in 1.1](/Release_notes_1.1 "Release notes 1.1")
 
-- ![](/src/assets/images/Sketcher_Intersection.svg) [Create external intersection geometry](/Sketcher_Intersection "Sketcher Intersection"): Creates the intersection edges of external geometry with the sketch plane. [introduced in 1.1](/Release_notes_1.1 "Release notes 1.1")
+- ![](/images/Sketcher_Intersection.svg) [Create external intersection geometry](/Sketcher_Intersection "Sketcher Intersection"): Creates the intersection edges of external geometry with the sketch plane. [introduced in 1.1](/Release_notes_1.1 "Release notes 1.1")
 
-- ![](/src/assets/images/Sketcher_CarbonCopy.svg) [Carbon copy](/Sketcher_CarbonCopy "Sketcher CarbonCopy"): Copies all geometry and constraints from another sketch into the active sketch.
+- ![](/images/Sketcher_CarbonCopy.svg) [Carbon copy](/Sketcher_CarbonCopy "Sketcher CarbonCopy"): Copies all geometry and constraints from another sketch into the active sketch.
 
-- ![](/src/assets/images/Sketcher_SelectOrigin.svg) [Select origin](/Sketcher_SelectOrigin "Sketcher SelectOrigin"): Selects the origin of the sketch.
+- ![](/images/Sketcher_SelectOrigin.svg) [Select origin](/Sketcher_SelectOrigin "Sketcher SelectOrigin"): Selects the origin of the sketch.
 
-- ![](/src/assets/images/Sketcher_SelectHorizontalAxis.svg) [Select horizontal axis](/Sketcher_SelectHorizontalAxis "Sketcher SelectHorizontalAxis"): Selects the horizontal axis of the sketch.
+- ![](/images/Sketcher_SelectHorizontalAxis.svg) [Select horizontal axis](/Sketcher_SelectHorizontalAxis "Sketcher SelectHorizontalAxis"): Selects the horizontal axis of the sketch.
 
-- ![](/src/assets/images/Sketcher_SelectVerticalAxis.svg) [Select vertical axis](/Sketcher_SelectVerticalAxis "Sketcher SelectVerticalAxis"): Selects the vertical axis of the sketch.
+- ![](/images/Sketcher_SelectVerticalAxis.svg) [Select vertical axis](/Sketcher_SelectVerticalAxis "Sketcher SelectVerticalAxis"): Selects the vertical axis of the sketch.
 
-- ![](/src/assets/images/Sketcher_Translate.svg) [Array transform](/Sketcher_Translate "Sketcher Translate"): Moves or optionally creates copies of selected elements. [introduced in 1.0](/Release_notes_1.0 "Release notes 1.0")
+- ![](/images/Sketcher_Translate.svg) [Array transform](/Sketcher_Translate "Sketcher Translate"): Moves or optionally creates copies of selected elements. [introduced in 1.0](/Release_notes_1.0 "Release notes 1.0")
 
-- ![](/src/assets/images/Sketcher_Rotate.svg) [Polar transform](/Sketcher_Rotate "Sketcher Rotate"): Rotates or optionally creates rotated copies of selected elements. [introduced in 1.0](/Release_notes_1.0 "Release notes 1.0")
+- ![](/images/Sketcher_Rotate.svg) [Polar transform](/Sketcher_Rotate "Sketcher Rotate"): Rotates or optionally creates rotated copies of selected elements. [introduced in 1.0](/Release_notes_1.0 "Release notes 1.0")
 
-- ![](/src/assets/images/Sketcher_Scale.svg) [Scale transform](/Sketcher_Scale "Sketcher Scale"): Scales or optionally creates scaled copies of selected elements. [introduced in 1.0](/Release_notes_1.0 "Release notes 1.0")
+- ![](/images/Sketcher_Scale.svg) [Scale transform](/Sketcher_Scale "Sketcher Scale"): Scales or optionally creates scaled copies of selected elements. [introduced in 1.0](/Release_notes_1.0 "Release notes 1.0")
 
-- ![](/src/assets/images/Sketcher_Offset.svg) [Offset geometry](/Sketcher_Offset "Sketcher Offset"): Creates equidistant edges around selected edges. [introduced in 1.0](/Release_notes_1.0 "Release notes 1.0")
+- ![](/images/Sketcher_Offset.svg) [Offset geometry](/Sketcher_Offset "Sketcher Offset"): Creates equidistant edges around selected edges. [introduced in 1.0](/Release_notes_1.0 "Release notes 1.0")
 
-- ![](/src/assets/images/Sketcher_Symmetry.svg) [Symmetry](/Sketcher_Symmetry "Sketcher Symmetry"): Creates mirrored copies of selected elements.
+- ![](/images/Sketcher_Symmetry.svg) [Symmetry](/Sketcher_Symmetry "Sketcher Symmetry"): Creates mirrored copies of selected elements.
 
-- ![](/src/assets/images/Sketcher_RemoveAxesAlignment.svg) [Remove axes alignment](/Sketcher_RemoveAxesAlignment "Sketcher RemoveAxesAlignment"): Removes the axes alignment of selected edges by replacing [Horizontal](/Sketcher_ConstrainHorizontal "Sketcher ConstrainHorizontal") and [Vertical](/Sketcher_ConstrainVertical "Sketcher ConstrainVertical") constraints with [Parallel](/Sketcher_ConstrainParallel "Sketcher ConstrainParallel") and [Perpendicular](/Sketcher_ConstrainPerpendicular "Sketcher ConstrainPerpendicular") constraints.
+- ![](/images/Sketcher_RemoveAxesAlignment.svg) [Remove axes alignment](/Sketcher_RemoveAxesAlignment "Sketcher RemoveAxesAlignment"): Removes the axes alignment of selected edges by replacing [Horizontal](/Sketcher_ConstrainHorizontal "Sketcher ConstrainHorizontal") and [Vertical](/Sketcher_ConstrainVertical "Sketcher ConstrainVertical") constraints with [Parallel](/Sketcher_ConstrainParallel "Sketcher ConstrainParallel") and [Perpendicular](/Sketcher_ConstrainPerpendicular "Sketcher ConstrainPerpendicular") constraints.
 
-- ![](/src/assets/images/Sketcher_DeleteAllGeometry.svg) [Delete all geometry](/Sketcher_DeleteAllGeometry "Sketcher DeleteAllGeometry"): Deletes all geometry and all constraints from the sketch.
+- ![](/images/Sketcher_DeleteAllGeometry.svg) [Delete all geometry](/Sketcher_DeleteAllGeometry "Sketcher DeleteAllGeometry"): Deletes all geometry and all constraints from the sketch.
 
-- ![](/src/assets/images/Sketcher_DeleteAllConstraints.svg) [Delete all constraints](/Sketcher_DeleteAllConstraints "Sketcher DeleteAllConstraints"): Deletes all constraints from the sketch.
+- ![](/images/Sketcher_DeleteAllConstraints.svg) [Delete all constraints](/Sketcher_DeleteAllConstraints "Sketcher DeleteAllConstraints"): Deletes all constraints from the sketch.
 
-- ![](/src/assets/images/Edit-copy.svg) Copy in Sketcher: See [Copy, cut and paste](#Copy,_cut_and_paste).
+- ![](/images/Edit-copy.svg) Copy in Sketcher: See [Copy, cut and paste](#Copy,_cut_and_paste).
 
-- ![](/src/assets/images/Edit-cut.svg) Cut in Sketcher: See [Copy, cut and paste](#Copy,_cut_and_paste).
+- ![](/images/Edit-cut.svg) Cut in Sketcher: See [Copy, cut and paste](#Copy,_cut_and_paste).
 
-- ![](/src/assets/images/Edit-paste.svg) Paste in Sketcher: See [Copy, cut and paste](#Copy,_cut_and_paste).
+- ![](/images/Edit-paste.svg) Paste in Sketcher: See [Copy, cut and paste](#Copy,_cut_and_paste).
 
 ### Sketcher B-spline tools
 
-- ![](/src/assets/images/Sketcher_BSplineConvertToNURBS.svg) [Convert geometry to B-spline](/Sketcher_BSplineConvertToNURBS "Sketcher BSplineConvertToNURBS"): Converts edges to B-splines.
+- ![](/images/Sketcher_BSplineConvertToNURBS.svg) [Convert geometry to B-spline](/Sketcher_BSplineConvertToNURBS "Sketcher BSplineConvertToNURBS"): Converts edges to B-splines.
 
-- ![](/src/assets/images/Sketcher_BSplineIncreaseDegree.svg) [Increase B-spline degree](/Sketcher_BSplineIncreaseDegree "Sketcher BSplineIncreaseDegree"): Increases the degree (order) of B-splines.
+- ![](/images/Sketcher_BSplineIncreaseDegree.svg) [Increase B-spline degree](/Sketcher_BSplineIncreaseDegree "Sketcher BSplineIncreaseDegree"): Increases the degree (order) of B-splines.
 
-- ![](/src/assets/images/Sketcher_BSplineDecreaseDegree.svg) [Decrease B-spline degree](/Sketcher_BSplineDecreaseDegree "Sketcher BSplineDecreaseDegree"): Decreases the degree (order) of B-splines.
+- ![](/images/Sketcher_BSplineDecreaseDegree.svg) [Decrease B-spline degree](/Sketcher_BSplineDecreaseDegree "Sketcher BSplineDecreaseDegree"): Decreases the degree (order) of B-splines.
 
-- ![](/src/assets/images/Sketcher_BSplineIncreaseKnotMultiplicity.svg) [Increase knot multiplicity](/Sketcher_BSplineIncreaseKnotMultiplicity "Sketcher BSplineIncreaseKnotMultiplicity"): Increases the multiplicity of a B-spline knot.
+- ![](/images/Sketcher_BSplineIncreaseKnotMultiplicity.svg) [Increase knot multiplicity](/Sketcher_BSplineIncreaseKnotMultiplicity "Sketcher BSplineIncreaseKnotMultiplicity"): Increases the multiplicity of a B-spline knot.
 
-- ![](/src/assets/images/Sketcher_BSplineDecreaseKnotMultiplicity.svg) [Decrease knot multiplicity](/Sketcher_BSplineDecreaseKnotMultiplicity "Sketcher BSplineDecreaseKnotMultiplicity"): Decreases the multiplicity of a B-spline knot.
+- ![](/images/Sketcher_BSplineDecreaseKnotMultiplicity.svg) [Decrease knot multiplicity](/Sketcher_BSplineDecreaseKnotMultiplicity "Sketcher BSplineDecreaseKnotMultiplicity"): Decreases the multiplicity of a B-spline knot.
 
-- ![](/src/assets/images/Sketcher_BSplineInsertKnot.svg) [Insert knot](/Sketcher_BSplineInsertKnot "Sketcher BSplineInsertKnot"): Inserts a knot into a B-spline or increases the multiplicity of an existing knot.
+- ![](/images/Sketcher_BSplineInsertKnot.svg) [Insert knot](/Sketcher_BSplineInsertKnot "Sketcher BSplineInsertKnot"): Inserts a knot into a B-spline or increases the multiplicity of an existing knot.
 
-- ![](/src/assets/images/Sketcher_JoinCurves.svg) [Join curves](/Sketcher_JoinCurves "Sketcher JoinCurves"): Creates a B-spline by joining two existing B-splines or other edges. [introduced in 0.21](/Release_notes_0.21 "Release notes 0.21")
+- ![](/images/Sketcher_JoinCurves.svg) [Join curves](/Sketcher_JoinCurves "Sketcher JoinCurves"): Creates a B-spline by joining two existing B-splines or other edges. [introduced in 0.21](/Release_notes_0.21 "Release notes 0.21")
 
 ### Sketcher visual
 
-- ![](/src/assets/images/Sketcher_SelectElementsWithDoFs.svg) [Select unconstrained DoF](/Sketcher_SelectElementsWithDoFs "Sketcher SelectElementsWithDoFs"): Selects the not fully constrained elements in the sketch.
+- ![](/images/Sketcher_SelectElementsWithDoFs.svg) [Select unconstrained DoF](/Sketcher_SelectElementsWithDoFs "Sketcher SelectElementsWithDoFs"): Selects the not fully constrained elements in the sketch.
 
-- ![](/src/assets/images/Sketcher_SelectConstraints.svg) [Select associated constraints](/Sketcher_SelectConstraints "Sketcher SelectConstraints"): Selects the constraints associated with sketch elements.
+- ![](/images/Sketcher_SelectConstraints.svg) [Select associated constraints](/Sketcher_SelectConstraints "Sketcher SelectConstraints"): Selects the constraints associated with sketch elements.
 
-- ![](/src/assets/images/Sketcher_SelectElementsAssociatedWithConstraints.svg) [Select associated geometry](/Sketcher_SelectElementsAssociatedWithConstraints "Sketcher SelectElementsAssociatedWithConstraints"): Selects the sketch elements associated with constraints.
+- ![](/images/Sketcher_SelectElementsAssociatedWithConstraints.svg) [Select associated geometry](/Sketcher_SelectElementsAssociatedWithConstraints "Sketcher SelectElementsAssociatedWithConstraints"): Selects the sketch elements associated with constraints.
 
-- ![](/src/assets/images/Sketcher_SelectRedundantConstraints.svg) [Select redundant constraints](/Sketcher_SelectRedundantConstraints "Sketcher SelectRedundantConstraints"): Selects the redundant constraints in the sketch.
+- ![](/images/Sketcher_SelectRedundantConstraints.svg) [Select redundant constraints](/Sketcher_SelectRedundantConstraints "Sketcher SelectRedundantConstraints"): Selects the redundant constraints in the sketch.
 
-- ![](/src/assets/images/Sketcher_SelectConflictingConstraints.svg) [Select conflicting constraints](/Sketcher_SelectConflictingConstraints "Sketcher SelectConflictingConstraints"): Selects the conflicting constraints in the sketch.
+- ![](/images/Sketcher_SelectConflictingConstraints.svg) [Select conflicting constraints](/Sketcher_SelectConflictingConstraints "Sketcher SelectConflictingConstraints"): Selects the conflicting constraints in the sketch.
 
-- ![](/src/assets/images/Sketcher_ArcOverlay.svg) [Show/hide circular helper for arcs](/Sketcher_ArcOverlay "Sketcher ArcOverlay"): Shows or hides the circular helpers (underlying virtual circles) for arcs in all sketches. [introduced in 1.0](/Release_notes_1.0 "Release notes 1.0")
+- ![](/images/Sketcher_ArcOverlay.svg) [Show/hide circular helper for arcs](/Sketcher_ArcOverlay "Sketcher ArcOverlay"): Shows or hides the circular helpers (underlying virtual circles) for arcs in all sketches. [introduced in 1.0](/Release_notes_1.0 "Release notes 1.0")
 
-- ![](/src/assets/images/Sketcher_BSplinePolygon.svg)![](/src/assets/images/Toolbar_flyout_arrow_blue_background.svg) Show/hide B-spline information layer:
+- ![](/images/Sketcher_BSplinePolygon.svg)![](/images/Toolbar_flyout_arrow_blue_background.svg) Show/hide B-spline information layer:
 
-- ![](/src/assets/images/Sketcher_BSplineDegree.svg) [Show/hide B-spline degree](/Sketcher_BSplineDegree "Sketcher BSplineDegree"): Shows or hides the B-spline degree in all sketches.
+- ![](/images/Sketcher_BSplineDegree.svg) [Show/hide B-spline degree](/Sketcher_BSplineDegree "Sketcher BSplineDegree"): Shows or hides the B-spline degree in all sketches.
 
-- ![](/src/assets/images/Sketcher_BSplinePolygon.svg) [Show/hide B-spline control polygon](/Sketcher_BSplinePolygon "Sketcher BSplinePolygon"): Shows or hides the B-spline control polygon in all sketches.
+- ![](/images/Sketcher_BSplinePolygon.svg) [Show/hide B-spline control polygon](/Sketcher_BSplinePolygon "Sketcher BSplinePolygon"): Shows or hides the B-spline control polygon in all sketches.
 
-- ![](/src/assets/images/Sketcher_BSplineComb.svg) [Show/hide B-spline curvature comb](/Sketcher_BSplineComb "Sketcher BSplineComb"): Shows or hides the B-spline curvature comb in all sketches.
+- ![](/images/Sketcher_BSplineComb.svg) [Show/hide B-spline curvature comb](/Sketcher_BSplineComb "Sketcher BSplineComb"): Shows or hides the B-spline curvature comb in all sketches.
 
-- ![](/src/assets/images/Sketcher_BSplineKnotMultiplicity.svg) [Show/hide B-spline knot multiplicity](/Sketcher_BSplineKnotMultiplicity "Sketcher BSplineKnotMultiplicity"): Shows or hides the B-spline knot multiplicity in all sketches.
+- ![](/images/Sketcher_BSplineKnotMultiplicity.svg) [Show/hide B-spline knot multiplicity](/Sketcher_BSplineKnotMultiplicity "Sketcher BSplineKnotMultiplicity"): Shows or hides the B-spline knot multiplicity in all sketches.
 
-- ![](/src/assets/images/Sketcher_BSplinePoleWeight.svg) [Show/hide B-spline control point weight](/Sketcher_BSplinePoleWeight "Sketcher BSplinePoleWeight"): Shows or hides the B-spline control point weight in all sketches.
+- ![](/images/Sketcher_BSplinePoleWeight.svg) [Show/hide B-spline control point weight](/Sketcher_BSplinePoleWeight "Sketcher BSplinePoleWeight"): Shows or hides the B-spline control point weight in all sketches.
 
-- ![](/src/assets/images/Sketcher_RestoreInternalAlignmentGeometry.svg) [Show/hide internal geometry](/Sketcher_RestoreInternalAlignmentGeometry "Sketcher RestoreInternalAlignmentGeometry"): Deletes the internal geometry of elements, or recreates missing internal geometry.
+- ![](/images/Sketcher_RestoreInternalAlignmentGeometry.svg) [Show/hide internal geometry](/Sketcher_RestoreInternalAlignmentGeometry "Sketcher RestoreInternalAlignmentGeometry"): Deletes the internal geometry of elements, or recreates missing internal geometry.
 
-- ![](/src/assets/images/Sketcher_SwitchVirtualSpace.svg) [Switch virtual space](/Sketcher_SwitchVirtualSpace "Sketcher SwitchVirtualSpace"): (un)hides constraints or switches the visible virtual space.
+- ![](/images/Sketcher_SwitchVirtualSpace.svg) [Switch virtual space](/Sketcher_SwitchVirtualSpace "Sketcher SwitchVirtualSpace"): (un)hides constraints or switches the visible virtual space.
 
 ### Obsolete tools
 
-- ![](/src/assets/images/Sketcher_Clone.svg) [Clone](/Sketcher_Clone "Sketcher Clone"): Clones a Sketcher element. Not available in 1.0 and above.
+- ![](/images/Sketcher_Clone.svg) [Clone](/Sketcher_Clone "Sketcher Clone"): Clones a Sketcher element. Not available in 1.0 and above.
 
-- ![](/src/assets/images/Sketcher_CloseShape.svg) [Close shape](/Sketcher_CloseShape "Sketcher CloseShape"): Creates a closed shape by applying coincident constraints to endpoints. Not available in 0.21 and above.
+- ![](/images/Sketcher_CloseShape.svg) [Close shape](/Sketcher_CloseShape "Sketcher CloseShape"): Creates a closed shape by applying coincident constraints to endpoints. Not available in 0.21 and above.
 
-- ![](/src/assets/images/Sketcher_CreatePointFillet.svg) [Corner-preserving fillet](/Sketcher_CreatePointFillet "Sketcher CreatePointFillet"): Creates a fillet between two non-parallel lines while preserving their corner point. Not available in 1.0 and above.
+- ![](/images/Sketcher_CreatePointFillet.svg) [Corner-preserving fillet](/Sketcher_CreatePointFillet "Sketcher CreatePointFillet"): Creates a fillet between two non-parallel lines while preserving their corner point. Not available in 1.0 and above.
 
-- ![](/src/assets/images/Sketcher_ConnectLines.svg) [Connect edges](/Sketcher_ConnectLines "Sketcher ConnectLines"): Connect Sketcher elements by applying coincident constraints to endpoints. Not available in 0.21 and above.
+- ![](/images/Sketcher_ConnectLines.svg) [Connect edges](/Sketcher_ConnectLines "Sketcher ConnectLines"): Connect Sketcher elements by applying coincident constraints to endpoints. Not available in 0.21 and above.
 
-- ![](/src/assets/images/Sketcher_Copy.svg) [Copy](/Sketcher_Copy "Sketcher Copy"): Copies a Sketcher element. Not available in 1.0 and above.
+- ![](/images/Sketcher_Copy.svg) [Copy](/Sketcher_Copy "Sketcher Copy"): Copies a Sketcher element. Not available in 1.0 and above.
 
-- ![](/src/assets/images/Sketcher_Move.svg) [Move](/Sketcher_Move "Sketcher Move"): Moves the selected geometry taking as reference the last selected point. Not available in 1.0 and above.
+- ![](/images/Sketcher_Move.svg) [Move](/Sketcher_Move "Sketcher Move"): Moves the selected geometry taking as reference the last selected point. Not available in 1.0 and above.
 
-- ![](/src/assets/images/Sketcher_RectangularArray.svg) [Rectangular array](/Sketcher_RectangularArray "Sketcher RectangularArray"): Creates an array of selected Sketcher elements. Not available in 1.0 and above.
+- ![](/images/Sketcher_RectangularArray.svg) [Rectangular array](/Sketcher_RectangularArray "Sketcher RectangularArray"): Creates an array of selected Sketcher elements. Not available in 1.0 and above.
 
 ## Preferences
 
-- ![](/src/assets/images/Workbench_Sketcher.svg) [Preferences](/Sketcher_Preferences "Sketcher Preferences"): Preferences for the Sketcher Workbench.
+- ![](/images/Workbench_Sketcher.svg) [Preferences](/Sketcher_Preferences "Sketcher Preferences"): Preferences for the Sketcher Workbench.
 
 ## Best practices
 
@@ -454,7 +454,7 @@ Every CAD user develops their own way of working over time, but there are some u
 - If possible, center your sketch at the origin (0,0) with the Lock constraint. If your sketch is not symmetric, locate one of its points at the origin, or choose nice round numbers for the lock distances.
 - If you have the possibility to choose between the Length constraint and the Horizontal or Vertical distance constraints, prefer the latter. Horizontal and Vertical distance constraints are computationally cheaper.
 - In general, the best constraints to use are: Horizontal and Vertical constraints; Horizontal and Vertical length constraints; point-to-point Tangency. If possible, limit the use of these: the general Length constraint; edge-to-edge Tangency; Point on object constraint; Symmetric constraint.
-- If in doubt about the validity of a sketch once it is complete (features turn green), close the Sketcher dialog and use ![](/src/assets/images/Sketcher_ValidateSketch.svg) [Validate sketch](/Sketcher_ValidateSketch "Sketcher ValidateSketch").
+- If in doubt about the validity of a sketch once it is complete (features turn green), close the Sketcher dialog and use ![](/images/Sketcher_ValidateSketch.svg) [Validate sketch](/Sketcher_ValidateSketch "Sketcher ValidateSketch").
 
 ## Tutorials
 
@@ -471,7 +471,7 @@ The [Sketcher scripting](/Sketcher_scripting "Sketcher scripting") page contains
 
 For some ideas of what can be achieved with Sketcher tools, have a look at: [Sketcher examples](/Sketcher_Examples "Sketcher Examples").
 
-![](/src/assets/images/Sketcher_ExampleHinge-01.gif)
-![](/src/assets/images/Sketcher_ExampleHinge-15.png)
+![](/images/Sketcher_ExampleHinge-01.gif)
+![](/images/Sketcher_ExampleHinge-15.png)
 
 Retrieved from "<http://wiki.freecad.org/index.php?title=Sketcher_Workbench/en&oldid=1537979>"

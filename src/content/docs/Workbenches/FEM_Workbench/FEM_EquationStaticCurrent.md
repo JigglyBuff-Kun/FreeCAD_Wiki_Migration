@@ -25,10 +25,10 @@ For info about the math of the equation, see the [Elmer models manual](https://w
 
 ## Usage
 
-1. Add an ![](/src/assets/images/FEM_SolverElmer.svg) [Elmer solver](/FEM_SolverElmer#Equations "FEM SolverElmer").
+1. Add an ![](/images/FEM_SolverElmer.svg) [Elmer solver](/FEM_SolverElmer#Equations "FEM SolverElmer").
 2. Select it in the [Tree view](/Tree_view "Tree view").
 3. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/FEM_EquationStaticCurrent.svg) [Static current equation](/FEM_EquationStaticCurrent "FEM EquationStaticCurrent") button.
+   - Press the ![](/images/FEM_EquationStaticCurrent.svg) [Static current equation](/FEM_EquationStaticCurrent "FEM EquationStaticCurrent") button.
    - Select the **Solve → Electromagnetic Equations → Static current equation** option from the menu.
 4. Change the [equation's solver settings](#Solver_Settings) or the [general solver settings](/FEM_SolverElmer_SolverSettings "FEM SolverElmer SolverSettings") if necessary.
 
@@ -52,12 +52,12 @@ The static current equation provides these special settings:
 
 The static current equation takes the following analysis features into account if they are set:
 
-- ![](/src/assets/images/FEM_ConstraintElectrostaticPotential.svg) [Electrostatic potential boundary condition](/FEM_ConstraintElectrostaticPotential "FEM ConstraintElectrostaticPotential")
-- ![](/src/assets/images/FEM_ConstraintCurrentDensity.svg) [Current density boundary condition](/FEM_ConstraintCurrentDensity "FEM ConstraintCurrentDensity")
+- ![](/images/FEM_ConstraintElectrostaticPotential.svg) [Electrostatic potential boundary condition](/FEM_ConstraintElectrostaticPotential "FEM ConstraintElectrostaticPotential")
+- ![](/images/FEM_ConstraintCurrentDensity.svg) [Current density boundary condition](/FEM_ConstraintCurrentDensity "FEM ConstraintCurrentDensity")
 
 ### Note
 
-Except for calculations in 2D, for ![](/src/assets/images/FEM_ConstraintElectrostaticPotential.svg) [electrostatic potential boundary conditions](/FEM_ConstraintElectrostaticPotential "FEM ConstraintElectrostaticPotential") it is important that they act on a face or body. Boundary conditions in 3D set to lines or vertices are not recognized by the Elmer solver.
+Except for calculations in 2D, for ![](/images/FEM_ConstraintElectrostaticPotential.svg) [electrostatic potential boundary conditions](/FEM_ConstraintElectrostaticPotential "FEM ConstraintElectrostaticPotential") it is important that they act on a face or body. Boundary conditions in 3D set to lines or vertices are not recognized by the Elmer solver.
 
 ## Results
 

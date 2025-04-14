@@ -19,7 +19,7 @@ title: Sketcher CreateRegularPolygon
 
 ## Description
 
-The ![](/src/assets/images/Sketcher_CreateRegularPolygon.svg) [Sketcher CreateRegularPolygon](/Sketcher_CreateRegularPolygon "Sketcher CreateRegularPolygon") tool creates a regular polygon.
+The ![](/images/Sketcher_CreateRegularPolygon.svg) [Sketcher CreateRegularPolygon](/Sketcher_CreateRegularPolygon "Sketcher CreateRegularPolygon") tool creates a regular polygon.
 
 ## Usage
 
@@ -29,8 +29,8 @@ Pos-OVP = Positional [On-View-Parameters](/Sketcher_Preferences#General "Sketche
 Dim-OVP = Dimensional On-View-Parameters. [introduced in 1.0](/Release_notes_1.0 "Release notes 1.0")
 
 1. There are several ways to invoke the tool:
-   - Press the ![](/src/assets/images/Sketcher_CreateRegularPolygon.svg) [Regular polygon](/Sketcher_CreateRegularPolygon "Sketcher CreateRegularPolygon") button.
-   - Select the **Sketcher → Sketcher geometries → ![](/src/assets/images/Sketcher_CreateRegularPolygon.svg) Create regular polygon** option from the menu.
+   - Press the ![](/images/Sketcher_CreateRegularPolygon.svg) [Regular polygon](/Sketcher_CreateRegularPolygon "Sketcher CreateRegularPolygon") button.
+   - Select the **Sketcher → Sketcher geometries → ![](/images/Sketcher_CreateRegularPolygon.svg) Create regular polygon** option from the menu.
    - Use the keyboard shortcut: G then P, then R.
 2. Enter the **Number of Sides** in the dialog that opens.
 3. The cursor changes to a cross with the tool icon.

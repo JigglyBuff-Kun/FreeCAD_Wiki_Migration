@@ -26,9 +26,9 @@ The **Std LinkSelectAllLinks** command selects all [App Link](/App_Link "App Lin
 1. To find links in multiple documents make sure the [Tree view](/Tree_view "Tree view") is switched to [MultiDocument mode](/Std_TreeMultiDocument "Std TreeMultiDocument").
 2. Select a source object that has links.
 3. There are several ways to invoke the command:
-   - Select the **View → Link navigation → ![](/src/assets/images/Std_LinkSelectAllLinks.svg) Select all links** option from the menu.
-   - Select the **Link actions → ![](/src/assets/images/Std_LinkSelectAllLinks.svg) Select all links** option from the [Tree view](/Tree_view "Tree view") context menu.
+   - Select the **View → Link navigation → ![](/images/Std_LinkSelectAllLinks.svg) Select all links** option from the menu.
+   - Select the **Link actions → ![](/images/Std_LinkSelectAllLinks.svg) Select all links** option from the [Tree view](/Tree_view "Tree view") context menu.
 4. All links that link to the source object are selected.
-5. Optionally use ![](/src/assets/images/Std_SelBack.svg) [Std SelBack](/Std_SelBack "Std SelBack") to reselect the source object.
+5. Optionally use ![](/images/Std_SelBack.svg) [Std SelBack](/Std_SelBack "Std SelBack") to reselect the source object.
 
 Retrieved from "<http://wiki.freecad.org/index.php?title=Std_LinkSelectAllLinks/de&oldid=1453519>"

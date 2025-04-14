@@ -30,16 +30,16 @@ title: Schnitt (ebener Schnitt durch einen oder mehrere Körper)
 
 Durch den oder die Körper wird ein ebener Schnitt geführt. Die Normale der Schnittebene entsteht durch Vorgabe je eines Vektors in den drei Ebenen des xyz-Koordinatensystems. Die Schnittebene kann parallel zu sich stetig hin und her verschoben werden. Angezeigt werden entweder die durch den Schnitt enstandenen Linien (Durchdringungsfigur) oder der Rest des oder der Körper (einer der beiden durch den Schnitt entstandenen Teile des oder der Körper wird ausgeblendet).
 
-![](/src/assets/images/Cross-section.png)
+![](/images/Cross-section.png)
 
 Abbildung:
 Schnitt durch zwei teiweise ineinander steckende Köper;
 links: Dialogfeld "Körper-Schnitt";
 rechts: "geschnittener Körper-Rest" (schräge Schnittebene, Schnittebenen-Normale (Sliding axis direction) unter 45° im 1. Sektor der xz-Ebene (X=1, Z=1))
 
-![](/src/assets/images/Cross-section.png)
+![](/images/Cross-section.png)
 
-![](/src/assets/images/Macro_Cross_Section_02.png)
+![](/images/Macro_Cross_Section_02.png)
 
 ## Anwendung
 
@@ -57,7 +57,7 @@ rechts: "geschnittener Körper-Rest" (schräge Schnittebene, Schnittebenen-Norma
 
 siehe [forum](http://forum.freecadweb.org/viewtopic.php?f=28&t=15084&p=120159#p120159)
 
-![](/src/assets/images/Macro_Cross_Section_01.png)
+![](/images/Macro_Cross_Section_01.png)
 
 siehe rechts unten: "Speichern des Schnitt-Ergebnisses" (Keep the sectional view).
 
@@ -75,7 +75,7 @@ Changes by g.becu include.
 
 Changes by Chris_G include.
 
-ToolBar Icon ![](/src/assets/images/Macro_cross_section.png)
+ToolBar Icon ![](/images/Macro_cross_section.png)
 
 **Macro cross section.FCMacro**
 
@@ -665,7 +665,7 @@ myWidget = CrossSectionWindow()
 
 ## Beispiel
 
-![](/src/assets/images/Macro_Cross_Section_03.gif)
+![](/images/Macro_Cross_Section_03.gif)
 
 ## Links
 

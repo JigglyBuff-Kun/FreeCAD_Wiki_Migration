@@ -21,16 +21,16 @@ title: Reinforcement StirrupRebar
 
 The [Reinforcement StirrupRebar](/Reinforcement_StirrupRebar "Reinforcement StirrupRebar") tool allows the user to create a set of stirrup reinforcing bars inside an [Arch Structure](/Arch_Structure "Arch Structure") object.
 
-This tool is part of the [Reinforcement Workbench](/Reinforcement_Workbench "Reinforcement Workbench"), an [external workbench](/External_workbenches "External workbenches") that can be installed with the ![](/src/assets/images/Std_AddonMgr.svg) [Addon Manager](/Std_AddonMgr "Std AddonMgr").
+This tool is part of the [Reinforcement Workbench](/Reinforcement_Workbench "Reinforcement Workbench"), an [external workbench](/External_workbenches "External workbenches") that can be installed with the ![](/images/Std_AddonMgr.svg) [Addon Manager](/Std_AddonMgr "Std AddonMgr").
 
-![](/src/assets/images/Arch_Rebar_Stirrup_example.png)
+![](/images/Arch_Rebar_Stirrup_example.png)
 
 One set of stirrup reinforcement bars inside an [Arch Structure](/Arch_Structure "Arch Structure") object
 
 ## Usage
 
-1. Select any face of a previously created ![](/src/assets/images/Arch_Structure.svg) [Arch Structure](/Arch_Structure "Arch Structure") object.
-2. Then select ![](/src/assets/images/Reinforcement_StirrupRebar.svg) [Stirrup](/Reinforcement_StirrupRebar "Reinforcement StirrupRebar") from the rebar tools.
+1. Select any face of a previously created ![](/images/Arch_Structure.svg) [Arch Structure](/Arch_Structure "Arch Structure") object.
+2. Then select ![](/images/Reinforcement_StirrupRebar.svg) [Stirrup](/Reinforcement_StirrupRebar "Reinforcement StirrupRebar") from the rebar tools.
 3. A [task panel](/Task_panel "Task panel") will pop-out on the left side of the screen as shown below.
 4. Select the desired orientation.
 5. Populate the inputs like 'Left Cover', 'Right Cover', 'Top Cover', 'Bottom Cover', 'Front Cover', 'Bent Angle', 'Bent Factor', 'Rounding' and 'Diameter' of the rebar.
@@ -40,7 +40,7 @@ One set of stirrup reinforcement bars inside an [Arch Structure](/Arch_Structure
 8. Click OK or Apply to generate the rebars.
 9. Click Cancel to exit the task panel.
 
-![](/src/assets/images/StirrupDialog.png)
+![](/images/StirrupDialog.png)
 
 Task panel for the tool
 

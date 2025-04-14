@@ -47,7 +47,7 @@ A progress bar will appear. As each object is recomputed, a line is printed to R
 ## Macro
 
 ToolBar Icon
-![](/src/assets/images/Macro_Recompute_Profiler.png)
+![](/images/Macro_Recompute_Profiler.png)
 
 **RecomputeProfiler.FCMacro**
 

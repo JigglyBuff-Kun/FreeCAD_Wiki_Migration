@@ -23,7 +23,7 @@ Das Werkzeug **TechDraw MaßVertikal** fügt einer Ansicht ein vertikales Maß h
 
 Für weitere Informationen siehe [TechDraw Längenmaß](/TechDraw_LengthDimension/de "TechDraw LengthDimension/de").
 
-![](/src/assets/images/TechDraw_Dimension_Vertical_example.png)
+![](/images/TechDraw_Dimension_Vertical_example.png)
 
 Vertikales Maß, zwischen zwei Punkten gemessen
 

@@ -24,7 +24,7 @@ The **Std Edit** command activates or deactivates an object's edit mode.
 ## Usage
 
 1. If no object is in edit mode: select a single object.
-2. Select the **Edit → ![](/src/assets/images/Std_Edit.svg) Toggle Edit mode** option from the menu.
+2. Select the **Edit → ![](/images/Std_Edit.svg) Toggle Edit mode** option from the menu.
 3. Either the default edit mode of the selected object is activated or the existing edit mode deactivated.
 
 ## Notes

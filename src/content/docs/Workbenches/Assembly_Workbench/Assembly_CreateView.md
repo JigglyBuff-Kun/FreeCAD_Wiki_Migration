@@ -23,7 +23,7 @@ This documentation is not finished. Please help and contribute documentation.Gui
 
 ## Description
 
-The ![](/src/assets/images/Assembly_CreateView.svg) [Assembly CreateView](/Assembly_CreateView "Assembly CreateView") tool creates an exploded views container (Exploded_Views object) in the active Assembly that contains one (default) or more exploded views (Exploded_View objects). An assembly can only hold one exploded views container.
+The ![](/images/Assembly_CreateView.svg) [Assembly CreateView](/Assembly_CreateView "Assembly CreateView") tool creates an exploded views container (Exploded_Views object) in the active Assembly that contains one (default) or more exploded views (Exploded_View objects). An assembly can only hold one exploded views container.
 
 An exploded view collects the moves (Move objects) used to relocate parts from assembled position to exploded position. The altered positions of assembled parts and the representations of the moves are only visible when an exploded view is being edited and in TechDraw views derived from an exploded view.
 
@@ -31,8 +31,8 @@ An exploded view collects the moves (Move objects) used to relocate parts from a
 
 1. Make sure an assembly is active.
 2. There are several ways to invoke the tool:
-   - Press the ![](/src/assets/images/Assembly_CreateView.svg) [Create Exploded View](/Assembly_CreateView "Assembly CreateView") button.
-   - Select the **Assembly → ![](/src/assets/images/Assembly_CreateView.svg) Create Exploded View** option from the menu.
+   - Press the ![](/images/Assembly_CreateView.svg) [Create Exploded View](/Assembly_CreateView "Assembly CreateView") button.
+   - Select the **Assembly → ![](/images/Assembly_CreateView.svg) Create Exploded View** option from the menu.
    - Use the keyboard shortcut: E.
 3. If no Exploded_Views object pre-exists: An Exploded_Views container is added to the active assembly.
 4. An Exploded_View object is added to the Exploded_Views container.
@@ -68,7 +68,7 @@ An exploded view collects the moves (Move objects) used to relocate parts from a
 
 ## Notes
 
-- The dragger is a tool similar to the transformation manipulator (![](/src/assets/images/Std_TransformManip.svg) [Std TransformManip](/Std_TransformManip "Std TransformManip")), but without an **Increments** task panel.
+- The dragger is a tool similar to the transformation manipulator (![](/images/Std_TransformManip.svg) [Std TransformManip](/Std_TransformManip "Std TransformManip")), but without an **Increments** task panel.
 - A Move object in the [tree view](/Tree_view "Tree view") is represented in the [3D view](/3D_view "3D view") by a dashed red line for each part involved in this move. These connecting lines are only visible when this tool is running, or in a TechDraw view that is derived from an Exploded_View object.
 - To add an exploded view to a TechDraw page: switch to the [TechDraw Workbench](/TechDraw_Workbench "TechDraw Workbench"), add a page, select the exploded view object in the tree, and click [Insert View](/TechDraw_View "TechDraw View").
 

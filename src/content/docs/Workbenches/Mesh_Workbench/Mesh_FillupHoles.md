@@ -25,8 +25,8 @@ The **Mesh FillupHoles** command fills holes in mesh objects.
 
 1. Select one or more mesh objects.
 2. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/Mesh_FillupHoles.svg) [Fill holes...](/Mesh_FillupHoles "Mesh FillupHoles") button.
-   - Select the **Meshes → ![](/src/assets/images/Mesh_FillupHoles.svg) Fill holes...** option from the menu.
+   - Press the ![](/images/Mesh_FillupHoles.svg) [Fill holes...](/Mesh_FillupHoles "Mesh FillupHoles") button.
+   - Select the **Meshes → ![](/images/Mesh_FillupHoles.svg) Fill holes...** option from the menu.
 3. The **Fill holes** dialog box opens.
 4. Specify the **Fill holes with maximum number of edges** value.
 5. Press the OK button to close the dialog box and finish the command.

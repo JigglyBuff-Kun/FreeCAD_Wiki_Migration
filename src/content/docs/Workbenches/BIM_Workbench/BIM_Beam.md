@@ -28,8 +28,8 @@ The **BIM Beam** tool creates a **Beam** object, a horizontal structure element,
 ## Usage
 
 1. There are several ways to invoke the tool:
-   - Press the ![](/src/assets/images/BIM_Beam.svg) [Beam](/BIM_Beam "BIM Beam") button.
-   - Select the **3D/BIM → ![](/src/assets/images/BIM_Beam.svg) Beam** option from the menu.
+   - Press the ![](/images/BIM_Beam.svg) [Beam](/BIM_Beam "BIM Beam") button.
+   - Select the **3D/BIM → ![](/images/BIM_Beam.svg) Beam** option from the menu.
    - Use the keyboard shortcut: B then M.
 2. ...
 

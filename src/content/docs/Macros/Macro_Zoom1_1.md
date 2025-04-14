@@ -53,7 +53,7 @@ Care must be taken when holding up objects or attempting to measure things on th
 ## Script
 
 The macro icon
-![](/src/assets/images/Zoom1_1.svg)
+![](/images/Zoom1_1.svg)
 
 **Zoom1_1.FCMacro**
 

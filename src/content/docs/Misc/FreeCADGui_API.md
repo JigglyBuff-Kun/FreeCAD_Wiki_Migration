@@ -22,103 +22,103 @@ gui_doc.activateWorkbench("myWorkbench")
 
 ```
 
-![](/src/assets/images/Method.png) **activateWorkbench(\***string**\*)**
+![](/images/Method.png) **activateWorkbench(\***string**\*)**
 
 **Description**: Activates a workbench by name
 
 **Returns**: nothing
 
-![](/src/assets/images/Method.png) **activeDocument(\*\***)\*\*
+![](/images/Method.png) **activeDocument(\*\***)\*\*
 
 **Description**:
 
 **Returns**: the active document or None if no one exists
 
-![](/src/assets/images/Method.png) **activeWorkbench(\*\***)\*\*
+![](/images/Method.png) **activeWorkbench(\*\***)\*\*
 
 **Description**:
 
 **Returns**: the active workbench object
 
-![](/src/assets/images/Method.png) **addCommand(\***string, object**\*)**
+![](/images/Method.png) **addCommand(\***string, object**\*)**
 
 **Description**: Adds a FreeCAD command. String is the name of the command and object is a classname defining the command
 
 **Returns**:
 
-![](/src/assets/images/Method.png) **addIcon(\***string, string or list**\*)**
+![](/images/Method.png) **addIcon(\***string, string or list**\*)**
 
 **Description**: Adds an icon as file name or in XPM format to the system
 
 **Returns**:
 
-![](/src/assets/images/Method.png) **addIconPath(\***string**\*)**
+![](/images/Method.png) **addIconPath(\***string**\*)**
 
 **Description**: Add a new path to the system where to find icon files
 
 **Returns**:
 
-![](/src/assets/images/Method.png) **addPreferencePage(\***string,string**\*)**
+![](/images/Method.png) **addPreferencePage(\***string,string**\*)**
 
 **Description**: Adds a UI form to the preferences dialog. The first argument specifies the file name and the second specifies the group name
 
 **Returns**:
 
-![](/src/assets/images/Method.png) **addWorkbench(\***string, object**\*)**
+![](/images/Method.png) **addWorkbench(\***string, object**\*)**
 
 **Description**: Adds a workbench under a defined name. The string is the workbench name and the object is a classname defining the workbench
 
 **Returns**:
 
-![](/src/assets/images/Method.png) **createDialog(\***string**\*)**
+![](/images/Method.png) **createDialog(\***string**\*)**
 
 **Description**: Opens a UI file
 
 **Returns**:
 
-![](/src/assets/images/Method.png) **getDocument(\***string**\*)**
+![](/images/Method.png) **getDocument(\***string**\*)**
 
 **Description**: Gets a document by its name
 
 **Returns**: the document
 
-![](/src/assets/images/Method.png) **getWorkbench(\***string**\*)**
+![](/images/Method.png) **getWorkbench(\***string**\*)**
 
 **Description**: Gets a workbench by its name
 
 **Returns**: the workbench
 
-![](/src/assets/images/Method.png) **insert(\***string**\*)**
+![](/images/Method.png) **insert(\***string**\*)**
 
 **Description**: Open a macro, Inventor or VRML file
 
 **Returns**: the document
 
-![](/src/assets/images/Method.png) **listWorkbenches(\*\***)\*\*
+![](/images/Method.png) **listWorkbenches(\*\***)\*\*
 
 **Description**: Shows a list of all workbenches
 
 **Returns**: a list
 
-![](/src/assets/images/Method.png) **open(\***string**\*)**
+![](/images/Method.png) **open(\***string**\*)**
 
 **Description**: Opens a macro, Inventor or VRML file
 
 **Returns**: the openend document
 
-![](/src/assets/images/Method.png) **removeWorkbench(\***string**\*)**
+![](/images/Method.png) **removeWorkbench(\***string**\*)**
 
 **Description**: Removes a workbench by name
 
 **Returns**:
 
-![](/src/assets/images/Method.png) **runCommand(\***string**\*)**
+![](/images/Method.png) **runCommand(\***string**\*)**
 
 **Description**: Runs a FreeCAD command by name
 
 **Returns**:
 
-![](/src/assets/images/Method.png) **updateGui(\*\***)\*\*
+![](/images/Method.png) **updateGui(\*\***)\*\*
 
 **Description**: Updates the main window and all its windows
 

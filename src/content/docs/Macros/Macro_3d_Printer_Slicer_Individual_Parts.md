@@ -32,13 +32,13 @@ This code, when run, will export the visible bodies at the top level (bodies dee
 
 It is best used by creating a link to the macro on the toolbar, and when your ready to slice the object, just click it and your objects, as they appear on the screen in FreeCAD will appear on your slicing software's interface, ready to slice. It will also create several STL files with the same filename as the design file and the part label in the same directory as the design file.
 
-![](/src/assets/images/Screenshot_Cura_Example.png)
+![](/images/Screenshot_Cura_Example.png)
 
 ## Script
 
 The SLICERAPP variable can be changed to any slicing software of your choosing. If a specific object is not exported you might have to add the respective type to the doexport array.
 
-ToolBar Icon ![](/src/assets/images/Macro_3d_Printer_Slicer_Individual_Parts.svg)
+ToolBar Icon ![](/images/Macro_3d_Printer_Slicer_Individual_Parts.svg)
 
 **Macro_3d_Printer_Slicer_Individual_Parts.py**
 

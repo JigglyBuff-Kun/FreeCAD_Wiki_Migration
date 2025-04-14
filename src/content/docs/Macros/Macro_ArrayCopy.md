@@ -32,7 +32,7 @@ This macro copies the selected object several times, on an array grid. You can d
 
 ## Script
 
-ToolBar Icon ![](/src/assets/images/Macro_ArrayCopy.png)
+ToolBar Icon ![](/images/Macro_ArrayCopy.png)
 
 **Macro_ArrayCopy.FCMacro**
 

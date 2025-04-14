@@ -19,15 +19,15 @@ title: Plot Save
 
 ## Description
 
-The standard plot module already provides a minimum tool to save plots ![](/src/assets/images/Matplotlib_save_button.png). If you install the ![](/src/assets/images/Workbench_Plot.svg) [Plot Workbench](/Plot_Workbench "Plot Workbench") using the [Add-on manager](/Std_AddonMgr "Std AddonMgr"), a more complete tool to save the active plot will be available. With this tool you can also select the size and resolution of the output image.
+The standard plot module already provides a minimum tool to save plots ![](/images/Matplotlib_save_button.png). If you install the ![](/images/Workbench_Plot.svg) [Plot Workbench](/Plot_Workbench "Plot Workbench") using the [Add-on manager](/Std_AddonMgr "Std AddonMgr"), a more complete tool to save the active plot will be available. With this tool you can also select the size and resolution of the output image.
 
-![](/src/assets/images/Plot_Trigonometric_Example.png)
+![](/images/Plot_Trigonometric_Example.png)
 
 ## Usage
 
 Select the plot tab that you want to save, and run this tool. Use the path selector button to show a file dialog where you can choose the file location and format.
 
-![Path selection button](/src/assets/images/Plot_Save_Path.png)
+![Path selection button](/images/Plot_Save_Path.png)
 
 Path selection button
 

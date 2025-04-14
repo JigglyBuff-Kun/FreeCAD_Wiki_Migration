@@ -25,7 +25,7 @@ This documentation is not finished. Please help and contribute documentation.Gui
 
 This tool links two or more objects of an assembly and matches their orientations. The selected elements of each object or more precisely their implicit coordinate systems (ICSs) are used to position one object in relation to another.
 
-Assuming the first object is already locked in place by the ![](/src/assets/images/Assembly_ConstraintLock.svg) [Lock constraint](/Assembly3_ConstraintLock "Assembly3 ConstraintLock") then the following objects are moved to positions where the x-y-planes of all ICSs are coplanar and the z-axes are collinear.
+Assuming the first object is already locked in place by the ![](/images/Assembly_ConstraintLock.svg) [Lock constraint](/Assembly3_ConstraintLock "Assembly3 ConstraintLock") then the following objects are moved to positions where the x-y-planes of all ICSs are coplanar and the z-axes are collinear.
 
 An option for this link is to set a distance between the x-y-planes and making them parallel.
 
@@ -41,8 +41,8 @@ With controlled value the link can be used as an actuator in a kinematic system.
 
 1. Place two or more objects into an assembly.
 2. Select one planar face element of each object.
-3. Activate the ![](/src/assets/images/Assembly_ConstraintCoincidence.svg) **Assembly3 ConstraintCoincidence** command using:
-   - The ![](/src/assets/images/Assembly_ConstraintCoincidence.svg) [Create "PlaneCoincident" constraint](/Assembly3_ConstraintCoincidence "Assembly3 ConstraintCoincidence") button.
+3. Activate the ![](/images/Assembly_ConstraintCoincidence.svg) **Assembly3 ConstraintCoincidence** command using:
+   - The ![](/images/Assembly_ConstraintCoincidence.svg) [Create "PlaneCoincident" constraint](/Assembly3_ConstraintCoincidence "Assembly3 ConstraintCoincidence") button.
 
 ## Kinematic Equivalent
 
@@ -50,8 +50,8 @@ Used in kinematic context this constraint resembles a hinge or a **revolute join
 
 In real life the shapes of the objects allow rotation and prevent sliding and in this case arcs and circles are utilised to simulate this.
 
-![](/src/assets/images/Assembly3_ConstraintCoincidence-01.png) ![](/src/assets/images/Button_right.svg)
-![](/src/assets/images/Assembly3_ConstraintCoincidence-02.png)
+![](/images/Assembly3_ConstraintCoincidence-01.png) ![](/images/Button_right.svg)
+![](/images/Assembly3_ConstraintCoincidence-02.png)
 
 Constrained objects before and after running the solver
 

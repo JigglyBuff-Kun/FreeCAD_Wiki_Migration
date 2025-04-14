@@ -31,7 +31,7 @@ The profile tool is also integrated to the [Arch Structure](/Arch_Structure "Arc
 
 ## Usage
 
-1. Press the ![](/src/assets/images/Arch_Profile.svg) [Profile](/Arch_Profile "Arch Profile") button
+1. Press the ![](/images/Arch_Profile.svg) [Profile](/Arch_Profile "Arch Profile") button
 2. Select a preset in the tool task panel
 3. Click a point in the 3D view to place the profile
 

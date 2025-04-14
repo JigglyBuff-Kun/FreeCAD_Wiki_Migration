@@ -2,15 +2,15 @@
 title: PieMenu Workbench
 ---
 
-![](/src/assets/images/PieMenuWorkbench.svg)
+![](/images/PieMenuWorkbench.svg)
 
 PieMenu Workbench icon
 
 ## Introduction
 
-The ![](/src/assets/images/PieMenuWorkbench.svg) **PieMenu Workbench** is an [external workbench](/External_workbenches "External workbenches") that brings a customizable menu providing quick access to FreeCAD tools via keyboard shortcuts. You can choose from multiple shapes, themes, customize tools and shortcuts, and much more.
+The ![](/images/PieMenuWorkbench.svg) **PieMenu Workbench** is an [external workbench](/External_workbenches "External workbenches") that brings a customizable menu providing quick access to FreeCAD tools via keyboard shortcuts. You can choose from multiple shapes, themes, customize tools and shortcuts, and much more.
 
-![](/src/assets/images/PieMenu_example.jpg)
+![](/images/PieMenu_example.jpg)
 
 Example of a PieMenu containing 16 pies.
 
@@ -18,7 +18,7 @@ In the example above, the first section corresponds to parametric workbenches, t
 
 ## Installation
 
-1. Install the PieMenu Workbench via the ![](/src/assets/images/AddonManager.svg) [Addon Manager](/Std_AddonMgr "Std AddonMgr"). For manual installation, see [Installing more workbenches](/Installing_more_workbenches "Installing more workbenches").
+1. Install the PieMenu Workbench via the ![](/images/AddonManager.svg) [Addon Manager](/Std_AddonMgr "Std AddonMgr"). For manual installation, see [Installing more workbenches](/Installing_more_workbenches "Installing more workbenches").
 2. Restart FreeCAD.
 
 ## Definitions
@@ -43,7 +43,7 @@ In the example above, the first section corresponds to parametric workbenches, t
 
 In case of a fresh installation, PieMenu will create 3 PieMenus (**View**, **PartDesign**, and **Sketcher**) with some common tools. To create or modify other PieMenus, simply go to the Preferences (**QuickMenu → Preferences** or **Accessories Menu → PieMenu Preferences**).
 
-![](/src/assets/images/PieMenu_QuickMenu.png)
+![](/images/PieMenu_QuickMenu.png)
 
 QuickMenu
 
@@ -55,7 +55,7 @@ The PieMenu preferences window contains 3 vertically stacked sections.
 
 ### Top section
 
-![](/src/assets/images/PieMenu_top_section.png)
+![](/images/PieMenu_top_section.png)
 
 The top section contains a set of buttons that let you:
 
@@ -75,7 +75,7 @@ The middle section in turn is horizontally divided into 3 sections that can be r
 
 Create a new PieMenu by clicking on the + button, name it, and validate. It will now be visible in the dropdown list of PieMenus. Modify and adjust available settings (settings may vary depending on the PieMenu configuration):
 
-![](/src/assets/images/PieMenu_Tab_PieMenu.png)
+![](/images/PieMenu_Tab_PieMenu.png)
 
 Window split into 3 sections showing PieMenu settings, a list of PieMenu actions and the current PieMenu preview.
 
@@ -90,7 +90,7 @@ Window split into 3 sections showing PieMenu settings, a list of PieMenu actions
 
 #### Tools tab
 
-![](/src/assets/images/PieMenu_Tab_Tools.png)
+![](/images/PieMenu_Tab_Tools.png)
 
 Window split on 2 sections containing available tools and current PieMenu preview.
 
@@ -100,7 +100,7 @@ Window split on 2 sections containing available tools and current PieMenu previe
 
 #### Context tab
 
-![](/src/assets/images/PieMenu_Tab_Context.png)
+![](/images/PieMenu_Tab_Context.png)
 
 Window split on 2 sections containing context settings and list of PieMenu actions.
 
@@ -116,19 +116,19 @@ For example let's take the case _you want only the tools that are useful when a 
 
 - If you select only one face (while in the PartDesign workbench) and press the global shortcut, this PieMenu is displayed, giving access only to the tools that the user has set in this PieMenu. If the box 'Immediate triggering when conditions are met' is ticked this will trigger the immediate display of the PieMenu without the need to press the global shortcut.
 
-: ![](/src/assets/images/PieMenu_Context_1.png)
+: ![](/images/PieMenu_Context_1.png)
 
 - The advantage is that you can create as many PieMenus as you need to cover your current needs. For example, you may need a PieMenu with only the tools that can be used in PartDesign with the edges:
 
-: ![](/src/assets/images/PieMenu_Context_2.png)
+: ![](/images/PieMenu_Context_2.png)
 
 - Because of the inheritance of code from previous versions of PieMenu, for context mode to work it is necessary for "Global Context" mode to be activated either by the QuickMenu or by the general parameters.
 
-: ![](/src/assets/images/PieMenu_Context_3.png)
+: ![](/images/PieMenu_Context_3.png)
 
 #### Global settings tab
 
-![](/src/assets/images/PieMenu_Tab_GlobalSettings.png)
+![](/images/PieMenu_Tab_GlobalSettings.png)
 
 Window containing global settings that applies to all PieMenus.
 
@@ -144,7 +144,7 @@ Here you can:
 
 ### Bottom section
 
-![](/src/assets/images/PieMenu_bottom_section.png)
+![](/images/PieMenu_bottom_section.png)
 
 The bottom section contains a set of buttons that let you:
 

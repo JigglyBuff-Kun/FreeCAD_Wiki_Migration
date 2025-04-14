@@ -23,12 +23,12 @@ THIS COMMAND IS OBSOLETEIt is not available in1.0 and above.
 
 ## Description
 
-_This command is currently not in use._ It will serve to generate flat, shape-based views from a [Mesh](/Mesh_Workbench "Mesh Workbench") based object, to be used by the ![](/src/assets/images/Arch_Equipment.svg) [Arch Equipment](/Arch_Equipment "Arch Equipment") tool.
+_This command is currently not in use._ It will serve to generate flat, shape-based views from a [Mesh](/Mesh_Workbench "Mesh Workbench") based object, to be used by the ![](/images/Arch_Equipment.svg) [Arch Equipment](/Arch_Equipment "Arch Equipment") tool.
 
 ## Usage
 
 1. Select a Mesh object.
-2. Select the ![](/src/assets/images/Arch_3Views.svg) button, or Arch → Utilities → ![](/src/assets/images/Arch_3Views.svg) [3Views](/Arch_3Views "Arch 3Views") from the top menu.
+2. Select the ![](/images/Arch_3Views.svg) button, or Arch → Utilities → ![](/images/Arch_3Views.svg) [3Views](/Arch_3Views "Arch 3Views") from the top menu.
 
 ## Scripting
 

@@ -21,7 +21,7 @@ title: BIM IfcProperties
 
 The **IFC properties manager** allows you to edit the IFC properties of one selected object, many selected objects or all objects of the document. IFC properties are pieces of information attached to individual objects. They can only be attached to [BIM objects](/BIM_Workbench "BIM Workbench"), so any non-BIM object must first be converted to a BIM object using the [Component](/Arch_Component "Arch Component") tool before being able to hold IFC properties.
 
-![](/src/assets/images/BIM_ifcproperties_screenshot.png)
+![](/images/BIM_ifcproperties_screenshot.png)
 
 IFC properties manager
 

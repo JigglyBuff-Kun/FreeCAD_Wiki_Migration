@@ -30,7 +30,7 @@ title: Cut Line
 
 This small macro cut a line and create a points , lines , two colours of line.
 
-![](/src/assets/images/Macro_cutLine_00.png)
+![](/images/Macro_cutLine_00.png)
 
 cutLine
 
@@ -49,7 +49,7 @@ With bisColor the lines on the original line is created by a white line red line
 
 ## Script
 
-ToolBar Icon ![](/src/assets/images/Macro_Cut_Line.png)
+ToolBar Icon ![](/images/Macro_Cut_Line.png)
 
 **Macro_cutLine.FCMacro**
 

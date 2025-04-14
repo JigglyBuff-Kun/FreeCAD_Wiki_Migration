@@ -36,7 +36,7 @@ This macro is a complete application, it allows to fill simply all the fields of
 
 The date and time fields are separated by a "space negative space" " - " and constitute a single line textedit.
 
-![CartoucheFC](/src/assets/images/CartoucheFC.png)
+![CartoucheFC](/images/CartoucheFC.png)
 
 Fields in red are the **"freecad:editable"** fields, fields in green are annotations inserted in the template.  
 Here the version for the new sheet with all the editable text fields.
@@ -67,7 +67,7 @@ _ **Attention**: this command does not pass through the button Apply and immedia
 
 ## Code
 
-ToolBar Icon ![](/src/assets/images/Macro_CartoucheFC.png)
+ToolBar Icon ![](/images/Macro_CartoucheFC.png)
 
 **Macro_CartoucheFC.FCMacro**
 
@@ -990,7 +990,7 @@ Cette macro est une application complète, elle permet de remplir simplement tou
 
 La date et l'heure sont séparés par un "espace tiret espace" et constitue une seule ligne dans le textéditable de FreeCAD.
 
-![CartoucheFC](/src/assets/images/CartoucheFC.png)
+![CartoucheFC](/images/CartoucheFC.png)
 
 Les champs en rouge sont les champs **"FreeCAD: modifiable"**., les champs en vert sont des annotations insérées dans le modèle  
 Ici une version de Macro_CartoucheFC_Full pour les nouvelles feuilles avec textéditable à tous les champs.
@@ -1029,7 +1029,7 @@ Si vous avez des questions ou désirez ajouter une fonction, vous pouvez vous ad
 
 ## Code
 
-ToolBar Icon ![](/src/assets/images/Macro_CartoucheFC.png)
+ToolBar Icon ![](/images/Macro_CartoucheFC.png)
 
 **Macro_CartoucheFC.FCMacro**
 
@@ -1957,7 +1957,7 @@ Choice in the page Misc_templates_Full
 
 Here the order of filling in the line FreeCAD texteditable. The date and time fields are separated by a **"space negative space" " - "** and constitute a single line textedit.
 
-![CartoucheFC_Full](/src/assets/images/Macro_CartoucheFC_Full_00.png)
+![CartoucheFC_Full](/images/Macro_CartoucheFC_Full_00.png)
 
 ## Usage
 
@@ -1985,7 +1985,7 @@ _ **Attention**: this command does not pass through the button Apply and immedia
 
 ## Code
 
-The icon for you toolBar ![](/src/assets/images/Macro_CartoucheFC_Full.png)
+The icon for you toolBar ![](/images/Macro_CartoucheFC_Full.png)
 
 **Macro_CartoucheFC_Full.FCMacro**
 
@@ -3183,7 +3183,7 @@ Téléchargez les feuilles Misc_templates_Full
 
 Voici l'ordre de remplissage de la ligne éditable de FreeCAD. Les champs date et heure sont séparés par un '**espace négatif espace _" - "_** _et constituent une seule ligne éditable._
 
-![CartoucheFC_Full](/src/assets/images/Macro_CartoucheFC_Full_00.png)
+![CartoucheFC_Full](/images/Macro_CartoucheFC_Full_00.png)
 
 ## Utilisation
 
@@ -3219,7 +3219,7 @@ Si vous avez des questions ou si vous voulez ajouter une fonction, vous pouvez v
 
 ## Code
 
-L' icône pour votre barre d'outils ![](/src/assets/images/Macro_CartoucheFC_Full.png)
+L' icône pour votre barre d'outils ![](/images/Macro_CartoucheFC_Full.png)
 
 **Macro_CartoucheFC_Full.FCMacro**
 
@@ -4415,7 +4415,7 @@ ver 5 : 08/08/2014 PyQt4 and PySide
 
 This macro is a complete application, it allows to fill simply all the fields of the cartridge A3 Landscape english
 
-![Macro CartoucheFC Modele 2](/src/assets/images/Macro_CartoucheFC_Modele_02.png)
+![Macro CartoucheFC Modele 2](/images/Macro_CartoucheFC_Modele_02.png)
 
 The picture represents the hierarchy of filling the fields occupied in the "textEditable" window in FreeCAD
 
@@ -4436,7 +4436,7 @@ If you have any questions or want to add a function, you can address you on the 
 
 ## Code
 
-ToolBar Icon ![](/src/assets/images/Macro_CartoucheFC_2.png)
+ToolBar Icon ![](/images/Macro_CartoucheFC_2.png)
 
 **Macro_CartoucheFC_2.FcMacro**
 
@@ -5134,7 +5134,7 @@ MainWindow.show()
 
 Cette macro est une application complète, elle permet de remplir simplement tous les champs du cartouche A3 Landscape english
 
-![Macro CartoucheFC Modele 2](/src/assets/images/Macro_CartoucheFC_Modele_02.png)
+![Macro CartoucheFC Modele 2](/images/Macro_CartoucheFC_Modele_02.png)
 
 La photo représente la hiérarchie de remplissage des champs tels qu'ils sont dans la fenêtre "textEditable" de FreeCAD.
 
@@ -5155,7 +5155,7 @@ Si vous avez des questions ou désirez ajouter une fonction, vous pouvez vous ad
 
 ## Code
 
-ToolBar Icon ![](/src/assets/images/Macro_CartoucheFC_2.png)
+ToolBar Icon ![](/images/Macro_CartoucheFC_2.png)
 
 **Macro_CartoucheFC_2.FcMacro**
 

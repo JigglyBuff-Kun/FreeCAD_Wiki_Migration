@@ -19,15 +19,15 @@ title: Sketcher Zuschneiden
 
 ## Beschreibung
 
-Das Werkzeug ![](/src/assets/images/Sketcher_Trimming.svg) Sketcher Zuschneiden entfern eine Kante bis zu den nächsten Schnittstellen mit anderen Kanten. Schneidet die ausgewählte Kante keine andere Kante, wird sie ganz gelöscht
+Das Werkzeug ![](/images/Sketcher_Trimming.svg) Sketcher Zuschneiden entfern eine Kante bis zu den nächsten Schnittstellen mit anderen Kanten. Schneidet die ausgewählte Kante keine andere Kante, wird sie ganz gelöscht
 
 ## Anwendung
 
 Siehe auch: [Zeichnungshilfen](/Sketcher_Workbench/de#Zeichnungshilfen "Sketcher Workbench/de").
 
 1. Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
-   - Die Schaltfläche ![](/src/assets/images/Sketcher_Trimming.svg) Kante zuschneiden drücken.
-   - Den Menüeintrag **Skizze → Sketcher-Werkzeuge → ![](/src/assets/images/Sketcher_Trimming.svg) Kante zuschneiden** auswählen.
+   - Die Schaltfläche ![](/images/Sketcher_Trimming.svg) Kante zuschneiden drücken.
+   - Den Menüeintrag **Skizze → Sketcher-Werkzeuge → ![](/images/Sketcher_Trimming.svg) Kante zuschneiden** auswählen.
    - Das Tastaturkürzel G dann T.
 2. Ist eine Auswahl vorhanden, wird sie geleert. Das Werkzeug akzeptiert keine Vorauswahl.
 3. Der Mauszeiger wandelt sich zu einem Kreuz mit Werkzeugsymbol.

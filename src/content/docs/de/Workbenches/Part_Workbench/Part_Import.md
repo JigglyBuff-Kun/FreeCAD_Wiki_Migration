@@ -19,12 +19,12 @@ title: Part Import
 
 ## Beschreibung
 
-Der Befehl ![](/src/assets/images/Part_Import.svg) Part Import importiert Geometrie aus einem andern Dateiformat in das aktive Dokument. Die unterstützten Dateiformate sind: [STEP](http://en.wikipedia.org/wiki/Step_file) (mit oder ohne Farben), [IGES](http://en.wikipedia.org/wiki/IGES) (mit oder ohne Farben) und [BREP](http://en.wikipedia.org/wiki/BREP).
+Der Befehl ![](/images/Part_Import.svg) Part Import importiert Geometrie aus einem andern Dateiformat in das aktive Dokument. Die unterstützten Dateiformate sind: [STEP](http://en.wikipedia.org/wiki/Step_file) (mit oder ohne Farben), [IGES](http://en.wikipedia.org/wiki/IGES) (mit oder ohne Farben) und [BREP](http://en.wikipedia.org/wiki/BREP).
 
 ## Anwendung
 
 1. Die [Import-Export-Einstellungen](/Import_Export_Preferences/de "Import Export Preferences/de") im [Einstellungseditor](/Preferences_Editor/de "Preferences Editor/de") einrichten.
-2. Den Menüeintrag **Part → ![](/src/assets/images/Part_Import.svg) Aus CAD-Datei importieren...** auswählen.
+2. Den Menüeintrag **Part → ![](/images/Part_Import.svg) Aus CAD-Datei importieren...** auswählen.
 3. Wahlweise das korrekte Dateiformat im Dialogfenster auswählen.
 4. Eine Datei auswählen.
 5. Die Schaltfläche Öffnen drücken.

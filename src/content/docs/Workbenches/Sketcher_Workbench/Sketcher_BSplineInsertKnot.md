@@ -19,15 +19,15 @@ title: Sketcher BSplineInsertKnot
 
 ## Description
 
-The ![](/src/assets/images/Sketcher_BSplineInsertKnot.svg) [Sketcher BSplineInsertKnot](/Sketcher_BSplineInsertKnot "Sketcher BSplineInsertKnot") tool inserts a knot into a [B-spline](/B-Splines "B-Splines"). If a knot already exists at the specified parameter its multiplicity is increased by one.
+The ![](/images/Sketcher_BSplineInsertKnot.svg) [Sketcher BSplineInsertKnot](/Sketcher_BSplineInsertKnot "Sketcher BSplineInsertKnot") tool inserts a knot into a [B-spline](/B-Splines "B-Splines"). If a knot already exists at the specified parameter its multiplicity is increased by one.
 
 ## Usage
 
 1. Select a B-spline.
 2. There are several ways to invoke the tool:
-   - Press the ![](/src/assets/images/Sketcher_BSplineInsertKnot.svg) [Insert knot](/Sketcher_BSplineInsertKnot "Sketcher BSplineInsertKnot") button.
-   - Select the **Sketch → Sketcher B-spline tools → ![](/src/assets/images/Sketcher_BSplineInsertKnot.svg) Insert knot** option from the menu.
-   - [introduced in 1.0](/Release_notes_1.0 "Release notes 1.0"): Right-click in the [3D view](/3D_view "3D view") and select the **![](/src/assets/images/Sketcher_BSplineInsertKnot.svg) Insert knot** option from the context menu.
+   - Press the ![](/images/Sketcher_BSplineInsertKnot.svg) [Insert knot](/Sketcher_BSplineInsertKnot "Sketcher BSplineInsertKnot") button.
+   - Select the **Sketch → Sketcher B-spline tools → ![](/images/Sketcher_BSplineInsertKnot.svg) Insert knot** option from the menu.
+   - [introduced in 1.0](/Release_notes_1.0 "Release notes 1.0"): Right-click in the [3D view](/3D_view "3D view") and select the **![](/images/Sketcher_BSplineInsertKnot.svg) Insert knot** option from the context menu.
 3. Move the cursor to the desired location.
 4. The current position is marked with a small circle and its parameter value is indicated.
 5. Click to insert a knot, or click an existing knot to increase its multiplicity.

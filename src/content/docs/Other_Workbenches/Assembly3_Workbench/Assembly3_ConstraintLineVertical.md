@@ -32,6 +32,6 @@ Based on one planar element's ICS the line element's start and end point are pos
 1. Place two objects into an assembly
 2. Select a line elements of one object
 3. Select a planar face element of the second object
-4. Press the ![](/src/assets/images/Assembly_ConstraintLineVertical.svg) [Line vertical](/Assembly3_ConstraintLineVertical "Assembly3 ConstraintLineVertical") button.
+4. Press the ![](/images/Assembly_ConstraintLineVertical.svg) [Line vertical](/Assembly3_ConstraintLineVertical "Assembly3 ConstraintLineVertical") button.
 
 Retrieved from "<http://wiki.freecad.org/index.php?title=Assembly3_ConstraintLineVertical/en&oldid=923366>"

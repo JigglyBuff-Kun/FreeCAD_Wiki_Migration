@@ -25,9 +25,9 @@ A datum object can also provide a geometric reference for a feature or operation
 
 ## Usage
 
-1. Optionally activate the correct container, for example a ![](/src/assets/images/PartDesign_Body.svg) [PartDesign Body](/PartDesign_Body "PartDesign Body"), a ![](/src/assets/images/Std_Part.svg) [Std Part](/Std_Part "Std Part") or an ![](/src/assets/images/Assembly_CreateAssembly.svg) [Assembly](/Assembly_CreateAssembly "Assembly CreateAssembly"). If multiple containers are active, the datum object is added to the active container that was created first.
+1. Optionally activate the correct container, for example a ![](/images/PartDesign_Body.svg) [PartDesign Body](/PartDesign_Body "PartDesign Body"), a ![](/images/Std_Part.svg) [Std Part](/Std_Part "Std Part") or an ![](/images/Assembly_CreateAssembly.svg) [Assembly](/Assembly_CreateAssembly "Assembly CreateAssembly"). If multiple containers are active, the datum object is added to the active container that was created first.
 2. Optionally select the geometry the datum object should be attached to.
-3. Press the ![](/src/assets/images/Part_CoordinateSystem.svg) [Create coordinate system](/Part_CoordinateSystem "Part CoordinateSystem") button.
+3. Press the ![](/images/Part_CoordinateSystem.svg) [Create coordinate system](/Part_CoordinateSystem "Part CoordinateSystem") button.
 4. The **Attachment** task panel opens.
 5. If no geometry has been selected: optionally press the OK button to finish the command without attaching the datum object.
 6. For further steps see [Part EditAttachment](/Part_EditAttachment#Usage "Part EditAttachment"). Continue from step 7 on that page if geometry has been preselected.

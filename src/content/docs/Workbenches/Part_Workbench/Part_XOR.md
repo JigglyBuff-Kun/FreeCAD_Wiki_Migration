@@ -19,10 +19,10 @@ title: Part XOR
 
 ## Description
 
-The ![](/src/assets/images/Part_XOR.svg) **Part XOR** command removes geometry shared by an even number of objects and leaves a void space between the involved objects. For two objects it represents a symmetric version of [Part Cut](/Part_Cut "Part Cut").
+The ![](/images/Part_XOR.svg) **Part XOR** command removes geometry shared by an even number of objects and leaves a void space between the involved objects. For two objects it represents a symmetric version of [Part Cut](/Part_Cut "Part Cut").
 
-![](/src/assets/images/Part_XOR-01.png) ![](/src/assets/images/Button_right.svg)
-![](/src/assets/images/Part_XOR-02.png)
+![](/images/Part_XOR-01.png) ![](/images/Button_right.svg)
+![](/images/Part_XOR-02.png)
 
 Three overlapping objects → Result object
 
@@ -30,8 +30,8 @@ Three overlapping objects → Result object
 
 1. Select two or more objects. It is also possible to select a [Part Compound](/Part_Compound "Part Compound") containing two or more objects.
 2. There are several ways to invoke the command:
-   - Select the **Part → Split → ![](/src/assets/images/Part_XOR.svg) Boolean XOR** option from the menu.
-   - Press the ![](/src/assets/images/Part_XOR.svg) [Boolean XOR](/Part_XOR "Part XOR") button.
+   - Select the **Part → Split → ![](/images/Part_XOR.svg) Boolean XOR** option from the menu.
+   - Press the ![](/images/Part_XOR.svg) [Boolean XOR](/Part_XOR "Part XOR") button.
 
 ## Notes
 

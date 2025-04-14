@@ -31,25 +31,25 @@ The **Std LinkMake** command is not defined by a particular workbench, but by th
 
 1. Select one or more objects.
 2. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/Std_LinkMake.svg) [Make link](/Std_LinkMake "Std LinkMake") button.
-   - Select the **Link actions → ![](/src/assets/images/Std_LinkMake.svg) Make link** option from the [Tree view](/Tree_view "Tree view") context menu or [3D view](/3D_view "3D view") context menu.
+   - Press the ![](/images/Std_LinkMake.svg) [Make link](/Std_LinkMake "Std LinkMake") button.
+   - Select the **Link actions → ![](/images/Std_LinkMake.svg) Make link** option from the [Tree view](/Tree_view "Tree view") context menu or [3D view](/3D_view "3D view") context menu.
 3. For each selected object a Link is created.
 
 ### External document
 
-1. If required change the [Tree view](/Tree_view "Tree view") DocumentMode to MultiDocument with the ![](/src/assets/images/Std_TreeMultiDocument.svg) [Std TreeMultiDocument](/Std_TreeMultiDocument "Std TreeMultiDocument") command.
+1. If required change the [Tree view](/Tree_view "Tree view") DocumentMode to MultiDocument with the ![](/images/Std_TreeMultiDocument.svg) [Std TreeMultiDocument](/Std_TreeMultiDocument "Std TreeMultiDocument") command.
 2. Open a source document and a target document.
 3. Select one or more objects in the source document.
 4. Switch to the target document by clicking its tab in the [Main view area](/Main_view_area "Main view area").
-5. Press the ![](/src/assets/images/Std_LinkMake.svg) [Make link](/Std_LinkMake "Std LinkMake") button.
+5. Press the ![](/images/Std_LinkMake.svg) [Make link](/Std_LinkMake "Std LinkMake") button.
 6. For each selected object a Link is created.
 
 ### Start with empty Link
 
 1. Make sure no object is selected.
 2. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/Std_LinkMake.svg) [Make link](/Std_LinkMake "Std LinkMake") button.
-   - Select the **Link actions → ![](/src/assets/images/Std_LinkMake.svg) Make link** option from the [Tree view](/Tree_view "Tree view") context menu or [3D view](/3D_view "3D view") context menu.
+   - Press the ![](/images/Std_LinkMake.svg) [Make link](/Std_LinkMake "Std LinkMake") button.
+   - Select the **Link actions → ![](/images/Std_LinkMake.svg) Make link** option from the [Tree view](/Tree_view "Tree view") context menu or [3D view](/3D_view "3D view") context menu.
 3. An empty Link is created.
 4. In the [Property editor](/Property_editor "Property editor") click in the Data**Linked Object** field of the Link.
 5. Press the ... button.
@@ -60,11 +60,11 @@ The **Std LinkMake** command is not defined by a particular workbench, but by th
 8. In both cases you can also select a subelement from an object in the [3D view](/3D_view "3D view"). This will create a Sub-Link. See [Std LinkMakeRelative](/Std_LinkMakeRelative "Std LinkMakeRelative").
 9. Press the OK button.
 
-![](/src/assets/images/Std_Link_tree_example.png) ![](/src/assets/images/Std_Link_example.png)
+![](/images/Std_Link_tree_example.png) ![](/images/Std_Link_example.png)
 
 (1) An object, (2) an empty Link, (3) a full Link to the first object (with overridden material), and (4) a Link to only some subelements of the object. The empty Link is not tied to a real object so it is not displayed in the [3D view](/3D_view "3D view").
 
-![](/src/assets/images/Std_Link_tree_documents_example.png) ![](/src/assets/images/Std_Link_documents_example.png)
+![](/images/Std_Link_tree_documents_example.png) ![](/images/Std_Link_documents_example.png)
 
 (1, 2) Two objects from a source document linked into a target document, (3) a Link to the second Link (its tab in the [Main view area](/Main_view_area "Main view area")), and (4) a Link to the subelements of the second Link.
 
@@ -92,7 +92,7 @@ A Link can be turned into an array where each element has its own placement and 
 4. In a similar way, each element in the array can have its own appearance. See [Override appearance](#Override_appearance) below.
 5. Once you are satisfied with the placement and properties of the Link elements in the array, you can change Data**Show Element** to `false` in order to hide them in the [Tree view](/Tree_view "Tree view").
 
-![](/src/assets/images/Std_Link_tree_array_example.png) ![](/src/assets/images/Std_Link_array_example.png)
+![](/images/Std_Link_tree_array_example.png) ![](/images/Std_Link_array_example.png)
 
 (1) Original object, and (2, 3, 4) a Link array with three elements, each in a different position. The first Link has an overridden material and transparent faces, the other two have custom face colors.
 
@@ -102,11 +102,11 @@ A Link can be turned into an array where each element has its own placement and 
 
 ## Link to Std Part
 
-![](/src/assets/images/Std_LinkMake.svg) [Std LinkMake](/Std_LinkMake "Std LinkMake") can be used on ![](/src/assets/images/Std_Part.svg) [Std Parts](/Std_Part "Std Part") in order to quickly duplicate groups of objects, [assemblies](/Assembly "Assembly"), positioned in space. A Link to a Part will keep the visibility of its child objects synchronized with that Part. If you hide a child object in the Link, it will be hidden in the original Part, as well as in all other Links to that Part.
+![](/images/Std_LinkMake.svg) [Std LinkMake](/Std_LinkMake "Std LinkMake") can be used on ![](/images/Std_Part.svg) [Std Parts](/Std_Part "Std Part") in order to quickly duplicate groups of objects, [assemblies](/Assembly "Assembly"), positioned in space. A Link to a Part will keep the visibility of its child objects synchronized with that Part. If you hide a child object in the Link, it will be hidden in the original Part, as well as in all other Links to that Part.
 
 ## Link to Std Group
 
-A regular ![](/src/assets/images/Std_Group.svg) [Std Group](/Std_Group "Std Group") does not have a Data**Placement** property, so it cannot control the position of its child objects. However when ![](/src/assets/images/Std_LinkMake.svg) [Std LinkMake](/Std_LinkMake "Std LinkMake") is used on a ![](/src/assets/images/Std_Group.svg) [Std Group](/Std_Group "Std Group") the resulting Link does have a Data**Placement** and, like a ![](/src/assets/images/Std_Part.svg) [Std Part](/Std_Part "Std Part"), can control the position of its child objects. A Link to a Group allows independent control of the visibility of its child objects.
+A regular ![](/images/Std_Group.svg) [Std Group](/Std_Group "Std Group") does not have a Data**Placement** property, so it cannot control the position of its child objects. However when ![](/images/Std_LinkMake.svg) [Std LinkMake](/Std_LinkMake "Std LinkMake") is used on a ![](/images/Std_Group.svg) [Std Group](/Std_Group "Std Group") the resulting Link does have a Data**Placement** and, like a ![](/images/Std_Part.svg) [Std Part](/Std_Part "Std Part"), can control the position of its child objects. A Link to a Group allows independent control of the visibility of its child objects.
 
 ## Link to PartDesign Body
 
@@ -137,7 +137,7 @@ It is possible to change the appearance of individual subelements (vertices, edg
      3. The subelements receive the selected color and transparency, and are added to the list with a color swatch.
    - To hide the subelements:
      1. Press the Hide button.
-     2. The subelements are hidden in the 3D view and are added to the list with an eye icon ![](/src/assets/images/Invisible.svg).
+     2. The subelements are hidden in the 3D view and are added to the list with an eye icon ![](/images/Invisible.svg).
      3. When the cursor is over a hidden subelement in the list, it is temporarily made visible in the [3D view](/3D_view "3D view").
 6. To remove custom attributes:
    1. Select one or more elements in the list.
@@ -145,7 +145,7 @@ It is possible to change the appearance of individual subelements (vertices, edg
 7. Optionally press the Remove all button to remove all custom attributes from the Link.
 8. Press the OK button to close task panel.
 
-![](/src/assets/images/Std_Link_Std_Part_visibility_example.png) ![](/src/assets/images/Std_Link_Std_Part_visibility_example_3D.png)
+![](/images/Std_Link_Std_Part_visibility_example.png) ![](/images/Std_Link_Std_Part_visibility_example_3D.png)
 
 A [Std Part](/Std_Part "Std Part") containing three objects, and a Link to that Part. In the Link, (1) the first object is made invisible, (2) the second object has some subelements with different colors, (3) the entire third object has a different color and a level of transparency.
 
@@ -166,7 +166,7 @@ The following are the specific properties available in the [Property editor](/Pr
 Link
 
 - Data**Linked Object** (`XLink`): it indicates the source object of the [App Link](/App_Link "App Link"); this can be an entire object, or a subelement of it (vertex, edge, or face).
-- Data**Link Transform** (`Bool`): it defaults to `false`, in which case the Link will override the Data**Linked Object'**s own placement. If it is set to `true`, the Link will be placed in the same position as the Data**Linked Object**, and its placement will be relative to the Data**Linked Object'**s placement. This can also be achieved with ![](/src/assets/images/Std_LinkMakeRelative.svg) [Std LinkMakeRelative](/Std_LinkMakeRelative "Std LinkMakeRelative").
+- Data**Link Transform** (`Bool`): it defaults to `false`, in which case the Link will override the Data**Linked Object'**s own placement. If it is set to `true`, the Link will be placed in the same position as the Data**Linked Object**, and its placement will be relative to the Data**Linked Object'**s placement. This can also be achieved with ![](/images/Std_LinkMakeRelative.svg) [Std LinkMakeRelative](/Std_LinkMakeRelative "Std LinkMakeRelative").
 - Data (Hidden)**Link Placement** (`Placement`): it is an offset applied on top of the Data**Placement** of the Data**Linked Object**. This property is normally hidden but appears if Data**Link Transform** is set to `true`; in this case, Data**Placement** now becomes hidden.
 - Data**Placement** (`Placement`): the placement of the Link in absolute coordinates.
 - Data**Show Element** (`Bool`): it defaults to `true`, in which case the [Tree view](/Tree_view "Tree view") will show the individual Link copies, as long as Data**Element Count** is `1` or larger.

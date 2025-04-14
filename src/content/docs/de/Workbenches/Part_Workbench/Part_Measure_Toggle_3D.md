@@ -28,7 +28,7 @@ Dieser Befehl schaltet die Sichtbarkeit von Längen- und Winkelmessungen in der 
 ## Anwendung
 
 1. Es gibt mehrere Möglichkeiten den Befehl aufzurufen:
-   - Die Schaltfläche ![](/src/assets/images/Part_Measure_Toggle_3D.svg) 3D umschalten drücken.
-   - Den Menüeintrag **Messen → ![](/src/assets/images/Part_Measure_Toggle_3D.svg) 3D umschalten** auswählen.
+   - Die Schaltfläche ![](/images/Part_Measure_Toggle_3D.svg) 3D umschalten drücken.
+   - Den Menüeintrag **Messen → ![](/images/Part_Measure_Toggle_3D.svg) 3D umschalten** auswählen.
 
 Retrieved from "<http://wiki.freecad.org/index.php?title=Part_Measure_Toggle_3D/de&oldid=1425609>"

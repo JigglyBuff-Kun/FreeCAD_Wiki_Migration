@@ -21,14 +21,14 @@ title: Mesh FromPartShape
 
 The **Mesh_FromPartShape** command creates non-parametric [mesh](/Mesh "Mesh") objects ([Mesh Features](/Mesh_Feature "Mesh Feature")) from [shape](/Shape "Shape") objects ([Part Features](/Part_Feature "Part Feature")).
 
-The inverse operation is [Part ShapeFromMesh](/Part_ShapeFromMesh "Part ShapeFromMesh") from the ![](/src/assets/images/Workbench_Part.svg) [Part Workbench](/Part_Workbench "Part Workbench").
+The inverse operation is [Part ShapeFromMesh](/Part_ShapeFromMesh "Part ShapeFromMesh") from the ![](/images/Workbench_Part.svg) [Part Workbench](/Part_Workbench "Part Workbench").
 
 ## Usage
 
 1. Optionally select one or more objects.
 2. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/Mesh_FromPartShape.svg) [Create mesh from shape...](/Mesh_FromPartShape "Mesh FromPartShape") button.
-   - Select the **Meshes → ![](/src/assets/images/Mesh_FromPartShape.svg) Create mesh from shape...** option from the menu.
+   - Press the ![](/images/Mesh_FromPartShape.svg) [Create mesh from shape...](/Mesh_FromPartShape "Mesh FromPartShape") button.
+   - Select the **Meshes → ![](/images/Mesh_FromPartShape.svg) Create mesh from shape...** option from the menu.
 3. The **Tessellation** task panel opens.
 4. While the task panel is open you can create a new selection or change an existing selection.
 5. Select the tab for the mesher you wish to use.

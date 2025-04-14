@@ -34,12 +34,12 @@ Macro for automatic 2D views generation with 6 normal projections and one isomet
 
 Open the model and run the macro program (check input parameters inside macro for adjustments).
 
-![](/src/assets/images/PRDC_GenerateViews_FC.png)
+![](/images/PRDC_GenerateViews_FC.png)
 
 ## Script
 
 ToolBar Icon
-![](/src/assets/images/GenerateViews.svg)
+![](/images/GenerateViews.svg)
 
 **GenerateViews.FCMacro**
 

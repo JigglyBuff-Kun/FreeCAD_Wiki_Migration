@@ -4,7 +4,7 @@ title: Handbuch Geometrie erstellen und verarbeiten
 
 In früheren Kapiteln haben wir die verschiedenen Arbeitsbereiche in FreeCAD untersucht und wie jeder seinen eigenen Satz an Werkzeugen und Geometrietypen einführt. Die gleichen Prinzipien gelten bei der Arbeit mit FreeCAD über Python-Skripte.
 
-Wir haben auch festgestellt, dass die meisten FreeCAD-Workbenches auf einem grundlegenden Workbench basieren: dem ![](/src/assets/images/Workbench_Part.svg) [Part Workbench](/Part_Workbench "Part Workbench"). Viele andere Workbenches, wie der ![](/src/assets/images/Workbench_Draft.svg) [Draft Workbench](/Draft_Workbench "Draft Workbench"), verwenden die Werkzeuge und Geometrie des Part Workbench, und genau das werden wir in diesem Kapitel tun – Python verwenden, um die Part-Geometrie zu erstellen und zu bearbeiten.
+Wir haben auch festgestellt, dass die meisten FreeCAD-Workbenches auf einem grundlegenden Workbench basieren: dem ![](/images/Workbench_Part.svg) [Part Workbench](/Part_Workbench "Part Workbench"). Viele andere Workbenches, wie der ![](/images/Workbench_Draft.svg) [Draft Workbench](/Draft_Workbench "Draft Workbench"), verwenden die Werkzeuge und Geometrie des Part Workbench, und genau das werden wir in diesem Kapitel tun – Python verwenden, um die Part-Geometrie zu erstellen und zu bearbeiten.
 
 Um mit der Teilegeometrie in Python arbeiten zu können, müssen wir das Skript-Äquivalent zum Wechsel zur Teile-Workbench durchführen: das Importieren des Teilemoduls.
 
@@ -123,11 +123,11 @@ Um das Konzept der Teilformen zusammenzufassen: Alles beginnt mit **Vertexes**, 
 
 Wir können nun versuchen, komplexe Formen von Grund auf neu zu erstellen, indem wir alle ihre Komponenten nacheinander konstruieren. Versuchen wir zum Beispiel, ein Volumen wie dieses zu erstellen:
 
-![](/src/assets/images/Exercise_python_03.jpg)
+![](/images/Exercise_python_03.jpg)
 
 Wir beginnen mit der Erstellung einer ebenen Form wie dieser:
 
-![](/src/assets/images/Wire.png)
+![](/images/Wire.png)
 
 Erstellen wir zunächst die vier Basispunkte:
 
@@ -141,7 +141,7 @@ V4 = FreeCAD.Vector(0,-10,0)
 
 Dann können wir die beiden linearen Segmente erstellen:
 
-![](/src/assets/images/Line.png)
+![](/images/Line.png)
 
 ```
 L1 = Part.LineSegment(V1,V2)
@@ -158,7 +158,7 @@ print(Edge.Curve)
 
 ermöglicht es dir, die zugrunde liegende Struktur der Kante und ihre Konstruktion zu verstehen. Kehren wir nun zu unserer Übung zurück und fahren mit dem Erstellen der Bogensegmente fort. Um einen Bogen zu erstellen, benötigen wir drei Punkte: einen Startpunkt, einen Endpunkt und einen Mittelpunkt, der die Krümmung bestimmt. Zu diesem Zweck können wir die praktische Funktion **Part.Arc** verwenden, die diese drei Punkte als Eingabe verwendet und die Basisgeometrie für einen Bogen generiert.
 
-![](/src/assets/images/Circel.png)
+![](/images/Circel.png)
 
 ```
 VC1 = FreeCAD.Vector(-10,0,0)

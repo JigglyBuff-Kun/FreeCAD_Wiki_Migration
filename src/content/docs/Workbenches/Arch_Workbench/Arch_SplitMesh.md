@@ -28,7 +28,7 @@ The **Arch SplitMesh** tool splits a selected [Mesh](/Mesh_Workbench "Mesh Workb
 ## Usage
 
 1. Select a mesh object.
-2. Select the **Utils → ![](/src/assets/images/Arch_SplitMesh.svg) Split Mesh** option from the menu.
+2. Select the **Utils → ![](/images/Arch_SplitMesh.svg) Split Mesh** option from the menu.
 
 ## Scripting
 

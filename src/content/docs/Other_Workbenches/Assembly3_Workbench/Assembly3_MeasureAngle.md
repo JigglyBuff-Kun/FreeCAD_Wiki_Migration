@@ -28,6 +28,6 @@ This tool measures the angle between two objects of an assembly using straight e
 ## Usage
 
 1. Select two straight edges or planar faces (or one of each).
-2. Press the ![](/src/assets/images/Assembly_MeasureAngle.svg) [Measure angle](/Assembly3_MeasureAngle "Assembly3 MeasureAngle") button.
+2. Press the ![](/images/Assembly_MeasureAngle.svg) [Measure angle](/Assembly3_MeasureAngle "Assembly3 MeasureAngle") button.
 
 Retrieved from "<http://wiki.freecad.org/index.php?title=Assembly3_MeasureAngle/en&oldid=909829>"

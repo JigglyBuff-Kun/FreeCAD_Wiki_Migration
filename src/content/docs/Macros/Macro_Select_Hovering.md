@@ -30,7 +30,7 @@ title: Select Hovering
 
 this macro select a choice Face, Edge, Vertex hovering by the mouse.
 
-![Macro Select Hovering](/src/assets/images/Select_Hovering00.gif)
+![Macro Select Hovering](/images/Select_Hovering00.gif)
 
 Temporary code for external macro link. Do not use this code. This code is used exclusively by [Addon Manager](/Std_AddonMgr "Std AddonMgr"). _Link for optional manual installation: [Macro](https://gist.githubusercontent.com/mario52a/7ebe6b3fd047441114d9d0e08ceddd63/raw/f9dea03a0327b48c76a7c3e9d7cd391b5093a8cf/Macro%2520Select%2520Hovering.FCMacro)_
 
@@ -62,7 +62,7 @@ webbrowser.open("https://gist.githubusercontent.com/mario52a/7ebe6b3fd047441114d
 
 <class="rawcodeurl"><a href="<https://gist.githubusercontent.com/mario52a/7ebe6b3fd047441114d9d0e08ceddd63/raw/f9dea03a0327b48c76a7c3e9d7cd391b5093a8cf/Macro%2520Select%2520Hovering.FCMacro>">raw code</a>
 
-![Macro Select Hovering](/src/assets/images/Macro_Select_Hovering_00.png)
+![Macro Select Hovering](/images/Macro_Select_Hovering_00.png)
 
 PS: For deselect one face (or other) click the Pause grab and use the standard procedure : CTRL + Click
 
@@ -72,19 +72,19 @@ Hovering element by the mouse.
 
 #### Section Face
 
-![](/src/assets/images/CheckBoxFalse.svg) Select Face → 3 number of face(s)
+![](/images/CheckBoxFalse.svg) Select Face → 3 number of face(s)
 300.0 area total of selections
 100.0 area of the latest selection
 
 #### Section Edge
 
-![](/src/assets/images/CheckBoxFalse.svg) Select Edge → 4 number of edge(s)
+![](/images/CheckBoxFalse.svg) Select Edge → 4 number of edge(s)
 40.0 length total of selections
 10.0 length of the latest selection
 
 #### Section Vertex
 
-![](/src/assets/images/CheckBoxFalse.svg) Select Vertex → 1 number of vertex(s)
+![](/images/CheckBoxFalse.svg) Select Vertex → 1 number of vertex(s)
 
 #### Section Main
 
@@ -98,7 +98,7 @@ Unnamed: Box. Face6 (1.34,2.64,10.0)
 
 - display little info and info below the cursor mouse
 
-Unnamed: 1 : (8 sel.) (Obj. 1, Fa. 3, Ed. 4, Ve. 1) ![](/src/assets/images/ComboBox.svg)
+Unnamed: 1 : (8 sel.) (Obj. 1, Fa. 3, Ed. 4, Ve. 1) ![](/images/ComboBox.svg)
 
 - Name of document
 - 8 selections
@@ -109,7 +109,7 @@ Unnamed: 1 : (8 sel.) (Obj. 1, Fa. 3, Ed. 4, Ve. 1) ![](/src/assets/images/Comb
 - If you use several document the macro restores only the selection in the document open (to work)
 - The toolTip display the listing of the selected document Name and subObject
 
-![Info objects memorized displayed](/src/assets/images/Macro_Select_Hovering_01.png)
+![Info objects memorized displayed](/images/Macro_Select_Hovering_01.png)
 
 Selected by Box
 
@@ -146,13 +146,13 @@ Pause grab/Refresh
 
 The icon must be copied into the same directory as the macro
 
-The icon ToolBar ![Macro Select Hovering](/src/assets/images/Macro_Select_Hovering.png)
+The icon ToolBar ![Macro Select Hovering](/images/Macro_Select_Hovering.png)
 
 ## Script
 
 **Macro_Select_Hovering.FCMacro**
 
-[![](/src/assets/images/Nuvola_apps_download_manager.png)](https://gist.github.com/mario52a/7ebe6b3fd047441114d9d0e08ceddd63)
+[![](/images/Nuvola_apps_download_manager.png)](https://gist.github.com/mario52a/7ebe6b3fd047441114d9d0e08ceddd63)
 
 [Download latest version of the macro](https://gist.github.com/mario52a/7ebe6b3fd047441114d9d0e08ceddd63)
 

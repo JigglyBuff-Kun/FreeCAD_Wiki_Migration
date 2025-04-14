@@ -19,9 +19,9 @@ title: TechDraw DraftView
 
 ## Description
 
-The **TechDraw DraftView** tool inserts a view of a selected [Part](/Part_Workbench "Part Workbench")-based or Group object into a drawing page. Unlike the standard ![](/src/assets/images/TechDraw_View.svg) [View](/TechDraw_View "TechDraw View") tool, views created with this tool are handled by the ![](/src/assets/images/Workbench_Draft.svg) [Draft Workbench](/Draft_Workbench "Draft Workbench"), and specially designed for showing 2D objects. See [Notes](#Notes).
+The **TechDraw DraftView** tool inserts a view of a selected [Part](/Part_Workbench "Part Workbench")-based or Group object into a drawing page. Unlike the standard ![](/images/TechDraw_View.svg) [View](/TechDraw_View "TechDraw View") tool, views created with this tool are handled by the ![](/images/Workbench_Draft.svg) [Draft Workbench](/Draft_Workbench "Draft Workbench"), and specially designed for showing 2D objects. See [Notes](#Notes).
 
-![](/src/assets/images/TechDraw_DraftView_example.png)
+![](/images/TechDraw_DraftView_example.png)
 
 Draft elements like circles and arrays imported into a TechDraw drawing page
 
@@ -31,8 +31,8 @@ Draft elements like circles and arrays imported into a TechDraw drawing page
 2. Select one or more objects in the [3D view](/3D_view "3D view") or [Tree view](/Tree_view "Tree view"). A separate view will created for each object.
 3. If there are multiple drawing pages in the document: optionally add the desired page to the selection by selecting it in the [Tree view](/Tree_view "Tree view").
 4. There are several ways to invoke the tool:
-   - Press the ![](/src/assets/images/TechDraw_DraftView.svg) [Insert Draft Workbench Object](/TechDraw_DraftView "TechDraw DraftView") button.
-   - Select the **TechDraw → Views From Other Workbenches → ![](/src/assets/images/TechDraw_DraftView.svg) Insert Draft Workbench Object** option from the menu.
+   - Press the ![](/images/TechDraw_DraftView.svg) [Insert Draft Workbench Object](/TechDraw_DraftView "TechDraw DraftView") button.
+   - Select the **TechDraw → Views From Other Workbenches → ![](/images/TechDraw_DraftView.svg) Insert Draft Workbench Object** option from the menu.
 5. If there are multiple drawing pages in the document and you have not yet selected a page, the **Page Chooser** dialog box opens:
    1. Select the desired page.
    2. Press the OK button.

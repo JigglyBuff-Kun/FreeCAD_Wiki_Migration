@@ -77,7 +77,7 @@ If not enough elements are selected before launching the macro, you must select 
 
 The latest version of the macro is to be found at [MeasureCircle.FCMacro](https://raw.githubusercontent.com/FreeCAD/FreeCAD-macros/master/Information/MeasureCircle.FCMacro) but the easiest way to install this macro is through the [Addon Manager](/Std_AddonMgr "Std AddonMgr").
 
-ToolBar Icon ![](/src/assets/images/Macro_MeasureCircle.png)
+ToolBar Icon ![](/images/Macro_MeasureCircle.png)
 
 **Macro_MeasureCircle.FCMacro**
 

@@ -4,7 +4,7 @@ title: Arch IFC
 
 ## Description
 
-The ![](/src/assets/images/Workbench_BIM.svg) [BIM Workbench](/BIM_Workbench "BIM Workbench") supports [Industry Foundation Classes (IFC)](http://en.wikipedia.org/wiki/Industry_Foundation_Classes) files natively, and also provides an importer and exporter. The IFC format is a continuously growing format to interchange data among [BIM](http://en.wikipedia.org/wiki/Building_Information_Modeling) applications, used in architecture and engineering.
+The ![](/images/Workbench_BIM.svg) [BIM Workbench](/BIM_Workbench "BIM Workbench") supports [Industry Foundation Classes (IFC)](http://en.wikipedia.org/wiki/Industry_Foundation_Classes) files natively, and also provides an importer and exporter. The IFC format is a continuously growing format to interchange data among [BIM](http://en.wikipedia.org/wiki/Building_Information_Modeling) applications, used in architecture and engineering.
 
 Read more about handling IFC files in FreeCAD on the [Native IFC](/Native_IFC "Native IFC") page.
 
@@ -19,7 +19,7 @@ import ifcopenshell
 
 If no error message appears, IfcOpenShell is installed, and you may proceed with [opening](/Std_Open "Std Open") or [importing](/Std_Import "Std Import") IFC files. Otherwise, you will need to install IfcOpenShell yourself; read the [IfcOpenShell](/IfcOpenShell "IfcOpenShell") page to learn more about this process.
 
-_Note:_ The ![](/src/assets/images/BIM_Setup.svg) [BIM Setup](/BIM_Setup "BIM Setup") tool will look for IfcOpenShell too, and issue a notification if it is not installed.
+_Note:_ The ![](/images/BIM_Setup.svg) [BIM Setup](/BIM_Setup "BIM Setup") tool will look for IfcOpenShell too, and issue a notification if it is not installed.
 
 ## Opening and Importing
 
@@ -76,7 +76,7 @@ importIFClegacy.open("C:\\Path\\To\\My\\File.ifc")
 
 ## Exporting
 
-Exporting to IFC files will export all the selected objects and their descendants. All Arch/BIM objects are supported, as well as other objects created in other workbenches. The only not fully supported objects, at the moment, are ![](/src/assets/images/PartDesign_Body.svg) [PartDesign Bodies](/PartDesign_Body "PartDesign Body"), ![](/src/assets/images/Std_Part.svg) [Std Parts](/Std_Part "Std Part"), and new structures such as ![](/src/assets/images/Link.svg) [App Links](/Std_LinkMake "Std LinkMake") and ![](/src/assets/images/LinkGroup.svg) LinkGroups, so you will need a bit of testing if using them. [Arch References](/Arch_Reference "Arch Reference") will currently export as `IfcBuildingElementProxies`.
+Exporting to IFC files will export all the selected objects and their descendants. All Arch/BIM objects are supported, as well as other objects created in other workbenches. The only not fully supported objects, at the moment, are ![](/images/PartDesign_Body.svg) [PartDesign Bodies](/PartDesign_Body "PartDesign Body"), ![](/images/Std_Part.svg) [Std Parts](/Std_Part "Std Part"), and new structures such as ![](/images/Link.svg) [App Links](/Std_LinkMake "Std LinkMake") and ![](/images/LinkGroup.svg) LinkGroups, so you will need a bit of testing if using them. [Arch References](/Arch_Reference "Arch Reference") will currently export as `IfcBuildingElementProxies`.
 
 To export a whole site or building or a whole floor or a group containing other objects, it is only needed to select that building or floor or group. Arch objects will be exported with the type set in their "IFC Type" property. Their [IfcProperties](http://www.buildingsmart-tech.org/ifc/IFC4/Add1/html/schema/ifcpropertyresource/lexical/ifcproperty.htm) are exported as well, and if these objects have an IFC UID from a previous import, the same UID will be kept at export. Objects that are not Arch objects are exported as [IfcBuildingElementProxy](http://www.buildingsmart-tech.org/ifc/IFC4/Add1/html/schema/ifcsharedbldgelements/lexical/ifcbuildingelementproxy.htm).
 

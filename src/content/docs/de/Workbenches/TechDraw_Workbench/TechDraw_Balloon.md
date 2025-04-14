@@ -21,7 +21,7 @@ title: TechDraw Hinweisfeld
 
 Das Werkzeug **TechDraw Hinweisfeld** kann einer Zeichnung Hinweisfelder mit zugehöriger Hinweislinie hinzufügen. (Voreingestellt ist ein kreisförmiges Hinweisfeld, das u.a. zur Kennzeichnung der Elemente einer Stückliste dienen kann)
 
-![](/src/assets/images/Techdraw_balloon.png)
+![](/images/Techdraw_balloon.png)
 
 ## Anwendung
 
@@ -31,8 +31,8 @@ Das Werkzeug **TechDraw Hinweisfeld** kann einer Zeichnung Hinweisfelder mit zug
    - Eine Kante in einer Ansicht.
    - Einen abgeschlossenen Bereich in einer Ansicht.
 2. Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
-   - Die Schaltfläche ![](/src/assets/images/TechDraw_Balloon.svg) Hinweisfeld einfügen drücken.
-   - Den Menüeintrag **TechDraw → Anmerkungen → ![](/src/assets/images/TechDraw_Balloon.svg) Hinweisfeld einfügen** auswählen.
+   - Die Schaltfläche ![](/images/TechDraw_Balloon.svg) Hinweisfeld einfügen drücken.
+   - Den Menüeintrag **TechDraw → Anmerkungen → ![](/images/TechDraw_Balloon.svg) Hinweisfeld einfügen** auswählen.
 3. Wenn eine Ansicht oder ein Bereich ausgewählt wurde:
    1. Der Mauszeiger wird mit dem Symbol dieses Werkzeuges angezeigt.
    2. Einen Punkt auf dem Blatt angeklicken, um den Ursprung der Hinweisfeldes (Startpunkt der Hinweislinie) festzulegen.
@@ -47,7 +47,7 @@ Um die Eigenschaften eines Hinweisfeldes zu ändern, wählt man es per Doppelkli
 
 Bei Verwendung der Rechteckform können mit "|" Trennzeichen im Text hinzugefügt werden. Zum Beispiel ergibt "AAA|TEST|111":
 
-![](/src/assets/images/Balloon_separator.png)
+![](/images/Balloon_separator.png)
 
 ## Eigenschaften
 
@@ -59,13 +59,13 @@ Bei Verwendung der Rechteckform können mit "|" Trennzeichen im Text hinzugefüg
 - Daten-Eigenschaft**Origin Y**: Y-Lage des Ursprungs des Hinweisfeldes relativ zur Ansicht.
 - Daten-Eigenschaft**End Type**: Symbol am Ende der Hinweislinie
 
-Optionen: ![](/src/assets/images/Arrowfilled.svg) Gefüllte Pfeilspitze, ![](/src/assets/images/Arrowopen.svg) Offene Pfeilspitze, ![](/src/assets/images/Arrowtick.svg) Schrägstrich, ![](/src/assets/images/Arrowdot.svg) Punkt, ![](/src/assets/images/Arrowopendot.svg) Ring, ![](/src/assets/images/Arrowfork.svg) Gabel, ![](/src/assets/images/Arrowpyramid.svg) gefülltes Dreieck,
-![](/src/assets/images/Arrownone.svg) Kein.
+Optionen: ![](/images/Arrowfilled.svg) Gefüllte Pfeilspitze, ![](/images/Arrowopen.svg) Offene Pfeilspitze, ![](/images/Arrowtick.svg) Schrägstrich, ![](/images/Arrowdot.svg) Punkt, ![](/images/Arrowopendot.svg) Ring, ![](/images/Arrowfork.svg) Gabel, ![](/images/Arrowpyramid.svg) gefülltes Dreieck,
+![](/images/Arrownone.svg) Kein.
 
 - Daten-Eigenschaft**End Type Scale**: Vergrößerungsfaktor für **End Type**.
 - Daten-Eigenschaft**Bubble Shape**: Form des Hinweisfeldes.
 
-Optionen: ![](/src/assets/images/Circular.svg) Kreisförmig, Kein, ![](/src/assets/images/Triangle.svg) Dreieck, ![](/src/assets/images/Inspection.svg) Prüfmaß, ![](/src/assets/images/Hexagon.svg) Sechseck, ![](/src/assets/images/TechDraw_Square.svg) Quadrat, ![](/src/assets/images/Rectangle.svg) Rechteck (, Linie).
+Optionen: ![](/images/Circular.svg) Kreisförmig, Kein, ![](/images/Triangle.svg) Dreieck, ![](/images/Inspection.svg) Prüfmaß, ![](/images/Hexagon.svg) Sechseck, ![](/images/TechDraw_Square.svg) Quadrat, ![](/images/Rectangle.svg) Rechteck (, Linie).
 
 - Daten-Eigenschaft**Shape Scale**: Vergrößerungsfaktor für **Bubble Shape** (die Form des Hinweisfeldes).
 - Daten-Eigenschaft**Text Wrap**: Länge für Textumbuch; -1 heißt, daß der Text nicht umbrochen wird und dass das Ergebnis in jedem Falle eine einzige Zeile ist.

@@ -23,7 +23,7 @@ Der **Std AllesSpeichern**-Befehl speichert alle offenen Dokumente.
 
 ## Anwendung
 
-1. Wähle die **Datei → ![](/src/assets/images/Std_SaveAll.svg) Alles speichern**-Option aus dem Menü.
+1. Wähle die **Datei → ![](/images/Std_SaveAll.svg) Alles speichern**-Option aus dem Menü.
 2. Für neue Dokumente: gib einen Dateinamen in die Dialog-Box ein und drücke die Speichern-Schaltfläche.
 
 ## Optionen

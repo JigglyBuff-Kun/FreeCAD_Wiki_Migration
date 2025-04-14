@@ -23,13 +23,13 @@ This documentation is not finished. Please help and contribute documentation.Gui
 
 ## Description
 
-The ![](/src/assets/images/Assembly_CreateJointPerpendicular.svg) [Assembly CreateJointPerpendicular](/Assembly_CreateJointPerpendicular "Assembly CreateJointPerpendicular") tool creates a Perpendicular joint between two selected parts, setting the Z axes of selected coordinate systems perpendicular.
+The ![](/images/Assembly_CreateJointPerpendicular.svg) [Assembly CreateJointPerpendicular](/Assembly_CreateJointPerpendicular "Assembly CreateJointPerpendicular") tool creates a Perpendicular joint between two selected parts, setting the Z axes of selected coordinate systems perpendicular.
 
 ## Usage
 
 1. There are several ways to invoke the tool:
-   - Press the ![](/src/assets/images/Assembly_CreateJointPerpendicular.svg) [Create Perpendicular Joint](/Assembly_CreateJointPerpendicular "Assembly CreateJointPerpendicular") button.
-   - Select the **Assembly → ![](/src/assets/images/Assembly_CreateJointPerpendicular.svg) Create Perpendicular Joint** option from the menu.
+   - Press the ![](/images/Assembly_CreateJointPerpendicular.svg) [Create Perpendicular Joint](/Assembly_CreateJointPerpendicular "Assembly CreateJointPerpendicular") button.
+   - Select the **Assembly → ![](/images/Assembly_CreateJointPerpendicular.svg) Create Perpendicular Joint** option from the menu.
    - Use the keyboard shortcut: M.
 2. ...
 

@@ -19,28 +19,28 @@ title: Sketcher CreateFillet
 
 ## Description
 
-The ![](/src/assets/images/Sketcher_CreateFillet.svg) [Sketcher CreateFillet](/Sketcher_CreateFillet "Sketcher CreateFillet") tool creates a fillet between two non-parallel edges. [introduced in 1.0](/Release_notes_1.0 "Release notes 1.0"): The tool can also create a chamfer.
+The ![](/images/Sketcher_CreateFillet.svg) [Sketcher CreateFillet](/Sketcher_CreateFillet "Sketcher CreateFillet") tool creates a fillet between two non-parallel edges. [introduced in 1.0](/Release_notes_1.0 "Release notes 1.0"): The tool can also create a chamfer.
 
 [introduced in 1.0](/Release_notes_1.0 "Release notes 1.0"): If two straight edges connected by a [Coincident constraint](/Sketcher_ConstrainCoincident "Sketcher ConstrainCoincident") are filleted or chamfered, the corner point can optionally be preserved. The tool then adds a [Point object](/Sketcher_CreatePoint "Sketcher CreatePoint") that has a [Point on object constraint](/Sketcher_ConstrainPointOnObject "Sketcher ConstrainPointOnObject") with both edges. Constraints connected to the corner point are transferred to the new point object.
 
-![](/src/assets/images/SketcherCreateFilletExample.png)
+![](/images/SketcherCreateFilletExample.png)
 
 ## Usage
 
 See also: [Drawing aids](/Sketcher_Workbench#Drawing_aids "Sketcher Workbench").
 
 1. There are several ways to invoke the tool:
-   - Press the ![](/src/assets/images/Sketcher_CreateFillet.svg) [Create fillet](/Sketcher_CreateFillet "Sketcher CreateFillet") button.
-   - Select the **Sketcher → Sketcher tools → ![](/src/assets/images/Sketcher_CreateFillet.svg) Create fillet** option from the menu.
-   - Right-click in the [3D view](/3D_view "3D view") and select the **![](/src/assets/images/Sketcher_CreateFillet.svg) Create fillet** option from the context menu.
+   - Press the ![](/images/Sketcher_CreateFillet.svg) [Create fillet](/Sketcher_CreateFillet "Sketcher CreateFillet") button.
+   - Select the **Sketcher → Sketcher tools → ![](/images/Sketcher_CreateFillet.svg) Create fillet** option from the menu.
+   - Right-click in the [3D view](/3D_view "3D view") and select the **![](/images/Sketcher_CreateFillet.svg) Create fillet** option from the context menu.
    - Use the keyboard shortcut: G then F, then F.
 2. If there is a previous selection it is cleared. The tool does not accept a pre-selection.
 3. The cursor changes to a cross with the current tool mode icon.
 4. The **Fillet/Chamfer parameters** section ([introduced in 1.0](/Release_notes_1.0 "Release notes 1.0")) is added at the top of the [Sketcher Dialog](/Sketcher_Dialog "Sketcher Dialog").
 5. Optionally press the U key or uncheck the **Preserve corner** checkbox to disable that option. [introduced in 1.0](/Release_notes_1.0 "Release notes 1.0")
 6. Optionally press the M key or select from the dropdown list in the parameters section to change the tool mode:
-   - ![](/src/assets/images/Sketcher_CreateFillet.svg) **Fillet**
-   - ![](/src/assets/images/Sketcher_CreateChamfer.svg) **Chamfer**
+   - ![](/images/Sketcher_CreateFillet.svg) **Fillet**
+   - ![](/images/Sketcher_CreateChamfer.svg) **Chamfer**
 7. Do one of the following:
    - Pick a point with a [Coincident constraint](/Sketcher_ConstrainCoincident "Sketcher ConstrainCoincident") connecting two non-parallel straight edges.
    - Pick two non-parallel edges. Either edge can be a straight [line](/Sketcher_CreateLine "Sketcher CreateLine"), an [arc](/Sketcher_CreateArc "Sketcher CreateArc"), an [arc of ellipse](/Sketcher_CreateArcOfEllipse "Sketcher CreateArcOfEllipse"), an [arc of hyperbola](/Sketcher_CreateArcOfHyperbola "Sketcher CreateArcOfHyperbola") or an [arc of parabola](/Sketcher_CreateArcOfParabola "Sketcher CreateArcOfParabola"). [B-splines](/Sketcher_Workbench#Sketcher_CompCreateBSpline "Sketcher Workbench") are currently not supported.

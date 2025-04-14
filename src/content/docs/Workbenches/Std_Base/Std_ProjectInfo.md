@@ -23,7 +23,7 @@ The **Std ProjectInfo** command shows a dialog box with details of the active do
 
 ## Usage
 
-1. Select the **File → ![](/src/assets/images/Std_ProjectInfo.svg) Document information...** option from the menu.
+1. Select the **File → ![](/images/Std_ProjectInfo.svg) Document information...** option from the menu.
 2. A dialog box with the following information pops up:
    - **Name**: The name of the document. Corresponds to the Label property of the document. _Not editable._
    - **Path**: The full path of the file. Blank if the file has not been saved. _Not editable._

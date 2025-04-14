@@ -30,7 +30,7 @@ title: Repro Wire
 
 This macro create on duplicate to wire, face, object or subObject ... selected. (include in FreeCAD since 0.19 version : Menu → Part → Create a copy)
 
-![](/src/assets/images/Macro_ReproWire_00.png)
+![](/images/Macro_ReproWire_00.png)
 
 ReproWire
 
@@ -42,7 +42,7 @@ The copies are coloured red and renamed with the Shapexxx + original names
 
 ## Script
 
-the icon for the toolbar ![icon for the button](/src/assets/images/Macro_ReproWire.png)
+the icon for the toolbar ![icon for the button](/images/Macro_ReproWire.png)
 
 **Macro_ReproWire.FCMacro**
 

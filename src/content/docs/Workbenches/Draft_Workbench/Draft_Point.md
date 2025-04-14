@@ -19,26 +19,26 @@ title: Draft Point
 
 ## Description
 
-The ![](/src/assets/images/Draft_Point.svg) **Draft Point** command creates a simple point. Draft points can be useful as a reference for placing lines, wires or other objects.
+The ![](/images/Draft_Point.svg) **Draft Point** command creates a simple point. Draft points can be useful as a reference for placing lines, wires or other objects.
 
-![](/src/assets/images/Draft_point_example.jpg)
+![](/images/Draft_point_example.jpg)
 
 ## Usage
 
 See also: [Draft Tray](/Draft_Tray "Draft Tray"), [Draft Snap](/Draft_Snap "Draft Snap") and [Draft Constrain](/Draft_Constrain "Draft Constrain").
 
 1. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/Draft_Point.svg) [Point](/Draft_Point "Draft Point") button.
-   - [Draft](/Draft_Workbench "Draft Workbench"): Select the **Drafting → ![](/src/assets/images/Draft_Point.svg) Point** option from the menu.
-   - [BIM](/BIM_Workbench "BIM Workbench"): Select the **2D Drafting → ![](/src/assets/images/Draft_Point.svg) Point** option from the menu.
+   - Press the ![](/images/Draft_Point.svg) [Point](/Draft_Point "Draft Point") button.
+   - [Draft](/Draft_Workbench "Draft Workbench"): Select the **Drafting → ![](/images/Draft_Point.svg) Point** option from the menu.
+   - [BIM](/BIM_Workbench "BIM Workbench"): Select the **2D Drafting → ![](/images/Draft_Point.svg) Point** option from the menu.
 2. The **Point** task panel opens. See [Options](#Options) for more information.
-3. Pick a point in the [3D view](/3D_view "3D view"), or type coordinates and press the ![](/src/assets/images/Draft_AddPoint.svg) Enter point button.
+3. Pick a point in the [3D view](/3D_view "3D view"), or type coordinates and press the ![](/images/Draft_AddPoint.svg) Enter point button.
 
 ## Options
 
 The single character keyboard shortcuts available in the task panel can be changed. See [Draft Preferences](/Draft_Preferences "Draft Preferences"). The shortcuts mentioned here are the default shortcuts (for version 1.0).
 
-- To manually enter coordinates enter the X, Y and Z component, and press Enter after each. Or you can press the ![](/src/assets/images/Draft_AddPoint.svg) Enter point button when you have the desired values. It is advisable to move the pointer out of the [3D view](/3D_view "3D view") before entering coordinates.
+- To manually enter coordinates enter the X, Y and Z component, and press Enter after each. Or you can press the ![](/images/Draft_AddPoint.svg) Enter point button when you have the desired values. It is advisable to move the pointer out of the [3D view](/3D_view "3D view") before entering coordinates.
 - Press G or click the **Global** checkbox to toggle global mode. If global mode is on, coordinates are relative to the global coordinate system, else they are relative to the [working plane](/Draft_SelectPlane "Draft SelectPlane") coordinate system.
 - Press N or click the **Continue** checkbox to toggle continue mode. If continue mode is on, the command will restart after finishing, allowing you to continue creating points.
 - Press S to switch [Draft snapping](/Draft_Snap "Draft Snap") on or off.
@@ -46,7 +46,7 @@ The single character keyboard shortcuts available in the task panel can be chang
 
 ## Notes
 
-- Use ![](/src/assets/images/Draft_Snap_Endpoint.svg) [Draft Snap Endpoint](/Draft_Snap_Endpoint "Draft Snap Endpoint") to snap to Draft points.
+- Use ![](/images/Draft_Snap_Endpoint.svg) [Draft Snap Endpoint](/Draft_Snap_Endpoint "Draft Snap Endpoint") to snap to Draft points.
 
 ## Properties
 

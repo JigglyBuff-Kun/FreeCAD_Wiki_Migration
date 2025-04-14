@@ -24,7 +24,7 @@ Sets the current position/orientation of the selected robot as home position.
 ## Usage
 
 1. Select robot in the [Tree view](/Tree_view "Tree view") or in the [3D view](/3D_view "3D view")
-2. Click on ![](/src/assets/images/Robot_SetHomePos.svg) or choose Robot → ![](/src/assets/images/Robot_SetHomePos.svg) Set the home position from the top menu.
+2. Click on ![](/images/Robot_SetHomePos.svg) or choose Robot → ![](/images/Robot_SetHomePos.svg) Set the home position from the top menu.
 
 ## Notes
 

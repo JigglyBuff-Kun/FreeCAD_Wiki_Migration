@@ -23,14 +23,14 @@ This documentation is not finished. Please help and contribute documentation.Gui
 
 ## Description
 
-The ![](/src/assets/images/Assembly_CreateJointGears.svg) [Assembly CreateJointGears](/Assembly_CreateJointGears "Assembly CreateJointGears") tool creates a gears joint that couples the rotation of two parts of two different revolute joints. In connection with the already existing joints this joint can be used to simulate spur gears, bevel gears, crown gears, friction wheel gears, etc.
+The ![](/images/Assembly_CreateJointGears.svg) [Assembly CreateJointGears](/Assembly_CreateJointGears "Assembly CreateJointGears") tool creates a gears joint that couples the rotation of two parts of two different revolute joints. In connection with the already existing joints this joint can be used to simulate spur gears, bevel gears, crown gears, friction wheel gears, etc.
 
 ## Usage
 
 1. Optionally select two geometric entities of two different parts that have previously been used to define two Revolute joints.
 2. There are several ways to invoke the tool:
-   - Press the ![](/src/assets/images/Assembly_CreateJointGears.svg) [Create Gears Joint](/Assembly_CreateJointGears "Assembly CreateJointGears") button.
-   - Select the **Assembly → Create Gear/Belt Joint → ![](/src/assets/images/Assembly_CreateJointGears.svg) Create Gears Joint** option from the menu.
+   - Press the ![](/images/Assembly_CreateJointGears.svg) [Create Gears Joint](/Assembly_CreateJointGears "Assembly CreateJointGears") button.
+   - Select the **Assembly → Create Gear/Belt Joint → ![](/images/Assembly_CreateJointGears.svg) Create Gears Joint** option from the menu.
 3. The **Create Joint** dialog opens in the [Task panel](/Task_panel "Task panel") listing the pre-selected entities.
 4. For further steps see [Assembly CreateJointFixed](/Assembly_CreateJointFixed#Usage "Assembly CreateJointFixed").
 

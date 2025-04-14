@@ -32,7 +32,7 @@ With this tool, the internal subtracted objects will all become visible or hidde
 ## Usage
 
 1. Select an Arch object that has subtractions.
-2. Select the **Utils → ![](/src/assets/images/Arch_ToggleSubs.svg) Toggle subcomponents** option from the menu.
+2. Select the **Utils → ![](/images/Arch_ToggleSubs.svg) Toggle subcomponents** option from the menu.
 
 ## Options
 

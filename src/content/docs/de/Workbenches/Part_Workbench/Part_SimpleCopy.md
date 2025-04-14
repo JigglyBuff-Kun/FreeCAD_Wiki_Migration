@@ -19,12 +19,12 @@ title: Part EinfacheKopie
 
 ## Beschreibung
 
-Der Befehl ![](/src/assets/images/Part_SimpleCopy.svg)Part EinfacheKopie erstellt nicht parametrische Kopien von Objekten.
+Der Befehl ![](/images/Part_SimpleCopy.svg)Part EinfacheKopie erstellt nicht parametrische Kopien von Objekten.
 
 ## Anwendung
 
 1. Ein oder mehrere Objekte auswählen.
-2. Den Menüeintrag **Part → Kopie erstellen → ![](/src/assets/images/Part_SimpleCopy.svg) Einfache Kopie erstellen** auswählen.
+2. Den Menüeintrag **Part → Kopie erstellen → ![](/images/Part_SimpleCopy.svg) Einfache Kopie erstellen** auswählen.
 
 ## Hinweise
 

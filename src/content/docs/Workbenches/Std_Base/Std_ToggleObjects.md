@@ -23,7 +23,7 @@ The **Std ToggleObjects** command toggles the visibility of all objects belongin
 
 ## Usage
 
-1. Select the **View → Visibility → ![](/src/assets/images/Std_ToggleObjects.svg) Toggle all objects** option from the menu.
+1. Select the **View → Visibility → ![](/images/Std_ToggleObjects.svg) Toggle all objects** option from the menu.
 
 ## Notes
 

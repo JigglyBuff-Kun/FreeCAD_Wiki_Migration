@@ -19,9 +19,9 @@ title: Draft SubelementHighlight
 
 ## Description
 
-The ![](/src/assets/images/Draft_SubelementHighlight.svg) **Draft SubelementHighlight** command temporarily highlights selected objects, or the base objects of selected objects. It is intended to be used in conjunction with the subelement mode of the [Draft Move](/Draft_Move "Draft Move") command, the [Draft Rotate](/Draft_Rotate "Draft Rotate") command or the [Draft Scale](/Draft_Scale "Draft Scale") command. Currently subelement mode only works properly for [Draft Lines](/Draft_Line "Draft Line") and [Draft Wires](/Draft_Wire "Draft Wire").
+The ![](/images/Draft_SubelementHighlight.svg) **Draft SubelementHighlight** command temporarily highlights selected objects, or the base objects of selected objects. It is intended to be used in conjunction with the subelement mode of the [Draft Move](/Draft_Move "Draft Move") command, the [Draft Rotate](/Draft_Rotate "Draft Rotate") command or the [Draft Scale](/Draft_Scale "Draft Scale") command. Currently subelement mode only works properly for [Draft Lines](/Draft_Line "Draft Line") and [Draft Wires](/Draft_Wire "Draft Wire").
 
-![](/src/assets/images/Draft_SubelementHighlight_example.png)
+![](/images/Draft_SubelementHighlight_example.png)
 
 An Arch Wall whose base, a Draft Wire, has been highlighted
 
@@ -29,8 +29,8 @@ An Arch Wall whose base, a Draft Wire, has been highlighted
 
 1. Optionally select one or more [Draft Lines](/Draft_Line "Draft Line") or [Draft Wires](/Draft_Wire "Draft Wire"), or objects whose Data**Base** objects are [Draft Lines](/Draft_Line "Draft Line") or [Draft Wires](/Draft_Wire "Draft Wire").
 2. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/Draft_SubelementHighlight.svg) [Subelement highlight](/Draft_SubelementHighlight "Draft SubelementHighlight") button.
-   - Select the **Modification → ![](/src/assets/images/Draft_SubelementHighlight.svg) Subelement highlight** option from the menu.
+   - Press the ![](/images/Draft_SubelementHighlight.svg) [Subelement highlight](/Draft_SubelementHighlight "Draft SubelementHighlight") button.
+   - Select the **Modification → ![](/images/Draft_SubelementHighlight.svg) Subelement highlight** option from the menu.
    - Use the keyboard shortcut: H then S.
 3. If you have not yet selected an object: select an object in the [3D view](/3D_view "3D view").
 4. The selected objects are made visible (if required), their View**Line Color** and View**Point Color** are changed to red, and their View**Point Size** is changed to `10`.

@@ -14,37 +14,37 @@ sel = FreeCADGui.Selection.getSelection()
 
 ```
 
-![](/src/assets/images/Method.png) **addSelection(\***FreeCAD.Object**\*)**
+![](/images/Method.png) **addSelection(\***FreeCAD.Object**\*)**
 
 **Description**: Adds an object to the selection
 
 **Returns**:
 
-![](/src/assets/images/Method.png) **clearSelection(\***[string]**\*)**
+![](/images/Method.png) **clearSelection(\***[string]**\*)**
 
 **Description**: Clears the selection of the given document name. If no document is given the complete selection is cleared.
 
 **Returns**:
 
-![](/src/assets/images/Method.png) **getSelection(\***[string]**\*)**
+![](/images/Method.png) **getSelection(\***[string]**\*)**
 
 **Description**: Returns a list of selected document objects for a given document name. If no document is given the complete selection is returned.
 
 **Returns**: a list of document objects in the order they were selected.
 
-![](/src/assets/images/Method.png) **getSelectionEx(\***[string]**\*)**
+![](/images/Method.png) **getSelectionEx(\***[string]**\*)**
 
 **Description**: Returns a list of SelectionObject for a given document name. If no document is given the complete selection is returned. Used for selecting subobjects (ex some Edges of a Face).
 
 **Returns**: a list of SelectionObjects in the order they were selected
 
-![](/src/assets/images/Method.png) **isSelected(\***FreeCAD.Object**\*)**
+![](/images/Method.png) **isSelected(\***FreeCAD.Object**\*)**
 
 **Description**: Checks if a given object is selected
 
 **Returns**:
 
-![](/src/assets/images/Method.png) **removeSelection(\***FreeCAD.Object**\*)**
+![](/images/Method.png) **removeSelection(\***FreeCAD.Object**\*)**
 
 **Description**: Removes an object from the selection
 

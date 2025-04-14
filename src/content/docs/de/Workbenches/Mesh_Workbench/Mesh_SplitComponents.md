@@ -25,8 +25,8 @@ Der Befehl **Mesh KomponentenTrennen** trennt ein Netzobjekt in seine Bestandtei
 
 1. Ein einzelnes Netzobjekt auswählen.
 2. Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
-   - Die Schaltfläche ![](/src/assets/images/Mesh_SplitComponents.svg) In Komponenten auftrennen drücken.
-   - Den Menüeintrag **Netze → ![](/src/assets/images/Mesh_SplitComponents.svg) In Komponenten auftrennen** auswählen.
+   - Die Schaltfläche ![](/images/Mesh_SplitComponents.svg) In Komponenten auftrennen drücken.
+   - Den Menüeintrag **Netze → ![](/images/Mesh_SplitComponents.svg) In Komponenten auftrennen** auswählen.
 
 ## Eigenschaften
 

@@ -19,7 +19,7 @@ title: Sketcher Sperren
 
 ## Beschreibung
 
-Das Werkzeug ![](/src/assets/images/Sketcher_ConstrainLock.svg) Sperren ordnet Punkten die Randbedingungen [Horizontalen Abstand festlegen](/Sketcher_ConstrainDistanceX/de "Sketcher ConstrainDistanceX/de") und [Vertikalen Abstand festlegen](/Sketcher_ConstrainDistanceY/de "Sketcher ConstrainDistanceY/de") zu. Ist ein einzelner punkt ausgewählt, beziehen sich die Randbedingungen auf den Ursprung der Skizze. Sind zwei oder mehr Punkte ausgewählt, beziehen sich die Randbedingungen auf den letzten Punkt in der Auswahl.
+Das Werkzeug ![](/images/Sketcher_ConstrainLock.svg) Sperren ordnet Punkten die Randbedingungen [Horizontalen Abstand festlegen](/Sketcher_ConstrainDistanceX/de "Sketcher ConstrainDistanceX/de") und [Vertikalen Abstand festlegen](/Sketcher_ConstrainDistanceY/de "Sketcher ConstrainDistanceY/de") zu. Ist ein einzelner punkt ausgewählt, beziehen sich die Randbedingungen auf den Ursprung der Skizze. Sind zwei oder mehr Punkte ausgewählt, beziehen sich die Randbedingungen auf den letzten Punkt in der Auswahl.
 
 ## Anwendung
 
@@ -29,10 +29,10 @@ Siehe auch: [Zeichnungshilfen](/Sketcher_Workbench/de#Zeichnungshilfen "Sketcher
 
 1. Sicherstellen, dass die Auswahl leer ist.
 2. Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
-   - [eingeführt in 1.0](/Release_notes_1.0/de "Release notes 1.0/de"): Ist die [Voreinstellung](/Sketcher_Preferences/de#Allgemein "Sketcher Preferences/de") **Werkzeuge für Maßeinträge** auf `Einzelnes Werkzeug` gesetzt (Standardeinstellung): Den Abwärtspfeil rechts neben der Schaltfläche ![](/src/assets/images/Sketcher_Dimension.svg)![](/src/assets/images/Toolbar_flyout_arrow.svg) drücken und **![](/src/assets/images/Sketcher_ConstrainLock.svg) Sperren** in der Ausklappliste auswählen.
-   - Ist die Voreinstellung auf einen anderen Wert gesetzt (und in 0.21 und davor): Die Schaltfläche ![](/src/assets/images/Sketcher_ConstrainLock.svg) Sperren drücken.
-   - Den Menüeintrag **Skizze → Sketcher-Randbedingungen → ![](/src/assets/images/Sketcher_ConstrainLock.svg) Sperren** auswählen.
-   - [eingeführt in 1.0](/Release_notes_1.0/de "Release notes 1.0/de"): Ein Rechtsklick in die [3D-Ansicht](/3D_view "3D view") und die Menüoption **Abmessung → ![](/src/assets/images/Sketcher_ConstrainLock.svg) Sperren** im Kontextmenü auswählen.
+   - [eingeführt in 1.0](/Release_notes_1.0/de "Release notes 1.0/de"): Ist die [Voreinstellung](/Sketcher_Preferences/de#Allgemein "Sketcher Preferences/de") **Werkzeuge für Maßeinträge** auf `Einzelnes Werkzeug` gesetzt (Standardeinstellung): Den Abwärtspfeil rechts neben der Schaltfläche ![](/images/Sketcher_Dimension.svg)![](/images/Toolbar_flyout_arrow.svg) drücken und **![](/images/Sketcher_ConstrainLock.svg) Sperren** in der Ausklappliste auswählen.
+   - Ist die Voreinstellung auf einen anderen Wert gesetzt (und in 0.21 und davor): Die Schaltfläche ![](/images/Sketcher_ConstrainLock.svg) Sperren drücken.
+   - Den Menüeintrag **Skizze → Sketcher-Randbedingungen → ![](/images/Sketcher_ConstrainLock.svg) Sperren** auswählen.
+   - [eingeführt in 1.0](/Release_notes_1.0/de "Release notes 1.0/de"): Ein Rechtsklick in die [3D-Ansicht](/3D_view "3D view") und die Menüoption **Abmessung → ![](/images/Sketcher_ConstrainLock.svg) Sperren** im Kontextmenü auswählen.
    - Das Tastaturkürzel K dann L.
 3. Der Mauszeiger wandelt sich zu einem Kreuz mit Werkzeugsymbol.
 4. Einen einzelnen Punkt auswählen.

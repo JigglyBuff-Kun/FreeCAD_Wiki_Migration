@@ -25,6 +25,6 @@ Currently the command points to <https://wiki.freecad.org/User_hub>.
 
 ## Usage
 
-1. Select the **Help → ![](/src/assets/images/Std_FreeCADUserHub.svg) Users documentation** option from the menu.
+1. Select the **Help → ![](/images/Std_FreeCADUserHub.svg) Users documentation** option from the menu.
 
 Retrieved from "<http://wiki.freecad.org/index.php?title=Std_FreeCADUserHub/en&oldid=1454747>"

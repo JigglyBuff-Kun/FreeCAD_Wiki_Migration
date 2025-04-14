@@ -19,16 +19,16 @@ title: Part Verbinden
 
 ## Beschreibung
 
-Das Werkzeug ![](/src/assets/images/Part_JoinConnect.svg) **Part Verbinden** verbindet die Innenbereiche von zwei Hohlkörpern (z.B. Rohre). Es kann auch Schalenobjekte und Drähte verbinden.
+Das Werkzeug ![](/images/Part_JoinConnect.svg) **Part Verbinden** verbindet die Innenbereiche von zwei Hohlkörpern (z.B. Rohre). Es kann auch Schalenobjekte und Drähte verbinden.
 
-![](/src/assets/images/JoinFeatures_Connect.png)
+![](/images/JoinFeatures_Connect.png)
 
 ## Anwendung
 
 1. Die zu verbindenden Objekte auswählen. Die Reihenfolge der Auswahl ist nicht wichtig, da die Wirkung des Werkzeugs symmetrisch ist. Es genügt, von jedem Objekt eine Teilform (z.B. Flächen) auszuwählen. Es kann auch ein Verbund ausgewählt werden, der alle zu verbindenden Formen enthält, z.B. eine [Draft RechtwinkligeAnordnung](/Draft_OrthoArray/de "Draft OrthoArray/de").
 2. Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
-   - Die Schaltfläche ![](/src/assets/images/Part_JoinConnect.svg) Objekte verbinden drücken.
-   - Den Menüeintrag **Part → Verbinden → ![](/src/assets/images/Part_JoinConnect.svg) Objekte verbinden** auswählen.
+   - Die Schaltfläche ![](/images/Part_JoinConnect.svg) Objekte verbinden drücken.
+   - Den Menüeintrag **Part → Verbinden → ![](/images/Part_JoinConnect.svg) Objekte verbinden** auswählen.
 3. Ein parametrisches Connect-Objekt wird erstellt. Die originalen Objekte werden ausgeblendet und das Ergebnis des Verbindens wird in der [3D-Ansicht](/3D_view/de "3D view/de") angezeigt.
 
 ## Eigenschaften
@@ -42,13 +42,13 @@ Connect
 ## Beispiel
 
 1. Erstelle ein Rohr, indem Du [Dicke](/Part_Thickness/de "Part Thickness/de") auf einen [Zylinder](/Part_Cylinder/de "Part Cylinder/de") anwendest:  
-   ![](/src/assets/images/JoinFeatures_Example_step1.png)
+   ![](/images/JoinFeatures_Example_step1.png)
 2. Erstelle ein weiteres Rohr mit kleinerem Durchmesser und platziere es so, dass es die Wand des ersten Rohres durchdringt:  
-   ![](/src/assets/images/JoinFeatures_Example_step2.png)
+   ![](/images/JoinFeatures_Example_step2.png)
 3. Wähle das erste Rohr und das zweite Rohr aus und klicke auf die Option "Objekte verbinden" in der Symbolleiste der Verbindungswerkzeuge.  
-   ![](/src/assets/images/JoinFeatures_Example_step3_Connect.png)
+   ![](/images/JoinFeatures_Example_step3_Connect.png)
 4. Verwende ein Querschnittswerkzeug ([Ausschnittebene](/Std_ToggleClipPlane/de "Std ToggleClipPlane/de"), [Arch Abschnittebene](/Arch_SectionPlane/de "Arch SectionPlane/de"), [Arch Schneideebene](/Arch_CutPlane/de "Arch CutPlane/de")), um Einbauten freizulegen. Auf dem Bild unten wird die Bogenschnittebene verwendet.  
-   ![](/src/assets/images/JoinFeatures_Example_step4_Connect.png)
+   ![](/images/JoinFeatures_Example_step4_Connect.png)
 
 ## Algorithmus
 

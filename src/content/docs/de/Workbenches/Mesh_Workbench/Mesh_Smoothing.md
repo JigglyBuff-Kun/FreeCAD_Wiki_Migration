@@ -21,7 +21,7 @@ title: Mesh Smoothing/de
 
 The **Mesh Smoothing** command smooths mesh objects by changing the position of their vertices.
 
-![](/src/assets/images/Meshes_Smooth.jpg)
+![](/images/Meshes_Smooth.jpg)
 
 The Smoothing task panel after choosing the Only selection option
 
@@ -32,8 +32,8 @@ The Smoothing task panel after choosing the Only selection option
    - The Ansicht**Shape Color** of the mesh objects should not be red.
 2. Select one or more mesh objects.
 3. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/Mesh_Smoothing.svg) [Smooth...](/Mesh_Smoothing "Mesh Smoothing") button.
-   - Select the **Meshes → ![](/src/assets/images/Mesh_Smoothing.svg) Smooth...** option from the menu.
+   - Press the ![](/images/Mesh_Smoothing.svg) [Smooth...](/Mesh_Smoothing "Mesh Smoothing") button.
+   - Select the **Meshes → ![](/images/Mesh_Smoothing.svg) Smooth...** option from the menu.
 4. The **Smoothing** task panel opens.
 5. If you only want to smooth selected areas: choose the **Only selection** option:
    - The **Selection** panel is added to the task panel.

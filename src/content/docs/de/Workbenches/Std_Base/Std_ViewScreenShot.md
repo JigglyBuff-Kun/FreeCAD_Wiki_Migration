@@ -21,13 +21,13 @@ title: Std AnsichtAufnehmen
 
 Der **Std AnsichtAufnehmen** Befehl öffnet ein Dialogfenster, um eine Bilddatei, ein Bildschirmfoto, von der aktiven [3D-Ansicht](/3D_view/de "3D view/de") zu erstellen.
 
-![](/src/assets/images/Save_picture.png)
+![](/images/Save_picture.png)
 
 Das Dialogfenster Bildinhalt speichern nach Drücken der Schaltfläche Erweitert
 
 ## Anwendung
 
-1. Den Menüeintrag **Werkzeuge → ![](/src/assets/images/Std_ViewScreenShot.svg) Bild speichern...** auswählen.
+1. Den Menüeintrag **Werkzeuge → ![](/images/Std_ViewScreenShot.svg) Bild speichern...** auswählen.
 2. Das Dialogfenster **Bildinhalt speichern** wird geöffnet.
 3. Wahlweise die Schaltfläche Erweitert drücken, um ein zusätzlichen Bereich im Dialogfenster einzublenden. Für weitere Informationen siehe [Optionen](#Optionen).
 4. Wahlweise den richtigen Ordner suchen.

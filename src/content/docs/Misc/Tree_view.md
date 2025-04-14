@@ -8,7 +8,7 @@ The [Tree view](/Tree_view "Tree view") appears in the upper section of the **Mo
 
 These objects don't necessarily have to be geometrical shapes visible in the [3D view](/3D_view "3D view"), but can also be supporting data objects created with any of the [workbenches](/Workbenches "Workbenches").
 
-![](/src/assets/images/FreeCAD_Tree_view.png)
+![](/images/FreeCAD_Tree_view.png)
 
 The Tree view showing various elements in the document.
 
@@ -18,7 +18,7 @@ By default, whenever a new object is created, it is added to the end of the list
 
 Many operations create objects that are dependent on a previously existing object. In this case, the Tree view shows this relationship by absorbing the older object inside the new object. Expanding and collapsing the objects in the Tree view shows the parametric history of that object. Objects that are deeper inside others are older, while objects that are outside are newer, and are derived from the older objects. By modifying the interior objects, the parametric operations propagate all the way to the top, generating a new result.
 
-![](/src/assets/images/FreeCAD_Tree_view_parametric_history.png)
+![](/images/FreeCAD_Tree_view_parametric_history.png)
 
 The topmost object is created by doing parametric operations on objects which themselves were created by previous operations.  
 Fully expanding the tree reveals the original elements that were used to create the partial solids.

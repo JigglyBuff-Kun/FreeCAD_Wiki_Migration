@@ -19,7 +19,7 @@ title: Sketcher SelectRedundantConstraints
 
 ## Description
 
-The ![](/src/assets/images/Sketcher_SelectRedundantConstraints.svg) [Sketcher SelectRedundantConstraints](/Sketcher_SelectRedundantConstraints "Sketcher SelectRedundantConstraints") tool selects the redundant constraints in the sketch.
+The ![](/images/Sketcher_SelectRedundantConstraints.svg) [Sketcher SelectRedundantConstraints](/Sketcher_SelectRedundantConstraints "Sketcher SelectRedundantConstraints") tool selects the redundant constraints in the sketch.
 
 If such constraints exist in a sketch the [Solver messages section of the Sketcher Dialog](/Sketcher_Dialog#Solver_messages "Sketcher Dialog") displays this message:
 
@@ -33,7 +33,7 @@ Please note that a sketch can also have redundant constraints if one of the othe
 
 1. There are several ways to invoke the tool:
    - Click the underlined text in the Sketcher Dialog as described above.
-   - Select the **Sketch → Sketcher visual → ![](/src/assets/images/Sketcher_SelectRedundantConstraints.svg) Select redundant constraints** option from the menu.
+   - Select the **Sketch → Sketcher visual → ![](/images/Sketcher_SelectRedundantConstraints.svg) Select redundant constraints** option from the menu.
    - Use the keyboard shortcut: Z then P, then R.
 2. The redundant constraints are selected.
 3. Optionally click in an empty area in the [3D view](/3D_view "3D view") to clear the selection.

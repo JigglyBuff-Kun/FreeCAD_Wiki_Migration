@@ -28,7 +28,7 @@ title: Section
 |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 
-![](/src/assets/images/Macro_Section_Screenshot.png)
+![](/images/Macro_Section_Screenshot.png)
 
 [Part Section](/Part_Section "Part Section") tool produces edges with C0 continuity and large number of segments (knots), which is not very suitable as [Sweep](/Part_Sweep "Part Sweep") path.
 
@@ -51,7 +51,7 @@ After running the macro once, you can add a toolbar button. Go to Tools → Cust
 
 ## Script
 
-ToolBar Icon ![](/src/assets/images/Part_Section.svg)
+ToolBar Icon ![](/images/Part_Section.svg)
 
 **MacroSection.py**
 

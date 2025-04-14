@@ -2,7 +2,7 @@
 title: About FreeCAD
 ---
 
-![](/src/assets/images/Freecad_default.jpg)
+![](/images/Freecad_default.jpg)
 
 **FreeCAD** is a general purpose [open source](http://en.wikipedia.org/wiki/Open_source) parametric 3D [**CAD**](http://en.wikipedia.org/wiki/CAD) modeler licensed under the [LGPL License](/License "License"). FreeCAD is aimed directly at [mechanical engineering](http://en.wikipedia.org/wiki/Mechanical_engineering) and [product design](http://en.wikipedia.org/wiki/Product_design) but, being very generic, also fits in a wider range of uses around engineering, such as architecture, finite element analysis, 3D printing, and other tasks.
 

@@ -19,7 +19,7 @@ title: Sketcher Symmetrie
 
 ## Beschreibung
 
-Das Werkzeug ![](/src/assets/images/Sketcher_Symmetry.svg) Sketcher Symmetrie erstellt gespiegelte Kopien von ausgewählten Elementen.
+Das Werkzeug ![](/images/Sketcher_Symmetry.svg) Sketcher Symmetrie erstellt gespiegelte Kopien von ausgewählten Elementen.
 
 ## Anwendung
 
@@ -27,8 +27,8 @@ Siehe auch: [Zeichnungshilfen](/Sketcher_Workbench/de#Zeichnungshilfen "Sketcher
 
 1. Eine oder mehrere Kanten und/oder Punkte auswählen.
 2. Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
-   - Die Schaltfläche ![](/src/assets/images/Sketcher_Symmetry.svg) Symmetrie drücken.
-   - Den Menüeintrag **Skizze → Skizzenwerkzeuge → ![](/src/assets/images/Sketcher_Symmetry.svg) Symmetrie** auswählen.
+   - Die Schaltfläche ![](/images/Sketcher_Symmetry.svg) Symmetrie drücken.
+   - Den Menüeintrag **Skizze → Skizzenwerkzeuge → ![](/images/Sketcher_Symmetry.svg) Symmetrie** auswählen.
    - Das Tastaturkürzel Z dann S.
 3. Der Mauszeiger wandelt sich zu einem Kreuz mit Werkzeugsymbol.
 4. Der Abschnitt **Symmetrie-Parameter** ([eingeführt in 1.0](/Release_notes_1.0/de "Release notes 1.0/de")) wird im oberen Bereich des [Sketcher-Dialogs](/Sketcher_Dialog/de "Sketcher Dialog/de") hinzugefügt.

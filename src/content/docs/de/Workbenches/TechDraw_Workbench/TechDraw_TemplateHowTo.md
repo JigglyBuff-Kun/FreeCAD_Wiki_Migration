@@ -52,7 +52,7 @@ Wobei `$INSTALL_DIR` das Verzeichnis ist, wo FreeCAD installiert wurde, z.B.
 - Das Format (Page Size) "US Letter" oder "A4" und die Ausrichtung (Orientation) "Querformat" (Landscape) auswählen.
 - Die Vorgabe für die Maßeinheit (Unit) auf "mm" setzen und die Blattgröße auf die Werte "279,4" für die Breite (width) und "215,9" für die Höhe (height). Für DIN-A4 würde entsprechend "210" und "297" eingegeben.
 
-![](/src/assets/images/InkDocProp.png)
+![](/images/InkDocProp.png)
 
 Inkscape: Dokument mit Blattgröße und Ausrichtung
 
@@ -66,7 +66,7 @@ Inkscape: Dokument mit Blattgröße und Ausrichtung
 
 Da SVG ein von Menschen lesbares Format ist, könnte die obige Zeile auch mit einem Texteditor in die Datei eingeben werden.
 
-![](/src/assets/images/InkXMLNameSpace.png)
+![](/images/InkXMLNameSpace.png)
 
 Inkscape: XML-Editor, der die "freecad"-Namensraum-Angabe zum Element <svg> hinzufügt
 
@@ -82,7 +82,7 @@ Inkscape: XML-Editor, der die "freecad"-Namensraum-Angabe zum Element <svg> hinz
 
 8. Nun ist das Kunstwerk fertig, und sollte in etwa so aussehen:
 
-![](/src/assets/images/InkFinishedArt.png)
+![](/images/InkFinishedArt.png)
 
 Inkscape: Vorläufiges Layout der Vorlage
 
@@ -92,7 +92,7 @@ Inkscape: Vorläufiges Layout der Vorlage
 
 - Für jeden editierbaren Text einen sinnvollen Namen vergeben.
 
-![](/src/assets/images/InkXMLeditableTag.png)
+![](/images/InkXMLeditableTag.png)
 
 Inkscape: XML-Editor beim Hinzufügen der "freecad:editable" Eigenschaft zum gewünschten <text>-Element
 
@@ -102,13 +102,13 @@ Inkscape: XML-Editor beim Hinzufügen der "freecad:editable" Eigenschaft zum gew
 
 - Das Format beinhaltet vier Werte `"0 0 width height"`
 
-![](/src/assets/images/InkXMLviewBox.png)
+![](/images/InkXMLviewBox.png)
 
 Inkscape: XML-Editor beim Anpassen des Anzeigebereiches (viewBox) Passend zur Blattgröße in Millimetern
 
 11. Die Vorlage wird nun viel größer als gewünscht erscheinen.
 
-![](/src/assets/images/InkMuchTooBig.png)
+![](/images/InkMuchTooBig.png)
 
 Inkscape: Das vorläufige Layout der Vorlage überschreitet die Blattgröße
 
@@ -142,7 +142,7 @@ Inkscape: Das vorläufige Layout der Vorlage überschreitet die Blattgröße
 
 21. Probiere sie in FreeCAD und dem [TechDraw-Arbeitsbereich](/TechDraw_Workbench/de "TechDraw Workbench/de") mit [Seite mittels Vorlage einfügen](/TechDraw_PageTemplate/de "TechDraw PageTemplate/de") aus.
 
-![](/src/assets/images/FCTemplateHow.png)
+![](/images/FCTemplateHow.png)
 
 FreeCAD: fertige Vorlage mit änderbarem Textfeld während der Änderung
 

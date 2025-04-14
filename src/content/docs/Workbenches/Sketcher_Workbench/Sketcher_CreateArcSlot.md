@@ -19,9 +19,9 @@ title: Sketcher CreateArcSlot
 
 ## Description
 
-The ![](/src/assets/images/Sketcher_CreateArcSlot.svg) [Sketcher CreateArcSlot](/Sketcher_CreateArcSlot "Sketcher CreateArcSlot") tool creates an arc slot, a closed polyline consisting of two parallel concentric arcs closed by two semicircles or two radial straight lines.
+The ![](/images/Sketcher_CreateArcSlot.svg) [Sketcher CreateArcSlot](/Sketcher_CreateArcSlot "Sketcher CreateArcSlot") tool creates an arc slot, a closed polyline consisting of two parallel concentric arcs closed by two semicircles or two radial straight lines.
 
-![](/src/assets/images/Sketcher_CreateArcSlot_Example.png)
+![](/images/Sketcher_CreateArcSlot_Example.png)
 
 Arc slot with arc ends (left) and flat ends (right)
 
@@ -33,18 +33,18 @@ Pos-OVP = Positional [On-View-Parameters](/Sketcher_Preferences#General "Sketche
 Dim-OVP = Dimensional On-View-Parameters.
 
 1. There are several ways to invoke the tool:
-   - Press the ![](/src/assets/images/Sketcher_CreateArcSlot.svg) [Create arc slot](/Sketcher_CreateArcSlot "Sketcher CreateArcSlot") button.
-   - Select the **Sketcher → Sketcher geometries → ![](/src/assets/images/Sketcher_CreateArcSlot.svg) Create arc slot** option from the menu.
+   - Press the ![](/images/Sketcher_CreateArcSlot.svg) [Create arc slot](/Sketcher_CreateArcSlot "Sketcher CreateArcSlot") button.
+   - Select the **Sketcher → Sketcher geometries → ![](/images/Sketcher_CreateArcSlot.svg) Create arc slot** option from the menu.
    - The keyboard shortcut: G then S, then 2.
 2. The cursor changes to a cross with the tool icon.
 3. The **Arc Slot parameters** section is added at the top of the [Sketcher Dialog](/Sketcher_Dialog "Sketcher Dialog").
 4. Optionally press the M key or select from the dropdown list in the parameters section to change the tool mode:
-   - ![](/src/assets/images/Sketcher_CreateArcSlot.svg) **Arc ends**:
+   - ![](/images/Sketcher_CreateArcSlot.svg) **Arc ends**:
      1. Pick the center of the arc slot. Or with Pos-OVP: enter its X and/or Y coordinate.
      2. Pick the center of the first semicircle, this also defines the radius of the (virtual) centerline of the slot. Or with Dim-OVP: enter the radius and/or start angle of the slot. The angle is relative to the X axis of the sketch. No constraint is created for this angle.
      3. Pick the center of the second semicircle. Or with Dim-OVP: enter the aperture angle of the centerline arc.
      4. Pick a point to define the radius of the semicircles. Or with Dim-OVP: enter this radius.
-   - ![](/src/assets/images/Sketcher_CreateRectangleSlot.svg) **Flat ends**:
+   - ![](/images/Sketcher_CreateRectangleSlot.svg) **Flat ends**:
      1. Pick the center of the arc slot. Or with Pos-OVP: enter its X and/or Y coordinate.
      2. Pick the start point of the first arc, this also defines its radius. Or with Dim-OVP: enter the radius and/or start angle of the first arc. The angle is relative to the X axis of the sketch. No constraint is created for this angle.
      3. Pick the end point of the first arc. Or with Dim-OVP: enter the aperture angle of the arc.

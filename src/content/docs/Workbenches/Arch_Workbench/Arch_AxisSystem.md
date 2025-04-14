@@ -27,16 +27,16 @@ The [AxisSystem](/Arch_AxisSystem "Arch AxisSystem") tool allows you to combine 
 
 This is useful to define the intersection points between the different axes. Arch objects can then use this system to duplicate their shape on the different intersection points.
 
-![](/src/assets/images/Arch_AxisSystem_example.jpg)
+![](/images/Arch_AxisSystem_example.jpg)
 
 Three [Arch Axis](/Arch_Axis "Arch Axis") objects combined into one [Arch AxisSystem](/Arch_AxisSystem "Arch AxisSystem"). An [Arch Structure](/Arch_Structure "Arch Structure") object uses this system as its Data**Axis** property, to have its shape duplicated at each intersection point.
 
 ## Usage
 
 1. Optionally, select the [Arch Axis](/Arch_Axis "Arch Axis") objects you wish to include in this system.
-2. Press the ![](/src/assets/images/Arch_AxisSystem.svg) [Axis System](/Arch_AxisSystem "Arch AxisSystem") button.
+2. Press the ![](/images/Arch_AxisSystem.svg) [Axis System](/Arch_AxisSystem "Arch AxisSystem") button.
 3. Right-click the newly created axes system object in the tree view to add/edit the [Arch Axis](/Arch_Axis "Arch Axis") objects included in this system.
-4. Select any existing [Arch Axis](/Arch_Axis "Arch Axis") and press ![](/src/assets/images/Arch_Add.svg) [Add](/Arch_Add "Arch Add") or ![](/src/assets/images/Arch_Remove.svg) [Remove](/Arch_Remove "Arch Remove") buttons to add or remove it to/from this system.
+4. Select any existing [Arch Axis](/Arch_Axis "Arch Axis") and press ![](/images/Arch_Add.svg) [Add](/Arch_Add "Arch Add") or ![](/images/Arch_Remove.svg) [Remove](/Arch_Remove "Arch Remove") buttons to add or remove it to/from this system.
 5. Set the Data**Axis** property of any Arch object to point to this system, to have its shape duplicated to the intersection points of this system.
 
 ## Options

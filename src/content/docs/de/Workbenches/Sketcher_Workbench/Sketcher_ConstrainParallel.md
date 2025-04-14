@@ -19,7 +19,7 @@ title: Sketcher ParallelFestlegen
 
 ## Beschreibung
 
-Das Werkzeug ![](/src/assets/images/Sketcher_ConstrainParallel.svg) Sketcher ParallelFestlegen legt Linien parallel zueinander fest.
+Das Werkzeug ![](/images/Sketcher_ConstrainParallel.svg) Sketcher ParallelFestlegen legt Linien parallel zueinander fest.
 
 ## Anwendung
 
@@ -29,9 +29,9 @@ Siehe auch: [Zeichnungshilfen](/Sketcher_Workbench/de#Zeichnungshilfen "Sketcher
 
 1. Sicherstellen, dass die Auswahl leer ist.
 2. Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
-   - Die Schaltfläche ![](/src/assets/images/Sketcher_ConstrainParallel.svg) Parallel festlegen drücken.
-   - Den Menüeintrag **Skizze → Sketcher-Randbedingungen → ![](/src/assets/images/Sketcher_ConstrainParallel.svg) Parallel festlegen** auswählen.
-   - [eingeführt in 1.0](/Release_notes_1.0/de "Release notes 1.0/de"): Ein Rechtsklick in die [3D-Ansicht](/3D_view/de "3D view/de") und die Menüoption **Festlegen → ![](/src/assets/images/Sketcher_ConstrainParallel.svg) Parallel festlegen** im Kontextmenü auswählen.
+   - Die Schaltfläche ![](/images/Sketcher_ConstrainParallel.svg) Parallel festlegen drücken.
+   - Den Menüeintrag **Skizze → Sketcher-Randbedingungen → ![](/images/Sketcher_ConstrainParallel.svg) Parallel festlegen** auswählen.
+   - [eingeführt in 1.0](/Release_notes_1.0/de "Release notes 1.0/de"): Ein Rechtsklick in die [3D-Ansicht](/3D_view/de "3D view/de") und die Menüoption **Festlegen → ![](/images/Sketcher_ConstrainParallel.svg) Parallel festlegen** im Kontextmenü auswählen.
    - Das Tastaturkürzel P.
 3. Der Mauszeiger wandelt sich zu einem Kreuz mit Werkzeugsymbol.
 4. Zwei Kanten auswählen.
@@ -43,7 +43,7 @@ Siehe auch: [Zeichnungshilfen](/Sketcher_Workbench/de#Zeichnungshilfen "Sketcher
 
 1. Zwei oder mehr Linien auswählen. [eingeführt in 1.0](/Release_notes_1.0/de "Release notes 1.0/de"): Punkte können in der Auswahl enthalten sein, werden aber ignoriert.
 2. Das Werkzeug aufrufen, wie oben beschrieben oder mit der folgenden zusätzlichen Option:
-   - [eingeführt in 1.0](/Release_notes_1.0/de "Release notes 1.0/de"): Ein Rechtsklick in die [3D-Ansicht](/3D_view/de "3D view/de") und die Menüoption **![](/src/assets/images/Sketcher_ConstrainParallel.svg) Parallel festlegen** im Kontextmenü auswählen.
+   - [eingeführt in 1.0](/Release_notes_1.0/de "Release notes 1.0/de"): Ein Rechtsklick in die [3D-Ansicht](/3D_view/de "3D view/de") und die Menüoption **![](/images/Sketcher_ConstrainParallel.svg) Parallel festlegen** im Kontextmenü auswählen.
 3. Abhängig von der Auswahl werden eine oder mehrere Randbedingungen hinzugefügt.
 
 ## Skripten

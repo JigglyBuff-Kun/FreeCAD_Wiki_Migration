@@ -30,7 +30,7 @@ The **Arch Wall** tool builds a Wall object from scratch or on top of any other 
 - A **solid**, in which case length, width and height properties have no effect. The wall simply uses the underlying solid as its shape.
 - A **mesh**, in which case the underlying mesh must be a closed, manifold solid.
 
-![](/src/assets/images/Arch_Wall_example.jpg)
+![](/images/Arch_Wall_example.jpg)
 
 Walls built from a line, a wire, a face, a solid, and a sketch
 
@@ -43,8 +43,8 @@ When several walls should intersect, you need to place them into a [floor](/Arch
 ### Drawing a wall from scratch
 
 1. There are several ways to invoke the tool:
-   - Press the ![](/src/assets/images/Arch_Wall.svg) [Wall](/Arch_Wall "Arch Wall") button.
-   - Select the **3D/BIM → ![](/src/assets/images/Arch_Wall.svg) Wall** option from the menu.
+   - Press the ![](/images/Arch_Wall.svg) [Wall](/Arch_Wall "Arch Wall") button.
+   - Select the **3D/BIM → ![](/images/Arch_Wall.svg) Wall** option from the menu.
    - Use the keyboard shortcut: W then A.
 2. Click a first point on the 3D view, or type coordinates.
 3. Click a second point on the 3D view, or type coordinates.
@@ -73,7 +73,7 @@ When several walls should intersect, you need to place them into a [floor](/Arch
 
 Snapping works a bit differently with Arch walls than other Arch and Draft objects. If a wall has a baseline object, snapping will anchor to the base object, instead of the wall geometry, allowing to easily align walls by their baseline. If, however, you specifically want to snap to the wall geometry, pressing Ctrl will switch snapping to the wall object.
 
-![](/src/assets/images/Arch_wall_snap.jpg)
+![](/images/Arch_wall_snap.jpg)
 
 Second wall snapping perpendicularly to the first one
 
@@ -108,7 +108,7 @@ See [Arch Component](/Arch_Component#Properties "Arch Component").
 
 Wall
 
-: ![](/src/assets/images/Sketch_vs_Wall.jpg)
+: ![](/images/Sketch_vs_Wall.jpg)
 
 - Data**Align**: The alignment of the wall on its baseline(s): Left, Right or Center. With Left and Right modes the side where the wall is created depends on the direction of each individual baseline. In other words, the direction of the individual edges of the Base object (Sketch/ArchSketch) is taken into account, giving finer control over each wall segment. See the diagram above for more details. Arcs in sketches are always counter-clockwise. When a curved segment of a wall is left aligned, the inner edge of the segment coincides with the arc in the sketch. See also **Override Align**.
 - Data**Area**: Area of the whole wall, separation into blocks makes no difference (read-only).
@@ -117,9 +117,9 @@ Wall
 - Data**Length**: The length of the wall. The value can be edited if the wall is based on an unconstrained sketch with a single edge, or on a [Draft Wire](/Draft_Wire "Draft Wire") with a single edge, else the value is read-only. [introduced in 1.0](/Release_notes_1.0 "Release notes 1.0") The value when the property is read-only is more accurate. It is based on the medium of the wall if segments have different Data**Width**, Data**Align** and/or Data**Offset** properties. Note that there can still be inaccuracies if the wall is complex, for example if it has T-junctions or self-intersections. In such cases it is advisable to instead use the Data**Horizontal Area** property for further calculations.
 - Data**Normal**: The extrusion direction for the wall. If set to (0,0,0), the extrusion direction is automatic.
 - Data**Offset**: The distance between the wall and its baseline. Works only if the **Align** property is set to Right or Left. The direction of the individual edges of the Base object (Sketch/ArchSketch) is taken into account, giving finer control over each wall segment. See also **Override Offset**.
-- Data**Override Align**: This overrides **Align** attribute to set align of each segment of wall. Ignored if Base object provides Aligns information, with getAligns() method (If a value is not 'Left, Right, Center', the value of 'Align' will be followed). ENHANCEMENT by ArchSketch: GUI 'Edit Wall Segment Align' Tool is provided in the external ![](/src/assets/images/SketchArch_Workbench.svg) [SketchArch Add-on](https://github.com/paullee0/FreeCAD_SketchArch) to let users to set the values interactively. 'Toponaming-Tolerant' if ArchSketch is used in Base (and SketchArch Add-on is installed). Warning: Not 'Toponaming-Tolerant' if just Sketch is used.
-- Data**Override Width**: This overrides the **Width** property and allows setting a different width for each segment of the wall. The input is a list of numerical widths (without unit specifier), one for each segment of the wall. If a value in the list is 0, the corresponding segment will use the wall's **Width** property value, effectively clearing the override segment-wise. This property is ignored if the wall's base object provides widths information with the `getWidths()` method (such as sketches created with the external ![](/src/assets/images/SketchArch_Workbench.svg) [SketchArch Add-on](https://github.com/paullee0/FreeCAD_SketchArch) do). That add-on also provides additional enhancements: a graphical _Edit Wall Segment Width_ tool to enable users to set the width values interactively, and toponaming tolerance if an ArchSketch object is used as the wall's base object (and if the add-on is installed).
-- Data**Override Offset**: ([introduced in 1.0](/Release_notes_1.0 "Release notes 1.0")) This overrides **Offset** attribute to set offset of each segment of wall. Ignored if Base object provides Offsets information, with getOffsets() method (If a value is zero, the value of 'Offset' will be followed). ENHANCEMENT by ArchSketch: GUI 'Edit Wall Segment Offset' Tool is provided in the external ![](/src/assets/images/SketchArch_Workbench.svg) [SketchArch Add-on](https://github.com/paullee0/FreeCAD_SketchArch) to let users to select the edges interactively. 'Toponaming-Tolerant' if ArchSketch is used in Base (and SketchArch Add-on is installed). Warning: Not 'Toponaming-Tolerant' if just Sketch is used. Property is ignored if Base ArchSketch provided the selected edges.
+- Data**Override Align**: This overrides **Align** attribute to set align of each segment of wall. Ignored if Base object provides Aligns information, with getAligns() method (If a value is not 'Left, Right, Center', the value of 'Align' will be followed). ENHANCEMENT by ArchSketch: GUI 'Edit Wall Segment Align' Tool is provided in the external ![](/images/SketchArch_Workbench.svg) [SketchArch Add-on](https://github.com/paullee0/FreeCAD_SketchArch) to let users to set the values interactively. 'Toponaming-Tolerant' if ArchSketch is used in Base (and SketchArch Add-on is installed). Warning: Not 'Toponaming-Tolerant' if just Sketch is used.
+- Data**Override Width**: This overrides the **Width** property and allows setting a different width for each segment of the wall. The input is a list of numerical widths (without unit specifier), one for each segment of the wall. If a value in the list is 0, the corresponding segment will use the wall's **Width** property value, effectively clearing the override segment-wise. This property is ignored if the wall's base object provides widths information with the `getWidths()` method (such as sketches created with the external ![](/images/SketchArch_Workbench.svg) [SketchArch Add-on](https://github.com/paullee0/FreeCAD_SketchArch) do). That add-on also provides additional enhancements: a graphical _Edit Wall Segment Width_ tool to enable users to set the width values interactively, and toponaming tolerance if an ArchSketch object is used as the wall's base object (and if the add-on is installed).
+- Data**Override Offset**: ([introduced in 1.0](/Release_notes_1.0 "Release notes 1.0")) This overrides **Offset** attribute to set offset of each segment of wall. Ignored if Base object provides Offsets information, with getOffsets() method (If a value is zero, the value of 'Offset' will be followed). ENHANCEMENT by ArchSketch: GUI 'Edit Wall Segment Offset' Tool is provided in the external ![](/images/SketchArch_Workbench.svg) [SketchArch Add-on](https://github.com/paullee0/FreeCAD_SketchArch) to let users to select the edges interactively. 'Toponaming-Tolerant' if ArchSketch is used in Base (and SketchArch Add-on is installed). Warning: Not 'Toponaming-Tolerant' if just Sketch is used. Property is ignored if Base ArchSketch provided the selected edges.
 - Data**Width**: The width of the wall. Ignored if the wall is based on a face or a solid. See also **Override Width**.
 
 ## Scripting

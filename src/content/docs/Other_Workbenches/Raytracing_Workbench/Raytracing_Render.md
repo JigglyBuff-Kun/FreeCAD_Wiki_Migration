@@ -24,7 +24,7 @@ Renders the selected raytracing project using an external renderer.
 ## Usage
 
 1. Select raytracing project in the [tree view](/Tree_view "Tree view").
-2. Click on ![](/src/assets/images/Raytracing_Render.svg) or choose Raytracing → ![](/src/assets/images/Raytracing_Render.svg) Render from the top menu.
+2. Click on ![](/images/Raytracing_Render.svg) or choose Raytracing → ![](/images/Raytracing_Render.svg) Render from the top menu.
 
 ## Limitations
 

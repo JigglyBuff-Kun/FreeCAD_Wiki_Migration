@@ -21,13 +21,13 @@ title: WebTools Sketchfab
 
 This tool allows you to export and upload objects to your [SketchFab](http://www.sketchfab.com) account. [introduced in 0.17](/Release_notes_0.17 "Release notes 0.17")
 
-![](/src/assets/images/Sketchfab_exporter.jpg)
+![](/images/Sketchfab_exporter.jpg)
 
 ## Usage
 
 1. Make yourself an account on [SketchFab](http://www.sketchfab.com) if you don't have one yet. Free accounts are just fine, paid accounts add more features like the possibility to have private models and bigger maximum upload sizes
 2. Prepare a model you wish to upload
-3. Click on ![](/src/assets/images/WebTools_Sketchfab.svg) from the main toolbar in the [WebTools Workbench](/WebTools_Workbench "WebTools Workbench")
+3. Click on ![](/images/WebTools_Sketchfab.svg) from the main toolbar in the [WebTools Workbench](/WebTools_Workbench "WebTools Workbench")
 4. Fill in the fields. Name and API key are mandatory
 5. Click the "Upload" button
 

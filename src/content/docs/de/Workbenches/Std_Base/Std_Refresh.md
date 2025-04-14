@@ -24,13 +24,13 @@ Der Befehl **Std Aktualisieren** berechnet das aktuelle Dokument neu. Der Befehl
 ## Anwendung
 
 1. Es gibt mehrere Möglichkeiten den Befehl aufzurufen:
-   - Die Schaltfläche ![](/src/assets/images/Std_Refresh.svg) Aktualisieren drücken.
-   - Den Menüeintrag **Bearbeiten → ![](/src/assets/images/Std_Refresh.svg) Aktualisieren** auswählen.
+   - Die Schaltfläche ![](/images/Std_Refresh.svg) Aktualisieren drücken.
+   - Den Menüeintrag **Bearbeiten → ![](/images/Std_Refresh.svg) Aktualisieren** auswählen.
    - Das Tastaturkürzel F5.
 
 ## Optionen
 
-- Um eine Neuberechnung zu erzwingen, wählt man das Dokument oder ein bzw. mehrere Objekte in der [Baumansicht](/Tree_view/de "Tree view/de") aus, markiert den Menüeintrag **![](/src/assets/images/Std_MarkToRecompute.svg) Markieren, um neu zu berechnen** im Kontextmenü, und ruft den Befehl auf.
+- Um eine Neuberechnung zu erzwingen, wählt man das Dokument oder ein bzw. mehrere Objekte in der [Baumansicht](/Tree_view/de "Tree view/de") aus, markiert den Menüeintrag **![](/images/Std_MarkToRecompute.svg) Markieren, um neu zu berechnen** im Kontextmenü, und ruft den Befehl auf.
 - Für Objekte, aber nicht für Dokumente, kann man auch **Objekt neu berechnen** aus demselben Kontextmenü auswähen.
 
 ## Hinweise

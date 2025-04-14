@@ -23,14 +23,14 @@ This documentation is not finished. Please help and contribute documentation.Gui
 
 ## Description
 
-The ![](/src/assets/images/Part_Offset.svg) **Part Offset** tool creates parallel copies of a selected shape at a certain distance from the base shape, giving a new object.
+The ![](/images/Part_Offset.svg) **Part Offset** tool creates parallel copies of a selected shape at a certain distance from the base shape, giving a new object.
 
-![](/src/assets/images/PartOffset0.png) → ![](/src/assets/images/PartOffset1.png)
+![](/images/PartOffset0.png) → ![](/images/PartOffset1.png)
 
 ## Usage
 
 1. Select an object to offset.
-2. Press the ![](/src/assets/images/Part_Offset.svg) [3D Offset](/Part_Offset "Part Offset") button.
+2. Press the ![](/images/Part_Offset.svg) [3D Offset](/Part_Offset "Part Offset") button.
 3. Adjust distance and parameters depending on the original object and the resulting objects validity.
 
 ## Notes
@@ -39,27 +39,27 @@ The ![](/src/assets/images/Part_Offset.svg) **Part Offset** tool creates paralle
 
 ## Examples
 
-![](/src/assets/images/PartOffset0.png) → ![](/src/assets/images/PartOffset1.png)
+![](/images/PartOffset0.png) → ![](/images/PartOffset1.png)
 
 Object with small offset and rounded (arc) corners.
 
-![](/src/assets/images/PartOffset3.png)
+![](/images/PartOffset3.png)
 
 Same object with sharp (intersection) corners.
 
-![](/src/assets/images/PartOffset2.png)
+![](/images/PartOffset2.png)
 
 Same object with thick distance overfilling the front left gap and allowed intersections.
 
-![](/src/assets/images/PartOffset4.png)
+![](/images/PartOffset4.png)
 
 Arbitrary shape ([Draft Wire](/Draft_Wire "Draft Wire")) with a 3D Offset (ignores MODE parameter).
 
-![](/src/assets/images/PartOffset5.png)
+![](/images/PartOffset5.png)
 
 Same shape with a 3D Offset as SKIN and _filled_ offset.
 
-![](/src/assets/images/PartOffset6.png)
+![](/images/PartOffset6.png)
 
 _filled_ offset with 2 Cylinders creating boolean cuts. Cylinder A goes through the FILL whilst Cylinder B only goes through the FILL and NOT through the source 2D shape.
 

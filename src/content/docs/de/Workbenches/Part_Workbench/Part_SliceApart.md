@@ -20,11 +20,11 @@ title: Part Auseinanderschneiden
 ## Beschreibung
 
 Werkzeug zum zerteilen von Formen durch Überschneiden mit anderen Formen. Beispielsweise werden aus einem Quader und einer Ebene zwei Volumenkörper erzeugt.
-![](/src/assets/images/Part_Slice_Demo.png)
+![](/images/Part_Slice_Demo.png)
 
 Oben: Die Stücke wurden anschließend manuell auseinandergeschoben, um das Zerschneiden sichtbar zu machen.
 
-Auseinanderschneiden ist dasselbe wie ![](/src/assets/images/Part_Slice.svg) [Zerschneiden](/Part_Slice/de "Part Slice/de"), gefolgt von ![](/src/assets/images/Part_ExplodeCompound.svg) [Verbund sprengen](/Part_ExplodeCompound/de "Part ExplodeCompound/de"). Während "Zerschneiden" vollparametrisch ist und keine Probleme verursacht, wenn sich die Anzahl der Teile ändert, aktualisiert "Auseinanderschneiden" die Anzahl der Objekte nicht, wenn sich die Anzahl der Teile ändert.
+Auseinanderschneiden ist dasselbe wie ![](/images/Part_Slice.svg) [Zerschneiden](/Part_Slice/de "Part Slice/de"), gefolgt von ![](/images/Part_ExplodeCompound.svg) [Verbund sprengen](/Part_ExplodeCompound/de "Part ExplodeCompound/de"). Während "Zerschneiden" vollparametrisch ist und keine Probleme verursacht, wenn sich die Anzahl der Teile ändert, aktualisiert "Auseinanderschneiden" die Anzahl der Objekte nicht, wenn sich die Anzahl der Teile ändert.
 Beide erzeugen ein parametrisches Scheiben Formelement, das die geschnittenen Teile in einen Verbund bringt, aber "Auseinander Schneiden" sprengt den resultierenden Verbund in separate Objekte.
 
 Die Ausgabeform nimmt den gleichen Platz ein wie das Original. Sie wird jedoch dort wo andere Formen überschnitten werden, zerteilt. Die zerteilten Teile sind einzelne Stücke.
@@ -37,7 +37,7 @@ Der Befehl Auseinanderschneiden erzeugt mehr als nur das geschnittene Objekt. Im
 
 Die Scheibe wird erstellt und für jedes Stück davon wird ein [Part VerbundFilter](/Part_CompoundFilter/de "Part CompoundFilter/de") erstellt, so dass dieselbe Scheibe mehrfach unter jedem VerbundFilter auftritt. Alle diese VerbundFilter sind in einem Verbund zusammengefasst.
 
-![](/src/assets/images/Part_SliceApartTree.png)
+![](/images/Part_SliceApartTree.png)
 
 ## Beispiel
 

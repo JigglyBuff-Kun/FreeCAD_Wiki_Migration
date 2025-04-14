@@ -21,7 +21,7 @@ title: Reinforcement ColumnRebars
 
 The [Reinforcement ColumnRebars](/Reinforcement_ColumnRebars "Reinforcement ColumnRebars") tool allows the user to create reinforcing bars inside a Column [Arch Structure](/Arch_Structure "Arch Structure") object.
 
-This tool is part of the [Reinforcement Workbench](/Reinforcement_Workbench "Reinforcement Workbench"), an [external workbench](/External_workbenches "External workbenches") that can be installed with the ![](/src/assets/images/Std_AddonMgr.svg) [Addon Manager](/Std_AddonMgr "Std AddonMgr").
+This tool is part of the [Reinforcement Workbench](/Reinforcement_Workbench "Reinforcement Workbench"), an [external workbench](/External_workbenches "External workbenches") that can be installed with the ![](/images/Std_AddonMgr.svg) [Addon Manager](/Std_AddonMgr "Std AddonMgr").
 
 Three usage examples are available:
 
@@ -29,19 +29,19 @@ Three usage examples are available:
 - [Two ties six rebars rectangular column](/Reinforcement_ColumnRebars_TwoTiesSixRebars "Reinforcement ColumnRebars TwoTiesSixRebars")
 - [Circular column](/Reinforcement_ColumnRebars_Circular "Reinforcement ColumnRebars Circular")
 
-![](/src/assets/images/Arch_Rebar_ColumnReinforcement_example.png)
+![](/images/Arch_Rebar_ColumnReinforcement_example.png)
 
 Single tie reinforcement inside a [column](/Arch_Structure "Arch Structure")
 
 ## Usage
 
-1. Select any face of a previously created ![](/src/assets/images/Arch_Structure.svg) [Arch Structure](/Arch_Structure "Arch Structure") object.
+1. Select any face of a previously created ![](/images/Arch_Structure.svg) [Arch Structure](/Arch_Structure "Arch Structure") object.
 
-2. Then select ![](/src/assets/images/Reinforcement_ColumnRebars.svg) [Column Reinforcement](/Reinforcement_ColumnRebars "Reinforcement ColumnRebars") from the rebar tools.
+2. Then select ![](/images/Reinforcement_ColumnRebars.svg) [Column Reinforcement](/Reinforcement_ColumnRebars "Reinforcement ColumnRebars") from the rebar tools.
 
 3. A dialog box will pop-out on screen as shown below.
 
-: ![](/src/assets/images/ColumnReinforcementDialog_Ties.png)
+: ![](/images/ColumnReinforcementDialog_Ties.png)
 : Dialog Box for the Arch Rebar ColumnReinforcement tool
 
 4. Select the desired type of column reinforcement.
@@ -50,21 +50,21 @@ Single tie reinforcement inside a [column](/Arch_Structure "Arch Structure")
 
 6. Click Next and the dialog box will be updated as shown below.
 
-: ![](/src/assets/images/ColumnReinforcementDialog_MainRebars.png)
+: ![](/images/ColumnReinforcementDialog_MainRebars.png)
 : Dialog Box for Main Rebars data
 
 7. Select desired rebar type and fill data for main rebars.
 
 8. Click Next and the dialog box will be updated as shown below.
 
-: ![](/src/assets/images/ColumnReinforcementDialog_XDirRebars.png)
+: ![](/images/ColumnReinforcementDialog_XDirRebars.png)
 : Dialog Box for XDirection Rebars data
 
 9. Select desired rebar type and fill data for xdirection rebars.
 
 10. Click Next and the dialog box will be updated as shown below.
 
-: ![](/src/assets/images/ColumnReinforcementDialog_YDirRebars.png)
+: ![](/images/ColumnReinforcementDialog_YDirRebars.png)
 : Dialog Box for YDirection Rebars data
 
 11. Select desired rebar type and fill data for ydirection rebars.

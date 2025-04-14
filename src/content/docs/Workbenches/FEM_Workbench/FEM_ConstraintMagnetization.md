@@ -28,8 +28,8 @@ Creates a FEM boundary condition for the magnetization. To be used together with
 ## Usage
 
 1. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/FEM_ConstraintMagnetization.svg) [Magnetization boundary condition](/FEM_ConstraintMagnetization "FEM ConstraintMagnetization") button.
-   - Select the **Model → Electromagnetic boundary conditions → ![](/src/assets/images/FEM_ConstraintMagnetization.svg) Magnetization boundary condition** option from the menu.
+   - Press the ![](/images/FEM_ConstraintMagnetization.svg) [Magnetization boundary condition](/FEM_ConstraintMagnetization "FEM ConstraintMagnetization") button.
+   - Select the **Model → Electromagnetic boundary conditions → ![](/images/FEM_ConstraintMagnetization.svg) Magnetization boundary condition** option from the menu.
 2. Press the Add button.
 3. In the [3D view](/3D_view "3D view") select the object the boundary condition should be applied to.
 
@@ -37,7 +37,7 @@ Creates a FEM boundary condition for the magnetization. To be used together with
 
 The dialog offers the following settings:
 
-![](/src/assets/images/FEM_Magnetization_dialog.png)
+![](/images/FEM_Magnetization_dialog.png)
 
 - **Magnetization\_\*\_1**: The real/imaginary part of the magnetization in x-direction in A/m.  
    For other coordinate systems than Cartesian 3D, this will be the first coordinate of the system instead of x.

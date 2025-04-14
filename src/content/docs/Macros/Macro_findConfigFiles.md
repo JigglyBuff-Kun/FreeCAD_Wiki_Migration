@@ -41,7 +41,7 @@ Note: The macro does not rename the files or make any changes to your settings. 
 
 ## Script
 
-ToolBar icon ![](/src/assets/images/Macro_findConfigFiles.png)
+ToolBar icon ![](/images/Macro_findConfigFiles.png)
 
 **Macro_findConfigFiles.FCMacro**
 

@@ -19,17 +19,17 @@ title: Part Kugel
 
 ## Beschreibung
 
-Der Befehl ![](/src/assets/images/Part_Sphere.svg) **Part Kugel** erstellt einen parametrischen Volumenkörper, eine Kugel. Sie ist das Ergebnis der Drehung eines Kreisbogens um eine Achse. Im Koordinatensystem durch ihre Daten-Eigenschaft**Placement** festgelegt, liegt ihr Mittelpunkt im Ursprung und Ihre Drehachse ist die Z-Achse.
+Der Befehl ![](/images/Part_Sphere.svg) **Part Kugel** erstellt einen parametrischen Volumenkörper, eine Kugel. Sie ist das Ergebnis der Drehung eines Kreisbogens um eine Achse. Im Koordinatensystem durch ihre Daten-Eigenschaft**Placement** festgelegt, liegt ihr Mittelpunkt im Ursprung und Ihre Drehachse ist die Z-Achse.
 
 Eine Part-Kugel kann oben und/oder unten beschnitten werden, indem man die Daten-Eigenschaft**Angle1** und die Daten-Eigenschaft**Angle2** ändert (die Winkel vom Äquator in Richtung der Pole). Sie kann in ein Kugelsegment gewandelt werden, durch Änderung der Daten-Eigenschaft**Angle3** (Umfangswinkel).
 
-![](/src/assets/images/Part_Sphere_Example.png)
+![](/images/Part_Sphere_Example.png)
 
 ## Anwendung
 
 1. Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
-   - Die Schaltfläche ![](/src/assets/images/Part_Sphere.svg) [Kugel](/Part_Sphere "Part Sphere") drücken.
-   - Den Menüeintrag **Part → Grundkörper → ![](/src/assets/images/Part_Sphere.svg) Kugel** auswählen.
+   - Die Schaltfläche ![](/images/Part_Sphere.svg) [Kugel](/Part_Sphere "Part Sphere") drücken.
+   - Den Menüeintrag **Part → Grundkörper → ![](/images/Part_Sphere.svg) Kugel** auswählen.
 2. Die Kugel wird erstellt.
 3. Wahlweise die Abmaße und die Daten-Eigenschaft**Placement** der Kugel ändern durch eine der folgenden Möglichkeiten:
    - Doppelklick auf das Objekt in der [Baumansicht](/Tree_view/de "Tree view/de"):
@@ -38,11 +38,11 @@ Eine Part-Kugel kann oben und/oder unten beschnitten werden, indem man die Daten
      3. Das Objekt wird in der [3D-Ansicht](/3D_view/de "3D view/de") dynamisch aktualisiert.
      4. Die Schaltfläche OK drücken.
    - Die Eigenschaften im [Eigenschafteneditor](/Property_editor/de "Property editor/de") anpassen.
-   - Die Daten-Eigenschaft**Placement** mit dem Befehl ![](/src/assets/images/Std_TransformManip.svg) [Std Bewegen](/Std_TransformManip/de "Std TransformManip/de") ändern.
+   - Die Daten-Eigenschaft**Placement** mit dem Befehl ![](/images/Std_TransformManip.svg) [Std Bewegen](/Std_TransformManip/de "Std TransformManip/de") ändern.
 
 ## Beispiel
 
-![](/src/assets/images/Part_Sphere_Scripting_Example.png)
+![](/images/Part_Sphere_Scripting_Example.png)
 
 Part-Kugel aus dem Skriptbeispiel
 
@@ -50,7 +50,7 @@ Ein Part-Kugel-Objekt, das mit dem [Skriptbeispiel](#Skripten) weiter unten erze
 
 ## Hinweise
 
-- Eine Part Kugel kann auch mit dem Befehl ![](/src/assets/images/Part_Primitives.svg) [Part Grundkörper](/Part_Primitives/de "Part Primitives/de") erstellt werden. Mit dem Befehl können die Abmaße und die Positionierung zum Zeitpunkt der Erstellung festgelegt werden.
+- Eine Part Kugel kann auch mit dem Befehl ![](/images/Part_Primitives.svg) [Part Grundkörper](/Part_Primitives/de "Part Primitives/de") erstellt werden. Mit dem Befehl können die Abmaße und die Positionierung zum Zeitpunkt der Erstellung festgelegt werden.
 
 ## Eigenschaften
 

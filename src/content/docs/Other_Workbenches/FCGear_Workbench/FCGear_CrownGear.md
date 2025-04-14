@@ -28,16 +28,16 @@ Known field of application of crown gears:
 - Angular milling heads
 - Powered tool systems with multiple pinions and a crown gear
 
-![](/src/assets/images/Crown-Gear_example.png)
+![](/images/Crown-Gear_example.png)
 
 Above: Crown gear
 
 ## Usage
 
-1. Switch to the ![](/src/assets/images/FCGear_workbench_icon.svg) [FCGear Workbench](/FCGear_Workbench "FCGear Workbench").
+1. Switch to the ![](/images/FCGear_workbench_icon.svg) [FCGear Workbench](/FCGear_Workbench "FCGear Workbench").
 2. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/FCGear_CrownGear.svg) [Crown Gear](/FCGear_CrownGear "FCGear CrownGear") button in the toolbar.
-   - Select the **Gear → ![](/src/assets/images/FCGear_CrownGear.svg) Crown Gear** option from the menu.
+   - Press the ![](/images/FCGear_CrownGear.svg) [Crown Gear](/FCGear_CrownGear "FCGear CrownGear") button in the toolbar.
+   - Select the **Gear → ![](/images/FCGear_CrownGear.svg) Crown Gear** option from the menu.
 3. The crown gear is displayed without teeth by default. ([introduced in 0.21](/Release_notes_0.21 "Release notes 0.21"))
 4. Change the gear parameters to the required conditions (see [Properties](#Properties)).
 5. Set the Data**preview_mode** property to `false` to display the teeth (see [Notes](#Notes)).
@@ -84,7 +84,7 @@ version
 
 ## Crown and spur gear set overview
 
-![](/src/assets/images/Crown-spur-gear-set_example.png)
+![](/images/Crown-spur-gear-set_example.png)
 
 - (1) Spur gear
 - (2) Crown gear

@@ -27,8 +27,8 @@ See [TechDraw LengthDimension](/TechDraw_LengthDimension#Limitation "TechDraw Le
 
 1. Select the dimension to be corrected and, optionally, the new geometry references, points or edges, in the TechDraw View or in the [3D view](/3D_view "3D view").
 2. There are several ways to invoke the tool:
-   - Press the ![](/src/assets/images/TechDraw_DimensionRepair.svg) [Repair Dimension References](/TechDraw_DimensionRepair "TechDraw DimensionRepair") button.
-   - Select the **TechDraw → Dimensions → ![](/src/assets/images/TechDraw_DimensionRepair.svg)Repair Dimension References** option from the menu.
+   - Press the ![](/images/TechDraw_DimensionRepair.svg) [Repair Dimension References](/TechDraw_DimensionRepair "TechDraw DimensionRepair") button.
+   - Select the **TechDraw → Dimensions → ![](/images/TechDraw_DimensionRepair.svg)Repair Dimension References** option from the menu.
 3. The **Dimension Repair** task panel opens showing the selected dimension and the current geometry references.
 4. Select new geometry references if you have not done so already.
 5. Press the Replace References with Current Selection button.

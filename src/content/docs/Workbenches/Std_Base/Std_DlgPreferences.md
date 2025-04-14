@@ -24,7 +24,7 @@ The **Std DlgPreferences** command opens the [Preferences Editor](/Preferences_E
 ## Usage
 
 1. There are several ways to invoke the command:
-   - Select the **Edit → ![](/src/assets/images/Std_DlgPreferences.svg) Preferences...** option from the menu.
+   - Select the **Edit → ![](/images/Std_DlgPreferences.svg) Preferences...** option from the menu.
    - Use the keyboard shortcut: Ctrl+,. [introduced in 1.1](/Release_notes_1.1 "Release notes 1.1")
 
 ## Notes

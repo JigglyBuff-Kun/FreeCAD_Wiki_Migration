@@ -23,7 +23,7 @@ The **Std ViewIvStereoOff** command switches off stereo view mode in the active 
 
 ## Usage
 
-1. Select the **View → Stereo → ![](/src/assets/images/Std_ViewIvStereoOff.svg) Stereo Off** option from the menu.
+1. Select the **View → Stereo → ![](/images/Std_ViewIvStereoOff.svg) Stereo Off** option from the menu.
 
 ## Scripting
 

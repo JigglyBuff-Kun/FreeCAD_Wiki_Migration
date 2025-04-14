@@ -28,8 +28,8 @@ Creates a FEM boundary condition for a fixed geometrical entity by locking all t
 ## Usage
 
 1. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/FEM_ConstraintFixed.svg) [Fixed boundary condition](/FEM_ConstraintFixed "FEM ConstraintFixed") button.
-   - Select the **Model → Mechanical boundary conditions and loads → ![](/src/assets/images/FEM_ConstraintFixed.svg) Fixed boundary condition** option from the menu.
+   - Press the ![](/images/FEM_ConstraintFixed.svg) [Fixed boundary condition](/FEM_ConstraintFixed "FEM ConstraintFixed") button.
+   - Select the **Model → Mechanical boundary conditions and loads → ![](/images/FEM_ConstraintFixed.svg) Fixed boundary condition** option from the menu.
 2. Press the Add button.
 3. In the [3D view](/3D_view "3D view") select the object the boundary condition should be applied to, which can be a vertex, edge, or face (but all objects have to be of the same type). To remove objects from the selection, press the Remove button and click on them.
 

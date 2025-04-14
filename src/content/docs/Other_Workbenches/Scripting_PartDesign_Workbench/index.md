@@ -4,7 +4,7 @@ title: Scripting PartDesign Workbench
 
 ## Introduction
 
-Here we will explain to you how to control the ![](/src/assets/images/Workbench_PartDesign.svg) [PartDesign](/PartDesign_Workbench "PartDesign Workbench") using a script. Be sure to browse the [Scripting](/Scripting "Scripting") section and the [FreeCAD Scripting Basics](/FreeCAD_Scripting_Basics "FreeCAD Scripting Basics") pages if you need more information about how Python scripting works in FreeCAD. If you are new to Python, it is a good idea to first read the [Introduction to Python](/Introduction_to_Python "Introduction to Python").
+Here we will explain to you how to control the ![](/images/Workbench_PartDesign.svg) [PartDesign](/PartDesign_Workbench "PartDesign Workbench") using a script. Be sure to browse the [Scripting](/Scripting "Scripting") section and the [FreeCAD Scripting Basics](/FreeCAD_Scripting_Basics "FreeCAD Scripting Basics") pages if you need more information about how Python scripting works in FreeCAD. If you are new to Python, it is a good idea to first read the [Introduction to Python](/Introduction_to_Python "Introduction to Python").
 
 This code aim to replicate the solid shown in:
 

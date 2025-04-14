@@ -25,7 +25,7 @@ The **Std ActivateNextWindow** command activates the next window in the [Main vi
 
 1. The Main view area must contain at least two windows.
 2. There are several ways to invoke the command:
-   - Select the **Windows → ![](/src/assets/images/Std_ActivateNextWindow.svg) Next** option from the menu.
+   - Select the **Windows → ![](/images/Std_ActivateNextWindow.svg) Next** option from the menu.
    - Use the keyboard shortcut: Ctrl+Tab.
 
 ## Notes

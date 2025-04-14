@@ -19,14 +19,14 @@ title: CAM SelectLoop
 
 ## Description
 
-The ![](/src/assets/images/CAM_SelectLoop.svg) [SelectLoop](/CAM_SelectLoop "CAM SelectLoop") tool completes a selection of edges that form a loop.
+The ![](/images/CAM_SelectLoop.svg) [SelectLoop](/CAM_SelectLoop "CAM SelectLoop") tool completes a selection of edges that form a loop.
 
 ## Usage
 
 1. Select an edge.
 2. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/CAM_SelectLoop.svg) [CAM SelectLoop](/CAM_SelectLoop "CAM SelectLoop") button.
-   - Select the **CAM → ![](/src/assets/images/CAM_SelectLoop.svg) Finish Selecting Loop** option from the menu.
+   - Press the ![](/images/CAM_SelectLoop.svg) [CAM SelectLoop](/CAM_SelectLoop "CAM SelectLoop") button.
+   - Select the **CAM → ![](/images/CAM_SelectLoop.svg) Finish Selecting Loop** option from the menu.
    - Use the keyboard shortcut: P then L.
 3. The remaining edges of the loop are added to the selection.
 

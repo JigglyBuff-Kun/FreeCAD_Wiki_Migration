@@ -19,14 +19,14 @@ title: CAM DressupTag
 
 ## Description
 
-The tool ![](/src/assets/images/CAM_DressupTag.svg) [DressupTag](/CAM_DressupTag "CAM DressupTag") dresses up an existing path (usually a 2D contour cutting path) to leave tags that hold the part in place. Without them a part (which is not fixed to the base) is liable to fly off the machine uncontrollably as the final cut is made. The tags are intended to be broken off by hand (or using a chisel) and then filed flat to finish the part.
+The tool ![](/images/CAM_DressupTag.svg) [DressupTag](/CAM_DressupTag "CAM DressupTag") dresses up an existing path (usually a 2D contour cutting path) to leave tags that hold the part in place. Without them a part (which is not fixed to the base) is liable to fly off the machine uncontrollably as the final cut is made. The tags are intended to be broken off by hand (or using a chisel) and then filed flat to finish the part.
 
 A video explanation of this feature is given at: <https://www.youtube.com/watch?v=JZ4prlR6sps>
 
 ## Usage
 
 1. Select a contour or profile path objects.
-2. Select the **CAM → Path Dressup → ![](/src/assets/images/CAM_DressupTag.svg) Tag** option from the menu.
+2. Select the **CAM → Path Dressup → ![](/images/CAM_DressupTag.svg) Tag** option from the menu.
 
 ## Options
 

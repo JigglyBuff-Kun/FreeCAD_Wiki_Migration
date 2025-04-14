@@ -21,11 +21,11 @@ title: PartDesign AdditiveBox
 
 Inserts a primitive box in the active Body as the first feature, or fuses it to the existing feature(s).
 
-![](/src/assets/images/PartDesign_AdditiveBox_example.png)
+![](/images/PartDesign_AdditiveBox_example.png)
 
 ## Usage
 
-1. Press the ![](/src/assets/images/PartDesign_AdditiveBox.svg) **Additive Box** button. **Note**: the Additive Box is part of an icon menu labelled _Create an additive primitive_. After launching FreeCAD, the Additive Box is the one displayed in the toolbar. If a different primitive is displayed, click on the down arrow besides the icon and select Additive Box in the menu.
+1. Press the ![](/images/PartDesign_AdditiveBox.svg) **Additive Box** button. **Note**: the Additive Box is part of an icon menu labelled _Create an additive primitive_. After launching FreeCAD, the Additive Box is the one displayed in the toolbar. If a different primitive is displayed, click on the down arrow besides the icon and select Additive Box in the menu.
 2. Set the Primitive parameters and [Attachment](/Part_EditAttachment "Part EditAttachment").
 3. Click OK.
 4. A Box feature appears under the active Body.

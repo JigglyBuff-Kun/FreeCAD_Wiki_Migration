@@ -23,9 +23,9 @@ THIS COMMAND IS OBSOLETEIt is not available in1.0 and above. UseDraft Cloneinste
 
 ## Description
 
-The ![](/src/assets/images/Arch_CloneComponent.svg) [Arch Clone Component](/Arch_CloneComponent "Arch CloneComponent") produces ![](/src/assets/images/Arch_Component.svg) [Arch Components](/Arch_Component "Arch Component") that are clones of selected Arch objects.
+The ![](/images/Arch_CloneComponent.svg) [Arch Clone Component](/Arch_CloneComponent "Arch CloneComponent") produces ![](/images/Arch_Component.svg) [Arch Components](/Arch_Component "Arch Component") that are clones of selected Arch objects.
 
-**Unlike** the ![](/src/assets/images/Draft_Clone.svg) [Draft Clone](/Draft_Clone "Draft Clone") tool, which will produce a clone of the same type as the selected object, this tool produces a generic ![](/src/assets/images/Arch_Component.svg) [Arch Component](/Arch_Component "Arch Component") object that can assume any role, not necessarily the role of the cloned object.
+**Unlike** the ![](/images/Draft_Clone.svg) [Draft Clone](/Draft_Clone "Draft Clone") tool, which will produce a clone of the same type as the selected object, this tool produces a generic ![](/images/Arch_Component.svg) [Arch Component](/Arch_Component "Arch Component") object that can assume any role, not necessarily the role of the cloned object.
 
 The clone component will simply have its Data**CloneOf** property set to the selected object.
 

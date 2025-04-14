@@ -32,7 +32,7 @@ Animator makes it very easy to animate your models by animating various properti
 
 Full documentation can be found on github: [Animator](https://github.com/mwganson/animator).
 
-![](/src/assets/images/Animator_scr1.png)
+![](/images/Animator_scr1.png)
 
 Macro Animator screenshot‎
 
@@ -69,13 +69,13 @@ webbrowser.open("https://gist.github.com/mwganson/dace9e8dcfd861500647f9405c6683
 <class="rawcodeurl"><a href="<https://gist.github.com/mwganson/dace9e8dcfd861500647f9405c668358/raw/1ee79040c95862cf416d6fb6e3f7975c1c8a7f74/Animator.FCMacro>">raw code</a>
 
 ToolBar Icon
-![](/src/assets/images/Animator.svg)
+![](/images/Animator.svg)
 
 ## Script
 
 **Macro Animator.FCMacro**
 
-[![](/src/assets/images/Nuvola_apps_download_manager.png)](https://gist.github.com/mwganson/dace9e8dcfd861500647f9405c668358)
+[![](/images/Nuvola_apps_download_manager.png)](https://gist.github.com/mwganson/dace9e8dcfd861500647f9405c668358)
 
 [Animator.FCMacro](https://gist.github.com/mwganson/dace9e8dcfd861500647f9405c668358)
 

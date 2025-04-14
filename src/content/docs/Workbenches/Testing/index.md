@@ -2,7 +2,7 @@
 title: Testing
 ---
 
-![](/src/assets/images/Workbench_Test.svg)
+![](/images/Workbench_Test.svg)
 
 Test workbench icon
 

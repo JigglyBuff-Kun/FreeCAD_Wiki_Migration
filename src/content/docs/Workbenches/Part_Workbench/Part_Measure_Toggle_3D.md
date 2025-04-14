@@ -28,7 +28,7 @@ This command toggles the visibility of linear and angular measurements in the [3
 ## Usage
 
 1. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/Part_Measure_Toggle_3D.svg) [Toggle 3D](/Part_Measure_Toggle_3D "Part Measure Toggle 3D") button
-   - Select the **Measure → ![](/src/assets/images/Part_Measure_Toggle_3D.svg) Toggle 3D** option from the menu.
+   - Press the ![](/images/Part_Measure_Toggle_3D.svg) [Toggle 3D](/Part_Measure_Toggle_3D "Part Measure Toggle 3D") button
+   - Select the **Measure → ![](/images/Part_Measure_Toggle_3D.svg) Toggle 3D** option from the menu.
 
 Retrieved from "<http://wiki.freecad.org/index.php?title=Part_Measure_Toggle_3D/en&oldid=1458156>"

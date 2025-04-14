@@ -28,7 +28,7 @@ title: Draft Circle Tangent
 
 ## Description
 
-![](/src/assets/images/Macro_Draft_circle_tangent_example.png)
+![](/images/Macro_Draft_circle_tangent_example.png)
 
 Macro Draft Circle Tangent
 

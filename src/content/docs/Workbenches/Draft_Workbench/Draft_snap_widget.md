@@ -4,9 +4,9 @@ title: Draft snap widget
 
 ## Description
 
-The **Draft snap widget** is an alternative for the Draft snap toolbar. The widget is only available in the ![](/src/assets/images/Workbench_Draft.svg) [Draft Workbench](/Draft_Workbench "Draft Workbench"). It is an [optional](#Preferences) GUI element that is located in the [Status bar](/Status_bar "Status bar").
+The **Draft snap widget** is an alternative for the Draft snap toolbar. The widget is only available in the ![](/images/Workbench_Draft.svg) [Draft Workbench](/Draft_Workbench "Draft Workbench"). It is an [optional](#Preferences) GUI element that is located in the [Status bar](/Status_bar "Status bar").
 
-![](/src/assets/images/Draft_snap_widget_button.png)
+![](/images/Draft_snap_widget_button.png)
 
 The Draft snap widget
 
@@ -14,7 +14,7 @@ The Draft snap widget
 
 See [Draft Snap](/Draft_Snap "Draft Snap").
 
-![](/src/assets/images/Draft_snap_widget_menu.png)
+![](/images/Draft_snap_widget_menu.png)
 
 The menu of the widget
 

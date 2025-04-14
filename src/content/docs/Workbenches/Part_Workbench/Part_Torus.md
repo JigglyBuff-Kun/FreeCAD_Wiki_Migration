@@ -19,17 +19,17 @@ title: Part Torus
 
 ## Description
 
-The ![](/src/assets/images/Part_Torus.svg) **Part Torus** command creates a parametric torus solid, a doughnut shape. It is the result of sweeping a circular profile around a circular path. In the coordinate system defined by its Data**Placement** property, the circular path of the torus lies on the XY plane with its center at the origin.
+The ![](/images/Part_Torus.svg) **Part Torus** command creates a parametric torus solid, a doughnut shape. It is the result of sweeping a circular profile around a circular path. In the coordinate system defined by its Data**Placement** property, the circular path of the torus lies on the XY plane with its center at the origin.
 
 A Part Torus can be turned into a segment of a torus by changing its Data**Angle3** property. By changing its Data**Angle1** and/or Data**Angle2** properties the swept profile can become a segment of a circle.
 
-![](/src/assets/images/Part_Torus_Example.png)
+![](/images/Part_Torus_Example.png)
 
 ## Usage
 
 1. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/Part_Torus.svg) [Torus](/Part_Torus "Part Torus") button.
-   - Select the **Part → Primitives → ![](/src/assets/images/Part_Torus.svg) Torus** option from the menu.
+   - Press the ![](/images/Part_Torus.svg) [Torus](/Part_Torus "Part Torus") button.
+   - Select the **Part → Primitives → ![](/images/Part_Torus.svg) Torus** option from the menu.
 2. The torus is created.
 3. Optionally change the dimensions and Data**Placement** of the torus by doing one of the following:
    - Double-click the object in the [Tree view](/Tree_view "Tree view"):
@@ -38,11 +38,11 @@ A Part Torus can be turned into a segment of a torus by changing its Data**Angle
      3. The object is dynamically updated in the [3D view](/3D_view "3D view").
      4. Press the OK button.
    - Change the properties in the [Property editor](/Property_editor "Property editor").
-   - Change the Data**Placement** with the ![](/src/assets/images/Std_TransformManip.svg) [Std TransformManip](/Std_TransformManip "Std TransformManip") command.
+   - Change the Data**Placement** with the ![](/images/Std_TransformManip.svg) [Std TransformManip](/Std_TransformManip "Std TransformManip") command.
 
 ## Example
 
-![](/src/assets/images/Part_Torus_Scripting_Example.png)
+![](/images/Part_Torus_Scripting_Example.png)
 
 Part Torus from the scripting example
 
@@ -50,7 +50,7 @@ A Part Torus object created with the [scripting example](#Scripting) below is sh
 
 ## Notes
 
-- A Part Torus can also be created with the ![](/src/assets/images/Part_Primitives.svg) [Part Primitives](/Part_Primitives "Part Primitives") command. With that command you can specify the dimensions and placement at creation time.
+- A Part Torus can also be created with the ![](/images/Part_Primitives.svg) [Part Primitives](/Part_Primitives "Part Primitives") command. With that command you can specify the dimensions and placement at creation time.
 
 ## Properties
 

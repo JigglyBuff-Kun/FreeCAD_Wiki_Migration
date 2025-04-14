@@ -19,9 +19,9 @@ title: Part Plane
 
 ## Description
 
-A ![](/src/assets/images/Part_Plane.svg) **Part Plane** is a parametric rectangular plane that can be created with the ![](/src/assets/images/Part_Primitives.svg) [Part Primitives](/Part_Primitives "Part Primitives") command. In the coordinate system defined by its Data**Placement** property, the plane lies on the XY plane with its front left corner at the origin, and its front edge parallel to the X axis.
+A ![](/images/Part_Plane.svg) **Part Plane** is a parametric rectangular plane that can be created with the ![](/images/Part_Primitives.svg) [Part Primitives](/Part_Primitives "Part Primitives") command. In the coordinate system defined by its Data**Placement** property, the plane lies on the XY plane with its front left corner at the origin, and its front edge parallel to the X axis.
 
-![](/src/assets/images/Part_Plane_Example.png)
+![](/images/Part_Plane_Example.png)
 
 ## Usage
 
@@ -29,7 +29,7 @@ See [Part Primitives](/Part_Primitives#Usage "Part Primitives").
 
 ## Example
 
-![](/src/assets/images/Part_Plane_Scripting_Example.png)
+![](/images/Part_Plane_Scripting_Example.png)
 
 Part Plane from the scripting example
 

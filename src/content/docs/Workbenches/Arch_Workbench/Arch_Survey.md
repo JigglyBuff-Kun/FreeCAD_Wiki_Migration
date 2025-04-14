@@ -38,13 +38,13 @@ When such a piece of information is gathered, several things happen:
 - The total length or area of the elements you clicked so far is also printed in the output window
 - Each length or area is also recorded in the task dialog
 
-![](/src/assets/images/Arch_Survey_example.jpg)
+![](/images/Arch_Survey_example.jpg)
 
 _The above image shows what happens when running the survey mode._
 
 ## Usage
 
-1. Select the **Utils → ![](/src/assets/images/Arch_Survey.svg) Survey** option from the menu.
+1. Select the **Utils → ![](/images/Arch_Survey.svg) Survey** option from the menu.
 2. Click on vertices, edges, faces or double-click to select whole objects.
 3. Click outside any geometry (on the background of the 3D view) to remove existing labels, print a total line in the Task dialog, and restart counting lengths and areas from zero.
 4. Press Esc or the Close button to exit survey mode and remove all the labels.
@@ -54,7 +54,7 @@ _The above image shows what happens when running the survey mode._
 - You can add a custom label to any line in the Task dialog by clicking that line, then adding a text in the description field, then press the **set description** button.
 - Once you are done, before closing, you can export the contents of the Task dialog by pressing the "export CSV" button. The resulting CSV file can then be opened in any spreadsheet application such as Excel or LibreOffice Calc. The values and units will be separated in the resulting CSV file, and the totals are written as SUM() functions.
 
-![](/src/assets/images/Arch_Survey_spreadsheet.jpg)
+![](/images/Arch_Survey_spreadsheet.jpg)
 
 ## Scripting
 

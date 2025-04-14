@@ -19,16 +19,16 @@ title: Sketcher BSplineGrad
 
 ## Beschreibung
 
-Das Werkzeug ![](/src/assets/images/Sketcher_BSplineDegree.svg) B-Spline-Grad ein- / ausblenden blendet den Grad der B-Splines in allen Skizzen ein bzw. aus.
+Das Werkzeug ![](/images/Sketcher_BSplineDegree.svg) B-Spline-Grad ein- / ausblenden blendet den Grad der B-Splines in allen Skizzen ein bzw. aus.
 
-![](/src/assets/images/Sketcher_B-spline_example01.png)
+![](/images/Sketcher_B-spline_example01.png)
 
 Die Zahl 3 (grün, ohne Klammern) in der Mitte repräsentiert den [Grad](/Sketcher_BSplineIncreaseDegree/de "Sketcher BSplineIncreaseDegree/de") des B-Splines.
 
 ## Anwendung
 
 1. Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
-   - Die Schaltfläche ![](/src/assets/images/Sketcher_BSplineDegree.svg) B-Spline-Grad ein- / ausblenden drücken.
-   - Den Menüeintrag **Skizze → Sketcher visuell → B-Spline Informationsebene ein- / ausblenden → ![](/src/assets/images/Sketcher_BSplineDegree.svg) B-Spline-Grad ein- / ausblenden** auswählen.
+   - Die Schaltfläche ![](/images/Sketcher_BSplineDegree.svg) B-Spline-Grad ein- / ausblenden drücken.
+   - Den Menüeintrag **Skizze → Sketcher visuell → B-Spline Informationsebene ein- / ausblenden → ![](/images/Sketcher_BSplineDegree.svg) B-Spline-Grad ein- / ausblenden** auswählen.
 
 Retrieved from "<http://wiki.freecad.org/index.php?title=Sketcher_BSplineDegree/de&oldid=1417050>"

@@ -30,7 +30,7 @@ title: Texture Objects
 
 Dieses Makro ermöglicht eine Texturabbildung auf ausgewählte Objekte zu legen. Zum Entfernen der Texturen einfach das Dokument schließen und erneut öffnen.
 
-![](/src/assets/images/Textured_objects.jpg)
+![](/images/Textured_objects.jpg)
 
 ## Skript
 

@@ -14,7 +14,7 @@ Here we will explain to you how to control the [Part](/Part_Workbench "Part Work
 ## Class diagram
 
 This is a [Unified Modeling Language (UML)](http://en.wikipedia.org/wiki/Unified_Modeling_Language) overview of the most important classes of the Part module:
-![Python classes of the Part module](/src/assets/images/Part_Classes.jpg)
+![Python classes of the Part module](/images/Part_Classes.jpg)
 
 [Top](#top)
 
@@ -47,7 +47,7 @@ The following topological data types are available:
 
 ## Example: Create simple topology
 
-![Wire](/src/assets/images/Wire.png)
+![Wire](/images/Wire.png)
 
 We will now create a topology by constructing it out of simpler geometry. As a case study we will use a part as seen in the picture which consists of four vertices, two arcs and two lines.
 
@@ -73,7 +73,7 @@ V4 = App.Vector(0, -10, 0)
 
 ### Arc
 
-![Circle](/src/assets/images/Circel.png)
+![Circle](/images/Circel.png)
 
 For each arc we need a helper point:
 
@@ -89,7 +89,7 @@ C2 = Part.Arc(V2, VC2, V3)
 
 ### Line
 
-![Line](/src/assets/images/Line.png)
+![Line](/images/Line.png)
 
 The line segments can be created from two points:
 

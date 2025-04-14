@@ -29,9 +29,9 @@ Dieses Werkzeug kann verwendet werden, um im Sketcher eine ausgewählte Kontur z
 
 1. Während der Bearbeitung einer Skizze, wähle mehrere nicht verbundene Skizziererelemente in der [Baumansicht](/Tree_view/de "Tree view/de") oder in der [3D-Ansicht](/3D_view/de "3D view/de").
 2. Der Befehl kann auf verschiedene Weise aufgerufen werden:
-   - Drücke die ![](/src/assets/images/Sketcher_CloseShape.svg) Form schließen Schaltfläche
+   - Drücke die ![](/images/Sketcher_CloseShape.svg) Form schließen Schaltfläche
    - Verwende die Z dann W Tastenkürzel.
-   - Verwende den Eintrag **Skizzierer→ Skizzierwerkzeuge → ![](/src/assets/images/Sketcher_CloseShape.svg) Form schließen** aus dem oberen Menü.
+   - Verwende den Eintrag **Skizzierer→ Skizzierwerkzeuge → ![](/images/Sketcher_CloseShape.svg) Form schließen** aus dem oberen Menü.
 
 ## Hinweise
 

@@ -14,13 +14,13 @@ If you'd like to contribute with writing wiki documentation and tutorials, see [
 
 ## Product design
 
-Videos that go through modeling of various solid objects using workbenches such as ![](/src/assets/images/Workbench_Part.svg) [Part](/Part_Workbench "Part Workbench"), ![](/src/assets/images/Workbench_PartDesign.svg) [PartDesign](/PartDesign_Workbench "PartDesign Workbench"), and ![](/src/assets/images/Workbench_Sketcher.svg) [Sketcher](/Sketcher_Workbench "Sketcher Workbench").
+Videos that go through modeling of various solid objects using workbenches such as ![](/images/Workbench_Part.svg) [Part](/Part_Workbench "Part Workbench"), ![](/images/Workbench_PartDesign.svg) [PartDesign](/PartDesign_Workbench "PartDesign Workbench"), and ![](/images/Workbench_Sketcher.svg) [Sketcher](/Sketcher_Workbench "Sketcher Workbench").
 
 Since there are many videos that deal with this topic, please visit [Video tutorials for product design](/Video_tutorials_for_product_design "Video tutorials for product design").
 
 ## Meshes
 
-- [Edit STL Files In FreeCAD](https://www.youtube.com/watch?v=5lwENZeNiNg&feature=youtu.be) by AllVisuals4U. It demonstrates the ![](/src/assets/images/Part_ShapeFromMesh.svg) [Part ShapeFromMesh](/Part_ShapeFromMesh "Part ShapeFromMesh") tool.
+- [Edit STL Files In FreeCAD](https://www.youtube.com/watch?v=5lwENZeNiNg&feature=youtu.be) by AllVisuals4U. It demonstrates the ![](/images/Part_ShapeFromMesh.svg) [Part ShapeFromMesh](/Part_ShapeFromMesh "Part ShapeFromMesh") tool.
 
 ## Assembly
 
@@ -51,13 +51,13 @@ Since there are many videos that deal with this topic, please visit [Video tutor
 
 ## Architectural design
 
-Videos that go through modeling of rooms, houses, office buildings, and similar structures, and drawing floor plans, using workbenches such as ![](/src/assets/images/Workbench_Draft.svg) [Draft](/Draft_Workbench "Draft Workbench") and ![](/src/assets/images/Workbench_BIM.svg) [BIM](/BIM_Workbench "BIM Workbench").
+Videos that go through modeling of rooms, houses, office buildings, and similar structures, and drawing floor plans, using workbenches such as ![](/images/Workbench_Draft.svg) [Draft](/Draft_Workbench "Draft Workbench") and ![](/images/Workbench_BIM.svg) [BIM](/BIM_Workbench "BIM Workbench").
 
 Since there are many videos that deal with this topic, please visit [Video tutorials for architectural design](/Video_tutorials_for_architectural_design "Video tutorials for architectural design").
 
 ## Finite element (FEM) simulation
 
-- [FreeCAD FEM/Civil/Structural/Arch Tutorial-1-An Introduction](https://www.youtube.com/watch?v=wAJe1R5NDGw): FreeCAD 0.16, and introduction that builds a simple structure of pillars and beams, and analyzes them with the ![](/src/assets/images/Workbench_FEM.svg) [FEM Workbench](/FEM_Workbench "FEM Workbench"), by Eklavya Self Learning Tutorials.
+- [FreeCAD FEM/Civil/Structural/Arch Tutorial-1-An Introduction](https://www.youtube.com/watch?v=wAJe1R5NDGw): FreeCAD 0.16, and introduction that builds a simple structure of pillars and beams, and analyzes them with the ![](/images/Workbench_FEM.svg) [FEM Workbench](/FEM_Workbench "FEM Workbench"), by Eklavya Self Learning Tutorials.
 
 - [How To Use FreeCAD FEM](https://www.youtube.com/watch?v=dhrynRdBOIg) [12:15] FreeCAD v0.19, Intro to using the FEM workbench. Very well done, by Joko Engineering
 
@@ -65,7 +65,7 @@ Since there are many videos that deal with this topic, please visit [Video tutor
 
 ## Other
 
-- [Animation Workbench](https://www.youtube.com/watch?v=AQjAa5JxmOg&list=PLIxaznuCUATKzCFbFUFhRwZMJMnYuQ1JB) by microelly: a series of 7 videos that describes the Animation Workbench by its developer. This is one of the [external workbenches](/External_workbenches "External workbenches") that can be installed from the ![](/src/assets/images/Std_AddonMgr.svg) [Addon Manager](/Std_AddonMgr "Std AddonMgr").
+- [Animation Workbench](https://www.youtube.com/watch?v=AQjAa5JxmOg&list=PLIxaznuCUATKzCFbFUFhRwZMJMnYuQ1JB) by microelly: a series of 7 videos that describes the Animation Workbench by its developer. This is one of the [external workbenches](/External_workbenches "External workbenches") that can be installed from the ![](/images/Std_AddonMgr.svg) [Addon Manager](/Std_AddonMgr "Std AddonMgr").
 
 - [FreeCAD Tutorials - GENERAL](https://www.youtube.com/watch?v=WdBQPXeAeMc&list=PLKu--JcOZKTPZjy761ELQ7ba45yZmxOpj) by AllVisuals4U: FreeCAD 0.16, a series of 28 short videos on general aspects of FreeCAD; for example, it shows how to change units, background color, the splash screen, constraints, set perspective view, set transparency, change the size of toolbar icons, prepare for 3D print, and extrude text. Some more advanced instructions include how to do logo design, metal bending, and assembly. Most videos describe FreeCAD 0.16, but since they don't focus on modelling aspects, the information is generally applicable for other versions.
 

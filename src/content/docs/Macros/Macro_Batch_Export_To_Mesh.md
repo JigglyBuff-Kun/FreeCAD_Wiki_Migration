@@ -30,11 +30,11 @@ title: Batch Export To Mesh
 
 This macro helps batch converting to mesh and exporting STL and OBJ files. It adds a GUI for speeding up the conversion and file saving of selected objects.
 
-![Macro Batch Export To Mesh - general](/src/assets/images/Screenshot1.png)
+![Macro Batch Export To Mesh - general](/images/Screenshot1.png)
 
 general
 
-![Macro Batch Export To Mesh - presets](/src/assets/images/Screenshot2.png)
+![Macro Batch Export To Mesh - presets](/images/Screenshot2.png)
 
 presets
 

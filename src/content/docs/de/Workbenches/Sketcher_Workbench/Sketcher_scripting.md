@@ -30,14 +30,14 @@ Es werden der neu erstellten Skizze auch noch drei [Linien](/Topological_data_sc
 ## Erstellen einer Randbedingung mit Python
 
 Die geometrischen Randbedingungen
-![](/src/assets/images/Sketcher_ConstrainCoincident.svg) ![](/src/assets/images/Sketcher_ConstrainPointOnObject.svg) ![](/src/assets/images/Sketcher_ConstrainVertical.svg) ![](/src/assets/images/Sketcher_ConstrainHorizontal.svg) ![](/src/assets/images/Sketcher_ConstrainParallel.svg) ![](/src/assets/images/Sketcher_ConstrainPerpendicular.svg) ![](/src/assets/images/Sketcher_ConstrainTangent.svg) ![](/src/assets/images/Sketcher_ConstrainEqual.svg) ![](/src/assets/images/Sketcher_ConstrainSymmetric.svg) und ![](/src/assets/images/Sketcher_ConstrainBlock.svg) können mit Makros und von der Python-Konsole aus durch Verwendung des folgenden Befehls erstellt werden:
+![](/images/Sketcher_ConstrainCoincident.svg) ![](/images/Sketcher_ConstrainPointOnObject.svg) ![](/images/Sketcher_ConstrainVertical.svg) ![](/images/Sketcher_ConstrainHorizontal.svg) ![](/images/Sketcher_ConstrainParallel.svg) ![](/images/Sketcher_ConstrainPerpendicular.svg) ![](/images/Sketcher_ConstrainTangent.svg) ![](/images/Sketcher_ConstrainEqual.svg) ![](/images/Sketcher_ConstrainSymmetric.svg) und ![](/images/Sketcher_ConstrainBlock.svg) können mit Makros und von der Python-Konsole aus durch Verwendung des folgenden Befehls erstellt werden:
 
 ```
 sketch.addConstraint(Sketcher.Constraint(ConstraintType, EdgeOrPartOfEdge…))
 
 ```
 
-Die maßlichen Randbedingungen ![](/src/assets/images/Sketcher_ConstrainLock.svg) ![](/src/assets/images/Sketcher_ConstrainDistanceX.svg) ![](/src/assets/images/Sketcher_ConstrainDistanceY.svg) ![](/src/assets/images/Sketcher_ConstrainDistance.svg) ![](/src/assets/images/Sketcher_ConstrainRadius.svg) ![](/src/assets/images/Sketcher_ConstrainDiameter.svg) ![](/src/assets/images/Sketcher_ConstrainAngle.svg) und die spezielle Randbedingung ![](/src/assets/images/Sketcher_ConstrainSnellsLaw.svg) [Lichtbrechung (nach Snellius-Gesetz) festlegen](/Sketcher_ConstrainSnellsLaw/de "Sketcher ConstrainSnellsLaw/de") können mit Makros und von der Python-Konsole aus durch Verwendung des folgenden Befehls erstellt werden:
+Die maßlichen Randbedingungen ![](/images/Sketcher_ConstrainLock.svg) ![](/images/Sketcher_ConstrainDistanceX.svg) ![](/images/Sketcher_ConstrainDistanceY.svg) ![](/images/Sketcher_ConstrainDistance.svg) ![](/images/Sketcher_ConstrainRadius.svg) ![](/images/Sketcher_ConstrainDiameter.svg) ![](/images/Sketcher_ConstrainAngle.svg) und die spezielle Randbedingung ![](/images/Sketcher_ConstrainSnellsLaw.svg) [Lichtbrechung (nach Snellius-Gesetz) festlegen](/Sketcher_ConstrainSnellsLaw/de "Sketcher ConstrainSnellsLaw/de") können mit Makros und von der Python-Konsole aus durch Verwendung des folgenden Befehls erstellt werden:
 
 ```
 sketch.addConstraint(Sketcher.Constraint(DimensionalConstraintType, EdgeOrPartOfEdge…, App.Units.Quantity("float_value unit")))
@@ -86,23 +86,23 @@ Bei maßlichen Randbedingungen ist das erste Argument eines der folgenden. Die m
 | `"Angle"`         |        | [Winkel festlegen](/Sketcher_ConstrainAngle/de "Sketcher ConstrainAngle/de")                       |
 | `"AngleViaPoint"` |        | [Winkel festlegen](/Sketcher_ConstrainAngle/de "Sketcher ConstrainAngle/de")                       |
 
-Die Randbedingung ![](/src/assets/images/Sketcher_ConstrainSnellsLaw.svg) [Lichtbrechung (nach Snellius-Gesetz) festlegen](/Sketcher_ConstrainSnellsLaw/de "Sketcher ConstrainSnellsLaw/de") verhält sich im Zusammenhang mit der Skripterstellung wie eine maßliche Randbedingung. Auch hier findet man auf der zugehörigen Referenzseite die möglichen Kombinationen von Argumenten, die für diese Randbedingung zulässig sind.
+Die Randbedingung ![](/images/Sketcher_ConstrainSnellsLaw.svg) [Lichtbrechung (nach Snellius-Gesetz) festlegen](/Sketcher_ConstrainSnellsLaw/de "Sketcher ConstrainSnellsLaw/de") verhält sich im Zusammenhang mit der Skripterstellung wie eine maßliche Randbedingung. Auch hier findet man auf der zugehörigen Referenzseite die möglichen Kombinationen von Argumenten, die für diese Randbedingung zulässig sind.
 
 | Schlüsselwort | Symbol | Funktion                                                                                                           |
 | ------------- | ------ | ------------------------------------------------------------------------------------------------------------------ |
 | `"SnellsLaw"` |        | [Lichtbrechung (nach Snellius-Gesetz) festlegen](/Sketcher_ConstrainSnellsLaw/de "Sketcher ConstrainSnellsLaw/de") |
 
-Die Randbedingung ![](/src/assets/images/Sketcher_ConstrainLock.svg) [Sperren](/Sketcher_ConstrainLock/de "Sketcher ConstrainLock/de") ist ein GUI-Befehl, der die Randbedingungen ![](/src/assets/images/Sketcher_ConstrainDistanceX.svg) [Horizontalen Abstand festlegen](/Sketcher_ConstrainDistanceX/de "Sketcher ConstrainDistanceX/de") und ![](/src/assets/images/Sketcher_ConstrainDistanceY.svg) [Vertikalen Abstand festlegen](/Sketcher_ConstrainDistanceY/de "Sketcher ConstrainDistanceY/de") erstellt; sie ist keine eigenständige Randbedingung.
+Die Randbedingung ![](/images/Sketcher_ConstrainLock.svg) [Sperren](/Sketcher_ConstrainLock/de "Sketcher ConstrainLock/de") ist ein GUI-Befehl, der die Randbedingungen ![](/images/Sketcher_ConstrainDistanceX.svg) [Horizontalen Abstand festlegen](/Sketcher_ConstrainDistanceX/de "Sketcher ConstrainDistanceX/de") und ![](/images/Sketcher_ConstrainDistanceY.svg) [Vertikalen Abstand festlegen](/Sketcher_ConstrainDistanceY/de "Sketcher ConstrainDistanceY/de") erstellt; sie ist keine eigenständige Randbedingung.
 
 ## Identifizierung der Nummerierung einer Linie
 
 Ich habe drei Linien gezeichnet, wie in der folgenden Abbildung dargestellt.
 
-![](/src/assets/images/PartDesignConstraintPointOnPointScriptingFigure1.jpg)
+![](/images/PartDesignConstraintPointOnPointScriptingFigure1.jpg)
 
 Durch bewegen des Mauszeigers über die Linie, lässt sich die Liniennummer unten links im FreeCAD Fenster anzeigen, siehe nächste Abbildung.
 
-![](/src/assets/images/PartDesignConstraintPointOnPointScriptingFigure2.jpg)
+![](/images/PartDesignConstraintPointOnPointScriptingFigure2.jpg)
 
 Leider beginnt die im FreeCAD-Fenster angezeigte Nummerierung bei 1, während die Nummerierung der Linien, die für das Skript verwendet wird, bei 0 beginnt: Das bedeutet, dass jedes Mal eins abgezogen werden muss, wenn man auf eine Linie verweisen möchte.
 
@@ -124,7 +124,7 @@ Um festzulegen, welcher Bestandteile einer Linie von einer Randbedingung betroff
 
 Die mit 1 und 2 gekennzeichneten Knoten sind in der Reihenfolge ihrer Erstellung nummeriert. Um die Reihenfolge ihrer Erstellung herauszufinden (sind viele Linien vorhanden, kann es schwierig werden sich zu erinnern, welcher Knoten zuerst erstellt wurde), musst nur der Mauszeiger über die beiden Knoten einer Linie bewegt werden, siehe folgende Abbildung.
 
-![](/src/assets/images/PartDesignConstraintPointOnPointScriptingFigure3.jpg)
+![](/images/PartDesignConstraintPointOnPointScriptingFigure3.jpg)
 
 Liest man z. B. 4 und 5, bedeutet dies, dass der Knoten mit der niedrigeren Nummer (4 in diesem Beispiel) mit der Nummer 1 (zuerst im Skriptbefehl) und der Knoten mit der höheren Nummer (5 in diesem Beispiel) mit der Nummer 2 im Skriptbefehl referenziert wird.
 
@@ -132,13 +132,13 @@ Liest man z. B. 4 und 5, bedeutet dies, dass der Knoten mit der niedrigeren Numm
 
 Nehmen wir das vorherige Beispiel der drei Linien. Die nachfolgende Abbildung zeigt die Nummerierung der einzelnen Linien und ihrer Knoten gemäß der Konvention für die Skripterstellung.
 
-![](/src/assets/images/PartDesignConstraintPointOnPointScriptingFigure3Bis.jpg)
+![](/images/PartDesignConstraintPointOnPointScriptingFigure3Bis.jpg)
 
 **blauer Text:** Nummerierung der Linie, **schwarzer Text:** Nummerierung der Knoten
 
 Der Befehl `sketch.addConstraint(Sketcher.Constraint("Coincident", 1, 2, 2, 1))` ergibt folgendes Ergebnis:
 
-![](/src/assets/images/PartDesignConstraintPointOnPointScriptingFigure4.jpg)
+![](/images/PartDesignConstraintPointOnPointScriptingFigure4.jpg)
 
 Der gesamte Kode zum Zeichnen der drei Linien und der Anwendung der Randbedingung "Coincident" auf zwei Punkte von zwei Linien sieht ungefähr so aus:
 

@@ -21,21 +21,21 @@ title: Reinforcement BarShapeCutList
 
 The [Reinforcement BarShapeCutList](/Reinforcement_BarShapeCutList "Reinforcement BarShapeCutList") tool allows the user to create the rebar shape cut list of reinforcing bars.
 
-This tool is part of the [Reinforcement Workbench](/Reinforcement_Workbench "Reinforcement Workbench"), an [external workbench](/External_workbenches "External workbenches") that can be installed with the ![](/src/assets/images/Std_AddonMgr.svg) [Addon Manager](/Std_AddonMgr "Std AddonMgr").
+This tool is part of the [Reinforcement Workbench](/Reinforcement_Workbench "Reinforcement Workbench"), an [external workbench](/External_workbenches "External workbenches") that can be installed with the ![](/images/Std_AddonMgr.svg) [Addon Manager](/Std_AddonMgr "Std AddonMgr").
 
-![](/src/assets/images/Reinforcement_Bar_Shape_Cut_List_example.svg)
+![](/images/Reinforcement_Bar_Shape_Cut_List_example.svg)
 
 Rebar Shape Cut List of reinforcing bars
 
 ## Usage
 
-1. Select ![](/src/assets/images/Arch_Rebar.svg) [Arch Rebar](/Arch_Rebar "Arch Rebar") and Rebar2 objects you want to include in Rebar Shape Cut List. Or select ![](/src/assets/images/Arch_Structure.svg) [Arch Structure](/Arch_Structure "Arch Structure") objects to include ![](/src/assets/images/Arch_Rebar.svg) [Arch Rebar](/Arch_Rebar "Arch Rebar") and Rebar2 objects hosted by those into Rebar Shape Cut List. If nothing is selected, then Rebar Shape Cut List will be generated for all ![](/src/assets/images/Arch_Rebar.svg) [Arch Rebar](/Arch_Rebar "Arch Rebar") and Rebar2 objects present in the model.
+1. Select ![](/images/Arch_Rebar.svg) [Arch Rebar](/Arch_Rebar "Arch Rebar") and Rebar2 objects you want to include in Rebar Shape Cut List. Or select ![](/images/Arch_Structure.svg) [Arch Structure](/Arch_Structure "Arch Structure") objects to include ![](/images/Arch_Rebar.svg) [Arch Rebar](/Arch_Rebar "Arch Rebar") and Rebar2 objects hosted by those into Rebar Shape Cut List. If nothing is selected, then Rebar Shape Cut List will be generated for all ![](/images/Arch_Rebar.svg) [Arch Rebar](/Arch_Rebar "Arch Rebar") and Rebar2 objects present in the model.
 
-2. Then select ![](/src/assets/images/Reinforcement_BarShapeCutList.svg) [Rebar Shape Cut List](/Reinforcement_BarShapeCutList "Reinforcement BarShapeCutList") from the rebar tools.
+2. Then select ![](/images/Reinforcement_BarShapeCutList.svg) [Rebar Shape Cut List](/Reinforcement_BarShapeCutList "Reinforcement BarShapeCutList") from the rebar tools.
 
 3. A dialog box will pop-out on the screen as shown below.
 
-: ![](/src/assets/images/Reinforcement_Bar_Shape_Cut_List_Dialog.png)
+: ![](/images/Reinforcement_Bar_Shape_Cut_List_Dialog.png)
 : Dialog Box for the Reinforcement Bar Shape Cut List tool
 
 4. Modify data to suit your requirements.

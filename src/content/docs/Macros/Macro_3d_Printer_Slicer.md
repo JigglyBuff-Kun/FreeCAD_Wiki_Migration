@@ -32,13 +32,13 @@ This code, when run, will export the currently open design to STL file, and open
 
 It is best used by creating a link to the macro on the toolbar, and when your ready to slice the object, just click it and your object, as it appears on the screen in FreeCAD will appear on your slicing software's interface, ready to slice. It will also create an STL file with the same filename as the design file in the same directory as the design file as a backup.
 
-![](/src/assets/images/Macro_3d_Printer_Slicer_00.png)
+![](/images/Macro_3d_Printer_Slicer_00.png)
 
 ## Script
 
 The SLICER variable can be changed to any slicing software of your choosing, just make sure to set it before you try running it or it'll flag an error with the script.
 
-ToolBar Icon ![](/src/assets/images/Macro_3d_Printer_Slicer.png)
+ToolBar Icon ![](/images/Macro_3d_Printer_Slicer.png)
 
 **Macro_3d_Printer_Slicer.py**
 

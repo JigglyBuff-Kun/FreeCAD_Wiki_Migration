@@ -25,10 +25,10 @@ The **Std LinkSelectLinkedFinal** command selects the Data**Linked Object**, the
 
 1. Select a link.
 2. There are several ways to invoke the command:
-   - Select the **View → Link navigation → ![](/src/assets/images/Std_LinkSelectLinkedFinal.svg) Go to the deepest linked object** option from the menu.
-   - Select the **Link actions → ![](/src/assets/images/Std_LinkSelectLinkedFinal.svg) Go to the deepest linked object** option from the [Tree view](/Tree_view "Tree view") context menu.
+   - Select the **View → Link navigation → ![](/images/Std_LinkSelectLinkedFinal.svg) Go to the deepest linked object** option from the menu.
+   - Select the **Link actions → ![](/images/Std_LinkSelectLinkedFinal.svg) Go to the deepest linked object** option from the [Tree view](/Tree_view "Tree view") context menu.
    - Use the keyboard shortcut: S then D.
 3. The deepest linked object is selected. If this object belongs to an external document that document is activated.
-4. Optionally use ![](/src/assets/images/Std_SelBack.svg) [Std SelBack](/Std_SelBack "Std SelBack") to reselect the link.
+4. Optionally use ![](/images/Std_SelBack.svg) [Std SelBack](/Std_SelBack "Std SelBack") to reselect the link.
 
 Retrieved from "<http://wiki.freecad.org/index.php?title=Std_LinkSelectLinkedFinal/en&oldid=1453512>"

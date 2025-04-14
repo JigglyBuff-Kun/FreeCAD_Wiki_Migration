@@ -24,7 +24,7 @@ The **Std DuplicateSelection** command duplicates objects within the active docu
 ## Usage
 
 1. Select one or more objects.
-2. Select the **Edit → ![](/src/assets/images/Std_DuplicateSelection.svg) Duplicate selection** option from the menu.
+2. Select the **Edit → ![](/images/Std_DuplicateSelection.svg) Duplicate selection** option from the menu.
 3. If the objects have dependencies that have not been selected, a dialog box will prompt you to specify which should be included.
 
 ## Notes

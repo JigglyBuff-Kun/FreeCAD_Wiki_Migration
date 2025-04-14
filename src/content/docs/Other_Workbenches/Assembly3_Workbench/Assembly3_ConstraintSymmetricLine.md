@@ -32,13 +32,13 @@ Based on one line element's ICS both other elements' ICSs' origins are positione
 1. Place two objects into an assembly
 2. Select two point elements of one object
 3. Select a straight line element of the other object
-4. Press the ![](/src/assets/images/Assembly_ConstraintSymmetricLine.svg) [Symmetric line](/Assembly3_ConstraintSymmetricLine "Assembly3 ConstraintSymmetricLine") button.
+4. Press the ![](/images/Assembly_ConstraintSymmetricLine.svg) [Symmetric line](/Assembly3_ConstraintSymmetricLine "Assembly3 ConstraintSymmetricLine") button.
 
 Or
 
 1. Place three objects into an assembly
 2. Select one point element of the first two objects
 3. Select a straight line element of the third object
-4. Press the ![](/src/assets/images/Assembly_ConstraintSymmetricLine.svg) [Symmetric line](/Assembly3_ConstraintSymmetricLine "Assembly3 ConstraintSymmetricLine") button.
+4. Press the ![](/images/Assembly_ConstraintSymmetricLine.svg) [Symmetric line](/Assembly3_ConstraintSymmetricLine "Assembly3 ConstraintSymmetricLine") button.
 
 Retrieved from "<http://wiki.freecad.org/index.php?title=Assembly3_ConstraintSymmetricLine/en&oldid=1028119>"

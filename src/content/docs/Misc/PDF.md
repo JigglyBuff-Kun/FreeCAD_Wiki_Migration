@@ -20,7 +20,7 @@ The option to export to PDF is available in the **File → [Export PDF](/Std_Exp
 
 ## Related
 
-- See also: ![](/src/assets/images/Std_Export.svg) [Std Export](/Std_Export "Std Export") and ![](/src/assets/images/Std_PrintPdf.svg) [Std PrintPdf](/Std_PrintPdf "Std PrintPdf").
+- See also: ![](/images/Std_Export.svg) [Std Export](/Std_Export "Std Export") and ![](/images/Std_PrintPdf.svg) [Std PrintPdf](/Std_PrintPdf "Std PrintPdf").
 
 - For [power users](/Power_users_hub "Power users hub"), there is an option to utilize the [Python console](/Python_console "Python console") to export a PDF.
 

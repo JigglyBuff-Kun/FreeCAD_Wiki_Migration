@@ -2,13 +2,13 @@
 title: ExplodedAssembly Workbench
 ---
 
-![](/src/assets/images/ExplodedAssembly_workbench_icon.svg)
+![](/images/ExplodedAssembly_workbench_icon.svg)
 
 ExplodedAssembly Workbench icon
 
 ## Introduction
 
-The ![](/src/assets/images/ExplodedAssembly_workbench_icon.svg) [ExplodedAssembly Workbench](/ExplodedAssembly_Workbench "ExplodedAssembly Workbench") is an external workbench to create exploded views and animations of assemblies.
+The ![](/images/ExplodedAssembly_workbench_icon.svg) [ExplodedAssembly Workbench](/ExplodedAssembly_Workbench "ExplodedAssembly Workbench") is an external workbench to create exploded views and animations of assemblies.
 
 ### Features
 
@@ -26,40 +26,40 @@ The ![](/src/assets/images/ExplodedAssembly_workbench_icon.svg) [ExplodedAssembl
 
 ## Tools
 
-![](/src/assets/images/ExplodedAssembly-menu-orizz.png)
+![](/images/ExplodedAssembly-menu-orizz.png)
 
 Toolbar
 
-![](/src/assets/images/ExplodedAssembly-menu-vert.png)
+![](/images/ExplodedAssembly-menu-vert.png)
 
 Menu
 
 ### Standard tools
 
-- ![](/src/assets/images/ExplodedAssembly_CreateBoltGroup.png) Create Bolt Group
-- ![](/src/assets/images/ExplodedAssembly_CreateSimpleGroup.png) Create Simple Group
-- ![](/src/assets/images/ExplodedAssembly_ModifyIndividualObjectTrajectory.png) Modify Individual Object Trajectory
-- ![](/src/assets/images/ExplodedAssembly_PlaceBefore.png) Place Before
-- ![](/src/assets/images/ExplodedAssembly_ExplodeToSelection.png) Explode To Selection
-- ![](/src/assets/images/ExplodedAssembly_Assemble.png) Assemble
-- ![](/src/assets/images/ExplodedAssembly_PlayBackwards.png) Play Backwards
-- ![](/src/assets/images/ExplodedAssembly_StopAnimation.png) Stop Animation
-- ![](/src/assets/images/ExplodedAssembly_PlayForward.png) Play Forward
-- ![](/src/assets/images/ExplodedAssembly_Disassemble.png) Disassemble
-- ![](/src/assets/images/ExplodedAssembly_TrajectoryVisibility.png) Trajectory Visibility
-- ![](/src/assets/images/ExplodedAssembly_AlignToEdge.png) Align To Edge
-- ![](/src/assets/images/ExplodedAssembly_Rotate90.png) Rotate 90
-- ![](/src/assets/images/ExplodedAssembly_PoinToPoint.png) Poin To Point
-- ![](/src/assets/images/ExplodedAssembly_PlaceConcentrically.png) Place Concentrically
+- ![](/images/ExplodedAssembly_CreateBoltGroup.png) Create Bolt Group
+- ![](/images/ExplodedAssembly_CreateSimpleGroup.png) Create Simple Group
+- ![](/images/ExplodedAssembly_ModifyIndividualObjectTrajectory.png) Modify Individual Object Trajectory
+- ![](/images/ExplodedAssembly_PlaceBefore.png) Place Before
+- ![](/images/ExplodedAssembly_ExplodeToSelection.png) Explode To Selection
+- ![](/images/ExplodedAssembly_Assemble.png) Assemble
+- ![](/images/ExplodedAssembly_PlayBackwards.png) Play Backwards
+- ![](/images/ExplodedAssembly_StopAnimation.png) Stop Animation
+- ![](/images/ExplodedAssembly_PlayForward.png) Play Forward
+- ![](/images/ExplodedAssembly_Disassemble.png) Disassemble
+- ![](/images/ExplodedAssembly_TrajectoryVisibility.png) Trajectory Visibility
+- ![](/images/ExplodedAssembly_AlignToEdge.png) Align To Edge
+- ![](/images/ExplodedAssembly_Rotate90.png) Rotate 90
+- ![](/images/ExplodedAssembly_PoinToPoint.png) Poin To Point
+- ![](/images/ExplodedAssembly_PlaceConcentrically.png) Place Concentrically
 
 ### Additional tools
 
 These tools can be added to a custom toolbar. See [Interface Customization](/Interface_Customization "Interface Customization").
 
-- ![](/src/assets/images/ExplodedAssembly_AnimationCameraEdge.png) Animation Camera Edge
-- ![](/src/assets/images/ExplodedAssembly_AnimationCameraFollow.png) Animation Camera Follow
-- ![](/src/assets/images/ExplodedAssembly_AnimationCameraManual.png) Animation Camera Manual
-- ![](/src/assets/images/ExplodedAssembly_WireTrajectory.png) Wire Trajectory
+- ![](/images/ExplodedAssembly_AnimationCameraEdge.png) Animation Camera Edge
+- ![](/images/ExplodedAssembly_AnimationCameraFollow.png) Animation Camera Follow
+- ![](/images/ExplodedAssembly_AnimationCameraManual.png) Animation Camera Manual
+- ![](/images/ExplodedAssembly_WireTrajectory.png) Wire Trajectory
 
 ## Installation
 

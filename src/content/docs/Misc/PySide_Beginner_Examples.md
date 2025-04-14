@@ -43,7 +43,7 @@ reply = QtGui.QMessageBox.information(None,"","Houston, we have a problem")
 
 ```
 
-![](/src/assets/images/PySideScreenSnapshot5.jpg)
+![](/images/PySideScreenSnapshot5.jpg)
 
 ## Yes or No Query
 
@@ -61,7 +61,7 @@ if reply == QtGui.QMessageBox.No:
 
 ```
 
-![](/src/assets/images/PySideScreenSnapshot6.jpg)
+![](/images/PySideScreenSnapshot6.jpg)
 
 ## Enter Text Query
 
@@ -78,7 +78,7 @@ else:
 
 ```
 
-![](/src/assets/images/PySideScreenSnapshot7.jpg)
+![](/images/PySideScreenSnapshot7.jpg)
 
 Remember that even if the user enters only digits, "1234" for example, they are strings and must be converted to number representation with either of the following:
 
@@ -164,7 +164,7 @@ elif form.retStatus==5:
 
 Each piece of code under test would be in a function with the name 'routine1()', 'routine2()', etc. As many buttons as you can fit on the screen may be used. Follow the patterns in the code sample and add extra buttons as needed - the Dialog box will set it's width accordingly, up to the width of the screen.
 
-![](/src/assets/images/PySideScreenSnapshot8.jpg)
+![](/images/PySideScreenSnapshot8.jpg)
 
 There is a line of code:
 

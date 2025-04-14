@@ -31,7 +31,7 @@ This link leaves no degree of freedom (DOF) unconstrained.
 
 1. Place two objects into an assembly.
 2. Select one element of each object.
-3. Press the ![](/src/assets/images/Assembly_ConstraintAttachmentOffset.svg) [Create "AttachmentOffset" constraint](/Assembly3_ConstraintAttachmentOffset "Assembly3 ConstraintAttachmentOffset") button.
+3. Press the ![](/images/Assembly_ConstraintAttachmentOffset.svg) [Create "AttachmentOffset" constraint](/Assembly3_ConstraintAttachmentOffset "Assembly3 ConstraintAttachmentOffset") button.
 4. Both objects remain at their position.
 
 Retrieved from "<http://wiki.freecad.org/index.php?title=Assembly3_ConstraintAttachmentOffset/en&oldid=1168442>"

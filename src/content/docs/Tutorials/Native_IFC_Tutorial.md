@@ -23,7 +23,7 @@ title: Native IFC Tutorial
 
 ## FreeCAD and native IFC tutorial
 
-![](/src/assets/images/Nativeifc-tutorial-01.jpg)
+![](/images/Nativeifc-tutorial-01.jpg)
 
 [FreeCAD](https://freecad.org), a Free and Open-Source (FOSS) 3D CAD modeling platform, offers [BIM](https://en.wikipedia.org/wiki/Building_information_modeling) tools since many years with the Arch workbench. Starting from version 1.0, released in November 2024, the Arch tools have been extended and renamed to become the [BIM workbench](/BIM_Workbench "BIM Workbench"), and extended with a new native IFC system. This tutorial will walk you through the different concepts used in native IFC, and how to apply them working on an example model.
 
@@ -43,13 +43,13 @@ With native IFC, we aim to change that.
 
 The idea comes from a [paper by Bruno Postle](https://github.com/brunopostle/ifcmerge/blob/main/docs/whitepaper.rst) that describes how the IFC format could be used not only as an export format, but also as a main project file, instead of the (usually proprietary) formats used by BIM applications. To achieve that, it is essential that BIM applications treat the IFC format natively, that is, instead of converting their own content from their internal format to IFC each time, they should directly manipulate IFC data.
 
-![](/src/assets/images/Nativeifc-tutorial-02.jpg)
+![](/images/Nativeifc-tutorial-02.jpg)
 
 image from Bruno Postle's paper
 
 Concretely, in FreeCAD, you can open or create IFC models, explore them, modify their contents, and each change will be clearly registered, locatable, identifiable, undoable. Changes done by others while you were working can be merged together, even if they are working with other (native IFC) applications.
 
-![](/src/assets/images/Nativeifc-tutorial-03.jpg)
+![](/images/Nativeifc-tutorial-03.jpg)
 
 The image above shows a compact and limited change to a file when adding a new wall
 
@@ -69,7 +69,7 @@ I would personally recommend working without IFC when you are working alone and 
 
 If you have never worked with IFC before, you might want to start by having a good look at a few example models. Being an open format, fortunately, example models are very easy to find on the internet. A simple 'example IFC models' search will get you far. I would suggest for example this [canonical example house](<https://github.com/buildingSMART/Sample-Test-Files/tree/main/PCERT-Sample-Scene/IFC%204.0.2.1%20(IFC%204)>) kept by the IFC consortium, but several websites have gathered collections of example files, such as [this one on BIMPlot](https://bimplot.com/free-ifc-project-samples-for-architects-and-bim-enthusists/).
 
-![](/src/assets/images/Nativeifc-tutorial-04.jpg)
+![](/images/Nativeifc-tutorial-04.jpg)
 
 There are many applications to view IFC files. Some are free of charge, and some are even Free and Open-Source (FOSS). Among proprietary but free IFC viewers, good ones are [BIMVision](https://bimvision.eu/) or the [ODA IFC viewer](https://openifcviewer.com/) (which runs on Win/Mac/Linux). Among FOSS viewer, a simple one I use a lot is [IFC++](http://www.ifcquery.com/), which is included in the Debian/Ubuntu repositories. Both [FreeCAD](https://freecad.org) and [Bonsai](https://bonsaibim.org) are also good and fast IFC viewers.
 
@@ -103,7 +103,7 @@ The things that you should know are few:
 
 In FreeCAD, opening an IFC file is done like any other file, via menu **File → Open**. By default, IFC files will load with only one element appearing in the **Tree view**. That is the fastest way to import, and you can usually import a 100Mb model in seconds.
 
-![](/src/assets/images/Nativeifc-tutorial-05.jpg)
+![](/images/Nativeifc-tutorial-05.jpg)
 
 You can change the native IFC import preferences under **Edit → Preferences → BIM → Native IFC**. You can have for example the whole building structure revealed on import, or being asked each time.
 
@@ -117,7 +117,7 @@ Converting a non-IFC FreeCAD model to native IFC can be done simply by exporting
 
 By default, opening IFC files will show only the first, outer element of the file. Usually the IfcSite. To view the contents of that element, and of the subsequent ones, you need to **expand** it. Expanding is done by **double-clicking the element in the Tree view** or, alternatively, via the **Utils → IFC expand** menu option. This command can be [customized](/Interface_Customization "Interface Customization") and be assigned a keyboard shortcut, so it's possible to navigate the Tree view with the arrow keys and expand your model where needed entirely using the keyboard.
 
-![](/src/assets/images/Nativeifc-tutorial-06.jpg)
+![](/images/Nativeifc-tutorial-06.jpg)
 
 Double-clicking an element in the Tree view will, the first time, reveal its children, and, the second time, or if there are no more children to reveal, **load its full properties, material and shape**.
 
@@ -129,7 +129,7 @@ When an IFC model is loaded in FreeCAD, it can be locked or unlocked. By default
 
 Locking or unlocking is simply done using the lock button in the FreeCAD status bar:
 
-![](/src/assets/images/Nativeifc-tutorial-07.jpg)
+![](/images/Nativeifc-tutorial-07.jpg)
 
 - **Locked mode** means that the FreeCAD document IS the IFC file. You don't see the IfcProject (it is the FreeCAD document itself in the Tree view), and anything you do in that document is automatically, transparently and immediately done in the IFC data itself. Adding a wall will modify the IFC file, as well as adding a line or a dimension, everything is done in IFC. you cannot have any FreeCAD element in the document that is not part of the IFC file. You can convert any FreeCAD model (BIM or not) to IFC by clicking the lock button.
 - **Unlocked mode**, also called hybrid mode, means the IFC project resides inside a **project** object. You can still have normal, non-IFC FreeCAD objects besides the IFC elements. To add an element to the IFC project, you must add it yourself to it by dragging it onto the project or one of the sub-elements of the project. You can create a new, blank IFC project using menu **3D/BIM → Project**.
@@ -141,13 +141,13 @@ In all other cases, there is no real need or advantage to lock your model. In fa
 
 When changing to an IFC model, you often want to verify **what you have changed in the IFC data** since the last save. This is done using **Utils → IFC Diff**. The changes are presented in the [diff format](https://en.wikipedia.org/wiki/Diff), with sections highlighted in red and green. This format is also understandable by computer systems like Git, which are able to track large change sets, and therefore turn your IFC files first-class citizens under such systems.
 
-![](/src/assets/images/Nativeifc-tutorial-08.jpg)
+![](/images/Nativeifc-tutorial-08.jpg)
 
 ### Model structure
 
 As seen above, most IFC files use a standard **Site → Building → Storey** structure. This is so common that it is often considered mandatory, although it is not expressly stated in the IFC standard. You could very well have all your elements directly related to the IfcProject. However, since standardization works when everybody decides to use the same system, it is advisable to have at least one site, one building and one storey (called **Level** in FreeCAD) in your model.
 
-![](/src/assets/images/Nativeifc-tutorial-09.jpg)
+![](/images/Nativeifc-tutorial-09.jpg)
 
 In FreeCAD, it is possible to use **Groups** to organize your objects further under a level. For example, inside your first floor, you could create a 'Walls' group to add all your walls, a 'Carpentry' group to add your wooden beams, etc. Groups are supported by IFC, however it is not standard to put groups inside a building structure element like a storey. For this reason, groups by default are written as **IfcBuildingElementAssemblies** instead of IfcGroups. At FreeCAD, though, we believe such behavior is useful and should be permitted. So there is a preference option to allow it. Most BIM applications will happily open files with groups inside other elements. That preference option is there to help spread our vision and possibly convince people.
 
@@ -163,7 +163,7 @@ When IFC elements are loaded from the file, their attributes are rendered in the
 
 When double-clicking an element in the Tree view, you will first reveal the child elements of that element. When double-clicking it a second time, you will load additional data such as **property sets**, **custom properties**, **materials** and **shape data**. It will additionally create a set of **geometry properties** that will allow you to modify the geometry of that element. These geometry properties also form the foundations of the future graphical editor.
 
-![](/src/assets/images/Nativeifc-tutorial-10.jpg)
+![](/images/Nativeifc-tutorial-10.jpg)
 
 All these additional properties can be changed directly, and new custom properties can be added using the two buttons under the properties editor.
 
@@ -189,7 +189,7 @@ In FreeCAD, in non-IFC BIM projects, we used to do this using cloning. In native
 
 When an object is converted to a type, it is moved to a special _Types_ group under the project. It can then be referenced by any other wall in the project.
 
-![](/src/assets/images/Nativeifc-tutorial-11.jpg)
+![](/images/Nativeifc-tutorial-11.jpg)
 
 The above image shows our wall that is now using the 'My Wall Type' as its type
 
@@ -223,7 +223,7 @@ By default, though, native IFC objects are loaded without their shape (their _Sh
 
 While the final sheet itself cannot currently be saved to the IFC file, the 2D views, section planes and their annotations can. When adding (by drag and dropping in unlocked mode, or automatically in locked mode) a section plane to a project, a group will automatically be created under the project. That group represents a 2D view (its _Object Type_ property is set to 'DRAWING'), and everything you add to that group will be part of that 2D view.
 
-![Screenshot of a 2D view created from an IFC project](/src/assets/images/Nativeifc-tutorial-12.jpg)
+![Screenshot of a 2D view created from an IFC project](/images/Nativeifc-tutorial-12.jpg)
 
 ### Creating sheets
 

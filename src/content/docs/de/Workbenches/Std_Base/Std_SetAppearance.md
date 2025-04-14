@@ -23,7 +23,7 @@ Das Werkzeug **Std Darstellung** legt die Anzeigeeigenschaften der ausgewählten
 
 Diese Seite wurde für Version 1.0 aktualisiert.
 
-![](/src/assets/images/Std_SetAppearance_Taskpanel.png)
+![](/images/Std_SetAppearance_Taskpanel.png)
 
 Der Aufgabenbereich Anzeigeeigenschaften
 
@@ -31,8 +31,8 @@ Der Aufgabenbereich Anzeigeeigenschaften
 
 1. Ein oder mehrere Objekt(e) auswählen.
 2. Es gibt mehrere Möglichkeiten das Werkzeug aufzurufen:
-   - Den Menüeintrag **Ansicht → ![](/src/assets/images/Std_SetAppearance.svg) Darstellung...** im Hauptmenü auswählen.
-   - Den Menüeintrag **![](/src/assets/images/Std_SetAppearance.svg) Darstellung...** im Kontextmenü der [Baumansicht](/Tree_view "Tree view") (siehe Screenshot) oder im Kontextmenü der [3D-Ansicht](/3D_view "3D view") auswählen.
+   - Den Menüeintrag **Ansicht → ![](/images/Std_SetAppearance.svg) Darstellung...** im Hauptmenü auswählen.
+   - Den Menüeintrag **![](/images/Std_SetAppearance.svg) Darstellung...** im Kontextmenü der [Baumansicht](/Tree_view "Tree view") (siehe Screenshot) oder im Kontextmenü der [3D-Ansicht](/3D_view "3D view") auswählen.
    - Das Tastaturkürzel Ctrl+D.
 3. Das Aufgaben-Fenster **Anzeigeeigenschaften** wird geöffnet. Siehe [Optionen](#Optionen).
 4. Eine oder mehrere Anzeigeeigenschaften ändern.

@@ -32,11 +32,11 @@ Guitar Fretboard Maker (Macro), Python script is unbelievable to make complex fo
 
 This macro creates a conical compound (or not) multiscale (or not) fretboard with nut and fret slot or zero fret slot to export to CAM software
 
-![](/src/assets/images/Fretboard_freecad2.png)
+![](/images/Fretboard_freecad2.png)
 
 ## Script
 
-The ToolBar Icon ![Macro_Guitar_fretboard](/src/assets/images/Macro_Guitar_fretboard.png)
+The ToolBar Icon ![Macro_Guitar_fretboard](/images/Macro_Guitar_fretboard.png)
 
 **Macro Guitar fretboard.FCMacro**
 

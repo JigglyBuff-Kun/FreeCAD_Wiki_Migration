@@ -2,7 +2,7 @@
 title: Workfeature Workbench
 ---
 
-![](/src/assets/images/WF_wf.png)
+![](/images/WF_wf.png)
 
 Workfeature workbench icon
 
@@ -34,17 +34,17 @@ Tool utility to create
 
 ### Toolbar
 
-![](/src/assets/images/WorkFeature-menu-orizz.png)
+![](/images/WorkFeature-menu-orizz.png)
 
 ### Drop down menu
 
-![](/src/assets/images/WorkFeature-dropdown_01.png)
+![](/images/WorkFeature-dropdown_01.png)
 
-![](/src/assets/images/WorkFeature-dropdown_02.png)
+![](/images/WorkFeature-dropdown_02.png)
 
-![](/src/assets/images/WorkFeature-dropdown_03.png)
+![](/images/WorkFeature-dropdown_03.png)
 
-![](/src/assets/images/WorkFeature-dropdown_04.png)
+![](/images/WorkFeature-dropdown_04.png)
 
 ## Installation
 

@@ -19,9 +19,9 @@ title: Sketcher SchnittAnzeigen
 
 ## Beschreibung
 
-Das Werkzeug ![](/src/assets/images/Sketcher_ViewSection.svg) Sketcher SchnittAnzeigen schaltet eine zeitweilige Schnittebene ein bzw. aus, die alle Objekte und Teile von Objekten vor der Skizzenebene ausblendet, solange sich die Skizze im Bearbeitungsmodus befindet. Diese einstellung wird separat für jede Skizze in der Ansicht-Eigenschaft**Section View** der jeweiligen Skizze gespeichert.
+Das Werkzeug ![](/images/Sketcher_ViewSection.svg) Sketcher SchnittAnzeigen schaltet eine zeitweilige Schnittebene ein bzw. aus, die alle Objekte und Teile von Objekten vor der Skizzenebene ausblendet, solange sich die Skizze im Bearbeitungsmodus befindet. Diese einstellung wird separat für jede Skizze in der Ansicht-Eigenschaft**Section View** der jeweiligen Skizze gespeichert.
 
-![](/src/assets/images/Sketcher_ViewSection1.png) ![](/src/assets/images/Sketcher_ViewSection2.png)
+![](/images/Sketcher_ViewSection1.png) ![](/images/Sketcher_ViewSection2.png)
 
 Teilweise verborgene Skizze und vollständig sichtbare Skizze
 
@@ -31,7 +31,7 @@ Siehe auch: [Sketcher Einstellungen](/Sketcher_Preferences/de#Anzeige "Sketcher 
 
 1. Dieses Werkzeug steht nur zur Verfügung, wenn sich eine Skizze im [Bearbeitungsmodus](/Sketcher_EditSketch/de "Sketcher EditSketch/de") befindet.
 2. Es gibt mehrere Möglichkeiten, dieses Werkzeug aufzurufen:
-   - Die Schaltfläche ![](/src/assets/images/Sketcher_ViewSection.svg) Schnitt anzeigen drücken.
+   - Die Schaltfläche ![](/images/Sketcher_ViewSection.svg) Schnitt anzeigen drücken.
    - Den Menüeintrag **Skizze → Schnitt anzeigen** auswählen.
 
 Retrieved from "<http://wiki.freecad.org/index.php?title=Sketcher_ViewSection/de&oldid=1394817>"

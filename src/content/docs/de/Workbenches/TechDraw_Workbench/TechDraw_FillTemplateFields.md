@@ -23,13 +23,13 @@ Diese Dokumentation ist noch nicht fertiggestellt. Bitte hilf mit und trage etwa
 
 ## Beschreibung
 
-Das Werkzeug ![](/src/assets/images/TechDraw_FillTemplateFields.svg)VorlagefelderAusfüllen füllt die bearbeitbaren Felder im Schriftfeld des aktuellen Zeichnungsblattes aus.
+Das Werkzeug ![](/images/TechDraw_FillTemplateFields.svg)VorlagefelderAusfüllen füllt die bearbeitbaren Felder im Schriftfeld des aktuellen Zeichnungsblattes aus.
 
 ## Anwendung
 
 1. Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
-   - Die Schaltfläche ![](/src/assets/images/TechDraw_FillTemplateFields.svg) Vorlagenfelder aktualisieren drücken.
-   - Den Menüeintrag **TechDraw → Seite → ![](/src/assets/images/TechDraw_FillTemplateFields.svg) Vorlagenfelder aktualisieren** auswählen.
+   - Die Schaltfläche ![](/images/TechDraw_FillTemplateFields.svg) Vorlagenfelder aktualisieren drücken.
+   - Den Menüeintrag **TechDraw → Seite → ![](/images/TechDraw_FillTemplateFields.svg) Vorlagenfelder aktualisieren** auswählen.
 2. ...
 
 ## Hinweise

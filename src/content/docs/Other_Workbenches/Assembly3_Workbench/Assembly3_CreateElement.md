@@ -23,7 +23,7 @@ This documentation is not finished. Please help and contribute documentation.Gui
 
 ## Description
 
-The ![](/src/assets/images/Assembly_New_Element.svg) [Create element](/Assembly3_CreateElement "Assembly3 CreateElement") command creates new elements from selected objects.
+The ![](/images/Assembly_New_Element.svg) [Create element](/Assembly3_CreateElement "Assembly3 CreateElement") command creates new elements from selected objects.
 
 It can be used to prepare **elements** before the use of constraints.  
 This could come in handy to select e.g. hidden geometry. Once an object is represented by an element, it can easily be accessed by its assembly tree object.
@@ -34,8 +34,8 @@ This could come in handy to select e.g. hidden geometry. Once an object is repre
 
 1. Select one or more objects of the boundary representation such as planar **faces**, straight **edges**, or **points**
 2. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/Assembly_New_Element.svg) [Create element](/Assembly3_CreateElement "Assembly3 CreateElement") button.
-   - Select the **Assembly3 → ![](/src/assets/images/Assembly_New_Element.svg) Create element** option from the menu.
+   - Press the ![](/images/Assembly_New_Element.svg) [Create element](/Assembly3_CreateElement "Assembly3 CreateElement") button.
+   - Select the **Assembly3 → ![](/images/Assembly_New_Element.svg) Create element** option from the menu.
    - Use the keyboard shortcut A then E
 3. (optional but recommended) Rename the elements by editing their **Label** properties.
 

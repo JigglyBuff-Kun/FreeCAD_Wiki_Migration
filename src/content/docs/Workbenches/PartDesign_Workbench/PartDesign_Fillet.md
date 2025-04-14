@@ -19,7 +19,7 @@ title: PartDesign Fillet
 
 ## Description
 
-The ![](/src/assets/images/PartDesign_Fillet.svg) **PartDesign Fillet** tool creates fillets (rounds) on the selected edges of an object. It adds a **Fillet** object to the document with its corresponding representation in the [Tree view](/Tree_view "Tree view").
+The ![](/images/PartDesign_Fillet.svg) **PartDesign Fillet** tool creates fillets (rounds) on the selected edges of an object. It adds a **Fillet** object to the document with its corresponding representation in the [Tree view](/Tree_view "Tree view").
 
 ## Usage
 
@@ -32,8 +32,8 @@ The ![](/src/assets/images/PartDesign_Fillet.svg) **PartDesign Fillet** tool cre
    - Select a feature (usually the last feature) of the Body to select all its edges.
 3. For a chain of tangentially connected edges only a single edge needs to be selected, the fillet will propagate along the chain.
 4. There are several ways to invoke the tool:
-   - Press the ![](/src/assets/images/PartDesign_Fillet.svg) [Fillet](/PartDesign_Fillet "PartDesign Fillet") button.
-   - Select the **Part Design → Apply a dress-up feature → ![](/src/assets/images/PartDesign_Fillet.svg) Fillet** option from the menu.
+   - Press the ![](/images/PartDesign_Fillet.svg) [Fillet](/PartDesign_Fillet "PartDesign Fillet") button.
+   - Select the **Part Design → Apply a dress-up feature → ![](/images/PartDesign_Fillet.svg) Fillet** option from the menu.
 5. If there is no active Body, and there are two or more Bodies in the document, the **Active Body Required** dialog will open and prompt you to activate one. If there is a single Body it will be activated automatically.
 6. The **Fillet parameters** [task panel](/Task_panel "Task panel") opens. See [Options](#Options) for more information.
 7. Press the OK button to finish.

@@ -19,15 +19,15 @@ title: Sketcher BSplineKnotenEinfügen
 
 ## Beschreibung
 
-Das Werkzeug ![](/src/assets/images/Sketcher_BSplineInsertKnot.svg) Sketcher BSplineKnotenEinfügen fügt einen Knoten in einen [B-Spline](/B-Splines/de "B-Splines/de") ein. Ist schon ein Knoten am angegebenen Parameter vorhanden, wird seine Vielfachheit um eins erhöht.
+Das Werkzeug ![](/images/Sketcher_BSplineInsertKnot.svg) Sketcher BSplineKnotenEinfügen fügt einen Knoten in einen [B-Spline](/B-Splines/de "B-Splines/de") ein. Ist schon ein Knoten am angegebenen Parameter vorhanden, wird seine Vielfachheit um eins erhöht.
 
 ## Anwendung
 
 1. Eine B-Spline-Kurve auswählen.
 2. Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
-   - Die Schaltfläche ![](/src/assets/images/Sketcher_BSplineInsertKnot.svg) Knoten einfügen drücken.
-   - Den Menüeintrag **Skizze → B-spline-Werkzeuge → ![](/src/assets/images/Sketcher_BSplineInsertKnot.svg) Knoten einfügen** auswählen.
-   - [eingeführt in 1.0](/Release_notes_1.0/de "Release notes 1.0/de"): Ein Rechtsklick in die [3D-Ansichtund](/3D_view/de "3D view/de") die Menüoption **![](/src/assets/images/Sketcher_BSplineInsertKnot.svg) Knoten einfügen** im Kontextmenü auswählen.
+   - Die Schaltfläche ![](/images/Sketcher_BSplineInsertKnot.svg) Knoten einfügen drücken.
+   - Den Menüeintrag **Skizze → B-spline-Werkzeuge → ![](/images/Sketcher_BSplineInsertKnot.svg) Knoten einfügen** auswählen.
+   - [eingeführt in 1.0](/Release_notes_1.0/de "Release notes 1.0/de"): Ein Rechtsklick in die [3D-Ansichtund](/3D_view/de "3D view/de") die Menüoption **![](/images/Sketcher_BSplineInsertKnot.svg) Knoten einfügen** im Kontextmenü auswählen.
 3. Den Mauszeiger zur gewünschten Position bewegen.
 4. Die aktuelle Position wird mit einem kleinen Ring markiert und der Wert ihres Parameters wird angezeigt.
 5. Klicken, um einen Knoten einzufügen oder einen vorhandenen Knoten anklicken, um seine vielfachheit zu erhöhen.

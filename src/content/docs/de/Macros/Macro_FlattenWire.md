@@ -33,7 +33,7 @@ Dieses Makro glättet Draft-Drähte, die nicht planar bezüglich ihrer mittleren
 ## Skript
 
 Werkzeugleisten-Symbol
-![](/src/assets/images/Macro_FlattenWire.png)
+![](/images/Macro_FlattenWire.png)
 
 **Macro_FlattenWire.FCMacro**
 

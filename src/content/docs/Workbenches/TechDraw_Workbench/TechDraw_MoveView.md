@@ -29,8 +29,8 @@ The **TechDraw MoveView** tool moves a View and all its dependents (Balloons, Di
 
 1. Optionally select a View, a from Page and a to Page. The pages must be selected in that order.
 2. There are several ways to invoke the tool:
-   - Press the ![](/src/assets/images/TechDraw_MoveView.svg) [Move View](/TechDraw_MoveView "TechDraw MoveView") button.
-   - Select the **TechDraw → TechDraw Views → ![](/src/assets/images/TechDraw_MoveView.svg) Move View** option from the menu.
+   - Press the ![](/images/TechDraw_MoveView.svg) [Move View](/TechDraw_MoveView "TechDraw MoveView") button.
+   - Select the **TechDraw → TechDraw Views → ![](/images/TechDraw_MoveView.svg) Move View** option from the menu.
 3. A dialog will open to allow you to select a View, from Page and to Page.
 4. Press the OK button.
 

@@ -19,9 +19,9 @@ title: Part Spirale
 
 ## Beschreibung
 
-Eine ![](/src/assets/images/Part_Spiral.svg) **Part Spirale** ist ein parametrischer Volumenkörper, der mit dem Befehl ![](/src/assets/images/Part_Primitives.svg) [Part Grundelemente](/Part_Primitives/de "Part Primitives/de") erstellt werden kann. Im Koordinatensystem durch ihre Daten-Eigenschaft**Placement** festgelegt, liegt die Spirale auf der XY-Ebene mit ihrem Mittelpunkt im Ursprung und ihrem Startpunkt auf der X-Achse. Sie öffnet sich gegen den Uhrzeigersinn.
+Eine ![](/images/Part_Spiral.svg) **Part Spirale** ist ein parametrischer Volumenkörper, der mit dem Befehl ![](/images/Part_Primitives.svg) [Part Grundelemente](/Part_Primitives/de "Part Primitives/de") erstellt werden kann. Im Koordinatensystem durch ihre Daten-Eigenschaft**Placement** festgelegt, liegt die Spirale auf der XY-Ebene mit ihrem Mittelpunkt im Ursprung und ihrem Startpunkt auf der X-Achse. Sie öffnet sich gegen den Uhrzeigersinn.
 
-![](/src/assets/images/Part_Spiral_Example.png)
+![](/images/Part_Spiral_Example.png)
 
 ## Anwendung
 
@@ -29,7 +29,7 @@ Siehe [Part Grundelemente](/Part_Primitives/de#Anwendung "Part Primitives/de").
 
 ## Beispiel
 
-![](/src/assets/images/Part_Spiral_Scripting_Example.png)
+![](/images/Part_Spiral_Scripting_Example.png)
 
 Part-Spirale aus dem Skriptbeispiel
 

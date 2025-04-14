@@ -2,7 +2,7 @@
 title: 3Dconnexion input devices
 ---
 
-![](/src/assets/images/SpaceNavigator.jpg)
+![](/images/SpaceNavigator.jpg)
 
 3Dconnexion SpaceNavigator
 
@@ -191,7 +191,7 @@ sudo systemctl restart spacenavd
 
 ### Windows
 
-As of version 0.13, 3D mouse is supported under Windows. You need to have 3Dconnexion drivers installed. In FreeCAD version 1.0 a [new integration with 3Dconnexion devices](https://github.com/FreeCAD/FreeCAD/pull/12929) has been introduced. If compiled with that integration, only recent hardware is supported: to support older devices users will need to self-compile with the FREECAD_3DCONNEXION_SUPPORT cMake variable set to "Raw Input". Windows users should be aware that 3Dconnexion's driver (_not_ the code in FreeCAD) contains a telemetry package that communicates information about your installed software back to 3Dconnexion.
+As of version 0.13, 3D mouse is supported under Windows. You need to have 3Dconnexion drivers installed. In FreeCAD version 1.0 a [new integration with 3Dconnexion devices](https://github.com/FreeCAD/FreeCAD/pull/12929) has been introduced. If compiled with that integration, only recent hardware is supported: to support older devices users will need to self-compile with the FREECAD*3DCONNEXION_SUPPORT cMake variable set to "Raw Input". Windows users should be aware that 3Dconnexion's driver (\_not* the code in FreeCAD) contains a telemetry package that communicates information about your installed software back to 3Dconnexion.
 
 #### Known Issues
 
@@ -207,8 +207,8 @@ As of version 0.13, 3D mouse is supported under Windows. You need to have 3Dconn
 
 0.21 and below: If a Spaceball is detected the following tabs in the [Customize dialog](/Interface_Customization "Interface Customization") can be used to change settings:
 
-![](/src/assets/images/Spaceball_Motion.png)
-![](/src/assets/images/Spaceball_Buttons.png)
+![](/images/Spaceball_Motion.png)
+![](/images/Spaceball_Buttons.png)
 
 ### Spaceball Motion
 

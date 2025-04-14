@@ -19,7 +19,7 @@ title: Sketcher Schwenken
 
 ## Beschreibung
 
-Das Werkzeug ![](/src/assets/images/Sketcher_Rotate.svg) Sketcher Schwenken versetzt ausgewählte elemente oder erstellt wahlweise Kopien und verteilt sie gleichmäßig über einen Schwenkwinkel.
+Das Werkzeug ![](/images/Sketcher_Rotate.svg) Sketcher Schwenken versetzt ausgewählte elemente oder erstellt wahlweise Kopien und verteilt sie gleichmäßig über einen Schwenkwinkel.
 
 ## Anwendung
 
@@ -30,9 +30,9 @@ Dim-OVP = Dimensional On-View-Parameters (In-Ansicht-Parameter zur maßlichen Fe
 
 1. Eine oder mehrere Kanten und/oder [Punktobjekte](/Sketcher_CreatePoint/de "Sketcher CreatePoint/de") auswählen. Randbedingungen, die ausschließlich zu den ausgewählten Elementen gehören, außer [HorizontalFestlegen](/Sketcher_ConstrainHorizontal/de "Sketcher ConstrainHorizontal/de") und [VerticalFestlegen](/Sketcher_ConstrainVertical/de "Sketcher ConstrainVertical/de"), werden auch verarbeitet. Werden die originalen Elemente verschwenkt, werden alle anderen Randbedingungen, die mit den Elementen verknüpft sind, werden gelöscht.
 2. Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
-   - Die Schaltfläche ![](/src/assets/images/Sketcher_Rotate.svg) Polar transform drücken.
-   - Den Menüeintrag **Skizze → Sketcher-Werkzeuge → ![](/src/assets/images/Sketcher_Rotate.svg) Polar transform** auswählen.
-   - Ein Rechtsklick in der [3D-Ansicht](/3D_view/de "3D view/de") und die Menüoption **![](/src/assets/images/Sketcher_Rotate.svg) Polar transform** im Kontextmenü auswählen.
+   - Die Schaltfläche ![](/images/Sketcher_Rotate.svg) Polar transform drücken.
+   - Den Menüeintrag **Skizze → Sketcher-Werkzeuge → ![](/images/Sketcher_Rotate.svg) Polar transform** auswählen.
+   - Ein Rechtsklick in der [3D-Ansicht](/3D_view/de "3D view/de") und die Menüoption **![](/images/Sketcher_Rotate.svg) Polar transform** im Kontextmenü auswählen.
    - Das Tastaturkürzel Z then P.
 3. Der Mauszeiger wandelt sich zu einem Kreuz mit Werkzeugsymbol.
 4. Der Abschnitt **Parameter der Drehung** wird im oberen Bereich des [Sketcher-Dialogs](/Sketcher_Dialog/de "Sketcher Dialog/de") eingefügt.

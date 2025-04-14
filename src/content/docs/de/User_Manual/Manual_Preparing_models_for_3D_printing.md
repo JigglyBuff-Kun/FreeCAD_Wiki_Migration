@@ -6,7 +6,7 @@ Ein Hauptverwendungszweck von FreeCAD ist das Entwerfen von Objekten, aus denen 
 
 Wenn du beim Modellieren vorsichtig warst, sind die meisten Herausforderungen im Zusammenhang mit 3D-Druck der Modelle schon minimiert. Die Hauptpunkte die wir betrachten beinhalten:
 
-- **Sicherstellen, dass 3D-Objekte Festkörper sind**: Wie Objekte der realen Welt, sollte auch das Modell "fest" sein, also ein Festkörper. FreeCAD, und besonders der Arbeitsbereich PartDesign, hilft dabei, dass ein Modell während des gesamten Konstruktionsprozesses ein Festkörper bleibt. Das Programm warnt den Anwender, wenn ein Objekt in etwas anderes als ein Festkörper umgewandelt wird. Außerdem stellt der Arbeitsbereich Part ein Werkzeug ![](/src/assets/images/Part_CheckGeometry.svg) [Geometrie überprüfen](/Part_CheckGeometry/de "Part CheckGeometry/de") bereit, das ermöglicht potentielle Fehler Probleme zu entdecken, die den 3D-Drockprozess beeinflussen.
+- **Sicherstellen, dass 3D-Objekte Festkörper sind**: Wie Objekte der realen Welt, sollte auch das Modell "fest" sein, also ein Festkörper. FreeCAD, und besonders der Arbeitsbereich PartDesign, hilft dabei, dass ein Modell während des gesamten Konstruktionsprozesses ein Festkörper bleibt. Das Programm warnt den Anwender, wenn ein Objekt in etwas anderes als ein Festkörper umgewandelt wird. Außerdem stellt der Arbeitsbereich Part ein Werkzeug ![](/images/Part_CheckGeometry.svg) [Geometrie überprüfen](/Part_CheckGeometry/de "Part CheckGeometry/de") bereit, das ermöglicht potentielle Fehler Probleme zu entdecken, die den 3D-Drockprozess beeinflussen.
 
 - **Bestätigung der Genauigkeit der Abmessungen**: Präzision ist entscheidend – was du in FreeCAD entwirfst, wird direkt in reale Maße umgesetzt. Ein Millimeter in FreeCAD ist ein Millimeter im physischen Objekt, daher muss jede Abmessung sorgfältig bedacht und überprüft werden, um die Genauigkeit sicherzustellen.
 
@@ -43,14 +43,14 @@ In FreeCAD übernimmt der [Arbeitsbereich Mesh](/Mesh_Workbench/de "Mesh Workben
 - Wähle das Menü **Meshes → Create Mesh from Shape**
 - Ein Aufgabenfenster mit mehreren Optionen wird geöffnet. Einige zusätzliche Netzalgorithmen (Mefisto oder Netgen) sind möglicherweise nicht verfügbar, je nachdem, wie deine Version von FreeCAD kompiliert wurde. Der Standard-Netzalgorithmus ist immer vorhanden. Er bietet weniger Möglichkeiten als die beiden anderen, ist aber für kleine Objekte, die in die maximale Druckgröße eines 3D-Druckers passen, völlig ausreichend.
 
-![](/src/assets/images/FreeCAD_MeshLego.png)
+![](/images/FreeCAD_MeshLego.png)
 
 - Wähle den **Standard**-Mesher und belasse den Abweichungswert auf dem Standardwert von **0,10**. Drücke **Ok**.
 - Es wird ein Mesh-Objekt genau über unserem festen Objekt erstellt. Verstecke entweder das feste Objekt oder verschiebe eines der Objekte zur Seite, damit du beide vergleichen kannst.
 - Ändere die Eigenschaft **Ansicht → Anzeigemodus** des neuen Mesh-Objekts in **Flache Linien**, um zu sehen, wie die Triangulation erfolgte.
 - Wenn du nicht zufrieden bist und das Ergebnis zu grob findest, kannst du den Vorgang wiederholen und den Abweichungswert verringern. Im folgenden Beispiel wurde für das linke Mesh der Standardwert von **0,10** verwendet, während für das rechte **0,01** verwendet wird:
 
-![](/src/assets/images/Exercise_meshing_02.jpg)
+![](/images/Exercise_meshing_02.jpg)
 
 In den meisten Fällen werden die Standardwerte jedoch ein zufriedenstellendes Ergebnis liefern.
 
@@ -66,13 +66,13 @@ Die korrekte Konfiguration eines Slicers für den 3D-Druck ist ein komplexer Pro
 
 Dies ist unsere exportierte STL-Datei, die in PrusaSlicer geöffnet wurde. Durch einfaches Drücken der Schaltfläche „Schneiden“ teilt die Software Ihr Modell in Schichten auf, generiert die Werkzeugpfade für den 3D-Drucker und wendet die erforderlichen Geschwindigkeits- und Temperatureinstellungen an. Sie berechnet die Füllung, die Stützstrukturen und die Umfänge und erstellt dann den G-Code, der detaillierte Anweisungen für den Drucker enthält. Du kannst das geschnittene Modell Schicht für Schicht in der Vorschau anzeigen, die geschätzte Druckzeit und den Filamentverbrauch überprüfen und schließlich den G-Code für den eigentlichen Druckvorgang speichern oder an deinen Drucker senden.
 
-![](/src/assets/images/FreeCAD_PrusaSlicer.png)
+![](/images/FreeCAD_PrusaSlicer.png)
 
 Neben PrusaSlicer gibt es noch viele andere Slicer-Softwareoptionen für den 3D-Druck. [Cura](https://ultimaker.com/fr/software/ultimaker-cura/), entwickelt von Ultimaker, ist einer der beliebtesten Open-Source-Slicer und unterstützt eine große Bandbreite an Druckern mit umfassenden Anpassungsmöglichkeiten. [Simplify3D](https://www.simplify3d.com/) ist ein kostenpflichtiger Slicer, der für seine erweiterten Funktionen und effiziente Werkzeugweggenerierung bekannt ist. [MatterControl](https://www.matterhackers.com/store/l/mattercontrol/sk/MKZGTDW6) ist ein Open-Source-Slicer, der auch grundlegende CAD-Tools enthält, während [IdeaMaker](https://www.raise3d.com/fr/ideamaker/) eine benutzerfreundliche Oberfläche mit adaptiven Schichthöhen bietet, die von Raise3D entwickelt wurde. Schließlich bietet [OrcaSlicer](https://github.com/SoftFever/OrcaSlicer), eine neuere Open-Source-Option basierend auf PrusaSlicer und Bambu Studio, zusätzliche Funktionen für verschiedene Drucker. Jeder Slicer hat einzigartige Stärken, sodass die beste Wahl von bestimmten Druckermodellen und Druckanforderungen abhängt.
 
 ### G-code generieren
 
-Der ![](/src/assets/images/Workbench_CAM.svg) [Arbeitsbereich CAM](/CAM_Workbench/de "CAM Workbench/de") in FreeCAD bietet erweiterte Optionen zum Generieren von G-Code direkt für CNC-Maschinen und bietet mehr Flexibilität und Kontrolle im Vergleich zu automatischen Slicing-Tools, wie sie für den 3D-Druck verwendet werden. Während 3D-Druck-Slicer ein Modell mit minimalem Aufwand automatisch in G-Code umwandeln können, erfordert das CNC-Fräsen viel mehr Benutzereingriff, um eine präzise Kontrolle über die Werkzeugwege, Geschwindigkeiten, Tiefen und andere Bearbeitungsparameter zu gewährleisten. Dies macht den [Arbeitsbereich CAM](/CAM_Workbench/de "CAM Workbench/de") unverzichtbar für Aufgaben, die fein abgestimmten G-Code erfordern, insbesondere für das CNC-Fräsen, bei dem die Komplexität der Maschine und die Vielfalt der Vorgänge (wie Schneiden, Bohren und Konturieren) eine sorgfältige Planung erfordern.
+Der ![](/images/Workbench_CAM.svg) [Arbeitsbereich CAM](/CAM_Workbench/de "CAM Workbench/de") in FreeCAD bietet erweiterte Optionen zum Generieren von G-Code direkt für CNC-Maschinen und bietet mehr Flexibilität und Kontrolle im Vergleich zu automatischen Slicing-Tools, wie sie für den 3D-Druck verwendet werden. Während 3D-Druck-Slicer ein Modell mit minimalem Aufwand automatisch in G-Code umwandeln können, erfordert das CNC-Fräsen viel mehr Benutzereingriff, um eine präzise Kontrolle über die Werkzeugwege, Geschwindigkeiten, Tiefen und andere Bearbeitungsparameter zu gewährleisten. Dies macht den [Arbeitsbereich CAM](/CAM_Workbench/de "CAM Workbench/de") unverzichtbar für Aufgaben, die fein abgestimmten G-Code erfordern, insbesondere für das CNC-Fräsen, bei dem die Komplexität der Maschine und die Vielfalt der Vorgänge (wie Schneiden, Bohren und Konturieren) eine sorgfältige Planung erfordern.
 
 Im CAM Workbench ist die G-Code-Pfadgenerierung hochgradig anpassbar. Sie bietet Tools zum Generieren vollständiger Maschinenpfade für verschiedene Vorgänge. Alternativ kannst du auch partielle G-Code-Segmente erstellen und diese zu einem vollständigen Fräsvorgang zusammenfügen. Dieser modulare Ansatz ermöglicht es dir, jeden Schritt des Bearbeitungsprozesses anzupassen und die Werkzeugpfade hinsichtlich Effizienz, Materialtyp und spezifischen Maschinenfunktionen zu optimieren.
 
@@ -80,38 +80,38 @@ Der CAM-Prozess ist tatsächlich viel komplexer als der 3D-Druck, da CNC-Maschin
 
 Obwohl das Erstellen von CNC-Fräspfaden ein zu umfassendes Thema ist, um es hier im Detail zu behandeln, zeigen wir dir, wie du ein einfaches CAM-Projekt in FreeCAD erstellst. Obwohl wir uns nicht auf jedes Detail der realen CNC-Bearbeitung konzentrieren, führt dich dieser Leitfaden in die wesentlichen Schritte ein und zeigt den erforderlichen Aufwand, um genaue und effiziente Ergebnisse zu gewährleisten. Diese zusätzliche Komplexität ist für CNC-Projekte unerlässlich, bei denen Präzision und Anpassbarkeit entscheidend sind, um die gewünschten Bearbeitungsergebnisse zu erzielen.
 
-- Lade die Datei mit unserem Lego-Teil und wechsle zum ![](/src/assets/images/Workbench_CAM.svg) [Arbeitsbereich CAM](/CAM_Workbench/de "CAM Workbench/de").
-- Klicke auf die Schaltfläche ![](/src/assets/images/CAM_Job.svg) [Job](/CAM_Job "CAM Job") und wähle unser Lego-Teil aus.
+- Lade die Datei mit unserem Lego-Teil und wechsle zum ![](/images/Workbench_CAM.svg) [Arbeitsbereich CAM](/CAM_Workbench/de "CAM Workbench/de").
+- Klicke auf die Schaltfläche ![](/images/CAM_Job.svg) [Job](/CAM_Job "CAM Job") und wähle unser Lego-Teil aus.
 - Da dieser Abschnitt kein ausführliches Tutorial zum [Arbeitsbereich CAM](/CAM_Workbench/de "CAM Workbench/de") bieten soll, verwenden wir die Standardwerte. Wenn du ein ausführlicheres Tutorial wünscht, lies bitte [CAM Rundgang für Ungeduldige](/CAM_Walkthrough_for_the_Impatient/de "CAM Walkthrough for the Impatient/de"). Denke daran, dass in dem [Arbeitsbereich CAM](/CAM_Workbench/de "CAM Workbench/de") automatisch ein Rohkörper um dein Objekt herum erstellt wird, der das Rohmaterial darstellt, das bearbeitet wird. Derzeit erstreckt sich dieser Rohkörper 1 mm in alle Richtungen vom Objekt.
 
-![](/src/assets/images/FreeCAD_CAM1.png)
+![](/images/FreeCAD_CAM1.png)
 
 - Der erste Schritt besteht darin, das unnötige Material rund um unser Objekt zu entfernen. In dieser Phase beginnen wir mit einem massiven Block Rohmaterial und müssen den Legostein aus diesem Block herausarbeiten. Bei diesem Vorgang werden die Werkzeugpfade definiert, die das überschüssige Material nach und nach abschneiden und die gewünschte Form des Legosteins hinterlassen.
 
 - Das folgende Bild zeigt das Setup des FreeCAD CAM Workbench für die Bearbeitung eines Legosteins. Der Modellbaum enthält Volumenmodellierungsoperationen wie Pad, Pocket und LinearPattern, die zum Formen des Teils verwendet wurden. Es wird ein Job erstellt, der unter „Operationen“ Werkzeugpfade enthält, die definieren, wie das Material aus dem Rohling entfernt wird. Für die Bearbeitung wird das Standardwerkzeug ausgewählt und der Modellkörper stellt das 3D-Teil dar, an dem gearbeitet wird. Dieses Setup bereitet das Objekt für die Generierung von G-Code zur Steuerung der CNC-Maschine vor.
 
-![](/src/assets/images/FreeCAD_CAMtree.png)
+![](/images/FreeCAD_CAMtree.png)
 
 - Bevor wir mit dem Abschneiden des überschüssigen Materials beginnen, nehmen wir einige Anpassungen am zu verwendenden Fräswerkzeug vor. Obwohl du in der CAM Workbench benutzerdefinierte Werkzeuge definieren kannst, ändern wir der Einfachheit halber das Standardwerkzeug. Dadurch wird sichergestellt, dass die Einstellungen für unser Projekt optimiert sind, ohne dass ein neues Werkzeug von Grund auf neu erstellt werden muss.
 
 - Klicke auf den Text **TC:Default Tool**. Dadurch wird der **Tool Controller Editor** geöffnet. Ändere die Vorschubgeschwindigkeiten und Spindelgeschwindigkeiten wie im Bild gezeigt. Die Vorschubgeschwindigkeiten für horizontales und vertikales Schneiden sind auf 2000 mm/min eingestellt, während die Spindeldrehzahl bei Vorwärtsdrehung auf 2000 U/min eingestellt ist. Diese Einstellungen steuern die Bewegung und Schnittgeschwindigkeit des Werkzeugs während des Bearbeitungsvorgangs.
 
-![](/src/assets/images/FreeCAD_toolController.png)
+![](/images/FreeCAD_toolController.png)
 
 - Doppelklicke auf das Werkzeug selbst und ändere seinen Durchmesser auf 1 mm.
 - Jetzt können wir beginnen, das überschüssige Material aus dem Block zu entfernen und nach und nach die Lego-Geometrie herauszuarbeiten. Dieser Vorgang umfasst die von uns festgelegten Werkzeugpfade, um sicherzustellen, dass die endgültige Form dem beabsichtigten Design entspricht.
-- Klicke auf das ![](/src/assets/images/CAM_Profile.svg) [Profil](/CAM_Profile/de "CAM Profile/de"). Mit dieser Option wird das unnötige Material rund um den Umfang des Teils herausgearbeitet, wodurch die äußeren Grenzen effektiv geformt werden, um die allgemeinen Abmessungen des Lego-Stücks zu erreichen.
+- Klicke auf das ![](/images/CAM_Profile.svg) [Profil](/CAM_Profile/de "CAM Profile/de"). Mit dieser Option wird das unnötige Material rund um den Umfang des Teils herausgearbeitet, wodurch die äußeren Grenzen effektiv geformt werden, um die allgemeinen Abmessungen des Lego-Stücks zu erreichen.
 - Normalerweise musst du keine der Standardwerte ändern, außer dem **Zusätzlichen Versatz** auf der Registerkarte „Operation“. Stelle diese Option auf 1 mm ein, um sicherzustellen, dass das verbleibende Objekt korrekt den Grenzen des Legos entspricht.
 - Sobald du auf **Übernehmen** klickst, solltest du diese grünen Linien um das Objekt herum sehen können. Diese Linien visualisieren den Pfad, dem unser Schneidobjekt beim Schneiden des ursprünglichen Blocks folgt.
 
-![](/src/assets/images/FreeCAD_CAMProfile.png)
+![](/images/FreeCAD_CAMProfile.png)
 
 - Unser nächster Schritt ist die Erstellung der 6 extrudierten Zylinder auf der Oberseite des Legosteins.
-- Wähle die Oberseite und klicke auf die Schaltfläche ![](/src/assets/images/CAM_Pocket_Shape.svg) [Taschenform](/CAM_Pocket_Shape/de "CAM Pocket Shape/de"). Aktiviere auf der Registerkarte **Erweiterungen** die Option Erweiterungen und klicke auf die Kante der Oberseite (normalerweise sollte diese automatisch im Feld für die Standardlänge hinzugefügt werden).
+- Wähle die Oberseite und klicke auf die Schaltfläche ![](/images/CAM_Pocket_Shape.svg) [Taschenform](/CAM_Pocket_Shape/de "CAM Pocket Shape/de"). Aktiviere auf der Registerkarte **Erweiterungen** die Option Erweiterungen und klicke auf die Kante der Oberseite (normalerweise sollte diese automatisch im Feld für die Standardlänge hinzugefügt werden).
 - Gib schließlich auf der Registerkarte **Operation** -1,5 mm in das Feld **Erweiterung übergeben** ein und ändere die Musteroption in einen ZigZagOffset.
 - Drücke **Übernehmen** und schließe dann die Registerkarte.
 - Auf ähnliche Weise können wir die drei Zylinder auf der Unterseite des Legosteins erstellen.
-- Wir können die Schritte beim Fräsen des Objekts leicht visualisieren, indem wir die Option ![](/src/assets/images/CAM_SimulatorGL.svg) [SimulatorGL](/CAM_SimulatorGL "CAM SimulatorGL") verwenden.
+- Wir können die Schritte beim Fräsen des Objekts leicht visualisieren, indem wir die Option ![](/images/CAM_SimulatorGL.svg) [SimulatorGL](/CAM_SimulatorGL "CAM SimulatorGL") verwenden.
 
 **Downloads**
 

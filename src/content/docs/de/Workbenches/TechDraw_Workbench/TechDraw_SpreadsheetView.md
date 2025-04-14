@@ -23,7 +23,7 @@ Das Werkzeug **TechDraw Tabellenansicht** ermöglicht es, eine ausgewählte [Kal
 
 [eingeführt in 1.0](/Release_notes_1.0/de "Release notes 1.0/de"): Auch das Werkzeug [TechDraw Ansicht](/TechDraw_View/de "TechDraw View/de") kann eine Tabellenansicht erstellen.
 
-![](/src/assets/images/TechDraw_Spreadsheetview.png)
+![](/images/TechDraw_Spreadsheetview.png)
 
 Darstellung einer eingefügten Kalkulationstabelle (Spreadsheet-Objekt) als Tabellenansicht (Sheet-Objekt) auf einem TechDraw-Zeichnungsblatt
 
@@ -31,7 +31,7 @@ Darstellung einer eingefügten Kalkulationstabelle (Spreadsheet-Objekt) als Tabe
 
 1. Ein Tabellenblatt in der [Baumansicht](/Tree_view/de "Tree view/de") auswählen.
 2. Wenn mehrere Zeichnungsblätter im Dokument vorhanden sind: Wahlweise das gewünschte Zeichnungsblatt durch Auswählen in der [Baumansicht](/Tree_view/de "Tree view/de") zur Auswahl hinzufügen.
-3. Den Menüeintrag **TechDraw → Ansichten von anderen Arbeitsbereichen → ![](/src/assets/images/TechDraw_SpreadsheetView.svg) Tabellenansicht einfügen** auswählen.
+3. Den Menüeintrag **TechDraw → Ansichten von anderen Arbeitsbereichen → ![](/images/TechDraw_SpreadsheetView.svg) Tabellenansicht einfügen** auswählen.
 4. Wenn mehrere Zeichnungsblätter im Dokument vorhanden sind und kein Blatt im [Hauptansichtsbereich](/Main_view_area/de "Main view area/de") angezeigt wird und außerdem noch kein Blatt aktiviert wurde, wird das Dialogfeld **Blattauswahl** geöffnet:
    1. Das gewünschte Blatt auswählen.
    2. Die Schaltfläche OK drücken.

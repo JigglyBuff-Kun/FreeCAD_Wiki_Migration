@@ -23,19 +23,19 @@ This documentation is not finished. Please help and contribute documentation.Gui
 
 ## Description
 
-The ![](/src/assets/images/Assembly_Trace.svg) [Trace part move](/Assembly3_TracePartMove "Assembly3 TracePartMove") command traces one single point of a kinematic assembly, when one of the assembled objects is moved with either the ![](/src/assets/images/Assembly_Move.svg) [Move part](/Assembly3_MovePart "Assembly3 MovePart") tool or the ![](/src/assets/images/Assembly_AxialMove.svg) [Axial move](/Assembly3_AxialMove "Assembly3 AxialMove") tool.
+The ![](/images/Assembly_Trace.svg) [Trace part move](/Assembly3_TracePartMove "Assembly3 TracePartMove") command traces one single point of a kinematic assembly, when one of the assembled objects is moved with either the ![](/images/Assembly_Move.svg) [Move part](/Assembly3_MovePart "Assembly3 MovePart") tool or the ![](/images/Assembly_AxialMove.svg) [Axial move](/Assembly3_AxialMove "Assembly3 AxialMove") tool.
 
 ## Usage
 
 1. Optionally select a wire object:
    - A point to trace itself.
    - An edge or face to trace the center point of its shape.
-2. Activate the ![](/src/assets/images/Assembly_Trace.svg) **Trace part move** command using one of the following:
-   - The ![](/src/assets/images/Assembly_Trace.svg) [Trace part move](/Assembly3_TracePartMove "Assembly3 TracePartMove") button.
-   - The **Assembly3 → ![](/src/assets/images/Assembly_Trace.svg) Trace part move** menu option.
+2. Activate the ![](/images/Assembly_Trace.svg) **Trace part move** command using one of the following:
+   - The ![](/images/Assembly_Trace.svg) [Trace part move](/Assembly3_TracePartMove "Assembly3 TracePartMove") button.
+   - The **Assembly3 → ![](/images/Assembly_Trace.svg) Trace part move** menu option.
 3. Select one object of the assembly and move it using one of the following:
-   - The ![](/src/assets/images/Assembly_Move.svg) [Move part](/Assembly3_MovePart "Assembly3 MovePart") tool.
-   - The ![](/src/assets/images/Assembly_AxialMove.svg) [Axial move](/Assembly3_AxialMove "Assembly3 AxialMove") tool.
+   - The ![](/images/Assembly_Move.svg) [Move part](/Assembly3_MovePart "Assembly3 MovePart") tool.
+   - The ![](/images/Assembly_AxialMove.svg) [Axial move](/Assembly3_AxialMove "Assembly3 AxialMove") tool.
 4. Press the esc key or the OK button (Axial move only) to finish tracing.
 5. Find an AsmTrace object in the [Tree view](/Tree_view "Tree view").
 

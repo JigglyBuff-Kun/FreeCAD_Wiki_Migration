@@ -28,13 +28,13 @@ Applies a pressure load to a face.
 ## Usage
 
 1. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/FEM_ConstraintPressure.svg) [Pressure load](/FEM_ConstraintPressure "FEM ConstraintPressure") button.
-   - Select the **Model → Mechanical boundary conditions and loads → ![](/src/assets/images/FEM_ConstraintPressure.svg) Pressure load** option from the menu.
+   - Press the ![](/images/FEM_ConstraintPressure.svg) [Pressure load](/FEM_ConstraintPressure "FEM ConstraintPressure") button.
+   - Select the **Model → Mechanical boundary conditions and loads → ![](/images/FEM_ConstraintPressure.svg) Pressure load** option from the menu.
 2. Press the Add button and select face(s) in the [3D view](/3D_view "3D view"). Optionally press the Remove and click on the faces that you want to remove from the selection.
 3. Edit the appropriate window to specify the pressure load in MPa.
 4. Tick the box to reverse the direction if necessary.
 
-![](/src/assets/images/FEM_Pressure_example.PNG)
+![](/images/FEM_Pressure_example.PNG)
 
 Pressure load applied to a cylinder
 

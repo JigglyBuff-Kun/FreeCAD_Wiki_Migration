@@ -23,20 +23,20 @@ The **Hole** feature creates one or more holes from a selected sketch's circles 
 
 The centers of the circles and arcs are used to position the holes, but please note that their radii are not taken into account. The generated holes will be identical even if the radii vary.
 
-![](/src/assets/images/Countersunk_and_counterbored_holes_cross-section1.png)
+![](/images/Countersunk_and_counterbored_holes_cross-section1.png)
 
 Countersunk (to the left) and counterbored (to the right) holes longitudinal section.
 
 ## Usage
 
-1. Press the ![](/src/assets/images/PartDesign_Hole.svg) **Hole** button.
+1. Press the ![](/images/PartDesign_Hole.svg) **Hole** button.
 2. If an existing unused sketch is found, it will be used automatically. If more than one sketch is found, a **Select feature** panel appears to make a selection. Alternatively, a sketch can be selected before launching the Hole command.
 3. Define the Hole parameters, that are described in section [Options](#Options).
 4. Press OK.
 
 ## Options
 
-![](/src/assets/images/PartDesign_Hole_parameters.png)
+![](/images/PartDesign_Hole_parameters.png)
 
 Depending on the specified options, some fields will be active or stay disabled.
 
@@ -109,11 +109,11 @@ Depending on the specified options, some fields will be active or stay disabled.
 Much of the Data properties are the same as those shown in [Options](#Options).
 
 - Data**Label**: name given to the object, this name can be changed at convenience.
-- Data**Refine**: true or false. If set to true, cleans the solid from residual edges left by features. See ![](/src/assets/images/Part_RefineShape.svg) [Part RefineShape](/Part_RefineShape "Part RefineShape") for more details.
+- Data**Refine**: true or false. If set to true, cleans the solid from residual edges left by features. See ![](/images/Part_RefineShape.svg) [Part RefineShape](/Part_RefineShape "Part RefineShape") for more details.
 
 ## Limitations
 
-- By default, the hole feature extrudes below the sketch plane. If the solid lies on the XY_Plane, and the hole sketch is attached to the XY_Plane, it will try to extrude away from the solid and seemingly produce no result. In such a case, the option _Reversed_ needs to be set; alternatively the sketch can be mapped to the bottom face of the solid.
+- By default, the hole feature extrudes below the sketch plane. If the solid lies on the XY*Plane, and the hole sketch is attached to the XY_Plane, it will try to extrude away from the solid and seemingly produce no result. In such a case, the option \_Reversed* needs to be set; alternatively the sketch can be mapped to the bottom face of the solid.
 
 ## Cut Type Definitions
 

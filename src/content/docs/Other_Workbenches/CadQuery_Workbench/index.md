@@ -2,7 +2,7 @@
 title: CadQuery Workbench
 ---
 
-![](/src/assets/images/Cadquery_module_workbench_icon.svg)
+![](/images/Cadquery_module_workbench_icon.svg)
 
 CadQuery workbench icon
 
@@ -22,11 +22,11 @@ A module-workbench combo that adds a CadQuery editor to FreeCAD. Please see the 
 
 ## Tools
 
-![](/src/assets/images/CadQuery-menu-vert.png)
+![](/images/CadQuery-menu-vert.png)
 
 ## Installation
 
-Install with the ![](/src/assets/images/Std_AddonMgr.svg) [Addon Manager](/Std_AddonMgr "Std AddonMgr").
+Install with the ![](/images/Std_AddonMgr.svg) [Addon Manager](/Std_AddonMgr "Std AddonMgr").
 
 ## Links
 

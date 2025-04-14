@@ -23,14 +23,14 @@ This documentation is not finished. Please help and contribute documentation.Gui
 
 ## Description
 
-The ![](/src/assets/images/Assembly_ToggleGrounded.svg) [Assembly ToggleGrounded](/Assembly_ToggleGrounded "Assembly ToggleGrounded") tool fixes the position and orientation of a shape in relation to the coordinate system of the Assembly it belongs to.
+The ![](/images/Assembly_ToggleGrounded.svg) [Assembly ToggleGrounded](/Assembly_ToggleGrounded "Assembly ToggleGrounded") tool fixes the position and orientation of a shape in relation to the coordinate system of the Assembly it belongs to.
 
 ## Usage
 
 1. Select one or more parts.
 2. There are several ways to invoke the tool:
-   - Press the ![](/src/assets/images/Assembly_ToggleGrounded.svg) [Toggle grounded](/Assembly_ToggleGrounded "Assembly ToggleGrounded") button.
-   - Select the **Assembly → ![](/src/assets/images/Assembly_ToggleGrounded.svg) Toggle grounded** option from the menu.
+   - Press the ![](/images/Assembly_ToggleGrounded.svg) [Toggle grounded](/Assembly_ToggleGrounded "Assembly ToggleGrounded") button.
+   - Select the **Assembly → ![](/images/Assembly_ToggleGrounded.svg) Toggle grounded** option from the menu.
    - Use the keyboard shortcut: G.
 3. A GroundedJoint is added for each selected part.
 

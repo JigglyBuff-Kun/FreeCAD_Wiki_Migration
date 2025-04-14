@@ -25,6 +25,6 @@ Aktuell verweist der Befehl auf die Seite [https://www.freecad.org](https://www.
 
 ## Anwendung
 
-1. Den Menüeintrag **Hilfe → ![](/src/assets/images/Std_FreeCADWebsite.svg) FreeCAD Webseite** auswählen.
+1. Den Menüeintrag **Hilfe → ![](/images/Std_FreeCADWebsite.svg) FreeCAD Webseite** auswählen.
 
 Retrieved from "<http://wiki.freecad.org/index.php?title=Std_FreeCADWebsite/de&oldid=1454733>"

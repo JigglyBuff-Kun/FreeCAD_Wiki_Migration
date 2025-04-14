@@ -25,7 +25,7 @@ title: How to install additional workbenches
 
 Power users have extended FreeCAD with various custom [external workbenches](/External_workbenches "External workbenches") that are not integrated into the core source code but are easy to install on an existing FreeCAD distribution. Here we will cover the installation methods for the different operating systems.
 
-_Note:_ starting from version 0.17, FreeCAD features an ![](/src/assets/images/Std_AddonMgr.svg) [Addon Manager](/Std_AddonMgr "Std AddonMgr") in the **Tools → Addon Manager** menu, that allows installing both macros and workbenches. The instructions below are only required if you wish to manually install a workbench. This may be necessary if for some reason the Addon Manager doesn't work but you have access to the workbench downloaded as a .zip package.
+_Note:_ starting from version 0.17, FreeCAD features an ![](/images/Std_AddonMgr.svg) [Addon Manager](/Std_AddonMgr "Std AddonMgr") in the **Tools → Addon Manager** menu, that allows installing both macros and workbenches. The instructions below are only required if you wish to manually install a workbench. This may be necessary if for some reason the Addon Manager doesn't work but you have access to the workbench downloaded as a .zip package.
 
 ## Installing on Windows
 

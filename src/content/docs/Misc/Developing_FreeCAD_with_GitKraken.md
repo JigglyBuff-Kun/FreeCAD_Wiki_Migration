@@ -18,7 +18,7 @@ There are different ways to download GitKraken depending on your operating syste
 
 1. Download GitKraken.
 2. In your web browser go to: `https://github.com/FreeCAD/FreeCAD`.  
-   ![](/src/assets/images/Github-Fork-button.png)
+   ![](/images/Github-Fork-button.png)
 3. Click the **Fork** button. This will clone the `FreeCAD/FreeCAD` repository to your own account. In other words the URL to access your fork will be:
 
    ```
@@ -27,13 +27,13 @@ There are different ways to download GitKraken depending on your operating syste
    ```
 
 4. Open GitKraken, go to **File → Clone Repo**, and enter this address.  
-   ![](/src/assets/images/GitKraken-Clone-Repo-dialogue.png)
+   ![](/images/GitKraken-Clone-Repo-dialogue.png)
 5. GitKraken will now `git clone` your personal repository.
    Please read the difference between [origin vs. upstream](https://stackoverflow.com/questions/9257533/what-is-the-difference-between-origin-and-upstream-on-github#9257901) remote repository. Essentially, your fork of FreeCAD is the `origin` repository, while the official FreeCAD repository is `upstream`. You now need to set the upstream accordingly.
 6. Locate the sidebar in Gitkraken. There is a **Local** and **Remote** section. Local refers to your local branches. Remote refers to remote repositories and their branches. Lets add the FreeCAD repo as a remote. In the **Remote** section click the + (as illustrated in the image below).  
-   ![](/src/assets/images/Gitkraken-remote-sidebar.png)
+   ![](/images/Gitkraken-remote-sidebar.png)
 7. An **Add Remote** dialog will open. Click the Github symbol (1). In the **Github repo** field (2) find the `FreeCAD/FreeCAD` and click on it. In the **Name** field, type `upstream`. Then click the Add Button.  
-   ![](/src/assets/images/Gitkraken-add-remote-dark.png)
+   ![](/images/Gitkraken-add-remote-dark.png)
 8. The dialog will close and switch back to GitKraken main interface. This time find the **Local** section in the sidebar; double click on the `master` branch so you switch to it. In the command line, this is equivalent to
 
    ```
@@ -61,7 +61,7 @@ _Remote_ indicates a remote repository, for example in GitHub
 | Remote upstream | The official FreeCAD repository `https://github.com/FreeCAD/FreeCAD`, indicated by the **green** line in the screenshot.         |
 | Remote origin   | Your personal fork of FreeCAD, `https://github.com/YourGitHubUsername/FreeCAD`, indicated by the **red** line in the screenshot. |
 
-![](/src/assets/images/GitKraken-Main-Screen-sm.jpg)
+![](/images/GitKraken-Main-Screen-sm.jpg)
 
 GitKraken interface showing three local branches including a local _master_, and remote `origin` and `upstream` repositories, each of which have a master and release branches.
 
@@ -73,7 +73,7 @@ In the image, the remote the **Local master** and **Remote origin master** branc
 - Move the mouse to the last upstream commit, right click, and choose **Rebase master onto upstream/master** (`git pull upstream master`)
 - Now press the **Push** button (`git push origin master`). This pushes from your **Local master** to the **Remote origin master**.
 
-![](/src/assets/images/GitKraken-Rebasing.gif)
+![](/images/GitKraken-Rebasing.gif)
 
 Rebasing a local master updates it so that it matches the contents of the upstream master.
 
@@ -95,17 +95,17 @@ Steps in GitKraken:
 
 : GitKraken will open a dialog that asks you to confirm the repository which your branch will use to pull and push. It will then push your local branch to that remote repository.
 
-![](/src/assets/images/Gitkraken-How_to_PR.png)
+![](/images/Gitkraken-How_to_PR.png)
 
 - GitKraken will ask you what you want to call the remote branch. The default name is the same name that the branch has locally in your computer.
 
-![](/src/assets/images/Gitkraken-How-to-PR-Prompt-for-Branch-name.png)
+![](/images/Gitkraken-How-to-PR-Prompt-for-Branch-name.png)
 
 - GitKraken then opens up another dialog asking the repositories and branches to merge, and the direction (from and to).
 
 : You normally want to merge from the remote **origin <your-branch-name>** (`GITHUBUSERNAME/FreeCAD`) to the remote **upstream master** branch (`FreeCAD/FreeCAD`). Be sure to enter a good title for the pull request, and write a more descriptive paragraph if your changes are significant. Consult the official documentation of [GitKraken](https://support.gitkraken.com/working-with-repositories/pull-requests) for more information.
 
-![](/src/assets/images/Gitkraken-How-to-PR-Github-Dialog-breakdown.png)
+![](/images/Gitkraken-How-to-PR-Github-Dialog-breakdown.png)
 
 ## Resolving merge conflicts
 
@@ -135,7 +135,7 @@ You can use GitKraken to follow the personal FreeCAD forks of other developers; 
 3. Press **Add Remote**.
 
 Now whenever new commits are made, or branches are rebased, by the authors of those repositories, you will see their commit history in a graphical way.
-![](/src/assets/images/Gitkraken-add-remote.gif)
+![](/images/Gitkraken-add-remote.gif)
 
 ## Related
 

@@ -17,17 +17,8 @@ export default defineConfig({
         bg: {
           label: "Български",
         },
-        // Simplified Chinese docs
-        cn: {
-          label: "简体中文",
-          lang: "zh-CN",
-        },
         // Czech docs
         cs: {
-          label: "Čeština",
-        },
-        // Czech (alternative code)
-        cz: {
           label: "Čeština",
         },
         // German docs
@@ -64,82 +55,82 @@ export default defineConfig({
           label: "Bahasa Indonesia",
         },
         // Italian docs
-        it: {
-          label: "Italiano",
-        },
-        // Japanese docs
-        ja: {
-          label: "日本語",
-        },
-        // Korean docs
-        ko: {
-          label: "한국어",
-        },
-        // Polish docs
-        pl: {
-          label: "Polski",
-        },
-        // Brazilian Portuguese docs
-        "pt-br": {
-          label: "Português do Brasil",
-          lang: "pt-BR",
-        },
-        // Portuguese docs
-        pt: {
-          label: "Português",
-        },
-        // Romanian docs
-        ro: {
-          label: "Română",
-        },
-        // Russian docs
-        ru: {
-          label: "Русский",
-        },
-        // Slovak docs
-        sk: {
-          label: "Slovenčina",
-        },
-        // Swedish docs
-        sv: {
-          label: "Svenska",
-        },
-        // Turkish docs
-        tr: {
-          label: "Türkçe",
-        },
-        // Ukrainian docs
-        uk: {
-          label: "Українська",
-        },
-        // Vietnamese docs
-        vi: {
-          label: "Tiếng Việt",
-        },
-        // Simplified Chinese docs
-        "zh-cn": {
-          label: "简体中文",
-          lang: "zh-CN",
-        },
-        // Chinese (Simplified)
-        "zh-hans": {
-          label: "简体中文",
-          lang: "zh-Hans",
-        },
-        // Chinese (Traditional)
-        "zh-hant": {
-          label: "繁體中文",
-          lang: "zh-Hant",
-        },
-        // Traditional Chinese docs
-        "zh-tw": {
-          label: "繁體中文",
-          lang: "zh-TW",
-        },
-        // Chinese (generic)
-        zh: {
-          label: "中文",
-        },
+        // it: {
+        //   label: "Italiano",
+        // },
+        // // Japanese docs
+        // ja: {
+        //   label: "日本語",
+        // },
+        // // Korean docs
+        // ko: {
+        //   label: "한국어",
+        // },
+        // // Polish docs
+        // pl: {
+        //   label: "Polski",
+        // },
+        // // Brazilian Portuguese docs
+        // "pt-br": {
+        //   label: "Português do Brasil",
+        //   lang: "pt-BR",
+        // },
+        // // Portuguese docs
+        // pt: {
+        //   label: "Português",
+        // },
+        // // Romanian docs
+        // ro: {
+        //   label: "Română",
+        // },
+        // // Russian docs
+        // ru: {
+        //   label: "Русский",
+        // },
+        // // Slovak docs
+        // sk: {
+        //   label: "Slovenčina",
+        // },
+        // // Swedish docs
+        // sv: {
+        //   label: "Svenska",
+        // },
+        // // Turkish docs
+        // tr: {
+        //   label: "Türkçe",
+        // },
+        // // Ukrainian docs
+        // uk: {
+        //   label: "Українська",
+        // },
+        // // Vietnamese docs
+        // vi: {
+        //   label: "Tiếng Việt",
+        // },
+        // // Simplified Chinese docs
+        // "zh-cn": {
+        //   label: "简体中文",
+        //   lang: "zh-CN",
+        // },
+        // // Chinese (Simplified)
+        // "zh-hans": {
+        //   label: "简体中文",
+        //   lang: "zh-Hans",
+        // },
+        // // Chinese (Traditional)
+        // "zh-hant": {
+        //   label: "繁體中文",
+        //   lang: "zh-Hant",
+        // },
+        // // Traditional Chinese docs
+        // "zh-tw": {
+        //   label: "繁體中文",
+        //   lang: "zh-TW",
+        // },
+        // // Chinese (generic)
+        // zh: {
+        //   label: "中文",
+        // },
       },
 
       sidebar: [

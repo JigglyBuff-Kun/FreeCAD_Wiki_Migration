@@ -23,13 +23,13 @@ This documentation is not finished. Please help and contribute documentation.Gui
 
 ## Description
 
-The ![](/src/assets/images/CAM_Helix.svg) [CAM Helix](/CAM_Helix "CAM Helix") tool appends a helical clearing operation to the Job. Clockwise Helix outputs (G2) G-Code commands. Counterclockwise outputs (G3) G-Code commands. Step Over percentage specifies the concentric step-over as a percentage of the Tool diameter. One or more helical paths will be created at progressively different diameters, to clear the hole.
+The ![](/images/CAM_Helix.svg) [CAM Helix](/CAM_Helix "CAM Helix") tool appends a helical clearing operation to the Job. Clockwise Helix outputs (G2) G-Code commands. Counterclockwise outputs (G3) G-Code commands. Step Over percentage specifies the concentric step-over as a percentage of the Tool diameter. One or more helical paths will be created at progressively different diameters, to clear the hole.
 
 ## Usage
 
-- Select the ![](/src/assets/images/Workbench_CAM.svg) [CAM Workbench](/CAM_Workbench "CAM Workbench").
-- Select the ![](/src/assets/images/CAM_Helix.svg) icon or CAM → ![](/src/assets/images/CAM_Helix.svg) Helix from the top menu. This opens the ![](/src/assets/images/CAM_Helix.svg) Helix configuration panel.
-- You will be prompted with a "Choose a Tool Controller" pop-up window to select a Tool Controller. In older versions, in the ![](/src/assets/images/CAM_Helix.svg) Operation tab, choose a Tool controller and confirm by pressing Apply.
+- Select the ![](/images/Workbench_CAM.svg) [CAM Workbench](/CAM_Workbench "CAM Workbench").
+- Select the ![](/images/CAM_Helix.svg) icon or CAM → ![](/images/CAM_Helix.svg) Helix from the top menu. This opens the ![](/images/CAM_Helix.svg) Helix configuration panel.
+- You will be prompted with a "Choose a Tool Controller" pop-up window to select a Tool Controller. In older versions, in the ![](/images/CAM_Helix.svg) Operation tab, choose a Tool controller and confirm by pressing Apply.
 - Open the Base Geometry tab. All available holes compatible with the Helix tool in the Job Model will be selectable for processing. In the [3D view](/3D_view "3D view") select the holes by their edge or wall face and add them with the Add button. Check that they appear in the list. Confirm that the list matches the holes that are intended for processing.
 - To remove holes select them in the list and press the Remove button.
 - Ensure Start Depth, Final Depth and Step Down (the pitch of the helix) are correct, and adjust if not.

@@ -37,7 +37,7 @@ Creating a simple freestanding annex to a country summerhouse.
 
 Existing and proposed
 
-![caption](/src/assets/images/At03_01.jpg)
+![caption](/images/At03_01.jpg)
 
 ### Functional requirements
 
@@ -55,8 +55,8 @@ Designed as three (possibly Four) adjoining 'buildings', from left to right in b
 
 ### Initial Sketches
 
-![](/src/assets/images/Yvegg01x.jpg)
-![](/src/assets/images/At03_02.jpg)
+![](/images/Yvegg01x.jpg)
+![](/images/At03_02.jpg)
 
 # Modeling approach
 
@@ -128,7 +128,7 @@ Modeling the project with BlenderBIM
 
 #### Show number of objects selected in Python Console
 
-![](/src/assets/images/At3Stats.png)
+![](/images/At3Stats.png)
 
 In ViewPort Overlays pulldown, check Statistics. This will place Statistics in the viewport.
 
@@ -142,7 +142,7 @@ print(len(context.selected_objects))`
 
 DoubleDoor Opening
 
-![caption](/src/assets/images/LysOpningDoor.png)
+![caption](/images/LysOpningDoor.png)
 
 If we assume 20mm Clearance each side, this gives L = 2210 H = 2060
 

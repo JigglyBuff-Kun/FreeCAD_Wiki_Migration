@@ -21,7 +21,7 @@ title: FEM PostFilterDataAlongLine
 
 Plots the values of a field along a specified line.
 
-![](/src/assets/images/FEM_Line-Clip-Filter-Example.png)
+![](/images/FEM_Line-Clip-Filter-Example.png)
 
 A line clip filter inside a [Region clip filter](/FEM_PostFilterClipRegion "FEM PostFilterClipRegion").  
 The Region clip filter is the semi-transparent object.  
@@ -31,8 +31,8 @@ The part of the line outside the Region clip filter is set to a value of zero an
 
 1. Select a previously created [result pipeline](/FEM_PostPipelineFromResult "FEM PostPipelineFromResult") or another filter.
 2. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/FEM_PostFilterDataAlongLine.svg) [Line clip filter](/FEM_PostFilterDataAlongLine "FEM PostFilterDataAlongLine") button.
-   - Select the **Results → ![](/src/assets/images/FEM_PostFilterDataAlongLine.svg) Line clip filter** option from the menu.
+   - Press the ![](/images/FEM_PostFilterDataAlongLine.svg) [Line clip filter](/FEM_PostFilterDataAlongLine "FEM PostFilterDataAlongLine") button.
+   - Select the **Results → ![](/images/FEM_PostFilterDataAlongLine.svg) Line clip filter** option from the menu.
 3. Specify the coordinates of two points defining the line along which the results are to be evaluated. Optionally, press the Select Points button and pick the points manually on the surface of the mesh.
 4. Optionally, specify the **Resolution**.
 5. Select a **Field** from the expandable list.

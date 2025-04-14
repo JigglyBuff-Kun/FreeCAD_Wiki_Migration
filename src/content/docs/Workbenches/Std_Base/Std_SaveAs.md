@@ -23,7 +23,7 @@ The **Std SaveAs** command saves the active document under a new file name.
 
 ## Usage
 
-1. Select the **File → ![](/src/assets/images/Std_SaveAs.svg) Save As...** option from the menu.
+1. Select the **File → ![](/images/Std_SaveAs.svg) Save As...** option from the menu.
 2. Enter a filename in the dialog box.
 3. Press the Save button.
 

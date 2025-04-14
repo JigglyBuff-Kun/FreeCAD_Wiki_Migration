@@ -30,9 +30,9 @@ The PartDesign workbench in FreeCAD v0.17 introduces new tools and elements that
 ## Usage
 
 1. Open a FreeCAD document that was created with FreeCAD 0.16 and below
-2. Switch to the ![](/src/assets/images/Workbench_PartDesign.svg) [PartDesign](/PartDesign_Workbench "PartDesign Workbench") workbench.
+2. Switch to the ![](/images/Workbench_PartDesign.svg) [PartDesign](/PartDesign_Workbench "PartDesign Workbench") workbench.
 3. Go to the **Part Design** → **Migrate** menu.
-4. If the migration works, a ![](/src/assets/images/Std_Part.svg) [Part container](/Std_Part "Std Part") will be created which will hold one or more ![](/src/assets/images/PartDesign_Body.svg) [Bodies](/PartDesign_Body "PartDesign Body"), each hosting a chain of features.
+4. If the migration works, a ![](/images/Std_Part.svg) [Part container](/Std_Part "Std Part") will be created which will hold one or more ![](/images/PartDesign_Body.svg) [Bodies](/PartDesign_Body "PartDesign Body"), each hosting a chain of features.
 
 ## Limitations
 

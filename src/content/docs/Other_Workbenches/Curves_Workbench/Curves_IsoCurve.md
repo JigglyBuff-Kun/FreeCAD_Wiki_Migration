@@ -19,9 +19,9 @@ title: Curves IsoCurve
 
 ## Description
 
-The ![](/src/assets/images/Curves_IsoCurve.svg) [Curves IsoCurve](/Curves_IsoCurve "Curves IsoCurve") tool applies a UV oriented lattice onto selected surfaces.
+The ![](/images/Curves_IsoCurve.svg) [Curves IsoCurve](/Curves_IsoCurve "Curves IsoCurve") tool applies a UV oriented lattice onto selected surfaces.
 
-![](/src/assets/images/Curves_IsoCurve_Demo.jpg)
+![](/images/Curves_IsoCurve_Demo.jpg)
 
 Above: shows the surface before (left) and after (right) applying the tool
 
@@ -29,8 +29,8 @@ Above: shows the surface before (left) and after (right) applying the tool
 
 1. Select one or more faces in the [3D view](/3D_view "3D view").
 2. There are several ways to invoke the tool:
-   - Press the ![](/src/assets/images/Curves_IsoCurve.svg) [IsoCurve](/Curves_IsoCurve "Curves IsoCurve") button.
-   - Select the **Surfaces → ![](/src/assets/images/Curves_IsoCurve.svg) IsoCurve** option from the menu.
+   - Press the ![](/images/Curves_IsoCurve.svg) [IsoCurve](/Curves_IsoCurve "Curves IsoCurve") button.
+   - Select the **Surfaces → ![](/images/Curves_IsoCurve.svg) IsoCurve** option from the menu.
 3. A **IsoCurve** object is created for each selected face, applying a UV oriented lattice on each face.
 4. Optionally edit the values in the [Property editor](/Property_editor "Property editor") to change the numbers of iso curves along U and V directions and adjust the related properties (see Properties below).
 

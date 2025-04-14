@@ -685,7 +685,7 @@ Und das ist der SVG-Kode aus diesem Makro:
 
 Und so soll es aussehen, wenn sie (die Vorlage) eingefügt wurde (mit vergrößertem Schriftfeld):
 
-![](/src/assets/images/TechDraw_TemplateGenerator.png)
+![](/images/TechDraw_TemplateGenerator.png)
 
 Die editierbaren Texte in blau einzufärben ist nur eine persönliche Vorliebe, um unveränderlichen und editierbaren Text einfacher unterscheiden zu können.
 

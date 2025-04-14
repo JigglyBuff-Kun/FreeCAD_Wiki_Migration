@@ -25,12 +25,12 @@ Dieser Befehl ist veraltet und wird in1.0 und neuernicht mehr zur Verfügung ste
 
 Dieser Befehl schaltet die Sichtbarkeit aller Messungen in der [3D-Ansicht](/3D_view/de "3D view/de") um.
 
-![](/src/assets/images/MeasureLinear3DandDelta1.PNG)
+![](/images/MeasureLinear3DandDelta1.PNG)
 
 ## Anwendung
 
 1. Es gibt mehrere Möglichkeiten den Befehl aufzurufen:
-   - Die Schaltfläche ![](/src/assets/images/Part_Measure_Toggle_All.svg) Alle umschalten drücken.
-   - Den Menüeintrag **Messen → ![](/src/assets/images/Part_Measure_Toggle_All.svg) Alle umschalten** auswählen.
+   - Die Schaltfläche ![](/images/Part_Measure_Toggle_All.svg) Alle umschalten drücken.
+   - Den Menüeintrag **Messen → ![](/images/Part_Measure_Toggle_All.svg) Alle umschalten** auswählen.
 
 Retrieved from "<http://wiki.freecad.org/index.php?title=Part_Measure_Toggle_All/de&oldid=1425611>"

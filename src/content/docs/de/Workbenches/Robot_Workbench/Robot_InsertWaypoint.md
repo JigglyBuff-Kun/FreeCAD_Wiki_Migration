@@ -25,9 +25,9 @@ Einfügen eines Wegpunktes aus der aktuellen Roboter-(Werkzeug)-Position in eine
 
 1. Einen Roboter und eine Bewegungsbahn in der [Baumansicht](/Tree_view/de "Tree view/de") auswählen.
 2. Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
-   - ![](/src/assets/images/Robot_InsertWaypoint.svg) anklicken.
+   - ![](/images/Robot_InsertWaypoint.svg) anklicken.
    * Das Tastaturkürzel A.
-   * Den Menüeintrag Robot → ![](/src/assets/images/Robot_InsertWaypoint.svg) In Bewegungsbahn einfügen auswählen.
+   * Den Menüeintrag Robot → ![](/images/Robot_InsertWaypoint.svg) In Bewegungsbahn einfügen auswählen.
 
 ## Hinweise
 

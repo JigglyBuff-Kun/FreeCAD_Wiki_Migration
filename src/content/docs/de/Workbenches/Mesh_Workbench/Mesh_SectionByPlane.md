@@ -25,8 +25,8 @@ Der Befehl **Mesh SchnittMitEbene** erstellt einen Schnitt durch ein Netzobjekt 
 
 1. Select a single mesh object and a single [Part plane](/Part_Primitives "Part Primitives"). The (extended) plane should intersect the mesh object.
 2. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/Mesh_SectionByPlane.svg) [Create section from mesh and plane](/Mesh_SectionByPlane "Mesh SectionByPlane") button.
-   - Select the **Meshes → Cutting → ![](/src/assets/images/Mesh_SectionByPlane.svg) Create section from mesh and plane** option from the menu.
+   - Press the ![](/images/Mesh_SectionByPlane.svg) [Create section from mesh and plane](/Mesh_SectionByPlane "Mesh SectionByPlane") button.
+   - Select the **Meshes → Cutting → ![](/images/Mesh_SectionByPlane.svg) Create section from mesh and plane** option from the menu.
 
 ## Eigenschaften
 

@@ -19,17 +19,17 @@ title: Sketcher QuadratErstellen
 
 ## Beschreibung
 
-Das Werkzeug ![](/src/assets/images/Sketcher_CreateSquare.svg) Sketcher QuadratErstellen erstellt ein Quadrat. [eingeführt in 1.0](/Release_notes_1.0/de "Release notes 1.0/de"): Dies ist dasselbe Werkzeug wie [Sketcher RegelmäßigesVieleckErstellen](/Sketcher_CreateRegularPolygon/de "Sketcher CreateRegularPolygon/de") aber mit der vorgegebenen Anzahl von 4 Seiten.
+Das Werkzeug ![](/images/Sketcher_CreateSquare.svg) Sketcher QuadratErstellen erstellt ein Quadrat. [eingeführt in 1.0](/Release_notes_1.0/de "Release notes 1.0/de"): Dies ist dasselbe Werkzeug wie [Sketcher RegelmäßigesVieleckErstellen](/Sketcher_CreateRegularPolygon/de "Sketcher CreateRegularPolygon/de") aber mit der vorgegebenen Anzahl von 4 Seiten.
 
-![](/src/assets/images/SketcherCreateSquareExample.png)
+![](/images/SketcherCreateSquareExample.png)
 
 ## Anwendung
 
 Siehe auch: [Zeichnungshilfen](/Sketcher_Workbench/de#Zeichnungshilfen "Sketcher Workbench/de").
 
 1. Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
-   - Die Schaltfläche ![](/src/assets/images/Sketcher_CreateSquare.svg) Quadrat drücken.
-   - Den Menüeintrag **Skizze → Skizzengeometrien → ![](/src/assets/images/Sketcher_CreateSquare.svg) Quadrat erstellen** auswählen.
+   - Die Schaltfläche ![](/images/Sketcher_CreateSquare.svg) Quadrat drücken.
+   - Den Menüeintrag **Skizze → Skizzengeometrien → ![](/images/Sketcher_CreateSquare.svg) Quadrat erstellen** auswählen.
    - Das Tastaturkürzel G dann P dann 4.
 2. Für weitere Schritte siehe [Sketcher RegelmäßigesVieleckErstellen](/Sketcher_CreateRegularPolygon/de#Anwendung "Sketcher CreateRegularPolygon/de").
 

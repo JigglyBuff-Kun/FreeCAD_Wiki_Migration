@@ -27,20 +27,20 @@ THIS VERSION OF THE COMMAND IS OBSOLETEIt was changed in1.0 and aboveand accesse
 
 ## Description
 
-The **Material Editor** allows you to edit and save the information contained in a [FreeCAD material](/Material "Material"). Currently such materials are used by the ![](/src/assets/images/Workbench_FEM.svg) [FEM](/FEM_Workbench "FEM Workbench") and ![](/src/assets/images/Workbench_BIM.svg) [BIM](/BIM_Workbench "BIM Workbench") workbenches.
+The **Material Editor** allows you to edit and save the information contained in a [FreeCAD material](/Material "Material"). Currently such materials are used by the ![](/images/Workbench_FEM.svg) [FEM](/FEM_Workbench "FEM Workbench") and ![](/images/Workbench_BIM.svg) [BIM](/BIM_Workbench "BIM Workbench") workbenches.
 
-![](/src/assets/images/Material_editor.png)
+![](/images/Material_editor.png)
 
 ## Usage
 
 The material editor can currently be accessed by either:
 
-1. ![](/src/assets/images/Workbench_BIM.svg) [BIM Workbench](/BIM_Workbench "BIM Workbench"):
-   - The ![](/src/assets/images/BIM_Material.svg) [Material](/BIM_Material "BIM Material") button.
-   - The menu **Manage → ![](/src/assets/images/BIM_Material.svg) Material** entry.
-2. ![](/src/assets/images/Workbench_FEM.svg) [FEM Workbench](/FEM_Workbench "FEM Workbench"):
-   - The ![](/src/assets/images/FEM_MaterialEditor.svg) [Material editor](/FEM_MaterialEditor "FEM MaterialEditor") button.
-   - The menu **Model → Materials → ![](/src/assets/images/FEM_MaterialEditor.svg) Material editor** entry.
+1. ![](/images/Workbench_BIM.svg) [BIM Workbench](/BIM_Workbench "BIM Workbench"):
+   - The ![](/images/BIM_Material.svg) [Material](/BIM_Material "BIM Material") button.
+   - The menu **Manage → ![](/images/BIM_Material.svg) Material** entry.
+2. ![](/images/Workbench_FEM.svg) [FEM Workbench](/FEM_Workbench "FEM Workbench"):
+   - The ![](/images/FEM_MaterialEditor.svg) [Material editor](/FEM_MaterialEditor "FEM MaterialEditor") button.
+   - The menu **Model → Materials → ![](/images/FEM_MaterialEditor.svg) Material editor** entry.
 
 ## Options
 

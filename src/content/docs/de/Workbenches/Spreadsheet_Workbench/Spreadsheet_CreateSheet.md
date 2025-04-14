@@ -19,13 +19,13 @@ title: Spreadsheet TabelleErstellen
 
 ## Beschreibung
 
-Das Werkzeug ![](/src/assets/images/Spreadsheet_CreateSheet.svg) **Spreadsheet TabelleErstellen** fügt dem aktiven Dokument eine neue Kalkulationstabelle hinzu.
+Das Werkzeug ![](/images/Spreadsheet_CreateSheet.svg) **Spreadsheet TabelleErstellen** fügt dem aktiven Dokument eine neue Kalkulationstabelle hinzu.
 
 ## Anwendung
 
 1. Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
-   - Die Schaltfläche ![](/src/assets/images/Spreadsheet_CreateSheet.svg) Kalkulationstabelle erstellen drücken.
-   - Den Menüeintrag **Kalkulationstabelle → ![](/src/assets/images/Spreadsheet_CreateSheet.svg) Kalkulationstabelle erstellen** auswählen.
+   - Die Schaltfläche ![](/images/Spreadsheet_CreateSheet.svg) Kalkulationstabelle erstellen drücken.
+   - Den Menüeintrag **Kalkulationstabelle → ![](/images/Spreadsheet_CreateSheet.svg) Kalkulationstabelle erstellen** auswählen.
 2. Den Inhalt der Zellen bearbeiten.
 3. Den Kalkulationstabellenreiter schließen, wenn man fertig ist. Die Werte werden automatisch gespeichert, sobald sie eigegeben werden.
 

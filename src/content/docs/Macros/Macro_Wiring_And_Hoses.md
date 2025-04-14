@@ -30,7 +30,7 @@ title: Wiring And Hoses
 
 These macros support the creation and maintenance of Wires and Hoses.
 
-![](/src/assets/images/Macro_Wiring_And_HosesCompletedHouse.jpg)
+![](/images/Macro_Wiring_And_HosesCompletedHouse.jpg)
 
 ## Background
 
@@ -96,7 +96,7 @@ The usage of these macros really breaks down into 3 sections:
 
 There are alternative ways to perform some of the tasks outlined below and personal preference can decide. This example will apply electrical wiring and cold water plumbing to a house. Our empty house looks like this
 
-![](/src/assets/images/Macro_Wiring_And_HosesEmptyHouse.jpg)
+![](/images/Macro_Wiring_And_HosesEmptyHouse.jpg)
 
 and is waiting for cold water and electricity to be installed. For convenience of explanation all the electrical items are in yellow and the water in blue (aside from the 2 sinks).
 
@@ -154,7 +154,7 @@ This is asking if you to select the nexi in the order you want them to create yo
 
 < picture of house with water flow>
 
-![](/src/assets/images/Macro_Wiring_And_HosesFlowsOnly.jpg)
+![](/images/Macro_Wiring_And_HosesFlowsOnly.jpg)
 
 ### Editing Nexi and Flows
 

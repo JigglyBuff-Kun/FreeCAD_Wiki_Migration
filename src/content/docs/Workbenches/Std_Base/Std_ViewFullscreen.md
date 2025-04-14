@@ -25,8 +25,8 @@ The **Std ViewFullscreen** command switches [3D views](/3D_view "3D view") to an
 
 1. Activate the correct 3D view.
 2. There are several ways to invoke the command:
-   - Select the **View → Document window → ![](/src/assets/images/Std_ViewFullscreen.svg) Fullscreen** option from the menu. This option does not work if you want to switch off fullscreen mode and there are other docked 3D views.
-   - Select the **Document window → ![](/src/assets/images/Std_ViewFullscreen.svg) Fullscreen** option from the 3D view context menu.
+   - Select the **View → Document window → ![](/images/Std_ViewFullscreen.svg) Fullscreen** option from the menu. This option does not work if you want to switch off fullscreen mode and there are other docked 3D views.
+   - Select the **Document window → ![](/images/Std_ViewFullscreen.svg) Fullscreen** option from the 3D view context menu.
    - Use the keyboard shortcut: F11.
 
 ## Notes

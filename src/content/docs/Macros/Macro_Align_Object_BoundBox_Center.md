@@ -30,7 +30,7 @@ title: Align Object BoundBox Center
 
 This macro aligns 2 (or more) objects by the center of their bounding boxes.
 
-![](/src/assets/images/Macro_Align_Object_BoundBox_Center.png)
+![](/images/Macro_Align_Object_BoundBox_Center.png)
 
 Macro Align Object BoundBox Center
 

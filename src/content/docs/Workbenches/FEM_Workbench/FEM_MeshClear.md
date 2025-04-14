@@ -23,8 +23,8 @@ Enables the user to reinitialize the mesh from the FreeCAD FEM mesh object. The 
 
 ## Usage
 
-1. Right-click a ![](/src/assets/images/FEM_MeshNetgenFromShape.svg) [Netgen](/FEM_MeshNetgenFromShape "FEM MeshNetgenFromShape") or ![](/src/assets/images/FEM_MeshGmshFromShape.svg) [Gmsh](/FEM_MeshGmshFromShape "FEM MeshGmshFromShape") FEM mesh object in the [Tree view](/Tree_view "Tree view").
-2. Select the **![](/src/assets/images/FEM_MeshClear.svg) Clear FEM mesh** option from the context menu.
+1. Right-click a ![](/images/FEM_MeshNetgenFromShape.svg) [Netgen](/FEM_MeshNetgenFromShape "FEM MeshNetgenFromShape") or ![](/images/FEM_MeshGmshFromShape.svg) [Gmsh](/FEM_MeshGmshFromShape "FEM MeshGmshFromShape") FEM mesh object in the [Tree view](/Tree_view "Tree view").
+2. Select the **![](/images/FEM_MeshClear.svg) Clear FEM mesh** option from the context menu.
 
 ## Notes
 

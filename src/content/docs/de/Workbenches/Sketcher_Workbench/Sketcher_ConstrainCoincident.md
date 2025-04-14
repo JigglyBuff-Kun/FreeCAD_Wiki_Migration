@@ -19,7 +19,7 @@ title: Sketcher KoinzidentFestlegen
 
 ## Beschreibung
 
-Das Werkzeug ![](/src/assets/images/Sketcher_ConstrainCoincident.svg) Sketcher KoinzidentFestlegen erstellt eine Randbedingung zwischen Punkten. die sie koinzident (deckungsgleich) festlegt oder ([eingeführt in 0.21](/Release_notes_0.21/de "Release notes 0.21/de")) eine Randbedingung zwischen Kreisen, Kreisbögen, Ellipsen, Ellipsenbögen, die sie konzentrisch festlegt (indem ihre Mittelpunkte koinzident festgelegt werden).
+Das Werkzeug ![](/images/Sketcher_ConstrainCoincident.svg) Sketcher KoinzidentFestlegen erstellt eine Randbedingung zwischen Punkten. die sie koinzident (deckungsgleich) festlegt oder ([eingeführt in 0.21](/Release_notes_0.21/de "Release notes 0.21/de")) eine Randbedingung zwischen Kreisen, Kreisbögen, Ellipsen, Ellipsenbögen, die sie konzentrisch festlegt (indem ihre Mittelpunkte koinzident festgelegt werden).
 
 [eingeführt in 1.0](/Release_notes_1.0/de "Release notes 1.0/de"): Dieses Werkzeug wird durch das Werkzeug [Sketcher KoinzidentFestlegenKombiniert](/Sketcher_ConstrainCoincidentUnified/de "Sketcher ConstrainCoincidentUnified/de") ersetzt, wenn die Option **Koinzidenz und Punkt auf Objekt vereinigen** in den [Voreinstellungen](/Sketcher_Preferences/de#Allgemein "Sketcher Preferences/de") ausgewählt wurde.
 
@@ -31,8 +31,8 @@ Siehe auch: [Zeichnungshilfen](/Sketcher_Workbench/de#Zeichnungshilfen "Sketcher
 
 1. Sicherstellen, dass die Auswahl leer ist.
 2. Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
-   - Die Schaltfläche ![](/src/assets/images/Sketcher_ConstrainCoincident.svg) KoinzidentFestlegen drücken.
-   - Den Menüeintrag **Skizze → Sketcher-Randbedingungen → ![](/src/assets/images/Sketcher_ConstrainCoincident.svg) KoinzidentFestlegen** auswählen.
+   - Die Schaltfläche ![](/images/Sketcher_ConstrainCoincident.svg) KoinzidentFestlegen drücken.
+   - Den Menüeintrag **Skizze → Sketcher-Randbedingungen → ![](/images/Sketcher_ConstrainCoincident.svg) KoinzidentFestlegen** auswählen.
    - Das Tastaturkürzel C.
 3. Der Mauszeiger wandelt sich zu einem Kreuz mit Werkzeugsymbol.
 4. Eine der folgenden Möglichkeiten auswählen:

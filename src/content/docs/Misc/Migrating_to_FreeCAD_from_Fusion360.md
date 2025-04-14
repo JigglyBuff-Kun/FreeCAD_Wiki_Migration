@@ -20,8 +20,8 @@ Please also reference the ongoing work in progressCAD Rosetta Stoneproject to le
 
 Reference the [Glossary](/Glossary "Glossary") page in general but here is a short list of specific terms that F360 folks may find spefically helpful:
 
-- Tangent constraint - FreeCAD's form of **Collinear Constraint**. See ![](/src/assets/images/Sketcher_ConstrainTangent.svg) [Sketcher ConstrainTangent](/Sketcher_ConstrainTangent#Between_two_lines_.28collinear.29 "Sketcher ConstrainTangent").
-- Pad - The **extrude** function in FreeCAD. Read the ![](/src/assets/images/PartDesign_Pad.svg) [PartDesign Pad](/PartDesign_Pad "PartDesign Pad") documentation to learn more.
+- Tangent constraint - FreeCAD's form of **Collinear Constraint**. See ![](/images/Sketcher_ConstrainTangent.svg) [Sketcher ConstrainTangent](/Sketcher_ConstrainTangent#Between_two_lines_.28collinear.29 "Sketcher ConstrainTangent").
+- Pad - The **extrude** function in FreeCAD. Read the ![](/images/PartDesign_Pad.svg) [PartDesign Pad](/PartDesign_Pad "PartDesign Pad") documentation to learn more.
 - Toponaming - Short for [Topological naming problem](/Topological_naming_problem "Topological naming problem"). Covered very well in [Brodie Fairhall's youtube clip](https://www.youtube.com/watch?v=6p2vqEEmWq4)].
 
 ## FAQ
@@ -31,7 +31,7 @@ Reference the [Glossary](/Glossary "Glossary") page in general but here is a sho
    - FreeCAD supports all formats that OCCT supports, so STEP and IGES at least.
 2. What formats should I use to migrate to FreeCAD?
    - STEP is the best format because it is a solid [Shape](/Shape "Shape") format, as opposed to a [Mesh](/Mesh "Mesh") (STL, OBJ, DAE). Example, [Importing Step with Colors](https://forum.freecadweb.org/viewtopic.php?f=3&t=50308).
-   - Importing an STL is possible, but this mesh format will be difficult to modify further. We recommend converting imported meshes to solid Shapes using ![](/src/assets/images/Part_ShapeFromMesh.svg) [Part ShapeFromMesh](/Part_ShapeFromMesh "Part ShapeFromMesh"). Remodelling the object in FreeCAD, while using the mesh as reference, is the best advice.
+   - Importing an STL is possible, but this mesh format will be difficult to modify further. We recommend converting imported meshes to solid Shapes using ![](/images/Part_ShapeFromMesh.svg) [Part ShapeFromMesh](/Part_ShapeFromMesh "Part ShapeFromMesh"). Remodelling the object in FreeCAD, while using the mesh as reference, is the best advice.
 
 ## Tips
 

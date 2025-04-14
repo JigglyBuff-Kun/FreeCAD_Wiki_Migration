@@ -23,7 +23,7 @@ FreeCAD can import and export to many file types. Here is a list of the most imp
 
 Some of these file formats have options. These can be configured from menu **Edit → Preferences → Import/export:**
 
-![](/src/assets/images/FreeCAD_022_ImportExport.png)
+![](/images/FreeCAD_022_ImportExport.png)
 
 **Read more**
 

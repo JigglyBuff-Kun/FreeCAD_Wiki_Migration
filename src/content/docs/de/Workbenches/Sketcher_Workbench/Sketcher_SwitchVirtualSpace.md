@@ -19,7 +19,7 @@ title: Sketcher VirtuellenBereichWechseln
 
 ## Beschreibung
 
-Das Werkzeug ![](/src/assets/images/Sketcher_SwitchVirtualSpace.svg) Sketcher VituellenBereichWechseln schaltet entweder die Sichtbarkeit von Randbedingungen um oder wechselt den sichtbaren virtuellen Bereich.
+Das Werkzeug ![](/images/Sketcher_SwitchVirtualSpace.svg) Sketcher VituellenBereichWechseln schaltet entweder die Sichtbarkeit von Randbedingungen um oder wechselt den sichtbaren virtuellen Bereich.
 
 Eine Skizze besitzt zwei virtuelle Bereiche, die Randbedingungen enthalten können. Alle Randbedingungen werden im virtuellen Hauptbereich erstellt, können aber ausgeblendet werden, was sie in den anderen virtuellen Bereich verschiebt.
 
@@ -29,8 +29,8 @@ Eine Skizze besitzt zwei virtuelle Bereiche, die Randbedingungen enthalten könn
 
 1. Eine oder mehrere Randbedingungen auswählen. Randbedingungen, die im aktiven virtuellen Bereich nicht sichtbar sind, können im [Abschnitt Randbedingungen des Sketcher-Dialogs](/Sketcher_Dialog/de#Randbedingungen "Sketcher Dialog/de") ausgewählt werden.
 2. Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
-   - Die Schaltfläche ![](/src/assets/images/Sketcher_SwitchVirtualSpace.svg) Virtuellen Bereich wechseln drücken.
-   - Den Menüeintrag **Skizze → Sketcher-Randbedingugen → ![](/src/assets/images/Sketcher_SwitchVirtualSpace.svg) Virtuellen Bereich wechseln** auswählen.
+   - Die Schaltfläche ![](/images/Sketcher_SwitchVirtualSpace.svg) Virtuellen Bereich wechseln drücken.
+   - Den Menüeintrag **Skizze → Sketcher-Randbedingugen → ![](/images/Sketcher_SwitchVirtualSpace.svg) Virtuellen Bereich wechseln** auswählen.
    - Das Tastaturkürzel Z dann Z.
 
 ### Virtuelle Bereiche wechseln

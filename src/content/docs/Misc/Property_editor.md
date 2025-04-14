@@ -10,7 +10,7 @@ Generally, the Property editor is intended to deal with one object at a time. Th
 
 Not all properties can be modified, some are read-only.
 
-![](/src/assets/images/FreeCAD_Property_editor_Data.png)
+![](/images/FreeCAD_Property_editor_Data.png)
 
 The Data properties of a [Part Box](/Part_Box "Part Box")
 

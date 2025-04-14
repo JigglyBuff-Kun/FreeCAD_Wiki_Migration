@@ -19,14 +19,14 @@ title: Spreadsheet ZellenVerbinden
 
 ## Beschreibung
 
-Das Werkzeug ![](/src/assets/images/Spreadsheet_MergeCells.svg) **Spreadsheet ZellenVerbinden** verbindet eine rechteckige Auswahl von Zellen.
+Das Werkzeug ![](/images/Spreadsheet_MergeCells.svg) **Spreadsheet ZellenVerbinden** verbindet eine rechteckige Auswahl von Zellen.
 
 ## Anwendung
 
 1. Sicherstellen, dass eine [Kalkulationstabelle](/Spreadsheet_CreateSheet/de "Spreadsheet CreateSheet/de") aktiviert ist, so dass die Schaltfläche aktiviert ist.
 2. Zwei oder mehr Zellen auswählen, die einen rechteckigen Bereich bilden.
 3. Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
-   - Die Schaltfläche ![](/src/assets/images/Spreadsheet_MergeCells.svg) Zellen verbinden drücken.
-   - Den Menüeintrag **Kalkulationstabelle → ![](/src/assets/images/Spreadsheet_MergeCells.svg) Zellen verbinden** auswählen.
+   - Die Schaltfläche ![](/images/Spreadsheet_MergeCells.svg) Zellen verbinden drücken.
+   - Den Menüeintrag **Kalkulationstabelle → ![](/images/Spreadsheet_MergeCells.svg) Zellen verbinden** auswählen.
 
 Retrieved from "<http://wiki.freecad.org/index.php?title=Spreadsheet_MergeCells/de&oldid=1507606>"

@@ -32,7 +32,7 @@ EasyReflector makes it easy to manage textures in FreeCAD. It creates a [Feature
 
 Full documentation can be found on github: [EasyReflector](https://github.com/mwganson/EasyReflector).
 
-![](/src/assets/images/EasyReflector_screenshot01.png)
+![](/images/EasyReflector_screenshot01.png)
 
 Macro EasyReflector screenshot‎
 
@@ -69,13 +69,13 @@ webbrowser.open("https://gist.github.com/mwganson/aea3c51981c0b994cfd961cf4db56b
 <class="rawcodeurl"><a href="<https://gist.github.com/mwganson/aea3c51981c0b994cfd961cf4db56b50/raw/71b325b7c1568e2460beb099f553225a5516fc44/EasyReflector.FCMacro>">raw code</a>
 
 ToolBar Icon
-![](/src/assets/images/EasyReflectorIcon.svg)
+![](/images/EasyReflectorIcon.svg)
 
 ## Script
 
 **Macro EasyReflector.FCMacro**
 
-[![](/src/assets/images/Nuvola_apps_download_manager.png)](https://gist.github.com/mwganson/aea3c51981c0b994cfd961cf4db56b50)
+[![](/images/Nuvola_apps_download_manager.png)](https://gist.github.com/mwganson/aea3c51981c0b994cfd961cf4db56b50)
 
 [EasyReflector.FCMacro](https://gist.github.com/mwganson/aea3c51981c0b994cfd961cf4db56b50)
 

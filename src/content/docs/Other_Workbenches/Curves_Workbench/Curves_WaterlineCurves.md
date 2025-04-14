@@ -23,14 +23,14 @@ This documentation is not finished. Please help and contribute documentation.Gui
 
 ## Description
 
-The ![](/src/assets/images/Curves_WaterlineCurves.svg) **Curves WaterlineCurves** tool creates waterline curves on selected faces.
+The ![](/images/Curves_WaterlineCurves.svg) **Curves WaterlineCurves** tool creates waterline curves on selected faces.
 
 ## Usage
 
 1. Select one or more faces and/or objects.
 2. There are several ways to invoke the tool:
-   - Press the ![](/src/assets/images/Curves_WaterlineCurves.svg) [WaterLine](/Curves_WaterlineCurves "Curves WaterlineCurves") button.
-   - Select the **Surfaces → ![](/src/assets/images/Curves_WaterlineCurves.svg) WaterLine** option from the menu.
+   - Press the ![](/images/Curves_WaterlineCurves.svg) [WaterLine](/Curves_WaterlineCurves "Curves WaterlineCurves") button.
+   - Select the **Surfaces → ![](/images/Curves_WaterlineCurves.svg) WaterLine** option from the menu.
 3. One collective **Waterline** object is created.
 4. Optionally edit the values in the [Property editor](/Property_editor "Property editor") to change the number of waterlines and adjust their orientation (see Properties below).
 

@@ -19,11 +19,11 @@ title: Draft ShapeString
 
 ## Description
 
-The ![](/src/assets/images/Draft_ShapeString.svg) **Draft ShapeString** command creates a compound shape that represents a text string. This shape can be used to create 3D letters with the [Part Extrude](/Part_Extrude "Part Extrude") command.
+The ![](/images/Draft_ShapeString.svg) **Draft ShapeString** command creates a compound shape that represents a text string. This shape can be used to create 3D letters with the [Part Extrude](/Part_Extrude "Part Extrude") command.
 
 The Draft ShapeString command is not intended for standard text annotations. The [Draft Text](/Draft_Text "Draft Text") command or the [Draft Label](/Draft_Label "Draft Label") command should be used for that purpose.
 
-![](/src/assets/images/Draft_ShapeString_Example400.png)
+![](/images/Draft_ShapeString_Example400.png)
 
 Single point required to position the ShapeString
 
@@ -32,9 +32,9 @@ Single point required to position the ShapeString
 For Windows users: please read the [Font file selection on Windows](#Font_file_selection_on_Windows) paragraph first.
 
 1. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/Draft_ShapeString.svg) [Shape from text](/Draft_ShapeString "Draft ShapeString") button.
-   - [Draft](/Draft_Workbench "Draft Workbench"): Select the **Drafting → ![](/src/assets/images/Draft_ShapeString.svg) Shape from text** option from the menu.
-   - [BIM](/BIM_Workbench "BIM Workbench"): Select the **Annotation → ![](/src/assets/images/Draft_ShapeString.svg) Shape from text** option from the menu.
+   - Press the ![](/images/Draft_ShapeString.svg) [Shape from text](/Draft_ShapeString "Draft ShapeString") button.
+   - [Draft](/Draft_Workbench "Draft Workbench"): Select the **Drafting → ![](/images/Draft_ShapeString.svg) Shape from text** option from the menu.
+   - [BIM](/BIM_Workbench "BIM Workbench"): Select the **Annotation → ![](/images/Draft_ShapeString.svg) Shape from text** option from the menu.
 2. The **ShapeString** task panel opens.
 3. Click a point in the [3D view](/3D_view "3D view"), or type coordinates.
 4. Optionally press the Reset Point button to reset the point to the origin.
@@ -121,7 +121,7 @@ Draft
 - Data**String** (`String`): Text string. A ShapeString can only display a single text line.
 - Data**Tracking** (`Distance`): Inter-character spacing. [introduced in 1.0](/Release_notes_1.0 "Release notes 1.0"): The property type has been updated.
 
-![](/src/assets/images/Draft_ShapeString_Justification.png)
+![](/images/Draft_ShapeString_Justification.png)
 
 The height of the red rectangle (solid line) is equal to the cap height.  
 The height of the green rectangle (dashed line) is equal to the shape height.  

@@ -21,7 +21,7 @@ title: TechDraw Schweißsymbol
 
 Das Werkzeug **TechDraw Schweißsymbol** fügt einer bestehenden Hinweislinie Schweißspezifikationen hinzu.
 
-![](/src/assets/images/TechDraw_WeldingSymbol_example.png)
+![](/images/TechDraw_WeldingSymbol_example.png)
 
 Schweißspezifikation zu einer Hinweislinie hinzugefügt
 
@@ -29,8 +29,8 @@ Schweißspezifikation zu einer Hinweislinie hinzugefügt
 
 1. Eine vorhandene [Hinweislinie](/TechDraw_LeaderLine/de "TechDraw LeaderLine/de") auswählen.
 2. Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
-   - Die Schaltfläche ![](/src/assets/images/TechDraw_WeldSymbol.svg) Hinzufügen von Schweißinformationen zur Hinweislinie drücken.
-   - Den Menüeintrag **TechDraw → Symbols → ![](/src/assets/images/TechDraw_WeldSymbol.svg) Hinzufügen von Schweißinformationen zur Hinweislinie** auswählen.
+   - Die Schaltfläche ![](/images/TechDraw_WeldSymbol.svg) Hinzufügen von Schweißinformationen zur Hinweislinie drücken.
+   - Den Menüeintrag **TechDraw → Symbols → ![](/images/TechDraw_WeldSymbol.svg) Hinzufügen von Schweißinformationen zur Hinweislinie** auswählen.
 3. Der Aufgaben-Bereich wird geöffnet.
 4. Schweißsymbole und begleitenden Text festlegen, die der Hinweislinie hinzugefügt werden sollen.
 5. Die Schaltfläche OK drücken.
@@ -95,8 +95,8 @@ App.activeDocument().DrawTileWeld001.CenterText = "center text"
 
 - Einzelne Symbole werden durch 64x64 Pixel große SVG-Dateien gebildet. Zusätzliche Symbole können in einem SVG-Programm wie z.B. [Inkscape](https://en.wikipedia.org/wiki/Inkscape) aus einem der mitgelieferten Symbole als Vorlage erstellt werden.
 
-![](/src/assets/images/Techdraw-WeldingSymbolLayoutArrow.svg)
-![](/src/assets/images/Techdraw-WeldingSymbolLayoutOther.svg)
+![](/images/Techdraw-WeldingSymbolLayoutArrow.svg)
+![](/images/Techdraw-WeldingSymbolLayoutOther.svg)
 
 - Einzelne Symbole werden durch SVG-Dateien mit 64x64 (nominal) Pixeln gebildet. Die Kacheln haben einen "Rand" von 4px. Der Rand sorgt dafür, dass sich Hinweislinie und Symbol gut treffen.
 - Das Symbol wird in Schwarz auf einem transparenten Hintergrund gezeichnet. Die Strichstärke beträgt 0,5 mm.

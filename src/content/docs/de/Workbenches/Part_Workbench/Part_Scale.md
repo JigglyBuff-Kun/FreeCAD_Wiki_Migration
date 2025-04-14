@@ -21,7 +21,7 @@ title: Part Skalieren
 
 **Part Skalieren** skaliert Formen entweder mit einem bestimmten Faktor einheitlich in alle Richtungen oder mit unterschiedlichen Faktoren für jede Hauptrichtung. Im Falle von unterschiedlichen Faktoren kann die Form verzerrt werden.
 
-![](/src/assets/images/Part_Scale_demo.png)
+![](/images/Part_Scale_demo.png)
 
 Beispiel für Skalieren
 
@@ -29,8 +29,8 @@ Beispiel für Skalieren
 
 1. Eine oder mehrere Formen in der [3D-Ansicht](/3D_view/de "3D view/de") oder in der [Baumansicht](/Tree_view/de "Tree view/de") auswählen.
 2. Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
-   - Die Schaltfläche ![](/src/assets/images/Part_Scale.svg) Skalieren... drücken.
-   - Den Menüeintrag **Part → ![](/src/assets/images/Part_Scale.svg) Skalieren...** auswählen.
+   - Die Schaltfläche ![](/images/Part_Scale.svg) Skalieren... drücken.
+   - Den Menüeintrag **Part → ![](/images/Part_Scale.svg) Skalieren...** auswählen.
 3. Ein [Aufgaben-Dialog](#Task_panel/de) wird geöffnet.
 4. **Einheitliche Skalierung** oder **Uneinheitliche Skalierung** auswählen.
 5. Skalierungsfaktor(en) eingeben.
@@ -42,7 +42,7 @@ In der Baumansicht werden so viele Scale-Objekte aufgelistet, wie Formen ausgew�
 
 ## Aufgaben-Dialog
 
-![](/src/assets/images/Part_Scale_dialog.png)
+![](/images/Part_Scale_dialog.png)
 
 - Die Schaltfläche OK erstellt das skalierte Objekt und schließt den Aufgaben-Dialog.
 - Die Schaltfläche Schließen schließt den Aufgaben-Dialog, ohne etwas zu tun.

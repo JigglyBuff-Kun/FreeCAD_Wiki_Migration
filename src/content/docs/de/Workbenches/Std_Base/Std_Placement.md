@@ -21,14 +21,14 @@ title: Std Positionierung
 
 Der Befehl **Std Positionierung** zeigt den [Aufgabenbereich](/Task_panel/de "Task panel/de") Placement für ein ausgewähltes Objekt an.
 
-![](/src/assets/images/Std_Placement_taskpanel.png)
+![](/images/Std_Placement_taskpanel.png)
 
 Der Aufgabenbereich Placement
 
 ## Anwendung
 
 1. Ein einzelnes Objekt, das eine Daten-Eigenschaft**Placement** besitzt auswählen.
-2. Die Menüoption **Bearbeiten → ![](/src/assets/images/Std_Placement.svg) Placement...** auswählen.
+2. Die Menüoption **Bearbeiten → ![](/images/Std_Placement.svg) Placement...** auswählen.
 3. Einen oder mehrere der Translations- und Rotationsparameter ändern.
 4. Mache eins der folgenden:
    - Die Schaltfläche OK drücken, um die Änderungen zu übernehmen und den Aufgabenbereich zu schließen.

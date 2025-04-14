@@ -36,7 +36,7 @@ Run the macro
 
 ## Script
 
-The icon for the tool bar to be placed in the same directory of the macro ![](/src/assets/images/Macro_FCSpreadsheet_Extract.png)
+The icon for the tool bar to be placed in the same directory of the macro ![](/images/Macro_FCSpreadsheet_Extract.png)
 
 **Macro_FCSpreadSheet_Extract.FCMacro**
 

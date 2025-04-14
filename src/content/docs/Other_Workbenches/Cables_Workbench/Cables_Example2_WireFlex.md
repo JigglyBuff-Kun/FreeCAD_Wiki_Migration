@@ -4,14 +4,14 @@ title: Cables Example2 WireFlex
 
 ## Example
 
-This are example animated images showing ![](/src/assets/images/Cables_WireFlex.svg) [WireFlex](/Cables_WireFlex "Cables WireFlex") usage
+This are example animated images showing ![](/images/Cables_WireFlex.svg) [WireFlex](/Cables_WireFlex "Cables WireFlex") usage
 
-![](/src/assets/images/Cables_WireFlex_Example1.gif)
+![](/images/Cables_WireFlex_Example1.gif)
 
 Example1  
 Movement of the Cube1 which is attached to WireFlex start vertex when Attachment Map Mode of WireFlex is set to Translate origin.
 
-![](/src/assets/images/Cables_WireFlex_Example2.gif)
+![](/images/Cables_WireFlex_Example2.gif)
 
 Example2  
 Movement of the Cube1 which is attached to WireFlex start vertex when Attachment Map Mode of WireFlex is Deactivated.

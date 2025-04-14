@@ -30,14 +30,14 @@ This tool can create the following objects:
 1. Select two vertices
 2. Click on Create
 
-![](/src/assets/images/Edge_from_verts-1.gif)
+![](/images/Edge_from_verts-1.gif)
 
 ### Wire from edges
 
 1. Select a set of adjacent edges in the [3D view](/3D_view "3D view")
 2. Click on Create
 
-![](/src/assets/images/Wire_from_edges-1.gif)
+![](/images/Wire_from_edges-1.gif)
 
 ### Face from vertices
 
@@ -46,7 +46,7 @@ This tool can create the following objects:
 3. Click on Create
 4. Object will be created in [3D view](/3D_view "3D view") and will be listed in [tree view](/Tree_view "Tree view")
 
-![](/src/assets/images/Face_from_verts.gif)
+![](/images/Face_from_verts.gif)
 
 ### Face from edges
 
@@ -55,7 +55,7 @@ This tool can create the following objects:
 3. Click on Create
 4. Object will be created in [3D view](/3D_view "3D view") and will be listed in [tree view](/Tree_view "Tree view")
 
-![](/src/assets/images/Face_from_edges.gif)
+![](/images/Face_from_edges.gif)
 
 ### Shell from faces
 
@@ -75,7 +75,7 @@ This tool can create the following objects:
 
 A possible workflow could be:
 
-- Draw a wireframe-model of your shape using the tools in the ![](/src/assets/images/Workbench_Draft.svg) [Draft Workbench](/Draft_Workbench "Draft Workbench") (for example line and dwire)
+- Draw a wireframe-model of your shape using the tools in the ![](/images/Workbench_Draft.svg) [Draft Workbench](/Draft_Workbench "Draft Workbench") (for example line and dwire)
 - Create all faces with "face from edges"
 - Create a "shell from faces"
 - Create a "solid from shell"

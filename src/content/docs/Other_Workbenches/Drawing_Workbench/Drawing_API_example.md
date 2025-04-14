@@ -213,7 +213,7 @@ del ViewSVG
 
 That leads to the following result:
 
-![](/src/assets/images/DrawingScriptResult.jpg)
+![](/images/DrawingScriptResult.jpg)
 
 ## General dimensioning and tolerancing
 

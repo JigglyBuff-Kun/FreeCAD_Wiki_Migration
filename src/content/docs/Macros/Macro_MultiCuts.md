@@ -28,7 +28,7 @@ title: MultiCuts
 
 ## Description
 
-![](/src/assets/images/MultiCuts_test.gif)
+![](/images/MultiCuts_test.gif)
 
 ## Script
 

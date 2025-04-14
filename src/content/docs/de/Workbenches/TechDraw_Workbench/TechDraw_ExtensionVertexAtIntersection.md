@@ -21,7 +21,7 @@ title: TechDraw ErgänzungKnotenAnSchnittstelle
 
 Das Werkzeug **TechDraw ErgänzungKnotenAnSchittstelle** fügt an den Schnittstellen der ausgewählten Kanten Hilfspunkte ein.
 
-![](/src/assets/images/TechDraw_ExtensionVertexAtIntersectionExample.png)
+![](/images/TechDraw_ExtensionVertexAtIntersectionExample.png)
 
 Rechts hinzugefügte Knotenpunkte
 
@@ -29,8 +29,8 @@ Rechts hinzugefügte Knotenpunkte
 
 1. Zwei Kanten auswählen. Geraden werden als unendlich lange Linien, Kreisbögen als Kreise angesehen.
 2. Es gibt mehrere Möglichkeiten das Werkzeug aufzurufen:
-   - Die Schaltfläche ![](/src/assets/images/TechDraw_ExtensionVertexAtIntersection.svg) Hilfsschnittpunkte hinzufügen drücken.
-   - Den Menüeintrag **TechDraw → Ergänzungen: Mittellinien/Gewinde → ![](/src/assets/images/TechDraw_ExtensionVertexAtIntersection.svg) Hilfsschnittpunkte hinzufügen** auswählen.
+   - Die Schaltfläche ![](/images/TechDraw_ExtensionVertexAtIntersection.svg) Hilfsschnittpunkte hinzufügen drücken.
+   - Den Menüeintrag **TechDraw → Ergänzungen: Mittellinien/Gewinde → ![](/images/TechDraw_ExtensionVertexAtIntersection.svg) Hilfsschnittpunkte hinzufügen** auswählen.
 3. An jedem Schnittpunkt wird ein Knotenpunkt eingefügt.
 
 Retrieved from "<http://wiki.freecad.org/index.php?title=TechDraw_ExtensionVertexAtIntersection/de&oldid=1427914>"

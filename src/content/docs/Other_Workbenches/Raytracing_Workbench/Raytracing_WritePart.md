@@ -24,7 +24,7 @@ Exports the selected part to a pov-file for use in a POV-Ray project.
 ## Usage
 
 1. Select part to be exported in the [tree view](/Tree_view "Tree view")
-2. Choose Raytracing → Utilities →![](/src/assets/images/Raytracing_WritePart.svg) Export part to POV-Ray from the top menu.
+2. Choose Raytracing → Utilities →![](/images/Raytracing_WritePart.svg) Export part to POV-Ray from the top menu.
 
 ## Limitations
 

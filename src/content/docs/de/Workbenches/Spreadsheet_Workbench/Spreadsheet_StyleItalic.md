@@ -19,15 +19,15 @@ title: Spreadsheet StilKursiv
 
 ## Beschreibung
 
-Das Werkzeug ![](/src/assets/images/Spreadsheet_StyleItalic.svg) **Spreadsheet StilKursiv** aktiviert bzw. deaktiviert die Darstellung des Inhalts der ausgewählten Zellen in kursiver Schrift.
+Das Werkzeug ![](/images/Spreadsheet_StyleItalic.svg) **Spreadsheet StilKursiv** aktiviert bzw. deaktiviert die Darstellung des Inhalts der ausgewählten Zellen in kursiver Schrift.
 
 ## Anwendung
 
 1. Sicherstellen, dass eine [Kalkulationstabelle](/Spreadsheet_CreateSheet/de "Spreadsheet CreateSheet/de") aktiviert ist.
 2. Eine oder mehrere Zellen auswählen.
 3. Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
-   - Die Schaltfläche ![](/src/assets/images/Spreadsheet_StyleItalic.svg) Text in Kursivschrift drücken.
-   - Den Menüeintrag **Kalkulationstabelle → Stile → ![](/src/assets/images/Spreadsheet_StyleItalic.svg) Text in Kursivschrift** auswählen.
+   - Die Schaltfläche ![](/images/Spreadsheet_StyleItalic.svg) Text in Kursivschrift drücken.
+   - Den Menüeintrag **Kalkulationstabelle → Stile → ![](/images/Spreadsheet_StyleItalic.svg) Text in Kursivschrift** auswählen.
    - Das Tastaturkürzel Strg + I. [eingeführt in 1.1](/Release_notes_1.1/de "Release notes 1.1/de")
 
 Retrieved from "<http://wiki.freecad.org/index.php?title=Spreadsheet_StyleItalic/de&oldid=1507640>"

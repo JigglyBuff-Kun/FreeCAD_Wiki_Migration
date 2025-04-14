@@ -83,11 +83,11 @@ w = Draft.makeWire(p, closed=False)
 
 6. Select the `DWire` and click the [Arch Wall](/Arch_Wall "Arch Wall") tool; the wall is immediately created with a default width (thickness) of 0.2 m, and height of 3 m.
 
-![](/src/assets/images/01_T02_wire_wall.png)
+![](/images/01_T02_wire_wall.png)
 
 Base wire for the wall
 
-![](/src/assets/images/02_T02_just_wall.png)
+![](/images/02_T02_just_wall.png)
 
 Wall constructed from the wire
 
@@ -98,7 +98,7 @@ Wall constructed from the wire
 : 7.1. Change the snapping to [Draft Midpoint](/Draft_Snap_Midpoint "Draft Snap Midpoint"), and try selecting the bottom edge of the frontal wall; rotate the [standard view](/index.php?title=Standard_view&action=edit&redlink=1 "Standard view (page does not exist)") as necessary to help you pick the edge and not the wall face; when the midpoint is active, click to place the door.
 : 7.2. Click the [Arch Window](/Arch_Window "Arch Window") tool again, and place another door, but this time in the midpoint of the rightmost wall; rotate the [standard view](/index.php?title=Standard_view&action=edit&redlink=1 "Standard view (page does not exist)") as necessary.
 
-![](/src/assets/images/03_T02_wall_place_doors.png)
+![](/images/03_T02_wall_place_doors.png)
 
 Snapping to the midpoint of the bottom edge of the wall to place the door
 
@@ -115,11 +115,11 @@ Snapping to the midpoint of the bottom edge of the wall to place the door
 : 9.3. The third, innermost wire is offset from the second wire, and together with it, they define the frame of the window that can open. The innermost wire also defines the size of the glass panel. Again, give meaningful names to these offsets, for example, `FrameInnerOffset` and `FrameInnerBottom`.
 : 9.4. In order to build succesfully the sketch, use horizontal ([Sketcher ConstrainHorizontal](/Sketcher_ConstrainHorizontal "Sketcher ConstrainHorizontal")) and vertical ([Sketcher ConstrainVertical](/Sketcher_ConstrainVertical "Sketcher ConstrainVertical")) constraints for the straight sides; use auxiliary construction geometry ([Sketcher ToggleConstruction](/Sketcher_ToggleConstruction "Sketcher ToggleConstruction")), and tangential constraints ([Sketcher ConstrainTangent](/Sketcher_ConstrainTangent "Sketcher ConstrainTangent")) to correctly place the circular arcs at the top. As in this case the window is symmetrical, consider equality ([Sketcher ConstrainEqual](/Sketcher_ConstrainEqual "Sketcher ConstrainEqual")), symmetrical ([Sketcher ConstrainSymmetric](/Sketcher_ConstrainSymmetric "Sketcher ConstrainSymmetric")), and point on object ([Sketcher ConstrainPointOnObject](/Sketcher_ConstrainPointOnObject "Sketcher ConstrainPointOnObject")) constraints where it makes sense.
 
-![](/src/assets/images/04_T02_window_constraints_outer_frame.png)
+![](/images/04_T02_window_constraints_outer_frame.png)
 
 Constraints for the outer wires of the sketch that form the window
 
-![](/src/assets/images/05_T02_window_constraints_inner_frame.png)
+![](/images/05_T02_window_constraints_inner_frame.png)
 
 Constraints for the inner wires of the sketch that form the window
 
@@ -128,17 +128,17 @@ Constraints for the inner wires of the sketch that form the window
 : 10.1. Since a face of the wall was selected during the initial step of creating the sketch, the sketch is co-planar with that face; however, it may be in the wrong position, away from the wall. If this is the case, adjust Data**Position** within Data**Attachment Offset**. Set Data**Position** to `[4 m, 1 m, 0 m]` so the sketch is centered in the wall, and it is one meter above the floor level.
 : 10.2. You can see the named constraints under Data**Constraints**. The values can be modified to see the sketch change dimensions immediately.
 
-![](/src/assets/images/07_T02_window_sketch_in_wall.png)
+![](/images/07_T02_window_sketch_in_wall.png)
 
 Window sketch moved to the desired position on the wall
 
-![](/src/assets/images/06_T02_window_sketch_properties_constraints.png)
+![](/images/06_T02_window_sketch_properties_constraints.png)
 
 Named constraints of the sketch, which can be modified without going inside the sketch
 
 11. Change back to the [Arch Workbench](/Arch_Workbench "Arch Workbench") and, with the new `Sketch002` selected, use [Arch Window](/Arch_Window "Arch Window"). A window will be created, and will make a hole in the wall. The window is made from a custom sketch, and not from a preset, so it needs to be edited in order to correctly display its components, that is, the fixed frame, the inner frame, and the glass panel.
 
-![](/src/assets/images/08_T02_window_basic_in_wall.png)
+![](/images/08_T02_window_basic_in_wall.png)
 
 Custom window created from the sketch; it still doesn't have a proper frame, nor glass
 
@@ -150,7 +150,7 @@ Custom window created from the sketch; it still doesn't have a proper frame, nor
 
 : 13.1. Inside the `Window elements` dialog there are two panes, `Wires` and `Components`. There are three wires, `Wire0`, `Wire1`, and `Wire2`, and one component, `Default`. The wires refer to the closed loops that were drawn in the sketch; the components define the areas in the sketch that will be extruded to create frame or glass panels with real thicknesses; these areas are delimited by the wires. A window created from a preset already has two components, `OuterFrame` and `Glass`. The custom window needs to be edited to have a similar structure.
 
-![](/src/assets/images/09_T02_window_edit_default.png)
+![](/images/09_T02_window_edit_default.png)
 
 Dialog to edit a window or a door
 
@@ -162,17 +162,17 @@ Dialog to edit a window or a door
 
 : 13.5. Click Add; give another name, such as `Glass`, choose `Glass panel` for `Type`, and click on `Wire2`. Add a sensible `Thickness`, `10 mm`, and `Offset`, `40 mm`. Then click the +Create/update component button. If any of the three components needs to be modified, select it and press Edit; modifications are only saved after pressing the +Create/update component button.
 
-![](/src/assets/images/10_T02_window_edit_components.png)
+![](/images/10_T02_window_edit_components.png)
 
 Editing a previously defined component of a window or a door
 
 : 13.6. If everything is set, click Close to finish editing the window. The sketch may become hidden again, but the window will show distinct solid elements for the `OuterFrame`, the `InnerFrame`, and the `Glass`. Give a value of `100 mm` to Data**Frame** to assign a default thickness, which will be added to the value specified in the `OuterFrame` component.
 
-![](/src/assets/images/11_T02_window_property_view.png)
+![](/images/11_T02_window_property_view.png)
 
 Property view of the window to add default Frame length, Offset length, and other options
 
-![](/src/assets/images/12_T02_window_finished.png)
+![](/images/12_T02_window_finished.png)
 
 Finished window with appropriate components embedded in the wall
 
@@ -184,7 +184,7 @@ Finished window with appropriate components embedded in the wall
 
 : _Note:_ the [attachment operation](/Part_EditAttachment "Part EditAttachment") can also be performed by changing to the [Part Workbench](/Part_Workbench "Part Workbench"), and then using the menu **Part → Attachment**.
 
-![](/src/assets/images/13_T02_sketch_attachment_edit.png)
+![](/images/13_T02_sketch_attachment_edit.png)
 
 Dialog to edit the attachment plane of the sketch
 
@@ -192,7 +192,7 @@ Dialog to edit the attachment plane of the sketch
 
 17. These operations have changed the position of the new window, but the opening in the wall doesn't look correct. It is slanted, that is, the hole is not perpendicular to the face of the wall, and it may even cut other parts of the wall. The problem is that `Window001` has retained the Data**Normal** information of the original `Window`.
 
-![](/src/assets/images/14_T02_sketch_2_attached_slanted.png)
+![](/images/14_T02_sketch_2_attached_slanted.png)
 
 Incorrect opening in the wall due to bad Normal of the window
 
@@ -219,11 +219,11 @@ Where `angle` is the angle of the local Z axis of the sketch with respect to the
 
 When a sketch is created, it always has two axes, a local X (red) and a local Y (green). If the sketch is mapped to the global XY working plane, then these axes are aligned; but if the sketch is mapped on the global XZ or global YZ planes, as is common with windows and doors (the sketches are "standing up"), then the local Z (blue) forms an angle with the global Y axis; this angle varies from -180 to 180 degrees. The angle is considered positive if it opens counterclockwise, and it is negative if it opens clockwise, starting from the global Y axis.
 
-![](/src/assets/images/15_T02_sketch_local_coordinates.png)
+![](/images/15_T02_sketch_local_coordinates.png)
 
 Local coordinates of a sketch that is "standing up", that is, mapped to the global XZ plane
 
-![](/src/assets/images/16_T02_sketch_correct_normal_direction.png)
+![](/images/16_T02_sketch_correct_normal_direction.png)
 
 Intended directions of the normals for each door and window
 
@@ -283,7 +283,7 @@ After doing these changes, recompute the model with Ctrl+R. If the wall doesn't 
 
 19. The orientation of the extrusion of the window is resolved, together with the opening in the wall.
 
-![](/src/assets/images/17_T02_sketch_2_attached_correctly.png)
+![](/images/17_T02_sketch_2_attached_correctly.png)
 
 Correct opening in the wall due to proper Normal of the window
 

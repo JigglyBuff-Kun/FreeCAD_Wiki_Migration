@@ -21,16 +21,16 @@ title: Std Draufsicht
 
 Der Befehl **Std Draufsicht** wendet die Kamerasicht der aktiven [3D-Ansicht](/3D_view/de "3D view/de") in die Richtung der negativen Z-Achse.
 
-![](/src/assets/images/FreeCAD_views_front.svg)
+![](/images/FreeCAD_views_front.svg)
 
 der Pfeil 2 zeigt in Richtung der Draufsicht
 
 ## Anwendung
 
 1. Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
-   - Die Schaltfläche ![](/src/assets/images/Std_ViewTop.svg) Draufsicht drücken.
-   - Den Menüeintrag **Ansicht → Standardansichten → ![](/src/assets/images/Std_ViewTop.svg) Draufsicht** auswählen.
-   - Die Menüoption **Standardansichten → ![](/src/assets/images/Std_ViewTop.svg) Draufsicht** im Kontextmenü der [3D-Ansicht](/3D_view/de "3D view/de") auswählen.
+   - Die Schaltfläche ![](/images/Std_ViewTop.svg) Draufsicht drücken.
+   - Den Menüeintrag **Ansicht → Standardansichten → ![](/images/Std_ViewTop.svg) Draufsicht** auswählen.
+   - Die Menüoption **Standardansichten → ![](/images/Std_ViewTop.svg) Draufsicht** im Kontextmenü der [3D-Ansicht](/3D_view/de "3D view/de") auswählen.
    - Das Tastaturkürzel 2.
 
 ## Skripten

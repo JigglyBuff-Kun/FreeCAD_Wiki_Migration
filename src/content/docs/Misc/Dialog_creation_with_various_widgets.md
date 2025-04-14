@@ -120,7 +120,7 @@ Here the same window but with an icon on each button.
 
 Download associated icons (click right "Copy the image below ...)"
 
-![](/src/assets/images/Icone01.png) ![](/src/assets/images/Icone02.png) ![](/src/assets/images/Icone03.png)
+![](/images/Icone01.png) ![](/images/Icone02.png) ![](/images/Icone03.png)
 
 ```
 # -*- coding: utf-8 -*-
@@ -373,11 +373,11 @@ myWindow.show()
 
 **Other example**
 
-- ![Qt example 1](/src/assets/images/Qt_Example_00.png)
+- ![Qt example 1](/images/Qt_Example_00.png)
 
   Qt example 1
 
-- ![Qt example details](/src/assets/images/Qt_Example_01.png)
+- ![Qt example details](/images/Qt_Example_01.png)
 
   Qt example details
 

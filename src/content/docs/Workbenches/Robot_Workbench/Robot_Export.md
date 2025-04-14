@@ -25,8 +25,8 @@ Export a robot program file. Export can either be a KUKA _compact_ subroutine or
 
 1. Select robot and trajectory in the [Tree view](/Tree_view "Tree view").
 2. There are several ways to Export trajectory:
-   - Choose Robot → Export trajectory → ![](/src/assets/images/Robot_Export.svg) Kuka compact subroutine... from the top menu.
-   - Choose Robot → Export trajectory → ![](/src/assets/images/Robot_Export.svg) Kuka full subroutine... from the top menu.
+   - Choose Robot → Export trajectory → ![](/images/Robot_Export.svg) Kuka compact subroutine... from the top menu.
+   - Choose Robot → Export trajectory → ![](/images/Robot_Export.svg) Kuka full subroutine... from the top menu.
 
 Result: A KRL file (\*.src) will be created.
 

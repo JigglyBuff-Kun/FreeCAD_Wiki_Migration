@@ -23,14 +23,14 @@ Der **Std AxisCross**-Befehl schaltet das Achsenkreuz in der aktiven [3D-Ansicht
 
 Das Achsenkreuz besteht aus drei Pfeilen, die positiven X-, Y- und Z-Achsen des globalen Koordinatensystems darstellen. Ihr gemeinsamer Startpunkt ist der Ursprung des globalen Koordinatensystems.
 
-![](/src/assets/images/Std_AxisCross_example.svg)
+![](/images/Std_AxisCross_example.svg)
 
 Das Achsenkreuz (die Buchstaben sind nicht Teil des Achsenkreuzes)
 
 ## Anwendung
 
 1. Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
-   - Wähle die Option **Ansicht → ![](/src/assets/images/Std_AxisCross.svg) Achsenkreuz ein/ausblenden** aus dem Menü.
+   - Wähle die Option **Ansicht → ![](/images/Std_AxisCross.svg) Achsenkreuz ein/ausblenden** aus dem Menü.
    - Verwende das Tastaturkürzel: A dann C.
 
 ## Hinweise

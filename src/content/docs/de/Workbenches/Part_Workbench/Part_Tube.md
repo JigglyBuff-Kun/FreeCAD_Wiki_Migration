@@ -19,23 +19,23 @@ title: Part Rohr
 
 ## Beschreibung
 
-Der Befehl ![](/src/assets/images/Part_Tube.svg) **Part Rohr** erstellt einen parametrischen Volumenkörper, ein Rohr (Hohlzylinder). Im Koordinatensystem durch seine Daten-Eigenschaft**Placement** festgelegt, liegt die Unterseite des Rohrs auf der XY-Ebene mit ihrem Mittelpunkt im Ursprung.
+Der Befehl ![](/images/Part_Tube.svg) **Part Rohr** erstellt einen parametrischen Volumenkörper, ein Rohr (Hohlzylinder). Im Koordinatensystem durch seine Daten-Eigenschaft**Placement** festgelegt, liegt die Unterseite des Rohrs auf der XY-Ebene mit ihrem Mittelpunkt im Ursprung.
 
-![](/src/assets/images/Part_Tube_Example.png)
+![](/images/Part_Tube_Example.png)
 
 ## Anwendung
 
 ### Erstellung
 
 1. Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
-   - Die Schaltfläche ![](/src/assets/images/Part_Tube.svg) Hohlzylinder erstellen drücken.
-   - Den Menüeintrag **Part → Grundkörper → ![](/src/assets/images/Part_Tube.svg) Hohlzylinder erstellen** auswählen.
+   - Die Schaltfläche ![](/images/Part_Tube.svg) Hohlzylinder erstellen drücken.
+   - Den Menüeintrag **Part → Grundkörper → ![](/images/Part_Tube.svg) Hohlzylinder erstellen** auswählen.
 2. Das Aufgaben-Fenster **Rohr** wird geöffnet und eine Vorschau auf das Rohr in der [3D-Ansicht](/3D_view/de "3D view/de") dargestellt.
 3. Die Maße festlegen.
 4. Die Vorschau wird dynamisch aktualisiert.
 5. Die Schaltfläche OK drücken.
 6. Das Rohr wird erstellt.
-7. Wahlweise wird die Daten-Eigenschaft**Placement** des Rohrs im [Eigenschafteneditor](/Property_editor/de "Property editor/de") geändert, oder mit dem Befehl ![](/src/assets/images/Std_TransformManip.svg) [Std Bewegen](/Std_TransformManip/de "Std TransformManip/de").
+7. Wahlweise wird die Daten-Eigenschaft**Placement** des Rohrs im [Eigenschafteneditor](/Property_editor/de "Property editor/de") geändert, oder mit dem Befehl ![](/images/Std_TransformManip.svg) [Std Bewegen](/Std_TransformManip/de "Std TransformManip/de").
 
 ### Bearbeiten
 
@@ -47,7 +47,7 @@ Der Befehl ![](/src/assets/images/Part_Tube.svg) **Part Rohr** erstellt einen pa
 
 ## Beispiel
 
-![](/src/assets/images/Part_Tube_Scripting_Example.png)
+![](/images/Part_Tube_Scripting_Example.png)
 
 Part-Tube aus dem Skriptbeispiel
 

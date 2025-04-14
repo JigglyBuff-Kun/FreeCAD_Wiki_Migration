@@ -21,14 +21,14 @@ title: Mesh NetzAusPartForm
 
 Der Befehl **Mesh NetzAusPartForm** erzeugt nicht-parametrische [Netz](/Mesh/de "Mesh/de")-Objekte ([Mesh Formelemente](/Mesh_Feature/de "Mesh Feature/de")) aus [Form](/Shape/de "Shape/de")-Objekten ([Part Formelemente](/Part_Feature/de "Part Feature/de")).
 
-Die umgekehrte Aktion ist [Part FormAusNetz](/Part_ShapeFromMesh/de "Part ShapeFromMesh/de") aus dem Arbeitsbereich ![](/src/assets/images/Workbench_Part.svg) [Part](/Part_Workbench/de "Part Workbench/de").
+Die umgekehrte Aktion ist [Part FormAusNetz](/Part_ShapeFromMesh/de "Part ShapeFromMesh/de") aus dem Arbeitsbereich ![](/images/Workbench_Part.svg) [Part](/Part_Workbench/de "Part Workbench/de").
 
 ## Anwendung
 
 1. Wahlweise ein oder mehrere Objekte auswählen.
 2. Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
-   - Die Schaltfläche ![](/src/assets/images/Mesh_FromPartShape.svg) Netz aus Form erstellen... drücken.
-   - Den Menüeintrag **Netze → ![](/src/assets/images/Mesh_FromPartShape.svg) Netz aus Form erstellen...** auswählen.
+   - Die Schaltfläche ![](/images/Mesh_FromPartShape.svg) Netz aus Form erstellen... drücken.
+   - Den Menüeintrag **Netze → ![](/images/Mesh_FromPartShape.svg) Netz aus Form erstellen...** auswählen.
 3. Der Aufgaben-Bereich **Tessellierung** wird geöffnet.
 4. Während das Aufgaben-Bereich geöffnet ist, kann eine neue Auswahl erstellt oder eine bestehende Auswahl geändert werden.
 5. Den Reiter des Netzgenerators auswählen, der verwendet werden soll.

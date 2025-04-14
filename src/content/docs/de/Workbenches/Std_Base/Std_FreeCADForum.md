@@ -25,6 +25,6 @@ Aktuell verweist der Befehl auf die Seite <https://forum.freecad.org>.
 
 ## Anwendung
 
-1. Den Menüeintrag **Hilfe → ![](/src/assets/images/Std_FreeCADForum.svg) FreeCAD-Forum** auswählen.
+1. Den Menüeintrag **Hilfe → ![](/images/Std_FreeCADForum.svg) FreeCAD-Forum** auswählen.
 
 Retrieved from "<http://wiki.freecad.org/index.php?title=Std_FreeCADForum/de&oldid=1499537>"

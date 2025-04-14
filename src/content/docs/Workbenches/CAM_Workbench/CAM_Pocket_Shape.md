@@ -19,18 +19,18 @@ title: CAM Pocket Shape
 
 ## Description
 
-The ![](/src/assets/images/CAM_Pocket_Shape.svg) [Pocket Shape](/CAM_Pocket_Shape "CAM Pocket Shape") tool creates a pocketing operation from selected bottom faces, or walls, of one or more pockets of the jobs base object.
+The ![](/images/CAM_Pocket_Shape.svg) [Pocket Shape](/CAM_Pocket_Shape "CAM Pocket Shape") tool creates a pocketing operation from selected bottom faces, or walls, of one or more pockets of the jobs base object.
 
-The CAM Pocket Shape object is made to be part of a ![](/src/assets/images/CAM_Job.svg) [CAM Job](/CAM_Job "CAM Job").
+The CAM Pocket Shape object is made to be part of a ![](/images/CAM_Job.svg) [CAM Job](/CAM_Job "CAM Job").
 
-![](/src/assets/images/Path_Pocket_Shape_example.png)
+![](/images/Path_Pocket_Shape_example.png)
 
 ## Usage
 
 1. Select the bottom or the wall(s) of a pocket. While it is usually easier to select the bottom, the walls have to be selected when a pocket goes through all.
 2. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/CAM_Pocket_Shape.svg) [CAM Pocket Shape](/CAM_Pocket_Shape "CAM Pocket Shape") button.
-   - Select the **CAM → ![](/src/assets/images/CAM_Pocket_Shape.svg) Pocket Shape** option from the menu.
+   - Press the ![](/images/CAM_Pocket_Shape.svg) [CAM Pocket Shape](/CAM_Pocket_Shape "CAM Pocket Shape") button.
+   - Select the **CAM → ![](/images/CAM_Pocket_Shape.svg) Pocket Shape** option from the menu.
 3. Adjust the desired properties.
 
 ## Properties
@@ -62,7 +62,7 @@ Depth
 - Data**Start Depth**: Starting depth of Tool - _first cut depth in Z_
 - Data**Step Down**: Incremental step down of Tool during operation
 
-![](/src/assets/images/Path-DepthsAndHeights.gif)
+![](/images/Path-DepthsAndHeights.gif)
 
 Visual reference for Depth properties (settings)
 

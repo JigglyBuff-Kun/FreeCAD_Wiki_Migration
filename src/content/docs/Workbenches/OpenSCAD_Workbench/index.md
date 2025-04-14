@@ -2,19 +2,19 @@
 title: OpenSCAD Workbench
 ---
 
-![](/src/assets/images/Workbench_OpenSCAD.svg)
+![](/images/Workbench_OpenSCAD.svg)
 
 OpenSCAD workbench icon
 
 ## Introduction
 
-The ![](/src/assets/images/Workbench_OpenSCAD.svg) [OpenSCAD Workbench](/OpenSCAD_Workbench "OpenSCAD Workbench") is intended to offer interoperability with the open source software [OpenSCAD](http://www.openscad.org/). This program is not distributed as part of FreeCAD, but should be installed to make full use of this workbench. OpenSCAD should not be confused with [OpenCASCADE](/OpenCASCADE "OpenCASCADE"), which is the geometrical kernel that FreeCAD uses to build geometry on screen. The OpenCASCADE libraries are always needed to use FreeCAD, while the OpenSCAD executable is entirely optional.
+The ![](/images/Workbench_OpenSCAD.svg) [OpenSCAD Workbench](/OpenSCAD_Workbench "OpenSCAD Workbench") is intended to offer interoperability with the open source software [OpenSCAD](http://www.openscad.org/). This program is not distributed as part of FreeCAD, but should be installed to make full use of this workbench. OpenSCAD should not be confused with [OpenCASCADE](/OpenCASCADE "OpenCASCADE"), which is the geometrical kernel that FreeCAD uses to build geometry on screen. The OpenCASCADE libraries are always needed to use FreeCAD, while the OpenSCAD executable is entirely optional.
 
 It contains a [CSG](/OpenSCAD_CSG "OpenSCAD CSG") importer to open the CSG files from OpenSCAD, and an exporter to output a CSG based tree. Geometry which is not based on CSG operations will be exported as a mesh.
 
 This workbench contains functions to modify the CSG feature tree and repair models. It also contains general purpose tools that do not require installation of OpenSCAD; they can be used in conjunction with other workbenches. For example, the [Mesh Workbench](/Mesh_Workbench "Mesh Workbench") internally uses the OpenSCAD functions to perform operations with [meshes](/Mesh "Mesh"), as they are quite robust.
 
-![](/src/assets/images/OpenSCADexamaple1.png)
+![](/images/OpenSCADexamaple1.png)
 
 ## Dependencies
 
@@ -49,25 +49,25 @@ During conversion all parametric behavior is lost, meaning that all variable nam
 
 ## Tools
 
-- ![](/src/assets/images/OpenSCAD_ColorCodeShape.svg) [Color Code Shape](/OpenSCAD_ColorCodeShape "OpenSCAD ColorCodeShape"): Change the color of selected or all shapes based on their validity.
-- ![](/src/assets/images/OpenSCAD_ReplaceObject.svg) [Replace Object](/OpenSCAD_ReplaceObject "OpenSCAD ReplaceObject"): Replace an object in the feature tree.
-- ![](/src/assets/images/OpenSCAD_RemoveSubtree.svg) [Remove Subtree](/OpenSCAD_RemoveSubtree "OpenSCAD RemoveSubtree"): Removes the selected objects and all children that are not referenced from other objects.
-- ![](/src/assets/images/OpenSCAD_RefineShapeFeature.svg) [Refine Shape Feature](/OpenSCAD_RefineShapeFeature "OpenSCAD RefineShapeFeature"): Cleans unnecessary lines.
-- ![](/src/assets/images/OpenSCAD_MirrorMeshFeature.svg) [Mirror Mesh Feature](/OpenSCAD_MirrorMeshFeature "OpenSCAD MirrorMeshFeature"): Create Mirror Mesh Feature.
-- ![](/src/assets/images/OpenSCAD_ScaleMeshFeature.svg) [Scale Mesh Feature](/OpenSCAD_ScaleMeshFeature "OpenSCAD ScaleMeshFeature"): Scale a Mesh Feature.
-- ![](/src/assets/images/OpenSCAD_ResizeMeshFeature.svg) [Resize Mesh Feature](/OpenSCAD_ResizeMeshFeature "OpenSCAD ResizeMeshFeature"): Resize a Mesh Feature.
-- ![](/src/assets/images/OpenSCAD_IncreaseToleranceFeature.svg) [Increase Tolerance Feature](/OpenSCAD_IncreaseToleranceFeature "OpenSCAD IncreaseToleranceFeature"): Increases tolerance of edges/faces/vertex of selected object(s).
-- ![](/src/assets/images/OpenSCAD_Edgestofaces.svg) [Convert Edges To Faces](/OpenSCAD_Edgestofaces "OpenSCAD Edgestofaces"): Convert edges to faces. Useful to prepare imported DXF geometry for extrusion.
-- ![](/src/assets/images/OpenSCAD_ExpandPlacements.svg) [Expand Placements](/OpenSCAD_ExpandPlacements "OpenSCAD ExpandPlacements"): Expand all placements downwards the FeatureTree.
-- ![](/src/assets/images/OpenSCAD_ExplodeGroup.svg) [Explode Group](/OpenSCAD_ExplodeGroup "OpenSCAD ExplodeGroup"): Explodes fused part primitives.
-- ![](/src/assets/images/OpenSCAD_AddOpenSCADElement.svg) [Add OpenSCAD Element](/OpenSCAD_AddOpenSCADElement "OpenSCAD AddOpenSCADElement"): Add an OpenSCAD element by entering OpenSCAD code into the task panel.
-- ![](/src/assets/images/OpenSCAD_MeshBoolean.svg) [Mesh Boolean](/OpenSCAD_MeshBoolean "OpenSCAD MeshBoolean"): Creates new mesh object by boolean operation from shapes.
-- ![](/src/assets/images/OpenSCAD_Hull.svg) [Hull](/OpenSCAD_Hull "OpenSCAD Hull"): Applies a hull to selected shapes.
-- ![](/src/assets/images/OpenSCAD_Minkowski.svg) [Minkowski](/OpenSCAD_Minkowski "OpenSCAD Minkowski"): Applies a minkowski sum to selected shapes.
+- ![](/images/OpenSCAD_ColorCodeShape.svg) [Color Code Shape](/OpenSCAD_ColorCodeShape "OpenSCAD ColorCodeShape"): Change the color of selected or all shapes based on their validity.
+- ![](/images/OpenSCAD_ReplaceObject.svg) [Replace Object](/OpenSCAD_ReplaceObject "OpenSCAD ReplaceObject"): Replace an object in the feature tree.
+- ![](/images/OpenSCAD_RemoveSubtree.svg) [Remove Subtree](/OpenSCAD_RemoveSubtree "OpenSCAD RemoveSubtree"): Removes the selected objects and all children that are not referenced from other objects.
+- ![](/images/OpenSCAD_RefineShapeFeature.svg) [Refine Shape Feature](/OpenSCAD_RefineShapeFeature "OpenSCAD RefineShapeFeature"): Cleans unnecessary lines.
+- ![](/images/OpenSCAD_MirrorMeshFeature.svg) [Mirror Mesh Feature](/OpenSCAD_MirrorMeshFeature "OpenSCAD MirrorMeshFeature"): Create Mirror Mesh Feature.
+- ![](/images/OpenSCAD_ScaleMeshFeature.svg) [Scale Mesh Feature](/OpenSCAD_ScaleMeshFeature "OpenSCAD ScaleMeshFeature"): Scale a Mesh Feature.
+- ![](/images/OpenSCAD_ResizeMeshFeature.svg) [Resize Mesh Feature](/OpenSCAD_ResizeMeshFeature "OpenSCAD ResizeMeshFeature"): Resize a Mesh Feature.
+- ![](/images/OpenSCAD_IncreaseToleranceFeature.svg) [Increase Tolerance Feature](/OpenSCAD_IncreaseToleranceFeature "OpenSCAD IncreaseToleranceFeature"): Increases tolerance of edges/faces/vertex of selected object(s).
+- ![](/images/OpenSCAD_Edgestofaces.svg) [Convert Edges To Faces](/OpenSCAD_Edgestofaces "OpenSCAD Edgestofaces"): Convert edges to faces. Useful to prepare imported DXF geometry for extrusion.
+- ![](/images/OpenSCAD_ExpandPlacements.svg) [Expand Placements](/OpenSCAD_ExpandPlacements "OpenSCAD ExpandPlacements"): Expand all placements downwards the FeatureTree.
+- ![](/images/OpenSCAD_ExplodeGroup.svg) [Explode Group](/OpenSCAD_ExplodeGroup "OpenSCAD ExplodeGroup"): Explodes fused part primitives.
+- ![](/images/OpenSCAD_AddOpenSCADElement.svg) [Add OpenSCAD Element](/OpenSCAD_AddOpenSCADElement "OpenSCAD AddOpenSCADElement"): Add an OpenSCAD element by entering OpenSCAD code into the task panel.
+- ![](/images/OpenSCAD_MeshBoolean.svg) [Mesh Boolean](/OpenSCAD_MeshBoolean "OpenSCAD MeshBoolean"): Creates new mesh object by boolean operation from shapes.
+- ![](/images/OpenSCAD_Hull.svg) [Hull](/OpenSCAD_Hull "OpenSCAD Hull"): Applies a hull to selected shapes.
+- ![](/images/OpenSCAD_Minkowski.svg) [Minkowski](/OpenSCAD_Minkowski "OpenSCAD Minkowski"): Applies a minkowski sum to selected shapes.
 
 ## Preferences
 
-- ![](/src/assets/images/Std_DlgPreferences.svg) [Preferences](/OpenSCAD_Preferences "OpenSCAD Preferences"): preferences available for the OpenSCAD tools.
+- ![](/images/Std_DlgPreferences.svg) [Preferences](/OpenSCAD_Preferences "OpenSCAD Preferences"): preferences available for the OpenSCAD tools.
 
 ## Limitations
 

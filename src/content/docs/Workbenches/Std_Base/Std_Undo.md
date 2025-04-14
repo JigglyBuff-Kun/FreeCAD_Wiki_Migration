@@ -24,13 +24,13 @@ The **Std Undo** command undoes the last action.
 ## Usage
 
 1. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/Std_Undo.svg) [Undo](/Std_Undo "Std Undo") button.
-   - Select the **Edit → ![](/src/assets/images/Std_Undo.svg) Undo** option from the menu.
+   - Press the ![](/images/Std_Undo.svg) [Undo](/Std_Undo "Std Undo") button.
+   - Select the **Edit → ![](/images/Std_Undo.svg) Undo** option from the menu.
    - Use the keyboard shortcut: Ctrl+Z.
 
 ## Options
 
-- To undo multiple actions click on the small black down arrow to the right of the ![](/src/assets/images/Std_Undo.svg) [Undo](/Std_Undo "Std Undo") button and select from the list.
+- To undo multiple actions click on the small black down arrow to the right of the ![](/images/Std_Undo.svg) [Undo](/Std_Undo "Std Undo") button and select from the list.
 
 ## Preferences
 

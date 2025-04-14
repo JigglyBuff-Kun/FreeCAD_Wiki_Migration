@@ -28,7 +28,7 @@ The **Arch RemoveShape** tool attempts at removing the inner cubic shape of an [
 ## Usage
 
 1. Select an [Arch Wall](/Arch_Wall "Arch Wall") or [Arch Structure](/Arch_Structure "Arch Structure").
-2. Select the **Utils → ![](/src/assets/images/Arch_RemoveShape.svg) Remove Shape from Arch** option from the menu.
+2. Select the **Utils → ![](/images/Arch_RemoveShape.svg) Remove Shape from Arch** option from the menu.
 
 ## Scripting
 

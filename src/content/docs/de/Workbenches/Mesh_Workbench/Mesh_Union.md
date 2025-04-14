@@ -23,7 +23,7 @@ Der Befehl **Mesh Vereinigung** erstellt ein neues nicht parametrisches Netzobje
 
 [OpenSCAD](http://www.openscad.org/) muss installiert sein, um diesen Befehl benutzen zu können und der Pfad zur ausführbaren Datei muss in den [OpenSCAD-Einstellungen](/OpenSCAD_Preferences/de "OpenSCAD Preferences/de") eingetragen sein.
 
-![](/src/assets/images/Mesh_Union_example.png)
+![](/images/Mesh_Union_example.png)
 
 Links: zwei Netzobjekte. Rechts: das Netzobjekt aus der Vereinigung beider Objekte
 
@@ -31,8 +31,8 @@ Links: zwei Netzobjekte. Rechts: das Netzobjekt aus der Vereinigung beider Objek
 
 1. Zwei Netzobjekte, die sich teilweise überlappen, auswählen.
 2. Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
-   - Die Schaltfläche ![](/src/assets/images/Mesh_Union.svg) Vereinigung drücken.
-   - Den Menüeintrag **Netze → Boolesche Verknüpfungen → ![](/src/assets/images/Mesh_Union.svg) Vereinigung** auswählen.
+   - Die Schaltfläche ![](/images/Mesh_Union.svg) Vereinigung drücken.
+   - Den Menüeintrag **Netze → Boolesche Verknüpfungen → ![](/images/Mesh_Union.svg) Vereinigung** auswählen.
 
 ## Eigenschaften
 

@@ -50,7 +50,7 @@ Script optimized for all languages and to object selected or all objects [Keyboa
 
 ## Script
 
-ToolBar icon ![](/src/assets/images/Macro_Toggle_Drawstyle.png)
+ToolBar icon ![](/images/Macro_Toggle_Drawstyle.png)
 
 **Macro Toggle Drawstyle.FCMacro**
 

@@ -59,7 +59,7 @@ FreeCAD arbeitet in einem dreidimensionalen [euklidischen Raum](https://de.wikip
 
 Jeder Ort im Raum von FreeCAD wird durch die Koordinaten (x, y, z) bestimmt. Beispielsweise ist ein Punkt bei den Koordinaten (2,3,1) 2 Einheiten entlang der X-Achse, 3 Einheiten entlang der Y-Achse und 1 Einheit entlang der Z-Achse positioniert. Das Navigieren in diesem Raum ist vergleichbar mit der Bedienung einer Kamera. Du kannst die Kamera nach links, rechts, oben oder unten bewegen (Schwenken), sie um den Brennpunkt schwenken (Drehen) oder sie näher an Objekte heran oder von ihnen weg bewegen (Zoomen), sodass du dein Design aus verschiedenen Perspektiven erkunden kannst.
 
-![](/src/assets/images/3dspace_coordinates.jpg)
+![](/images/3dspace_coordinates.jpg)
 
 ### Die FreeCAD-3D-Ansicht
 
@@ -67,7 +67,7 @@ Jeder Ort im Raum von FreeCAD wird durch die Koordinaten (x, y, z) bestimmt. Bei
 
 Die Navigation in der [3D-Ansicht](/3D_view/de "3D view/de") in FreeCAD kann mithilfe verschiedener Eingaben erfolgen, darunter eine Maus, ein Space Navigator-Gerät, Tastaturkürzel, ein Touchpad oder eine beliebige Kombination davon. FreeCAD bietet eine Reihe von [Navigationsstilen](/Mouse_navigation/de "Mouse navigation/de"), die definieren, wie die drei grundlegenden Anzeigevorgänge – Schwenken, Drehen und Zoomen – ausgeführt werden. Darüber hinaus bestimmen diese Stile, wie Objekte im Arbeitsbereich ausgewählt werden. Um auf diese Navigationsstile zuzugreifen und zwischen ihnen zu wechseln, kannst du zum Bildschirm „Einstellungen“ navigieren oder einfach mit der rechten Maustaste in die [3D-Ansicht](/3D_view/de "3D view/de") klicken. Darüber hinaus gibt es eine dritte, unmittelbarere Option zum Ändern des Navigationsstils direkt über die Benutzeroberfläche im unteren rechten Teil des Bildschirms.
 
-![](/src/assets/images/FreeCAD_022_NavigationMethod.png)
+![](/images/FreeCAD_022_NavigationMethod.png)
 
 Jeder dieser Stile weist diesen vier Operationen unterschiedliche Maustasten, Maus- und Tastaturkombinationen oder Mausgesten zu. Die folgende Tabelle zeigt die wichtigsten verfügbaren Stile. Magenta markierte Tastatur- und Maustasten müssen gedrückt gehalten werden.
 
@@ -87,18 +87,18 @@ Jeder dieser Stile weist diesen vier Operationen unterschiedliche Maustasten, Ma
 
 Beachte, dass ein Tooltip angezeigt wird, wenn ein Benutzer mit der Maus über das Navigationsstilmenü unten rechts auf dem Bildschirm fährt. Dieser Tooltip enthält eine kurze Beschreibung des hervorgehobenen Navigationsstils und bietet sofortige Hinweise zu seiner Verwendung.
 
-![](/src/assets/images/FreeCAD_022_NavigationHover.png)
+![](/images/FreeCAD_022_NavigationHover.png)
 
 #### Tastaturnavigation
 
 Alternativ sind einige Bedienelemente der Tastatur immer verfügbar, unabhängig vom Navigationsstil:
 
-- Strg + ![](/src/assets/images/Ascii_043.svg) und Strg + ![](/src/assets/images/Ascii_022.svg) oder Bild auf und Bild ab zum Vergrößern bzw. Verkleinern.
-- Die Pfeiltasten, ![](/src/assets/images/Ascii_017.svg)![](/src/assets/images/Ascii_016.svg)![](/src/assets/images/Ascii_030.svg)![](/src/assets/images/Ascii_031.svg), um die Ansicht nach links/rechts und oben/unten zu schwenken.
-- Shift + ![](/src/assets/images/Ascii_017.svg) und Shift + ![](/src/assets/images/Ascii_016.svg), um die Ansicht um 90 Grad zu drehen.
-- Die Zifferntasten, ![](/src/assets/images/Ascii_048.svg)![](/src/assets/images/Ascii_049.svg)![](/src/assets/images/Ascii_050.svg)![](/src/assets/images/Ascii_051.svg)![](/src/assets/images/Ascii_052.svg)![](/src/assets/images/Ascii_053.svg)![](/src/assets/images/Ascii_054.svg), für die sieben Standardansichten: ![](/src/assets/images/Std_ViewIsometric.svg) [Isometric](/Std_ViewIsometric "Std ViewIsometric"), ![](/src/assets/images/Std_ViewFront.svg) [Front](/Std_ViewFront "Std ViewFront"), ![](/src/assets/images/Std_ViewTop.svg) [Oben](/Std_ViewTop "Std ViewTop"), ![](/src/assets/images/Std_ViewRight.svg) [Rechts](/Std_ViewRight "Std ViewRight"), ![](/src/assets/images/Std_ViewRear.svg) [Hinten](/Std_ViewRear "Std ViewRear"), ![](/src/assets/images/Std_ViewBottom.svg) [Unten](/Std_ViewBottom "Std ViewBottom") und ![](/src/assets/images/Std_ViewLeft.svg) [Links](/Std_ViewLeft "Std ViewLeft").
-- VO stellt die Kamera in der ![](/src/assets/images/View-isometric.svg) [Orthographischen Ansicht](/Std_OrthographicCamera "Std OrthographicCamera") ein.
-- Während VP es in ![](/src/assets/images/View-perspective.svg) [Perspektivansicht](/Std_PerspectiveCamera "Std PerspectiveCamera") einstellt.
+- Strg + ![](/images/Ascii_043.svg) und Strg + ![](/images/Ascii_022.svg) oder Bild auf und Bild ab zum Vergrößern bzw. Verkleinern.
+- Die Pfeiltasten, ![](/images/Ascii_017.svg)![](/images/Ascii_016.svg)![](/images/Ascii_030.svg)![](/images/Ascii_031.svg), um die Ansicht nach links/rechts und oben/unten zu schwenken.
+- Shift + ![](/images/Ascii_017.svg) und Shift + ![](/images/Ascii_016.svg), um die Ansicht um 90 Grad zu drehen.
+- Die Zifferntasten, ![](/images/Ascii_048.svg)![](/images/Ascii_049.svg)![](/images/Ascii_050.svg)![](/images/Ascii_051.svg)![](/images/Ascii_052.svg)![](/images/Ascii_053.svg)![](/images/Ascii_054.svg), für die sieben Standardansichten: ![](/images/Std_ViewIsometric.svg) [Isometric](/Std_ViewIsometric "Std ViewIsometric"), ![](/images/Std_ViewFront.svg) [Front](/Std_ViewFront "Std ViewFront"), ![](/images/Std_ViewTop.svg) [Oben](/Std_ViewTop "Std ViewTop"), ![](/images/Std_ViewRight.svg) [Rechts](/Std_ViewRight "Std ViewRight"), ![](/images/Std_ViewRear.svg) [Hinten](/Std_ViewRear "Std ViewRear"), ![](/images/Std_ViewBottom.svg) [Unten](/Std_ViewBottom "Std ViewBottom") und ![](/images/Std_ViewLeft.svg) [Links](/Std_ViewLeft "Std ViewLeft").
+- VO stellt die Kamera in der ![](/images/View-isometric.svg) [Orthographischen Ansicht](/Std_OrthographicCamera "Std OrthographicCamera") ein.
+- Während VP es in ![](/images/View-perspective.svg) [Perspektivansicht](/Std_PerspectiveCamera "Std PerspectiveCamera") einstellt.
 - Mit Strg kannst du mehr als ein Objekt oder Element auswählen.
 
 Diese Steuerelemente sind auch über das [Menü Ansicht](/Std_View_Menu/de "Std View Menu/de") und einige über die Symbolleiste Ansicht verfügbar.
@@ -107,7 +107,7 @@ Diese Steuerelemente sind auch über das [Menü Ansicht](/Std_View_Menu/de "Std 
 
 In der Grundeinstellung befindet sich oben rechts in der 3D-Ansicht ein [Navigationswürfel](/Navigation_Cube/de "Navigation Cube/de"). Dieser kann zum Ändern der Ansicht verwendet werden.
 
-![](/src/assets/images/FreeCAD_022_Cube.png)
+![](/images/FreeCAD_022_Cube.png)
 
 Wenn du auf eine Fläche des Würfels klickst, wird die Ansicht auf diese Fläche umgeschaltet. Wenn du auf einen der vier dreieckigen Pfeile klickst, wird die Ansicht um 45 Grad in die angegebene Richtung gedreht. Wenn du auf einen der beiden gebogenen Pfeile klickst, wird die Ansicht um 45 Grad in die angegebene Richtung um eine auf dich zeigende Linie gedreht. Wenn du auf die runde Schaltfläche in der oberen rechten Ecke des Würfels klickst, wird die Ansicht um 180 Grad um die vertikale Ansichtsachse gedreht.
 
@@ -124,7 +124,7 @@ Objekte in der 3D-Ansicht können je nach Navigationsstil (oben beschrieben) dur
 
 Ein Paneel namens "Auswahlansicht", das im Menü "Ansicht" verfügbar ist, kann ebenfalls eingeschaltet werden; es zeigt dir, was gerade ausgewählt ist:
 
-![](/src/assets/images/Selection_view.jpg)
+![](/images/Selection_view.jpg)
 
 Du kannst auch die Auswahlansicht verwenden, um Objekte durch die Suche nach einem bestimmten Objekt auszuwählen.
 

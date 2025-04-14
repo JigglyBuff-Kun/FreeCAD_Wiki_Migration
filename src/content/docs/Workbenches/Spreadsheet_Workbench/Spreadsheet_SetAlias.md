@@ -19,14 +19,14 @@ title: Spreadsheet SetAlias
 
 ## Description
 
-The ![](/src/assets/images/Spreadsheet_SetAlias.svg) **Spreadsheet SetAlias** tool opens a dialog to set up an alias for a cell. Instead of using the exact cell name like A2, B3, or C4, a custom name can be used.
+The ![](/images/Spreadsheet_SetAlias.svg) **Spreadsheet SetAlias** tool opens a dialog to set up an alias for a cell. Instead of using the exact cell name like A2, B3, or C4, a custom name can be used.
 
 ## Usage
 
 1. Make sure there is an active [spreadsheet](/Spreadsheet_CreateSheet "Spreadsheet CreateSheet").
 2. Select a cell.
 3. There are several ways to invoke the tool:
-   - Press the ![](/src/assets/images/Spreadsheet_SetAlias.svg) [Set alias](/Spreadsheet_SetAlias "Spreadsheet SetAlias") button.
+   - Press the ![](/images/Spreadsheet_SetAlias.svg) [Set alias](/Spreadsheet_SetAlias "Spreadsheet SetAlias") button.
    - Use the keyboard shortcut: Ctrl+Shift+A.
 4. Enter an alias:
    - Only alphanumeric characters and underscores (`A` to `Z`, `a` to `z`, `0` to `9` and `_`) are allowed.

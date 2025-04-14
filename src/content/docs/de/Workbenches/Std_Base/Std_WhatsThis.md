@@ -26,8 +26,8 @@ Seit FreeCAD Version 0.20 wird dieser Befehl und das Hilfesystem von einem separ
 ## Anwendung
 
 1. Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
-   - Die Schaltfläche ![](/src/assets/images/Std_WhatsThis.svg) Direkthilfe drücken.
-   - Den Menüeintrag **Hilfe → ![](/src/assets/images/Std_WhatsThis.svg) Direkthilfe** auswählen.
+   - Die Schaltfläche ![](/images/Std_WhatsThis.svg) Direkthilfe drücken.
+   - Den Menüeintrag **Hilfe → ![](/images/Std_WhatsThis.svg) Direkthilfe** auswählen.
    - Das Tastaturkürzel Shift + F1.
 2. Eine Schaltfläche einer Symbolleiste oder einen Menüeintrag anklicken.
 3. Die Hilfedokumentation für den ausgewählten Befehl wird geöffnet.

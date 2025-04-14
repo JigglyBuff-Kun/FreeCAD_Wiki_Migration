@@ -179,19 +179,19 @@ FreeCAD received many new Python API functions:
 
 - A **Global** checkbox was added to the task panel of many drafting commands. Checking it allows input of coordinates in the global coordinate system even if the [working plane](/Draft_SelectPlane "Draft SelectPlane") is not aligned with the global XY plane.
 
-- The ![](/src/assets/images/Draft_Hatch.svg) [Draft Hatch](/Draft_Hatch "Draft Hatch") command was introduced. It creates hatches on the faces of a selected object using patterns from AutoCAD PAT files.
+- The ![](/images/Draft_Hatch.svg) [Draft Hatch](/Draft_Hatch "Draft Hatch") command was introduced. It creates hatches on the faces of a selected object using patterns from AutoCAD PAT files.
 
-- The ![](/src/assets/images/Draft_AddNamedGroup.svg) [Draft AddNamedGroup](/Draft_AddNamedGroup "Draft AddNamedGroup") command was introduced. The ![](/src/assets/images/Draft_AddToGroup.svg) [Draft AddToGroup](/Draft_AddToGroup "Draft AddToGroup") command was extended with the same functionality.
+- The ![](/images/Draft_AddNamedGroup.svg) [Draft AddNamedGroup](/Draft_AddNamedGroup "Draft AddNamedGroup") command was introduced. The ![](/images/Draft_AddToGroup.svg) [Draft AddToGroup](/Draft_AddToGroup "Draft AddToGroup") command was extended with the same functionality.
 
-- Work on the ![](/src/assets/images/Draft_SetStyle.svg) [Draft SetStyle](/Draft_SetStyle "Draft SetStyle") command, still in progress in FreeCAD version 0.19, was completed.
+- Work on the ![](/images/Draft_SetStyle.svg) [Draft SetStyle](/Draft_SetStyle "Draft SetStyle") command, still in progress in FreeCAD version 0.19, was completed.
 
-- A double-click edit option was added for ![](/src/assets/images/Draft_Text.svg) [Draft Texts](/Draft_Text "Draft Text"). It opens the same edit task panel used when creating a text.
+- A double-click edit option was added for ![](/images/Draft_Text.svg) [Draft Texts](/Draft_Text "Draft Text"). It opens the same edit task panel used when creating a text.
 
-- For ![](/src/assets/images/Draft_Dimension.svg) [Draft Dimensions](/Draft_Dimension "Draft Dimension") the `arch` View**Unit Override** for imperial architectural dimensions was introduced.
+- For ![](/images/Draft_Dimension.svg) [Draft Dimensions](/Draft_Dimension "Draft Dimension") the `arch` View**Unit Override** for imperial architectural dimensions was introduced.
 
-* ![](/src/assets/images/Draft_Shape2DView.svg) [Draft Shape2DView](/Draft_Shape2DView "Draft Shape2DView") objects now have an Data**Auto Update** property. Setting it to `false` can be useful if there are many Draft Shape2DViews in a document or if they are complex.
+* ![](/images/Draft_Shape2DView.svg) [Draft Shape2DView](/Draft_Shape2DView "Draft Shape2DView") objects now have an Data**Auto Update** property. Setting it to `false` can be useful if there are many Draft Shape2DViews in a document or if they are complex.
 
-- It is now possible to reverse a [Draft Wire](/Draft_Wire "Draft Wire") via the ![](/src/assets/images/Draft_Edit.svg) [Draft Edit](/Draft_Edit "Draft Edit") context menu. [Forum discussion](https://forum.freecadweb.org/viewtopic.php?f=23&t=58643&start=20), [Pull request #4811](https://github.com/FreeCAD/FreeCAD/pull/4811).
+- It is now possible to reverse a [Draft Wire](/Draft_Wire "Draft Wire") via the ![](/images/Draft_Edit.svg) [Draft Edit](/Draft_Edit "Draft Edit") context menu. [Forum discussion](https://forum.freecadweb.org/viewtopic.php?f=23&t=58643&start=20), [Pull request #4811](https://github.com/FreeCAD/FreeCAD/pull/4811).
 
 ### Further Draft improvements
 
@@ -218,9 +218,9 @@ FreeCAD received many new Python API functions:
 - Meshing with [Gmsh](/FEM_MeshGmshFromShape "FEM MeshGmshFromShape") now uses all CPU cores. [Pull request #6370](https://github.com/FreeCAD/FreeCAD/pull/6370)
 - The element order of [Gmsh](/FEM_MeshGmshFromShape "FEM MeshGmshFromShape") meshes can be changed via the mesh dialog. [Pull request #4660](https://github.com/FreeCAD/FreeCAD/pull/4660)
 - The [Data at point clip](/FEM_PostFilterDataAtPoint "FEM PostFilterDataAtPoint") result filter is now actually working: One gets info from result meshes by clicking into them or by specifying a mesh coordinate.
-- A new constraint was added: **Model → Mechanical Constraints → ![](/src/assets/images/FEM_ConstraintCentrif.svg) [Constraint Centrif](/FEM_ConstraintCentrif "FEM ConstraintCentrif")**. [Pull request #4738](https://github.com/FreeCAD/FreeCAD/pull/4738)
-- A new solver was added: **Solve → ![](/src/assets/images/FEM_SolverMystran.svg) [Solver Mystran](/FEM_SolverMystran "FEM SolverMystran")**. Multiple commits.
-- A new constraint was added: **Model → Mechanical Constraints → ![](/src/assets/images/FEM_ConstraintSpring.svg) [Constraint Spring](/FEM_ConstraintSpring "FEM ConstraintSpring")**. [Pull request #4982](https://github.com/FreeCAD/FreeCAD/pull/4982)
+- A new constraint was added: **Model → Mechanical Constraints → ![](/images/FEM_ConstraintCentrif.svg) [Constraint Centrif](/FEM_ConstraintCentrif "FEM ConstraintCentrif")**. [Pull request #4738](https://github.com/FreeCAD/FreeCAD/pull/4738)
+- A new solver was added: **Solve → ![](/images/FEM_SolverMystran.svg) [Solver Mystran](/FEM_SolverMystran "FEM SolverMystran")**. Multiple commits.
+- A new constraint was added: **Model → Mechanical Constraints → ![](/images/FEM_ConstraintSpring.svg) [Constraint Spring](/FEM_ConstraintSpring "FEM ConstraintSpring")**. [Pull request #4982](https://github.com/FreeCAD/FreeCAD/pull/4982)
 - It is now possible to have [result pipelines](/FEM_PostPipelineFromResult "FEM PostPipelineFromResult") with several filters, where some take other filters as input, and some take the results directly from the pipeline. [commit 708a300b](https://github.com/FreeCAD/FreeCAD/commit/708a300b)
 - Material cards can now contain values for the electrical conductivity. [Pull request #4647](https://github.com/FreeCAD/FreeCAD/pull/4647)
 - Material cards added for Nitrogen and Argon. [Pull request #4649](https://github.com/FreeCAD/FreeCAD/pull/4649)
@@ -324,7 +324,7 @@ New options were added to support running either FreeCAD, OpenSCAD, or both, in 
 ### Further Sketcher improvements
 
 - Refactored Trim support. [Pull request #4330](https://github.com/FreeCAD/FreeCAD/pull/4330) [Forum discussion](https://forum.freecadweb.org/viewtopic.php?f=10&t=54441)
-- The behavior of the ![](/src/assets/images/Sketcher_CreateSlot.svg) [Slot](/Sketcher_CreateSlot "Sketcher CreateSlot") tool has changed. Slots can now be created by defining the center of both semicircles. [Pull request](https://github.com/FreeCAD/FreeCAD/pull/4843) [Forum discussion](https://forum.freecadweb.org/viewtopic.php?f=17&t=59243&p=508658#p508658)
+- The behavior of the ![](/images/Sketcher_CreateSlot.svg) [Slot](/Sketcher_CreateSlot "Sketcher CreateSlot") tool has changed. Slots can now be created by defining the center of both semicircles. [Pull request](https://github.com/FreeCAD/FreeCAD/pull/4843) [Forum discussion](https://forum.freecadweb.org/viewtopic.php?f=17&t=59243&p=508658#p508658)
 - Visibility automation allows to open Sketcher in [Section mode](/Sketcher_ViewSection "Sketcher ViewSection") when entering edit mode. [Pull request #4742](https://github.com/FreeCAD/FreeCAD/pull/4742) [Forum discussion](https://forum.freecadweb.org/viewtopic.php?f=3&t=57056)
 - Visibility automation allows to force camera in [Orthographic mode](/Std_OrthographicCamera "Std OrthographicCamera") when entering edit mode. [Pull request #4778](https://github.com/FreeCAD/FreeCAD/pull/4778) [Forum discussion](https://forum.freecadweb.org/viewtopic.php?f=22&t=44747)
 - Option to display the dimensional constraint name and use a custom format for it. [Pull request #4966](https://github.com/FreeCAD/FreeCAD/pull/4966) [Forum discussion](https://forum.freecadweb.org/viewtopic.php?t=61153)

@@ -2,55 +2,55 @@
 title: Arbeitsbereich Spreadsheet
 ---
 
-![](/src/assets/images/Workbench_Spreadsheet.svg)
+![](/images/Workbench_Spreadsheet.svg)
 
 Symbol des Arbeitsbereichs Spreadsheet
 
 ## Einleitung
 
-Der Arbeitsbereich ![](/src/assets/images/Workbench_Spreadsheet.svg) Spreadsheet ermöglicht die Erstellung und Bearbeitung von Tabellen, Daten aus der Tabellenkalkulation als Parameter in einem Modell zu verwenden, die Tabellenkalkulation mit aus einem Modell abgerufenen Daten zu füllen, Berechnungen durchzuführen und die Daten in andere Tabellenkalkulationsprogramme wie LibreOffice oder Microsoft Excel zu exportieren.
+Der Arbeitsbereich ![](/images/Workbench_Spreadsheet.svg) Spreadsheet ermöglicht die Erstellung und Bearbeitung von Tabellen, Daten aus der Tabellenkalkulation als Parameter in einem Modell zu verwenden, die Tabellenkalkulation mit aus einem Modell abgerufenen Daten zu füllen, Berechnungen durchzuführen und die Daten in andere Tabellenkalkulationsprogramme wie LibreOffice oder Microsoft Excel zu exportieren.
 
-![](/src/assets/images/Spreadsheet_screenshot.jpg)
+![](/images/Spreadsheet_screenshot.jpg)
 
 Eine Tabellenblatt mit bestimmten Zellen, die mit Text und Mengen gefüllt sind
 
 ## Werkzeuge
 
-- ![](/src/assets/images/Spreadsheet_CreateSheet.svg) [Blatt erstellen](/Spreadsheet_CreateSheet/de "Spreadsheet CreateSheet/de"): Erstelle ein neues Tabellenblatt.
+- ![](/images/Spreadsheet_CreateSheet.svg) [Blatt erstellen](/Spreadsheet_CreateSheet/de "Spreadsheet CreateSheet/de"): Erstelle ein neues Tabellenblatt.
 
-- ![](/src/assets/images/Spreadsheet_Import.svg) [Importieren](/Spreadsheet_Import/de "Spreadsheet Import/de"): eine CSV Datei in ein Tabellenblatt importieren.
+- ![](/images/Spreadsheet_Import.svg) [Importieren](/Spreadsheet_Import/de "Spreadsheet Import/de"): eine CSV Datei in ein Tabellenblatt importieren.
 
-- ![](/src/assets/images/Spreadsheet_Export.svg) [Exportieren](/Spreadsheet_Export/de "Spreadsheet Export/de"): eine CSV Datei aus einem Tabellenblatt exportieren.
+- ![](/images/Spreadsheet_Export.svg) [Exportieren](/Spreadsheet_Export/de "Spreadsheet Export/de"): eine CSV Datei aus einem Tabellenblatt exportieren.
 
-- ![](/src/assets/images/Spreadsheet_MergeCells.svg) [Zellen zusammenführen](/Spreadsheet_MergeCells/de "Spreadsheet MergeCells/de"): Markierte Zellen zusammenführen.
+- ![](/images/Spreadsheet_MergeCells.svg) [Zellen zusammenführen](/Spreadsheet_MergeCells/de "Spreadsheet MergeCells/de"): Markierte Zellen zusammenführen.
 
-- ![](/src/assets/images/Spreadsheet_SplitCell.svg) [Zelle teilen](/Spreadsheet_SplitCell/de "Spreadsheet SplitCell/de"): teilt zuvor zusammengeführte Zellen.
+- ![](/images/Spreadsheet_SplitCell.svg) [Zelle teilen](/Spreadsheet_SplitCell/de "Spreadsheet SplitCell/de"): teilt zuvor zusammengeführte Zellen.
 
-- ![](/src/assets/images/Spreadsheet_AlignLeft.svg) [Links ausrichten](/Spreadsheet_AlignLeft/de "Spreadsheet AlignLeft/de"): Richtet den Inhalt der ausgewählten Zellen links aus.
+- ![](/images/Spreadsheet_AlignLeft.svg) [Links ausrichten](/Spreadsheet_AlignLeft/de "Spreadsheet AlignLeft/de"): Richtet den Inhalt der ausgewählten Zellen links aus.
 
-- ![](/src/assets/images/Spreadsheet_AlignCenter.svg) [Zentriert ausrichten](/Spreadsheet_AlignCenter/de "Spreadsheet AlignCenter/de"): Richtet den Inhalt der ausgewählten Zellen horizontal zur Mitte aus.
+- ![](/images/Spreadsheet_AlignCenter.svg) [Zentriert ausrichten](/Spreadsheet_AlignCenter/de "Spreadsheet AlignCenter/de"): Richtet den Inhalt der ausgewählten Zellen horizontal zur Mitte aus.
 
-- ![](/src/assets/images/Spreadsheet_AlignRight.svg) [Rechts ausrichten](/Spreadsheet_AlignRight/de "Spreadsheet AlignRight/de"): Richtet den Inhalt der markierten Zellen nach rechts aus.
+- ![](/images/Spreadsheet_AlignRight.svg) [Rechts ausrichten](/Spreadsheet_AlignRight/de "Spreadsheet AlignRight/de"): Richtet den Inhalt der markierten Zellen nach rechts aus.
 
-- ![](/src/assets/images/Spreadsheet_AlignTop.svg) [Oben ausrichten](/Spreadsheet_AlignTop/de "Spreadsheet AlignTop/de"): Richtet den Inhalt der markierten Zellen nach oberen aus.
+- ![](/images/Spreadsheet_AlignTop.svg) [Oben ausrichten](/Spreadsheet_AlignTop/de "Spreadsheet AlignTop/de"): Richtet den Inhalt der markierten Zellen nach oberen aus.
 
-- ![](/src/assets/images/Spreadsheet_AlignVCenter.svg) [Vertikale Mittig ausrichten](/Spreadsheet_AlignVCenter/de "Spreadsheet AlignVCenter/de"): Richtet die Inhalte der ausgewählten Zellen vertikal zur Mitte aus.
+- ![](/images/Spreadsheet_AlignVCenter.svg) [Vertikale Mittig ausrichten](/Spreadsheet_AlignVCenter/de "Spreadsheet AlignVCenter/de"): Richtet die Inhalte der ausgewählten Zellen vertikal zur Mitte aus.
 
-- ![](/src/assets/images/Spreadsheet_AlignBottom.svg) [Unten ausrichten](/Spreadsheet_AlignBottom/de "Spreadsheet AlignBottom/de"): Richtet den Inhalt der markierten Zellen nach unten aus.
+- ![](/images/Spreadsheet_AlignBottom.svg) [Unten ausrichten](/Spreadsheet_AlignBottom/de "Spreadsheet AlignBottom/de"): Richtet den Inhalt der markierten Zellen nach unten aus.
 
-- ![](/src/assets/images/Spreadsheet_StyleBold.svg) [Text in Fettschrift](/Spreadsheet_StyleBold/de "Spreadsheet StyleBold/de"): Aktiviert bzw. deaktiviert die Darstellung des Inhalts der ausgewählten Zellen in fetter Schrift.
+- ![](/images/Spreadsheet_StyleBold.svg) [Text in Fettschrift](/Spreadsheet_StyleBold/de "Spreadsheet StyleBold/de"): Aktiviert bzw. deaktiviert die Darstellung des Inhalts der ausgewählten Zellen in fetter Schrift.
 
-- ![](/src/assets/images/Spreadsheet_StyleItalic.svg) [Text in Kursivschrift](/Spreadsheet_StyleItalic/de "Spreadsheet StyleItalic/de"): Aktiviert bzw. deaktiviert die Darstellung des Inhalts der ausgewählten Zellen in kursiver Schrift.
+- ![](/images/Spreadsheet_StyleItalic.svg) [Text in Kursivschrift](/Spreadsheet_StyleItalic/de "Spreadsheet StyleItalic/de"): Aktiviert bzw. deaktiviert die Darstellung des Inhalts der ausgewählten Zellen in kursiver Schrift.
 
-- ![](/src/assets/images/Spreadsheet_StyleUnderline.svg) [Text unterstreichen](/Spreadsheet_StyleUnderline/de "Spreadsheet StyleUnderline/de"): Aktiviert bzw. deaktiviert die Darstellung des Inhalts der ausgewählten Zellen mit unterstrichener Schrift.
+- ![](/images/Spreadsheet_StyleUnderline.svg) [Text unterstreichen](/Spreadsheet_StyleUnderline/de "Spreadsheet StyleUnderline/de"): Aktiviert bzw. deaktiviert die Darstellung des Inhalts der ausgewählten Zellen mit unterstrichener Schrift.
 
-- ![](/src/assets/images/Spreadsheet_SetAlias.svg) [Setze Alias](/Spreadsheet_SetAlias/de "Spreadsheet SetAlias/de"): legen den Alias für eine ausgewählte Zelle fest.
+- ![](/images/Spreadsheet_SetAlias.svg) [Setze Alias](/Spreadsheet_SetAlias/de "Spreadsheet SetAlias/de"): legen den Alias für eine ausgewählte Zelle fest.
 
 * Schwarz und Weiß legen die Vorder- und Hintergrundfarben der ausgewählten Zellen fest.
 
 ## Einstellungen
 
-- ![](/src/assets/images/Preferences-spreadsheet.svg) [Einstellungen](/Spreadsheet_Preferences/de "Spreadsheet Preferences/de"): die Einstellungen für den Arbeitsbereich Spreadsheet. [eingeführt in 0.20](/Release_notes_0.20/de "Release notes 0.20/de")
+- ![](/images/Preferences-spreadsheet.svg) [Einstellungen](/Spreadsheet_Preferences/de "Spreadsheet Preferences/de"): die Einstellungen für den Arbeitsbereich Spreadsheet. [eingeführt in 0.20](/Release_notes_0.20/de "Release notes 0.20/de")
 
 ## Entfernen von Zellen kann gefährlich sein
 
@@ -80,7 +80,7 @@ Die Operationen Ausschneiden und Kopieren speichern den Inhalt, die Eigenschafte
 
 Die Eigenschaften einer Tabellenzelle können mit einem Rechtsklick auf die Zelle und Auswahl von **Eigenschaften...** im Kontextmenü geändert werden. Folgender Dialog wird geöffnet:
 
-![](/src/assets/images/SpreadsheetCellPropDialog.png)
+![](/images/SpreadsheetCellPropDialog.png)
 
 Wie in den Reitern angezeigt können die folgenden Eigenschaften geändert werden:
 
@@ -165,7 +165,7 @@ Das Bearbeiten einer Kalkulationstabelle löst eine Neuberechnung des 3D Modells
 Es gibt drei Lösungen, die sich damit beschäftigen:
 
 1. Überspringe vorübergehend Neuberechnungen:
-   - In der [Baumansicht](/Tree_view/de "Tree view/de") das ![](/src/assets/images/Document.svg) Dokument rechtsklicken, das die Kalkulationstabelle enthält.
+   - In der [Baumansicht](/Tree_view/de "Tree view/de") das ![](/images/Document.svg) Dokument rechtsklicken, das die Kalkulationstabelle enthält.
    - Wähle die Option **Überspringe Neuberechnen** aus dem Kontextmenü.
    - Diese Lösung hat einen großen Nachteil. Neue Werte, die in das Arbeitsblatt eingegeben werden, werden nicht angezeigt, bis das Dokument neu berechnet wird. Stattdessen wird `#PENDING` angezeigt.
    - Du kannst entweder manuell neu berechnen, durch verwenden des [Std Aktualisieren](/Std_Refresh/de "Std Refresh/de") Befehls, oder deaktivieren von**Überspringe Neuberechnen**, wenn du mit der Bearbeitung fertig bist.
@@ -230,12 +230,12 @@ Um zum Beispiel den Zellbereich A3-C4 mit dem Zellbereich B1-D2 zu verbinden:
 2. Rechtsklick und wähle **Bind...** aus dem Kontext-Menü.
 3. Der **Bind Spreadsheet Cells** Dialog öffnet sich.
 4. Wähle den Bereich B1-D2 mit dem Befehl **To cells**:
-   ![](/src/assets/images/Spreadsheet_binding-dialog.png)
+   ![](/images/Spreadsheet_binding-dialog.png)
 5. Drücke den OK.
 6. Gebundene Zellen haben eine blauen Rand zur Hervorhebung der Bindung.
 7. Wenn Du jetzt etwas in Zelle C1 eingibst, erscheint der Wert sofort in Celle B3.
 
-![](/src/assets/images/Spreadsheet_binding-result.png)
+![](/images/Spreadsheet_binding-result.png)
 
 Die Tabelle sieht nun so aus
 

@@ -19,7 +19,7 @@ title: CAM Job
 
 ## Description
 
-The ![](/src/assets/images/CAM_Job.svg) [Job](/CAM_Job "CAM Job") tool creates a new Job object in the active document. The Job object contains the following information:
+The ![](/images/CAM_Job.svg) [Job](/CAM_Job "CAM Job") tool creates a new Job object in the active document. The Job object contains the following information:
 
 1. A list of Tool-Controller definitions, specifying the geometry, Feeds, and Speeds for the Path Operations Tools.
 2. A Workflow sequential list of Path Operations.
@@ -31,15 +31,15 @@ The ![](/src/assets/images/CAM_Job.svg) [Job](/CAM_Job "CAM Job") tool creates a
 ## Usage
 
 1. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/CAM_Job.svg) [CAM Job](/CAM_Job "CAM Job") button.
-   - Select the **CAM → ![](/src/assets/images/CAM_Job.svg) Job** option from the menu.
+   - Press the ![](/images/CAM_Job.svg) [CAM Job](/CAM_Job "CAM Job") button.
+   - Select the **CAM → ![](/images/CAM_Job.svg) Job** option from the menu.
    - Use the keyboard shortcut: P then J.
 
 The Job GUI dialog box has five horizontally aligned tabs: **General**, **Output**, **Setup**, **Tools**, and **Workplan**. The user can at any time utilize the OK or Cancel options within the dialog.
 
 ## General
 
-![](/src/assets/images/Job_1.jpg)
+![](/images/Job_1.jpg)
 
 - **Label**: The label of the Job as displayed in the tree view.
 - **Model**: The Base Object which defines by its shape the paths of the job. If it is a Part Design object, it is usually the Body you select here. If you have an element selected in the tree _before_ you click the "Add Job" icon that element is already entered here. You can change it by selecting a different element from the dropdown menu.
@@ -47,7 +47,7 @@ The Job GUI dialog box has five horizontally aligned tabs: **General**, **Output
 
 ## Output
 
-![](/src/assets/images/Job_2.jpg)
+![](/images/Job_2.jpg)
 
 - **Output File**: Set the name, extension, and the file path of the G-Code output. You can use the following placeholders:
 
@@ -61,7 +61,7 @@ The Job GUI dialog box has five horizontally aligned tabs: **General**, **Output
 
 ## Setup
 
-![](/src/assets/images/Job_3.jpg)
+![](/images/Job_3.jpg)
 
 - **Stock**: set the size and shape of the raw material.
 - **Orientation**: Selected Edge or Face is used to orient Base or Stock accordingly.
@@ -69,7 +69,7 @@ The Job GUI dialog box has five horizontally aligned tabs: **General**, **Output
 
 ## Tools
 
-![](/src/assets/images/Job_4.jpg)
+![](/images/Job_4.jpg)
 
 Add the tool(s) from your [Tooltable](/index.php?title=CAM_ToolLibraryEdit&action=edit&redlink=1 "CAM ToolLibraryEdit (page does not exist)") that you need for the operations at this job.
 
@@ -80,7 +80,7 @@ You can delete the default tool if you have your own tool added.
 
 ## Workplan
 
-![](/src/assets/images/Job_5.jpg)
+![](/images/Job_5.jpg)
 
 If you have a job that contains more than one path operation, you can determine in which order the operations should be done.
 To reorder, select an operation and push the up or down button.

@@ -23,15 +23,15 @@ THIS COMMAND IS PART OF THE INTEGRATEDBIM WORKBENCHIN V1.0This page has been upd
 
 ## Description
 
-The ![](/src/assets/images/Arch_Axis.svg) [Arch Axis](/Arch_Axis "Arch Axis") tool allows you to place a series of axes in the current document. The distance and the angle between axes is customizable, as well as the numbering style. The axes serve mainly as references to snap objects onto, but can also be used together with ![](/src/assets/images/Arch_AxisSystem.svg) [Arch AxisSystems](/Arch_AxisSystem "Arch AxisSystem"). They can also be referenced by other Arch objects to create parametric arrays, for example of beams or columns. ![](/src/assets/images/Arch_Grid.svg) [Arch Grids](/Arch_Grid "Arch Grid") can also be used in places of axes.
+The ![](/images/Arch_Axis.svg) [Arch Axis](/Arch_Axis "Arch Axis") tool allows you to place a series of axes in the current document. The distance and the angle between axes is customizable, as well as the numbering style. The axes serve mainly as references to snap objects onto, but can also be used together with ![](/images/Arch_AxisSystem.svg) [Arch AxisSystems](/Arch_AxisSystem "Arch AxisSystem"). They can also be referenced by other Arch objects to create parametric arrays, for example of beams or columns. ![](/images/Arch_Grid.svg) [Arch Grids](/Arch_Grid "Arch Grid") can also be used in places of axes.
 
-![](/src/assets/images/Arch_Axis_example.jpg)
+![](/images/Arch_Axis_example.jpg)
 
 Two axes objects positioned perpendicularly to each other to create a grid
 
 ## Usage
 
-1. Press the ![](/src/assets/images/Arch_Axis.svg) [Axis](/Arch_Axis "Arch Axis") button, or press A then X keys.
+1. Press the ![](/images/Arch_Axis.svg) [Axis](/Arch_Axis "Arch Axis") button, or press A then X keys.
 2. [Move](/Draft_Move "Draft Move")/[rotate](/Draft_Rotate "Draft Rotate") the axes system to the desired position.
 3. Enter edit mode by double-clicking the axes system in the tree view to adjust its settings like number of axes, distances and angles between axes.
 

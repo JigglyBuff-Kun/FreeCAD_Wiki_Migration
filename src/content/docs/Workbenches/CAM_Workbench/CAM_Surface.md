@@ -26,9 +26,9 @@ This documentation is not finished. Please help and contribute documentation.Gui
 
 ## Description
 
-This tool creates a new ![](/src/assets/images/CAM_Surface.svg) [3D Surface](/CAM_Surface "CAM Surface") operation which is capable of generating G-code paths for the entire top surface of a 3D model (or is able to work with selected faces) and allows for faces to be avoided. This operation offers multiple cut patterns: Line, Zigzag, Circular, Circular Zigzag, Offset, and Spiral (similar to an adaptive pattern). As of version 0.19, this operation offers many customizations to allow for greater productivity.
+This tool creates a new ![](/images/CAM_Surface.svg) [3D Surface](/CAM_Surface "CAM Surface") operation which is capable of generating G-code paths for the entire top surface of a 3D model (or is able to work with selected faces) and allows for faces to be avoided. This operation offers multiple cut patterns: Line, Zigzag, Circular, Circular Zigzag, Offset, and Spiral (similar to an adaptive pattern). As of version 0.19, this operation offers many customizations to allow for greater productivity.
 
-The ![](/src/assets/images/CAM_Surface.svg) [3D Surface](/CAM_Surface "CAM Surface") operation is also capable of generating basic rotational 3D surfacing paths. The rotational capabilities are limited to the entire model, and do not allow for specific faces or regions to be isolated. The rotational paths are also limited to line cut patterns.
+The ![](/images/CAM_Surface.svg) [3D Surface](/CAM_Surface "CAM Surface") operation is also capable of generating basic rotational 3D surfacing paths. The rotational capabilities are limited to the entire model, and do not allow for specific faces or regions to be isolated. The rotational paths are also limited to line cut patterns.
 
 The 3D Surface Tool interfaces to OCL.pyd, a 3rd party Open Source module titled [OpenCamLib](/OpenCamLib "OpenCamLib"), that generates tool paths from a 3D model. OpenCamLib is not integrated directly into FreeCAD.
 
@@ -44,7 +44,7 @@ Usage instructions for multiple variations of the [3D Surface](/CAM_Surface "CAM
 
 #### Basic Operation
 
-1. Press the ![](/src/assets/images/CAM_Surface.svg) [3D Surface](/CAM_Surface "CAM Surface") icon, or select **CAM → 3D Surface** from the dropdown menu.
+1. Press the ![](/images/CAM_Surface.svg) [3D Surface](/CAM_Surface "CAM Surface") icon, or select **CAM → 3D Surface** from the dropdown menu.
 2. Select the tool controller for the Operation from the Tool controller dialogue pop up window, if presented.
 3. In the Base Geometry tab, select any specific faces you wish to focus on and/or avoid for the operation.
 4. Adjust the operation depths as needed in the Depths tab: Start Depth, Finish Depth, Step Down.
@@ -82,17 +82,17 @@ To achieve different, or more complex, effects, adjust additional operation prop
    - Set Data**Rotation Axis** to the desired axis.
    - Adjust Data**Start Index** to start index(angle) [0-360].
    - Adjust Data**Stop Index** to stop index(angle) [0-360].
-5. Click the ![](/src/assets/images/View-refresh.svg) [Refresh](/Std_Refresh "Std Refresh") icon in the tool bar.
+5. Click the ![](/images/View-refresh.svg) [Refresh](/Std_Refresh "Std Refresh") icon in the tool bar.
 6. Wait for the results...
 
 ##### Notes About Rotational Scans
 
 - **Rotational** scans require much more time and processing than **Planar** scans. Factors affecting processing time include: Sample Interval, Step Over, tool diameter, and model size. Again, rotational scans can take a long time. Some might take 3, 5 or 10 minutes or longer.
 - For time purposes, it is better that you not recompute a rotational scan after every property change; rather, consider one of the following:
-  - use the ' _change all settings with ENTER key_ ' technique mentioned in Step 2 above, then ![](/src/assets/images/View-refresh.svg) [Refresh](/Std_Refresh "Std Refresh") the operation.
-  - deactivate the operation with the ![](/src/assets/images/CAM_OpActiveToggle.svg) [Active](/CAM_OpActiveToggle "CAM OpActiveToggle") toggle tool, make your changes to the operation's properties, then click the ![](/src/assets/images/CAM_OpActiveToggle.svg) [Active](/CAM_OpActiveToggle "CAM OpActiveToggle") icon again to re-activate the operation - which triggers a recompute internally.
-- The ![](/src/assets/images/CAM_Surface.svg) [3D Surface](/CAM_Surface "CAM Surface") operation is still considered an _experimental feature_ as of 2019-06-25. As such, it may contain a few bugs yet to be clearly identified. Please report bugs and issues in the [FreeCAD Path/CAM Forum](https://forum.freecadweb.org/viewforum.php?f=15).
-- The built in ![](/src/assets/images/CAM_Simulator.svg) [CAM Simulator](/CAM_Simulator "CAM Simulator") does NOT support 4th-axis simulation. You will need to use a third party simulator to inspect or verify paths visually. See the [Resources](#Resources) section below for suggestions.
+  - use the ' _change all settings with ENTER key_ ' technique mentioned in Step 2 above, then ![](/images/View-refresh.svg) [Refresh](/Std_Refresh "Std Refresh") the operation.
+  - deactivate the operation with the ![](/images/CAM_OpActiveToggle.svg) [Active](/CAM_OpActiveToggle "CAM OpActiveToggle") toggle tool, make your changes to the operation's properties, then click the ![](/images/CAM_OpActiveToggle.svg) [Active](/CAM_OpActiveToggle "CAM OpActiveToggle") icon again to re-activate the operation - which triggers a recompute internally.
+- The ![](/images/CAM_Surface.svg) [3D Surface](/CAM_Surface "CAM Surface") operation is still considered an _experimental feature_ as of 2019-06-25. As such, it may contain a few bugs yet to be clearly identified. Please report bugs and issues in the [FreeCAD Path/CAM Forum](https://forum.freecadweb.org/viewforum.php?f=15).
+- The built in ![](/images/CAM_Simulator.svg) [CAM Simulator](/CAM_Simulator "CAM Simulator") does NOT support 4th-axis simulation. You will need to use a third party simulator to inspect or verify paths visually. See the [Resources](#Resources) section below for suggestions.
 - You will likely see red rotational lines around your model in the viewport. This is normal in FreeCAD for the time being.
 
 ##### Notes About Scans of complex models
@@ -103,21 +103,21 @@ Excessively long processing times (longer than 10 minutes) can occur when proces
 Check how much memory is available while the scan is running using a tool such as the Windows **Task Manager, Memory tab**. If more than 90% of memory is consistently being used then a small **Linear Deflection** parameter could be generating a mesh that is too large for the available memory.  
 To confirm this ...
 
-1. Create a new ![](/src/assets/images/CAM_Surface.svg) [3D Surface](/CAM_Surface "CAM Surface") operation.
+1. Create a new ![](/images/CAM_Surface.svg) [3D Surface](/CAM_Surface "CAM Surface") operation.
 2. Switch to the Model tab and increase the Data**Linear Deflection** value. For example change from 2.5um to 20um
 3. Switch back to the Tasks tab to complete setting up the operation.
 4. Click OK button to confirm and generate paths.
 
-To make this value the default for all new ![](/src/assets/images/CAM_Surface.svg) [3D Surface](/CAM_Surface "CAM Surface") operations, change the **GeometryTolerance** parameter.  
+To make this value the default for all new ![](/images/CAM_Surface.svg) [3D Surface](/CAM_Surface "CAM Surface") operations, change the **GeometryTolerance** parameter.  
 **Tools → Edit Parameters ... → Preferences → Mod → CAM → GeometryTolerance** .  
 Note as of version 0.19 the Data**Linear Deflection** default = GeometryTolerance / 4
 
 **_Invalid Geometry_**  
-If a model contains invalid geometry the scanning time can increase significantly. A model can be checked using the [Part CheckGeometry](/Part_CheckGeometry "Part CheckGeometry") function in ![](/src/assets/images/Workbench_Part.svg)**Part Workbench**.  
+If a model contains invalid geometry the scanning time can increase significantly. A model can be checked using the [Part CheckGeometry](/Part_CheckGeometry "Part CheckGeometry") function in ![](/images/Workbench_Part.svg)**Part Workbench**.  
 To run the tool:
 
-1. Switch to the ![](/src/assets/images/Workbench_Part.svg)**Part Workbench** and select the model to check
-2. Click on the ![](/src/assets/images/Part_CheckGeometry.svg) [Part CheckGeometry](/Part_CheckGeometry "Part CheckGeometry") button available in the Part workbench toolbar OR use the **Part → ![](/src/assets/images/Part_CheckGeometry.svg) Check geometry** entry from the top menu.
+1. Switch to the ![](/images/Workbench_Part.svg)**Part Workbench** and select the model to check
+2. Click on the ![](/images/Part_CheckGeometry.svg) [Part CheckGeometry](/Part_CheckGeometry "Part CheckGeometry") button available in the Part workbench toolbar OR use the **Part → ![](/images/Part_CheckGeometry.svg) Check geometry** entry from the top menu.
 3. Click the **Run Check** button and review the results.
 
 If the results includes items like _BOPAlgo SelfIntersect_ then the geometry is invalid and should be corrected by adjusting the model.  

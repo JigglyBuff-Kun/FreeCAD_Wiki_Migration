@@ -4,9 +4,9 @@ title: Cables Example1 Simple workflow
 
 ## Example
 
-This is an example animated image showing simple workflow for ![Cables Workbench](/src/assets/images/Cables_workbench_icon.svg) [Cables Workbench](/Cables_Workbench "Cables Workbench")
+This is an example animated image showing simple workflow for ![Cables Workbench](/images/Cables_workbench_icon.svg) [Cables Workbench](/Cables_Workbench "Cables Workbench")
 
-![](/src/assets/images/Cables_Example2.gif)
+![](/images/Cables_Example2.gif)
 
 Example of wall mounted boxes and cable
 

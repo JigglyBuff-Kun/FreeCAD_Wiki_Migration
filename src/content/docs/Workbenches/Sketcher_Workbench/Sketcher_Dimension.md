@@ -19,7 +19,7 @@ title: Sketcher Dimension
 
 ## Description
 
-The ![](/src/assets/images/Sketcher_Dimension.svg) [Sketcher Dimension](/Sketcher_Dimension "Sketcher Dimension") tool is the context-sensitive constraint tool of the Sketcher Workbench. Based on the current selection, it offers appropriate dimensional constraints, but also geometric constraints.
+The ![](/images/Sketcher_Dimension.svg) [Sketcher Dimension](/Sketcher_Dimension "Sketcher Dimension") tool is the context-sensitive constraint tool of the Sketcher Workbench. Based on the current selection, it offers appropriate dimensional constraints, but also geometric constraints.
 
 ## Usage
 
@@ -27,10 +27,10 @@ See also: [Drawing aids](/Sketcher_Workbench#Drawing_aids "Sketcher Workbench").
 
 1. Optionally select one or more elements (edges or points). [B-spline](/Sketcher_Workbench#Sketcher_CompCreateBSpline "Sketcher Workbench") edges are currently not supported.
 2. There are several ways to invoke the tool:
-   - If the **Dimensioning constraints** [preference](/Sketcher_Preferences#General "Sketcher Preferences") is set to `Both` or `Single tool` (default): press the ![](/src/assets/images/Sketcher_Dimension.svg) [Dimension](/Sketcher_Dimension "Sketcher Dimension") button.
-   - Select the **Sketch → Sketcher constraints → ![](/src/assets/images/Sketcher_Dimension.svg) Dimension** option from the menu.
-   - Right-click in the [3D view](/3D_view "3D view") and select the **Dimension → ![](/src/assets/images/Sketcher_Dimension.svg) Dimension** option from the context menu.
-   - If there is a selection: Right-click in the 3D view and select the **![](/src/assets/images/Sketcher_Dimension.svg) Dimension** option from the context menu.
+   - If the **Dimensioning constraints** [preference](/Sketcher_Preferences#General "Sketcher Preferences") is set to `Both` or `Single tool` (default): press the ![](/images/Sketcher_Dimension.svg) [Dimension](/Sketcher_Dimension "Sketcher Dimension") button.
+   - Select the **Sketch → Sketcher constraints → ![](/images/Sketcher_Dimension.svg) Dimension** option from the menu.
+   - Right-click in the [3D view](/3D_view "3D view") and select the **Dimension → ![](/images/Sketcher_Dimension.svg) Dimension** option from the context menu.
+   - If there is a selection: Right-click in the 3D view and select the **![](/images/Sketcher_Dimension.svg) Dimension** option from the context menu.
    - Use the keyboard shortcut: D.
 3. The cursor changes to a cross with the tool icon.
 4. If you have not yet selected an element: select one.
@@ -42,7 +42,7 @@ See also: [Drawing aids](/Sketcher_Workbench#Drawing_aids "Sketcher Workbench").
 10. If a geometric constraint is proposed, selected elements may change giving a preview of the result.
 11. Do one of the following:
     - Click in an empty area in the [3D view](/3D_view "3D view") to confirm:
-      1. If a dimensional constraint is created the clicked point determines its location. For a linear dimension the clicked point also determines its type: ![](/src/assets/images/Sketcher_ConstrainDistanceX.svg) [Horizontal distance](/Sketcher_ConstrainDistanceX "Sketcher ConstrainDistanceX"), ![](/src/assets/images/Sketcher_ConstrainDistanceY.svg) [Vertical distance](/Sketcher_ConstrainDistanceY "Sketcher ConstrainDistanceY") or ![](/src/assets/images/Sketcher_ConstrainDistance.svg) [Distance](/Sketcher_ConstrainDistance "Sketcher ConstrainDistance").
+      1. If a dimensional constraint is created the clicked point determines its location. For a linear dimension the clicked point also determines its type: ![](/images/Sketcher_ConstrainDistanceX.svg) [Horizontal distance](/Sketcher_ConstrainDistanceX "Sketcher ConstrainDistanceX"), ![](/images/Sketcher_ConstrainDistanceY.svg) [Vertical distance](/Sketcher_ConstrainDistanceY "Sketcher ConstrainDistanceY") or ![](/images/Sketcher_ConstrainDistance.svg) [Distance](/Sketcher_ConstrainDistance "Sketcher ConstrainDistance").
       2. If a [driving dimensional constraint](/Sketcher_ToggleDrivingConstraint "Sketcher ToggleDrivingConstraint") is created, depending on the [preferences](/Sketcher_Preferences#Display "Sketcher Preferences"), a dialog opens to [edit its value](/Sketcher_Workbench#Edit_constraints "Sketcher Workbench").
       3. A constraint is added.
       4. This tool always runs in continue mode: optionally keep creating constraints.

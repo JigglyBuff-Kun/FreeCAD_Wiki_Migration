@@ -21,16 +21,16 @@ title: Reinforcement BentShapeRebar
 
 The [Reinforcement BentShapeRebar](/Reinforcement_BentShapeRebar "Reinforcement BentShapeRebar") tool allows the user to create a set of bent reinforcing bars inside an [Arch Structure](/Arch_Structure "Arch Structure") object.
 
-This tool is part of the [Reinforcement Workbench](/Reinforcement_Workbench "Reinforcement Workbench"), an [external workbench](/External_workbenches "External workbenches") that can be installed with the ![](/src/assets/images/Std_AddonMgr.svg) [Addon Manager](/Std_AddonMgr "Std AddonMgr").
+This tool is part of the [Reinforcement Workbench](/Reinforcement_Workbench "Reinforcement Workbench"), an [external workbench](/External_workbenches "External workbenches") that can be installed with the ![](/images/Std_AddonMgr.svg) [Addon Manager](/Std_AddonMgr "Std AddonMgr").
 
-![](/src/assets/images/Arch_Rebar_BentShape_example.png)
+![](/images/Arch_Rebar_BentShape_example.png)
 
 Two sets of bent reinforcement bars inside an [Arch Structure](/Arch_Structure "Arch Structure")
 
 ## Usage
 
-1. Select any face of a previously created ![](/src/assets/images/Arch_Structure.svg) [Arch Structure](/Arch_Structure "Arch Structure") object.
-2. Then select ![](/src/assets/images/Reinforcement_BentShapeRebar.svg) [Bent-Shape Rebar](/Reinforcement_BentShapeRebar "Reinforcement BentShapeRebar") from the rebar tools.
+1. Select any face of a previously created ![](/images/Arch_Structure.svg) [Arch Structure](/Arch_Structure "Arch Structure") object.
+2. Then select ![](/images/Reinforcement_BentShapeRebar.svg) [Bent-Shape Rebar](/Reinforcement_BentShapeRebar "Reinforcement BentShapeRebar") from the rebar tools.
 3. A [task panel](/Task_panel "Task panel") will pop-out on the left side of the screen as shown below.
 4. Select the desired orientation.
 5. Populate the inputs like 'Left Cover', 'Right Cover', 'Top Cover', 'Bottom Cover', 'Front Cover', 'Bent Angle', 'Bent Factor', 'Rounding' and 'Diameter' of the rebar.
@@ -40,7 +40,7 @@ Two sets of bent reinforcement bars inside an [Arch Structure](/Arch_Structure "
 8. Click OK or Apply to generate the rebars.
 9. Click Cancel to exit the task panel.
 
-![](/src/assets/images/BentShapeDialog.png)
+![](/images/BentShapeDialog.png)
 
 Task panel for the tool
 

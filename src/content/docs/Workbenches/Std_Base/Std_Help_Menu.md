@@ -2,7 +2,7 @@
 title: Std Help Menu
 ---
 
-![](/src/assets/images/Freecad.svg)
+![](/images/Freecad.svg)
 
 Std Base icon
 
@@ -30,30 +30,30 @@ The Help menu provides access to the help system and links to the FreeCAD websit
 
 The following tools are available in this menu:
 
-- ![](/src/assets/images/Std_OnlineHelp.svg) [Help](/Std_OnlineHelp "Std OnlineHelp"): Opens the help documentation.
+- ![](/images/Std_OnlineHelp.svg) [Help](/Std_OnlineHelp "Std OnlineHelp"): Opens the help documentation.
 
-- ![](/src/assets/images/Std_FreeCADWebsite.svg) [FreeCAD Website](/Std_FreeCADWebsite "Std FreeCADWebsite"): Opens the main website of the FreeCAD project.
+- ![](/images/Std_FreeCADWebsite.svg) [FreeCAD Website](/Std_FreeCADWebsite "Std FreeCADWebsite"): Opens the main website of the FreeCAD project.
 
-- ![](/src/assets/images/Std_FreeCADDonation.svg) [Donate](/Std_FreeCADDonation "Std FreeCADDonation"): Opens the FreeCAD Donate wiki page.
+- ![](/images/Std_FreeCADDonation.svg) [Donate](/Std_FreeCADDonation "Std FreeCADDonation"): Opens the FreeCAD Donate wiki page.
 
-- ![](/src/assets/images/Std_FreeCADUserHub.svg) [Users documentation](/Std_FreeCADUserHub "Std FreeCADUserHub"): Opens the FreeCAD Users documentation wiki page.
+- ![](/images/Std_FreeCADUserHub.svg) [Users documentation](/Std_FreeCADUserHub "Std FreeCADUserHub"): Opens the FreeCAD Users documentation wiki page.
 
-- ![](/src/assets/images/Std_FreeCADPowerUserHub.svg) [Python scripting documentation](/Std_FreeCADPowerUserHub "Std FreeCADPowerUserHub"): Opens the FreeCAD Power users documentation wiki page.
+- ![](/images/Std_FreeCADPowerUserHub.svg) [Python scripting documentation](/Std_FreeCADPowerUserHub "Std FreeCADPowerUserHub"): Opens the FreeCAD Power users documentation wiki page.
 
-- ![](/src/assets/images/Std_PythonHelp.svg) [Automatic python modules documentation](/Std_PythonHelp "Std PythonHelp"): Opens the Python index of modules in your default Internet browser.
+- ![](/images/Std_PythonHelp.svg) [Automatic python modules documentation](/Std_PythonHelp "Std PythonHelp"): Opens the Python index of modules in your default Internet browser.
 
-- ![](/src/assets/images/Std_FreeCADForum.svg) [FreeCAD Forum](/Std_FreeCADForum "Std FreeCADForum"): Opens the FreeCAD forum.
+- ![](/images/Std_FreeCADForum.svg) [FreeCAD Forum](/Std_FreeCADForum "Std FreeCADForum"): Opens the FreeCAD forum.
 
-- ![](/src/assets/images/Std_FreeCADFAQ.svg) [FreeCAD FAQ](/Std_FreeCADFAQ "Std FreeCADFAQ"): Opens the FreeCAD FAQ wiki page.
+- ![](/images/Std_FreeCADFAQ.svg) [FreeCAD FAQ](/Std_FreeCADFAQ "Std FreeCADFAQ"): Opens the FreeCAD FAQ wiki page.
 
-- ![](/src/assets/images/Std_ReportBug.svg) [Report a bug](/Std_ReportBug "Std ReportBug"): Opens the FreeCAD GitHub issues page.
+- ![](/images/Std_ReportBug.svg) [Report a bug](/Std_ReportBug "Std ReportBug"): Opens the FreeCAD GitHub issues page.
 
-- ![](/src/assets/images/Std_About.svg) [About FreeCAD](/Std_About "Std About"): Opens a dialog box with information about FreeCAD.
+- ![](/images/Std_About.svg) [About FreeCAD](/Std_About "Std About"): Opens a dialog box with information about FreeCAD.
 
-- ![](/src/assets/images/Std_WhatsThis.svg) [What's This](/Std_WhatsThis "Std WhatsThis"): Opens the help documentation for a command.
+- ![](/images/Std_WhatsThis.svg) [What's This](/Std_WhatsThis "Std WhatsThis"): Opens the help documentation for a command.
 
-- ![](/src/assets/images/Std_RestartInSafeMode.svg) [Restart in safe mode](/Std_RestartInSafeMode "Std RestartInSafeMode"): Restarts FreeCAD in a _factory reset_ state for debugging. [introduced in 1.0](/Release_notes_1.0 "Release notes 1.0")
+- ![](/images/Std_RestartInSafeMode.svg) [Restart in safe mode](/Std_RestartInSafeMode "Std RestartInSafeMode"): Restarts FreeCAD in a _factory reset_ state for debugging. [introduced in 1.0](/Release_notes_1.0 "Release notes 1.0")
 
-- ![](/src/assets/images/Start_Start.svg) [Start](/index.php?title=Start_Start&action=edit&redlink=1 "Start Start (page does not exist)"): Opens the Start page. [introduced in 1.0](/Release_notes_1.0 "Release notes 1.0")
+- ![](/images/Start_Start.svg) [Start](/index.php?title=Start_Start&action=edit&redlink=1 "Start Start (page does not exist)"): Opens the Start page. [introduced in 1.0](/Release_notes_1.0 "Release notes 1.0")
 
 Retrieved from "<http://wiki.freecad.org/index.php?title=Std_Help_Menu/en&oldid=1499477>"

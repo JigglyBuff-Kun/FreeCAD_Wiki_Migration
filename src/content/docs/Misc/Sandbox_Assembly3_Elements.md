@@ -32,16 +32,16 @@ Further elements are used to create 2D skeleton sketches:
 - 2D lines
 - 2D points
 
-To get a few examples some elements have to be extracted from a sample body. The ![](/src/assets/images/Assembly_New_Element.svg) [Create element](/Assembly3_CreateElement "Assembly3 CreateElement") command is used for this task.
+To get a few examples some elements have to be extracted from a sample body. The ![](/images/Assembly_New_Element.svg) [Create element](/Assembly3_CreateElement "Assembly3 CreateElement") command is used for this task.
 
 ### Face elements
 
 Face elements can be extracted from planar faces, cylindrical faces, or 3D bent faces.
 
-![](/src/assets/images/Assembly3_CreateElement-03.png) ![](/src/assets/images/Button_right.svg)
-![](/src/assets/images/Assembly3_CreateElement-04.png) ,
-![](/src/assets/images/Assembly3_CreateElement-05.png) ,
-![](/src/assets/images/Assembly3_CreateElement-06.png)
+![](/images/Assembly3_CreateElement-03.png) ![](/images/Button_right.svg)
+![](/images/Assembly3_CreateElement-04.png) ,
+![](/images/Assembly3_CreateElement-05.png) ,
+![](/images/Assembly3_CreateElement-06.png)
 
 Sample body -> planar face elements, cylindrical face elements, 3D bent face elements
 
@@ -49,9 +49,9 @@ Sample body -> planar face elements, cylindrical face elements, 3D bent face ele
 
 Line elements can be extracted from straight lines, arcs, or circles.
 
-![](/src/assets/images/Assembly3_CreateElement-03.png) ![](/src/assets/images/Button_right.svg)
-![](/src/assets/images/Assembly3_CreateElement-07.png) ,
-![](/src/assets/images/Assembly3_CreateElement-08.png)
+![](/images/Assembly3_CreateElement-03.png) ![](/images/Button_right.svg)
+![](/images/Assembly3_CreateElement-07.png) ,
+![](/images/Assembly3_CreateElement-08.png)
 
 Sample body -> straight line elements, curved line elements
 
@@ -59,8 +59,8 @@ Sample body -> straight line elements, curved line elements
 
 Point elements can be extracted from any vertex e.g. line ends.
 
-![](/src/assets/images/Assembly3_CreateElement-03.png) ![](/src/assets/images/Button_right.svg)
-![](/src/assets/images/Assembly3_CreateElement-09.png)
+![](/images/Assembly3_CreateElement-03.png) ![](/images/Button_right.svg)
+![](/images/Assembly3_CreateElement-09.png)
 
 Sample body -> point elements
 
@@ -74,7 +74,7 @@ Sample body -> point elements
 
 Each FreeCAD document has its own coordinate system to provide an origin and the three axes that are use to position all geometry contained in the document.
 
-The ![](/src/assets/images/Std_AxisCross.svg) [AxisCross](/Std_AxisCross "Std AxisCross") command toggles its visibility.
+The ![](/images/Std_AxisCross.svg) [AxisCross](/Std_AxisCross "Std AxisCross") command toggles its visibility.
 
 It is the main coordinate system (MCS) of the document and it is represented by 3 arrows which meet at the documents origin:
 
@@ -82,7 +82,7 @@ It is the main coordinate system (MCS) of the document and it is represented by 
 - a green arrow for the Y axis
 - a blue arrow for the Z axis
 
-![](/src/assets/images/Assembly3_CreateElement-10.png)
+![](/images/Assembly3_CreateElement-10.png)
 
 ## Element Coordinate System (ECS)
 
@@ -97,9 +97,9 @@ Sometimes linked objects don't behave as expected and this can be due to the pla
 
 ### ECS Visibility
 
-Activate the ![](/src/assets/images/Assembly_ShowElementCS.svg) **Show element coordinate system** function (toggle) and deactivate the ![](/src/assets/images/Assembly_AutoElementVis.svg) **Auto element visibility** function (toggle) to have several ECSs permanently visible.
+Activate the ![](/images/Assembly_ShowElementCS.svg) **Show element coordinate system** function (toggle) and deactivate the ![](/images/Assembly_AutoElementVis.svg) **Auto element visibility** function (toggle) to have several ECSs permanently visible.
 
-![](/src/assets/images/Assembly3_CreateElement-02.png)
+![](/images/Assembly3_CreateElement-02.png)
 
 Toggled as described
 
@@ -107,15 +107,15 @@ Toggled as described
 
 An ECS of a **point element** i.e. its origin is located at the same position as the point itself and its axes are parallel to the axes of the MCS.
 
-![](/src/assets/images/Assembly3_CreateElement-11.png) ![](/src/assets/images/Button_right.svg)
-![](/src/assets/images/Assembly3_CreateElement-12.png)
+![](/images/Assembly3_CreateElement-11.png) ![](/images/Button_right.svg)
+![](/images/Assembly3_CreateElement-12.png)
 
 Part as created -> part turned 30° around the Z axis
 
 To get a better view:
 
-![](/src/assets/images/Assembly3_CreateElement-13.png) ![](/src/assets/images/Button_right.svg)
-![](/src/assets/images/Assembly3_CreateElement-14.png)
+![](/images/Assembly3_CreateElement-13.png) ![](/images/Button_right.svg)
+![](/images/Assembly3_CreateElement-14.png)
 
 Only point elements -> situation turned 30° around the Z axis
 
@@ -125,8 +125,8 @@ Even if the part is turned the ECSs stay oriented parallel to the MCS.
 
 An ECS of a **straight line element** i.e. its origin is located in the middle of the line and its z axis is colinear to the line.
 
-![](/src/assets/images/Assembly3_CreateElement-15.png) ![](/src/assets/images/Button_right.svg)
-![](/src/assets/images/Assembly3_CreateElement-16.png)
+![](/images/Assembly3_CreateElement-15.png) ![](/images/Button_right.svg)
+![](/images/Assembly3_CreateElement-16.png)
 
 Only straight line elements -> situation turned 30° around the Z axis
 
@@ -136,8 +136,8 @@ The solver seems to try to align the remaining axes as good as possible to the m
 
 An ECS of a **curved line element** (arc or circle) i.e. its origin is located in the center of the curve and its xy plane is coplanar to the curve.
 
-![](/src/assets/images/Assembly3_CreateElement-17.png) ![](/src/assets/images/Button_right.svg)
-![](/src/assets/images/Assembly3_CreateElement-18.png)
+![](/images/Assembly3_CreateElement-17.png) ![](/images/Button_right.svg)
+![](/images/Assembly3_CreateElement-18.png)
 
 Only curved line element -> situation turned 30° around the Z axis
 
@@ -147,8 +147,8 @@ When the part is turned the ECSs turn with the part and it seems like its x axis
 
 An ECS of a **planar face element** i.e. its origin is located at the face's center of area and its xy plane is coplanar to the face; and so the z axis is parallel to the face normal but it does not necessarily point to the part's outside.
 
-![](/src/assets/images/Assembly3_CreateElement-19.png) ![](/src/assets/images/Button_right.svg)
-![](/src/assets/images/Assembly3_CreateElement-20.png)
+![](/images/Assembly3_CreateElement-19.png) ![](/images/Button_right.svg)
+![](/images/Assembly3_CreateElement-20.png)
 
 Only planar face elements -> situation turned 30° around the Z axis
 
@@ -156,8 +156,8 @@ When the part is turned the ECSs turn the same way. Their orientations depend fu
 
 An ECS of a **cylindrical face element** i.e. its origin is located at the center of one circular edge and its z axis is colinear to the face's axis; but the z axis it does not necessarily point to the part's outside.
 
-![](/src/assets/images/Assembly3_CreateElement-21.png) ![](/src/assets/images/Button_right.svg)
-![](/src/assets/images/Assembly3_CreateElement-22.png)
+![](/images/Assembly3_CreateElement-21.png) ![](/images/Button_right.svg)
+![](/images/Assembly3_CreateElement-22.png)
 
 Only cylindrical face elements -> situation turned 30° around the Z axis
 
@@ -165,12 +165,12 @@ When the part is turned the ECSs turn the same way. Their orientations depend fu
 
 The circular edge that defines the position of the ECs's origin does not necessarily belong to the selected face. In case of the upper cut-out cylinder the sketch is defining the origin.
 
-![](/src/assets/images/Assembly3_CreateElement-23.png)
+![](/images/Assembly3_CreateElement-23.png)
 
 An ECS of a **90° fillet face element** i.e. its origin is located at the center of one circular edge and its xy plane is coplanar to the edge with its x axis going through the edge's starting point.
 
-![](/src/assets/images/Assembly3_CreateElement-24.png) ![](/src/assets/images/Button_right.svg)
-![](/src/assets/images/Assembly3_CreateElement-25.png)
+![](/images/Assembly3_CreateElement-24.png) ![](/images/Button_right.svg)
+![](/images/Assembly3_CreateElement-25.png)
 
 Only cylindrical face elements -> situation turned 30° around the Z axis
 

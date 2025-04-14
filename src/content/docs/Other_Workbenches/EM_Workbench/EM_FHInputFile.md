@@ -26,7 +26,7 @@ The FHInputFile tool creates the input FastHenry file based on the Document EM w
 To create a FastHenry input file:
 
 1. Create one [EM FHSolver](/EM_FHSolver "EM FHSolver") object and other EM workbench objects representing the 3D geometry as required for your model.
-2. Press the ![](/src/assets/images/EM_FHInputFile.svg) [EM FHInputFile](/EM_FHInputFile "EM FHInputFile") button, or press E then I keys.
+2. Press the ![](/images/EM_FHInputFile.svg) [EM FHInputFile](/EM_FHInputFile "EM FHInputFile") button, or press E then I keys.
 
 ### Remarks
 

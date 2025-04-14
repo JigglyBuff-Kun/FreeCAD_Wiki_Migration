@@ -21,11 +21,11 @@ title: PartDesign AdditiveCone
 
 Inserts a primitive cone in the active Body as the first feature, or fuses it to the existing feature(s).
 
-![](/src/assets/images/PartDesign_AdditiveCone_example.png)
+![](/images/PartDesign_AdditiveCone_example.png)
 
 ## Usage
 
-1. Press the ![](/src/assets/images/PartDesign_AdditiveCone.svg) **Additive Cone** button. **Note**: the Additive Cone is part of an icon menu labelled _Create an additive primitive_. After launching FreeCAD, the Additive Box is the one displayed in the toolbar. To get to the Cone button, click on the down arrow besides the visible icon and select Additive Cone in the menu.
+1. Press the ![](/images/PartDesign_AdditiveCone.svg) **Additive Cone** button. **Note**: the Additive Cone is part of an icon menu labelled _Create an additive primitive_. After launching FreeCAD, the Additive Box is the one displayed in the toolbar. To get to the Cone button, click on the down arrow besides the visible icon and select Additive Cone in the menu.
 2. Set the Primitive parameters (for a complete cone, set one of the radii to zero) and the [Attachment](/Part_EditAttachment "Part EditAttachment").
 3. Click OK.
 4. A Cone feature appears under the active Body.

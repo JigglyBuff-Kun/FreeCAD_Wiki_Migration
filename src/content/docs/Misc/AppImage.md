@@ -4,7 +4,7 @@ title: AppImage
 
 ## What is an AppImage?
 
-[![](/src/assets/images/AppImage-logo.png)](https://appimage.org) _Package once and run everywhere. Reach users on all major Linux desktop distributions._
+[![](/images/AppImage-logo.png)](https://appimage.org) _Package once and run everywhere. Reach users on all major Linux desktop distributions._
 
 AppImage is a "universal binary package" intended to distribute an application to any Linux distribution. Read more about it on the [Appimage homepage](https://appimage.org) and [Wikipedia](https://en.wikipedia.org/wiki/AppImage).
 

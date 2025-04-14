@@ -34,7 +34,7 @@ if selected tree is already expanded, this tree and all sub trees are collapsed.
 
 if there is no selection, all trees are expanded.
 
-![](/src/assets/images/Collapsed00.gif)
+![](/images/Collapsed00.gif)
 
 ## Usage
 
@@ -42,7 +42,7 @@ Copy the macro in your macro directory, create your tool bar and launch.
 
 ## Script
 
-ToolBar Icon .PNG ![](/src/assets/images/Macro_ExpandTreeItem.png) and the .SVG ![](/src/assets/images/Macro_ExpandTreeItem.svg)
+ToolBar Icon .PNG ![](/images/Macro_ExpandTreeItem.png) and the .SVG ![](/images/Macro_ExpandTreeItem.svg)
 
 **Macro_ExpandTreeItem.FCMacro**
 

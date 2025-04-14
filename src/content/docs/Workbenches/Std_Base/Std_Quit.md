@@ -24,7 +24,7 @@ The **Std Quit** command closes the FreeCAD application and optionally saves uns
 ## Usage
 
 1. There are several ways to invoke the command:
-   - Select the **File → ![](/src/assets/images/Std_Quit.svg) Exit** option from the menu.
+   - Select the **File → ![](/images/Std_Quit.svg) Exit** option from the menu.
    - Use the keyboard shortcut: Alt+F4.
 2. If there are unsaved documents a dialog box will prompt you to save them:
    - Press the Save button to save the active document. If required enter a filename first.

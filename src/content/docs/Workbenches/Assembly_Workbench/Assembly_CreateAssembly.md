@@ -23,7 +23,7 @@ This documentation is not finished. Please help and contribute documentation.Gui
 
 ## Description
 
-The ![](/src/assets/images/Assembly_CreateAssembly.svg) [Assembly CreateAssembly](/Assembly_CreateAssembly "Assembly CreateAssembly") tool creates a root assembly (Assembly object) in the current document, or a sub-assembly in a pre-existing active assembly. A document can only hold one root assembly.
+The ![](/images/Assembly_CreateAssembly.svg) [Assembly CreateAssembly](/Assembly_CreateAssembly "Assembly CreateAssembly") tool creates a root assembly (Assembly object) in the current document, or a sub-assembly in a pre-existing active assembly. A document can only hold one root assembly.
 
 Each Assembly object is created with an [Origin](/App_OriginGroupExtension "App OriginGroupExtension") object and an empty Joints container by default.
 
@@ -31,8 +31,8 @@ Each Assembly object is created with an [Origin](/App_OriginGroupExtension "App 
 
 1. If the document already contains one or more assemblies: Activate an assembly.
 2. There are several ways to invoke the tool:
-   - Press the ![](/src/assets/images/Assembly_CreateAssembly.svg) [Create Assembly](/Assembly_CreateAssembly "Assembly CreateAssembly") button.
-   - Select the **Assembly → ![](/src/assets/images/Assembly_CreateAssembly.svg) Create Assembly** option from the menu.
+   - Press the ![](/images/Assembly_CreateAssembly.svg) [Create Assembly](/Assembly_CreateAssembly "Assembly CreateAssembly") button.
+   - Select the **Assembly → ![](/images/Assembly_CreateAssembly.svg) Create Assembly** option from the menu.
    - Use the keyboard shortcut: A.
 3. A new Assembly object is created, either in the document or in the activated assembly.
 

@@ -25,10 +25,10 @@ The **Std ViewFitSelection** command zooms and pans the camera so that all selec
 
 1. Select one or more objects.
 2. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/Std_ViewFitSelection.svg) [Fit selection](/Std_ViewFitSelection "Std ViewFitSelection") button.
-   - Select the **View → Standard views → ![](/src/assets/images/Std_ViewFitSelection.svg) Fit selection** option from the menu.
-   - Select the **![](/src/assets/images/Std_ViewFitSelection.svg) Fit selection** option from the [3D view](/3D_view "3D view") context menu.
-   - Select the **![](/src/assets/images/Std_ViewFitSelection.svg) Fit selection** option from the Mini-cube menu of the [Navigation Cube](/Navigation_Cube "Navigation Cube").
+   - Press the ![](/images/Std_ViewFitSelection.svg) [Fit selection](/Std_ViewFitSelection "Std ViewFitSelection") button.
+   - Select the **View → Standard views → ![](/images/Std_ViewFitSelection.svg) Fit selection** option from the menu.
+   - Select the **![](/images/Std_ViewFitSelection.svg) Fit selection** option from the [3D view](/3D_view "3D view") context menu.
+   - Select the **![](/images/Std_ViewFitSelection.svg) Fit selection** option from the Mini-cube menu of the [Navigation Cube](/Navigation_Cube "Navigation Cube").
    - Use the keyboard shortcut: V then S.
 
 ## Scripting

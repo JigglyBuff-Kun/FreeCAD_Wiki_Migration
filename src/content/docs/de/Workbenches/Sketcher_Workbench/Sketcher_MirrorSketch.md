@@ -19,14 +19,14 @@ title: Sketcher SkizzeSpiegeln
 
 ## Beschreibung
 
-Das Werkzeug ![](/src/assets/images/Sketcher_MirrorSketch.svg) Sketcher SkizzeSpiegeln spiegelt Skizzen über ihre X-Achse, Y-Achse oder ihren Ursprung.
+Das Werkzeug ![](/images/Sketcher_MirrorSketch.svg) Sketcher SkizzeSpiegeln spiegelt Skizzen über ihre X-Achse, Y-Achse oder ihren Ursprung.
 
 ## Anwendung
 
 1. Eine oder mehrere Skizzen auswählen.
 2. Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
-   - Die Schaltfläche ![](/src/assets/images/Sketcher_MirrorSketch.svg) Skizze spiegeln drücken (nicht vorhanden im Arbeitsbereich [PartDesign](/PartDesign_Workbench/de "PartDesign Workbench/de")).
-   - Den Menüeintrag **Skizze → ![](/src/assets/images/Sketcher_MirrorSketch.svg) Skizze spiegeln** auswählen.
+   - Die Schaltfläche ![](/images/Sketcher_MirrorSketch.svg) Skizze spiegeln drücken (nicht vorhanden im Arbeitsbereich [PartDesign](/PartDesign_Workbench/de "PartDesign Workbench/de")).
+   - Den Menüeintrag **Skizze → ![](/images/Sketcher_MirrorSketch.svg) Skizze spiegeln** auswählen.
 3. Der Dialog **Spiegelachse/-punkt auswählen** wird geöffnet.
 4. Eine der vorhandenen Optionen auswählen:
    - **X-Achse**

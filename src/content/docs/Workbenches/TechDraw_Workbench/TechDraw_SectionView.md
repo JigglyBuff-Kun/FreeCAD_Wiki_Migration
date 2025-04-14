@@ -21,8 +21,8 @@ title: TechDraw SectionView
 
 The **TechDraw SectionView** tool inserts a cross-section view based on an existing part view.
 
-![](/src/assets/images/TechDraw_section_ANSI.png)  
-![](/src/assets/images/TechDraw_section_ISO.png)
+![](/images/TechDraw_section_ANSI.png)  
+![](/images/TechDraw_section_ISO.png)
 
 Sectioning an already placed view, which shows the internal holes and a hatched cut surface.  
 The top image shows the ANSI arrow format.  
@@ -32,11 +32,11 @@ The bottom image shows the ISO arrow format.
 
 1. Select a part view in the [3D view](/3D_view "3D view") or [Tree view](/Tree_view "Tree view").
 2. There are several ways to invoke the tool:
-   - Press the ![](/src/assets/images/TechDraw_SectionView.svg) [Insert Section View](/TechDraw_SectionView "TechDraw SectionView") button.
-   - Select the **TechDraw → TechDraw Views → ![](/src/assets/images/TechDraw_SectionView.svg) Insert Section View** option from the menu.
+   - Press the ![](/images/TechDraw_SectionView.svg) [Insert Section View](/TechDraw_SectionView "TechDraw SectionView") button.
+   - Select the **TechDraw → TechDraw Views → ![](/images/TechDraw_SectionView.svg) Insert Section View** option from the menu.
 3. A task panel opens which will help calculate the various properties. Reasonable values for the view Direction are calculated, but these can be changed.
 
-![](/src/assets/images/TechDraw_Section_Taskview.png)
+![](/images/TechDraw_Section_Taskview.png)
 
 Taskview to define the sectional cut of a view
 
@@ -136,11 +136,11 @@ doc.recompute()
 
 For some more information about section views and some use cases, have a look at: [TechDraw section examples](/TechDraw_Section_Examples "TechDraw Section Examples").
 
-![](/src/assets/images/TechDraw_ExampleSection-10.png)
-![](/src/assets/images/TechDraw_ExampleSection-13.png)
-![](/src/assets/images/TechDraw_ExampleSection-15.png)
-![](/src/assets/images/TechDraw_ExampleSection-17.png)
-![](/src/assets/images/TechDraw_ExampleSection-34.png)
-![](/src/assets/images/TechDraw_ExampleSection-35.png)
+![](/images/TechDraw_ExampleSection-10.png)
+![](/images/TechDraw_ExampleSection-13.png)
+![](/images/TechDraw_ExampleSection-15.png)
+![](/images/TechDraw_ExampleSection-17.png)
+![](/images/TechDraw_ExampleSection-34.png)
+![](/images/TechDraw_ExampleSection-35.png)
 
 Retrieved from "<http://wiki.freecad.org/index.php?title=TechDraw_SectionView/en&oldid=1490019>"

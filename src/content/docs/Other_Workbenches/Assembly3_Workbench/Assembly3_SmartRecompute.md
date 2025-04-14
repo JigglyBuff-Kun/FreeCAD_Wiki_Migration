@@ -23,12 +23,12 @@ This documentation is not finished. Please help and contribute documentation.Gui
 
 ## Description
 
-The ![](/src/assets/images/Assembly_SmartRecompute.svg) [Smart recompute](/Assembly3_SmartRecompute "Assembly3 SmartRecompute") command does...
+The ![](/images/Assembly_SmartRecompute.svg) [Smart recompute](/Assembly3_SmartRecompute "Assembly3 SmartRecompute") command does...
 
 ## Usage
 
-1. Activate the ![](/src/assets/images/Assembly_SmartRecompute.svg) **Smart recompute** command using one of the following:
-   - The ![](/src/assets/images/Assembly_SmartRecompute.svg) [Smart recompute](/Assembly3_SmartRecompute "Assembly3 SmartRecompute") button.
-   - The **Assembly3 → ![](/src/assets/images/Assembly_SmartRecompute.svg) Smart recompute** menu option.
+1. Activate the ![](/images/Assembly_SmartRecompute.svg) **Smart recompute** command using one of the following:
+   - The ![](/images/Assembly_SmartRecompute.svg) [Smart recompute](/Assembly3_SmartRecompute "Assembly3 SmartRecompute") button.
+   - The **Assembly3 → ![](/images/Assembly_SmartRecompute.svg) Smart recompute** menu option.
 
 Retrieved from "<http://wiki.freecad.org/index.php?title=Assembly3_SmartRecompute/en&oldid=1060890>"

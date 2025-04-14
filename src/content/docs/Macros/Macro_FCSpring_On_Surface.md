@@ -30,7 +30,7 @@ title: FCSpring On Surface
 
 This macro creates a helix around a solid object whatever its shape, the helix follows the entire surface of the object. (Python2 is required).
 
-![](/src/assets/images/FCSpring_On_Surface_00.png)
+![](/images/FCSpring_On_Surface_00.png)
 
 ## Usage
 
@@ -38,7 +38,7 @@ Select the object (solid), the macro calculate by default value:
 
 - The value of the height of the BoundBox of the object, the X value of the center of the BoundBox, the Y value of the center of the BoundBox, and the Z value of the base of the BoundBox.
 
-![](/src/assets/images/FCSpring_On_Surface_02.png)
+![](/images/FCSpring_On_Surface_02.png)
 
 **Configuration:**
 
@@ -69,7 +69,7 @@ Select the object (solid), the macro calculate by default value:
 
 ToolBar icon
 
-![](/src/assets/images/FCSpring_On_Surface.png)
+![](/images/FCSpring_On_Surface.png)
 
 **Macro_FCSpring_On_Surface.FCMacro**
 
@@ -621,11 +621,11 @@ MainWindow.show()
 
 ## Examples
 
-![](/src/assets/images/FCSpring_On_Surface_01.png)
+![](/images/FCSpring_On_Surface_01.png)
 
-![](/src/assets/images/Schraube_neu_hbc0_bis.png)
+![](/images/Schraube_neu_hbc0_bis.png)
 
-![](/src/assets/images/Schraube_neu_hbc0.gif)
+![](/images/Schraube_neu_hbc0.gif)
 
 ### Links
 

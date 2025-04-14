@@ -32,7 +32,7 @@ This macro creates a solid by sweeping a 2D profile along a trajectory previousl
 
 It should be noted that the resulting solid will **not** be parametric. If you decide to change your profile or trajectory, you'll need to run the macro again.
 
-![A few examples of sweeping all using the same oblong section and three kinds of trajectory.](/src/assets/images/Solid_sweep.png)
+![A few examples of sweeping all using the same oblong section and three kinds of trajectory.](/images/Solid_sweep.png)
 
 ## Usage
 
@@ -50,10 +50,10 @@ It should be noted that the resulting solid will **not** be parametric. If you d
 
 - Wires
 
-* ![](/src/assets/images/Sketcher_NewSketch.svg) [Sketches](/Sketcher_Workbench "Sketcher Workbench")
-* ![](/src/assets/images/Draft_BSpline.svg) [Draft BSpline](/Draft_BSpline "Draft BSpline")
+* ![](/images/Sketcher_NewSketch.svg) [Sketches](/Sketcher_Workbench "Sketcher Workbench")
+* ![](/images/Draft_BSpline.svg) [Draft BSpline](/Draft_BSpline "Draft BSpline")
 
-- 2D primitives from the _Part → ![](/src/assets/images/Part_Primitives.svg) [Create Primitives](/Part_Primitives "Part Primitives") ..._ menu (circle, helix)
+- 2D primitives from the _Part → ![](/images/Part_Primitives.svg) [Create Primitives](/Part_Primitives "Part Primitives") ..._ menu (circle, helix)
 
 ## Tips
 
@@ -65,7 +65,7 @@ It should be noted that the resulting solid will **not** be parametric. If you d
 
 ## Script
 
-ToolBar Icon ![](/src/assets/images/Macro_Solid_Sweep.png)
+ToolBar Icon ![](/images/Macro_Solid_Sweep.png)
 
 **Macro_Solid_Sweep.FCMacro**
 

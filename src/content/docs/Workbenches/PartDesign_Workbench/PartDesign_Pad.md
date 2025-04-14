@@ -21,14 +21,14 @@ title: PartDesign Pad
 
 The **Pad** tool extrudes a sketch or a face of a solid along a straight path.
 
-![](/src/assets/images/PartDesign_Pad_example.svg)
+![](/images/PartDesign_Pad_example.svg)
 
 _Sketch (A) shown on the left; end result after pad operation (B) on the right._
 
 ## Usage
 
 1. Select a single sketch or one or more faces from the Body.
-2. Press the ![](/src/assets/images/PartDesign_Pad.svg) [Pad](/PartDesign_Pad "PartDesign Pad") button.
+2. Press the ![](/images/PartDesign_Pad.svg) [Pad](/PartDesign_Pad "PartDesign Pad") button.
 3. Set the Pad parameters, see [Options](#Options) below.
 4. Press the OK button.
 
@@ -36,7 +36,7 @@ _Sketch (A) shown on the left; end result after pad operation (B) on the right._
 
 When creating a pad, or after double-clicking an existing pad in the [Tree view](/Tree_view "Tree view"), the **Pad parameters** task panel is shown. It offers the following settings:
 
-![](/src/assets/images/PartDesign_Pad_Taskpanel.png)
+![](/images/PartDesign_Pad_Taskpanel.png)
 
 ### Type
 

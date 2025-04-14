@@ -2,7 +2,7 @@
 title: MOOC Workbench
 ---
 
-![](/src/assets/images/MOOC_workbench_icon.svg)
+![](/images/MOOC_workbench_icon.svg)
 
 The FreeCAD MOOC External Workbench Icon
 
@@ -17,20 +17,20 @@ The MOOC Workbench is an [external workbench](/External_workbenches "External wo
 
 ### Interactive
 
-**Interactive** tutorials (AKA ![](/src/assets/images/MOOC_Player.svg) Player) are step-by-step guided exercises with objective checks. It launches directly into FreeCAD and allows you to advance one step at a time of modeling of an object. The user has a text, a video and above all a check that the objectives have been achieved.
+**Interactive** tutorials (AKA ![](/images/MOOC_Player.svg) Player) are step-by-step guided exercises with objective checks. It launches directly into FreeCAD and allows you to advance one step at a time of modeling of an object. The user has a text, a video and above all a check that the objectives have been achieved.
 
-![](/src/assets/images/MOOC_Player_Dialog_Context.png)
+![](/images/MOOC_Player_Dialog_Context.png)
 
 MOOC Player Dialog within FreeCAD GUI
 
-![](/src/assets/images/MOOC_Player_Dialog.png)
+![](/images/MOOC_Player_Dialog.png)
 
 MOOC Player Dialog close up
 
 ### Evaluations
 
-**Evaluations** (AKA ![](/src/assets/images/MOOC_Grader.svg) Grader) consist of a small program that checks certain criteria of a FreeCAD document, for example, the presence of a part body, a sketch or the final volume.
-![](/src/assets/images/MOOC_Grader_Dialog.png)
+**Evaluations** (AKA ![](/images/MOOC_Grader.svg) Grader) consist of a small program that checks certain criteria of a FreeCAD document, for example, the presence of a part body, a sketch or the final volume.
+![](/images/MOOC_Grader_Dialog.png)
 
 The MOOC Grader Dialog
 

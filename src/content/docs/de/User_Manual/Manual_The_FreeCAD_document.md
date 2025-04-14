@@ -10,7 +10,7 @@ Objects in einem FreeCAD-Dokument unterscheiden sich stark in ihrer Art, da jede
 
 FreeCAD-Dokumente werden im .FCStd-Dateiformat gespeichert, das eine zip-basierte Verbundstruktur verwendet die Formaten wie LibreOffice ähnelt. Falls technische Probleme auftreten, kann das Dokument meistens entpackt werden und ermöglicht den direkten Zugriff auf seine Inhalte, zur Fehlerbeseitigung oder Datenwiederherstellung. Diese Fähigkeit stellt eine weitere Sicherheitskomponente dar, die sicherstellt, das die Konstruktion gesichert und zurückgeholt werden kann, auch unter unerwarteten Umständen.
 
-![](/src/assets/images/FreeCAD_022_Document.png)
+![](/images/FreeCAD_022_Document.png)
 
 **Weiterlesen**
 

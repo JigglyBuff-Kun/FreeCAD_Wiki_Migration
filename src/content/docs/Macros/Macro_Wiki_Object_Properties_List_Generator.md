@@ -38,7 +38,7 @@ Each object created in FreeCAD is inherited from the parent object. The structur
 
 You can read more about this on the page: [Part Feature](/Part_Feature "Part Feature")
 
-![](/src/assets/images/FreeCAD_core_objects.svg)
+![](/images/FreeCAD_core_objects.svg)
 
 ## How To Use
 

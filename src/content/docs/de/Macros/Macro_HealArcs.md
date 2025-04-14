@@ -32,7 +32,7 @@ Manchmal werden Bögen in BSplines umgewandelt, z. B. wenn Skalenoperationen dar
 
 ## Skript
 
-Werkzeugleistensymbol ![](/src/assets/images/Macro_HealArcs.png)
+Werkzeugleistensymbol ![](/images/Macro_HealArcs.png)
 **Macro_HealArcs.FCMacro**
 
 ```

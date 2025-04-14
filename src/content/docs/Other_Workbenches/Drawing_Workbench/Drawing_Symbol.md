@@ -25,7 +25,7 @@ This command allows you to add the contents of a SVG image on a selected [Drawin
 
 1. Create a [Drawing page](/Drawing_Landscape_A3 "Drawing Landscape A3")
 2. [Refresh](/Std_Refresh "Std Refresh") the view if a Drawing viewer wasn't opened
-3. Press the ![](/src/assets/images/Drawing_Symbol.png) [Drawing Symbol](/Drawing_Symbol "Drawing Symbol") button
+3. Press the ![](/images/Drawing_Symbol.png) [Drawing Symbol](/Drawing_Symbol "Drawing Symbol") button
 4. Select a SVG file
 5. Adjust the needed properties, like position and scale.
 

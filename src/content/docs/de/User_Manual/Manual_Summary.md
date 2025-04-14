@@ -6,7 +6,7 @@ Dies ist das Inhaltsverzeichnis, das für die automatische Erstellung des **Free
 
 Es gibt ein weiteres Inhaltsverzeichnis für das [FreeCAD **Online Hilfe** System](/Online_Help_Toc/de "Online Help Toc/de").
 
-![](/src/assets/images/Crystal_Clear_manual.png)
+![](/images/Crystal_Clear_manual.png)
 
 - [Einführung](/Manual:Introduction/de "Manual:Introduction/de")
 - FreeCAD entdecken

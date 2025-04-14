@@ -19,11 +19,11 @@ title: Draft Clone
 
 ## Description
 
-The ![](/src/assets/images/Draft_Clone.svg) **Draft Clone** command creates linked copies, clones, of selected objects. The shape of a clone is parametric, it will update if its source object changes. But a clone does have its own position, rotation, and scale, and its own [View properties](/Property_editor "Property editor"). For [BIM](/BIM_Workbench "BIM Workbench") objects the command creates a special type of clone: an Arch clone.
+The ![](/images/Draft_Clone.svg) **Draft Clone** command creates linked copies, clones, of selected objects. The shape of a clone is parametric, it will update if its source object changes. But a clone does have its own position, rotation, and scale, and its own [View properties](/Property_editor "Property editor"). For [BIM](/BIM_Workbench "BIM Workbench") objects the command creates a special type of clone: an Arch clone.
 
 The command can be used on 2D objects created with the [Draft Workbench](/Draft_Workbench "Draft Workbench") or [Sketcher Workbench](/Sketcher_Workbench "Sketcher Workbench"), but also on many 3D objects such as those created with the [Part Workbench](/Part_Workbench "Part Workbench"), [PartDesign Workbench](/PartDesign_Workbench "PartDesign Workbench") or [BIM Workbench](/BIM_Workbench "BIM Workbench"). Clones of 2D objects can be used in [PartDesign Bodies](/PartDesign_Body "PartDesign Body").
 
-![](/src/assets/images/Draft_Clone_example.jpg)
+![](/images/Draft_Clone_example.jpg)
 
 Draft Clone next to its source object
 
@@ -31,8 +31,8 @@ Draft Clone next to its source object
 
 1. Optionally select one or more objects.
 2. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/Draft_Clone.svg) [Clone](/Draft_Clone "Draft Clone") button.
-   - Select the **Modification → ![](/src/assets/images/Draft_Clone.svg) Clone** option from the menu.
+   - Press the ![](/images/Draft_Clone.svg) [Clone](/Draft_Clone "Draft Clone") button.
+   - Select the **Modification → ![](/images/Draft_Clone.svg) Clone** option from the menu.
    - Use the keyboard shortcut: C then L.
 3. If you have not yet selected an object: select an object in the [3D view](/3D_view "3D view").
 

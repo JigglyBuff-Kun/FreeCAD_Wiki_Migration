@@ -24,8 +24,8 @@ Der Befehl **Std Öffnen** öffnet eine Datei. Wenn die Datei keine native FreeC
 ## Anwendung
 
 1. Es gibt mehrere Möglichkeiten das Werkzeug aufzurufen:
-   - Die Schaltfläche ![](/src/assets/images/Std_Open.svg) Öffnen... drücken.
-   - Den Menüeintrag **Datei → ![](/src/assets/images/Std_Open.svg) Öffnen...** auswählen.
+   - Die Schaltfläche ![](/images/Std_Open.svg) Öffnen... drücken.
+   - Den Menüeintrag **Datei → ![](/images/Std_Open.svg) Öffnen...** auswählen.
    - Das Tastaturkürzel Ctrl+O.
 2. Optional kann das richtige Dateiformat im Dialogfeld ausgewählt werden.
 3. Eine Datei auswählen.

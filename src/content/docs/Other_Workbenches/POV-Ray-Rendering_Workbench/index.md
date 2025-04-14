@@ -2,7 +2,7 @@
 title: POV-Ray-Rendering Workbench
 ---
 
-![](/src/assets/images/POV-Ray-Rendering_workbench_icon.svg)
+![](/images/POV-Ray-Rendering_workbench_icon.svg)
 
 POV-Ray-Rendering Workbench icon
 
@@ -10,7 +10,7 @@ POV-Ray-Rendering Workbench icon
 
 The POV-Ray-Rendering Workbench is an [external workbench](/External_workbenches "External workbenches") built to make rendering easy but it also offers options for advanced users. The workbench uses the [POV-Ray](http://www.povray.org/) renderer.
 
-![](/src/assets/images/POV-Ray-Rendering_Example.png)
+![](/images/POV-Ray-Rendering_Example.png)
 
 ## Features
 
@@ -18,7 +18,7 @@ The POV-Ray-Rendering Workbench is an [external workbench](/External_workbenches
 
 There are more than 100 predefined textures you can apply, but you can also define your own textures.
 
-![](/src/assets/images/POV-Ray-Rendering_Textures.png)
+![](/images/POV-Ray-Rendering_Textures.png)
 
 #### Thumbnails and live preview
 
@@ -28,19 +28,19 @@ To see the impact of the selected texture options you can check the pre-rendered
 
 With the three light types: area light, point light and spot light, and their different options, you can create advanced lighting.
 
-![](/src/assets/images/POV-Ray-Rendering_Lights.png)
+![](/images/POV-Ray-Rendering_Lights.png)
 
 #### Indirect lighting (GI)
 
 The workbench has the option to enable indirect lighting to create more realistic images.
 
-![](/src/assets/images/POV-Ray-Rendering_IndirectLighting.png)
+![](/images/POV-Ray-Rendering_IndirectLighting.png)
 
 ### HDRI environments
 
 With support for HDRI environments, beautiful environments are simple to use.
 
-![](/src/assets/images/POV-Ray-Rendering_HDRI.png)
+![](/images/POV-Ray-Rendering_HDRI.png)
 
 ### User inc file
 
@@ -50,13 +50,13 @@ Power users who want access to _all_ options of the [POV-Ray](http://www.povray.
 
 Here is a simple demonstration of the workbench:
 
-![](/src/assets/images/POV-Ray-Rendering_Demo.gif)
+![](/images/POV-Ray-Rendering_Demo.gif)
 
 There are many more options on the other tabs, please explore them yourself, or you can visit our Wiki: [Workbench Wiki](https://gitlab.com/usbhub/exporttopovray/-/tree/master/doc)
 
 ## Installation
 
-This workbench can be installed and updated from the ![](/src/assets/images/AddonManager.svg) [Addon Manager](/Std_AddonMgr "Std AddonMgr"). The [POV-Ray](http://www.povray.org/) renderer used by the workbench has to be installed separately. For Windows users, the installer can be downloaded from the [POV-Ray Download Page](https://www.povray.org/download/), for Linux users it can usually be installed from the package manager. Look up the detailed instructions in the [POV-Ray Wiki](https://wiki.povray.org/content/HowTo:Install_POV) if you're on a Mac.
+This workbench can be installed and updated from the ![](/images/AddonManager.svg) [Addon Manager](/Std_AddonMgr "Std AddonMgr"). The [POV-Ray](http://www.povray.org/) renderer used by the workbench has to be installed separately. For Windows users, the installer can be downloaded from the [POV-Ray Download Page](https://www.povray.org/download/), for Linux users it can usually be installed from the package manager. Look up the detailed instructions in the [POV-Ray Wiki](https://wiki.povray.org/content/HowTo:Install_POV) if you're on a Mac.
 
 To complete the installation the path to the POV-Ray executable has to be defined in the workbench preferences, usually these are the default paths:
 
@@ -64,17 +64,17 @@ To complete the installation the path to the POV-Ray executable has to be define
 - **Linux:** /usr/bin/povray
 - **MacOS:** Not available. If you have more information, please let us know.
 
-![](/src/assets/images/POV-Ray-Rendering_ExePath.png)
+![](/images/POV-Ray-Rendering_ExePath.png)
 
 ## Tools
 
-- ![](/src/assets/images/POV-Ray-Rendering_OpenDialog.svg) OpenDialog: Opens the dialog where most of the work is done. Here you can apply textures, add HDRI environments, etc. and start the rendering.
+- ![](/images/POV-Ray-Rendering_OpenDialog.svg) OpenDialog: Opens the dialog where most of the work is done. Here you can apply textures, add HDRI environments, etc. and start the rendering.
 
-- ![](/src/assets/images/POV-Ray-Rendering_PointLight.svg) Point Light: Inserts a Point Light.
+- ![](/images/POV-Ray-Rendering_PointLight.svg) Point Light: Inserts a Point Light.
 
-- ![](/src/assets/images/POV-Ray-Rendering_AreaLight.svg) Area Light: Inserts an Area Light.
+- ![](/images/POV-Ray-Rendering_AreaLight.svg) Area Light: Inserts an Area Light.
 
-- ![](/src/assets/images/POV-Ray-Rendering_SpotLight.svg) Spot Light: Inserts a Spot Light.
+- ![](/images/POV-Ray-Rendering_SpotLight.svg) Spot Light: Inserts a Spot Light.
 
 ## References
 

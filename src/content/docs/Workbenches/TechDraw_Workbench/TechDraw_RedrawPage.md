@@ -25,8 +25,8 @@ The **TechDraw RedrawPage** tool forces a page update despite any contrary setti
 
 1. If there are multiple drawing pages in the document: optionally activate the desired page or select it in the [Tree view](/Tree_view "Tree view").
 2. There are several ways to invoke the tool:
-   - Press the ![](/src/assets/images/TechDraw_RedrawPage.svg) [Redraw Page](/TechDraw_RedrawPage "TechDraw RedrawPage") button.
-   - Select the **TechDraw → Page → ![](/src/assets/images/TechDraw_RedrawPage.svg) Redraw Page** option from the menu.
+   - Press the ![](/images/TechDraw_RedrawPage.svg) [Redraw Page](/TechDraw_RedrawPage "TechDraw RedrawPage") button.
+   - Select the **TechDraw → Page → ![](/images/TechDraw_RedrawPage.svg) Redraw Page** option from the menu.
 3. If there are multiple drawing pages in the document and you have not yet selected a page, the **Page Chooser** dialog box opens:
    1. Select the desired page.
    2. Press the OK button.

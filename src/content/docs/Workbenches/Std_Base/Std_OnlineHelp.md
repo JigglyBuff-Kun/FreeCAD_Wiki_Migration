@@ -26,7 +26,7 @@ Since FreeCAD version 0.20 this command and the Help system are managed by a sep
 ## Usage
 
 1. There are several ways to invoke the command:
-   - Select the **Help → ![](/src/assets/images/Std_OnlineHelp.svg) Help** option from the menu.
+   - Select the **Help → ![](/images/Std_OnlineHelp.svg) Help** option from the menu.
    - Use the keyboard shortcut: F1.
 2. The help documentation opens.
 

@@ -30,7 +30,7 @@ title: ObjectInfo
 
 This WorkBench lets you know the volume information surface area, center of mass and moment of intertia of the selected object.
 
-![](/src/assets/images/ObjectInfoIt.png)
+![](/images/ObjectInfoIt.png)
 
 ## Installation
 

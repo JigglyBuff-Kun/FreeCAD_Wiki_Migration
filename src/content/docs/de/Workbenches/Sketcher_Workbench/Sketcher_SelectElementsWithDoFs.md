@@ -19,7 +19,7 @@ title: Sketcher UnterbestimmteElementeAuswählen
 
 ## Beschreibung
 
-Das Werkzeug ![](/src/assets/images/Sketcher_SelectElementsWithDoFs.svg) Sketcher UnterbestimmteElementeAuswählen Wählt die nicht vollständig bestimmten Elemente der Skizze aus.
+Das Werkzeug ![](/images/Sketcher_SelectElementsWithDoFs.svg) Sketcher UnterbestimmteElementeAuswählen Wählt die nicht vollständig bestimmten Elemente der Skizze aus.
 
 Sind solche Elemente in einer Skizze vorhanden, zeigt der Abschnitt [Meldungen des Lösers](/Sketcher_Dialog/de#Meldungen_des_Gleichungslösers "Sketcher Dialog/de") im Sketcher-Dialog diese Meldung:
 
@@ -34,7 +34,7 @@ Bitte beachten, dass eine Skizze auch überflüssige Randbedingungen enthalten k
 1. Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
 
    - Den unterstrichenen Text im Sketcher-Dialog anklicken, wie oben beschrieben.
-   - Den Menüeintrag **Skizze → Sketcher visuell → ![](/src/assets/images/Sketcher_SelectElementsWithDoFs.svg) Unterbestimmte Elemente auswählen** auswählen.
+   - Den Menüeintrag **Skizze → Sketcher visuell → ![](/images/Sketcher_SelectElementsWithDoFs.svg) Unterbestimmte Elemente auswählen** auswählen.
    - Das Tastaturkürzel Z dann F.
 
 1. Die unterbestimmten Elemente werden ausgewählt.

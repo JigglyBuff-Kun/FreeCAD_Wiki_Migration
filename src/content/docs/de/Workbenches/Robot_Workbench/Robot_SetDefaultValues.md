@@ -23,7 +23,7 @@ Setzt die Standardwerte für das Erzeugen von Wegpunkten.
 
 ## Anwendung
 
-1. Den Menüeintrag Robot → ![](/src/assets/images/Robot_SetDefaultValues.svg) Set default values auswählen zum festlegen von:
+1. Den Menüeintrag Robot → ![](/images/Robot_SetDefaultValues.svg) Set default values auswählen zum festlegen von:
 
 : : _ Geschwindigkeit
 _ Modus (fortlaufend?) \* Beschleunigung

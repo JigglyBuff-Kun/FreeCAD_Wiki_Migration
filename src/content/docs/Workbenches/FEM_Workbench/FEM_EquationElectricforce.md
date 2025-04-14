@@ -25,16 +25,16 @@ For info about the math of the equation, see the [Elmer models manual](http://ww
 
 ## Usage
 
-1. Add an ![](/src/assets/images/FEM_SolverElmer.svg) [Elmer solver](/FEM_SolverElmer#Equations "FEM SolverElmer").
+1. Add an ![](/images/FEM_SolverElmer.svg) [Elmer solver](/FEM_SolverElmer#Equations "FEM SolverElmer").
 2. Select it in the [Tree view](/Tree_view "Tree view").
 3. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/FEM_EquationElectricforce.svg) [Electricforce equation](/FEM_EquationElectricforce "FEM EquationElectricforce") button.
+   - Press the ![](/images/FEM_EquationElectricforce.svg) [Electricforce equation](/FEM_EquationElectricforce "FEM EquationElectricforce") button.
    - Select the **Solve → Electromagnetic Equations → Electricforce equation** option from the menu.
 4. The electricforce equation needs a potential field:
-   - Invoke the ![](/src/assets/images/FEM_EquationElectrostatic.svg) [FEM EquationElectrostatic](/FEM_EquationElectrostatic "FEM EquationElectrostatic") command.
+   - Invoke the ![](/images/FEM_EquationElectrostatic.svg) [FEM EquationElectrostatic](/FEM_EquationElectrostatic "FEM EquationElectrostatic") command.
 5. Change the [equation's solver settings](#Solver_Settings) or the [general solver settings](/FEM_SolverElmer_SolverSettings "FEM SolverElmer SolverSettings") if necessary.
 
-The electricforce equation only calculates the force for faces with a ![](/src/assets/images/FEM_ConstraintElectrostaticPotential.svg) [electrostatic potential boundary condition](/FEM_ConstraintElectrostaticPotential "FEM ConstraintElectrostaticPotential") if the boundary condition's option **Calculate Electric Force** is used.
+The electricforce equation only calculates the force for faces with a ![](/images/FEM_ConstraintElectrostaticPotential.svg) [electrostatic potential boundary condition](/FEM_ConstraintElectrostaticPotential "FEM ConstraintElectrostaticPotential") if the boundary condition's option **Calculate Electric Force** is used.
 
 ## Solver Settings
 
@@ -46,7 +46,7 @@ The electricforce equation provides this special setting:
 
 ## Analysis Feature Information
 
-The electricforce equation does not have its own analysis features. It takes the ![](/src/assets/images/FEM_ConstraintElectrostaticPotential.svg) [electrostatic potential boundary condition](/FEM_ConstraintElectrostaticPotential "FEM ConstraintElectrostaticPotential") from the ![](/src/assets/images/FEM_EquationElectrostatic.svg) [Electrostatic equation](/FEM_EquationElectrostatic "FEM EquationElectrostatic"). In the boundary condition it is important to use the option **Calculate Electric Force**.
+The electricforce equation does not have its own analysis features. It takes the ![](/images/FEM_ConstraintElectrostaticPotential.svg) [electrostatic potential boundary condition](/FEM_ConstraintElectrostaticPotential "FEM ConstraintElectrostaticPotential") from the ![](/images/FEM_EquationElectrostatic.svg) [Electrostatic equation](/FEM_EquationElectrostatic "FEM EquationElectrostatic"). In the boundary condition it is important to use the option **Calculate Electric Force**.
 
 ## Result
 

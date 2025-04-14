@@ -70,7 +70,7 @@ webbrowser.open("https://gist.githubusercontent.com/mario52a/0ed8129bacbe9124a41
 
 Copy the code and paste it in the macro directory
 
-![](/src/assets/images/Macro_CirclePlus_00.png)
+![](/images/Macro_CirclePlus_00.png)
 
 - **X Y Z** : coordinates of circle if not coordinates the circle is created on point 0,0,0
 - **radius** : radius of cicle
@@ -90,7 +90,7 @@ Copy the code and paste it in the macro directory
 - **Quit** : quit the macro (this button is coloured in red in case error)
 - **Ok** : create the circle
 
-![](/src/assets/images/Macro_CirclePlus_01.png)
+![](/images/Macro_CirclePlus_01.png)
 
 - **Options available**
 - **circumference** : circumference of circle
@@ -106,9 +106,9 @@ Copy the code and paste it in the macro directory
 
 ## Script
 
-Download image positioning on the icon ![](/src/assets/images/Macro_CirclePlus.png) and then drag the mouse right click "save as" (do not change the name)
+Download image positioning on the icon ![](/images/Macro_CirclePlus.png) and then drag the mouse right click "save as" (do not change the name)
 
-[![](/src/assets/images/Nuvola_apps_download_manager.png)](https://gist.github.com/mario52a/0ed8129bacbe9124a41e3ae1d378d5b7)
+[![](/images/Nuvola_apps_download_manager.png)](https://gist.github.com/mario52a/0ed8129bacbe9124a41e3ae1d378d5b7)
 
 [Last version Macro_CirclePlus  
 and the icons at the end of the page](https://gist.github.com/mario52a/0ed8129bacbe9124a41e3ae1d378d5b7)
@@ -117,11 +117,11 @@ and the icons at the end of the page](https://gist.github.com/mario52a/0ed8129ba
 
 **Examples codes**
 
-![examples 1, 2, 3](/src/assets/images/Macro_Circle_01.png)
+![examples 1, 2, 3](/images/Macro_Circle_01.png)
 
 examples 1, 2, 3
 
-![examples](/src/assets/images/Macro_Circle_02.png)
+![examples](/images/Macro_Circle_02.png)
 
 examples
 

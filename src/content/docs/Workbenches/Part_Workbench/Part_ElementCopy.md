@@ -19,12 +19,12 @@ title: Part ElementCopy
 
 ## Description
 
-The ![](/src/assets/images/Part_ElementCopy.svg) **Part ElementCopy** command creates non-parametric copies of subelements: vertices, edges and faces.
+The ![](/images/Part_ElementCopy.svg) **Part ElementCopy** command creates non-parametric copies of subelements: vertices, edges and faces.
 
 ## Usage
 
 1. Select one or more subelements belonging to one or more objects.
-2. Select the **Part → Create a copy → ![](/src/assets/images/Part_ElementCopy.svg) Create shape element copy** option from the menu.
+2. Select the **Part → Create a copy → ![](/images/Part_ElementCopy.svg) Create shape element copy** option from the menu.
 
 ## Notes
 

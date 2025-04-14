@@ -25,8 +25,8 @@ The **Std Measure** command gives access to the Unified Measurement Facility. It
 
 1. Optionally preselect the entities to be measured.
 2. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/Std_Measure.svg) [Std Measure](/Std_Measure "Std Measure") button.
-   - Select the **Tools → ![](/src/assets/images/Std_Measure.svg) Measure** option from the menu.
+   - Press the ![](/images/Std_Measure.svg) [Std Measure](/Std_Measure "Std Measure") button.
+   - Select the **Tools → ![](/images/Std_Measure.svg) Measure** option from the menu.
 3. The **Measurement** task panel opens. See [Options](#Options) for more information.
 4. If no geometrical entities were preselected, do one of the following:
    - Select the geometrical entities while leaving the _Mode_ as _Auto_ so that the mode will be automatically determined based on the selection.
@@ -45,7 +45,7 @@ The **Std Measure** command gives access to the Unified Measurement Facility. It
 
 ## Options
 
-- [introduced in 1.1](/Release_notes_1.1 "Release notes 1.1") Press the ![](/src/assets/images/Preferences-system.svg) ![](/src/assets/images/Toolbar_flyout_arrow.svg) button to change the settings:
+- [introduced in 1.1](/Release_notes_1.1 "Release notes 1.1") Press the ![](/images/Preferences-system.svg) ![](/images/Toolbar_flyout_arrow.svg) button to change the settings:
   - _Auto Save_ - if checked, the last measurement is saved when starting a new measurement (holding Shift can temporarily disable this behavior),
   - _Additive Selection_ - if checked, clicking on subsequent geometrical entities adds them as selections for the same measurement, otherwise Ctrl must be pressed to do this.
 - For the _Distance_ and _Distance Free_ modes the **Show Delta** checkbox is displayed. If this checkbox is checked, the Ansicht**Show Delta** property of the measurement is set to `true` and 3 additional projected measurements are shown in the [3D view](/3D_view "3D view").

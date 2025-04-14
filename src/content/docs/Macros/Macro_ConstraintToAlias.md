@@ -32,7 +32,7 @@ Often while editing a sketch we find ourselves needing a spreadsheet alias and v
 
 With this macro you can simply create the constraint, give it a name and a value, and then run the macro. It shows a dialog in which you can edit the label for Column A, the value and alias for Column B, and click OK to have the alias created for you and the constraint linked to it via expressions.
 
-![](/src/assets/images/ConstraintToAlias_scr1.png)
+![](/images/ConstraintToAlias_scr1.png)
 
 ## Usage
 
@@ -90,13 +90,13 @@ webbrowser.open("https://gist.github.com/mwganson/005765b49123d80cbb54569e081779
 
 ## Icon
 
-ToolBar Icon ![](/src/assets/images/ConstraintToAlias.svg)
+ToolBar Icon ![](/images/ConstraintToAlias.svg)
 
 ## Script
 
 **Macro ConstraintToAlias.FCMacro**
 
-[![](/src/assets/images/Nuvola_apps_download_manager.png)](https://gist.github.com/mwganson/005765b49123d80cbb54569e081779a1)
+[![](/images/Nuvola_apps_download_manager.png)](https://gist.github.com/mwganson/005765b49123d80cbb54569e081779a1)
 
 [ConstraintToAlias.FCMacro](https://gist.github.com/mwganson/005765b49123d80cbb54569e081779a1)
 

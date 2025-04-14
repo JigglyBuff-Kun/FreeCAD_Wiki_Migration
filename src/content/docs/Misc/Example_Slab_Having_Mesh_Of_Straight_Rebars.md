@@ -23,43 +23,43 @@ title: Example Slab Having Mesh Of Straight Rebars
 
 ## Description
 
-The ![](/src/assets/images/Reinforcement_SlabRebars.svg) [Reinforcement SlabRebars](/Reinforcement_SlabRebars "Reinforcement SlabRebars") tool allows the user to create reinforcing bars inside a Slab [Arch Structure](/Arch_Structure "Arch Structure") object.
+The ![](/images/Reinforcement_SlabRebars.svg) [Reinforcement SlabRebars](/Reinforcement_SlabRebars "Reinforcement SlabRebars") tool allows the user to create reinforcing bars inside a Slab [Arch Structure](/Arch_Structure "Arch Structure") object.
 
-This tool is part of the ![](/src/assets/images/Reinforcement_Workbench.svg) [Reinforcement Workbench](/Reinforcement_Workbench "Reinforcement Workbench"), an [external workbench](/External_workbenches "External workbenches") that can be installed with the ![](/src/assets/images/Std_AddonMgr.svg) [Addon Manager](/Std_AddonMgr "Std AddonMgr").
+This tool is part of the ![](/images/Reinforcement_Workbench.svg) [Reinforcement Workbench](/Reinforcement_Workbench "Reinforcement Workbench"), an [external workbench](/External_workbenches "External workbenches") that can be installed with the ![](/images/Std_AddonMgr.svg) [Addon Manager](/Std_AddonMgr "Std AddonMgr").
 
 In this example we will create Slab Reinforcement for Slab having Mesh of Straight Rebars (straight rebars in both parallel and cross direction ) as shown in below figure.
 
-![](/src/assets/images/Slab_having_straight_rebars_in_both_direction.png)
+![](/images/Slab_having_straight_rebars_in_both_direction.png)
 
 A Example of Slab Reinforcement of Slab Spanning having Straight Rebars in Slab [Arch Structure](/Arch_Structure "Arch Structure")
 
 ## Usage
 
-1. Select any face of a previously created Slab ![](/src/assets/images/Arch_Structure.svg) [Arch Structure](/Arch_Structure "Arch Structure") object. as shown in below image.
+1. Select any face of a previously created Slab ![](/images/Arch_Structure.svg) [Arch Structure](/Arch_Structure "Arch Structure") object. as shown in below image.
 
-![](/src/assets/images/Selected_face_for_Slab_Arch_Structure.png)
+![](/images/Selected_face_for_Slab_Arch_Structure.png)
 
 Selected face for Slab Arch Structure
 
-2. Then select ![](/src/assets/images/Reinforcement_SlabRebars.svg) [Slab Reinforcement](/Reinforcement_SlabRebars "Reinforcement SlabRebars") from the rebar tools.
+2. Then select ![](/images/Reinforcement_SlabRebars.svg) [Slab Reinforcement](/Reinforcement_SlabRebars "Reinforcement SlabRebars") from the rebar tools.
 
 3. A dialog box will pop-out on screen as shown below.
 
-: ![](/src/assets/images/Slab_Reinforcement_input_dialog_box.png)
+: ![](/images/Slab_Reinforcement_input_dialog_box.png)
 : Dialog Box for the Slab Reinforcement
 
 4. Select the desired type of cover of reinforcement mesh (Top or Bottom) In example Bottom is selected.
 
 5. Select the StraightRebar rebar type and other input data for rebars in parallel direction of selected face as show in below image.
 
-: ![](/src/assets/images/Straight_Rebars_in_parallel_for_Slab_Spanning_in_One_Direction.png)
+: ![](/images/Straight_Rebars_in_parallel_for_Slab_Spanning_in_One_Direction.png)
 : Dialog Box for Slab Reinforcement of the Rebars in parallel direction of selected face
 
 6. Now click on Next button or select Cross Rebars in list view.
 
 7. Now select StraightRebar rebar type and other desired data for input data for rabars in cross direction of selected face as show in below image.
 
-: ![](/src/assets/images/Straight_rebars_in_cross_direction.png)
+: ![](/images/Straight_rebars_in_cross_direction.png)
 : Dialog Box for Slab Reinforcement of the Rebars in cross direction of selected face
 
 8. Click OK or Apply or Finish to generate Slab reinforcement.

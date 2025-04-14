@@ -28,8 +28,8 @@ Creates electric charge density load. To be used together with the [Electrostati
 ## Usage
 
 1. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/FEM_ConstraintElectricChargeDensity.svg) [Electric charge density](/FEM_ElectricChargeDensity "FEM ElectricChargeDensity") button.
-   - Select the **Model → Electromagnetic boundary conditions → ![](/src/assets/images/FEM_ConstraintElectricChargeDensity.svg) Electric charge density** option from the menu.
+   - Press the ![](/images/FEM_ConstraintElectricChargeDensity.svg) [Electric charge density](/FEM_ElectricChargeDensity "FEM ElectricChargeDensity") button.
+   - Select the **Model → Electromagnetic boundary conditions → ![](/images/FEM_ConstraintElectricChargeDensity.svg) Electric charge density** option from the menu.
 2. Press the Add button.
 3. In the [3D view](/3D_view "3D view") select the object the load should be applied to.
 

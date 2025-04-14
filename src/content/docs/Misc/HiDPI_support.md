@@ -2,7 +2,7 @@
 title: HiDPI support
 ---
 
-![](/src/assets/images/HiDpiDevicePixelRatio.png)
+![](/images/HiDpiDevicePixelRatio.png)
 
 Device pixel ratio. 100% = 1, 200% = 2, 150% = 1.5
 

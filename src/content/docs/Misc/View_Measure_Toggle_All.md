@@ -28,8 +28,8 @@ The **View Measure Toggle All** command toggles the display of the active [3D vi
 ## Usage
 
 1. There are several ways to invoke the command:
-   - Select the **View → Visibility → ![](/src/assets/images/View_Measure_Toggle_All.svg) Toggle measurement** option from the menu.
-   - Select the **Measure → ![](/src/assets/images/View_Measure_Toggle_All.svg) Toggle measurement** option from the 3D view context menu.
+   - Select the **View → Visibility → ![](/images/View_Measure_Toggle_All.svg) Toggle measurement** option from the menu.
+   - Select the **Measure → ![](/images/View_Measure_Toggle_All.svg) Toggle measurement** option from the 3D view context menu.
 
 ## Notes
 

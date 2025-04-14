@@ -21,7 +21,7 @@ title: TechDraw RahmenUmschalten
 
 Das Werkzeug **TechDraw RahmenUmschalten** schaltet die Darstellung der Umrandungen von Ansichten und Beschriftungen sowie die Anzeige von Knotenpunkten ein bzw. aus.
 
-![](/src/assets/images/TechDraw_ToggleFrame.png)
+![](/images/TechDraw_ToggleFrame.png)
 
 links Umrandung eingeschaltet, rechts Umrandung ausgeschaltet
 
@@ -29,8 +29,8 @@ links Umrandung eingeschaltet, rechts Umrandung ausgeschaltet
 
 1. Wenn mehrere Zeichnungsblätter im Dokument vorhanden sind: Wahlweise das gewünschte Zeichnungsblatt durch Auswahl in der [Baumansicht](/Tree_view/de "Tree view/de") aktivieren.
 2. Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
-   - Die Schaltfläche ![](/src/assets/images/TechDraw_ToggleFrame.svg) Ansichtsrahmen ein- oder ausschalten drücken.
-   - Den Menüeintrag **TechDraw → TechDraw Ansichten → ![](/src/assets/images/TechDraw_ToggleFrame.svg) Ansichtsrahmen ein- oder ausschalten** auswählen.
+   - Die Schaltfläche ![](/images/TechDraw_ToggleFrame.svg) Ansichtsrahmen ein- oder ausschalten drücken.
+   - Den Menüeintrag **TechDraw → TechDraw Ansichten → ![](/images/TechDraw_ToggleFrame.svg) Ansichtsrahmen ein- oder ausschalten** auswählen.
    - Wenn ein Zeichnungsblatt im [Hauptansichtsbereich](/Main_view_area/de "Main view area/de") angezeigt wird: Mit der rechten Maustaste in das Fenster des Blattes klicken und im Kontextmenü die Option **Toggle Frames** auswählen.
 3. Wenn mehrere Zeichnungsblätter im Dokument vorhanden sind und noch kein Blatt aktiviert wurde, wird das Dialogfeld **Blattauswahl** geöffnet:
    1. Das gewünschte Blatt auswählen.
@@ -42,7 +42,7 @@ links Umrandung eingeschaltet, rechts Umrandung ausgeschaltet
 
 Der gestrichelte Ansichtsrahmen und die Knotenpunkte dienen nur als Referenz, sie sind nicht wirklich Teil der Zeichnung, so dass du sie nicht mehr siehst, wenn du die Seite als PDF oder SVG exportierst.
 
-Der vorgeschlagene Arbeitsablauf ist die Verwendung von ![](/src/assets/images/TechDraw_ToggleFrame.svg) Ansichtsrahmen ein- oder ausschalten, um den Rahmen, der die Ansicht umgibt, und auch die zusätzlichen Punkte zu deaktivieren. Mit den Punkten wähle mit den Messwerkzeugen die richtigen zu messenden Kanten aus und schalte dann den Rahmen (und die Punkte) aus, um das Endergebnis zu sehen. Nicht zufrieden? Schalte den Rahmen (und die Punkte) wieder ein, wähle andere Knotenpunkte aus und erstelle neue Messungen, dann schalte den Rahmen wieder aus.
+Der vorgeschlagene Arbeitsablauf ist die Verwendung von ![](/images/TechDraw_ToggleFrame.svg) Ansichtsrahmen ein- oder ausschalten, um den Rahmen, der die Ansicht umgibt, und auch die zusätzlichen Punkte zu deaktivieren. Mit den Punkten wähle mit den Messwerkzeugen die richtigen zu messenden Kanten aus und schalte dann den Rahmen (und die Punkte) aus, um das Endergebnis zu sehen. Nicht zufrieden? Schalte den Rahmen (und die Punkte) wieder ein, wähle andere Knotenpunkte aus und erstelle neue Messungen, dann schalte den Rahmen wieder aus.
 
 Du kannst die Größe der Knotenpunkte im [TechDraw Einstellungen/Maßstabs Reiter](/TechDraw_Preferences/de#Skalieren "TechDraw Preferences/de") einstellen. Bitte setze ihre Größe nicht auf Null, nur klein oder groß genug, damit du sie bequem aufnehmen kannst.
 

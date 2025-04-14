@@ -30,7 +30,7 @@ title: Draft Circle 3 Points
 
 Dieses Makro erstellt einen Kreis an 3 ausgewählten Punkten. Die Punkte können Objekte wie Würfel oder Zylinder sein. Die ausgewählten Koordinaten bilden dann den Mittelpunkt dieser Formulare.
 
-![](/src/assets/images/Macro_Draft_Circle_3_Points01.png)
+![](/images/Macro_Draft_Circle_3_Points01.png)
 
 Circle built on 3 selected points
 
@@ -46,7 +46,7 @@ Wenn alle ausgewählten Objekte die gleichen Z-Koordinaten haben (xy **Z5**, xy 
 
 ## Skript
 
-ToolBar Icon ![](/src/assets/images/Macro_Make_Circle_3_Points.png)
+ToolBar Icon ![](/images/Macro_Make_Circle_3_Points.png)
 
 **Draft_Circle_3_Points.FCMacro**
 
@@ -122,16 +122,16 @@ else:
 Zusätzlich zu den vorherigen Features wird dieses Beispiel verwendet, um einen orthogonalen Kreis an jeder Form in der Auswahl auszurichten und den Plan **XY, YZ, XZ**zu wählen.  
 Der Kreis nimmt die Farbe der Achse unabhängig von der aktuellen Farbe an, und der Mittelpunkt des Kreises wird gezeichnet (Option O/N).
 
-- ![Cercle circonscrit sur 3 formes,](/src/assets/images/Macro_Draft_Circle_3_Points02.png)
+- ![Cercle circonscrit sur 3 formes,](/images/Macro_Draft_Circle_3_Points02.png)
 
   Cercle circonscrit sur 3 formes,
 
-- ![de manière orthogonale sur la forme choisie](/src/assets/images/Macro_Draft_Circle_3_Points03.png)
+- ![de manière orthogonale sur la forme choisie](/images/Macro_Draft_Circle_3_Points03.png)
 
   de manière orthogonale sur la forme choisie
 
-* ![](/src/assets/images/Macro_Draft_Circle_3_Points04.png)
-* ![](/src/assets/images/Macro_Draft_Circle_3_Points05.png)
+* ![](/images/Macro_Draft_Circle_3_Points04.png)
+* ![](/images/Macro_Draft_Circle_3_Points05.png)
 
 The settings to change.
 
@@ -292,10 +292,10 @@ else:
 
 ## Anaglyphe
 
-Hier eine Anaglyphenansicht, die es Ihnen ermöglicht, zwei verschiedene Positionen der Ansicht zu sehen, indem Sie eine Brille mit roten und Cyan-Filtern verwenden ![](/src/assets/images/Anaglyph_Tango.png).  
+Hier eine Anaglyphenansicht, die es Ihnen ermöglicht, zwei verschiedene Positionen der Ansicht zu sehen, indem Sie eine Brille mit roten und Cyan-Filtern verwenden ![](/images/Anaglyph_Tango.png).  
 Schauen Sie abwechselnd mit dem linken und dem rechten Auge, um die Ansichten separat zu sehen.
 
-![Anaglyphe](/src/assets/images/Cercle3Points2D_anaglyphe.png)
+![Anaglyphe](/images/Cercle3Points2D_anaglyphe.png)
 
 ## Credits
 

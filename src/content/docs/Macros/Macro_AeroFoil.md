@@ -30,7 +30,7 @@ title: AeroFoil
 
 **AeroFoil** is a user-created macro to be used within the FreeCAD application. AeroFoil creates airfoil curves and faces using pre-defined models, algebraic functions, as well as imported DAT or CSV files.
 
-![](/src/assets/images/AeroFoil-reduced.png)    This is the **AeroFoil Macro** icon.
+![](/images/AeroFoil-reduced.png)    This is the **AeroFoil Macro** icon.
 
 The AeroFoil Macro can be downloaded using the in-built [Addon Manager](/Std_AddonMgr "Std AddonMgr") within the FreeCAD software.
 
@@ -59,11 +59,11 @@ Base
 - Data**Design Curve Type** (`String`)
 - Data**Number Of Points** (`Integer`)
 
-[![AeroFoil-output-types.gif](/src/assets/images/9/94/AeroFoil-output-types.gif)](/File:AeroFoil-output-types.gif)
+[![AeroFoil-output-types.gif](/images/9/94/AeroFoil-output-types.gif)](/File:AeroFoil-output-types.gif)
 
 **Caption : AeroFoil Macro Output Types**
 
-[![AeroFoil-input-types.gif](/src/assets/images/0/0a/AeroFoil-input-types.gif)](/File:AeroFoil-input-types.gif)
+[![AeroFoil-input-types.gif](/images/0/0a/AeroFoil-input-types.gif)](/File:AeroFoil-input-types.gif)
 
 **Caption : AeroFoil Macro Input Types**
 
@@ -153,7 +153,7 @@ Once the AeroFoil macro has been loaded, follow the instructions in the respecti
 11. Increasing the **refine** and **quantity** parameters increases the computation time and resources.
 12. Absolute chord length, in millimetres, cannot be less than **1mm**.
 
-[![AeroFoil-preset-functions.png](/src/assets/images/a/a4/AeroFoil-preset-functions.png)](/File:AeroFoil-preset-functions.png)
+[![AeroFoil-preset-functions.png](/images/a/a4/AeroFoil-preset-functions.png)](/File:AeroFoil-preset-functions.png)
 
 **Caption : Preset Characters and Functions**
 

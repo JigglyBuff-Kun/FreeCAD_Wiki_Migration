@@ -37,7 +37,7 @@ Dieses Makro dreht die aktuelle Ansicht, um senkrecht auf eine ausgewählte Flä
 
 ## Skript
 
-Werkzeugleiste Icon ![](/src/assets/images/Macro_Align_View_to_Face.png)
+Werkzeugleiste Icon ![](/images/Macro_Align_View_to_Face.png)
 
 **Macro_Align_View_to_Face.FCMacro**
 

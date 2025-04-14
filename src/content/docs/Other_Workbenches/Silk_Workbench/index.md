@@ -5,7 +5,7 @@ title: Silk Workbench
 :::caution
 This documentation is not finished. Please help and contribute documentation.GuiCommand modelexplains how commands should be documented. BrowseCategory:UnfinishedDocuto see more incomplete pages like this one. SeeCategory:Command Referencefor all commands.SeeWikiPagesto learn about editing the wiki pages, and go toHelp FreeCADto learn about other ways in which you can contribute.
 :::
-[![](/src/assets/images/6/6c/Silk_workbench_icon.svg)](https://github.com/edwardvmills/Silk)
+[![](/images/6/6c/Silk_workbench_icon.svg)](https://github.com/edwardvmills/Silk)
 
 The Silk External Workbench Icon
 
@@ -15,7 +15,7 @@ The Silk workbench is an [External workbench](/External_workbenches "External wo
 
 ## Installation
 
-Recommended install is via the ![](/src/assets/images/Std_AddonMgr.svg) [Addon Manager](/Std_AddonMgr "Std AddonMgr") found under the **Tools → Addon Manager** menu.
+Recommended install is via the ![](/images/Std_AddonMgr.svg) [Addon Manager](/Std_AddonMgr "Std AddonMgr") found under the **Tools → Addon Manager** menu.
 
 ## References
 

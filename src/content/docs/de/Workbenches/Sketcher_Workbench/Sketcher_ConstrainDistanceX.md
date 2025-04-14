@@ -19,9 +19,9 @@ title: Sketcher XAbstandFestlegen
 
 ## Beschreibung
 
-Das Werkzeug ![](/src/assets/images/Sketcher_ConstrainDistanceX.svg) XAbstandFestlegen: Legt den horizontalen Abstand zwischen zwei Punkten oder den Endpunkten einer Linie fest. Ist ein einzelner Punkt vorausgewählt, bezieht sich der Abstand auf den Ursprung der Skizze.
+Das Werkzeug ![](/images/Sketcher_ConstrainDistanceX.svg) XAbstandFestlegen: Legt den horizontalen Abstand zwischen zwei Punkten oder den Endpunkten einer Linie fest. Ist ein einzelner Punkt vorausgewählt, bezieht sich der Abstand auf den Ursprung der Skizze.
 
-![](/src/assets/images/Constraint_H_Distance.png)
+![](/images/Constraint_H_Distance.png)
 
 ## Anwendung
 
@@ -31,10 +31,10 @@ Siehe auch: [Zeichnungshilfen](/Sketcher_Workbench/de#Zeichnungshilfen "Sketcher
 
 1. Sicherstellen, dass nichts ausgewählt ist.
 2. Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
-   - [eingeführt in 1.0](/Release_notes_1.0/de "Release notes 1.0/de"): Ist die [Voreinstellung](/Sketcher_Preferences/de#Allgemein "Sketcher Preferences/de") **Werkzeuge für Maßeinträge** auf `Einzelnes Werkzeug` (Standardeinstellung) gesetz: Den Abwärtspfeil rechts neben der Schaltfläche ![](/src/assets/images/Sketcher_Dimension.svg)![](/src/assets/images/Toolbar_flyout_arrow.svg) drücken und im Ausklappmenü **![](/src/assets/images/Sketcher_ConstrainDistanceX.svg) Horizontalen Abstand festlegen** auswählen.
-   - Hat die Voreinstellung einen anderen Wert (und in 0.21 und davor): Die Schaltfläche ![](/src/assets/images/Sketcher_ConstrainDistanceX.svg) Horizontalen Abstand festlegen drücken.
-   - Den Menüeintrag **Skizze → Sketcher-Randbedingungen → ![](/src/assets/images/Sketcher_ConstrainDistanceX.svg) Horizontalen Abstand festlegen** auswählen.
-   - [eingeführt in 1.0](/Release_notes_1.0/de "Release notes 1.0/de"): Ein Rechtsklick in die [3D-Ansicht](/3D_view/de "3D view/de") und die Menüoption **Bemaßung → ![](/src/assets/images/Sketcher_ConstrainDistanceX.svg) Horizontalen Abstand festlegen** im Kontextmenü auswählen.
+   - [eingeführt in 1.0](/Release_notes_1.0/de "Release notes 1.0/de"): Ist die [Voreinstellung](/Sketcher_Preferences/de#Allgemein "Sketcher Preferences/de") **Werkzeuge für Maßeinträge** auf `Einzelnes Werkzeug` (Standardeinstellung) gesetz: Den Abwärtspfeil rechts neben der Schaltfläche ![](/images/Sketcher_Dimension.svg)![](/images/Toolbar_flyout_arrow.svg) drücken und im Ausklappmenü **![](/images/Sketcher_ConstrainDistanceX.svg) Horizontalen Abstand festlegen** auswählen.
+   - Hat die Voreinstellung einen anderen Wert (und in 0.21 und davor): Die Schaltfläche ![](/images/Sketcher_ConstrainDistanceX.svg) Horizontalen Abstand festlegen drücken.
+   - Den Menüeintrag **Skizze → Sketcher-Randbedingungen → ![](/images/Sketcher_ConstrainDistanceX.svg) Horizontalen Abstand festlegen** auswählen.
+   - [eingeführt in 1.0](/Release_notes_1.0/de "Release notes 1.0/de"): Ein Rechtsklick in die [3D-Ansicht](/3D_view/de "3D view/de") und die Menüoption **Bemaßung → ![](/images/Sketcher_ConstrainDistanceX.svg) Horizontalen Abstand festlegen** im Kontextmenü auswählen.
    - Das Tastaturkürzel L.
 3. Der Mauszeiger wandelt sich zu einem Kreuz mit Werkzeugsymbol.
 4. Eine der folgenden Möglichkeiten auswählen:

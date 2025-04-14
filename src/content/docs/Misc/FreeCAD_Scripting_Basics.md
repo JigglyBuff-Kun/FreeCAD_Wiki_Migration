@@ -12,11 +12,11 @@ If you are not familiar with Python, we recommend you search for tutorials on th
 
 From the interpreter, you can access all your system-installed Python modules, as well as the built-in FreeCAD modules, and all additional FreeCAD modules you installed later. The screenshot below shows the Python interpreter:
 
-![The FreeCAD Python interpreter](/src/assets/images/Screenshot_pythoninterpreter.jpg)
+![The FreeCAD Python interpreter](/images/Screenshot_pythoninterpreter.jpg)
 
 From the interpreter, you can execute Python code and browse through the available classes and functions. FreeCAD provides a very handy class browser for exploration of the FreeCAD world: When you type the name of a known class followed by a period (meaning you want to add something from that class), a class browser window opens, where you can navigate between available subclasses and methods. When you select something, an associated help text (if it exists) is displayed:
 
-![The FreeCAD class browser](/src/assets/images/Screenshot_classbrowser.jpg)
+![The FreeCAD class browser](/images/Screenshot_classbrowser.jpg)
 
 So, start here by typing `App.` or `Gui.` and see what happens. Another more generic Python way of exploring the content of modules and classes is to use the `print(dir())` command. For example, typing `print(dir())` will list all modules currently loaded in FreeCAD. `print(dir(App))` will show you everything inside the App module, etc.
 

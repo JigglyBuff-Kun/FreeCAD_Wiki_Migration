@@ -19,7 +19,7 @@ title: Curves EditableSpline
 
 ## Description
 
-The ![](/src/assets/images/Curves_EditableSpline.svg) **Curves EditableSpline** tool creates a freehand B-spline curve.
+The ![](/images/Curves_EditableSpline.svg) **Curves EditableSpline** tool creates a freehand B-spline curve.
 
 ## Usage
 
@@ -27,8 +27,8 @@ The ![](/src/assets/images/Curves_EditableSpline.svg) **Curves EditableSpline** 
    - The number of the spline vertices will match the number of selected elements.
    - The spline vertices will snap to the selected vertices, and to the midpoints of the selected edges and faces.
 2. There are several ways to invoke the tool:
-   - Press the ![](/src/assets/images/Curves_EditableSpline.svg) [Freehand BSpline](/Curves_EditableSpline "Curves EditableSpline") button.
-   - Select the **Curves → ![](/src/assets/images/Curves_EditableSpline.svg) Freehand BSpline** option from the menu.
+   - Press the ![](/images/Curves_EditableSpline.svg) [Freehand BSpline](/Curves_EditableSpline "Curves EditableSpline") button.
+   - Select the **Curves → ![](/images/Curves_EditableSpline.svg) Freehand BSpline** option from the menu.
 3. A **Freehand_BSpline** object is created and set in a special edit mode.
 4. Drag the spline into the desired shape. See options below for details
 5. Press Q, or right-click the spline in the [Tree view](/Tree_view "Tree view") and select the **Finish editing** option in the context menu to exit the edit mode and finish the command.

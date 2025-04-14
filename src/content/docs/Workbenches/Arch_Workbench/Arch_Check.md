@@ -27,7 +27,7 @@ This tool checks the current document or the selected objects for non-solid [Par
 
 ## Usage
 
-1. Select the **Utils → ![](/src/assets/images/Arch_Check.svg) Check** option from the menu.
+1. Select the **Utils → ![](/images/Arch_Check.svg) Check** option from the menu.
 
 ## Scripting
 

@@ -25,8 +25,8 @@ Das Werkzeug **TechDraw ErgänzungDezimalstellenzahlErhöhen** erhöht die Anzah
 
 1. Ein oder mehrere Maße auswählen.
 2. Es gibt mehrere Möglichkeiten das Werkzeug aufzurufen:
-   - Die Schaltfläche ![](/src/assets/images/TechDraw_ExtensionIncreaseDecimal.svg) Dezimalstellenanzahl erhöhen drücken.
-   - Den Menüeintrag **TechDraw → Ergänzungen: Maße → ![](/src/assets/images/TechDraw_ExtensionIncreaseDecimal.svg) Dezimalstellenanzahl erhöhen** auswählen.
+   - Die Schaltfläche ![](/images/TechDraw_ExtensionIncreaseDecimal.svg) Dezimalstellenanzahl erhöhen drücken.
+   - Den Menüeintrag **TechDraw → Ergänzungen: Maße → ![](/images/TechDraw_ExtensionIncreaseDecimal.svg) Dezimalstellenanzahl erhöhen** auswählen.
 3. Die Anzahl der Dezimalstellen der ausgewählten Maße wird um eins erhöht.
 
 ## Anmerkungen

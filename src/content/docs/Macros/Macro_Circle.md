@@ -63,7 +63,7 @@ if there is no parameter "**circle()**" a list of functions is displayed in the 
 
 ## Script
 
-ToolBar Icon ![](/src/assets/images/Macro_Circle.png)
+ToolBar Icon ![](/images/Macro_Circle.png)
 
 **Macro_circle.FCMacro**
 
@@ -158,7 +158,7 @@ circle(y=45,circumference=100)    # example 3
 
 ```
 
-![examples 1, 2, 3](/src/assets/images/Macro_Circle_01.png)
+![examples 1, 2, 3](/images/Macro_Circle_01.png)
 
 examples 1, 2, 3
 
@@ -170,7 +170,7 @@ circle(x=65,y=-15,arc=3.5,anglecenter=40,startangle=20,center=1)    # example 6 
 
 ```
 
-![examples](/src/assets/images/Macro_Circle_02.png)
+![examples](/images/Macro_Circle_02.png)
 
 examples
 

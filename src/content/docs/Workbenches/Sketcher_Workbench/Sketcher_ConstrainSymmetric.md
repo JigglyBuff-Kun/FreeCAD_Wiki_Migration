@@ -19,7 +19,7 @@ title: Sketcher ConstrainSymmetric
 
 ## Description
 
-The ![](/src/assets/images/Sketcher_ConstrainSymmetric.svg) [Sketcher ConstrainSymmetric](/Sketcher_ConstrainSymmetric "Sketcher ConstrainSymmetric") tool constrains two points to be symmetrical around a line or axis, or around a third point.
+The ![](/images/Sketcher_ConstrainSymmetric.svg) [Sketcher ConstrainSymmetric](/Sketcher_ConstrainSymmetric "Sketcher ConstrainSymmetric") tool constrains two points to be symmetrical around a line or axis, or around a third point.
 
 ## Usage
 
@@ -29,9 +29,9 @@ See also: [Drawing aids](/Sketcher_Workbench#Drawing_aids "Sketcher Workbench").
 
 1. Make sure there is no selection.
 2. There are several ways to invoke the tool:
-   - Press the ![](/src/assets/images/Sketcher_ConstrainSymmetric.svg) [Constrain symmetric](/Sketcher_ConstrainSymmetric "Sketcher ConstrainSymmetric") button.
-   - Select the **Sketch → Sketcher constraints → ![](/src/assets/images/Sketcher_ConstrainSymmetric.svg) Constrain symmetric** option from the menu.
-   - [introduced in 1.0](/Release_notes_1.0 "Release notes 1.0"): Right-click in the [3D view](/3D_view "3D view") and select the **Constrain → ![](/src/assets/images/Sketcher_ConstrainSymmetric.svg) Constrain symmetric** option from the context menu.
+   - Press the ![](/images/Sketcher_ConstrainSymmetric.svg) [Constrain symmetric](/Sketcher_ConstrainSymmetric "Sketcher ConstrainSymmetric") button.
+   - Select the **Sketch → Sketcher constraints → ![](/images/Sketcher_ConstrainSymmetric.svg) Constrain symmetric** option from the menu.
+   - [introduced in 1.0](/Release_notes_1.0 "Release notes 1.0"): Right-click in the [3D view](/3D_view "3D view") and select the **Constrain → ![](/images/Sketcher_ConstrainSymmetric.svg) Constrain symmetric** option from the context menu.
    - Use the keyboard shortcut: S.
 3. The cursor changes to a cross with the tool icon.
 4. Do one of the following:
@@ -50,7 +50,7 @@ See also: [Drawing aids](/Sketcher_Workbench#Drawing_aids "Sketcher Workbench").
    - Select two points and a symmetry line (in any order).
    - Select a line and a symmetry point (idem).
 2. Invoke the tool as explained above, or with the following additional option:
-   - [introduced in 1.0](/Release_notes_1.0 "Release notes 1.0"): Right-click in the [3D view](/3D_view "3D view") and select the **![](/src/assets/images/Sketcher_ConstrainSymmetric.svg) Constrain symmetric** option from the context menu.
+   - [introduced in 1.0](/Release_notes_1.0 "Release notes 1.0"): Right-click in the [3D view](/3D_view "3D view") and select the **![](/images/Sketcher_ConstrainSymmetric.svg) Constrain symmetric** option from the context menu.
 3. A constraint is added.
 
 ## Notes

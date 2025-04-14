@@ -23,17 +23,17 @@ This documentation is not finished. Please help and contribute documentation.Gui
 
 ## Description
 
-The ![](/src/assets/images/SheetMetal_AddCornerRelief.svg) **SheetMetal AddCornerRelief** command adds a corner relief. A relief is usually created at corners where two bends meet, but the command can also create a relief at an open corner.
+The ![](/images/SheetMetal_AddCornerRelief.svg) **SheetMetal AddCornerRelief** command adds a corner relief. A relief is usually created at corners where two bends meet, but the command can also create a relief at an open corner.
 
 The command can only create one relief at a time.
 
-![](/src/assets/images/SheetMetal_AddCornerRelief-01.png) ![](/src/assets/images/Button_right.svg)
-![](/src/assets/images/SheetMetal_AddCornerRelief-02.png)
+![](/images/SheetMetal_AddCornerRelief-01.png) ![](/images/Button_right.svg)
+![](/images/SheetMetal_AddCornerRelief-02.png)
 
 Default corner of two bends → Corner with added corner relief
 
-![](/src/assets/images/SheetMetal_AddCornerRelief-03.png) ![](/src/assets/images/Button_right.svg)
-![](/src/assets/images/SheetMetal_AddCornerRelief-04.png)
+![](/images/SheetMetal_AddCornerRelief-03.png) ![](/images/Button_right.svg)
+![](/images/SheetMetal_AddCornerRelief-04.png)
 
 Default open corner → Open corner with added corner relief
 
@@ -41,9 +41,9 @@ Default open corner → Open corner with added corner relief
 
 1. Select two edges of a corner.
 2. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/SheetMetal_AddCornerRelief.svg) [Add Corner Relief](/SheetMetal_AddCornerRelief "SheetMetal AddCornerRelief") button.
-   - Select the **SheetMetal → ![](/src/assets/images/SheetMetal_AddCornerRelief.svg) Add Corner Relief** option from the menu.
-   - Right-click in the [Tree view](/Tree_view "Tree view") or the [3D view](/3D_view "3D view") and select the **Sheet Metal → ![](/src/assets/images/SheetMetal_AddCornerRelief.svg) Add Corner Relief** option from the context menu.
+   - Press the ![](/images/SheetMetal_AddCornerRelief.svg) [Add Corner Relief](/SheetMetal_AddCornerRelief "SheetMetal AddCornerRelief") button.
+   - Select the **SheetMetal → ![](/images/SheetMetal_AddCornerRelief.svg) Add Corner Relief** option from the menu.
+   - Right-click in the [Tree view](/Tree_view "Tree view") or the [3D view](/3D_view "3D view") and select the **Sheet Metal → ![](/images/SheetMetal_AddCornerRelief.svg) Add Corner Relief** option from the context menu.
    - Use the keyboard shortcut: C then R.
 3. A **CornerRelief** object is created and the **Corner relief properties** [Task panel](/Task_panel "Task panel") opens (introduced in version 0.5.00).
 
@@ -70,7 +70,7 @@ A task panel was introduced in version 0.5.00
 
 Double-click an existing CornerRelief object in the [Tree view](/Tree_view "Tree view") to re-open the task panel and edit the parameters.
 
-![](/src/assets/images/SheetMetal_AddCornerRelief-Task.png)
+![](/images/SheetMetal_AddCornerRelief-Task.png)
 
 - Base Select: Links selected edges to the **base Object** property.
 - The **Circular**, **Square** and **Sketch** radio buttons in combination with the **Absolute** and **Relative** radio buttons set the **Relief Sketch** property.
@@ -98,9 +98,9 @@ The value of the property Data**ReliefSketch** can be chosen from a list: `Circl
 - `Circle-Scaled` and `Square-Scaled` use the value of the property Data**Size Ratio** to scale the relief.
 - `Sketch` activates the use of the sketch listed in the property Data**Sketch** to define the relief shape.
 
-![](/src/assets/images/SheetMetal_AddCornerRelief-05.png) ![](/src/assets/images/Button_right.svg)
-![](/src/assets/images/SheetMetal_AddCornerRelief-06.png) ![](/src/assets/images/Button_right.svg)
-![](/src/assets/images/SheetMetal_AddCornerRelief-07.png)
+![](/images/SheetMetal_AddCornerRelief-05.png) ![](/images/Button_right.svg)
+![](/images/SheetMetal_AddCornerRelief-06.png) ![](/images/Button_right.svg)
+![](/images/SheetMetal_AddCornerRelief-07.png)
 
 Circular relief (default settings) → Square relief (default settings) → Sketch based relief
 
@@ -108,9 +108,9 @@ Circular relief (default settings) → Square relief (default settings) → Sket
 
 To get an idea how and where the relief is placed we unfold a default corner without a relief.
 
-![](/src/assets/images/SheetMetal_AddCornerRelief-08.png) ![](/src/assets/images/Button_right.svg)
-![](/src/assets/images/SheetMetal_AddCornerRelief-09.png) ![](/src/assets/images/Button_right.svg)
-![](/src/assets/images/SheetMetal_AddCornerRelief-10.png)
+![](/images/SheetMetal_AddCornerRelief-08.png) ![](/images/Button_right.svg)
+![](/images/SheetMetal_AddCornerRelief-09.png) ![](/images/Button_right.svg)
+![](/images/SheetMetal_AddCornerRelief-10.png)
 
 Default corner of two bends → Corner with unfold solid → Corner in top view
 
@@ -118,8 +118,8 @@ The next step is to open the unfold sketch, create a circle through 3 points and
  Now we add a corner relief, create the corresponding unfold solid and open the first unfold sketch again.  
  Adding a concentric circle of 3 mm radius reveals that we have found out how the internal circle is positioned as the new circle fits perfectly into the cut-out of the relief's unfold solid.
 
-![](/src/assets/images/SheetMetal_AddCornerRelief-11.png) ![](/src/assets/images/Button_right.svg)
-![](/src/assets/images/SheetMetal_AddCornerRelief-12.png)
+![](/images/SheetMetal_AddCornerRelief-11.png) ![](/images/Button_right.svg)
+![](/images/SheetMetal_AddCornerRelief-12.png)
 
 Default corner with unfold sketch → Corner with default relief and the same unfold sketch
 

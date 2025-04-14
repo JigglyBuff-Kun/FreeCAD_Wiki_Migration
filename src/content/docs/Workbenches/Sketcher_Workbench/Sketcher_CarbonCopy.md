@@ -19,7 +19,7 @@ title: Sketcher CarbonCopy
 
 ## Description
 
-The ![](/src/assets/images/Sketcher_CarbonCopy.svg) [Sketcher CarbonCopy](/Sketcher_CarbonCopy "Sketcher CarbonCopy") tool copies all geometry and constraints from another sketch into the active sketch.
+The ![](/images/Sketcher_CarbonCopy.svg) [Sketcher CarbonCopy](/Sketcher_CarbonCopy "Sketcher CarbonCopy") tool copies all geometry and constraints from another sketch into the active sketch.
 
 Dimensional constraints which exist before the copy function remain linked to the original sketch's dimensional constraints through [expressions](/Expressions "Expressions").
 
@@ -27,8 +27,8 @@ Dimensional constraints which exist before the copy function remain linked to th
 
 1. Make sure you are in the edit mode of an existing [sketch](/Sketcher_NewSketch "Sketcher NewSketch"). This sketch is the target of the operation.
 2. There are several ways to invoke the tool:
-   - Press the ![](/src/assets/images/Sketcher_CarbonCopy.svg) [Create carbon copy](/Sketcher_CarbonCopy "Sketcher CarbonCopy") button.
-   - Select the **Sketcher → Sketcher tools → ![](/src/assets/images/Sketcher_CarbonCopy.svg) Create carbon copy** option from the menu.
+   - Press the ![](/images/Sketcher_CarbonCopy.svg) [Create carbon copy](/Sketcher_CarbonCopy "Sketcher CarbonCopy") button.
+   - Select the **Sketcher → Sketcher tools → ![](/images/Sketcher_CarbonCopy.svg) Create carbon copy** option from the menu.
    - Use the keyboard shortcut: G then W.
 3. The cursor changes to a cross with the tool icon.
 4. Pick an edge from another sketch. This sketch is the source of the operation. See [Notes](#Notes).

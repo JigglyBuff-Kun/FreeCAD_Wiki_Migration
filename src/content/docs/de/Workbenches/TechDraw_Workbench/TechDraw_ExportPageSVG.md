@@ -25,8 +25,8 @@ Das Werkzeug **TechDraw BlattExportierenSVG** speichert das aktuelle Zeichnungsb
 
 1. Wenn mehrere Zeichnungsblätter im Dokument vorhanden sind: Wahlweise das gewünschte Zeichnungsblatt durch Auswahl in der [Baumansicht](/Tree_view/de "Tree view/de") aktivieren.
 2. Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
-   - Die Schaltfläche ![](/src/assets/images/TechDraw_ExportPageSVG.svg) Seite als SVG-Datei exportieren drücken.
-   - Den Menüeintrag **TechDraw → Page → ![](/src/assets/images/TechDraw_ExportPageSVG.svg) Seite als SVG-Datei exportieren** auswählen.
+   - Die Schaltfläche ![](/images/TechDraw_ExportPageSVG.svg) Seite als SVG-Datei exportieren drücken.
+   - Den Menüeintrag **TechDraw → Page → ![](/images/TechDraw_ExportPageSVG.svg) Seite als SVG-Datei exportieren** auswählen.
    - Wenn ein Zeichnungsblatt im [Hauptansichtsbereich](/Main_view_area/de "Main view area/de") angezeigt wird: Mit der rechten Maustaste in das Fenster des Blattes klicken und im Kontextmenü die Option **Export SVG** auswählen.
 3. Wenn mehrere Zeichnungsblätter im Dokument vorhanden sind und noch kein Blatt aktiviert wurde, wird das Dialogfeld **Blattauswahl** geöffnet:
    1. Das gewünschte Blatt auswählen.

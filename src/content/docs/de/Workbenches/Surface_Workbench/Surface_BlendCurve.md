@@ -19,12 +19,12 @@ title: Surface Übergangskurve
 
 ## Beschreibung
 
-![](/src/assets/images/Surface_BlendCurve.svg) [Surface Blend Curve](/Surface_BlendCurve "Surface BlendCurve") Erzeugt eine Bezier Kurve zwischen zwei Kanten, mit der gewünschten Stetigkeit.
+![](/images/Surface_BlendCurve.svg) [Surface Blend Curve](/Surface_BlendCurve "Surface BlendCurve") Erzeugt eine Bezier Kurve zwischen zwei Kanten, mit der gewünschten Stetigkeit.
 
 Die Basisgeometrie kann zu Kurven die mit dem [Draft Workbench](/Draft_Workbench "Draft Workbench") oder dem [Sketcher Workbench](/Sketcher_Workbench "Sketcher Workbench") erzeugt wurden gehören, kann aber auch zu festen Objekten die mit dem [Part Workbench](/Part_Workbench "Part Workbench") erzeugt wurden, gehören.
 
-![](/src/assets/images/Surface_BlendCurve_G3_example.png)
-![](/src/assets/images/Surface_BlendCurve_Comb.png)
+![](/images/Surface_BlendCurve_G3_example.png)
+![](/images/Surface_BlendCurve_Comb.png)
 
 Flächen Übergangsurve die 2 Kanten mit G3 Kontinuität verbindet. Das orange Polygon repräsentiert die Kontrollpunkte. Der Kamm der Kurve (von [Curves addon](/Curves_Workbench "Curves Workbench")) ist an den Kontaktpunkten glatt.
 
@@ -32,8 +32,8 @@ Flächen Übergangsurve die 2 Kanten mit G3 Kontinuität verbindet. Das orange P
 
 1. Wähle zwei Kanten in [3D view](/3D_view "3D view")
 2. Es gibt mehrere Wege den Befehl zu starten:
-   - Drücke die ![](/src/assets/images/Surface_BlendCurve.svg) [Surface Blend Curve](/Surface_BlendCurve "Surface BlendCurve") Schaltfläche.
-   - Wähle die **Surface → ![](/src/assets/images/Surface_BlendCurve.svg) Blend Curve** Option aus dem Menü.
+   - Drücke die ![](/images/Surface_BlendCurve.svg) [Surface Blend Curve](/Surface_BlendCurve "Surface BlendCurve") Schaltfläche.
+   - Wähle die **Surface → ![](/images/Surface_BlendCurve.svg) Blend Curve** Option aus dem Menü.
 3. Stelle die Form der Kurve in den Daten Eigenschaften des Objektes ein.
 
 ## Eigenschaften

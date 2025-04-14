@@ -21,7 +21,7 @@ title: BIM IfcElements
 
 The **IFC Elements Manager** dialog allows you to manage names, IFC types and materials of the BIM elements of your model. Its purpose is to offer an easy general view of your model and to allow you to make sure everything is as you wish before exporting the model to [IFC](/Arch_IFC "Arch IFC").
 
-![](/src/assets/images/BIM_ifcelements_screenshot.png)
+![](/images/BIM_ifcelements_screenshot.png)
 
 IFC Elements Manager
 

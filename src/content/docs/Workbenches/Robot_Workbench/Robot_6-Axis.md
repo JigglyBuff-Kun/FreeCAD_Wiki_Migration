@@ -23,7 +23,7 @@ title: Robot 6-Axis
 
 ## Overview
 
-This article is about bringing a standard 6-Axis industry robot into FreeCAD for simulation in the ![](/src/assets/images/Workbench_Robot.svg) [Robot Workbench](/Robot_Workbench "Robot Workbench")
+This article is about bringing a standard 6-Axis industry robot into FreeCAD for simulation in the ![](/images/Workbench_Robot.svg) [Robot Workbench](/Robot_Workbench "Robot Workbench")
 
 The description follows the [Denavit-Hartenberg Parameter](http://en.wikipedia.org/wiki/Denavit-Hartenberg_Parameters) system, as also described in John J. Craigs book "Introduction to Robotics".
 
@@ -78,7 +78,7 @@ axis 2 & 3 by 90°.
 
 In the data sheet we find additional information about the axis:
 
-![](/src/assets/images/KukaAxisData.jpg)
+![](/images/KukaAxisData.jpg)
 
 That leads to this complete table:
 
@@ -195,7 +195,7 @@ App.activeDocument().Robot.RobotVrmlFile = "C:/_Projekte/FreeCAD0.9_build/mod/Ro
 ```
 
 which should give you that result:
-![](/src/assets/images/KukaKR16FreeCAD.jpg)
+![](/images/KukaKR16FreeCAD.jpg)
 
 ### KR 210
 

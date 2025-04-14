@@ -24,8 +24,8 @@ A rail guide is a component attached to the side of the rocket that allows the r
 ## Usage
 
 1. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/Rocket_RailGuide.svg) [Rail Guide](/Rocket_RailGuide "Rocket RailGuide") button.
-   - Select the **Rocket → Launch Guides→ ![](/src/assets/images/Rocket_RailGuide.svg) Rail Guide** option from the menu.
+   - Press the ![](/images/Rocket_RailGuide.svg) [Rail Guide](/Rocket_RailGuide "Rocket RailGuide") button.
+   - Select the **Rocket → Launch Guides→ ![](/images/Rocket_RailGuide.svg) Rail Guide** option from the menu.
    - Double click on a Rail Guide object in the [Tree view](/Tree_view "Tree view").
 2. Set options and press OK.
 

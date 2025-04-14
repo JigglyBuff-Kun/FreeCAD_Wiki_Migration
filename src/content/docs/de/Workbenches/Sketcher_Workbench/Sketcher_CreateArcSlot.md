@@ -19,9 +19,9 @@ title: Sketcher BogennutErstellen
 
 ## Beschreibung
 
-Das Werkzeug ![](/src/assets/images/Sketcher_CreateArcSlot.svg) Sketcher BogennutErstellen erstellt eine Bogennut, ein geschlossener Linienzug, der aus zwei parallelen konzentrischen Kreisbögen bestehen, die durch zwei Halbkreisen oder zwei radialen geraden Linien geschlossen werden.
+Das Werkzeug ![](/images/Sketcher_CreateArcSlot.svg) Sketcher BogennutErstellen erstellt eine Bogennut, ein geschlossener Linienzug, der aus zwei parallelen konzentrischen Kreisbögen bestehen, die durch zwei Halbkreisen oder zwei radialen geraden Linien geschlossen werden.
 
-![](/src/assets/images/Sketcher_CreateArcSlot_Example.png)
+![](/images/Sketcher_CreateArcSlot_Example.png)
 
 Bogennut mit Bogenenden (links) und geraden Enden (rechts)
 
@@ -33,18 +33,18 @@ Pos-OVP = Positional [On-View-Parameters](/Sketcher_Preferences/de#Allgemein "Sk
 Dim-OVP = Dimensional On-View-Parameters (In-Ansicht-Parameter zur maßlichen Festlegung).
 
 1. Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
-   - Die Schaltfläche ![](/src/assets/images/Sketcher_CreateArcSlot.svg) Bogennut erstellen drücken.
-   - Den Menüeintrag **Skizze → Skizzengeometrien → ![](/src/assets/images/Sketcher_CreateArcSlot.svg) Bogennut erstellen** auswählen.
+   - Die Schaltfläche ![](/images/Sketcher_CreateArcSlot.svg) Bogennut erstellen drücken.
+   - Den Menüeintrag **Skizze → Skizzengeometrien → ![](/images/Sketcher_CreateArcSlot.svg) Bogennut erstellen** auswählen.
    - Das Tastaturkürzel G dann S dann 2.
 2. Der Mauszeiger wandelt sich zu einem Kreuz mit Werkzeugsymbol.
 3. Der Abschnitt **Bogennutparameter** wird im oberen Bereich des [Sketcher-Dialogs](/Sketcher_Dialog/de "Sketcher Dialog/de") eingefügt.
 4. Wahlweise die M-Taste drücken oder einen Eintrag in der Ausklappliste **Modus** im Abschnitt **Kreisparameter** auswählen, um den Werkzeugmodus zu wechseln:
-   - ![](/src/assets/images/Sketcher_CreateArcSlot.svg) **Runde Enden**:
+   - ![](/images/Sketcher_CreateArcSlot.svg) **Runde Enden**:
      1. Den Mittelpunkt der Bogennut auswählen; oder mit Pos-OVP: seine X- und/oder Y-Koordinate eingeben.
      2. Den Mittelpunkt des ersten Halbkreises auswählen; dies legt auch den Radius der (virtuellen) Mittellinie der "Nut" fest; oder mit Dim-OVP: den Radius und/oder den Startwinkel der Bogennut eingeben. Der Wikel bezieht sich auf die X-Achse der Skizze. Für diesen Winkel wird keine Randbedingung hinzugefügt.
      3. Den Mittelpunkt des zweiten Halbkreises auswählen; oder mit Dim-OVP: den überstrichenen Winkel des Mittellinienbogens eingeben.
      4. Einen Punkt auswählen, um den Radius der Halbkreise festzulegen; oder mit Dim-OVP: diesen Radius eingeben.
-   - ![](/src/assets/images/Sketcher_CreateRectangleSlot.svg) **Flache Enden**:
+   - ![](/images/Sketcher_CreateRectangleSlot.svg) **Flache Enden**:
      1. Den Mittelpunkt der Bogennut auswählen; oder mit Pos-OVP: seine X- und/oder Y-Koordinate eingeben.
      2. Den Startpunkt des ersten Kreisbogens auswählen; dies legt auch seinen Radius fest; oder mit Dim-OVP: den Radius und/oder den Startwinkel des erstens Bogens eingeben. Der Wikel bezieht sich auf die X-Achse der Skizze. Für diesen Winkel wird keine Randbedingung hinzugefügt.
      3. Den Endpunkt des ersten Kreisbogens auswählen; oder mit Dim-OVP: den überstrichenen Winkel des Bogens eingeben.

@@ -24,7 +24,7 @@ Der **Std Verkleinern**-Befehl verkleinert die Objekte in der aktiven [3D-Ansich
 ## Anwendung
 
 1. Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
-   - Wähle die Option **Ansicht → Zoom‏‎ → ![](/src/assets/images/Std_ViewZoomOut.svg) Verkleinern** aus dem Menü
+   - Wähle die Option **Ansicht → Zoom‏‎ → ![](/images/Std_ViewZoomOut.svg) Verkleinern** aus dem Menü
    - Benutze den Tastaturkurzbefehl Strg + -.
 
 ## Hinweise

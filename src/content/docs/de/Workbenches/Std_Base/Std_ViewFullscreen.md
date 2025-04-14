@@ -25,8 +25,8 @@ Der Befehl **Std AnsichtVollbild** schaltet [3D-Ansichten](/3D_view/de "3D view/
 
 1. Die richtige 3D-Ansicht aktivieren.
 2. Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
-   - Den Menüeintrag **Ansicht → Dokumentfenster → ![](/src/assets/images/Std_ViewFullscreen.svg) Vollbild** auswählen. Diese Option funktioniert nicht, wenn der Vollbildmodus ausgeschaltet werden soll und es andere angedockte 3D-Ansichten gibt.
-   - Die Menüoption **Dokumentfenster → ![](/src/assets/images/Std_ViewFullscreen.svg) Vollbild** aus dem Kontextmenü der 3D-Ansicht auswählen.
+   - Den Menüeintrag **Ansicht → Dokumentfenster → ![](/images/Std_ViewFullscreen.svg) Vollbild** auswählen. Diese Option funktioniert nicht, wenn der Vollbildmodus ausgeschaltet werden soll und es andere angedockte 3D-Ansichten gibt.
+   - Die Menüoption **Dokumentfenster → ![](/images/Std_ViewFullscreen.svg) Vollbild** aus dem Kontextmenü der 3D-Ansicht auswählen.
    - Das Tastaturkürzel F11
 
 ## Hinweise

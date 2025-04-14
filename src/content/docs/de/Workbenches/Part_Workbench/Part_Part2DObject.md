@@ -4,13 +4,13 @@ title: Part Part2DObject
 
 ## Einführung
 
-![](/src/assets/images/Tree_Part2D.svg)
+![](/images/Tree_Part2D.svg)
 
 Ein Part Part2DObject, oder formal ein `Part::Part2DObject`, ist ein einfaches Element mit einer [topologischen Form](/Part_TopoShape/de "Part TopoShape/de"), das in der [3D-Ansicht](/3D_view/de "3D view/de") angezeigt werden kann.
 
 Das `Part::Part2DObject` ist von dem [Part Formelement](/Part_Feature/de "Part Feature/de") abgeleitet, ist aber auf 2D-Geometrie spezialisiert, da seine Form auf einer Ebene liegen wird. Diese Ebene wird durch die Daten-Eigenschaft**Placement** definiert (Position, Normale und Rotation). Die Ebene kann aber auch durch unterstützende geometrische Elemente definiert werden, wie z.B. die Ebene, die durch drei beliebige Knoten erzeugt wird, oder eine Fläche eines Volumenkörpers.
 
-![](/src/assets/images/FreeCAD_core_objects.svg)
+![](/images/FreeCAD_core_objects.svg)
 
 Vereinfachtes Diagramm der Beziehungen zwischen den Kernobjekten in FreeCAD
 

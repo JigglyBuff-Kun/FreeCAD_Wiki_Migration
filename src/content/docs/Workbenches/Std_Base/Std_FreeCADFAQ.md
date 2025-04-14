@@ -25,6 +25,6 @@ Currently the command points to <https://wiki.freecad.org/Frequently_asked_quest
 
 ## Usage
 
-1. Select the **Help → ![](/src/assets/images/Std_FreeCADFAQ.svg) FreeCAD FAQ** option from the menu.
+1. Select the **Help → ![](/images/Std_FreeCADFAQ.svg) FreeCAD FAQ** option from the menu.
 
 Retrieved from "<http://wiki.freecad.org/index.php?title=Std_FreeCADFAQ/en&oldid=1454779>"

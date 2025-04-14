@@ -87,19 +87,18 @@ D
 
 ## Usage
 
-![](/src/assets/images/Calc_parachute_size.png)
+![](/images/Calc_parachute_size.png)
 
 1. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/Rocket_Calculator.svg) [Parachute Size Calculator](/Rocket_Parachute_Size_Calculator "Rocket Parachute Size Calculator") button.
-   - Select the **Rocket → Calculators → ![](/src/assets/images/Rocket_Calculator.svg) Parachute Size Calculator** option from the menu.
+   - Press the ![](/images/Rocket_Calculator.svg) [Parachute Size Calculator](/Rocket_Parachute_Size_Calculator "Rocket Parachute Size Calculator") button.
+   - Select the **Rocket → Calculators → ![](/images/Rocket_Calculator.svg) Parachute Size Calculator** option from the menu.
 2. Enter the weight of your rocket and parameters for your parachute.
 
 ## Calculation
 
 Parachute size is determined by the mass of the rocket, desired descent rate, and drag characteristics of the parachute. The calculation is a two step process. First the area of the parachute is calculated:
 
-: : A
-=
+# : : A
 
         2
         m
@@ -121,8 +120,8 @@ Parachute size is determined by the mass of the rocket, desired descent rate, an
 
 where
 
-: : m
-=
+# : : m
+
 {\displaystyle m=}
 ![{\displaystyle m=}](https://wikimedia.org/api/rest_v1/media/math/render/svg/42ca1e8909ec6751b821936017e812bde5a375c3) the mass of the rocket
 : v
@@ -178,8 +177,7 @@ The diameter is then calculated from the surface area based on the shape.
 
 For hexagonal parachutes:
 
-: : D
-=
+# : : D
 
         2
         A
@@ -195,8 +193,7 @@ For hexagonal parachutes:
 
 For square parachutes, the diameter is the length of each side
 
-: : D
-=
+# : : D
 
         A
         {\displaystyle D={\sqrt {A}}}
@@ -204,8 +201,7 @@ For square parachutes, the diameter is the length of each side
 
 For all other parachutes, the shape is assumed to be circular
 
-: : D
-=
+# : : D
 
         4
         A

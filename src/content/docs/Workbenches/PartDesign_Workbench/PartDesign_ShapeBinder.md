@@ -25,7 +25,7 @@ A ShapeBinder will track the relative placement of the referenced geometry, whic
 
 The referenced geometry can either be a single object (for example a [Part Box](/Part_Box "Part Box"), a [PartDesign Body](/PartDesign_Body "PartDesign Body"), or a [sketch](/PartDesign_NewSketch "PartDesign NewSketch") or [Feature](/PartDesign_Feature "PartDesign Feature") inside a Body), or one or more subelements (faces, edges or vertices) belonging to the same parent object. Which geometry should be selected depends on the intended purpose of the ShapeBinder. For a Boolean operation you would need to select a solid. For a Pad operation a face or a sketch can be used. And for the external geometry in a sketch, or to attach a sketch, any combination of subelements may be appropriate. The referenced geometry can also belong to the Body the ShapeBinder is nested in.
 
-![](/src/assets/images/Shapebinder_flow.png)
+![](/images/Shapebinder_flow.png)
 
 From two selected faces a ShapeBinder is created in a still empty Body. Geometry from the Shapebinder can then be used as external geometry in a sketch in that Body.
 
@@ -33,7 +33,7 @@ From two selected faces a ShapeBinder is created in a still empty Body. Geometry
 
 1. [Activate the Body](/PartDesign_Body#Active_status "PartDesign Body") the ShapeBinder should be nested in.
 2. Optionally select a single object, or one or more subelements belonging to the same parent object. Subelements can only be selected in the [3D view](/3D_view "3D view").
-3. Select the **Part Design → ![](/src/assets/images/PartDesign_ShapeBinder.svg) Create a shape binder** option from the menu.
+3. Select the **Part Design → ![](/images/PartDesign_ShapeBinder.svg) Create a shape binder** option from the menu.
 4. The **Datum shape parameters** task panel opens.
 5. Optionally select an object, this is not required if you want the select subelements:
    1. Press the Object button.
@@ -57,7 +57,7 @@ To edit a ShapeBinder double-click it in the [Tree view](/Tree_view "Tree view")
 
 ## Notes
 
-- A ShapeBinder can be dragged out of the Body it is nested in, and dropped onto the ![](/src/assets/images/Document.svg) document node in the [Tree view](/Tree_view "Tree view"). Such an unnested ShapeBinder can be used as the [Base Feature](/PartDesign_Body#Base_Feature "PartDesign Body") for a new Body.
+- A ShapeBinder can be dragged out of the Body it is nested in, and dropped onto the ![](/images/Document.svg) document node in the [Tree view](/Tree_view "Tree view"). Such an unnested ShapeBinder can be used as the [Base Feature](/PartDesign_Body#Base_Feature "PartDesign Body") for a new Body.
 - A ShapeBinder created from a sketch can have an opposite "tool direction". For example a [Pad](/PartDesign_Pad "PartDesign Pad") created from the sketch may extend in the +Y direction, while a [Pad](/PartDesign_Pad "PartDesign Pad"), with the same properties, created from the ShapeBinder extends in the -Y direction. Toggling the Data**Reversed** property (or checkbox) will solve this.
 
 ## PartDesign SubShapeBinder vs. PartDesign ShapeBinder
@@ -83,7 +83,7 @@ While keeping in mind that each of these tools has its pros and cons and the cho
 
 The example uses the ShapeBinder Feature to make a hole (with or without threads) through more than one body. Normally the [Hole](/PartDesign_Hole "PartDesign Hole") function of the Part Design workbench is limited to a single body. The example uses two cubes facing each other but misaligned in an arbitrary way. The holes are created with sketches containing a circle for every hole (the diameter is ignored by the hole function). When you copy the sketch to the other cube it will be at the same position in the local cube coordinate system. In the image this is shown by the white circle on the back cube. This is not what we want, because the hole at that position would not be aligned to the hole in the front cube.
 
-![](/src/assets/images/ShapeBinderThroughHole.png)
+![](/images/ShapeBinderThroughHole.png)
 
 Example setup for showing how to make holes through different bodies. The white circle shows that copying sketches is not enough
 
@@ -93,7 +93,7 @@ Here is how you use the ShapeBinder Feature to achieve it:
 2. In the [Property editor](/Property_editor "Property editor") change the placement of the second cube so that it touches the first cube with a side displacement.
 3. Select the PartDesign workbench
 4. Create a sketch on the front face of the first cube and place a circle anywhere and close the sketch
-5. Select the sketch in the tree and press the ![](/src/assets/images/PartDesign_Hole.svg) [PartDesign Hole](/PartDesign_Hole "PartDesign Hole") button. Before make sure the first body is the [active body](/PartDesign_Body#Active_status "PartDesign Body") (double-click).
+5. Select the sketch in the tree and press the ![](/images/PartDesign_Hole.svg) [PartDesign Hole](/PartDesign_Hole "PartDesign Hole") button. Before make sure the first body is the [active body](/PartDesign_Body#Active_status "PartDesign Body") (double-click).
 6. Select a hole of appropriate size. The image above had also counterbore selected. Close the [Hole](/PartDesign_Hole "PartDesign Hole") function.
 
    : Now the image should look as above. When you hide the first cube (select and press space) you can see that the hole does not reach the second cube. It will not, even when you select **Through All**, or when you enter a really large distance in the [Hole](/PartDesign_Hole "PartDesign Hole") task panel. The hole is always limited to a single body.
@@ -113,7 +113,7 @@ Here is how you use the ShapeBinder Feature to achieve it:
 
     : With **Trace Support** true, the ShapeBinder is not affected by local transformations of the target body, e.g. our translations. The shape remains exactly where the original front object shape has been. Try moving the front object around and you can see that the ShapeBinder always follows to the new position.
 
-12. Select the ShapeBinder in the tree and press the ![](/src/assets/images/PartDesign_Hole.svg) [PartDesign Hole](/PartDesign_Hole "PartDesign Hole") button. If you enter the same values as for the initial hole you will notice that no hole is created in the second cube. This is because a ShapeBinder in some cases has an opposite "tool direction" compared to the referenced sketch. To solve this check the Reverse checkbox. Press OK to finish.
+12. Select the ShapeBinder in the tree and press the ![](/images/PartDesign_Hole.svg) [PartDesign Hole](/PartDesign_Hole "PartDesign Hole") button. If you enter the same values as for the initial hole you will notice that no hole is created in the second cube. This is because a ShapeBinder in some cases has an opposite "tool direction" compared to the referenced sketch. To solve this check the Reverse checkbox. Press OK to finish.
 13. You now have linked holes in two different bodies. If you change the position of the circle in the sketch, both holes will adapt. You can even add new circles in the sketch to create additional linked holes.
 
 Retrieved from "<http://wiki.freecad.org/index.php?title=PartDesign_ShapeBinder/en&oldid=1458302>"

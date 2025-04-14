@@ -28,8 +28,8 @@ Defines a centrifugal force body load.
 ## Usage
 
 1. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/FEM_ConstraintCentrif.svg) [Centrifugal load](/FEM_ConstraintCentrif "FEM ConstraintCentrif") button.
-   - Select the **Model → Mechanical boundary conditions and loads → ![](/src/assets/images/FEM_ConstraintCentrif.svg) Centrifugal load** option from the menu.
+   - Press the ![](/images/FEM_ConstraintCentrif.svg) [Centrifugal load](/FEM_ConstraintCentrif "FEM ConstraintCentrif") button.
+   - Select the **Model → Mechanical boundary conditions and loads → ![](/images/FEM_ConstraintCentrif.svg) Centrifugal load** option from the menu.
 2. Specify the rotation frequency in Hz.
 3. Click on Add in **Geometry reference selector for a Solid** window and select a solid to which the load will be applied in the [3D view](/3D_view "3D view").
 4. Click on Add in **Geometry reference selector for a Edge** window and select an edge about which the rotation will occur in the [3D view](/3D_view "3D view").

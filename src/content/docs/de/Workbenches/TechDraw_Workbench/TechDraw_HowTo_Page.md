@@ -24,7 +24,7 @@ title: TechDraw Anleitung Seite
 ## Einführung
 
 Diese Seite bietet eine Sammlung von Hinweisen und kleinen Anleitungen zur Verwendung der
-![](/src/assets/images/Workbench_TechDraw.svg) [TechDraw Arbeitsbereich](/TechDraw_Workbench/de "TechDraw Workbench/de"). Das Hinzufügen neuer Erkenntnisse und bewährter Verfahren ist erwünscht.
+![](/images/Workbench_TechDraw.svg) [TechDraw Arbeitsbereich](/TechDraw_Workbench/de "TechDraw Workbench/de"). Das Hinzufügen neuer Erkenntnisse und bewährter Verfahren ist erwünscht.
 
 ### Mittenmarkierung aktivieren/deaktivieren
 
@@ -43,13 +43,13 @@ Siehe [Hier](/TechDraw_ToggleFrame/de "TechDraw ToggleFrame/de") für das Ein- u
 
 Gekrümmte Kanten werden als Eingabe für lineare Abmessungen akzeptiert. Siehe diesen [Forumsbeitrag](https://forum.freecadweb.org/viewtopic.php?f=35&t=49719&start=30)
 
-![](/src/assets/images/CurvedEdgeLinearDims.png)
+![](/images/CurvedEdgeLinearDims.png)
 
 ### Metrische und zöllige Abmessungen gleichzeitig anzeigen
 
 Es ist möglich, gleichzeitig metrische und zöllige Dezimalmaße anzuzeigen. Siehe dies [Forumsbeitrag](https://forum.freecadweb.org/viewtopic.php?f=35&t=49711)
 
-![](/src/assets/images/Imperiale_decimale.png)
+![](/images/Imperiale_decimale.png)
 
 ### Bemaßung bei orientierten Bohrungen
 
@@ -57,7 +57,7 @@ Zwei Anwendungsfälle. Siehe diesen [Forumsbeitrag](https://forum.freecadweb.org
 
 Siehe auch [Messung von Winkeln an Bohrungen](/Measurement_Of_Angles_On_Holes/de "Measurement Of Angles On Holes/de")
 
-![](/src/assets/images/Dimension-hole.png)
-![](/src/assets/images/Dimension-hole_angles.png)
+![](/images/Dimension-hole.png)
+![](/images/Dimension-hole_angles.png)
 
 Retrieved from "<http://wiki.freecad.org/index.php?title=TechDraw_HowTo_Page/de&oldid=1092229>"

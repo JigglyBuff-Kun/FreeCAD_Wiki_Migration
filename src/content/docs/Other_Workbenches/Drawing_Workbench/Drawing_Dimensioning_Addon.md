@@ -10,7 +10,7 @@ TheDrawing Workbenchwas superseded by theTechDraw Workbenchin FreeCAD 0.17. Whil
 
 The [Drawing dimensioning workbench](https://github.com/hamish2014/FreeCAD_drawing_dimensioning) adds powerful dimensioning and annotation tools to the [Drawing Workbench](/Drawing_Workbench "Drawing Workbench") (see [forum thread](http://forum.freecadweb.org/viewtopic.php?f=10&t=8395)).
 
-![](/src/assets/images/Drawing_Dimensioning_example.jpg)
+![](/images/Drawing_Dimensioning_example.jpg)
 
 Drawing dimensioning workbench for FreeCAD v0.15 or later. Take note that this workbench is experimental and still contains bugs.
 
@@ -94,49 +94,49 @@ To set up your desired dimensioning style
 
 Toolbar
 
-![](/src/assets/images/Drawing-Dimensioning-menu-orizz.png)
+![](/images/Drawing-Dimensioning-menu-orizz.png)
 
-- ![](/src/assets/images/DrawingDimensioning_LinearDimension.png) **Linear Dimension**: adds linear dimension
-- ![](/src/assets/images/DrawingDimensioning_LinearDimensionStack.png) **Linear Dimension Stack**: adds linear dimension stack
-- ![](/src/assets/images/DrawingDimensioning_CircularDimension.png) **Circular Dimension**: adds circular dimension
-- ![](/src/assets/images/DrawingDimensioning_RadiusDimension.png) **Radius Dimension**: adds radius dimension
-- ![](/src/assets/images/DrawingDimensioning_AngularDimension.png) **Angular Dimension**: adds radius dimension
-- ![](/src/assets/images/DrawingDimensioning_CenterLines.png) **Center Lines**: shows center lines (axes)
-- ![](/src/assets/images/DrawingDimensioning_CenterLine.png) **Center Line**: shows center line (axis)
-- ![](/src/assets/images/DrawingDimensioning_NoteCircle.png) **Note Circle**: creates a notation indicator
-- ![](/src/assets/images/DrawingDimensioning_GrabPoint.png) **Grab Point**: adds grab point to draw a free dimension
-- ![](/src/assets/images/DrawingDimensioning_TextAdd.png) **Text Add**: adds text to drawing
-- ![](/src/assets/images/DrawingDimensioning_ToleranceAdd.png) **Tolerance Add**: adds tolerance super and subscript to dimension
-- ![](/src/assets/images/DrawingDimensioning_TableAdd.png) **Table Add**: adds table to drawing
-- ![](/src/assets/images/DrawingDimensioning_DeleteDimension.png) **Delete Dimension**: deletes a dimension
-- ![](/src/assets/images/DrawingDimensioning_EscapeDimensioning.png) **Escape Dimensioning**: escapes dimensioning
-- ![](/src/assets/images/DrawingDimensioning_RecomputeDimensions.png) **Recompute Dimensions**: recomputes dimensions
-- ![](/src/assets/images/DrawingDimensioning_UnfoldFaces.png) **Unfold Faces**:
-- ![](/src/assets/images/DrawingDimensioning_BendingNote.png) **Bending Note**:
-- ![](/src/assets/images/DrawingDimensioning_CenterView.png) **Center View**: centers a view on its page
-- ![](/src/assets/images/DrawingDimensioning_ExportToDxf.png) **Export To Dxf**: alternative dxf export command
-- ![](/src/assets/images/DrawingDimensioning_LineWithArrow.png) **Line With Arrow**: welding/grove symbols command
-- ![](/src/assets/images/DrawingDimensioning_Help.png) **Help**:
+- ![](/images/DrawingDimensioning_LinearDimension.png) **Linear Dimension**: adds linear dimension
+- ![](/images/DrawingDimensioning_LinearDimensionStack.png) **Linear Dimension Stack**: adds linear dimension stack
+- ![](/images/DrawingDimensioning_CircularDimension.png) **Circular Dimension**: adds circular dimension
+- ![](/images/DrawingDimensioning_RadiusDimension.png) **Radius Dimension**: adds radius dimension
+- ![](/images/DrawingDimensioning_AngularDimension.png) **Angular Dimension**: adds radius dimension
+- ![](/images/DrawingDimensioning_CenterLines.png) **Center Lines**: shows center lines (axes)
+- ![](/images/DrawingDimensioning_CenterLine.png) **Center Line**: shows center line (axis)
+- ![](/images/DrawingDimensioning_NoteCircle.png) **Note Circle**: creates a notation indicator
+- ![](/images/DrawingDimensioning_GrabPoint.png) **Grab Point**: adds grab point to draw a free dimension
+- ![](/images/DrawingDimensioning_TextAdd.png) **Text Add**: adds text to drawing
+- ![](/images/DrawingDimensioning_ToleranceAdd.png) **Tolerance Add**: adds tolerance super and subscript to dimension
+- ![](/images/DrawingDimensioning_TableAdd.png) **Table Add**: adds table to drawing
+- ![](/images/DrawingDimensioning_DeleteDimension.png) **Delete Dimension**: deletes a dimension
+- ![](/images/DrawingDimensioning_EscapeDimensioning.png) **Escape Dimensioning**: escapes dimensioning
+- ![](/images/DrawingDimensioning_RecomputeDimensions.png) **Recompute Dimensions**: recomputes dimensions
+- ![](/images/DrawingDimensioning_UnfoldFaces.png) **Unfold Faces**:
+- ![](/images/DrawingDimensioning_BendingNote.png) **Bending Note**:
+- ![](/images/DrawingDimensioning_CenterView.png) **Center View**: centers a view on its page
+- ![](/images/DrawingDimensioning_ExportToDxf.png) **Export To Dxf**: alternative dxf export command
+- ![](/images/DrawingDimensioning_LineWithArrow.png) **Line With Arrow**: welding/grove symbols command
+- ![](/images/DrawingDimensioning_Help.png) **Help**:
 
 Other
 
-- ![](/src/assets/images/DrawingDimensioning_DrawLine.png) **Draw Line**
-- ![](/src/assets/images/DrawingDimensioning_TextEdit.png) **Text Edit**
-- ![](/src/assets/images/DrawingDimensioning_TextMove.png) **Text Move**
-- ![](/src/assets/images/DrawingDimensioning_LandscapeNew.png) **Landscape New**
-- ![](/src/assets/images/DrawingDimensioning_OrthoViews.png) **Ortho Views**
-- ![](/src/assets/images/DrawingDimensioning_ShortcutSettings.png) **Shortcut Settings**
-- ![](/src/assets/images/DrawingDimensioning_HalfLinerarDimension.png) **Half Linerar Dimension**
-- ![](/src/assets/images/DrawingDimensioning_NewDrawingPage1.png) **New Drawing Page 1**
-- ![](/src/assets/images/DrawingDimensioning_NewDrawingPage2.png) **New Drawing Page 2**
-- ![](/src/assets/images/DrawingDimensioning_NewDrawingPage3.png) **New Drawing Page 3**
-- ![](/src/assets/images/DrawingDimensioning_NewDrawingPage4.png) **New Drawing Page 4**
-- ![](/src/assets/images/DrawingDimensioning_Preferences.png) **Preferences**
-- ![](/src/assets/images/DrawingDimensioning_DrawingDimensioningIcon.png) **Drawing Dimensioning Icon**
+- ![](/images/DrawingDimensioning_DrawLine.png) **Draw Line**
+- ![](/images/DrawingDimensioning_TextEdit.png) **Text Edit**
+- ![](/images/DrawingDimensioning_TextMove.png) **Text Move**
+- ![](/images/DrawingDimensioning_LandscapeNew.png) **Landscape New**
+- ![](/images/DrawingDimensioning_OrthoViews.png) **Ortho Views**
+- ![](/images/DrawingDimensioning_ShortcutSettings.png) **Shortcut Settings**
+- ![](/images/DrawingDimensioning_HalfLinerarDimension.png) **Half Linerar Dimension**
+- ![](/images/DrawingDimensioning_NewDrawingPage1.png) **New Drawing Page 1**
+- ![](/images/DrawingDimensioning_NewDrawingPage2.png) **New Drawing Page 2**
+- ![](/images/DrawingDimensioning_NewDrawingPage3.png) **New Drawing Page 3**
+- ![](/images/DrawingDimensioning_NewDrawingPage4.png) **New Drawing Page 4**
+- ![](/images/DrawingDimensioning_Preferences.png) **Preferences**
+- ![](/images/DrawingDimensioning_DrawingDimensioningIcon.png) **Drawing Dimensioning Icon**
 
 Symbols
 
-![](/src/assets/images/Drawing-Dimensioning-symbol.png)
+![](/images/Drawing-Dimensioning-symbol.png)
 
 ## Linear dimensions
 

@@ -25,16 +25,16 @@ Aufgrund von Änderungen an der GitHub-Plattform im Jahr 2020 funktioniert der A
 
 ## Anwendung
 
-1. Den Menüeintrag **Werkzeuge → ![](/src/assets/images/Std_AddonMgr.svg) Addon-Manager** auswählen.
+1. Den Menüeintrag **Werkzeuge → ![](/images/Std_AddonMgr.svg) Addon-Manager** auswählen.
 2. Wird der Addon-Manager zum ersten Mal verwendet, wird ein Dialogfeld geöffnet, das darauf hinweist, dass die Erweiterungen im Addon-Manager kein offizieller Bestandteil von FreeCAD sind. Es enthält auch mehrere Optionen, die mit der Verwendung von Daten durch den Addon-Manager zusammenhängen. Hat man diese Optionen den eigenen Vorlieben entsprechend eingestellt, drückt man die Schaltfläche OK, um zu bestätigen und fortzufahren.
 3. Das Dialogfeld Addon-Manager öffnet sich. Für weitere Informationen siehe [Optionen](#Optionen).
-4. Die Schaltfläche ![](/src/assets/images/Button_valid.svg) Alles aktualisieren funktioniert zurzeit nicht.
-5. Die Schaltfläche ![](/src/assets/images/Process-stop.svg) Schließen drücken, um das Dialogfeld zu schließen.
+4. Die Schaltfläche ![](/images/Button_valid.svg) Alles aktualisieren funktioniert zurzeit nicht.
+5. Die Schaltfläche ![](/images/Process-stop.svg) Schließen drücken, um das Dialogfeld zu schließen.
 6. Wenn ein Arbeitsbereich installiert oder aktualisiert wurde, wird ein neues Dialogfeld geöffnet, das darauf hinweist, dass FreeCAD neu gestartet werden muss, damit die Änderungen wirksam werden.
 
 ## Optionen
 
-![](/src/assets/images/AddonManager_Main.png)
+![](/images/AddonManager_Main.png)
 
 1. Der Addon-Manager stellt zwei Layouts zur Verfügung: "Schmal" and "Erweitert". In der "schmalen" Ansicht füllt eine Erweiterung eine einzelne Zeile und ihre Beschreibung wird gekürzt, um in den vorhandenen Platz zu passen. "Erweitert" stellt zusätzliche Einzelheiten dar, wie weiteren Beschreibungstext und auch Informationen für Bearbeiter, weitere Installationsdetails usw.
 2. Drei Arten von Erweiterungen werden unterstützt: [Arbeitsbereiche](/External_workbenches/de "External workbenches/de"), [Makros](/Macros/de "Macros/de"), und [Voreinstellungspakete](/Preference_Packs/de "Preference Packs/de"). Man kann wählen, ob nur eine Art angezeigt wird oder alle in einer einzigen Liste.
@@ -47,7 +47,7 @@ Aufgrund von Änderungen an der GitHub-Plattform im Jahr 2020 funktioniert der A
 
 Klickt man in dieser Ansicht auf eine Erweiterung, wird eine Seite mit Einzelheiten zu dieser Erweiterung geöffnet:
 
-![](/src/assets/images/AddonManager_Details.png)
+![](/images/AddonManager_Details.png)
 
 Diese Seite mit Einzelheiten zeigt Schaltflächen, die es erlauben Erweiterungen zu installieren, zu deinstallieren, zu aktualisieren und zeitweise zu deaktivieren. Sie listet die aktuell installierten Versionen mit dem Installationsdatum und ob es sich um die neueste verfügbare Version handelt. Darunter befindet sich ein eingebettetes Webbrowser-Fenster, das die README-Seite der Erweiterung anzeigt (für Arbeitsbereiche und Voreinstellungspakete), oder die Wiki-Seite (für Makros).
 

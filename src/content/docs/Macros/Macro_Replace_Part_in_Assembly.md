@@ -43,13 +43,13 @@ Be sure to have your files containing the old part and the new part open.
 6. Use the other options to your liking.
 7. Then click on "Replace Old Part".
 
-![](/src/assets/images/Macro_Replace_Part_in_Assembly.jpg)
+![](/images/Macro_Replace_Part_in_Assembly.jpg)
 
 See also [Demo on Youtube](http://youtu.be/rTqqqy4n1RE).
 
 ## Script
 
-ToolBar Icon ![](/src/assets/images/Replace_Part.png)
+ToolBar Icon ![](/images/Replace_Part.png)
 
 **Macro Replace_Part_in_Assembly.py**
 

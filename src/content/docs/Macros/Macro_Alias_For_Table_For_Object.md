@@ -32,11 +32,11 @@ This macro automatically creates aliases in a two-dimensional table using the na
 
 The syntax for the alias created by the macro is: `LabelObject_Property`.
 
-![](/src/assets/images/20240220.gif)
+![](/images/20240220.gif)
 
 The macro can also automatically fill property values of objects (such as body, sketch, etc.) based on these aliases.
 
-![](/src/assets/images/20240220-01.gif)
+![](/images/20240220-01.gif)
 
 ## Usage
 
@@ -48,11 +48,11 @@ For example, use `posy` for property `Placement.Base.y`.
 
 Select the cells in the table with the object labels column and properties row, and then run the Macro and check the first option:
 
-![](/src/assets/images/Capture_d%27%C3%A9cran_2024-02-22_02.png)
+![](/images/Capture_d%27%C3%A9cran_2024-02-22_02.png)
 
 The macro will create aliases with this syntax: `LabelObject_Property`. For instance: `BodyRect_posy`.
 
-![](/src/assets/images/Capture_d%27%C3%A9cran_2024-02-21_133729.png)
+![](/images/Capture_d%27%C3%A9cran_2024-02-21_133729.png)
 
 Part of the dico (check the code of the macro for the full dico):
 
@@ -95,23 +95,23 @@ dico={
 
 Select some cells in the table with values and aliases created previously. Run the macro and select the second option (Both options can be selected at the same time to chain them together.)
 
-![](/src/assets/images/Alias_For_Table_For_Object03.png)
+![](/images/Alias_For_Table_For_Object03.png)
 
 The macro will assign values to the properties via an expression referencing the alias of the cells. From now on, if you change a value in the table, the property value will change and everything will be recalculated.
 
-![](/src/assets/images/Alias_For_Table_For_Object04.png)
+![](/images/Alias_For_Table_For_Object04.png)
 
 ### Examples
 
 #### Pad
 
-![](/src/assets/images/Macro_Alias_For_Table_For_Object_01.gif)
+![](/images/Macro_Alias_For_Table_For_Object_01.gif)
 
 #### Sketch constraints
 
 Give a name to the constraint (here: Width) (Pay attention to the case.) Add a column with this constraint name in the properties row, and add a row with the label of the Sketch (here: Sketch). Run the macro.
 
-![](/src/assets/images/Macro_Alias_For_Table_For_Object_02.gif)
+![](/images/Macro_Alias_For_Table_For_Object_02.gif)
 
 ## Credits
 
@@ -123,7 +123,7 @@ ver 25/02/2024 by 2cv001 **Alias_For_Table_For_Object.FCMacro**
 
 ## Code
 
-[![](/src/assets/images/Nuvola_apps_download_manager.png)](https://raw.githubusercontent.com/2cv001/FreeCAD-macros-Beta1/main/Alias_For_Table_For_Object.FCMacro)
+[![](/images/Nuvola_apps_download_manager.png)](https://raw.githubusercontent.com/2cv001/FreeCAD-macros-Beta1/main/Alias_For_Table_For_Object.FCMacro)
 
 [Download latest version of the macro](https://raw.githubusercontent.com/2cv001/FreeCAD-macros-Beta1/main/Alias_For_Table_For_Object.FCMacro)
 

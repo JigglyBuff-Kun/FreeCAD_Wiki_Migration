@@ -19,14 +19,14 @@ title: Spreadsheet AliasFestlegen
 
 ## Beschreibung
 
-Das Werkzeug ![](/src/assets/images/Spreadsheet_SetAlias.svg) **Spreadsheet AliasFestlegen** öffnet ein Dialogfenster zum Festlegen eines Alias für eine Zelle. So kann anstelle des exakten Zellnamens wie A2, B3 oder C4 ein benutzerdefinierter Name verwendet werden.
+Das Werkzeug ![](/images/Spreadsheet_SetAlias.svg) **Spreadsheet AliasFestlegen** öffnet ein Dialogfenster zum Festlegen eines Alias für eine Zelle. So kann anstelle des exakten Zellnamens wie A2, B3 oder C4 ein benutzerdefinierter Name verwendet werden.
 
 ## Anwendung
 
 1. Sicherstellen, dass eine [Kalkulationstabelle](/Spreadsheet_CreateSheet/de "Spreadsheet CreateSheet/de") aktiviert ist.
 2. Eine Zelle auswählen.
 3. Es gibt mehrere Möglichkeiten den Befehl aufzurufen:
-   - Die Schaltfläche ![](/src/assets/images/Spreadsheet_SetAlias.svg) Alias-Namen festlegen drücken.
+   - Die Schaltfläche ![](/images/Spreadsheet_SetAlias.svg) Alias-Namen festlegen drücken.
    - Das Tastaturkürzel Ctrl + Shift + A.
 4. Einen Alias eingeben:
    - Nur alphanumerische Zeichen und Unterstriche (`A` bis `Z`, `a` bis `z`, `0` bis `9` und `_`) sind erlaubt.

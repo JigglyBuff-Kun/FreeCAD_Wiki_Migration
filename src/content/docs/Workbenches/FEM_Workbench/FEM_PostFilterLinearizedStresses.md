@@ -23,7 +23,7 @@ Creates a stress linearization plot.
 
 To learn more about stress linearization plots, you can read [this description](https://www.graspengineering.com/what-is-stress-linearization/).
 
-![](/src/assets/images/FEM_Stress-Linearization-Plot-Example.png)
+![](/images/FEM_Stress-Linearization-Plot-Example.png)
 
 A stress linearization plot.
 
@@ -42,8 +42,8 @@ A stress linearization plot.
    - [introduced in 1.0](/Release_notes_1.0 "Release notes 1.0"): Stress yz component,
    - [introduced in 1.0](/Release_notes_1.0 "Release notes 1.0"): Stress zz component.
 2. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/FEM_PostFilterLinearizedStresses.svg) [Stress linearization plot](/FEM_PostFilterLinearizedStresses "FEM PostFilterLinearizedStresses") button.
-   - Select the **Results → ![](/src/assets/images/FEM_PostFilterLinearizedStresses.svg) Stress linearization plot** option from the menu.
+   - Press the ![](/images/FEM_PostFilterLinearizedStresses.svg) [Stress linearization plot](/FEM_PostFilterLinearizedStresses "FEM PostFilterLinearizedStresses") button.
+   - Select the **Results → ![](/images/FEM_PostFilterLinearizedStresses.svg) Stress linearization plot** option from the menu.
 3. An XY plot with linearized stress values (membrane, membrane+bending and total) along the line will be created in a separate window. The stress quantity plotted in the Line clip filter will be used for linearized stresses computation.
 
 Retrieved from "<http://wiki.freecad.org/index.php?title=FEM_PostFilterLinearizedStresses/en&oldid=1569291>"

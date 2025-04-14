@@ -62,7 +62,7 @@ webbrowser.open("https://raw.githubusercontent.com/FreeCAD/FreeCAD-macros/master
 
 <class="rawcodeurl"><a href="<https://raw.githubusercontent.com/FreeCAD/FreeCAD-macros/master/PureGui/ViewRotation.FCMacro>">raw code</a>
 
-![Rotate view](/src/assets/images/Macro_View_Rotation_00.png)
+![Rotate view](/images/Macro_View_Rotation_00.png)
 
 Rotate view
 
@@ -72,7 +72,7 @@ Three icons are referred to symbolise the rotation directions. A zip file contai
 
 The latest version of the macro is to be found at [ViewRotation.FCMacro](https://github.com/FreeCAD/FreeCAD-macros/blob/master/PureGui/ViewRotation.FCMacro) but the easiest way to install this macro is through the [Addon Manager](/Std_AddonMgr "Std AddonMgr").
 
-ToolBar Icon ![](/src/assets/images/Macro_View_Rotation.png)
+ToolBar Icon ![](/images/Macro_View_Rotation.png)
 
 **Macro View Rotation.FCMacro**
 

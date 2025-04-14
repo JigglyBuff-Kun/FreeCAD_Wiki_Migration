@@ -21,13 +21,13 @@ title: PartDesign SubtractiveCylinder
 
 Inserts a subtractive cylinder in the active Body. Its shape is subtracted from the existing solid.
 
-![](/src/assets/images/PartDesign_SubtractiveCylinder_example.svg)
+![](/images/PartDesign_SubtractiveCylinder_example.svg)
 
 _On the left: active body (A) shown in grey and subtractive cylinder (B) shown in transparent red; result on the right._
 
 ## Usage
 
-1. Press the ![](/src/assets/images/PartDesign_SubtractiveCylinder.svg) **Subtractive Cylinder** button. **Note**: the Subtractive Cylinder is part of an icon menu labelled _Create an subtractive primitive_. After launching FreeCAD, the Subtractive Box is the one displayed in the toolbar. To get to the Cylinder button, click on the down arrow besides the visible icon and select Subtractive cylinder in the menu.
+1. Press the ![](/images/PartDesign_SubtractiveCylinder.svg) **Subtractive Cylinder** button. **Note**: the Subtractive Cylinder is part of an icon menu labelled _Create an subtractive primitive_. After launching FreeCAD, the Subtractive Box is the one displayed in the toolbar. To get to the Cylinder button, click on the down arrow besides the visible icon and select Subtractive cylinder in the menu.
 2. Set the Primitive parameters and [Attachment](/Part_EditAttachment "Part EditAttachment").
 3. Click OK.
 4. A Cylinder feature appears under the active Body.

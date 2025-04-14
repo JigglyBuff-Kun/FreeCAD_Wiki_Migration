@@ -2,7 +2,7 @@
 title: FCGear Workbench
 ---
 
-![](/src/assets/images/FCGear_workbench_icon.svg)
+![](/images/FCGear_workbench_icon.svg)
 
 FCGear External Workbench icon
 
@@ -14,103 +14,103 @@ In order for the results from FCGear to be usable, a certain amount of basic kno
 
 In conjunction with 3D printing, home users now have the opportunity to design and produce gears and worm gears according to their own personal ideas and, if necessary, to adapt them to the constructional conditions.
 
-The FCGear Workbench can be installed via the ![](/src/assets/images/AddonManager.svg) [Addon Manager](/Std_AddonMgr "Std AddonMgr"). For manual installation see [Installing more workbenches](/Installing_more_workbenches "Installing more workbenches").
+The FCGear Workbench can be installed via the ![](/images/AddonManager.svg) [Addon Manager](/Std_AddonMgr "Std AddonMgr"). For manual installation see [Installing more workbenches](/Installing_more_workbenches "Installing more workbenches").
 
 After installation, the tools are available in the Gear toolbar and in the Gear menu.
 
 ## Tools
 
-- ![](/src/assets/images/FCGear_InvoluteGear.svg) [Involute Gear](/FCGear_InvoluteGear "FCGear InvoluteGear"): Creates an external involute gear.
+- ![](/images/FCGear_InvoluteGear.svg) [Involute Gear](/FCGear_InvoluteGear "FCGear InvoluteGear"): Creates an external involute gear.
 
-- ![](/src/assets/images/FCGear_InternalInvoluteGear.svg) [Internal Involute Gear](/FCGear_InternalInvoluteGear "FCGear InternalInvoluteGear"): Creates an internal involute gear.
+- ![](/images/FCGear_InternalInvoluteGear.svg) [Internal Involute Gear](/FCGear_InternalInvoluteGear "FCGear InternalInvoluteGear"): Creates an internal involute gear.
 
-- ![](/src/assets/images/FCGear_InvoluteRack.svg) [Involute Rack](/FCGear_InvoluteRack "FCGear InvoluteRack"): Creates an involute rack.
+- ![](/images/FCGear_InvoluteRack.svg) [Involute Rack](/FCGear_InvoluteRack "FCGear InvoluteRack"): Creates an involute rack.
 
-- ![](/src/assets/images/FCGear_CycloidGear.svg) [Cycloid Gear](/FCGear_CycloidGear "FCGear CycloidGear"): Creates a cycloid gear.
+- ![](/images/FCGear_CycloidGear.svg) [Cycloid Gear](/FCGear_CycloidGear "FCGear CycloidGear"): Creates a cycloid gear.
 
-- ![](/src/assets/images/FCGear_CycloidRack.svg) [Cycloid Rack](/FCGear_CycloidRack "FCGear CycloidRack"): Creates a cycloid rack.
+- ![](/images/FCGear_CycloidRack.svg) [Cycloid Rack](/FCGear_CycloidRack "FCGear CycloidRack"): Creates a cycloid rack.
 
-- ![](/src/assets/images/FCGear_BevelGear.svg) [Bevel Gear](/FCGear_BevelGear "FCGear BevelGear"): Creates a bevel gear.
+- ![](/images/FCGear_BevelGear.svg) [Bevel Gear](/FCGear_BevelGear "FCGear BevelGear"): Creates a bevel gear.
 
-- ![](/src/assets/images/FCGear_CrownGear.svg) [Crown Gear](/FCGear_CrownGear "FCGear CrownGear"): Creates a crown gear.
+- ![](/images/FCGear_CrownGear.svg) [Crown Gear](/FCGear_CrownGear "FCGear CrownGear"): Creates a crown gear.
 
-- ![](/src/assets/images/FCGear_WormGear.svg) [Worm Gear](/FCGear_WormGear "FCGear WormGear"): Creates a worm gear.
+- ![](/images/FCGear_WormGear.svg) [Worm Gear](/FCGear_WormGear "FCGear WormGear"): Creates a worm gear.
 
-- ![](/src/assets/images/FCGear_TimingGearT.svg) [Timing GearT](/index.php?title=FCGear_TimingGearT&action=edit&redlink=1 "FCGear TimingGearT (page does not exist)"): Creates a timing gear T-shape.
+- ![](/images/FCGear_TimingGearT.svg) [Timing GearT](/index.php?title=FCGear_TimingGearT&action=edit&redlink=1 "FCGear TimingGearT (page does not exist)"): Creates a timing gear T-shape.
 
-- ![](/src/assets/images/FCGear_TimingGear.svg) [Timing Gear](/FCGear_TimingGear "FCGear TimingGear"): Creates a timing gear.
+- ![](/images/FCGear_TimingGear.svg) [Timing Gear](/FCGear_TimingGear "FCGear TimingGear"): Creates a timing gear.
 
-- ![](/src/assets/images/FCGear_LanternGear.svg) [Lantern Gear](/FCGear_LanternGear "FCGear LanternGear"): Creates a lantern gear.
+- ![](/images/FCGear_LanternGear.svg) [Lantern Gear](/FCGear_LanternGear "FCGear LanternGear"): Creates a lantern gear.
 
-- ![](/src/assets/images/FCGear_HypoCycloidGear.svg) [HypoCycloid Gear](/FCGear_HypoCycloidGear "FCGear HypoCycloidGear"): Creates a hypocycloid gear with its pins.
+- ![](/images/FCGear_HypoCycloidGear.svg) [HypoCycloid Gear](/FCGear_HypoCycloidGear "FCGear HypoCycloidGear"): Creates a hypocycloid gear with its pins.
 
-- ![](/src/assets/images/FCGear_GearConnector.svg) [Combine two gears](/FCGear_GearConnector "FCGear GearConnector"): Combines two gears.
+- ![](/images/FCGear_GearConnector.svg) [Combine two gears](/FCGear_GearConnector "FCGear GearConnector"): Combines two gears.
 
 ## Types of gears
 
 ### Involute gear
 
-![](/src/assets/images/Involute-Gear_example.png)
+![](/images/Involute-Gear_example.png)
 
 From left to right: Spur gearing, helical gearing, double helical gearing (see [FCGear InvoluteGear](/FCGear_InvoluteGear "FCGear InvoluteGear"))
 
 ### Internal involute gear
 
-![](/src/assets/images/FCGear_InternalInvoluteGear-01.png)
+![](/images/FCGear_InternalInvoluteGear-01.png)
 
 From left to right: Spur gearing, helical gearing, double helical gearing (see [FCGear InternalInvoluteGear](/FCGear_InternalInvoluteGear "FCGear InternalInvoluteGear"))
 
 ### Involute rack
 
-![](/src/assets/images/Involute-Rack_example.png)
+![](/images/Involute-Rack_example.png)
 
 From left to right: Spur gearing, helical gearing, double helical gearing (See [FCGear InvoluteRack](/FCGear_InvoluteRack "FCGear InvoluteRack"))
 
 ### Cycloid gear
 
-![](/src/assets/images/Cycloid-Gear_example_1.png)
+![](/images/Cycloid-Gear_example_1.png)
 
 From left to right: Spur gearing, helical gearing, double helical gearing (see [FCGear CycloidGear](/FCGear_CycloidGear "FCGear CycloidGear"))
 
 ### Cycloid rack
 
-![](/src/assets/images/FCGear_CycloidRack-01.png)
+![](/images/FCGear_CycloidRack-01.png)
 
 From left to right: Spur gearing, helical gearing, double helical gearing (See [FCGear CycloidRack](/FCGear_CycloidRack "FCGear CycloidRack"))
 
 ### Bevel gear
 
-![](/src/assets/images/Bevel-Gear_example.png)
+![](/images/Bevel-Gear_example.png)
 
 From left to right: Spur gearing, spiral gearing (see [FCGear BevelGear](/FCGear_BevelGear "FCGear BevelGear"))
 
 ### Crown gear
 
-![](/src/assets/images/Crown-Gear_example.png)
+![](/images/Crown-Gear_example.png)
 
 Crown gear (see [FCGear CrownGear](/FCGear_CrownGear "FCGear CrownGear"))
 
 ### Worm gear
 
-![](/src/assets/images/Worm-Gear_example.png)
+![](/images/Worm-Gear_example.png)
 
 Worm gear (see [FCGear WormGear](/FCGear_WormGear "FCGear WormGear"))
 
 ### Timing gear
 
-![](/src/assets/images/Timing-Gear_example.png)
+![](/images/Timing-Gear_example.png)
 
 Timing gearing (see [FCGear TimingGear](/FCGear_TimingGear "FCGear TimingGear"))
 
 ### Lantern gear
 
-![](/src/assets/images/Lantern-Gear_example.png)
+![](/images/Lantern-Gear_example.png)
 
 Lantern gearing (see [FCGear LanternGear](/FCGear_LanternGear "FCGear LanternGear"))
 
 ### Hypocycloid gear
 
-![](/src/assets/images/FCGear_FCGear_HypoCycloidGear-05.png)
+![](/images/FCGear_FCGear_HypoCycloidGear-05.png)
 
 Hypocycloid gearing (see [FCGear HypoCycloidGear](/FCGear_HypoCycloidGear "FCGear HypoCycloidGear"))
 
@@ -131,7 +131,7 @@ Hypocycloid gearing (see [FCGear HypoCycloidGear](/FCGear_HypoCycloidGear "FCGea
 
 ## Other useful links
 
-- ![PartDesign_InvoluteGear](/src/assets/images/PartDesign_InvoluteGear.svg) [PartDesign InvoluteGear](/PartDesign_InvoluteGear "PartDesign InvoluteGear"): This tool allows for the creation of a 2D profile of an Involute gear. This 2D profile is fully parametric, and can be padded with the [PartDesign Pad](/PartDesign_Pad "PartDesign Pad") feature.
+- ![PartDesign_InvoluteGear](/images/PartDesign_InvoluteGear.svg) [PartDesign InvoluteGear](/PartDesign_InvoluteGear "PartDesign InvoluteGear"): This tool allows for the creation of a 2D profile of an Involute gear. This 2D profile is fully parametric, and can be padded with the [PartDesign Pad](/PartDesign_Pad "PartDesign Pad") feature.
 - [External Workbenches](/External_workbenches "External workbenches"): A list of all current external workbenches of FreeCAD
 - [Macros recipes](/Macros_recipes "Macros recipes")
 - [Cycloid gearing (German)](https://vivat-geo.de/zykloidenverzahnung.html)

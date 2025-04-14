@@ -62,7 +62,7 @@ webbrowser.open("https://raw.githubusercontent.com/FreeCAD/FreeCAD-macros/master
 
 ## Script
 
-ToolBar Icon ![](/src/assets/images/Macro_DeepCopy.png)
+ToolBar Icon ![](/images/Macro_DeepCopy.png)
 
 **Macro_DeepCopy.FCMacro**
 

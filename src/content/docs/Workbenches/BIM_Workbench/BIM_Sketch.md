@@ -23,13 +23,13 @@ This documentation is not finished. Please help and contribute documentation.Gui
 
 ## Description
 
-The ![](/src/assets/images/BIM_Sketch.svg) [BIM Sketch](/BIM_Sketch "BIM Sketch") tool creates a new sketch on the current working plane and opens the [Sketcher Dialog](/Sketcher_Dialog "Sketcher Dialog") to edit it.
+The ![](/images/BIM_Sketch.svg) [BIM Sketch](/BIM_Sketch "BIM Sketch") tool creates a new sketch on the current working plane and opens the [Sketcher Dialog](/Sketcher_Dialog "Sketcher Dialog") to edit it.
 
 ## Usage
 
 1. There are several ways to invoke the tool:
-   - Press the ![](/src/assets/images/BIM_Sketch.svg) [Sketch](/BIM_Sketch "BIM Sketch") button.
-   - Select the **2D Drafting → ![](/src/assets/images/BIM_Sketch.svg) Sketch** option from the menu.
+   - Press the ![](/images/BIM_Sketch.svg) [Sketch](/BIM_Sketch "BIM Sketch") button.
+   - Select the **2D Drafting → ![](/images/BIM_Sketch.svg) Sketch** option from the menu.
    - Use the keyboard shortcut: S then K.
 2. ...
 

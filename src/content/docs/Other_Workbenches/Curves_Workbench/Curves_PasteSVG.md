@@ -23,14 +23,14 @@ This documentation is not finished. Please help and contribute documentation.Gui
 
 ## Description
 
-The ![](/src/assets/images/Curves_PasteSVG.svg) [Curves PasteSVG](/Curves_PasteSVG "Curves PasteSVG") tool pastes the SVG content of the clipboard into the [3D view](/3D_view "3D view").
+The ![](/images/Curves_PasteSVG.svg) [Curves PasteSVG](/Curves_PasteSVG "Curves PasteSVG") tool pastes the SVG content of the clipboard into the [3D view](/3D_view "3D view").
 
 ## Usage
 
 1. Copy the desired SVG content (code) to the clipboard.
 2. There are several ways to invoke the tool:
-   - Press the ![](/src/assets/images/Curves_PasteSVG.svg) [PasteSVG](/Curves_PasteSVG "Curves PasteSVG") button.
-   - Select the **Misc. → ![](/src/assets/images/Curves_PasteSVG.svg) PasteSVG** option from the menu.
+   - Press the ![](/images/Curves_PasteSVG.svg) [PasteSVG](/Curves_PasteSVG "Curves PasteSVG") button.
+   - Select the **Misc. → ![](/images/Curves_PasteSVG.svg) PasteSVG** option from the menu.
 3. For each recognized svg element a separate object is created.
 
 ## Notes

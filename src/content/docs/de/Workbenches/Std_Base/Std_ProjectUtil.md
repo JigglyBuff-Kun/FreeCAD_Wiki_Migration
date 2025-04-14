@@ -21,7 +21,7 @@ title: Std ProjektHilfsprogramm
 
 Mit dem Befehl **Std ProjektHilfsprogramm** können Dateien aus einer FreeCAD-Projektdatei (\*.FCStd), die eigentlich eine [ZIP](<https://en.wikipedia.org/wiki/Zip_(file_format)>)-Datei ist, extrahiert werden und nach manueller Bearbeitung daraus eine neue Projektdatei erstellt werden.
 
-![](/src/assets/images/Project_utility_en.png)
+![](/images/Project_utility_en.png)
 
 Das Dialogfeld Projekt-Hilfsprogramm
 
@@ -29,7 +29,7 @@ Das Dialogfeld Projekt-Hilfsprogramm
 
 ### Projekt extrahieren
 
-1. Den Menüeintrag **Werkzeuge → ![](/src/assets/images/Std_ProjectUtil.svg) Dokument-Dienstprogramm...** auswählen.
+1. Den Menüeintrag **Werkzeuge → ![](/images/Std_ProjectUtil.svg) Dokument-Dienstprogramm...** auswählen.
 2. Das Dialogfeld **Dokument-Dienstprogramm** wird geöffnet.
 3. Die Schaltfläche ... rechts von **Dokument entpacken → Quelle** drücken.
 4. Die \*.FCStd-Datei auswählen, die bearbeitet werden soll.
@@ -44,7 +44,7 @@ Es ist wichtig zu erkennen, dass die Dateien innerhalb einer FreeCAD-Projektdate
 
 ### Projekt erstellen
 
-1. Den Menüeintrag **Werkzeuge → ![](/src/assets/images/Std_ProjectUtil.svg) Dokument-Dienstprogramm...** auswählen.
+1. Den Menüeintrag **Werkzeuge → ![](/images/Std_ProjectUtil.svg) Dokument-Dienstprogramm...** auswählen.
 2. Das Dialogfeld **Dokument-Dienstprogramm** wird geöffnet.
 3. Die Schaltfläche ... rechts von **Dokument erstellen→ Quelle** drücken.
 4. Die Datei Document.xml auswählen. Der Befehl wird automatisch alle verknüpften Dateien finden.

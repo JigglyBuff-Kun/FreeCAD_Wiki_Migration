@@ -34,7 +34,7 @@ Then go to **View → Panels** and check:
 
 There are two ways to write Python code in FreeCAD. In the [Python console](/Python_console "Python console") (select **View → Panels → Python console** from the menu) or in the [Macro editor](/Std_DlgMacroExecute "Std DlgMacroExecute") (select **Macro → Macros...** from the menu). In the console you write Python commands one by one, executing them by pressing Enter, while macros can contain more complex code made up of several lines, executed only when the macro is executed.
 
-![](/src/assets/images/Screenshot_pythoninterpreter.jpg)
+![](/images/Screenshot_pythoninterpreter.jpg)
 
 The FreeCAD Python console
 
@@ -53,11 +53,11 @@ doc = FreeCAD.newDocument()
 
 If you type this in the FreeCAD Python console, you will notice that as soon as you type `FreeCAD.` a window pops up, allowing to quickly autocomplete the rest of your line. Even better, each entry in the autocomplete list has a tooltip explaining what it does. This makes it easier to explore the available functionality. Before choosing `newDocument`, have a look at the other options.
 
-![](/src/assets/images/Screenshot_classbrowser.jpg)
+![](/images/Screenshot_classbrowser.jpg)
 
 The autocomplete mechanism of the FreeCAD Python console
 
-Now our new document will be created. This is similar to pressing the ![](/src/assets/images/Std_New.svg) [New](/Std_New "Std New") button on the toolbar. In fact most buttons in FreeCAD do nothing more than execute one or more lines of Python code. Even better, you can set an option in **Edit → Preferences → Python → Macro** to **Show script commands in python console**. This will print in the console all Python code executed when you press buttons. Very useful for learning how to reproduce actions in Python.
+Now our new document will be created. This is similar to pressing the ![](/images/Std_New.svg) [New](/Std_New "Std New") button on the toolbar. In fact most buttons in FreeCAD do nothing more than execute one or more lines of Python code. Even better, you can set an option in **Edit → Preferences → Python → Macro** to **Show script commands in python console**. This will print in the console all Python code executed when you press buttons. Very useful for learning how to reproduce actions in Python.
 
 Now let's get back to our document and see what we can do with it:
 
@@ -287,7 +287,7 @@ Now that you have a good understanding of the basics, where are we going to keep
 
 An alternative method for creating, saving, and running your own Python scripts is to create them outside FreeCAD, using an editor of your choice (for example, Vim). To run your Python script inside FreeCAD, be sure to save it with the .py extension.
 
-Then use **File → Open** to open your script. It will load into a new tab in the [Main view area](/Main_view_area "Main view area"). You can run your script by clicking the ![](/src/assets/images/Std_DlgMacroExecuteDirect.svg) [Execute macro](/Std_DlgMacroExecuteDirect "Std DlgMacroExecuteDirect") button. Any errors or script output will be shown in the [Report view](/Report_view "Report view").
+Then use **File → Open** to open your script. It will load into a new tab in the [Main view area](/Main_view_area "Main view area"). You can run your script by clicking the ![](/images/Std_DlgMacroExecuteDirect.svg) [Execute macro](/Std_DlgMacroExecuteDirect "Std DlgMacroExecuteDirect") button. Any errors or script output will be shown in the [Report view](/Report_view "Report view").
 
 When you make and save any modifications to your already-loaded script, a dialog box will appear asking whether you want to reload the modified script into FreeCAD.
 

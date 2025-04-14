@@ -4,11 +4,11 @@ title: Draft Constrain
 
 ## Description
 
-Apart from entering coordinates or using [snapping](/Draft_Snap "Draft Snap"), there is a feature called constraining to help you draw accurately in the ![](/src/assets/images/Workbench_Draft.svg) [Draft Workbench](/Draft_Workbench "Draft Workbench") and the ![](/src/assets/images/Workbench_BIM.svg) [BIM Workbench](/BIM_Workbench "BIM Workbench"). For each subsequent point you can constrain the movement of the cursor to the X, Y, or Z direction of the [working plane](/Draft_SelectPlane "Draft SelectPlane") coordinate system. This can for example be used to create a perfectly vertical line.
+Apart from entering coordinates or using [snapping](/Draft_Snap "Draft Snap"), there is a feature called constraining to help you draw accurately in the ![](/images/Workbench_Draft.svg) [Draft Workbench](/Draft_Workbench "Draft Workbench") and the ![](/images/Workbench_BIM.svg) [BIM Workbench](/BIM_Workbench "BIM Workbench"). For each subsequent point you can constrain the movement of the cursor to the X, Y, or Z direction of the [working plane](/Draft_SelectPlane "Draft SelectPlane") coordinate system. This can for example be used to create a perfectly vertical line.
 
 Constraining is available with most [Draft](/Draft_Workbench "Draft Workbench") and [BIM](/BIM_Workbench "BIM Workbench") commands.
 
-![](/src/assets/images/Draft_Constrain_taskpanel_example.png)
+![](/images/Draft_Constrain_taskpanel_example.png)
 
 While the cursor is constrained the task panel locks the values that are not being modified
 

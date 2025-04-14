@@ -27,16 +27,16 @@ Gear racks are used to convert a rotary motion into a linear motion or vice vers
 - Rack and pinion winch as mechanical hoist (e.g. car jack).
 - Pneumatic rack and pinion drives used to control valves in pipeline transport.
 
-![](/src/assets/images/Involute-Rack_example.png)
+![](/images/Involute-Rack_example.png)
 
 From left to right: Spur gearing, helical gearing, double helical gearing
 
 ## Usage
 
-1. Switch to the ![](/src/assets/images/FCGear_workbench_icon.svg) [FCGear Workbench](/FCGear_Workbench "FCGear Workbench").
+1. Switch to the ![](/images/FCGear_workbench_icon.svg) [FCGear Workbench](/FCGear_Workbench "FCGear Workbench").
 2. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/FCGear_InvoluteRack.svg) [Involute Rack](/FCGear_InvoluteRack "FCGear InvoluteRack") button in the toolbar.
-   - Select the **Gear → ![](/src/assets/images/FCGear_InvoluteRack.svg) Involute Rack** option from the menu.
+   - Press the ![](/images/FCGear_InvoluteRack.svg) [Involute Rack](/FCGear_InvoluteRack "FCGear InvoluteRack") button in the toolbar.
+   - Select the **Gear → ![](/images/FCGear_InvoluteRack.svg) Involute Rack** option from the menu.
 3. Change the gear parameter to the required conditions (see [Properties](#Properties)).
 
 ## Properties

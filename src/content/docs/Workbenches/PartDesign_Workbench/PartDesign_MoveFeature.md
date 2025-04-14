@@ -19,7 +19,7 @@ title: PartDesign MoveFeature
 
 ## Description
 
-![](/src/assets/images/PartDesign_MoveFeature.svg) [Move object to other body](/PartDesign_MoveFeature "PartDesign MoveFeature"), as this command is labeled in the context menu, allows moving objects under a Body to another Body. The moved object is placed right below the other Body's tip. Sketches, datum geometry and features are supported.
+![](/images/PartDesign_MoveFeature.svg) [Move object to other body](/PartDesign_MoveFeature "PartDesign MoveFeature"), as this command is labeled in the context menu, allows moving objects under a Body to another Body. The moved object is placed right below the other Body's tip. Sketches, datum geometry and features are supported.
 
 ## Usage
 

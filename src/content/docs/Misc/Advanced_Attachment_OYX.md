@@ -21,7 +21,7 @@ title: Advanced Attachment OYX
 | _None_                |
 |                       |
 
-![](/src/assets/images/AttOYX_Setup.png)
+![](/images/AttOYX_Setup.png)
 
 The objects in initial position
 
@@ -59,7 +59,7 @@ The second vertex selected will align the vertical axis of the sketch (in the de
 
 So, if we select the upper left/upper vertex of the yellow edge (as seen in the larger right frame) and the lower/right vertex of the yellow edge the sketch is positioned like this:
 
-![](/src/assets/images/AttOYX_vv.png)
+![](/images/AttOYX_vv.png)
 
 : Notes
 : The Align O-Y-X is selected in the Attachment dialogue.
@@ -69,7 +69,7 @@ So, if we select the upper left/upper vertex of the yellow edge (as seen in the 
 
 Now if we add a third reference by selecting the upper vertex of the orange edge the scene changes to:
 
-![](/src/assets/images/AttOYX_vvv.png)
+![](/images/AttOYX_vvv.png)
 
 : Notes
 : Now the X axis of the sketch is aligned in the direction of the selected vertex of the orange edge.

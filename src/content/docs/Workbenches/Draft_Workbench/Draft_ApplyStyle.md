@@ -19,7 +19,7 @@ title: Draft ApplyStyle
 
 ## Description
 
-The ![](/src/assets/images/Draft_ApplyStyle.svg) **Draft ApplyStyle** command applies the current style settings to selected objects.
+The ![](/images/Draft_ApplyStyle.svg) **Draft ApplyStyle** command applies the current style settings to selected objects.
 
 0.21 and below: This command handles only five of the settings the [Draft SetStyle](/Draft_SetStyle "Draft SetStyle") command offers.
 
@@ -32,7 +32,7 @@ The ![](/src/assets/images/Draft_ApplyStyle.svg) **Draft ApplyStyle** command ap
 
 1. Optionally change the style settings with the [Draft SetStyle](/Draft_SetStyle "Draft SetStyle") command.
 2. Select one or more objects.
-3. Select the **Utilities → ![](/src/assets/images/Draft_ApplyStyle.svg) Apply current style** option from the menu, or from the [Tree view](/Tree_view "Tree view") or [3D view](/3D_view "3D view") context menu.
+3. Select the **Utilities → ![](/images/Draft_ApplyStyle.svg) Apply current style** option from the menu, or from the [Tree view](/Tree_view "Tree view") or [3D view](/3D_view "3D view") context menu.
 
 ## Notes
 

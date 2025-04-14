@@ -25,8 +25,8 @@ The **TechDraw Dimension** tool is the TechDraw equivalent of the [Sketcher Dime
 
 1. Optionally preselect some geometric elements (vertices, edges or faces).
 2. There are several ways to invoke the tool:
-   - Press the ![](/src/assets/images/TechDraw_Dimension.svg) [Insert Dimension](/TechDraw_Dimension "TechDraw Dimension") button.
-   - Select the **TechDraw → Dimensions → ![](/src/assets/images/TechDraw_Dimension.svg) Insert Dimension** option from the menu.
+   - Press the ![](/images/TechDraw_Dimension.svg) [Insert Dimension](/TechDraw_Dimension "TechDraw Dimension") button.
+   - Select the **TechDraw → Dimensions → ![](/images/TechDraw_Dimension.svg) Insert Dimension** option from the menu.
    - Use the keyboard shortcut: D.
 3. The cursor changes to a cross with the tool icon.
 4. If you have not yet selected an element: select one.

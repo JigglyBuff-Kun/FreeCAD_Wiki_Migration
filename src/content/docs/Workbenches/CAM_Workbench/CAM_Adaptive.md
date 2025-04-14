@@ -19,7 +19,7 @@ title: CAM Adaptive
 
 ## Description
 
-The ![](/src/assets/images/CAM_Adaptive.svg) [Adaptive](/CAM_Adaptive "CAM Adaptive") operation algorithm creates clearing and profiling paths. The operation varies cutter engagement so that the material removal never exceeds a maximum value.
+The ![](/images/CAM_Adaptive.svg) [Adaptive](/CAM_Adaptive "CAM Adaptive") operation algorithm creates clearing and profiling paths. The operation varies cutter engagement so that the material removal never exceeds a maximum value.
 
 ## Usage
 
@@ -27,7 +27,7 @@ Usage instructions for the [Adaptive](/CAM_Adaptive "CAM Adaptive") operation ar
 
 ### Basic Operation
 
-1. Press the ![](/src/assets/images/CAM_Adaptive.svg) [Adaptive](/CAM_Adaptive "CAM Adaptive") icon, or select the CAM → ![](/src/assets/images/CAM_Adaptive.svg) [Adaptive](/CAM_Adaptive "CAM Adaptive") from the top menu.
+1. Press the ![](/images/CAM_Adaptive.svg) [Adaptive](/CAM_Adaptive "CAM Adaptive") icon, or select the CAM → ![](/images/CAM_Adaptive.svg) [Adaptive](/CAM_Adaptive "CAM Adaptive") from the top menu.
 2. Select the tool controller for the Operation from the Tool controller dialogue pop up window, if prompted.
 3. Adjust the operation depths as needed in the Depths tab: Start Depth, Finish Depth, Step Down.
 4. Make adjustments in Heights tab if needed.
@@ -40,8 +40,8 @@ Usage instructions for the [Adaptive](/CAM_Adaptive "CAM Adaptive") operation ar
 ### Preliminary Notes About Adaptive Clearing
 
 - Depending on the size and complexity of the area for the operation, is might be better to not recompute the operation after every property change; rather, consider:
-  - deactivate the operation with the ![](/src/assets/images/CAM_OpActiveToggle.svg) [Active](/CAM_OpActiveToggle "CAM OpActiveToggle") toggle tool, make your changes to the operation's properties, then click the ![](/src/assets/images/CAM_OpActiveToggle.svg) [Active](/CAM_OpActiveToggle "CAM OpActiveToggle") icon again to re-activate the operation - which triggers a recompute internally.
-- The ![](/src/assets/images/CAM_Adaptive.svg) [Adaptive](/CAM_Adaptive "CAM Adaptive") operation might contain a few bugs yet to be clearly identified. Please report bugs and issues in the [FreeCAD Path/CAM Forum](https://forum.freecadweb.org/viewforum.php?f=15).
+  - deactivate the operation with the ![](/images/CAM_OpActiveToggle.svg) [Active](/CAM_OpActiveToggle "CAM OpActiveToggle") toggle tool, make your changes to the operation's properties, then click the ![](/images/CAM_OpActiveToggle.svg) [Active](/CAM_OpActiveToggle "CAM OpActiveToggle") icon again to re-activate the operation - which triggers a recompute internally.
+- The ![](/images/CAM_Adaptive.svg) [Adaptive](/CAM_Adaptive "CAM Adaptive") operation might contain a few bugs yet to be clearly identified. Please report bugs and issues in the [FreeCAD Path/CAM Forum](https://forum.freecadweb.org/viewforum.php?f=15).
 - All tool shapes may not be respected with this operation. Check the FreeCAD forum for further details.
 - Should you choose to run the path simulator in the CAM Workbench, it only uses the standard end mill to simulate paths. Therefore, you will not see tool-shape-specific material removal. Material removal is shown using the end mill shape.
 

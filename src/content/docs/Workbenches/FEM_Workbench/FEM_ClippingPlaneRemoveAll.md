@@ -24,7 +24,7 @@ Removes all existing [clipping planes](/FEM_ClippingPlaneAdd "FEM ClippingPlaneA
 ## Usage
 
 1. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/FEM_ClippingPlaneRemoveAll.svg) [Remove all clipping planes](/FEM_ClippingPlaneRemoveAll "FEM ClippingPlaneRemoveAll") button.
-   - Select the **Utilities → ![](/src/assets/images/FEM_ClippingPlaneRemoveAll.svg) Remove all clipping planes** option from the menu.
+   - Press the ![](/images/FEM_ClippingPlaneRemoveAll.svg) [Remove all clipping planes](/FEM_ClippingPlaneRemoveAll "FEM ClippingPlaneRemoveAll") button.
+   - Select the **Utilities → ![](/images/FEM_ClippingPlaneRemoveAll.svg) Remove all clipping planes** option from the menu.
 
 Retrieved from "<http://wiki.freecad.org/index.php?title=FEM_ClippingPlaneRemoveAll/en&oldid=1569355>"

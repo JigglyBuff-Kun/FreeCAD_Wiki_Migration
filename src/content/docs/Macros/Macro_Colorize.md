@@ -53,7 +53,7 @@ This macro allows to quickly and easily set the color and transparency of indivi
 
 ## Script
 
-ToolBar Icon ![](/src/assets/images/Workbench_Image.svg)
+ToolBar Icon ![](/images/Workbench_Image.svg)
 
 **Macro_Colorize.FCMacro**
 

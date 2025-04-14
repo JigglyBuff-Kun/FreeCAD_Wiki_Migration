@@ -19,133 +19,133 @@ Draft.move(myrect, mydistance)
 
 ```
 
-![](/src/assets/images/Method.png) **cut(\***FreeCAD.Object, FreeCAD.Object**\*)**
+![](/images/Method.png) **cut(\***FreeCAD.Object, FreeCAD.Object**\*)**
 
 **Description**: Returns a cut object made from the difference of the 2 given objects. The original objects get hidden.
 
 **Returns**: The newly created object
 
-![](/src/assets/images/Method.png) **extrude(\***FreeCAD.Object, Vector**\*)**
+![](/images/Method.png) **extrude(\***FreeCAD.Object, Vector**\*)**
 
 **Description**: Extrudes the given object in the direction given by the vector. The original object gets hidden.
 
 **Returns**: The newly created object
 
-![](/src/assets/images/Method.png) **formatObject(\***FreeCAD.Object, [FreeCAD.Object]**\*)**
+![](/images/Method.png) **formatObject(\***FreeCAD.Object, [FreeCAD.Object]**\*)**
 
 **Description**: This function applies to the given target object the current properties set on the Draft toolbar (line color and line width), or copies the properties of a second object if provided. It also places the object in construction group if the construction button is pressed.
 
 **Returns**: Nothing
 
-![](/src/assets/images/Method.png) **fuse(\***FreeCAD.Object, FreeCAD.Object**\*)**
+![](/images/Method.png) **fuse(\***FreeCAD.Object, FreeCAD.Object**\*)**
 
 **Description**: Returns an object made from the union of the 2 given objects. If the objects are coplanar, a special Draft Wire is used, otherwise the final object is a standard Part fuse.
 
 **Returns**: The newly created object
 
-![](/src/assets/images/Method.png) **getDraftPath(\***[string]**\*)**
+![](/images/Method.png) **getDraftPath(\***[string]**\*)**
 
 **Description**: Returns the user or system path where the Draft module is running from. If a subpath or a filename is supplied, the full path to the subpath inside the Draft module is returned.
 
 **Returns**: A file path
 
-![](/src/assets/images/Method.png) **getGroupContents(\***list**\*)**
+![](/images/Method.png) **getGroupContents(\***list**\*)**
 
 **Description**: Scans recursively the given list for groups. If groups are encountered, their contents are appended to the list.
 
 **Returns**: A list of FreeCAD Objects
 
-![](/src/assets/images/Method.png) **getRealName(\***string**\*)**
+![](/images/Method.png) **getRealName(\***string**\*)**
 
 **Description**: Strips the trailing numbers from an object name.
 
 **Returns**: The stripped object name
 
-![](/src/assets/images/Method.png) **getSelection(\*\***)\*\*
+![](/images/Method.png) **getSelection(\*\***)\*\*
 
 **Description**: Returns the current FreeCAD selection.
 
 **Returns**: The current FreeCAD selection.
 
-![](/src/assets/images/Method.png) **makeCircle(\***radius, [placement], [facemode], [startangle], [endangle]**\*)**
+![](/images/Method.png) **makeCircle(\***radius, [placement], [facemode], [startangle], [endangle]**\*)**
 
 **Description**: Creates a circle object with given radius. If a placement is given, it is used. If facemode is False, the circle is shown as a wireframe, otherwise as a face. If startangle AND endangle are given (in degrees), they are used and the object appears as an arc.
 
 **Returns**: The newly created object.
 
-![](/src/assets/images/Method.png) **makeDimension(\***Vector, Vector, [Vector] or FreeCAD.Object, int, int, [Vector]**\*)**
+![](/images/Method.png) **makeDimension(\***Vector, Vector, [Vector] or FreeCAD.Object, int, int, [Vector]**\*)**
 
 **Description**: Creates a Dimension object measuring distance between first and second vectors, with the dimension line passign through the third vector if provided. The current line width and color from the Draft toolbar will be used. Instead of 2 vectors, you can also pass a FreeCAD object, and two integers (and optionally a vector where the dimension line must pass). In that case, the dimension will be associated with the object, and measure two of its vertices, indicated by the two given indice numbers.
 
 **Returns**: The newly created object.
 
-![](/src/assets/images/Method.png) **makeLine(\***Vector, Vector**\*)**
+![](/images/Method.png) **makeLine(\***Vector, Vector**\*)**
 
 **Description**: Creates a line between the two given vectors. The current line width and color from the Draft toolbar will be used.
 
 **Returns**: The newly created object.
 
-![](/src/assets/images/Method.png) **makeRectangle(\***length, width, [placement], [facemode]**\*)**
+![](/images/Method.png) **makeRectangle(\***length, width, [placement], [facemode]**\*)**
 
 **Description**: Creates a Rectangle object with length in X direction and height in Y direction. If a placement is given, it is used. If facemode is False, the rectangle is shown as a wireframe, otherwise as a face. The current line width and color from the Draft toolbar will be used.
 
 **Returns**: The newly created object.
 
-![](/src/assets/images/Method.png) **makeText(\***string or list, [Vector], [screenmode]**\*)**
+![](/images/Method.png) **makeText(\***string or list, [Vector], [screenmode]**\*)**
 
 **Description**: Creates a Text object, at the given point if a vector is provided, containing the string or the strings given in the list, one string by line. The current color from the Draft toolbar and the text height and font specified in preferences are used. If screenmode is True, the text always faces the view direction, otherwise it lies on the XY plane.
 
 **Returns**: The newly created object.
 
-![](/src/assets/images/Method.png) **makeWire(\***list or Part.Wire, [closed], [placement], [facemode]**\*)**
+![](/images/Method.png) **makeWire(\***list or Part.Wire, [closed], [placement], [facemode]**\*)**
 
 **Description**: Creates a DWire object from the given list of vectors or from the given Wire. If closed is True or if first and last points are identical, the wire is closed. If facemode is True (and wire is closed), the wire will appear filled. The current line width and color from the Draft toolbar will be used.
 
 **Returns**: A new Draft DWire (not a Part Wire).
 
-![](/src/assets/images/Method.png) **move(\***FreeCAD.Object or list, Vector, [copymode]**\*)**
+![](/images/Method.png) **move(\***FreeCAD.Object or list, Vector, [copymode]**\*)**
 
 **Description**: Moves the given object or the objects contained in the given list in the direction and distance indicated by the given vector. If copymode is True, the actual objects are not moved, but copies are created instead.
 
 **Returns**: The object(s) (or their copies if copymode was True).
 
-![](/src/assets/images/Method.png) **precision(\*\***)\*\*
+![](/images/Method.png) **precision(\*\***)\*\*
 
 **Description**: Returns the precision value from Draft user settings.
 
 **Returns**: An integer.
 
-![](/src/assets/images/Method.png) **rotate(\***FreeCAD.Object or list, angle, [center], [axis] ,[copymode]**\*)**
+![](/images/Method.png) **rotate(\***FreeCAD.Object or list, angle, [center], [axis] ,[copymode]**\*)**
 
 **Description**: Rotates the given object or the objects contained in the given list with the given angle around the given center if provided, using axis as a rotation axis. If axis is omitted, the rotation will be around the vertical Z axis. If copymode is True, the actual objects are not moved, but copies are created instead.
 
 **Returns**: The objects (or their copies).
 
-![](/src/assets/images/Method.png) **scale(\***FreeCAD.Object or list, vector, [center], [copymode]**\*)**
+![](/images/Method.png) **scale(\***FreeCAD.Object or list, vector, [center], [copymode]**\*)**
 
 **Description**: Scales the given object or the objects contained in the given list with a scale factors defined by the given vector (in X, Y and Z directions) around the given center if provided. If copymode is True, the actual objects are not moved, but copies are created instead.
 
 **Returns**: The objects (or their copies).
 
-![](/src/assets/images/Method.png) **select(\***FreeCAD.Object**\*)**
+![](/images/Method.png) **select(\***FreeCAD.Object**\*)**
 
 **Description**: Deselects everything and selects only the passed object
 
 **Returns**: Nothing.
 
-![](/src/assets/images/Method.png) **shapify(\***FreeCAD.Object**\*)**
+![](/images/Method.png) **shapify(\***FreeCAD.Object**\*)**
 
 **Description**: Transforms a parametric shape object into non-parametric.
 
 **Returns**: The new object.
 
-![](/src/assets/images/Method.png) **draftify(\***FreeCAD.Object or list**\*)**
+![](/images/Method.png) **draftify(\***FreeCAD.Object or list**\*)**
 
 **Description**: Turns the given object or each object of the given list into Draft parametric wires.
 
 **Returns**: Nothing.
 
-![](/src/assets/images/Method.png) **getSVG(\***FreeCAD.Object, [linemodifier], [textmodifier], [(u,v)]**\*)**
+![](/images/Method.png) **getSVG(\***FreeCAD.Object, [linemodifier], [textmodifier], [(u,v)]**\*)**
 
 **Description**: Creates a SVG representation of the given object. The linemodifier attribute is a scale factor (in percents) for line width, and textmodifier for text size. You can also optionally provide a tuple of vectors to define a projection plane, otherwise the geometry will be projected on the XY plane.
 

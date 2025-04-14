@@ -47,7 +47,7 @@ There is immediate confirmation of the user action as the supporting windows eit
 
 ## Scripts
 
-Toolbar icon ![](/src/assets/images/Macro_Toggle_Views_Visibility.png)
+Toolbar icon ![](/images/Macro_Toggle_Views_Visibility.png)
 
 **Macro_Toggle_Panels_Visibility.FCMacro**
 

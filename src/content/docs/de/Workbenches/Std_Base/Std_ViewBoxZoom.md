@@ -24,7 +24,7 @@ Der Befehl **Std AnsichtRechteckauswahl** vergrößert einen vom Benutzer eingeg
 ## Anwendung
 
 1. Es gibt mehrere Möglichkeiten den Befehl aufzurufen:
-   - Den Menüeintrag **Ansicht → Zoom → ![](/src/assets/images/Std_ViewBoxZoom.svg) Zoomen mit Rechteck** auswählen.
+   - Den Menüeintrag **Ansicht → Zoom → ![](/images/Std_ViewBoxZoom.svg) Zoomen mit Rechteck** auswählen.
    - Das Tastaturkürzel Ctrl+B.
 2. Ein Rechteck in der 3D-Ansicht aufziehen.
 

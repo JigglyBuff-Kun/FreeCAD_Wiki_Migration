@@ -28,8 +28,8 @@ Creates a FEM fluid section element for pneumatic and hydraulic networks solved 
 ## Usage
 
 1. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/FEM_ElementFluid1D.svg) [Fluid section for 1D flow](/FEM_ElementFluid1D "FEM ElementFluid1D") button.
-   - Select the **Model → Element Geometry → ![](/src/assets/images/FEM_ElementFluid1D.svg) Fluid section for 1D flow** option from the menu.
+   - Press the ![](/images/FEM_ElementFluid1D.svg) [Fluid section for 1D flow](/FEM_ElementFluid1D "FEM ElementFluid1D") button.
+   - Select the **Model → Element Geometry → ![](/images/FEM_ElementFluid1D.svg) Fluid section for 1D flow** option from the menu.
 2. Select Fluid type: Liquid, Gas or Open Channel
 3. Select Section type: Pipe Manning, Pipe Inlet etc.
 4. Enter Section type parameters.

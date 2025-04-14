@@ -19,9 +19,9 @@ title: Part Regelmäßiges Polygon
 
 ## Beschreibung
 
-Ein ![](/src/assets/images/Part_RegularPolygon.svg) **Part Regelmäßiges Polygon** ist eine parametrische Form, die mit dem Befehl ![](/src/assets/images/Part_Primitives.svg) [Part Grundelemente](/Part_Primitives/de "Part Primitives/de") erstellt werden kann. Im Koordinatensystem durch seine Daten-Eigenschaft**Placement** festgelegt, liegt das Polygon auf der XY-Ebene mit seinem Mittelpunkt im Ursprung und einem seiner Eckpunkte auf der X-Achse.
+Ein ![](/images/Part_RegularPolygon.svg) **Part Regelmäßiges Polygon** ist eine parametrische Form, die mit dem Befehl ![](/images/Part_Primitives.svg) [Part Grundelemente](/Part_Primitives/de "Part Primitives/de") erstellt werden kann. Im Koordinatensystem durch seine Daten-Eigenschaft**Placement** festgelegt, liegt das Polygon auf der XY-Ebene mit seinem Mittelpunkt im Ursprung und einem seiner Eckpunkte auf der X-Achse.
 
-![](/src/assets/images/Part_RegularPolygon_Example.png)
+![](/images/Part_RegularPolygon_Example.png)
 
 ## Anwendung
 
@@ -29,7 +29,7 @@ Siehe [Part Grundelemente](/Part_Primitives/de#Anwendung "Part Primitives/de").
 
 ## Beispiel
 
-![](/src/assets/images/Part_RegularPolygon_Scripting_Example.png)
+![](/images/Part_RegularPolygon_Scripting_Example.png)
 
 Part-Regelmäßiges-Polygon aus dem Skriptbeispiel
 

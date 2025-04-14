@@ -19,13 +19,13 @@ title: BIM SetWPTop
 
 ## Description
 
-The ![](/src/assets/images/BIM_SetWPTop.svg) [BIM SetWPTop](/BIM_SetWPTop "BIM SetWPTop") tool places the working plane on the global XY plane (ground).
+The ![](/images/BIM_SetWPTop.svg) [BIM SetWPTop](/BIM_SetWPTop "BIM SetWPTop") tool places the working plane on the global XY plane (ground).
 
 ## Usage
 
 1. There are several ways to invoke the tool:
-   - Select the **Snapping → ![](/src/assets/images/BIM_SetWPTop.svg) Working Plane Top** option from the menu.
-   - Right-click in the [3D view](/3D_view "3D view") and select the **Snapping → ![](/src/assets/images/BIM_SetWPTop.svg) Working Plane Top** option from the context menu.
+   - Select the **Snapping → ![](/images/BIM_SetWPTop.svg) Working Plane Top** option from the menu.
+   - Right-click in the [3D view](/3D_view "3D view") and select the **Snapping → ![](/images/BIM_SetWPTop.svg) Working Plane Top** option from the context menu.
    - Use the keyboard shortcut: W then P, then 2.
 
 Retrieved from "<http://wiki.freecad.org/index.php?title=BIM_SetWPTop/en&oldid=1447777>"

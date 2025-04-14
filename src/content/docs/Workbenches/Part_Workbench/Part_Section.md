@@ -19,12 +19,12 @@ title: Part Section
 
 ## Description
 
-The ![](/src/assets/images/f/f7/Part_Section.svg) **Part Section** command creates wire geometry at the intersections of two objects. The result is fully parametric.
+The ![](/images/f/f7/Part_Section.svg) **Part Section** command creates wire geometry at the intersections of two objects. The result is fully parametric.
 
 - An intersection of two solids/faces results in one or more section lines.
 - An intersection of two lines, or a line and a solid/face, results in one or more points.
 
-![](/src/assets/images/PartSection1_it.png)
+![](/images/PartSection1_it.png)
 
 A cube sectioned with a cylinder
 
@@ -33,8 +33,8 @@ A cube sectioned with a cylinder
 1. Select two objects.
 2. The first object will be the Data**Base** of the Section, but the selection order has no impact on the result.
 3. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/f/f7/Part_Section.svg) [Section](/Part_Section "Part Section") button.
-   - Select the **Part → ![](/src/assets/images/f/f7/Part_Section.svg) Section** option from the menu.
+   - Press the ![](/images/f/f7/Part_Section.svg) [Section](/Part_Section "Part Section") button.
+   - Select the **Part → ![](/images/f/f7/Part_Section.svg) Section** option from the menu.
 
 ## Properties
 
@@ -60,6 +60,6 @@ Section
 
 ## Links
 
-To create sections with a section plane see ![](/src/assets/images/Part_CrossSections.svg) [Cross-sections](/Part_CrossSections "Part CrossSections").
+To create sections with a section plane see ![](/images/Part_CrossSections.svg) [Cross-sections](/Part_CrossSections "Part CrossSections").
 
 Retrieved from "<http://wiki.freecad.org/index.php?title=Part_Section/en&oldid=1153589>"

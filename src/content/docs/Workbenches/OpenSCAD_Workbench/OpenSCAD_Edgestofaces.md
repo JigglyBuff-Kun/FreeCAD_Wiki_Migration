@@ -24,12 +24,12 @@ Convert edges to faces. Useful to prepare imported DXF geometry for extrusion.
 ## Usage
 
 1. Select edges to be converted in the [3D view](/3D_view "3D view").
-2. Choose OpenSCAD → ![](/src/assets/images/OpenSCAD_Edgestofaces.svg) Convert Edges to Faces from the top menu.
+2. Choose OpenSCAD → ![](/images/OpenSCAD_Edgestofaces.svg) Convert Edges to Faces from the top menu.
 
 ## Limitations
 
 ## Notes
 
-See also ![Draft_Upgrade](/src/assets/images/Draft_Upgrade.svg) [Draft Upgrade](/Draft_Upgrade "Draft Upgrade") for an alternative way to get faces.
+See also ![Draft_Upgrade](/images/Draft_Upgrade.svg) [Draft Upgrade](/Draft_Upgrade "Draft Upgrade") for an alternative way to get faces.
 
 Retrieved from "<http://wiki.freecad.org/index.php?title=OpenSCAD_Edgestofaces/en&oldid=1216293>"

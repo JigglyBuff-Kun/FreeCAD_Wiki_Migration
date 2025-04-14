@@ -151,11 +151,11 @@ Wenn wir nun import ParamRectangle eingeben, wird automatisch ein neues parametr
 - Öffne das Menü **Tools -> Anpassen**
 - Wähle unter der Registerkarte „Makros“ unser Makro ParamRectangle.py aus, gib die gewünschten Details ein und klicke auf „Hinzufügen“:
 
-![](/src/assets/images/FreeCAD_python_macroRec.png)
+![](/images/FreeCAD_python_macroRec.png)
 
 - Erstelle unter der Registerkarte „Symbolleisten“ eine neue benutzerdefinierte Symbolleiste im Workbench deiner Wahl (oder global), wähle dein Makro aus und fügen es der Symbolleiste hinzu:
 
-![](/src/assets/images/FreeCAD_python_toolbarCus.png)
+![](/images/FreeCAD_python_toolbarCus.png)
 
 - Das war es, wir haben jetzt eine neue Symbolleistenschaltfläche, die beim Anklicken ein parametrisches Rechteck erstellt.
 

@@ -24,7 +24,7 @@ The **Std CloseActiveWindow** command closes the active window. To close a docum
 ## Usage
 
 1. There are several ways to invoke the command:
-   - Select the **File → ![](/src/assets/images/Std_CloseActiveWindow.svg) Close** option from the menu.
+   - Select the **File → ![](/images/Std_CloseActiveWindow.svg) Close** option from the menu.
    - Use the keyboard shortcut: Ctrl+F4.
 2. To close a document: repeat this for all windows belonging to it.
 3. When closing the last window of a document that has not been saved, a dialog box will prompt you to save it:

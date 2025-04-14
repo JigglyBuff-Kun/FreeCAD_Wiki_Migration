@@ -2,7 +2,7 @@
 title: Online Help Startpage
 ---
 
-![150](/src/assets/images/Crystal_Clear_app_tutorials.png)
+![150](/images/Crystal_Clear_app_tutorials.png)
 
 150
 

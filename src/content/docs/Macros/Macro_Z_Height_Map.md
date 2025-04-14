@@ -28,7 +28,7 @@ title: Z Height Map
 
 ## Description
 
-![](/src/assets/images/Macro_zheightmap_fig.png)
+![](/images/Macro_zheightmap_fig.png)
 
 Makes a grayscale height map from all visible objects with a volume in the active document. There is no GUI, options can be set in the macro file, the image file is saved with the document name.
 

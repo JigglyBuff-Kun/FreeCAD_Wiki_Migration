@@ -60,7 +60,7 @@ webbrowser.open("https://gist.githubusercontent.com/mario52a/553b1fc7a8ca5bfa44c
 
 <class="rawcodeurl"><a href="<https://gist.githubusercontent.com/mario52a/553b1fc7a8ca5bfa44c6/raw/fc57ec0869a8f68ce396acbaed5e87f396426186/Macro_FCInfoGlass.FCMacro>">raw code</a>
 
-![](/src/assets/images/Macro_FCTransparentInfo_00.FCMacro.png)
+![](/images/Macro_FCTransparentInfo_00.FCMacro.png)
 
 FCInfoGlass
 
@@ -92,19 +92,19 @@ global colorize              ; colorize                      ="black" # colorize
 
 Availlable : **"black" "white" "red" "green" "blue" "yellow" "magenta" "cyan"**
 
-- [![colorize ="black"](/src/assets/images/Macro_FCInfoGlass_01.png) 'colorize ="black"')
+- [![colorize ="black"](/images/Macro_FCInfoGlass_01.png) 'colorize ="black"')
 
   **colorize ="black"**
 
-- ![colorize ="white"](/src/assets/images/Macro_FCInfoGlass_02.png)
+- ![colorize ="white"](/images/Macro_FCInfoGlass_02.png)
 
   **colorize ="white"**
 
-- ![colorize ="red"](/src/assets/images/Macro_FCInfoGlass_03.png)
+- ![colorize ="red"](/images/Macro_FCInfoGlass_03.png)
 
   **colorize ="red"**
 
-- ![colorize ="yellow"](/src/assets/images/Macro_FCInfoGlass_04.png)
+- ![colorize ="yellow"](/images/Macro_FCInfoGlass_04.png)
 
   **colorize ="yellow"**
 
@@ -243,7 +243,7 @@ the **lines 87 and 88 and SizeX SizeY** for window dimensions
 
 ## Script
 
-The icon **Macro_FCInfoGlass.FCMacro** ![FCInfoGlass](/src/assets/images/Macro_FCInfoGlass.png)
+The icon **Macro_FCInfoGlass.FCMacro** ![FCInfoGlass](/images/Macro_FCInfoGlass.png)
 
 Copy the script on Gits [**Macro_FCInfoGlass.FCMacro**](https://gist.github.com/mario52a/553b1fc7a8ca5bfa44c6)
 

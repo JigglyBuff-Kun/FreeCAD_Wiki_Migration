@@ -23,9 +23,9 @@ title: FEM Tutorial Python
 
 ## Introduction
 
-This tutorial is meant to show how a simple Finite Element Analysis (**FEA**) in FreeCAD's ![](/src/assets/images/Workbench_FEM.svg) [FEM Workbench](/FEM_Workbench "FEM Workbench") is done using Python. The model from the [FEM CalculiX Cantilever 3D](/FEM_CalculiX_Cantilever_3D "FEM CalculiX Cantilever 3D") tutorial will be used for this example.
+This tutorial is meant to show how a simple Finite Element Analysis (**FEA**) in FreeCAD's ![](/images/Workbench_FEM.svg) [FEM Workbench](/FEM_Workbench "FEM Workbench") is done using Python. The model from the [FEM CalculiX Cantilever 3D](/FEM_CalculiX_Cantilever_3D "FEM CalculiX Cantilever 3D") tutorial will be used for this example.
 
-![](/src/assets/images/FEM_example01_pic00.jpg)
+![](/images/FEM_example01_pic00.jpg)
 
 ### Requirements
 
@@ -33,7 +33,7 @@ This tutorial is meant to show how a simple Finite Element Analysis (**FEA**) in
 
   : Use the **Help → About FreeCAD** to see the version of FreeCAD that is installed.
 
-- **Impotant Note:** Due to the continuous development of the ![](/src/assets/images/Workbench_FEM.svg) [FEM Workbench](/FEM_Workbench "FEM Workbench") it is recommended to use the latest development snapshot of FreeCAD especially for Python scripted FEM analyses.
+- **Impotant Note:** Due to the continuous development of the ![](/images/Workbench_FEM.svg) [FEM Workbench](/FEM_Workbench "FEM Workbench") it is recommended to use the latest development snapshot of FreeCAD especially for Python scripted FEM analyses.
 - A working FEM workbench. Run the [FEM CalculiX Cantilever 3D](/FEM_CalculiX_Cantilever_3D "FEM CalculiX Cantilever 3D") analysis to ascertain this.
 
 ## Let's start

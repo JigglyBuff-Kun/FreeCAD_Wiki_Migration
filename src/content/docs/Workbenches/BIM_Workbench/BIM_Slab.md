@@ -29,8 +29,8 @@ The **BIM Slab** tool creates a **Slab** object, a horizontal structure element,
 
 1. Optionally select a planar object.
 2. There are several ways to invoke the tool:
-   - Press the ![](/src/assets/images/BIM_Slab.svg) [Slab](/BIM_Slab "BIM Slab") button.
-   - Select the **3D/BIM → ![](/src/assets/images/BIM_Slab.svg) Slab** option from the menu.
+   - Press the ![](/images/BIM_Slab.svg) [Slab](/BIM_Slab "BIM Slab") button.
+   - Select the **3D/BIM → ![](/images/BIM_Slab.svg) Slab** option from the menu.
    - Use the keyboard shortcut: S then B.
 3. If you have not yet selected a planar object: select one (as prompted in the [Report view](/Report_view "Report view")).
 4. A new Slab object is created and the tool is finished.

@@ -28,8 +28,8 @@ The **BIM Text** tool creates a text, either a **Text** object, in the current 3
 ## Usage
 
 1. There are several ways to invoke the tool:
-   - Press the ![](/src/assets/images/BIM_Text.svg) [Text](/BIM_Text "BIM Text") button.
-   - Select the **Annotation → ![](/src/assets/images/BIM_Text.svg) Text** option from the menu.
+   - Press the ![](/images/BIM_Text.svg) [Text](/BIM_Text "BIM Text") button.
+   - Select the **Annotation → ![](/images/BIM_Text.svg) Text** option from the menu.
    - Use the keyboard shortcut: T then E.
 2. ...
 

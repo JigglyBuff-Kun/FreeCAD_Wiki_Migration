@@ -24,7 +24,7 @@ Expand all placements downwards in the Tree view.
 ## Usage
 
 1. Select object in the [tree view](/Tree_view "Tree view").
-2. Choose OpenSCAD → ![](/src/assets/images/OpenSCAD_ExpandPlacements.svg) Expand Placements from the top menu.
+2. Choose OpenSCAD → ![](/images/OpenSCAD_ExpandPlacements.svg) Expand Placements from the top menu.
 
 ## Limitations
 

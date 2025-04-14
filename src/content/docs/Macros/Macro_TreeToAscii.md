@@ -34,7 +34,7 @@ This macro has been written mainly aiming at documenting the model construction.
 
 Just select the object(s) you want to print the tree and run the macro. It will display the tree of each object in a dialog. All selected objects will be considered as being at the same hierarchy level at the top of the tree (even if they aren't in the real model). Once dialog is open, you can change style and/or pattern and re-generate the ASCII tree.
 
-![](/src/assets/images/FCTree2Ascii.png)
+![](/images/FCTree2Ascii.png)
 
 Several styles are provided, at this time mainly to support systems that can encounter problems with Unicode encoding :
 

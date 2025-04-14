@@ -24,11 +24,11 @@ title: Robot Simulate/de
 ## Anwendung
 
 1. Einen Roboter und eine Bewegungsbahn in der [Baumansicht](/Tree_view/de "Tree view/de").
-2. ![](/src/assets/images/Robot_Simulate.svg) anklicken oder den Menüeintrag Robot → ![](/src/assets/images/Robot_Simulate.svg) Bewegungsbahn simulieren auswählen.
+2. ![](/images/Robot_Simulate.svg) anklicken oder den Menüeintrag Robot → ![](/images/Robot_Simulate.svg) Bewegungsbahn simulieren auswählen.
 
 Ergebnis: Dies öffner einen Abspieldialog-Menü in der [Baumansicht](/Tree_view/de "Tree view/de").
 
-![](/src/assets/images/Robot_Simulation_Player.jpg)
+![](/images/Robot_Simulation_Player.jpg)
 
 Die Knöpfe von links nach rechts:
 

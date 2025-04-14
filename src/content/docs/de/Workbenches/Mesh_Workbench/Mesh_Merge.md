@@ -25,8 +25,8 @@ Der Befehl **Mesh Zusammenführen** erstellt ein neues nicht parametrisches Netz
 
 1. Zwei oder Mehr Netzobjekt auswählen.
 2. Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
-   - Die Schaltfläche ![](/src/assets/images/Mesh_Merge.svg) Zusammenführen drücken.
-   - Den Menüeintrag **Netze → ![](/src/assets/images/Mesh_Merge.svg) Zusammenführen** auswählen.
+   - Die Schaltfläche ![](/images/Mesh_Merge.svg) Zusammenführen drücken.
+   - Den Menüeintrag **Netze → ![](/images/Mesh_Merge.svg) Zusammenführen** auswählen.
 
 ## Eigenschaften
 

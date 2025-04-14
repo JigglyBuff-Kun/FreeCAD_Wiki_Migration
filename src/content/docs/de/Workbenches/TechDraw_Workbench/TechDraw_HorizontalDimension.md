@@ -23,7 +23,7 @@ Das Werkzeug **TechDraw MaßHorizontal** fügt einer Ansicht ein horizontales Ma
 
 Für weitere Informationen siehe [TechDraw Längenmaß](/TechDraw_LengthDimension/de "TechDraw LengthDimension/de").
 
-![](/src/assets/images/TechDraw_Dimension_Horizontal_example.png)
+![](/images/TechDraw_Dimension_Horizontal_example.png)
 
 Horizontales Maß, zwischen zwei Punkten gemessen
 

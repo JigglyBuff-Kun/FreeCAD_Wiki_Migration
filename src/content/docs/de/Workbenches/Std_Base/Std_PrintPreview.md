@@ -24,7 +24,7 @@ Der Befehl **Std Druckvorschau** zeigt eine Vorschau auf das Ergebnis des Befehl
 ## Anwendung
 
 1. Wenn erforderlich, das richtige [TechDraw](/TechDraw_Workbench/de "TechDraw Workbench/de")-Zeichnungsblatt aktivieren oder die [3D-Ansicht](/3D_view/de "3D view/de") wie gewünscht einstellen.
-2. Den Menüeintrag **Datei → ![](/src/assets/images/Std_PrintPreview.svg) Druckvorschau...** auswählen.
+2. Den Menüeintrag **Datei → ![](/images/Std_PrintPreview.svg) Druckvorschau...** auswählen.
 3. Der geöffnete Druckvorschau-Dialog enthält mehrere Schaltflächen für Optionen. Wenn die Ansicht vergrößert wurde, kann mit gedrückter linker Maustaste die Ansicht verschoben werden.
 4. Die Schaltfläche Drucken des Druckvorschau-Dialogs anklicken.
 

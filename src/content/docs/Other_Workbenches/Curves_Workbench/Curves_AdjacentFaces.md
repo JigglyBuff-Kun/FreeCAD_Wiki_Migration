@@ -23,14 +23,14 @@ This documentation is not finished. Please help and contribute documentation.Gui
 
 ## Description
 
-The ![](/src/assets/images/Curves_AdjacentFaces.svg) **Curves AdjacentFaces** tool selects the adjacent faces of the selected sub shape.
+The ![](/images/Curves_AdjacentFaces.svg) **Curves AdjacentFaces** tool selects the adjacent faces of the selected sub shape.
 
 ## Usage
 
 1. Select one or more vertices, edges, and/or faces.
 2. There are several ways to invoke the tool:
-   - Press the ![](/src/assets/images/Curves_AdjacentFaces.svg) Select Adjacent faces button.
-   - Select the **Misc. → ![](/src/assets/images/Curves_AdjacentFaces.svg) Select Adjacent faces** option from the menu.
+   - Press the ![](/images/Curves_AdjacentFaces.svg) Select Adjacent faces button.
+   - Select the **Misc. → ![](/images/Curves_AdjacentFaces.svg) Select Adjacent faces** option from the menu.
 3. The selection is extended around each selected element.
 
 ## Notes

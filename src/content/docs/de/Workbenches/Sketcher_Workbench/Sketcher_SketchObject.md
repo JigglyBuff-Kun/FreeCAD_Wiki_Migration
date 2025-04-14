@@ -4,13 +4,13 @@ title: Sketcher SketchObject
 
 ## Einleitung
 
-![](/src/assets/images/Sketcher_Sketch.svg)
+![](/images/Sketcher_Sketch.svg)
 
 Ein Sketcher SketchObject, oder formal ein `Sketcher::SketchObject`, ist das Basiselement für die Erstellung von 2D-Objekten mit der Arbeitsumgebung [Sketcher](/Sketcher_Workbench/de "Sketcher Workbench/de").
 
 Das `Sketcher::SketchObject` ist vom [Part Part2DObject](/Part_Part2DObject/de "Part Part2DObject/de") abgeleitet, d.h. es ist ein [Part Feature](/Part_Feature/de "Part Feature/de")-Objekt spezialisiert auf 2D-Geometrie. Wie das Part2DObject, kann das SketchObject Ebenen und Flächen zugeordnet werden. Zusätzlich kann das SketchObject mit geometrischen Randbedingungen arbeiten.
 
-![](/src/assets/images/FreeCAD_core_objects.svg)
+![](/images/FreeCAD_core_objects.svg)
 
 Vereinfachtes Diagramm der Beziehungen zwischen den Kernobjekten in FreeCAD
 

@@ -25,7 +25,7 @@ This documentation is not finished. Please help and contribute documentation.Gui
 
 This tool builds a link between two objects of an assembly and matches their orientation. The selected elements of each object or more precisely their implicit coordinate systems (ICS) are used to position one object to another.
 
-Assuming the first object is already locked in place by the ![](/src/assets/images/Assembly_ConstraintLock.svg) [Lock constraint](/Assembly3_ConstraintLock "Assembly3 ConstraintLock") then the following object is moved to a position where both z-axes are perpendicular.
+Assuming the first object is already locked in place by the ![](/images/Assembly_ConstraintLock.svg) [Lock constraint](/Assembly3_ConstraintLock "Assembly3 ConstraintLock") then the following object is moved to a position where both z-axes are perpendicular.
 
 The offset of their origins in x-, y- and z-direction and the angles between the x-, and y-axes are not defined. Related to the first object the following object can still move along the x-, y- and z-axis and spin around both z-axes. This is leaving 5 degrees of freedom (DOFs) for each link unconstrained.
 
@@ -35,6 +35,6 @@ The constraint accepts straight edges and planar faces.
 
 1. Place two objects into an assembly.
 2. Select one straight edge element or one planar face element of each object.
-3. Press the ![](/src/assets/images/Assembly_ConstraintPerpendicular.svg) [Perpendicular](/Assembly3_ConstraintPerpendicular "Assembly3 ConstraintPerpendicular") button.
+3. Press the ![](/images/Assembly_ConstraintPerpendicular.svg) [Perpendicular](/Assembly3_ConstraintPerpendicular "Assembly3 ConstraintPerpendicular") button.
 
 Retrieved from "<http://wiki.freecad.org/index.php?title=Assembly3_ConstraintPerpendicular/en&oldid=1074229>"

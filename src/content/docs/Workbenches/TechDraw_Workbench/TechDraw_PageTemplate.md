@@ -23,7 +23,7 @@ The **TechDraw PageTemplate** tool creates a new Page object using the template 
 
 The starting directory for the dialog can be specified in the [TechDraw Preferences](/TechDraw_Preferences "TechDraw Preferences").
 
-![](/src/assets/images/A4_Landscape_ISO7200_Pep.svg)
+![](/images/A4_Landscape_ISO7200_Pep.svg)
 
 One of the templates that comes with TechDraw: A4_Landscape_ISO7200_Pep.svg
 
@@ -31,8 +31,8 @@ One of the templates that comes with TechDraw: A4_Landscape_ISO7200_Pep.svg
 
 1. An active document must exist.
 2. There are several ways to invoke the tool:
-   - Press the ![](/src/assets/images/TechDraw_PageTemplate.svg) [Insert Page using Template](/TechDraw_PageTemplate "TechDraw PageTemplate") button.
-   - Select the **TechDraw → Page → ![](/src/assets/images/TechDraw_PageTemplate.svg) Insert Page using Template** option from the menu.
+   - Press the ![](/images/TechDraw_PageTemplate.svg) [Insert Page using Template](/TechDraw_PageTemplate "TechDraw PageTemplate") button.
+   - Select the **TechDraw → Page → ![](/images/TechDraw_PageTemplate.svg) Insert Page using Template** option from the menu.
 
 ## Properties
 

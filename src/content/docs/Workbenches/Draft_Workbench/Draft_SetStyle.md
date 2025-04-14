@@ -19,17 +19,17 @@ title: Draft SetStyle
 
 ## Description
 
-The ![](/src/assets/images/Draft_SetStyle.svg) **Draft SetStyle** command sets the default style for new objects.
+The ![](/images/Draft_SetStyle.svg) **Draft SetStyle** command sets the default style for new objects.
 
-![](/src/assets/images/Draft_SetStyle_Taskpanel_Tab_Shape.png) ![](/src/assets/images/Draft_SetStyle_Taskpanel_Tab_Annotation.png)
+![](/images/Draft_SetStyle_Taskpanel_Tab_Shape.png) ![](/images/Draft_SetStyle_Taskpanel_Tab_Annotation.png)
 
 The two tabs ([introduced in 1.0](/Release_notes_1.0 "Release notes 1.0")) of the Style settings task panel
 
 ## Usage
 
 1. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/Draft_tray_button_style.png) button in the [Draft Tray](/Draft_Tray "Draft Tray"). Depending on the current style settings this button can look different.
-   - [Draft](/Draft_Workbench "Draft Workbench"): Select the **Utilities → ![](/src/assets/images/Draft_SetStyle.svg) Set style** option from the menu, or from the [Tree view](/Tree_view "Tree view") or [3D view](/3D_view "3D view") context menu.
+   - Press the ![](/images/Draft_tray_button_style.png) button in the [Draft Tray](/Draft_Tray "Draft Tray"). Depending on the current style settings this button can look different.
+   - [Draft](/Draft_Workbench "Draft Workbench"): Select the **Utilities → ![](/images/Draft_SetStyle.svg) Set style** option from the menu, or from the [Tree view](/Tree_view "Tree view") or [3D view](/3D_view "3D view") context menu.
    - Draft: Use the keyboard shortcut: S then S.
 2. The **Style settings** task panel opens. See [Options](#Options) for more information.
 3. Optionally change one or more settings.
@@ -39,7 +39,7 @@ The two tabs ([introduced in 1.0](/Release_notes_1.0 "Release notes 1.0")) of th
 ## Options
 
 - From the dropdown list at the top of the task panel an exiting style preset can be selected.
-- Press the ![](/src/assets/images/Document-save.svg) button to save the current style settings as a preset.
+- Press the ![](/images/Document-save.svg) button to save the current style settings as a preset.
 - On the **Shape** tab the following settings can be specified:
   - **Shape appearance**
     - **Shape color**.
@@ -74,8 +74,8 @@ The two tabs ([introduced in 1.0](/Release_notes_1.0 "Release notes 1.0")) of th
     - **Ext line length**. [introduced in 0.21](/Release_notes_0.21 "Release notes 0.21")
     - **Ext line overshoot**. [introduced in 0.21](/Release_notes_0.21 "Release notes 0.21")
     - **Text spacing**.
-- Press the ![](/src/assets/images/Draft_SetStyle.svg) Selected button to apply the settings to selected objects or groups. Objects can be selected while the task panel is open.
-- Press the ![](/src/assets/images/Draft_Text.svg) Annotations button to apply the settings to all [Draft Texts](/Draft_Text "Draft Text"), [Draft Dimensions](/Draft_Dimension "Draft Dimension") and [Draft Labels](/Draft_Label "Draft Label") in the current document. [introduced in 0.21](/Release_notes_0.21 "Release notes 0.21")
+- Press the ![](/images/Draft_SetStyle.svg) Selected button to apply the settings to selected objects or groups. Objects can be selected while the task panel is open.
+- Press the ![](/images/Draft_Text.svg) Annotations button to apply the settings to all [Draft Texts](/Draft_Text "Draft Text"), [Draft Dimensions](/Draft_Dimension "Draft Dimension") and [Draft Labels](/Draft_Label "Draft Label") in the current document. [introduced in 0.21](/Release_notes_0.21 "Release notes 0.21")
 - Press the Cancel button to finish the command without saving the settings.
 
 ## Notes

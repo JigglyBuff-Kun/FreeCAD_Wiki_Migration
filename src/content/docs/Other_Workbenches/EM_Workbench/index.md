@@ -2,7 +2,7 @@
 title: EM Workbench
 ---
 
-![](/src/assets/images/EMWorkbench.svg)
+![](/images/EMWorkbench.svg)
 
 EM Workbench icon
 
@@ -10,11 +10,11 @@ EM Workbench icon
 
 The EM (ElectroMagnetic) Workbench provides the CAD front-end interface to some open source free solvers. At present it supports the 3D magnetoquasistatic impedance solver [FastHenry](https://www.fastfieldsolvers.com/software.htm#fasthenry2) (i.e. inductance and resistance extraction at "low" frequencies). Support for the 3D electrostatic capacitance solver [FasterCap](https://www.fastfieldsolvers.com/software.htm#fastercap) is ongoing.
 
-![](/src/assets/images/Screenshot_EM_window.png)
+![](/images/Screenshot_EM_window.png)
 
 ## Installation
 
-The [EM Workbench](/EM_Workbench "EM Workbench") is an [external workbench](/External_workbenches "External workbenches"), that can be installed from the FreeCAD ![](/src/assets/images/AddonManager.svg) [Addon Manager](/Std_AddonMgr "Std AddonMgr"). This can be done via the **Tools → Addon Manager** menu.
+The [EM Workbench](/EM_Workbench "EM Workbench") is an [external workbench](/External_workbenches "External workbenches"), that can be installed from the FreeCAD ![](/images/AddonManager.svg) [Addon Manager](/Std_AddonMgr "Std AddonMgr"). This can be done via the **Tools → Addon Manager** menu.
 
 The electromagnetic solvers FastHenry2 and FasterCap must be installed separately. Their binary codes as well as the sources are freely available from [FastFieldSolvers](https://www.fastfieldsolvers.com).
 
@@ -36,16 +36,16 @@ Knowledge of FasterCap is a pre-condition for the proficient usage of the Electr
 
 These are tools used to interface with FastHenry:
 
-- ![](/src/assets/images/EM_FHNode.svg) [FHNode](/EM_FHNode "EM FHNode"): Creates a FastHenry Node object
-- ![](/src/assets/images/EM_FHSegment.svg) [FHSegment](/EM_FHSegment "EM FHSegment"): Creates a FastHenry Segment object
-- ![](/src/assets/images/EM_FHPath.svg) [FHPath](/EM_FHPath "EM FHPath"): Creates a FastHenry Path object
-- ![](/src/assets/images/EM_FHPlane.svg) [FHPlane](/EM_FHPlane "EM FHPlane"): Creates a FastHenry uniform conductive Plane object
-- ![](/src/assets/images/EM_FHPlaneHole.svg) [FHPlaneHole](/EM_FHPlaneHole "EM FHPlaneHole"): Creates a FastHenry uniform conductive plane Hole object
-- ![](/src/assets/images/EM_FHPlaneAddRemoveNodeHole.svg) [FHPlaneAddRemoveNodeHole](/EM_FHPlaneAddRemoveNodeHole "EM FHPlaneAddRemoveNodeHole"): Add or Remove a Node or a Hole from/to a conductive plane
-- ![](/src/assets/images/EM_FHEquiv.svg) [FHEquiv](/EM_FHEquiv "EM FHEquiv"): Creates a FastHenry node Equivalence object
-- ![](/src/assets/images/EM_FHPort.svg) [FHPort](/EM_FHPort "EM FHPort"): Creates a FastHenry Port object
-- ![](/src/assets/images/EM_FHSolver.svg) [FHSolver](/EM_FHSolver "EM FHSolver"): Creates a FastHenry Solver object
-- ![](/src/assets/images/EM_FHInputFile.svg) [FHInputFIle](/EM_FHInputFile "EM FHInputFile"): Creates a FastHenry Input File
+- ![](/images/EM_FHNode.svg) [FHNode](/EM_FHNode "EM FHNode"): Creates a FastHenry Node object
+- ![](/images/EM_FHSegment.svg) [FHSegment](/EM_FHSegment "EM FHSegment"): Creates a FastHenry Segment object
+- ![](/images/EM_FHPath.svg) [FHPath](/EM_FHPath "EM FHPath"): Creates a FastHenry Path object
+- ![](/images/EM_FHPlane.svg) [FHPlane](/EM_FHPlane "EM FHPlane"): Creates a FastHenry uniform conductive Plane object
+- ![](/images/EM_FHPlaneHole.svg) [FHPlaneHole](/EM_FHPlaneHole "EM FHPlaneHole"): Creates a FastHenry uniform conductive plane Hole object
+- ![](/images/EM_FHPlaneAddRemoveNodeHole.svg) [FHPlaneAddRemoveNodeHole](/EM_FHPlaneAddRemoveNodeHole "EM FHPlaneAddRemoveNodeHole"): Add or Remove a Node or a Hole from/to a conductive plane
+- ![](/images/EM_FHEquiv.svg) [FHEquiv](/EM_FHEquiv "EM FHEquiv"): Creates a FastHenry node Equivalence object
+- ![](/images/EM_FHPort.svg) [FHPort](/EM_FHPort "EM FHPort"): Creates a FastHenry Port object
+- ![](/images/EM_FHSolver.svg) [FHSolver](/EM_FHSolver "EM FHSolver"): Creates a FastHenry Solver object
+- ![](/images/EM_FHInputFile.svg) [FHInputFIle](/EM_FHInputFile "EM FHInputFile"): Creates a FastHenry Input File
 
 ## FasterCap Tools
 

@@ -29,6 +29,6 @@ This tool builds a link between two objects of an assembly and fixes the distanc
 
 1. Place two objects into an assembly
 2. Select one point element of each object
-3. Press the ![](/src/assets/images/Assembly_ConstraintPointsDistance.svg) [Points distance](/Assembly3_ConstraintPointsDistance "Assembly3 ConstraintPointsDistance") button.
+3. Press the ![](/images/Assembly_ConstraintPointsDistance.svg) [Points distance](/Assembly3_ConstraintPointsDistance "Assembly3 ConstraintPointsDistance") button.
 
 Retrieved from "<http://wiki.freecad.org/index.php?title=Assembly3_ConstraintPointsDistance/en&oldid=887417>"

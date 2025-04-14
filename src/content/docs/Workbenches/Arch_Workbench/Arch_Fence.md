@@ -25,7 +25,7 @@ THIS COMMAND IS PART OF THE INTEGRATEDBIM WORKBENCHIN V1.0This page has been upd
 
 The **Arch Fence** is an object that builds a fence by repeating a single fence post and section along a given path.
 
-![](/src/assets/images/Arch_Fence_description_example.png)
+![](/images/Arch_Fence_description_example.png)
 
 ## Usage
 
@@ -35,7 +35,7 @@ The **Arch Fence** is an object that builds a fence by repeating a single fence 
 2. Create the path the fence should follow using the [Sketcher Workbench](/Sketcher_Workbench "Sketcher Workbench") or [Draft Workbench](/Draft_Workbench "Draft Workbench").
 3. Switch back to the [BIM Workbench](/BIM_Workbench "BIM Workbench").
 4. Select the section, post and path in exactly that order.
-5. Press the ![](/src/assets/images/Arch_Fence.svg) [Fence](/Arch_Fence "Arch Fence") button
+5. Press the ![](/images/Arch_Fence.svg) [Fence](/Arch_Fence "Arch Fence") button
 
 ## Options
 

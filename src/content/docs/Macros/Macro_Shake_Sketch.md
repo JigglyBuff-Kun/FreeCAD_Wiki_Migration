@@ -41,7 +41,7 @@ Available in Addon manager, or manual install.
 ## Script
 
 ToolBar Icon
-![](/src/assets/images/Macro_Shake_Sketch.png)
+![](/images/Macro_Shake_Sketch.png)
 
 **Macro Shake_Sketch.py**
 

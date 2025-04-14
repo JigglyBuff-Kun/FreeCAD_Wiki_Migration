@@ -32,11 +32,11 @@ This macro rotates the current view by 90° to the left.
 
 ## Limitations
 
-Only works if you are in Top view: [![Std_ViewTop](/src/assets/images/View-top.svg)](/Std_ViewTop "Std_ViewTop ") [XY (top)](/Std_ViewTop "Std ViewTop")
+Only works if you are in Top view: [![Std_ViewTop](/images/View-top.svg)](/Std_ViewTop "Std_ViewTop ") [XY (top)](/Std_ViewTop "Std ViewTop")
 
 ## Script
 
-ToolBar Icon ![](/src/assets/images/Macro_Rotate_View_view_90_Degrees.png)
+ToolBar Icon ![](/images/Macro_Rotate_View_view_90_Degrees.png)
 
 **Macro_Rotate_View_90_Degrees.FCMacro**
 

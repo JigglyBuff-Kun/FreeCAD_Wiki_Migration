@@ -30,7 +30,7 @@ title: Assembly
 
 Simulate assembly .
 
-![](/src/assets/images/Assy.gif)
+![](/images/Assy.gif)
 
 ## Uses
 
@@ -42,7 +42,7 @@ Download the files in FreeCAD and run the macro
 
 ## Script
 
-ToolBar Icon ![](/src/assets/images/Macro_Assembly.png)
+ToolBar Icon ![](/images/Macro_Assembly.png)
 
 **Macro_Assembly.FCMacro**
 

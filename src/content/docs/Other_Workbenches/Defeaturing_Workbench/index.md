@@ -2,13 +2,13 @@
 title: Defeaturing Workbench
 ---
 
-![](/src/assets/images/Defeaturing_workbench_icon.svg)
+![](/images/Defeaturing_workbench_icon.svg)
 
 Defeaturing workbench icon
 
 ## Introduction
 
-![](/src/assets/images/Defeaturing_workbench_icon.svg) [Defeaturing Workbench](/Defeaturing_Workbench "Defeaturing Workbench") is an add-on workbench intended for editing STEP models, removing of the selected features from the model. It is an [external workbench](/External_Workbenches "External Workbenches") and therefore not part of the standard FreeCAD install.
+![](/images/Defeaturing_workbench_icon.svg) [Defeaturing Workbench](/Defeaturing_Workbench "Defeaturing Workbench") is an add-on workbench intended for editing STEP models, removing of the selected features from the model. It is an [external workbench](/External_Workbenches "External Workbenches") and therefore not part of the standard FreeCAD install.
 
 ## Features
 
@@ -23,7 +23,7 @@ Note: More advance Defeaturing tools can be used if [OCC7.3](/OpenCASCADE "OpenC
 
 ### Automatic (recommended)
 
-Using the FreeCAD ![](/src/assets/images/AddonManager.svg) [Addon Manager](/Std_AddonMgr "Std AddonMgr") available in v0.17+ via **Tools → Addon Manager**. Search for the ![](/src/assets/images/Defeaturing_workbench_icon.svg) Defeaturing workbench icon. The Addon Manager also notifies the user when a new version of this Addon is available.
+Using the FreeCAD ![](/images/AddonManager.svg) [Addon Manager](/Std_AddonMgr "Std AddonMgr") available in v0.17+ via **Tools → Addon Manager**. Search for the ![](/images/Defeaturing_workbench_icon.svg) Defeaturing workbench icon. The Addon Manager also notifies the user when a new version of this Addon is available.
 
 ### Manually
 
@@ -44,46 +44,46 @@ See [How to install additional workbenches](/How_to_install_additional_workbench
 
 ## Tools
 
-![Defeaturing tools dialog](/src/assets/images/Defeaturing_WB.png)
+![Defeaturing tools dialog](/images/Defeaturing_WB.png)
 
 Defeaturing tools dialog
 
-![](/src/assets/images/Defeaturing_Tools.svg) Defeaturing Tools are located in a separate mask.
+![](/images/Defeaturing_Tools.svg) Defeaturing Tools are located in a separate mask.
 
-- ![](/src/assets/images/DefeatWB_Tools_rmv_hole.png) [Remove Holes](/index.php?title=DefeatWB_Tools_rmv_hole&action=edit&redlink=1 "DefeatWB Tools rmv hole (page does not exist)"): remove Hole from Face
-- ![](/src/assets/images/DefeatWB_Tools_rmv_listed_Faces.png) [Remove listed Faces](/index.php?title=DefeatWB_Tools_rmv_listed_Faces&action=edit&redlink=1 "DefeatWB Tools rmv listed Faces (page does not exist)"): remove 'in List' Faces
-- ![](/src/assets/images/DefeatWB_Tools_add_Faces_listed_Edges.png) [Add Faces from 'in List' Edges](/index.php?title=DefeatWB_Tools_add_Faces_listed_Edges&action=edit&redlink=1 "DefeatWB Tools add Faces listed Edges (page does not exist)"): add Faces from 'in List' Edges
-- ![](/src/assets/images/DefeatWB_Tools_select_Faces_Param_Defeat.png) [Select Faces to be Parametric defeatured](/index.php?title=DefeatWB_Tools_select_Faces_Param_Defeat&action=edit&redlink=1 "DefeatWB Tools select Faces Param Defeat (page does not exist)"): select Faces to be Parametric defeatured
-- ![](/src/assets/images/DefeatWB_Tools_create_copy_listed_edges.png) [Create a copy of the 'in List' Edges](/index.php?title=DefeatWB_Tools_create_copy_listed_edges&action=edit&redlink=1 "DefeatWB Tools create copy listed edges (page does not exist)") : create a copy of the 'in List' Edges
+- ![](/images/DefeatWB_Tools_rmv_hole.png) [Remove Holes](/index.php?title=DefeatWB_Tools_rmv_hole&action=edit&redlink=1 "DefeatWB Tools rmv hole (page does not exist)"): remove Hole from Face
+- ![](/images/DefeatWB_Tools_rmv_listed_Faces.png) [Remove listed Faces](/index.php?title=DefeatWB_Tools_rmv_listed_Faces&action=edit&redlink=1 "DefeatWB Tools rmv listed Faces (page does not exist)"): remove 'in List' Faces
+- ![](/images/DefeatWB_Tools_add_Faces_listed_Edges.png) [Add Faces from 'in List' Edges](/index.php?title=DefeatWB_Tools_add_Faces_listed_Edges&action=edit&redlink=1 "DefeatWB Tools add Faces listed Edges (page does not exist)"): add Faces from 'in List' Edges
+- ![](/images/DefeatWB_Tools_select_Faces_Param_Defeat.png) [Select Faces to be Parametric defeatured](/index.php?title=DefeatWB_Tools_select_Faces_Param_Defeat&action=edit&redlink=1 "DefeatWB Tools select Faces Param Defeat (page does not exist)"): select Faces to be Parametric defeatured
+- ![](/images/DefeatWB_Tools_create_copy_listed_edges.png) [Create a copy of the 'in List' Edges](/index.php?title=DefeatWB_Tools_create_copy_listed_edges&action=edit&redlink=1 "DefeatWB Tools create copy listed edges (page does not exist)") : create a copy of the 'in List' Edges
 
-- ![](/src/assets/images/DefeatWB_Tools_copy_Faces_listed_faces.png) [copy Faces from 'in List' Faces](/index.php?title=DefeatWB_Tools_copy_Faces_listed_faces&action=edit&redlink=1 "DefeatWB Tools copy Faces listed faces (page does not exist)") : copy Faces from 'in List' Faces
-- ![](/src/assets/images/DefeatWB_Tools_offset_face.png) [offset face](/index.php?title=DefeatWB_Tools_offset_face&action=edit&redlink=1 "DefeatWB Tools offset face (page does not exist)"): offset face
-- ![](/src/assets/images/DefeatWB_Tools_offset_edge.png) [offset edge](/index.php?title=DefeatWB_Tools_offset_edge&action=edit&redlink=1 "DefeatWB Tools offset edge (page does not exist)"): offset edge
+- ![](/images/DefeatWB_Tools_copy_Faces_listed_faces.png) [copy Faces from 'in List' Faces](/index.php?title=DefeatWB_Tools_copy_Faces_listed_faces&action=edit&redlink=1 "DefeatWB Tools copy Faces listed faces (page does not exist)") : copy Faces from 'in List' Faces
+- ![](/images/DefeatWB_Tools_offset_face.png) [offset face](/index.php?title=DefeatWB_Tools_offset_face&action=edit&redlink=1 "DefeatWB Tools offset face (page does not exist)"): offset face
+- ![](/images/DefeatWB_Tools_offset_edge.png) [offset edge](/index.php?title=DefeatWB_Tools_offset_edge&action=edit&redlink=1 "DefeatWB Tools offset edge (page does not exist)"): offset edge
 
-- ![](/src/assets/images/DefeatWB_Tools_make_solid_listed_faces.png) [Make Solid from in List Faces](/index.php?title=DefeatWB_Tools_make_solid_listed_faces&action=edit&redlink=1 "DefeatWB Tools make solid listed faces (page does not exist)"): make Solid from in List Faces
-- ![](/src/assets/images/DefeatWB_Tools_make_solid_faces_selected_objects.png) [Make Solid from the Faces of the selected Objects](/index.php?title=DefeatWB_Tools_make_solid_faces_selected_objects&action=edit&redlink=1 "DefeatWB Tools make solid faces selected objects (page does not exist)"): make Solid from the Faces of the selected Objects
-- ![](/src/assets/images/DefeatWB_Tools_select_one_object_2_make_solid_step_proc.png) [Make Solid from in List Faces](/index.php?title=DefeatWB_Tools_select_one_object_2_make_solid_step_proc&action=edit&redlink=1 "DefeatWB Tools select one object 2 make solid step proc (page does not exist)"): select ONE object to try to make a Solid through STEP import/export process
-- ![](/src/assets/images/DefeatWB_Tools_Connect.png) [Connect](/index.php?title=DefeatWB_Tools_Connect&action=edit&redlink=1 "DefeatWB Tools Connect (page does not exist)"): connect
-- ![](/src/assets/images/DefeatWB_Tools_clean_face_rmv_holes.png) [clean Face(s) removing holes and merging Outwire](/index.php?title=DefeatWB_Tools_clean_face_rmv_holes&action=edit&redlink=1 "DefeatWB Tools clean face rmv holes (page does not exist)"): clean Face(s) removing holes and merging Outwire
+- ![](/images/DefeatWB_Tools_make_solid_listed_faces.png) [Make Solid from in List Faces](/index.php?title=DefeatWB_Tools_make_solid_listed_faces&action=edit&redlink=1 "DefeatWB Tools make solid listed faces (page does not exist)"): make Solid from in List Faces
+- ![](/images/DefeatWB_Tools_make_solid_faces_selected_objects.png) [Make Solid from the Faces of the selected Objects](/index.php?title=DefeatWB_Tools_make_solid_faces_selected_objects&action=edit&redlink=1 "DefeatWB Tools make solid faces selected objects (page does not exist)"): make Solid from the Faces of the selected Objects
+- ![](/images/DefeatWB_Tools_select_one_object_2_make_solid_step_proc.png) [Make Solid from in List Faces](/index.php?title=DefeatWB_Tools_select_one_object_2_make_solid_step_proc&action=edit&redlink=1 "DefeatWB Tools select one object 2 make solid step proc (page does not exist)"): select ONE object to try to make a Solid through STEP import/export process
+- ![](/images/DefeatWB_Tools_Connect.png) [Connect](/index.php?title=DefeatWB_Tools_Connect&action=edit&redlink=1 "DefeatWB Tools Connect (page does not exist)"): connect
+- ![](/images/DefeatWB_Tools_clean_face_rmv_holes.png) [clean Face(s) removing holes and merging Outwire](/index.php?title=DefeatWB_Tools_clean_face_rmv_holes&action=edit&redlink=1 "DefeatWB Tools clean face rmv holes (page does not exist)"): clean Face(s) removing holes and merging Outwire
 
-- ![](/src/assets/images/DefeatWB_Tools_show_listed_edges.png) [show 'in List‘ Edge(s)](/index.php?title=DefeatWB_Tools_show_listed_edges&action=edit&redlink=1 "DefeatWB Tools show listed edges (page does not exist)"): show 'in List‘ Edge(s)
-- ![](/src/assets/images/DefeatWB_Tools_show_listed_faces.png) [show 'in List‘ Face(s)](/index.php?title=DefeatWB_Tools_show_listed_faces&action=edit&redlink=1 "DefeatWB Tools show listed faces (page does not exist)"): show 'in List‘ Face(s)
-- ![](/src/assets/images/DefeatWB_Tools_refine.png) [refine](/index.php?title=DefeatWB_Tools_refine&action=edit&redlink=1 "DefeatWB Tools refine (page does not exist)"): refine
-- ![](/src/assets/images/DefeatWB_Tools_simple_copy.png) [simple copy](/index.php?title=DefeatWB_Tools_simple_copy&action=edit&redlink=1 "DefeatWB Tools simple copy (page does not exist)"): simple copy
-- ![](/src/assets/images/DefeatWB_Tools_parametric_refine.png) [parametric Refine](/index.php?title=DefeatWB_Tools_parametric_refine&action=edit&redlink=1 "DefeatWB Tools parametric refine (page does not exist)"): parametric Refine
+- ![](/images/DefeatWB_Tools_show_listed_edges.png) [show 'in List‘ Edge(s)](/index.php?title=DefeatWB_Tools_show_listed_edges&action=edit&redlink=1 "DefeatWB Tools show listed edges (page does not exist)"): show 'in List‘ Edge(s)
+- ![](/images/DefeatWB_Tools_show_listed_faces.png) [show 'in List‘ Face(s)](/index.php?title=DefeatWB_Tools_show_listed_faces&action=edit&redlink=1 "DefeatWB Tools show listed faces (page does not exist)"): show 'in List‘ Face(s)
+- ![](/images/DefeatWB_Tools_refine.png) [refine](/index.php?title=DefeatWB_Tools_refine&action=edit&redlink=1 "DefeatWB Tools refine (page does not exist)"): refine
+- ![](/images/DefeatWB_Tools_simple_copy.png) [simple copy](/index.php?title=DefeatWB_Tools_simple_copy&action=edit&redlink=1 "DefeatWB Tools simple copy (page does not exist)"): simple copy
+- ![](/images/DefeatWB_Tools_parametric_refine.png) [parametric Refine](/index.php?title=DefeatWB_Tools_parametric_refine&action=edit&redlink=1 "DefeatWB Tools parametric refine (page does not exist)"): parametric Refine
 
-- ![](/src/assets/images/DefeatWB_Tools_geometry_check.png) [geometry check](/index.php?title=DefeatWB_Tools_geometry_check&action=edit&redlink=1 "DefeatWB Tools geometry check (page does not exist)"): geometry check
-- ![](/src/assets/images/DefeatWB_Tools_get_Tolerance_value.png) [get Tolerance value](/index.php?title=DefeatWB_Tools_get_Tolerance_value&action=edit&redlink=1 "DefeatWB Tools get Tolerance value (page does not exist)"): get Tolerance value
-- ![](/src/assets/images/DefeatWB_Tools_set_Tolerance_value.png) [set Tolerance value](/index.php?title=DefeatWB_Tools_set_Tolerance_value&action=edit&redlink=1 "DefeatWB Tools set Tolerance value (page does not exist)"): set Tolerance value
+- ![](/images/DefeatWB_Tools_geometry_check.png) [geometry check](/index.php?title=DefeatWB_Tools_geometry_check&action=edit&redlink=1 "DefeatWB Tools geometry check (page does not exist)"): geometry check
+- ![](/images/DefeatWB_Tools_get_Tolerance_value.png) [get Tolerance value](/index.php?title=DefeatWB_Tools_get_Tolerance_value&action=edit&redlink=1 "DefeatWB Tools get Tolerance value (page does not exist)"): get Tolerance value
+- ![](/images/DefeatWB_Tools_set_Tolerance_value.png) [set Tolerance value](/index.php?title=DefeatWB_Tools_set_Tolerance_value&action=edit&redlink=1 "DefeatWB Tools set Tolerance value (page does not exist)"): set Tolerance value
 
-- ![](/src/assets/images/DefeatWB_Tools_make_edges_selected_vertexes.png) [make Edge from selected Vertexes](/index.php?title=DefeatWB_Tools_make_edges_selected_vertexes&action=edit&redlink=1 "DefeatWB Tools make edges selected vertexes (page does not exist)"): make Edge from selected Vertexes
-- ![](/src/assets/images/DefeatWB_Tools_reset_placement.png) [reset Placement](/index.php?title=DefeatWB_Tools_reset_placement&action=edit&redlink=1 "DefeatWB Tools reset placement (page does not exist)"): reset Placement
-- ![](/src/assets/images/DefeatWB_Tools_show_hide_typeId_shape.png) [show/hide TypeId of the Shape](/index.php?title=DefeatWB_Tools_show_hide_typeId_shape&action=edit&redlink=1 "DefeatWB Tools show hide typeId shape (page does not exist)"): show/hide Type Id of the Shape
-- ![](/src/assets/images/DefeatWB_Tools_help.png) [help](/index.php?title=DefeatWB_Tools_help&action=edit&redlink=1 "DefeatWB Tools help (page does not exist)"): help
+- ![](/images/DefeatWB_Tools_make_edges_selected_vertexes.png) [make Edge from selected Vertexes](/index.php?title=DefeatWB_Tools_make_edges_selected_vertexes&action=edit&redlink=1 "DefeatWB Tools make edges selected vertexes (page does not exist)"): make Edge from selected Vertexes
+- ![](/images/DefeatWB_Tools_reset_placement.png) [reset Placement](/index.php?title=DefeatWB_Tools_reset_placement&action=edit&redlink=1 "DefeatWB Tools reset placement (page does not exist)"): reset Placement
+- ![](/images/DefeatWB_Tools_show_hide_typeId_shape.png) [show/hide TypeId of the Shape](/index.php?title=DefeatWB_Tools_show_hide_typeId_shape&action=edit&redlink=1 "DefeatWB Tools show hide typeId shape (page does not exist)"): show/hide Type Id of the Shape
+- ![](/images/DefeatWB_Tools_help.png) [help](/index.php?title=DefeatWB_Tools_help&action=edit&redlink=1 "DefeatWB Tools help (page does not exist)"): help
 
-- ![](/src/assets/images/DefeatWB_Tools_Fuzzy_Cut.png) [Fuzzy Cut](/index.php?title=DefeatWB_Tools_Fuzzy_Cut&action=edit&redlink=1 "DefeatWB Tools Fuzzy Cut (page does not exist)"): Fuzzy Cut
-- ![](/src/assets/images/DefeatWB_Tools_Fuzzy_Union.png) [Fuzzy Union](/index.php?title=DefeatWB_Tools_Fuzzy_Union&action=edit&redlink=1 "DefeatWB Tools Fuzzy Union (page does not exist)"): Fuzzy Union
-- ![](/src/assets/images/DefeatWB_Tools_Fuzzy_Common.png) [Fuzzy Common](/index.php?title=DefeatWB_Tools_Fuzzy_Common&action=edit&redlink=1 "DefeatWB Tools Fuzzy Common (page does not exist)"): Fuzzy Common
+- ![](/images/DefeatWB_Tools_Fuzzy_Cut.png) [Fuzzy Cut](/index.php?title=DefeatWB_Tools_Fuzzy_Cut&action=edit&redlink=1 "DefeatWB Tools Fuzzy Cut (page does not exist)"): Fuzzy Cut
+- ![](/images/DefeatWB_Tools_Fuzzy_Union.png) [Fuzzy Union](/index.php?title=DefeatWB_Tools_Fuzzy_Union&action=edit&redlink=1 "DefeatWB Tools Fuzzy Union (page does not exist)"): Fuzzy Union
+- ![](/images/DefeatWB_Tools_Fuzzy_Common.png) [Fuzzy Common](/index.php?title=DefeatWB_Tools_Fuzzy_Common&action=edit&redlink=1 "DefeatWB Tools Fuzzy Common (page does not exist)"): Fuzzy Common
 
 ## Video Tutorials
 
@@ -91,27 +91,27 @@ Defeaturing tools dialog
 
 Removing Features using OCC7.3 new tools
 
-[![](/src/assets/images/Defeaturing-WB-%40Work_v3.png](https://raw.githubusercontent.com/easyw/FreeCAD-tutorials/master/testing-files/removing-holes.mp4)
+[![](/images/Defeaturing-WB-%40Work_v3.png](https://raw.githubusercontent.com/easyw/FreeCAD-tutorials/master/testing-files/removing-holes.mp4)
 
 Defeaturing-WB: removing-features (holes)
 
-[![](/src/assets/images/Defeaturing-WB-%40Work_v1.png)](https://youtu.be/yrTtWFakAyE)
+[![](/images/Defeaturing-WB-%40Work_v1.png)](https://youtu.be/yrTtWFakAyE)
 
 YouTube: Defeaturing tools - Simplifying the model
 
-[![](/src/assets/images/Defeaturing-WB-%40Work_v2.png)](https://youtu.be/vgQwGI6Fk6Q)
+[![](/images/Defeaturing-WB-%40Work_v2.png)](https://youtu.be/vgQwGI6Fk6Q)
 
 YouTube: Defeaturing tools - Multi-select faces for defeaturing
 
-[![](/src/assets/images/Defeaturing-WB-%40Work_v4.png)](https://raw.githubusercontent.com/easyw/FreeCAD-tutorials/master/testing-files/removing-fillet-chamfer.mp4)
+[![](/images/Defeaturing-WB-%40Work_v4.png)](https://raw.githubusercontent.com/easyw/FreeCAD-tutorials/master/testing-files/removing-fillet-chamfer.mp4)
 
 Defeaturing-WB - removing-fillet-chamfer
 
-[![](/src/assets/images/Defeaturing-WB-%40Work_v5.png)](https://peertube.mastodon.host/videos/watch/c6bc5abd-2eb7-48c7-af67-c4d8e6783872)
+[![](/images/Defeaturing-WB-%40Work_v5.png)](https://peertube.mastodon.host/videos/watch/c6bc5abd-2eb7-48c7-af67-c4d8e6783872)
 
 Defeaturing-WB - overview-features (in german language)
 
-[![](/src/assets/images//Defeaturing-WB-%40Work_v6.png)](https://raw.githubusercontent.com/easyw/FreeCAD-tutorials/master/testing-files/parametric-defeaturing.mp4)
+[![](/images//Defeaturing-WB-%40Work_v6.png)](https://raw.githubusercontent.com/easyw/FreeCAD-tutorials/master/testing-files/parametric-defeaturing.mp4)
 
 Defeaturing-WB - parametric-defeaturing
 

@@ -21,7 +21,7 @@ title: TechDraw Standardseite
 
 Das Werkzeug **TechDraw Standardseite** erstellt ein neues Page-Objekt (Zeichnungsblatt) unter Verwendung der in den [TechDraw-Einstellungen](/TechDraw_Preferences/de "TechDraw Preferences/de") festgelegten Standardvorlage.
 
-![](/src/assets/images/A4_LandscapeTD.svg)
+![](/images/A4_LandscapeTD.svg)
 
 Eine Vorlage, die mit TechDraw geliefert wird: A4_LandscapeTD.svg
 
@@ -29,12 +29,12 @@ Eine Vorlage, die mit TechDraw geliefert wird: A4_LandscapeTD.svg
 
 1. Ein aktives Dokument muss vorhanden sein.
 2. Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
-   - Die Schaltfläche ![](/src/assets/images/TechDraw_PageDefault.svg) Neues Zeichnungsblatt aus der Standardvorlage erstellen drücken.
-   - Den Menüeintrag **TechDraw → Page → ![](/src/assets/images/TechDraw_PageDefault.svg) Neues Zeichnungsblatt aus der Standardvorlage erstellen** auswählen.
+   - Die Schaltfläche ![](/images/TechDraw_PageDefault.svg) Neues Zeichnungsblatt aus der Standardvorlage erstellen drücken.
+   - Den Menüeintrag **TechDraw → Page → ![](/images/TechDraw_PageDefault.svg) Neues Zeichnungsblatt aus der Standardvorlage erstellen** auswählen.
 
 ## Hinweise
 
-- Wenn das Zeichnungsblatt mit »nicht aktuell halten« markiert ist, ob durch seine Daten-Eigenschaft**Keep Updated**, die Menüoption **Toggle Keep Updated** im Kontextmenü seines Fensters, (die Menüoption **Automatisches Aktualisieren umschalten** in seinem Kontextmenü in der Baumansicht), oder durch den entsprechend gesetzten Wert unter Einstellungen, wird es Änderungen des 3D-Modells ignorieren. Dies kann zu ungewöhnlichen Darstellungen führen (fehlende Geometrien, fehlende Maßzahlen usw.). Diese werden korrigiert, sobald die Seite mit dem Werkzeug [Seite neu zeichnen](/TechDraw_RedrawPage/de "TechDraw RedrawPage/de") aktualisiert wird. Die Zeichnung wird mit diesem Symbol ![](/src/assets/images/TechDraw_Tree_Page_Unsync.png) in der [Baumansicht](/Tree_view/de "Tree view/de") angezeigt, solange die Aktualisierung ausgesetzt ist. Diese Einstellung beeinflusst auch den Startprozess. Wenn eine Seite mit »nicht aktuell halten« markiert ist, wird sie beim Programmstart nicht dargestellt.
+- Wenn das Zeichnungsblatt mit »nicht aktuell halten« markiert ist, ob durch seine Daten-Eigenschaft**Keep Updated**, die Menüoption **Toggle Keep Updated** im Kontextmenü seines Fensters, (die Menüoption **Automatisches Aktualisieren umschalten** in seinem Kontextmenü in der Baumansicht), oder durch den entsprechend gesetzten Wert unter Einstellungen, wird es Änderungen des 3D-Modells ignorieren. Dies kann zu ungewöhnlichen Darstellungen führen (fehlende Geometrien, fehlende Maßzahlen usw.). Diese werden korrigiert, sobald die Seite mit dem Werkzeug [Seite neu zeichnen](/TechDraw_RedrawPage/de "TechDraw RedrawPage/de") aktualisiert wird. Die Zeichnung wird mit diesem Symbol ![](/images/TechDraw_Tree_Page_Unsync.png) in der [Baumansicht](/Tree_view/de "Tree view/de") angezeigt, solange die Aktualisierung ausgesetzt ist. Diese Einstellung beeinflusst auch den Startprozess. Wenn eine Seite mit »nicht aktuell halten« markiert ist, wird sie beim Programmstart nicht dargestellt.
 
 Wenn in der Konfigurationsdatei `user.cfg` keine Standardvorlage angegeben ist, wird das Werkzeug folgendes versuchen:
 

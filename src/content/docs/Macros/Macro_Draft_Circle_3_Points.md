@@ -30,7 +30,7 @@ title: Draft Circle 3 Points
 
 This macro creates a circle on 3 selected points. The points can be objects such as cubes, cylinder, then selected coordinates will be the centre of these forms.
 
-![](/src/assets/images/Macro_Draft_Circle_3_Points01.png)
+![](/images/Macro_Draft_Circle_3_Points01.png)
 
 Circle built on 3 selected points
 
@@ -46,7 +46,7 @@ If all of the selected objects have their equal Z coordinates (xy **Z5**, xy **Z
 
 ## Script
 
-ToolBar Icon ![](/src/assets/images/Macro_Make_Circle_3_Points.png)
+ToolBar Icon ![](/images/Macro_Make_Circle_3_Points.png)
 
 **Draft_Circle_3_Points.FCMacro**
 
@@ -122,16 +122,16 @@ else:
 In addition to the previous features, this example is used to align an orthogonal circle on each shape in the selection, and the plan "'XY, YZ, XZ ' ' chosen.  
 The circle takes the color of the axis dedicated regardless of current color, and the center point of the circle is drawn (option O/N).
 
-- ![Cercle circonscrit sur 3 formes,](/src/assets/images/Macro_Draft_Circle_3_Points02.png)
+- ![Cercle circonscrit sur 3 formes,](/images/Macro_Draft_Circle_3_Points02.png)
 
   Cercle circonscrit sur 3 formes,
 
-- ![de manière orthogonale sur la forme choisie](/src/assets/images/Macro_Draft_Circle_3_Points03.png)
+- ![de manière orthogonale sur la forme choisie](/images/Macro_Draft_Circle_3_Points03.png)
 
   de manière orthogonale sur la forme choisie
 
-* ![](/src/assets/images/Macro_Draft_Circle_3_Points04.png)
-* ![](/src/assets/images/Macro_Draft_Circle_3_Points05.png)
+* ![](/images/Macro_Draft_Circle_3_Points04.png)
+* ![](/images/Macro_Draft_Circle_3_Points05.png)
 
 The settings to change.
 
@@ -292,10 +292,10 @@ else:
 
 ## Anaglyphe
 
-Here an Anaglyph view that allows you to see two different positions of the view by using glasses with filters red and Cyan ![](/src/assets/images/Anaglyph_Tango.png).  
+Here an Anaglyph view that allows you to see two different positions of the view by using glasses with filters red and Cyan ![](/images/Anaglyph_Tango.png).  
 Watch alternately with the left eye and the right eye to see the views separately.
 
-![Anaglyphe](/src/assets/images/Cercle3Points2D_anaglyphe.png)
+![Anaglyphe](/images/Cercle3Points2D_anaglyphe.png)
 
 ## Credits
 

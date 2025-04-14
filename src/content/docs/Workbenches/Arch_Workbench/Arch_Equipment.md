@@ -25,13 +25,13 @@ THIS COMMAND IS PART OF THE INTEGRATEDBIM WORKBENCHIN V1.0This page has been upd
 
 The **Arch Equipment** tool offers you a simple and convenient way to insert non-structural, standalone elements such as pieces of furniture, hydro-sanitary equipments or electrical appliances to your projects. Equipments are based on [Part shapes](/Part_Workbench "Part Workbench"), which allow them to benefit from the solidity and possibilities of BRep geometry, and generate nice views when rendered to plan and section views.
 
-![](/src/assets/images/Arch_equipment_example.jpg)
+![](/images/Arch_equipment_example.jpg)
 
 Furniture objects enclosed in an [Arch Equipment](/Arch_Equipment "Arch Equipment") object. The flat projections can be obtained by the [Draft Shape2DView](/Draft_Shape2DView "Draft Shape2DView") tool
 
 As of version 0.17, equipment objects also have a Data**HiRes** property where a [Mesh](/Mesh_Workbench "Mesh Workbench") object can be attached. Equipment objects can then be made to display that mesh in the 3D view instead of their shape, which allows to use any high-resolution mesh objects such as detailed pieces of furniture commonly found on websites.
 
-![](/src/assets/images/Arch_equipment_mesh.jpg)
+![](/images/Arch_equipment_mesh.jpg)
 
 Furniture objects enclosed in an [Arch Equipment](/Arch_Equipment "Arch Equipment") object, with a high resolution mesh attached
 
@@ -40,7 +40,7 @@ When using the Arch OBJ exporter, all equipment objects that are in mesh display
 ## Usage
 
 1. Select a [Part](/Part_Workbench "Part Workbench") shape, and optionally a [Mesh](/Mesh_Workbench "Mesh Workbench") object.
-2. Press the ![](/src/assets/images/Arch_Equipment.svg) [Equipment](/Arch_Equipment "Arch Equipment") button, or press E then Q keys.
+2. Press the ![](/images/Arch_Equipment.svg) [Equipment](/Arch_Equipment "Arch Equipment") button, or press E then Q keys.
 
 ## Properties
 

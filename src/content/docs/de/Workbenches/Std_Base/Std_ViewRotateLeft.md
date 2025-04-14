@@ -24,8 +24,8 @@ Der Befehl **Std AnsichtNachLinksDrehen** dreht die Kamera in der aktiven [3D-An
 ## Anwendung
 
 1. Es gibt mehrere Möglichkeiten den Befehl aufzurufen:
-   - Den Menüeintrag **Ansicht → Standardansichten → ![](/src/assets/images/Std_ViewRotateLeft.svg) Nach links drehen** auswählen.
-   - Die Option **Standardansichten → ![](/src/assets/images/Std_ViewRotateLeft.svg) Nach links drehen** aus dem Kontextmenü der [3D-Ansicht](/3D_view/de "3D view/de") auswählen.
+   - Den Menüeintrag **Ansicht → Standardansichten → ![](/images/Std_ViewRotateLeft.svg) Nach links drehen** auswählen.
+   - Die Option **Standardansichten → ![](/images/Std_ViewRotateLeft.svg) Nach links drehen** aus dem Kontextmenü der [3D-Ansicht](/3D_view/de "3D view/de") auswählen.
    - Das Tastaturkürzel: Shift+Links.
 
 ## Skripten

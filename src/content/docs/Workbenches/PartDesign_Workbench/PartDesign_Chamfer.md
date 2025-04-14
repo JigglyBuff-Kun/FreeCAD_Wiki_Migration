@@ -19,7 +19,7 @@ title: PartDesign Chamfer
 
 ## Description
 
-The ![](/src/assets/images/PartDesign_Chamfer.svg) **PartDesign Chamfer** tool creates chamfers on the selected edges of an object. It adds a **Chamfer** object to the document with its corresponding representation in the [Tree view](/Tree_view "Tree view").
+The ![](/images/PartDesign_Chamfer.svg) **PartDesign Chamfer** tool creates chamfers on the selected edges of an object. It adds a **Chamfer** object to the document with its corresponding representation in the [Tree view](/Tree_view "Tree view").
 
 ## Usage
 
@@ -32,8 +32,8 @@ The ![](/src/assets/images/PartDesign_Chamfer.svg) **PartDesign Chamfer** tool c
    - Select a feature (usually the last feature) of the Body to select all its edges.
 3. For a chain of tangentially connected edges only a single edge needs to be selected, the chamfer will propagate along the chain.
 4. There are several ways to invoke the tool:
-   - Press the ![](/src/assets/images/PartDesign_Chamfer.svg) [Chamfer](/PartDesign_Chamfer "PartDesign Chamfer") button.
-   - Select the **Part Design → Apply a dress-up feature → ![](/src/assets/images/PartDesign_Chamfer.svg) Chamfer** option from the menu.
+   - Press the ![](/images/PartDesign_Chamfer.svg) [Chamfer](/PartDesign_Chamfer "PartDesign Chamfer") button.
+   - Select the **Part Design → Apply a dress-up feature → ![](/images/PartDesign_Chamfer.svg) Chamfer** option from the menu.
 5. If there is no active Body, and there are two or more Bodies in the document, the **Active Body Required** dialog will open and prompt you to activate one. If there is a single Body it will be activated automatically.
 6. The **Chamfer parameters** [task panel](/Task_panel "Task panel") opens. See [Options](#Options) for more information.
 7. Press the OK button to finish.
@@ -60,7 +60,7 @@ The ![](/src/assets/images/PartDesign_Chamfer.svg) **PartDesign Chamfer** tool c
   - **Equal distance**: One distance is used to place both chamfer edges.
   - **Two distances**: Two distances are used to place the chamfer edges.
   - **Distance and angle**: A distance is used to place one chamfer edge, the placement of the other chamfer edge is defined by the angle of the chamfer.
-- Press the ![](/src/assets/images/PartDesign_Flip_Direction.svg) Flip direction button to flip the direction of the chamfer (deactivated for **Equal distance**).
+- Press the ![](/images/PartDesign_Flip_Direction.svg) Flip direction button to flip the direction of the chamfer (deactivated for **Equal distance**).
 - Set the **Size** of the chamfer.
 - Set the **Size2** of the chamfer (only available if **Two distances** is selected).
 - Set the **Angle** of the chamfer (only available if **Distance and angle** is selected).

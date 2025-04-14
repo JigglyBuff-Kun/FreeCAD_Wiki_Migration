@@ -32,12 +32,12 @@ When inserting an IFC file, a project object is created, that contains all the c
 ## Usage
 
 1. Make sure you have a FreeCAD document open.
-2. Press the ![](/src/assets/images/BIM_Project.svg) [Project](/BIM_Project "BIM Project") button.
-3. Optionally, lock the document by pressing the ![](/src/assets/images/IFC.svg) [IFC Lock](/Native_IFC#Locked_and_unlocked_modes "Native IFC") button.
+2. Press the ![](/images/BIM_Project.svg) [Project](/BIM_Project "BIM Project") button.
+3. Optionally, lock the document by pressing the ![](/images/IFC.svg) [IFC Lock](/Native_IFC#Locked_and_unlocked_modes "Native IFC") button.
 
 ## Locked and unlocked mode
 
-In the [BIM Workbench](/BIM_Workbench "BIM Workbench"), the status bar features an ![](/src/assets/images/IFC.svg) [IFC Lock](/Native_IFC#Locked_and_unlocked_modes "Native IFC") button that allows to toggle between **locked** and **unlocked** modes. When unlocked, you can have several [projects](/BIM_Project "BIM Project") inside your FreeCAD document, and also have both IFC and non-IFC elements.
+In the [BIM Workbench](/BIM_Workbench "BIM Workbench"), the status bar features an ![](/images/IFC.svg) [IFC Lock](/Native_IFC#Locked_and_unlocked_modes "Native IFC") button that allows to toggle between **locked** and **unlocked** modes. When unlocked, you can have several [projects](/BIM_Project "BIM Project") inside your FreeCAD document, and also have both IFC and non-IFC elements.
 
 In locked mode, the data attached to your project object becomes attached directly to the FreeCAD document. The FreeCAD document acts as a faithful replica, or rendering, of the IFC document. The project object is therefore removed. You can have only one project in your FreeCAD document, and you cannot have non-IFC objects anymore (every new object is instantly converted to IFC).
 

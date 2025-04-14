@@ -13,11 +13,11 @@ For more information about manipulating objects see [Std TransformManip](/Std_Tr
 ## Selecting a navigation style
 
 1. Do one of the following:
-   - Press the ![](/src/assets/images/NavigationCAD_dark.svg) button in the [Status bar](/Status_bar "Status bar").
+   - Press the ![](/images/NavigationCAD_dark.svg) button in the [Status bar](/Status_bar "Status bar").
    - Right-click an empty area in the [3D view](/3D_view "3D view"), and select **Navigation styles** from the context menu.
    - Use the [Preferences Editor](/Preferences_Editor#Navigation "Preferences Editor"). In the menu select **Edit → Preferences** and then **Display → Navigation → 3D Navigation**.
 2. Select a style from the list.
-3. Optionally change the **Orbit style**: press the ![](/src/assets/images/NavigationCAD_dark.svg) button in the [Status bar](/Status_bar "Status bar") and then choose **Settings → Orbit style**. See [Preferences Editor](/Preferences_Editor#Navigation "Preferences Editor").
+3. Optionally change the **Orbit style**: press the ![](/images/NavigationCAD_dark.svg) button in the [Status bar](/Status_bar "Status bar") and then choose **Settings → Orbit style**. See [Preferences Editor](/Preferences_Editor#Navigation "Preferences Editor").
 4. Optionally change the **Rotation mode**. See [Preferences Editor](/Preferences_Editor#Navigation "Preferences Editor").
 5. If the **CAD** navigation style is selected: optionally change the **Enable animation** setting. See [Preferences Editor](/Preferences_Editor#Navigation "Preferences Editor").
 
@@ -27,9 +27,9 @@ With all navigation styles, unless selecting objects from a sketch in edit mode,
 
 The following keyboard options are available for all styles:
 
-- Ctrl + ![](/src/assets/images/Ascii_043.svg) and Ctrl + ![](/src/assets/images/Ascii_022.svg) or PgUp and PgDn to zoom in and out, respectively.
-- The arrow keys, ![](/src/assets/images/Ascii_017.svg)![](/src/assets/images/Ascii_016.svg)![](/src/assets/images/Ascii_030.svg)![](/src/assets/images/Ascii_031.svg), to pan the view left/right and up/down.
-- Shift + ![](/src/assets/images/Ascii_017.svg) and Shift + ![](/src/assets/images/Ascii_016.svg) to rotate the view by 90 degrees.
+- Ctrl + ![](/images/Ascii_043.svg) and Ctrl + ![](/images/Ascii_022.svg) or PgUp and PgDn to zoom in and out, respectively.
+- The arrow keys, ![](/images/Ascii_017.svg)![](/images/Ascii_016.svg)![](/images/Ascii_030.svg)![](/images/Ascii_031.svg), to pan the view left/right and up/down.
+- Shift + ![](/images/Ascii_017.svg) and Shift + ![](/images/Ascii_016.svg) to rotate the view by 90 degrees.
 
 ### Blender navigation
 

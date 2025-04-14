@@ -34,13 +34,13 @@ Use this to quickly and easily create aliases for cells in your spreadsheets. It
 
 Highlight the cells containing the text labels and run the macro. Adjacent cells in the next column will now contain aliases made from the text values from the highlighted cells.
 
-![](/src/assets/images/EasyAlias-scr1.png)
+![](/images/EasyAlias-scr1.png)
 
 EasyAlias screenshot1, Text labels from Column A are used to create the aliases in Column B.
 
 ## Script
 
-ToolBar icon ![](/src/assets/images/Easy-alias-icon.png)
+ToolBar icon ![](/images/Easy-alias-icon.png)
 
 **Macro_EasyAlias.FCMacro**
 

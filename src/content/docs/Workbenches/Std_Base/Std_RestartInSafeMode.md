@@ -23,7 +23,7 @@ The **Std RestartInSafeMode** command restarts FreeCAD in a _factory reset_ stat
 
 ## Usage
 
-1. Select the **Help → ![](/src/assets/images/Std_RestartInSafeMode.svg)Restart in safe mode** option from the menu.
+1. Select the **Help → ![](/images/Std_RestartInSafeMode.svg)Restart in safe mode** option from the menu.
 2. A warning dialog box opens.
 3. Press the Yes button to confirm.
 4. FreeCAD is restarted in safe mode.

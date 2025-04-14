@@ -30,7 +30,7 @@ title: BSurf from grid
 
 Makes a B-spline surface through a grid of points. Options for only creating Wire or B-spline curves.
 
-![](/src/assets/images/Macro_BSurf_from_grid_example.png)
+![](/images/Macro_BSurf_from_grid_example.png)
 
 Macro BSurf from grid
 

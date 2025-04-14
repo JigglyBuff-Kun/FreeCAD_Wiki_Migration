@@ -34,12 +34,12 @@ Macro for Airfoil coordinates import. It is possible, using simple dialog, to sc
 
 Run the macro program and follow the instructions.
 
-![](/src/assets/images/ImportAirfoil_ss.png)
+![](/images/ImportAirfoil_ss.png)
 
 ## Script
 
 ToolBar Icon
-![](/src/assets/images/ImportAirfoil.svg)
+![](/images/ImportAirfoil.svg)
 
 **ImportAirfoil.FCMacro**
 

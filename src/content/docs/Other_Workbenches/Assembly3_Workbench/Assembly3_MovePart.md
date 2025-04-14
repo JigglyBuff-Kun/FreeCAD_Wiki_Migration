@@ -23,18 +23,18 @@ This documentation is not finished. Please help and contribute documentation.Gui
 
 ## Description
 
-The ![](/src/assets/images/Assembly_Move.svg) [Move part](/Assembly3_MovePart "Assembly3 MovePart") command provides a tool to move a part within an assembly context.  
+The ![](/images/Assembly_Move.svg) [Move part](/Assembly3_MovePart "Assembly3 MovePart") command provides a tool to move a part within an assembly context.  
  It consists of 3 rings to rotate the part and 6 handles (crossed double arrows) to move the part without rotation.  
  The rings and handles are positioned and oriented according to the selected object's implicit coordinate system (ICS).
 
-![](/src/assets/images/Assembly3_MovePart.png)
+![](/images/Assembly3_MovePart.png)
 
 ## Usage
 
 1. Select either a face, an edge, or a vertex of the 3D part or the whole part in the assembly tree.
-2. Activate the ![](/src/assets/images/Assembly_Move.svg) **Move part** command using one of the following:
-   - The ![](/src/assets/images/Assembly_Move.svg) [Move part](/Assembly3_MovePart "Assembly3 MovePart") button.
-   - The **Assembly3 → ![](/src/assets/images/Assembly_Move.svg) Move part** menu option.
+2. Activate the ![](/images/Assembly_Move.svg) **Move part** command using one of the following:
+   - The ![](/images/Assembly_Move.svg) [Move part](/Assembly3_MovePart "Assembly3 MovePart") button.
+   - The **Assembly3 → ![](/images/Assembly_Move.svg) Move part** menu option.
    - The keyboard shortcut: A then M.
 3. Drag the rings and handles to reposition the part.
 4. Press Esc to fix the position and leave the tool.

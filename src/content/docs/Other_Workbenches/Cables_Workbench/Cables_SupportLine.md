@@ -19,9 +19,9 @@ title: Cables SupportLine
 
 ## Description
 
-The ![](/src/assets/images/Cables_SupportLine.svg) [Support Line](/Cables_SupportLine "Cables SupportLine") creates a simple [Draft Line](/Draft_Line "Draft Line") in bright color and with enlarged vertexes. It serves as support for creating [WireFlex](/Cables_WireFlex "Cables WireFlex"). Its **Attachment** properties can be used e.g. to group cables around a [Cable Box](/Cables_CableBox "Cables CableBox") or other objects, for attaching cables to walls or ceilings etc.
+The ![](/images/Cables_SupportLine.svg) [Support Line](/Cables_SupportLine "Cables SupportLine") creates a simple [Draft Line](/Draft_Line "Draft Line") in bright color and with enlarged vertexes. It serves as support for creating [WireFlex](/Cables_WireFlex "Cables WireFlex"). Its **Attachment** properties can be used e.g. to group cables around a [Cable Box](/Cables_CableBox "Cables CableBox") or other objects, for attaching cables to walls or ceilings etc.
 
-![](/src/assets/images/Cables_SupportLine_Example1.png)
+![](/images/Cables_SupportLine_Example1.png)
 
 Support Line
 
@@ -29,9 +29,9 @@ Support Line
 
 1. Select the vertex, point on surface or object in the [3D view](/3D_view "3D view") or select nothing.
 2. Create Support Line by one of these methods:
-   - Press the ![](/src/assets/images/Cables_SupportLine.svg) [Support Line](/Cables_SupportLine "Cables SupportLine") button.
-   - Select the **Cable Support → ![](/src/assets/images/Cables_SupportLine.svg) Support Line** option from the menu.
-   - Right-click in the [Tree view](/Tree_view "Tree view") or the [3D view](/3D_view "3D view") and select the **Cable Support → ![](/src/assets/images/Cables_SupportLine.svg) Support Line** option from the context menu.
+   - Press the ![](/images/Cables_SupportLine.svg) [Support Line](/Cables_SupportLine "Cables SupportLine") button.
+   - Select the **Cable Support → ![](/images/Cables_SupportLine.svg) Support Line** option from the menu.
+   - Right-click in the [Tree view](/Tree_view "Tree view") or the [3D view](/3D_view "3D view") and select the **Cable Support → ![](/images/Cables_SupportLine.svg) Support Line** option from the context menu.
 
 Once created the Support Line is placed at the position of selected vertex, point or object in the 3D space (or at the point (0,0,0) if nothing was selected).
 
@@ -64,7 +64,7 @@ Example:
 9. The next step could be to create cables from **WireFlex** wires (see [Cable Usage](/Cables_Cable#Usage "Cables Cable"))
 10. Support lines can be hidden when wires are created.
 
-![](/src/assets/images/Cables_SupportLine_Example2.png)
+![](/images/Cables_SupportLine_Example2.png)
 
 Example of using Support Line:  
 Support lines are attached to Cable Box and serve as a basis for wires.

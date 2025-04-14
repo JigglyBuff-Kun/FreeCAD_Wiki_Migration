@@ -19,9 +19,9 @@ title: PartDesign Thickness
 
 ## Description
 
-The ![](/src/assets/images/PartDesign_Thickness.svg) **PartDesign Thickness** tool transforms a solid body into a hollow object with at least one open face, giving to each of its remaining faces a uniform thickness. It adds a **Thickness** object to the document with its corresponding representation in the [Tree view](/Tree_view "Tree view").
+The ![](/images/PartDesign_Thickness.svg) **PartDesign Thickness** tool transforms a solid body into a hollow object with at least one open face, giving to each of its remaining faces a uniform thickness. It adds a **Thickness** object to the document with its corresponding representation in the [Tree view](/Tree_view "Tree view").
 
-![](/src/assets/images/PartDesign_Thickness_example.svg)
+![](/images/PartDesign_Thickness_example.svg)
 
 Base solid (A) → Solid with selected face to be opened (B) → Resulting hollow object (C)
 
@@ -32,8 +32,8 @@ Base solid (A) → Solid with selected face to be opened (B) → Resulting hollo
 1. Optionally [activate](/PartDesign_Body#Active_status "PartDesign Body") the Body to apply the Thickness to.
 2. Select one or more faces of the Body.
 3. There are several ways to invoke the tool:
-   - Press the ![](/src/assets/images/PartDesign_Thickness.svg) [Thickness](/PartDesign_Thickness "PartDesign Thickness") button.
-   - Select the **Part Design → Apply a dress-up feature → ![](/src/assets/images/PartDesign_Thickness.svg) Thickness** option from the menu.
+   - Press the ![](/images/PartDesign_Thickness.svg) [Thickness](/PartDesign_Thickness "PartDesign Thickness") button.
+   - Select the **Part Design → Apply a dress-up feature → ![](/images/PartDesign_Thickness.svg) Thickness** option from the menu.
 4. If there is no active Body, and there are two or more Bodies in the document, the **Active Body Required** dialog will open and prompt you to activate one. If there is a single Body it will be activated automatically.
 5. The **Thickness parameters** [task panel](/Task_panel "Task panel") opens. See [Options](#Options) for more information.
 6. Press the OK button to finish.

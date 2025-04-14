@@ -38,7 +38,7 @@ Dieses Makro richtet die Kamera auf die aktuelle [Draft Arbeitsebene](/Draft_Sel
 ## Skript
 
 Werkzeugleisten-Symbol
-![](/src/assets/images/Macro_Align_Camera_to_Working_Plane.png)
+![](/images/Macro_Align_Camera_to_Working_Plane.png)
 
 **Macro_Align_Camera_to_Working_Plane.FCMacro**
 

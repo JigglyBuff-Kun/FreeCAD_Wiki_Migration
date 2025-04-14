@@ -25,13 +25,13 @@ This documentation is not finished. Please help and contribute documentation.Gui
 
 ## Usage
 
-1. Switch to the ![](/src/assets/images/FCGear_workbench_icon.svg) [FCGear Workbench](/FCGear_Workbench "FCGear Workbench").
+1. Switch to the ![](/images/FCGear_workbench_icon.svg) [FCGear Workbench](/FCGear_Workbench "FCGear Workbench").
 2. Select two elements of matching teeth (See [Notes](#Notes)):
    - The first must be a spur gear or an internal gear.
    - The second can be a spur gear, or a rack
 3. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/FCGear_GearConnector.svg) [Combine two gears](/FCGear_GearConnector "FCGear GearConnector") button in the toolbar.
-   - Select the **Gear → ![](/src/assets/images/FCGear_GearConnector.svg) Combine two gears** option from the menu.
+   - Press the ![](/images/FCGear_GearConnector.svg) [Combine two gears](/FCGear_GearConnector "FCGear GearConnector") button in the toolbar.
+   - Select the **Gear → ![](/images/FCGear_GearConnector.svg) Combine two gears** option from the menu.
 4. Change the gear parameter to the required conditions (see [Properties](#Properties)).
 
 ## Properties

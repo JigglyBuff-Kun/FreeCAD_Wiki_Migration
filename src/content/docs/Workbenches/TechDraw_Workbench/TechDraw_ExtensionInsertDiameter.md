@@ -21,7 +21,7 @@ title: TechDraw ExtensionInsertDiameter
 
 The **TechDraw ExtensionInsertDiameter** tool inserts a '⌀' symbol at the beginning of the dimension text.
 
-![](/src/assets/images/TechDraw_ExtensionInsertDiameterExample.png)
+![](/images/TechDraw_ExtensionInsertDiameterExample.png)
 
 On the right dimensions with the inserted symbol
 
@@ -29,8 +29,8 @@ On the right dimensions with the inserted symbol
 
 1. Select one or more dimensions.
 2. There are several ways to invoke the tool:
-   - Press the ![](/src/assets/images/TechDraw_ExtensionInsertDiameter.svg) [Insert '⌀' Prefix](/TechDraw_ExtensionInsertDiameter "TechDraw ExtensionInsertDiameter") button.
-   - Select the **TechDraw → Extensions: Dimensions → ![](/src/assets/images/TechDraw_ExtensionInsertDiameter.svg) Insert '⌀' Prefix** option from the menu.
+   - Press the ![](/images/TechDraw_ExtensionInsertDiameter.svg) [Insert '⌀' Prefix](/TechDraw_ExtensionInsertDiameter "TechDraw ExtensionInsertDiameter") button.
+   - Select the **TechDraw → Extensions: Dimensions → ![](/images/TechDraw_ExtensionInsertDiameter.svg) Insert '⌀' Prefix** option from the menu.
 3. The '⌀' symbol is inserted in the dimension text of the selected dimensions.
 
 Retrieved from "<http://wiki.freecad.org/index.php?title=TechDraw_ExtensionInsertDiameter/en&oldid=1487897>"

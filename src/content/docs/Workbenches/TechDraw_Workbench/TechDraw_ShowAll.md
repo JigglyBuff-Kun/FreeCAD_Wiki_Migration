@@ -25,13 +25,13 @@ The **TechDraw ShowAll** tool is intended to temporarily show, and then hide, in
 
 1. Select a View with invisible lines on a Page or in the [Tree view](/Tree_view "Tree view").
 2. There are several ways to invoke the tool:
-   - Press the ![](/src/assets/images/TechDraw_ShowAll.svg) [Show/Hide Invisible Edges](/TechDraw_ShowAll "TechDraw ShowAll") button.
-   - Select the **TechDraw → Add Lines → ![](/src/assets/images/TechDraw_ShowAll.svg) Show/Hide Invisible Edges** option from the menu.
+   - Press the ![](/images/TechDraw_ShowAll.svg) [Show/Hide Invisible Edges](/TechDraw_ShowAll "TechDraw ShowAll") button.
+   - Select the **TechDraw → Add Lines → ![](/images/TechDraw_ShowAll.svg) Show/Hide Invisible Edges** option from the menu.
 3. All invisible lines in the View are either shown or hidden.
 
 ## Notes
 
-- To make invisible lines permanently visible use ![](/src/assets/images/TechDraw_DecorateLine.svg) [TechDraw DecorateLine](/TechDraw_DecorateLine "TechDraw DecorateLine").
+- To make invisible lines permanently visible use ![](/images/TechDraw_DecorateLine.svg) [TechDraw DecorateLine](/TechDraw_DecorateLine "TechDraw DecorateLine").
 
 ## Scripting
 

@@ -23,14 +23,14 @@ This documentation is not finished. Please help and contribute documentation.Gui
 
 ## Description
 
-The ![](/src/assets/images/Assembly_CreateJointSlider.svg) [Assembly CreateJointSlider](/Assembly_CreateJointSlider "Assembly CreateJointSlider") tool creates a Slider joint (also called a prismatic joint) between two selected parts, allowing a linear movement along a single axis while restricting rotation.
+The ![](/images/Assembly_CreateJointSlider.svg) [Assembly CreateJointSlider](/Assembly_CreateJointSlider "Assembly CreateJointSlider") tool creates a Slider joint (also called a prismatic joint) between two selected parts, allowing a linear movement along a single axis while restricting rotation.
 
 ## Usage
 
 1. Optionally select two geometric entities of two different shapes. Other selections will be rejected.
 2. There are several ways to invoke the tool:
-   - Press the ![](/src/assets/images/Assembly_CreateJointSlider.svg) [Create Slider Joint](/Assembly_CreateJointSlider "Assembly CreateJointSlider") button.
-   - Select the **Assembly → ![](/src/assets/images/Assembly_CreateJointSlider.svg) Create Slider Joint** option from the menu.
+   - Press the ![](/images/Assembly_CreateJointSlider.svg) [Create Slider Joint](/Assembly_CreateJointSlider "Assembly CreateJointSlider") button.
+   - Select the **Assembly → ![](/images/Assembly_CreateJointSlider.svg) Create Slider Joint** option from the menu.
    - Use the keyboard shortcut: S.
 3. The **Create Joint** dialog opens in the [Task panel](/Task_panel "Task panel") listing the pre-selected entities.
 4. For further steps see [Assembly CreateJointFixed](/Assembly_CreateJointFixed#Usage "Assembly CreateJointFixed").

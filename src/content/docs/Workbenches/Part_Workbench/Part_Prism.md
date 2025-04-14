@@ -19,9 +19,9 @@ title: Part Prism
 
 ## Description
 
-A ![](/src/assets/images/Part_Prism.svg) **Part Prism** is a parametric solid that can be created with the ![](/src/assets/images/Part_Primitives.svg) [Part Primitives](/Part_Primitives "Part Primitives") command. It is the result of extruding a regular polygon along a straight path. In the coordinate system defined by its Data**Placement** property, the bottom face of the prism lies on the XY plane with its center at the origin and one of its vertices on the X axis.
+A ![](/images/Part_Prism.svg) **Part Prism** is a parametric solid that can be created with the ![](/images/Part_Primitives.svg) [Part Primitives](/Part_Primitives "Part Primitives") command. It is the result of extruding a regular polygon along a straight path. In the coordinate system defined by its Data**Placement** property, the bottom face of the prism lies on the XY plane with its center at the origin and one of its vertices on the X axis.
 
-![](/src/assets/images/Part_Prism_Example.png)
+![](/images/Part_Prism_Example.png)
 
 ## Usage
 
@@ -29,7 +29,7 @@ See [Part Primitives](/Part_Primitives#Usage "Part Primitives").
 
 ## Example
 
-![](/src/assets/images/Part_Prism_Scripting_Example.png)
+![](/images/Part_Prism_Scripting_Example.png)
 
 Part Prism from the scripting example
 

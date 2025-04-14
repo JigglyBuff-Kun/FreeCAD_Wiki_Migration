@@ -21,7 +21,7 @@ title: TechDraw ErgänzungPräfixsymbolEntfernen
 
 Das Werkzeug **TechDraw ErgänzungPräfixsymbolEntfernen** entfernt alle Präfixsymbole aus dem Maßtext.
 
-![](/src/assets/images/TechDraw_ExtensionRemovePrefixCharExample.png)
+![](/images/TechDraw_ExtensionRemovePrefixCharExample.png)
 
 Rechts Maße ohne die Präfixsymbole
 
@@ -29,8 +29,8 @@ Rechts Maße ohne die Präfixsymbole
 
 1. Ein oder mehrere Maße auswählen.
 2. Es gibt mehrere Möglichkeiten das Werkzeug aufzurufen:
-   - Die Schaltfläche ![](/src/assets/images/TechDraw_ExtensionRemovePrefixChar.svg) Präfixsymbol entfernen drücken.
-   - Den Menüeintrag **TechDraw → Ergänzungen: Maße → ![](/src/assets/images/TechDraw_ExtensionRemovePrefixChar.svg) Präfixsymbol entfernen** auswählen.
+   - Die Schaltfläche ![](/images/TechDraw_ExtensionRemovePrefixChar.svg) Präfixsymbol entfernen drücken.
+   - Den Menüeintrag **TechDraw → Ergänzungen: Maße → ![](/images/TechDraw_ExtensionRemovePrefixChar.svg) Präfixsymbol entfernen** auswählen.
 3. Alle Präfixsymbole werden aus den Maßtexten der gewählten Maße entfernt.
 
 Retrieved from "<http://wiki.freecad.org/index.php?title=TechDraw_ExtensionRemovePrefixChar/de&oldid=1487551>"

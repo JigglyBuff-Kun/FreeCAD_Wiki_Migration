@@ -19,15 +19,15 @@ title: Draft Hatch
 
 ## Description
 
-The ![](/src/assets/images/Draft_Hatch.svg) **Draft Hatch** command creates hatches on the planar faces of a selected object.
+The ![](/images/Draft_Hatch.svg) **Draft Hatch** command creates hatches on the planar faces of a selected object.
 
 ## Usage
 
 1. Select an object with faces. Only the planar faces of the object will be hatched.
 2. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/Draft_Hatch.svg) [Hatch](/Draft_Hatch "Draft Hatch") button.
-   - [Draft](/Draft_Workbench "Draft Workbench"): Select the **Drafting → ![](/src/assets/images/Draft_Hatch.svg) Hatch** option from the menu.
-   - [BIM](/BIM_Workbench "BIM Workbench"): Select the **Annotation → ![](/src/assets/images/Draft_Hatch.svg) Hatch** option from the menu.
+   - Press the ![](/images/Draft_Hatch.svg) [Hatch](/Draft_Hatch "Draft Hatch") button.
+   - [Draft](/Draft_Workbench "Draft Workbench"): Select the **Drafting → ![](/images/Draft_Hatch.svg) Hatch** option from the menu.
+   - [BIM](/BIM_Workbench "BIM Workbench"): Select the **Annotation → ![](/images/Draft_Hatch.svg) Hatch** option from the menu.
    - Use the keyboard shortcut: H then A.
 3. The **Hatch** task panel opens. See [Options](#Options) for more information.
 4. Press the OK button to finish the command.
@@ -46,7 +46,7 @@ When the hatch pattern for a face is calculated it is temporarily translated to 
 
 If all faces of the selected object are on the global XY plane you can switch off this default behavior by setting the Data**Translate** property of the Draft Hatch to `false`. The hatch pattern is then aligned with the origin and the X axis of the global coordinate system. For faces on the XY plane with straight edges the Data**Translate** property can be used to switch between absolute (on the left in the image) and relative (on the right in the image) patterns.
 
-![](/src/assets/images/Draft_Hatch_alignment.png)
+![](/images/Draft_Hatch_alignment.png)
 
 Two Draft Wires with hatches.  
 The wires were created in a CCW direction starting from the bottom left point.  

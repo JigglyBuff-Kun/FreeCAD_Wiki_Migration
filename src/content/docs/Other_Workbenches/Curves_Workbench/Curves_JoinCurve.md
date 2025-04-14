@@ -19,16 +19,16 @@ title: Curves JoinCurve
 
 ## Description
 
-The ![](/src/assets/images/Curves_JoinCurve.svg) [Curves JoinCurve](/Curves_JoinCurve "Curves JoinCurve") tool joins selected edges into a BSpline curve.
+The ![](/images/Curves_JoinCurve.svg) [Curves JoinCurve](/Curves_JoinCurve "Curves JoinCurve") tool joins selected edges into a BSpline curve.
 
-![](/src/assets/images/JoinCurve_pic1.jpg)
+![](/images/JoinCurve_pic1.jpg)
 
 ## Usage
 
 1. Select one or more edges in [3D view](/3D_view "3D view").
 2. There are several ways to invoke the tool:
-   - Press the ![](/src/assets/images/Curves_JoinCurve.svg) [joinCurves](/Curves_JoinCurve "Curves JoinCurve") button.
-   - Select the **Curves → ![](/src/assets/images/Curves_JoinCurve.svg) joinCurves** option from the menu..
+   - Press the ![](/images/Curves_JoinCurve.svg) [joinCurves](/Curves_JoinCurve "Curves JoinCurve") button.
+   - Select the **Curves → ![](/images/Curves_JoinCurve.svg) joinCurves** option from the menu..
 3. A **JoinCurve** object is created.
 4. Optionally edit the values in the [Property editor](/Property_editor "Property editor") to select a different parametrization method and adjust the related properties (see Properties below).
 

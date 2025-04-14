@@ -77,7 +77,7 @@ none (so far)
 
 ## Script
 
-ToolBar Icon ![](/src/assets/images/Macro_Build_Utility.png)
+ToolBar Icon ![](/images/Macro_Build_Utility.png)
 
 **Macro_Build_Utility.FCMacro**
 
@@ -224,7 +224,7 @@ You are working with some other departments in your company to use FreeCAD to ge
 
 There are a lot of directory paths to type in so you enter the commands into the Build Utility text file which means you can run it with a single click on a toolbar button.
 
-![](/src/assets/images/MacroBuildUtilityTreeDiagram.jpg)
+![](/images/MacroBuildUtilityTreeDiagram.jpg)
 
 The contents of the build file "buildFile.FCBld" shown below shows the file structure for the project described above.
 

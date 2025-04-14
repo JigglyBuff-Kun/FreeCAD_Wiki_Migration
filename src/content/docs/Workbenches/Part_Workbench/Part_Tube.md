@@ -19,23 +19,23 @@ title: Part Tube
 
 ## Description
 
-The ![](/src/assets/images/Part_Tube.svg) **Part Tube** command creates a parametric tube solid. In the coordinate system defined by its Data**Placement** property, the bottom face of the tube lies on the XY plane with its center at the origin.
+The ![](/images/Part_Tube.svg) **Part Tube** command creates a parametric tube solid. In the coordinate system defined by its Data**Placement** property, the bottom face of the tube lies on the XY plane with its center at the origin.
 
-![](/src/assets/images/Part_Tube_Example.png)
+![](/images/Part_Tube_Example.png)
 
 ## Usage
 
 ### Create
 
 1. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/Part_Tube.svg) [Create tube](/Part_Tube "Part Tube") button.
-   - Select the **Part → Primitives → ![](/src/assets/images/Part_Tube.svg) Create tube** option from the menu.
+   - Press the ![](/images/Part_Tube.svg) [Create tube](/Part_Tube "Part Tube") button.
+   - Select the **Part → Primitives → ![](/images/Part_Tube.svg) Create tube** option from the menu.
 2. The **Tube** task panel opens and a preview of the tube is displayed in the [3D view](/3D_view "3D view").
 3. Specify the dimensions.
 4. The preview is dynamically updated.
 5. Press the OK button.
 6. The tube is created.
-7. Optionally change the Data**Placement** of the tube in the [Property editor](/Property_editor "Property editor"), or with the ![](/src/assets/images/Std_TransformManip.svg) [Std TransformManip](/Std_TransformManip "Std TransformManip") command.
+7. Optionally change the Data**Placement** of the tube in the [Property editor](/Property_editor "Property editor"), or with the ![](/images/Std_TransformManip.svg) [Std TransformManip](/Std_TransformManip "Std TransformManip") command.
 
 ### Edit
 
@@ -47,7 +47,7 @@ The ![](/src/assets/images/Part_Tube.svg) **Part Tube** command creates a parame
 
 ## Example
 
-![](/src/assets/images/Part_Tube_Scripting_Example.png)
+![](/images/Part_Tube_Scripting_Example.png)
 
 Part Tube from the scripting example
 

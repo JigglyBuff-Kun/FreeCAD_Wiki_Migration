@@ -24,7 +24,7 @@ Der **Std Vergrößern**-Befehl vergrößert die Objekte in der aktiven [3D-Ansi
 ## Anwendung
 
 1. Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
-   - Wähle die Option **Ansicht → Zoom‏‎ → ![](/src/assets/images/Std_ViewZoomIn.svg) Vergrößern** aus dem Menü
+   - Wähle die Option **Ansicht → Zoom‏‎ → ![](/images/Std_ViewZoomIn.svg) Vergrößern** aus dem Menü
    - Benutze den Tastaturkurzbefehl Strg + +.
 
 ## Hinweise

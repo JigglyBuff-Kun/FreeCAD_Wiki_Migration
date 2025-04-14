@@ -21,15 +21,15 @@ title: Rocket FinCan
 
 Fins are used to aerodynamically control the direction of flight. A fin can is a complete assembly including fins and body tube, often fitted over the outside of the main rocket body tube. Optionally, a fin can may include a launch lug.
 
-![](/src/assets/images/FinCan.png)
+![](/images/FinCan.png)
 
 A fin can with launch lug
 
 ## Usage
 
 1. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/Rocket_FinCan.svg) [Fin Can](/Rocket_FinCan "Rocket FinCan") button.
-   - Select the **Rocket → ![](/src/assets/images/Rocket_FinCan.svg) Fin Can** option from the menu.
+   - Press the ![](/images/Rocket_FinCan.svg) [Fin Can](/Rocket_FinCan "Rocket FinCan") button.
+   - Select the **Rocket → ![](/images/Rocket_FinCan.svg) Fin Can** option from the menu.
    - Double click on a Fin Can object in the [Tree view](/Tree_view "Tree view").
 2. Set options and press OK.
 
@@ -37,7 +37,7 @@ A fin can with launch lug
 
 ### Fin Options
 
-Fin options for the fin can are the same as for individual fins. See ![](/src/assets/images/Rocket_Fin.svg) [Fin](/Rocket_Fin "Rocket Fin") for more details
+Fin options for the fin can are the same as for individual fins. See ![](/images/Rocket_Fin.svg) [Fin](/Rocket_Fin "Rocket Fin") for more details
 
 However due to the one piece nature of fin cans, they do not have the option to include Through The Wall (TTW) tabs.
 

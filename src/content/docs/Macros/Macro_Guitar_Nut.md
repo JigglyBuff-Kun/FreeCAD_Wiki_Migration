@@ -36,7 +36,7 @@ Slots can be made wider at the back of the nut then the face, and the slots can 
 
 The diameter of each string is configurable and the slots can be made a configurable amount wider than the string to prevent binding. The top of the nut is spherical and can be configured above/below the centerpoint of the strings. The edges of the nut are not shaped, nor is the top contoured from the face to the back, but these transformations can be applied manually in FreeCAD, or indeed after the part has been milled.
 
-![](/src/assets/images/Nut_macro.png)
+![](/images/Nut_macro.png)
 
 Results using the Guitar Nut Maker macro
 
@@ -51,7 +51,7 @@ Results using the Guitar Nut Maker macro
 
 ## Script
 
-ToolBar icon ![](/src/assets/images/Macro_Guitar_Nut.png)
+ToolBar icon ![](/images/Macro_Guitar_Nut.png)
 
 **GuitarNut.FCMacro**
 

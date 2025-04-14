@@ -19,7 +19,7 @@ title: PartDesign MoveFeatureInTree
 
 ## Description
 
-![](/src/assets/images/PartDesign_MoveFeatureInTree.svg) [Move object after other object](/PartDesign_MoveFeatureInTree "PartDesign MoveFeatureInTree"), as this command is labeled in the context menu, allows reordering of objects under a Body. Sketches, datum geometry and features are supported.
+![](/images/PartDesign_MoveFeatureInTree.svg) [Move object after other object](/PartDesign_MoveFeatureInTree "PartDesign MoveFeatureInTree"), as this command is labeled in the context menu, allows reordering of objects under a Body. Sketches, datum geometry and features are supported.
 
 ## Usage
 
@@ -32,10 +32,10 @@ title: PartDesign MoveFeatureInTree
 
 The following three pictures show the same model with a pocket defined on a sketch attached to the datum plane. The features are reordered from one picture to the other. This has the effect that the pocket makes either no hole or make holes in different pads, depending on the order of the features in the model tree.
 
-![](/src/assets/images/PD_move_feature0.png)
+![](/images/PD_move_feature0.png)
 
-![](/src/assets/images/Hole_Pad002.png)
+![](/images/Hole_Pad002.png)
 
-![](/src/assets/images/PD_move_feature2.png)
+![](/images/PD_move_feature2.png)
 
 Retrieved from "<http://wiki.freecad.org/index.php?title=PartDesign_MoveFeatureInTree/en&oldid=1424840>"

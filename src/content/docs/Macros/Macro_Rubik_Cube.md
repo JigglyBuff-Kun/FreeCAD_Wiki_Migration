@@ -30,11 +30,11 @@ title: Rubik Cube
 
 Macro to Display a Rubik Cube and interactively do slice rotations.
 
-![](/src/assets/images/Macro_Rubik_Cube.png)
+![](/images/Macro_Rubik_Cube.png)
 
 ## Script
 
-ToolBar Icon ![](/src/assets/images/Macro_Rubik_Cube.png)
+ToolBar Icon ![](/images/Macro_Rubik_Cube.png)
 
 **Macro_Rubik_Cube.FCMacro**
 

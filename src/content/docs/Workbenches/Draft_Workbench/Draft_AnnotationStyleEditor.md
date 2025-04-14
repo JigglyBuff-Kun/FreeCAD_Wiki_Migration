@@ -19,32 +19,32 @@ title: Draft AnnotationStyleEditor
 
 ## Description
 
-The ![](/src/assets/images/Draft_AnnotationStyleEditor.svg) **Draft AnnotationStyleEditor** command allows you to define styles that affect the visual properties of annotation-like objects, such as those create by the [Draft Text](/Draft_Text "Draft Text"), [Draft Dimension](/Draft_Dimension "Draft Dimension") and [Draft Label](/Draft_Label "Draft Label") commands.
+The ![](/images/Draft_AnnotationStyleEditor.svg) **Draft AnnotationStyleEditor** command allows you to define styles that affect the visual properties of annotation-like objects, such as those create by the [Draft Text](/Draft_Text "Draft Text"), [Draft Dimension](/Draft_Dimension "Draft Dimension") and [Draft Label](/Draft_Label "Draft Label") commands.
 
-![](/src/assets/images/Draft_AnnotationStyleEditor_Dialog.png)
+![](/images/Draft_AnnotationStyleEditor_Dialog.png)
 
 The Annotation Styles Editor dialog box
 
 ## Usage
 
 1. There are several ways to invoke the command:
-   - [Draft](/Draft_Workbench "Draft Workbench"): Press the ![](/src/assets/images/Draft_AnnotationStyleEditor.svg) [Annotation styles...](/Draft_AnnotationStyleEditor "Draft AnnotationStyleEditor") button.
-   - Draft: Select the **Annotation → ![](/src/assets/images/Draft_AnnotationStyleEditor.svg) Annotation styles...** option from the menu.
-   - [BIM](/BIM_Workbench "BIM Workbench"): Select the **Manage → ![](/src/assets/images/Draft_AnnotationStyleEditor.svg) Annotation styles...** option from the menu.
+   - [Draft](/Draft_Workbench "Draft Workbench"): Press the ![](/images/Draft_AnnotationStyleEditor.svg) [Annotation styles...](/Draft_AnnotationStyleEditor "Draft AnnotationStyleEditor") button.
+   - Draft: Select the **Annotation → ![](/images/Draft_AnnotationStyleEditor.svg) Annotation styles...** option from the menu.
+   - [BIM](/BIM_Workbench "BIM Workbench"): Select the **Manage → ![](/images/Draft_AnnotationStyleEditor.svg) Annotation styles...** option from the menu.
 2. The **Annotation Styles Editor** dialog box opens.
 3. Select a style from the **Style name** dropdown list, or choose `Add new...` to define a new style.
 4. Optionally adjust the properties of the style.
-5. Optionally press the ![](/src/assets/images/Accessories-text-editor.svg) Rename button to rename the style.
-6. Optionally press the ![](/src/assets/images/Edit_Cancel.svg) Delete button to delete the style.
-7. Optionally press the ![](/src/assets/images/Std_Import.svg) button to import all styles from a .json file. This will overwrite existing styles with the same name.
-8. Optionally press the ![](/src/assets/images/Std_Export.svg) button to export all styles to a .json file.
+5. Optionally press the ![](/images/Accessories-text-editor.svg) Rename button to rename the style.
+6. Optionally press the ![](/images/Edit_Cancel.svg) Delete button to delete the style.
+7. Optionally press the ![](/images/Std_Import.svg) button to import all styles from a .json file. This will overwrite existing styles with the same name.
+8. Optionally press the ![](/images/Std_Export.svg) button to export all styles to a .json file.
 9. Press the OK button to close the dialog box and finish the command.
 
 ## Apply
 
 To apply an annotation style change the View**Annotation Style** property of annotation objects. This property can be found on the **View** tab of the [Property editor](/Property_editor "Property editor").
 
-![](/src/assets/images/Draft_AnnotationStyleEditor_Apply.png)
+![](/images/Draft_AnnotationStyleEditor_Apply.png)
 
 Selecting an annotation style
 

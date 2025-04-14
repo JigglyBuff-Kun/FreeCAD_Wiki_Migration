@@ -31,11 +31,11 @@ title: Cabinets32
 This macro creates Top/Bottom and sidewalls for a cabinet with System32 specification.
 The defaults in the Macro are for parts of manufacturer Hettich.
 
-![](/src/assets/images/Cabinetside.png)
+![](/images/Cabinetside.png)
 
 cabinetside
 
-![](/src/assets/images/Cabinettop.png)
+![](/images/Cabinettop.png)
 
 cabinettop
 
@@ -48,7 +48,7 @@ cabinettop
 
 ## Script
 
-ToolBar Icon ![](/src/assets/images/Macro_Cabinets32.png)
+ToolBar Icon ![](/images/Macro_Cabinets32.png)
 
 **Cabinets32.FCMacro**
 

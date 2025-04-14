@@ -24,7 +24,7 @@ Der **Std DlgEinstellungen**-Befehl öffnet den [Voreinstellungseditor](/Prefere
 ## Anwendung
 
 1. Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
-   - Den Menüeintrag **Bearbeiten → ![](/src/assets/images/Std_DlgPreferences.svg) Einstellungen...** auswählen.
+   - Den Menüeintrag **Bearbeiten → ![](/images/Std_DlgPreferences.svg) Einstellungen...** auswählen.
    - Das Tastaturkürzel Strg + ,. [eingeführt in 1.1](/Release_notes_1.1/de "Release notes 1.1/de")
 
 ## Hinweise

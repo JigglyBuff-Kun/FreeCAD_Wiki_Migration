@@ -31,7 +31,7 @@ TheRaytracing workbenchis being superseded by the newRender Workbench, which is 
 
 This tutorial is meant to introduce the reader to the basic workflow of the Raytracing Workbench, as well as most of the tools that are available to create a rendered image. **Note** that the Raytracing workbench is progressively being obsoleted in favor of the newer [Render Workbench](https://github.com/FreeCAD/FreeCAD-render), available via the [Addons Manager](/Std_AddonMgr "Std AddonMgr")
 
-![](/src/assets/images/Raytracing_tutorial_result.png)
+![](/images/Raytracing_tutorial_result.png)
 
 ## Requirements
 
@@ -62,26 +62,26 @@ Now we have a model with which to work.
 
 #### POV-Ray
 
-1. Select ![](/src/assets/images/Raytrace_New.svg) [New PovRay project](/Raytracing_New "Raytracing New"). From the dropdown menu pick **RadiosityNormal**
+1. Select ![](/images/Raytrace_New.svg) [New PovRay project](/Raytracing_New "Raytracing New"). From the dropdown menu pick **RadiosityNormal**
 
 #### LuxRender
 
-1. Select ![](/src/assets/images/Raytrace_Lux.svg) [New LuxRender project](/Raytracing_Lux "Raytracing Lux"). From the dropdown menu pick **LuxClassic**
+1. Select ![](/images/Raytrace_Lux.svg) [New LuxRender project](/Raytracing_Lux "Raytracing Lux"). From the dropdown menu pick **LuxClassic**
 
 ### Setting the camera position
 
 1. Position the **3D View** to the desired location and distance from the model. In this case we will use the **Axonometric View**.
 2. Select the **Project Folder** from the **Tree View**
-3. Select ![](/src/assets/images/Raytrace_ResetCamera.svg) [Reset camera](/Raytracing_ResetCamera "Raytracing ResetCamera")
+3. Select ![](/images/Raytrace_ResetCamera.svg) [Reset camera](/Raytracing_ResetCamera "Raytracing ResetCamera")
 
 ### Importing the model
 
 1. Select the model to render.
-2. Select ![](/src/assets/images/Raytrace_NewPartSegment.svg) [Insert part](/Raytracing_InsertPart "Raytracing InsertPart")
+2. Select ![](/images/Raytrace_NewPartSegment.svg) [Insert part](/Raytracing_InsertPart "Raytracing InsertPart")
 
 ### Running the Renderer
 
-1. Select ![](/src/assets/images/Raytrace_Render.svg) [Render](/Raytracing_Render "Raytracing Render").
+1. Select ![](/images/Raytrace_Render.svg) [Render](/Raytracing_Render "Raytracing Render").
 2. Set the path to which the image will be stored.
 3. Wait for the rendering to finish. This may take a while.
 

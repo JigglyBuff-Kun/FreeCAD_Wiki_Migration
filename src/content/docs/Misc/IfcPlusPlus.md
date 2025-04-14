@@ -8,7 +8,7 @@ title: IfcPlusPlus
 
 The IFC++ library can be used for general purpose, and it also includes a sample IFC visualization application. This viewer is based on Qt 5 and OpenSceneGraph (OSG), and can load big IFC files very fast, and thus can be used to compare the performance of other IFC viewers, like Blender and FreeCAD, which internally use the [IfcOpenShell](/IfcOpenShell "IfcOpenShell") library.
 
-![](/src/assets/images/IfcQuery_viewer_example.png)
+![](/images/IfcQuery_viewer_example.png)
 
 The sample IFC viewer included in the source distribution of the IfcQuery/IFC++ libraries.
 

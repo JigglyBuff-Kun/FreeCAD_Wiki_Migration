@@ -8,13 +8,13 @@ After import the model is (for FreeCAD), just an assembly of faces. You might wa
 
 To do this:
 
-1. Switch to the ![](/src/assets/images/Workbench_Part.svg) [Part Workbench](/Part_Workbench "Part Workbench")
-2. Select the mesh, and go to the **Part → [Create shape from mesh](/Part_ShapeFromMesh "Part ShapeFromMesh")** or press the ![](/src/assets/images/Part_ShapeFromMesh.svg) [Part ShapeFromMesh](/Part_ShapeFromMesh "Part ShapeFromMesh") button
+1. Switch to the ![](/images/Workbench_Part.svg) [Part Workbench](/Part_Workbench "Part Workbench")
+2. Select the mesh, and go to the **Part → [Create shape from mesh](/Part_ShapeFromMesh "Part ShapeFromMesh")** or press the ![](/images/Part_ShapeFromMesh.svg) [Part ShapeFromMesh](/Part_ShapeFromMesh "Part ShapeFromMesh") button
 3. Click OK in the dialog
 4. Select the newly created shape
 5. Go to **Part → [Convert to solid](/Part_MakeSolid "Part MakeSolid")**
 6. Select the newly created solid
-7. Go to **Part → Create a copy → [Refine shape](/Part_RefineShape "Part RefineShape")** or press the ![](/src/assets/images/Part_RefineShape.svg) [Part RefineShape](/Part_RefineShape "Part RefineShape") button
+7. Go to **Part → Create a copy → [Refine shape](/Part_RefineShape "Part RefineShape")** or press the ![](/images/Part_RefineShape.svg) [Part RefineShape](/Part_RefineShape "Part RefineShape") button
 
 **Note:** The last step is not necessary, but it will clean the solid of most of its residual edges on planar and cylindrical surfaces.
 

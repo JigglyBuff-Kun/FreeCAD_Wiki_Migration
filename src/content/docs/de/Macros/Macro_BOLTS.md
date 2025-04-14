@@ -32,7 +32,7 @@ Das Ziel von BOLTS ist es, eine freie Open Source Standardteilebibliothek für C
 
 BOLTS für FreeCAD stellt eine Seitenleiste bereit, die es erlaubt, Teile in das aktuelle Document einzufügen. Die Größe und andere Eigenschaften können bequem ausgewählt werden. Das eingefügte Teil erhält automatisch einen aussagekräftigen Namen.
 
-![The BOLTS widget and a bearing from BOLTS](/src/assets/images/Freecad-bearing.png)
+![The BOLTS widget and a bearing from BOLTS](/images/Freecad-bearing.png)
 
 Das BOLTS-Widget und ein Lager von BOLTS
 

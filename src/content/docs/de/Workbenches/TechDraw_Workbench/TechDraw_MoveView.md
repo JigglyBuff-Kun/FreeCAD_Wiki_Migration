@@ -29,8 +29,8 @@ Das Werkzeug **TechDraw AnsichtVerschieben** bewegt eine Ansicht mit all ihren a
 
 1. Wahlweise eine Ansicht, eine Von-Seite und eine Nach-Seite auswählen. Die Seiten müssen in dieser Reihenfolge ausgewählt werden.
 2. Es gibt mehrere Möglichkeiten das Werkzeug aufzurufen:
-   - Die Schaltfläche ![](/src/assets/images/TechDraw_MoveView.svg) Ansicht verschieben drücken.
-   - Den Menüeintrag **TechDraw → TechDraw Ansichten → ![](/src/assets/images/TechDraw_MoveView.svg) Ansicht verschieben** auswählen.
+   - Die Schaltfläche ![](/images/TechDraw_MoveView.svg) Ansicht verschieben drücken.
+   - Den Menüeintrag **TechDraw → TechDraw Ansichten → ![](/images/TechDraw_MoveView.svg) Ansicht verschieben** auswählen.
 3. Es öffnet sich ein Dialog, der es erlaubt, eine Ansicht, eine Von-Seite und eine Nach-Seite auszuwählen.
 4. Die Schaltfläche OK drücken.
 

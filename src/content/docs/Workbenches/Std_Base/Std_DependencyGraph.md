@@ -25,7 +25,7 @@ It can be useful in analyzing a FreeCAD document and locating forks in a tree. T
 
 The dependency graph is purely a visualization tool, therefore it cannot be edited. It automatically updates if changes are made to the model.
 
-![](/src/assets/images/Std_DependencyGraph_example.svg)
+![](/images/Std_DependencyGraph_example.svg)
 
 Example of a dependency graph with a PartDesign body on the left and an object created with Part operations on the right
 
@@ -33,7 +33,7 @@ Example of a dependency graph with a PartDesign body on the left and an object c
 
 To use the command a third-party software named [Graphviz](https://graphviz.org/) needs to be installed. If you do not have it pre-installed or it is installed in an unconventional location, FreeCAD will display the following dialog:
 
-![](/src/assets/images/FreeCAD-0.17-missing-Graphviz-error-dialogue.png)
+![](/images/FreeCAD-0.17-missing-Graphviz-error-dialogue.png)
 
 The saved path can be changed in the [Parameter Editor](/Std_DlgParameter "Std DlgParameter") under **BaseApp → Preferences → Paths → Graphviz**.
 
@@ -143,7 +143,7 @@ And therefore you can point FreeCAD to look in that directory.
 
 ## Usage
 
-1. Select the **Tools → ![](/src/assets/images/Std_DependencyGraph.svg) Dependency graph...** option from the menu.
+1. Select the **Tools → ![](/images/Std_DependencyGraph.svg) Dependency graph...** option from the menu.
 2. A new tab titled **Dependency graph** opens in the [Main view area](/Main_view_area "Main view area").
 3. Use the mouse scroll wheel to zoom in or out.
 4. Use the sliders at the bottom and at the right of the screen to pan the view. Alternatively hold down the left mouse button and move the mouse.

@@ -21,7 +21,7 @@ title: Drawing ProjectShape
 
 This tool creates a projection of the selected object (Source) in the 3D view.
 
-![](/src/assets/images/ProjectShape1_it.png)
+![](/images/ProjectShape1_it.png)
 
 ## Usage
 

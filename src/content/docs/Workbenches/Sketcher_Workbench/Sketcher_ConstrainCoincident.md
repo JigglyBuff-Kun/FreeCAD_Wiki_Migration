@@ -19,7 +19,7 @@ title: Sketcher ConstrainCoincident
 
 ## Description
 
-The ![](/src/assets/images/Sketcher_ConstrainCoincident.svg) [Sketcher ConstrainCoincident](/Sketcher_ConstrainCoincident "Sketcher ConstrainCoincident") tool creates a coincident constraint between points, or ([introduced in 0.21](/Release_notes_0.21 "Release notes 0.21")) a concentric constraint between circles, arcs and/or ellipses (by making their centers coincident).
+The ![](/images/Sketcher_ConstrainCoincident.svg) [Sketcher ConstrainCoincident](/Sketcher_ConstrainCoincident "Sketcher ConstrainCoincident") tool creates a coincident constraint between points, or ([introduced in 0.21](/Release_notes_0.21 "Release notes 0.21")) a concentric constraint between circles, arcs and/or ellipses (by making their centers coincident).
 
 [introduced in 1.0](/Release_notes_1.0 "Release notes 1.0"): This tool is replaced by the [Sketcher ConstrainCoincidentUnified](/Sketcher_ConstrainCoincidentUnified "Sketcher ConstrainCoincidentUnified") tool if the **Unify Coincident and PointOnObject** option is selected in the [preferences](/Sketcher_Preferences#General "Sketcher Preferences").
 
@@ -31,8 +31,8 @@ See also: [Drawing aids](/Sketcher_Workbench#Drawing_aids "Sketcher Workbench").
 
 1. Make sure there is no selection.
 2. There are several ways to invoke the tool:
-   - Press the ![](/src/assets/images/Sketcher_ConstrainCoincident.svg) [Constrain coincident](/Sketcher_ConstrainCoincident "Sketcher ConstrainCoincident") button.
-   - Select the **Sketch → Sketcher constraints → ![](/src/assets/images/Sketcher_ConstrainCoincident.svg) Constrain coincident** option from the menu.
+   - Press the ![](/images/Sketcher_ConstrainCoincident.svg) [Constrain coincident](/Sketcher_ConstrainCoincident "Sketcher ConstrainCoincident") button.
+   - Select the **Sketch → Sketcher constraints → ![](/images/Sketcher_ConstrainCoincident.svg) Constrain coincident** option from the menu.
    - Use the keyboard shortcut: C.
 3. The cursor changes to a cross with the tool icon.
 4. Do one of the following:

@@ -21,7 +21,7 @@ title: TechDraw Balloon
 
 The **TechDraw Balloon** tool can add balloons with leader line in a drawing.
 
-![](/src/assets/images/Techdraw_balloon.png)
+![](/images/Techdraw_balloon.png)
 
 ## Usage
 
@@ -31,8 +31,8 @@ The **TechDraw Balloon** tool can add balloons with leader line in a drawing.
    - An edge in a View.
    - A closed region in a View.
 2. There are several ways to invoke the tool:
-   - Press the ![](/src/assets/images/TechDraw_Balloon.svg) [Insert Balloon Annotation](/TechDraw_Balloon "TechDraw Balloon") button.
-   - Select the **TechDraw → Annotations → ![](/src/assets/images/TechDraw_Balloon.svg) Insert Balloon Annotation** option from the menu.
+   - Press the ![](/images/TechDraw_Balloon.svg) [Insert Balloon Annotation](/TechDraw_Balloon "TechDraw Balloon") button.
+   - Select the **TechDraw → Annotations → ![](/images/TechDraw_Balloon.svg) Insert Balloon Annotation** option from the menu.
 3. If a View or a region was selected:
    1. The cursor changes to a balloon icon.
    2. Click a point on the page for the origin of the Balloon.
@@ -47,7 +47,7 @@ To change the properties of a Balloon double-click it on the page or in the [Tre
 
 When using a rectangle shape, separators can be added using "|" in the text. For example "AAA|TEST|111" gives:
 
-![](/src/assets/images/Balloon_separator.png)
+![](/images/Balloon_separator.png)
 
 ## Properties
 
@@ -57,9 +57,9 @@ When using a rectangle shape, separators can be added using "|" in the text. For
 - Data**Source View**: Source View for the balloon.
 - Data**Origin X**: Balloon origin x-position relative to the View.
 - Data**Origin Y**: Balloon origin y-position relative to the View.
-- Data**End Type**: End symbol for the balloon line. Options: ![](/src/assets/images/Arrowfilled.svg) Filled Arrow, ![](/src/assets/images/Arrowopen.svg) Open Arrow, ![](/src/assets/images/Arrowtick.svg) Tick, ![](/src/assets/images/Arrowdot.svg) Dot, ![](/src/assets/images/Arrowopendot.svg) Open Circle, ![](/src/assets/images/Arrowfork.svg) Fork, ![](/src/assets/images/Arrowpyramid.svg) Filled Triangle, None.
+- Data**End Type**: End symbol for the balloon line. Options: ![](/images/Arrowfilled.svg) Filled Arrow, ![](/images/Arrowopen.svg) Open Arrow, ![](/images/Arrowtick.svg) Tick, ![](/images/Arrowdot.svg) Dot, ![](/images/Arrowopendot.svg) Open Circle, ![](/images/Arrowfork.svg) Fork, ![](/images/Arrowpyramid.svg) Filled Triangle, None.
 - Data**End Type Scale**: Scale factor for the **End Type**.
-- Data**Bubble Shape**: Shape of the balloon bubble. Options: ![](/src/assets/images/Circular.svg) Circular, None, ![](/src/assets/images/Triangle.svg) Triangle, ![](/src/assets/images/Inspection.svg) Inspection, ![](/src/assets/images/Hexagon.svg) Hexagon, ![](/src/assets/images/TechDraw_Square.svg) Square, ![](/src/assets/images/Rectangle.svg) Rectangle.
+- Data**Bubble Shape**: Shape of the balloon bubble. Options: ![](/images/Circular.svg) Circular, None, ![](/images/Triangle.svg) Triangle, ![](/images/Inspection.svg) Inspection, ![](/images/Hexagon.svg) Hexagon, ![](/images/TechDraw_Square.svg) Square, ![](/images/Rectangle.svg) Rectangle.
 - Data**Shape Scale**: Scale factor for the **Shape**.
 - Data**Text Wrap**: Text wrap length; -1 means the text will never be wrapped and the result is in every case a single line.
 - Data**Kink Length**: Distance from the **Shape** to the leader line kink.

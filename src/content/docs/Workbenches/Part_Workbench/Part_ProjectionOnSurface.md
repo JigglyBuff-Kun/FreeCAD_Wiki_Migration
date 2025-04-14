@@ -19,18 +19,18 @@ title: Part ProjectionOnSurface
 
 ## Description
 
-![](/src/assets/images/Part_ProjectionOnSurface.svg) [Part ProjectionOnSurface](/Part_ProjectionOnSurface "Part ProjectionOnSurface") is used to project a [Shape](/Shape "Shape") on top of a face from another object; this can be used to project a logo or textual object (see ![](/src/assets/images/Draft_ShapeString.svg) [Draft ShapeString](/Draft_ShapeString "Draft ShapeString")) onto different surfaces to create interesting effects.
+![](/images/Part_ProjectionOnSurface.svg) [Part ProjectionOnSurface](/Part_ProjectionOnSurface "Part ProjectionOnSurface") is used to project a [Shape](/Shape "Shape") on top of a face from another object; this can be used to project a logo or textual object (see ![](/images/Draft_ShapeString.svg) [Draft ShapeString](/Draft_ShapeString "Draft ShapeString")) onto different surfaces to create interesting effects.
 
-Given a source [Shape](/Shape "Shape"), this tool can project edges, wires (closed edges), or entire faces from it; the result can be new edges, new wires, new faces, or even new extruded solids which can be used in ![](/src/assets/images/Part_Boolean.svg) [boolean operations](/Part_Boolean "Part Boolean") for effects such as engraving or stamping.
+Given a source [Shape](/Shape "Shape"), this tool can project edges, wires (closed edges), or entire faces from it; the result can be new edges, new wires, new faces, or even new extruded solids which can be used in ![](/images/Part_Boolean.svg) [boolean operations](/Part_Boolean "Part Boolean") for effects such as engraving or stamping.
 
-![](/src/assets/images/Part_ProjectionOnSurface1.png) ![](/src/assets/images/Part_ProjectionOnSurface2.png)
+![](/images/Part_ProjectionOnSurface1.png) ![](/images/Part_ProjectionOnSurface2.png)
 
 Projection of a logo on a curved surface.
 
 ## Usage
 
 1. Make sure you have at least two objects in your document; the "source" object that you wish to project, and the "target" object where the projection will be made.
-2. Click on ![](/src/assets/images/Part_ProjectionOnSurface.svg) [Projection on surface](/Part_ProjectionOnSurface "Part ProjectionOnSurface") to launch a [task panel](/Task_panel "Task panel") with various options.
+2. Click on ![](/images/Part_ProjectionOnSurface.svg) [Projection on surface](/Part_ProjectionOnSurface "Part ProjectionOnSurface") to launch a [task panel](/Task_panel "Task panel") with various options.
 3. Click on Select projection surface, and then click on the "target" surface where the projection will be created.
 4. Then click on the specific button to choose the type of subelement that you want to add to your projection object.
    - Add face: select a source face.
@@ -39,9 +39,9 @@ Projection of a logo on a curved surface.
    - Once a button is depressed, pick a subelement in the [3D view](/3D_view "3D view"). If you wish to deselect it, pick the same element again.
    - When you are satisfied with your selection, press the same Add... button to leave the selection mode.
 5. Then click on the specific radiobutton to choose the type of projection shape to create.
-   - ![](/src/assets/images/RadioButtonTrue.svg) Show all: it will show all types of closed wires and edges on the target surface. If a "face" subelement was selected in the previous step, a preview of a solid object extruded from the projection will be shown, depending on the value of **Extrude height**.
-   - ![](/src/assets/images/RadioButtonTrue.svg) Show faces: it will show a preview of a filled face on the target surface. This will only work if you selected a "face" subelement in the previous step; if you selected a closed "wire", only the edges (no face) will be created as projection; if you selected "edges", only those edges will be created as projection.
-   - ![](/src/assets/images/RadioButtonTrue.svg) Show edges: it will show a preview of the edges on the target surface. This will work whether you added a "face", "wire", or "edge" subelement in the previous step; even if you added a filled "face", only the edges will be created as projection.
+   - ![](/images/RadioButtonTrue.svg) Show all: it will show all types of closed wires and edges on the target surface. If a "face" subelement was selected in the previous step, a preview of a solid object extruded from the projection will be shown, depending on the value of **Extrude height**.
+   - ![](/images/RadioButtonTrue.svg) Show faces: it will show a preview of a filled face on the target surface. This will only work if you selected a "face" subelement in the previous step; if you selected a closed "wire", only the edges (no face) will be created as projection; if you selected "edges", only those edges will be created as projection.
+   - ![](/images/RadioButtonTrue.svg) Show edges: it will show a preview of the edges on the target surface. This will work whether you added a "face", "wire", or "edge" subelement in the previous step; even if you added a filled "face", only the edges will be created as projection.
 6. Press the OK to complete the operation and produce the new projection object.
 
 Notes:
@@ -53,7 +53,7 @@ Notes:
 
 ## Options
 
-- **Extrude height**: it is the height of the solid shape that is created by extruding the projected face, from the target surface and along the negative of the projection direction. For example, if the projection direction is along +Y `(0, 1, 0)`, the extrusion will be created in the direction -Y `(0, -1, 0)`. This solid extrusion will only be created if the subelement selected was a closed face, by pressing the Add face button, and by choosing the ![](/src/assets/images/RadioButtonTrue.svg) Show all option.
+- **Extrude height**: it is the height of the solid shape that is created by extruding the projected face, from the target surface and along the negative of the projection direction. For example, if the projection direction is along +Y `(0, 1, 0)`, the extrusion will be created in the direction -Y `(0, -1, 0)`. This solid extrusion will only be created if the subelement selected was a closed face, by pressing the Add face button, and by choosing the ![](/images/RadioButtonTrue.svg) Show all option.
 - **Solid depth**: it is the distance that the projection object is moved along the projection direction. Negative values will displace the object in the opposite direction; this allows creating a projection that is offset from the target surface.
 
 ## Limitations
@@ -62,9 +62,9 @@ The projection algorithm sometimes is not able to create a valid projection face
 
 If this happens:
 
-- Check if your source face is valid; try running the ![](/src/assets/images/Part_CheckGeometry.svg) [CheckGeometry](/Part_CheckGeometry "Part CheckGeometry") tool for clues.
+- Check if your source face is valid; try running the ![](/images/Part_CheckGeometry.svg) [CheckGeometry](/Part_CheckGeometry "Part CheckGeometry") tool for clues.
 - Check if the projection direction is valid. Can the source face be realistically projected onto the target surface? Would a straight projection hit the surface? Adjust the camera so that the source face is in front of the target surface, and try again.
-- Try to use the ![](/src/assets/images/RadioButtonTrue.svg) Show edges option. Are the edges projected correctly? Try to create a face with the edges by hand.
+- Try to use the ![](/images/RadioButtonTrue.svg) Show edges option. Are the edges projected correctly? Try to create a face with the edges by hand.
 
 The projection done in the Part workbench is not parametric. If you need a parametric workflow, please consult with the [`Projection` class](https://gist.github.com/CsatiZoltan/f4fd10bf20923143ba0e0678ea1d3d61), which is a Python scripted object, intended for programmatic use.
 

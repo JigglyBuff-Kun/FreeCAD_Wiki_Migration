@@ -21,7 +21,7 @@ title: TechDraw ToggleFrame
 
 The **TechDraw ToggleFrame** tool turns the display of View frames, labels and vertices on or off.
 
-![](/src/assets/images/TechDraw_ToggleFrame.png)
+![](/images/TechDraw_ToggleFrame.png)
 
 View of the solid projection with frames turned on and turned off
 
@@ -29,8 +29,8 @@ View of the solid projection with frames turned on and turned off
 
 1. If there are multiple drawing pages in the document: optionally activate the desired page by selecting it in the [Tree view](/Tree_view "Tree view").
 2. There are several ways to invoke the tool:
-   - Press the ![](/src/assets/images/TechDraw_ToggleFrame.svg) [Turn View Frames On/Off](/TechDraw_ToggleFrame "TechDraw ToggleFrame") button.
-   - Select the **TechDraw → TechDraw Views → ![](/src/assets/images/TechDraw_ToggleFrame.svg) Turn View Frames On/Off** option from the menu.
+   - Press the ![](/images/TechDraw_ToggleFrame.svg) [Turn View Frames On/Off](/TechDraw_ToggleFrame "TechDraw ToggleFrame") button.
+   - Select the **TechDraw → TechDraw Views → ![](/images/TechDraw_ToggleFrame.svg) Turn View Frames On/Off** option from the menu.
    - If a page is displayed in the [Main view area](/Main_view_area "Main view area"): right-click the page's window and select the **Toggle Frames** option from the context menu.
 3. If there are multiple drawing pages in the document and you have not yet activated a page, the **Page Chooser** dialog box opens:
    1. Select the desired page.
@@ -42,7 +42,7 @@ View of the solid projection with frames turned on and turned off
 
 The dotted view frame and the vertex dots are just for reference, they aren't actually part of the drawing, so you won't see them once you export the page as PDF or SVG.
 
-The suggested workflow is to use ![](/src/assets/images/TechDraw_ToggleFrame.svg) [Turn View Frames On/Off](/TechDraw_ToggleFrame "TechDraw ToggleFrame") to deactivate the frame surrounding the view, and also the additional dots. With the dots, use the measurement tools to select the correct edges to measure, then toggle the frame (and dots) off to see the final result. Not satisfied? Toggle the frame (and dots) on again, select other vertices and create new measurements, then toggle the frame off again.
+The suggested workflow is to use ![](/images/TechDraw_ToggleFrame.svg) [Turn View Frames On/Off](/TechDraw_ToggleFrame "TechDraw ToggleFrame") to deactivate the frame surrounding the view, and also the additional dots. With the dots, use the measurement tools to select the correct edges to measure, then toggle the frame (and dots) off to see the final result. Not satisfied? Toggle the frame (and dots) on again, select other vertices and create new measurements, then toggle the frame off again.
 
 You can adjust the size of the vertex dots in the [TechDraw Preferences/Scale tab](/TechDraw_Preferences#Scale "TechDraw Preferences"). Please do not set their size to zero, just small or big enough so it's comfortable for you to pick them up.
 

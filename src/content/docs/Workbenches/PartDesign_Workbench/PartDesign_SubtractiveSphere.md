@@ -21,13 +21,13 @@ title: PartDesign SubtractiveSphere
 
 Inserts a subtractive sphere in the active Body. Its shape is subtracted from the existing solid.
 
-![](/src/assets/images/PartDesign_SubtractiveSphere_example.svg)
+![](/images/PartDesign_SubtractiveSphere_example.svg)
 
 _On the left: active body (A) shown in grey and subtractive sphere (B) shown in transparent red; result on the right._
 
 ## Usage
 
-1. Press the ![](/src/assets/images/PartDesign_SubtractiveSphere.svg) **Subtractive Sphere** button. **Note**: the Subtractive Sphere is part of an icon menu labelled _Create an additive primitive_. After launching FreeCAD, the Subtractive Box is the one displayed in the toolbar. To get the Sphere, click on the down arrow besides the visible icon and select Subtractive Sphere in the menu.
+1. Press the ![](/images/PartDesign_SubtractiveSphere.svg) **Subtractive Sphere** button. **Note**: the Subtractive Sphere is part of an icon menu labelled _Create an additive primitive_. After launching FreeCAD, the Subtractive Box is the one displayed in the toolbar. To get the Sphere, click on the down arrow besides the visible icon and select Subtractive Sphere in the menu.
 2. Set the Primitive parameters and [Attachment](/Part_EditAttachment "Part EditAttachment").
 3. Click OK.
 4. A Sphere feature appears under the active Body.

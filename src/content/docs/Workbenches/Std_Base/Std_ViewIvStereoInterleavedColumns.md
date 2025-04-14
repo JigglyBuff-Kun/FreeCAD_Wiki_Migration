@@ -23,7 +23,7 @@ The **Std ViewIvStereoInterleavedColumns** command changes the active [3D view](
 
 ## Usage
 
-1. Select the **View → Stereo → ![](/src/assets/images/Std_ViewIvStereoInterleavedColumns.svg) Stereo interleaved Columns** option from the menu.
+1. Select the **View → Stereo → ![](/images/Std_ViewIvStereoInterleavedColumns.svg) Stereo interleaved Columns** option from the menu.
 
 ## Preferences
 

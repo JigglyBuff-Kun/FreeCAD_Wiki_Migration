@@ -23,7 +23,7 @@ Der Befehl **Std ProjekteZusammenführen** fügt den Inhalt einer FreeCAD-Datei 
 
 ## Anwendung
 
-1. Den Menüeintrag **Datei → ![](/src/assets/images/Std_MergeProjects.svg) Dokument zusammenführen...** auswählen.
+1. Den Menüeintrag **Datei → ![](/images/Std_MergeProjects.svg) Dokument zusammenführen...** auswählen.
 2. Eine FreeCAD-Datei im Dialogfenster auswählen.
 3. Die Schaltfläche Öffnen drücken.
 

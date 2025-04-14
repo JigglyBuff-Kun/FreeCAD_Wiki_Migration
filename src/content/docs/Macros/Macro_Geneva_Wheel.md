@@ -30,7 +30,7 @@ title: Geneva Wheel
 
 Allows the user to create a Geneva wheel mechanism from scratch. Must edit values within the Macro to alter the size of the object.
 
-![](/src/assets/images/Geneva.png)
+![](/images/Geneva.png)
 
 ## How To Use
 
@@ -46,7 +46,7 @@ This Macro creates the main parts of a Geneva Wheel Mechanism. It depends on six
 
 ## Script
 
-ToolBar Icon ![](/src/assets/images/GW_Dim.png)
+ToolBar Icon ![](/images/GW_Dim.png)
 
 **Macro_Geneva_Wheel.FCMacro**
 

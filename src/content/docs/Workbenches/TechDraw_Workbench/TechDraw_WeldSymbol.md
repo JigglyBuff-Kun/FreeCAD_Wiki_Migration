@@ -21,7 +21,7 @@ title: TechDraw WeldSymbol
 
 The **TechDraw WeldingSymbol** tool adds welding specifications to an existing leader line.
 
-![](/src/assets/images/TechDraw_WeldingSymbol_example.png)
+![](/images/TechDraw_WeldingSymbol_example.png)
 
 Welding specification added to a leader line
 
@@ -29,8 +29,8 @@ Welding specification added to a leader line
 
 1. Select an existing [leaderline](/TechDraw_LeaderLine "TechDraw LeaderLine").
 2. There are several ways to invoke the tool:
-   - Press the ![](/src/assets/images/TechDraw_WeldSymbol.svg) [Add Welding Information to Leaderline](/TechDraw_WeldSymbol "TechDraw WeldSymbol") button.
-   - Select the **TechDraw → Symbols → ![](/src/assets/images/TechDraw_WeldSymbol.svg) Add Welding Information to Leaderline** option from the menu.
+   - Press the ![](/images/TechDraw_WeldSymbol.svg) [Add Welding Information to Leaderline](/TechDraw_WeldSymbol "TechDraw WeldSymbol") button.
+   - Select the **TechDraw → Symbols → ![](/images/TechDraw_WeldSymbol.svg) Add Welding Information to Leaderline** option from the menu.
 3. A task panel opens.
 4. Specify the welding symbols and accompanying text to be added to the leader line.
 5. Press the OK button.
@@ -96,8 +96,8 @@ App.activeDocument().DrawTileWeld001.CenterText = "center text"
 
 Individual symbols are formed by 64x64 pixel SVG files. Additional symbols can be created in an SVG program like [Inkscape](https://en.wikipedia.org/wiki/Inkscape) using one of the symbols supplied by FreeCAD as a template.
 
-![](/src/assets/images/Techdraw-WeldingSymbolLayoutArrow.svg)
-![](/src/assets/images/Techdraw-WeldingSymbolLayoutOther.svg)
+![](/images/Techdraw-WeldingSymbolLayoutArrow.svg)
+![](/images/Techdraw-WeldingSymbolLayoutOther.svg)
 
 - Individual symbols are formed by 64x64 (nominal) pixel SVG files. The tiles actually have a "border" of 4px. The border ensures that the leader line and symbol meet nicely.
 - The symbol is drawn in black on a transparent background. The stroke width is 0.5mm.

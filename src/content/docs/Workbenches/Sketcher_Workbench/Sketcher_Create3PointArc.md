@@ -19,15 +19,15 @@ title: Sketcher Create3PointArc
 
 ## Description
 
-The ![](/src/assets/images/Sketcher_Create3PointArc.svg) [Sketcher Create3PointArc](/Sketcher_Create3PointArc "Sketcher Create3PointArc") tool creates an arc by its endpoints and a point along the arc. [introduced in 1.0](/Release_notes_1.0 "Release notes 1.0"): This is the same tool as [Sketcher CreateArc](/Sketcher_CreateArc "Sketcher CreateArc") but with a different initial mode.
+The ![](/images/Sketcher_Create3PointArc.svg) [Sketcher Create3PointArc](/Sketcher_Create3PointArc "Sketcher Create3PointArc") tool creates an arc by its endpoints and a point along the arc. [introduced in 1.0](/Release_notes_1.0 "Release notes 1.0"): This is the same tool as [Sketcher CreateArc](/Sketcher_CreateArc "Sketcher CreateArc") but with a different initial mode.
 
 ## Usage
 
 See also: [Drawing aids](/Sketcher_Workbench#Drawing_aids "Sketcher Workbench").
 
 1. There are several ways to invoke the tool:
-   - Press the ![](/src/assets/images/Sketcher_Create3PointArc.svg) [Endpoints and rim point](/Sketcher_Create3PointArc "Sketcher Create3PointArc") button.
-   - Select the **Sketcher → Sketcher geometries → ![](/src/assets/images/Sketcher_Create3PointArc.svg) Create arc by 3 points** option from the menu.
+   - Press the ![](/images/Sketcher_Create3PointArc.svg) [Endpoints and rim point](/Sketcher_Create3PointArc "Sketcher Create3PointArc") button.
+   - Select the **Sketcher → Sketcher geometries → ![](/images/Sketcher_Create3PointArc.svg) Create arc by 3 points** option from the menu.
    - Use the keyboard shortcut: G then 3, then A.
 2. For further steps see [Sketcher CreateArc](/Sketcher_CreateArc#Usage "Sketcher CreateArc").
 

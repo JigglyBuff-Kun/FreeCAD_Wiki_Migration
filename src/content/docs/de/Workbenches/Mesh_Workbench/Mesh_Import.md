@@ -24,9 +24,9 @@ Der Befehl **Mesh Import** importiert Geometrie aus einem Netz-Dateiformat in da
 ## Anwendung
 
 1. - Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
-   - Die Schaltfläche ![](/src/assets/images/Mesh_Import.svg) Netz importieren... drücken.
-   - Den Menüeintrag **Netze → ![](/src/assets/images/Mesh_Import.svg) Netz importieren...** auswählen.
-   - Die Menüoption **![](/src/assets/images/Mesh_Import.svg) Netz importieren...** im Kontextmenü der [Baumansicht](/Tree_view/de "Tree view/de") oder der [3D-Ansicht](/3D_view/de "3D view/de") auswählen. Diese Option steht nur zur Verfügung, wenn ein vorhandenes Netzobjekt ausgewählt wurde. Man beachte, dass das ausgewählte Objekt durch den Befehl eigentlich nicht verwendet oder verändert wird.
+   - Die Schaltfläche ![](/images/Mesh_Import.svg) Netz importieren... drücken.
+   - Den Menüeintrag **Netze → ![](/images/Mesh_Import.svg) Netz importieren...** auswählen.
+   - Die Menüoption **![](/images/Mesh_Import.svg) Netz importieren...** im Kontextmenü der [Baumansicht](/Tree_view/de "Tree view/de") oder der [3D-Ansicht](/3D_view/de "3D view/de") auswählen. Diese Option steht nur zur Verfügung, wenn ein vorhandenes Netzobjekt ausgewählt wurde. Man beachte, dass das ausgewählte Objekt durch den Befehl eigentlich nicht verwendet oder verändert wird.
 2. Wahlweise das richtige Dateiformat im Dialogfeld auswählen.
 3. Eine Datei auswählen.
 4. Die Schaltfläche Öffnen drücken.

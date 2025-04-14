@@ -27,15 +27,15 @@ For detailed workbench use description see **index.pdf** in the source code or [
 
 Toolbar
 
-![](/src/assets/images/PCB-menu-orizz.png)
+![](/images/PCB-menu-orizz.png)
 
 Drop down menu
 
-![](/src/assets/images/PCB-export-BOM.png)
-![](/src/assets/images/PCB-export-hole.png)
-![](/src/assets/images/PCB-create-new.png)
-![](/src/assets/images/PCB-explode.png)
-![](/src/assets/images/PCB-bounding-box.png)
+![](/images/PCB-export-BOM.png)
+![](/images/PCB-export-hole.png)
+![](/images/PCB-create-new.png)
+![](/images/PCB-explode.png)
+![](/images/PCB-bounding-box.png)
 
 ## Installation
 

@@ -10,7 +10,7 @@ Objects in a FreeCAD document vary widely in type, as each workbench introduces 
 
 FreeCAD documents are saved in the .FCStd file format, which utilizes a zip-based compound structure akin to formats used by software like LibreOffice. If technical issues arise, the document can often be unzipped, allowing direct access to its contents for troubleshooting or data recovery purposes. This capability provides an additional safety net, ensuring that your design work can be preserved and recovered even under unexpected circumstances.
 
-![](/src/assets/images/FreeCAD_022_Document.png)
+![](/images/FreeCAD_022_Document.png)
 
 **Read more**
 

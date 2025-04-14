@@ -24,7 +24,7 @@ The **Std TreeSyncView** command toggles the [Tree view](/Tree_view "Tree view")
 ## Usage
 
 1. There are several ways to invoke the command:
-   - Click on the black down arrow to the right of the ![](/src/assets/images/Std_TreeSyncView.svg) button and select the **Sync view** option from the flyout. Note: the button image will change depending on the selected option.
+   - Click on the black down arrow to the right of the ![](/images/Std_TreeSyncView.svg) button and select the **Sync view** option from the flyout. Note: the button image will change depending on the selected option.
    - Select the **View → TreeView actions → Sync view** option from the menu.
    - Use the keyboard shortcut: T then 1.
 

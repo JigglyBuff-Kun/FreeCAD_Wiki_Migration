@@ -23,7 +23,7 @@ The **TechDraw SpreadsheetView** tool allows you to place a view of a selected [
 
 [introduced in 1.0](/Release_notes_1.0 "Release notes 1.0"): The [TechDraw View](/TechDraw_View "TechDraw View") tool can also create a Spreadsheet View.
 
-![](/src/assets/images/TechDraw_Spreadsheetview.png)
+![](/images/TechDraw_Spreadsheetview.png)
 
 Spreadsheet element inserted in the TechDraw drawing page
 
@@ -31,7 +31,7 @@ Spreadsheet element inserted in the TechDraw drawing page
 
 1. Select a spreadsheet in the [Tree view](/Tree_view "Tree view").
 2. If there are multiple drawing pages in the document: optionally add the desired page to the selection by selecting it in the [Tree view](/Tree_view "Tree view").
-3. Select the **TechDraw → Views From Other Workbenches → ![](/src/assets/images/TechDraw_SpreadsheetView.svg) Insert Spreadsheet View** option from the menu.
+3. Select the **TechDraw → Views From Other Workbenches → ![](/images/TechDraw_SpreadsheetView.svg) Insert Spreadsheet View** option from the menu.
 4. If there are multiple drawing pages in the document, and if no page is displayed in the [Main view area](/Main_view_area "Main view area") and you have not yet selected a page, the **Page Chooser** dialog box opens:
    1. Select the desired page.
    2. Press the OK button.

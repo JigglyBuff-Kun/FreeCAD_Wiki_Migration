@@ -19,13 +19,13 @@ title: CAM Stop
 
 ## Description
 
-The tool ![](/src/assets/images/CAM_Stop.svg) [Stop](/CAM_Stop "CAM Stop") inserts a Stop command (M1). This command will Pause a running program on the CNC controller, waiting for user interaction to continue.
+The tool ![](/images/CAM_Stop.svg) [Stop](/CAM_Stop "CAM Stop") inserts a Stop command (M1). This command will Pause a running program on the CNC controller, waiting for user interaction to continue.
 
 **Note: this does not stop the spindle.**
 
 ## Usage
 
-1. Press the ![](/src/assets/images/CAM_Stop.svg) [Stop](/CAM_Stop "CAM Stop") button
+1. Press the ![](/images/CAM_Stop.svg) [Stop](/CAM_Stop "CAM Stop") button
 
 ## Properties
 

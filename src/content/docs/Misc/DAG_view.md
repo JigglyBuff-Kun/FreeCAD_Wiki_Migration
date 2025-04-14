@@ -4,7 +4,7 @@ title: DAG view
 
 ## Introduction
 
-The [DAG view](/DAG_view "DAG view") is a [directed acyclic graph](https://en.wikipedia.org/wiki/Directed_acyclic_graph) (DAG) that shows the relationships between different objects in the document. It is meant primarily to show how certain objects depend on others in a complex model with many features and references, such as those that can be created with the ![](/src/assets/images/Workbench_PartDesign.svg) [PartDesign Workbench](/PartDesign_Workbench "PartDesign Workbench").
+The [DAG view](/DAG_view "DAG view") is a [directed acyclic graph](https://en.wikipedia.org/wiki/Directed_acyclic_graph) (DAG) that shows the relationships between different objects in the document. It is meant primarily to show how certain objects depend on others in a complex model with many features and references, such as those that can be created with the ![](/images/Workbench_PartDesign.svg) [PartDesign Workbench](/PartDesign_Workbench "PartDesign Workbench").
 
 The DAG view resembles the graph that can be produced from a Git repository and its branches. Together with the standard [tree view](/Tree_view "Tree view") and the [dependency graph](/Std_DependencyGraph "Std DependencyGraph"), the DAG view is a tool to inspect the parametric history of objects in a document.
 
@@ -12,15 +12,15 @@ The DAG view resembles the graph that can be produced from a Git repository and 
 
 A simple model will be seen with different views.
 
-![](/src/assets/images/FreeCAD_DAG_view_3D.png)
+![](/images/FreeCAD_DAG_view_3D.png)
 
 Model with 2D and 3D shapes.
 
-![](/src/assets/images/FreeCAD_DAG_view_Tree_view.png) ![](/src/assets/images/FreeCAD_DAG_view.png)
+![](/images/FreeCAD_DAG_view_Tree_view.png) ![](/images/FreeCAD_DAG_view.png)
 
 Left: objects shown in the standard [tree view](/Tree_view "Tree view"). Right: objects shown in the DAG view.
 
-![](/src/assets/images/FreeCAD_DAG_view_Std_DependencyGraph.png)
+![](/images/FreeCAD_DAG_view_Std_DependencyGraph.png)
 
 Relationships between the objects shown in the [dependency graph](/Std_DependencyGraph "Std DependencyGraph").
 

@@ -19,9 +19,9 @@ title: Sketcher B-SplineErstellen
 
 ## Beschreibung
 
-Das Werkzeug ![](/src/assets/images/Sketcher_CreateBSpline.svg) Sketcher B-SplineErstellen erstellt eine offene [B-Spline](/B-Splines "B-Splines")-Kurve durch Kontrollpunkte. [eingeführt in 1.0](/Release_notes_1.0/de "Release notes 1.0/de"): Oder wahlweise durch Knotenpunkte.
+Das Werkzeug ![](/images/Sketcher_CreateBSpline.svg) Sketcher B-SplineErstellen erstellt eine offene [B-Spline](/B-Splines "B-Splines")-Kurve durch Kontrollpunkte. [eingeführt in 1.0](/Release_notes_1.0/de "Release notes 1.0/de"): Oder wahlweise durch Knotenpunkte.
 
-![](/src/assets/images/Sketcher_CreateBSpline_Example.png)
+![](/images/Sketcher_CreateBSpline_Example.png)
 
 Eine B-Spline-Kurve (weiß), festgelegt durch 4 Kontrollpunkte.  
 Das Kontrollpolygon (grün) verbindet die Kontrollpunkte (markiert mit dunkelgelben Gewichtskreisen).  
@@ -34,19 +34,19 @@ Die Zahlen [1.00] (grün, in eckigen Klammern) repräsentieren die Gewichte der 
 Siehe auch: [Zeichnungshilfen](/Sketcher_Workbench/de#Zeichnungshilfen "Sketcher Workbench/de").
 
 1. Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
-   - Die Schaltfläche ![](/src/assets/images/Sketcher_CreateBSpline.svg) B-Spline durch Kontrollpunkte drücken.
-   - Den Menüeintrag **Skizze → Skizzengeometrien → ![](/src/assets/images/Sketcher_CreateBSpline.svg) B-Spline erstellen** auswählen.
-   - Ein Rechtsklick in der [3D-Ansicht](/3D_view/de "3D view/de") und die Menüoption **![](/src/assets/images/Sketcher_CreateBSpline.svg) B-Spline erstellen** im Kontextmenü auswählen. [eingeführt in 1.0](/Release_notes_1.0/de "Release notes 1.0/de")
+   - Die Schaltfläche ![](/images/Sketcher_CreateBSpline.svg) B-Spline durch Kontrollpunkte drücken.
+   - Den Menüeintrag **Skizze → Skizzengeometrien → ![](/images/Sketcher_CreateBSpline.svg) B-Spline erstellen** auswählen.
+   - Ein Rechtsklick in der [3D-Ansicht](/3D_view/de "3D view/de") und die Menüoption **![](/images/Sketcher_CreateBSpline.svg) B-Spline erstellen** im Kontextmenü auswählen. [eingeführt in 1.0](/Release_notes_1.0/de "Release notes 1.0/de")
    - Das Tastaturkürzel G dann B dann B.
 2. Der Mauszeiger wandelt sich zu einem Kreuz mit Werkzeugsymbol.
 3. DerAbschnitt **B-Spline-Parameter** ([eingeführt in 1.0](/Release_notes_1.0/de "Release notes 1.0/de")) wird im oberen Bereich des [Sketcher-Dialogs](/Sketcher_Dialog/de "Sketcher Dialog/de") eingefügt.
 4. Wahlweise die M-Taste drücken oder eine der Möglichkeiten im Auswahlfeld Modus des Abschnitts Parameter auswählen, um den Werkzeugmodus zu ändern:
-   - ![](/src/assets/images/Sketcher_CreateBSpline.svg) **Durch Kontrollpunkte**:
+   - ![](/images/Sketcher_CreateBSpline.svg) **Durch Kontrollpunkte**:
      1. Wahlweise den **Grad** anpassen (kann auch nach dem Auswählen der Punkte erfolgen):
         - Eine Zahl größer als null eingeben.
         - Die U-Taste drücken, um den Grad zu erhöhen.
         - Die J-Taste drücken, um den Grad zu verringern.
-   - ![](/src/assets/images/Sketcher_CreateBSplineByInterpolation.svg) **Durch Knoten**: [eingeführt in 1.0](/Release_notes_1.0/de "Release notes 1.0/de")
+   - ![](/images/Sketcher_CreateBSplineByInterpolation.svg) **Durch Knoten**: [eingeführt in 1.0](/Release_notes_1.0/de "Release notes 1.0/de")
      1. B-Splines durch Knoten werden immer mit Grad 3 erstellt, aber der Grad kann nachträglich angepasst werden. Siehe [Hinweise](#Hinweise).
 5. Wahlweise die R-Taste drücken oder die CheckBox **Periodisch** aktivieren, um einen geschlosenen B-Spline zu erstellen (kann auch nach dem Auswählen der Punkte erfolgen). [eingeführt in 1.0](/Release_notes_1.0/de "Release notes 1.0/de")
 6. Mehrere Punkte auswählen.

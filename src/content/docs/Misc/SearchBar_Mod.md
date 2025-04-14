@@ -2,7 +2,7 @@
 title: SearchBar Mod
 ---
 
-![](/src/assets/images/SearchBarModIcon.svg)
+![](/images/SearchBarModIcon.svg)
 
 SearchBar Mod icon
 
@@ -10,7 +10,7 @@ SearchBar Mod icon
 
 This is an extension that adds a search bar next to the [what's this?](/Std_WhatsThis "Std WhatsThis") tool. The search results include tools, objects and preferences. Other mods can extend it by registering a result provider.
 
-![](/src/assets/images/SearchBarModScreenshot.png)
+![](/images/SearchBarModScreenshot.png)
 
 Screenshot of the search bar, with results in its drop-down menu and extra info about the result in a separate pane
 

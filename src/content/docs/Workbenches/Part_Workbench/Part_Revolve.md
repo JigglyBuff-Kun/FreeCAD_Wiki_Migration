@@ -31,7 +31,7 @@ Revolves the selected object around a given axis. The following shape types are 
 
 A [Sketch](/Sketcher_Workbench "Sketcher Workbench") can be used as well. Solids or compound solids are not allowed as input shapes. Normal compounds are currently not allowed either.
 
-![](/src/assets/images/Dialog-revolve.png)
+![](/images/Dialog-revolve.png)
 
 The Angle argument specifies how far the object is to be turned. The coordinates move the origin of the axis of revolving, relative to the origin of the coordinate system.
 

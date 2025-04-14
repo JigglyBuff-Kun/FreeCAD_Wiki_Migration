@@ -19,7 +19,7 @@ title: Cables RemoveVertexAttachment
 
 ## Description
 
-The ![](/src/assets/images/Cables_RemoveVertexAttachment.svg) [Remove Vertex Attachment](/Cables_RemoveVertexAttachment "Cables RemoveVertexAttachment") removes an existing vertex attachment of ![](/src/assets/images/Cables_WireFlex.svg) [WireFlex](/Cables_WireFlex "Cables WireFlex") from external vertex or object. Attachments of vertexes are kept in special properties of WireFlex, for details see [WireFlex Properties](/Cables_WireFlex#Properties "Cables WireFlex").
+The ![](/images/Cables_RemoveVertexAttachment.svg) [Remove Vertex Attachment](/Cables_RemoveVertexAttachment "Cables RemoveVertexAttachment") removes an existing vertex attachment of ![](/images/Cables_WireFlex.svg) [WireFlex](/Cables_WireFlex "Cables WireFlex") from external vertex or object. Attachments of vertexes are kept in special properties of WireFlex, for details see [WireFlex Properties](/Cables_WireFlex#Properties "Cables WireFlex").
 
 Once attachment is removed the wire vertex can be moved freely in 3D space using [Draft Edit](/Draft_Edit "Draft Edit").
 
@@ -27,9 +27,9 @@ Once attachment is removed the wire vertex can be moved freely in 3D space using
 
 1. Select one vertex of an existing [WireFlex](/Cables_WireFlex "Cables WireFlex") object in the [3D view](/3D_view "3D view").
 2. Remove selected vertex attachment by one of these methods:
-   - Press the ![](/src/assets/images/Cables_RemoveVertexAttachment.svg) [Remove Vertex Attachment](/Cables_RemoveVertexAttachment "Cables RemoveVertexAttachment") button.
-   - Select the **Cable Wires → ![](/src/assets/images/Cables_RemoveVertexAttachment.svg) Remove Vertex Attachment** option from the menu.
-   - Right-click in the [Tree view](/Tree_view "Tree view") or the [3D view](/3D_view "3D view") and select the **Cable Wires → ![](/src/assets/images/Cables_RemoveVertexAttachment.svg) Remove Vertex attachment** option from the context menu.
+   - Press the ![](/images/Cables_RemoveVertexAttachment.svg) [Remove Vertex Attachment](/Cables_RemoveVertexAttachment "Cables RemoveVertexAttachment") button.
+   - Select the **Cable Wires → ![](/images/Cables_RemoveVertexAttachment.svg) Remove Vertex Attachment** option from the menu.
+   - Right-click in the [Tree view](/Tree_view "Tree view") or the [3D view](/3D_view "3D view") and select the **Cable Wires → ![](/images/Cables_RemoveVertexAttachment.svg) Remove Vertex attachment** option from the context menu.
 
 ## Notes
 

@@ -21,7 +21,7 @@ title: Arch tutorial
 | _None_                            |
 |                                   |
 
-![](/src/assets/images/Arch_tutorial_00.jpg)
+![](/images/Arch_tutorial_00.jpg)
 
 ## Introduction
 
@@ -63,7 +63,7 @@ The [Arch Workbench](/Arch_Workbench "Arch Workbench") is mainly made for two ki
 
 - Build your model directly in FreeCAD. That is what I will showcase in this tutorial. We will use mostly three workbenches: [Arch](/Arch_Workbench "Arch Workbench"), of course, but also [Draft](/Draft_Workbench "Draft Workbench"), whose tools are all included in Arch, so there is no need to switch workbenches, and [Sketcher](/Sketcher_Workbench "Sketcher Workbench"). Conveniently, you can do as I usually do, which is to create a custom toolbar in your Arch workbench, with Tools → Customize, and add the tools from the sketcher that you use often. This is my "customized" Arch workbench:
 
-![](/src/assets/images/Arch_tutorial_01.jpg)
+![](/images/Arch_tutorial_01.jpg)
 
 In this tutorial, we will model the house in 3D, based on the 2D drawings we'll download from the net, and extract from it 2D documents, such as plans, elevations and sections.
 
@@ -77,7 +77,7 @@ Here, I removed all the detail drawings, all the titleblocks and page layouts, d
 
 This is how the file looks after being opened in FreeCAD. I also changed the thickness of the walls (the contents of the "muros" group), and flipped a couple of doors that were imported with wrong X scale, with the [Draft Scale](/Draft_Scale "Draft Scale") tool:
 
-![](/src/assets/images/Arch_tutorial_02.jpg)
+![](/images/Arch_tutorial_02.jpg)
 
 The [DXF importer](/Draft_DXF "Draft DXF") (which also takes care of DWG files, since when importing DWG files, they are simply converted to DXF first), groups the imported objects by layer. There is no layer in FreeCAD, but there are [groups](/Std_Group "Std Group"). [Groups](/Std_Group "Std Group") offer a similar way to organize the objects of your files, but don't have specific properties, like AutoCAD layers, that apply to their contents. But they can be placed inside other groups, which is very handy. The first thing we might want to do here, is to create a new [group](/Std_Group "Std Group") in the [tree view](/Document_structure "Document structure"), right-click on the document icon, add a group, right click on it to rename it as "base 2D plans", and drag and drop all the other objects into it.
 
@@ -87,19 +87,19 @@ Like most [Arch](/Arch_Workbench "Arch Workbench") objects, [walls](/Arch_Wall "
 
 There are different possible strategies to build walls in FreeCAD. One might want to build a complete "floor plan" with the [sketcher](/Sketcher_Workbench "Sketcher Workbench"), and build one, big, wall object from it. This technique works, but you can only give one thickness for all the walls of the project. Or, you can build each piece of wall from separate line segments. Or, this is what we will do here, a mix of both: We will build a couple of [wires](/Draft_Wire "Draft Wire") on top of the imported plan, one for each type of wall:
 
-![](/src/assets/images/Arch_tutorial_03.jpg)
+![](/images/Arch_tutorial_03.jpg)
 
 As you see, I've drawn in red the lines that will become concrete walls (a [pictures search](http://www.google.com/search?tbm=isch&q=casa+artigas+brooklin) of the house can help you to see the different wall types), the green ones are the exterior brick walls, and the blue ones will become the inner walls. I passed the lines through the doors, because doors will be inserted in the walls later, and will create their openings automatically. Walls can also be aligned left, right or centrally on their baseline, so it doesn't matter which side you draw the baseline. I also took care on avoiding intersections as much as I could, because our model will be cleaner that way. But we'll take care of intersections later.
 
 When this is done, place all those lines in a new [group](/Std_Group "Std Group") if you want, select each line one by one, and press the [Arch Wall](/Arch_Wall "Arch Wall") tool to build a wall from each of them. You can also select several lines at once. After doing that, and correcting widths (exterior walls are 25cm wide, inner walls are 15cm wide) and some alignments, we have our walls ready:
 
-![](/src/assets/images/Arch_tutorial_04.jpg)
+![](/images/Arch_tutorial_04.jpg)
 
 We could also have built our walls from scratch. If you press the [Arch Wall](/Arch_Wall "Arch Wall") button with no object selected, you will be able to click two points on the screen to draw a wall. But under the hood, the wall tool will actually draw a line and build a wall on it. In this case, I found it more didactic to show you how things work.
 
 Did you notice that I took great care not to cross the walls? This will save us some headache later, for example if we export our work to other applications, that might not like it. I have only one intersection, where I was too lazy to draw two small line segments, and drew one big wire crossing another. This must be fixed. Fortunately, all Arch objects have a great feature: you can add one to another. Doing that will unite their geometries, but they are still editable independently after. To add one of our crossing walls to the other, just select one, CTRL + select the other, and press the [Arch Add](/Arch_Add "Arch Add") tool:
 
-![](/src/assets/images/Arch_tutorial_05.jpg)
+![](/images/Arch_tutorial_05.jpg)
 
 On the left are the two intersecting walls, on the right the result after adding one to the other.
 
@@ -117,7 +117,7 @@ To raise the height of our walls, simply select all of them (don't forget the on
 
 Before making our roof and cutting the walls, let's make the remaining objects that will need to be cut: The walls of the above studio, and the columns. The walls of the studio are made the same way as we did, on the superior floor plan, but they will be raised up to level 2.6m. So we will give them the needed height so their top is at 6m too, that is, 3.4m. Once this is done, let's move our walls up by 2.6m: Select them both, put yourself in frontal view (View → Standard Views → Front), press the [Draft Move](/Draft_Move "Draft Move") button, select a first point, then enter 0, 2.6, 0 as coordinates, and press enter. Your objects now have jumped 2.6m high:
 
-![](/src/assets/images/Arch_tutorial_06.jpg)
+![](/images/Arch_tutorial_06.jpg)
 
 **About coordinates**
 
@@ -125,7 +125,7 @@ The [Draft](/Draft_Workbench "Draft Workbench") objects, and most [Arch](/Arch_W
 
 Now let's move our walls horizontally, to their correct location. Since we have points to snap to, this is easier: Select both walls, press the [Draft Move](/Draft_Move "Draft Move") tool, and move them from one point to the other:
 
-![](/src/assets/images/Arch_tutorial_07.jpg)
+![](/images/Arch_tutorial_07.jpg)
 
 Finally, I changed the color of some walls to a brick-like color (so it's easier to differentiate), and made a small correction: Some walls don't go up to the roof, but stop at a height of 2.60m. I corrected the height of those walls.
 
@@ -137,7 +137,7 @@ For our columns, we will use another strategy than with the walls. Instead of "d
 
 After we have converted all our columns to faces, we can use the [Arch Structure](/Arch_Structure "Arch Structure") tool on them, and adjust the height (some have 6m, other only 2.25m height):
 
-![](/src/assets/images/Arch_tutorial_08.jpg)
+![](/images/Arch_tutorial_08.jpg)
 
 On the image above, you can see two columns that are still as they were in the DWG file, two that were upgraded to faces, and two that were turned into structural objects, and their height set to 6m and 2.25m.
 
@@ -149,23 +149,23 @@ Now it is time to build our subtraction volume. The easiest way will be to draw 
 
 Let's draw a volume, bigger than the roof, that will be subtracted from our walls. To do that, I drew two lines on top of the base of the roof, then extended them a bit further with the [Draft Trimex](/Draft_Trimex "Draft Trimex") tool. Then, I drew a [wire](/Draft_Wire "Draft Wire"), snapping on these lines, and going well above our 6 meters. I also drew a blue line on the ground level (0.00), that will be our rotation axis.
 
-![](/src/assets/images/Arch_tutorial_09.jpg)
+![](/images/Arch_tutorial_09.jpg)
 
 Now is the tricky part: We will use the [Draft Rotate](/Draft_Rotate "Draft Rotate") tool to rotate our profile 90 degrees up, in the right position to be extruded. To do that, we must first change the [working plane](/Draft_SelectPlane "Draft SelectPlane") to the YZ plane. Once this is done, the rotation will happen in that plane. But if we do like we did a bit earlier, and set our view to side view, it will be hard to see and select our profile, and to know where is the basepoint around which it must rotate, right? Then we must set the working plane manually: Press the [Draft SelectPlane](/Draft_SelectPlane "Draft SelectPlane") button (it is in the "tasks" tab of the tree view), and set it to YZ (which is the "side" plane). Once you set the working plane manually, like that, it won't change depending on your view. You can now rotate your view until you have a good view of all the things you must select. To switch the working plane back to "automatic" mode later, press the [Draft SelectPlane](/Draft_SelectPlane "Draft SelectPlane") button again and set it to "None".
 
 Now the rotation will be easy to do: Select the profile, press the [Draft Rotate](/Draft_Rotate "Draft Rotate") button, click on a point of the blue line, enter 0 as start angle, and 90 as rotation:
 
-![](/src/assets/images/Arch_tutorial_10.jpg)
+![](/images/Arch_tutorial_10.jpg)
 
 Now all we need to do it to move the profile a bit closer to the model (set the working plane to XY if needed), and extrude it. This can be done either with the [Part Extrude](/Part_Extrude "Part Extrude") tool, or [Draft Trimex](/Draft_Trimex "Draft Trimex"), which also has the special hidden power to extrude faces. Make sure your extrusion is larger than all the walls it will be subtracted from, to avoid face-on-face situations:
 
-![](/src/assets/images/Arch_tutorial_11.jpg)
+![](/images/Arch_tutorial_11.jpg)
 
 Now, here comes into action the contrary of the [Arch Add](/Arch_Add "Arch Add") tool: [Arch Remove](/Arch_Remove "Arch Remove"). As you might have guessed, it also makes an object a child of another, but its shape is subtracted from the host object, instead of being united. So now things are simple: Select the volume to subtract (I renamed it as "Roof volume to subtract" in the tree view so it is easy to spot), CTRL + select a wall, and press the [Arch Remove](/Arch_Remove "Arch Remove") button. You'll see that, after the subtraction happened, the volume to subtract disappeared from both the 3D view and the tree view. That is because it has been marked as child of the wall, and "swallowed" by that wall. Select the wall, expand it in the tree view, there is our volume.
 
 Now, select the volume in the tree vieew, CTRL + select the next wall, press [Arch Remove](/Arch_Remove "Arch Remove"). Repeat for the next walls until you have everything properly cut:
 
-![](/src/assets/images/Arch_tutorial_12.jpg)
+![](/images/Arch_tutorial_12.jpg)
 
 Remember that for both [Arch Add](/Arch_Add "Arch Add") and [Arch Remove](/Arch_Remove "Arch Remove"), the order you select the objects is important. The host is always the last one, like in "Remove X from Y" or "Add X to Y"
 
@@ -177,21 +177,21 @@ Arch objects that support such additions and subtractions (all of them except th
 
 Now, all we have to do to complete the structure, is to make the roof and the smaller inner slabs. Again, the easiest way is to draw their profiles on top of the section, with the [Draft Wire](/Draft_Wire "Draft Wire") tool. Here I drew 3 profiles on top of each other (I moved them apart in the image below so you see better). The green one will be used for the lateral borders of the roof slab, then the blue one for the side parts, and the red ones for the central part, that sits above the bathroom block:
 
-![](/src/assets/images/Arch_tutorial_13.jpg)
+![](/images/Arch_tutorial_13.jpg)
 
 Then, we must repeat the rotation operation above, to rotate the objects in a vertical position, then move them at their correct places, and copy some of them that will need to be extruded twice, with the [[Draft Move|]Draft Move] tool, with the ALT key pressed, which creates copies instead of moving the current object. I also added two more profiles for the side walls of the bathroom opening.
 
-![](/src/assets/images/Arch_tutorial_14.jpg)
+![](/images/Arch_tutorial_14.jpg)
 
 When everything is in place, it's just a matter of using the [Draft Trimex](/Draft_Trimex "Draft Trimex") tool to extrude, then convert them to [Arch Structure](/Arch_Structure "Arch Structure") objects.
 
-![](/src/assets/images/Arch_tutorial_15.jpg)
+![](/images/Arch_tutorial_15.jpg)
 
 After that, we can see some problems arising: two of the columns on the right are too short (they should go up to the roof), and there is a gap between the slab and the walls of the studio on the far right (the 2.60 level symbol on the section view was obviously wrong). Thanks to the parametric objects, all this is very easy to solve: For the columns, just change their height to 6m, fish your roof subtraction volume from the tree view, and subtract it to the columns. For the walls, it's even easier: move them a bit down. Since the subtraction volume remains at the same place, the wall geometry will adapt automatically.
 
 Now one last thing must be fixed, there is a small slab in the bathroom, that intersects some walls. Let's fix that by creating a new subtraction volume, and subtract it from those walls. Another feature of the [Draft Trimex](/Draft_Trimex "Draft Trimex") tool, that we use to extrude stuff, is that it can also extrude one single face of an existing object. This creates a new, separate object, so there is no risk to "harm" the other object. So we can select the base face of the small slab (look at it from beneath the model, you'll see it), then press the [Draft Trimex](/Draft_Trimex "Draft Trimex") button, and extrude it up to well above the roofs. Then, subtract it from the two inner bathroom walls with the [Arch Remove](/Arch_Remove "Arch Remove") tool:
 
-![](/src/assets/images/Arch_tutorial_16.jpg)
+![](/images/Arch_tutorial_16.jpg)
 
 ## Floors, stairs and chimney
 
@@ -201,17 +201,17 @@ Now, our structure is complete, we just have a couple of smaller objects to do.
 
 Let's start with the chimney. Now you already know how it works, right? Draw a couple of closed [wires](/Draft_Wire "Draft Wire"), move them up at their correct height with the [Draft Move](/Draft_Move "Draft Move") tool, extrude them with the [Draft Trimex](/Draft_Trimex "Draft Trimex") tool, turn the bigger one into a [structure](/Arch_Structure "Arch Structure"), and subtract the smaller ones. Notice how the chimney tube wasn't drawn on the plan view, but I found its position by dragging blue lines from the section views.
 
-![](/src/assets/images/Arch_tutorial_17.jpg)
+![](/images/Arch_tutorial_17.jpg)
 
 ### The floors
 
 The floors are not well represented in the base drawings. When looking at the sections, you cannot know where and how thick the floor slabs are. So I will suppose that the walls are sitting on top of foundation blocks, at level 0.00, and that there are floor slabs, also sitting on those blocks, 15cm thick. So the floor slabs don't run under the walls, but around them. We could do that by creating a big rectangular slab then subtracting the walls, but remember, subtraction operations cost us. Better do it in smaller pieces, it will be "cheaper" in terms of calculation, and also if we do it intelligently, room by room, these will also be useful to calculate floor areas later:
 
-![](/src/assets/images/Arch_tutorial_18.jpg)
+![](/images/Arch_tutorial_18.jpg)
 
 Once the wires are drawn, just turn them into [structures](/Arch_Structure "Arch Structure"), and give them a height of 0.15:
 
-![](/src/assets/images/Arch_tutorial_19.jpg)
+![](/images/Arch_tutorial_19.jpg)
 
 ### The stairs
 
@@ -221,15 +221,15 @@ In this case, I preferred to build the stairs on the section view, because we'll
 
 Then, extrude both green wires by 1.30, and rotate and move them to the right position:
 
-![](/src/assets/images/Arch_tutorial_20.jpg)
+![](/images/Arch_tutorial_20.jpg)
 
 On the elevation view, draw (then rotate) the border:
 
-![](/src/assets/images/Arch_tutorial_21.jpg)
+![](/images/Arch_tutorial_21.jpg)
 
 Then move everything into place:
 
-![](/src/assets/images/Arch_tutorial_22.jpg)
+![](/images/Arch_tutorial_22.jpg)
 
 Don't forget also to cut the column that crosses the stairs, because in BIM it's always bad to have intersecting objects. We are building like in the real world, remember, where solid objects cannot intersect. Here, I didn't want to subtract the column directly from the stairs (otherwise the column object would be swallowed by the stairs object in the tree view, and I didn't like that), so I took the face on which the column was built, and extruded it again. This new extrusion was then subtracted from the stairs.
 
@@ -247,7 +247,7 @@ There are two ways to create such objects in FreeCAD: By using a preset, or draw
 
 When pressing the [Arch Window](/Arch_Window "Arch Window") tool with no object selected, you are invited either to pick a 2D layout, or to use one of the presets. Let's use the "Simple Door" preset to place the main entrance door of our model. Give it a width of 1m, a height of 2.45m, a W1 size of 0.15m, and leave the other parameters to 0.05m. Then click the lower left corner of the wall, and your new door is created:
 
-![](/src/assets/images/Arch_tutorial_23.jpg)
+![](/images/Arch_tutorial_23.jpg)
 
 You will notice that your new door won't appear in the tree view. That is because, by snapping to a wall, we indicated that wall as its host object. Consequently, it has been "swallowed" by the wall. But a right click on it → Go to selection will find it in the tree.
 
@@ -259,7 +259,7 @@ So all we need to do now is select the door, press the [Draft Clone](/Draft_Clon
 
 ### Organizing your model
 
-![](/src/assets/images/Arch_tutorial_24.jpg)
+![](/images/Arch_tutorial_24.jpg)
 
 Now would be a good time to do a bit of housecleaning. Since we already have two windows, it is a good moment to do some cleaning in the tree view: Create a new [group](/Std_Group "Std Group"), rename it to "windows", and drop the 2 windows in it. I also recommend you to separate other elements that way, such as the walls and structures. Since you can also create [groups](/Std_Group "Std Group") inside groups, you can organize further, for example by placing all elements that form the roof into a separate group, so it is easy to turn on and off (turning a group visible or invisible does the same with all objects inside).
 
@@ -275,7 +275,7 @@ If by mistake you hosted a window in the wrong wall, it is easy to fix: Remove t
 
 A little work later, all our doors are there:
 
-![](/src/assets/images/Arch_tutorial_25.jpg)
+![](/images/Arch_tutorial_25.jpg)
 
 After a closer look at the elevation view, I now detected another error: The top of the brick walls is not as 2.60m, but 17.5cm lower, that is, 2.425m. Fortunately, windows based on presets have a facility: You can alter their general dimensions (width and height) from their properties. So let's change their height to 2.425 - 0.15, that is, 2.275. The second window, as it is a clone of the first one, will adapt too. This is basically where the true magic of parametric design appears.
 
@@ -287,11 +287,11 @@ As I explained above, [Arch Window](/Arch_Window "Arch Window") objects are crea
 
 So, let's start by building our first window layout. I drew it on the elevation, using several [rectangles](/Draft_Rectangle "Draft Rectangle"): One for the outer line, and 4 for the inner lines. I stopped before the door, because, remember, our door already has a frame there:
 
-![](/src/assets/images/Arch_tutorial_26.jpg)
+![](/images/Arch_tutorial_26.jpg)
 
 Then, select all the rectangles, and press the [Draft To Sketch](/Draft_Draft2Sketch "Draft Draft2Sketch") button (and delete the rectangles, because this tool doesn't delete the original objects, in case something goes wrong). Then, with the new sketch selected, press the [Arch Window](/Arch_Window "Arch Window") tool:
 
-![](/src/assets/images/Arch_tutorial_27.jpg)
+![](/images/Arch_tutorial_27.jpg)
 
 The tool will detect that the layout has one outer wire and several inner wires, and automatically proposes you a default configuration: One frame, made by subtracting the inner wires from the outer one, extruded by 1m. Let's change that, by entering the window's edit mode, by double-clicking on it in the tree view:
 
@@ -299,7 +299,7 @@ You will see a "Default" component, that has been created automatically by the W
 
 Then, let's add 4 new glass panels, each using a single wire, and give them an extrusion of 0.01, and an offset of 0.05, so they are placed at the middle of the frame. This will be how your window looks like when you are finished:
 
-![](/src/assets/images/Arch_tutorial_28.jpg)
+![](/images/Arch_tutorial_28.jpg)
 
 I suppose now you must have understood the power of this system: Any combination of frames and panels of any shape is possible. If you can draw it in 2D, it can exist as a full valid 3D object.
 
@@ -307,15 +307,15 @@ Now, let's draw the other pieces, then we'll move everything into place together
 
 After doing that a couple of times (I made it in 4 separate pieces, but it's up to you to decide), we have our facade complete:
 
-![](/src/assets/images/Arch_tutorial_29.jpg)
+![](/images/Arch_tutorial_29.jpg)
 
 Now, as before, it's just a matter of rotating the pieces, and moving them to their correct position:
 
-![](/src/assets/images/Arch_tutorial_30.jpg)
+![](/images/Arch_tutorial_30.jpg)
 
 Last missing piece, there is a segment of wall that didn't appear on the plan view, that we need to add. We have several options for that, I chose to draw a line on the ground plane, then move it up to the correct height, then create a wall from it. Then, we also need to fish up our roof subtraction volume (it must have stayed in the last column), then subtract it. Now this side of the building is ready:
 
-![](/src/assets/images/Arch_tutorial_31.jpg)
+![](/images/Arch_tutorial_31.jpg)
 
 Ready? Not quite. Look at the image above, we did our doors with a 5cm frame, remember (it was the default from the preset). But the other windows have 2.5cm frames. This needs to be fixed.
 
@@ -327,7 +327,7 @@ the [Sketcher Workbench](/Sketcher_Workbench "Sketcher Workbench") is an extreme
 
 When we edit our door sketch, we can see that it is made on a fully constrained sketch:
 
-![](/src/assets/images/Arch_tutorial_32.jpg)
+![](/images/Arch_tutorial_32.jpg)
 
 Now all we need to do is edit the 5cm distances between the outer line and the inner line, by double-clicking them, and changing their value to 2.5cm (Remember, the units are still not fully functional at the time I'm writing this). After clicking the "OK" button, our door (and its clone) have been updated.
 
@@ -337,53 +337,53 @@ Until now our work has been relatively easy, because we had the underlying 2D dr
 
 One thing we can already do: duplicate the complicated stairs window with the [Draft Move](/Draft_Move "Draft Move") tool, because it is equal on both sides:
 
-![](/src/assets/images/Arch_tutorial_33.jpg)
+![](/images/Arch_tutorial_33.jpg)
 
 Note that here, I preferred to duplicate with the [Draft Move](/Draft_Move "Draft Move") tool instead of using a [clone](/Draft_Clone "Draft Clone"), because the clone currently doesn't support different colors inside objects. The difference is that the clone is a copy of the final shape of the original object, while if you copy an object, you create a new object and give it all the same properties as the original one (therefore, also its base sketch and its window components definition, which are both stored as properties).
 
 Now we must attack the parts that are not drawn anywhere. Let's start with the glass wall between the sitting room and the atrium. It'll be easier to draw it on the elevation view, because we'll get the correct height of the roof. Once you are in plan view, you can rotate the view from the menu View → Standard Views → Rotate left or right, until you get a comfortable view to work, like this:
 
-![](/src/assets/images/Arch_tutorial_34.jpg)
+![](/images/Arch_tutorial_34.jpg)
 
 Note how on the image above, I made a line from the model to the left section, to get the exact width of the window. Then, I reproduced that width on the elevation view and divided it into 4 pieces. Then I built one main window piece, plus 4 additional windows for the sliding doors. The sketcher sometimes has difficulties with overlapping wires, that's why I preferred to keep them separated like this:
 
-![](/src/assets/images/Arch_tutorial_35.jpg)
+![](/images/Arch_tutorial_35.jpg)
 
 After the necessary rotations, everything clicks perfectly into place:
 
-![](/src/assets/images/Arch_tutorial_36.jpg)
+![](/images/Arch_tutorial_36.jpg)
 
 We still need some corner piece there. A little useful trick with the [Draft SelectPlane](/Draft_SelectPlane "Draft SelectPlane") tool, if you have a face selected when you press the button, the working plane matches this face (at least its position, and if the face is rectangular, it also tries to match its axes). This is useful to draw 2D objects directly on the model, such as here, we can draw a rectangle to be extruded directly at its correct position:
 
-![](/src/assets/images/Arch_tutorial_37.jpg)
+![](/images/Arch_tutorial_37.jpg)
 
 Then let's do the two remaining pieces. One is easy, it is a copy of what's on the other side, so we can simply use the 2D drawing:
 
-![](/src/assets/images/Arch_tutorial_38.jpg)
+![](/images/Arch_tutorial_38.jpg)
 
 The other one is a bit tricky, by looking at the pictures, we see that it has many vertical divisions, like the stairs windows. By chance (or very good design from Vilanova Artigas), the width of our window, of 4.50m, is exactly the same as the stairs window, so we can use the exact same division: 15 pieces of 30cm. Here I used the [Draft OrthoArray](/Draft_OrthoArray "Draft OrthoArray") tool to copy over the two lines 15 times,and drew rectangles on top of them:
 
-![](/src/assets/images/Arch_tutorial_39.jpg)
+![](/images/Arch_tutorial_39.jpg)
 
 Once this is done, we can create our window with the same method we already know. Another small useful trick, in case you haven't found it yourself already: When editing a window, if you change the name of a component, it actually creates a duplicate of it. So to create the 15 inner glass panels, instead of clicking 15 times the "add" button and fill 15 times the data, you can just keep editing one, and change its name and wire, it will create a copy each time.
 
 After the window is rotated and moved into place, the atrium is complete:
 
-![](/src/assets/images/Arch_tutorial_40.jpg)
+![](/images/Arch_tutorial_40.jpg)
 
 ## Edits and fixes
 
 Now when we look at our back elevation, and compare it with the plan, we see that there are some differences that need to be fixed. Namely, the bedroom windows are smaller than I first thought, and we'll need to add some more walls. In order to do that properly, some floors need to be cut:
 
-![](/src/assets/images/Arch_tutorial_41.jpg)
+![](/images/Arch_tutorial_41.jpg)
 
 We have of course several ways to do that, making a subtraction volume would be an easy way, but it would add unnecessary complexity to the model. Better to edit the base wire of each floors. This is where the [Draft Edit](/Draft_Edit "Draft Edit") mode comes into action. By expanding these floors in the tree view, then making their base wire visible, we can then double-click them to enter edit mode. There, we can move their points, or add or remove points. With this,editing our floor plates becomes easy.
 
-![](/src/assets/images/Arch_tutorial_42.jpg)
+![](/images/Arch_tutorial_42.jpg)
 
 After some more sweat (the person who made those drawings obviously became pretty lazy when did this last elevation, much is drawn wrong), we finally have our complete house:
 
-![](/src/assets/images/Arch_tutorial_43.jpg)
+![](/images/Arch_tutorial_43.jpg)
 
 Note the chimney tube, which is made from a circle I used to make a hole in the chimney block, that I extruded, then converted into a tube with the [Part Offset](/Part_Offset "Part Offset") tool.
 
@@ -399,11 +399,11 @@ Now, after all the hard work we passed through to build this model, comes the re
 
 Before starting to export stuff, one consideration is interesting to do: As you saw, our model is becoming increasingly complex, with a lot of relationships between objects. This can make subsequent calculation operations, such as cutting through the model, heavy. One quick way to magically "simplify" drastically your model, is to remove all of this complexity, by exporting it to the [STEP](http://en.wikipedia.org/wiki/ISO_10303-21) format. That format will preserve all your geometry, but will discard all the relationships and parametric constructions, keeping only the final shape. When reimporting that STEP file into FreeCAD, you will get a model that has no relationship, and a much smaller file size. Think of it as an "output" file, that you can regenerate anytime from your "master" file:
 
-![](/src/assets/images/Arch_tutorial_44.jpg)
+![](/images/Arch_tutorial_44.jpg)
 
 ### Exporting to IFC and other applications
 
-![](/src/assets/images/Arch_tutorial_45.jpg)
+![](/images/Arch_tutorial_45.jpg)
 
 One of the very fundamental things you need when working with BIM is to be able to import and export [IFC](http://en.wikipedia.org/wiki/Industry_Foundation_Classes) files. This is still a work in progress in FreeCAD. [IFC](/Arch_IFC "Arch IFC") format is already supported, and importing IFC files into FreeCAD is already pretty reliable. Exporting is still experimental, though, and has currently many limitations. However, things are bettering and we should get proper IFC export very soon.
 
@@ -419,11 +419,11 @@ Once this is done, simply select your building object, and choose the "Industry 
 
 FreeCAD also features a rendering module, the [Raytracing Workbench](/Raytracing_Workbench "Raytracing Workbench"). That workbench currently supports two render engines, [PovRay](http://www.povray.org/) and [LuxRender](http://www.luxrender.net). Since FreeCAD is not designed for image rendering, the features that the Raytracing workbench offer to you are somewhat limited. The best course of action when you want to do proper rendering, is to export your model to a mesh-based format such as OBJ or STL, and open it in an application more suited to rendering, such as [blender](http://www.blender.org). The image below has been rendered with blender's cycles engine:
 
-![](/src/assets/images/Arch_tutorial_47.jpg)
+![](/images/Arch_tutorial_47.jpg)
 
 But, for a quick rendering, the Raytracing workbench can already do a good job, with the advantage of being very easy to setup, thanks to its templates system. This is a rendering of our model fully made within FreeCAD, with the Luxrender engine, using the "indoor" template.
 
-![](/src/assets/images/Arch_tutorial_48.jpg)
+![](/images/Arch_tutorial_48.jpg)
 
 The Raytracing workbench still offers you very limited control over materials, but lighting and environments are defined in templates, so they can be fully customized.
 
@@ -433,7 +433,7 @@ Certainly the most important use of BIM is to produce 2D drawings automatically.
 
 The section plane automatically produces cut views of the objects it intersects. In other words, to produce views instead of sections, you just need to place the section plane outside of your objects.
 
-![](/src/assets/images/Arch_tutorial_49.jpg)
+![](/images/Arch_tutorial_49.jpg)
 
 The section plane can produce two different outputs: [shape](/Part_Workbench "Part Workbench") objects in the 3D view, or [TechDraw ArchViews](/TechDraw_ArchView "TechDraw ArchView") that are displayed on a drawing sheet produced by the [TechDraw Workbench](/TechDraw_Workbench "TechDraw Workbench"). Each of these behave differently, and have their own advantages.
 
@@ -441,11 +441,11 @@ The section plane can produce two different outputs: [shape](/Part_Workbench "Pa
 
 This output is produced by using the [Draft Shape2DView](/Draft_Shape2DView "Draft Shape2DView") tool with a section plane selected. You produce a 2D view of the model directly in the 3D space, like on the image above. The main advantage here is that you can work on them using the [Draft](/Draft_Workbench "Draft Workbench") tools (or any other standard tool of FreeCAD), so you can add texts, dimensions, symbols, etc:
 
-![](/src/assets/images/Arch_tutorial_50.jpg)
+![](/images/Arch_tutorial_50.jpg)
 
 On the image above, two [Shape2D views](/Draft_Shape2DView "Draft Shape2DView") have been produced for each section, one showing everything, the other showing only the cut lines. This allows us to give it a different line weight, and turn hatching on. Then, dimensions, texts and symbols have been added, and a couple of DXF blocks have been imported to represent the furniture. These views are then easy to export to DXF or DWG, and open in your favorite 2D CAD application, such as [LibreCAD](http://www.librecad.org) or [DraftSight](http://www.3ds.com/products-services/draftsight/overview/), where you can work further on them:
 
-![](/src/assets/images/Arch_tutorial_51.jpg)
+![](/images/Arch_tutorial_51.jpg)
 
 Note that some features are still not supported by the [DXF/DWG exporter](/Draft_DXF "Draft DXF") so the result in your 2D application might differ a bit. For example, in the image above, I had to redo the hatching, and correct the position of some dimension texts. If you place your objects in different groups in FreeCAD, these become layers in your 2D CAD application.
 
@@ -455,7 +455,7 @@ The other kind of output that can be produced from [section planes](/Arch_Sectio
 
 On the other hand, the final output being easier to manipulate, and the graphical possibilities of the SVG format being huge, in the future, undoubtedly this will be the preferred method. At the moment, though, you'll get better results using the previous one.
 
-![](/src/assets/images/Arch_tutorial_52.jpg)
+![](/images/Arch_tutorial_52.jpg)
 
 On the image above, the geometry is the direct output of the section plane, but some other Draft objects have been added, such as dimensions and hatched polygons, and another view object with same scale and offset values has been produced from them with the [TechDraw DraftView](/TechDraw_DraftView "TechDraw DraftView") tool. In the future, such operations will be done directly on the Drawing page, leaving your model totally clean.
 
@@ -467,13 +467,13 @@ This is another very important task to be performed on BIM models. In FreeCAD, t
 
 To populate a spreadsheet with values extracted from the model the Arch_Schedule tool can be used.
 
-![](/src/assets/images/Arch_schedule_example03.jpg)
+![](/images/Arch_schedule_example03.jpg)
 
 **The survey mode**
 
 Another way to survey your model and extract values, is to use the [Arch Survey](/Arch_Survey "Arch Survey") mode. In this mode, you can click on points, edges, faces or double-click to select whole objects, and you get altitude, length, area or volume values, shown on the model, printed on the FreeCAD output window, and copied to the clipboard, so you can easily pick and paste values in another opened application
 
-![](/src/assets/images/Arch_tutorial_54.jpg)
+![](/images/Arch_tutorial_54.jpg)
 
 ## Conclusion
 

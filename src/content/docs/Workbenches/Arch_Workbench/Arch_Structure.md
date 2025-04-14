@@ -27,14 +27,14 @@ The [Arch Structure](/Arch_Structure "Arch Structure") tool allows you to build 
 
 If no profile is given, a set of presets are available to quickly build a structural element from a predefined standard profile.
 
-![](/src/assets/images/Arch_Structure_example.jpg)
+![](/images/Arch_Structure_example.jpg)
 
 Column based on a 2D base profile; a column and a beam defined by their height, length and width, without a base profile; a metallic structure based on a 2D face
 
 ## Usage
 
 1. Select a 2D shape (Draft object, face or sketch) (optional).
-2. Select the **Utils → Structure tools → ![](/src/assets/images/Arch_Structure.svg) Structure** option from the menu.
+2. Select the **Utils → Structure tools → ![](/images/Arch_Structure.svg) Structure** option from the menu.
 3. Adjust the desired properties.
 
 ## Options
@@ -74,7 +74,7 @@ An Arch Structure object shares the common properties and behaviors of all [Arch
 
 The Structure tool also features a series of presets that allow to quickly build standard metallic profiles or precast concrete elements.
 
-![](/src/assets/images/Arch_presets_example.jpg)
+![](/images/Arch_presets_example.jpg)
 
 Some presets for steel structures
 
@@ -82,7 +82,7 @@ The presets are obtained by choosing a **Category** from the structure options p
 
 The **Switch L/H** button can be used to switch Length and Height values, and therefore building a horizontal beam rather than a vertical column.
 
-![](/src/assets/images/Arch_precast_example.jpg)
+![](/images/Arch_precast_example.jpg)
 
 Some presets for precast concrete structures
 
@@ -90,7 +90,7 @@ Some presets for precast concrete structures
 
 Structural objects also have the ability to display structural nodes. Structural nodes are a sequence of 3D points stored in a "Nodes" property. By switching the "Show Nodes" view property on/off, one can see the structural nodes of a structural element:
 
-![](/src/assets/images/Arch_structural_nodes.jpg)
+![](/images/Arch_structural_nodes.jpg)
 
 Structural nodes made visible for a set of structures
 

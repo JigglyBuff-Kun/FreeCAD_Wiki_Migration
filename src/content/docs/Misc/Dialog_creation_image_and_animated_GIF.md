@@ -41,11 +41,11 @@ patience.show()                    #show the image
 
 ```
 
-![](/src/assets/images/Qlabel_Image00.png)
+![](/images/Qlabel_Image00.png)
 
 Example QLabel with image and text.
 
-![](/src/assets/images/Qlabel_Image_Animee00.gif)
+![](/images/Qlabel_Image_Animee00.gif)
 
 Example QLabel with animated GIF.
 

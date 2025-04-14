@@ -19,15 +19,15 @@ title: Part Slice
 
 ## Description
 
-The ![](/src/assets/images/Part_Slice.svg) [Part Slice](/Part_Slice "Part Slice") also known as **Slice to compound** tool is used to split shapes by intersection with other shapes. For example, for a box and a plane, a compound of two solids is created.
+The ![](/images/Part_Slice.svg) [Part Slice](/Part_Slice "Part Slice") also known as **Slice to compound** tool is used to split shapes by intersection with other shapes. For example, for a box and a plane, a compound of two solids is created.
 
-![](/src/assets/images/Part_Slice_Demo.png)
+![](/images/Part_Slice_Demo.png)
 
 Above: the pieces were moved apart manually afterwards, to reveal the slicing
 
-There are two commands to slice a shape: ![](/src/assets/images/Part_SliceApart.svg) [Part Slice apart](/Part_SliceApart "Part SliceApart") and ![](/src/assets/images/Part_Slice.svg) [Part Slice to compound](/Part_Slice "Part Slice"). They both create a 'Slice' parametric feature, that puts the sliced pieces into a compound. However, ![](/src/assets/images/Part_SliceApart.svg) [Part Slice Apart](/Part_SliceApart "Part SliceApart") explodes the resulting compound into separate objects. "Slice to compound" is fully-parametric, and causes no trouble as the number of pieces changes. "Slice apart" will not update the number of objects as the number of pieces changes.
+There are two commands to slice a shape: ![](/images/Part_SliceApart.svg) [Part Slice apart](/Part_SliceApart "Part SliceApart") and ![](/images/Part_Slice.svg) [Part Slice to compound](/Part_Slice "Part Slice"). They both create a 'Slice' parametric feature, that puts the sliced pieces into a compound. However, ![](/images/Part_SliceApart.svg) [Part Slice Apart](/Part_SliceApart "Part SliceApart") explodes the resulting compound into separate objects. "Slice to compound" is fully-parametric, and causes no trouble as the number of pieces changes. "Slice apart" will not update the number of objects as the number of pieces changes.
 
-The output shape occupies the same space as the original. But it is split where it intersects with other shapes. The split pieces are put into a compound (or compsolid), so the object appears to remain in one piece. You need to explode the compound to get the individual pieces. If you want to access the individual pieces in a parametric way you can use ![](/src/assets/images/Part_CompoundFilter.svg) [Part Compound Filter](/Part_CompoundFilter "Part CompoundFilter") for this purpose. For quick non-parametric access use ![](/src/assets/images/Draft_Downgrade.svg) [Draft Downgrade](/Draft_Downgrade "Draft Downgrade").
+The output shape occupies the same space as the original. But it is split where it intersects with other shapes. The split pieces are put into a compound (or compsolid), so the object appears to remain in one piece. You need to explode the compound to get the individual pieces. If you want to access the individual pieces in a parametric way you can use ![](/images/Part_CompoundFilter.svg) [Part Compound Filter](/Part_CompoundFilter "Part CompoundFilter") for this purpose. For quick non-parametric access use ![](/images/Draft_Downgrade.svg) [Draft Downgrade](/Draft_Downgrade "Draft Downgrade").
 
 The tool has three modes: "Standard", "Split", and "CompSolid". There is no selection form, they are predefined but can be accessed after the operation on the resulting slices level.
 
@@ -37,15 +37,15 @@ Compounding structure in "Standard" and "Split" modes follows the compounding st
 
 In "CompSolid" mode, the output is a compsolid (or a compound of compsolids, if the resulting solids form more than one island of connectedness). Compsolid is a set of solids connected by faces; they are related to solids like wires are related to edges, and shells are related to faces; the name is probably a shortened phrase "composite solid".
 
-The overall action of the tool is very similar to ![](/src/assets/images/Part_BooleanFragments.svg) [Part Boolean Fragments](/Part_BooleanFragments "Part BooleanFragments"), except only the pieces from the first shape are in the result.
+The overall action of the tool is very similar to ![](/images/Part_BooleanFragments.svg) [Part Boolean Fragments](/Part_BooleanFragments "Part BooleanFragments"), except only the pieces from the first shape are in the result.
 
 ## Usage
 
 1. Select the object to be sliced, first, and then some objects to slice with.  
-   The order of selection is important. Compounds with self-intersections are not allowed (self-intersections sometimes can be accounted for by passing the compound through ![](/src/assets/images/Part_BooleanFragments.svg) [Part Boolean Fragments](/Part_BooleanFragments "Part BooleanFragments"))
+   The order of selection is important. Compounds with self-intersections are not allowed (self-intersections sometimes can be accounted for by passing the compound through ![](/images/Part_BooleanFragments.svg) [Part Boolean Fragments](/Part_BooleanFragments "Part BooleanFragments"))
 2. Invoke the Part Slice command several ways:
 
-   - Press the ![](/src/assets/images/Part_Slice.svg) [Part Slice](/Part_Slice "Part Slice") button in the Part toolbar
+   - Press the ![](/images/Part_Slice.svg) [Part Slice](/Part_Slice "Part Slice") button in the Part toolbar
    - Use the **Part → Split → Slice to compound** entry in the Part menu
 
 3. Noteː The Objects to slice with must completely separate the object to be sliced. Thus a cube cannot be sliced by a wire, but by a plane derived from an extruded wire for instance.
@@ -58,7 +58,7 @@ The Slice command creates a sliced object. In the following example a cube is sl
 
 The slice is created and each piece of it is united in a Compound.
 
-![](/src/assets/images/Part_SliceTree.png)
+![](/images/Part_SliceTree.png)
 
 ## Properties
 
@@ -75,33 +75,33 @@ Slice
 
 ### Creating a Puzzle
 
-1. Switch to ![](/src/assets/images/Workbench_Sketcher.svg) [Sketcher Workbench](/Sketcher_Workbench "Sketcher Workbench")
+1. Switch to ![](/images/Workbench_Sketcher.svg) [Sketcher Workbench](/Sketcher_Workbench "Sketcher Workbench")
    - Create a new sketch.
    - Draw a rectangle that will outline the overall shape of the puzzle.
    - Close the sketch.  
-     ![](/src/assets/images/Slice_example_step1.png)
-2. Switch to ![](/src/assets/images/Workbench_Part.svg) [Part workbench](/Part_Workbench "Part Workbench").
-   - Select the sketch, and pick **Part → ![](/src/assets/images/Part_MakeFace.svg) [Make face from wires](/Part_MakeFace "Part MakeFace")**.  
-     ![](/src/assets/images/Slice_example_step2.png)
-3. Switch back to ![](/src/assets/images/Workbench_Sketcher.svg) [Sketcher Workbench](/Sketcher_Workbench "Sketcher Workbench")
+     ![](/images/Slice_example_step1.png)
+2. Switch to ![](/images/Workbench_Part.svg) [Part workbench](/Part_Workbench "Part Workbench").
+   - Select the sketch, and pick **Part → ![](/images/Part_MakeFace.svg) [Make face from wires](/Part_MakeFace "Part MakeFace")**.  
+     ![](/images/Slice_example_step2.png)
+3. Switch back to ![](/images/Workbench_Sketcher.svg) [Sketcher Workbench](/Sketcher_Workbench "Sketcher Workbench")
    - Create another sketch on the same plane.
    - Using polyline tool, draw the lines that will split the puzzle into pieces.  
-     ![](/src/assets/images/Slice_example_step3.png)
-4. Switch back to ![](/src/assets/images/Workbench_Part.svg) [Part Workbench](/Part_Workbench "Part Workbench").
-   - Select the splitter sketch, and apply ![](/src/assets/images/Part_BooleanFragments.svg) [Part Boolean Fragments](/Part_BooleanFragments "Part BooleanFragments"). This will insert vertices where lines of splitter sketch intersect. Having them is essential for the next step to work.  
-     ![](/src/assets/images/Slice_example_step4.png)
-5. Select the rectangular face, and the BooleanFragments of splitter sketch, and apply ![](/src/assets/images/Part_Slice.svg) Part Slice.  
-   ![](/src/assets/images/Slice_example_step5.png)
-6. Use ![](/src/assets/images/Part_ExplodeCompound.svg) [Part ExplodeCompound](/Part_ExplodeCompound "Part ExplodeCompound") on the sliced face, to break apart the compound made by Part Slice into individual pieces.
+     ![](/images/Slice_example_step3.png)
+4. Switch back to ![](/images/Workbench_Part.svg) [Part Workbench](/Part_Workbench "Part Workbench").
+   - Select the splitter sketch, and apply ![](/images/Part_BooleanFragments.svg) [Part Boolean Fragments](/Part_BooleanFragments "Part BooleanFragments"). This will insert vertices where lines of splitter sketch intersect. Having them is essential for the next step to work.  
+     ![](/images/Slice_example_step4.png)
+5. Select the rectangular face, and the BooleanFragments of splitter sketch, and apply ![](/images/Part_Slice.svg) Part Slice.  
+   ![](/images/Slice_example_step5.png)
+6. Use ![](/images/Part_ExplodeCompound.svg) [Part ExplodeCompound](/Part_ExplodeCompound "Part ExplodeCompound") on the sliced face, to break apart the compound made by Part Slice into individual pieces.
 
-**Note:** Steps 5 and 6 can be done in single click using ![](/src/assets/images/Part_SliceApart.svg) [Part SliceApart](/Part_SliceApart "Part SliceApart")
+**Note:** Steps 5 and 6 can be done in single click using ![](/images/Part_SliceApart.svg) [Part SliceApart](/Part_SliceApart "Part SliceApart")
 
 ## Notes
 
 - The tool was introduced in FreeCAD v0.17.8053. FreeCAD needs to be compiled with OCC 6.9.0 or later; otherwise, the tool is unavailable.
 - ̈Properties are accessible on the slices inner object, not on the result level.
 - The Objects to slice with must completely separate the object to be sliced. Thus a cube cannot be sliced by a wire, but by a plane derived from an extruded wire for instance.
-- Slicing object must pass BOP check. See ![](/src/assets/images/Part_CheckGeometry.svg) [Part CheckGeometry](/Part_CheckGeometry "Part CheckGeometry").
+- Slicing object must pass BOP check. See ![](/images/Part_CheckGeometry.svg) [Part CheckGeometry](/Part_CheckGeometry "Part CheckGeometry").
 
 ## Scripting
 

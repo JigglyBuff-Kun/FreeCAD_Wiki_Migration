@@ -21,15 +21,15 @@ title: TechDraw ComplexSection
 
 The **TechDraw ComplexSection** tool inserts a cross-section view based on an existing part view and a profile.
 
-![](/src/assets/images/TechDraw_QuarterSection_example.png)
+![](/images/TechDraw_QuarterSection_example.png)
 
 A Quarter section view created with the Complex Section tool
 
-![](/src/assets/images/TechDraw_AlignedSection_example.png)
+![](/images/TechDraw_AlignedSection_example.png)
 
 An Aligned section view created with the Complex Section tool
 
-![](/src/assets/images/TechDraw_OffsetSection_example.png)
+![](/images/TechDraw_OffsetSection_example.png)
 
 An Offset section view created with the Complex Section tool
 
@@ -37,12 +37,12 @@ An Offset section view created with the Complex Section tool
 
 1. Select a part view and a profile object in the [3D view](/3D_view "3D view") or [Tree view](/Tree_view "Tree view"). Profiles are typically Sketches, but any object whose shape can be made into a wire will work.
 2. There are several ways to invoke the tool:
-   - Press the ![](/src/assets/images/TechDraw_ComplexSection.svg) [Insert Complex Section](/TechDraw_ComplexSection "TechDraw ComplexSection") button.
-   - Select the **TechDraw → TechDraw Views → ![](/src/assets/images/TechDraw_ComplexSection.svg) Insert Complex Section** option from the menu.
+   - Press the ![](/images/TechDraw_ComplexSection.svg) [Insert Complex Section](/TechDraw_ComplexSection "TechDraw ComplexSection") button.
+   - Select the **TechDraw → TechDraw Views → ![](/images/TechDraw_ComplexSection.svg) Insert Complex Section** option from the menu.
 3. A task panel opens which will help calculate the various properties. Reasonable values for the view Direction are calculated, but these can be changed.
 
-![](/src/assets/images/TechDraw_ComplexSection_Taskview1.png)
-![](/src/assets/images/TechDraw_ComplexSection_Taskview2.png)
+![](/images/TechDraw_ComplexSection_Taskview1.png)
+![](/images/TechDraw_ComplexSection_Taskview2.png)
 
 ## Properties
 
@@ -93,11 +93,11 @@ section.SectionNormal = (-1, 0, 0)
 
 For some more information about section views and some use cases, have a look at: [TechDraw section examples](/TechDraw_Section_Examples "TechDraw Section Examples").
 
-![](/src/assets/images/TechDraw_ExampleSection-10.png)
-![](/src/assets/images/TechDraw_ExampleSection-13.png)
-![](/src/assets/images/TechDraw_ExampleSection-15.png)
-![](/src/assets/images/TechDraw_ExampleSection-17.png)
-![](/src/assets/images/TechDraw_ExampleSection-34.png)
-![](/src/assets/images/TechDraw_ExampleSection-35.png)
+![](/images/TechDraw_ExampleSection-10.png)
+![](/images/TechDraw_ExampleSection-13.png)
+![](/images/TechDraw_ExampleSection-15.png)
+![](/images/TechDraw_ExampleSection-17.png)
+![](/images/TechDraw_ExampleSection-34.png)
+![](/images/TechDraw_ExampleSection-35.png)
 
 Retrieved from "<http://wiki.freecad.org/index.php?title=TechDraw_ComplexSection/en&oldid=1571039>"

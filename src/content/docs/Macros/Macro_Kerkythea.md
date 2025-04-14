@@ -14,7 +14,7 @@ Macro to export your model to the raytracing program [Kerkythea](https://kerkyth
 
 ## Tools
 
-![](/src/assets/images/Kerkytea1.png) ![](/src/assets/images/Kerkytea2.png)
+![](/images/Kerkytea1.png) ![](/images/Kerkytea2.png)
 
 ## Installation
 

@@ -31,14 +31,14 @@ As of 0.18 and above the Arch Floor is derived entirely from the [Arch BuildingP
 
 1. Optionally, select one or more objects to be included in your new floor.
 2. Invoke the Arch Floor command several ways:
-   - Pressing the ![](/src/assets/images/Arch_Floor.svg) [Floor](/Arch_Floor "Arch Floor") button on the toolbar.
+   - Pressing the ![](/images/Arch_Floor.svg) [Floor](/Arch_Floor "Arch Floor") button on the toolbar.
    - Using the L then V keyboard keys.
    - Using the **3D/BIM → Floor** entry from the top menu.
 
 ## Options
 
-- After creating a floor, you can add more objects to it by drag and dropping them in the Tree View or by using the ![](/src/assets/images/Arch_Add.svg) [Arch Add](/Arch_Add "Arch Add") tool.
-- You can remove objects from a floor by drag and dropping them out of it the Tree View or by using the ![](/src/assets/images/Arch_Remove.svg) [Arch Remove](/Arch_Remove "Arch Remove") tool.
+- After creating a floor, you can add more objects to it by drag and dropping them in the Tree View or by using the ![](/images/Arch_Add.svg) [Arch Add](/Arch_Add "Arch Add") tool.
+- You can remove objects from a floor by drag and dropping them out of it the Tree View or by using the ![](/images/Arch_Remove.svg) [Arch Remove](/Arch_Remove "Arch Remove") tool.
 
 ## Properties
 

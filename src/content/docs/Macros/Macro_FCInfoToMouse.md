@@ -60,7 +60,7 @@ webbrowser.open("https://gist.githubusercontent.com/mario52a/974214c4b83beaa4149
 
 <class="rawcodeurl"><a href="<https://gist.githubusercontent.com/mario52a/974214c4b83beaa41495/raw/7789c1995dba2af74a14d549638267f7740c036c/Macro_FCInfoToMouse.FCMacro>">raw code</a>
 
-![](/src/assets/images/Macro_FCInfoToMouse_00.png)
+![](/images/Macro_FCInfoToMouse_00.png)
 
 FCInfoToMouse macro in action
 
@@ -71,14 +71,14 @@ FCInfoToMouse macro in action
 
 : Result: an annotation appears and the mouse coordinate information is displayed in real-time.
 
-: : ![](/src/assets/images/Macro_FCInfoToMouse_01.png)
+: : ![](/images/Macro_FCInfoToMouse_01.png)
 : Figure 1
 
 : \* **X, Y, Z**: mouse coordinates are displayed in the bubble (this only applies when "Single" mode is enabled) as seen in Fig. 1
 
 : : Once the mouse is clicked for the first time, additional info is displayed (when "Forced" mode is enabled this setting will be solely displayed)
 
-: : ![](/src/assets/images/Macro_FCInfoToMouse_02.png)
+: : ![](/images/Macro_FCInfoToMouse_02.png)
 : Figure 2
 
 : _ **X1, Y1, Z1** : Initial coordinates of the 1st mouse click
@@ -86,7 +86,7 @@ _ **X2, Y2, Z2** : Current coordinates of the mouse
 _ **L** : Length between the first mouse click and the location of the current mouse pointer
 _ **XY, YZ, XZ** : Angles between the 1st point and moving mouse pointer in the XY, YZ, and XZ planes
 
-: : ![](/src/assets/images/Macro_FCInfoToMouse_03.png)
+: : ![](/images/Macro_FCInfoToMouse_03.png)
 : Figure 3 - when mouse pointer is over an object, the name of the object will be displayed
 
 : : If the mouse hovers over an object, the object name appears at the top of the annotation (see Figure 3).
@@ -135,7 +135,7 @@ To make the configuration of the permanent annotation you can change the values 
 
 ## Script
 
-The icon **FCInfoToMouse.png** ![FCInfoToMouse](/src/assets/images/FCInfoToMouse.png) for the [Customize_ToolsBar](http://www.freecadweb.org/wiki/index.php?title=Customize_ToolsBar)
+The icon **FCInfoToMouse.png** ![FCInfoToMouse](/images/FCInfoToMouse.png) for the [Customize_ToolsBar](http://www.freecadweb.org/wiki/index.php?title=Customize_ToolsBar)
 
 **Macro_FCInfoToMouse.FCMacro**
 

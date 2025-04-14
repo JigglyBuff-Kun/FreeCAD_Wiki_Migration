@@ -19,9 +19,9 @@ title: Draft Draft2Sketch
 
 ## Description
 
-The ![](/src/assets/images/Draft_Draft2Sketch.svg) **Draft Draft2Sketch** command converts [Draft](/Draft_Workbench "Draft Workbench") objects to [Sketcher Sketches](/Sketcher_NewSketch "Sketcher NewSketch") and vice versa.
+The ![](/images/Draft_Draft2Sketch.svg) **Draft Draft2Sketch** command converts [Draft](/Draft_Workbench "Draft Workbench") objects to [Sketcher Sketches](/Sketcher_NewSketch "Sketcher NewSketch") and vice versa.
 
-![](/src/assets/images/Draft_Draft2Sketch_example.png)
+![](/images/Draft_Draft2Sketch_example.png)
 
 Converting Draft objects to Sketcher Sketches
 
@@ -29,9 +29,9 @@ Converting Draft objects to Sketcher Sketches
 
 1. Optionally select one or more Draft objects or [Sketcher Sketches](/Sketcher_NewSketch "Sketcher NewSketch").
 2. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/Draft_Draft2Sketch.svg) [Draft to sketch](/Draft_Draft2Sketch "Draft Draft2Sketch") button.
-   - [Draft](/Draft_Workbench "Draft Workbench"): Select the **Modification → ![](/src/assets/images/Draft_Draft2Sketch.svg) Draft to sketch** option from the menu.
-   - [BIM](/BIM_Workbench "BIM Workbench"): Select the **Modify → ![](/src/assets/images/Draft_Draft2Sketch.svg) Draft to sketch** option from the menu.
+   - Press the ![](/images/Draft_Draft2Sketch.svg) [Draft to sketch](/Draft_Draft2Sketch "Draft Draft2Sketch") button.
+   - [Draft](/Draft_Workbench "Draft Workbench"): Select the **Modification → ![](/images/Draft_Draft2Sketch.svg) Draft to sketch** option from the menu.
+   - [BIM](/BIM_Workbench "BIM Workbench"): Select the **Modify → ![](/images/Draft_Draft2Sketch.svg) Draft to sketch** option from the menu.
 3. If you have not yet selected an object: select an object in the [3D view](/3D_view "3D view").
 4. A new object is created.
 

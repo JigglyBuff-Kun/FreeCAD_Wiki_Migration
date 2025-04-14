@@ -23,14 +23,14 @@ This documentation is not finished. Please help and contribute documentation.Gui
 
 ## Description
 
-The ![](/src/assets/images/Curves_TrimFace.svg) **Curves TrimFace** tool trims a face with a projected curve.
+The ![](/images/Curves_TrimFace.svg) **Curves TrimFace** tool trims a face with a projected curve.
 
 ## Usage
 
 1. Select a face and a curve.
 2. There are several ways to invoke the tool:
-   - Press the ![](/src/assets/images/Curves_TrimFace.svg) [Trim face](/Curves_TrimFace "Curves TrimFace") button.
-   - Select the **Surfaces → ![](/src/assets/images/Curves_TrimFace.svg) Trim face** option from the menu.
+   - Press the ![](/images/Curves_TrimFace.svg) [Trim face](/Curves_TrimFace "Curves TrimFace") button.
+   - Select the **Surfaces → ![](/images/Curves_TrimFace.svg) Trim face** option from the menu.
 3. A **TrimmedFace** object is created.
 
 ## Notes

@@ -19,14 +19,14 @@ title: Sketcher BSplineDecreaseKnotMultiplicity
 
 ## Description
 
-The ![](/src/assets/images/Sketcher_BSplineDecreaseKnotMultiplicity.svg) [Sketcher BSplineDecreaseKnotMultiplicity](/Sketcher_BSplineDecreaseKnotMultiplicity "Sketcher BSplineDecreaseKnotMultiplicity") tool decreases the multiplicity of a [B-spline](/B-Splines "B-Splines") knot.
+The ![](/images/Sketcher_BSplineDecreaseKnotMultiplicity.svg) [Sketcher BSplineDecreaseKnotMultiplicity](/Sketcher_BSplineDecreaseKnotMultiplicity "Sketcher BSplineDecreaseKnotMultiplicity") tool decreases the multiplicity of a [B-spline](/B-Splines "B-Splines") knot.
 
 ## Usage
 
 1. Select a B-spline knot.
 2. There are several ways to invoke the tool:
-   - Press the ![](/src/assets/images/Sketcher_BSplineDecreaseKnotMultiplicity.svg) [Decrease knot multiplicity](/Sketcher_BSplineDecreaseKnotMultiplicity "Sketcher BSplineDecreaseKnotMultiplicity") button.
-   - Select the **Sketch → Sketcher B-spline tools → ![](/src/assets/images/Sketcher_BSplineDecreaseKnotMultiplicity.svg) Decrease knot multiplicity** option from the menu.
+   - Press the ![](/images/Sketcher_BSplineDecreaseKnotMultiplicity.svg) [Decrease knot multiplicity](/Sketcher_BSplineDecreaseKnotMultiplicity "Sketcher BSplineDecreaseKnotMultiplicity") button.
+   - Select the **Sketch → Sketcher B-spline tools → ![](/images/Sketcher_BSplineDecreaseKnotMultiplicity.svg) Decrease knot multiplicity** option from the menu.
 
 ## Example
 

@@ -25,6 +25,6 @@ Aktuell verweist dieser Befehl auf die Seite <https://wiki.freecad.org/User_hub>
 
 ## Anwendung
 
-1. Auswahl des Menüeintrags **Hilfe → ![](/src/assets/images/Std_FreeCADUserHub.svg) Benutzerdokumentation**.
+1. Auswahl des Menüeintrags **Hilfe → ![](/images/Std_FreeCADUserHub.svg) Benutzerdokumentation**.
 
 Retrieved from "<http://wiki.freecad.org/index.php?title=Std_FreeCADUserHub/de&oldid=1454749>"

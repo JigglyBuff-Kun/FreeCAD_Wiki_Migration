@@ -38,7 +38,7 @@ the default values are : x1 = 0, y1 = 0, z1 = 0, length = 10, angle = 0
 
 ## Script
 
-ToolBar Icon ![](/src/assets/images/Macro_Line_Length.png)
+ToolBar Icon ![](/images/Macro_Line_Length.png)
 
 **Macro Line_Length.py**
 

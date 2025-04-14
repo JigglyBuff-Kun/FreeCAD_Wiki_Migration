@@ -21,13 +21,13 @@ title: Std UnitsCalculator
 
 The **Std UnitsCalculator** command opens the Units converter. The Units converter can be used to convert values from one unit system to another.
 
-![](/src/assets/images/Std_UnitsCalculator_Dialog.png)
+![](/images/Std_UnitsCalculator_Dialog.png)
 
 The Units converter dialog box
 
 ## Usage
 
-1. Select the **Tools → ![](/src/assets/images/Std_UnitsCalculator.svg) Units converter...** option from the menu.
+1. Select the **Tools → ![](/images/Std_UnitsCalculator.svg) Units converter...** option from the menu.
 2. The **Units converter** dialog box opens. For more information see [Options](#Options).
 3. The dialog box is modeless, meaning it can stay open while you continue working in FreeCAD.
 4. Press the Close button to close the dialog box.

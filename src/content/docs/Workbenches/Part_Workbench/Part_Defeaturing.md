@@ -31,12 +31,12 @@ The removed features are filled by the extension of the adjacent faces, thus no 
 
 To be available, this tool requires FreeCAD to be based on Open Cascade 7.3.0 or greater. If it is not available in your version of FreeCAD, you may have a look at the [Defeaturing Workbench](/Defeaturing_Workbench "Defeaturing Workbench") add-on, which proposes similar functionality even with older versions of OCC or FreeCAD.
 
-![](/src/assets/images/Part_Defeaturing_example.png)
+![](/images/Part_Defeaturing_example.png)
 
 ## Usage
 
 1. Select the face(s) on the model to remove.
-2. Press the ![](/src/assets/images/Part_Defeaturing.svg) [Defeaturing](/Part_Defeaturing "Part Defeaturing") button.
+2. Press the ![](/images/Part_Defeaturing.svg) [Defeaturing](/Part_Defeaturing "Part Defeaturing") button.
 3. A new object is created labeled _Defeatured_ in the Model [tree view](/Tree_view "Tree view"), and the original object is hidden from view.
 
 ## Links

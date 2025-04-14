@@ -23,14 +23,14 @@ The **Std AxisCross** command toggles the axis cross in the active [3D view](/3D
 
 The axis cross consists of three arrows representing the positive X, Y and Z axis of the global coordinate system. Their common start point is the origin of the global coordinate system.
 
-![](/src/assets/images/Std_AxisCross_example.svg)
+![](/images/Std_AxisCross_example.svg)
 
 The axis cross (the letters are not part of the axis cross)
 
 ## Usage
 
 1. There are several ways to invoke the command:
-   - Select the **View → ![](/src/assets/images/Std_AxisCross.svg) Toggle axis cross** option from the menu.
+   - Select the **View → ![](/images/Std_AxisCross.svg) Toggle axis cross** option from the menu.
    - Use the keyboard shortcut: A then C.
 
 ## Notes

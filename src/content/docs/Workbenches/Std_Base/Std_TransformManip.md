@@ -21,15 +21,15 @@ title: Std TransformManip
 
 The **Std TransformManip** command allows you to apply rotation increments and translation increments to a selected object. This can be done either by dragging the interactive dragger in the 3D view or, [introduced in 1.1](/Release_notes_1.1 "Release notes 1.1"), by entering precise values in the task panel, either in the (local) dragger coordinate system or the global coordinate system.
 
-![](/src/assets/images/Std_Transform_Manip_Example_1.1.png)
+![](/images/Std_Transform_Manip_Example_1.1.png)
 
 ## Usage
 
 1. Select an object with a Data**Placement** property. See [Notes](#Notes).
 2. There are several ways to invoke the command:
-   - Select the **Edit → ![](/src/assets/images/Std_TransformManip.svg) Transform** option from the menu.
-   - Select the **![](/src/assets/images/Std_TransformManip.svg) Transform** option from the [Tree view](/Tree_view "Tree view") context menu.
-   - If [edit mode](/Std_UserEditMode "Std UserEditMode") is set to **![](/src/assets/images/Std_UserEditModeTransform.svg) Transform** you can also double-click the object in the Tree view.
+   - Select the **Edit → ![](/images/Std_TransformManip.svg) Transform** option from the menu.
+   - Select the **![](/images/Std_TransformManip.svg) Transform** option from the [Tree view](/Tree_view "Tree view") context menu.
+   - If [edit mode](/Std_UserEditMode "Std UserEditMode") is set to **![](/images/Std_UserEditModeTransform.svg) Transform** you can also double-click the object in the Tree view.
 3. The **Transform** task panel opens.
 4. Optionally adjust the snapping parameters: These are values for snapping to increments when dragging in the 3D view, either for rotation or translation.
 5. Do one or more of the following:
@@ -45,7 +45,7 @@ The **Std TransformManip** command allows you to apply rotation increments and t
 
 There are new options [introduced in 1.1](/Release_notes_1.1 "Release notes 1.1") for the tool. By default, the options are set to work the same as in version 1.0 and below.
 
-![](/src/assets/images/Std_Transform_Manip_relnotes_1.1.gif)
+![](/images/Std_Transform_Manip_relnotes_1.1.gif)
 
 You can adjust the following options:
 
@@ -107,7 +107,7 @@ Quick actions to transform the selected object.
 
 - As soon as you rotate/move the object in the [3D view](/3D_view "3D view"), changes are applied.
 - Some objects with a Data**Placement** property, such as sketches, cannot be manipulated, neither can objects that are attached to other objects.
-- There is no Cancel button in 0.21 and below, in those versions you can press the OK button and use the ![](/src/assets/images/Std_Undo.svg) [Undo](/Std_Undo "Std Undo") command to revert changes afterwards.
+- There is no Cancel button in 0.21 and below, in those versions you can press the OK button and use the ![](/images/Std_Undo.svg) [Undo](/Std_Undo "Std Undo") command to revert changes afterwards.
 
 ## Examples
 
@@ -122,7 +122,7 @@ If the dragger is not in view or at an unwanted location, it can be set to eithe
 
 Demo animation (Click the image, if the animation does not start):
 
-![](/src/assets/images/Std_Transform_Manip_Pick_Custom_Dragger_1.1.gif)
+![](/images/Std_Transform_Manip_Pick_Custom_Dragger_1.1.gif)
 
 ### Move feature to global origin
 
@@ -136,7 +136,7 @@ This allows to position bodies and imported STEP files with regard to special fe
 
 Demo animation (Click the image, if the animation does not start):
 
-![](/src/assets/images/Std_Transform_Manip_Move_Feature_to_Global_Origin_1.1.gif)
+![](/images/Std_Transform_Manip_Move_Feature_to_Global_Origin_1.1.gif)
 
 ### Align to target object
 
@@ -151,7 +151,7 @@ If an object should be transformed to be placed at a target location (reference)
 
 Demo animation (Click the image, if the animation does not start):
 
-![](/src/assets/images/Std_Transform_Manip_Align_to_Target_Object_1.1.gif)
+![](/images/Std_Transform_Manip_Align_to_Target_Object_1.1.gif)
 
 ### Drag in global coordinate system if object is not aligned
 
@@ -166,7 +166,7 @@ If an (imported or transformed) object is not aligned to the global coordinate s
 
 Demo animation (Click the image, if the animation does not start):
 
-![](/src/assets/images/Std_Transform_Manip_Drag_in_Document_CS_1.1.gif)
+![](/images/Std_Transform_Manip_Drag_in_Document_CS_1.1.gif)
 
 ### Move BIM objects in custom directions
 
@@ -179,6 +179,6 @@ For example to move a BIM door along a skewed wall element:
 
 Demo animation (Click the image, if the animation does not start):
 
-![](/src/assets/images/Std_Transform_Manip_BIM_Door_1.1.gif)
+![](/images/Std_Transform_Manip_BIM_Door_1.1.gif)
 
 Retrieved from "<http://wiki.freecad.org/index.php?title=Std_TransformManip/en&oldid=1534358>"

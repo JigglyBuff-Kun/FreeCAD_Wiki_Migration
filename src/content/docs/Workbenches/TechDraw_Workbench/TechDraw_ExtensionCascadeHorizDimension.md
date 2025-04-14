@@ -21,18 +21,18 @@ title: TechDraw ExtensionCascadeHorizDimension
 
 The **TechDraw ExtensionCascadeHorizDimension** tool evenly spaces horizontal dimensions.
 
-![](/src/assets/images/TechDraw_ExtensionCascadeHorizDimensionExample.png)
+![](/images/TechDraw_ExtensionCascadeHorizDimensionExample.png)
 
 On the right the evenly spaced horizontal dimensions
 
 ## Usage
 
-1. Optionally specify the cascade spacing with the ![](/src/assets/images/TechDraw_ExtensionSelectLineAttributes.svg) [TechDraw ExtensionSelectLineAttributes](/TechDraw_ExtensionSelectLineAttributes "TechDraw ExtensionSelectLineAttributes") tool.
+1. Optionally specify the cascade spacing with the ![](/images/TechDraw_ExtensionSelectLineAttributes.svg) [TechDraw ExtensionSelectLineAttributes](/TechDraw_ExtensionSelectLineAttributes "TechDraw ExtensionSelectLineAttributes") tool.
 2. Select two or more horizontal dimensions.
 3. The first dimension defines the position. This dimension will not be moved, the other dimensions will be positioned relative to this dimension.
 4. There are several ways to invoke the tool:
-   - Press the ![](/src/assets/images/TechDraw_ExtensionCascadeHorizDimension.svg) [Cascade Horizontal Dimensions](/TechDraw_ExtensionCascadeHorizDimension "TechDraw ExtensionCascadeHorizDimension") button.
-   - Select the **TechDraw → Extensions: Attributes/Modifications → ![](/src/assets/images/TechDraw_ExtensionCascadeHorizDimension.svg) Cascade Horizontal Dimensions** option from the menu.
+   - Press the ![](/images/TechDraw_ExtensionCascadeHorizDimension.svg) [Cascade Horizontal Dimensions](/TechDraw_ExtensionCascadeHorizDimension "TechDraw ExtensionCascadeHorizDimension") button.
+   - Select the **TechDraw → Extensions: Attributes/Modifications → ![](/images/TechDraw_ExtensionCascadeHorizDimension.svg) Cascade Horizontal Dimensions** option from the menu.
 5. The dimensions are evenly spaced and their dimension texts are centered.
 
 ## Notes

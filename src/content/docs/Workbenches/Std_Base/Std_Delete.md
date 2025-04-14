@@ -25,8 +25,8 @@ The **Std Delete** command deletes selected objects.
 
 1. Select one or more objects.
 2. There are several ways to invoke the command:
-   - Select the **Edit → ![](/src/assets/images/Std_Delete.svg) Delete** option from the menu.
-   - Select the **![](/src/assets/images/Std_Delete.svg) Delete** option from the [Tree view](/Tree_view "Tree view") context menu or [3D view](/3D_view "3D view") context menu.
+   - Select the **Edit → ![](/images/Std_Delete.svg) Delete** option from the menu.
+   - Select the **![](/images/Std_Delete.svg) Delete** option from the [Tree view](/Tree_view "Tree view") context menu or [3D view](/3D_view "3D view") context menu.
    - Use the keyboard shortcut: Del.
 
 ## Scripting

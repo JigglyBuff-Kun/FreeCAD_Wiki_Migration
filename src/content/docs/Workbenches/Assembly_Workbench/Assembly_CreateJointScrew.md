@@ -23,14 +23,14 @@ This documentation is not finished. Please help and contribute documentation.Gui
 
 ## Description
 
-The ![](/src/assets/images/Assembly_CreateJointScrew.svg) [Assembly CreateJointScrew](/Assembly_CreateJointScrew "Assembly CreateJointScrew") tool creates a screw joint (helical joint) that couples the translation of a part of a slider joint and the rotation of a part of a revolute joint. In connection with the already existing joints this joint can be used to simulate a lead screw gear.
+The ![](/images/Assembly_CreateJointScrew.svg) [Assembly CreateJointScrew](/Assembly_CreateJointScrew "Assembly CreateJointScrew") tool creates a screw joint (helical joint) that couples the translation of a part of a slider joint and the rotation of a part of a revolute joint. In connection with the already existing joints this joint can be used to simulate a lead screw gear.
 
 ## Usage
 
 1. Optionally select two geometric entities of two different shapes that have previously been used to define a Slider joint and a Revolute joint.
 2. There are several ways to invoke the tool:
-   - Press the ![](/src/assets/images/Assembly_CreateJointScrew.svg) [Create Screw Joint](/Assembly_CreateJointScrew "Assembly CreateJointScrew") button.
-   - Select the **Assembly → ![](/src/assets/images/Assembly_CreateJointScrew.svg) Create Screw Joint** option from the menu.
+   - Press the ![](/images/Assembly_CreateJointScrew.svg) [Create Screw Joint](/Assembly_CreateJointScrew "Assembly CreateJointScrew") button.
+   - Select the **Assembly → ![](/images/Assembly_CreateJointScrew.svg) Create Screw Joint** option from the menu.
    - Use the keyboard shortcut: W.
 3. The **Create Joint** dialog opens in the [Task panel](/Task_panel "Task panel") listing the pre-selected entities.
 4. For further steps see [Assembly CreateJointFixed](/Assembly_CreateJointFixed#Usage "Assembly CreateJointFixed").

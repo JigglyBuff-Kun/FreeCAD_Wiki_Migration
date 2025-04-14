@@ -21,7 +21,7 @@ title: TechDraw ExtensionPosVertChainDimension
 
 The **TechDraw ExtensionPosVertChainDimension** tool aligns vertical dimensions to create a chain dimension.
 
-![](/src/assets/images/TechDraw_ExtensionPosVertChainDimensionExample.png)
+![](/images/TechDraw_ExtensionPosVertChainDimensionExample.png)
 
 On the right the aligned dimensions
 
@@ -30,8 +30,8 @@ On the right the aligned dimensions
 1. Select two or more vertical dimensions.
 2. The first dimension defines the position. This dimension will not be move.
 3. There are several ways to invoke the tool:
-   - Press the ![](/src/assets/images/TechDraw_ExtensionPosVertChainDimension.svg) [Position Vertical Chain Dimensions](/TechDraw_ExtensionPosVertChainDimension "TechDraw ExtensionPosVertChainDimension") button.
-   - Select the **TechDraw → Extensions: Attributes/Modifications → ![](/src/assets/images/TechDraw_ExtensionPosVertChainDimension.svg) Position Vertical Chain Dimensions** option from the menu.
+   - Press the ![](/images/TechDraw_ExtensionPosVertChainDimension.svg) [Position Vertical Chain Dimensions](/TechDraw_ExtensionPosVertChainDimension "TechDraw ExtensionPosVertChainDimension") button.
+   - Select the **TechDraw → Extensions: Attributes/Modifications → ![](/images/TechDraw_ExtensionPosVertChainDimension.svg) Position Vertical Chain Dimensions** option from the menu.
 4. The dimensions are aligned and their dimension texts are centered.
 
 ## Notes

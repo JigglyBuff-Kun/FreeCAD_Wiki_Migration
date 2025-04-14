@@ -34,7 +34,7 @@ Abhängig vom verwendeten Navigationstil kann das Vorauswählen variieren.
 Auswählbare Objekte sind:
 
 - Ecken von Festkörpern
-- Punkte, die mit dem Arbeitsbereich ![](/src/assets/images/Workbench_Draft.svg) [Draft](/Draft_Workbench/de "Draft Workbench/de") eingefügt wurden.
+- Punkte, die mit dem Arbeitsbereich ![](/images/Workbench_Draft.svg) [Draft](/Draft_Workbench/de "Draft Workbench/de") eingefügt wurden.
 - Endpunkte von Skizzenelementen wie Linien und Kreisbögen (Skizze muss sichtbar sein)
 
 Retrieved from "<http://wiki.freecad.org/index.php?title=Robot_InsertWaypointPre/de&oldid=1477493>"

@@ -28,7 +28,7 @@ The **Arch PipeConnector** tool allows to create corner or tee connection betwee
 ## Usage
 
 1. Select 2 or 3 [Arch Pipes](/Arch_Pipe "Arch Pipe"). If you are selecting 3 pipes, two of them must be exactly aligned.
-2. Press the ![](/src/assets/images/Arch_PipeConnector.svg) [Connector](/Arch_PipeConnector "Arch PipeConnector") button, or press P then C keys.
+2. Press the ![](/images/Arch_PipeConnector.svg) [Connector](/Arch_PipeConnector "Arch PipeConnector") button, or press P then C keys.
 
 ## Properties
 

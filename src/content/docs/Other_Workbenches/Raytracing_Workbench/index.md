@@ -5,13 +5,13 @@ title: Raytracing Workbench
 :::caution
 TheRaytracing Workbenchis no longer included after version 0.20.The externalRender Workbenchshould be used instead.
 :::
-![](/src/assets/images/Workbench_Raytracing.svg)
+![](/images/Workbench_Raytracing.svg)
 
 Raytracing workbench icon
 
 ## Introduction
 
-The ![](/src/assets/images/Workbench_Raytracing.svg) [Raytracing Workbench](/Raytracing_Workbench "Raytracing Workbench") is used to generate photorealistic images of your models by processing them with an external renderer.
+The ![](/images/Workbench_Raytracing.svg) [Raytracing Workbench](/Raytracing_Workbench "Raytracing Workbench") is used to generate photorealistic images of your models by processing them with an external renderer.
 
 The Raytracing Workbench works with [templates](/Raytracing_templates "Raytracing templates"), which are project files that define a scene for your 3D model. You can place lights and geometry such as ground planes, and it also contains placeholders for the position of the camera, and for the material information of the objects in the scene. The project can then be exported to a ready-to-render file, or be rendered directly within FreeCAD.
 
@@ -19,7 +19,7 @@ Currently, two renderers are supported: [POV-Ray](/POV-Ray "POV-Ray") and [LuxRe
 
 The Raytracing workbench is obsolete, the external [Render Workbench](https://github.com/FreeCAD/FreeCAD-render) is its replacement. Nevertheless, the information on this page is generally useful for the new workbench, as both basically work in the same way.
 
-![](/src/assets/images/Raytracing_example.jpg)
+![](/images/Raytracing_example.jpg)
 
 ## Typical workflow
 
@@ -28,7 +28,7 @@ The Raytracing workbench is obsolete, the external [Render Workbench](https://gi
 3. Select the objects that you wish to add to the Raytracing project and add them.
 4. Export the project file or render it directly.
 
-![](/src/assets/images/Raytracing_Workbench_workflow.svg)
+![](/images/Raytracing_Workbench_workflow.svg)
 
 Workflow of the Raytracing Workbench; the workbench prepares a project file from a given template, and then calls an external program to produce the actual rendering of the scene. The external renderer can be used independently of FreeCAD.
 
@@ -38,24 +38,24 @@ Workflow of the Raytracing Workbench; the workbench prepares a project file from
 
 These are the main tools for exporting your 3D work to external renderers.
 
-- ![](/src/assets/images/Raytracing_New.svg) [New PovRay project](/Raytracing_New "Raytracing New"): Insert new PovRay project in the document
-- ![](/src/assets/images/Raytracing_Lux.svg) [New LuxRender project](/Raytracing_Lux "Raytracing Lux"): Insert new LuxRender project in the document
-- ![](/src/assets/images/Raytracing_InsertPart.svg) [Insert part](/Raytracing_InsertPart "Raytracing InsertPart"): Insert a view of a Part in a raytracing project
-- ![](/src/assets/images/Raytracing_ResetCamera.svg) [Reset camera](/Raytracing_ResetCamera "Raytracing ResetCamera"): Matches the camera position of a raytracing project to the current view
-- ![](/src/assets/images/Raytracing_ExportProject.svg) [Export project](/Raytracing_ExportProject "Raytracing ExportProject"): Exports a raytracing project to a scene file for rendering in an external renderer
-- ![](/src/assets/images/Raytracing_Render.svg) [Render](/Raytracing_Render "Raytracing Render"): Renders a raytracing project with an external renderer
+- ![](/images/Raytracing_New.svg) [New PovRay project](/Raytracing_New "Raytracing New"): Insert new PovRay project in the document
+- ![](/images/Raytracing_Lux.svg) [New LuxRender project](/Raytracing_Lux "Raytracing Lux"): Insert new LuxRender project in the document
+- ![](/images/Raytracing_InsertPart.svg) [Insert part](/Raytracing_InsertPart "Raytracing InsertPart"): Insert a view of a Part in a raytracing project
+- ![](/images/Raytracing_ResetCamera.svg) [Reset camera](/Raytracing_ResetCamera "Raytracing ResetCamera"): Matches the camera position of a raytracing project to the current view
+- ![](/images/Raytracing_ExportProject.svg) [Export project](/Raytracing_ExportProject "Raytracing ExportProject"): Exports a raytracing project to a scene file for rendering in an external renderer
+- ![](/images/Raytracing_Render.svg) [Render](/Raytracing_Render "Raytracing Render"): Renders a raytracing project with an external renderer
 
 ### Utilities
 
 These are helper tools to perform specific tasks manually.
 
-- ![](/src/assets/images/Raytracing_WriteView.svg) [Export view to povray](/Raytracing_WriteView "Raytracing WriteView"): Write the active 3D view with camera and all its content to a povray file
-- ![](/src/assets/images/Raytracing_WriteCamera.svg) [Export camera to povray](/Raytracing_WriteCamera "Raytracing WriteCamera"): Export the camera position of the active 3D view in POV-Ray format to a file
-- ![](/src/assets/images/Raytracing_WritePart.svg) [Export part to povray](/Raytracing_WritePart "Raytracing WritePart"): Write the selected Part (object) as a povray file
+- ![](/images/Raytracing_WriteView.svg) [Export view to povray](/Raytracing_WriteView "Raytracing WriteView"): Write the active 3D view with camera and all its content to a povray file
+- ![](/images/Raytracing_WriteCamera.svg) [Export camera to povray](/Raytracing_WriteCamera "Raytracing WriteCamera"): Export the camera position of the active 3D view in POV-Ray format to a file
+- ![](/images/Raytracing_WritePart.svg) [Export part to povray](/Raytracing_WritePart "Raytracing WritePart"): Write the selected Part (object) as a povray file
 
 ## Preferences
 
-- ![](/src/assets/images/Preferences-raytracing.svg) [Preferences](/Raytracing_Preferences "Raytracing Preferences"): Preferences available in for the Raytracing tools.
+- ![](/images/Preferences-raytracing.svg) [Preferences](/Raytracing_Preferences "Raytracing Preferences"): Preferences available in for the Raytracing tools.
 
 ## Tutorials
 
@@ -66,15 +66,15 @@ These are helper tools to perform specific tasks manually.
 
 The utility tools described above allow you to export the current 3D view and all of its content to a [Povray](http://www.povray.org/) file. First, you must load or create your CAD data and position the 3D View orientation as you wish. Then choose "Utilities → Export View..." from the raytracing menu.
 
-![](/src/assets/images/FreeCAD_Raytracing.jpg)
+![](/images/FreeCAD_Raytracing.jpg)
 
 You will be asked for a location to save the resulting \*.pov file. After that you can open it in [Povray](http://www.povray.org/) and render:
 
-![](/src/assets/images/Povray.jpg)
+![](/images/Povray.jpg)
 
 As usual in a renderer you can make big and nice pictures:
 
-![](/src/assets/images/Scharniergreifer_render.jpg)
+![](/images/Scharniergreifer_render.jpg)
 
 ## Scripting
 

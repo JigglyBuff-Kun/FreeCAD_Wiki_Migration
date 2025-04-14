@@ -25,8 +25,8 @@ The **TechDraw ExtensionInsertRepetition** tool inserts a repeated feature count
 
 1. Select one or more dimensions.
 2. There are several ways to invoke the tool:
-   - Press the ![](/src/assets/images/TechDraw_ExtensionInsertRepetition.svg) [Insert 'n×' Prefix](/TechDraw_ExtensionInsertRepetition "TechDraw ExtensionInsertRepetition") button.
-   - Select the **TechDraw → Extensions: Dimensions → ![](/src/assets/images/TechDraw_ExtensionInsertRepetition.svg) Insert 'n×' Prefix** option from the menu.
+   - Press the ![](/images/TechDraw_ExtensionInsertRepetition.svg) [Insert 'n×' Prefix](/TechDraw_ExtensionInsertRepetition "TechDraw ExtensionInsertRepetition") button.
+   - Select the **TechDraw → Extensions: Dimensions → ![](/images/TechDraw_ExtensionInsertRepetition.svg) Insert 'n×' Prefix** option from the menu.
 3. The **Change Editable Field** dialog opens.
 4. The **Autofill** checkbox has no purpose for this tool.
 5. Enter the **Value** that should appear before the '×' symbol.

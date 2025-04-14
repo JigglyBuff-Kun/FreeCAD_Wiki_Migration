@@ -23,7 +23,7 @@ Der Befehl **Std NeustartImSicherenModus'** startet FreeCAD zur Fehlerbehebung n
 
 ## Anwendung
 
-1. Den Menüeintrag **Hilfe → ![](/src/assets/images/Std_RestartInSafeMode.svg) Im sicheren Modus neu starten** auswählen.
+1. Den Menüeintrag **Hilfe → ![](/images/Std_RestartInSafeMode.svg) Im sicheren Modus neu starten** auswählen.
 2. Ein Dialogfenster mit einer Warnung wird geöffnet.
 3. Zum Bestätigen die Schaltfläche Ja drücken.
 4. FreeCAD wird im sicheren Modus neu gestartet.

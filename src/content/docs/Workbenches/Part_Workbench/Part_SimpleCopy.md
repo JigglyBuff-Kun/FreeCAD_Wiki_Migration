@@ -19,12 +19,12 @@ title: Part SimpleCopy
 
 ## Description
 
-The ![](/src/assets/images/Part_SimpleCopy.svg) **Part SimpleCopy** command creates non-parametric copies of objects.
+The ![](/images/Part_SimpleCopy.svg) **Part SimpleCopy** command creates non-parametric copies of objects.
 
 ## Usage
 
 1. Select one or more objects.
-2. Select the **Part → Create a copy → ![](/src/assets/images/Part_SimpleCopy.svg) Create simple copy** option from the menu.
+2. Select the **Part → Create a copy → ![](/images/Part_SimpleCopy.svg) Create simple copy** option from the menu.
 
 ## Notes
 

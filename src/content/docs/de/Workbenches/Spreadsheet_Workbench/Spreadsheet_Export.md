@@ -19,13 +19,13 @@ title: Spreadsheet Exportieren
 
 ## Beschreibung
 
-Das Werkzeug ![](/src/assets/images/Spreadsheet_Export.svg) **Spreadsheet Exportieren** exportiert eine Kalkulationstabelle in eine CSV-Datei (engl.: Comma Separated Values). Man beachte, dass das `Tab`-Zeichen und nicht das `Komma` der voreingestellte Feldtrenner ist. Aber dies kann in den [Spreadsheet-Einstellungen](/Spreadsheet_Preferences/de "Spreadsheet Preferences/de") geändert werden ([eingeführt in 0.20](/Release_notes_0.20/de "Release notes 0.20/de")).
+Das Werkzeug ![](/images/Spreadsheet_Export.svg) **Spreadsheet Exportieren** exportiert eine Kalkulationstabelle in eine CSV-Datei (engl.: Comma Separated Values). Man beachte, dass das `Tab`-Zeichen und nicht das `Komma` der voreingestellte Feldtrenner ist. Aber dies kann in den [Spreadsheet-Einstellungen](/Spreadsheet_Preferences/de "Spreadsheet Preferences/de") geändert werden ([eingeführt in 0.20](/Release_notes_0.20/de "Release notes 0.20/de")).
 
 ## Anwendung
 
 1. Sicherstellen, dass eine [Kalkulationstabelle](/Spreadsheet_CreateSheet/de "Spreadsheet CreateSheet/de") aktiviert ist.
 2. Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
-   - Die Schaltfläche ![](/src/assets/images/Spreadsheet_Export.svg) Kalkulationstabelle exportieren drücken.
-   - Den Menüeintrag **Kalkulationstabelle → ![](/src/assets/images/Spreadsheet_Export.svg) Kalkulationstabelle exportieren** auswählen.
+   - Die Schaltfläche ![](/images/Spreadsheet_Export.svg) Kalkulationstabelle exportieren drücken.
+   - Den Menüeintrag **Kalkulationstabelle → ![](/images/Spreadsheet_Export.svg) Kalkulationstabelle exportieren** auswählen.
 
 Retrieved from "<http://wiki.freecad.org/index.php?title=Spreadsheet_Export/de&oldid=1507618>"

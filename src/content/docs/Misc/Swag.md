@@ -14,9 +14,9 @@ Official FreeCAD t-shirts are very easy to produce! Download one of the full-res
 
 Example:
 
-![](/src/assets/images/Freecad-tshirt-011-example.jpg)
+![](/images/Freecad-tshirt-011-example.jpg)
 
-![](/src/assets/images/Freecad-tshirt011-template.png)
+![](/images/Freecad-tshirt011-template.png)
 
 Downloadable file:
 
@@ -26,9 +26,9 @@ Downloadable file:
 
 Example:
 
-![](/src/assets/images/Freecad-tshirt019-example.jpg)
+![](/images/Freecad-tshirt019-example.jpg)
 
-![](/src/assets/images/Freecad-tshirt019-template.png)
+![](/images/Freecad-tshirt019-template.png)
 
 Downloadable file:
 
@@ -38,7 +38,7 @@ Downloadable file:
 
 The file below can be used to print 50x50mm stickers. Most print shops will ask you for Adobe Illustrator files, sometimes two files (one for the printing and one for the contour cut). But the svg files below will import in Illustrator just fine, so you can send them instead. Some print shops will ask for both the print and the contour to be in the same file, but with special instructions for the contour, such as be in magenta color. Make sure to check the requirements before sending to print.
 
-![](/src/assets/images/Freecad-sticker-5x5-example.jpg)
+![](/images/Freecad-sticker-5x5-example.jpg)
 
 Downloadable files:
 

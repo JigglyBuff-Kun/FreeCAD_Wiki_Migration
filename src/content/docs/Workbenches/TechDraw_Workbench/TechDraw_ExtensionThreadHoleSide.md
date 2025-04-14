@@ -21,17 +21,17 @@ title: TechDraw ExtensionThreadHoleSide
 
 The **TechDraw ExtensionThreadHoleSide** tool adds a cosmetic thread to the side view of a hole.
 
-![](/src/assets/images/TechDraw_ExtensionThreadHoleSideExample.png)
+![](/images/TechDraw_ExtensionThreadHoleSideExample.png)
 
 On the right a hole with a cosmetic thread
 
 ## Usage
 
-1. Optionally specify the line attributes with the ![](/src/assets/images/TechDraw_ExtensionSelectLineAttributes.svg) [TechDraw ExtensionSelectLineAttributes](/TechDraw_ExtensionSelectLineAttributes "TechDraw ExtensionSelectLineAttributes") tool.
+1. Optionally specify the line attributes with the ![](/images/TechDraw_ExtensionSelectLineAttributes.svg) [TechDraw ExtensionSelectLineAttributes](/TechDraw_ExtensionSelectLineAttributes "TechDraw ExtensionSelectLineAttributes") tool.
 2. Select two parallel lines.
 3. There are several ways to invoke the tool:
-   - Press the ![](/src/assets/images/TechDraw_ExtensionThreadHoleSide.svg) [Add Cosmetic Thread Hole Side View](/TechDraw_ExtensionThreadHoleSide "TechDraw ExtensionThreadHoleSide") button.
-   - Select the **TechDraw → Extensions: Centerlines/Threading → ![](/src/assets/images/TechDraw_ExtensionThreadHoleSide.svg) Add Cosmetic Thread Hole Side View** option from the menu.
+   - Press the ![](/images/TechDraw_ExtensionThreadHoleSide.svg) [Add Cosmetic Thread Hole Side View](/TechDraw_ExtensionThreadHoleSide "TechDraw ExtensionThreadHoleSide") button.
+   - Select the **TechDraw → Extensions: Centerlines/Threading → ![](/images/TechDraw_ExtensionThreadHoleSide.svg) Add Cosmetic Thread Hole Side View** option from the menu.
 4. A cosmetic thread is added.
 
 Retrieved from "<http://wiki.freecad.org/index.php?title=TechDraw_ExtensionThreadHoleSide/en&oldid=1290757>"

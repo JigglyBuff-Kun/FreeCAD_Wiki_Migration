@@ -19,10 +19,10 @@ title: Sketcher ConstrainDistanceX
 
 ## Description
 
-The ![](/src/assets/images/Sketcher_ConstrainDistanceX.svg) [Sketcher ConstrainDistanceX](/Sketcher_ConstrainDistanceX "Sketcher ConstrainDistanceX") tool
+The ![](/images/Sketcher_ConstrainDistanceX.svg) [Sketcher ConstrainDistanceX](/Sketcher_ConstrainDistanceX "Sketcher ConstrainDistanceX") tool
 fixes the horizontal distance between two points or the endpoints of a line. If a single point is pre-selected, the distance is relative to the origin of the sketch.
 
-![](/src/assets/images/Constraint_H_Distance.png)
+![](/images/Constraint_H_Distance.png)
 
 ## Usage
 
@@ -32,10 +32,10 @@ See also: [Drawing aids](/Sketcher_Workbench#Drawing_aids "Sketcher Workbench").
 
 1. Make sure there is no selection.
 2. There are several ways to invoke the tool:
-   - [introduced in 1.0](/Release_notes_1.0 "Release notes 1.0"): If the **Dimensioning constraints** [preference](/Sketcher_Preferences#General "Sketcher Preferences") is set to `Single tool` (default): press the down arrow to the right of the ![](/src/assets/images/Sketcher_Dimension.svg)![](/src/assets/images/Toolbar_flyout_arrow.svg) button and select the **![](/src/assets/images/Sketcher_ConstrainDistanceX.svg) Constrain horizontal distance** option from the dropdown.
-   - If this preference has a different value (and in 0.21 and below): press the ![](/src/assets/images/Sketcher_ConstrainDistanceX.svg) [Constrain horizontal distance](/Sketcher_ConstrainDistanceX "Sketcher ConstrainDistanceX") button.
-   - Select the **Sketch → Sketcher constraints → ![](/src/assets/images/Sketcher_ConstrainDistanceX.svg) Constrain horizontal distance** option from the menu.
-   - [introduced in 1.0](/Release_notes_1.0 "Release notes 1.0"): Right-click in the [3D view](/3D_view "3D view") and select the **Dimension → ![](/src/assets/images/Sketcher_ConstrainDistanceX.svg) Constrain horizontal distance** option from the context menu.
+   - [introduced in 1.0](/Release_notes_1.0 "Release notes 1.0"): If the **Dimensioning constraints** [preference](/Sketcher_Preferences#General "Sketcher Preferences") is set to `Single tool` (default): press the down arrow to the right of the ![](/images/Sketcher_Dimension.svg)![](/images/Toolbar_flyout_arrow.svg) button and select the **![](/images/Sketcher_ConstrainDistanceX.svg) Constrain horizontal distance** option from the dropdown.
+   - If this preference has a different value (and in 0.21 and below): press the ![](/images/Sketcher_ConstrainDistanceX.svg) [Constrain horizontal distance](/Sketcher_ConstrainDistanceX "Sketcher ConstrainDistanceX") button.
+   - Select the **Sketch → Sketcher constraints → ![](/images/Sketcher_ConstrainDistanceX.svg) Constrain horizontal distance** option from the menu.
+   - [introduced in 1.0](/Release_notes_1.0 "Release notes 1.0"): Right-click in the [3D view](/3D_view "3D view") and select the **Dimension → ![](/images/Sketcher_ConstrainDistanceX.svg) Constrain horizontal distance** option from the context menu.
    - Use the keyboard shortcut: L.
 3. The cursor changes to a cross with the tool icon.
 4. Do one of the following:

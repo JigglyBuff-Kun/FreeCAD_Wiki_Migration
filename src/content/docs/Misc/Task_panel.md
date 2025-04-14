@@ -6,7 +6,7 @@ title: Task panel
 
 The [Task panel](/Task_panel "Task panel") appears in a stand-alone [dockable](/Combo_view#Dock_Task_panel_on_top_of_Combo_view "Combo view") panel called **Tasks**. It is a customizable space that is able to contain any type of graphical widgets like input fields, checkboxes, spinboxes, buttons, labels, images, and other elements, depending on the currently active tool.
 
-![](/src/assets/images/FreeCAD_Combo_view_Task_panel.png)
+![](/images/FreeCAD_Combo_view_Task_panel.png)
 
 Task panel showing various tools when the [PartDesign Workbench](/PartDesign_Workbench "PartDesign Workbench") is active, and a [sketch](/Sketch "Sketch") is selected.
 
@@ -16,7 +16,7 @@ A Task panel normally opens when a tool that requires user input is activated. I
 
 There are many tools that require the selection of shapes or objects. In such cases the Task panel will wait for the user to select the appropriate objects from the [Tree view](/Tree_view "Tree view") or the [3D view](/3D_view "3D view"). When a Task panel is open, it is possible to switch to the [Tree view](/Tree_view "Tree view") to choose an object. Once this is done, it is possible to switch back to the Task panel to proceed with the tool. The Task panel is usually closed by clicking an OK or a Close button, or pressing the Esc key to abort the tool.
 
-![](/src/assets/images/FreeCAD_Combo_view_Task_panel_ArchComponent.png)
+![](/images/FreeCAD_Combo_view_Task_panel_ArchComponent.png)
 
 Task panel that opens when editing an [Arch Component](/Arch_Component "Arch Component"). The panel waits for the user to select objects that can be added or subtracted from the component.
 

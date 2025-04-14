@@ -25,8 +25,8 @@ The **Std ToggleTransparency** command toggles the transparency of selected obje
 
 1. Select one or more objects.
 2. There are several ways to invoke the command:
-   - Select the **View → ![](/src/assets/images/Std_ToggleTransparency.svg) Toggle transparency** option from the menu.
-   - Select the **![](/src/assets/images/Std_ToggleTransparency.svg) Toggle transparency** option from the [Tree view](/Tree_view "Tree view") context menu or [3D view](/3D_view "3D view") context menu.
+   - Select the **View → ![](/images/Std_ToggleTransparency.svg) Toggle transparency** option from the menu.
+   - Select the **![](/images/Std_ToggleTransparency.svg) Toggle transparency** option from the [Tree view](/Tree_view "Tree view") context menu or [3D view](/3D_view "3D view") context menu.
    - Use the keyboard shortcut: V then T.
 3. Objects that were transparent (1% or more) become opaque. Opaque objects become 70% transparent.
 

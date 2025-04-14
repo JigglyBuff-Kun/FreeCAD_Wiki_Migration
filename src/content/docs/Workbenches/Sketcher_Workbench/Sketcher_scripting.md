@@ -29,14 +29,14 @@ It also adds three [lines](/Topological_data_scripting#Line "Topological data sc
 
 ## Creating a constraint using Python
 
-A geometric constraint ![](/src/assets/images/Sketcher_ConstrainCoincident.svg) ![](/src/assets/images/Sketcher_ConstrainPointOnObject.svg) ![](/src/assets/images/Sketcher_ConstrainVertical.svg) ![](/src/assets/images/Sketcher_ConstrainHorizontal.svg) ![](/src/assets/images/Sketcher_ConstrainParallel.svg) ![](/src/assets/images/Sketcher_ConstrainPerpendicular.svg) ![](/src/assets/images/Sketcher_ConstrainTangent.svg) ![](/src/assets/images/Sketcher_ConstrainEqual.svg) ![](/src/assets/images/Sketcher_ConstrainSymmetric.svg) and ![](/src/assets/images/Sketcher_ConstrainBlock.svg) can be created from macros and from the Python console by using the following command:
+A geometric constraint ![](/images/Sketcher_ConstrainCoincident.svg) ![](/images/Sketcher_ConstrainPointOnObject.svg) ![](/images/Sketcher_ConstrainVertical.svg) ![](/images/Sketcher_ConstrainHorizontal.svg) ![](/images/Sketcher_ConstrainParallel.svg) ![](/images/Sketcher_ConstrainPerpendicular.svg) ![](/images/Sketcher_ConstrainTangent.svg) ![](/images/Sketcher_ConstrainEqual.svg) ![](/images/Sketcher_ConstrainSymmetric.svg) and ![](/images/Sketcher_ConstrainBlock.svg) can be created from macros and from the Python console by using the following command:
 
 ```
 sketch.addConstraint(Sketcher.Constraint(ConstraintType, EdgeOrPartOfEdge…))
 
 ```
 
-A dimensional constraint ![](/src/assets/images/Sketcher_ConstrainLock.svg) ![](/src/assets/images/Sketcher_ConstrainDistanceX.svg) ![](/src/assets/images/Sketcher_ConstrainDistanceY.svg) ![](/src/assets/images/Sketcher_ConstrainDistance.svg) ![](/src/assets/images/Sketcher_ConstrainRadius.svg) ![](/src/assets/images/Sketcher_ConstrainDiameter.svg) ![](/src/assets/images/Sketcher_ConstrainAngle.svg) and the special constraint ![](/src/assets/images/Sketcher_ConstrainSnellsLaw.svg) [Snell's law](/Sketcher_ConstrainSnellsLaw "Sketcher ConstrainSnellsLaw") can be created from macros and from the Python console by using the following command:
+A dimensional constraint ![](/images/Sketcher_ConstrainLock.svg) ![](/images/Sketcher_ConstrainDistanceX.svg) ![](/images/Sketcher_ConstrainDistanceY.svg) ![](/images/Sketcher_ConstrainDistance.svg) ![](/images/Sketcher_ConstrainRadius.svg) ![](/images/Sketcher_ConstrainDiameter.svg) ![](/images/Sketcher_ConstrainAngle.svg) and the special constraint ![](/images/Sketcher_ConstrainSnellsLaw.svg) [Snell's law](/Sketcher_ConstrainSnellsLaw "Sketcher ConstrainSnellsLaw") can be created from macros and from the Python console by using the following command:
 
 ```
 sketch.addConstraint(Sketcher.Constraint(DimensionalConstraintType, EdgeOrPartOfEdge…, App.Units.Quantity("float_value unit")))
@@ -85,23 +85,23 @@ For dimensional constraints, the first argument is one of the following. See the
 | `"Angle"`         |      | [Angle](/Sketcher_ConstrainAngle "Sketcher ConstrainAngle")                       |
 | `"AngleViaPoint"` |      | [Angle](/Sketcher_ConstrainAngle "Sketcher ConstrainAngle")                       |
 
-The ![](/src/assets/images/Sketcher_ConstrainSnellsLaw.svg) [Snell's law](/Sketcher_ConstrainSnellsLaw "Sketcher ConstrainSnellsLaw") constraints behave like dimensional contraints for the purposes of scripting. Again, see the corresponding feature page for the possible combinations of arguments allowed for each constraint.
+The ![](/images/Sketcher_ConstrainSnellsLaw.svg) [Snell's law](/Sketcher_ConstrainSnellsLaw "Sketcher ConstrainSnellsLaw") constraints behave like dimensional contraints for the purposes of scripting. Again, see the corresponding feature page for the possible combinations of arguments allowed for each constraint.
 
 | Code          | Icon | Feature                                                                   |
 | ------------- | ---- | ------------------------------------------------------------------------- |
 | `"SnellsLaw"` |      | [Snell's law](/Sketcher_ConstrainSnellsLaw "Sketcher ConstrainSnellsLaw") |
 
-The ![](/src/assets/images/Sketcher_ConstrainLock.svg) [Lock](/Sketcher_ConstrainLock "Sketcher ConstrainLock") constraint is a GUI command which creates a ![](/src/assets/images/Sketcher_ConstrainDistanceX.svg) [Horizontal distance](/Sketcher_ConstrainDistanceX "Sketcher ConstrainDistanceX") and a ![](/src/assets/images/Sketcher_ConstrainDistanceY.svg) [Vertical distance](/Sketcher_ConstrainDistanceY "Sketcher ConstrainDistanceY") constraint, it is not a constraint of its own.
+The ![](/images/Sketcher_ConstrainLock.svg) [Lock](/Sketcher_ConstrainLock "Sketcher ConstrainLock") constraint is a GUI command which creates a ![](/images/Sketcher_ConstrainDistanceX.svg) [Horizontal distance](/Sketcher_ConstrainDistanceX "Sketcher ConstrainDistanceX") and a ![](/images/Sketcher_ConstrainDistanceY.svg) [Vertical distance](/Sketcher_ConstrainDistanceY "Sketcher ConstrainDistanceY") constraint, it is not a constraint of its own.
 
 ## Identifying the numbering of a line
 
 I have drawn three lines as shown in the following figure.
 
-![](/src/assets/images/PartDesignConstraintPointOnPointScriptingFigure1.jpg)
+![](/images/PartDesignConstraintPointOnPointScriptingFigure1.jpg)
 
 By moving the cursor of the mouse above the line you can see the line number at the bottom left of the FreeCAD windows, see next figure.
 
-![](/src/assets/images/PartDesignConstraintPointOnPointScriptingFigure2.jpg)
+![](/images/PartDesignConstraintPointOnPointScriptingFigure2.jpg)
 
 Unfortunately the numbering displayed on the FreeCAD windows start from 1 whereas the numbering of the line used to script start from 0: this means that you have to subtract one each time you want to refer to a line.
 
@@ -123,7 +123,7 @@ When qualifying which part of a line is affected by a constraint, the following 
 
 The vertices indicated by 1 and 2 are numbered according to their order of creation. To find out the order of their creation (If you have a lot of lines, you cannot remember which vertex you have created first), you just have to move the cursor of your mouse above the two vertices of one line, see following figure.
 
-![](/src/assets/images/PartDesignConstraintPointOnPointScriptingFigure3.jpg)
+![](/images/PartDesignConstraintPointOnPointScriptingFigure3.jpg)
 
 If you read e.g. 4 and 5, it means that the vertex with the lower number (4 in this example) will be referenced by using the number 1 (first in the script command and the vertex with the higher number (5 in this example) will be referenced by using the number 2 in the script command.
 
@@ -131,13 +131,13 @@ If you read e.g. 4 and 5, it means that the vertex with the lower number (4 in t
 
 Let us take the previous example of the three lines. The subsequent figure indicates the numbering of each line and their vertices according to the convention for scripting.
 
-![](/src/assets/images/PartDesignConstraintPointOnPointScriptingFigure3Bis.jpg)
+![](/images/PartDesignConstraintPointOnPointScriptingFigure3Bis.jpg)
 
 **blue text:** numbering of line, **black text:** numbering of vertices
 
 The command `sketch.addConstraint(Sketcher.Constraint("Coincident", 1, 2, 2, 1))` yields following result:
 
-![](/src/assets/images/PartDesignConstraintPointOnPointScriptingFigure4.jpg)
+![](/images/PartDesignConstraintPointOnPointScriptingFigure4.jpg)
 
 The full code to draw the three lines and add a Coincident constraint on two points from two lines is like this:
 

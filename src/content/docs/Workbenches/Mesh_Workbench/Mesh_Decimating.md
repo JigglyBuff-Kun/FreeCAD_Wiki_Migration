@@ -25,8 +25,8 @@ The **Mesh Decimating** command reduces the number of faces in mesh objects.
 
 1. Select one or more mesh objects.
 2. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/Mesh_Decimating.svg) [Decimation...](/Mesh_Decimating "Mesh Decimating") button.
-   - Select the **Meshes → ![](/src/assets/images/Mesh_Decimating.svg) Decimation...** option from the menu.
+   - Press the ![](/images/Mesh_Decimating.svg) [Decimation...](/Mesh_Decimating "Mesh Decimating") button.
+   - Select the **Meshes → ![](/images/Mesh_Decimating.svg) Decimation...** option from the menu.
 3. The **Decimating** task panel opens.
 4. Specify the **Reduction**:
    - If only one mesh object has been selected and you choose the **Absolute number** option:

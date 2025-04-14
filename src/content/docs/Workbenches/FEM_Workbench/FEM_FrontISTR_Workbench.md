@@ -2,20 +2,20 @@
 title: FEM FrontISTR Workbench
 ---
 
-![](/src/assets/images/FrontISTR.svg)
+![](/images/FrontISTR.svg)
 
 FEM FrontISTR Workbench icon
 
 ## Introduction
 
-The ![](/src/assets/images/FrontISTR.svg) FEM FrontISTR Workbench is a FreeCAD addon that enables FrontISTR, an open-source large-scale parallel FEM program for nonlinear structural analysis.
+The ![](/images/FrontISTR.svg) FEM FrontISTR Workbench is a FreeCAD addon that enables FrontISTR, an open-source large-scale parallel FEM program for nonlinear structural analysis.
 
-![](/src/assets/images/FEM_FrontISTR_bikeframe_screenshot.png)
+![](/images/FEM_FrontISTR_bikeframe_screenshot.png)
 
 ### Intended work-flow
 
 1. Set up an analysis model by FEM module (in the same way as CalculiX).
-2. Switch to the workbench **FrontISTR** and create a FrontISTR solver object by clicking on the toolbar button ![](/src/assets/images/FEM_SolverCalculixCxxtools.svg).
+2. Switch to the workbench **FrontISTR** and create a FrontISTR solver object by clicking on the toolbar button ![](/images/FEM_SolverCalculixCxxtools.svg).
 3. Double-click on the solver object in the document tree and set the working directory.
 4. Click on the button **Write input file**
 5. Click on the button **Run FrontISTR**
@@ -58,7 +58,7 @@ See <https://github.com/FrontISTR/FEM_FrontISTR/tree/master/sample/benchmarks>.
 
 ### Addon Manager
 
-FEM_FrontISTR can easily be installed via the FreeCAD ![](/src/assets/images/AddonManager.svg) [Addon Manager](/Std_AddonMgr "Std AddonMgr") from the **Tools → Addon manager** menu.
+FEM_FrontISTR can easily be installed via the FreeCAD ![](/images/AddonManager.svg) [Addon Manager](/Std_AddonMgr "Std AddonMgr") from the **Tools → Addon manager** menu.
 FEM_FrontISTR is under active development and will get new features frequently. Therefore you should update it regularly using the menu **Tools → Addon manager**.
 The FEM_FrontISTR code is hosted and developed [on GitHub](https://github.com/FrontISTR/FEM_FrontISTR).
 
@@ -91,7 +91,7 @@ Under preparation.
 
 ## Tools
 
-- ![](/src/assets/images/FEM_SolverCalculixCxxtools.svg) **Solver FrontISTR Standard**: Creates a new FrontISTR solver for this analysis.
+- ![](/images/FEM_SolverCalculixCxxtools.svg) **Solver FrontISTR Standard**: Creates a new FrontISTR solver for this analysis.
 
 ## References
 

@@ -25,16 +25,16 @@ THIS COMMAND IS PART OF THE INTEGRATEDBIM WORKBENCHIN V1.0This page has been upd
 
 This tool allows to build a 2D sheet, including any number of [Arch Panel Cut](/Arch_Panel_Cut "Arch Panel Cut") objects, or any other 2D object such as those made by the [Draft Workbench](/Draft_Workbench "Draft Workbench") and [Sketcher Workbench](/Sketcher_Workbench "Sketcher Workbench"). The Panel Sheet is typically made to layout cuts to be made by a CNC machine. These sheets can then be exported to a [DXF](/Draft_DXF "Draft DXF") file.
 
-![](/src/assets/images/Arch_Wikihouse_03.jpg)
+![](/images/Arch_Wikihouse_03.jpg)
 
-![](/src/assets/images/Arch_Wikihouse_04.jpg)
+![](/images/Arch_Wikihouse_04.jpg)
 
 _The above image shows how Panel Sheets appear when exported to DXF._
 
 ## Usage
 
 1. Optionally, select one or more [Arch Panel Cut](/Arch_Panel_Cut "Arch Panel Cut") objects or any other 2D object that lies on the XY plane.
-2. Select the **Utils → Panel tools → ![](/src/assets/images/Arch_Panel_Sheet.svg) Panel Sheet** option from the menu.
+2. Select the **Utils → Panel tools → ![](/images/Arch_Panel_Sheet.svg) Panel Sheet** option from the menu.
 3. Adjust the desired properties.
 
 ## Options

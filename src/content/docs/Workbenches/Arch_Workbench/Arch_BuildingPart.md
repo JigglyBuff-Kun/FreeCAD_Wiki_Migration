@@ -28,7 +28,7 @@ The BuildingPart object, produced by the BIM Level or BIM Building commands, rep
 ## Usage
 
 1. Optionally, select one or more objects to be included in your new Building Part.
-2. Press the ![](/src/assets/images/Arch_BuildingPart.svg) [Arch BuildingPart](/Arch_BuildingPart "Arch BuildingPart") button.
+2. Press the ![](/images/Arch_BuildingPart.svg) [Arch BuildingPart](/Arch_BuildingPart "Arch BuildingPart") button.
 
 ### Notes
 
@@ -38,8 +38,8 @@ This plane is always parallel to the BuildingPart's base plane, but you can spec
 
 ## Options
 
-- After creating a BuildingPart, you can add more objects to it by dragging and dropping them in the Tree View or by using the ![](/src/assets/images/Arch_Add.svg) [Arch Add](/Arch_Add "Arch Add") tool.
-- You can remove objects from a BuildingPart by dragging and dropping them out of the Tree View or by using the ![](/src/assets/images/Arch_Remove.svg) [Arch Remove](/Arch_Remove "Arch Remove") tool.
+- After creating a BuildingPart, you can add more objects to it by dragging and dropping them in the Tree View or by using the ![](/images/Arch_Add.svg) [Arch Add](/Arch_Add "Arch Add") tool.
+- You can remove objects from a BuildingPart by dragging and dropping them out of the Tree View or by using the ![](/images/Arch_Remove.svg) [Arch Remove](/Arch_Remove "Arch Remove") tool.
 - By double-clicking the BuildingPart object in the tree view, the [Working Plane](/Draft_SelectPlane "Draft SelectPlane") will be set to its location, and the BuildingPart will become active, which means that new objects will be added automatically to it. Double-clicking the BuildingPart again will deactivate it and set the working plane back to its previous position (to be available this option needs to be set up as true, in View Property panel - Interaction - Double Click Activates).
 - The BuildingPart can display a mark in the 3D view with a label and level indication.
 - When a BuildingPart is moved/rotated, all its children that either have no Data**Move With Host** property, or have it turned on, will move/rotate together.

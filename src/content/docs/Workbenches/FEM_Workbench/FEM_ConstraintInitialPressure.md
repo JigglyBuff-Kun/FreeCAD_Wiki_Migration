@@ -28,8 +28,8 @@ Creates an initial pressure condition for a fluid flow analysis.
 ## Usage
 
 1. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/FEM_ConstraintInitialPressure.svg) [Initial pressure condition](/FEM_ConstraintInitialPressure "FEM ConstraintInitialPressure") button.
-   - Select the **Model → Fluid boundary conditions → ![](/src/assets/images/FEM_ConstraintInitialPressure.svg) Initial pressure condition** option from the menu.
+   - Press the ![](/images/FEM_ConstraintInitialPressure.svg) [Initial pressure condition](/FEM_ConstraintInitialPressure "FEM ConstraintInitialPressure") button.
+   - Select the **Model → Fluid boundary conditions → ![](/images/FEM_ConstraintInitialPressure.svg) Initial pressure condition** option from the menu.
 2. Enter an initial pressure value.
 3. For a 3D analysis, select a 'solid' (body) from your model, for a 2D analysis select a face.
 

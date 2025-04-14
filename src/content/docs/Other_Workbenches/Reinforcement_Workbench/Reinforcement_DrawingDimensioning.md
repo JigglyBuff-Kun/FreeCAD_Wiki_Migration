@@ -21,9 +21,9 @@ title: Reinforcement DrawingDimensioning
 
 The [Reinforcement DrawingDimensioning](/Reinforcement_DrawingDimensioning "Reinforcement DrawingDimensioning") tool allows the user to create drawing and dimensioning of reinforcing bars.
 
-This tool is part of the [Reinforcement Workbench](/Reinforcement_Workbench "Reinforcement Workbench"), an [external workbench](/External_workbenches "External workbenches") that can be installed with the ![](/src/assets/images/Std_AddonMgr.svg) [Addon Manager](/Std_AddonMgr "Std AddonMgr").
+This tool is part of the [Reinforcement Workbench](/Reinforcement_Workbench "Reinforcement Workbench"), an [external workbench](/External_workbenches "External workbenches") that can be installed with the ![](/images/Std_AddonMgr.svg) [Addon Manager](/Std_AddonMgr "Std AddonMgr").
 
-![](/src/assets/images/Arch_Rebar_Drawing_Dimensioning_example.svg)
+![](/images/Arch_Rebar_Drawing_Dimensioning_example.svg)
 
 Drawing and dimensioning of reinforcing bars
 
@@ -31,35 +31,35 @@ Drawing and dimensioning of reinforcing bars
 
 1. Open FreeCAD Model containing reinforcement bars created using [Reinforcement Workbench](/Reinforcement_Workbench "Reinforcement Workbench").
 
-2. Select ![](/src/assets/images/Arch_Structure.svg) [Arch Structure](/Arch_Structure "Arch Structure") object and then select ![](/src/assets/images/Reinforcement_DrawingDimensioning.svg) [Reinforcement Drawing Dimensioning](/Reinforcement_DrawingDimensioning "Reinforcement DrawingDimensioning") from the rebar tools.
+2. Select ![](/images/Arch_Structure.svg) [Arch Structure](/Arch_Structure "Arch Structure") object and then select ![](/images/Reinforcement_DrawingDimensioning.svg) [Reinforcement Drawing Dimensioning](/Reinforcement_DrawingDimensioning "Reinforcement DrawingDimensioning") from the rebar tools.
 
 3. A dialog box will pop-out on the screen as shown below.
 
-: ![](/src/assets/images/ArchRebarDrawingDimensioning_dialog1.png)
+: ![](/images/ArchRebarDrawingDimensioning_dialog1.png)
 
 4. Enter all the details related to stroke width and color of rebar and structure.
 
 5. Click on Next button and the dialog box will be updated as shown below.
 
-: ![](/src/assets/images/ArchRebarDrawingDimensioning_dialog2.png)
+: ![](/images/ArchRebarDrawingDimensioning_dialog2.png)
 
 6. Enter drawing views option, dimensioning and offset details.
 
 7. Click on Next button and the dialog box will be updated as shown below.
 
-: ![](/src/assets/images/ArchRebarDrawingDimensioning_dialog3.png)
+: ![](/images/ArchRebarDrawingDimensioning_dialog3.png)
 
 8. Enter dimension label and line details.
 
 9. Click on Next button and the dialog box will be updated as shown below.
 
-: ![](/src/assets/images/ArchRebarDrawingDimensioning_dialog4.png)
+: ![](/images/ArchRebarDrawingDimensioning_dialog4.png)
 
 10. Enter single rebar and multi rebar dimension details.
 
 11. Click on Next button and the dialog box will be updated as shown below.
 
-: ![](/src/assets/images/ArchRebarDrawingDimensioning_dialog5.png)
+: ![](/images/ArchRebarDrawingDimensioning_dialog5.png)
 
 12. Enter details of dimension and dimension line offsets.
 

@@ -28,12 +28,12 @@ Creates a FEM multi-point constraint (MPC) for keeping the nodes on a planar sur
 ## Usage
 
 1. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/FEM_ConstraintPlaneRotation.svg) [Plane multi-point constraint](/FEM_ConstraintPlaneRotation "FEM ConstraintPlaneRotation") button.
-   - Select the **Model → Geometrical analysis features → ![](/src/assets/images/FEM_ConstraintPlaneRotation.svg) Plane multi-point constraint** option from the menu.
+   - Press the ![](/images/FEM_ConstraintPlaneRotation.svg) [Plane multi-point constraint](/FEM_ConstraintPlaneRotation "FEM ConstraintPlaneRotation") button.
+   - Select the **Model → Geometrical analysis features → ![](/images/FEM_ConstraintPlaneRotation.svg) Plane multi-point constraint** option from the menu.
 2. In the [3D view](/3D_view "3D view") select the object to which the multi-point constraint should be applied, which can only be a single face.
 3. Press the Add button.
 
-![](/src/assets/images/FEM_plane_rotation_constraint_example.PNG)
+![](/images/FEM_plane_rotation_constraint_example.PNG)
 
 Example of plane multi-point constraint use. Both simply-supported beams are subjected to the same force but the bottom one has plane MPC applied to the green segment of the top face. This forces the nodes there to stay on the same plane and changes the deformation (here scaled).
 

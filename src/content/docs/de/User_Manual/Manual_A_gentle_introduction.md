@@ -19,7 +19,7 @@ Durch die Nutzung von Python können FreeCAD-Benutzer das volle Potenzial der So
 
 FreeCAD enthält eine erweiterte Python-Konsole, die über **Ansicht → Bedienfelder → Python**-Konsole zugänglich ist. Mit diesem Tool können Benutzer Vorgänge über die grafische Benutzeroberfläche hinaus ausführen, z. B. auf erweiterte Funktionen zugreifen, Geometriefehler beheben und Aufgaben automatisieren. Es protokolliert auch Python-Befehle für GUI-Aktionen, wenn die Option _Skriptbefehle in Python-Konsole anzeigen_ unter **Bearbeiten → Einstellungen → Python → Makro** aktiviert ist. Wenn Sie die Konsole geöffnet lassen, können Sie den Python-Code beim Arbeiten beobachten. Dies bietet eine intuitive Möglichkeit, die Sprache zu erlernen und gleichzeitig die Funktionen von FreeCAD zu erkunden. Schließlich verfügt FreeCAD auch über ein [Makrosystem](/index.php?title=Makros&action=edit&redlink=1 "Makros (page does not exist)"), mit dem Sie Aktionen aufzeichnen können, um sie später erneut auszuführen. Dieses System verwendet auch die Python-Konsole, indem es einfach alles aufzeichnet, was darin getan wird.
 
-![](/src/assets/images/FreeCAD_Python_Console.png)
+![](/images/FreeCAD_Python_Console.png)
 
 In diesem Kapitel werden wir ganz allgemein die Sprache Python entdecken. Wer daran interessiert ist, mehr zu erfahren, findet im FreeCAD-Dokumentations-Wiki einen ausführlichen Abschnitt zum Thema [Python-Programmierung](/Power_users_hub/de "Power users hub/de").
 
@@ -40,7 +40,7 @@ doc = FreeCAD.newDocument()
 
 Sobald Sie in der FreeCAD Python-Konsole FreeCAD eingeben (das Wort „FreeCAD“ gefolgt von einem Punkt), wird ein Autovervollständigungsfenster angezeigt. Diese Funktion beschleunigt nicht nur Ihren Arbeitsablauf, indem sie verfügbare Befehle vorschlägt, sondern hilft Ihnen auch, neue Funktionen und Features in FreeCAD zu entdecken. Jeder Eintrag in der Liste enthält einen Tooltip, der seinen Zweck erklärt, sodass die verfügbaren Funktionen leichter zu verstehen und zu erkunden sind. Diese Autovervollständigungsfunktion ist besonders hilfreich für Anfänger, die Python-Skripting lernen, und für fortgeschrittene Benutzer, die effizient durch die umfangreiche API von FreeCAD navigieren. Nehmen Sie sich einen Moment Zeit, um die Optionen im Autovervollständigungsfenster zu erkunden – möglicherweise entdecken Sie Befehle, die Ihren Arbeitsablauf vereinfachen oder neue Möglichkeiten eröffnen.
 
-![](/src/assets/images/FreeCAD_python_newDocument.png)
+![](/images/FreeCAD_python_newDocument.png)
 
 Durch Eingeben von **FreeCAD.newDocument()** wird ein neues, leeres Dokument in FreeCAD erstellt, genauso wie durch Klicken auf die Schaltfläche **Neues Dokument** in der Symbolleiste. Wenn Sie **doc = FreeCAD.newDocument()** ausführen, wird das neue Dokumentobjekt der Variable **doc** zugewiesen, sodass Sie es programmgesteuert bearbeiten können. Mit doc können Sie Objekte hinzufügen, Eigenschaften ändern oder das Dokument speichern.
 
@@ -81,7 +81,7 @@ doc.recompute()
 
 Jetzt ist unser Kasten in der 3D-Ansicht erschienen. Viele der Schaltflächen auf der Werkzeugleiste, mit denen in FreeCAD Objekte hinzugefügt werden können, tun eigentlich zwei Dinge: das Objekt hinzufügen und neu berechnen. Versuche nun, mit der entsprechenden Schaltfläche im Arbeitsbereich Part eine Kugel hinzuzufügen, und du wirst sehen, wie die beiden Zeilen des Python-Codes nacheinander ausgeführt werden.
 
-![](/src/assets/images/FreeCAD_python_Sphere.png)
+![](/images/FreeCAD_python_Sphere.png)
 
 Wir können eine Liste aller möglichen Objekttypen wie Part::Box abfragen:
 

@@ -30,7 +30,7 @@ title: Ellipse-Center+2Points
 
 Makes an ellipse by selecting three points (in this order): centre, major radius and minor radius
 
-![](/src/assets/images/EllipseCenter2Point.png)
+![](/images/EllipseCenter2Point.png)
 
 ## Latest
 
@@ -38,7 +38,7 @@ The latest version of the macro is to be found at [EllipseCenter2Points.FCMacro]
 
 ## Script
 
-ToolBar Icon ![](/src/assets/images/Macro_Ellipse-Center%2B2Points.png)
+ToolBar Icon ![](/images/Macro_Ellipse-Center%2B2Points.png)
 
 **Macro_EllipseCenter2Points.FCMacro**
 

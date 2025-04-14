@@ -28,11 +28,11 @@ This workbench can be installed from the [Addon Manager](/Std_AddonMgr "Std Addo
 
 Detailed description can be found [here](https://github.com/rostskadat/FreeCAD-SH3D?tab=readme-ov-file#usage)
 
-![](/src/assets/images/SH3D_usage.gif)
+![](/images/SH3D_usage.gif)
 
 Toolbar
 
-![](/src/assets/images/SH3D_Import.svg)
+![](/images/SH3D_Import.svg)
 
 - FreeCAD Wiki:
 - FreeCAD Forum: <https://forum.freecad.org/viewtopic.php?t=85246>

@@ -2,7 +2,7 @@
 title: Stemfie Workbench
 ---
 
-![](/src/assets/images/StemfieWorkbench.svg)
+![](/images/StemfieWorkbench.svg)
 
 STEMFIE Workbench icon
 
@@ -10,11 +10,11 @@ STEMFIE Workbench icon
 
 The Stemfie Workbench is an [external workbench](/External_workbenches "External workbenches") aimed at implementing a parametric set of parts for the [Stemfie project](https://www.stemfie.org/).
 
-![Stemfie Workbench set of parts](/src/assets/images/Stemfie_WB.jpg)
+![Stemfie Workbench set of parts](/images/Stemfie_WB.jpg)
 
 ## Installing
 
-The Stemfie Workbench is not bundled with the default FreeCAD package, but can easily be installed via the ![](/src/assets/images/Std_AddonMgr.svg) [Addon Manager](/Std_AddonMgr "Std AddonMgr"). Invoke it from **Tools → [Addons Manager](/Std_AddonMgr "Std AddonMgr")**. The Stemfie Workbench code is [hosted and developed on github](https://github.com/bilbaomakers/StemfieWB) and can also be installed manually by copying it into FreeCAD's MOD directory.
+The Stemfie Workbench is not bundled with the default FreeCAD package, but can easily be installed via the ![](/images/Std_AddonMgr.svg) [Addon Manager](/Std_AddonMgr "Std AddonMgr"). Invoke it from **Tools → [Addons Manager](/Std_AddonMgr "Std AddonMgr")**. The Stemfie Workbench code is [hosted and developed on github](https://github.com/bilbaomakers/StemfieWB) and can also be installed manually by copying it into FreeCAD's MOD directory.
 
 ## Tools
 

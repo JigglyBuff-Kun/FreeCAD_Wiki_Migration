@@ -23,14 +23,14 @@ This documentation is not finished. Please help and contribute documentation.Gui
 
 ## Description
 
-The ![](/src/assets/images/Assembly_CreateSimulation.svg) [Assembly CreateSimulation](/Assembly_CreateSimulation "Assembly CreateSimulation") tool creates a simulation of the current assembly.
+The ![](/images/Assembly_CreateSimulation.svg) [Assembly CreateSimulation](/Assembly_CreateSimulation "Assembly CreateSimulation") tool creates a simulation of the current assembly.
 
 ## Usage
 
 1. Make sure that an assembly is active.
 2. There are several ways to invoke the tool:
-   - Press the ![](/src/assets/images/Assembly_CreateSimulation.svg) [Create Simulation](/Assembly_CreateSimulation "Assembly CreateSimulation") button.
-   - Select the **Assembly → ![](/src/assets/images/Assembly_CreateSimulation.svg) Create Simulation** option from the menu.
+   - Press the ![](/images/Assembly_CreateSimulation.svg) [Create Simulation](/Assembly_CreateSimulation "Assembly CreateSimulation") button.
+   - Select the **Assembly → ![](/images/Assembly_CreateSimulation.svg) Create Simulation** option from the menu.
    - Use the keyboard shortcut: S.
 3. If no Simulations object pre-exists: A Simulations container is added to the active assembly.
 4. A Simulation object is added to the Simulations container.
@@ -55,11 +55,11 @@ When the **Create Simulation** [task panel](/Task_panel "Task panel") is opened 
 
 Double-click an existing Simulation object in the [Tree view](/Tree_view "Tree view") to re-open the task panel and edit the parameters.
 
-![](/src/assets/images/Assembly_CreateSimulation-Task.png)
+![](/images/Assembly_CreateSimulation-Task.png)
 
 - **Motions**: Lists the content of the **Group** property, that is the Motion objects in the Simulations container.
-  - ![](/src/assets/images/List-add.svg) button: Opens a (nameless) dialog window to add a Motion object to the **Group** property and updates the list.
-  - ![](/src/assets/images/Edit-delete.svg) button: Removes a Motion object from the **Group** property and updates the list.
+  - ![](/images/List-add.svg) button: Opens a (nameless) dialog window to add a Motion object to the **Group** property and updates the list.
+  - ![](/images/Edit-delete.svg) button: Removes a Motion object from the **Group** property and updates the list.
 - **Simulation settings**: Set the properties of the Simulation object.
   - **Start**: Sets the **a Time Start** property.
   - **End**: Sets the **b Time End** property.
@@ -78,7 +78,7 @@ Double-click an existing Simulation object in the [Tree view](/Tree_view "Tree v
 
 This dialog window creates a Motion object that acts as an actuator for a single degree of freedom (DOF) of a certain joint and sets its properties.
 
-![](/src/assets/images/Assembly_CreateSimulation-Motion.png)
+![](/images/Assembly_CreateSimulation-Motion.png)
 
 The extra help text appears if the Help button is pressed.  
 (Don't mind the appearance of the OK button, it is active and useable)

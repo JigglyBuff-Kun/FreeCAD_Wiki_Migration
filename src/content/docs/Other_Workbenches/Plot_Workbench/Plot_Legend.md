@@ -21,7 +21,7 @@ title: Plot Legend
 
 This tool allows the user to enable/disable the data series legend on a specific plot.
 
-![](/src/assets/images/Plot_Trigonometric_Example.png)
+![](/images/Plot_Trigonometric_Example.png)
 
 ## Usage
 

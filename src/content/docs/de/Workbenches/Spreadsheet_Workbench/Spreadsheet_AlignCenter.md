@@ -19,14 +19,14 @@ title: Spreadsheet AusrichtenMitte
 
 ## Beschreibung
 
-Das Werkzeug ![](/src/assets/images/Spreadsheet_AlignCenter.svg) **Spreadsheet AusrichtenMitte** zentriert den Inhalt ausgewählter Zellen horizontal.
+Das Werkzeug ![](/images/Spreadsheet_AlignCenter.svg) **Spreadsheet AusrichtenMitte** zentriert den Inhalt ausgewählter Zellen horizontal.
 
 ## Anwendung
 
 1. Sicherstellen, dass eine [Kalkulationstabelle](/Spreadsheet_CreateSheet/de "Spreadsheet CreateSheet/de") aktiviert ist.
 2. Eine oder mehrere Zellen auswählen.
 3. Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
-   - Die Schaltfläche ![](/src/assets/images/Spreadsheet_AlignCenter.svg) Zentrieren drücken.
-   - Den Menüeintrag **Kalkulationstabelle → Ausrichtung → ![](/src/assets/images/Spreadsheet_AlignCenter.svg) Zentrieren** auswählen.
+   - Die Schaltfläche ![](/images/Spreadsheet_AlignCenter.svg) Zentrieren drücken.
+   - Den Menüeintrag **Kalkulationstabelle → Ausrichtung → ![](/images/Spreadsheet_AlignCenter.svg) Zentrieren** auswählen.
 
 Retrieved from "<http://wiki.freecad.org/index.php?title=Spreadsheet_AlignCenter/de&oldid=1507622>"

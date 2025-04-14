@@ -25,8 +25,8 @@ Der Befehl **Mesh NeuVernetzenGmsh** vernetzt ein Netzobjekt erneut unter Verwen
 
 1. Ein einzelnes Netzobjekt auswählen.
 2. Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
-   - Die Schaltfläche ![](/src/assets/images/Mesh_RemeshGmsh.svg) Aufbereitung... drücken.
-   - Den Menüeintrag **Netze → ![](/src/assets/images/Mesh_RemeshGmsh.svg) Aufbereitung...** auswählen.
+   - Die Schaltfläche ![](/images/Mesh_RemeshGmsh.svg) Aufbereitung... drücken.
+   - Den Menüeintrag **Netze → ![](/images/Mesh_RemeshGmsh.svg) Aufbereitung...** auswählen.
 3. Der Aufgaben-Bereich **Neuvernetzung durch Gmsh** wird geöffnet.
 4. Die erforderlichen Einstellungen festlegen. Siehe die [Gmsh-Vernetzer-Einstellungen](/Mesh_FromPartShape/de#Netzgenerator_Gmsh "Mesh FromPartShape/de") des Befehls [Mesh NetzAusPartForm](/Mesh_FromPartShape "Mesh FromPartShape").
 5. Die Schaltfläche Anwenden drücken, um das Netzobjekt neu zu vernetzen.

@@ -38,7 +38,7 @@ This macro moves the current [Draft Working Plane](/Draft_SelectPlane "Draft Sel
 ## Script
 
 ToolBar Icon
-![](/src/assets/images/Macro_Align_Working_Plane_to_Camera.png)
+![](/images/Macro_Align_Working_Plane_to_Camera.png)
 
 **Macro_Align_Working_Plane_to_Camera.FCMacro**
 

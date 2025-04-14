@@ -19,16 +19,16 @@ title: Part JoinCutout
 
 ## Description
 
-The ![](/src/assets/images/Part_JoinCutout.svg) **Part JoinCutout** tool creates a cutout in a walled object (e.g. a pipe) to fit another walled object.
+The ![](/images/Part_JoinCutout.svg) **Part JoinCutout** tool creates a cutout in a walled object (e.g. a pipe) to fit another walled object.
 
-![](/src/assets/images/JoinFeatures_Cutout.png)
+![](/images/JoinFeatures_Cutout.png)
 
 ## Usage
 
 1. Select the base object first, then the object to define the cutout. The order of selection is important. It is enough to select one sub-shape of each object (e.g. faces).
 2. There are several ways to invoke the tool:
-   - Press the ![](/src/assets/images/Part_JoinCutout.svg) [Cutout for object](/Part_JoinCutout "Part JoinCutout") button.
-   - Select the **Part → Join → ![](/src/assets/images/Part_JoinCutout.svg) Cutout for object** option from the menu.
+   - Press the ![](/images/Part_JoinCutout.svg) [Cutout for object](/Part_JoinCutout "Part JoinCutout") button.
+   - Select the **Part → Join → ![](/images/Part_JoinCutout.svg) Cutout for object** option from the menu.
 3. A Part JoinFeature object is created, with Mode set to 'Cutout'. Original objects are hidden, and the result of cutting is shown in the [3D view](/3D_view "3D view").
 
 ## Properties
@@ -43,11 +43,11 @@ Base
 ## Example
 
 1. Create a pipe by applying [thickness](/Part_Thickness "Part Thickness") to a [cylinder](/Part_Cylinder "Part Cylinder"):  
-   ![](/src/assets/images/JoinFeatures_Example_step1.png)
+   ![](/images/JoinFeatures_Example_step1.png)
 2. Create another, smaller diameter pipe, and [place](/Placement "Placement") it so that it pierces the wall of the first pipe:  
-   ![](/src/assets/images/JoinFeatures_Example_step2.png)
+   ![](/images/JoinFeatures_Example_step2.png)
 3. Select the first pipe, then the second pipe (order of selection is important), and click the 'Cutout for object' option from the Join tools dropdown toolbar button.  
-   ![](/src/assets/images/JoinFeatures_Example_step3_Cutout.png)
+   ![](/images/JoinFeatures_Example_step3_Cutout.png)
 
 ## Algorithm
 
@@ -59,7 +59,7 @@ The algorithms behind Join tools are quite simple, and understanding them is imp
 
 3. If Refine property is true, the resulting shape is [refined](/Part_RefineShape "Part RefineShape").
 
-![](/src/assets/images/JoinFeatures-Algo-Cutout.png)
+![](/images/JoinFeatures-Algo-Cutout.png)
 
 ### Notes
 

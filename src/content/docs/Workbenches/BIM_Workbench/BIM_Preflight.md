@@ -21,7 +21,7 @@ title: BIM Preflight
 
 The **BIM Preflight** tool allows you to perform several tests on your model to verify its compatibility with IFC standards and best practices, and help you to detect possible issues you might want to fix.
 
-![](/src/assets/images/BIM_preflight_screenshot.png)
+![](/images/BIM_preflight_screenshot.png)
 
 As FreeCAD is a very loose and free-style modelling platform, the requirements are very low. You can basically model and organize your BIM model the way you like, using all the tools that FreeCAD offers, both from the BIM workbench and other workbenches. The IFC format, however, has some strict requirements, and other BIM applications that can read IFC files often bring additional limitations as they more than often have difficulties with certain entities or the way certain objects are modeled.
 

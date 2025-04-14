@@ -30,7 +30,7 @@ The FreeCAD installer is provided as a app package (.app) enclosed in a disk ima
 
 You can download the latest installer from the [Download](/Download "Download") page. After downloading the file, just mount the disk image, then drag it to the Application folder or a folder of your choice.
 
-![](/src/assets/images/Mac_installer_1.png)
+![](/images/Mac_installer_1.png)
 
 That's it.Just click on the app to launch FreeCAD. If you have this message "FreeCAD can't be open as it is from unidentified developer." Open the folder (Application) and right click on the app then click open and accept to open the application.
 

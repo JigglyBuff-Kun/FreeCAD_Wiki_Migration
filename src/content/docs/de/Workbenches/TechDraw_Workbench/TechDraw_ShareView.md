@@ -25,8 +25,8 @@ Das Werkzeug **TechDraw AnsichtTeilen** macht eine Ansicht mit all ihren abhäng
 
 1. Wahlweise eine Ansicht, eine Von-Seite und eine Nach-Seite auswählen. Die Seiten müssen in dieser Reihenfolge ausgewählt werden.
 2. Es gibt mehrere Möglichkeiten das Werkzeug aufzurufen:
-   - Die Schaltfläche ![](/src/assets/images/TechDraw_ShareView.svg) Ansicht teilen drücken.
-   - Den Menüeintrag **TechDraw → TechDraw Ansichten → ![](/src/assets/images/TechDraw_ShareView.svg) Ansicht teilen** auswählen.
+   - Die Schaltfläche ![](/images/TechDraw_ShareView.svg) Ansicht teilen drücken.
+   - Den Menüeintrag **TechDraw → TechDraw Ansichten → ![](/images/TechDraw_ShareView.svg) Ansicht teilen** auswählen.
 3. Es öffnet sich ein Dialog, der es erlaubt, eine Ansicht, eine Von-Seite und eine Nach-Seite auszuwählen.
 4. Die Schaltfläche OK drücken.
 

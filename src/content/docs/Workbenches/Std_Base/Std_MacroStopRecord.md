@@ -29,8 +29,8 @@ The **Std MacroStopRecord** command ends a macro recording session.
 
 1. The command is only available during a macro recording session. See [Std DlgMacroRecord](/Std_DlgMacroRecord "Std DlgMacroRecord").
 2. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/Std_MacroStopRecord.svg) [Std MacroStopRecord](/Std_MacroStopRecord "Std MacroStopRecord") button.
-   - Select the **Macro → ![](/src/assets/images/Std_MacroStopRecord.svg) Stop macro recording** option from the menu.
+   - Press the ![](/images/Std_MacroStopRecord.svg) [Std MacroStopRecord](/Std_MacroStopRecord "Std MacroStopRecord") button.
+   - Select the **Macro → ![](/images/Std_MacroStopRecord.svg) Stop macro recording** option from the menu.
 
 ## Notes
 

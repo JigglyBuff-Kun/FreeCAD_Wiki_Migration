@@ -23,11 +23,11 @@ Obsolete (1.0 and above).
 
 ## Description
 
-The **Solver CalculiX (new framework)** command creates a SolverCalculix object, which uses the same framework as Elmer and Z88 solvers (the code is not visible for the user). It is preferred to use the original framework ![](/src/assets/images/FEM_SolverCalculixCxxtools.svg) [Solver CalculiX Standard](/FEM_SolverCalculixCxxtools "FEM SolverCalculixCxxtools") because it contains extra checks, e.g. showing the elements with nonpositive Jacobian which might cause solution difficulties.
+The **Solver CalculiX (new framework)** command creates a SolverCalculix object, which uses the same framework as Elmer and Z88 solvers (the code is not visible for the user). It is preferred to use the original framework ![](/images/FEM_SolverCalculixCxxtools.svg) [Solver CalculiX Standard](/FEM_SolverCalculixCxxtools "FEM SolverCalculixCxxtools") because it contains extra checks, e.g. showing the elements with nonpositive Jacobian which might cause solution difficulties.
 
 ## Usage
 
-1. Select **Solve → ![](/src/assets/images/FEM_SolverCalculiX.svg) Solver CalculiX (new framework)** from the menu.
+1. Select **Solve → ![](/images/FEM_SolverCalculiX.svg) Solver CalculiX (new framework)** from the menu.
 
 ## Related
 

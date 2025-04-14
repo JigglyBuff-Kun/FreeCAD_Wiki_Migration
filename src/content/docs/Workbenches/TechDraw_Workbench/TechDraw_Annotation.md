@@ -21,7 +21,7 @@ title: TechDraw Annotation
 
 The **TechDraw Annotation** tool adds a text block to a drawing page.
 
-![](/src/assets/images/AnnotationSample.png)
+![](/images/AnnotationSample.png)
 
 Annotation in the drawing page
 
@@ -29,8 +29,8 @@ Annotation in the drawing page
 
 1. If there are multiple drawing pages in the document: optionally activate the desired page by selecting it in the [Tree view](/Tree_view "Tree view").
 2. There are several ways to invoke the tool:
-   - Press the ![](/src/assets/images/TechDraw_Annotation.svg) [Insert Annotation](/TechDraw_Annotation "TechDraw Annotation") button.
-   - Select the **TechDraw → Annotations → ![](/src/assets/images/TechDraw_Annotation.svg) Insert Annotation** option from the menu.
+   - Press the ![](/images/TechDraw_Annotation.svg) [Insert Annotation](/TechDraw_Annotation "TechDraw Annotation") button.
+   - Select the **TechDraw → Annotations → ![](/images/TechDraw_Annotation.svg) Insert Annotation** option from the menu.
 3. If there are multiple drawing pages in the document and you have not yet activated a page, the **Page Chooser** dialog box opens:
    1. Select the desired page.
    2. Press the OK button.
@@ -38,7 +38,7 @@ Annotation in the drawing page
 5. Use the [Property editor](/Property_editor "Property editor") to change the text.
 6. Optionally drag the Annotation to the different position.
 
-![](/src/assets/images/UpdateAnnotation.png)
+![](/images/UpdateAnnotation.png)
 
 Modifying the annotation through the Property editor
 

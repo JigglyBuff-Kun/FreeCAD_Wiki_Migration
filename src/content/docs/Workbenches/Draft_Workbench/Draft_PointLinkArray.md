@@ -19,6 +19,6 @@ title: Draft PointLinkArray
 
 ## Description
 
-The ![](/src/assets/images/Draft_PointLinkArray.svg) **Draft PointLinkArray** command creates a [Link](/App_Link "App Link") array from a selected object by placing copies at the points from a [point compound](/Draft_PointArray#Point_compound "Draft PointArray"). Use the [Draft PointArray](/Draft_PointArray "Draft PointArray") command to create a less efficient regular array instead. Except for the type of array that is created, [Link](/App_Link "App Link") array or regular array, this command is identical to the [Draft PointArray](/Draft_PointArray "Draft PointArray") command. See there for more information.
+The ![](/images/Draft_PointLinkArray.svg) **Draft PointLinkArray** command creates a [Link](/App_Link "App Link") array from a selected object by placing copies at the points from a [point compound](/Draft_PointArray#Point_compound "Draft PointArray"). Use the [Draft PointArray](/Draft_PointArray "Draft PointArray") command to create a less efficient regular array instead. Except for the type of array that is created, [Link](/App_Link "App Link") array or regular array, this command is identical to the [Draft PointArray](/Draft_PointArray "Draft PointArray") command. See there for more information.
 
 Retrieved from "<http://wiki.freecad.org/index.php?title=Draft_PointLinkArray/en&oldid=1456422>"

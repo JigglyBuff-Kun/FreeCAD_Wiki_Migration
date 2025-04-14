@@ -25,8 +25,8 @@ Das Werkzeug **TechDraw ErgänzungAnzahlpräfixEinfügen** fügt die Anzahl eine
 
 1. Ein oder mehrere Maße auswählen.
 2. Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
-   - Die Schaltfläche ![](/src/assets/images/TechDraw_ExtensionInsertRepetition.svg) Anzahl-Präfix ('n×') einfügen drücken.
-   - Den Menüeintrag **TechDraw → Ergänzungen: Maß → ![](/src/assets/images/TechDraw_ExtensionInsertRepetition.svg) Anzahl-Präfix ('n×') einfügen** auswählen.
+   - Die Schaltfläche ![](/images/TechDraw_ExtensionInsertRepetition.svg) Anzahl-Präfix ('n×') einfügen drücken.
+   - Den Menüeintrag **TechDraw → Ergänzungen: Maß → ![](/images/TechDraw_ExtensionInsertRepetition.svg) Anzahl-Präfix ('n×') einfügen** auswählen.
 3. Der Dialog **Change Editable Field** wird geöffnet.
 4. Die Checkbox **Autofill** wird von diesem Werkzeug nicht beachtet.
 5. Den **Wert** eingeben, der vor dem '×'-Symbol dargestellt werden soll.

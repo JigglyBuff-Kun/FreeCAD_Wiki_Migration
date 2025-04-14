@@ -24,7 +24,7 @@ The **MeshPart CreateFlatFace** command creates a flat representation of a face 
 ## Usage
 
 1. Select a single face of a shape object in the [3D view](/3D_view "3D view").
-2. Select the **Meshes → ![](/src/assets/images/MeshPart_CreateFlatFace.svg) Unwrap face** option from the menu.
+2. Select the **Meshes → ![](/images/MeshPart_CreateFlatFace.svg) Unwrap face** option from the menu.
 
 ## Properties
 

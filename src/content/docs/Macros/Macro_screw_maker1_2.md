@@ -60,7 +60,7 @@ webbrowser.open("https://raw.githubusercontent.com/FreeCAD/FreeCAD-macros/master
 
 <class="rawcodeurl"><a href="<https://raw.githubusercontent.com/FreeCAD/FreeCAD-macros/master/ObjectCreation/ScrewMaker.FCMacro>">raw code</a>
 
-![](/src/assets/images/Macro_screw_maker_01.png)
+![](/images/Macro_screw_maker_01.png)
 
 Screw maker
 
@@ -70,11 +70,11 @@ Screw maker
 2. If you select a circle on a hole, or alternatively the inner surface of a circular hole and the circle at top of that hole at the same time, the screw will be placed into the hole with the create button.
 3. There is a message text, that will inform you, when the selected combination of properties is not available.
 
-- ![Interface of screw_maker and a few types of screws.](/src/assets/images/Macro_screw_maker_02.png)
+- ![Interface of screw_maker and a few types of screws.](/images/Macro_screw_maker_02.png)
 
   Interface of **screw_maker** and a few types of screws.
 
-- ![A screw with thread](/src/assets/images/Macro_screw_maker_03.png)
+- ![A screw with thread](/images/Macro_screw_maker_03.png)
 
   A screw with thread
 
@@ -84,7 +84,7 @@ The creation of the thread takes some time. Be patient and have a look at the CP
 
 The latest version of the macro is to be found at [ScrewMaker.FCMacro](https://github.com/FreeCAD/FreeCAD-macros/blob/master/ObjectCreation/ScrewMaker.FCMacro) but the easiest way to install this macro is through the [Addon Manager](/Std_AddonMgr "Std AddonMgr").
 
-ToolBar Icon ![](/src/assets/images/Macro_screw_maker1_2.png)
+ToolBar Icon ![](/images/Macro_screw_maker1_2.png)
 
 **Macro_screw_maker_2.FCMacro**
 

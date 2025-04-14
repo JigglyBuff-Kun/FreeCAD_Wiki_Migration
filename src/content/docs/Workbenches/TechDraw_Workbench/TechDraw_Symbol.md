@@ -25,14 +25,14 @@ A Symbol can be anything that helps annotate a drawing and that doesn't need to 
 
 [introduced in 1.0](/Release_notes_1.0 "Release notes 1.0"): The [TechDraw View](/TechDraw_View "TechDraw View") tool can also create a Symbol.
 
-![](/src/assets/images/TechDraw_SymbolSVG_sample.png)
+![](/images/TechDraw_SymbolSVG_sample.png)
 
 Compass rose added to the drawing page; this symbol is available by installing the "symbols_library" addon with the [Addon Manager](/Std_AddonMgr "Std AddonMgr")
 
 ## Usage
 
 1. If there are multiple drawing pages in the document: optionally activate the desired page by selecting it in the [Tree view](/Tree_view "Tree view").
-2. Select the **TechDraw → TechDraw Views → ![](/src/assets/images/TechDraw_Symbol.svg) Insert SVG Symbol** option from the menu.
+2. Select the **TechDraw → TechDraw Views → ![](/images/TechDraw_Symbol.svg) Insert SVG Symbol** option from the menu.
 3. If there are multiple drawing pages in the document and you have not yet activated a page, the **Page Chooser** dialog box opens:
    1. Select the desired page.
    2. Press the OK button.

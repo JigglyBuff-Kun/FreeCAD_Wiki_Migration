@@ -24,8 +24,8 @@ Der Befehl **Mesh LochInteraktivFüllen** füllt ausgewählte Löcher in Netzobj
 ## Anwendung
 
 1. Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
-   - Die Schaltfläche ![](/src/assets/images/Mesh_FillInteractiveHole.svg).Loch schließen drücken.
-   - Den Menüeintrag **Netze → ![](/src/assets/images/Mesh_FillInteractiveHole.svg) Loch schließen** auswählen.
+   - Die Schaltfläche ![](/images/Mesh_FillInteractiveHole.svg).Loch schließen drücken.
+   - Den Menüeintrag **Netze → ![](/images/Mesh_FillInteractiveHole.svg) Loch schließen** auswählen.
 2. Der Mauszeiger ändert sich in ein Dreieckssymbol.
 3. Eine Fläche auswählen, die eine Kante mit dem Loch teilt, das geschlossen werden soll.
 4. Das Loch wird geschlossen.

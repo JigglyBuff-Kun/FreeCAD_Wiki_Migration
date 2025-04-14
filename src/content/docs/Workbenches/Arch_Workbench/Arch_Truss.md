@@ -25,7 +25,7 @@ THIS COMMAND IS PART OF THE INTEGRATEDBIM WORKBENCHIN V1.0This page has been upd
 
 The **Arch Truss** tool builds a [truss](https://en.wikipedia.org/wiki/Truss) object, either from a selected linear object (lie a [Draft Line](/Draft_Line "Draft Line") or [Sketch](/Sketcher_NewSketch "Sketcher NewSketch")), or from scratch, if no object is selected when launching the command.
 
-![](/src/assets/images/Arch_Truss_example.png)
+![](/images/Arch_Truss_example.png)
 
 ## Usage
 
@@ -33,13 +33,13 @@ The **Arch Truss** tool builds a [truss](https://en.wikipedia.org/wiki/Truss) ob
 
 1. Use a workbench of your choice to create a single line
 2. Select that line
-3. Press the ![](/src/assets/images/Arch_Truss.svg) [Truss](/Arch_Truss "Arch Truss") button
+3. Press the ![](/images/Arch_Truss.svg) [Truss](/Arch_Truss "Arch Truss") button
 4. Adjust the truss properties to your liking
 
 ### Creating from scratch
 
 1. Make sure nothing is selected
-2. Press the ![](/src/assets/images/Arch_Truss.svg) [Truss](/Arch_Truss "Arch Truss") button
+2. Press the ![](/images/Arch_Truss.svg) [Truss](/Arch_Truss "Arch Truss") button
 3. Click in the 3D view to define a first point, or manually enter X, Y and Z coordinates
 4. Click in the 3D view to define a second point, or manually enter X, Y and Z coordinates
 5. Adjust the truss properties to your liking

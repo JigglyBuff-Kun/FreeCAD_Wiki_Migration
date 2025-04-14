@@ -68,13 +68,13 @@ If no references are found for a substring, then "No references to "{substring}"
 
 For an empty spreadsheet cell no output will be generated. This allows ignoring blank cells when a range of cells is selected.
 
-![](/src/assets/images/FindAliasReferencesUsage.png)
+![](/images/FindAliasReferencesUsage.png)
 
 FindAliasReferences screenshot
 
 ## Script
 
-ToolBar icon ![](/src/assets/images/FindAliasReferences.png)
+ToolBar icon ![](/images/FindAliasReferences.png)
 
 **Macro_FindAliasReferences.FCMacro**
 

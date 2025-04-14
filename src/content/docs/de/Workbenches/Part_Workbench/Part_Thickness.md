@@ -19,13 +19,13 @@ title: Part Dicke
 
 ## Beschreibung
 
-Das Werkzeug ![](/src/assets/images/Part_Thickness.svg) Dicke bearbeitet eine Festkörper-Form und wandelt sie in ein hohles Objekt um, indem es jeder seiner Flächen eine festgelegte und konstante Wandstärke verleiht. Bei einigen Festkörpern ermöglicht es, die Arbeit erheblich zu beschleunigen und vermeidet die Erstellung von Extrusionen und Taschen.
+Das Werkzeug ![](/images/Part_Thickness.svg) Dicke bearbeitet eine Festkörper-Form und wandelt sie in ein hohles Objekt um, indem es jeder seiner Flächen eine festgelegte und konstante Wandstärke verleiht. Bei einigen Festkörpern ermöglicht es, die Arbeit erheblich zu beschleunigen und vermeidet die Erstellung von Extrusionen und Taschen.
 
 ## Anwendung
 
 1. Erstelle einen Festkörper
 2. Wähle eine oder mehrere Oberflächen
-3. Klicke auf das ![](/src/assets/images/Part_Thickness.svg) **Part Dicke**-Werkzeug
+3. Klicke auf das ![](/images/Part_Thickness.svg) **Part Dicke**-Werkzeug
 4. Setze die Parameter (siehe [Optionen](#Options/de))
 5. Klicke OK zur Bestätigung, führe die Operation aus und verlasse die Funktion
 6. Passe die Parameter in der Eigenschaftentabelle bei Bedarf an
@@ -61,23 +61,23 @@ Ein gutes Beispiel zur Benutzung dieses Werkzeuges gibt es im Forum: [Re: Help d
 
 **Hohlzylinder**
 
-1. Einen ![](/src/assets/images/Part_Cylinder.svg) [Zylinder](/Part_Cylinder/de "Part Cylinder/de") mit 10 mm Radius und 20 mm Höhe.
+1. Einen ![](/images/Part_Cylinder.svg) [Zylinder](/Part_Cylinder/de "Part Cylinder/de") mit 10 mm Radius und 20 mm Höhe.
 2. Deckel- und Bodenfläche des Zylinders auswählen.
-3. Die Schaltfläche ![](/src/assets/images/Part_Thickness.svg) Dicke drücken (es ist nicht nötig, die Voreinstellungen zu ändern) und dann OK.
+3. Die Schaltfläche ![](/images/Part_Thickness.svg) Dicke drücken (es ist nicht nötig, die Voreinstellungen zu ändern) und dann OK.
 
 Hinweise:
 
-- Für diese Form sollte man erwägen, ![](/src/assets/images/Part_Tube.svg) [Hohlzylinder erstellen](/Part_Tube/de "Part Tube/de") zu verwenden.
+- Für diese Form sollte man erwägen, ![](/images/Part_Tube.svg) [Hohlzylinder erstellen](/Part_Tube/de "Part Tube/de") zu verwenden.
 - Nur die Deckfläche des Zylinders auswählen, um eine Buchse zu erstellen.
 
-![](/src/assets/images/ThicknessEsempio1.png)
+![](/images/ThicknessEsempio1.png)
 
-![](/src/assets/images/ThicknessEsempio2.png)
+![](/images/ThicknessEsempio2.png)
 
 **Gehäuse**
 
-![](/src/assets/images/ThicknessEsempio3.png)
+![](/images/ThicknessEsempio3.png)
 
-![](/src/assets/images/ThicknessEsempio4.png)
+![](/images/ThicknessEsempio4.png)
 
 Retrieved from "<http://wiki.freecad.org/index.php?title=Part_Thickness/de&oldid=1541327>"

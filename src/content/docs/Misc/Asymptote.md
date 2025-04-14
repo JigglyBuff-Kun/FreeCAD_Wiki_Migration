@@ -10,11 +10,11 @@ Asymptote support was added in FreeCAD version 0.19.
 
 ## Exporting
 
-1. Optionally assign colors to the faces of the object you want to export with the ![](/src/assets/images/Part_ColorPerFace.svg) [Part ColorPerFace](/Part_ColorPerFace "Part ColorPerFace") command.
-2. Change to the ![](/src/assets/images/Workbench_Mesh.svg) [Mesh Workbench](/Mesh_Workbench "Mesh Workbench").
-3. Create a mesh from the object with the ![](/src/assets/images/Mesh_FromPartShape.svg) [Mesh FromPartShape](/Mesh_FromPartShape "Mesh FromPartShape") command.
+1. Optionally assign colors to the faces of the object you want to export with the ![](/images/Part_ColorPerFace.svg) [Part ColorPerFace](/Part_ColorPerFace "Part ColorPerFace") command.
+2. Change to the ![](/images/Workbench_Mesh.svg) [Mesh Workbench](/Mesh_Workbench "Mesh Workbench").
+3. Create a mesh from the object with the ![](/images/Mesh_FromPartShape.svg) [Mesh FromPartShape](/Mesh_FromPartShape "Mesh FromPartShape") command.
 4. Select the new mesh object.
-5. Invoke the ![](/src/assets/images/Mesh_Export.svg) [Mesh Export](/Mesh_Export "Mesh Export") command.
+5. Invoke the ![](/images/Mesh_Export.svg) [Mesh Export](/Mesh_Export "Mesh Export") command.
 6. Select the \*.asy file format in the dialog box.
 7. Enter a filename.
 8. Press the Save button.

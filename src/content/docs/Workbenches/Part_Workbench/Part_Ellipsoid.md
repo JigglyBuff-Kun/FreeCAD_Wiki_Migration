@@ -19,11 +19,11 @@ title: Part Ellipsoid
 
 ## Description
 
-A ![](/src/assets/images/Part_Ellipsoid.svg) **Part Ellipsoid** is a parametric solid that can be created with the ![](/src/assets/images/Part_Primitives.svg) [Part Primitives](/Part_Primitives "Part Primitives") command. In the coordinate system defined by its Data**Placement** property, the axes of the ellipsoid are aligned with the X, Y and Z axes, and therefore its center is positioned at the origin.
+A ![](/images/Part_Ellipsoid.svg) **Part Ellipsoid** is a parametric solid that can be created with the ![](/images/Part_Primitives.svg) [Part Primitives](/Part_Primitives "Part Primitives") command. In the coordinate system defined by its Data**Placement** property, the axes of the ellipsoid are aligned with the X, Y and Z axes, and therefore its center is positioned at the origin.
 
 A Part Ellipsoid can be truncated at the top and/or bottom by changing its Data**Angle1** and/or Data**Angle2** properties. It can be turned into a segment of an ellipsoid by changing its Data**Angle3** property.
 
-![](/src/assets/images/Part_Ellipsoid_Example.png)
+![](/images/Part_Ellipsoid_Example.png)
 
 ## Usage
 
@@ -31,7 +31,7 @@ See [Part Primitives](/Part_Primitives#Usage "Part Primitives").
 
 ## Example
 
-![](/src/assets/images/Part_Ellipsoid_Scripting_Example.png)
+![](/images/Part_Ellipsoid_Scripting_Example.png)
 
 Part Ellipsoid from the scripting example
 

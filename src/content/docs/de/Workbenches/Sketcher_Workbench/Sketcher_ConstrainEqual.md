@@ -19,7 +19,7 @@ title: Sketcher GleichheitFestlegen
 
 ## Beschreibung
 
-Das Werkzeug ![](/src/assets/images/Sketcher_ConstrainEqual.svg) Sketcher GleichheitFestlegen legt fest, dass Linien (gerade Kanten) die gleiche Länge besitzen bzw. dass Kurven (Alle anderen Kanten außer [B-Splines](/Sketcher_CreateBSpline/de "Sketcher CreateBSpline/de")) die gleiche Krümmung aufweisen. Die Kanten müssen gleichartig sein. Kreise und Kreisbögen sind gleichartig (ihre Radien werden gleichgesetzt), ebenso Ellipsen und Ellipsenbögen (ihre Haupt- und Nebenradien werden jeweils gleichgesetz).
+Das Werkzeug ![](/images/Sketcher_ConstrainEqual.svg) Sketcher GleichheitFestlegen legt fest, dass Linien (gerade Kanten) die gleiche Länge besitzen bzw. dass Kurven (Alle anderen Kanten außer [B-Splines](/Sketcher_CreateBSpline/de "Sketcher CreateBSpline/de")) die gleiche Krümmung aufweisen. Die Kanten müssen gleichartig sein. Kreise und Kreisbögen sind gleichartig (ihre Radien werden gleichgesetzt), ebenso Ellipsen und Ellipsenbögen (ihre Haupt- und Nebenradien werden jeweils gleichgesetz).
 
 ## Anwendung
 
@@ -29,9 +29,9 @@ Siehe auch: [Zeichnungshilfen](/Sketcher_Workbench/de#Zeichnungshilfen "Sketcher
 
 1. Sicherstellen, dass die Auswahl leer ist.
 2. Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
-   - Die Schaltfläche ![](/src/assets/images/Sketcher_ConstrainEqual.svg) Gleichheit festlegen drücken.
-   - Den Menüeintrag **Skizze → Sketcher-Randbedingungen → ![](/src/assets/images/Sketcher_ConstrainEqual.svg) Gleichheit festlegen** auswählen.
-   - [eingeführt in 1.0](/Release_notes_1.0/de "Release notes 1.0/de"): Ein Rechtsklick in die [3D-Ansicht](/3D_view/de "3D view/de") und die Menüoption **Constrain → ![](/src/assets/images/Sketcher_ConstrainEqual.svg) Gleichheit festlegen** im Kontextmenü auswählen.
+   - Die Schaltfläche ![](/images/Sketcher_ConstrainEqual.svg) Gleichheit festlegen drücken.
+   - Den Menüeintrag **Skizze → Sketcher-Randbedingungen → ![](/images/Sketcher_ConstrainEqual.svg) Gleichheit festlegen** auswählen.
+   - [eingeführt in 1.0](/Release_notes_1.0/de "Release notes 1.0/de"): Ein Rechtsklick in die [3D-Ansicht](/3D_view/de "3D view/de") und die Menüoption **Constrain → ![](/images/Sketcher_ConstrainEqual.svg) Gleichheit festlegen** im Kontextmenü auswählen.
    - Das Tastaturkürzel E.
 3. Der Mauszeiger wandelt sich zu einem Kreuz mit Werkzeugsymbol.
    - Zwei Kanten derselben Art auswählen.
@@ -43,7 +43,7 @@ Siehe auch: [Zeichnungshilfen](/Sketcher_Workbench/de#Zeichnungshilfen "Sketcher
 
 1. Eine oder mehrere Kanten auswählen.
 2. Das Werkzeug wie oben beschrieben aufrufen oder mit der folgenden weiteren Möglichkeit:
-   - [eingeführt in 1.0](/Release_notes_1.0/de "Release notes 1.0/de"): Ein Rechtsklick in die [3D-Ansicht](/3D_view/de "3D view/de") und die Menüoption **![](/src/assets/images/Sketcher_ConstrainEqual.svg) Gleichheit festlegen** im Kontextmenü auswählen.
+   - [eingeführt in 1.0](/Release_notes_1.0/de "Release notes 1.0/de"): Ein Rechtsklick in die [3D-Ansicht](/3D_view/de "3D view/de") und die Menüoption **![](/images/Sketcher_ConstrainEqual.svg) Gleichheit festlegen** im Kontextmenü auswählen.
 3. Abhängig von der Auswahl werden eine oder mehrere Randbedingungen hinzugefügt.
 
 ## Skripten

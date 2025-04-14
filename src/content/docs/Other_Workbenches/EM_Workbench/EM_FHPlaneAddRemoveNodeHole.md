@@ -21,7 +21,7 @@ title: EM FHPlaneAddRemoveNodeHole
 
 The FHPlaneAddRemoveNodeHole tool inserts or removes FHNodes or FHPlaneHoles from a FHPlane object.
 
-![](/src/assets/images/EM_FHPlaneAddRemoveNodeHole_Example.png)
+![](/images/EM_FHPlaneAddRemoveNodeHole_Example.png)
 
 Nodes added (blue) and removed (red) from a FHPlane, and a FHPlaneHole removed from the FHPlane (not cutting a hole in the plane)
 
@@ -30,12 +30,12 @@ Nodes added (blue) and removed (red) from a FHPlane, and a FHPlaneHole removed f
 To remove one or multiple FHNode objects or FHPlaneHole objects from a FHPlane:
 
 1. Select all the [EM FHNode](/EM_FHNode "EM FHNode") objects or [EM FHPlaneHole](/EM_FHPlaneHole "EM FHPlaneHole") objects that you want to remove from the FHPlane (note that you need to expand the list of children of the FHPlane if you want to select these object from the [tree view](/Tree_view "Tree view") instead of from the current [3D view](/3D_view "3D view")).
-2. Press the ![](/src/assets/images/EM_FHPlaneAddRemoveNodeHole.svg) [EM FHPlaneAddRemoveNodeHole](/EM_FHPlaneAddRemoveNodeHole "EM FHPlaneAddRemoveNodeHole") button, or press E then A keys.
+2. Press the ![](/images/EM_FHPlaneAddRemoveNodeHole.svg) [EM FHPlaneAddRemoveNodeHole](/EM_FHPlaneAddRemoveNodeHole "EM FHPlaneAddRemoveNodeHole") button, or press E then A keys.
 
 To insert one or multiple FHNode objects or FHPlaneHole objects into a FHPlane:
 
 1. Select the [EM FHPlane](/EM_FHPlane "EM FHPlane") and all the [EM FHNode](/EM_FHNode "EM FHNode") objects or [EM FHPlaneHole](/EM_FHPlaneHole "EM FHPlaneHole") objects that you want to insert in the FHPlane.
-2. Press the ![](/src/assets/images/EM_FHPlaneAddRemoveNodeHole.svg) [EM FHPlaneAddRemoveNodeHole](/EM_FHPlaneAddRemoveNodeHole "EM FHPlaneAddRemoveNodeHole") button, or press E then A keys.
+2. Press the ![](/images/EM_FHPlaneAddRemoveNodeHole.svg) [EM FHPlaneAddRemoveNodeHole](/EM_FHPlaneAddRemoveNodeHole "EM FHPlaneAddRemoveNodeHole") button, or press E then A keys.
 
 ### Remarks
 

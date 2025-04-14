@@ -55,8 +55,8 @@ Beispielausgabe: eine Kante, eine Fläche und ein Eckpunkt eines [Part Würfels]
 
 1. Ein einzelnes Objekt oder eine bzw. mehrere Teilformen, die zu einem einzelnen Objekt gehören, auswählen.
 2. Es gibt mehrere Möglichkeiten den Befehl aufzurufen:
-   - Den Menüeintrag **Bearbeiten → ![](/src/assets/images/Std_SendToPythonConsole.svg) An Python-Konsole senden** auswählen.
-   - Den Menüeintrag **![](/src/assets/images/Std_SendToPythonConsole.svg) An Python-Konsole senden** aus dem Kontextmenü der [Baumansicht](/Tree_view/de "Tree view/de") oder dem Kontextmenü der [3D-Ansicht](/3D_view/de "3D view/de") auswählen.
+   - Den Menüeintrag **Bearbeiten → ![](/images/Std_SendToPythonConsole.svg) An Python-Konsole senden** auswählen.
+   - Den Menüeintrag **![](/images/Std_SendToPythonConsole.svg) An Python-Konsole senden** aus dem Kontextmenü der [Baumansicht](/Tree_view/de "Tree view/de") oder dem Kontextmenü der [3D-Ansicht](/3D_view/de "3D view/de") auswählen.
    - Das Tastaturkürzel Strg+Shift+P.
 3. Falls erforderlich öffnet sich die [Python-Konsole](/Python_console/de "Python console/de").
 4. Die [Python-Konsole](/Python_console/de "Python console/de") erhält den Fokus der Tastatur.

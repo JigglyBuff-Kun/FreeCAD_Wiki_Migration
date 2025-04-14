@@ -62,11 +62,11 @@ webbrowser.open("https://raw.githubusercontent.com/FreeCAD/FreeCAD-library/maste
 
 Dieses Makro, das ebenfalls in der Bibliothek enthalten ist, zeigt ein Browser-Fenster in der FreeCAD-Benutzeroberfläche, von dem aus Sie den Inhalt der Bibliothek problemlos durchsuchen und durch Doppelklicken einen Teil in das aktuelle Dokument einfügen können.
 
-![](/src/assets/images/Freecad-parts-library.jpg)
+![](/images/Freecad-parts-library.jpg)
 
 ## Skript
 
-ToolBar Icon ![](/src/assets/images/FreeCAD_Doc.png)
+ToolBar Icon ![](/images/FreeCAD_Doc.png)
 
 [PartsLibrary.FCMacro](http://github.com/yorikvanhavre/FreeCAD-library/blob/master/PartsLibrary.FCMacro)
 

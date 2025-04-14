@@ -21,14 +21,14 @@ title: Std VarSet
 
 The **Std VarSet** command creates a VarSet. A VarSet is a set of properties that can be used as variables in [expressions](/Expressions "Expressions").
 
-![](/src/assets/images/Std_VarSet_Dialog.png)
+![](/images/Std_VarSet_Dialog.png)
 
 The Add a property dialog box
 
 ## Usage
 
 1. Do one of the following:
-   - To create a new VarSet: press the ![](/src/assets/images/Std_VarSet.svg) [Create a variable set](/Std_VarSet "Std VarSet") button.
+   - To create a new VarSet: press the ![](/images/Std_VarSet.svg) [Create a variable set](/Std_VarSet "Std VarSet") button.
    - To edit an existing VarSet: double-click the set in the [Tree view](/Tree_view "Tree view").
 2. The **Add a property** dialog box opens.
 3. Enter a **Name** for the property.

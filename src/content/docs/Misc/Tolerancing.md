@@ -2,7 +2,7 @@
 title: Tolerancing
 ---
 
-![](/src/assets/images/Tolerancing_Annotated_Design_Model.png)
+![](/images/Tolerancing_Annotated_Design_Model.png)
 
 GD&T 3D annotations
 

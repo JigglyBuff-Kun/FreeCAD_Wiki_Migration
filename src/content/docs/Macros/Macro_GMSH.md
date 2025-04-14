@@ -64,13 +64,13 @@ webbrowser.open("https://raw.githubusercontent.com/psicofil/Macros_FreeCAD/maste
 
 <class="rawcodeurl"><a href="<https://raw.githubusercontent.com/psicofil/Macros_FreeCAD/master/Macros/GMSHMesh.FCMacro>">raw code</a>
 
-![GMSH](/src/assets/images/Macro_GMSH00.png)
+![GMSH](/images/Macro_GMSH00.png)
 
 ## Script
 
 The macro you can find in the following github repository: [GMSH Macro](https://github.com/psicofil/Macros_FreeCAD/blob/master/Macros/GMSHMesh.FCMacro)
 
-ToolBar Icon ![](/src/assets/images/Macro_GMSH.png)
+ToolBar Icon ![](/images/Macro_GMSH.png)
 
 **GMSHMesh.FCMacro GMSH Macro.FCMacro**
 

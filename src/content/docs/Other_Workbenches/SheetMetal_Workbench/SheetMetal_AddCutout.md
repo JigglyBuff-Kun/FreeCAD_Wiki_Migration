@@ -23,11 +23,11 @@ This documentation is not finished. Please help and contribute documentation.Gui
 
 ## Description
 
-The ![](/src/assets/images/SheetMetal_AddCutout.svg) [SheetMetal AddCutout](/SheetMetal_AddCutout "SheetMetal AddCutout") command creates an extruded cutout from a sketch extrusion.
+The ![](/images/SheetMetal_AddCutout.svg) [SheetMetal AddCutout](/SheetMetal_AddCutout "SheetMetal AddCutout") command creates an extruded cutout from a sketch extrusion.
 
 The difference between a 'normal' cutout and an extruded cutout is that in the latter case the edges are made perpendicular to the selected face of the sheet metal object. The effect of the command is only visible if the sketch is not plane-parallel to the face.
 
-![](/src/assets/images/SheetMetal_AddCutout_Example.png)
+![](/images/SheetMetal_AddCutout_Example.png)
 
 Extruded cutout based on a circular sketch
 
@@ -35,9 +35,9 @@ Extruded cutout based on a circular sketch
 
 1. Select a planar face and a sketch with a closed contour (in any order).
 2. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/SheetMetal_AddCutout.svg) [Extruded Cutout](/SheetMetal_AddCutout "SheetMetal AddCutout") button.
-   - Select the **SheetMetal → ![](/src/assets/images/SheetMetal_AddCutout.svg) Extruded Cutout** option from the menu.
-   - Right-click in the [Tree view](/Tree_view "Tree view") or the [3D view](/3D_view "3D view") and select the **SheetMetal → ![](/src/assets/images/SheetMetal_AddCutout.svg) Extruded Cutout** option from the context menu.
+   - Press the ![](/images/SheetMetal_AddCutout.svg) [Extruded Cutout](/SheetMetal_AddCutout "SheetMetal AddCutout") button.
+   - Select the **SheetMetal → ![](/images/SheetMetal_AddCutout.svg) Extruded Cutout** option from the menu.
+   - Right-click in the [Tree view](/Tree_view "Tree view") or the [3D view](/3D_view "3D view") and select the **SheetMetal → ![](/images/SheetMetal_AddCutout.svg) Extruded Cutout** option from the context menu.
    - Use the keyboard shortcut: E then C.
 3. The **Extruded Cutout properties** [Task panel](/Task_panel "Task panel") opens.
 4. Optionally press the Face button to reselect the planar face.

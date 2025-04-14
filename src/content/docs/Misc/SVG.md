@@ -12,11 +12,11 @@ The SVG image is described in an XML-type language, which means that it can be o
 
 ## Usage
 
-FreeCAD can read and export SVG graphics using the [**Draft SVG**](/Draft_SVG "Draft SVG") function from the ![](/src/assets/images/Workbench_Draft.svg) [Draft](/Draft_Workbench "Draft Workbench") Workbench. SVG files are used for many things, including [symbols](/TechDraw_Symbol "TechDraw Symbol") and [icons](/Artwork_Guidelines "Artwork Guidelines") on the graphical user interface, and for [templates](/TechDraw_Templates "TechDraw Templates").
+FreeCAD can read and export SVG graphics using the [**Draft SVG**](/Draft_SVG "Draft SVG") function from the ![](/images/Workbench_Draft.svg) [Draft](/Draft_Workbench "Draft Workbench") Workbench. SVG files are used for many things, including [symbols](/TechDraw_Symbol "TechDraw Symbol") and [icons](/Artwork_Guidelines "Artwork Guidelines") on the graphical user interface, and for [templates](/TechDraw_Templates "TechDraw Templates").
 
-: For example, the ![](/src/assets/images/Workbench_TechDraw.svg) [TechDraw](/TechDraw_Workbench "TechDraw Workbench") workbench [templates](/TechDraw_Templates "TechDraw Templates") can be created as SVG files with some editable text fields that the user can fill in.
+: For example, the ![](/images/Workbench_TechDraw.svg) [TechDraw](/TechDraw_Workbench "TechDraw Workbench") workbench [templates](/TechDraw_Templates "TechDraw Templates") can be created as SVG files with some editable text fields that the user can fill in.
 
-FreeCAD is primarily a 3D modeling application, and thus doesn't have many 2D drawing tools, which are mostly included in the ![](/src/assets/images/Workbench_Draft.svg) [Draft](/Draft_Workbench "Draft Workbench") and ![](/src/assets/images/Workbench_Sketcher.svg) [Sketcher](/Sketcher_Workbench "Sketcher Workbench") workbenches. To exclusively create 2D shapes, and produce SVG files, there are alternative programs like [Inkscape](https://en.wikipedia.org/wiki/Inkscape).
+FreeCAD is primarily a 3D modeling application, and thus doesn't have many 2D drawing tools, which are mostly included in the ![](/images/Workbench_Draft.svg) [Draft](/Draft_Workbench "Draft Workbench") and ![](/images/Workbench_Sketcher.svg) [Sketcher](/Sketcher_Workbench "Sketcher Workbench") workbenches. To exclusively create 2D shapes, and produce SVG files, there are alternative programs like [Inkscape](https://en.wikipedia.org/wiki/Inkscape).
 
 ## Related
 

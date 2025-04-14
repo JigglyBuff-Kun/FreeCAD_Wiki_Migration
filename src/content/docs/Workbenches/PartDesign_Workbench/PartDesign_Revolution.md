@@ -21,14 +21,14 @@ title: PartDesign Revolution
 
 The **Revolution** tool creates a solid by revolving a selected sketch or 2D object about a given axis.
 
-![](/src/assets/images/PartDesign_Revolution_example.svg)
+![](/images/PartDesign_Revolution_example.svg)
 
 Above: sketch (A) is revolved 270 degrees counter-clockwise around axis (B); resulting solid (C) is shown right.
 
 ## Usage
 
 1. Select a single sketch or one or more faces from the Body.
-2. Press the ![](/src/assets/images/PartDesign_Revolution.svg) [Revolution](/PartDesign_Revolution "PartDesign Revolution") button.
+2. Press the ![](/images/PartDesign_Revolution.svg) [Revolution](/PartDesign_Revolution "PartDesign Revolution") button.
 3. Set the Revolution parameters, see [Options](#Options) below.
 4. Press the OK button.
 
@@ -36,7 +36,7 @@ Above: sketch (A) is revolved 270 degrees counter-clockwise around axis (B); res
 
 When creating a revolution, or after double-clicking an existing revolution in the [Tree view](/Tree_view "Tree view"), the **Revolution parameters** task panel is shown. It offers the following settings:
 
-![](/src/assets/images/Partdesign_revolution_parameters.png)
+![](/images/Partdesign_revolution_parameters.png)
 
 ### Type
 
@@ -121,7 +121,7 @@ Sketch Based
 
 ## Notes
 
-- A ![](/src/assets/images/PartDesign_ShapeBinder.svg) [ShapeBinder](/PartDesign_ShapeBinder "PartDesign ShapeBinder") cannot be used for the profile.
-- When using a ![](/src/assets/images/PartDesign_SubShapeBinder.svg) [SubShapeBinder](/PartDesign_SubShapeBinder "PartDesign SubShapeBinder") for the profile, selecting the binder in the [Tree view](/Tree_view "Tree view") will fail, instead the binder's face has to be selected in the [3D view](/3D_view "3D view").
+- A ![](/images/PartDesign_ShapeBinder.svg) [ShapeBinder](/PartDesign_ShapeBinder "PartDesign ShapeBinder") cannot be used for the profile.
+- When using a ![](/images/PartDesign_SubShapeBinder.svg) [SubShapeBinder](/PartDesign_SubShapeBinder "PartDesign SubShapeBinder") for the profile, selecting the binder in the [Tree view](/Tree_view "Tree view") will fail, instead the binder's face has to be selected in the [3D view](/3D_view "3D view").
 
 Retrieved from "<http://wiki.freecad.org/index.php?title=PartDesign_Revolution/en&oldid=1446916>"

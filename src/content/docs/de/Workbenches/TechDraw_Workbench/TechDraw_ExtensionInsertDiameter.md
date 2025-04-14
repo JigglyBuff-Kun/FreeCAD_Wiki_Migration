@@ -21,7 +21,7 @@ title: TechDraw ErgänzungDurchmesserEinfügen
 
 Das Werkzeug **TechDraw ErgänzungDurchmesserEinfügen** fügt ein ⌀-Symbol am Anfang des Maßtextes ein.
 
-![](/src/assets/images/TechDraw_ExtensionInsertDiameterExample.png)
+![](/images/TechDraw_ExtensionInsertDiameterExample.png)
 
 Rechts Maße mit dem eingefügten Symbol
 
@@ -29,8 +29,8 @@ Rechts Maße mit dem eingefügten Symbol
 
 1. Ein oder mehrere Maße auswählen.
 2. Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
-   - Die Schaltfläche ![](/src/assets/images/TechDraw_ExtensionInsertDiameter.svg) '⌀'-Symbol einfügen drücken.
-   - Den Menüeintrag **TechDraw → Ergänzungen: Maße → ![](/src/assets/images/TechDraw_ExtensionInsertDiameter.svg) '⌀'-Symbol einfügen** auswählen.
+   - Die Schaltfläche ![](/images/TechDraw_ExtensionInsertDiameter.svg) '⌀'-Symbol einfügen drücken.
+   - Den Menüeintrag **TechDraw → Ergänzungen: Maße → ![](/images/TechDraw_ExtensionInsertDiameter.svg) '⌀'-Symbol einfügen** auswählen.
 3. Das ⌀-Symbol wird in die Maßtexte der ausgewählten Maße eingefügt.
 
 Retrieved from "<http://wiki.freecad.org/index.php?title=TechDraw_ExtensionInsertDiameter/de&oldid=1493742>"

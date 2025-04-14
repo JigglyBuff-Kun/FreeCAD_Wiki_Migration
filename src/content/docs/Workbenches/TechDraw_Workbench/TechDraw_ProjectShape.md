@@ -21,15 +21,15 @@ title: TechDraw ProjectShape
 
 The **TechDraw ProjectShape** tool creates projections of shapes. The projections are created in the [3D view](/3D_view "3D view"), and not on a [TechDraw Page](/TechDraw_PageDefault "TechDraw PageDefault").
 
-![](/src/assets/images/ProjectShape1_it.png)
+![](/images/ProjectShape1_it.png)
 
 ## Usage
 
 1. Optionally rotate the [3D view](/3D_view "3D view"). The objects will be projected onto a plane parallel to the screen i.e. along the 3D view's camera direction, which is used as the default Data**Direction** property.
 2. Select one or more objects. For each object a separate projection will be created.
 3. There are several ways to invoke the tool:
-   - Press the ![](/src/assets/images/TechDraw_ProjectShape.svg) [Project shape...](/TechDraw_ProjectShape "TechDraw ProjectShape") button.
-   - Select the **TechDraw → TechDraw Views → ![](/src/assets/images/TechDraw_ProjectShape.svg) Project shape...** option from the menu.
+   - Press the ![](/images/TechDraw_ProjectShape.svg) [Project shape...](/TechDraw_ProjectShape "TechDraw ProjectShape") button.
+   - Select the **TechDraw → TechDraw Views → ![](/images/TechDraw_ProjectShape.svg) Project shape...** option from the menu.
 4. The **Project shapes** task panel opens. See [Properties](#Properties).
 5. Set the desired options.
 6. The selected options should not result in an empty projection as this will cause an error. For example, for an object with only sharp edges such as a [Part Box](/Part_Box "Part Box"), the **Visible sharp edges** and/or **Hidden sharp edges** option must be checked.

@@ -19,7 +19,7 @@ title: Sketcher ConstrainBlock
 
 ## Description
 
-The ![](/src/assets/images/Sketcher_ConstrainBlock.svg) [Sketcher ConstrainBlock](/Sketcher_ConstrainBlock "Sketcher ConstrainBlock") tool blocks edges in place with a single constraint. It is mainly intended for [B-splines](/Sketcher_CreateBSpline "Sketcher CreateBSpline"), which can be difficult to fully constrain otherwise.
+The ![](/images/Sketcher_ConstrainBlock.svg) [Sketcher ConstrainBlock](/Sketcher_ConstrainBlock "Sketcher ConstrainBlock") tool blocks edges in place with a single constraint. It is mainly intended for [B-splines](/Sketcher_CreateBSpline "Sketcher CreateBSpline"), which can be difficult to fully constrain otherwise.
 
 The block constraint only affects the freely movable parts of an edge. Blocked edges can have other constraints, and applying additional constraints to a blocked edge can modify it.
 
@@ -31,9 +31,9 @@ See also: [Drawing aids](/Sketcher_Workbench#Drawing_aids "Sketcher Workbench").
 
 1. Make sure there is no selection.
 2. There are several ways to invoke the tool:
-   - Press the ![](/src/assets/images/Sketcher_ConstrainBlock.svg) [Constrain block](/Sketcher_ConstrainBlock "Sketcher ConstrainBlock") button.
-   - Select the **Sketch → Sketcher constraints → ![](/src/assets/images/Sketcher_ConstrainBlock.svg) Constrain block** option from the menu.
-   - [introduced in 1.0](/Release_notes_1.0 "Release notes 1.0"): Right-click in the [3D view](/3D_view "3D view") and select the **Constrain → ![](/src/assets/images/Sketcher_ConstrainBlock.svg) Constrain block** option from the context menu.
+   - Press the ![](/images/Sketcher_ConstrainBlock.svg) [Constrain block](/Sketcher_ConstrainBlock "Sketcher ConstrainBlock") button.
+   - Select the **Sketch → Sketcher constraints → ![](/images/Sketcher_ConstrainBlock.svg) Constrain block** option from the menu.
+   - [introduced in 1.0](/Release_notes_1.0 "Release notes 1.0"): Right-click in the [3D view](/3D_view "3D view") and select the **Constrain → ![](/images/Sketcher_ConstrainBlock.svg) Constrain block** option from the context menu.
    - Use the keyboard shortcut: K then B.
 3. The cursor changes to a cross with the tool icon.
 4. Select a single edge.
@@ -45,7 +45,7 @@ See also: [Drawing aids](/Sketcher_Workbench#Drawing_aids "Sketcher Workbench").
 
 1. Select one or more edges.
 2. Invoke the tool as explained above, or with the following additional option:
-   - [introduced in 1.0](/Release_notes_1.0 "Release notes 1.0"): Right-click in the [3D view](/3D_view "3D view") and select the **![](/src/assets/images/Sketcher_ConstrainBlock.svg) Constrain block** option from the context menu.
+   - [introduced in 1.0](/Release_notes_1.0 "Release notes 1.0"): Right-click in the [3D view](/3D_view "3D view") and select the **![](/images/Sketcher_ConstrainBlock.svg) Constrain block** option from the context menu.
 3. Depending on the selection one or more constraints are added.
 
 ## Scripting

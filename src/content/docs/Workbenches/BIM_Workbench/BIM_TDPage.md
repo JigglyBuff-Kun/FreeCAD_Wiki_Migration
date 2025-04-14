@@ -23,13 +23,13 @@ This documentation is not finished. Please help and contribute documentation.Gui
 
 ## Description
 
-The ![](/src/assets/images/BIM_TDPage.svg) [BIM TDPage](/BIM_TDPage "BIM TDPage") tool creates a new TechDraw page from a template.
+The ![](/images/BIM_TDPage.svg) [BIM TDPage](/BIM_TDPage "BIM TDPage") tool creates a new TechDraw page from a template.
 
 ## Usage
 
 1. There are several ways to invoke the tool:
-   - Press the ![](/src/assets/images/BIM_TDPage.svg) [Page](/BIM_TDPage "BIM TDPage") button.
-   - Select the **Annotation → ![](/src/assets/images/BIM_TDPage.svg) Page** option from the menu.
+   - Press the ![](/images/BIM_TDPage.svg) [Page](/BIM_TDPage "BIM TDPage") button.
+   - Select the **Annotation → ![](/images/BIM_TDPage.svg) Page** option from the menu.
 2. ...
 
 Retrieved from "<http://wiki.freecad.org/index.php?title=BIM_TDPage/en&oldid=1447187>"

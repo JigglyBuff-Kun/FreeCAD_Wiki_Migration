@@ -33,13 +33,13 @@ A similar description of this process is described in a series of videos, [Rende
 
 1. Create an assembly using bodies from the [Part Workbench](/Part_Workbench "Part Workbench") or [PartDesign Workbench](/PartDesign_Workbench "PartDesign Workbench"), or any other workbench that produces solid objects, for example, the [Arch Workbench](/Arch_Workbench "Arch Workbench"). Assign colors or materials to the individual bodies that make the assembly, approximately matching the color that you want in your render.
 
-![](/src/assets/images/01_T03_FreeCAD_Blender_model.png)
+![](/images/01_T03_FreeCAD_Blender_model.png)
 
 Assembly of three bodies created in FreeCAD, and with colors or materials assigned.
 
 2. If your model is very detailed, make sure the View**Deviation** of the body is set to a low value, between `0.1` and `0.01`, or even smaller. The lower this value is, the more detailed the exported mesh will be, and thus the better the quality of the render will be.
 
-![](/src/assets/images/02_T03_FreeCAD_Blender_deviation.png)
+![](/images/02_T03_FreeCAD_Blender_deviation.png)
 
 Deviation property of the bodies created in FreeCAD; the deviation needs to be small in order to export the parts with good resolution.
 
@@ -137,7 +137,7 @@ for obj in bpy.data.objects:
 
 ```
 
-![](/src/assets/images/03_T03_FreeCAD_Blender_imported_assembly.png)
+![](/images/03_T03_FreeCAD_Blender_imported_assembly.png)
 
 Assembly created in FreeCAD imported into Blender; the model was rotated and the units for the scene were adjusted to match the imported objects.
 
@@ -156,7 +156,7 @@ bpy.context.object.data.clip_end = 1e+03
 
 If you can see the object through the camera view, now you can quickly render the model by pressing F12, which will open the `Image Editor` with the result. Press Esc to exit, and return to the `3D Viewport`.
 
-![](/src/assets/images/04_T03_FreeCAD_Blender_first_render.png)
+![](/images/04_T03_FreeCAD_Blender_first_render.png)
 
 First render of the assembly in Blender, with the camera with correct clipping but no lighting
 
@@ -192,7 +192,7 @@ bpy.context.active_object.rotation_euler = (0.6, 0.05, 1.88)
 
 Press F12 again to see a preliminary render of the model.
 
-![](/src/assets/images/05_T03_FreeCAD_Blender_render_sun_lamp.png)
+![](/images/05_T03_FreeCAD_Blender_render_sun_lamp.png)
 
 Render of the assembly in Blender with a Sun lamp added that emits parallel light rays with a fixed angle
 
@@ -223,7 +223,7 @@ bpy.context.scene.eevee.use_soft_shadows = True
 
 13.1. Select the ground plane, go to the `Properties` panel, then `Material`, and click on `New`. In the `Shader Editor` a `Principled BSDF` node should appear. Give it a beige `Base Color` `RGB (0.318, 0.267, 0.187)`, turn the `Metallic` slider to `0.000`, and the `Roughness` to `1.000`.
 
-![](/src/assets/images/06_T03_FreeCAD_Blender_Principled_shader.png)
+![](/images/06_T03_FreeCAD_Blender_Principled_shader.png)
 
 Principled BSDF shader used in Blender to simulate a variety of materials ranging from shiny metals to rough and opaque solids.
 
@@ -241,7 +241,7 @@ Press F12 to render the view through the camera and check the quality of the ima
 
 15. If your model looks reasonably well with the EEVEE renderer you can already save the image by going to **Image → Save As** or pressing Shift+S in the `Image Editor`.
 
-![](/src/assets/images/07_T03_FreeCAD_Blender_EEVEE_render.png)
+![](/images/07_T03_FreeCAD_Blender_EEVEE_render.png)
 
 Rendered assembly produced with Blender EEVEE; all materials use the Principled BSDF shader; only one Sun lamp is used, with some ambient background light.
 
@@ -262,7 +262,7 @@ Press F12 to render the final view through the camera. Depending on your graphic
 
 17. When you are satisfied with the quality of the rendering, in the `Image Editor` go to **Image → Save As** or press Shift+S.
 
-![](/src/assets/images/08_T03_FreeCAD_Blender_Cycles_render.png)
+![](/images/08_T03_FreeCAD_Blender_Cycles_render.png)
 
 Rendered assembly produced with Blender Cycles; all options, materials, and lights that were used with EEVEE were kept for use with Cycles.
 

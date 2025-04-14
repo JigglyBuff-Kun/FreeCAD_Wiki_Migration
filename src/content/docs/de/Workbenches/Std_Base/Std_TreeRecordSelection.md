@@ -19,12 +19,12 @@ title: Std BaumAuswahlAufzeichnen
 
 ## Beschreibung
 
-Der Befehl **Std BaumAuswahlAufzeichnen** schaltet den Auswahl-Aufzeichnen-Modus der [Baumansicht](/Tree_view/de "Tree view/de") ein bzw. aus. Ist dieser Modus aktiviert, wird jede Auswahl in der Baumansicht für eine spätere Verwendung gespeichert. MIt den Schaltflächen ![](/src/assets/images/Std_SelBack.svg) und ![](/src/assets/images/Std_SelForward.svg) kann man sich vor und zurück durch die Auswahlen bewegen und sie wiederherstellen.
+Der Befehl **Std BaumAuswahlAufzeichnen** schaltet den Auswahl-Aufzeichnen-Modus der [Baumansicht](/Tree_view/de "Tree view/de") ein bzw. aus. Ist dieser Modus aktiviert, wird jede Auswahl in der Baumansicht für eine spätere Verwendung gespeichert. MIt den Schaltflächen ![](/images/Std_SelBack.svg) und ![](/images/Std_SelForward.svg) kann man sich vor und zurück durch die Auswahlen bewegen und sie wiederherstellen.
 
 ## Anwendung
 
 1. Es gibt mehrere Möglichkeiten den Befehl aufzurufen:
-   - Den nach unten weisenden Pfeil rechts neben der Schaltfläche ![](/src/assets/images/Std_TreeSyncView.svg) anklicken und den Eintrag **Auswahl aufzeichnen** in der angezeigten Liste auswählen. Hinweis: Das Bild der Schaltfläche ändert sich entsprechend der Auswahl.
+   - Den nach unten weisenden Pfeil rechts neben der Schaltfläche ![](/images/Std_TreeSyncView.svg) anklicken und den Eintrag **Auswahl aufzeichnen** in der angezeigten Liste auswählen. Hinweis: Das Bild der Schaltfläche ändert sich entsprechend der Auswahl.
    - Den Menüeintrag **Ansicht → Baumansicht-Aktionen → Auswahl aufzeichnen** auswählen.
    - Das Tastaturkürzel T dann 5.
 

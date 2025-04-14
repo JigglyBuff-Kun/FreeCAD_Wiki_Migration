@@ -23,7 +23,7 @@ The **Part ColorPerFace** command sets the display properties of selected faces.
 
 This page has been updated for version 1.0.
 
-![](/src/assets/images/Part_ColorPerFace_Taskpanel.png)
+![](/images/Part_ColorPerFace_Taskpanel.png)
 
 The Set appearance per face task panel
 
@@ -31,9 +31,9 @@ The Set appearance per face task panel
 
 1. Select a single object.
 2. There are several ways to invoke the command:
-   - If the [Part Workbench](/Part_Workbench "Part Workbench") is active: press the ![](/src/assets/images/Part_ColorPerFace.svg) [Color per face](/Part_ColorPerFace "Part ColorPerFace") button.
-   - Select the **View → ![](/src/assets/images/Part_ColorPerFace.svg) Color per face** option from the menu.
-   - Select the **![](/src/assets/images/Part_ColorPerFace.svg) Set appearance per face...** option from the [Tree view](/Tree_view "Tree view") context menu.
+   - If the [Part Workbench](/Part_Workbench "Part Workbench") is active: press the ![](/images/Part_ColorPerFace.svg) [Color per face](/Part_ColorPerFace "Part ColorPerFace") button.
+   - Select the **View → ![](/images/Part_ColorPerFace.svg) Color per face** option from the menu.
+   - Select the **![](/images/Part_ColorPerFace.svg) Set appearance per face...** option from the [Tree view](/Tree_view "Tree view") context menu.
 3. The **Set appearance per face** task panel opens.
 4. Select one or more faces:
    - Hold down Ctrl to select mutliple faces.
@@ -44,7 +44,7 @@ The Set appearance per face task panel
    - Specify a **Custom appearance**:
      1. Press the ... button.
      2. The **Material properties** dialog box opens:  
-        ![](/src/assets/images/Material_Properties_Dialog.png)
+        ![](/images/Material_Properties_Dialog.png)
      3. These properties can be edited:
         - **Ambient color**: color of the shadows on the object.
         - **Diffuse color**: actual/base color of the object.

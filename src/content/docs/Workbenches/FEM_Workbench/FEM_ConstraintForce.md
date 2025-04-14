@@ -28,8 +28,8 @@ Applies a force of a given value [N] to the selected geometry.
 ## Usage
 
 1. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/FEM_ConstraintForce.svg) [Force load](/FEM_ConstraintForce "FEM ConstraintForce") button.
-   - Select the **Model → Mechanical boundary conditions and loads → ![](/src/assets/images/FEM_ConstraintForce.svg) Force load** option from the menu.
+   - Press the ![](/images/FEM_ConstraintForce.svg) [Force load](/FEM_ConstraintForce "FEM ConstraintForce") button.
+   - Select the **Model → Mechanical boundary conditions and loads → ![](/images/FEM_ConstraintForce.svg) Force load** option from the menu.
 2. The Mesh object will be hidden automatically and reveal the original model. If the Mesh object is still visible, do one of the following to hide it:
    - Select the Mesh object in the [Tree view](/Tree_view "Tree view") and press spacebar.
    - Right-click on the Mesh object in the [Tree view](/Tree_view "Tree view") and select **Hide selection** from its context menu.
@@ -41,7 +41,7 @@ Applies a force of a given value [N] to the selected geometry.
 8. Optionally check the **Reverse direction** checkbox to reverse the force direction.
 9. Click OK to finish.
 
-![](/src/assets/images/FEM_ConstraintForce_example.JPG)
+![](/images/FEM_ConstraintForce_example.JPG)
 
 ## Notes
 

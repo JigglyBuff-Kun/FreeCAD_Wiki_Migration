@@ -24,7 +24,7 @@ Der Befehl **Std Rechteckauswahl** wählt die Objekte innerhalb eines benutzerde
 ## Anwendung
 
 1. Es gibt mehrere Wege, den Befehl aufzurufen:
-   - Wähle die **Bearbeiten → ![](/src/assets/images/Std_BoxSelection.svg) Rechteck Auswahl**-Option aus dem Menü.
+   - Wähle die **Bearbeiten → ![](/images/Std_BoxSelection.svg) Rechteck Auswahl**-Option aus dem Menü.
    - Benutze den Tastaturkurzbefehl: Shift+B.
 2. Tue eins der folgenden Dinge:
 3. Ziehe ein Rechteck von links nach rechts, um Objekte auszuwählen, deren geometrische Mittelpunkte im Rechteck liegen.

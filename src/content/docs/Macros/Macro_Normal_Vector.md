@@ -40,7 +40,7 @@ Simple macro to extract normal vector of previously within the 3D-View chosen fa
 ## Script
 
 ToolBar Icon
-![](/src/assets/images/Macro_Normal_Vector.png)
+![](/images/Macro_Normal_Vector.png)
 
 **Macro_Normal_Vector.FCMacro**
 

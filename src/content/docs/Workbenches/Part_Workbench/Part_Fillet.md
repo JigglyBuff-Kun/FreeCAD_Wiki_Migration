@@ -30,15 +30,15 @@ title: Part Fillet
 - Set the radius value.
 - Click OK to validate.
 
-![](/src/assets/images/Dialog-fillet.png)
+![](/images/Dialog-fillet.png)
 
 ## Part Fillet VS. PartDesign Fillet
 
-There is another fillet tool in the ![](/src/assets/images/Workbench_PartDesign.svg) [PartDesign workbench](/PartDesign_Workbench "PartDesign Workbench"). Please note that their operation is quite different. Check out the ![](/src/assets/images/PartDesign_Fillet.svg) [PartDesign Fillet](/PartDesign_Fillet "PartDesign Fillet") reference page for more details on their differences.
+There is another fillet tool in the ![](/images/Workbench_PartDesign.svg) [PartDesign workbench](/PartDesign_Workbench "PartDesign Workbench"). Please note that their operation is quite different. Check out the ![](/images/PartDesign_Fillet.svg) [PartDesign Fillet](/PartDesign_Fillet "PartDesign Fillet") reference page for more details on their differences.
 
 ## Notes on application of Part Fillet
 
-Part Fillet might do nothing if the result would touch or cross the next adjacent edge. Consequently, if you do not obtain the expected result, try with a smaller **Radius** value. This is the same for ![](/src/assets/images/Part_Chamfer.svg) [Part Chamfer](/Part_Chamfer "Part Chamfer").
+Part Fillet might do nothing if the result would touch or cross the next adjacent edge. Consequently, if you do not obtain the expected result, try with a smaller **Radius** value. This is the same for ![](/images/Part_Chamfer.svg) [Part Chamfer](/Part_Chamfer "Part Chamfer").
 
 The fillet tool sometimes fails when trying to fillet complex shapes. A common cause of this may be that the shape being filleted is not geometrically correct. This may be the result of lines/planes etc not being removed after previous operations used to construct the shape ( e.g. Cut/Intersection/Fusion). A number of steps can be used to minimize problems:
 

@@ -35,11 +35,11 @@ To use the Z88 solver, the OpenSource version of Z88 (Z88OS) needs to be install
 
 ## Usage
 
-1. Create an ![](/src/assets/images/FEM_Analysis.svg) [Analysis container](/FEM_Analysis "FEM Analysis").
+1. Create an ![](/images/FEM_Analysis.svg) [Analysis container](/FEM_Analysis "FEM Analysis").
 2. There are several ways to invoke the command:
-   - Select **Solve → ![](/src/assets/images/FEM_SolverZ88.svg) Solver Z88** option from the menu.
+   - Select **Solve → ![](/images/FEM_SolverZ88.svg) Solver Z88** option from the menu.
    - Use the keyboard shortcut: S then Z.
-3. Double-click the ![](/src/assets/images/FEM_SolverZ88.svg) SolverZ88 object.
+3. Double-click the ![](/images/FEM_SolverZ88.svg) SolverZ88 object.
 4. Select the **Analysis type**.
 5. Press the Write button.
 6. Press the Run button.

@@ -10,15 +10,15 @@ title: Placement
 
 An object's Placement attributes can be accessed and modified in 3 ways:
 
-![](/src/assets/images/PlacementPropertiesv10-800x800.png)
+![](/images/PlacementPropertiesv10-800x800.png)
 
 Placement in property editor
 
-![](/src/assets/images/PlacePyConv10.png)
+![](/images/PlacePyConv10.png)
 
 Scripting Placement as y/p/r and Matrix and its [API](/Placement_API "Placement API").
 
-![](/src/assets/images/PlacementDialogv10.png)
+![](/images/PlacementDialogv10.png)
 
 Placement task panel
 
@@ -44,15 +44,15 @@ The first form of **Placement** fixes an object's location in space with a Posit
 
 ```
 
-Note that it is also possible to translate (move) an object along this axis of rotation (axial motion) by entering the distance to move in the Axial: 0.0mm ![](/src/assets/images/SpinBox.svg) spinbox and clicking Apply axial. (One way to envision axial motion is to think of an airplane with a propeller spinning on its nose -- the propeller spins _about_ an axis of rotation while the plane moves _along_ that same axis.) The values in the vector can be thought of as the relative amount of motion that will be applied in that direction. For example, in the y=x case (0.71,0.71,0) the value contained in the Axial spinbox gets applied in equal measure to the X and Y directions, but no movement happens in the Z direction.
+Note that it is also possible to translate (move) an object along this axis of rotation (axial motion) by entering the distance to move in the Axial: 0.0mm ![](/images/SpinBox.svg) spinbox and clicking Apply axial. (One way to envision axial motion is to think of an airplane with a propeller spinning on its nose -- the propeller spins _about_ an axis of rotation while the plane moves _along_ that same axis.) The values in the vector can be thought of as the relative amount of motion that will be applied in that direction. For example, in the y=x case (0.71,0.71,0) the value contained in the Axial spinbox gets applied in equal measure to the X and Y directions, but no movement happens in the Z direction.
 
 **Position = (x,y,z)** is a Vector describing the point from which the object's geometry will be calculated (in effect, a "local origin" for the object). Note that in scripts, Placement.Base is used to denote the Position component of a placement. The property editor calls this value **Position** and the Placement task panel calls it **Translation**.
 
 ### Position and Yaw, Pitch and Roll
 
-![](/src/assets/images/PlacementDialogv10b.png)
+![](/images/PlacementDialogv10b.png)
 
-Placement task panel: Euler angles ![](/src/assets/images/ComboBox.svg) selected
+Placement task panel: Euler angles ![](/images/ComboBox.svg) selected
 
 **Placement = [Position, Yaw-Pitch-Roll]**
 
@@ -75,17 +75,17 @@ App.Rotation(10,20,30) = Euler Angle
 
 **Roll** = 30 degrees (**X**)
 
-![](/src/assets/images/Tache_Placement_Lacet_fr_Mini.gif)
+![](/images/Tache_Placement_Lacet_fr_Mini.gif)
 
 **Yaw** is the rotation about the **Z axis**, that is to say a rotation from left to right.  
 (The yaw angle is the **Psi ψ**).
 
-![](/src/assets/images/Tache_Placement_Tangage_fr_Mini.gif)
+![](/images/Tache_Placement_Tangage_fr_Mini.gif)
 
 **Pitch** is rotation about the **Y axis**, that is to say nose-up and nose-down.  
 (The Pitch angle is the **Phi φ**).
 
-![](/src/assets/images/Tache_Placement_Roulis_fr_Mini.gif)
+![](/images/Tache_Placement_Roulis_fr_Mini.gif)
 
 **Roll** is rotation about the **X axis**, that is to say wing up and down.  
 (The Roll angle is the **Thêta θ**).
@@ -144,19 +144,19 @@ Now consider the case of selecting 3 points. You would select the 3 desired poin
 
 Rotations about a single axis:
 
-![Before Rotation](/src/assets/images/RotationAboutZBefore.png)
+![Before Rotation](/images/RotationAboutZBefore.png)
 
 Before Rotation
 
 Before Rotation (top view)
 
-![After Rotation about Z](/src/assets/images/RotationAboutZAfter.png)
+![After Rotation about Z](/images/RotationAboutZAfter.png)
 
 After Rotation about Z
 
 After Rotation about Z (top view)
 
-![After Rotation about y=x](/src/assets/images/RotationAboutYXAfter.png)
+![After Rotation about y=x](/images/RotationAboutYXAfter.png)
 
 After Rotation about y=x
 
@@ -164,13 +164,13 @@ After Rotation about y=x (right view)
 
 Rotation with offset centre point:
 
-![Before Rotation](/src/assets/images/RotationOffsetBefore.png)
+![Before Rotation](/images/RotationOffsetBefore.png)
 
 Before Rotation
 
 Before Rotation (top view)
 
-![After Rotation about Z](/src/assets/images/RotationOffsetAfter.png)
+![After Rotation about Z](/images/RotationOffsetAfter.png)
 
 After Rotation about Z
 
@@ -178,13 +178,13 @@ After Rotation about Z (top view)
 
 Rotation using Euler angles:
 
-![Before Rotation](/src/assets/images/RotationEulerBefore.png)
+![Before Rotation](/images/RotationEulerBefore.png)
 
 Before Rotation
 
 Before Rotation
 
-![After Rotation](/src/assets/images/RotationEulerAfter.png)
+![After Rotation](/images/RotationEulerAfter.png)
 
 After Rotation
 
@@ -194,7 +194,7 @@ After Rotation
 
 Placement is not the only way to position a shape in space. Note the Python console in this image:
 
-![](/src/assets/images/2Placements800.png)
+![](/images/2Placements800.png)
 
 2 Shapes with Same Placement
 
@@ -235,13 +235,13 @@ By default, the axis of rotation isn't really the x/y/z axis. It is a line paral
 
 For example, suppose we have a box (below) positioned at (20,20,10).
 
-![](/src/assets/images/LocalZBefore2.png)
+![](/images/LocalZBefore2.png)
 
 Before Rotation
 
 We wish to spin the box around it's own vertical centre line (ie local Z), while keeping it the same position. We can easily achieve this by specifying a Center value equal to the coordinates of the box's central point (25,25,15).
 
-![](/src/assets/images/LocalZAfter2.png)
+![](/images/LocalZAfter2.png)
 
 After Rotation
 
@@ -313,7 +313,7 @@ To make the placement of "Sketch" equal to that of "Cylinder", you would enter i
 
 ```
 
-![](/src/assets/images/PlacementInExpression.png)
+![](/images/PlacementInExpression.png)
 
 Setting the whole Placement in one expression
 

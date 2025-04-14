@@ -25,15 +25,15 @@ title: FEM ConstraintFlowVelocity
 
 Applies a flow velocity as boundary condition to an edge in 2D or to a face in 3D.
 
-![](/src/assets/images/FEM_FlowVelocity_dialog.png)
+![](/images/FEM_FlowVelocity_dialog.png)
 
 The FEM flow velocity task panel
 
 ## Usage
 
 1. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/FEM_ConstraintFlowVelocity.svg) [Flow velocity boundary condition](/FEM_ConstraintFlowVelocity "FEM ConstraintFlowVelocity") button.
-   - Select the **Model → Fluid boundary conditions → ![](/src/assets/images/FEM_ConstraintFlowVelocity.svg) Flow velocity boundary condition** option from the menu.
+   - Press the ![](/images/FEM_ConstraintFlowVelocity.svg) [Flow velocity boundary condition](/FEM_ConstraintFlowVelocity "FEM ConstraintFlowVelocity") button.
+   - Select the **Model → Fluid boundary conditions → ![](/images/FEM_ConstraintFlowVelocity.svg) Flow velocity boundary condition** option from the menu.
 2. Press the Add button.
 3. Select the target Edges or Faces.
 4. Uncheck _unspecified_ to activate the necessary fields for editing.

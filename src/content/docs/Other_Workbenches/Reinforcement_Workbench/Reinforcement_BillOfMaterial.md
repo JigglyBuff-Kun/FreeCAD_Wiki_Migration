@@ -21,31 +21,31 @@ title: Reinforcement BillOfMaterial
 
 The [Reinforcement BillOfMaterial](/Reinforcement_BillOfMaterial "Reinforcement BillOfMaterial") tool allows the user to create a bill of material of reinforcing bars.
 
-This tool is part of the [Reinforcement Workbench](/Reinforcement_Workbench "Reinforcement Workbench"), an [external workbench](/External_workbenches "External workbenches") that can be installed with the ![](/src/assets/images/Std_AddonMgr.svg) [Addon Manager](/Std_AddonMgr "Std AddonMgr").
+This tool is part of the [Reinforcement Workbench](/Reinforcement_Workbench "Reinforcement Workbench"), an [external workbench](/External_workbenches "External workbenches") that can be installed with the ![](/images/Std_AddonMgr.svg) [Addon Manager](/Std_AddonMgr "Std AddonMgr").
 
-![](/src/assets/images/Arch_Rebar_BOM_example.png)
+![](/images/Arch_Rebar_BOM_example.png)
 
 Bill Of Material of reinforcing bars
 
 ## Usage
 
-1. Select ![](/src/assets/images/Arch_Rebar.svg) [Arch Rebar](/Arch_Rebar "Arch Rebar") and Rebar2 objects you want to include in the Bill Of Material. Or select ![](/src/assets/images/Arch_Structure.svg) [Arch Structure](/Arch_Structure "Arch Structure") objects to include ![](/src/assets/images/Arch_Rebar.svg) [Arch Rebar](/Arch_Rebar "Arch Rebar") objects hosted by those into Bill Of Material. If nothing is selected, then Bill Of Material will be generated for all ![](/src/assets/images/Arch_Rebar.svg) [Arch Rebar](/Arch_Rebar "Arch Rebar") and Rebar2 objects present in the model.
+1. Select ![](/images/Arch_Rebar.svg) [Arch Rebar](/Arch_Rebar "Arch Rebar") and Rebar2 objects you want to include in the Bill Of Material. Or select ![](/images/Arch_Structure.svg) [Arch Structure](/Arch_Structure "Arch Structure") objects to include ![](/images/Arch_Rebar.svg) [Arch Rebar](/Arch_Rebar "Arch Rebar") objects hosted by those into Bill Of Material. If nothing is selected, then Bill Of Material will be generated for all ![](/images/Arch_Rebar.svg) [Arch Rebar](/Arch_Rebar "Arch Rebar") and Rebar2 objects present in the model.
 
-2. Then select ![](/src/assets/images/Reinforcement_BillOfMaterial.svg) [Rebar Bill Of Material](/Reinforcement_BillOfMaterial "Reinforcement BillOfMaterial") from the rebar tools.
+2. Then select ![](/images/Reinforcement_BillOfMaterial.svg) [Rebar Bill Of Material](/Reinforcement_BillOfMaterial "Reinforcement BillOfMaterial") from the rebar tools.
 
 3. A dialog box will pop-out on the screen as shown below.
 
-: ![](/src/assets/images/BOMDialog_General.png)
+: ![](/images/BOMDialog_General.png)
 : Dialog Box for the Arch Rebar BOM tool
 
 4. Modify data to suit your requirements.
 
-5. To edit ![](/src/assets/images/Reinforcement_BillOfMaterial.svg) [Rebar Bill Of Material](/Reinforcement_BillOfMaterial "Reinforcement BillOfMaterial") SVG configurations, click on Edit SVG Configurations. A dialog box will pop-out as shown below.
+5. To edit ![](/images/Reinforcement_BillOfMaterial.svg) [Rebar Bill Of Material](/Reinforcement_BillOfMaterial "Reinforcement BillOfMaterial") SVG configurations, click on Edit SVG Configurations. A dialog box will pop-out as shown below.
 
-: ![](/src/assets/images/BOMDialog_SVG.png)
+: ![](/images/BOMDialog_SVG.png)
 : Dialog Box for the Arch Rebar BOM SVG configuration editing
 
-6. Modify ![](/src/assets/images/Reinforcement_BillOfMaterial.svg) [Rebar Bill Of Material](/Reinforcement_BillOfMaterial "Reinforcement BillOfMaterial") SVG configurations and then click on OK to apply changes.
+6. Modify ![](/images/Reinforcement_BillOfMaterial.svg) [Rebar Bill Of Material](/Reinforcement_BillOfMaterial "Reinforcement BillOfMaterial") SVG configurations and then click on OK to apply changes.
 
 7. Click OK or Apply to generate Bill Of Material for rebars.
 

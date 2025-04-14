@@ -27,13 +27,13 @@ This tool maps a sketch onto an arbitrary curved face, like a label on a bottle.
 The sketch must be actually attached to a face (see Sketch.Support).
 The `Map` mode of the sketch has no effect on the result.
 
-![](/src/assets/images/Curves_SketchOnSurface_demo.png)
+![](/images/Curves_SketchOnSurface_demo.png)
 
 Above: shows the `Sketch_On_Surface` object applied to the cylinder face (left) and the source sketch in edit mode (right)
 
 ## Usage
 
-1. Switch to the ![](/src/assets/images/Curves_workbench_icon.svg) [Curves](/Curves_Workbench "Curves Workbench") workbench (install from ![](/src/assets/images/Std_AddonMgr.svg) [Addon Manager](/Std_AddonMgr "Std AddonMgr") is necessary, if not previously installed)
+1. Switch to the ![](/images/Curves_workbench_icon.svg) [Curves](/Curves_Workbench "Curves Workbench") workbench (install from ![](/images/Std_AddonMgr.svg) [Addon Manager](/Std_AddonMgr "Std AddonMgr") is necessary, if not previously installed)
 2. There are 2 methods to use the SketchOnSurface tool:
 
    You already have a sketch that you want to map on a face
@@ -47,14 +47,14 @@ Above: shows the `Sketch_On_Surface` object applied to the cylinder face (left) 
    3. Exit edit mode.
    4. Select the sketch.
    5. Activate SketchOnSurface by either:
-      - Pressing on the ![](/src/assets/images/Curves_SketchOnSurface.svg) button
+      - Pressing on the ![](/images/Curves_SketchOnSurface.svg) button
       - Using the **Surfaces → Sketch on Surface** entry in the Curves menu
 
    You have no sketch to map yet
 
    1. Select the target face in the [3D view](/3D_view "3D view")
    2. Activate SketchOnSurface by either:
-      - Pressing on the ![](/src/assets/images/Curves_SketchOnSurface.svg) button
+      - Pressing on the ![](/images/Curves_SketchOnSurface.svg) button
       - Using the **Surfaces → Sketch on Surface** entry in the Curves menu
    3. A Sketch_On_Surface object appears in the [Tree view](/Tree_view "Tree view").
    4. Expand this object to make the Mapped_Sketch appear below.

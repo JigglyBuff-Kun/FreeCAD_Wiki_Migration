@@ -19,11 +19,11 @@ title: Draft Facebinder
 
 ## Description
 
-The ![](/src/assets/images/Draft_Facebinder.svg) **Draft Facebinder** command creates a surface object from selected faces. A Draft Facebinder is parametric, it will update if you modify its source object(s).
+The ![](/images/Draft_Facebinder.svg) **Draft Facebinder** command creates a surface object from selected faces. A Draft Facebinder is parametric, it will update if you modify its source object(s).
 
 It can be used to create an extrusion from a collection of faces. This extrusion can for example represent a wall finish in architectural design.
 
-![](/src/assets/images/Draft_facebinder_example.jpg)
+![](/images/Draft_facebinder_example.jpg)
 
 Facebinder created from the faces of walls
 
@@ -31,16 +31,16 @@ Facebinder created from the faces of walls
 
 1. Select one or more faces.
 2. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/Draft_Facebinder.svg) [Facebinder](/Draft_Facebinder "Draft Facebinder") button.
-   - [Draft](/Draft_Workbench "Draft Workbench"): Select the **Drafting → ![](/src/assets/images/Draft_Facebinder.svg) Facebinder** option from the menu.
-   - [BIM](/BIM_Workbench "BIM Workbench"): Select the **3D/BIM → Generic 3D tools → ![](/src/assets/images/Draft_Facebinder.svg) Facebinder** option from the menu.
+   - Press the ![](/images/Draft_Facebinder.svg) [Facebinder](/Draft_Facebinder "Draft Facebinder") button.
+   - [Draft](/Draft_Workbench "Draft Workbench"): Select the **Drafting → ![](/images/Draft_Facebinder.svg) Facebinder** option from the menu.
+   - [BIM](/BIM_Workbench "BIM Workbench"): Select the **3D/BIM → Generic 3D tools → ![](/images/Draft_Facebinder.svg) Facebinder** option from the menu.
    - Draft: Use the keyboard shortcut: F then F.
 
 ## Properties
 
 See also: [Property editor](/Property_editor "Property editor").
 
-![](/src/assets/images/Draft_Facebinder_Corners.png)
+![](/images/Draft_Facebinder_Corners.png)
 
 On the left an extruded facebinder with closed corners (pink),  
 on the right an extruded facebinder with open corners (orange).  

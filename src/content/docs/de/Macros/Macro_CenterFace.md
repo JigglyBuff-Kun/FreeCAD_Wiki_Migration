@@ -30,7 +30,7 @@ title: CenterFace
 
 Dieses Makro kennzeichnet Flächenschwerpunkte mit roten Punkten und gibt die Koordinaten aus. (Die Farbe kann eingestellt werden)
 
-![](/src/assets/images/Macro_CenterFace_00.png)
+![](/images/Macro_CenterFace_00.png)
 
 Flächenschwerpunkte
 
@@ -54,7 +54,7 @@ Das Dateisymbol herunterladen und in das eigene Makro-Verzeichnis kopieren.
 
 Klicken Sie auf das Bild, positionieren Sie im neuen Fenster die Maus über dem Bild, klicken Sie mit der rechten Maustaste und wählen Sie "Ziel speichern unter ...".
 
-![Button](/src/assets/images/CenterFace.png)
+![Button](/images/CenterFace.png)
 
 ## Skript
 

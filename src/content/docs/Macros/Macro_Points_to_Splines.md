@@ -30,15 +30,15 @@ title: Points to Splines
 
 This macro creates splines from Points object sections.
 
-![](/src/assets/images/Macro_Points_to_Splines.png)
+![](/images/Macro_Points_to_Splines.png)
 
 Macro Points to Splines
 
-![](/src/assets/images/Macro_Points_to_Splines_dialog.png)
+![](/images/Macro_Points_to_Splines_dialog.png)
 
 Dialog for Macro Points to Splines
 
-![](/src/assets/images/Macro_Points_to_Splines_histogram.png)
+![](/images/Macro_Points_to_Splines_histogram.png)
 
 Initial edge length histogram shown by Macro Points to Splines
 

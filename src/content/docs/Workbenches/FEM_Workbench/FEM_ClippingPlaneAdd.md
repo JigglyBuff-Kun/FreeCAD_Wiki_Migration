@@ -26,14 +26,14 @@ The clipping plane is the same you get when using the feature [Toggle Clip Plane
 ## Usage
 
 1. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/FEM_ClippingPlaneAdd.svg) [Clipping plane on face](/FEM_ClippingPlaneAdd "FEM ClippingPlaneAdd") button.
-   - Select the **Utilities → ![](/src/assets/images/FEM_ClippingPlaneAdd.svg) Clipping plane on face** option from the menu.
+   - Press the ![](/images/FEM_ClippingPlaneAdd.svg) [Clipping plane on face](/FEM_ClippingPlaneAdd "FEM ClippingPlaneAdd") button.
+   - Select the **Utilities → ![](/images/FEM_ClippingPlaneAdd.svg) Clipping plane on face** option from the menu.
 
 It is possible to have several clipping planes.
 
 Despite the plane is persistent, it will not appear in the [Tree view](/Tree_view "Tree view"). The plane appears in the model view like this:
 
-![](/src/assets/images/FEM_Clipping-Plane-Example.png)
+![](/images/FEM_Clipping-Plane-Example.png)
 
 To move the plane, click on the big white cuboid that is perpendicular to the plane and keep the mouse button pressed while the mouse is moved.
 

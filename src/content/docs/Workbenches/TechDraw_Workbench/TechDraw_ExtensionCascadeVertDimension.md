@@ -21,18 +21,18 @@ title: TechDraw ExtensionCascadeVertDimension
 
 The **TechDraw ExtensionCascadeVertDimension** tool evenly spaces vertical dimensions.
 
-![](/src/assets/images/TechDraw_ExtensionCascadeVertDimensionExample.png)
+![](/images/TechDraw_ExtensionCascadeVertDimensionExample.png)
 
 On the right the evenly spaced vertical dimensions
 
 ## Usage
 
-1. Optionally specify the cascade spacing with the ![](/src/assets/images/TechDraw_ExtensionSelectLineAttributes.svg) [TechDraw ExtensionSelectLineAttributes](/TechDraw_ExtensionSelectLineAttributes "TechDraw ExtensionSelectLineAttributes") tool.
+1. Optionally specify the cascade spacing with the ![](/images/TechDraw_ExtensionSelectLineAttributes.svg) [TechDraw ExtensionSelectLineAttributes](/TechDraw_ExtensionSelectLineAttributes "TechDraw ExtensionSelectLineAttributes") tool.
 2. Select two or more vertical dimensions.
 3. The first dimension defines the position. This dimension will not be moved, the other dimensions will be positioned relative to this dimension.
 4. There are several ways to invoke the tool:
-   - Press the ![](/src/assets/images/TechDraw_ExtensionCascadeVertDimension.svg) [Cascade Vertical Dimensions](/TechDraw_ExtensionCascadeVertDimension "TechDraw ExtensionCascadeVertDimension") button.
-   - Select the **TechDraw → Extensions: Attributes/Modifications → ![](/src/assets/images/TechDraw_ExtensionCascadeVertDimension.svg) Cascade Vertical Dimensions** option from the menu.
+   - Press the ![](/images/TechDraw_ExtensionCascadeVertDimension.svg) [Cascade Vertical Dimensions](/TechDraw_ExtensionCascadeVertDimension "TechDraw ExtensionCascadeVertDimension") button.
+   - Select the **TechDraw → Extensions: Attributes/Modifications → ![](/images/TechDraw_ExtensionCascadeVertDimension.svg) Cascade Vertical Dimensions** option from the menu.
 5. The dimensions are evenly spaced and their dimension texts are centered.
 
 ## Notes

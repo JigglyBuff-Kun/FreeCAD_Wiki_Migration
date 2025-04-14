@@ -24,13 +24,13 @@ oder der Projektionsmethode 3 (auch europäische Darstellung oder [Third Angle P
 
 [eingeführt in 1.0](/Release_notes_1.0/de "Release notes 1.0/de"): Das Werkzeug [TechDraw Ansicht](/TechDraw_View/de "TechDraw View/de") kann auch eine Ansichtengruppe erstellen. Es wird empfohlen, jenes Werkzeug statt dieses zu verwenden.
 
-![](/src/assets/images/TechDraw_ProjGroup_example.png)
+![](/images/TechDraw_ProjGroup_example.png)
 
 Drei orthogonale Ansichten und eine isometrische Ansicht eines Festkörperobjekts
 
 ## Anwendung
 
-Siehe [TechDraw Ansicht](/TechDraw_View/de#Anwendung_der_Elemente_einer_Ansichtengruppe_und_der_Ansichtengruppe "TechDraw View/de"), aber zum Aufrufen des Befehles, den Menüeintrag **TechDraw → TechDraw Ansichten → ![](/src/assets/images/TechDraw_ProjectionGroup.svg) Ansichtengruppe einfügen** auswählen.
+Siehe [TechDraw Ansicht](/TechDraw_View/de#Anwendung_der_Elemente_einer_Ansichtengruppe_und_der_Ansichtengruppe "TechDraw View/de"), aber zum Aufrufen des Befehles, den Menüeintrag **TechDraw → TechDraw Ansichten → ![](/images/TechDraw_ProjectionGroup.svg) Ansichtengruppe einfügen** auswählen.
 
 ## Eigenschaften
 

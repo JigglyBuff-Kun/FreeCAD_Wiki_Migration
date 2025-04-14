@@ -19,13 +19,13 @@ title: Draft Label
 
 ## Description
 
-The ![](/src/assets/images/Draft_Label.svg) **Draft Label** command creates a multi-line text with a 2-segment leader line and an arrow.
+The ![](/images/Draft_Label.svg) **Draft Label** command creates a multi-line text with a 2-segment leader line and an arrow.
 
 If an object or a sub-element (face, edge or vertex) is selected when starting the command, the text can be made to display one or two attributes of the selected element, including position, length, area, volume and material. The text will then be linked to the attributes and will update if their values change.
 
 To insert a text element without an arrow use the [Draft Text](/Draft_Text "Draft Text") command instead.
 
-![](/src/assets/images/Draft_Label_example.jpg)
+![](/images/Draft_Label_example.jpg)
 
 Various labels with different orientations, arrows and information
 
@@ -35,20 +35,20 @@ See also: [Draft Tray](/Draft_Tray "Draft Tray"), [Draft Snap](/Draft_Snap "Draf
 
 1. Optionally select an object or a sub-element (vertex, edge or face) that you want to display attributes of.
 2. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/Draft_Label.svg) [Label](/Draft_Label "Draft Label") button.
-   - Select the **Annotation → ![](/src/assets/images/Draft_Label.svg) Label** option from the menu.
+   - Press the ![](/images/Draft_Label.svg) [Label](/Draft_Label "Draft Label") button.
+   - Select the **Annotation → ![](/images/Draft_Label.svg) Label** option from the menu.
    - Use the keyboard shortcut: D then L.
 3. The **Label** task panel opens. See [Options](#Options) for more information.
 4. If you have selected an element: select an option from the **Label type** dropdown list. See [Label types](#Label_types) below.
-5. Pick the first point in the [3D view](/3D_view "3D view"), or type coordinates and press the ![](/src/assets/images/Draft_AddPoint.svg) Enter point button. This point indicates the target (arrow head). This can be anywhere, it does not have to be on an element.
-6. Pick the second point in the [3D view](/3D_view "3D view"), or type coordinates and press the ![](/src/assets/images/Draft_AddPoint.svg) Enter point button. This point indicates the start of the horizontal or vertical segment of the leader.
-7. Pick the third point in the [3D view](/3D_view "3D view"), or type coordinates and press the ![](/src/assets/images/Draft_AddPoint.svg) Enter point button. This point indicates the base point of the text.
+5. Pick the first point in the [3D view](/3D_view "3D view"), or type coordinates and press the ![](/images/Draft_AddPoint.svg) Enter point button. This point indicates the target (arrow head). This can be anywhere, it does not have to be on an element.
+6. Pick the second point in the [3D view](/3D_view "3D view"), or type coordinates and press the ![](/images/Draft_AddPoint.svg) Enter point button. This point indicates the start of the horizontal or vertical segment of the leader.
+7. Pick the third point in the [3D view](/3D_view "3D view"), or type coordinates and press the ![](/images/Draft_AddPoint.svg) Enter point button. This point indicates the base point of the text.
 
 ## Options
 
 The single character keyboard shortcuts available in the task panel can be changed. See [Draft Preferences](/Draft_Preferences "Draft Preferences"). The shortcuts mentioned here are the default shortcuts.
 
-- To manually enter coordinates enter the X, Y and Z component, and press Enter after each. Or you can press the ![](/src/assets/images/Draft_AddPoint.svg) Enter point button when you have the desired values. It is advisable to move the pointer out of the [3D view](/3D_view "3D view") before entering coordinates.
+- To manually enter coordinates enter the X, Y and Z component, and press Enter after each. Or you can press the ![](/images/Draft_AddPoint.svg) Enter point button when you have the desired values. It is advisable to move the pointer out of the [3D view](/3D_view "3D view") before entering coordinates.
 - Press R or click the **Relative** checkbox to toggle relative mode. If relative mode is on, coordinates are relative to the last point, if available, else they are relative to the coordinate system origin.
 - Press G or click the **Global** checkbox to toggle global mode. If global mode is on, coordinates are relative to the global coordinate system, else they are relative to the [working plane](/Draft_SelectPlane "Draft SelectPlane") coordinate system.
 - Press S to switch [Draft snapping](/Draft_Snap "Draft Snap") on or off.

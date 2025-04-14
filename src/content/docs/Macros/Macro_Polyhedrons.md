@@ -32,14 +32,14 @@ This macro creates parametric polyhedrons: tetrahedron, hexahedron, octahedron, 
 
 ## Notes
 
-- If you're also interested in pyramids, then you can use ![](/src/assets/images/Pyramidicon.svg) [Pyramid macro](/Macro_Pyramid "Macro Pyramid").
+- If you're also interested in pyramids, then you can use ![](/images/Pyramidicon.svg) [Pyramid macro](/Macro_Pyramid "Macro Pyramid").
 - You can also make use of the the external workbench [Pyramids_and_Polyhedrons](https://github.com/eddyverl/FreeCad-Pyramids-and-Polyhedrons) that contains the same functions.
 
-![](/src/assets/images/Polyhedrons.png)
+![](/images/Polyhedrons.png)
 
 ## Installation
 
-- Use the ![](/src/assets/images/Std_AddonMgr.svg) [Addon Manager](/Std_AddonMgr "Std AddonMgr") to install the macro via **Tools → Addon Manager → Macros tab**
+- Use the ![](/images/Std_AddonMgr.svg) [Addon Manager](/Std_AddonMgr "Std AddonMgr") to install the macro via **Tools → Addon Manager → Macros tab**
 - Choose `polyhedrons.py`
 - Press Install
 
@@ -60,7 +60,7 @@ The forum discussion [Macros for pyramids and polyhedrons](https://forum.freecad
 
 ## Script
 
-ToolBar Icon ![](/src/assets/images/Dodecahedron.svg)
+ToolBar Icon ![](/images/Dodecahedron.svg)
 
 **polyhedrons.py**
 

@@ -21,7 +21,7 @@ title: EM FHNode
 
 The FHNode tool inserts a FastHenry node object.
 
-![](/src/assets/images/EM_FHNode_Example.png)
+![](/images/EM_FHNode_Example.png)
 
 FastHenry FHNode
 
@@ -29,17 +29,17 @@ FastHenry FHNode
 
 The FHNode object can be based on the position of a [Draft Point](/Draft_Point "Draft Point") object, or you can select the 3D location of the FHNode.
 
-1. Press the ![](/src/assets/images/EM_FHNode.svg) [EM FHNode](/EM_FHNode "EM FHNode") button, or press E then N keys.
-2. Click a point on the 3D view, or type coordinates and press the ![](/src/assets/images/Draft_AddPoint.svg) add point button.
+1. Press the ![](/images/EM_FHNode.svg) [EM FHNode](/EM_FHNode "EM FHNode") button, or press E then N keys.
+2. Click a point on the 3D view, or type coordinates and press the ![](/images/Draft_AddPoint.svg) add point button.
 
 Alternatively, you can also:
 
 1. Select one or multiple [Draft Point](/Draft_Point "Draft Point") object(s)
-2. Press the ![](/src/assets/images/EM_FHNode.svg) [EM FHNode](/EM_FHNode "EM FHNode") button, or press E then N keys. As many FHNodes will be created as the Draft Point objects, at the same coordinates of the Draft Points.
+2. Press the ![](/images/EM_FHNode.svg) [EM FHNode](/EM_FHNode "EM FHNode") button, or press E then N keys. As many FHNodes will be created as the Draft Point objects, at the same coordinates of the Draft Points.
 
 ## Options
 
-- To enter coordinates manually, simply enter the numbers, then press Enter between each X, Y and Z component. You can press the ![](/src/assets/images/Draft_AddPoint.svg) add point button when you have the desired values to insert the point.
+- To enter coordinates manually, simply enter the numbers, then press Enter between each X, Y and Z component. You can press the ![](/images/Draft_AddPoint.svg) add point button when you have the desired values to insert the point.
 - Click the checkbox to toggle _continue_ mode. If continue mode is on, the FHNode tool will restart after you place a node, allowing you to place another one without pressing the tool button again.
 - Press Esc or the Close button to abort the current command.
 

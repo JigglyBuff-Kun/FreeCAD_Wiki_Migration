@@ -4,7 +4,7 @@ title: Sketcher Helferrandbedingung
 
 ## Übersicht
 
-![](/src/assets/images/Sketcher_helper_constraint_example1.png)
+![](/images/Sketcher_helper_constraint_example1.png)
 
 Beispiel einer Helferrandbedingung (Randbedingung5 - Punkt auf Kreis) für eine Randbedingung Tangential festlegen (Randbedingung6; im Tangente im Punkt Modus). In diesem Fall wird nur eine Helferrandbedingung verwendet, da der Tangentenpunkt der Endpunkt des Ellipsenhauptdurchmessers ist, der von Natur aus auf der Ellipse liegt.
 

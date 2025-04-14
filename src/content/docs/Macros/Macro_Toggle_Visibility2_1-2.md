@@ -51,7 +51,7 @@ If all objects are hidden and there is no selection in ComboView then all object
 
 ## Script 1
 
-ToolBar Icon ![](/src/assets/images/Macro_SelectVisible2.png)
+ToolBar Icon ![](/images/Macro_SelectVisible2.png)
 
 **Macro_Toggle_Visibility2_1-2.FCMacro**
 
@@ -92,7 +92,7 @@ except Exception:
 
 ## Script 2
 
-ToolBar ![](/src/assets/images/Macro_VisibleAlls2.png)
+ToolBar ![](/images/Macro_VisibleAlls2.png)
 
 Second macro [Macro Toggle Visibility2 2-2](/Macro_Toggle_Visibility2_2-2 "Macro Toggle Visibility2 2-2")
 

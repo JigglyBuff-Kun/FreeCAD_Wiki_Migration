@@ -24,7 +24,7 @@ Creates new mesh object by boolean operation from shapes.
 ## Usage
 
 1. Select shapes in [Tree view](/Tree_view "Tree view").
-2. Click on ![](/src/assets/images/OpenSCAD_MeshBoolean.svg) or choose OpenSCAD → ![](/src/assets/images/OpenSCAD_MeshBoolean.svg) MeshBoolean ... from the top menu.
+2. Click on ![](/images/OpenSCAD_MeshBoolean.svg) or choose OpenSCAD → ![](/images/OpenSCAD_MeshBoolean.svg) MeshBoolean ... from the top menu.
 3. Select bool operation to be performed on the shapes.
 4. Select Perform
 

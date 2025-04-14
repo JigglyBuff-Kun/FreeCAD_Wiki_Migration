@@ -10,25 +10,25 @@ If you know already about B-splines and their application, you can directly cont
 
 Let's assume you want to design a part that should be produced with a 3D printer. The part must have an edge this way:
 
-![](/src/assets/images/B-splines_Motivation-start.png)
+![](/images/B-splines_Motivation-start.png)
 
 You have to print the part in direction of the sketch's bottom to the top. Outer support structures might not be an option. Therefore you need to add a support directly to your part. What options do you have?
 
 - Option 1: you could add a line from point (20, 0) to point (80, 40):
 
-![](/src/assets/images/B-splines_Motivation-line.png)
+![](/images/B-splines_Motivation-line.png)
 
 However this solution needs a lot of volume, thus weight and material.
 
 - Option 2: you can connect the two points with an arc of a circle. To save volume, the arc should end tangentially in point (80,40). Then your solution looks like this:
 
-![](/src/assets/images/B-splines_Motivation-circle.png)
+![](/images/B-splines_Motivation-circle.png)
 
 OK. But at the bottom you don't need immediate support.
 
 - Option 3: you could save some more volume if the connection between the 2 points is a curve that begins tangentially at (0, 20) and ends tangentially at (80, 40):
 
-![](/src/assets/images/B-splines_Motivation-bezier.png)
+![](/images/B-splines_Motivation-bezier.png)
 
 So a curve with which you can connect two points tangentially to a reference point can be very useful for constructions. Bézier curves provide this feature.
 
@@ -71,7 +71,7 @@ Animation 3: Cubic Bézier curve.
 
 To answer the question, the solution with the tangential y-direction ending for the example is this one:
 
-![](/src/assets/images/B-splines_Motivation-cubic-bezier.png)
+![](/images/B-splines_Motivation-cubic-bezier.png)
 
 ### Rules
 
@@ -228,8 +228,7 @@ The basis constructs the spline. Looking at the definition of Bézier curves in 
 
 As several Bézier curves are combined to form a spline, we get a set of Bernstein polynomials forming the spline (they are the basis). As we want to overcome the mentioned limitations of Bézier curves, we don't geometrically combine the different Bernstein polynomials of the Bézier curves, but define Bernstein polynomials over the whole geometrical range of the spline. So we **don't combine** the Bézier curves with its Bernstein polynomials, which would be
 
-: Bezier-combination
-=
+# : Bezier-combination
 
     {
 
@@ -323,8 +322,7 @@ i
 {\displaystyle P\_{i}}
 ![{\displaystyle P_{i}}](https://wikimedia.org/api/rest_v1/media/math/render/svg/3ba1396129f7be3c7f828a571b6649e6807d10d3) are the point coordinates of the Bézier curve control points. But we use a **different set of functions** that are defined over the whole spline range:
 
-: B-spline
-=
+# : B-spline
 
     ∑
 
@@ -660,21 +658,21 @@ FreeCAD offers to create uniform or non-uniform B-splines of any degree in 2D vi
 
 ### Creation
 
-To create B-splines, go into a sketch and use the toolbar button ![](/src/assets/images/Sketcher_CreateBSpline.svg) [Create B-spline](/Sketcher_CreateBSpline "Sketcher CreateBSpline"). Then left-click to set a control point, move the mouse left-click to set the next control point and so on. Finally right-click to finish the definition and create the B-spline.
+To create B-splines, go into a sketch and use the toolbar button ![](/images/Sketcher_CreateBSpline.svg) [Create B-spline](/Sketcher_CreateBSpline "Sketcher CreateBSpline"). Then left-click to set a control point, move the mouse left-click to set the next control point and so on. Finally right-click to finish the definition and create the B-spline.
 
 By default uniform cubic splines are created, except there are not enough control points to do this. So when you create a B-spline with only 2 control points, you get of course a spline that is single linear Bézier curve, for 3 control points you get a quadratic Bézier curve, first with 5 control points you get a cubic B-spline consisting of 2 Bézier segments. [introduced in 0.20](/Release_notes_0.20 "Release notes 0.20") You can also use press D while making creating a B-spline to set it's degree (it will still fall to a lower degree if less points are provided).
 
-To create periodic B-splines (B-splines that form a closed curve), use the toolbar button ![](/src/assets/images/Sketcher_CreatePeriodicBSpline.svg) [Periodic B-spline](/Sketcher_CreatePeriodicBSpline "Sketcher CreatePeriodicBSpline"). It is not necessary to set the last control point onto the first one because the B-spline will automatically be closed:
+To create periodic B-splines (B-splines that form a closed curve), use the toolbar button ![](/images/Sketcher_CreatePeriodicBSpline.svg) [Periodic B-spline](/Sketcher_CreatePeriodicBSpline "Sketcher CreatePeriodicBSpline"). It is not necessary to set the last control point onto the first one because the B-spline will automatically be closed:
 
-![](/src/assets/images/Sketcher_Periodic-B-spline-creation.gif)
+![](/images/Sketcher_Periodic-B-spline-creation.gif)
 
-B-splines can also be generated out of existing sketch segments. To do this, select the elements and press the the toolbar button ![](/src/assets/images/Sketcher_BSplineConvertToNURBS.svg) [Convert Geometry to B-spline](/Sketcher_BSplineConvertToNURBS "Sketcher BSplineConvertToNURBS").
+B-splines can also be generated out of existing sketch segments. To do this, select the elements and press the the toolbar button ![](/images/Sketcher_BSplineConvertToNURBS.svg) [Convert Geometry to B-spline](/Sketcher_BSplineConvertToNURBS "Sketcher BSplineConvertToNURBS").
 
 While creating a B-spline, its degree can be specified by pressing the D key. With this, the default to create a cubic B-spline if possible, can be overridden. [introduced in 0.20](/Release_notes_0.20 "Release notes 0.20")
 
 ### Changing the Degree
 
-To change the degree, select the B-spline and use either the toolbar button ![](/src/assets/images/Sketcher_BSplineIncreaseDegree.svg) [Increase B-spline degree](/Sketcher_BSplineIncreaseDegree "Sketcher BSplineIncreaseDegree") or ![](/src/assets/images/Sketcher_BSplineDecreaseDegree.svg) [Decrease B-spline degree](/Sketcher_BSplineDecreaseDegree "Sketcher BSplineDecreaseDegree").
+To change the degree, select the B-spline and use either the toolbar button ![](/images/Sketcher_BSplineIncreaseDegree.svg) [Increase B-spline degree](/Sketcher_BSplineIncreaseDegree "Sketcher BSplineIncreaseDegree") or ![](/images/Sketcher_BSplineDecreaseDegree.svg) [Decrease B-spline degree](/Sketcher_BSplineDecreaseDegree "Sketcher BSplineDecreaseDegree").
 
 **Note:** Decreasing the degree cannot revert a prior increase of the degree, see the Wiki page [Decrease B-spline degree](/Sketcher_BSplineDecreaseDegree "Sketcher BSplineDecreaseDegree") for an explanation.
 
@@ -682,7 +680,7 @@ To change the degree, select the B-spline and use either the toolbar button ![](
 
 The points where two Bézier curves are connected to form the B-spline are called knots. The knot multiplicity determines how the Bézier parts are connected, see the Wiki page [Increase knot multiplicity](/Sketcher_BSplineIncreaseKnotMultiplicity "Sketcher BSplineIncreaseKnotMultiplicity") for details.
 
-To change the knot multiplicity, use the toolbar buttons ![](/src/assets/images/Sketcher_BSplineIncreaseKnotMultiplicity.svg) [B-spline increase knot multiplicity](/Sketcher_BSplineIncreaseKnotMultiplicity "Sketcher BSplineIncreaseKnotMultiplicity") or ![](/src/assets/images/Sketcher_BSplineDecreaseKnotMultiplicity.svg) [B-spline decrease knot multiplicity](/Sketcher_BSplineDecreaseKnotMultiplicity "Sketcher BSplineDecreaseKnotMultiplicity").
+To change the knot multiplicity, use the toolbar buttons ![](/images/Sketcher_BSplineIncreaseKnotMultiplicity.svg) [B-spline increase knot multiplicity](/Sketcher_BSplineIncreaseKnotMultiplicity "Sketcher BSplineIncreaseKnotMultiplicity") or ![](/images/Sketcher_BSplineDecreaseKnotMultiplicity.svg) [B-spline decrease knot multiplicity](/Sketcher_BSplineDecreaseKnotMultiplicity "Sketcher BSplineDecreaseKnotMultiplicity").
 
 **Note:** Creating two B-Splines that are connected to each other will not unite to a single new B-spline. So their connection point is not a knot. The only way to get a new knot in an existing B-spline is to decrease the degree. However, you may get many new knots. Thus the better choice is to redraw the B-spline with more control points.
 
@@ -694,7 +692,7 @@ To create a rational B-spline the weights have to be made independent. To achiev
 
 If no radius constraint is set, you can also change the radius by dragging:
 
-![](/src/assets/images/Sketcher_Changing-control-point-weigth-dragging.gif)
+![](/images/Sketcher_Changing-control-point-weigth-dragging.gif)
 
 In the dragging example you see that a high weight attracts the curve to the control point while a very low weight changes the curve so as if the control point does almost not exist.
 
@@ -704,9 +702,9 @@ When you look at the [creation function](#Rational_B-splines) for non-uniform ra
 
 ### Editing Knots
 
-New knots can be added using the ![](/src/assets/images/Sketcher_BSplineInsertKnot.svg) [B-spline insert knot](/Sketcher_BSplineInsertKnot "Sketcher BSplineInsertKnot") button. [introduced in 0.20](/Release_notes_0.20 "Release notes 0.20")
+New knots can be added using the ![](/images/Sketcher_BSplineInsertKnot.svg) [B-spline insert knot](/Sketcher_BSplineInsertKnot "Sketcher BSplineInsertKnot") button. [introduced in 0.20](/Release_notes_0.20 "Release notes 0.20")
 
-A knot is deleted by decreasing it's degree to 0 (i.e applying ![](/src/assets/images/Sketcher_BSplineDecreaseKnotMultiplicity.svg) [B-spline decrease knot multiplicity](/Sketcher_BSplineDecreaseKnotMultiplicity "Sketcher BSplineDecreaseKnotMultiplicity") when it's degree is 1).
+A knot is deleted by decreasing it's degree to 0 (i.e applying ![](/images/Sketcher_BSplineDecreaseKnotMultiplicity.svg) [B-spline decrease knot multiplicity](/Sketcher_BSplineDecreaseKnotMultiplicity "Sketcher BSplineDecreaseKnotMultiplicity") when it's degree is 1).
 
 Changing the parameter value of a knot is not yet supported.
 
@@ -729,7 +727,7 @@ At the moment (FreeCAD 0.20) there are some limitations when using splines you s
 
 1. You cannot set tangential constraints.  
    In this example  
-    ![](/src/assets/images/Sketcher_spline-limit-tangential.png)  
+    ![](/images/Sketcher_spline-limit-tangential.png)  
     you want to assure that the spline touches the blue curve 2 times tangentially. This would be useful because the blue line could for example be the spatial border for your design.
 2. You cannot create an offset curve for a B-spline using the tool [Draft Offset](/Draft_Offset "Draft Offset").
 
@@ -745,11 +743,11 @@ According to the properties of B-splines, there are 3 main use cases:
 
 Take for example the case that you design a housing of a kitchen mixer. Its desired shape should look like this one:
 
-![](/src/assets/images/Sketcher_spline-exmple-mixer-shell.png)
+![](/images/Sketcher_spline-exmple-mixer-shell.png)
 
 To define the outer form it is advantageous to use a B-spline because when you change a control point to change the curvature at the bottom, the curvature at the side and top will not be changed:
 
-![](/src/assets/images/Sketcher_spline-exmple-mixer-sketch.gif)
+![](/images/Sketcher_spline-exmple-mixer-sketch.gif)
 
 ### Continuity at Geometric Transitions
 
@@ -759,11 +757,11 @@ The development of the Bézier curves was initially triggered by the French car 
 
 Let's take for example this task in the design of cars: The car fender should "look nice". Here is a basic sketch of our task:
 
-![](/src/assets/images/Spline-Fender-sketch1.svg)
+![](/images/Spline-Fender-sketch1.svg)
 
 "Looking nice" means that the (potential) customer looks at the fender and does not see unexpected light reflections and also no sudden changes in the reflection from the automotive paint at all. So what do you need to avoid changes in the reflections? Looking closely to the fender:
 
-![](/src/assets/images/Spline-Fender-sketch2.svg)
+![](/images/Spline-Fender-sketch2.svg)
 
 At the spatial area above the edge the intensity of reflected light is low (denoted by the red ellipse) because no light is directly reflected in the direction from the edge to the eye.
 
@@ -771,7 +769,7 @@ you see when there is an edge, there is a spatial area where the reflected light
 
 But is this really sufficient? At the point of geometric transition we have now at both sides the same slope, but the slope might change differently at both sides. Then we have this situation:
 
-![](/src/assets/images/Spline-Fender-sketch3.svg)
+![](/images/Spline-Fender-sketch3.svg)
 
 So we have also spatial areas in which the intensity of reflected light is different. To avoid this, we need at the geometrical point of transition also a continuity of the second order derivative and thus a cubic B-spline.
 

@@ -21,7 +21,7 @@ title: Std SetMaterial
 
 The **Std SetMaterial** command sets the material of selected objects.
 
-![](/src/assets/images/Std_SetMaterial_Taskpanel.png)
+![](/images/Std_SetMaterial_Taskpanel.png)
 
 The Material task panel
 
@@ -29,8 +29,8 @@ The Material task panel
 
 1. Select one or more objects.
 2. There are several ways to invoke the command:
-   - Select the **View → ![](/src/assets/images/Std_SetMaterial.svg) Material...** option from the menu.
-   - Select the **![](/src/assets/images/Std_SetMaterial.svg) Material...** option from the [Tree view](/Tree_view "Tree view") context menu or [3D view](/3D_view "3D view") context menu.
+   - Select the **View → ![](/images/Std_SetMaterial.svg) Material...** option from the menu.
+   - Select the **![](/images/Std_SetMaterial.svg) Material...** option from the [Tree view](/Tree_view "Tree view") context menu or [3D view](/3D_view "3D view") context menu.
 3. The **Material** task panel opens.
 4. Select a material from the list.
    1. Optionally press the Launch editor button to launch the [Material editor](/Material_Edit "Material Edit").

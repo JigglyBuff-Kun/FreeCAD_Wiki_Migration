@@ -6,7 +6,7 @@ title: Start Preferences
 TheStart Workbenchis no longer included after version 0.21.It has been replaced by the Start page that can be accessed via theHelp menu.
 :::
 
-The preferences for the ![](/src/assets/images/Workbench_Start.svg) [Start Workbench](/Start_Workbench "Start Workbench") can be found in the [Preferences Editor](/Preferences_Editor "Preferences Editor"). In the menu select **Edit → Preferences...** and then **Start**. This section is only available after visiting the workbench or after loading the workbench via the _Available Workbenches_ tab in the **Workbenches** section.
+The preferences for the ![](/images/Workbench_Start.svg) [Start Workbench](/Start_Workbench "Start Workbench") can be found in the [Preferences Editor](/Preferences_Editor "Preferences Editor"). In the menu select **Edit → Preferences...** and then **Start**. This section is only available after visiting the workbench or after loading the workbench via the _Available Workbenches_ tab in the **Workbenches** section.
 
 There is only one tab: _Start page options_ in the **Start** section. On this tab you can specify the following:
 
@@ -32,7 +32,7 @@ There is only one tab: _Start page options_ in the **Start** section. On this ta
 | **Close start page after loading**   | If this preference and the **Close and switch on opening file** preference are both checked, and the application is started by opening a file, the Start page will be closed after FreeCAD finishes loading.                                                                                    |
 | **Close and switch on opening file** | See previous preference.                                                                                                                                                                                                                                                                        |
 
-![](/src/assets/images/Preferences_Start_Tab_Start_page_options.png)
+![](/images/Preferences_Start_Tab_Start_page_options.png)
 
 The Start page options tab
 

@@ -8,7 +8,7 @@ The [3D view](/3D_view "3D view") of FreeCAD is an instance of a Coin3D [scenegr
 
 Certain properties of the view, like background color, [mouse navigation](/Mouse_navigation "Mouse navigation") style, and zooming steps, can be configured in the [preferences editor](/Preferences_Editor "Preferences Editor").
 
-![](/src/assets/images/FreeCAD_3D_view.png)
+![](/images/FreeCAD_3D_view.png)
 
 The [3D view](/3D_view "3D view") is a component of the FreeCAD [interface](/Interface "Interface"). By default it shows a small widget with coordinate axes, and the navigation cube also with coordinate axes; the grid can be displayed and configured by loading the [Draft Workbench](/Draft_Workbench "Draft Workbench").
 

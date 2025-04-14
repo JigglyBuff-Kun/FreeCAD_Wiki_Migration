@@ -2,7 +2,7 @@
 title: Power users hub
 ---
 
-![](/src/assets/images/Power_user_hub.png)
+![](/images/Power_user_hub.png)
 
 ---
 

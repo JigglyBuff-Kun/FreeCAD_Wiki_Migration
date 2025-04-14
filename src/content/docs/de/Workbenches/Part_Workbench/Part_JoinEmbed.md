@@ -19,16 +19,16 @@ title: Part Einbetten
 
 ## Beschreibung
 
-Das Werkzeug ![](/src/assets/images/Part_JoinEmbed.svg) **Part Einbetten** Bettet einen Hohlkörper (z.B. ein Rohr) in einen anderen Hohlkörper ein.
+Das Werkzeug ![](/images/Part_JoinEmbed.svg) **Part Einbetten** Bettet einen Hohlkörper (z.B. ein Rohr) in einen anderen Hohlkörper ein.
 
-![](/src/assets/images/JoinFeatures_Embed.png)
+![](/images/JoinFeatures_Embed.png)
 
 ## Anwendung
 
 1. Zuerst das Basisobjekt auswählen, dann das Objekt zum Einbetten. Die Reihenfolge der Auswahl ist wichtig. Es reicht aus, nur eine Teilform jedes Objekts (z.B. Flächen) auszuwählen.
 2. Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
-   - Die Schaltflächen ![](/src/assets/images/Part_JoinEmbed.svg) Objekt einbetten drücken.
-   - Den Menüeintrag **Part → Verbinden → ![](/src/assets/images/Part_JoinEmbed.svg) Objekt einbetten** auswählen.
+   - Die Schaltflächen ![](/images/Part_JoinEmbed.svg) Objekt einbetten drücken.
+   - Den Menüeintrag **Part → Verbinden → ![](/images/Part_JoinEmbed.svg) Objekt einbetten** auswählen.
 3. Ein JoinFeature-Objekt wird erstellt, dessen Modus auf 'Embed' eingestellt ist. Die originalen Objekte werden ausgeblendet und das Ergebnis des Einbettens wird in der [3D-Ansicht](/3D_view/de "3D view/de") angezeigt.
 
 ## Eigenschaften
@@ -43,13 +43,13 @@ Basis
 ## Beispiel
 
 1. Erstelle ein Rohr durch anwenden einer [Dicke](/Part_Thickness/de "Part Thickness/de") auf einen [Zylinder](/Part_Cylinder/de "Part Cylinder/de"):  
-   ![](/src/assets/images/JoinFeatures_Example_step1.png)
+   ![](/images/JoinFeatures_Example_step1.png)
 2. Erstelle ein weiteres Rohr mit kleinerem Durchmesser und [positioniere](/Placement/de "Placement/de") es so, dass es die Wand des ersten Rohres durchstößt:  
-   ![](/src/assets/images/JoinFeatures_Example_step2.png)
+   ![](/images/JoinFeatures_Example_step2.png)
 3. Wähle das erste Rohr, dass das zweite (die Reihenfolge der Auswahl ist wichtig), und klicke die 'Objekt einbetten'-Option aus den Verbinden-Werkzeugen in der Werkzeugleiste.  
-   ![](/src/assets/images/JoinFeatures_Example_step3_Embed.png)
+   ![](/images/JoinFeatures_Example_step3_Embed.png)
 4. Benutze ein Querschnitt-Werkzeug ([Std Schnittebene](/Std_ToggleClipPlane/de "Std ToggleClipPlane/de"), [Arch Schnittebene](/Arch_SectionPlane/de "Arch SectionPlane/de"), [Arch SchneideEbene](/Arch_CutPlane/de "Arch CutPlane/de")), um Schnitte darzustellen. Auf dem folgenden Bild wurde Arch Schnittebene benutzt.  
-   ![](/src/assets/images/JoinFeatures_Example_step4_Embed.png)
+   ![](/images/JoinFeatures_Example_step4_Embed.png)
 
 ## Algorithmus
 
@@ -63,7 +63,7 @@ Die Algorithmen hinter den Verbindungswerkzeugen sind ziemlich einfach und es is
 
 4. Falls Daten**Refine** den Wert `True` hat, ist die entstandene Form [verfeinert](/Part_RefineShape/de "Part RefineShape/de").
 
-![](/src/assets/images/JoinFeatures-Algo-Embed.png)
+![](/images/JoinFeatures-Algo-Embed.png)
 
 ### Hinweise
 

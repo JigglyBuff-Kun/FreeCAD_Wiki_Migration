@@ -23,14 +23,14 @@ This documentation is not finished. Please help and contribute documentation.Gui
 
 ## Description
 
-The ![](/src/assets/images/Assembly_CreateJointFixed.svg) [Assembly CreateJointFixed](/Assembly_CreateJointFixed "Assembly CreateJointFixed") tool creates a joint locking two assembly parts together, preventing any movement or rotation.
+The ![](/images/Assembly_CreateJointFixed.svg) [Assembly CreateJointFixed](/Assembly_CreateJointFixed "Assembly CreateJointFixed") tool creates a joint locking two assembly parts together, preventing any movement or rotation.
 
 ## Usage
 
 1. Optionally select two geometric entities of two different parts. Other selections will be rejected.
 2. There are several ways to invoke the tool:
-   - Press the ![](/src/assets/images/Assembly_CreateJointFixed.svg) [Create Fixed Joint](/Assembly_CreateJointFixed "Assembly CreateJointFixed") button.
-   - Select the **Assembly → ![](/src/assets/images/Assembly_CreateJointFixed.svg) Create Fixed Joint** option from the menu.
+   - Press the ![](/images/Assembly_CreateJointFixed.svg) [Create Fixed Joint](/Assembly_CreateJointFixed "Assembly CreateJointFixed") button.
+   - Select the **Assembly → ![](/images/Assembly_CreateJointFixed.svg) Create Fixed Joint** option from the menu.
    - Use the keyboard shortcut: F.
 3. Pre-selected parts are moved to meet at their selected entities.
 4. The **Create Joint** dialog opens in the [Task panel](/Task_panel "Task panel") listing the pre-selected entities.
@@ -40,17 +40,17 @@ The ![](/src/assets/images/Assembly_CreateJointFixed.svg) [Assembly CreateJointF
      2. The parts are moved to meet at their selected entities.
      3. Optionally enter an _Offset_ value.
      4. Optionally enter a _Rotation_ value.
-     5. Optionally press ![](/src/assets/images/Button_sort.svg) to change the direction of the joint.
+     5. Optionally press ![](/images/Button_sort.svg) to change the direction of the joint.
    - Select **Revolute**.
      1. If the selection list is empty: select two geometric entities.
      2. The parts are moved to meet at their selected entities.
      3. Optionally enter an _Offset_ value.
-     4. Optionally press ![](/src/assets/images/Button_sort.svg) to change the direction of the joint.
+     4. Optionally press ![](/images/Button_sort.svg) to change the direction of the joint.
      5. Optionally check the **Min angle** option and enter a value.
      6. Optionally check the **Max angle** option and enter a value.
    - Select **Cylindrical**.
      1. If the selection list is empty: select two geometric entities.
-     2. Optionally press ![](/src/assets/images/Button_sort.svg) to change the direction of the joint.
+     2. Optionally press ![](/images/Button_sort.svg) to change the direction of the joint.
      3. Optionally check the **Min length** option and enter a value.
      4. Optionally check the **Max length** option and enter a value.
      5. Optionally check the **Min angle** option and enter a value.
@@ -58,7 +58,7 @@ The ![](/src/assets/images/Assembly_CreateJointFixed.svg) [Assembly CreateJointF
    - Select **Slider**.
      1. If the selection list is empty: select two geometric entities.
      2. Optionally enter a _Rotation_ value.
-     3. Optionally press ![](/src/assets/images/Button_sort.svg) to change the direction of the joint.
+     3. Optionally press ![](/images/Button_sort.svg) to change the direction of the joint.
      4. Optionally check the **Min length** option and enter a value.
      5. Optionally check the **Max length** option and enter a value.
    - Select **Ball**.
@@ -66,10 +66,10 @@ The ![](/src/assets/images/Assembly_CreateJointFixed.svg) [Assembly CreateJointF
    - Select **Distance**.
      1. If the selection list is empty: select two geometric entities.
      2. Optionally enter a _Distance_ value.
-     3. Optionally press ![](/src/assets/images/Button_sort.svg) to change the direction of the joint.
+     3. Optionally press ![](/images/Button_sort.svg) to change the direction of the joint.
    - Select **Parallel**.
      1. If the selection list is empty: select two geometric entities.
-     2. Optionally press ![](/src/assets/images/Button_sort.svg) to change the direction of the joint.
+     2. Optionally press ![](/images/Button_sort.svg) to change the direction of the joint.
    - Select **Perpendicular**.
      1. If the selection list is empty: select two geometric entities.
    - Select **Angle**.

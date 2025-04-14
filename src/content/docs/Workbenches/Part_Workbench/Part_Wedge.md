@@ -19,9 +19,9 @@ title: Part Wedge
 
 ## Description
 
-A ![](/src/assets/images/Part_Wedge.svg) **Part Wedge** is a parametric solid that can be created with the ![](/src/assets/images/Part_Primitives.svg) [Part Primitives](/Part_Primitives "Part Primitives") command. It has four to six planar faces. It is defined by virtual front and rear main planes on which a rectangular face (the default), a single straight edge or a single vertex is created. These base shapes define the four quadrilateral or triangular faces that connect them. The resulting solid is only a true wedge if one of the base shapes is a rectangular face and the other a straight edge. In the coordinate system defined by its Data**Placement** property, the virtual front and rear main planes of the wedge are plane-parallel to XZ plane, and the edges of the base shapes are parallel to the X or Z axis. All its coordinates are relative to that coordinate system.
+A ![](/images/Part_Wedge.svg) **Part Wedge** is a parametric solid that can be created with the ![](/images/Part_Primitives.svg) [Part Primitives](/Part_Primitives "Part Primitives") command. It has four to six planar faces. It is defined by virtual front and rear main planes on which a rectangular face (the default), a single straight edge or a single vertex is created. These base shapes define the four quadrilateral or triangular faces that connect them. The resulting solid is only a true wedge if one of the base shapes is a rectangular face and the other a straight edge. In the coordinate system defined by its Data**Placement** property, the virtual front and rear main planes of the wedge are plane-parallel to XZ plane, and the edges of the base shapes are parallel to the X or Z axis. All its coordinates are relative to that coordinate system.
 
-![](/src/assets/images/Part_Wedge_Example.png)
+![](/images/Part_Wedge_Example.png)
 
 ## Usage
 
@@ -29,7 +29,7 @@ See [Part Primitives](/Part_Primitives#Usage "Part Primitives").
 
 ## Example
 
-![](/src/assets/images/Part_Wedge_Scripting_Example.png)
+![](/images/Part_Wedge_Scripting_Example.png)
 
 Part Wedge from the scripting example
 

@@ -19,7 +19,7 @@ title: Sketcher RegelmäßigesVieleckErstellen
 
 ## Beschreibung
 
-Das Werkzeug ![](/src/assets/images/Sketcher_CreateRegularPolygon.svg) Sketcher RegelmäßigesVieleckErstellen erstellt ein regelmäßiges Vieleck (Polygon) creates a regular polygon.
+Das Werkzeug ![](/images/Sketcher_CreateRegularPolygon.svg) Sketcher RegelmäßigesVieleckErstellen erstellt ein regelmäßiges Vieleck (Polygon) creates a regular polygon.
 
 ## Anwendung
 
@@ -29,8 +29,8 @@ Pos-OVP = Positional [On-View-Parameters](/Sketcher_Preferences/de#Allgemein "Sk
 Dim-OVP = Dimensional On-View-Parameters (In-Ansicht-Parameter zur maßlichen Festlegung). [eingeführt in 1.0](/Release_notes_1.0/de "Release notes 1.0/de")
 
 1. Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
-   - Die Schaltfläche ![](/src/assets/images/Sketcher_CreateRegularPolygon.svg) Regelmäßiges Vieleck drücken.
-   - Den Menüeintrag **Sketcher → Sketcher geometries → ![](/src/assets/images/Sketcher_CreateRegularPolygon.svg) Regelmäßiges Vieleck erstellen** auswählen.
+   - Die Schaltfläche ![](/images/Sketcher_CreateRegularPolygon.svg) Regelmäßiges Vieleck drücken.
+   - Den Menüeintrag **Sketcher → Sketcher geometries → ![](/images/Sketcher_CreateRegularPolygon.svg) Regelmäßiges Vieleck erstellen** auswählen.
    - Das Tastaturkürzel G dann P dann R.
 2. Die **Anzahl der Seiten** im Dialog **Regelmäßiges Vieleck erstellen** eingeben.
 3. Der Mauszeiger wandelt sich zu einem Kreuz mit Werkzeugsymbol.

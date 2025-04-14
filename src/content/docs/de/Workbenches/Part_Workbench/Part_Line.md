@@ -19,9 +19,9 @@ title: Part Linie
 
 ## Beschreibung
 
-A ![](/src/assets/images/Part_Line.svg) **Part Linie** ist eine parametrischer Linie, die mit dem Befehl ![](/src/assets/images/Part_Primitives.svg) [Part Grundelemente](/Part_Primitives/de "Part Primitives/de") erstellt werden kann. Die Koordinaten ihrer Start- und Endpunkte beziehen sich auf das in seiner Daten-Eigenschaft**Placement** festgelegte Koordinatensystem.
+A ![](/images/Part_Line.svg) **Part Linie** ist eine parametrischer Linie, die mit dem Befehl ![](/images/Part_Primitives.svg) [Part Grundelemente](/Part_Primitives/de "Part Primitives/de") erstellt werden kann. Die Koordinaten ihrer Start- und Endpunkte beziehen sich auf das in seiner Daten-Eigenschaft**Placement** festgelegte Koordinatensystem.
 
-![](/src/assets/images/Part_Line_Example.png)
+![](/images/Part_Line_Example.png)
 
 ## Anwendung
 

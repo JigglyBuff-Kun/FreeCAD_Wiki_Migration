@@ -19,13 +19,13 @@ title: TechDraw AllesDrucken
 
 ## Beschreibung
 
-Das Werkzeug ![](/src/assets/images/TechDraw_PrintAll.svg) **TechDraw AllesDrucken** sendet alle Zeichnungsblätter eines Dokuments an den Drucker.
+Das Werkzeug ![](/images/TechDraw_PrintAll.svg) **TechDraw AllesDrucken** sendet alle Zeichnungsblätter eines Dokuments an den Drucker.
 
 ## Anwendung
 
 1. Es gibt mehrere Möglichkeiten das Werkzeug aufzurufen:
-   - Die Schaltfläche ![](/src/assets/images/TechDraw_PrintAll.svg) Alle Seiten drucken drücken.
-   - Den Menüeintrag **TechDraw→ Page → ![](/src/assets/images/TechDraw_PrintAll.svg) Alle Seiten drucken** auswählen.
+   - Die Schaltfläche ![](/images/TechDraw_PrintAll.svg) Alle Seiten drucken drücken.
+   - Den Menüeintrag **TechDraw→ Page → ![](/images/TechDraw_PrintAll.svg) Alle Seiten drucken** auswählen.
    - Wenn ein Zeichnungsblatt im [Hauptansichtsbereich](/Main_view_area "Main view area") angezeigt wird: Rechtsklick in das Fenster des Zeichnungsblattes und im Kontextmenü **Alle Seiten drucken** auswählen.
 
 ## Hinweise

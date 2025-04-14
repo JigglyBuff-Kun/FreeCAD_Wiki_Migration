@@ -19,10 +19,10 @@ title: Part XOdeR
 
 ## Beschreibung
 
-Der Befehl ![](/src/assets/images/Part_XOR.svg) **Part XOdeR** entfernt Geometrie, die von einer geraden Anzahl von objekten geteilt wird und hinterlässt leeren Raum zwischen den beteiligten Objekten. Für zwei Objekte stellt dies eine symmetrische Version von [Part Differenz](/Part_Cut/de "Part Cut/de") dar.
+Der Befehl ![](/images/Part_XOR.svg) **Part XOdeR** entfernt Geometrie, die von einer geraden Anzahl von objekten geteilt wird und hinterlässt leeren Raum zwischen den beteiligten Objekten. Für zwei Objekte stellt dies eine symmetrische Version von [Part Differenz](/Part_Cut/de "Part Cut/de") dar.
 
-![](/src/assets/images/Part_XOR-01.png) ![](/src/assets/images/Button_right.svg)
-![](/src/assets/images/Part_XOR-02.png)
+![](/images/Part_XOR-01.png) ![](/images/Button_right.svg)
+![](/images/Part_XOR-02.png)
 
 Drei überlappende Objekte → Resultierendes Objekt
 
@@ -30,8 +30,8 @@ Drei überlappende Objekte → Resultierendes Objekt
 
 1. Zwei oder mehr Objekte auswählen. Es ist auch möglich einen [Part-Verbund](/Part_Compound/de "Part Compound/de") auszuwählen, der zwei oder mehr Objekte enthält.
 2. Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
-   - Den Menüeintrag **Part → Teilen → ![](/src/assets/images/Part_XOR.svg) Boolesches exklusives Oder (XOR)** auswählen.
-   - Die Schaltfläche ![](/src/assets/images/Part_XOR.svg) Boolean XOR drücken.
+   - Den Menüeintrag **Part → Teilen → ![](/images/Part_XOR.svg) Boolesches exklusives Oder (XOR)** auswählen.
+   - Die Schaltfläche ![](/images/Part_XOR.svg) Boolean XOR drücken.
 
 ## Hinweise
 

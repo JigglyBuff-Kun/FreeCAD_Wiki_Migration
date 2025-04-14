@@ -25,7 +25,7 @@ Das Werkzeug Std Group ist nicht durch einen speziellen Arbeitbereich definiert,
 
 Um 3D-Objekte zu einer einzelnen Einheit zu gruppieren und damit eine Baugruppe zu erstellen, sollte stattdessen [Std Teil](/Std_Part/de "Std Part/de") verwendet werden.
 
-![](/src/assets/images/Std_Group_example.png)
+![](/images/Std_Group_example.png)
 
 Verschiedene Elemente innerhalb von Std Gruppen in der Baumansicht.
 
@@ -33,7 +33,7 @@ Verschiedene Elemente innerhalb von Std Gruppen in der Baumansicht.
 
 1. Es gibt mehrere Möglichkeiten eine Gruppe anzulegen:
    - Ein Rechtsklick auf den Namen des Dokuments in der [Baumansicht](/Tree_view/de "Tree view/de") und im Kontextmenü **Gruppe erstellen...** auswählen.
-   - Die Schaltfläche ![](/src/assets/images/Std_Group.svg) Gruppe erstellen drücken.
+   - Die Schaltfläche ![](/images/Std_Group.svg) Gruppe erstellen drücken.
 2. Eine leere Gruppe wird erstellt.
 3. Objekte werden einer Gruppe hinzugefügt, indem sie in der [Baumansicht](/Tree_view/de "Tree view/de") ausgewählt und auf die Gruppe gezogen und abgelegt werden.
 4. Objekte werden aus einer Gruppe entfernt, indem sie aus der Gruppe herausgezogen und auf der Dokumentbezeichnung ganz oben in der [Baumansicht](/Tree_view/de "Tree view/de") abgelegt werden.

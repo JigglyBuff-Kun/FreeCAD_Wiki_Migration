@@ -27,9 +27,9 @@ Falls der Baumansicht [Sync-Auswahl](/Std_TreeSyncSelection/de "Std TreeSyncSele
 
 1. Wähle ein oder mehrere Objekte in einer 3D-Ansicht.
 2. Es gibt mehrere Wege, den Befehl aufzurufen:
-   - Klicke auf den schwarzen Pfeil-nach-unten rechts neben der ![](/src/assets/images/Std_TreeSyncView.svg)-Schaltfläche und wähle die **![](/src/assets/images/Std_TreeSelection.svg) Gehe zu Selektion**-Option aus dem Flyout. Hinweis: Das Schaltflächensymbol ändert sich abhängig von der gewählten Option.
-   - Wähle die **Ansicht → BaumAnsicht-Aktionen → ![](/src/assets/images/Std_TreeSelection.svg) Gehe zu Selektion**-Option aus dem Menü.
-   - Wähle die **![](/src/assets/images/Std_TreeSelection.svg) Gehe zu Selektion**-Option aus dem 3D-Ansicht-Kontext-Menü.
+   - Klicke auf den schwarzen Pfeil-nach-unten rechts neben der ![](/images/Std_TreeSyncView.svg)-Schaltfläche und wähle die **![](/images/Std_TreeSelection.svg) Gehe zu Selektion**-Option aus dem Flyout. Hinweis: Das Schaltflächensymbol ändert sich abhängig von der gewählten Option.
+   - Wähle die **Ansicht → BaumAnsicht-Aktionen → ![](/images/Std_TreeSelection.svg) Gehe zu Selektion**-Option aus dem Menü.
+   - Wähle die **![](/images/Std_TreeSelection.svg) Gehe zu Selektion**-Option aus dem 3D-Ansicht-Kontext-Menü.
    - Benutze den Tastaturkurzbefehl: T, dann G.
 
 Retrieved from "<http://wiki.freecad.org/index.php?title=Std_TreeSelection/de&oldid=1463104>"

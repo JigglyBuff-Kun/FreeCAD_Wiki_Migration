@@ -25,9 +25,9 @@ Insert a way-point from the current robot (tool) position into a trajectory.
 
 1. Select robot and trajectory in the [Tree view](/Tree_view "Tree view")
 2. There are several ways to invoke the command:
-   - Click on ![](/src/assets/images/Robot_InsertWaypoint.svg)
+   - Click on ![](/images/Robot_InsertWaypoint.svg)
    - Use the A keyboard shortcut
-   - Choose Robot → ![](/src/assets/images/Robot_InsertWaypoint.svg) Insert in trajectory from the top menu
+   - Choose Robot → ![](/images/Robot_InsertWaypoint.svg) Insert in trajectory from the top menu
 
 ## Notes
 

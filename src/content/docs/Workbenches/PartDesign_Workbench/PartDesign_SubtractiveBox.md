@@ -21,13 +21,13 @@ title: PartDesign SubtractiveBox
 
 Inserts a subtractive box in the active Body. Its shape is subtracted from the existing solid.
 
-![](/src/assets/images/PartDesign_SubtractiveBox_example.png)
+![](/images/PartDesign_SubtractiveBox_example.png)
 
 _On the left: active body (A) shown in grey and subtractive box (B) shown in transparent red; result on the right._
 
 ## Usage
 
-1. Press the ![](/src/assets/images/PartDesign_SubtractiveBox.svg) **Subtractive Box** button. **Note**: the Subtractive Box is part of an icon menu labelled _Create a subtractive primitive_. After launching FreeCAD, the Subtractive Box is the one displayed in the toolbar. If a different primitive is displayed, click on the down arrow besides the icon and select Subtractive Box in the menu.
+1. Press the ![](/images/PartDesign_SubtractiveBox.svg) **Subtractive Box** button. **Note**: the Subtractive Box is part of an icon menu labelled _Create a subtractive primitive_. After launching FreeCAD, the Subtractive Box is the one displayed in the toolbar. If a different primitive is displayed, click on the down arrow besides the icon and select Subtractive Box in the menu.
 2. Set the Primitive parameters and [Attachment](/Part_EditAttachment "Part EditAttachment").
 3. Click OK.
 4. A Box feature appears under the active Body.

@@ -24,13 +24,13 @@ Der Befehl **Std Rückgängig** nimmt die Aktion des Befehls [Wiederherstellen](
 ## Anwendung
 
 1. Es gibt mehrere Wege, um den Befehl aufzurufen:
-   - Drücke die ![](/src/assets/images/Std_Redo.svg) Wiederherstellen-Schaltfläche.
-   - Wähle die **Bearbeiten → ![](/src/assets/images/Std_Redo.svg) Wiederherstellen**-Option aus dem Menü.
+   - Drücke die ![](/images/Std_Redo.svg) Wiederherstellen-Schaltfläche.
+   - Wähle die **Bearbeiten → ![](/images/Std_Redo.svg) Wiederherstellen**-Option aus dem Menü.
    - Benutze das Tastaturkürzel Strg+Y.
 
 ## Optionen
 
-- Um mehrere Aktionen wiederherzustellen, klicke auf den schwarzen Pfeil-nach-unten rechts neben der ![](/src/assets/images/Std_Redo.svg) Wiederherstellen-Schaltfläche und wähle aus der Liste aus.
+- Um mehrere Aktionen wiederherzustellen, klicke auf den schwarzen Pfeil-nach-unten rechts neben der ![](/images/Std_Redo.svg) Wiederherstellen-Schaltfläche und wähle aus der Liste aus.
 
 ## Einstellungen
 

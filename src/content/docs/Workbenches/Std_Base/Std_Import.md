@@ -26,7 +26,7 @@ The **Std Import** command imports geometry from a different file format into th
 ## Usage
 
 1. There are several ways to invoke the command:
-   - Select the **File → ![](/src/assets/images/Std_Import.svg) Import...** option from the menu.
+   - Select the **File → ![](/images/Std_Import.svg) Import...** option from the menu.
    - Use the keyboard shortcut: Ctrl+I. 1.0 and below
    - Use the keyboard shortcut: Ctrl+Shift+I. [introduced in 1.1](/Release_notes_1.1 "Release notes 1.1")
 2. Optionally select the correct file format in the dialog box.
@@ -57,7 +57,7 @@ By default an Image Plane is placed on the global XY plane. The initial size of 
 
 1. To edit an Image Plane do one of the following:
    - Double-click the Image Plane in the [Tree view](/Tree_view "Tree view").
-   - Right-click the Image Plane in the Tree view and select **![](/src/assets/images/Image-scaling.svg) Change image...** from the context menu.
+   - Right-click the Image Plane in the Tree view and select **![](/images/Image-scaling.svg) Change image...** from the context menu.
 2. If the Image Plane is not plane-parallel to the XY, XZ or YZ plane of the global coordinate system, it is realigned to be plane-parallel to the XY plane.
 3. The **Image plane settings** task panel opens.
 4. Optionally select the **XY-Plane**, **XZ-Plane** or **YZ-Plane** of the global coordinate system.

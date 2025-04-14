@@ -32,7 +32,7 @@ MacroToolbarManager makes it easy to edit custom macro toolbars.
 
 Full documentation can be found on github: [MacroToolbarManager](https://github.com/mwganson/MacroToolbarManager).
 
-![](/src/assets/images/MacroToolbarManager_scr01.png)
+![](/images/MacroToolbarManager_scr01.png)
 
 Macro MacroToolbarManager screenshot‎
 
@@ -69,13 +69,13 @@ webbrowser.open("https://gist.github.com/mwganson/3464e2d54e859ee94ec8d7ce20c756
 <class="rawcodeurl"><a href="<https://gist.github.com/mwganson/3464e2d54e859ee94ec8d7ce20c75660/raw/5bcd7bff7b451709ff300e3ee1269ff379c9b087/MacroToolbarManager.FCMacro>">raw code</a>
 
 ToolBar Icon
-![](/src/assets/images/MacroToolbarManager_icon.svg)
+![](/images/MacroToolbarManager_icon.svg)
 
 ## Script
 
 **Macro MacroToolbarManager.FCMacro**
 
-[![](/src/assets/images/Nuvola_apps_download_manager.png)](https://gist.github.com/mwganson/3464e2d54e859ee94ec8d7ce20c75660)
+[![](/images/Nuvola_apps_download_manager.png)](https://gist.github.com/mwganson/3464e2d54e859ee94ec8d7ce20c75660)
 
 [MacroToolbarManager.FCMacro](https://gist.github.com/mwganson/3464e2d54e859ee94ec8d7ce20c75660)
 

@@ -23,7 +23,7 @@ Der **Std AllesAuswählen** Befehl wählt alle Objekte in der [Baumansicht](/Tre
 
 ## Anwendung
 
-1. Wähle die **Bearbeiten → ![](/src/assets/images/Std_SelectAll.svg) Alles auswählen** Option aus dem Menü.
+1. Wähle die **Bearbeiten → ![](/images/Std_SelectAll.svg) Alles auswählen** Option aus dem Menü.
 
 ## Hinweise
 

@@ -19,15 +19,15 @@ title: Plot Series
 
 ## Description
 
-The standard plot module already provides a tool to edit the plot series style ![](/src/assets/images/Matplotlib_edit_subplot.png). But if you install the ![](/src/assets/images/Workbench_Plot.svg) [Plot Workbench](/Plot_Workbench "Plot Workbench") using the [Add-on manager](/Std_AddonMgr "Std AddonMgr"), a more complete and straigthforward tool will be available.
+The standard plot module already provides a tool to edit the plot series style ![](/images/Matplotlib_edit_subplot.png). But if you install the ![](/images/Workbench_Plot.svg) [Plot Workbench](/Plot_Workbench "Plot Workbench") using the [Add-on manager](/Std_AddonMgr "Std AddonMgr"), a more complete and straigthforward tool will be available.
 
-![](/src/assets/images/Plot_MultiAxes_Example.png)
+![](/images/Plot_MultiAxes_Example.png)
 
 ## Usage
 
 Select the plot tab that you want to edit, and run this tool. Then select the series to be edited and proceed to set the new options. You can even delete the selected series
 
-![Remove the selected series](/src/assets/images/Plot_Remove_Series.png)
+![Remove the selected series](/images/Plot_Remove_Series.png)
 
 Selected series deletion button
 

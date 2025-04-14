@@ -19,15 +19,15 @@ title: Sketcher CreateEllipseBy3Points
 
 ## Description
 
-The ![](/src/assets/images/Sketcher_CreateEllipseBy3Points.svg) [Sketcher CreateEllipseBy3Points](/Sketcher_CreateEllipseBy3Points "Sketcher CreateEllipseBy3Points") tool creates an ellipse by the endpoints of one of its axes and a point along the ellipse. [introduced in 1.0](/Release_notes_1.0 "Release notes 1.0"): This is the same tool as [Sketcher CreateEllipseByCenter](/Sketcher_CreateEllipseByCenter "Sketcher CreateEllipseByCenter") but with a different initial mode.
+The ![](/images/Sketcher_CreateEllipseBy3Points.svg) [Sketcher CreateEllipseBy3Points](/Sketcher_CreateEllipseBy3Points "Sketcher CreateEllipseBy3Points") tool creates an ellipse by the endpoints of one of its axes and a point along the ellipse. [introduced in 1.0](/Release_notes_1.0 "Release notes 1.0"): This is the same tool as [Sketcher CreateEllipseByCenter](/Sketcher_CreateEllipseByCenter "Sketcher CreateEllipseByCenter") but with a different initial mode.
 
 ## Usage
 
 See also: [Drawing aids](/Sketcher_Workbench#Drawing_aids "Sketcher Workbench").
 
 1. There are several ways to invoke the tool:
-   - Press the ![](/src/assets/images/Sketcher_CreateEllipseBy3Points.svg) [Ellipse by axis endpoints, rim point](/Sketcher_CreateEllipseBy3Points "Sketcher CreateEllipseBy3Points") button.
-   - Select the **Sketcher → Sketcher geometries → ![](/src/assets/images/Sketcher_CreateEllipseBy3Points.svg) Create ellipse by 3 points** option from the menu.
+   - Press the ![](/images/Sketcher_CreateEllipseBy3Points.svg) [Ellipse by axis endpoints, rim point](/Sketcher_CreateEllipseBy3Points "Sketcher CreateEllipseBy3Points") button.
+   - Select the **Sketcher → Sketcher geometries → ![](/images/Sketcher_CreateEllipseBy3Points.svg) Create ellipse by 3 points** option from the menu.
    - Use the keyboard shortcut: G then 3, then E.
 2. For further steps see [Sketcher CreateEllipseByCenter](/Sketcher_CreateEllipseByCenter#Usage "Sketcher CreateEllipseByCenter").
 

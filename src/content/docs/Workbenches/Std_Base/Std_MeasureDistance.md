@@ -28,8 +28,8 @@ The **Std MeasureDistance** command creates a distance object that measures and 
 ## Usage
 
 1. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/Std_MeasureDistance.svg) [Std MeasureDistance](/Std_MeasureDistance "Std MeasureDistance") button.
-   - Select the **Tools → ![](/src/assets/images/Std_MeasureDistance.svg) Measure distance** option from the menu.
+   - Press the ![](/images/Std_MeasureDistance.svg) [Std MeasureDistance](/Std_MeasureDistance "Std MeasureDistance") button.
+   - Select the **Tools → ![](/images/Std_MeasureDistance.svg) Measure distance** option from the menu.
 2. Select the first dimension point anywhere on an object in the [3D view](/3D_view "3D view").
 3. Select the second dimension point anywhere on an object in the 3D view.
 4. The selection order of the points can have an impact on the position of the dimension line.
@@ -39,7 +39,7 @@ The **Std MeasureDistance** command creates a distance object that measures and 
 
 - You cannot use the [Draft](/Draft_Workbench "Draft Workbench") snap tools with this command.
 - To add dimensions to drawings use the dimension tools from the [TechDraw Workbench](/TechDraw_Workbench "TechDraw Workbench").
-- For more comprehensive measuring tools, install the ![](/src/assets/images/Manipulator_workbench_icon.svg) [Manipulator Workbench](/Manipulator_Workbench "Manipulator Workbench") (an [external workbench](/External_workbenches "External workbenches")).
+- For more comprehensive measuring tools, install the ![](/images/Manipulator_workbench_icon.svg) [Manipulator Workbench](/Manipulator_Workbench "Manipulator Workbench") (an [external workbench](/External_workbenches "External workbenches")).
 
 ## Properties
 

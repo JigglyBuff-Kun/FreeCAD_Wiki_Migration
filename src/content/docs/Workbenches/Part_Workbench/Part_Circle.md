@@ -19,11 +19,11 @@ title: Part Circle
 
 ## Description
 
-A ![](/src/assets/images/Part_Circle.svg) **Part Circle** is a parametric shape that can be created with the ![](/src/assets/images/Part_Primitives.svg) [Part Primitives](/Part_Primitives "Part Primitives") command. In the coordinate system defined by its Data**Placement** property, the circle lies on the XY plane with its center at the origin.
+A ![](/images/Part_Circle.svg) **Part Circle** is a parametric shape that can be created with the ![](/images/Part_Primitives.svg) [Part Primitives](/Part_Primitives "Part Primitives") command. In the coordinate system defined by its Data**Placement** property, the circle lies on the XY plane with its center at the origin.
 
 A Part Circle is in fact a closed counterclockwise circular arc, it can be turned into an arc by changing its Data**Angle1** and/or Data**Angle2** properties.
 
-![](/src/assets/images/Part_Circle_Example.png)
+![](/images/Part_Circle_Example.png)
 
 ## Usage
 
@@ -31,7 +31,7 @@ See [Part Primitives](/Part_Primitives#Usage "Part Primitives").
 
 A Part Circle can alternatively be created by selecting three points:
 
-1. In the task panel of the ![](/src/assets/images/Part_Primitives.svg) [Part Primitives](/Part_Primitives "Part Primitives") command select the **![](/src/assets/images/Part_Circle.svg) Circle** option from the dropdown list.
+1. In the task panel of the ![](/images/Part_Primitives.svg) [Part Primitives](/Part_Primitives "Part Primitives") command select the **![](/images/Part_Circle.svg) Circle** option from the dropdown list.
 2. Press the From three points button.
 3. Select three vertices in the [3D view](/3D_view "3D view"). There is no need to hold down the Ctrl key.
 4. A circle is created.
@@ -39,7 +39,7 @@ A Part Circle can alternatively be created by selecting three points:
 
 ## Example
 
-![](/src/assets/images/Part_Circle_Scripting_Example.png)
+![](/images/Part_Circle_Scripting_Example.png)
 
 Part Circle from the scripting example
 

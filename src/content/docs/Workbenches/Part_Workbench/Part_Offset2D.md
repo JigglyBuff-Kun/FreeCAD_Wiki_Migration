@@ -19,16 +19,16 @@ title: Part Offset2D
 
 ## Description
 
-The ![](/src/assets/images/Part_Offset2D.svg) **Part Offset2D** tool constructs a wire, parallel to the original wire, at a certain distance from it. Or enlarges/shrinks a planar face, similarly.
+The ![](/images/Part_Offset2D.svg) **Part Offset2D** tool constructs a wire, parallel to the original wire, at a certain distance from it. Or enlarges/shrinks a planar face, similarly.
 
 The wire/face must be planar. There can be multiple wires in one object, not necessarily coplanar.
 
-![](/src/assets/images/Part_Offset2D_Demo.png)
+![](/images/Part_Offset2D_Demo.png)
 
 ## Usage
 
 1. Select an object to offset.
-2. Press the ![](/src/assets/images/Part_Offset2D.svg) [2D Offset](/Part_Offset2D "Part Offset2D") button.
+2. Press the ![](/images/Part_Offset2D.svg) [2D Offset](/Part_Offset2D "Part Offset2D") button.
 3. Set up the offset in the [Task Panel](/Task_panel "Task panel").
 4. Press OK.
 
@@ -62,15 +62,15 @@ The wire/face must be planar. There can be multiple wires in one object, not nec
 
 - Data**Mode** ("Pipe" or "Skin"): sets how non-closed wires are processed. If "Pipe", the wire is outlined as if it was an extremely thin closed contour. If "Skin", an open wire is created.
 
-: ![](/src/assets/images/Part_Offset2D_Mode.png)
+: ![](/images/Part_Offset2D_Mode.png)
 
 - Data**Join** ("Arc", "Tangent", "Intersection"): sets the behavior around kinks. If "Arc", offset segments are connected with an arc of circle, centered at the vertex. "Tangent" is unsupported on OCC7.0.0. "Intersection": offset segments are extended till they intersect.
 
-: ![](/src/assets/images/Part_Offset2D_Join.png)
+: ![](/images/Part_Offset2D_Join.png)
 
 - Data**Intersection** ("false", "true"): sets if multiple wires are treated collectively or independently. If "false", wires are offset independently, intersections between resulting wires are ignored. If "true", the wires are offset in collective manner.
 
-: ![](/src/assets/images/Part_Offset2D_Intersection.png)
+: ![](/images/Part_Offset2D_Intersection.png)
 
 : Only wires within a compound are coupled. For example, if the structure is like compound(wire1, wire2, compound(wire3, wire4)), wire1 and wire2 will be treated collectively, but independently from wire3 and wire4. Likewise, wire3 and wire4 are treated collectively, but independently of wire1+wire2.
 
@@ -80,7 +80,7 @@ The wire/face must be planar. There can be multiple wires in one object, not nec
 
 - Data**Fill** ("false", "true"): if "true", the space between original wire/face and the offset is filled with a face.
 
-: ![](/src/assets/images/Part_Offset2D_Fill.png)
+: ![](/images/Part_Offset2D_Fill.png)
 
 ## Scripting
 

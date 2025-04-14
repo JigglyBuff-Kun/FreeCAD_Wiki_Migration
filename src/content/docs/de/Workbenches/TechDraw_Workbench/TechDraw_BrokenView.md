@@ -21,11 +21,11 @@ title: TechDraw UnterbrocheneAnsicht
 
 Das Werkzeug **TechDraw UnterbrocheneAnsicht** fügt eine unterbrochene Ansicht ein, die entweder auf einer bestehenden [Bauteilansicht](/TechDraw_View/de "TechDraw View/de") basiert oder auf einem oder Mehreren Objekten wie [Körpern](/PartDesign_Body/de "PartDesign Body/de") oder [Part](/Std_Part "Std Part")-Behältern. Die unterbrochene Ansicht erfordert auch eine oder mehrere [Skizzen](/Sketcher_NewSketch/de "Sketcher NewSketch/de"), die Lage und Größe des zu entfernenden Bereiches festlegen. Die unterbrochenen Ansicht verhält sich ähnlich wie andere Ansichten. Die Projektionsrichtung wird vom vorhandenen Bauteil, der 3D-Kamera-Ausrichtung oder der Normale einer ausgewählten Fläche abgeleitet.
 
-![](/src/assets/images/TechDraw_BrokenView_example3d.png)
+![](/images/TechDraw_BrokenView_example3d.png)
 
 Eine Form, die unterbrochen werden soll und die Skizzen, die die Unterbrechungen festlegen
 
-![](/src/assets/images/TechDraw_BrokenView_example2d.png)
+![](/images/TechDraw_BrokenView_example2d.png)
 
 Das Ergebnis
 
@@ -35,8 +35,8 @@ Das Ergebnis
 2. Das Objekt auswählen, von dem eine unterbrochene Ansicht erstellt werden soll oder eine vorhandene TechDraw-Ansicht auswählen, die das Objekt enthält.
 3. Eine oder mehrere Skizzen in der [Baumansicht](/Tree_view/de "Tree view/de") auswählen, um sie zur Auswahl hinzuzufügen. Jede Skizze sollte nur zwei parallele Linien enthalten. Es können auch andere Objekte, die zwei parallele Kanten enthalten, verwendet werden
 4. Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
-   - Die Schaltfläche ![](/src/assets/images/TechDraw_BrokenView.svg) Unterbrochene Ansicht einfügen drücken.
-   - Den Menüeintrag **TechDraw → TechDraw Ansichten → ![](/src/assets/images/TechDraw_BrokenView.svg) Unterbrochene Ansicht einfügen** auswählen.
+   - Die Schaltfläche ![](/images/TechDraw_BrokenView.svg) Unterbrochene Ansicht einfügen drücken.
+   - Den Menüeintrag **TechDraw → TechDraw Ansichten → ![](/images/TechDraw_BrokenView.svg) Unterbrochene Ansicht einfügen** auswählen.
 
 ## Eigenschaften
 

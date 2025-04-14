@@ -29,9 +29,9 @@ Applies [Coincident constraints](/Sketcher_ConstrainCoincident "Sketcher Constra
 
 1. Select the unconnected elements in the [3D view](/3D_view "3D view") or in the [Task panel](/Task_panel "Task panel") on the left side of the screen
 2. Invoke the command using several methods:
-   - Press the ![](/src/assets/images/Sketcher_ConnectLines.svg) [Connect edges](/Sketcher_ConnectLines "Sketcher ConnectLines") button.
+   - Press the ![](/images/Sketcher_ConnectLines.svg) [Connect edges](/Sketcher_ConnectLines "Sketcher ConnectLines") button.
    - Use the Z then J keyboard shortcut.
-   - Use the **Sketch → Sketcher tools → ![](/src/assets/images/Sketcher_ConnectLines.svg) Connect edges** entry from the top menu.
+   - Use the **Sketch → Sketcher tools → ![](/images/Sketcher_ConnectLines.svg) Connect edges** entry from the top menu.
 
 ## Notes
 

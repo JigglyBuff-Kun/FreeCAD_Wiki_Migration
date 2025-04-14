@@ -23,7 +23,7 @@ Der Befehl **Std AnsichtBildLaden** öffnet ein Bild in einem neuen Reiter im [H
 
 ## Anwendung
 
-1. Den Menüeintrag **Werkzeuge → ![](/src/assets/images/Std_ViewLoadImage.svg) Load image...** auswählen.
+1. Den Menüeintrag **Werkzeuge → ![](/images/Std_ViewLoadImage.svg) Load image...** auswählen.
 2. Wahlweise den korrekten Dateityp im Dialogfenster auswählen.
 3. Eine Datei auswälen.
 4. Die Schaltfläche Open drücken.

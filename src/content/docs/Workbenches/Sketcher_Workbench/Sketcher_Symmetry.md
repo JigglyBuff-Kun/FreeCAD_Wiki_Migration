@@ -19,7 +19,7 @@ title: Sketcher Symmetry
 
 ## Description
 
-The ![](/src/assets/images/Sketcher_Symmetry.svg) [Sketcher Symmetry](/Sketcher_Symmetry "Sketcher Symmetry") creates mirrored copies of selected elements.
+The ![](/images/Sketcher_Symmetry.svg) [Sketcher Symmetry](/Sketcher_Symmetry "Sketcher Symmetry") creates mirrored copies of selected elements.
 
 ## Usage
 
@@ -27,8 +27,8 @@ See also: [Drawing aids](/Sketcher_Workbench#Drawing_aids "Sketcher Workbench").
 
 1. Select one or more edges and/or points.
 2. There are several ways to invoke the tool:
-   - Press the ![](/src/assets/images/Sketcher_Symmetry.svg) [Symmetry](/Sketcher_Symmetry "Sketcher Symmetry") button.
-   - Select the **Sketch → Sketcher tools → ![](/src/assets/images/Sketcher_Symmetry.svg) Symmetry** option from the menu.
+   - Press the ![](/images/Sketcher_Symmetry.svg) [Symmetry](/Sketcher_Symmetry "Sketcher Symmetry") button.
+   - Select the **Sketch → Sketcher tools → ![](/images/Sketcher_Symmetry.svg) Symmetry** option from the menu.
    - The keyboard shortcut: Z then S.
 3. The cursor changes to a cross with the tool icon.
 4. The **Symmetry parameters** section ([introduced in 1.0](/Release_notes_1.0 "Release notes 1.0")) is added at the top of the [Sketcher Dialog](/Sketcher_Dialog "Sketcher Dialog").

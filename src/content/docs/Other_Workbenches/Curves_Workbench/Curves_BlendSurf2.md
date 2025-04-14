@@ -23,7 +23,7 @@ This documentation is not finished. Please help and contribute documentation.Gui
 
 ## Description
 
-The ![](/src/assets/images/Curves_BlendSurf2.svg) **Curves BlendSurf2** tool creates a surface between two edges with some continuity with their support faces.
+The ![](/images/Curves_BlendSurf2.svg) **Curves BlendSurf2** tool creates a surface between two edges with some continuity with their support faces.
 
 ## Usage
 
@@ -31,8 +31,8 @@ The ![](/src/assets/images/Curves_BlendSurf2.svg) **Curves BlendSurf2** tool cre
    - The **first edge** and the related **first face**
    - The **second edge** and the related **second face**
 2. There are several ways to invoke the tool:
-   - Press the ![](/src/assets/images/Curves_BlendSurf2.svg) [BlendSurface](/Curves_BlendSurf2 "Curves BlendSurf2") button.
-   - Select the **Surfaces → ![](/src/assets/images/Curves_BlendSurf2.svg) BlendSurface** option from the menu.
+   - Press the ![](/images/Curves_BlendSurf2.svg) [BlendSurface](/Curves_BlendSurf2 "Curves BlendSurf2") button.
+   - Select the **Surfaces → ![](/images/Curves_BlendSurf2.svg) BlendSurface** option from the menu.
 3. A **Blend_Surface** object is created.
 4. Optionally edit the values in the [Property editor](/Property_editor "Property editor") to choose a different auto scale method and adjust the related properties (see Properties below).
 

@@ -8,7 +8,7 @@ FreeCAD 0.17 was released on 06 April, 2018, get it from [GitHub](https://github
 
 Older FreeCAD release notes can be found in [Feature list](/Feature_list#Release_notes "Feature list").
 
-![](/src/assets/images/Release017_Title.jpg)
+![](/images/Release017_Title.jpg)
 
 _Garden Railway Coach O&K (by FreeCAD-User "Garden Railway Coach O&K", see [Users Showcase](http://forum.freecadweb.org/viewtopic.php?f=24&t=17261))_
 
@@ -18,18 +18,18 @@ It's been 2 years since the previous 0.16 release, but the FreeCAD team didn't s
 
 The **PartDesign workbench** has been completely overhauled. A new Body container now holds a chain of features and lifts the requirement of mapping sketches to planar faces. New tools to create datum (reference) geometry such as points, axes and planes make PartDesign a lot more versatile.
 
-![](/src/assets/images/PartDesign_Body_tree.png)
+![](/images/PartDesign_Body_tree.png)
 
 The new [Addon manager](/Std_AddonMgr "Std AddonMgr") available from the Tools menu (which was previously available as the [addons installer macro](https://github.com/FreeCAD/FreeCAD-addons)) makes installing and updating add-on modules and macros much easier and standardized across Windows, Mac OS X and Linux.
 
-![](/src/assets/images/Addon_manager_v017.png)
+![](/images/Addon_manager_v017.png)
 
 The **Sketcher** now supports B-spline creation with many ways to control curves and display curve information.
 
-![](/src/assets/images/FC017_Sketcher_B-spline_01.png)
+![](/images/FC017_Sketcher_B-spline_01.png)
 
 The new **TechDraw workbench** aims to replace the Drawing workbench, and already provides more features than the old Drawing workbench.
-![](/src/assets/images/TechDraw_Workbench_Example.png)
+![](/images/TechDraw_Workbench_Example.png)
 
 ## General
 
@@ -38,7 +38,7 @@ The new **TechDraw workbench** aims to replace the Drawing workbench, and alread
 - There's a new Revit navigation style.
 - A new Navigation Indicator at the bottom right of the FreeCAD window allows quick access to the navigation styles.
 
-![](/src/assets/images/FC017_Navigation_Indicator_01.png) ![](/src/assets/images/FC017_Navigation_Indicator_02.png)
+![](/images/FC017_Navigation_Indicator_01.png) ![](/images/FC017_Navigation_Indicator_02.png)
 
 - The [dependency graph](/Std_DependencyGraph "Std DependencyGraph") benefited from graphical enhancements.
 - STEP import leverages the new [Part container](/Std_Part "Std Part") and uses it to organize an imported STEP assembly into sub-assemblies, now more closely following the original document's structure. stpZ (a compressed STEP format) is now supported.
@@ -46,7 +46,7 @@ The new **TechDraw workbench** aims to replace the Drawing workbench, and alread
 
 - The FreeCAD project acknowledges the contributions of its community by adding a Credits tab in the _About FreeCAD_ dialog. New License and Libraries tabs list FreeCAD's license and provide info on used third-party libraries.
 
-![](/src/assets/images/AboutFreeCAD_Credits.png)
+![](/images/AboutFreeCAD_Credits.png)
 
 ## Arch Workbench
 
@@ -58,11 +58,11 @@ The new **TechDraw workbench** aims to replace the Drawing workbench, and alread
 
 - During the [Google Summer of Code](/Google_Summer_of_Code "Google Summer of Code") 2017 edition, to which FreeCAD participated, the [Arch Rebar](/Arch_Rebar "Arch Rebar") tool was greatly extended and gained a friendly User Interface to easily add several standard types of Reinforcement bars to your concrete structures.
 
-![](/src/assets/images/Arch_Rebar_preview.png)
+![](/images/Arch_Rebar_preview.png)
 
 - [Windows](/Arch_Window "Arch Window") gained several enhancements, such as the possibility of defining subcomponents as openable, show opening symbols, appear open, and having louver panels.
 
-![](/src/assets/images/Arch_Door_preview.png)
+![](/images/Arch_Door_preview.png)
 
 - [Arch Axis](/Arch_Axis "Arch Axis") tools have also been rewritten, and allow more complex systems by combining different series of axes together. They can also be customized to show different kinds of situations such as levels.
 
@@ -86,13 +86,13 @@ The new **TechDraw workbench** aims to replace the Drawing workbench, and alread
 
 - [Working Plane proxies](/Draft_SetWorkingPlaneProxy "Draft SetWorkingPlaneProxy"): When working with [Draft working planes](/Draft_SelectPlane "Draft SelectPlane"), you often need to store working plane locations that you use often. This is now possible by placing one of these proxies in your document. It will remember the current working plane location, and can also restore the current view and/or objects visibility.
 
-![](/src/assets/images/Draft_WP_preview.png)
+![](/images/Draft_WP_preview.png)
 
 - [Draft Stretch](/Draft_Stretch "Draft Stretch"): The Draft workbench now has a stretch tool, that allows moving vertices of several Draft objects at once.
 
 - [Draft Label](/Draft_Label "Draft Label"): With this tool, one can place labels in the document, which are composed of a piece of text and a leader line that can be free or stick to a specific object. The text can be made to display a custom piece of text, or automatically display the contents of a property of the target object.
 
-![](/src/assets/images/Draft_Label_Preview.png)
+![](/images/Draft_Label_Preview.png)
 
 ## FEM Workbench
 
@@ -170,8 +170,8 @@ The new **TechDraw workbench** aims to replace the Drawing workbench, and alread
 
 - Some Pictures
 
-![](/src/assets/images/Bridge-all.png)
-![](/src/assets/images/Bridge-detail.png)
+![](/images/Bridge-all.png)
+![](/images/Bridge-detail.png)
 
 ## Part Workbench
 
@@ -196,7 +196,7 @@ The new **TechDraw workbench** aims to replace the Drawing workbench, and alread
 ## PartDesign workbench
 
 The PartDesign workbench received massive changes, the fruit of combined efforts from multiple developers over a period of 5 years.
-![](/src/assets/images/PartDesign017-teaser-motor-core.png)
+![](/images/PartDesign017-teaser-motor-core.png)
 
 - The new [Body](/PartDesign_Body "PartDesign Body") container holds a chain of PartDesign features making up a single contiguous solid. It also contains standard planes and axes to attach objects to. Thanks to the Body container, it is no longer necessary to map sketches to faces when adding features. This requirement was a major limitation of the old PartDesign, that could cause many models to break upon parameter changes. So, it is now recommended to avoid mapping sketches to faces whenever possible.
 
@@ -246,7 +246,7 @@ The Path workbench has been massively overhauled in version 0.17. The overhaul s
 
 - New B-spline creation tool, with many ways to control curves (degree, knot multiplicity, control point weight) and display information (control polygon, curvature comb, knot multiplicity indicator).
 
-![](/src/assets/images/FC017_Sketcher_B-spline_01.png)
+![](/images/FC017_Sketcher_B-spline_01.png)
 
 - New **Carbon Copy** tool to copy geometry from another sketch.
 

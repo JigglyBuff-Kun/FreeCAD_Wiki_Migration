@@ -31,7 +31,7 @@ The **Arch MergeWalls** tool merges [Arch Walls](/Arch_Wall "Arch Wall").
    - Select a single wall with one or more [additions](/Arch_Add "Arch Add") that are also walls.
    - Select two or more walls.
 2. In both cases the walls must have the same Data**Height**, Data**Width** and Data**Align** properties.
-3. Select the **Utils → ![](/src/assets/images/Arch_MergeWalls.svg) Merge Walls** option from the menu.
+3. Select the **Utils → ![](/images/Arch_MergeWalls.svg) Merge Walls** option from the menu.
 
 ## Notes
 

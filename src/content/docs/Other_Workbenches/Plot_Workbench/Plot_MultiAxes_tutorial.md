@@ -23,7 +23,7 @@ title: Plot MultiAxes tutorial
 
 Please complete the [basic tutorial](/Plot_Basic_tutorial "Plot Basic tutorial") before starting with this tutorial. In this tutorial we will learn how to create and edit a multiaxes plot. You can learn more about the [Plot Workbench here](/Plot_Workbench "Plot Workbench").
 
-![](/src/assets/images/Plot_MultiAxes_Example.png)
+![](/images/Plot_MultiAxes_Example.png)
 
 Multiaxes plot example
 
@@ -88,7 +88,7 @@ As you can see your plot has gone crazy, with axes ticks overlapping, curves of 
 
 The [Plot Workbench](/Plot_Workbench "Plot Workbench") provides a tool to modify the properties of axes.
 
-![](/src/assets/images/Plot_Axes.svg)
+![](/images/Plot_Axes.svg)
 
 Axes configuration tool icon
 
@@ -129,7 +129,7 @@ Change the font size of all labels to 20, and the font size of the title to 24. 
 
 The [Plot Workbench](/Plot_Workbench "Plot Workbench") provides a tool to change the position of several plot elements, such as as titles, labels and legends.
 
-![](/src/assets/images/Plot_Positions.svg)
+![](/images/Plot_Positions.svg)
 
 Position editor icon
 

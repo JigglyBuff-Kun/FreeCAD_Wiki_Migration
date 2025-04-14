@@ -19,17 +19,17 @@ title: Fasteners BOM
 
 ## Description
 
-The ![](/src/assets/images/Fasteners_BOM.svg) **Fasteners BOM** command creates a spreadsheet with a bill of materials (BOM) for the fasteners in the document.
+The ![](/images/Fasteners_BOM.svg) **Fasteners BOM** command creates a spreadsheet with a bill of materials (BOM) for the fasteners in the document.
 
-![](/src/assets/images/Fasteners_BOM_Example.png)
+![](/images/Fasteners_BOM_Example.png)
 
 A model with a Fasteners BOM spreadsheet
 
 ## Usage
 
 1. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/Fasteners_BOM.svg) [Generate BOM](/Fasteners_BOM "Fasteners BOM") button.
-   - Select the **Fasteners → ![](/src/assets/images/Fasteners_BOM.svg) Generate BOM** option from the menu.
+   - Press the ![](/images/Fasteners_BOM.svg) [Generate BOM](/Fasteners_BOM "Fasteners BOM") button.
+   - Select the **Fasteners → ![](/images/Fasteners_BOM.svg) Generate BOM** option from the menu.
 2. A Fasteners BOM spreadsheet is created.
 
 ## Notes

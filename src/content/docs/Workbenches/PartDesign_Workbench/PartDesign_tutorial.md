@@ -26,7 +26,7 @@ title: PartDesign tutorial
 This tutorial is meant to introduce the reader to the basic workflow of the [PartDesign Workbench](/PartDesign_Workbench "PartDesign Workbench").
 The reader will see how to create 3D objects based on Sketches, perform subtraction operations and how to replicate specific features in a pattern.
 
-![](/src/assets/images/Sketcher_tutorial_result.png)
+![](/images/Sketcher_tutorial_result.png)
 
 ### Requirements
 
@@ -39,21 +39,21 @@ The reader will see how to create 3D objects based on Sketches, perform subtract
 
 The purpose of the **PartDesign Workbench** is to allow the user to create geometry in 3D space. As such, it is equipped with tools to make use of sketches and convert them to 3D objects.
 
-To achieve this, two tools are exist: ![](/src/assets/images/PartDesign_Pad.svg) [Pad](/PartDesign_Pad "PartDesign Pad") and ![](/src/assets/images/PartDesign_Revolution.svg) [Revolution](/PartDesign_Revolution "PartDesign Revolution"). Alongside their subtractive counterparts (![](/src/assets/images/PartDesign_Pocket.svg) [Pocket](/PartDesign_Pocket "PartDesign Pocket") and ![](/src/assets/images/PartDesign_Groove.svg) [Groove](/PartDesign_Groove "PartDesign Groove")) they make up most of the common actions used by this workbench.
+To achieve this, two tools are exist: ![](/images/PartDesign_Pad.svg) [Pad](/PartDesign_Pad "PartDesign Pad") and ![](/images/PartDesign_Revolution.svg) [Revolution](/PartDesign_Revolution "PartDesign Revolution"). Alongside their subtractive counterparts (![](/images/PartDesign_Pocket.svg) [Pocket](/PartDesign_Pocket "PartDesign Pocket") and ![](/images/PartDesign_Groove.svg) [Groove](/PartDesign_Groove "PartDesign Groove")) they make up most of the common actions used by this workbench.
 
 1. Switch to the PartDesign Workbench
-2. With the sketch selected in the [tree view](/Tree_view "Tree view"), press ![](/src/assets/images/PartDesign_Body.svg) [PartDesign Body](/PartDesign_Body "PartDesign Body"), choose the default XY-plane, and press OK. The sketch should appear now inside the Body.
-3. Select ![](/src/assets/images/PartDesign_Pad.svg) [Pad](/PartDesign_Pad "PartDesign Pad")
+2. With the sketch selected in the [tree view](/Tree_view "Tree view"), press ![](/images/PartDesign_Body.svg) [PartDesign Body](/PartDesign_Body "PartDesign Body"), choose the default XY-plane, and press OK. The sketch should appear now inside the Body.
+3. Select ![](/images/PartDesign_Pad.svg) [Pad](/PartDesign_Pad "PartDesign Pad")
 4. Set the distance to 5 mm
 5. Select **Ok**
 
-Another way to create 3D geometry is with the ![](/src/assets/images/PartDesign_Revolution.svg) [Revolution](/PartDesign_Revolution "PartDesign Revolution") tool.
+Another way to create 3D geometry is with the ![](/images/PartDesign_Revolution.svg) [Revolution](/PartDesign_Revolution "PartDesign Revolution") tool.
 
-![](/src/assets/images/PartDesign_revolution_exercise.png)
+![](/images/PartDesign_revolution_exercise.png)
 
-1. Create a new body ![](/src/assets/images/PartDesign_Body.svg) [PartDesign Body](/PartDesign_Body "PartDesign Body"), and then a sketch based on the image above.
+1. Create a new body ![](/images/PartDesign_Body.svg) [PartDesign Body](/PartDesign_Body "PartDesign Body"), and then a sketch based on the image above.
 2. The sketch can be on any plane, but should be co-incident with the horizontal axis.
-3. Select ![](/src/assets/images/PartDesign_Revolution.svg) [Revolution](/PartDesign_Revolution "PartDesign Revolution")
+3. Select ![](/images/PartDesign_Revolution.svg) [Revolution](/PartDesign_Revolution "PartDesign Revolution")
 4. Set the "Axis" to the "Horizontal Sketch Axis"
 5. Set the angle to 360°
 
@@ -62,8 +62,8 @@ Another way to create 3D geometry is with the ![](/src/assets/images/PartDesign_
 We'll begin by creating a sketch with the shape we want to subtract.
 
 1. Select the top flat face of the "Revolution"
-2. Select ![](/src/assets/images/Sketcher_NewSketch.svg) [New sketch](/Sketcher_NewSketch "Sketcher NewSketch")
-3. Select ![](/src/assets/images/Sketcher_External.svg) [External Geometry](/Sketcher_External "Sketcher External")
+2. Select ![](/images/Sketcher_NewSketch.svg) [New sketch](/Sketcher_NewSketch "Sketcher NewSketch")
+3. Select ![](/images/Sketcher_External.svg) [External Geometry](/Sketcher_External "Sketcher External")
 4. Approach the edge of the pad. An arc should be highlighted
 5. Select the arc. An arc of a different color should appear in the sketch
 6. Create a hexagon centered on the same point as the arc and set the radius of the reference circle to 5 mm
@@ -72,17 +72,17 @@ We'll begin by creating a sketch with the shape we want to subtract.
 
 When a 3D element has been created it is possible to create references to it within a sketch.
 
-1. Select ![](/src/assets/images/Sketcher_External.svg) [External Geometry](/Sketcher_External "Sketcher External").
+1. Select ![](/images/Sketcher_External.svg) [External Geometry](/Sketcher_External "Sketcher External").
 2. Approach the element that you wish to reference, the edge of a **Pad** for example.
 3. Click on it
 4. New elements of a different color should appear on the sketch in the location of the feature you wish to reference.
 
-![](/src/assets/images/PartDesign_pocket_exercise.png)
+![](/images/PartDesign_pocket_exercise.png)
 
 Afterwards, we'll proceed to apply a **Pocket** feature.
 
 1. Select the sketch
-2. Select ![](/src/assets/images/PartDesign_Pocket.svg) [Pocket](/PartDesign_Pocket "PartDesign Pocket")
+2. Select ![](/images/PartDesign_Pocket.svg) [Pocket](/PartDesign_Pocket "PartDesign Pocket")
 3. Set the distance to **Through all**
 
 #### Pattern Features
@@ -100,7 +100,7 @@ Instead of creating a circle for each hole in the sketch, we will introduce the 
 We will use a combination of **Linear** and **Polar** pattern features simulatneously to obtain the final workpiece.
 
 1. Select the Pocket feature that we just created in the **Tree View**
-2. Select ![](/src/assets/images/PartDesign_MultiTransform.svg) [MultiTransform](/PartDesign_MultiTransform "PartDesign MultiTransform")
+2. Select ![](/images/PartDesign_MultiTransform.svg) [MultiTransform](/PartDesign_MultiTransform "PartDesign MultiTransform")
 
 In the Combo View we are now asked to introduce the **Transformations** that we desire. Notice that in the **MultiTransform parameters** menu we see that FreeCAD has identified the Pocket as the **Original feature** and a second box requests us to **Right click it** to introduce the pattern features.
 
@@ -116,7 +116,7 @@ In the Combo View we are now asked to introduce the **Transformations** that we 
 
 After completing this task you should have the following result.
 
-![](/src/assets/images/PartDesign_multitransform_exercise.png)
+![](/images/PartDesign_multitransform_exercise.png)
 
 If not, re-edit the MultiTransform operation by double clicking on it in the Tree View. Check both pattern features to detect necessary modifications, such as the **Axis** and if the **Direction** needs to be reversed.
 

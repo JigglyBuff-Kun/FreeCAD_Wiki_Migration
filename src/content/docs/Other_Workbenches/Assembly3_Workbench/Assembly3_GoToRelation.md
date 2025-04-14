@@ -36,6 +36,6 @@ The result (highlighted objects) depends on the selected object.
 ## Usage
 
 1. Select a part, an element or a constraint.
-2. Press the ![](/src/assets/images/Assembly_GotoRelation.svg) [Go to relation](/Assembly3_GoToRelation "Assembly3 GoToRelation") button or use the keyboard shortcut: A then R.
+2. Press the ![](/images/Assembly_GotoRelation.svg) [Go to relation](/Assembly3_GoToRelation "Assembly3 GoToRelation") button or use the keyboard shortcut: A then R.
 
 Retrieved from "<http://wiki.freecad.org/index.php?title=Assembly3_GoToRelation/en&oldid=1048542>"

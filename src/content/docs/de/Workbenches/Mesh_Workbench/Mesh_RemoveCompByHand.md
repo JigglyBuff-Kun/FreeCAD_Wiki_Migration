@@ -27,7 +27,7 @@ Der Befehl "Mesh KomponentenVonHandEntfernen" entfernt Komponenten aus Netzobjek
 2. Der Befehl verwendet die Farbe Rot, um ausgwählte Komponenten zu markieren. Damit diese korrekt dargestellt werden:
    - Die Ansicht-Eigenschaft**Display Mode** (Anzeigemodus) des Netzobjekts sollte Flächen darstellen. Wenn nötig, den Befehl [Std Darstellungsart](/Std_DrawStyle/de "Std DrawStyle/de") anwenden, um diese Eigenschaft anzupassen.
    - Die Ansicht-Eigenschaft**Shape Color** (Formfarbe) des Netzobjekts sollte nicht Rot sein.
-3. Den Menüeintrag **Netze → ![](/src/assets/images/Mesh_RemoveCompByHand.svg) Komponente von Hand entfernen...** auswählen.
+3. Den Menüeintrag **Netze → ![](/images/Mesh_RemoveCompByHand.svg) Komponente von Hand entfernen...** auswählen.
 4. Der Mauszeiger wandelt sich in ein Hand-Symbol.
 5. Die Komponenten in der [3D-Ansicht](/3D_view/de "3D view/de") auswählen, die gelöscht werden sollen.
 6. Wahlweise die Menüoption **Auswahl aufheben** im Kontextmenü der 3D-Ansicht auswählen, um alle Komponenten abzuwählen.

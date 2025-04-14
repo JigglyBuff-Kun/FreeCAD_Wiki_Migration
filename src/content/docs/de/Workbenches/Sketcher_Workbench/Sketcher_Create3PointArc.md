@@ -19,15 +19,15 @@ title: Sketcher KreisbogenDurch3PunkteErstellen
 
 ## Beschreibung
 
-Das werkzeug ![](/src/assets/images/Sketcher_Create3PointArc.svg) KreisbogenDurch3PunkteErstellen: Erstellt einen Kreisbogen durch seine Endpunkte und eine weiteren Punkt im Verlauf des Bogens. [eingeführt in 1.0](/Release_notes_1.0/de "Release notes 1.0/de"): Dies ist dasselbe Werkzeug wie [KreisbogenErstellen](/Sketcher_CreateArc/de "Sketcher CreateArc/de") aber mit einem anderen Startmodus.
+Das werkzeug ![](/images/Sketcher_Create3PointArc.svg) KreisbogenDurch3PunkteErstellen: Erstellt einen Kreisbogen durch seine Endpunkte und eine weiteren Punkt im Verlauf des Bogens. [eingeführt in 1.0](/Release_notes_1.0/de "Release notes 1.0/de"): Dies ist dasselbe Werkzeug wie [KreisbogenErstellen](/Sketcher_CreateArc/de "Sketcher CreateArc/de") aber mit einem anderen Startmodus.
 
 ## Anwendung
 
 Siehe auch: [Zeichnungshilfen](/Sketcher_Workbench/de#Zeichnungshilfen "Sketcher Workbench/de").
 
 1. Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
-   - Die Schaltfläche ![](/src/assets/images/Sketcher_Create3PointArc.svg) Kreisbogen durch 3 Punkte erstellen drücken.
-   - Den Menüeintrag **Skizze → Skizzengeometrien → ![](/src/assets/images/Sketcher_Create3PointArc.svg) Kreisbogen durch 3 Punkte erstellen** auswählen.
+   - Die Schaltfläche ![](/images/Sketcher_Create3PointArc.svg) Kreisbogen durch 3 Punkte erstellen drücken.
+   - Den Menüeintrag **Skizze → Skizzengeometrien → ![](/images/Sketcher_Create3PointArc.svg) Kreisbogen durch 3 Punkte erstellen** auswählen.
    - Das Tastaturkürzel G dann 3 dann A.
 2. Für weitere Schritte siehe [Sketcher Kreisbogen Erstellen](/Sketcher_CreateArc/de#Anwendung "Sketcher CreateArc/de").
 

@@ -21,7 +21,7 @@ title: TechDraw ExtensionCustomizeFormat
 
 The **TechDraw ExtensionCustomizeFormat** tool customizes the formatting of a balloon text or dimension text. [GD&T symbols](/TechDraw_Geometric_dimensioning_and_tolerancing "TechDraw Geometric dimensioning and tolerancing") and other special characters can be added.
 
-![](/src/assets/images/TechDraw_ExtensionCustomizeFormatExample.png)
+![](/images/TechDraw_ExtensionCustomizeFormatExample.png)
 
 The Customize Format task panel
 
@@ -29,8 +29,8 @@ The Customize Format task panel
 
 1. Select a Balloon object or a Dimension object.
 2. There are several ways to invoke the tool:
-   - Press the ![](/src/assets/images/TechDraw_ExtensionCustomizeFormat.svg) [Customize format label](/TechDraw_ExtensionCustomizeFormat "TechDraw ExtensionCustomizeFormat") button.
-   - Select the **TechDraw → Extensions: Attributes/Modifications → ![](/src/assets/images/TechDraw_ExtensionCustomizeFormat.svg) Customize format label** option from the menu.
+   - Press the ![](/images/TechDraw_ExtensionCustomizeFormat.svg) [Customize format label](/TechDraw_ExtensionCustomizeFormat "TechDraw ExtensionCustomizeFormat") button.
+   - Select the **TechDraw → Extensions: Attributes/Modifications → ![](/images/TechDraw_ExtensionCustomizeFormat.svg) Customize format label** option from the menu.
 3. The **Customize Format** task panel opens.
 4. Edit the **Format** field using the available task panel buttons and/or the keyboard.
 5. The **Preview** field shows the result of the current formatting.

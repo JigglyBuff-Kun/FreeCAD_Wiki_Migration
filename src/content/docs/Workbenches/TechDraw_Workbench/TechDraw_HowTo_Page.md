@@ -24,7 +24,7 @@ title: TechDraw HowTo Page
 ## Introduction
 
 This page provide a collection of hints and little guides on using the
-![](/src/assets/images/Workbench_TechDraw.svg) [TechDraw Workbench](/TechDraw_Workbench "TechDraw Workbench"). Adding new findings and best practices is encouraged.
+![](/images/Workbench_TechDraw.svg) [TechDraw Workbench](/TechDraw_Workbench "TechDraw Workbench"). Adding new findings and best practices is encouraged.
 
 ### Enable/Disable Centermarks
 
@@ -43,13 +43,13 @@ See [here](/TechDraw_ToggleFrame "TechDraw ToggleFrame") for switching them on a
 
 Curved edges are accepted as input to linear dimensions. See this [forum thread](https://forum.freecadweb.org/viewtopic.php?f=35&t=49719&start=30)
 
-![](/src/assets/images/CurvedEdgeLinearDims.png)
+![](/images/CurvedEdgeLinearDims.png)
 
 ### Show metric and imperial dimensions at the same time
 
 It is possible to show metric and imperial decimal dimensions at the same time. See this [forum thread](https://forum.freecadweb.org/viewtopic.php?f=35&t=49711)
 
-![](/src/assets/images/Imperiale_decimale.png)
+![](/images/Imperiale_decimale.png)
 
 ### Dimensioning in case of oriented holes
 
@@ -57,7 +57,7 @@ Two use cases. See this [forum thread](https://forum.freecadweb.org/viewtopic.ph
 
 See also [Measurement Of Angles On Holes](/Measurement_Of_Angles_On_Holes "Measurement Of Angles On Holes")
 
-![](/src/assets/images/Dimension-hole.png)
-![](/src/assets/images/Dimension-hole_angles.png)
+![](/images/Dimension-hole.png)
+![](/images/Dimension-hole_angles.png)
 
 Retrieved from "<http://wiki.freecad.org/index.php?title=TechDraw_HowTo_Page/en&oldid=1092225>"

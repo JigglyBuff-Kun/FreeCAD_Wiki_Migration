@@ -23,7 +23,7 @@ The [Image Open](/Image_Open "Image Open") tool simply opens an image from your 
 
 ## Usage
 
-1. Press the ![](/src/assets/images/Image_Open.svg) [Image Open](/Image_Open "Image Open") button.
+1. Press the ![](/images/Image_Open.svg) [Image Open](/Image_Open "Image Open") button.
 2. Select the image file that you want.
 
 The image is placed in a new viewport, not in the 3D view.

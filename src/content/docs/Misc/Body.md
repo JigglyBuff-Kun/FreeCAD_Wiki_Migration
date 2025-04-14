@@ -11,12 +11,12 @@ See [PartDesign Body](/PartDesign_Body "PartDesign Body") for more information a
 ## Usage
 
 1. Switch to the [PartDesign Workbench](/PartDesign_Workbench "PartDesign Workbench").
-2. Press ![](/src/assets/images/PartDesign_Body.svg) [PartDesign Body](/PartDesign_Body "PartDesign Body").
-3. Press ![](/src/assets/images/PartDesign_NewSketch.svg) [PartDesign NewSketch](/PartDesign_NewSketch "PartDesign NewSketch") to create a new [sketch](/Sketch "Sketch").
-4. Create a closed wire, and then use ![](/src/assets/images/PartDesign_Pad.svg) [PartDesign Pad](/PartDesign_Pad "PartDesign Pad") to extrude the sketch, and create an initial solid.
+2. Press ![](/images/PartDesign_Body.svg) [PartDesign Body](/PartDesign_Body "PartDesign Body").
+3. Press ![](/images/PartDesign_NewSketch.svg) [PartDesign NewSketch](/PartDesign_NewSketch "PartDesign NewSketch") to create a new [sketch](/Sketch "Sketch").
+4. Create a closed wire, and then use ![](/images/PartDesign_Pad.svg) [PartDesign Pad](/PartDesign_Pad "PartDesign Pad") to extrude the sketch, and create an initial solid.
 5. Add more sketches and pads, and use other tools of the [PartDesign Workbench](/PartDesign_Workbench "PartDesign Workbench") to modify and transform the initial solid.
 
-Alternatively, instead of using [sketches](/Sketch "Sketch"), you can add primitive [PartDesign Features](/PartDesign_Feature "PartDesign Feature"), for example, a ![](/src/assets/images/PartDesign_AdditiveBox.svg) [PartDesign Additive box](/PartDesign_AdditiveBox "PartDesign AdditiveBox"). Any number of additive and subtractive features can be used to create a final volume.
+Alternatively, instead of using [sketches](/Sketch "Sketch"), you can add primitive [PartDesign Features](/PartDesign_Feature "PartDesign Feature"), for example, a ![](/images/PartDesign_AdditiveBox.svg) [PartDesign Additive box](/PartDesign_AdditiveBox "PartDesign AdditiveBox"). Any number of additive and subtractive features can be used to create a final volume.
 
 ## Notes
 

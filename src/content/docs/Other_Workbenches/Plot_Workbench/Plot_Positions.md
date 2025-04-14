@@ -21,13 +21,13 @@ title: Plot Positions
 
 This tool allows the user to edit the position of some items like titles, axes labels and legend.
 
-![](/src/assets/images/Plot_MultiAxes_Example.png)
+![](/images/Plot_MultiAxes_Example.png)
 
 ## Usage
 
 Select the plot tab that you want to edit, and run this tool. Then you can select the item you want to edit in the selector
 
-![Items position selector](/src/assets/images/Plot_Position_Item_Selector.png)
+![Items position selector](/images/Plot_Position_Item_Selector.png)
 
 Selector for the item to de edited
 

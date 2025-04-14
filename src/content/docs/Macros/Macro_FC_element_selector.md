@@ -36,7 +36,7 @@ Run the macro.
 
 ## Script
 
-ToolBar Icon ![](/src/assets/images/Macro_FC_element_selector.png)
+ToolBar Icon ![](/images/Macro_FC_element_selector.png)
 
 **Macro FC element selector.FCMacro**
 

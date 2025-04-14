@@ -21,7 +21,7 @@ title: Mesh Evaluation
 
 The **Mesh Evaluation** command evaluates and repairs a mesh object.
 
-![](/src/assets/images/Mesh_Evaluation_dialog.png)
+![](/images/Mesh_Evaluation_dialog.png)
 
 The Evaluate & Repair Mesh dialog box with the Folds on surface option enabled
 
@@ -29,8 +29,8 @@ The Evaluate & Repair Mesh dialog box with the Folds on surface option enabled
 
 1. Optionally select a single mesh object.
 2. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/Mesh_Evaluation.svg) [Evaluate and repair mesh...](/Mesh_Evaluation "Mesh Evaluation") button.
-   - Select the **Meshes → Analyze → ![](/src/assets/images/Mesh_Evaluation.svg) Evaluate and repair mesh...** option from the menu.
+   - Press the ![](/images/Mesh_Evaluation.svg) [Evaluate and repair mesh...](/Mesh_Evaluation "Mesh Evaluation") button.
+   - Select the **Meshes → Analyze → ![](/images/Mesh_Evaluation.svg) Evaluate and repair mesh...** option from the menu.
 3. The **Evaluate & Repair Mesh** dialog box opens.
 4. Optionally press the Settings... button to change the following settings:
    - **Check for non-manifold points**

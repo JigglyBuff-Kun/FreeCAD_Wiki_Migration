@@ -39,7 +39,7 @@ to redirect the items to the translated pages, that is, by adding a language cod
 Do not add the language codes "/fr", "/de", "/es", "/ru", etc., if the translated page doesn't exists in that language, it will break the link.
 In this case, do not write anything else than the name of the page, or it will break the link.
 
-![Where to look](/src/assets/images/Translate-sidebar-instruction.png)
+![Where to look](/images/Translate-sidebar-instruction.png)
 
 Where to look
 

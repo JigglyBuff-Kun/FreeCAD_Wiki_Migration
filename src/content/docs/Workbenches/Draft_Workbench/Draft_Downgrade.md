@@ -19,9 +19,9 @@ title: Draft Downgrade
 
 ## Description
 
-The ![](/src/assets/images/Draft_Downgrade.svg) **Draft Downgrade** command downgrades selected objects. The result depends on the number of selected objects and their type. The command can for example deconstruct a 3D solid into separate faces and a wire into separate edges. If two face are selected a [Part Cut](/Part_Cut "Part Cut") object is created from them. Note that not all objects can be downgraded. This command is the counterpart of the [Draft Upgrade](/Draft_Upgrade "Draft Upgrade") command.
+The ![](/images/Draft_Downgrade.svg) **Draft Downgrade** command downgrades selected objects. The result depends on the number of selected objects and their type. The command can for example deconstruct a 3D solid into separate faces and a wire into separate edges. If two face are selected a [Part Cut](/Part_Cut "Part Cut") object is created from them. Note that not all objects can be downgraded. This command is the counterpart of the [Draft Upgrade](/Draft_Upgrade "Draft Upgrade") command.
 
-![](/src/assets/images/Draft_Downgrade_example.jpg)
+![](/images/Draft_Downgrade_example.jpg)
 
 Two overlapping faces are downgraded to a Part Cut object, which is downgraded to a face. That face is then downgraded to a closed wire, which is finally downgraded to separate edges.
 
@@ -29,9 +29,9 @@ Two overlapping faces are downgraded to a Part Cut object, which is downgraded t
 
 1. Optionally select one or more objects.
 2. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/Draft_Downgrade.svg) [Downgrade](/Draft_Downgrade "Draft Downgrade") button.
-   - [Draft](/Draft_Workbench "Draft Workbench"): Select the **Modification → ![](/src/assets/images/Draft_Downgrade.svg) Downgrade** option from the menu.
-   - [BIM](/BIM_Workbench "BIM Workbench"): Select the **Modify → ![](/src/assets/images/Draft_Downgrade.svg) Downgrade** option from the menu.
+   - Press the ![](/images/Draft_Downgrade.svg) [Downgrade](/Draft_Downgrade "Draft Downgrade") button.
+   - [Draft](/Draft_Workbench "Draft Workbench"): Select the **Modification → ![](/images/Draft_Downgrade.svg) Downgrade** option from the menu.
+   - [BIM](/BIM_Workbench "BIM Workbench"): Select the **Modify → ![](/images/Draft_Downgrade.svg) Downgrade** option from the menu.
    - Use the keyboard shortcut: D then N.
 3. If you have not yet selected an object: select an object in the [3D view](/3D_view "3D view").
 

@@ -20,9 +20,9 @@ This is a set of customized FreeCAD commands and objects that help to speed-up t
 
 For convenience Flamingo/Dodo tools are grouped in three toolbars/menus + one utility set.
 
-![](/src/assets/images/FlamingoBlob.png)
+![](/images/FlamingoBlob.png)
 
-![](/src/assets/images/DodoBlob.png)
+![](/images/DodoBlob.png)
 
 : _ **Frame tools**: that is aimed to arrange frames, trusses and similar in FreeCAD using the Structure objects of Arch module. .../flamingo/tutorials/tutorialFrame.pdf
 _ **Pype tools**: that's the logical continuation of frame tool since it deals with creating pipelines and tubular structures. It also features its own Python classes to create the piping objects, such as tubes, elbows, flanges etc. .../flamingo/tutorials/tutorialPype2.pdf
@@ -44,7 +44,7 @@ This workbench can be installed from the [Addon Manager](/Std_AddonMgr "Std Addo
 
 ## Frame Tools
 
-![](/src/assets/images/Flamingos_frame2.jpg)
+![](/images/Flamingos_frame2.jpg)
 
 : 1) Place one-beam over one-edge (class frameIt)
 
@@ -205,7 +205,7 @@ Tool to adjust the beams at square angles of frames. To understand at best how i
 
 ## Pype Tools
 
-![](/src/assets/images/Flamingos_pype2.jpg)
+![](/images/Flamingos_pype2.jpg)
 
 : 1) Insert a tube
 
@@ -423,7 +423,7 @@ This is a tool to create a "pype" object from a .STEP or .IGES or .BREP file. It
 
 ## Utilities
 
-![](/src/assets/images/Flamingos_utils.jpg)
+![](/images/Flamingos_utils.jpg)
 
 : 1) Make a polygon
 

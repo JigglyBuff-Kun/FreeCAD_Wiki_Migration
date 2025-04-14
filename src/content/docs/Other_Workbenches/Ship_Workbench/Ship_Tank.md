@@ -25,7 +25,7 @@ Tank instances are so far similar to **Weight instances** (see [Ship Weight](/Sh
 
 ## Usage
 
-In order to create a weight, select the tank solid geometry (the interior of the tank that will be eventually filled with fluids) and invoke **Weights → ![](/src/assets/images/Ship_Tank.svg) Create a new tank**.
+In order to create a weight, select the tank solid geometry (the interior of the tank that will be eventually filled with fluids) and invoke **Weights → ![](/images/Ship_Tank.svg) Create a new tank**.
 
 The task panel is shown, where you must select the **Ship instance** (see [Ship CreateShip](/Ship_CreateShip "Ship CreateShip")) in which the tank shall be added.
 

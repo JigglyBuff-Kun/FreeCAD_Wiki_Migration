@@ -19,9 +19,9 @@ title: Sketcher ParabelbogenErstellen
 
 ## Beschreibung
 
-Das Werkzeug ![](/src/assets/images/Sketcher_CreateArcOfParabola.svg) Parabelbogen erstellen erstellt einen Parabelbogen.
+Das Werkzeug ![](/images/Sketcher_CreateArcOfParabola.svg) Parabelbogen erstellen erstellt einen Parabelbogen.
 
-![](/src/assets/images/Sketcher_CreateArcOfParabola_Example.png)
+![](/images/Sketcher_CreateArcOfParabola_Example.png)
 
 Parabelbogen (weiß) mit interner Geometrie (dunkelgelb)
 
@@ -30,8 +30,8 @@ Parabelbogen (weiß) mit interner Geometrie (dunkelgelb)
 Siehe auch: [Zeichnungshilfen](/Sketcher_Workbench/de#Zeichnungshilfen "Sketcher Workbench/de").
 
 1. Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
-   - Die Schaltfläche ![](/src/assets/images/Sketcher_CreateArcOfParabola.svg) Parabelbogen erstellen drücken.
-   - Den Menüeintrag **Skizze → Skizzengeometrien → ![](/src/assets/images/Sketcher_CreateArcOfParabola.svg) Parabelbogen erstellen** auswählen.
+   - Die Schaltfläche ![](/images/Sketcher_CreateArcOfParabola.svg) Parabelbogen erstellen drücken.
+   - Den Menüeintrag **Skizze → Skizzengeometrien → ![](/images/Sketcher_CreateArcOfParabola.svg) Parabelbogen erstellen** auswählen.
    - Das Tastaturkürzel G dann J.
 2. Der Mauszeiger wandelt sich zu einem Kreuz mit Werkzeugsymbol.
 3. Den Fokus (Brennpunkt) des Bogens auswählen (in der Abbildung oben mit 1 gekennzeichnet).

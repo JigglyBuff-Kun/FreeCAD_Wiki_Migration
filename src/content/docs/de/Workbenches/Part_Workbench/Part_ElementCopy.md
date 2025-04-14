@@ -19,12 +19,12 @@ title: Part ElementKopie
 
 ## Beschreibung
 
-Der Befehl ![](/src/assets/images/Part_ElementCopy.svg) Part ElementKopie erstellt nicht parametrische Kopien von Unterelementen: Knoten, Kanten und Flächen.
+Der Befehl ![](/images/Part_ElementCopy.svg) Part ElementKopie erstellt nicht parametrische Kopien von Unterelementen: Knoten, Kanten und Flächen.
 
 ## Anwendung
 
 1. Select one or more subelements belonging to one or more objects.
-2. Select the **Part → Create a copy → ![](/src/assets/images/Part_ElementCopy.svg) Create shape element copy** option from the menu.
+2. Select the **Part → Create a copy → ![](/images/Part_ElementCopy.svg) Create shape element copy** option from the menu.
 
 ## Notes
 

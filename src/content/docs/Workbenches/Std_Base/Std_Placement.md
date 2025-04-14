@@ -21,14 +21,14 @@ title: Std Placement
 
 The **Std Placement** command displays the Placement [task panel](/Task_panel "Task panel") for a selected object.
 
-![](/src/assets/images/Std_Placement_taskpanel.png)
+![](/images/Std_Placement_taskpanel.png)
 
 The Placement task panel
 
 ## Usage
 
 1. Select a single object that has a Data**Placement** property.
-2. Select the **Edit → ![](/src/assets/images/Std_Placement.svg) Placement...** option from the menu.
+2. Select the **Edit → ![](/images/Std_Placement.svg) Placement...** option from the menu.
 3. Change one or more of the translation and rotation parameters.
 4. Do one of the following:
    - Press the OK button to apply the changes and close the task panel.

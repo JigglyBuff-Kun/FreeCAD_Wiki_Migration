@@ -19,13 +19,13 @@ title: Curves CompressionSpring
 
 ## Description
 
-The ![](/src/assets/images/Curves_CompressionSpring.svg) [Curves CompressionSpring](/Curves_CompressionSpring "Curves CompressionSpring") tool creates a compression spring.
+The ![](/images/Curves_CompressionSpring.svg) [Curves CompressionSpring](/Curves_CompressionSpring "Curves CompressionSpring") tool creates a compression spring.
 
 ## Usage
 
 1. There are several ways to invoke the tool:
-   - Press the ![](/src/assets/images/Curves_CompressionSpring.svg) [Compression Spring](/Curves_CompressionSpring "Curves CompressionSpring") button.
-   - Select the **Surfaces → ![](/src/assets/images/Curves_CompressionSpring.svg) Compression Spring** option from the menu.
+   - Press the ![](/images/Curves_CompressionSpring.svg) [Compression Spring](/Curves_CompressionSpring "Curves CompressionSpring") button.
+   - Select the **Surfaces → ![](/images/Curves_CompressionSpring.svg) Compression Spring** option from the menu.
 2. A **CompSpring** object is created showing the spine (wire) only.
 3. Optionally edit the values in the [Property editor](/Property_editor "Property editor") to display the solid shape and adjust the related properties (see Properties below).
 

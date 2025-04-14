@@ -29,8 +29,8 @@ The [File:Curves SurfaceAnalysis.svg](/index.php?title=Special:Upload&wpDestFile
 
 1. Select one or more sub shapes.
 2. There are several ways to invoke the tool:
-   - Press the ![](/src/assets/images/Curves_ZebraTool.svg) Title button.
-   - Select the **Surfaces → ![](/src/assets/images/Curves_ZebraTool.svg) Title** option from the menu.
+   - Press the ![](/images/Curves_ZebraTool.svg) Title button.
+   - Select the **Surfaces → ![](/images/Curves_ZebraTool.svg) Title** option from the menu.
 3. A SurfaceAnalysis object is created.
 
 ## Notes

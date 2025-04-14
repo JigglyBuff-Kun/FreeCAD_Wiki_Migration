@@ -21,7 +21,7 @@ title: Std ProjectUtil
 
 With the **Std ProjectUtil** command you can extract files from a FreeCAD project file (\*.FCStd), which is in fact a [ZIP](<https://en.wikipedia.org/wiki/Zip_(file_format)>) file, and, after manual edits, create a new project file from them.
 
-![](/src/assets/images/Project_utility_en.png)
+![](/images/Project_utility_en.png)
 
 The Project utility dialog box
 
@@ -29,7 +29,7 @@ The Project utility dialog box
 
 ### Extract project
 
-1. Select the **Tools → ![](/src/assets/images/Std_ProjectUtil.svg) Document utility...** option from the menu.
+1. Select the **Tools → ![](/images/Std_ProjectUtil.svg) Document utility...** option from the menu.
 2. The **Project utility** dialog box opens.
 3. Press the ... button to the right of **Extract project → Source**.
 4. Select the \*.FCStd file you want to edit.
@@ -44,7 +44,7 @@ It is important to realize that the files inside a FreeCAD project file are inte
 
 ### Create project
 
-1. Select the **Tools → ![](/src/assets/images/Std_ProjectUtil.svg) Project utility...** option from the menu.
+1. Select the **Tools → ![](/images/Std_ProjectUtil.svg) Project utility...** option from the menu.
 2. The **Project utility** dialog box opens.
 3. Press the ... button to the right of **Create project → Source**.
 4. Select the Document.xml file. The command will be automatically find all linked files.

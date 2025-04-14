@@ -8,7 +8,7 @@ The [Combo view](/Combo_view "Combo view") appears in a panel called **Model**. 
 
 The [Task panel](/Task_panel "Task panel"), which used to be part of the Combo view, is a separate panel called **Tasks** in 1.0 and above. It can be [docked](#Dock_Task_panel_on_top_of_Combo_view) on top of the Combo view to achieve the compact layout of earlier versions.
 
-![](/src/assets/images/Combo_View_Example.png)
+![](/images/Combo_View_Example.png)
 
 The Combo view (Model tab) with docked Task panel (Tasks tab)
 
@@ -19,7 +19,7 @@ The Combo view (Model tab) with docked Task panel (Tasks tab)
 3. The arrow becomes a hand.
 4. Hold down the left mouse button and drag the Task panel on top of the Combo view.
 5. Move vertically until both the upper and lower sections of the Combo view are highlighted.  
-   ![](/src/assets/images/Tasks_Dockable.png)
+   ![](/images/Tasks_Dockable.png)
 6. Release the mouse button.
 
 ## Preferences

@@ -4,10 +4,10 @@ title: Topological naming problem
 
 ## Introduction
 
-The [topological naming problem](/Topological_naming_problem "Topological naming problem") in FreeCAD refers to the issue of a shape changing its internal name after a modelling operation (pad, cut, union, chamfer, fillet, etc.) is performed. This will result in other parametric features that depend on that shape to break or be incorrectly computed. This issue affects all objects in FreeCAD but is especially notable when building solids with the ![](/src/assets/images/Workbench_PartDesign.svg) [PartDesign Workbench](/PartDesign_Workbench "PartDesign Workbench"), and when dimensioning those solids with the ![](/src/assets/images/Workbench_TechDraw.svg) [TechDraw Workbench](/TechDraw_Workbench "TechDraw Workbench").
+The [topological naming problem](/Topological_naming_problem "Topological naming problem") in FreeCAD refers to the issue of a shape changing its internal name after a modelling operation (pad, cut, union, chamfer, fillet, etc.) is performed. This will result in other parametric features that depend on that shape to break or be incorrectly computed. This issue affects all objects in FreeCAD but is especially notable when building solids with the ![](/images/Workbench_PartDesign.svg) [PartDesign Workbench](/PartDesign_Workbench "PartDesign Workbench"), and when dimensioning those solids with the ![](/images/Workbench_TechDraw.svg) [TechDraw Workbench](/TechDraw_Workbench "TechDraw Workbench").
 
-- In ![](/src/assets/images/Workbench_PartDesign.svg) [PartDesign](/PartDesign_Workbench "PartDesign Workbench"), if a feature is supported on a face (or edge or vertex), the feature may break if the underlying solid changes size or orientation, as the original face (or edge or vertex) may be internally renamed.
-- In ![](/src/assets/images/Workbench_TechDraw.svg) [TechDraw](/TechDraw_Workbench "TechDraw Workbench"), if a dimension is measuring the length of a projected edge, the dimension may break if the 3D model is changed, as the vertices may be renamed thus changing the measured edge.
+- In ![](/images/Workbench_PartDesign.svg) [PartDesign](/PartDesign_Workbench "PartDesign Workbench"), if a feature is supported on a face (or edge or vertex), the feature may break if the underlying solid changes size or orientation, as the original face (or edge or vertex) may be internally renamed.
+- In ![](/images/Workbench_TechDraw.svg) [TechDraw](/TechDraw_Workbench "TechDraw Workbench"), if a dimension is measuring the length of a projected edge, the dimension may break if the 3D model is changed, as the vertices may be renamed thus changing the measured edge.
 
 The topological naming issue is a complex problem in CAD modelling that stems from the way the internal FreeCAD routines handle updates of the geometrical shapes created with the [OCCT kernel](/OpenCASCADE "OpenCASCADE"). This problem is not unique to FreeCAD. It is generally present in CAD software, but most other CAD software has heuristics to reduce the impact of the problem on users.
 
@@ -17,11 +17,11 @@ The topological naming problem most often affects and confuses new users of Free
 
 ## Example
 
-1. In the ![](/src/assets/images/Workbench_PartDesign.svg) [PartDesign Workbench](/PartDesign_Workbench "PartDesign Workbench"), create a ![](/src/assets/images/PartDesign_Body.svg) [PartDesign Body](/PartDesign_Body "PartDesign Body"), then use ![](/src/assets/images/PartDesign_NewSketch.svg) [PartDesign NewSketch](/PartDesign_NewSketch "PartDesign NewSketch") and select the XY plane to draw the base sketch; then perform a ![](/src/assets/images/PartDesign_Pad.svg) [PartDesign Pad](/PartDesign_Pad "PartDesign Pad") to create a first solid.
+1. In the ![](/images/Workbench_PartDesign.svg) [PartDesign Workbench](/PartDesign_Workbench "PartDesign Workbench"), create a ![](/images/PartDesign_Body.svg) [PartDesign Body](/PartDesign_Body "PartDesign Body"), then use ![](/images/PartDesign_NewSketch.svg) [PartDesign NewSketch](/PartDesign_NewSketch "PartDesign NewSketch") and select the XY plane to draw the base sketch; then perform a ![](/images/PartDesign_Pad.svg) [PartDesign Pad](/PartDesign_Pad "PartDesign Pad") to create a first solid.
 
-![](/src/assets/images/FreeCAD_topological_problem_01_solid.png)
+![](/images/FreeCAD_topological_problem_01_solid.png)
 
-2. Select the top face of the previous solid, and then use ![](/src/assets/images/PartDesign_NewSketch.svg) [PartDesign NewSketch](/PartDesign_NewSketch "PartDesign NewSketch") to draw another sketch; then perform a second pad.
+2. Select the top face of the previous solid, and then use ![](/images/PartDesign_NewSketch.svg) [PartDesign NewSketch](/PartDesign_NewSketch "PartDesign NewSketch") to draw another sketch; then perform a second pad.
 
 |     |     |
 | --- | --- |
@@ -29,7 +29,7 @@ The topological naming problem most often affects and confuses new users of Free
 
 3. Select the top face of the previous extrusion, and once again create a sketch, and a pad.
 
-![](/src/assets/images/FreeCAD_topological_problem_04_solid_3.png)
+![](/images/FreeCAD_topological_problem_04_solid_3.png)
 
 4. Now, double click the second sketch, and modify it so that its length is along the X direction; doing this will recreate the second pad. The third sketch and pad will stay in the same place.
 
@@ -37,7 +37,7 @@ The topological naming problem most often affects and confuses new users of Free
 | --- | --- |
 |     |     |
 
-![](/src/assets/images/FreeCAD_topological_problem_07_solid_3.png)
+![](/images/FreeCAD_topological_problem_07_solid_3.png)
 
 5. Now, double click the second sketch again, and adjust its points so that a portion of it is outside the limits defined by the first pad. By doing this, the second pad will recompute correctly, however, when looking at the [tree view](/Tree_view "Tree view"), an error will be indicated in the third pad.
 
@@ -45,9 +45,9 @@ The topological naming problem most often affects and confuses new users of Free
 | --- | --- |
 |     |     |
 
-![](/src/assets/images/FreeCAD_topological_problem_12_broken_tree.png)
+![](/images/FreeCAD_topological_problem_12_broken_tree.png)
 
-6. By making visible the third sketch and pad, it is clear that the computation of the new solid did not proceed correctly. The third sketch, instead of being supported by the top face of the second pad, appears in a strange place, with its normal oriented towards the X direction. This results in an invalid pad, as this pad would be disconnected from the rest of the ![](/src/assets/images/PartDesign_Body.svg) [PartDesign Body](/PartDesign_Body "PartDesign Body"), which is not allowed.
+6. By making visible the third sketch and pad, it is clear that the computation of the new solid did not proceed correctly. The third sketch, instead of being supported by the top face of the second pad, appears in a strange place, with its normal oriented towards the X direction. This results in an invalid pad, as this pad would be disconnected from the rest of the ![](/images/PartDesign_Body.svg) [PartDesign Body](/PartDesign_Body "PartDesign Body"), which is not allowed.
 
 The problem appears to be that when the second sketch was modified, the top face of the second pad was renamed from `Face13` to `Face14`. The third sketch is attached to `Face13` as it originally was, but since this face is now on the side (not at the top), the sketch follows its orientation and now is incorrectly positioned.
 
@@ -57,7 +57,7 @@ The problem appears to be that when the second sketch was modified, the top face
 
 7. To fix the issue, the third sketch should be mapped to the top face again. Select the sketch, click on the ellipsis (three dots) next to the Data**Map Mode** property, and choose the top face of the second pad again. Then the sketch moves to the top of the existing solid, and the third pad is generated without issues.
 
-![](/src/assets/images/FreeCAD_topological_problem_13_remap_sketch_2.png)
+![](/images/FreeCAD_topological_problem_13_remap_sketch_2.png)
 
 |     |     |
 | --- | --- |
@@ -67,7 +67,7 @@ Remapping a sketch in this way can be done every time there is a topological nam
 
 ## Solution
 
-![](/src/assets/images/FreeCAD_topological_problem_16_dependency_graph.png)
+![](/images/FreeCAD_topological_problem_16_dependency_graph.png)
 
 The [dependency graph](/Std_DependencyGraph "Std DependencyGraph") is a tool that is helpful to observe the relationships between the different bodies in the document. Using the original modelling workflow reveals the direct relationship that exists between the sketches and the pads. Like a chain, it is easy to see that this direct dependence will be subject to topological naming problems if any of the links in the sequence changes.
 
@@ -87,15 +87,15 @@ As explained on the [feature editing](/Feature_editing "Feature editing") page, 
 
 5. The dependency graph now shows that the sketches and pads are supported by the datum planes. This model is more stable as each sketch can be modified essentially independently from each other.
 
-![](/src/assets/images/FreeCAD_topological_problem_19_dependency_graph_datum_planes.png)
+![](/images/FreeCAD_topological_problem_19_dependency_graph_datum_planes.png)
 
 6. Double click the second sketch and modify the shape. The second pad should update immediately without causing topological problems with the third sketch and the third pad.
 
-![](/src/assets/images/FreeCAD_topological_problem_20_independent_solid_2.png)
+![](/images/FreeCAD_topological_problem_20_independent_solid_2.png)
 
 7. In fact, every sketch can be modified without interfering with each other's pads. As long as the pads have sufficient extrusion length, so that they touch and form a contiguous solid, the entire body will be valid.
 
-![](/src/assets/images/FreeCAD_topological_problem_21_independent_solids_all.png)
+![](/images/FreeCAD_topological_problem_21_independent_solids_all.png)
 
 ## Tradeoffs
 

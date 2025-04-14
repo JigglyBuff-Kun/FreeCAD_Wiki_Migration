@@ -25,12 +25,12 @@ Pipeline is a result object, which creates a new graphical representation of FEM
 
 1. Select a result object.
 2. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/FEM_PostPipelineFromResult.svg) [Post pipeline from result](/FEM_PostPipelineFromResult "FEM PostPipelineFromResult") button.
-   - Select the **Results → ![](/src/assets/images/FEM_PostPipelineFromResult.svg) Post pipeline from result** option from the menu.
+   - Press the ![](/images/FEM_PostPipelineFromResult.svg) [Post pipeline from result](/FEM_PostPipelineFromResult "FEM PostPipelineFromResult") button.
+   - Select the **Results → ![](/images/FEM_PostPipelineFromResult.svg) Post pipeline from result** option from the menu.
 3. A new object called "Pipeline" is added to your analysis.
 4. Double-click the new Pipeline object in the [Tree view](/Tree_view "Tree view") and select a display mode and the result field. For example for the mode `Surface` and the field `Von Mises stress` the pipeline will look like this:
 
-![](/src/assets/images/Pipeline.PNG)
+![](/images/Pipeline.PNG)
 
 If you see no model in the graphical area, go to and enable **Edit → Preferences → Display → 3D View → Rendering → Backlight color**.
 
@@ -54,7 +54,7 @@ This pipeline dialog box has the following settings:
 
 If you double-click on the scale, you get this settings dialog box:
 
-![](/src/assets/images/SIMTUT_05.PNG)
+![](/images/SIMTUT_05.PNG)
 
 and you can modify these properties:
 

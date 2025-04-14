@@ -33,7 +33,7 @@ For this tutorial you can use your own STL file or create a demo file by doing t
 - Open FreeCAD
 - Create a new document
 - Switch to the mesh workbench
-- Insert a torus by clicking on Meshes → ![](/src/assets/images/Mesh_BuildRegularSolid.svg) Regular solid..., choosing settings like:
+- Insert a torus by clicking on Meshes → ![](/images/Mesh_BuildRegularSolid.svg) Regular solid..., choosing settings like:
   - Radius1: 10 mm
   - Radius2: 2 mm
   - Sampling: 50
@@ -72,7 +72,7 @@ In this tutorial we will use the mesh workbench within FreeCAD to clean/repair/v
 Harmonizing normals of a mesh object can be done by
 
 - Selecting your mesh object in the tree view
-- Choose Meshes → ![](/src/assets/images/Mesh_HarmonizeNormals.svg) Harmonize normals from the top menu.
+- Choose Meshes → ![](/images/Mesh_HarmonizeNormals.svg) Harmonize normals from the top menu.
 
 Tip: By choosing the mesh object in the tree view, going to the view tab in the property view and changing "Lighting" from "Two Side" to "One Side" you can identify triangles with flipped normals.
 If the normals point into the mesh the triangle will be shown in black.
@@ -89,19 +89,19 @@ You can also manually close holes in your mesh object by
 Another method of manually closing holes in your mesh object would be
 
 - Selecting your mesh object in the tree view
-- Choose Meshes → ![](/src/assets/images/Mesh_FillInteractiveHole.svg) Close hole from the top menu
+- Choose Meshes → ![](/images/Mesh_FillInteractiveHole.svg) Close hole from the top menu
 - Select one of the edges of the hole in the mesh object in the 3D view
 - Right-Click in 3D view and choose Leave hole-filling mode to exit the command
 
 ## Conversion mesh to solid
 
-- Switch to ![](/src/assets/images/Workbench_Part.svg) [Part Workbench](/Part_Workbench "Part Workbench")
+- Switch to ![](/images/Workbench_Part.svg) [Part Workbench](/Part_Workbench "Part Workbench")
 - Make sure your mesh object is selected in the tree view, otherwise select it
-- Choose Part → ![](/src/assets/images/Part_ShapeFromMesh.svg) Create shape from mesh ... from top menu
+- Choose Part → ![](/images/Part_ShapeFromMesh.svg) Create shape from mesh ... from top menu
 - Specify tolerance for sewing shape (0,1 is default)
 - A new object will be created in the tree view (with blue shape icon, instead of green mesh icon)
 - Select the newly created object in the tree view
-- Choose Part → Create a copy → ![](/src/assets/images/Part_RefineShape.svg) Refine shape from the top menu
+- Choose Part → Create a copy → ![](/images/Part_RefineShape.svg) Refine shape from the top menu
 - A new object will be created in the tree view and the previous one will be made invisible
 - Select the newly created object in the tree view
 - Choose Part → Convert to solid from the top menu

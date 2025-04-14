@@ -20,7 +20,7 @@ The "example program" is actually a large Class definition, the definition of a 
 
 The Class definition and the small number of lines of code that invoke are described in the order the occur in the file. This order is based on the screen layout which is rather arbitrary and solely intended to demonstrate features. This is the modal GUI screen the PySide Class generates:
 
-![](/src/assets/images/PySideScreenSnapshot3.jpg)
+![](/images/PySideScreenSnapshot3.jpg)
 
 Most of the remainder of this section will describe the contents of the Class definition which appears at the end of this section. First we will cover the declarative elements that define how things operate and how the GUI is assembled, then we will cover the operative sections (i.e. the code that will execute when user interactions occur). This window is based on the class QDialog and so is modal - which means no activities can be made outside of the window while it is open.
 
@@ -592,7 +592,7 @@ The best way to use this code is to copy it into an editor or FreeCAD macro file
 
 All of the widget specific from the previous modal example transfer to use in a nonmodal window. The main difference is that the nonmodal window does not restrict the user from interacting with other windows. Basically, a nonmodal window is one that can be opened and left open for as long as needed without it placing any restrictions on other application windows. There are a small number of code differences between the two which will be highlighted, consequently this code example is quite brief. Anything that is the same as the previous modal example will be left out in the interests of keeping this overview brief. This is the nonmodal GUI screen the PySide Class generates:
 
-![](/src/assets/images/PySideScreenSnapshot4.jpg)
+![](/images/PySideScreenSnapshot4.jpg)
 
 ### Import Statement
 

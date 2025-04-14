@@ -19,17 +19,17 @@ title: Part Regelfläche
 
 ## Beschreibung
 
-Der Befehl ![](/src/assets/images/Part_RuledSurface.svg) **Part Regelfläche** erstellt eine Regelfläche ([ruled surface](https://en.wikipedia.org/wiki/Ruled_surface)), die zwischen zwei ausgewählten Kannten bzw. Linienzügen aufgespannt wird.
+Der Befehl ![](/images/Part_RuledSurface.svg) **Part Regelfläche** erstellt eine Regelfläche ([ruled surface](https://en.wikipedia.org/wiki/Ruled_surface)), die zwischen zwei ausgewählten Kannten bzw. Linienzügen aufgespannt wird.
 
 Erstellt eine Regelfläche
 
-![](/src/assets/images/PartRuledSurface_it.png)
+![](/images/PartRuledSurface_it.png)
 
 ## Anwendung
 
 1. Zwei Kanten oder Linienzüge auswählen (offene oder geschlossene Konturen).
 2. Es gibt mehrere Möglichkeiten, den Befehl aufzurufenː
-   - Die Schaltfläche ![](/src/assets/images/Part_RuledSurface.svg) Part Regelfläche erzeugen drücken
+   - Die Schaltfläche ![](/images/Part_RuledSurface.svg) Part Regelfläche erzeugen drücken
    - Den Menüeintrag **Part → Regelfläche erzeugen** auswählen
 3. Eine Regelfläche wird zwischen den ausgewählten Kanten bzw. Linienzügen aufgespannt.
 

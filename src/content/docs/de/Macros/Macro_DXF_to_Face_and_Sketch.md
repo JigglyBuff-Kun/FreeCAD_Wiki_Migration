@@ -44,7 +44,7 @@ Es kann auch verwendet werden, um 'Form2DAnsicht' in Skizze zu konvertieren und 
 
 ## Skript
 
-ToolBar Icon ![](/src/assets/images/Macro_DXF_to_Face_and_Sketch.png)
+ToolBar Icon ![](/images/Macro_DXF_to_Face_and_Sketch.png)
 
 **Macro_DXF_to_Face_and_Sketch.FCMacro**
 

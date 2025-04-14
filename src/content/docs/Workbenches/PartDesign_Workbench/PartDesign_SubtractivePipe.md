@@ -24,8 +24,8 @@ title: PartDesign SubtractivePipe
 ## Usage
 
 1. There are several ways to invoke the tool:
-   - Press the ![](/src/assets/images/PartDesign_SubtractivePipe.svg) [Subtractive pipe](/PartDesign_SubtractivePipe "PartDesign SubtractivePipe") button.
-   - Select the **PartDesign → Create an substractive feature → ![](/src/assets/images/PartDesign_SubtractivePipe.svg) Subtractive pipe** option from the menu.
+   - Press the ![](/images/PartDesign_SubtractivePipe.svg) [Subtractive pipe](/PartDesign_SubtractivePipe "PartDesign SubtractivePipe") button.
+   - Select the **PartDesign → Create an substractive feature → ![](/images/PartDesign_SubtractivePipe.svg) Subtractive pipe** option from the menu.
 2. In the **Select feature** dialog, select a sketch to be used as first cross-section and click OK.
    - Alternatively, a sketch or a face of a 3D object ([introduced in 0.20](/Release_notes_0.20 "Release notes 0.20")) can be selected before starting the tool. You will not get this dialog then.
 3. In the **Pipe parameters** under **Profile**, press the Object button.

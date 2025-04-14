@@ -36,11 +36,11 @@ This macro helps managing cells inside FreeCAD's Spreadsheet-workbench. It helps
 
 More information might be found on FreeCAD forums: <http://forum.freecadweb.org/> and particular on <https://forum.freecadweb.org/viewtopic.php?f=22&t=20508&hilit=spreadsheet#p158443> and on Github on <https://github.com/HoWilgh/FCSpreadsheetTools/blob/master/README.md> .
 
-![](/src/assets/images/Screenshot_from_2017-09-02_20-01-49.png)
+![](/images/Screenshot_from_2017-09-02_20-01-49.png)
 
 ## Script
 
-ToolBar Icon ![](/src/assets/images/Macro_SpreadsheetTools.png)
+ToolBar Icon ![](/images/Macro_SpreadsheetTools.png)
 
 **Macro SpreadsheetTools.FCMacro**
 

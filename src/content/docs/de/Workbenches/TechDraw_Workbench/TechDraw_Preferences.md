@@ -4,7 +4,7 @@ title: TechDraw Einstellungen
 
 ## Einführung
 
-Die Einstellungen für den Arbeitsbereich ![](/src/assets/images/Workbench_TechDraw.svg) [TechDraw](/TechDraw_Workbench/de "TechDraw Workbench/de") findet man im [Voreinstellungseditor](/Preferences_Editor/de "Preferences Editor/de"). Den Menüeintrag **Bearbeiten → Einstellungen...** auswählen und dann **![](/src/assets/images/Workbench_TechDraw.svg) TechDraw**. Diese Gruppe steht nur dann zur Verfügung, wenn der Arbeitsbereich TechDraw in der aktuellen FreeCAD-Sitzung geladen wurde.
+Die Einstellungen für den Arbeitsbereich ![](/images/Workbench_TechDraw.svg) [TechDraw](/TechDraw_Workbench/de "TechDraw Workbench/de") findet man im [Voreinstellungseditor](/Preferences_Editor/de "Preferences Editor/de"). Den Menüeintrag **Bearbeiten → Einstellungen...** auswählen und dann **![](/images/Workbench_TechDraw.svg) TechDraw**. Diese Gruppe steht nur dann zur Verfügung, wenn der Arbeitsbereich TechDraw in der aktuellen FreeCAD-Sitzung geladen wurde.
 
 Es gibt sieben Seiten: [Allgemein](#General/de), [Skalieren](#Scale/de), [Maßeinträge](#Dimensions/de), [Beschriftung](#Annotation/de), [Farben](#Colors/de), [Ausblenden verdeckter Kanten (HLR)](#HLR/de) und [Erweitert](#Advanced/de).
 
@@ -14,7 +14,7 @@ Diese Seite wurde für Version 1.0 aktualisiert.
 
 ## Allgemeines
 
-![](/src/assets/images/Preferences_TechDraw_Page_General.png)
+![](/images/Preferences_TechDraw_Page_General.png)
 
 Allgemeine Einstellungen
 
@@ -40,10 +40,10 @@ Allgemeine Einstellungen
 ### Dateien
 
 - **Standardvorlage**: Standard-[Vorlagendatei](/TechDraw_Templates/de "TechDraw Templates/de") für neue Seiten.
-- **Vorlagenverzeichnis**: Startverzeichnis für Symbolleistenschaltfläche ![](/src/assets/images/TechDraw_PageTemplate.svg) [Seite unter Verwendung einer Vorlage einfügen](/TechDraw_PageTemplate/de "TechDraw PageTemplate/de").
+- **Vorlagenverzeichnis**: Startverzeichnis für Symbolleistenschaltfläche ![](/images/TechDraw_PageTemplate.svg) [Seite unter Verwendung einer Vorlage einfügen](/TechDraw_PageTemplate/de "TechDraw PageTemplate/de").
 - **Schraffurmusterdatei**: Standard-[SVG](/SVG/de "SVG/de")- oder [Bitmap](/Bitmap/de "Bitmap/de")-Datei für [Schraffuren](/TechDraw_Hatch/de "TechDraw Hatch/de").
 - **Liniegruppendatei** Alternative Datei für persönliche [Liniengruppen](/TechDraw_LineGroup/de "TechDraw LineGroup/de")-Definitionen.
-- **Schweißverzeichnis**: Standardverzeichnis für Symbolleistenschaltfläche ![](/src/assets/images/TechDraw_WeldSymbol.svg) [Schweißinformationen zur Hinweislinie hinzufügen](/TechDraw_WeldSymbol/de "TechDraw WeldSymbol/de").
+- **Schweißverzeichnis**: Standardverzeichnis für Symbolleistenschaltfläche ![](/images/TechDraw_WeldSymbol.svg) [Schweißinformationen zur Hinweislinie hinzufügen](/TechDraw_WeldSymbol/de "TechDraw WeldSymbol/de").
 - **PAT Datei**: Standarddatei zum Festlegen von PAT-Mustern für [geometrische Schraffuren](/TechDraw_GeometricHatch/de "TechDraw GeometricHatch/de").
 - **Mustername**: Name des Standard-PAT-Musters.
 - **Symbolverzeichnis**: Alternatives Verzeichnis für die Suche nach SVG-Symbol-Dateien.
@@ -69,7 +69,7 @@ Allgemeine Einstellungen
 
 ## Maßstab
 
-![](/src/assets/images/Preferences_TechDraw_Page_Scale.png)
+![](/images/Preferences_TechDraw_Page_Scale.png)
 
 Maßstabseinstellungen
 
@@ -88,7 +88,7 @@ Maßstabseinstellungen
 
 ## Maßeinträge
 
-![](/src/assets/images/Preferences_TechDraw_Page_Dimensions.png)
+![](/images/Preferences_TechDraw_Page_Dimensions.png)
 
 Einstellungen für Maßeinträge
 
@@ -96,7 +96,7 @@ Einstellungen für Maßeinträge
 
 - **Normbasis und Ausführung von Maßeinträgen**: Die Norm, die für Maßeinträge zu verwenden ist. Die Unterschiede zwischen den Normen sind in der Abbildung dargestellt:
 
-![](/src/assets/images/TechDraw_Dimension_standardization.png)
+![](/images/TechDraw_Dimension_standardization.png)
 
 Unterschiede zwischen den unterstützten Normen. ([Image source](https://forum.freecadweb.org/viewtopic.php?f=35&t=39571#p336144))
 
@@ -131,7 +131,7 @@ Unterschiede zwischen den unterstützten Normen. ([Image source](https://forum.f
 
 ## Anmerkung
 
-![](/src/assets/images/Preferences_TechDraw_Page_Annotation.png)
+![](/images/Preferences_TechDraw_Page_Annotation.png)
 
 Einstellungen für Beschriftungen
 
@@ -178,7 +178,7 @@ Einstellungen für Beschriftungen
 
 ## Farben
 
-![](/src/assets/images/Preferences_TechDraw_Page_Colors.png)
+![](/images/Preferences_TechDraw_Page_Colors.png)
 
 Farbeinstellungen
 
@@ -207,7 +207,7 @@ Einstellung der Standardfarben für neue Zeichnungsblätter:
 
 ## HLR
 
-![](/src/assets/images/Preferences_TechDraw_Page_HLR.png)
+![](/images/Preferences_TechDraw_Page_HLR.png)
 
 HLR-Einstellungen
 
@@ -222,7 +222,7 @@ HLR steht für _Entfernen verdeckter Linien_ (engl.: hidden line removal).
 
 ## Erweitert
 
-![](/src/assets/images/Preferences_TechDraw_Page_Advanced.png)
+![](/images/Preferences_TechDraw_Page_Advanced.png)
 
 Erweiterte Einstellungen
 

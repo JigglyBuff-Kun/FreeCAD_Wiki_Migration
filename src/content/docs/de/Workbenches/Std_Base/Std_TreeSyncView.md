@@ -24,7 +24,7 @@ Der Befehl **Std BaumSyncAnsicht** schaltet den SyncView-Modus der [Baumansicht]
 ## Anwendung
 
 1. Es gibt mehrere Möglichkeiten das Werkzeug aufzurufen:
-   - Anklicken des nach unten weisenden Pfeils rechts neben der Schaltfläche ![](/src/assets/images/Std_TreeSyncView.svg) und Auswahl des Eintrags **Sync-Ansicht** von der angezeigten Liste. Hinweis: Das Bild auf der Schaltfläche ändert sich entsprechend der Auswahl.
+   - Anklicken des nach unten weisenden Pfeils rechts neben der Schaltfläche ![](/images/Std_TreeSyncView.svg) und Auswahl des Eintrags **Sync-Ansicht** von der angezeigten Liste. Hinweis: Das Bild auf der Schaltfläche ändert sich entsprechend der Auswahl.
    - Den Menüeintrag **Ansicht → BaumAnsicht-Aktionen → Sync-Ansicht** auswählen.
    - Das Tastaturkürzel T dann 1.
 

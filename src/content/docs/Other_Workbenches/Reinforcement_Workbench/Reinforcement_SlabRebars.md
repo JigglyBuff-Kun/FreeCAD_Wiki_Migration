@@ -21,46 +21,46 @@ title: Reinforcement SlabRebars
 
 The [Reinforcement SlabRebars](/Reinforcement_SlabRebars "Reinforcement SlabRebars") tool allows the user to create reinforcing bars inside a Slab [Arch Structure](/Arch_Structure "Arch Structure") object.
 
-This tool is part of the [Reinforcement Workbench](/Reinforcement_Workbench "Reinforcement Workbench"), an [external workbench](/External_workbenches "External workbenches") that can be installed with the ![](/src/assets/images/Std_AddonMgr.svg) [Addon Manager](/Std_AddonMgr "Std AddonMgr").
+This tool is part of the [Reinforcement Workbench](/Reinforcement_Workbench "Reinforcement Workbench"), an [external workbench](/External_workbenches "External workbenches") that can be installed with the ![](/images/Std_AddonMgr.svg) [Addon Manager](/Std_AddonMgr "Std AddonMgr").
 
-![](/src/assets/images/Isometric_view_of_Bent_Shape_rebars_in_parallel_and_cross_direction_with_distribution_rebars.png)
+![](/images/Isometric_view_of_Bent_Shape_rebars_in_parallel_and_cross_direction_with_distribution_rebars.png)
 
 A Example of Slab Reinforcement inside a Slab [Arch Structure](/Arch_Structure "Arch Structure")
 
-![](/src/assets/images/Right_view_of_Bent_Shape_rebars_in_parallel_and_cross_direction_with_distribution_rebars.png)
+![](/images/Right_view_of_Bent_Shape_rebars_in_parallel_and_cross_direction_with_distribution_rebars.png)
 
 Right view of the given Slab Reinforcement example
 
-![](/src/assets/images/Front_view_of_Bent_Shape_rebars_in_parallel_and_cross_direction_with_distribution_rebars.png)
+![](/images/Front_view_of_Bent_Shape_rebars_in_parallel_and_cross_direction_with_distribution_rebars.png)
 
 Front view of the given Slab Reinforcement example
 
 ## Usage
 
-1. Select any face of a previously created Slab ![](/src/assets/images/Arch_Structure.svg) [Arch Structure](/Arch_Structure "Arch Structure") object. as shown in below image.
+1. Select any face of a previously created Slab ![](/images/Arch_Structure.svg) [Arch Structure](/Arch_Structure "Arch Structure") object. as shown in below image.
 
-: ![](/src/assets/images/Selected_face_for_Slab_Arch_Structure.png)
+: ![](/images/Selected_face_for_Slab_Arch_Structure.png)
 : Selected face for Slab Arch Structure
 
-2. Then select ![](/src/assets/images/Reinforcement_SlabRebars.svg) [Slab Reinforcement](/Reinforcement_SlabRebars "Reinforcement SlabRebars") from the rebar tools.
+2. Then select ![](/images/Reinforcement_SlabRebars.svg) [Slab Reinforcement](/Reinforcement_SlabRebars "Reinforcement SlabRebars") from the rebar tools.
 
 3. A dialog box will pop-out on screen as shown below.
 
-: ![](/src/assets/images/Slab_Reinforcement_input_dialog_box.png)
+: ![](/images/Slab_Reinforcement_input_dialog_box.png)
 : Dialog Box for the Slab Reinforcement
 
 4. Select the desired type of cover of reinforcement mesh (Top or Bottom).
 
 5. Select the desired rebar type and other input data for rebars in parallel direction of selected face as show in below image.
 
-: ![](/src/assets/images/Bent_Shape_rebars_in_parallel_with_distribution_rebars_inputs_for_Slab_Reinforcement.png)
+: ![](/images/Bent_Shape_rebars_in_parallel_with_distribution_rebars_inputs_for_Slab_Reinforcement.png)
 : Dialog Box for Slab Reinforcement of the Rebars in parallel direction of selected face
 
 6. Now click Next or select Cross Rebars in list view.
 
 7. Now select desired data for input data for rabars in cross direction of selected face as show in below image.
 
-: ![](/src/assets/images/Bent_Shape_rebars_in_cross_direction_with_distribution_rebars.png)
+: ![](/images/Bent_Shape_rebars_in_cross_direction_with_distribution_rebars.png)
 : Dialog Box for Slab Reinforcement of the Rebars in cross direction of selected face
 
 8. Click OK or Apply or Finish to generate Slab reinforcement.
@@ -275,22 +275,22 @@ slabReinforcementGroup = editSlabReinforcement(
 
 - [Slab Spanning in Two Directions](/Example_Slab_Spanning_in_Two_Directions "Example Slab Spanning in Two Directions")
 
-![](/src/assets/images/Isometric_view_of_Bent_Shape_rebars_in_parallel_and_cross_direction_with_distribution_rebars.png)
+![](/images/Isometric_view_of_Bent_Shape_rebars_in_parallel_and_cross_direction_with_distribution_rebars.png)
 
 - [Slab Spanning in One Direction](/Example_Slab_Spanning_in_One_Direction "Example Slab Spanning in One Direction")
 
-![](/src/assets/images/Slab_spanning_in_one_Direction.png)
+![](/images/Slab_spanning_in_one_Direction.png)
 
 - [Slab Having Straight Rebars Reinforcement Mesh](/Example_Slab_Having_Mesh_Of_Straight_Rebars "Example Slab Having Mesh Of Straight Rebars")
 
-![](/src/assets/images/Slab_having_straight_rebars_in_both_direction.png)
+![](/images/Slab_having_straight_rebars_in_both_direction.png)
 
 - [Slab Having U-Shape Rebars Reinforcement Mesh](/Example_Slab_Having_UShape_Rebars_Reinforcement_Mesh "Example Slab Having UShape Rebars Reinforcement Mesh")
 
-![](/src/assets/images/U-shape_rebars_isometric_view.png)
+![](/images/U-shape_rebars_isometric_view.png)
 
 - [Slab Having L-Shape Rebars Reinforcement Mesh](/Example_Slab_Having_LShape_Rebars_Reinforcement_Mesh "Example Slab Having LShape Rebars Reinforcement Mesh")
 
-![](/src/assets/images/L-Shape_Rebars_isometric_view.png)
+![](/images/L-Shape_Rebars_isometric_view.png)
 
 Retrieved from "<http://wiki.freecad.org/index.php?title=Reinforcement_SlabRebars/en&oldid=1441021>"

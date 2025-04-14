@@ -23,9 +23,9 @@ This documentation is not finished. Please help and contribute documentation.Gui
 
 ## Description
 
-The ![](/src/assets/images/SheetMetal_BaseShape.svg) **SheetMetal BaseShape** command creates a SheetMetal BaseShape object from parameters.
+The ![](/images/SheetMetal_BaseShape.svg) **SheetMetal BaseShape** command creates a SheetMetal BaseShape object from parameters.
 
-![](/src/assets/images/SheetMetal_BaseShape-01.png)
+![](/images/SheetMetal_BaseShape-01.png)
 
 The five available BaseShapes: L-shape, U-shape, Tub, Hat, and Box
 
@@ -34,9 +34,9 @@ A rectangular sixth shape, called Flat, was introduced in v 0.4.10.
 ## Usage
 
 1. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/SheetMetal_BaseShape.svg) [Add base shape](/SheetMetal_BaseShape "SheetMetal BaseShape") button.
-   - Select the **SheetMetal → ![](/src/assets/images/SheetMetal_BaseShape.svg) Add base shape** option from the menu.
-   - Right-click in the [Tree view](/Tree_view "Tree view") or the [3D view](/3D_view "3D view") and select the **SheetMetal → ![](/src/assets/images/SheetMetal_BaseShape.svg) Add base shape** option from the context menu.
+   - Press the ![](/images/SheetMetal_BaseShape.svg) [Add base shape](/SheetMetal_BaseShape "SheetMetal BaseShape") button.
+   - Select the **SheetMetal → ![](/images/SheetMetal_BaseShape.svg) Add base shape** option from the menu.
+   - Right-click in the [Tree view](/Tree_view "Tree view") or the [3D view](/3D_view "3D view") and select the **SheetMetal → ![](/images/SheetMetal_BaseShape.svg) Add base shape** option from the context menu.
    - Use the keyboard shortcut: H.
 2. The **Sheet metal base shape properties** [Task panel](/Task_panel "Task panel") opens.
 3. Select the desired shape from the **Base shape type** options.

@@ -64,7 +64,7 @@ webbrowser.open("https://raw.githubusercontent.com/psicofil/Macros_FreeCAD/maste
 
 The macro you can find in the following github repository: [Macro_Animated_Constrain.FCMacro](https://github.com/psicofil/Macros_FreeCAD/blob/master/Macros/AnimatedConstrain.FCMacro)
 
-ToolBar Icon ![](/src/assets/images/Macro_Animated_Constrain.png)
+ToolBar Icon ![](/images/Macro_Animated_Constrain.png)
 
 **AnimatedConstrain.FCMacro**
 

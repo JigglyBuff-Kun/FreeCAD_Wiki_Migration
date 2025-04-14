@@ -23,9 +23,9 @@ This documentation is not finished. Please help and contribute documentation.Gui
 
 ## Description
 
-The ![](/src/assets/images/FCGear_HypoCycloidGear.svg) **FCGear HypoCycloid Gear** command creates two splined cam disks and a set of rollers that stay in touch with the disks' outer surfaces while moving.
+The ![](/images/FCGear_HypoCycloidGear.svg) **FCGear HypoCycloid Gear** command creates two splined cam disks and a set of rollers that stay in touch with the disks' outer surfaces while moving.
 
-![](/src/assets/images/FCGear_FCGear_HypoCycloidGear-04.png) ![](/src/assets/images/FCGear_FCGear_HypoCycloidGear-05.png)
+![](/images/FCGear_FCGear_HypoCycloidGear-04.png) ![](/images/FCGear_FCGear_HypoCycloidGear-05.png)
 
 Left: Hypocycloid gear. Right: Gear and transparently displayed also provided reversed gear and set of rollers
 
@@ -36,10 +36,10 @@ Please provide a short description what can be achieved using such a gear train.
 
 ## Usage
 
-1. Switch to the ![](/src/assets/images/FCGear_workbench_icon.svg) [FCGear Workbench](/FCGear_Workbench "FCGear Workbench").
+1. Switch to the ![](/images/FCGear_workbench_icon.svg) [FCGear Workbench](/FCGear_Workbench "FCGear Workbench").
 2. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/FCGear_HypoCycloidGear.svg) [HypoCycloid Gear](/FCGear_HypoCycloidGear "FCGear HypoCycloidGear") button in the toolbar.
-   - Select the **Gear → ![](/src/assets/images/FCGear_HypoCycloidGear.svg) HypoCycloid Gear** option from the menu.
+   - Press the ![](/images/FCGear_HypoCycloidGear.svg) [HypoCycloid Gear](/FCGear_HypoCycloidGear "FCGear HypoCycloidGear") button in the toolbar.
+   - Select the **Gear → ![](/images/FCGear_HypoCycloidGear.svg) HypoCycloid Gear** option from the menu.
 3. Change the gear parameter to the required conditions (see [Properties](#Properties)).
 
 ## Properties
@@ -48,7 +48,7 @@ Please provide a short description what can be achieved using such a gear train.
 
 The default gear(s) are displayed like this:
 
-![](/src/assets/images/FCGear_FCGear_HypoCycloidGear-01.png)
+![](/images/FCGear_FCGear_HypoCycloidGear-01.png)
 
 To display the cam disks and the set of rollers (pins) in different colours, we need three identical HypocycloidGear objects. Their visibility can be toggled:
 
@@ -56,7 +56,7 @@ To display the cam disks and the set of rollers (pins) in different colours, we 
 - Data**show_disk1** (`Bool`) for a reversed cam disk on top.
 - Data**show_pins** (`Bool`) for the set of pins.
 
-![](/src/assets/images/FCGear_FCGear_HypoCycloidGear-02.png) ![](/src/assets/images/FCGear_FCGear_HypoCycloidGear-03.png)
+![](/images/FCGear_FCGear_HypoCycloidGear-02.png) ![](/images/FCGear_FCGear_HypoCycloidGear-03.png)
 
 Left: HypocycloidGear objects as created. Right: Objects repositioned to get a better view on each object
 

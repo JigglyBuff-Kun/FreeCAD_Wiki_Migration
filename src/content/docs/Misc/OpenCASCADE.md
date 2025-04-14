@@ -8,7 +8,7 @@ title: OpenCASCADE
 
 The geometrical classes of OCCT are mostly implemented and made available in FreeCAD through the [Part](/Part_Workbench "Part Workbench") module, on which most other [workbenches](/Workbenches "Workbenches") depend. It also provides internal functions to read and write different file formats like STEP and IGES, and to perform 2D projections, which can be used to create technical drawings in [TechDraw](/TechDraw_Workbench "TechDraw Workbench").
 
-![](/src/assets/images/Part_Workbench_relationships.svg)
+![](/images/Part_Workbench_relationships.svg)
 
 OpenCASCADE provides the basic geometrical classes and drawing functions to the [Part](/Part_Workbench "Part Workbench") module, which are then used by all workbenches in FreeCAD.
 
@@ -52,7 +52,7 @@ A complete list of all primitives and shapes refer to the [OCC documentation](ht
 
 > _Thus, Topology defines the relationship between simple geometric entities, which can be linked together to represent complex shapes._ - [Modeling Data User's Guide](https://www.opencascade.com/doc/occt-7.0.0/overview/html/occt_user_guides__modeling_data.html)
 
-![](/src/assets/images/ClassTopoDS_Shape_inherit_graph.png)
+![](/images/ClassTopoDS_Shape_inherit_graph.png)
 
 **Note:** Only 3 types of topological objects have geometric representations – vertex, edge, and face ([Source](https://opencascade.blogspot.com/2009/02/topology-and-geometry-in-open-cascade.html)).
 
@@ -62,7 +62,7 @@ From an edge or face you can also go back to its geometric primitive counterpart
 
 Thus, out of shapes you can build very complex parts or, the other way round, extract all sub-shapes a more complex shape is made of.
 
-![](/src/assets/images/Part_TopoShape_relationships.svg)
+![](/images/Part_TopoShape_relationships.svg)
 
 The `Part::TopoShape` class is the geometrical object that is seen on screen. Essentially all workbenches use these [TopoShapes](/Part_TopoShape "Part TopoShape") internally to build and display edges, faces, and solids.
 

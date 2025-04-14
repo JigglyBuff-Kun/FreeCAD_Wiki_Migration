@@ -181,21 +181,21 @@ rzx.isSame(rzx1, 1e-15) # True  1e-15 is a tolerance that allows for finite prec
 
 ```
 
-![](/src/assets/images/Cube_R0.png)
+![](/images/Cube_R0.png)
 
 ```
  Axis cube prior to rotation.
 
 ```
 
-![](/src/assets/images/Cube_Rz.png)
+![](/images/Cube_Rz.png)
 
 ```
 After rz - 90 degrees around global z axis
 
 ```
 
-![](/src/assets/images/Cube_Rzx.png)
+![](/images/Cube_Rzx.png)
 
 ```
 After rzx - 90 degrees around global z axis, followed by 90 degrees around global x-axis. This configuration could have been reached by a single 120 degree rotation about the top front right corner (the (1,-1,1) axis.
@@ -311,7 +311,7 @@ def placements_same(pl1, pl2, tol = 1e-7):
 
 #### Compound placement
 
-![](/src/assets/images/Sample_Assembly_structure.png)
+![](/images/Sample_Assembly_structure.png)
 
 Nested placements
 

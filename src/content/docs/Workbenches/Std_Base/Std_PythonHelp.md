@@ -25,7 +25,7 @@ The web server is based on Python's [pydoc](https://docs.python.org/3.8/library/
 
 ## Usage
 
-1. Select the **Help → ![](/src/assets/images/Std_PythonHelp.svg) Automatic python modules documentation** option from the menu.
+1. Select the **Help → ![](/images/Std_PythonHelp.svg) Automatic python modules documentation** option from the menu.
 2. Click on any of the links to go to the documentation of a specific class or function.
 
 Retrieved from "<http://wiki.freecad.org/index.php?title=Std_PythonHelp/en&oldid=1454761>"

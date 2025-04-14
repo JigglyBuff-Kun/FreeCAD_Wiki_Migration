@@ -23,14 +23,14 @@ This documentation is not finished. Please help and contribute documentation.Gui
 
 ## Description
 
-The ![](/src/assets/images/Assembly_CreateJointBall.svg) [Assembly CreateJointBall](/Assembly_CreateJointBall "Assembly CreateJointBall") tool creates a Ball joint (spherical joint) between two selected parts at a single point, allowing free rotation around the point while keeping both parts connected at this point.
+The ![](/images/Assembly_CreateJointBall.svg) [Assembly CreateJointBall](/Assembly_CreateJointBall "Assembly CreateJointBall") tool creates a Ball joint (spherical joint) between two selected parts at a single point, allowing free rotation around the point while keeping both parts connected at this point.
 
 ## Usage
 
 1. Optionally select two geometric entities of two different shapes. Other selections will be rejected.
 2. There are several ways to invoke the tool:
-   - Press the ![](/src/assets/images/Assembly_CreateJointBall.svg) [Create Ball Joint](/Assembly_CreateJointBall "Assembly CreateJointBall") button.
-   - Select the **Assembly → ![](/src/assets/images/Assembly_CreateJointBall.svg) Create Ball Joint** option from the menu.
+   - Press the ![](/images/Assembly_CreateJointBall.svg) [Create Ball Joint](/Assembly_CreateJointBall "Assembly CreateJointBall") button.
+   - Select the **Assembly → ![](/images/Assembly_CreateJointBall.svg) Create Ball Joint** option from the menu.
    - Use the keyboard shortcut: B.
 3. The **Create Joint** dialog opens in the [Task panel](/Task_panel "Task panel") listing the pre-selected entities.
 4. For further steps see [Assembly CreateJointFixed](/Assembly_CreateJointFixed#Usage "Assembly CreateJointFixed").

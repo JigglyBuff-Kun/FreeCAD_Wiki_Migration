@@ -19,15 +19,15 @@ title: Sketcher KreisDurch3PunkteErstellen
 
 ## Beschreibung
 
-Das Werkzeug ![](/src/assets/images/Sketcher_Create3PointCircle.svg) KreisDurch3PunkteErstellen: Erstellt einen Kreis durch Festlegen dreier Punkte im Verlauf seines Umfangs. [eingeführt in 1.0](/Release_notes_1.0/de "Release notes 1.0/de"): Dies ist dasselbe Werkzeug wie [KreisErstellen](/Sketcher_CreateCircle/de "Sketcher CreateCircle/de") aber mit einem anderen Startmodus.
+Das Werkzeug ![](/images/Sketcher_Create3PointCircle.svg) KreisDurch3PunkteErstellen: Erstellt einen Kreis durch Festlegen dreier Punkte im Verlauf seines Umfangs. [eingeführt in 1.0](/Release_notes_1.0/de "Release notes 1.0/de"): Dies ist dasselbe Werkzeug wie [KreisErstellen](/Sketcher_CreateCircle/de "Sketcher CreateCircle/de") aber mit einem anderen Startmodus.
 
 ## Anwendung
 
 Siehe auch: [Zeichnungshilfen](/Sketcher_Workbench/de#Zeichnungshilfen "Sketcher Workbench/de").
 
 1. Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
-   - Die Schaltfläche ![](/src/assets/images/Sketcher_Create3PointCircle.svg) Kreis durch 3 Punkte erstellen drücken.
-   - Den Menüeintrag **Skizze → Skizzengeometrien → ![](/src/assets/images/Sketcher_Create3PointCircle.svg) Kreis durch 3 Punkte erstellen** auswählen.
+   - Die Schaltfläche ![](/images/Sketcher_Create3PointCircle.svg) Kreis durch 3 Punkte erstellen drücken.
+   - Den Menüeintrag **Skizze → Skizzengeometrien → ![](/images/Sketcher_Create3PointCircle.svg) Kreis durch 3 Punkte erstellen** auswählen.
    - Das Tastaturkürzel G dann 3 dann C.
 2. Für weitere Schritte siehe [Sketcher KreisErstellen](/Sketcher_CreateCircle/de#Anwendung "Sketcher CreateCircle/de").
 

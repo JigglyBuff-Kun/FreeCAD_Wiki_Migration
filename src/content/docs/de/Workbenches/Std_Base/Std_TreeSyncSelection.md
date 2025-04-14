@@ -24,7 +24,7 @@ Der Befehl **Std BaumSyncAuswahl** schaltet den Sync-Auswahl-Modus der [Baumansi
 ## Anwendung
 
 1. Es gibt mehrere Möglichkeiten den Befehl aufzurufen:
-   - Den nach unten weisenden Pfeil rechts neben der Schaltfläche ![](/src/assets/images/Std_TreeSyncView.svg) anklicken und den Eintrag **Sync-Auswahl** in der angezeigten Liste auswählen. Hinweis: Das Bild der Schaltfläche ändert sich entsprechend der Auswahl.
+   - Den nach unten weisenden Pfeil rechts neben der Schaltfläche ![](/images/Std_TreeSyncView.svg) anklicken und den Eintrag **Sync-Auswahl** in der angezeigten Liste auswählen. Hinweis: Das Bild der Schaltfläche ändert sich entsprechend der Auswahl.
    - Den Menüeintrag **Ansicht → Baumansicht-Aktionen → Sync-Auswahl** auswählen.
    - Das Tastaturkürzel T dann 2.
 

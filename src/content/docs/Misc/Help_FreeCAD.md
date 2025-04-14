@@ -59,7 +59,7 @@ Then head to [WikiPages](/WikiPages "WikiPages") to familiarize yourself with th
 
 ## Report bugs and ask for interesting features
 
-![](/src/assets/images/Bugreport-workflow.png)
+![](/images/Bugreport-workflow.png)
 
 Although the place to report confirmed bugs and suggest new features is eventually the **[FreeCAD Issue Tracker on GitHub](https://github.com/FreeCAD/FreeCAD/issues)**, please always post bug reports and feature requests to the Help forum first. In order to save developers time (triaging and handling hard to understand bugs can be very time consuming), and avoid frustrations because your issue was not handled the way you would like, please read the following:
 

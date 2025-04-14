@@ -24,9 +24,9 @@ The **Std Paste** command pastes objects from the Clipboard into the active docu
 ## Usage
 
 1. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/Std_Paste.svg) [Paste](/Std_Paste "Std Paste") button.
-   - Select the **Edit → ![](/src/assets/images/Std_Paste.svg) Paste** option from the menu.
-   - Select the **![](/src/assets/images/Std_Paste.svg) Paste** option from the [Tree view](/Tree_view "Tree view") context menu. Note that this option is only available when an existing object has been selected.
+   - Press the ![](/images/Std_Paste.svg) [Paste](/Std_Paste "Std Paste") button.
+   - Select the **Edit → ![](/images/Std_Paste.svg) Paste** option from the menu.
+   - Select the **![](/images/Std_Paste.svg) Paste** option from the [Tree view](/Tree_view "Tree view") context menu. Note that this option is only available when an existing object has been selected.
    - Use the keyboard shortcut: Ctrl+V.
 
 ## Notes

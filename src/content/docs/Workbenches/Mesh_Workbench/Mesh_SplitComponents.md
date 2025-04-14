@@ -25,8 +25,8 @@ The **Mesh SplitComponents** command splits a mesh object into its components. A
 
 1. Select a single mesh object.
 2. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/Mesh_SplitComponents.svg) [Split by components](/Mesh_SplitComponents "Mesh SplitComponents") button.
-   - Select the **Meshes → ![](/src/assets/images/Mesh_SplitComponents.svg) Split by components** option from the menu.
+   - Press the ![](/images/Mesh_SplitComponents.svg) [Split by components](/Mesh_SplitComponents "Mesh SplitComponents") button.
+   - Select the **Meshes → ![](/images/Mesh_SplitComponents.svg) Split by components** option from the menu.
 
 ## Properties
 

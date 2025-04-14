@@ -23,7 +23,7 @@ Das Werkzeug **TechDraw Ansicht** fügt eine Darstellung eines oder mehrerer Obj
 
 In 0.21 und davor kann das Werkzeug nur eine [Bauteilansicht](#Properties_Part_View/de) erstellen, die einem Element der Ansichtengruppe sehr ähnlich ist.
 
-![](/src/assets/images/TechDraw_View_example.png)
+![](/images/TechDraw_View_example.png)
 
 Ansicht eines Würfel-Volmenkörpers mit verdeckten Kanten
 
@@ -33,8 +33,8 @@ Ansicht eines Würfel-Volmenkörpers mit verdeckten Kanten
 2. Ein oder mehrere Objekte mit einer Daten-Eigenschaft**Shape** in der 3D-Ansicht oder der [Baumansicht](/Tree_view/de "Tree view/de") auswählen. Es können auch [Std Parts](/Std_Part/de "Std Part/de") oder [Std Gruppen](/Std_Group/de "Std Group/de") ausgewählt werden, die solche Objekte enthalten. Wird in der 3D-Ansicht ausgewählt, kann die erste ausgewählte Fläche zum Festlegen der Projektionsrichtung der primären Ansicht eingesetzt werden. Es sollte kein Objekt in der 3D-Ansicht ausgewählt werden, wenn die aktuelle Kameraausrichtung verwendet werden soll.
 3. Wenn mehrere Zeichnungsblätter im Dokument vorhanden sind: Wahlweise das gewünschte Zeichnungsblatt durch Auswählen in der [Baumansicht](/Tree_view/de "Tree view/de") zur Auswahl hinzufügen.
 4. Es gibt mehrere Möglichkeiten das Werkzeug aufzurufen:
-   - Die Schaltfläche ![](/src/assets/images/TechDraw_View.svg) Ansicht einfügen drücken.
-   - Den Menüeintrag **TechDraw → TechDraw Ansichten → ![](/src/assets/images/TechDraw_View.svg) Ansicht einfügen** auswählen.
+   - Die Schaltfläche ![](/images/TechDraw_View.svg) Ansicht einfügen drücken.
+   - Den Menüeintrag **TechDraw → TechDraw Ansichten → ![](/images/TechDraw_View.svg) Ansicht einfügen** auswählen.
 5. Wenn mehrere Zeichnungsblätter im Dokument vorhanden sind und kein Blatt im [Hauptansichtsbereich](/Main_view_area/de "Main view area/de") angezeigt wird und außerdem noch kein Blatt aktiviert wurde, wird das Dialogfeld **Blattauswahl** geöffnet:
    1. Das gewünschte Zeichnungsblatt auswählen.
    2. Die Schaltfläche OK drücken.
@@ -43,16 +43,16 @@ Ansicht eines Würfel-Volmenkörpers mit verdeckten Kanten
    - **Skalieren**: `Seite`, `Automatisch` oder `Benutzerdefiniert` auswählen. Wurde die letzte Möglichkeit ausgewählt: Zähler und Nenner des Maßstabs eingeben.
    - **Richtung**: Mit den zur Verfügung stehenden Schaltflächen die Projektionsrichtung einstellen und die primäre Ansicht drehen:
      - Die Schaltfläche [#.## #.## #.##] in der Mitte zeigt die aktuelle Projektionsrichtung an. Die anfänglichen Werte hängen von der [Voreinstellung](/TechDraw_Preferences/de#Allgemeines "TechDraw Preferences/de") **3D-Kamerarichtung verwenden** ab. Die Schaltfläche drücken, um Ausrichtung und Drehung der Ansicht manuell einzustellen.
-     - Die Schaltfläche ![](/src/assets/images/Arrow-up.svg), ![](/src/assets/images/Arrow-down.svg), ![](/src/assets/images/Arrow-left.svg) oder ![](/src/assets/images/Arrow-right.svg) drücken, um die Projektionsrichtung in 90°-Schritten um die horizontale bzw. vertikale Achse der Ansicht zu drehen.
-     - Die Schaltfläche ![](/src/assets/images/Arrow-cw.svg) oder ![](/src/assets/images/Arrow-ccw.svg) drücken, um die Ansicht in 90°-Schritten um die Projektionsrichtung zu drehen.
-     - Die Schaltfläche ![](/src/assets/images/TechDraw_ProjFront.svg) drücken, um die Projektionsrichtung der primären Ansicht auf die normale [Vorderansicht](/Std_ViewFront/de "Std ViewFront/de") einzustellen.
-     - Die Schaltfläche ![](/src/assets/images/TechDraw_CameraOrientation.svg) drücken, um die Projektionsrichtung auf die zuerst ausgewählte Fläche auszurichten, falls möglich, oder andernfalls entsprechend der aktuellen Kameraausrichtung.
+     - Die Schaltfläche ![](/images/Arrow-up.svg), ![](/images/Arrow-down.svg), ![](/images/Arrow-left.svg) oder ![](/images/Arrow-right.svg) drücken, um die Projektionsrichtung in 90°-Schritten um die horizontale bzw. vertikale Achse der Ansicht zu drehen.
+     - Die Schaltfläche ![](/images/Arrow-cw.svg) oder ![](/images/Arrow-ccw.svg) drücken, um die Ansicht in 90°-Schritten um die Projektionsrichtung zu drehen.
+     - Die Schaltfläche ![](/images/TechDraw_ProjFront.svg) drücken, um die Projektionsrichtung der primären Ansicht auf die normale [Vorderansicht](/Std_ViewFront/de "Std ViewFront/de") einzustellen.
+     - Die Schaltfläche ![](/images/TechDraw_CameraOrientation.svg) drücken, um die Projektionsrichtung auf die zuerst ausgewählte Fläche auszurichten, falls möglich, oder andernfalls entsprechend der aktuellen Kameraausrichtung.
    - **Sekundäre Ansichten**: Wahlweise sekundäre Ansichten zusätzlich zu der Primären Ansicht erstellen. Es muss wenigstens eine sekundäre Ansicht aktiviert werden, damit alle Bedienelemente für diesen Bereich angezeigt werden.
 8. Wurden einige Parameter geändert, kann es erforderlich sein, die Schaltfläche Anwenden zu drücken, um die Ansicht(en) zu aktualisieren.
 9. Die Schaltfläche OK drücken.
 10. Ein [Element der Ansichtengruppe](#Properties_Projection_Group_Item/de) wird eingefügt oder, wenn es eine oder mehrere sekundäre Ansichten gibt, eine [Ansichtengruppe](/TechDraw_ProjectionGroup/de "TechDraw ProjectionGroup/de").
 
-![](/src/assets/images/TechDraw_View_Taskpanel.png)
+![](/images/TechDraw_View_Taskpanel.png)
 
 [Ansicht-Fenster](/Task_panel/de "Task panel/de") Bauteilansicht
 

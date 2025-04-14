@@ -30,7 +30,7 @@ Beispielausgabe: Kameraeinstellungen nach dem Umstellen der Ansicht auf [Isometr
 
 ## Anwendung
 
-1. Den Menüeintrag **Ansicht → Stereo → ![](/src/assets/images/Std_ViewIvIssueCamPos.svg) Kameraposition ausgeben** auswählen.
+1. Den Menüeintrag **Ansicht → Stereo → ![](/images/Std_ViewIvIssueCamPos.svg) Kameraposition ausgeben** auswählen.
 
 ## Hinweise
 

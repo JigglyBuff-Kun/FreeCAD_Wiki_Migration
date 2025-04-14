@@ -23,7 +23,7 @@ The **Std MergeProjects** command adds the contents of a FreeCAD file into the a
 
 ## Usage
 
-1. Select the **File → ![](/src/assets/images/Std_MergeProjects.svg) Merge document...** option from the menu.
+1. Select the **File → ![](/images/Std_MergeProjects.svg) Merge document...** option from the menu.
 2. Select a FreeCAD file in the dialog box.
 3. Press the Open button.
 

@@ -23,19 +23,19 @@ This command is obsolete, it is not available in0.5.13 and above. UsePartDesign 
 
 ## Description
 
-The ![](/src/assets/images/Fasteners_ChamferHole.svg) **Fasteners ChamferHole** command chamfers holes for countersunk screws.
+The ![](/images/Fasteners_ChamferHole.svg) **Fasteners ChamferHole** command chamfers holes for countersunk screws.
 
-![](/src/assets/images/Fasteners_ChamferHole_Example.png)
+![](/images/Fasteners_ChamferHole_Example.png)
 
 Chamfered holes for countersunk screws
 
 ## Usage
 
-1. The command can detect screw diameters automatically. Holes must have the correct diameter for this to work. For example an M5 screw requires a 5mm pass hole or a 4.2mm tap hole. The ![](/src/assets/images/Fasteners_ScrewCalculator.svg) [Fasteners ScrewCalculator](/Fasteners_ScrewCalculator "Fasteners ScrewCalculator") command can be used to determine tap hole diameters.
+1. The command can detect screw diameters automatically. Holes must have the correct diameter for this to work. For example an M5 screw requires a 5mm pass hole or a 4.2mm tap hole. The ![](/images/Fasteners_ScrewCalculator.svg) [Fasteners ScrewCalculator](/Fasteners_ScrewCalculator "Fasteners ScrewCalculator") command can be used to determine tap hole diameters.
 2. Select a part with circular holes.
 3. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/Fasteners_ChamferHole.svg) [Make countersunk](/Fasteners_ChamferHole "Fasteners ChamferHole") button.
-   - Select the **Fasteners → ![](/src/assets/images/Fasteners_ChamferHole.svg) Make countersunk** option from the menu.
+   - Press the ![](/images/Fasteners_ChamferHole.svg) [Make countersunk](/Fasteners_ChamferHole "Fasteners ChamferHole") button.
+   - Select the **Fasteners → ![](/images/Fasteners_ChamferHole.svg) Make countersunk** option from the menu.
 4. The **Chamfer holes for countersunk screws** task panel opens.
 5. The **Edges to chamfer** list shows all circular edges of the selected part.
 6. Select the edges you want to chamfer by doing one of the following:

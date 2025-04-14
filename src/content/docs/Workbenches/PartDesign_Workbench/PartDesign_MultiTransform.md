@@ -19,11 +19,11 @@ title: PartDesign MultiTransform
 
 ## Description
 
-The ![](/src/assets/images/PartDesign_MultiTransform.svg) **PartDesign MultiTransform** tool creates a pattern of one or more features. The pattern can include multiple transformations where each subsequent transformation is applied to the result of the previous transformation.
+The ![](/images/PartDesign_MultiTransform.svg) **PartDesign MultiTransform** tool creates a pattern of one or more features. The pattern can include multiple transformations where each subsequent transformation is applied to the result of the previous transformation.
 
-The available transformations are: ![](/src/assets/images/PartDesign_Mirrored.svg) [Mirrored](/PartDesign_Mirrored "PartDesign Mirrored"), ![](/src/assets/images/PartDesign_LinearPattern.svg) [LinearPattern](/PartDesign_LinearPattern "PartDesign LinearPattern"), ![](/src/assets/images/PartDesign_PolarPattern.svg) [PolarPattern](/PartDesign_PolarPattern "PartDesign PolarPattern") and ![](/src/assets/images/PartDesign_Scaled.svg) [Scaled](/PartDesign_Scaled "PartDesign Scaled"). The first three are also available as separate tools.
+The available transformations are: ![](/images/PartDesign_Mirrored.svg) [Mirrored](/PartDesign_Mirrored "PartDesign Mirrored"), ![](/images/PartDesign_LinearPattern.svg) [LinearPattern](/PartDesign_LinearPattern "PartDesign LinearPattern"), ![](/images/PartDesign_PolarPattern.svg) [PolarPattern](/PartDesign_PolarPattern "PartDesign PolarPattern") and ![](/images/PartDesign_Scaled.svg) [Scaled](/PartDesign_Scaled "PartDesign Scaled"). The first three are also available as separate tools.
 
-![](/src/assets/images/Multitransform_example.png)
+![](/images/Multitransform_example.png)
 
 A pattern of holes created from a single Hole feature by applying a LinearPattern with 2 occurrences, followed by a PolarPattern with 8 occurrences.
 
@@ -34,8 +34,8 @@ A pattern of holes created from a single Hole feature by applying a LinearPatter
 1. Optionally [activate](/PartDesign_Body#Active_status "PartDesign Body") the correct Body.
 2. Optionally select one or more features in the [Tree view](/Tree_view "Tree view") or the [3D view](/3D_view "3D view").
 3. There are several ways to invoke the tool:
-   - Press the ![](/src/assets/images/PartDesign_MultiTransform.svg) [Create MultiTransform](/PartDesign_MultiTransform "PartDesign MultiTransform") button.
-   - Select the **Part Design → Apply a pattern → ![](/src/assets/images/PartDesign_MultiTransform.svg) Create MultiTransform** option from the menu.
+   - Press the ![](/images/PartDesign_MultiTransform.svg) [Create MultiTransform](/PartDesign_MultiTransform "PartDesign MultiTransform") button.
+   - Select the **Part Design → Apply a pattern → ![](/images/PartDesign_MultiTransform.svg) Create MultiTransform** option from the menu.
 4. If there is no active Body, and there are two or more Bodies in the document, the **Active Body Required** dialog will open and prompt you to activate one. If there is a single Body it will be activated automatically.
 5. If no features were selected the **Select feature** [task panel](/Task_panel "Task panel") opens: select one or more (hold down the Ctrl key) from the list and press the OK button.
 6. The **MultiTransform parameters** [task panel](/Task_panel "Task panel") opens. See [Options](#Options) for more information.
@@ -56,8 +56,8 @@ It is possible to create a MultiTransform object from existing [Mirrored](/PartD
 1. Check the Data**Originals** property of the existing transformations to make sure they have been applied to the same features.
 2. Select those features in the [Tree view](/Tree_view "Tree view").
 3. There are several ways to invoke the tool:
-   - Press the ![](/src/assets/images/PartDesign_MultiTransform.svg) [Create MultiTransform](/PartDesign_MultiTransform "PartDesign MultiTransform") button.
-   - Select the **Part Design → Apply a pattern → ![](/src/assets/images/PartDesign_MultiTransform.svg) Create MultiTransform** option from the menu.
+   - Press the ![](/images/PartDesign_MultiTransform.svg) [Create MultiTransform](/PartDesign_MultiTransform "PartDesign MultiTransform") button.
+   - Select the **Part Design → Apply a pattern → ![](/images/PartDesign_MultiTransform.svg) Create MultiTransform** option from the menu.
 4. The **MultiTransform parameters** [task panel](/Task_panel "Task panel") opens.
 5. Press the OK button at the top.
 6. Edit the Data**Tranformations** property of the created MultiTransform object:
@@ -117,14 +117,14 @@ You can use this tool to create a fully parametric part that is symmetrical abou
 
 This could be a 150x100x10mm large mounting plate for a motor with symmetric holes.
 
-![](/src/assets/images/PartDesign_MultiTransform_Example2.png)
+![](/images/PartDesign_MultiTransform_Example2.png)
 
-1. Create a ![](/src/assets/images/PartDesign_Body.svg) [Body](/PartDesign_Body "PartDesign Body") and add a ![](/src/assets/images/PartDesign_NewSketch.svg) [sketch](/PartDesign_NewSketch "PartDesign NewSketch") on one of its base planes.
+1. Create a ![](/images/PartDesign_Body.svg) [Body](/PartDesign_Body "PartDesign Body") and add a ![](/images/PartDesign_NewSketch.svg) [sketch](/PartDesign_NewSketch "PartDesign NewSketch") on one of its base planes.
 2. In the sketch create geometry for one quadrant of the part (i.e. the upper right quadrant).
    - Note that the constraints must also only cover a quarter of the part, e.g. instead of the full dimension of `150mm` enter `150/2mm` or `75mm`.
    - Make sure the sketch is closed by adding lines along the vertical and horizontal axes.
-3. Extrude the part with ![](/src/assets/images/PartDesign_Pad.svg) [PartDesign Pad](/PartDesign_Pad "PartDesign Pad").
-4. Select ![](/src/assets/images/PartDesign_MultiTransform.svg) **PartDesign MultiTransform**.
+3. Extrude the part with ![](/images/PartDesign_Pad.svg) [PartDesign Pad](/PartDesign_Pad "PartDesign Pad").
+4. Select ![](/images/PartDesign_MultiTransform.svg) **PartDesign MultiTransform**.
 5. The task dialog opens.
 6. The last feature of the Body is already selected. Since we want to mirror that feature we can ignore the Add feature and Remove feature buttons.
 7. Right-click in the **Transformations** field and select **Add mirrored transformation** from the context menu.

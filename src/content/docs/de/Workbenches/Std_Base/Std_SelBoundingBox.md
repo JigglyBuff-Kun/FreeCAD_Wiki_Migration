@@ -23,7 +23,7 @@ Der **Std WahlBegrenzungRahmen** Befehl schaltet den Modus der globalen Begrenzu
 
 ## Anwendung
 
-1. - Die Menüoption **Ansicht → ![](/src/assets/images/Std_SelBoundingBox.svg) Begrenzungsrahmen** auswählen.
+1. - Die Menüoption **Ansicht → ![](/images/Std_SelBoundingBox.svg) Begrenzungsrahmen** auswählen.
 
 ## Skripten
 

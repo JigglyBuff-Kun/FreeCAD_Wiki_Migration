@@ -26,7 +26,7 @@ This documentation is not finished. Please help and contribute documentation.Gui
 
 ## Description
 
-The tool ![](/src/assets/images/CAM_Waterline.svg) [Waterline](/CAM_Waterline "CAM Waterline") creates a new Waterline operation. As of 0.19_pre, the operation works on the entire model to generate G-code for the Job. Currently, within the operation's settings there is no functionality to select specific areas, faces, or regions of the model.
+The tool ![](/images/CAM_Waterline.svg) [Waterline](/CAM_Waterline "CAM Waterline") creates a new Waterline operation. As of 0.19_pre, the operation works on the entire model to generate G-code for the Job. Currently, within the operation's settings there is no functionality to select specific areas, faces, or regions of the model.
 
 The Waterline operation has two algorithms: OCL Drop Cutter and Experimental.
 
@@ -45,7 +45,7 @@ Usage instructions for multiple variations of the [Waterline](/CAM_Waterline "CA
 
 #### Basic Operation
 
-1. Press the ![](/src/assets/images/CAM_Waterline.svg) [Waterline](/CAM_Waterline "CAM Waterline") icon, or select the [Waterline](/CAM_Waterline "CAM Waterline") tool from the **CAM** menu.
+1. Press the ![](/images/CAM_Waterline.svg) [Waterline](/CAM_Waterline "CAM Waterline") icon, or select the [Waterline](/CAM_Waterline "CAM Waterline") tool from the **CAM** menu.
 2. Select the tool controller for the Operation from the Tool controller dialogue pop up window.
 3. Adjust the operation depths as needed in the Depths tab: Start Depth, Final Depth, Step Down.
 4. Make adjustments in Heights tab if needed.
@@ -69,7 +69,7 @@ To achieve different, or more complex, effects, adjust additional operation prop
 - It does not handle overhangs correctly.
 - It only returns paths for an End Mill type cutter (tool bit).
 - It might not correctly catch all interior features.
-- It is just that, experimental, and not ready for mainstream integration. Please inspect paths with the built-in ![](/src/assets/images/CAM_Simulator.svg) [CAM Simulator](/CAM_Simulator "CAM Simulator"), or other 3rd-party G-code inspection tools, before cutting with your machine.
+- It is just that, experimental, and not ready for mainstream integration. Please inspect paths with the built-in ![](/images/CAM_Simulator.svg) [CAM Simulator](/CAM_Simulator "CAM Simulator"), or other 3rd-party G-code inspection tools, before cutting with your machine.
 
 #### Available Tool (Cutter) Shapes
 
@@ -83,7 +83,7 @@ When using the **_OCL Dropcutter_** algorithm, the Waterline operation uses Open
 
 #### Additional Notes
 
-- Should you choose to run the path simulator, ![](/src/assets/images/CAM_Simulator.svg) [CAM Simulator](/CAM_Simulator "CAM Simulator"), in the CAM Workbench, you might not see tool-shape-specific material removal. Be cautious. A small trial job using foam or other very non-dense material is recommended to verify paths are correct with your selected tool controller.
+- Should you choose to run the path simulator, ![](/images/CAM_Simulator.svg) [CAM Simulator](/CAM_Simulator "CAM Simulator"), in the CAM Workbench, you might not see tool-shape-specific material removal. Be cautious. A small trial job using foam or other very non-dense material is recommended to verify paths are correct with your selected tool controller.
 - As of May 2020, only the End Mill has any type of testing to determine accuracy of the FreeCAD-to-OCL tool settings translation. Please post any feedback for non-end-mill usage to the [Path/CAM](https://forum.freecadweb.org/viewforum.php?f=15) section in the FreeCAD forums.
 
 ## Properties

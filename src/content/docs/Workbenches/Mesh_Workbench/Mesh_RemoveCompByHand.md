@@ -27,7 +27,7 @@ The **Mesh RemoveCompByHand** command removes components from mesh objects.
 2. The command uses the color red to mark selected components. To see them properly:
    - The View**Display Mode** of the mesh objects should show faces. If necessary use the [Std DrawStyle](/Std_DrawStyle "Std DrawStyle") command to override this property.
    - The View**Shape Color** of the mesh objects should not be red.
-3. Select the **Meshes → ![](/src/assets/images/Mesh_RemoveCompByHand.svg) Remove components by hand...** option from the menu.
+3. Select the **Meshes → ![](/images/Mesh_RemoveCompByHand.svg) Remove components by hand...** option from the menu.
 4. The cursor changes to a hand icon.
 5. Select the components you wish to delete in the [3D view](/3D_view "3D view").
 6. Optionally select **Clear selected faces** from the 3D view context menu to deselect all components.

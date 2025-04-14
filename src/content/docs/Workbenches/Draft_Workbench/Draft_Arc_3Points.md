@@ -19,11 +19,11 @@ title: Draft Arc 3Points
 
 ## Description
 
-The ![](/src/assets/images/Draft_Arc_3Points.svg) **Draft Arc 3Points** command creates a circular arc on the current [working plane](/Draft_SelectPlane "Draft SelectPlane") from three points that define its circumference. The center and radius are calculated from these points.
+The ![](/images/Draft_Arc_3Points.svg) **Draft Arc 3Points** command creates a circular arc on the current [working plane](/Draft_SelectPlane "Draft SelectPlane") from three points that define its circumference. The center and radius are calculated from these points.
 
 A Draft Arc is in fact a [Draft Circle](/Draft_Circle "Draft Circle") with a Data**First Angle** that is not the same as its Data**Last Angle**.
 
-![](/src/assets/images/Draft_Arc_3Points_example.png)
+![](/images/Draft_Arc_3Points_example.png)
 
 Arc defined by three points on its circumference
 
@@ -32,20 +32,20 @@ Arc defined by three points on its circumference
 See also: [Draft Tray](/Draft_Tray "Draft Tray"), [Draft Snap](/Draft_Snap "Draft Snap") and [Draft Constrain](/Draft_Constrain "Draft Constrain").
 
 1. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/Draft_Arc_3Points.svg) [Arc by 3 points](/Draft_Arc_3Points "Draft Arc 3Points") button.
-   - [Draft](/Draft_Workbench "Draft Workbench"): Select the **Drafting → Arc tools → ![](/src/assets/images/Draft_Arc_3Points.svg) Arc by 3 points** option from the menu.
-   - [BIM](/BIM_Workbench "BIM Workbench"): Select the **2D Drafting → ![](/src/assets/images/Draft_Arc_3Points.svg) Arc by 3 points** option from the menu.
+   - Press the ![](/images/Draft_Arc_3Points.svg) [Arc by 3 points](/Draft_Arc_3Points "Draft Arc 3Points") button.
+   - [Draft](/Draft_Workbench "Draft Workbench"): Select the **Drafting → Arc tools → ![](/images/Draft_Arc_3Points.svg) Arc by 3 points** option from the menu.
+   - [BIM](/BIM_Workbench "BIM Workbench"): Select the **2D Drafting → ![](/images/Draft_Arc_3Points.svg) Arc by 3 points** option from the menu.
    - Use the keyboard shortcut: A then T.
 2. The **Arc by 3 points** task panel opens. See [Options](#Options) for more information.
-3. Pick the first point in the [3D view](/3D_view "3D view"), or type coordinates and press the ![](/src/assets/images/Draft_AddPoint.svg) Enter point button.
-4. Pick the second point in the [3D view](/3D_view "3D view"), or type coordinates and press the ![](/src/assets/images/Draft_AddPoint.svg) Enter point button.
-5. Pick the third point in the [3D view](/3D_view "3D view"), or type coordinates and press the ![](/src/assets/images/Draft_AddPoint.svg) Enter point button.
+3. Pick the first point in the [3D view](/3D_view "3D view"), or type coordinates and press the ![](/images/Draft_AddPoint.svg) Enter point button.
+4. Pick the second point in the [3D view](/3D_view "3D view"), or type coordinates and press the ![](/images/Draft_AddPoint.svg) Enter point button.
+5. Pick the third point in the [3D view](/3D_view "3D view"), or type coordinates and press the ![](/images/Draft_AddPoint.svg) Enter point button.
 
 ## Options
 
 The single character keyboard shortcuts available in the task panel can be changed. See [Draft Preferences](/Draft_Preferences "Draft Preferences"). The shortcuts mentioned here are the default shortcuts (for version 1.0).
 
-- To manually enter coordinates enter the X, Y and Z component, and press Enter after each. Or you can press the ![](/src/assets/images/Draft_AddPoint.svg) Enter point button when you have the desired values. It is advisable to move the pointer out of the [3D view](/3D_view "3D view") before entering coordinates.
+- To manually enter coordinates enter the X, Y and Z component, and press Enter after each. Or you can press the ![](/images/Draft_AddPoint.svg) Enter point button when you have the desired values. It is advisable to move the pointer out of the [3D view](/3D_view "3D view") before entering coordinates.
 - Press R or click the **Relative** checkbox to toggle relative mode. If relative mode is on, coordinates are relative to the last point, if available, else they are relative to the coordinate system origin.
 - Press G or click the **Global** checkbox to toggle global mode. If global mode is on, coordinates are relative to the global coordinate system, else they are relative to the [working plane](/Draft_SelectPlane "Draft SelectPlane") coordinate system.
 - Press N or click the **Continue** checkbox to toggle continue mode. If continue mode is on, the command will restart after finishing, allowing you to continue creating arcs.

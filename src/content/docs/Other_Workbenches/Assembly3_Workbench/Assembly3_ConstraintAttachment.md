@@ -31,7 +31,7 @@ This link leaves no degree of freedom (DOF) unconstrained.
 
 1. Place two objects into an assembly.
 2. Select one element of each object.
-3. Press the ![](/src/assets/images/Part_Attachment.svg) [Create "Attachment" constraint](/Assembly3_ConstraintAttachment "Assembly3 ConstraintAttachment") button.
+3. Press the ![](/images/Part_Attachment.svg) [Create "Attachment" constraint](/Assembly3_ConstraintAttachment "Assembly3 ConstraintAttachment") button.
 4. The objects are rearranged so that their ECSs share the same origin and have the same orientation.
 
 Retrieved from "<http://wiki.freecad.org/index.php?title=Assembly3_ConstraintAttachment/en&oldid=1168429>"

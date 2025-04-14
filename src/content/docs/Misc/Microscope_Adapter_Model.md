@@ -11,8 +11,8 @@ This model is included in the Wiki as an example of best practices for Spreadshe
 
 # Images
 
-![](/src/assets/images/Mscope_adapter_1.png)
-![](/src/assets/images/Mscope_adapter_ss.png)
+![](/images/Mscope_adapter_1.png)
+![](/images/Mscope_adapter_ss.png)
 
 # Parametric Model
 

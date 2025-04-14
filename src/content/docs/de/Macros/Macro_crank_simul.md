@@ -30,7 +30,7 @@ title: Kurbel Simulation
 
 Meine einfache Animation verwendet Skizze und Skizzierer Löser, um die Kolbenposition und die Pleuelposition/-rotation zu bestimmen.
 
-![](/src/assets/images/Crank_00.gif)
+![](/images/Crank_00.gif)
 
 ## Anwendung
 
@@ -50,7 +50,7 @@ Um die Animation anzuhalten tippe:
 
 ## Skript
 
-ToolBar Icon ![](/src/assets/images/Macro_crank_simul.png)
+ToolBar Icon ![](/images/Macro_crank_simul.png)
 
 **crank_simul.FCMacro**
 

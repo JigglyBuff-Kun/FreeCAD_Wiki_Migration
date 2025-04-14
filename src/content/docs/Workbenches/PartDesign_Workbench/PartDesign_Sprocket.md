@@ -24,7 +24,7 @@ This tool allows you to create a 2D profile of a sprocket (or chainwheel). It ca
 ## Usage
 
 1. Optionally activate the correct body.
-2. Go to the menu **Part Design → ![](/src/assets/images/PartDesign_Sprocket.svg) Sprocket...**.
+2. Go to the menu **Part Design → ![](/images/PartDesign_Sprocket.svg) Sprocket...**.
 3. Set the Data**Number Of Teeth** and the Data**Sprocket Reference**.
 4. Click OK.
 5. If there was no active body: drag and drop the sprocket into a body for the application of further features like padding.

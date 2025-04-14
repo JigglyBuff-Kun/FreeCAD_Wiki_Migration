@@ -27,22 +27,22 @@ The **Arch Rebar** tool allows you to place [reinforcing bars](http://en.wikiped
 
 Rebar objects are based on 2D profiles such as [Draft objects](/Draft_Workbench "Draft Workbench") and [Sketches](/Sketcher_Workbench "Sketcher Workbench"), that must be drawn on a face of the structural object. After creation you can adjust the properties of the rebar, including the number and diameter of the bars, and the offset distance between them and the faces of the structural element.
 
-![](/src/assets/images/Arch_Rebar_example.jpg)
+![](/images/Arch_Rebar_example.jpg)
 
 Structural object with two sketches drawn on its faces, which are then turned into two sets of rebar objects
 
 ## Usage
 
-1. Switch to the ![](/src/assets/images/Workbench_BIM.svg) [BIM Workbench](/BIM_Workbench "BIM Workbench")
-2. Create an ![](/src/assets/images/Arch_Structure.svg) [Arch Structure](/Arch_Structure "Arch Structure") element.
-3. Switch to the ![](/src/assets/images/Workbench_Sketcher.svg) [Sketcher Workbench](/Sketcher_Workbench "Sketcher Workbench").
+1. Switch to the ![](/images/Workbench_BIM.svg) [BIM Workbench](/BIM_Workbench "BIM Workbench")
+2. Create an ![](/images/Arch_Structure.svg) [Arch Structure](/Arch_Structure "Arch Structure") element.
+3. Switch to the ![](/images/Workbench_Sketcher.svg) [Sketcher Workbench](/Sketcher_Workbench "Sketcher Workbench").
 4. Select one face of the structural element.
-5. Press the ![](/src/assets/images/Sketcher_NewSketch.svg) [New Sketch](/Sketcher_NewSketch "Sketcher NewSketch") button to start a new sketch on the selected face.
+5. Press the ![](/images/Sketcher_NewSketch.svg) [New Sketch](/Sketcher_NewSketch "Sketcher NewSketch") button to start a new sketch on the selected face.
 6. Draw the diagram of your bar.
-7. Press the ![](/src/assets/images/Sketcher_LeaveSketch.svg) [Leave Sketch](/Sketcher_LeaveSketch "Sketcher LeaveSketch") button to finish.
-8. Switch back to the ![](/src/assets/images/Workbench_BIM.svg) [BIM Workbench](/BIM_Workbench "BIM Workbench").
+7. Press the ![](/images/Sketcher_LeaveSketch.svg) [Leave Sketch](/Sketcher_LeaveSketch "Sketcher LeaveSketch") button to finish.
+8. Switch back to the ![](/images/Workbench_BIM.svg) [BIM Workbench](/BIM_Workbench "BIM Workbench").
 9. Select the sketch you just drew.
-10. Press the ![](/src/assets/images/Arch_Rebar.svg) [Rebar](/Arch_Rebar "Arch Rebar") button, or press R then B keys.
+10. Press the ![](/images/Arch_Rebar.svg) [Rebar](/Arch_Rebar "Arch Rebar") button, or press R then B keys.
 11. Adjust the desired properties (your rebar might not appear immediately, if some of the properties create an impossible situation, such as the bar diameter being 0, or the offset distances being bigger than the length of the structural element).
 
 Although normally a rebar is used inside an Arch Structure, since FreeCAD 0.19 the rebar can be created outside of any host object. To host a rebar inside an object, you just need to set its Data**Host**.

@@ -21,16 +21,16 @@ title: Std SeitenansichtRechts
 
 Der Befehl **Std SeitenansichtRechts** schwenkt die Kamerasicht der aktiven [3D-Ansicht](/3D_view/de "3D view/de") in die Richtung der negativen X-Achse.
 
-![](/src/assets/images/FreeCAD_views_front.svg)
+![](/images/FreeCAD_views_front.svg)
 
 Der Pfeil 3 zeigt in Richtung der Seitenansicht von rechts
 
 ## Anwendung
 
 1. Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
-   - Die Schaltfläche ![](/src/assets/images/Std_ViewRight.svg) Seitenansicht von rechts drücken.
-   - Den Menüeintrag **Ansicht → Standardansichten → ![](/src/assets/images/Std_ViewRight.svg) Seitenansicht von rechts** auswählen.
-   - Die Menüoption **Standardansichten → ![](/src/assets/images/Std_ViewRight.svg) Seitenansicht von rechts** im Kontextmenü der [3D-Ansicht](/3D_view/de "3D view/de") auswählen.
+   - Die Schaltfläche ![](/images/Std_ViewRight.svg) Seitenansicht von rechts drücken.
+   - Den Menüeintrag **Ansicht → Standardansichten → ![](/images/Std_ViewRight.svg) Seitenansicht von rechts** auswählen.
+   - Die Menüoption **Standardansichten → ![](/images/Std_ViewRight.svg) Seitenansicht von rechts** im Kontextmenü der [3D-Ansicht](/3D_view/de "3D view/de") auswählen.
    - Das Tastaturkürzel 3.
 
 ## Skripten

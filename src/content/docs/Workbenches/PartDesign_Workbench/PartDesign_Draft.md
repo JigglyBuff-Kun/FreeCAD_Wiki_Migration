@@ -19,7 +19,7 @@ title: PartDesign Draft
 
 ## Description
 
-The ![](/src/assets/images/PartDesign_Draft.svg) **PartDesign Draft** tool creates angular draft on the selected faces of an object. It adds a **Draft** object to the document with its corresponding representation in the [Tree view](/Tree_view "Tree view").
+The ![](/images/PartDesign_Draft.svg) **PartDesign Draft** tool creates angular draft on the selected faces of an object. It adds a **Draft** object to the document with its corresponding representation in the [Tree view](/Tree_view "Tree view").
 
 |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |     |
 | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --- |
@@ -32,8 +32,8 @@ The ![](/src/assets/images/PartDesign_Draft.svg) **PartDesign Draft** tool creat
 1. Optionally [activate](/PartDesign_Body#Active_status "PartDesign Body") the Body to apply the Draft to.
 2. Select one or more faces of the Body.
 3. There are several ways to invoke the tool:
-   - Press the ![](/src/assets/images/PartDesign_Draft.svg) [Draft](/PartDesign_Draft "PartDesign Draft") button.
-   - Select the **Part Design → Apply a dress-up feature → ![](/src/assets/images/PartDesign_Draft.svg) Draft** option from the menu.
+   - Press the ![](/images/PartDesign_Draft.svg) [Draft](/PartDesign_Draft "PartDesign Draft") button.
+   - Select the **Part Design → Apply a dress-up feature → ![](/images/PartDesign_Draft.svg) Draft** option from the menu.
 4. If there is no active Body, and there are two or more Bodies in the document, the **Active Body Required** dialog will open and prompt you to activate one. If there is a single Body it will be activated automatically.
 5. The **Draft parameters** [task panel](/Task_panel "Task panel") opens. See [Options](#Options) for more information.
 6. Press the OK button to finish.

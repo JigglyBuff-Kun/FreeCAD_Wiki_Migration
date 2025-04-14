@@ -4,13 +4,13 @@ title: Material Preferences
 
 ## Introduction
 
-The preferences for the ![](/src/assets/images/Workbench_Material.svg) [Material Workbench](/Material_Workbench "Material Workbench") can be found in the [Preferences Editor](/Preferences_Editor "Preferences Editor"). In the menu select **Edit → Preferences...** and then **![](/src/assets/images/Workbench_Material.svg) Material**.
+The preferences for the ![](/images/Workbench_Material.svg) [Material Workbench](/Material_Workbench "Material Workbench") can be found in the [Preferences Editor](/Preferences_Editor "Preferences Editor"). In the menu select **Edit → Preferences...** and then **![](/images/Workbench_Material.svg) Material**.
 
 There are two pages: [General](#General) and [Default Material](#Default_Material).
 
 ## General
 
-![](/src/assets/images/Preferences_Material_Page_General.png)
+![](/images/Preferences_Material_Page_General.png)
 
 General preferences
 
@@ -45,7 +45,7 @@ General preferences
 
 ## Default Material
 
-![](/src/assets/images/Preferences_Material_Page_Default_Material.png)
+![](/images/Preferences_Material_Page_Default_Material.png)
 
 Default Material preferences
 

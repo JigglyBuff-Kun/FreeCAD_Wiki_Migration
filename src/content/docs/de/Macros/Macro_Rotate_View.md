@@ -32,11 +32,11 @@ Dieses Makro dreht die aktuelle Ansicht um 90° nach links.
 
 ## Beschränkungen
 
-Funktioniert nur in der Draufsicht: [![Std_ViewTop](/src/assets/images/View-top.svg)](/Std_ViewTop "Std_ViewTop ") [Draufsicht](/Std_ViewTop/de "Std ViewTop/de")
+Funktioniert nur in der Draufsicht: [![Std_ViewTop](/images/View-top.svg)](/Std_ViewTop "Std_ViewTop ") [Draufsicht](/Std_ViewTop/de "Std ViewTop/de")
 
 ## Script
 
-Werkzeugleistensymbol ![](/src/assets/images/Macro_Rotate_View_view_90_Degrees.png)
+Werkzeugleistensymbol ![](/images/Macro_Rotate_View_view_90_Degrees.png)
 
 **Macro_Rotate_View_90_Degrees.FCMacro**
 

@@ -4,7 +4,7 @@ title: Sandbox Sketcher import DXF tutorial
 
 ## Import DXF file as sketch
 
-There is no direct way to import a DXF file into an open sketch but they can be imported as separate objects. The created object might be a sketch object ![](/src/assets/images/Workbench_Sketcher.svg), a draft object or a part shape. Not always the preference set on the [Import Export Preferences Page](/Import_Export_Preferences#DXF "Import Export Preferences") succeeds, e.g. the preference is set to create a sketch but the resulting object is a draft object. This use case shows how to convert a DFX file imported as draft object to a sketch via the Draft Workbench. The [Import Export Preferences Page](/Import_Export_Preferences#DXF "Import Export Preferences") legacy importer options are not used (unchecked).
+There is no direct way to import a DXF file into an open sketch but they can be imported as separate objects. The created object might be a sketch object ![](/images/Workbench_Sketcher.svg), a draft object or a part shape. Not always the preference set on the [Import Export Preferences Page](/Import_Export_Preferences#DXF "Import Export Preferences") succeeds, e.g. the preference is set to create a sketch but the resulting object is a draft object. This use case shows how to convert a DFX file imported as draft object to a sketch via the Draft Workbench. The [Import Export Preferences Page](/Import_Export_Preferences#DXF "Import Export Preferences") legacy importer options are not used (unchecked).
 
 1. Import DXF file (_Ctrl-I_ or **File → Import.. → Select \*.DXF** )
 
@@ -14,7 +14,7 @@ There is no direct way to import a DXF file into an open sketch but they can be 
 
 2. If the import created mulipe shapes files select all that should become part of the sketch
 3. Select the [Draft Workbench](/Draft_Workbench "Draft Workbench")
-4. ![](/src/assets/images/Draft_Draft2Sketch.svg) Press the [Draft to Sketch](/Draft_Draft2Sketch "Draft Draft2Sketch") button
+4. ![](/images/Draft_Draft2Sketch.svg) Press the [Draft to Sketch](/Draft_Draft2Sketch "Draft Draft2Sketch") button
 
    : an additional sketch icon appears in the tree. You can now delete the original imported object as it is not required any more
 

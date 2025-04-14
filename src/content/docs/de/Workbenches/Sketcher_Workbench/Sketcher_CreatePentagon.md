@@ -19,17 +19,17 @@ title: Sketcher FünfeckErstellen
 
 ## Beschreibung
 
-Das Werkzeug ![](/src/assets/images/Sketcher_CreatePentagon.svg) Sketcher FünfeckErstellen erstellt ein Fünfeck. [eingeführt in 1.0](/Release_notes_1.0/de "Release notes 1.0/de"): Dies ist dasselbe Werkzeug wie [Sketcher RegelmäßigesVieleckErstellen](/Sketcher_CreateRegularPolygon/de "Sketcher CreateRegularPolygon/de") aber mit der vorgegebenen Anzahl von 5 Seiten.
+Das Werkzeug ![](/images/Sketcher_CreatePentagon.svg) Sketcher FünfeckErstellen erstellt ein Fünfeck. [eingeführt in 1.0](/Release_notes_1.0/de "Release notes 1.0/de"): Dies ist dasselbe Werkzeug wie [Sketcher RegelmäßigesVieleckErstellen](/Sketcher_CreateRegularPolygon/de "Sketcher CreateRegularPolygon/de") aber mit der vorgegebenen Anzahl von 5 Seiten.
 
-![](/src/assets/images/SketcherCreatePentagonExample.png)
+![](/images/SketcherCreatePentagonExample.png)
 
 ## Anwendung
 
 Siehe auch: [Zeichnungshilfen](/Sketcher_Workbench/de#Zeichnungshilfen "Sketcher Workbench/de").
 
 1. Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
-   - Die Schaltfläche ![](/src/assets/images/Sketcher_CreatePentagon.svg) Fünfeck drücken.
-   - Den Menüeintrag **Skizze → Skizzengeometrien → ![](/src/assets/images/Sketcher_CreatePentagon.svg) Fünfeck erstellen** auswählen.
+   - Die Schaltfläche ![](/images/Sketcher_CreatePentagon.svg) Fünfeck drücken.
+   - Den Menüeintrag **Skizze → Skizzengeometrien → ![](/images/Sketcher_CreatePentagon.svg) Fünfeck erstellen** auswählen.
    - Das Tastaturkürzel G dann P dann 5.
 2. Für weitere Schritte siehe [Sketcher RegelmäßigesVieleckErstellen](/Sketcher_CreateRegularPolygon/de#Anwendung "Sketcher CreateRegularPolygon/de").
 

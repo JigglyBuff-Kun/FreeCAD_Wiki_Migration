@@ -43,7 +43,7 @@ OpenSCAD, like FreeCAD, is an open source 3D CAD program. But while FreeCAD uses
 
 Here we will use the [example005.scad](https://github.com/openscad/openscad/blob/master/examples/Old/example005.scad) file from the (old) OpenSCAD examples, but feel free to use any scad file of your liking.
 
-![](/src/assets/images/TutorialOpenSCAD_SampleFile.jpg)
+![](/images/TutorialOpenSCAD_SampleFile.jpg)
 
 ## Importing the model in FreeCAD
 
@@ -52,7 +52,7 @@ Here we will use the [example005.scad](https://github.com/openscad/openscad/blob
 - FreeCAD will import the OpenSCAD file and build up a tree with primitives and boolean operations
 - Tutorial finished.
 
-![](/src/assets/images/TutorialOpenSCAD_ImportFile.jpg)
+![](/images/TutorialOpenSCAD_ImportFile.jpg)
 
 ## Related
 

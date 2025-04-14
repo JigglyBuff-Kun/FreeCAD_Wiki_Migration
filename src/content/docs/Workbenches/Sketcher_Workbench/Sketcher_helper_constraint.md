@@ -4,7 +4,7 @@ title: Sketcher helper constraint
 
 ## Overview
 
-![](/src/assets/images/Sketcher_helper_constraint_example1.png)
+![](/images/Sketcher_helper_constraint_example1.png)
 
 Example of a helper constraint (Constraint5 - point on circle) for a tangent constraint (Constraint6; in tangent-via-point mode). Only one helper constraint is used in this case, since the point of tangency is the endpoint of ellipse's major diameter, which inherently lies on the ellipse.
 

@@ -23,13 +23,13 @@ This documentation is not finished. Please help and contribute documentation.Gui
 
 ## Description
 
-The ![](/src/assets/images/Assembly_CreateJointParallel.svg) [Assembly CreateJointParallel](/Assembly_CreateJointParallel "Assembly CreateJointParallel") tool creates a Parallel joint between two selected parts, setting the Z axes of selected coordinate systems parallel.
+The ![](/images/Assembly_CreateJointParallel.svg) [Assembly CreateJointParallel](/Assembly_CreateJointParallel "Assembly CreateJointParallel") tool creates a Parallel joint between two selected parts, setting the Z axes of selected coordinate systems parallel.
 
 ## Usage
 
 1. There are several ways to invoke the tool:
-   - Press the ![](/src/assets/images/Assembly_CreateJointParallel.svg) [Create Parallel Joint](/Assembly_CreateJointParallel "Assembly CreateJointParallel") button.
-   - Select the **Assembly → ![](/src/assets/images/Assembly_CreateJointParallel.svg) Create Parallel Joint** option from the menu.
+   - Press the ![](/images/Assembly_CreateJointParallel.svg) [Create Parallel Joint](/Assembly_CreateJointParallel "Assembly CreateJointParallel") button.
+   - Select the **Assembly → ![](/images/Assembly_CreateJointParallel.svg) Create Parallel Joint** option from the menu.
    - Use the keyboard shortcut: N.
 2. ...
 

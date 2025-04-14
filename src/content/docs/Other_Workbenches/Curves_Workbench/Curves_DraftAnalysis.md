@@ -23,9 +23,9 @@ This documentation is not finished. Please help and contribute documentation.Gui
 
 ## Description
 
-The ![](/src/assets/images/Curves_DraftAnalysis.svg) **Curves DraftAnalysis** tool creates a colored overlay on an object to visualize draft angles.
+The ![](/images/Curves_DraftAnalysis.svg) **Curves DraftAnalysis** tool creates a colored overlay on an object to visualize draft angles.
 
-![](/src/assets/images/Curves_DraftAnalysis01.png)
+![](/images/Curves_DraftAnalysis01.png)
 
 A sphere with a [reflect line](/Curves_ReflectLines "Curves ReflectLines") on its equator (left) and the related DraftAnalysis object (right)
 
@@ -33,8 +33,8 @@ A sphere with a [reflect line](/Curves_ReflectLines "Curves ReflectLines") on it
 
 1. Select one or more shapes.
 2. There are several ways to invoke the tool:
-   - Press the ![](/src/assets/images/Curves_DraftAnalysis.svg) [Draft Analysis](/Curves_DraftAnalysis "Curves DraftAnalysis") button.
-   - Select the **Surfaces → ![](/src/assets/images/Curves_DraftAnalysis.svg) Draft Analysis** option from the menu.
+   - Press the ![](/images/Curves_DraftAnalysis.svg) [Draft Analysis](/Curves_DraftAnalysis "Curves DraftAnalysis") button.
+   - Select the **Surfaces → ![](/images/Curves_DraftAnalysis.svg) Draft Analysis** option from the menu.
 3. A **DraftAnalysis** object is created for each selected shape.
 
 ## Notes

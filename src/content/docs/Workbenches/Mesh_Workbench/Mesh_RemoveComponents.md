@@ -21,7 +21,7 @@ title: Mesh RemoveComponents
 
 The **Mesh RemoveComponents** command removes faces from mesh objects.
 
-![](/src/assets/images/Meshes_RemoveComponents.jpg)
+![](/images/Meshes_RemoveComponents.jpg)
 
 The Remove components task panel
 
@@ -31,8 +31,8 @@ The Remove components task panel
    - The View**Display Mode** of the mesh objects ideally should be `Flat lines`, but should at least show faces. If necessary use the [Std DrawStyle](/Std_DrawStyle "Std DrawStyle") command to override this property.
    - The View**Shape Color** of the mesh objects should not be red.
 2. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/Mesh_RemoveComponents.svg) [Remove components...](/Mesh_RemoveComponents "Mesh RemoveComponents") button.
-   - Select the **Meshes → ![](/src/assets/images/Mesh_RemoveComponents.svg) Remove components...** option from the menu.
+   - Press the ![](/images/Mesh_RemoveComponents.svg) [Remove components...](/Mesh_RemoveComponents "Mesh RemoveComponents") button.
+   - Select the **Meshes → ![](/images/Mesh_RemoveComponents.svg) Remove components...** option from the menu.
 3. The **Remove components** task panel opens.
 4. Use one or more of the **Select** options to select faces:
    - Press the Region button and while holding down the left mouse button draw a region, a closed spline, in the [3D view](/3D_view "3D view"). Faces that match the **Region options** and (partially) fall inside the region will be selected.

@@ -33,8 +33,8 @@ Example of the information displayed in the Report view
 
 1. It is advisable to enable the [Report view](/Report_view "Report view"). The command will display detailed information there.
 2. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/Mesh_EvaluateFacet.svg) [Face info](/Mesh_EvaluateFacet "Mesh EvaluateFacet") button.
-   - Select the **Meshes → Analyze → ![](/src/assets/images/Mesh_EvaluateFacet.svg) Face info** option from the menu.
+   - Press the ![](/images/Mesh_EvaluateFacet.svg) [Face info](/Mesh_EvaluateFacet "Mesh EvaluateFacet") button.
+   - Select the **Meshes → Analyze → ![](/images/Mesh_EvaluateFacet.svg) Face info** option from the menu.
 3. The cursor changes to a pipette icon.
 4. Select a face of a mesh object.
 5. Its index will be displayed in the [3D view](/3D_view "3D view").

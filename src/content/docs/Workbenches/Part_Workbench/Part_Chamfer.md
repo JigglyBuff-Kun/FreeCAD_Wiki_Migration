@@ -21,12 +21,12 @@ title: Part Chamfer
 
 **Part Chamfer** chamfers the selected edge(s) of an object. A dialog allows you to choose which edge(s) to work on as well as modify various chamfer parameters.
 
-![Chamfer example](/src/assets/images/Chamfer-example.png)
+![Chamfer example](/images/Chamfer-example.png)
 
 ## Usage
 
 1. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/Part_Chamfer.svg) Chamfer... button.
+   - Press the ![](/images/Part_Chamfer.svg) Chamfer... button.
    - Select the **Part → Chamfer...** option from the menu.
 2. Select the shape to chamfer from the dialog.
 3. Select edges to chamfer by checking the corresponding box in the chamfer dialog or by selecting them on the model directly.
@@ -35,7 +35,7 @@ title: Part Chamfer
 
 ## Options
 
-![Dialog-chamfer](/src/assets/images/Dialog-chamfer.png)
+![Dialog-chamfer](/images/Dialog-chamfer.png)
 
 - When selecting edges on the model, you have the option to select by edge or by face. Selecting by face will select all bordering edges of that face.
 - Constant length chamfer or variable length chamfer.
@@ -44,7 +44,7 @@ title: Part Chamfer
 
 ## Properties
 
-![Part Chamfer Properties](/src/assets/images/Part_Chamfer-Properties.png)
+![Part Chamfer Properties](/images/Part_Chamfer-Properties.png)
 
 Part Chamfer Properties
 
@@ -56,9 +56,9 @@ Base
 
 ## Limitations
 
-Chamfer might do nothing if the result would touch or cross the next adjacent edge. So if you do not get the expected result, try with a smaller value. This is the same for ![](/src/assets/images/Part_Fillet.svg) [Part Fillet](/Part_Fillet "Part Fillet").
+Chamfer might do nothing if the result would touch or cross the next adjacent edge. So if you do not get the expected result, try with a smaller value. This is the same for ![](/images/Part_Fillet.svg) [Part Fillet](/Part_Fillet "Part Fillet").
 
-Also note that the Chamfer feature is affected by the [Topological naming problem](/Topological_naming_problem "Topological naming problem") when the any change is done to a modeling step earlier in the chain that affects the number of facets or vertices. This could cause unpredictable result. Until that is resolved it is advised to apply Chamfer and ![](/src/assets/images/Part_Fillet.svg) [Part Fillet](/Part_Fillet "Part Fillet") operations at the last steps in the chain.
+Also note that the Chamfer feature is affected by the [Topological naming problem](/Topological_naming_problem "Topological naming problem") when the any change is done to a modeling step earlier in the chain that affects the number of facets or vertices. This could cause unpredictable result. Until that is resolved it is advised to apply Chamfer and ![](/images/Part_Fillet.svg) [Part Fillet](/Part_Fillet "Part Fillet") operations at the last steps in the chain.
 
 ## Scripting
 

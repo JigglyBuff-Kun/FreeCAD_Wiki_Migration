@@ -23,8 +23,8 @@ Exports the current view properties to a pov-file for use in a POV-Ray project.
 
 ## Usage
 
-1. Make sure that the view is set to ![](/src/assets/images/Std_PerspectiveCamera.svg) [perspective view](/Std_PerspectiveCamera "Std PerspectiveCamera")
-2. Choose Raytracing → Utilities →![](/src/assets/images/Raytracing_WriteView.svg) Export view to POV-Ray... from the top menu.
+1. Make sure that the view is set to ![](/images/Std_PerspectiveCamera.svg) [perspective view](/Std_PerspectiveCamera "Std PerspectiveCamera")
+2. Choose Raytracing → Utilities →![](/images/Raytracing_WriteView.svg) Export view to POV-Ray... from the top menu.
 
 ## Limitations
 

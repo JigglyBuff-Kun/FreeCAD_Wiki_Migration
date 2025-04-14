@@ -19,17 +19,17 @@ title: Surface Filling
 
 ## Description
 
-![](/src/assets/images/Surface_Filling.svg) [Surface Filling](/Surface_Filling "Surface Filling") creates a surface from a series of connected boundary edges. The curvature of the surface can be additionally controlled by non-boundary edges and vertices, and a support surface.
+![](/images/Surface_Filling.svg) [Surface Filling](/Surface_Filling "Surface Filling") creates a surface from a series of connected boundary edges. The curvature of the surface can be additionally controlled by non-boundary edges and vertices, and a support surface.
 
 The base geometry can belong to curves created with the [Draft Workbench](/Draft_Workbench "Draft Workbench") or the [Sketcher Workbench](/Sketcher_Workbench "Sketcher Workbench"), but can also belong to solid objects such as those created with the [Part Workbench](/Part_Workbench "Part Workbench") or the [PartDesign Workbench](/PartDesign_Workbench "PartDesign Workbench").
 
-![](/src/assets/images/Surface_Filling_example.png)
+![](/images/Surface_Filling_example.png)
 
 Two filled surfaces delimited by four edges located on the XY plane. The surface on the right is additionally controlled by a non-boundary edge.
 
 ## Usage
 
-1. Press the ![](/src/assets/images/Surface_Filling.svg) [Filling](/Surface_Filling "Surface Filling") button.
+1. Press the ![](/images/Surface_Filling.svg) [Filling](/Surface_Filling "Surface Filling") button.
 2. The **Boundaries** task panel opens. See [Options](#Options).
 3. Select two or more edges in the [3D view](/3D_view "3D view"):
    - There is no need to press the Add edge button in the **Boundaries** section at this time.
@@ -48,7 +48,7 @@ Two filled surfaces delimited by four edges located on the XY plane. The surface
 - In the **Boundaries** section a support surface and boundary edges can specified:
 
   - Press the Support surface button and select a face in the [3D view](/3D_view "3D view") to add a support surface.
-    - Click the ![](/src/assets/images/Edit-cleartext.svg) icon to remove the support surface.
+    - Click the ![](/images/Edit-cleartext.svg) icon to remove the support surface.
   - Press the Add edge button once to start selecting boundary edges in the [3D view](/3D_view "3D view").
   - There are several ways to deselect boundary edges:
     - Press the Remove edge button once to start deselecting edges in the [3D view](/3D_view "3D view").
@@ -69,8 +69,8 @@ Two filled surfaces delimited by four edges located on the XY plane. The surface
 
 The **Support surface** acts as an additional constraint for the surface. The following simple example will give you an idea how this works:
 
-1. In the ![](/src/assets/images/Workbench_Part.svg) [Part Workbench](/Part_Workbench "Part Workbench") create a ![](/src/assets/images/Part_Cylinder.svg)[cylinder](/Part_Cylinder "Part Cylinder") and set its Data**Angle** to `180°`.
-2. Switch to the ![](/src/assets/images/Workbench_Surface.svg) [Surface Workbench](/Surface_Workbench "Surface Workbench") and press the ![](/src/assets/images/Surface_Filling.svg) [Filling](/Surface_Filling "Surface Filling") button.
+1. In the ![](/images/Workbench_Part.svg) [Part Workbench](/Part_Workbench "Part Workbench") create a ![](/images/Part_Cylinder.svg)[cylinder](/Part_Cylinder "Part Cylinder") and set its Data**Angle** to `180°`.
+2. Switch to the ![](/images/Workbench_Surface.svg) [Surface Workbench](/Surface_Workbench "Surface Workbench") and press the ![](/images/Surface_Filling.svg) [Filling](/Surface_Filling "Surface Filling") button.
 3. Select the two semi-circular edges and the two straight edges that connect them.
 4. The result matches the four boundary edges, but the inner shape is quite different from the cylindrical face.
 5. Edit the Surface object and for the **Support surface** select the cylindrical face.

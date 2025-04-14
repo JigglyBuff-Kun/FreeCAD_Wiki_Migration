@@ -21,15 +21,15 @@ title: Rocket Fin
 
 Fins are used to aerodynamically control the direction of flight.
 
-![](/src/assets/images/Nike_Fin_TTW_2.png)
+![](/images/Nike_Fin_TTW_2.png)
 
 A Tapered fin with TTW tab
 
 ## Usage
 
 1. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/Rocket_Fin.svg) [Fin](/Rocket_Fin "Rocket Fin") button.
-   - Select the **Rocket → ![](/src/assets/images/Rocket_Fin.svg) Fin** option from the menu.
+   - Press the ![](/images/Rocket_Fin.svg) [Fin](/Rocket_Fin "Rocket Fin") button.
+   - Select the **Rocket → ![](/images/Rocket_Fin.svg) Fin** option from the menu.
    - Double click on a Fin object in the [Tree view](/Tree_view "Tree view").
 2. Set options and press OK.
 
@@ -43,7 +43,7 @@ The general shape of the fin.
 
 This fin type is used for almost all 4 sided fins. The root remains fixed, but the leading and trailing edges can have variable amounts of sweep. The chord length of the root and tip are set independently.
 
-![](/src/assets/images/Fin_Trapezoid_small.png)
+![](/images/Fin_Trapezoid_small.png)
 
 Trapezoid fin type
 
@@ -51,7 +51,7 @@ Trapezoid fin type
 
 A generalized rounded shape. Circular fins are a special case where the height is 1/2 of the root chord.
 
-![](/src/assets/images/Fin_Elliptical_small.png)
+![](/images/Fin_Elliptical_small.png)
 
 Elliptical fin type
 
@@ -63,11 +63,11 @@ The sketch must be created first. The fin root is drawn along the positive X axi
 
 There is no way to associate a custom fin with a sketch within the dialog after it's been created, so it is important to create the sketch first. It can be selected from the Properties view. Updating the sketch will update the fin.
 
-![](/src/assets/images/Fin_Sketch_small.png)
+![](/images/Fin_Sketch_small.png)
 
 Sketch used to create a custom fin shape
 
-![](/src/assets/images/Fin_Custom_small.png)
+![](/images/Fin_Custom_small.png)
 
 The custom fin created from the sketch
 
@@ -77,49 +77,49 @@ The cross sectional shape of a fin can greatly affect its performance at differe
 
 - Square. Both the leading and trailing edges are squared.
 
-![](/src/assets/images/CS_Square.png)
+![](/images/CS_Square.png)
 
 Square Cross Section
 
 - Round. The leading and trailing edges are rounded.
 
-![](/src/assets/images/CS_Round.png)
+![](/images/CS_Round.png)
 
 Round cross section
 
 - Airfoil. Uses the NACA symmetrical airfoil shape [NACA airfoil](https://en.wikipedia.org/wiki/NACA_airfoil) with maximum thickness at 30% of the chord.
 
-![](/src/assets/images/CS_Airfoil.png)
+![](/images/CS_Airfoil.png)
 
 Airfoil cross section
 
 - Wedge. The trailing edge of the fin is square, converging to a point at the leading edge.
 
-![](/src/assets/images/CS_Wedge.png)
+![](/images/CS_Wedge.png)
 
 Wedge cross section
 
 - Diamond. The diamond shape starts from a point at the leading edge, straight out to the maximum thickness at a point determined by **Length 1**, and back to a point at the trailing edge.
 
-![](/src/assets/images/CS_Diamond.png)
+![](/images/CS_Diamond.png)
 
 Diamond cross section
 
 - Leading Edge (LE) Taper. The leading edge is tapered to a point as determined by **Length 1**.
 
-![](/src/assets/images/LE_Taper.png)
+![](/images/LE_Taper.png)
 
 Leading edge taper cross section
 
 - Trailing Edge (TE) Taper. The trailing edge is tapered to a point as determined by **Length 1**.
 
-![](/src/assets/images/TE_Taper.png)
+![](/images/TE_Taper.png)
 
 Trailing edge taper cross section
 
 - Taper. The leading edge is tapered to a point as determined by **Length 1**, and the trailing edge is tapered to a point as determined by **Length 2**.
 
-![](/src/assets/images/CS_Taper.png)
+![](/images/CS_Taper.png)
 
 Taper cross section
 
@@ -127,7 +127,7 @@ Taper cross section
 
 Through the Wall fins add structural strength by extending though the outer body tube to an inner body tube such as a motor mount. Instead of attaching just to the outside of the outer body tube, it can be attached at multiple points. As such, the height of the tab would be the distance from the outer diameter of the inner body tube to the outer diameter of the outer body tube. Other parameters would vary depending on requirements.
 
-![](/src/assets/images/TTWx4.png)
+![](/images/TTWx4.png)
 
 4 TTW fins attached to a central motor mount inside the outer body tube
 

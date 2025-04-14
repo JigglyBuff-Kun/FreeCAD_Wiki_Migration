@@ -52,7 +52,7 @@ Where `$INSTALL_DIR` is the directory where FreeCAD was installed, for example
 - Select page size "US Letter" or "A4" and orientation "landscape".
 - Set default units to "mm", and the page size to width "279.4" and height "215.9". For DIN-A4 you would use "210" and "297".
 
-![](/src/assets/images/InkDocProp.png)
+![](/images/InkDocProp.png)
 
 Inkscape: document with page size and orientation
 
@@ -66,7 +66,7 @@ Inkscape: document with page size and orientation
 
 Since SVG is a human readable format you can also enter the line above into the file with a text editor.
 
-![](/src/assets/images/InkXMLNameSpace.png)
+![](/images/InkXMLNameSpace.png)
 
 Inkscape: XML Editor adding the "freecad" namespace clause to the <svg> item
 
@@ -82,7 +82,7 @@ Inkscape: XML Editor adding the "freecad" namespace clause to the <svg> item
 
 8. You now have your finished artwork, that should look something like this:
 
-![](/src/assets/images/InkFinishedArt.png)
+![](/images/InkFinishedArt.png)
 
 Inkscape: tentative template layout
 
@@ -92,7 +92,7 @@ Inkscape: tentative template layout
 
 - Assign a meaningful field name to each editable text.
 
-![](/src/assets/images/InkXMLeditableTag.png)
+![](/images/InkXMLeditableTag.png)
 
 Inkscape: XML Editor adding the "freecad:editable" property to the desired <text> item
 
@@ -102,13 +102,13 @@ Inkscape: XML Editor adding the "freecad:editable" property to the desired <text
 
 - It is four values, in the format `"0 0 width height"`
 
-![](/src/assets/images/InkXMLviewBox.png)
+![](/images/InkXMLviewBox.png)
 
 Inkscape: XML Editor adjusting the viewbox to match the page size in millimeters
 
 11. Your template will now appear much bigger than desired.
 
-![](/src/assets/images/InkMuchTooBig.png)
+![](/images/InkMuchTooBig.png)
 
 Inkscape: tentative template layout exceeding the page size
 
@@ -142,7 +142,7 @@ Inkscape: tentative template layout exceeding the page size
 
 21. Try it in FreeCAD and [TechDraw Workbench](/TechDraw_Workbench "TechDraw Workbench") with [Insert Page using Template](/TechDraw_PageTemplate "TechDraw PageTemplate").
 
-![](/src/assets/images/FCTemplateHow.png)
+![](/images/FCTemplateHow.png)
 
 FreeCAD: finished template with an editable text field being modified
 

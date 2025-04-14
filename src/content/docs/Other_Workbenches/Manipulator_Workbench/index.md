@@ -2,7 +2,7 @@
 title: Manipulator Workbench
 ---
 
-![](/src/assets/images/Manipulator_workbench_icon.svg)
+![](/images/Manipulator_workbench_icon.svg)
 
 Manipulator workbench icon
 
@@ -12,17 +12,17 @@ The [Manipulator Workbench](/Manipulator_Workbench "Manipulator Workbench") is a
 
 ## Features
 
-![](/src/assets/images/Aligner-ico.png) **Aligner:** a set of tools to move and align 3D parts; it can also align an object (face, edge, point) to the origin in FreeCAD.
+![](/images/Aligner-ico.png) **Aligner:** a set of tools to move and align 3D parts; it can also align an object (face, edge, point) to the origin in FreeCAD.
 
-![](/src/assets/images/Manipulator_Mover.svg) **Mover:** a set of tools to move and rotate 3D parts on different Axis
+![](/images/Manipulator_Mover.svg) **Mover:** a set of tools to move and rotate 3D parts on different Axis
 
-![](/src/assets/images/Manipulator_Caliper.svg) **Caliper:** a set of tools to measure 3D parts, with some Snap facility and Radius, Length, Angle measurements.
+![](/images/Manipulator_Caliper.svg) **Caliper:** a set of tools to measure 3D parts, with some Snap facility and Radius, Length, Angle measurements.
 
 These helpers work with **Part, App::Part and Body objects**.
 
 The Tools can be **Floating** or **Docked Left or Right**.
 
-Each Tool has a \*_Help Button_- ![](/src/assets/images/Help-btn.png) to get some useful tips
+Each Tool has a \*_Help Button_- ![](/images/Help-btn.png) to get some useful tips
 
 ## References
 
@@ -33,67 +33,67 @@ Each Tool has a \*_Help Button_- ![](/src/assets/images/Help-btn.png) to get som
 
 ## Tutorial
 
-[![Manipulator-WB-@Work](/src/assets/images/Manipulator-WB-%40Work.png)](https://youtu.be/owGzsd1fyZc "Title Manipulator-WB-@Work ")
+[![Manipulator-WB-@Work](/images/Manipulator-WB-%40Work.png)](https://youtu.be/owGzsd1fyZc "Title Manipulator-WB-@Work ")
 
 YouTube Tutorial [Manipulator WorkBench @Work](https://youtu.be/owGzsd1fyZc)
 
 ## Tools
 
-![](/src/assets/images/Manipulator-WB-Tools.png)
+![](/images/Manipulator-WB-Tools.png)
 
 Above: Manipulator workbench dialog. For a more detailed description see [README.md](https://github.com/easyw/Manipulator/blob/master/README.md) on Github.
 
 ### Aligner
 
-![](/src/assets/images/Manipulator-WB-Aligner.gif)
+![](/images/Manipulator-WB-Aligner.gif)
 
 Aligner: set of tools to move and align 3D parts; it can also align an object (face, edge, point) to the origin in FreeCAD
 
 ### Mover
 
-![](/src/assets/images/Manipulator-WB-Mover.gif)
+![](/images/Manipulator-WB-Mover.gif)
 
 Mover: set of tools to move and rotate 3D parts on different Axis
 
-![](/src/assets/images/Manipulator-WB-Mover-with-App_Part%26Body.gif)
+![](/images/Manipulator-WB-Mover-with-App_Part%26Body.gif)
 
 Mover: Using App:Part and Body
 
-![](/src/assets/images/Manipulator-WB-Mover-with-External-Reference.gif)
+![](/images/Manipulator-WB-Mover-with-External-Reference.gif)
 
 Mover: with External Reference
 
 ### Caliper
 
-![](/src/assets/images/Manipulator-WB-Measure-Radius.gif)
+![](/images/Manipulator-WB-Measure-Radius.gif)
 
 Caliper: measuring Radius
 
-![](/src/assets/images/Manipulator-WB-Measure-Angles.gif)
+![](/images/Manipulator-WB-Measure-Angles.gif)
 
 Caliper: measuring Angles
 
-![](/src/assets/images/Manipulator-WB-Dimension.gif)
+![](/images/Manipulator-WB-Dimension.gif)
 
 Caliper: measuring Dimensions
 
-![](/src/assets/images/Manipulator-WB-Dimension-2.gif)
+![](/images/Manipulator-WB-Dimension-2.gif)
 
 Caliper: measuring Dimensions (cont.)
 
-![](/src/assets/images/Manipulator-WB-Parallel-Planes-Distance.gif)
+![](/images/Manipulator-WB-Parallel-Planes-Distance.gif)
 
 Caliper: parallel planes distance
 
 ### Manipulator
 
-![](/src/assets/images/Manipulator-WB-Assembly-Parts.gif)
+![](/images/Manipulator-WB-Assembly-Parts.gif)
 
 ## Installation
 
 ### Automatic Installation
 
-The recommended way to install the Manipulator Workbench is via the ![](/src/assets/images/Std_AddonMgr.svg) [Addon Manager](/Std_AddonMgr "Std AddonMgr") under the **Tools → Addon Manager** menu.
+The recommended way to install the Manipulator Workbench is via the ![](/images/Std_AddonMgr.svg) [Addon Manager](/Std_AddonMgr "Std AddonMgr") under the **Tools → Addon Manager** menu.
 
 ### Manual Installation
 

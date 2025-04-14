@@ -19,17 +19,17 @@ title: Sketcher AchteckErstellen
 
 ## Beschreibung
 
-Das Werkzeug ![](/src/assets/images/Sketcher_CreateOctagon.svg) Sketcher AchteckErstellen erstellt ein Achteck. [eingeführt in 1.0](/Release_notes_1.0/de "Release notes 1.0/de"): Dies ist dasselbe Werkzeug wie [Sketcher RegelmäßigesVieleckErstellen](/Sketcher_CreateRegularPolygon/de "Sketcher CreateRegularPolygon/de") aber mit der vorgegebenen Anzahl von 8 Seiten.
+Das Werkzeug ![](/images/Sketcher_CreateOctagon.svg) Sketcher AchteckErstellen erstellt ein Achteck. [eingeführt in 1.0](/Release_notes_1.0/de "Release notes 1.0/de"): Dies ist dasselbe Werkzeug wie [Sketcher RegelmäßigesVieleckErstellen](/Sketcher_CreateRegularPolygon/de "Sketcher CreateRegularPolygon/de") aber mit der vorgegebenen Anzahl von 8 Seiten.
 
-![](/src/assets/images/SketcherCreateOctagonExample.png)
+![](/images/SketcherCreateOctagonExample.png)
 
 ## Anwendung
 
 Siehe auch: [Zeichnungshilfen](/Sketcher_Workbench/de#Zeichnungshilfen "Sketcher Workbench/de").
 
 1. Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
-   - Die Schaltfläche ![](/src/assets/images/Sketcher_CreateOctagon.svg) Achteck drücken.
-   - Den Menüeintrag **Skizze → Skizzengeometrien → ![](/src/assets/images/Sketcher_CreateOctagon.svg) Achteck erstellen** auswählen.
+   - Die Schaltfläche ![](/images/Sketcher_CreateOctagon.svg) Achteck drücken.
+   - Den Menüeintrag **Skizze → Skizzengeometrien → ![](/images/Sketcher_CreateOctagon.svg) Achteck erstellen** auswählen.
    - Das Tastaturkürzel G dann P dann 8.
 2. Für weitere Schritte siehe [Sketcher RegelmäßigesVieleckErstellen](/Sketcher_CreateRegularPolygon/de#Anwendung "Sketcher CreateRegularPolygon/de").
 

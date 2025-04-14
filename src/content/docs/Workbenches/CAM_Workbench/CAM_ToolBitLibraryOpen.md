@@ -23,7 +23,7 @@ This documentation is not finished. Please help and contribute documentation.Gui
 
 ## Description
 
-The ![](/src/assets/images/CAM_ToolBitLibraryOpen.svg) [ToolBit Library editor](/CAM_ToolBitLibraryOpen "CAM ToolBitLibraryOpen") is the tool for creating, managing, and organize toolbits. Launching the library manager will display the manager as a modal dialog.
+The ![](/images/CAM_ToolBitLibraryOpen.svg) [ToolBit Library editor](/CAM_ToolBitLibraryOpen "CAM ToolBitLibraryOpen") is the tool for creating, managing, and organize toolbits. Launching the library manager will display the manager as a modal dialog.
 
 From here the user can perform all task related to toolbit management :
 
@@ -36,7 +36,7 @@ From here the user can perform all task related to toolbit management :
 
 Only the creation of new toolshapes cannot be done from the toolbit library manager. This is an advanced topic. (see [CAM ToolShape](/CAM_ToolShape "CAM ToolShape") creation).
 
-![](/src/assets/images/Toolbitmanager.png)
+![](/images/Toolbitmanager.png)
 
 The ToolBit Library editor
 
@@ -57,8 +57,8 @@ The close button **(7)** at bottom right will dismiss the tool library manager. 
 ## Usage
 
 1. There are several ways to open the Toolbit Library Manager:
-   - Select the **CAM → ![](/src/assets/images/CAM_ToolBitLibraryOpen.svg) ToolBit Library editor** option from the menu.
-   - Open the [ToolBit Dock](/CAM_ToolBitDock "CAM ToolBitDock") as described and press the ![](/src/assets/images/Edit-edit.svg) [Library editor...](/CAM_ToolBitLibraryOpen "CAM ToolBitLibraryOpen") button.
+   - Select the **CAM → ![](/images/CAM_ToolBitLibraryOpen.svg) ToolBit Library editor** option from the menu.
+   - Open the [ToolBit Dock](/CAM_ToolBitDock "CAM ToolBitDock") as described and press the ![](/images/Edit-edit.svg) [Library editor...](/CAM_ToolBitLibraryOpen "CAM ToolBitLibraryOpen") button.
 2. Select a library from the list.
 3. Create/Add/Remove toolbits from the library.
 4. Double-click a row to edit the toolbit.
@@ -71,17 +71,17 @@ There are several ways to edit the toolbits and library:
 
 A. By clicking the column headers of the library you can sort the toolbit library. The library will retain the sort and use it in the dock.
 
-: ![](/src/assets/images/Librarysort.png)
+: ![](/images/Librarysort.png)
 : Sort the toolbit library via the column headers
 
 B. By doubleclicking in the first column you can edit the toolbit number. This will be the default tool number used when creating a new tool controller. It is possible to use the same number for multiple toolbits.
 
-: ![](/src/assets/images/Edittoolnumber.png)
+: ![](/images/Edittoolnumber.png)
 : Double click first column to edit toolbit number
 
 C. Double clicking anywhere else in the row will open the toolbit editing panel. From here you can edit other properties of the toolbit.
 
-: ![](/src/assets/images/Editingpanel.png)
+: ![](/images/Editingpanel.png)
 : Open toolbit editing panel by clicking anywhere else in the row.
 
 ## Related

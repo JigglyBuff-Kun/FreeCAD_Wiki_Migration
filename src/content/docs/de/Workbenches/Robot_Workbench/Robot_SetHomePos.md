@@ -24,7 +24,7 @@ Setzt die aktuelle Position/Richtung des ausgewählten Roboters als Ausgangsposi
 ## Anwendung
 
 1. Den Roboter in der [Baumansicht](/Tree_view/de "Tree view/de") oder in der [3D-Ansicht](/3D_view/de "3D view/de")
-2. ![](/src/assets/images/Robot_SetHomePos.svg) anklicken oder den Menüeintrag Robot → ![](/src/assets/images/Robot_SetHomePos.svg) Ausgangsposition setzen auswählen.
+2. ![](/images/Robot_SetHomePos.svg) anklicken oder den Menüeintrag Robot → ![](/images/Robot_SetHomePos.svg) Ausgangsposition setzen auswählen.
 
 ## Hinweise
 

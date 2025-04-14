@@ -21,15 +21,15 @@ title: EM FHPlaneHole
 
 The FHPlaneHole tool inserts a plane hole object, that represents a FastHenry uniform conductive plane hole.
 
-![](/src/assets/images/EM_point_FHPlaneHole_Example.png)
+![](/images/EM_point_FHPlaneHole_Example.png)
 
 FastHenry Point FHPlaneHole
 
-![](/src/assets/images/EM_rect_FHPlaneHole_Example.png)
+![](/images/EM_rect_FHPlaneHole_Example.png)
 
 FastHenry Rectangle FHPlaneHole
 
-![](/src/assets/images/EM_circle_FHPlaneHole_Example.png)
+![](/images/EM_circle_FHPlaneHole_Example.png)
 
 FastHenry Circle FHPlaneHole
 
@@ -37,17 +37,17 @@ FastHenry Circle FHPlaneHole
 
 The FHPlaneHole object can be based on the position of a [Draft Point](/Draft_Point "Draft Point") object, or you can select the 3D location of the FHPlaneHole.
 
-1. Press the ![](/src/assets/images/EM_FHPlaneHole.svg) [EM FHPlaneHole](/EM_FHPlaneHole "EM FHPlaneHole") button, or press E then H keys.
-2. Click a point on the [3D view](/3D_view "3D view"), or type coordinates and press the ![](/src/assets/images/Draft_AddPoint.svg) add point button.
+1. Press the ![](/images/EM_FHPlaneHole.svg) [EM FHPlaneHole](/EM_FHPlaneHole "EM FHPlaneHole") button, or press E then H keys.
+2. Click a point on the [3D view](/3D_view "3D view"), or type coordinates and press the ![](/images/Draft_AddPoint.svg) add point button.
 
 Alternatively, you can also:
 
-1. Select one or multiple ![](/src/assets/images/Draft_Point.svg) [Draft Point](/Draft_Point "Draft Point") object(s)
-2. Press the ![](/src/assets/images/EM_FHPlaneHole.svg) [EM FHPlaneHole](/EM_FHPlaneHole "EM FHPlaneHole") button, or press E then H keys. As many FHPlaneHole objects will be created as the Draft Point objects, at the same coordinates of the Draft Points.
+1. Select one or multiple ![](/images/Draft_Point.svg) [Draft Point](/Draft_Point "Draft Point") object(s)
+2. Press the ![](/images/EM_FHPlaneHole.svg) [EM FHPlaneHole](/EM_FHPlaneHole "EM FHPlaneHole") button, or press E then H keys. As many FHPlaneHole objects will be created as the Draft Point objects, at the same coordinates of the Draft Points.
 
 ### Remarks
 
-- ![](/src/assets/images/EM_FHPlaneHole.svg) FHPlaneHole objects have no meaning if they are not part of a ![](/src/assets/images/EM_FHPlane.svg) [FHPlane](/EM_FHPlane "EM FHPlane"). To adopt a FHPlaneHole within a FHPlane, use the ![](/src/assets/images/EM_FHPlaneAddRemoveNodeHole.svg) [EM FHPlaneAddRemoveNodeHole](/EM_FHPlaneAddRemoveNodeHole "EM FHPlaneAddRemoveNodeHole") command, or select the FHPlaneHole at [FHPlane](/EM_FHPlane "EM FHPlane") creation. To remove a FHPlaneHole from a FHPlane, you can use the [EM FHPlaneAddRemoveNodeHole](/EM_FHPlaneAddRemoveNodeHole "EM FHPlaneAddRemoveNodeHole") command.
+- ![](/images/EM_FHPlaneHole.svg) FHPlaneHole objects have no meaning if they are not part of a ![](/images/EM_FHPlane.svg) [FHPlane](/EM_FHPlane "EM FHPlane"). To adopt a FHPlaneHole within a FHPlane, use the ![](/images/EM_FHPlaneAddRemoveNodeHole.svg) [EM FHPlaneAddRemoveNodeHole](/EM_FHPlaneAddRemoveNodeHole "EM FHPlaneAddRemoveNodeHole") command, or select the FHPlaneHole at [FHPlane](/EM_FHPlane "EM FHPlane") creation. To remove a FHPlaneHole from a FHPlane, you can use the [EM FHPlaneAddRemoveNodeHole](/EM_FHPlaneAddRemoveNodeHole "EM FHPlaneAddRemoveNodeHole") command.
 
 * FHPlaneHole objects represent FastHenry plane holes, and therefore follow the same rules of the uniform conductive plane holes. In particular, holes are created removing the internal plane nodes from the plane node array, before constructing the segment mesh. You can enable the view of the internal FHPlane nodes by turning the [FHPlane](/EM_FHPlane "EM FHPlane") Data**ShowNodes** property on. Three types of FHPlaneHoles exist, and can be selected by changing the Data**Type** FHPlaneNode property.
 
@@ -57,7 +57,7 @@ Alternatively, you can also:
 
 ## Options
 
-- To enter coordinates manually, simply enter the numbers, then press Enter between each X, Y and Z component. You can press the ![](/src/assets/images/Draft_AddPoint.svg) add point button when you have the desired values to insert the point.
+- To enter coordinates manually, simply enter the numbers, then press Enter between each X, Y and Z component. You can press the ![](/images/Draft_AddPoint.svg) add point button when you have the desired values to insert the point.
 - Press Esc or the Close button to abort the current command.
 
 ## Properties

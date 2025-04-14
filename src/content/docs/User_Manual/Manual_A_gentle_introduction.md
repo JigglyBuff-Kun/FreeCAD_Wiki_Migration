@@ -19,7 +19,7 @@ By leveraging Python, FreeCAD users can unlock the full potential of the softwar
 
 FreeCAD includes an advanced Python console, accessible via **View → Panels → Python** Console. This tool lets users perform operations beyond the graphical interface, such as accessing advanced features, troubleshooting geometry, and automating tasks. It also logs Python commands for GUI actions if the option _Show script commands in Python console_ is enabled under **Edit → Preferences → Python → Macro**). By keeping the console open, you can watch Python code unfold as you work, offering an intuitive way to learn the language while exploring FreeCAD's capabilities. Lastly, FreeCAD also has a [macros system](/Macros "Macros"), which allows you to record actions to be replayed later. This system also uses the Python console, by simply recording everything that is done in it.
 
-![](/src/assets/images/FreeCAD_Python_Console.png)
+![](/images/FreeCAD_Python_Console.png)
 
 In this chapter, we will discover very generally the Python language. If you are interested in learning more, the FreeCAD documentation wiki has an extensive section related to [Python programming](/Power_users_hub "Power users hub").
 
@@ -40,7 +40,7 @@ doc = FreeCAD.newDocument()
 
 In the FreeCAD Python console, as soon as you type FreeCAD. (the word "FreeCAD" followed by a dot), an autocomplete window appears. This feature not only speeds up your workflow by suggesting available commands but also helps you discover new functions and features within FreeCAD. Each entry in the list includes a tooltip explaining its purpose, making it easier to understand and explore the available functionality. This autocomplete feature is especially helpful for beginners learning Python scripting and for advanced users navigating FreeCAD’s extensive API efficiently. Take a moment to explore the options in the autocomplete window—you may uncover commands that simplify your workflow or open up new possibilities.
 
-![](/src/assets/images/FreeCAD_python_newDocument.png)
+![](/images/FreeCAD_python_newDocument.png)
 
 Typing **FreeCAD.newDocument()** creates a new, empty document in FreeCAD, just like clicking the **New Document** button in the toolbar. When you execute **doc = FreeCAD.newDocument()**, the new document object is assigned to the variable **doc**, allowing you to manipulate it programmatically. By using doc, you can add objects, change properties, or save the document.
 
@@ -81,7 +81,7 @@ doc.recompute()
 
 Now our box has appeared in the 3D view. Many of the toolbar buttons that add objects in FreeCAD actually do two things: add the object, and recompute. Try now adding a sphere with the appropriate button in the Part Workbench, and you will see the two lines of Python code being executed one after the other.
 
-![](/src/assets/images/FreeCAD_python_Sphere.png)
+![](/images/FreeCAD_python_Sphere.png)
 
 You can get a list of all possible object types like Part::Box:
 

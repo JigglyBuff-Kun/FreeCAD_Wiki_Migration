@@ -32,9 +32,9 @@ The length value of the first selected line equals the length value of the secon
 ## Usage
 
 1. Select two lines, of which at least one should be a 2D line.
-2. Press the ![](/src/assets/images/Assembly_ConstraintEqualLength.svg) [Equal length](/Assembly3_ConstraintEqualLength "Assembly3 ConstraintEqualLength") button.
-3. Press the ![](/src/assets/images/Assembly3_workbench_icon.svg) [Solve constraints](/Assembly3_ResolveConstraints "Assembly3 ResolveConstraints") or the ![](/src/assets/images/Assembly_QuickSolve.svg) [Quick solve](/Assembly3_QuickSolve "Assembly3 QuickSolve") button to recompute
+2. Press the ![](/images/Assembly_ConstraintEqualLength.svg) [Equal length](/Assembly3_ConstraintEqualLength "Assembly3 ConstraintEqualLength") button.
+3. Press the ![](/images/Assembly3_workbench_icon.svg) [Solve constraints](/Assembly3_ResolveConstraints "Assembly3 ResolveConstraints") or the ![](/images/Assembly_QuickSolve.svg) [Quick solve](/Assembly3_QuickSolve "Assembly3 QuickSolve") button to recompute
 
-: : (if ![](/src/assets/images/Assembly_AutoRecompute.svg) [Auto recompute](/Assembly3_AutoRecompute "Assembly3 AutoRecompute") and ![](/src/assets/images/Assembly_SmartRecompute.svg) [Smart recompute](/Assembly3_SmartRecompute "Assembly3 SmartRecompute") are disabled).
+: : (if ![](/images/Assembly_AutoRecompute.svg) [Auto recompute](/Assembly3_AutoRecompute "Assembly3 AutoRecompute") and ![](/images/Assembly_SmartRecompute.svg) [Smart recompute](/Assembly3_SmartRecompute "Assembly3 SmartRecompute") are disabled).
 
 Retrieved from "<http://wiki.freecad.org/index.php?title=Assembly3_ConstraintEqualLength/en&oldid=923293>"

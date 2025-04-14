@@ -25,19 +25,19 @@ title: FreeCAD-Ship s60 tutorial
 
 In this tutorial we will work with Series 60 ship, from the Iowa University. The tutorial is aimed to show how to work with a symmetric monohull ship, however multihull or non-symmetric ships can be performed with the same proceeding.
 
-Learn more about ![](/src/assets/images/Workbench_Ship.svg) [Ship Workbench](/Ship_Workbench "Ship Workbench").
+Learn more about ![](/images/Workbench_Ship.svg) [Ship Workbench](/Ship_Workbench "Ship Workbench").
 
 ## Loading geometry
 
 ### Background
 
-The ![](/src/assets/images/Workbench_Ship.svg) [Ship Workbench](/Ship_Workbench "Ship Workbench") works over **Ship entities**, that must be created on top of provided geometry. Geometry must be a solid (or set of solids), the following criteria must be taken into account:
+The ![](/images/Workbench_Ship.svg) [Ship Workbench](/Ship_Workbench "Ship Workbench") works over **Ship entities**, that must be created on top of provided geometry. Geometry must be a solid (or set of solids), the following criteria must be taken into account:
 
 - All hull geometry must be provided (including symmetric bodies).
 - Starboard geometry must be included at negatives _y_ domain.
 - Origin (0,0,0) point is the **Midship section** (Midpoint between after and forward perpendicular) and **base line** intersection.
 
-![Schematic view of sign criteria](/src/assets/images/FreeCAD-Ship-SignCriteria.jpg)
+![Schematic view of sign criteria](/images/FreeCAD-Ship-SignCriteria.jpg)
 
 Schematic view of sign criteria
 
@@ -52,7 +52,7 @@ In order to help new users the Ship workbench includes a geometries example load
 - Series 60 Catamaran
 - Wigley Catamaran
 
-![Example ship geometries loader icon.](/src/assets/images/Ship_Load.svg)
+![Example ship geometries loader icon.](/images/Ship_Load.svg)
 
 Example ship geometries loader icon.
 
@@ -68,7 +68,7 @@ Warning, before editing anything!You are now working with the original example f
 
 In order to create a **Ship instance** select s60 geometry and execute the **ship creation tool** (Ship design/Create a new ship).
 
-![Ship creation tool.](/src/assets/images/Ship_Logo.svg)
+![Ship creation tool.](/images/Ship_Logo.svg)
 
 Ship creation tool.
 
@@ -76,7 +76,7 @@ Ship creation tool icon
 
 Creating a Ship task dialogue and some annotations in the [3D view](/3D_view "3D view") will be shown. The annotations will disappear when you close the Ship creation tool, so don't worry about this.
 
-Most relevant ship data must be introduced (the ![](/src/assets/images/Workbench_Ship.svg) Ship workbench uses a progressive data introduction system, so basic operations can be performed knowing only basic ship data, more information is needed as the operations become more complex).
+Most relevant ship data must be introduced (the ![](/images/Workbench_Ship.svg) Ship workbench uses a progressive data introduction system, so basic operations can be performed knowing only basic ship data, more information is needed as the operations become more complex).
 
 ### Ship data
 
@@ -86,7 +86,7 @@ Main dimensions must be introduced here:
 - Beam: Total ship beam, 3.389 m for this ship.
 - Draft: Design draft, 1.0 m for this ship.
 
-![Front view annotations](/src/assets/images/FreeCAD-Ship-S60ShipCreationFront.png)
+![Front view annotations](/images/FreeCAD-Ship-S60ShipCreationFront.png)
 
 Front view annotations
 
@@ -94,7 +94,7 @@ Length annotations.
 
 Usually the Length between perpendiculars depends on design draft, so if you don't know what is the length of your ship you can set draft, and fit length in order to get bow and draft intersection.
 
-![Side view annotations](/src/assets/images/FreeCAD-Ship-S60ShipCreationSide.png)
+![Side view annotations](/images/FreeCAD-Ship-S60ShipCreationSide.png)
 
 Side view annotations
 
@@ -104,7 +104,7 @@ Same process is valid for Beam fit. Note that requested value is total beam, but
 
 When you press the Accept button, a new Ship instance is created called **Ship** in the _Tags & Attributes_ dialog. We don't need geometry anymore, so you can hide it.
 
-![Ship instance icon](/src/assets/images/FreeCAD-Ship-ShipInstance.png)
+![Ship instance icon](/images/FreeCAD-Ship-ShipInstance.png)
 
 Ship instance icon
 
@@ -116,7 +116,7 @@ From here onward, you must have **Ship** selected before you execute any of the 
 
 The Ship workbench provides a tool that makes it easy to obtain a Lines Plan from the ship lines drawing
 
-![Outline draw tool.](/src/assets/images/Ship_OutlineDraw.svg)
+![Outline draw tool.](/images/Ship_OutlineDraw.svg)
 
 Outline draw tool.
 
@@ -132,7 +132,7 @@ Lines drawing is a set of lines from section cuts in all 3 axis, that will event
 
 Usually 21 transversal equidistant sections between perpendiculars must be performed. in order to do it FreeCAD provides an automatic tool in order to do it, simply select **Transversal** type of sections, go to **Auto create** box and set **21** sections, then press Create sections
 
-![Outline draw transversal sections preview.](/src/assets/images/S60OutlineTransversal.png)
+![Outline draw transversal sections preview.](/images/S60OutlineTransversal.png)
 
 Outline draw transversal sections preview.
 
@@ -169,7 +169,7 @@ Several additional waterlines must be added:
 
 Select **1:100** scale and press Accept to let the tool to generate the 3D sections in a new object.
 
-![Resultant sections.](/src/assets/images/FreeCAD-Ship-S60Outline3DSections.png)
+![Resultant sections.](/images/FreeCAD-Ship-S60Outline3DSections.png)
 
 Resultant sections.
 
@@ -177,7 +177,7 @@ Resultant sections.
 
 In order to plot these sections you can use the [TechDraw Workbench](/TechDraw_Workbench "TechDraw Workbench"):
 
-![Outline draw plot.](/src/assets/images/FreeCAD-Ship-S60OutlinePlot.png)
+![Outline draw plot.](/images/FreeCAD-Ship-S60OutlinePlot.png)
 
 Outline draw plot.
 
@@ -187,7 +187,7 @@ Outline draw plot.
 
 One typical ship design hydrodynamic parameter is the transversal areas curve, that retrieves some indicators about the behaviour of the hull (towing resistance, seakeeping, ...). The Ship workbench provides a simple tool in order to perform transversal areas curve.
 
-![Transversal areas curve tool icon.](/src/assets/images/FreeCAD-Ship-AreaCurveIco.png)
+![Transversal areas curve tool icon.](/images/FreeCAD-Ship-AreaCurveIco.png)
 
 Transversal areas curve tool icon.
 
@@ -217,7 +217,7 @@ Some relevant data is shown at real time:
 
 When Accept button is pressed a plot is performed (depending on geometry complexity can take some time, you can see progress on terminal, and stop the work pressing Ctrl+C). When the task has finished FreeCAD will generate a Plot (see the [Plot workbench](/Plot_Workbench "Plot Workbench") documentation) and a SpreadSheet (see the [Spreadsheet workbench](/Spreadsheet_Workbench "Spreadsheet Workbench") documentation).
 
-![Design draft transversal areas curve.](/src/assets/images/FreeCAD-Ship-s60Areas.png)
+![Design draft transversal areas curve.](/images/FreeCAD-Ship-s60Areas.png)
 
 Design draft transversal areas curve.
 
@@ -229,7 +229,7 @@ You can perform maximum draft transversal areas curve in order to see the differ
 
 Hydrostatics computation is a critical stage at ship design due to know principal stability hull parameters. Hydrostatics are mandatory data in order to classification societies certificates ship, and joined with loading condition data (weights and gravity position) provides essential data about ship stability. FreeCAD-Ship provides a tool to obtain main hydrostatics curves (GZ curves are considered in other tool).
 
-![Hydrostatics tool icon.](/src/assets/images/FreeCAD-Ship-HydrostaticsIco.png)
+![Hydrostatics tool icon.](/images/FreeCAD-Ship-HydrostaticsIco.png)
 
 Hydrostatics tool icon.
 
@@ -246,7 +246,7 @@ So we set following data:
 
 When **Accept** button is pressed plots are performed (see the [Plot workbench](/Plot_Workbench "Plot Workbench") documentation) and a spreadsheet is generated (see the [Spreadsheet workbench](/Spreadsheet_Workbench "Spreadsheet Workbench") documentation).
 
-![Hydrostatics curves.](/src/assets/images/FreeCAD-Ship-HydrostaticsCurves.png)
+![Hydrostatics curves.](/images/FreeCAD-Ship-HydrostaticsCurves.png)
 
 Hydrostatics curves.
 

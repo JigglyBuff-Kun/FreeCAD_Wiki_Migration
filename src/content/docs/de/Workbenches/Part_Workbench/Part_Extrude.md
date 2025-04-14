@@ -29,17 +29,17 @@ In den meisten üblichen Szenarien wird im Folgenden der erwartete Ausgabeformty
 - extrudieren eines offenen Drahts (z.B. Entwurf Draht) wird wahlweise eine offene Hülle (mehrere verbundene Flächen) erzeugen
 - extrudieren eines geschlossenen Linienzuges (z.B. Draft Linienzug) wird wahlweise eine Hülle (mehrere angeschlossene Flächen) oder wenn der Parameter _Festkörper_ `true` ist, einen Festkörper erzeugen
 - extrudieren einer Fläche (z.B. Ebene) wird einen Festkörper (z.B. Quader) erzeugen
-- extrudieren eines ![](/src/assets/images/Draft_ShapeString.svg) [Entwurf Form Zeichenfolge](/Draft_ShapeString "Draft ShapeString") wird einen Verbund von Festkörpern (die Zeichenfolge ist ein Verbund der Buchstaben, die ebenfalls Festkörper sind) erzeugen
+- extrudieren eines ![](/images/Draft_ShapeString.svg) [Entwurf Form Zeichenfolge](/Draft_ShapeString "Draft ShapeString") wird einen Verbund von Festkörpern (die Zeichenfolge ist ein Verbund der Buchstaben, die ebenfalls Festkörper sind) erzeugen
 - extrudieren einer Hülle von Flächen wird ein Verbundfestkörper erzeugt
 
-![](/src/assets/images/Part_Extrude_demo.png)
+![](/images/Part_Extrude_demo.png)
 
 Beispiele für Extrusionen
 
 ## Anwendung
 
 1. Die Formen in der [3D-Ansicht](/3D_view/de "3D view/de") oder in der [Baumansicht](/Tree_view/de "Tree view/de") auswählen.
-2. Die Schaltfläche ![](/src/assets/images/Part_Extrude.svg) Extrudieren... in der Symbolleiste drücken oder den Menüeintrag **Part → Extrudieren...** auswählen.
+2. Die Schaltfläche ![](/images/Part_Extrude.svg) Extrudieren... in der Symbolleiste drücken oder den Menüeintrag **Part → Extrudieren...** auswählen.
 3. Richtung, Länge und wahlweise weitere Parameter einstellen (siehe den folgenden Abschnitt [Parameter](#Parameter) für weitere Einzelheiten).
 4. OK klicken.
 
@@ -82,7 +82,7 @@ Die Extrusionsform wird durch die folgenden Parameter festgelegt, die nach ihrer
 
 ## Aufgabendialog
 
-![](/src/assets/images/Part_Extrude_dialog.png)
+![](/images/Part_Extrude_dialog.png)
 
 - OK: Schaltfläche erzeugt die Extrusion und schließt den Dialog.
 

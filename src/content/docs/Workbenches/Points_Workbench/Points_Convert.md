@@ -27,8 +27,8 @@ Here a shape object refers any object with a Data**Shape** property. Objects cre
 
 1. Select one or more objects.
 2. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/Points_Convert.svg) [Convert to points...](/Points_Convert "Points Convert") button.
-   - Select the **Points → ![](/src/assets/images/Points_Convert.svg) Convert to points...** option from the menu.
+   - Press the ![](/images/Points_Convert.svg) [Convert to points...](/Points_Convert "Points Convert") button.
+   - Select the **Points → ![](/images/Points_Convert.svg) Convert to points...** option from the menu.
 3. The **Distance** dialog box opens.
 4. Enter the **maximum distance**. The value must be in the `0.01` - `10.00` range.
 5. Press the OK button to close the dialog box and finish the command.

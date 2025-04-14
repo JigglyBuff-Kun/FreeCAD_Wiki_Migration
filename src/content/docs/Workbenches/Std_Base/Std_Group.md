@@ -25,7 +25,7 @@ The Std Group tool is not defined by a particular workbench, but by the base sys
 
 To group 3D objects as a single unit, with the intention of creating assemblies, use [Std Part](/Std_Part "Std Part") instead.
 
-![](/src/assets/images/Std_Group_example.png)
+![](/images/Std_Group_example.png)
 
 Various elements inside Std Groups in the tree view.
 
@@ -33,7 +33,7 @@ Various elements inside Std Groups in the tree view.
 
 1. Do one of the following:
    - Right-click the name of the document in the [Tree view](/Tree_view "Tree view") and in the context menu choose **Create group...**.
-   - Press the ![](/src/assets/images/Std_Group.svg) [Create group](/Std_Group "Std Group") button.
+   - Press the ![](/images/Std_Group.svg) [Create group](/Std_Group "Std Group") button.
 2. An empty Group is created.
 3. To add objects to the Group, select them in [Tree view](/Tree_view "Tree view"), and drag and drop them onto the Group.
 4. To remove objects from the Group, drag them out of the Group, and onto the document label at the top of the [Tree view](/Tree_view "Tree view").

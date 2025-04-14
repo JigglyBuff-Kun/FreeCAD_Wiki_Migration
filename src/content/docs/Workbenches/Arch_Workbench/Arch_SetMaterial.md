@@ -25,13 +25,13 @@ THIS COMMAND IS OBSOLETEIt is not available in1.0 and above. UseBIM Materialinst
 
 This tool allows to add [materials](/Material "Material") to the active document and attribute a material to an [Arch](/Arch_Workbench "Arch Workbench") object. A Material contains all the properties of a certain material and controls the color of the object it is attached to. Materials are stored in a **Materials** folder in the active document.
 
-![](/src/assets/images/Arch_materials_01.jpg)
+![](/images/Arch_materials_01.jpg)
 
 ## Usage
 
 1. Optionally, select one or more objects to which you wish to attribute a new material.
 2. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/Arch_SetMaterial.svg) [Material](/Arch_SetMaterial "Arch SetMaterial") button in the toolbar.
+   - Press the ![](/images/Arch_SetMaterial.svg) [Material](/Arch_SetMaterial "Arch SetMaterial") button in the toolbar.
    - Use the M then T keyboard shortcut.
    - Use the **Arch → Material Tools → Material** entry from the top menu.
 3. Load a preset material, or create a new one by filling the fields.
@@ -41,7 +41,7 @@ This tool allows to add [materials](/Material "Material") to the active document
 
 - Upon creating a new material, a task panel allows you to set different options:
 
-![](/src/assets/images/Arch_materials_02.jpg)
+![](/images/Arch_materials_02.jpg)
 
 - **Choose preset**: Choose one of the preset materials, to be used as is, or to be adapted by modifying the fields below
 - **Name**: Choose a name for the material

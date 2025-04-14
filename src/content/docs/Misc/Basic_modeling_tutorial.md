@@ -43,25 +43,25 @@ So let's start by trying to do some iron feet for a table with these 2 methods.
 
 ## 1st Method - By Constructive Solid Geometry
 
-1. Start with the [Part Workbench](/Part_Workbench "Part Workbench") ![](/src/assets/images/Switch_PartWorkbench.JPG).
-2. If you haven't opened a new FreeCAD document (most of the FreeCAD window looks greyed-out), from the pull-down menu click **File → New** or click the ![](/src/assets/images/Std_New.svg) **Create a new empty document** icon.
-3. Click on the ![](/src/assets/images/Part_Box.svg) [Box](/Part_Box "Part Box") button to create a box
+1. Start with the [Part Workbench](/Part_Workbench "Part Workbench") ![](/images/Switch_PartWorkbench.JPG).
+2. If you haven't opened a new FreeCAD document (most of the FreeCAD window looks greyed-out), from the pull-down menu click **File → New** or click the ![](/images/Std_New.svg) **Create a new empty document** icon.
+3. Click on the ![](/images/Part_Box.svg) [Box](/Part_Box "Part Box") button to create a box
 4. Change its dimensions by selecting it either in the 3D space, or by clicking it in the Project tab to the left, then
 5. Click on the Data tab at the bottom, and change values for Length, Width and Height to 50mm, 50 and 750 _(see Fig. 1.1)_ **Note**: _back when these captures were taken, the properties were ordered differently, with Height being first_.
-6. The box now fills most of the 3D view. Click on ![](/src/assets/images/Std_ViewFitAll.svg) [Fit All](/Std_ViewFitAll "Std ViewFitAll") to fit the view to the newly created box.
+6. The box now fills most of the 3D view. Click on ![](/images/Std_ViewFitAll.svg) [Fit All](/Std_ViewFitAll "Std ViewFitAll") to fit the view to the newly created box.
 7. Create a second box the same way, but with values L=40, W=40 and H=750mm. By default this box will be superimposed on the first one. _(see Fig. 1.2)_
 8. You'll now subtract the second box from the first. Select the first shape first (named Box), then the second one (named Box001), the selection order is important! (Make sure that both shapes are selected in the Project tree. **One thing to remember:** in Inventor navigation mode, Ctrl + click does not work for multiple selection. Switch [Mouse navigation](/Mouse_navigation "Mouse navigation") to either CAD or Blender selection.)
-9. On the Part Workbench toolbar, click on the ![](/src/assets/images/Part_Cut.svg) [Cut](/Part_Cut "Part Cut") tool.
+9. On the Part Workbench toolbar, click on the ![](/images/Part_Cut.svg) [Cut](/Part_Cut "Part Cut") tool.
 
-![](/src/assets/images/Tutorial-normand01.jpg)
+![](/images/Tutorial-normand01.jpg)
 
 Fig. 1.1 The first box
 
-![](/src/assets/images/Tutorial-normand02.jpg)
+![](/images/Tutorial-normand02.jpg)
 
 Fig. 1.2 The second box on top of the first one, ready to be subtracted
 
-![](/src/assets/images/Tutorial-normand03.jpg)
+![](/images/Tutorial-normand03.jpg)
 
 Fig. 1.3 After the subtraction
 
@@ -69,25 +69,25 @@ You now have your first iron angle _(Fig. 1.3)_. You'll notice that, in the Proj
 
 Don't want the angle oriented that way? You just need to change the placement of the Box001 shape. Select it, unhide it, and in the Data tab, click on the + in front of Placement, then expand the Position parameter, and change its X and Y coordinates. Hit Enter, hide the Box001 shape again, and your angle orientation is now different. _(Fig. 1.5)_ You can even change either of your shapes dimensions, and the Cut object will be updated.
 
-![](/src/assets/images/Tutorial-normand04.jpg)
+![](/images/Tutorial-normand04.jpg)
 
 Fig. 1.4 The cut operation retains its original objects (the boxes)
 
-![](/src/assets/images/Tutorial-normand05.jpg)
+![](/images/Tutorial-normand05.jpg)
 
 Fig. 1.5 You can still make the original boxes visible
 
-By the way, we can add rounds to the angle so it is more realistic, using the ![](/src/assets/images/Part_Fillet.svg) [Fillet](/Part_Fillet "Part Fillet") tool. _(Fig. 1.6)_
+By the way, we can add rounds to the angle so it is more realistic, using the ![](/images/Part_Fillet.svg) [Fillet](/Part_Fillet "Part Fillet") tool. _(Fig. 1.6)_
 
-![](/src/assets/images/Tutorial-normand06.jpg)
+![](/images/Tutorial-normand06.jpg)
 
 Fig. 1.6 The filleted edges
 
 ## 2nd Method - By extruding a profile
 
-This method requires that you start by drawing a 2D profile. You need to activate the [Draft workbench](/Draft_Workbench "Draft Workbench") ![](/src/assets/images/Switch_DraftWorkbench.JPG).
+This method requires that you start by drawing a 2D profile. You need to activate the [Draft workbench](/Draft_Workbench "Draft Workbench") ![](/images/Switch_DraftWorkbench.JPG).
 
-- If you haven't opened a new FreeCAD document (most of the FreeCAD window looks greyed-out), from the pull-down menu click File → New or click the ![](/src/assets/images/Std_New.svg) **Create a new empty document** icon.
+- If you haven't opened a new FreeCAD document (most of the FreeCAD window looks greyed-out), from the pull-down menu click File → New or click the ![](/images/Std_New.svg) **Create a new empty document** icon.
 
 ### Setting the working plane
 
@@ -95,7 +95,7 @@ First we need to define on which [working plane](/Draft_SelectPlane "Draft Selec
 
 1. Locate the toolbar displayed below. Depending on your Draft preferences, it may be below the main toolbar, to the left or to the right.
 
-   : ![](/src/assets/images/DraftPlaneAuto.png)
+   : ![](/images/DraftPlaneAuto.png)
 
 2. Press the Auto button (it may be labeled "None").
 3. Depending on your Draft preferences, this expands a **Select Plane** dialog in the Tasks side panel, or a horizontal toolbar labeled "active command: **Select Plane**". See the [Note on Draft Working Plane Button](#Note_on_Draft_Working_Plane_Button) for screen captures showing the two expanded modes.
@@ -104,7 +104,7 @@ First we need to define on which [working plane](/Draft_SelectPlane "Draft Selec
 
 ### Drafting the profile
 
-1. Select the ![](/src/assets/images/Draft_Wire.svg) [DWire (multiple-point DraftWire)](/Draft_Wire "Draft Wire") tool.
+1. Select the ![](/images/Draft_Wire.svg) [DWire (multiple-point DraftWire)](/Draft_Wire "Draft Wire") tool.
 2. Check the "Relative" and "Filled" boxes.
 3. Rather than drawing the shape in the 3D view, we'll enter coordinates in the _Global X_, _Global Y_ and _Global Z_ input fields. The process is the following:
    1. Click in the _Global X_ input field;
@@ -121,7 +121,7 @@ First we need to define on which [working plane](/Draft_SelectPlane "Draft Selec
       - 6th point: -10, 0, 0
 4. Press the Close button to close the profile. You should now have this profile, titled **DWire** in the Model tab:
 
-![](/src/assets/images/Tutorial-normand07.jpg)
+![](/images/Tutorial-normand07.jpg)
 
 Fig. 1.7 The base DWire
 
@@ -129,13 +129,13 @@ Hit the 0 (zero) key on the numerical keypad to set the view to axonometric.
 
 ### Extruding the profile
 
-Activate the ![](/src/assets/images/Workbench_Part.svg) [Part Workbench](/Part_Workbench "Part Workbench") either from the [workbench selector](/Std_Workbench "Std Workbench"), or from the **[View](/Std_View_Menu "Std View Menu") → Workbench → Part** menu.
+Activate the ![](/images/Workbench_Part.svg) [Part Workbench](/Part_Workbench "Part Workbench") either from the [workbench selector](/Std_Workbench "Std Workbench"), or from the **[View](/Std_View_Menu "Std View Menu") → Workbench → Part** menu.
 
-Click on the ![](/src/assets/images/Part_Extrude.svg) [Extrude](/Part_Extrude "Part Extrude") tool.
+Click on the ![](/images/Part_Extrude.svg) [Extrude](/Part_Extrude "Part Extrude") tool.
 
 On the Tasks tab on the left, select the **Wire** object. Then enter the desired length, say 750mm. Leave the direction at Z = 1. Press OK. You should now have an **Extrude** object in the Model tab _(fig. 1.8)_
 
-![](/src/assets/images/Tutorial-normand08.jpg)
+![](/images/Tutorial-normand08.jpg)
 
 Fig. 1.8 The extruded object
 
@@ -147,25 +147,25 @@ And there are a few other ways to do it too! I hope these two examples get you s
 
 The label on your button may be different, depending on your version and also on what you were doing beforehand. The button label could read: "Top", "Front", "Side", "None" or a Vector representation such as d(0.0,0.0,1.0). It can also be blank. For example:
 
-![](/src/assets/images/DraftPlaneNone.png)
+![](/images/DraftPlaneNone.png)
 
 Select Plane None
 
-![](/src/assets/images/DraftPlaneTop.png)
+![](/images/DraftPlaneTop.png)
 
 Select Plane Top
 
-![](/src/assets/images/DraftPlaneView.png)
+![](/images/DraftPlaneView.png)
 
 Select Plane View
 
 After pressing the button, the options will be expanded into either of the following configurations.
 
-![](/src/assets/images/DraftPlaneTasks.png)
+![](/images/DraftPlaneTasks.png)
 
 **Select Plane** parameters as shown in Tasks panel mode.
 
-![](/src/assets/images/DraftPlaneToolbarMode.png)
+![](/images/DraftPlaneToolbarMode.png)
 
 **Select Plane** parameters as shown in Toolbar mode.
 

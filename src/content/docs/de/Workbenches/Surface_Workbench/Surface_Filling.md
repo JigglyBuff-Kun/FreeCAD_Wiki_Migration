@@ -19,17 +19,17 @@ title: Surface Füllfläche
 
 ## Beschreibung
 
-![](/src/assets/images/Surface_Filling.svg) Surface Füllfläche erstellt eine Oberfläche aus einer Reihe von verbundenen Randkurven. Die Krümmung der Oberfläche kann zusätzlich über Kanten und Knotenpunkte innerhalb der Fläche sowie einer Stützfläche gesteuert werden.
+![](/images/Surface_Filling.svg) Surface Füllfläche erstellt eine Oberfläche aus einer Reihe von verbundenen Randkurven. Die Krümmung der Oberfläche kann zusätzlich über Kanten und Knotenpunkte innerhalb der Fläche sowie einer Stützfläche gesteuert werden.
 
 Die Basisgeometrie kann zu Kurven, die mit den Arbeitsbereichen [Draft](/Draft_Workbench/de "Draft Workbench/de") oder [Sketcher](/Sketcher_Workbench/de "Sketcher Workbench/de") erstellt wurden, gehören, aber auch zu Festkörperobjekten, die mit demArbeitsbereich [Part](/Part_Workbench/de "Part Workbench/de") erzeugt wurden.
 
-![](/src/assets/images/Surface_Filling_example.png)
+![](/images/Surface_Filling_example.png)
 
 Zwei gefüllte Oberflächen, umrandet von vier Kanten auf der XY-Ebene. Die Oberfläche auf der rechten Seite wird zusätzlich durch eine Kante beeinflusst, die nicht zur Umrandung gehört.
 
 ## Anwendung
 
-1. Press the ![](/src/assets/images/Surface_Filling.svg) [Filling](/Surface_Filling "Surface Filling") button.
+1. Press the ![](/images/Surface_Filling.svg) [Filling](/Surface_Filling "Surface Filling") button.
 2. The **Boundaries** task panel opens. See [Options](#Options).
 3. Select two or more edges in the [3D view](/3D_view "3D view"):
    - There is no need to press the Add edge button in the **Boundaries** section at this time.
@@ -48,7 +48,7 @@ Zwei gefüllte Oberflächen, umrandet von vier Kanten auf der XY-Ebene. Die Ober
 - In the **Boundaries** section a support surface and boundary edges can specified:
 
   - Press the Support surface button and select a face in the [3D view](/3D_view "3D view") to add a support surface.
-    - Click the ![](/src/assets/images/Edit-cleartext.svg) icon to remove the support surface.
+    - Click the ![](/images/Edit-cleartext.svg) icon to remove the support surface.
   - Press the Add edge button once to start selecting boundary edges in the [3D view](/3D_view "3D view").
   - There are several ways to deselect boundary edges:
     - Press the Remove edge button once to start deselecting edges in the [3D view](/3D_view "3D view").
@@ -69,8 +69,8 @@ Zwei gefüllte Oberflächen, umrandet von vier Kanten auf der XY-Ebene. Die Ober
 
 Die **Stützfläche** Stellt eine weitere Randbedingung für die Oberfläche dar. Das folgende einfache Beispiel gibt einen Eindruck davon, wie dies funktioniert:
 
-1. In the ![](/src/assets/images/Workbench_Part.svg) [Part Workbench](/Part_Workbench "Part Workbench") create a ![](/src/assets/images/Part_Cylinder.svg)[cylinder](/Part_Cylinder "Part Cylinder") and set its Daten**Angle** to `180°`.
-2. Switch to the ![](/src/assets/images/Workbench_Surface.svg) [Surface Workbench](/Surface_Workbench "Surface Workbench") and press the ![](/src/assets/images/Surface_Filling.svg) [Filling](/Surface_Filling "Surface Filling") button.
+1. In the ![](/images/Workbench_Part.svg) [Part Workbench](/Part_Workbench "Part Workbench") create a ![](/images/Part_Cylinder.svg)[cylinder](/Part_Cylinder "Part Cylinder") and set its Daten**Angle** to `180°`.
+2. Switch to the ![](/images/Workbench_Surface.svg) [Surface Workbench](/Surface_Workbench "Surface Workbench") and press the ![](/images/Surface_Filling.svg) [Filling](/Surface_Filling "Surface Filling") button.
 3. Select the two semi-circular edges and the two straight edges that connect them.
 4. The result matches the four boundary edges, but the inner shape is quite different from the cylindrical face.
 5. Edit the Surface object and for the **Support surface** select the cylindrical face.

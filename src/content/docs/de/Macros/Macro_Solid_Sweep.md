@@ -32,7 +32,7 @@ Dieses Makro erstellt einen Körper, indem ein 2D-Profil entlang einer zuvor in 
 
 Mělo by být poznamenáno, že výsledná pevná látka nebude **parametrická**. Pokud se rozhodnete změnit profil nebo trajektorii, budete muset znovu spustit makro.
 
-![Einige Beispiele für das Fegen mit dem gleichen länglichen Abschnitt und drei Arten von Flugbahnen.](/src/assets/images/Solid_sweep.png)
+![Einige Beispiele für das Fegen mit dem gleichen länglichen Abschnitt und drei Arten von Flugbahnen.](/images/Solid_sweep.png)
 
 ## Anwendung
 
@@ -50,10 +50,10 @@ Mělo by být poznamenáno, že výsledná pevná látka nebude **parametrická*
 
 - Leitungen
 
-* ![](/src/assets/images/Sketcher_NewSketch.svg) [Sketches](/Sketcher_Workbench/de "Sketcher Workbench/de")
-* ![](/src/assets/images/Draft_BSpline.svg) [Entwurf BSpline](/Draft_BSpline/de "Draft BSpline/de")
+* ![](/images/Sketcher_NewSketch.svg) [Sketches](/Sketcher_Workbench/de "Sketcher Workbench/de")
+* ![](/images/Draft_BSpline.svg) [Entwurf BSpline](/Draft_BSpline/de "Draft BSpline/de")
 
-- 2D Grundelemente aus dem _Part → ![](/src/assets/images/Part_Primitives.svg) [Create Primitives](/Part_Primitives/de "Part Primitives/de") ..._ menu (circle, helix)
+- 2D Grundelemente aus dem _Part → ![](/images/Part_Primitives.svg) [Create Primitives](/Part_Primitives/de "Part Primitives/de") ..._ menu (circle, helix)
 
 ## Tipps
 
@@ -65,7 +65,7 @@ Mělo by být poznamenáno, že výsledná pevná látka nebude **parametrická*
 
 ## Skript
 
-ToolBar Icon ![](/src/assets/images/Macro_Solid_Sweep.png)
+ToolBar Icon ![](/images/Macro_Solid_Sweep.png)
 
 **Macro_Solid_Sweep.FCMacro**
 

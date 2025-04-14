@@ -2,21 +2,21 @@
 title: Arbeitsbereich Sketcher
 ---
 
-![](/src/assets/images/Workbench_Sketcher.svg)
+![](/images/Workbench_Sketcher.svg)
 
 Symbol des Arbeitsbereichs Sketcher
 
 ## Einleitung
 
-Mit dem Arbeitsbereich ![](/src/assets/images/Workbench_Sketcher.svg) Sketcher können 2D-Skizzen für den Gebrauch in anderen Arbeitsbereichen erstellt werden. 2D-Skizzen sind der Ausgangspunkt für viele CAD-Modelle. Sie legen typischerweise die Profilquerschnitte und Rückgratkurven für die Verfahren zur Erstellung von 3D-Formen fest. Die endgültige Form eines Modells kann von mehreren Skizzen abhängen.
+Mit dem Arbeitsbereich ![](/images/Workbench_Sketcher.svg) Sketcher können 2D-Skizzen für den Gebrauch in anderen Arbeitsbereichen erstellt werden. 2D-Skizzen sind der Ausgangspunkt für viele CAD-Modelle. Sie legen typischerweise die Profilquerschnitte und Rückgratkurven für die Verfahren zur Erstellung von 3D-Formen fest. Die endgültige Form eines Modells kann von mehreren Skizzen abhängen.
 
-Zusammen mit booleschen Verknüpfungen, die im Arbeitsbereich ![](/src/assets/images/Workbench_Part.svg) [Part](/Part_Workbench/de "Part Workbench/de") festgelegt werden, bildet der Arbeitsbereich Sketcher, oder kurz "der Sketcher", die Basis der Methode "Konstruktive Festkörper-Geometrie", engl.: [constructive solid geometry](/Constructive_solid_geometry/de "Constructive solid geometry/de") (CSG) zum Aufbau von Festkörpern. Zusammen mit den Verfahren des Arbeitsbereichs ![](/src/assets/images/Workbench_PartDesign.svg) [PartDesign](/PartDesign_Workbench/de "PartDesign Workbench/de") bildet er auch die Basis der Methode [Formelemente bearbeiten](/Feature_editing/de "Feature editing/de") zum Aufbau von Festkörpern. Aber auch viele andere Arbeitsbereiche setzen Skizzen ein.
+Zusammen mit booleschen Verknüpfungen, die im Arbeitsbereich ![](/images/Workbench_Part.svg) [Part](/Part_Workbench/de "Part Workbench/de") festgelegt werden, bildet der Arbeitsbereich Sketcher, oder kurz "der Sketcher", die Basis der Methode "Konstruktive Festkörper-Geometrie", engl.: [constructive solid geometry](/Constructive_solid_geometry/de "Constructive solid geometry/de") (CSG) zum Aufbau von Festkörpern. Zusammen mit den Verfahren des Arbeitsbereichs ![](/images/Workbench_PartDesign.svg) [PartDesign](/PartDesign_Workbench/de "PartDesign Workbench/de") bildet er auch die Basis der Methode [Formelemente bearbeiten](/Feature_editing/de "Feature editing/de") zum Aufbau von Festkörpern. Aber auch viele andere Arbeitsbereiche setzen Skizzen ein.
 
 Der Arbeitsbereich Sketcher verwendet [Randbedingungen](#Randbedingungen) (engl.: constraints, auch Beschränkungen, Zwangsbedingungen oder Einschränkungen genannt), die es ermöglichen, dasss 2D-Formen präzisen geometrische Festlegungen in Form von Längen, Winkeln und Lagebeziehungen (horizontal, vertikal, rechtwinklig, usw.) folgen. Ein mathematischer Gleichungslöser (kurz Löser) _Löser_ (engl.: Solver) berechnet den mit Randbedingungen bestimmten Umfang der 2D-Geometrie und ermöglicht die interaktive Überwachung der Freiheitsgrade der Skizze.
 
 Der Sketcher ist nicht für die Herstellung von technischen Zeichnungen (Blaupausen) vorgesehen. Sobald Skizzen eingesetzt wurden um ein Festkörper-Formelement zu erstellen, werden sie automatisch ausgeblendet und Randbedingungen sind nur im Skizzenbearbeitungsmodus sichtbar. Sollen nur 2D-Zeichnungen zum Ausdrucken erstellt werden, ohne dass 3D-Modelle benötigt werden, sollte der Arbeitsbereich [Draft](/Draft_Workbench "Draft Workbench") ausprobiert werden.
 
-![](/src/assets/images/FC_ConstrainedSketch.png)
+![](/images/FC_ConstrainedSketch.png)
 
 Eine vollständig bestimmte Skizze‎
 
@@ -34,7 +34,7 @@ Es gibt zwei Arten von Randbedingungen: _geometrische_ und _maßliche_. Sie sind
 
 Wenn eine [festlegende maßliche Randbedingung](/Sketcher_ToggleDrivingConstraint/de "Sketcher ToggleDrivingConstraint/de") erstellt wird und wenn die [Einstellung](/Sketcher_Preferences/de#Anzeige "Sketcher Preferences/de") **Wert erfragen, nach Erstellung einer maßlichen Randbedingung** aktiviert ist (Standardeinstellung), öffnet sich ein Dialog zum Bearbeiten des Wertes.
 
-![Sketcher Randbedingungen bearbeiten](/src/assets/images/Sketcher_Edit_Constraint.png)
+![Sketcher Randbedingungen bearbeiten](/images/Sketcher_Edit_Constraint.png)
 
 Es kann ein Zahlenwert oder ein [Ausdruck](/Expressions/de "Expressions/de") eingegeben werden und es ist möglich der Randbedingung einen Namen zu geben, um ihre Verwendung in anderen Ausdrücken zu ermöglichen. Man kann die Checkbox **Referenz** aktivieren, um die Randbedingung in den [anzeigenden Modus](/Sketcher_ToggleDrivingConstraint/de "Sketcher ToggleDrivingConstraint/de") umzuschalten.
 
@@ -73,12 +73,12 @@ In Skizzen, für die **Automatische Randbedingungen** aktiviert ist (Standardein
 
 Die folgenden Randedingungen werden automatisch festgelegt:
 
-- ![](/src/assets/images/Sketcher_ConstrainCoincident.svg) [Koinzident festlegen](/Sketcher_ConstrainCoincident/de "Sketcher ConstrainCoincident/de")
-- ![](/src/assets/images/Sketcher_ConstrainPointOnObject.svg) [Punkt auf Objekt festlegen](/Sketcher_ConstrainPointOnObject/de "Sketcher ConstrainPointOnObject/de")
-- ![](/src/assets/images/Sketcher_ConstrainHorizontal.svg) [Horizontal festlegen](/Sketcher_ConstrainHorizontal/de "Sketcher ConstrainHorizontal/de")
-- ![](/src/assets/images/Sketcher_ConstrainVertical.svg) [Vertikal festlegen](/Sketcher_ConstrainVertical/de "Sketcher ConstrainVertical/de")
-- ![](/src/assets/images/Sketcher_ConstrainTangent.svg) [Tangential festlegen](/Sketcher_ConstrainTangent/de "Sketcher ConstrainTangent/de")
-- [eingeführt in 1.0](/Release_notes_1.0/de "Release notes 1.0/de"): ![](/src/assets/images/Sketcher_ConstrainSymmetric.svg) [Symmetrisch festlegen](/Sketcher_ConstrainSymmetric/de "Sketcher ConstrainSymmetric/de") (Linienmittelpunkt)
+- ![](/images/Sketcher_ConstrainCoincident.svg) [Koinzident festlegen](/Sketcher_ConstrainCoincident/de "Sketcher ConstrainCoincident/de")
+- ![](/images/Sketcher_ConstrainPointOnObject.svg) [Punkt auf Objekt festlegen](/Sketcher_ConstrainPointOnObject/de "Sketcher ConstrainPointOnObject/de")
+- ![](/images/Sketcher_ConstrainHorizontal.svg) [Horizontal festlegen](/Sketcher_ConstrainHorizontal/de "Sketcher ConstrainHorizontal/de")
+- ![](/images/Sketcher_ConstrainVertical.svg) [Vertikal festlegen](/Sketcher_ConstrainVertical/de "Sketcher ConstrainVertical/de")
+- ![](/images/Sketcher_ConstrainTangent.svg) [Tangential festlegen](/Sketcher_ConstrainTangent/de "Sketcher ConstrainTangent/de")
+- [eingeführt in 1.0](/Release_notes_1.0/de "Release notes 1.0/de"): ![](/images/Sketcher_ConstrainSymmetric.svg) [Symmetrisch festlegen](/Sketcher_ConstrainSymmetric/de "Sketcher ConstrainSymmetric/de") (Linienmittelpunkt)
 
 ### Einrasten
 
@@ -92,17 +92,17 @@ Es ist möglich auf Rasterlinien und Rasterschnittstellen [einzurasten](/Sketche
 
 Abhängig von der ausgewählten Option in den [Voreinstellungen](/Sketcher_Preferences/de#Allgemein "Sketcher Preferences/de") können nur die maßlichen In-Ansicht-Parameter (On-View-Parameters) aktiviert werden oder beide, die maßlichen In-Ansicht-Parameter und die zum Festlegen von Positionen. Letztere ermöglichen die Eingabe von exakten Koordinaten, z.B. für den Mittelpunkt eines Kreises oder den Startpunkt einer Linie. Maßliche Parameter ermöglichen die Eingabe exakter Maße und Winkel z.B. für den Radius eines Kreises oder die Länge und den Winkel einer Linie. In-Ansicht-Parameter stehen nicht für alle Werkzeuge zur Verfügung.
 
-![](/src/assets/images/Sketcher_On_view_parameters_positional.png)
+![](/images/Sketcher_On_view_parameters_positional.png)
 
 Bestimmung des Mittelpunktes eines Kreises mit aktivierten Positionsparametern
 
-![](/src/assets/images/Sketcher_On_view_parameters_dimensional.png)
+![](/images/Sketcher_On_view_parameters_dimensional.png)
 
 Bestimmung des Radius eines Kreises mit aktivierten Maßparametern
 
 Werden Werte eingegeben und mit Enter oder Tab bestätigt, werden die zugehörigen Randbedingungen automatisch hinzugefügt. Werden zwei Parameter gleichzeitig angezeigt, z.B. die X- und die Y-Koordinate eines Punktes, ist es möglich einen Wert einzugeben und den anderen durch Auswahl eines Punktes festzulegen. Abhängig vom Objekt können weitere Randbedingungen erforderlich sein, um es vollständig zu bestimmen. Randbedingungen, die sich aus In-Ansich-Parametern ergeben, haben Vorrang vor denen, die aus [Automatischen Randbedingungen](/Sketcher_Dialog/de#Randbedingungen "Sketcher Dialog/de") resultieren.
 
-![](/src/assets/images/Sketcher_ArcExample3.png)
+![](/images/Sketcher_ArcExample3.png)
 
 Kreisbogen, für den alle In-Ansicht-Parameter eingegeben wurden, mit den resultierenden automatisch erstellten Randbedingungen
 
@@ -157,291 +157,291 @@ Einige Werkzeuge stehen auch im Kontextmenü der [3D-Ansicht](/3D_view/de "3D vi
 
 #### Symbolleiste Sketcher
 
-- ![](/src/assets/images/Sketcher_NewSketch.png) [Skizze erstellen](/Sketcher_NewSketch/de "Sketcher NewSketch/de"): Erstellt eine neue Skizze und öffnet den [Sketcher-Dialog](/Sketcher_Dialog/de "Sketcher Dialog/de"), um sie zu bearbeiten.
+- ![](/images/Sketcher_NewSketch.png) [Skizze erstellen](/Sketcher_NewSketch/de "Sketcher NewSketch/de"): Erstellt eine neue Skizze und öffnet den [Sketcher-Dialog](/Sketcher_Dialog/de "Sketcher Dialog/de"), um sie zu bearbeiten.
 
-- ![](/src/assets/images/Sketcher_EditSketch.png) [Skizze bearbeiten](/Sketcher_EditSketch/de "Sketcher EditSketch/de"): Öffnet den [Sketcher-Dialog](/Sketcher_Dialog/de "Sketcher Dialog/de"), um eine vorhandene Skizze zu bearbeiten.
+- ![](/images/Sketcher_EditSketch.png) [Skizze bearbeiten](/Sketcher_EditSketch/de "Sketcher EditSketch/de"): Öffnet den [Sketcher-Dialog](/Sketcher_Dialog/de "Sketcher Dialog/de"), um eine vorhandene Skizze zu bearbeiten.
 
-- ![](/src/assets/images/Sketcher_MapSketch.svg) [Sketcher SkizzeZuordnen](/Sketcher_MapSketch/de "Sketcher MapSketch/de"): Befestigt eine Skizze an ausgewählter Geometrie.
+- ![](/images/Sketcher_MapSketch.svg) [Sketcher SkizzeZuordnen](/Sketcher_MapSketch/de "Sketcher MapSketch/de"): Befestigt eine Skizze an ausgewählter Geometrie.
 
-- ![](/src/assets/images/Sketcher_ReorientSketch.svg) [Sketcher SkizzeAusrichten](/Sketcher_ReorientSketch/de "Sketcher ReorientSketch/de"): Verlegt eine Skizze auf eine der Hauptebenen, wahlweise mit einem Abstand. Es kann auch zum Ablösen der Skizze eingesetzt werden.
+- ![](/images/Sketcher_ReorientSketch.svg) [Sketcher SkizzeAusrichten](/Sketcher_ReorientSketch/de "Sketcher ReorientSketch/de"): Verlegt eine Skizze auf eine der Hauptebenen, wahlweise mit einem Abstand. Es kann auch zum Ablösen der Skizze eingesetzt werden.
 
-- ![](/src/assets/images/Sketcher_ValidateSketch.svg) [Skizze überprüfen](/Sketcher_ValidateSketch/de "Sketcher ValidateSketch/de"): Kann eine Skizze analysieren und reparieren, die nicht mehr bearbeitet werden kann oder die ungültige Randbedingungen enthält oder kann fehlende Randbedingungen für Koinzidenz hinzufügen.
+- ![](/images/Sketcher_ValidateSketch.svg) [Skizze überprüfen](/Sketcher_ValidateSketch/de "Sketcher ValidateSketch/de"): Kann eine Skizze analysieren und reparieren, die nicht mehr bearbeitet werden kann oder die ungültige Randbedingungen enthält oder kann fehlende Randbedingungen für Koinzidenz hinzufügen.
 
-- ![](/src/assets/images/Sketcher_MergeSketch.svg) [Skizzen zusammenführen](/Sketcher_MergeSketches/de "Sketcher MergeSketches/de"): Führt zwei oder mehr Skizzen zusammen.
+- ![](/images/Sketcher_MergeSketch.svg) [Skizzen zusammenführen](/Sketcher_MergeSketches/de "Sketcher MergeSketches/de"): Führt zwei oder mehr Skizzen zusammen.
 
-- ![](/src/assets/images/Sketcher_MirrorSketch.svg) [Skizze spiegeln](/Sketcher_MirrorSketch/de "Sketcher MirrorSketch/de"): Spiegelt eine Skizze über ihre X-Achse, Y-Achse oder über ihren Ursprung.
+- ![](/images/Sketcher_MirrorSketch.svg) [Skizze spiegeln](/Sketcher_MirrorSketch/de "Sketcher MirrorSketch/de"): Spiegelt eine Skizze über ihre X-Achse, Y-Achse oder über ihren Ursprung.
 
 #### Symbolleiste Sketcher-Bearbeitungsmodus
 
-- ![](/src/assets/images/Sketcher_LeaveSketch.png) [Skizze verlassen](/Sketcher_LeaveSketch/de "Sketcher LeaveSketch/de"): Beendet den Bearbeitungsmodus des Sketchers und schließt den [Sketcher-Dialog](/Sketcher_Dialog/de "Sketcher Dialog/de")..
+- ![](/images/Sketcher_LeaveSketch.png) [Skizze verlassen](/Sketcher_LeaveSketch/de "Sketcher LeaveSketch/de"): Beendet den Bearbeitungsmodus des Sketchers und schließt den [Sketcher-Dialog](/Sketcher_Dialog/de "Sketcher Dialog/de")..
 
-- ![](/src/assets/images/Sketcher_ViewSketch.png) [Skizze anzeigen](/Sketcher_ViewSketch/de "Sketcher ViewSketch/de"): Richtet die [3D-Ansicht](/3D_view/de "3D view/de") zur Skizzenebene aus.
+- ![](/images/Sketcher_ViewSketch.png) [Skizze anzeigen](/Sketcher_ViewSketch/de "Sketcher ViewSketch/de"): Richtet die [3D-Ansicht](/3D_view/de "3D view/de") zur Skizzenebene aus.
 
-- ![](/src/assets/images/Sketcher_ViewSection.svg) [Schnitt anzeigen](/Sketcher_ViewSection/de "Sketcher ViewSection/de"): Schaltet eine zeitweilige Schnittebene ein bzw. aus, die vorübergehend alle Anteile von Objekten ausblendet, die sich vor der Skizzenebene befinden.
+- ![](/images/Sketcher_ViewSection.svg) [Schnitt anzeigen](/Sketcher_ViewSection/de "Sketcher ViewSection/de"): Schaltet eine zeitweilige Schnittebene ein bzw. aus, die vorübergehend alle Anteile von Objekten ausblendet, die sich vor der Skizzenebene befinden.
 
 #### Symbolleiste Sketcher-Werkzeuge Bearbeitung
 
-- ![](/src/assets/images/Sketcher_Grid.svg) [Raster umschalten](/Sketcher_Grid/de "Sketcher Grid/de"): Aktiviert bzw. deaktiviert das Raster in der aktuell bearbeiteten Skizze. Die Einstellungen können im zugehörigen Menü angepasst werden. [eingeführt in 0.21](/Release_notes_0.21/de "Release notes 0.21/de")
+- ![](/images/Sketcher_Grid.svg) [Raster umschalten](/Sketcher_Grid/de "Sketcher Grid/de"): Aktiviert bzw. deaktiviert das Raster in der aktuell bearbeiteten Skizze. Die Einstellungen können im zugehörigen Menü angepasst werden. [eingeführt in 0.21](/Release_notes_0.21/de "Release notes 0.21/de")
 
-- ![](/src/assets/images/Sketcher_Snap.svg) [Einrasten umschalten](/Sketcher_Snap/de "Sketcher Snap/de"): Aktiviert bzw. deaktiviert das Einrasten in allen Skizzen. Die Einstellungen können im zugehörigen Menü angepasst werden. [eingeführt in 0.21](/Release_notes_0.21/de "Release notes 0.21/de")
+- ![](/images/Sketcher_Snap.svg) [Einrasten umschalten](/Sketcher_Snap/de "Sketcher Snap/de"): Aktiviert bzw. deaktiviert das Einrasten in allen Skizzen. Die Einstellungen können im zugehörigen Menü angepasst werden. [eingeführt in 0.21](/Release_notes_0.21/de "Release notes 0.21/de")
 
-- ![](/src/assets/images/Sketcher_RenderingOrder.svg) [Rendering-Reihenfolge konfigurieren](/Sketcher_RenderingOrder/de "Sketcher RenderingOrder/de"): Die Rendering-Reihenfolge aller Skizzen kann im zugehörigen Menü angepasst werden. [eingeführt in 0.21](/Release_notes_0.21/de "Release notes 0.21/de")
+- ![](/images/Sketcher_RenderingOrder.svg) [Rendering-Reihenfolge konfigurieren](/Sketcher_RenderingOrder/de "Sketcher RenderingOrder/de"): Die Rendering-Reihenfolge aller Skizzen kann im zugehörigen Menü angepasst werden. [eingeführt in 0.21](/Release_notes_0.21/de "Release notes 0.21/de")
 
 #### Andere
 
-- ![](/src/assets/images/Sketcher_StopOperation.svg) [Vorgang beenden](/Sketcher_StopOperation/de "Sketcher StopOperation/de"): Hält jedes gerade aktive Werkzeug zur Erstellung von Geometrien oder Randbedingungen an.
+- ![](/images/Sketcher_StopOperation.svg) [Vorgang beenden](/Sketcher_StopOperation/de "Sketcher StopOperation/de"): Hält jedes gerade aktive Werkzeug zur Erstellung von Geometrien oder Randbedingungen an.
 
 ### Skizzengeometrien
 
 Dies sind Werkzeuge zum Erstellen von Objekten.
 
-- ![](/src/assets/images/Sketcher_CreatePoint.png) [Punkt erstellen](/Sketcher_CreatePoint/de "Sketcher CreatePoint/de"): Erstellt einen Punkt.
+- ![](/images/Sketcher_CreatePoint.png) [Punkt erstellen](/Sketcher_CreatePoint/de "Sketcher CreatePoint/de"): Erstellt einen Punkt.
 
-- ![](/src/assets/images/Sketcher_CreatePolyline.svg) [Linienzug erstellen](/Sketcher_CreatePolyline/de "Sketcher CreatePolyline/de"): Erstellt eine Abfolge von Linien- und Kreisbogenabschnitten, die and ihren Enpunkten verbunden sind. Das Werkzeug besitzt mehrere Modi.
+- ![](/images/Sketcher_CreatePolyline.svg) [Linienzug erstellen](/Sketcher_CreatePolyline/de "Sketcher CreatePolyline/de"): Erstellt eine Abfolge von Linien- und Kreisbogenabschnitten, die and ihren Enpunkten verbunden sind. Das Werkzeug besitzt mehrere Modi.
 
-- ![](/src/assets/images/Sketcher_CreateLine.svg) [Linie erstellen](/Sketcher_CreateLine/de "Sketcher CreateLine/de"): Erstellt eine Linie zwischen 2 Punkten. [eingeführt in 1.0](/Release_notes_1.0/de "Release notes 1.0/de"): Das Werkzeug besitzt drei Modi.
+- ![](/images/Sketcher_CreateLine.svg) [Linie erstellen](/Sketcher_CreateLine/de "Sketcher CreateLine/de"): Erstellt eine Linie zwischen 2 Punkten. [eingeführt in 1.0](/Release_notes_1.0/de "Release notes 1.0/de"): Das Werkzeug besitzt drei Modi.
 
-- ![](/src/assets/images/Sketcher_CreateArc.svg)![](/src/assets/images/Toolbar_flyout_arrow_blue_background.svg) Bogen erstellen:
+- ![](/images/Sketcher_CreateArc.svg)![](/images/Toolbar_flyout_arrow_blue_background.svg) Bogen erstellen:
 
-- ![](/src/assets/images/Sketcher_CreateArc.svg) [Kreisbogen um Mittelpunkt erstellen](/Sketcher_CreateArc/de "Sketcher CreateArc/de"): Erstellt einen Kreisbogen durch Festlegen seines Mittelpunktes und seiner Endpunkte. [eingeführt in 1.0](/Release_notes_1.0/de "Release notes 1.0/de"): Oder durch Festlegen seiner Endpunkte und eines Punktes im Verlauf des Bogens.
+- ![](/images/Sketcher_CreateArc.svg) [Kreisbogen um Mittelpunkt erstellen](/Sketcher_CreateArc/de "Sketcher CreateArc/de"): Erstellt einen Kreisbogen durch Festlegen seines Mittelpunktes und seiner Endpunkte. [eingeführt in 1.0](/Release_notes_1.0/de "Release notes 1.0/de"): Oder durch Festlegen seiner Endpunkte und eines Punktes im Verlauf des Bogens.
 
-- ![](/src/assets/images/Sketcher_Create3PointArc.svg) [Kreisbogen durch 3 Punkte erstellen](/Sketcher_Create3PointArc/de "Sketcher Create3PointArc/de"): Erstellt einen Kreisbogen durch seine Endpunkte und eine weiteren Punkt im Verlauf des Bogens. [eingeführt in 1.0](/Release_notes_1.0/de "Release notes 1.0/de"): Dies ist dasselbe Werkzeug wie [Kreisbogen um Miitelpunkt erstellen](/Sketcher_CreateArc/de "Sketcher CreateArc/de") aber mit einem anderen Startmodus.
+- ![](/images/Sketcher_Create3PointArc.svg) [Kreisbogen durch 3 Punkte erstellen](/Sketcher_Create3PointArc/de "Sketcher Create3PointArc/de"): Erstellt einen Kreisbogen durch seine Endpunkte und eine weiteren Punkt im Verlauf des Bogens. [eingeführt in 1.0](/Release_notes_1.0/de "Release notes 1.0/de"): Dies ist dasselbe Werkzeug wie [Kreisbogen um Miitelpunkt erstellen](/Sketcher_CreateArc/de "Sketcher CreateArc/de") aber mit einem anderen Startmodus.
 
-- ![](/src/assets/images/Sketcher_CreateArcOfEllipse.svg) [Ellipsenbogen erstellen](/Sketcher_CreateArcOfEllipse/de "Sketcher CreateArcOfEllipse/de"): Erstellt einen Ellipsenbogen.
+- ![](/images/Sketcher_CreateArcOfEllipse.svg) [Ellipsenbogen erstellen](/Sketcher_CreateArcOfEllipse/de "Sketcher CreateArcOfEllipse/de"): Erstellt einen Ellipsenbogen.
 
-- ![](/src/assets/images/Sketcher_CreateArcOfHyperbola.svg) [Hyperbelbogen erstellen](/Sketcher_CreateArcOfHyperbola/de "Sketcher CreateArcOfHyperbola/de"): Erstellt einen Hyperbelbogen.
+- ![](/images/Sketcher_CreateArcOfHyperbola.svg) [Hyperbelbogen erstellen](/Sketcher_CreateArcOfHyperbola/de "Sketcher CreateArcOfHyperbola/de"): Erstellt einen Hyperbelbogen.
 
-- ![](/src/assets/images/Sketcher_CreateArcOfParabola.svg) [Parabelbogen erstellen](/Sketcher_CreateArcOfParabola/de "Sketcher CreateArcOfParabola/de"): Erstellt einen Parabelbogen.
+- ![](/images/Sketcher_CreateArcOfParabola.svg) [Parabelbogen erstellen](/Sketcher_CreateArcOfParabola/de "Sketcher CreateArcOfParabola/de"): Erstellt einen Parabelbogen.
 
-- ![](/src/assets/images/Sketcher_CreateCircle.svg)![](/src/assets/images/Toolbar_flyout_arrow_blue_background.svg) Kreis/Ellipse erstellen:
+- ![](/images/Sketcher_CreateCircle.svg)![](/images/Toolbar_flyout_arrow_blue_background.svg) Kreis/Ellipse erstellen:
 
-- ![](/src/assets/images/Sketcher_Circle.svg) [Kreis um Mittelpunkt erstellen](/Sketcher_CreateCircle/de "Sketcher CreateCircle/de"): Erstellt einen Kreis durch Festlegen seines Mittelpunktes und eines Punktes im Verlauf seines Umfangs. [eingeführt in 1.0](/Release_notes_1.0/de "Release notes 1.0/de"): Oder durch Festlegen dreier Punkte im Verlauf seines Umfangs.
+- ![](/images/Sketcher_Circle.svg) [Kreis um Mittelpunkt erstellen](/Sketcher_CreateCircle/de "Sketcher CreateCircle/de"): Erstellt einen Kreis durch Festlegen seines Mittelpunktes und eines Punktes im Verlauf seines Umfangs. [eingeführt in 1.0](/Release_notes_1.0/de "Release notes 1.0/de"): Oder durch Festlegen dreier Punkte im Verlauf seines Umfangs.
 
-- ![](/src/assets/images/Sketcher_Create3PointCircle.svg) [Kreis aus drei Punkten erstellen](/Sketcher_Create3PointCircle/de "Sketcher Create3PointCircle/de"): Erstellt einen Kreis durch Festlegen dreier Punkte im Verlauf seines Umfangs. [eingeführt in 1.0](/Release_notes_1.0/de "Release notes 1.0/de"): Dies ist dasselbe Werkzeug wie [Kreis um Mittelpunkt erstellen](/Sketcher_CreateCircle/de "Sketcher CreateCircle/de") aber mit einem anderen Startmodus.
+- ![](/images/Sketcher_Create3PointCircle.svg) [Kreis aus drei Punkten erstellen](/Sketcher_Create3PointCircle/de "Sketcher Create3PointCircle/de"): Erstellt einen Kreis durch Festlegen dreier Punkte im Verlauf seines Umfangs. [eingeführt in 1.0](/Release_notes_1.0/de "Release notes 1.0/de"): Dies ist dasselbe Werkzeug wie [Kreis um Mittelpunkt erstellen](/Sketcher_CreateCircle/de "Sketcher CreateCircle/de") aber mit einem anderen Startmodus.
 
-- ![](/src/assets/images/Sketcher_CreateEllipseByCenter.svg) [Ellipse um Mittelpunkt erstellen](/Sketcher_CreateEllipseByCenter/de "Sketcher CreateEllipseByCenter/de"): Erstellt eine Ellipse durch Festlegen ihres Mittelpunktes, eines Endpunktes einer ihrer Achsen und eines Punktes im Verlauf ihres Umfangs. [eingeführt in 1.0](/Release_notes_1.0/de "Release notes 1.0/de"): Oder durch Festlegen beider Endpunkte einer Achse und eines Punktes im Verlauf ihres Umfangs.
+- ![](/images/Sketcher_CreateEllipseByCenter.svg) [Ellipse um Mittelpunkt erstellen](/Sketcher_CreateEllipseByCenter/de "Sketcher CreateEllipseByCenter/de"): Erstellt eine Ellipse durch Festlegen ihres Mittelpunktes, eines Endpunktes einer ihrer Achsen und eines Punktes im Verlauf ihres Umfangs. [eingeführt in 1.0](/Release_notes_1.0/de "Release notes 1.0/de"): Oder durch Festlegen beider Endpunkte einer Achse und eines Punktes im Verlauf ihres Umfangs.
 
-- ![](/src/assets/images/Sketcher_CreateEllipseBy3Points.svg) [Ellipse durch 3 Punkte erstellen](/Sketcher_CreateEllipseBy3Points/de "Sketcher CreateEllipseBy3Points/de"): Erstellt eine Ellipse durch Festlegen beider Endpunkte einer ihrer Achsen und eines Punktes im Verlauf ihres Umfangs. [eingeführt in 1.0](/Release_notes_1.0/de "Release notes 1.0/de"): Dies ist dasselbe Werkzeug wie [Ellipse um Mittelpunkt erstellen](/Sketcher_CreateEllipseByCenter/de "Sketcher CreateEllipseByCenter/de") aber mit einem anderen Startmodus.
+- ![](/images/Sketcher_CreateEllipseBy3Points.svg) [Ellipse durch 3 Punkte erstellen](/Sketcher_CreateEllipseBy3Points/de "Sketcher CreateEllipseBy3Points/de"): Erstellt eine Ellipse durch Festlegen beider Endpunkte einer ihrer Achsen und eines Punktes im Verlauf ihres Umfangs. [eingeführt in 1.0](/Release_notes_1.0/de "Release notes 1.0/de"): Dies ist dasselbe Werkzeug wie [Ellipse um Mittelpunkt erstellen](/Sketcher_CreateEllipseByCenter/de "Sketcher CreateEllipseByCenter/de") aber mit einem anderen Startmodus.
 
-- ![](/src/assets/images/Sketcher_CreateRectangle.svg)![](/src/assets/images/Toolbar_flyout_arrow_blue_background.svg) Rechteck erstellen:
+- ![](/images/Sketcher_CreateRectangle.svg)![](/images/Toolbar_flyout_arrow_blue_background.svg) Rechteck erstellen:
 
-- ![](/src/assets/images/Sketcher_CreateRectangle.svg) [Rechteck erstellen](/Sketcher_CreateRectangle/de "Sketcher CreateRectangle/de"): Erstellt ein Rechteck. [eingeführt in 1.0](/Release_notes_1.0/de "Release notes 1.0/de"): Das Werkzeug besitzt vier Modi. Zusätzlich können die Optionen Abgerundete Ecken und Rahmen aktiviert werden.
+- ![](/images/Sketcher_CreateRectangle.svg) [Rechteck erstellen](/Sketcher_CreateRectangle/de "Sketcher CreateRectangle/de"): Erstellt ein Rechteck. [eingeführt in 1.0](/Release_notes_1.0/de "Release notes 1.0/de"): Das Werkzeug besitzt vier Modi. Zusätzlich können die Optionen Abgerundete Ecken und Rahmen aktiviert werden.
 
-- ![](/src/assets/images/Sketcher_CreateRectangle_Center.svg) [Zentriertes Rechteck erstellen](/Sketcher_CreateRectangle_Center/de "Sketcher CreateRectangle Center/de"): Erstellt ein zentriertes Rechteck. [introduced in 1.0](/Release_notes_1.0 "Release notes 1.0"): Dies ist dasselbe Werkzeug wie [Rechteck erstellen](/Sketcher_CreateRectangle/de "Sketcher CreateRectangle/de") aber mit einem anderen Startmodus.
+- ![](/images/Sketcher_CreateRectangle_Center.svg) [Zentriertes Rechteck erstellen](/Sketcher_CreateRectangle_Center/de "Sketcher CreateRectangle Center/de"): Erstellt ein zentriertes Rechteck. [introduced in 1.0](/Release_notes_1.0 "Release notes 1.0"): Dies ist dasselbe Werkzeug wie [Rechteck erstellen](/Sketcher_CreateRectangle/de "Sketcher CreateRectangle/de") aber mit einem anderen Startmodus.
 
-- ![](/src/assets/images/Sketcher_CreateOblong.svg) [Abgerundetes Rechteck erstellen](/Sketcher_CreateOblong/de "Sketcher CreateOblong/de"): Erstellt ein abgerundetes Rechteck. [introduced in 1.0](/Release_notes_1.0 "Release notes 1.0"): Dies ist dasselbe Werkzeug wie [Rechteck erstellen](/Sketcher_CreateRectangle/de "Sketcher CreateRectangle/de") aber mit einem anderen Startmodus.
+- ![](/images/Sketcher_CreateOblong.svg) [Abgerundetes Rechteck erstellen](/Sketcher_CreateOblong/de "Sketcher CreateOblong/de"): Erstellt ein abgerundetes Rechteck. [introduced in 1.0](/Release_notes_1.0 "Release notes 1.0"): Dies ist dasselbe Werkzeug wie [Rechteck erstellen](/Sketcher_CreateRectangle/de "Sketcher CreateRectangle/de") aber mit einem anderen Startmodus.
 
-- ![](/src/assets/images/Sketcher_CreateHexagon.svg)![](/src/assets/images/Toolbar_flyout_arrow_blue_background.svg) Regelmäßiges Vieleck erstellen:
+- ![](/images/Sketcher_CreateHexagon.svg)![](/images/Toolbar_flyout_arrow_blue_background.svg) Regelmäßiges Vieleck erstellen:
 
-- ![](/src/assets/images/Sketcher_CreateTriangle.svg) [Gleichseitiges Dreieck erstellen](/Sketcher_CreateTriangle/de "Sketcher CreateTriangle/de"): Erstellt ein gleichseitiges Dreieck. [eingeführt in 1.0](/Release_notes_1.0/de "Release notes 1.0/de"): Dies ist dasselbe Werkzeug wie [Regelmäßiges Vieleck erstellen](/Sketcher_CreateRegularPolygon/de "Sketcher CreateRegularPolygon/de") aber mit einem bestimmten voreingestellten Wert für die Anzahl der Seiten.
+- ![](/images/Sketcher_CreateTriangle.svg) [Gleichseitiges Dreieck erstellen](/Sketcher_CreateTriangle/de "Sketcher CreateTriangle/de"): Erstellt ein gleichseitiges Dreieck. [eingeführt in 1.0](/Release_notes_1.0/de "Release notes 1.0/de"): Dies ist dasselbe Werkzeug wie [Regelmäßiges Vieleck erstellen](/Sketcher_CreateRegularPolygon/de "Sketcher CreateRegularPolygon/de") aber mit einem bestimmten voreingestellten Wert für die Anzahl der Seiten.
 
-- ![](/src/assets/images/Sketcher_CreateSquare.svg) [Quadrat erstellen](/Sketcher_CreateSquare/de "Sketcher CreateSquare/de"): Erstellt ein Quadrat. [eingeführt in 1.0](/Release_notes_1.0/de "Release notes 1.0/de"): Dies ist dasselbe Werkzeug wie [Regelmäßiges Vieleck erstellen](/Sketcher_CreateRegularPolygon/de "Sketcher CreateRegularPolygon/de") aber mit einem bestimmten voreingestellten Wert für die Anzahl der Seiten.
+- ![](/images/Sketcher_CreateSquare.svg) [Quadrat erstellen](/Sketcher_CreateSquare/de "Sketcher CreateSquare/de"): Erstellt ein Quadrat. [eingeführt in 1.0](/Release_notes_1.0/de "Release notes 1.0/de"): Dies ist dasselbe Werkzeug wie [Regelmäßiges Vieleck erstellen](/Sketcher_CreateRegularPolygon/de "Sketcher CreateRegularPolygon/de") aber mit einem bestimmten voreingestellten Wert für die Anzahl der Seiten.
 
-- ![](/src/assets/images/Sketcher_CreatePentagon.png) [Fünfeck erstellen](/Sketcher_CreatePentagon/de "Sketcher CreatePentagon/de"): Erstellt ein regelmäßigen Fünfeck. [eingeführt in 1.0](/Release_notes_1.0/de "Release notes 1.0/de"): Dies ist dasselbe Werkzeug wie [Regelmäßiges Vieleck erstellen](/Sketcher_CreateRegularPolygon/de "Sketcher CreateRegularPolygon/de") aber mit einem bestimmten voreingestellten Wert für die Anzahl der Seiten.
+- ![](/images/Sketcher_CreatePentagon.png) [Fünfeck erstellen](/Sketcher_CreatePentagon/de "Sketcher CreatePentagon/de"): Erstellt ein regelmäßigen Fünfeck. [eingeführt in 1.0](/Release_notes_1.0/de "Release notes 1.0/de"): Dies ist dasselbe Werkzeug wie [Regelmäßiges Vieleck erstellen](/Sketcher_CreateRegularPolygon/de "Sketcher CreateRegularPolygon/de") aber mit einem bestimmten voreingestellten Wert für die Anzahl der Seiten.
 
-- ![](/src/assets/images/Sketcher_CreateHexagon.svg) [Sechseck erstellen](/Sketcher_CreateHexagon/de "Sketcher CreateHexagon/de"): Erstellt ein regelmäßiges Sechseck. [eingeführt in 1.0](/Release_notes_1.0/de "Release notes 1.0/de"): Dies ist dasselbe Werkzeug wie [Regelmäßiges Vieleck erstellen](/Sketcher_CreateRegularPolygon/de "Sketcher CreateRegularPolygon/de") aber mit einem bestimmten voreingestellten Wert für die Anzahl der Seiten.
+- ![](/images/Sketcher_CreateHexagon.svg) [Sechseck erstellen](/Sketcher_CreateHexagon/de "Sketcher CreateHexagon/de"): Erstellt ein regelmäßiges Sechseck. [eingeführt in 1.0](/Release_notes_1.0/de "Release notes 1.0/de"): Dies ist dasselbe Werkzeug wie [Regelmäßiges Vieleck erstellen](/Sketcher_CreateRegularPolygon/de "Sketcher CreateRegularPolygon/de") aber mit einem bestimmten voreingestellten Wert für die Anzahl der Seiten.
 
-- ![](/src/assets/images/Sketcher_CreateHeptagon.png) [Siebeneck erstellen](/Sketcher_CreateHeptagon/de "Sketcher CreateHeptagon/de"): Erstellt ein regelmäßiges Siebeneck. [eingeführt in 1.0](/Release_notes_1.0/de "Release notes 1.0/de"): Dies ist dasselbe Werkzeug wie [Regelmäßiges Vieleck erstellen](/Sketcher_CreateRegularPolygon/de "Sketcher CreateRegularPolygon/de") aber mit einem bestimmten voreingestellten Wert für die Anzahl der Seiten.
+- ![](/images/Sketcher_CreateHeptagon.png) [Siebeneck erstellen](/Sketcher_CreateHeptagon/de "Sketcher CreateHeptagon/de"): Erstellt ein regelmäßiges Siebeneck. [eingeführt in 1.0](/Release_notes_1.0/de "Release notes 1.0/de"): Dies ist dasselbe Werkzeug wie [Regelmäßiges Vieleck erstellen](/Sketcher_CreateRegularPolygon/de "Sketcher CreateRegularPolygon/de") aber mit einem bestimmten voreingestellten Wert für die Anzahl der Seiten.
 
-- ![](/src/assets/images/Sketcher_CreateOctagon.png) [Achteck](/Sketcher_CreateOctagon/de "Sketcher CreateOctagon/de"): Erstellt ein regelmäßiges Achteck. [eingeführt in 1.0](/Release_notes_1.0/de "Release notes 1.0/de"): Dies ist dasselbe Werkzeug wie [Regelmäßiges Vieleck erstellen](/Sketcher_CreateRegularPolygon/de "Sketcher CreateRegularPolygon/de") aber mit einem bestimmten voreingestellten Wert für die Anzahl der Seiten.
+- ![](/images/Sketcher_CreateOctagon.png) [Achteck](/Sketcher_CreateOctagon/de "Sketcher CreateOctagon/de"): Erstellt ein regelmäßiges Achteck. [eingeführt in 1.0](/Release_notes_1.0/de "Release notes 1.0/de"): Dies ist dasselbe Werkzeug wie [Regelmäßiges Vieleck erstellen](/Sketcher_CreateRegularPolygon/de "Sketcher CreateRegularPolygon/de") aber mit einem bestimmten voreingestellten Wert für die Anzahl der Seiten.
 
-- ![](/src/assets/images/Sketcher_CreateRegularPolygon.svg) [Regelmäßiges Vieleck erstellen](/Sketcher_CreateRegularPolygon/de "Sketcher CreateRegularPolygon/de"): Erstellt ein regelmäßiges Vieleck. Die Anzahl der Seiten kann eingestellt werden.
+- ![](/images/Sketcher_CreateRegularPolygon.svg) [Regelmäßiges Vieleck erstellen](/Sketcher_CreateRegularPolygon/de "Sketcher CreateRegularPolygon/de"): Erstellt ein regelmäßiges Vieleck. Die Anzahl der Seiten kann eingestellt werden.
 
-- ![](/src/assets/images/Sketcher_CreateSlot.svg)![](/src/assets/images/Toolbar_flyout_arrow_blue_background.svg) Oval erstellen:
+- ![](/images/Sketcher_CreateSlot.svg)![](/images/Toolbar_flyout_arrow_blue_background.svg) Oval erstellen:
 
-- ![](/src/assets/images/Sketcher_CreateSlot.svg) [Oval erstellen](/Sketcher_CreateSlot/de "Sketcher CreateSlot/de"): Erstellt eine "Nut".
+- ![](/images/Sketcher_CreateSlot.svg) [Oval erstellen](/Sketcher_CreateSlot/de "Sketcher CreateSlot/de"): Erstellt eine "Nut".
 
-- ![](/src/assets/images/Sketcher_CreateArcSlot.svg) [Bogennut](/Sketcher_CreateArcSlot/de "Sketcher CreateArcSlot/de"): Erstellt eine Bogennut. [eingeführt in 1.0](/Release_notes_1.0/de "Release notes 1.0/de")
+- ![](/images/Sketcher_CreateArcSlot.svg) [Bogennut](/Sketcher_CreateArcSlot/de "Sketcher CreateArcSlot/de"): Erstellt eine Bogennut. [eingeführt in 1.0](/Release_notes_1.0/de "Release notes 1.0/de")
 
-- ![](/src/assets/images/Sketcher_CreateBSpline.svg)![](/src/assets/images/Toolbar_flyout_arrow_blue_background.svg) B-Spline erstellen:
+- ![](/images/Sketcher_CreateBSpline.svg)![](/images/Toolbar_flyout_arrow_blue_background.svg) B-Spline erstellen:
 
-- ![](/src/assets/images/Sketcher_CreateBSpline.svg) [B-Spline durch Kontrollpunkte](/Sketcher_CreateBSpline/de "Sketcher CreateBSpline/de"): Erstellt eine B-Spline-Kurve durch Setzen von Kontrollpunkten. [eingeführt in 1.0](/Release_notes_1.0/de "Release notes 1.0/de"): Oder durch Setzen von Knotenpunkten.
+- ![](/images/Sketcher_CreateBSpline.svg) [B-Spline durch Kontrollpunkte](/Sketcher_CreateBSpline/de "Sketcher CreateBSpline/de"): Erstellt eine B-Spline-Kurve durch Setzen von Kontrollpunkten. [eingeführt in 1.0](/Release_notes_1.0/de "Release notes 1.0/de"): Oder durch Setzen von Knotenpunkten.
 
-- ![](/src/assets/images/Sketcher_CreatePeriodicBSpline.svg) [Geschlossener B-Spline durch Kontrollpunkte](/Sketcher_CreatePeriodicBSpline/de "Sketcher CreatePeriodicBSpline/de"): Erstellt eine periodische (geschlossene) B-Spline-Kurve durch Setzen von Kontrollpunkten. [eingeführt in 1.0](/Release_notes_1.0/de "Release notes 1.0/de"): Dies ist dasselbe Werkzeug wie [B-Spline durch Kontrollpunkte](/Sketcher_CreateBSpline/de "Sketcher CreateBSpline/de") aber mit einem anderen Startmodus.
+- ![](/images/Sketcher_CreatePeriodicBSpline.svg) [Geschlossener B-Spline durch Kontrollpunkte](/Sketcher_CreatePeriodicBSpline/de "Sketcher CreatePeriodicBSpline/de"): Erstellt eine periodische (geschlossene) B-Spline-Kurve durch Setzen von Kontrollpunkten. [eingeführt in 1.0](/Release_notes_1.0/de "Release notes 1.0/de"): Dies ist dasselbe Werkzeug wie [B-Spline durch Kontrollpunkte](/Sketcher_CreateBSpline/de "Sketcher CreateBSpline/de") aber mit einem anderen Startmodus.
 
-- ![](/src/assets/images/Sketcher_CreateBSplineByInterpolation.svg) [B-spline durch Knoten](/Sketcher_CreateBSplineByInterpolation/de "Sketcher CreateBSplineByInterpolation/de"): Erstellt eine B-Spline-Kurve durch Knotenpunkte. [eingeführt in 1.0](/Release_notes_1.0/de "Release notes 1.0/de"): Dies ist dasselbe Werkzeug wie [B-Spline durch Kontrollpunkte](/Sketcher_CreateBSpline/de "Sketcher CreateBSpline/de") aber mit einem anderen Startmodus.
+- ![](/images/Sketcher_CreateBSplineByInterpolation.svg) [B-spline durch Knoten](/Sketcher_CreateBSplineByInterpolation/de "Sketcher CreateBSplineByInterpolation/de"): Erstellt eine B-Spline-Kurve durch Knotenpunkte. [eingeführt in 1.0](/Release_notes_1.0/de "Release notes 1.0/de"): Dies ist dasselbe Werkzeug wie [B-Spline durch Kontrollpunkte](/Sketcher_CreateBSpline/de "Sketcher CreateBSpline/de") aber mit einem anderen Startmodus.
 
-- ![](/src/assets/images/Sketcher_CreatePeriodicBSplineByInterpolation.svg) [Geschlossener B-Spline durch Knoten](/Sketcher_CreatePeriodicBSplineByInterpolation/de "Sketcher CreatePeriodicBSplineByInterpolation/de"): Erstellt eine periodische (geschlossene) B-Spline-Kurve durch Knotenpunkte. [eingeführt in 1.0](/Release_notes_1.0/de "Release notes 1.0/de"): Dies ist dasselbe Werkzeug wie [B-Spline durch Kontrollpunkte](/Sketcher_CreateBSpline/de "Sketcher CreateBSpline/de") aber mit einem anderen Startmodus.
+- ![](/images/Sketcher_CreatePeriodicBSplineByInterpolation.svg) [Geschlossener B-Spline durch Knoten](/Sketcher_CreatePeriodicBSplineByInterpolation/de "Sketcher CreatePeriodicBSplineByInterpolation/de"): Erstellt eine periodische (geschlossene) B-Spline-Kurve durch Knotenpunkte. [eingeführt in 1.0](/Release_notes_1.0/de "Release notes 1.0/de"): Dies ist dasselbe Werkzeug wie [B-Spline durch Kontrollpunkte](/Sketcher_CreateBSpline/de "Sketcher CreateBSpline/de") aber mit einem anderen Startmodus.
 
-- ![](/src/assets/images/Sketcher_ToggleConstruction.svg) [Hilfsgeometrie umschalten](/Sketcher_ToggleConstruction/de "Sketcher ToggleConstruction/de"): Aktiviert bzw. deaktiviert den Konstruktionsmodus für alle Werkzeuge zur Geometrieerstellung oder es wandelt ausgewählte normale Geometrie in Hilfsgeometrie und umgekehrt.
+- ![](/images/Sketcher_ToggleConstruction.svg) [Hilfsgeometrie umschalten](/Sketcher_ToggleConstruction/de "Sketcher ToggleConstruction/de"): Aktiviert bzw. deaktiviert den Konstruktionsmodus für alle Werkzeuge zur Geometrieerstellung oder es wandelt ausgewählte normale Geometrie in Hilfsgeometrie und umgekehrt.
 
 ### Sketcher-Randbedingungen
 
 Dies sind Werkzeuge zum Erstellen von [Randbedingungen](#Randbedingungen). Einige Randbedingungen erfordern den Einsatz von [Hilfsrandbedingungen](/Sketcher_helper_constraint/de "Sketcher helper constraint/de").
 
-- ![](/src/assets/images/Sketcher_Dimension.svg)![](/src/assets/images/Toolbar_flyout_arrow_blue_background.svg) Maßliche Randbedingungen:
+- ![](/images/Sketcher_Dimension.svg)![](/images/Toolbar_flyout_arrow_blue_background.svg) Maßliche Randbedingungen:
 
-- ![](/src/assets/images/Sketcher_Dimension.svg) [Abmessung](/Sketcher_Dimension/de "Sketcher Dimension/de"): Es ist das kontextabhängige Werkzeug zum Erstellen von Randbedingungen des Arbeitsbereichs Sketcher. Basierend auf der aktuellen Auswahl stellt es passende maßliche Randbedingungen zur Verfügung aber auch geometrische Randbedingungen. [eingeführt in 1.0](/Release_notes_1.0/de "Release notes 1.0/de")
+- ![](/images/Sketcher_Dimension.svg) [Abmessung](/Sketcher_Dimension/de "Sketcher Dimension/de"): Es ist das kontextabhängige Werkzeug zum Erstellen von Randbedingungen des Arbeitsbereichs Sketcher. Basierend auf der aktuellen Auswahl stellt es passende maßliche Randbedingungen zur Verfügung aber auch geometrische Randbedingungen. [eingeführt in 1.0](/Release_notes_1.0/de "Release notes 1.0/de")
 
-- ![](/src/assets/images/Sketcher_ConstrainDistanceX.svg) [Horizontalen Abstand festlegen](/Sketcher_ConstrainDistanceX/de "Sketcher ConstrainDistanceX/de") (XAbstandFestlegen): Legt den horizontalen Abstand zwischen zwei Punkten oder Endpunkten einer Linie fest. Ist ein einzelner Punkt vorausgewählt, bezieht sich der Abstand auf den Ursprung der Skizze.
+- ![](/images/Sketcher_ConstrainDistanceX.svg) [Horizontalen Abstand festlegen](/Sketcher_ConstrainDistanceX/de "Sketcher ConstrainDistanceX/de") (XAbstandFestlegen): Legt den horizontalen Abstand zwischen zwei Punkten oder Endpunkten einer Linie fest. Ist ein einzelner Punkt vorausgewählt, bezieht sich der Abstand auf den Ursprung der Skizze.
 
-- ![](/src/assets/images/Sketcher_ConstrainDistanceY.svg) [Vertikalen Abstand festlegen](/Sketcher_ConstrainDistanceY/de "Sketcher ConstrainDistanceY/de") (YAbstandFestlegen): Legt den vertikalen Abstand zwischen zwei Punkten oder den Endpunkten einer Linie fest. Ist ein einzelner Punkt vorausgewählt, bezieht sich der Abstand auf den Ursprung der Skizze.
+- ![](/images/Sketcher_ConstrainDistanceY.svg) [Vertikalen Abstand festlegen](/Sketcher_ConstrainDistanceY/de "Sketcher ConstrainDistanceY/de") (YAbstandFestlegen): Legt den vertikalen Abstand zwischen zwei Punkten oder den Endpunkten einer Linie fest. Ist ein einzelner Punkt vorausgewählt, bezieht sich der Abstand auf den Ursprung der Skizze.
 
-- ![](/src/assets/images/Sketcher_ConstrainDistance.svg) [Abstand festlegen](/Sketcher_ConstrainDistance/de "Sketcher ConstrainDistance/de"): Legt die Länge einer Linie, den Abstand zwischen zwei Punkten, den senkrechten Abstand eines Punktes zu einer Linie fest; oder [eingeführt in 0.21](/Release_notes_0.21/de "Release notes 0.21/de") den Abstand zwischen den Kanten zweier Kreise oder Kreisbögen oder zwischen der Kante eines Kreises oder Kreisbogens und einer Linie; oder [eingeführt in 1.0](/Release_notes_1.0/de "Release notes 1.0/de") die Länge eines Kreisbogens.
+- ![](/images/Sketcher_ConstrainDistance.svg) [Abstand festlegen](/Sketcher_ConstrainDistance/de "Sketcher ConstrainDistance/de"): Legt die Länge einer Linie, den Abstand zwischen zwei Punkten, den senkrechten Abstand eines Punktes zu einer Linie fest; oder [eingeführt in 0.21](/Release_notes_0.21/de "Release notes 0.21/de") den Abstand zwischen den Kanten zweier Kreise oder Kreisbögen oder zwischen der Kante eines Kreises oder Kreisbogens und einer Linie; oder [eingeführt in 1.0](/Release_notes_1.0/de "Release notes 1.0/de") die Länge eines Kreisbogens.
 
-- ![](/src/assets/images/Sketcher_ConstrainRadiam.svg) [Automatisch Radius oder Durchmesser festlegen](/Sketcher_ConstrainRadiam/de "Sketcher ConstrainRadiam/de"): Legt den Radius für Bögen und B-Spline-Gewichtskreise und den Durchmesser für Kreise fest.
+- ![](/images/Sketcher_ConstrainRadiam.svg) [Automatisch Radius oder Durchmesser festlegen](/Sketcher_ConstrainRadiam/de "Sketcher ConstrainRadiam/de"): Legt den Radius für Bögen und B-Spline-Gewichtskreise und den Durchmesser für Kreise fest.
 
-- ![](/src/assets/images/Sketcher_ConstrainRadius.svg) [Radius](/Sketcher_ConstrainRadius/de "Sketcher ConstrainRadius/de"): Legt den Radius für Kreise, Kreisbögen oder B-Spline-Gewichtskreise fest.
+- ![](/images/Sketcher_ConstrainRadius.svg) [Radius](/Sketcher_ConstrainRadius/de "Sketcher ConstrainRadius/de"): Legt den Radius für Kreise, Kreisbögen oder B-Spline-Gewichtskreise fest.
 
-- ![](/src/assets/images/Sketcher_ConstrainDiameter.svg) [Durchmesser festlegen](/Sketcher_ConstrainDiameter/de "Sketcher ConstrainDiameter/de"): Legt den Durchmesser für Kreise und Kreisbögen fest.
+- ![](/images/Sketcher_ConstrainDiameter.svg) [Durchmesser festlegen](/Sketcher_ConstrainDiameter/de "Sketcher ConstrainDiameter/de"): Legt den Durchmesser für Kreise und Kreisbögen fest.
 
-- ![](/src/assets/images/Sketcher_ConstrainAngle.svg) [Winkel festlegen](/Sketcher_ConstrainAngle/de "Sketcher ConstrainAngle/de"): Legt den Winkel zwischen zwei Kanten, den Winkel zur horizontalen Achse der Skizze oder den überstrichenen Winkel eines Kreisbogens fest.
+- ![](/images/Sketcher_ConstrainAngle.svg) [Winkel festlegen](/Sketcher_ConstrainAngle/de "Sketcher ConstrainAngle/de"): Legt den Winkel zwischen zwei Kanten, den Winkel zur horizontalen Achse der Skizze oder den überstrichenen Winkel eines Kreisbogens fest.
 
-- ![](/src/assets/images/Sketcher_ConstrainLock.svg) [Sperren](/Sketcher_ConstrainLock/de "Sketcher ConstrainLock/de"): Ordnet Punkten die Randbedingungen [Horizontalen Abstand festlegen](/Sketcher_ConstrainDistanceX/de "Sketcher ConstrainDistanceX/de") und [Vertikalen Abstand festlegen](/Sketcher_ConstrainDistanceY/de "Sketcher ConstrainDistanceY/de") zu. Ist ein einzelner punkt ausgewählt, beziehen sich die Randbedingungen auf den Ursprung der Skizze. Sind zwei oder mehr Punkte ausgewählt, beziehen sich die Randbedingungen auf den letzten Punkt in der Auswahl.
+- ![](/images/Sketcher_ConstrainLock.svg) [Sperren](/Sketcher_ConstrainLock/de "Sketcher ConstrainLock/de"): Ordnet Punkten die Randbedingungen [Horizontalen Abstand festlegen](/Sketcher_ConstrainDistanceX/de "Sketcher ConstrainDistanceX/de") und [Vertikalen Abstand festlegen](/Sketcher_ConstrainDistanceY/de "Sketcher ConstrainDistanceY/de") zu. Ist ein einzelner punkt ausgewählt, beziehen sich die Randbedingungen auf den Ursprung der Skizze. Sind zwei oder mehr Punkte ausgewählt, beziehen sich die Randbedingungen auf den letzten Punkt in der Auswahl.
 
-- ![](/src/assets/images/Sketcher_ConstrainCoincidentUnified.svg) [KoinzidentFestlegen (kombiniert)](/Sketcher_ConstrainCoincidentUnified/de "Sketcher ConstrainCoincidentUnified/de"): Legt zwei Punkte koinzident (deckungsgleich) fest, legt Punkte auf Kanten oder Achsen fest oder legt Kreise oder Kreisbögen konzentrisch fest. Es kombiniert die Werkzeuge [KoinzidentFestlegen](/Sketcher_ConstrainCoincident/de "Sketcher ConstrainCoincident/de") und [PunktAufObjektFestlegen](/Sketcher_ConstrainPointOnObject/de "Sketcher ConstrainPointOnObject/de"). [eingeführt in 1.0](/Release_notes_1.0/de "Release notes 1.0/de")
+- ![](/images/Sketcher_ConstrainCoincidentUnified.svg) [KoinzidentFestlegen (kombiniert)](/Sketcher_ConstrainCoincidentUnified/de "Sketcher ConstrainCoincidentUnified/de"): Legt zwei Punkte koinzident (deckungsgleich) fest, legt Punkte auf Kanten oder Achsen fest oder legt Kreise oder Kreisbögen konzentrisch fest. Es kombiniert die Werkzeuge [KoinzidentFestlegen](/Sketcher_ConstrainCoincident/de "Sketcher ConstrainCoincident/de") und [PunktAufObjektFestlegen](/Sketcher_ConstrainPointOnObject/de "Sketcher ConstrainPointOnObject/de"). [eingeführt in 1.0](/Release_notes_1.0/de "Release notes 1.0/de")
 
-- ![](/src/assets/images/Sketcher_ConstrainCoincident.svg) [Koinzidenz festlegen](/Sketcher_ConstrainCoincident/de "Sketcher ConstrainCoincident/de"): Legt Punkte koinzident (deckungsgleich) fest oder Kreise und Kreisbögen konzentrisch.
+- ![](/images/Sketcher_ConstrainCoincident.svg) [Koinzidenz festlegen](/Sketcher_ConstrainCoincident/de "Sketcher ConstrainCoincident/de"): Legt Punkte koinzident (deckungsgleich) fest oder Kreise und Kreisbögen konzentrisch.
 
-- ![](/src/assets/images/Sketcher_ConstrainPointOnObject.svg) [Punkt auf Objekt festlegen](/Sketcher_ConstrainPointOnObject/de "Sketcher ConstrainPointOnObject/de"): Legt Punkte auf Kanten oder Achsen fest.
+- ![](/images/Sketcher_ConstrainPointOnObject.svg) [Punkt auf Objekt festlegen](/Sketcher_ConstrainPointOnObject/de "Sketcher ConstrainPointOnObject/de"): Legt Punkte auf Kanten oder Achsen fest.
 
-- ![](/src/assets/images/Sketcher_ConstrainHorVer.svg)![](/src/assets/images/Toolbar_flyout_arrow_blue_background.svg) Horizontal/vertikal:
+- ![](/images/Sketcher_ConstrainHorVer.svg)![](/images/Toolbar_flyout_arrow_blue_background.svg) Horizontal/vertikal:
 
-- ![](/src/assets/images/Sketcher_ConstrainHorVer.svg) [Horizontal/vertikal](/Sketcher_ConstrainHorVer "Sketcher ConstrainHorVer"): Legt Linien oder Punktpaare horizontal oder vertikal fest, je nach dem, was eher der aktuellen Ausrichtung entspricht. Es kombiniert die Werkzeuge [Horizontal festlegen](/Sketcher_ConstrainHorizontal/de "Sketcher ConstrainHorizontal/de") und [Vertikal festlegen](/Sketcher_ConstrainVertical/de "Sketcher ConstrainVertical/de") .[eingeführt in 1.0](/Release_notes_1.0/de "Release notes 1.0/de")
+- ![](/images/Sketcher_ConstrainHorVer.svg) [Horizontal/vertikal](/Sketcher_ConstrainHorVer "Sketcher ConstrainHorVer"): Legt Linien oder Punktpaare horizontal oder vertikal fest, je nach dem, was eher der aktuellen Ausrichtung entspricht. Es kombiniert die Werkzeuge [Horizontal festlegen](/Sketcher_ConstrainHorizontal/de "Sketcher ConstrainHorizontal/de") und [Vertikal festlegen](/Sketcher_ConstrainVertical/de "Sketcher ConstrainVertical/de") .[eingeführt in 1.0](/Release_notes_1.0/de "Release notes 1.0/de")
 
-- ![](/src/assets/images/Sketcher_ConstrainHorizontal.svg) [Horizontal festlegen](/Sketcher_ConstrainHorizontal/de "Sketcher ConstrainHorizontal/de"): Legt Linien oder Punktpaare horizontal fest.
+- ![](/images/Sketcher_ConstrainHorizontal.svg) [Horizontal festlegen](/Sketcher_ConstrainHorizontal/de "Sketcher ConstrainHorizontal/de"): Legt Linien oder Punktpaare horizontal fest.
 
-- ![](/src/assets/images/Sketcher_ConstrainVertical.svg) [Vertikal festlegen](/Sketcher_ConstrainVertical/de "Sketcher ConstrainVertical/de"): Legt Linien oder Punktpaare vertikal fest.
+- ![](/images/Sketcher_ConstrainVertical.svg) [Vertikal festlegen](/Sketcher_ConstrainVertical/de "Sketcher ConstrainVertical/de"): Legt Linien oder Punktpaare vertikal fest.
 
-- ![](/src/assets/images/Sketcher_ConstrainParallel.svg) [Parallel festlegen](/Sketcher_ConstrainParallel/de "Sketcher ConstrainParallel/de"): Legt Linien parallel zueinander fest.
+- ![](/images/Sketcher_ConstrainParallel.svg) [Parallel festlegen](/Sketcher_ConstrainParallel/de "Sketcher ConstrainParallel/de"): Legt Linien parallel zueinander fest.
 
-- ![](/src/assets/images/Sketcher_ConstrainPerpendicular.svg) [Rechtwinklig festlegen](/Sketcher_ConstrainPerpendicular/de "Sketcher ConstrainPerpendicular/de"): Legt zwei Linien rechtwinklig zueinander fest oder zwei Kanten bzw. eine Kante und eine Achse in ihrem Schnittpunkt. Die Randbedingung kann auch zwei Kanten an ihrer Verbindungsstelle rechtwinklig zueinander festlegen.
+- ![](/images/Sketcher_ConstrainPerpendicular.svg) [Rechtwinklig festlegen](/Sketcher_ConstrainPerpendicular/de "Sketcher ConstrainPerpendicular/de"): Legt zwei Linien rechtwinklig zueinander fest oder zwei Kanten bzw. eine Kante und eine Achse in ihrem Schnittpunkt. Die Randbedingung kann auch zwei Kanten an ihrer Verbindungsstelle rechtwinklig zueinander festlegen.
 
-- ![](/src/assets/images/Sketcher_ConstrainTangent.svg) [Tangential oder kollinear festlegen](/Sketcher_ConstrainTangent/de "Sketcher ConstrainTangent/de"): Legt zwei Kanten oder eine Kante und eine Achse tangetial zueinander fest. Die Randbedingung kann auch zwei Kanten verbinden und an der Verbindungsstelle tangetial zueinander festlegen. Sind zwei Linien ausgewählt, werden sie kollinear festgelegt.
+- ![](/images/Sketcher_ConstrainTangent.svg) [Tangential oder kollinear festlegen](/Sketcher_ConstrainTangent/de "Sketcher ConstrainTangent/de"): Legt zwei Kanten oder eine Kante und eine Achse tangetial zueinander fest. Die Randbedingung kann auch zwei Kanten verbinden und an der Verbindungsstelle tangetial zueinander festlegen. Sind zwei Linien ausgewählt, werden sie kollinear festgelegt.
 
-- ![](/src/assets/images/Sketcher_ConstrainEqual.svg) [Gleichheit festlegen](/Sketcher_ConstrainEqual/de "Sketcher ConstrainEqual/de"): Legt fest, dass Kanten die gleiche Länge (Linien) oder die gleiche Krümmung (andere Kanten außer B-Splines) aufweisen.
+- ![](/images/Sketcher_ConstrainEqual.svg) [Gleichheit festlegen](/Sketcher_ConstrainEqual/de "Sketcher ConstrainEqual/de"): Legt fest, dass Kanten die gleiche Länge (Linien) oder die gleiche Krümmung (andere Kanten außer B-Splines) aufweisen.
 
-- ![](/src/assets/images/Sketcher_ConstrainSymmetric.svg) [Symmetrie festlegen](/Sketcher_ConstrainSymmetric/de "Sketcher ConstrainSymmetric/de"): Legt zwei Punkte symmetrisch zu einer Linie oder Achse bzw. zu einem dritten Punkt fest.
+- ![](/images/Sketcher_ConstrainSymmetric.svg) [Symmetrie festlegen](/Sketcher_ConstrainSymmetric/de "Sketcher ConstrainSymmetric/de"): Legt zwei Punkte symmetrisch zu einer Linie oder Achse bzw. zu einem dritten Punkt fest.
 
-- ![](/src/assets/images/Sketcher_ConstrainBlock.svg) [Fixieren](/Sketcher_ConstrainBlock/de "Sketcher ConstrainBlock/de"): Setzt Kanten mit einer einzigen Randbedingung auf ihren Positionen fest. Es ist hauptsächlich für B-Spines gedacht.
+- ![](/images/Sketcher_ConstrainBlock.svg) [Fixieren](/Sketcher_ConstrainBlock/de "Sketcher ConstrainBlock/de"): Setzt Kanten mit einer einzigen Randbedingung auf ihren Positionen fest. Es ist hauptsächlich für B-Spines gedacht.
 
-- ![](/src/assets/images/Sketcher_ConstrainSnellsLaw.svg) [Lichtbrechung (nach Snellius-Gesetz) festlegen](/Sketcher_ConstrainSnellsLaw/de "Sketcher ConstrainSnellsLaw/de"): Legt zwei Linien so fest, dass sie der Lichtbrechung entsprechen, die beim Passieren einer Grenzfläche auftritt.
+- ![](/images/Sketcher_ConstrainSnellsLaw.svg) [Lichtbrechung (nach Snellius-Gesetz) festlegen](/Sketcher_ConstrainSnellsLaw/de "Sketcher ConstrainSnellsLaw/de"): Legt zwei Linien so fest, dass sie der Lichtbrechung entsprechen, die beim Passieren einer Grenzfläche auftritt.
 
-- ![](/src/assets/images/Sketcher_ToggleDrivingConstraint.svg)![](/src/assets/images/Toolbar_flyout_arrow_blue_background.svg) Randbedingungen umschalten:
+- ![](/images/Sketcher_ToggleDrivingConstraint.svg)![](/images/Toolbar_flyout_arrow_blue_background.svg) Randbedingungen umschalten:
 
-- ![](/src/assets/images/Sketcher_ToggleDrivingConstraint.svg) [Randbedingung zwischen festlegend und anzeigend umschalten](/Sketcher_ToggleDrivingConstraint/de "Sketcher ToggleDrivingConstraint/de"): Schaltet den Modus der Werkzeuge zum Erstellen von maßlichen Randbedingungen zwischen festlegend oder anzeigend (Referenzmodus) um oder wechselt den Modus der ausgewählten maßlichen Randbedingungen.
+- ![](/images/Sketcher_ToggleDrivingConstraint.svg) [Randbedingung zwischen festlegend und anzeigend umschalten](/Sketcher_ToggleDrivingConstraint/de "Sketcher ToggleDrivingConstraint/de"): Schaltet den Modus der Werkzeuge zum Erstellen von maßlichen Randbedingungen zwischen festlegend oder anzeigend (Referenzmodus) um oder wechselt den Modus der ausgewählten maßlichen Randbedingungen.
 
-- ![](/src/assets/images/Sketcher_ToggleActiveConstraint.svg) [Einschränkung aktivieren/deaktivieren](/Sketcher_ToggleActiveConstraint/de "Sketcher ToggleActiveConstraint/de") (UmschalterAktiveRandbedingung): Aktiviert bzw. deaktiviert ausgewählte Randbedingungen.
+- ![](/images/Sketcher_ToggleActiveConstraint.svg) [Einschränkung aktivieren/deaktivieren](/Sketcher_ToggleActiveConstraint/de "Sketcher ToggleActiveConstraint/de") (UmschalterAktiveRandbedingung): Aktiviert bzw. deaktiviert ausgewählte Randbedingungen.
 
 ### Sketcher-Werkzeuge
 
-- ![](/src/assets/images/Sketcher_CreateFillet.svg)![](/src/assets/images/Toolbar_flyout_arrow_blue_background.svg) Verrundung oder Fase erstellen:
+- ![](/images/Sketcher_CreateFillet.svg)![](/images/Toolbar_flyout_arrow_blue_background.svg) Verrundung oder Fase erstellen:
 
-- ![](/src/assets/images/Sketcher_CreateFillet.png) [Verrundung erstellen](/Sketcher_CreateFillet/de "Sketcher CreateFillet/de"): Erstellt einen Bogen zwischen zwei nicht parallelen Kanten. [eingeführt in 1.0](/Release_notes_1.0/de "Release notes 1.0/de"): Das Werkzeug kann auch eine Fase erstellen
+- ![](/images/Sketcher_CreateFillet.png) [Verrundung erstellen](/Sketcher_CreateFillet/de "Sketcher CreateFillet/de"): Erstellt einen Bogen zwischen zwei nicht parallelen Kanten. [eingeführt in 1.0](/Release_notes_1.0/de "Release notes 1.0/de"): Das Werkzeug kann auch eine Fase erstellen
 
-- ![](/src/assets/images/Sketcher_CreateChamfer.svg) [Fase erstellen](/Sketcher_CreateChamfer/de "Sketcher CreateChamfer/de"): Erstellt eine Fase zwischen zwei nicht parallelen Kanten. Dies ist dasselbe Werkzeug wie [Verrundung erstellen](/Sketcher_CreateFillet/de "Sketcher CreateFillet/de") aber mit einem anderen voreingestellten Modus. [eingeführt in 1.0](/Release_notes_1.0/de "Release notes 1.0/de")
+- ![](/images/Sketcher_CreateChamfer.svg) [Fase erstellen](/Sketcher_CreateChamfer/de "Sketcher CreateChamfer/de"): Erstellt eine Fase zwischen zwei nicht parallelen Kanten. Dies ist dasselbe Werkzeug wie [Verrundung erstellen](/Sketcher_CreateFillet/de "Sketcher CreateFillet/de") aber mit einem anderen voreingestellten Modus. [eingeführt in 1.0](/Release_notes_1.0/de "Release notes 1.0/de")
 
-- ![](/src/assets/images/Sketcher_Trimming.svg)![](/src/assets/images/Toolbar_flyout_arrow_blue_background.svg) Kante bearbeiten:
+- ![](/images/Sketcher_Trimming.svg)![](/images/Toolbar_flyout_arrow_blue_background.svg) Kante bearbeiten:
 
-- ![](/src/assets/images/Sketcher_Trimming.png) [Kante zuschneiden](/Sketcher_Trimming/de "Sketcher Trimming/de"): Stutzt eine Kante an den am nächsten liegenden Schnittpunkten mit anderen Kanten.
+- ![](/images/Sketcher_Trimming.png) [Kante zuschneiden](/Sketcher_Trimming/de "Sketcher Trimming/de"): Stutzt eine Kante an den am nächsten liegenden Schnittpunkten mit anderen Kanten.
 
-- ![](/src/assets/images/Sketcher_Split.svg) [Kante teilen](/Sketcher_Split/de "Sketcher Split/de"): Teilt eine Kante in zwei und überträgt dabei die meisten Randbedingungen.
+- ![](/images/Sketcher_Split.svg) [Kante teilen](/Sketcher_Split/de "Sketcher Split/de"): Teilt eine Kante in zwei und überträgt dabei die meisten Randbedingungen.
 
-- ![](/src/assets/images/Sketcher_Extend.svg) [Kante verlängern](/Sketcher_Extend/de "Sketcher Extend/de"): Verlängert oder kürzt eine Linie oder einen Kreisbogen bis zu einer beliebigen Stelle oder bis zu einer Zielkante bzw. einem Zielpunkt.
+- ![](/images/Sketcher_Extend.svg) [Kante verlängern](/Sketcher_Extend/de "Sketcher Extend/de"): Verlängert oder kürzt eine Linie oder einen Kreisbogen bis zu einer beliebigen Stelle oder bis zu einer Zielkante bzw. einem Zielpunkt.
 
-- ![](/src/assets/images/Sketcher_External.svg) [Externe Geometrie](/Sketcher_External/de "Sketcher External/de"): Projiziert Kanten und/oder Knoten, die zu einem Objekt außerhalb der Skizze gehören, auf die Skizzenebene. 1.0 und davor
+- ![](/images/Sketcher_External.svg) [Externe Geometrie](/Sketcher_External/de "Sketcher External/de"): Projiziert Kanten und/oder Knoten, die zu einem Objekt außerhalb der Skizze gehören, auf die Skizzenebene. 1.0 und davor
 
-- ![](/src/assets/images/Sketcher_Projection.svg)![](/src/assets/images/Toolbar_flyout_arrow_blue_background.svg) Externe Geometrie:
+- ![](/images/Sketcher_Projection.svg)![](/images/Toolbar_flyout_arrow_blue_background.svg) Externe Geometrie:
 
-- ![](/src/assets/images/Sketcher_Projection.svg) [Externe Geometrie projizieren](/Sketcher_Projection/de "Sketcher Projection/de"): Projiziert die Kanten externer Geometrie. [eingeführt in 1.1](/Release_notes_1.1/de "Release notes 1.1/de")
+- ![](/images/Sketcher_Projection.svg) [Externe Geometrie projizieren](/Sketcher_Projection/de "Sketcher Projection/de"): Projiziert die Kanten externer Geometrie. [eingeführt in 1.1](/Release_notes_1.1/de "Release notes 1.1/de")
 
-- ![](/src/assets/images/Sketcher_Intersection.svg) [Externe Geometrie schneiden](/Sketcher_Intersection/de "Sketcher Intersection/de"): Erstellt die Schnittkanten externer Geometrie mit der Skizzenebene. [eingeführt in 1.1](/Release_notes_1.1/de "Release notes 1.1/de")
+- ![](/images/Sketcher_Intersection.svg) [Externe Geometrie schneiden](/Sketcher_Intersection/de "Sketcher Intersection/de"): Erstellt die Schnittkanten externer Geometrie mit der Skizzenebene. [eingeführt in 1.1](/Release_notes_1.1/de "Release notes 1.1/de")
 
-- ![](/src/assets/images/Sketcher_CarbonCopy.svg) [Pause](/Sketcher_CarbonCopy/de "Sketcher CarbonCopy/de"): Paust alle Geometrien und Randbedingungen aus einer anderen Skizze in die aktuelle Skizze durch.
+- ![](/images/Sketcher_CarbonCopy.svg) [Pause](/Sketcher_CarbonCopy/de "Sketcher CarbonCopy/de"): Paust alle Geometrien und Randbedingungen aus einer anderen Skizze in die aktuelle Skizze durch.
 
-- ![](/src/assets/images/Sketcher_SelectOrigin.svg) [Ursprung auswählen](/Sketcher_SelectOrigin/de "Sketcher SelectOrigin/de"): Wählt den Ursprung der Skizze aus.
+- ![](/images/Sketcher_SelectOrigin.svg) [Ursprung auswählen](/Sketcher_SelectOrigin/de "Sketcher SelectOrigin/de"): Wählt den Ursprung der Skizze aus.
 
-- ![](/src/assets/images/Sketcher_SelectHorizontalAxis.svg) [Horizontale Achse auswählen](/Sketcher_SelectHorizontalAxis/de "Sketcher SelectHorizontalAxis/de"): Wählt die horizontale Achse der Skizze aus.
+- ![](/images/Sketcher_SelectHorizontalAxis.svg) [Horizontale Achse auswählen](/Sketcher_SelectHorizontalAxis/de "Sketcher SelectHorizontalAxis/de"): Wählt die horizontale Achse der Skizze aus.
 
-- ![](/src/assets/images/Sketcher_SelectVerticalAxis.svg) [Vertikale Achse auswählen](/Sketcher_SelectVerticalAxis/de "Sketcher SelectVerticalAxis/de"): Wählt die vertikale Achse der Skizze aus.
+- ![](/images/Sketcher_SelectVerticalAxis.svg) [Vertikale Achse auswählen](/Sketcher_SelectVerticalAxis/de "Sketcher SelectVerticalAxis/de"): Wählt die vertikale Achse der Skizze aus.
 
-- ![](/src/assets/images/Sketcher_Translate.svg) [Array transform](/Sketcher_Translate "Sketcher Translate"): Versetzt ausgewählte Elemente oder kopiert sie wahlweise. [eingeführt in 1.0](/Release_notes_1.0/de "Release notes 1.0/de")
+- ![](/images/Sketcher_Translate.svg) [Array transform](/Sketcher_Translate "Sketcher Translate"): Versetzt ausgewählte Elemente oder kopiert sie wahlweise. [eingeführt in 1.0](/Release_notes_1.0/de "Release notes 1.0/de")
 
-- ![](/src/assets/images/Sketcher_Rotate.svg) [Polar transform](/Sketcher_Rotate/de "Sketcher Rotate/de"): Dreht ausgewählte Elemente oder kopiert sie wahlweise. [eingeführt in 1.0](/Release_notes_1.0/de "Release notes 1.0/de")
+- ![](/images/Sketcher_Rotate.svg) [Polar transform](/Sketcher_Rotate/de "Sketcher Rotate/de"): Dreht ausgewählte Elemente oder kopiert sie wahlweise. [eingeführt in 1.0](/Release_notes_1.0/de "Release notes 1.0/de")
 
-- ![](/src/assets/images/Sketcher_Scale.svg) [Skalierungs-Transformation](/Sketcher_Scale/de "Sketcher Scale/de"): Skaliert ausgewählte Elemente oder kopiert sie wahlweise. [eingeführt in 1.0](/Release_notes_1.0/de "Release notes 1.0/de")
+- ![](/images/Sketcher_Scale.svg) [Skalierungs-Transformation](/Sketcher_Scale/de "Sketcher Scale/de"): Skaliert ausgewählte Elemente oder kopiert sie wahlweise. [eingeführt in 1.0](/Release_notes_1.0/de "Release notes 1.0/de")
 
-- ![](/src/assets/images/Sketcher_Offset.svg) [Versatzkontur](/Sketcher_Offset/de "Sketcher Offset/de"): Erstellt Kanten mit konstantem Abstand um die Ausgewählten Geometrien herum. [eingeführt in 1.0](/Release_notes_1.0/de "Release notes 1.0/de")
+- ![](/images/Sketcher_Offset.svg) [Versatzkontur](/Sketcher_Offset/de "Sketcher Offset/de"): Erstellt Kanten mit konstantem Abstand um die Ausgewählten Geometrien herum. [eingeführt in 1.0](/Release_notes_1.0/de "Release notes 1.0/de")
 
-- ![](/src/assets/images/Sketcher_Symmetry.svg) [Symmetrie](/Sketcher_Symmetry/de "Sketcher Symmetry/de"): Erstellt gespiegelte Kopien ausgewählter Elemente.
+- ![](/images/Sketcher_Symmetry.svg) [Symmetrie](/Sketcher_Symmetry/de "Sketcher Symmetry/de"): Erstellt gespiegelte Kopien ausgewählter Elemente.
 
-- ![](/src/assets/images/Sketcher_RemoveAxesAlignment.svg) [Achsenausrichtung entfernen](/Sketcher_RemoveAxesAlignment/de "Sketcher RemoveAxesAlignment/de"): Entfernt achsparallele Ausrichtungen ausgewählter Kanten, indem die Randbedingungen [Horizontal festlegen](/Sketcher_ConstrainHorizontal/de "Sketcher ConstrainHorizontal/de") und [Vertikal festlegen](/Sketcher_ConstrainVertical/de "Sketcher ConstrainVertical/de") durch die Randbedingungen [Parallel festlegen](/Sketcher_ConstrainParallel/de "Sketcher ConstrainParallel/de") und [Rechtwinklig festlegen](/Sketcher_ConstrainPerpendicular/de "Sketcher ConstrainPerpendicular/de") ersetzt werden.
+- ![](/images/Sketcher_RemoveAxesAlignment.svg) [Achsenausrichtung entfernen](/Sketcher_RemoveAxesAlignment/de "Sketcher RemoveAxesAlignment/de"): Entfernt achsparallele Ausrichtungen ausgewählter Kanten, indem die Randbedingungen [Horizontal festlegen](/Sketcher_ConstrainHorizontal/de "Sketcher ConstrainHorizontal/de") und [Vertikal festlegen](/Sketcher_ConstrainVertical/de "Sketcher ConstrainVertical/de") durch die Randbedingungen [Parallel festlegen](/Sketcher_ConstrainParallel/de "Sketcher ConstrainParallel/de") und [Rechtwinklig festlegen](/Sketcher_ConstrainPerpendicular/de "Sketcher ConstrainPerpendicular/de") ersetzt werden.
 
-- ![](/src/assets/images/Sketcher_DeleteAllGeometry.svg) [Gesamte Geometrie löschen](/Sketcher_DeleteAllGeometry/de "Sketcher DeleteAllGeometry/de") (AlleGeometrienLöschen): Löscht sämtliche Geometrien und Randbedingungen aus der Skizze.
+- ![](/images/Sketcher_DeleteAllGeometry.svg) [Gesamte Geometrie löschen](/Sketcher_DeleteAllGeometry/de "Sketcher DeleteAllGeometry/de") (AlleGeometrienLöschen): Löscht sämtliche Geometrien und Randbedingungen aus der Skizze.
 
-- ![](/src/assets/images/Sketcher_DeleteAllConstraints.svg) [Alle Einschränkungen löschen](/Sketcher_DeleteAllConstraints/de "Sketcher DeleteAllConstraints/de") (AlleRandbedingungenLöschen): Löscht alle Randbedingungen aus der Skizze.
+- ![](/images/Sketcher_DeleteAllConstraints.svg) [Alle Einschränkungen löschen](/Sketcher_DeleteAllConstraints/de "Sketcher DeleteAllConstraints/de") (AlleRandbedingungenLöschen): Löscht alle Randbedingungen aus der Skizze.
 
-- ![](/src/assets/images/Edit-copy.svg) Kopieren im Sketcher: Siehe [Kopieren, Ausschneiden und Einfügen](#Kopieren,_Ausschneiden_und_Einfügen).
+- ![](/images/Edit-copy.svg) Kopieren im Sketcher: Siehe [Kopieren, Ausschneiden und Einfügen](#Kopieren,_Ausschneiden_und_Einfügen).
 
-- ![](/src/assets/images/Edit-cut.svg) Ausschneiden im Sketcher: Siehe [Kopieren, Ausschneiden und Einfügen](#Kopieren,_Ausschneiden_und_Einfügen).
+- ![](/images/Edit-cut.svg) Ausschneiden im Sketcher: Siehe [Kopieren, Ausschneiden und Einfügen](#Kopieren,_Ausschneiden_und_Einfügen).
 
-- ![](/src/assets/images/Edit-paste.svg) Einfügen im Sketcher: Siehe [Kopieren, Ausschneiden und Einfügen](#Kopieren,_Ausschneiden_und_Einfügen).
+- ![](/images/Edit-paste.svg) Einfügen im Sketcher: Siehe [Kopieren, Ausschneiden und Einfügen](#Kopieren,_Ausschneiden_und_Einfügen).
 
 ### Sketcher-B-Spline-Werkzeuge
 
-- ![](/src/assets/images/Sketcher_BSplineConvertToNURBS.svg) [Geometrie in B-Spline wandeln](/Sketcher_BSplineConvertToNURBS/de "Sketcher BSplineConvertToNURBS/de"): Wandelt Kanten in B-Splines um.
+- ![](/images/Sketcher_BSplineConvertToNURBS.svg) [Geometrie in B-Spline wandeln](/Sketcher_BSplineConvertToNURBS/de "Sketcher BSplineConvertToNURBS/de"): Wandelt Kanten in B-Splines um.
 
-- ![](/src/assets/images/Sketcher_BSplineIncreaseDegree.svg) [Grad des B-Splines erhöhen](/Sketcher_BSplineIncreaseDegree/de "Sketcher BSplineIncreaseDegree/de"): Erhöht den Grad (die Ordnung) von B-Splines.
+- ![](/images/Sketcher_BSplineIncreaseDegree.svg) [Grad des B-Splines erhöhen](/Sketcher_BSplineIncreaseDegree/de "Sketcher BSplineIncreaseDegree/de"): Erhöht den Grad (die Ordnung) von B-Splines.
 
-- ![](/src/assets/images/Sketcher_BSplineDecreaseDegree.svg) [Grad des B-Splines verringern](/Sketcher_BSplineDecreaseDegree/de "Sketcher BSplineDecreaseDegree/de"): Verringert den Grad (die Ordnung) von B-Splines.
+- ![](/images/Sketcher_BSplineDecreaseDegree.svg) [Grad des B-Splines verringern](/Sketcher_BSplineDecreaseDegree/de "Sketcher BSplineDecreaseDegree/de"): Verringert den Grad (die Ordnung) von B-Splines.
 
-- ![](/src/assets/images/Sketcher_BSplineIncreaseKnotMultiplicity.svg) [Vielfachheit eines Spline-Knotens erhöhen](/Sketcher_BSplineIncreaseKnotMultiplicity/de "Sketcher BSplineIncreaseKnotMultiplicity/de"): Erhöht die Vielfachheit eines B-Spline-Knotens.
+- ![](/images/Sketcher_BSplineIncreaseKnotMultiplicity.svg) [Vielfachheit eines Spline-Knotens erhöhen](/Sketcher_BSplineIncreaseKnotMultiplicity/de "Sketcher BSplineIncreaseKnotMultiplicity/de"): Erhöht die Vielfachheit eines B-Spline-Knotens.
 
-- ![](/src/assets/images/Sketcher_BSplineDecreaseKnotMultiplicity.svg) [Vielfachheit eines Spline-Knotens verringern](/Sketcher_BSplineDecreaseKnotMultiplicity/de "Sketcher BSplineDecreaseKnotMultiplicity/de"): Verringert die Vielfachheit eines B-Spline-Knotens.
+- ![](/images/Sketcher_BSplineDecreaseKnotMultiplicity.svg) [Vielfachheit eines Spline-Knotens verringern](/Sketcher_BSplineDecreaseKnotMultiplicity/de "Sketcher BSplineDecreaseKnotMultiplicity/de"): Verringert die Vielfachheit eines B-Spline-Knotens.
 
-- ![](/src/assets/images/Sketcher_BSplineInsertKnot.svg) [Knoten einfügen](/Sketcher_BSplineInsertKnot/de "Sketcher BSplineInsertKnot/de"): Fügt einen Knoten in einen B-Spline ein oder erhöht die Vielfachheit eines vorhandenen Knotens.
+- ![](/images/Sketcher_BSplineInsertKnot.svg) [Knoten einfügen](/Sketcher_BSplineInsertKnot/de "Sketcher BSplineInsertKnot/de"): Fügt einen Knoten in einen B-Spline ein oder erhöht die Vielfachheit eines vorhandenen Knotens.
 
-- ![](/src/assets/images/Sketcher_JoinCurves.svg) [Kurven verbinden](/Sketcher_JoinCurves "Sketcher JoinCurves"): Erstellt einen B-Spline, indem zwei vorhandene B-Splines oder andere Kanten verbunden werden. [eingeführt in 0.21](/Release_notes_0.21/de "Release notes 0.21/de")
+- ![](/images/Sketcher_JoinCurves.svg) [Kurven verbinden](/Sketcher_JoinCurves "Sketcher JoinCurves"): Erstellt einen B-Spline, indem zwei vorhandene B-Splines oder andere Kanten verbunden werden. [eingeführt in 0.21](/Release_notes_0.21/de "Release notes 0.21/de")
 
 ### Sketcher visuell
 
-- ![](/src/assets/images/Sketcher_SelectElementsWithDoFs.svg) [Unterbestimmte Elemente auswählen](/Sketcher_SelectElementsWithDoFs/de "Sketcher SelectElementsWithDoFs/de"): Wählt die nicht vollständig bestimmten Elemente einer Skizze aus.
+- ![](/images/Sketcher_SelectElementsWithDoFs.svg) [Unterbestimmte Elemente auswählen](/Sketcher_SelectElementsWithDoFs/de "Sketcher SelectElementsWithDoFs/de"): Wählt die nicht vollständig bestimmten Elemente einer Skizze aus.
 
-- ![](/src/assets/images/Sketcher_SelectConstraints.svg) [Zugehörige Randbedingungen auswählen](/Sketcher_SelectConstraints/de "Sketcher SelectConstraints/de"): Wählt die Randbedingungen aus, die (den) Skizzenelementen zugeordnet sind.
+- ![](/images/Sketcher_SelectConstraints.svg) [Zugehörige Randbedingungen auswählen](/Sketcher_SelectConstraints/de "Sketcher SelectConstraints/de"): Wählt die Randbedingungen aus, die (den) Skizzenelementen zugeordnet sind.
 
-- ![](/src/assets/images/Sketcher_SelectElementsAssociatedWithConstraints.svg) [Zugehörige Geometrie auswählen](/Sketcher_SelectElementsAssociatedWithConstraints/de "Sketcher SelectElementsAssociatedWithConstraints/de") (ZugehörigeElementeAuswählen): Wählt die Skizzenelemente aus, denen Randbedingungen zugeordnet sind.
+- ![](/images/Sketcher_SelectElementsAssociatedWithConstraints.svg) [Zugehörige Geometrie auswählen](/Sketcher_SelectElementsAssociatedWithConstraints/de "Sketcher SelectElementsAssociatedWithConstraints/de") (ZugehörigeElementeAuswählen): Wählt die Skizzenelemente aus, denen Randbedingungen zugeordnet sind.
 
-- ![](/src/assets/images/Sketcher_SelectRedundantConstraints.svg) [Überflüssige Randbedingungen auswählen](/Sketcher_SelectRedundantConstraints/de "Sketcher SelectRedundantConstraints/de"): Wählt die redundanten Randbedingungen in der Skizze aus.
+- ![](/images/Sketcher_SelectRedundantConstraints.svg) [Überflüssige Randbedingungen auswählen](/Sketcher_SelectRedundantConstraints/de "Sketcher SelectRedundantConstraints/de"): Wählt die redundanten Randbedingungen in der Skizze aus.
 
-- ![](/src/assets/images/Sketcher_SelectConflictingConstraints.svg) [Widersprüchliche Randbedingungen auswählen](/Sketcher_SelectConflictingConstraints/de "Sketcher SelectConflictingConstraints/de"): Wählt die widersprüchlichen Randbedingungen in der Skizze aus.
+- ![](/images/Sketcher_SelectConflictingConstraints.svg) [Widersprüchliche Randbedingungen auswählen](/Sketcher_SelectConflictingConstraints/de "Sketcher SelectConflictingConstraints/de"): Wählt die widersprüchlichen Randbedingungen in der Skizze aus.
 
-- ![](/src/assets/images/Sketcher_ArcOverlay.svg) [Kreishelfer für Bögen ein-/ausblenden](/Sketcher_ArcOverlay/de "Sketcher ArcOverlay/de"): Blendet Kreishelfer (zugrundeliegende virtuelle Kreiskurven) für Kreisbögen in allen Skizzen ein bzw. aus. [eingeführt in 1.0](/Release_notes_1.0/de "Release notes 1.0/de")
+- ![](/images/Sketcher_ArcOverlay.svg) [Kreishelfer für Bögen ein-/ausblenden](/Sketcher_ArcOverlay/de "Sketcher ArcOverlay/de"): Blendet Kreishelfer (zugrundeliegende virtuelle Kreiskurven) für Kreisbögen in allen Skizzen ein bzw. aus. [eingeführt in 1.0](/Release_notes_1.0/de "Release notes 1.0/de")
 
-- ![](/src/assets/images/Sketcher_BSplinePolygon.svg)![](/src/assets/images/Toolbar_flyout_arrow_blue_background.svg) B-Spline-Informationsebene ein-/ausblenden:
+- ![](/images/Sketcher_BSplinePolygon.svg)![](/images/Toolbar_flyout_arrow_blue_background.svg) B-Spline-Informationsebene ein-/ausblenden:
 
-- ![](/src/assets/images/Sketcher_BSplineDegree.svg) [B-Spline-Grad ein- / ausblenden](/Sketcher_BSplineDegree/de "Sketcher BSplineDegree/de"): Blendet den Grad der B-Splines in allen Skizzen ein bzw. aus.
+- ![](/images/Sketcher_BSplineDegree.svg) [B-Spline-Grad ein- / ausblenden](/Sketcher_BSplineDegree/de "Sketcher BSplineDegree/de"): Blendet den Grad der B-Splines in allen Skizzen ein bzw. aus.
 
-- ![](/src/assets/images/Sketcher_BSplinePolygon.svg) [B-Spline-Kontrollpolygon ein- / ausblenden](/Sketcher_BSplinePolygon/de "Sketcher BSplinePolygon/de"): Blendet das Kontrollpolygon der B-Splines in allen Skizzen ein bzw. aus.
+- ![](/images/Sketcher_BSplinePolygon.svg) [B-Spline-Kontrollpolygon ein- / ausblenden](/Sketcher_BSplinePolygon/de "Sketcher BSplinePolygon/de"): Blendet das Kontrollpolygon der B-Splines in allen Skizzen ein bzw. aus.
 
-- ![](/src/assets/images/Sketcher_BSplineComb.svg) [B-Spline-Krümmungskamm ein- / ausblenden](/Sketcher_BSplineComb/de "Sketcher BSplineComb/de"): Blendet den Krümmungskamm der B-Splines in allen Skizzen ein bzw. aus.
+- ![](/images/Sketcher_BSplineComb.svg) [B-Spline-Krümmungskamm ein- / ausblenden](/Sketcher_BSplineComb/de "Sketcher BSplineComb/de"): Blendet den Krümmungskamm der B-Splines in allen Skizzen ein bzw. aus.
 
-- ![](/src/assets/images/Sketcher_BSplineKnotMultiplicity.svg) [Vielfachheit der B-Spline-Knoten ein- / ausblenden](/Sketcher_BSplineKnotMultiplicity/de "Sketcher BSplineKnotMultiplicity/de"): Blendet die Knotenvielfachheit der B-Splines in allen Skizzen ein bzw. aus.
+- ![](/images/Sketcher_BSplineKnotMultiplicity.svg) [Vielfachheit der B-Spline-Knoten ein- / ausblenden](/Sketcher_BSplineKnotMultiplicity/de "Sketcher BSplineKnotMultiplicity/de"): Blendet die Knotenvielfachheit der B-Splines in allen Skizzen ein bzw. aus.
 
-- ![](/src/assets/images/Sketcher_BSplinePoleWeight.svg) [Gewicht der B-Spline-Kontrollpunkte anzeigen / ausblenden](/Sketcher_BSplinePoleWeight/de "Sketcher BSplinePoleWeight/de"): Blendet die Gewichte der Kontrollpunkte der B-Splines in allen Skizzen ein bzw. aus.
+- ![](/images/Sketcher_BSplinePoleWeight.svg) [Gewicht der B-Spline-Kontrollpunkte anzeigen / ausblenden](/Sketcher_BSplinePoleWeight/de "Sketcher BSplinePoleWeight/de"): Blendet die Gewichte der Kontrollpunkte der B-Splines in allen Skizzen ein bzw. aus.
 
-- ![](/src/assets/images/Sketcher_RestoreInternalAlignmentGeometry.svg) [Interne Geometrie anzeigen / ausblenden](/Sketcher_RestoreInternalAlignmentGeometry/de "Sketcher RestoreInternalAlignmentGeometry/de"): Löscht die interne Geometrie von Elementen oder stellt fehlende interne Geometrie wieder her.
+- ![](/images/Sketcher_RestoreInternalAlignmentGeometry.svg) [Interne Geometrie anzeigen / ausblenden](/Sketcher_RestoreInternalAlignmentGeometry/de "Sketcher RestoreInternalAlignmentGeometry/de"): Löscht die interne Geometrie von Elementen oder stellt fehlende interne Geometrie wieder her.
 
-- ![](/src/assets/images/Sketcher_SwitchVirtualSpace.svg) [Virtuellen Bereich wechseln](/Sketcher_SwitchVirtualSpace/de "Sketcher SwitchVirtualSpace/de"): Blendet Randbedingungen ein bzw. aus oder wechselt den sichtbaren virtuellen Bereich.
+- ![](/images/Sketcher_SwitchVirtualSpace.svg) [Virtuellen Bereich wechseln](/Sketcher_SwitchVirtualSpace/de "Sketcher SwitchVirtualSpace/de"): Blendet Randbedingungen ein bzw. aus oder wechselt den sichtbaren virtuellen Bereich.
 
 ### Veraltete Werkzeuge
 
-- ![](/src/assets/images/Sketcher_Clone.svg) [Klonen](/Sketcher_Clone/de "Sketcher Clone/de"): Klont ein Skizzenelement. Steht in 1.0 und neuer nicht mehr zur Verfügung.
+- ![](/images/Sketcher_Clone.svg) [Klonen](/Sketcher_Clone/de "Sketcher Clone/de"): Klont ein Skizzenelement. Steht in 1.0 und neuer nicht mehr zur Verfügung.
 
-- ![](/src/assets/images/Sketcher_CloseShape.svg) [Kontur schließen](/Sketcher_CloseShape/de "Sketcher CloseShape/de"): Erstellt eine geschlossene Form, durch Anwendung der Randbedingung KoinzidentFestlegen auf Endpunkte. Dieses Werkzeug ist veraltet. Steht in 0.21 und neuer nicht mehr zur Verfügung.
+- ![](/images/Sketcher_CloseShape.svg) [Kontur schließen](/Sketcher_CloseShape/de "Sketcher CloseShape/de"): Erstellt eine geschlossene Form, durch Anwendung der Randbedingung KoinzidentFestlegen auf Endpunkte. Dieses Werkzeug ist veraltet. Steht in 0.21 und neuer nicht mehr zur Verfügung.
 
-- ![](/src/assets/images/Sketcher_CreatePointFillet.svg) [Eckenerhaltende Verrundung erstellen](/Sketcher_CreatePointFillet/de "Sketcher CreatePointFillet/de"): Erstellt einen Bogen zwischen zwei nicht parallelen Linien, wobei ihr Eckpunkt erhalten bleibt. Steht in 1.0 und neuer nicht mehr zur Verfügung.
+- ![](/images/Sketcher_CreatePointFillet.svg) [Eckenerhaltende Verrundung erstellen](/Sketcher_CreatePointFillet/de "Sketcher CreatePointFillet/de"): Erstellt einen Bogen zwischen zwei nicht parallelen Linien, wobei ihr Eckpunkt erhalten bleibt. Steht in 1.0 und neuer nicht mehr zur Verfügung.
 
-- ![](/src/assets/images/Sketcher_ConnectLines.svg) [Linien verbinden](/Sketcher_ConnectLines/de "Sketcher ConnectLines/de"): Verbindet Skizzenelemente, durch Anwendung der Randbedingung KoinzidentFestlegen auf Endpunkte. Dieses Werkzeug ist veraltet. Steht in 0.21 und neuer nicht mehr zur Verfügung.
+- ![](/images/Sketcher_ConnectLines.svg) [Linien verbinden](/Sketcher_ConnectLines/de "Sketcher ConnectLines/de"): Verbindet Skizzenelemente, durch Anwendung der Randbedingung KoinzidentFestlegen auf Endpunkte. Dieses Werkzeug ist veraltet. Steht in 0.21 und neuer nicht mehr zur Verfügung.
 
-- ![](/src/assets/images/Sketcher_Copy.svg) [Kopieren](/Sketcher_Copy/de "Sketcher Copy/de"): Kopiert ein Skizzenelement. Steht in 1.0 und neuer nicht mehr zur Verfügung.
+- ![](/images/Sketcher_Copy.svg) [Kopieren](/Sketcher_Copy/de "Sketcher Copy/de"): Kopiert ein Skizzenelement. Steht in 1.0 und neuer nicht mehr zur Verfügung.
 
-- ![](/src/assets/images/Sketcher_Move.svg) [Verschieben](/Sketcher_Move/de "Sketcher Move/de"): Verschiebt die ausgewählte Geometrie mit Bezug auf den zuletzt ausgewählten Punkt. Steht in 1.0 und neuer nicht mehr zur Verfügung.
+- ![](/images/Sketcher_Move.svg) [Verschieben](/Sketcher_Move/de "Sketcher Move/de"): Verschiebt die ausgewählte Geometrie mit Bezug auf den zuletzt ausgewählten Punkt. Steht in 1.0 und neuer nicht mehr zur Verfügung.
 
-- ![](/src/assets/images/Sketcher_RectangularArray.svg) [Rechteckige Anordnung](/Sketcher_RectangularArray/de "Sketcher RectangularArray/de"): Erstellt eine Anordnung ausgewählter Skizzenelemente. Steht in 1.0 und neuer nicht mehr zur Verfügung.
+- ![](/images/Sketcher_RectangularArray.svg) [Rechteckige Anordnung](/Sketcher_RectangularArray/de "Sketcher RectangularArray/de"): Erstellt eine Anordnung ausgewählter Skizzenelemente. Steht in 1.0 und neuer nicht mehr zur Verfügung.
 
 ## Einstellungen
 
-- ![](/src/assets/images/Workbench_Sketcher.svg) [Einstellungen](/Sketcher_Preferences/de "Sketcher Preferences/de"): Einstellungen für den Arbeitsbereich **Sketcher**.
+- ![](/images/Workbench_Sketcher.svg) [Einstellungen](/Sketcher_Preferences/de "Sketcher Preferences/de"): Einstellungen für den Arbeitsbereich **Sketcher**.
 
 ## Bewährtes Vorgehen
 
@@ -454,7 +454,7 @@ Jeder CAD-Benutzer entwickelt im Laufe der Zeit seine eigene Arbeitsweise, aber 
 - Eine Skizze sollte möglichst mit der Randbedingung Sperren auf den Ursprung (0,0) ausgerichtet werden. Wenn die Skizze nicht symmetrisch ist, setzt man einen ihrer Punkte auf den Ursprung oder wählt einfache runde Zahlen für die festzulegenden abstände.
 - Hat man die Möglichkeit, zwischen den Randbedingungen Abstand festlegen und Horizontalen Abstand festlegen bzw. Vertikalen Abstand festlegen zu wählen, sollte eine der letzteren bevorzugt werden. Horizontalen Abstand festlegen und Vertikalen Abstand festlegen sind vom Berechnungsaufwand her günstiger.
 - Im Allgemeinen eignen sich die folgenden Randbedingungen am besten: Horizontal und Vertikal Festlegen, Horizontalen und Vertikalen Abstand festlegen, (Punkt-zu-Punkt) Tangential festlegen. Wenn möglich sollten die folgenden nur begrenz eingesetzt werden: Abstand festlegen, (Kante-zu-Kante) Tangential festlegen von, Punkt auf Objekt festlegen; Symmetrie festlegen.
-- Wenn Zweifel an der Gültigkeit einer Skizze bestehen, nachdem diese vervollständigt wurde (Elemente werden grün), schließt man das Sketcher-Dialogfeld und verwendet ![](/src/assets/images/Sketcher_ValidateSketch.svg) [Skizze Überprüfen](/Sketcher_ValidateSketch/de "Sketcher ValidateSketch/de").
+- Wenn Zweifel an der Gültigkeit einer Skizze bestehen, nachdem diese vervollständigt wurde (Elemente werden grün), schließt man das Sketcher-Dialogfeld und verwendet ![](/images/Sketcher_ValidateSketch.svg) [Skizze Überprüfen](/Sketcher_ValidateSketch/de "Sketcher ValidateSketch/de").
 
 ## Anleitungen
 
@@ -471,7 +471,7 @@ Die Seite [Sketcher Skripten](/Sketcher_scripting/de "Sketcher scripting/de") en
 
 Ein paar Ideen, was mit den Sketcher-Werkzeugen erstellt werden kann, findet man unter: [Sketcher Beispiele](/Sketcher_Examples/de "Sketcher Examples/de").
 
-![](/src/assets/images/Sketcher_ExampleHinge-01.gif)
-![](/src/assets/images/Sketcher_ExampleHinge-15.png)
+![](/images/Sketcher_ExampleHinge-01.gif)
+![](/images/Sketcher_ExampleHinge-15.png)
 
 Retrieved from "<http://wiki.freecad.org/index.php?title=Sketcher_Workbench/de&oldid=1549592>"

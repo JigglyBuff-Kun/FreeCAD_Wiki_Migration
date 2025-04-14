@@ -21,7 +21,7 @@ title: TechDraw 2LinienMittellinie
 
 Das Werkzeug **TechDraw 2LinienMittellinie** fügt eine Mittellinie zwischen zwei Kanten hinzu.
 
-![](/src/assets/images/CL2LinesSample.png)
+![](/images/CL2LinesSample.png)
 
 Zwischen 2 Kanten ausgerichtete Mittellinie
 
@@ -29,8 +29,8 @@ Zwischen 2 Kanten ausgerichtete Mittellinie
 
 1. Zwei Kanten in einer Ansicht auswählen. Die Kanten sollten mehr oder weniger parallel sein.
 2. Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
-   - Die Schaltfläche ![](/src/assets/images/TechDraw_2LineCenterLine.svg) Mittellinie zwischen 2 Linien hinzufügen drücken.
-   - Den Menüeintrag **TechDraw → Linien hinzufügen → ![](/src/assets/images/TechDraw_2LineCenterLine.svg) Mittellinie zwischen 2 Linien hinzufügen** auswählen.
+   - Die Schaltfläche ![](/images/TechDraw_2LineCenterLine.svg) Mittellinie zwischen 2 Linien hinzufügen drücken.
+   - Den Menüeintrag **TechDraw → Linien hinzufügen → ![](/images/TechDraw_2LineCenterLine.svg) Mittellinie zwischen 2 Linien hinzufügen** auswählen.
 3. Ein Aufgaben-Bereich wird geöffnet. Siehe [TechDraw FlächenMittellinie](/TechDraw_FaceCenterLine/de#Optionen "TechDraw FaceCenterLine/de") für weitere Informationen.
 4. Die Schaltfläche OK zum Bestätigen drücken.
 5. Eine Mittellinie wird zwischen den ausgewählten Kanten hinzugefügt.

@@ -4,7 +4,7 @@ title: Sketcher Preferences
 
 ## Introduction
 
-The preferences for the ![](/src/assets/images/Workbench_Sketcher.svg) [Sketcher Workbench](/Sketcher_Workbench "Sketcher Workbench") can be found in the [Preferences Editor](/Preferences_Editor "Preferences Editor"). In the menu select **Edit → Preferences...** and then **![](/src/assets/images/Workbench_Sketcher.svg) Sketcher**. This group is only available if the Sketcher Workbench has been loaded in the current FreeCAD session.
+The preferences for the ![](/images/Workbench_Sketcher.svg) [Sketcher Workbench](/Sketcher_Workbench "Sketcher Workbench") can be found in the [Preferences Editor](/Preferences_Editor "Preferences Editor"). In the menu select **Edit → Preferences...** and then **![](/images/Workbench_Sketcher.svg) Sketcher**. This group is only available if the Sketcher Workbench has been loaded in the current FreeCAD session.
 
 There are four pages: [General](#General), [Grid](#Grid), [Display](#Display) and [Appearance](#Appearance).
 
@@ -16,7 +16,7 @@ In 0.21 and below the [Appearance](#Appearance) page is labeled "Colors".
 
 ## General
 
-![](/src/assets/images/Preferences_Sketcher_Page_General.png)
+![](/images/Preferences_Sketcher_Page_General.png)
 
 On this page you can specify the following:
 
@@ -37,7 +37,7 @@ On this page you can specify the following:
 
 ## Grid
 
-![](/src/assets/images/Preferences_Sketcher_Page_Grid.png)
+![](/images/Preferences_Sketcher_Page_Grid.png)
 
 On this page you can specify the following:
 
@@ -52,7 +52,7 @@ On this page you can specify the following:
 
 ## Display
 
-![](/src/assets/images/Preferences_Sketcher_Page_Display.png)
+![](/images/Preferences_Sketcher_Page_Display.png)
 
 On this page you can specify the following:
 
@@ -78,7 +78,7 @@ On this page you can specify the following:
 
 ## Appearance
 
-![](/src/assets/images/Preferences_Sketcher_Page_Appearance.png)
+![](/images/Preferences_Sketcher_Page_Appearance.png)
 
 Unless otherwise stated these preferences are only used while a sketch is in edit mode.
 
@@ -113,11 +113,11 @@ There is another preference that has an influence on sketches. If the **Transpar
 
 See [forum topic](https://forum.freecad.org/viewtopic.php?t=70975&start=10).
 
-![](/src/assets/images/Sketcher-Preferences-Note-Arrowhead-01.png) ![](/src/assets/images/Sketcher-Preferences-Note-Arrowhead-02.png)
+![](/images/Sketcher-Preferences-Note-Arrowhead-01.png) ![](/images/Sketcher-Preferences-Note-Arrowhead-02.png)
 
 Front view, grid enabled and grid disabled
 
-![](/src/assets/images/Sketcher-Preferences-Note-Arrowhead-03.png) ![](/src/assets/images/Sketcher-Preferences-Note-Arrowhead-04.png)
+![](/images/Sketcher-Preferences-Note-Arrowhead-03.png) ![](/images/Sketcher-Preferences-Note-Arrowhead-04.png)
 
 Rear view, grid enabled and grid disabled hiding arrowheads on the opposite end as well as the dimension value
 

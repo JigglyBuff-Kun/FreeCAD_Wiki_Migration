@@ -19,15 +19,15 @@ title: CAM Profile
 
 ## Description
 
-The ![](/src/assets/images/CAM_Profile.svg) [Profile](/CAM_Profile "CAM Profile") tool creates a contour operation based on selected features of the model. The tool was introduced in version 0.19. It offers three operations that were handled by separate tools in previous versions.
+The ![](/images/CAM_Profile.svg) [Profile](/CAM_Profile "CAM Profile") tool creates a contour operation based on selected features of the model. The tool was introduced in version 0.19. It offers three operations that were handled by separate tools in previous versions.
 
-All operations create objects that are made to be part of a ![](/src/assets/images/CAM_Job.svg) [CAM Job](/CAM_Job "CAM Job").
+All operations create objects that are made to be part of a ![](/images/CAM_Job.svg) [CAM Job](/CAM_Job "CAM Job").
 
 These are the available operations:
 
 ### Contour operation
 
-A Contour operation is the default. It creates a simple external contour cut of complex 3D ![](/src/assets/images/Workbench_Part.svg) [Part](/Part_Workbench "Part Workbench")-based objects. The entire Job Model serves as the input for the Operation, regardless of whether any Body Geometry is selected when the Contour command is invoked.
+A Contour operation is the default. It creates a simple external contour cut of complex 3D ![](/images/Workbench_Part.svg) [Part](/Part_Workbench "Part Workbench")-based objects. The entire Job Model serves as the input for the Operation, regardless of whether any Body Geometry is selected when the Contour command is invoked.
 
 ### Profile Face operation
 
@@ -37,13 +37,13 @@ A Profile Face operation creates a simple contour path from one or more selected
 
 A Profile Edges operation creates a simple contour path from selected edges.
 
-![](/src/assets/images/Path_profile_example.jpg)
+![](/images/Path_profile_example.jpg)
 
 ## Usage
 
 1. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/CAM_Profile.svg) [CAM Profile](/CAM_Profile "CAM Profile") button.
-   - Select the **CAM → ![](/src/assets/images/CAM_Profile.svg) Profile** option from the menu.
+   - Press the ![](/images/CAM_Profile.svg) [CAM Profile](/CAM_Profile "CAM Profile") button.
+   - Select the **CAM → ![](/images/CAM_Profile.svg) Profile** option from the menu.
 2. Activate the Base Geometry section by clicking its tab, and select features from the Job model.
    - If no features are selected, the command defaults to a **Contour** operation, contouring the entire model.
    - If faces are selected, then the result is a **Profile Face** operation.
@@ -61,7 +61,7 @@ Make additional adjustments to the operation by modifying the operation's proper
 
 ## Usage Notes
 
-- The ![](/src/assets/images/CAM_Profile.svg) [Profile](/CAM_Profile "CAM Profile") operation is capable of profiling **open-edges** (one or more continuous edges that do not form a loop as seen from the _Top View_)
+- The ![](/images/CAM_Profile.svg) [Profile](/CAM_Profile "CAM Profile") operation is capable of profiling **open-edges** (one or more continuous edges that do not form a loop as seen from the _Top View_)
   - It is best to select the top edges (highest edges) for the selection. After doing so, you will need to manually set the Final Depth for the operation. Selection of bottom edges only is unpredictable and will likely return undesirable paths in many situations; however, it will return correct paths in some situations.
   - Selected edges must form a continual edge _as viewed from the Top View_. Selected top edges may have differing heights, so long as they connect at a common (X, Y) coordinate - differing Z-heights are acceptable in \*some**\*\*\*** cases.  
     **\*\***In certain cases, the user will need to include in their selection the straight vertical connecting edge between two adjacent edges of different heights that share a common (X, Y) coordinate.
@@ -98,7 +98,7 @@ Depth
 - Data**Start Depth**: Starting depth of Tool - _first cut depth in Z_. User must define it.
 - Data**Step Down**: Incremental step down of Tool during operation
 
-![](/src/assets/images/Path-DepthsAndHeights.gif)
+![](/images/Path-DepthsAndHeights.gif)
 
 Visual reference for Depth properties (settings)
 

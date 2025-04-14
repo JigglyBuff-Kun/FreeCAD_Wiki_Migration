@@ -26,7 +26,7 @@ In SingleDocument mode you can switch to a different document by activating a 3D
 ## Usage
 
 1. There are several ways to invoke the command:
-   - Click on the black down arrow to the right of the ![](/src/assets/images/Std_TreeSyncView.svg) button and select the **Single document** option from the flyout. Note: the button image will change depending on the selected option.
+   - Click on the black down arrow to the right of the ![](/images/Std_TreeSyncView.svg) button and select the **Single document** option from the flyout. Note: the button image will change depending on the selected option.
    - Select the **View → TreeView actions → Single document** option from the menu.
 
 Retrieved from "<http://wiki.freecad.org/index.php?title=Std_TreeSingleDocument/en&oldid=1448257>"

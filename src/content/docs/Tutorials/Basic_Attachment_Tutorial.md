@@ -21,11 +21,11 @@ title: Basic Attachment Tutorial
 | _None_                                                                                                      |
 |                                                                                                             |
 
-![](/src/assets/images/Attachment_Model.png)
+![](/images/Attachment_Model.png)
 
 The finished model
 
-This tutorial should serve as an introduction to ![](/src/assets/images/Part_EditAttachment.svg) [Part:Attachment](/Part_EditAttachment "Part EditAttachment"), it is not comprehensive, but hopefully will help users experiment.
+This tutorial should serve as an introduction to ![](/images/Part_EditAttachment.svg) [Part:Attachment](/Part_EditAttachment "Part EditAttachment"), it is not comprehensive, but hopefully will help users experiment.
 
 Attachment is a utility to link the placement of an object to the placement or shape of one or more other objects. The first, attached, object will follow if the placement or shape of the other object(s) changes. The focus is on the PartDesign Workbench and attaching sketches to other sketches, this being a recommended method for making [_stable_](/Feature_editing#Advice_for_creating_stable_models "Feature editing") models.  
 This tutorial was written for V0.19, but should be valid for any version 0.17 and later. However, things may differ in some details.  
@@ -38,7 +38,7 @@ Before attempting this tutorial users should :-
 1. Use version 0.17 or greater.
 2. Be comfortable navigating the [3D view](/3D_view "3D view").
 3. Be able to make and constrain a [sketch](/Sketcher_Workbench "Sketcher Workbench").
-4. Have a basic understanding of the ![](/src/assets/images/Workbench_PartDesign.svg) [PartDesign Workbench](/PartDesign_Workbench "PartDesign Workbench").
+4. Have a basic understanding of the ![](/images/Workbench_PartDesign.svg) [PartDesign Workbench](/PartDesign_Workbench "PartDesign Workbench").
 5. Have a basic understanding of [Expressions](/Expressions "Expressions").
 
 ## Objectives
@@ -53,7 +53,7 @@ Before we start let us examine how we should go about building this model.
 
 From whichever angle we look at it, we see a square or rectangle with a corner trimmed off.
 
-![](/src/assets/images/AttachmentTD.png)
+![](/images/AttachmentTD.png)
 
 The TechDraw view
 
@@ -63,7 +63,7 @@ It is perfectly possible to create some Data geometry here and attach all sketch
 
 We could make a sketch on any of the major planes. We could include a trimmed corner in our base sketch, but let's forego that and include an extra sketch and pocket, for learning purposes.
 
-![](/src/assets/images/CommonAxis.png)
+![](/images/CommonAxis.png)
 
 The Common axis
 
@@ -81,7 +81,7 @@ Make sure the rectangle is centered on the origin, constrain with a (horizontal)
 
 Select the sketch, press F2, and rename it to "BaseSketch".
 
-![](/src/assets/images/Sketch1.png)
+![](/images/Sketch1.png)
 
 The Base sketch
 
@@ -95,15 +95,15 @@ In the combo view (Data tab), look in the Attachment section of the properties p
 
 Do the same for the Position sub heading. Change the X offset to 80mm, and the Y offset to 90mm.
 
-![](/src/assets/images/Comboview.png)
+![](/images/Comboview.png)
 
 Attachment offset
 
 Attachment offset is commonly used in conjunction with expressions to offer a parametric parallel to plane position, eg. positioning a sketch on the top face of a Pad, using a (Pad.Length) expression for Z offset.
 
-The Sketch can now be padded ![](/src/assets/images/PartDesign_Pad.svg), let's assume that the pad's height should be the same as the sketch's width. In the **Pad parameters** dialogue select the **Length** box, press = or select the function icon ![](/src/assets/images/Bound-expression.svg) and type "**Sketch.Constraints.width**" or "**<<BaseSketch>>.Constraints.width**", this expression should resolve to "40 mm", then tick **Symmetric to plane** and press OK.
+The Sketch can now be padded ![](/images/PartDesign_Pad.svg), let's assume that the pad's height should be the same as the sketch's width. In the **Pad parameters** dialogue select the **Length** box, press = or select the function icon ![](/images/Bound-expression.svg) and type "**Sketch.Constraints.width**" or "**<<BaseSketch>>.Constraints.width**", this expression should resolve to "40 mm", then tick **Symmetric to plane** and press OK.
 
-![](/src/assets/images/BasePad2.png)
+![](/images/BasePad2.png)
 
 The Base Pad
 
@@ -115,7 +115,7 @@ Draw the triangle, make two sides equal and constrain its length the same way as
 
 There should be two degrees of freedom remaining, they are the position with regards to the origin. Fix one of the corners to the origin so that the sketch looks thus:-
 
-![](/src/assets/images/IsoscelesSketch.png)
+![](/images/IsoscelesSketch.png)
 
 The first triangle
 
@@ -132,7 +132,7 @@ Select Pad and make it invisible, and make BaseSketch visible. We need to see th
 
 The 3D view should look something like this:-
 
-![](/src/assets/images/TwoSketches.png)
+![](/images/TwoSketches.png)
 
 Two Sketches
 
@@ -141,13 +141,13 @@ I chose the XY plane for my isosceles sketch, yours may be different.
 Now we need to select IsoscelesSketch and go to the properties pane in the Combo view.
 Click in the value box next to the Map Mode property, a button will appear with an elipsis ....
 
-![](/src/assets/images/MapModeSelect.png)
+![](/images/MapModeSelect.png)
 
 Map Mode Select
 
 Click on that and a task pane will open with the Attachment Dialogue.
 
-![](/src/assets/images/AttachmentDialogue.png)
+![](/images/AttachmentDialogue.png)
 
 Attachment Dialogue
 
@@ -157,11 +157,11 @@ The Reference 1 button is in selecting mode, so in the 3D view select one of the
 
 The IsoscelesSketch will attach itself to the line you selected, and the attachment mode window will change to reflect the available modes. If the triangle is pointing the wrong way you can correct it by checking the "Flip Sides" checkbox at the bottom of the dialogue (or later on after closing the dialogue it can be changed in the properties data tab by setting "Map Reversed" to "True"). It is not important which end of the line the triangle is attached to (it depends on how the rectangle was created).
 
-![](/src/assets/images/NormalToEdgeIsosceles.png)
+![](/images/NormalToEdgeIsosceles.png)
 
 Normal to edge Isosceles
 
-![](/src/assets/images/NormalToEdgeAttachment.png)
+![](/images/NormalToEdgeAttachment.png)
 
 Normal to edge Attachment
 
@@ -185,7 +185,7 @@ The IsoscelesSketch is now correctly positioned so confirm and exit the dialogue
 
 You can now [pocket](/PartDesign_Pocket "PartDesign Pocket") the sketch. Choose the type _Through all_ and depending on your sketch orientation the option _Reversed_.
 
-![](/src/assets/images/Pocket.png)
+![](/images/Pocket.png)
 
 Pocket
 
@@ -193,11 +193,11 @@ Pocket
 
 ### A step further
 
-Create the next sketch, the dimensions should be expressions ("**Sketch.Constraints.width**","**Sketch.Constraints.width/2**" or "**<<BaseSketch>>.Constraints.width**","**<<BaseSketch>>.Constraints.width/2**") and it should be constrained to the origin at the vertex adjacent the hypotenuse and its shortest side. (In the empty sketch, if you are familiar with ![](/src/assets/images/Sketcher_CarbonCopy.svg) [CarbonCopy](/Sketcher_CarbonCopy "Sketcher CarbonCopy") you can use it to make a copy of the 'IsoscelesSketch' sketch, and edit its parameters to suit.)
+Create the next sketch, the dimensions should be expressions ("**Sketch.Constraints.width**","**Sketch.Constraints.width/2**" or "**<<BaseSketch>>.Constraints.width**","**<<BaseSketch>>.Constraints.width/2**") and it should be constrained to the origin at the vertex adjacent the hypotenuse and its shortest side. (In the empty sketch, if you are familiar with ![](/images/Sketcher_CarbonCopy.svg) [CarbonCopy](/Sketcher_CarbonCopy "Sketcher CarbonCopy") you can use it to make a copy of the 'IsoscelesSketch' sketch, and edit its parameters to suit.)
 
 Rename the sketch RightAngleTriangleSketch.
 
-![](/src/assets/images/FinalSketch.png)
+![](/images/FinalSketch.png)
 
 RightAngleTriangleSketch
 
@@ -207,7 +207,7 @@ Select RightAngleTriangleSketch and open its attachment mode dialogue.
 
 Select one of the rectangles short sides as the first reference.
 
-![](/src/assets/images/RATNormalToEdge.png)
+![](/images/RATNormalToEdge.png)
 
 RightAngleTriangleSketch Normal To Edge Mode
 
@@ -217,13 +217,13 @@ If you chose the wrong line, change it now. If the triangle is pointing the wron
 
 The RightAngleTriangleSketch is now in a position that will give us the correct Geometry after a pocket operation, however we can get a little inventive here, and position the sketch so that it makes it easier for us to attach further geometry later on. We are going to shift our sketch to the middle of the line so that it provides us with a vertex at the top of the corner [chamfer](/Glossary#C "Glossary").
 
-In the attachment dialogue, we are going to change the attachment mode from ["Normal To Edge"](/Part_EditAttachment#Normal_to_edge "Part EditAttachment") to ["Inertia 2-3"](/Part_EditAttachment#Inertia_2-3 "Part EditAttachment"). This will change the position to the centre of the line, it's beyond the scope of this tutorial to describe all the attachment modes, their descriptions can be found at ![](/src/assets/images/Part_Attachment.svg) [Part EditAttachment](/Part_EditAttachment "Part EditAttachment"). Suffice to say inertia 2-3 uses the centre of mass and does the job here.
+In the attachment dialogue, we are going to change the attachment mode from ["Normal To Edge"](/Part_EditAttachment#Normal_to_edge "Part EditAttachment") to ["Inertia 2-3"](/Part_EditAttachment#Inertia_2-3 "Part EditAttachment"). This will change the position to the centre of the line, it's beyond the scope of this tutorial to describe all the attachment modes, their descriptions can be found at ![](/images/Part_Attachment.svg) [Part EditAttachment](/Part_EditAttachment "Part EditAttachment"). Suffice to say inertia 2-3 uses the centre of mass and does the job here.
 
-![](/src/assets/images/ADInertia.png)
+![](/images/ADInertia.png)
 
 Attachment Dialogue Inertia 2-3 mode
 
-![](/src/assets/images/3DInertia.png)
+![](/images/3DInertia.png)
 
 RightAngleTriangleSketch Inertia 2-3 Mode
 
@@ -231,7 +231,7 @@ The RightAngleTriangleSketch is now correctly positioned so confirm and exit the
 
 You can now pocket the sketch. This time use Symmetric to plane.
 
-![](/src/assets/images/2ndPocket.png)
+![](/images/2ndPocket.png)
 
 2ndPocket
 
@@ -253,17 +253,17 @@ Create the final sketch, the dimensions should be expressions ("**Sketch.Constra
 
 Rename the sketch FinalSketch.
 
-![](/src/assets/images/RightAngleTriangle.png)
+![](/images/RightAngleTriangle.png)
 
 FinalSketch
 
-Note that FinalSketch has been constrained to the origin differently. Otherwise we could've used ![](/src/assets/images/Sketcher_CarbonCopy.svg) [CarbonCopy](/Sketcher_CarbonCopy "Sketcher CarbonCopy"), but the sketch is only Three lines and five constraints.
+Note that FinalSketch has been constrained to the origin differently. Otherwise we could've used ![](/images/Sketcher_CarbonCopy.svg) [CarbonCopy](/Sketcher_CarbonCopy "Sketcher CarbonCopy"), but the sketch is only Three lines and five constraints.
 
 Once again we need to hide the solid, in this case Pocket001, and make sure both sketches are visible for selection (BaseSketch and FinalSketch).
 
 Select FinalSketch and open the attachment dialogue, Select one of the rectangles short sides as the first reference.
 
-![](/src/assets/images/NormalToEdgeFinal.png)
+![](/images/NormalToEdgeFinal.png)
 
 FinalSketchAttachment
 
@@ -277,11 +277,11 @@ The FinalSketch mirrors itself.
 
 Now we will translate through 90°. From the illustration FinalSketch above we can see the axis of revolution should be the X axis. In the Wiki this is called ["Roll"](/Tasks_Placement#Roll "Tasks Placement"). Remember this is relative to the local Coordinate System. Enter 90° in the "around X-axis" box of the attachment offset section of the dialogue.
 
-![](/src/assets/images/FSFlipRot.png)
+![](/images/FSFlipRot.png)
 
 FinalSketch flipped and rotated
 
-![](/src/assets/images/FSFlipRotAD.png)
+![](/images/FSFlipRotAD.png)
 
 FinalSketch attachment dialogue
 
@@ -295,7 +295,7 @@ So let's confirm and close the dialogue for now.
 
 Select FinalSketch and look in the combo view, properties pane in the attachment section, just below the Map Mode property is the Map Path Parameter.
 
-![](/src/assets/images/FinalSketchProperties.png)
+![](/images/FinalSketchProperties.png)
 
 FinalSketch Properties panel
 
@@ -303,13 +303,13 @@ The default setting is 0.0. If we change it to 1 the sketch will map to the othe
 
 The combination of 'Normal To Edge' and Map Path Parameter is very useful for positioning sketches for Lofts or Sweeps.
 
-![](/src/assets/images/FinalSketchPosition.png)
+![](/images/FinalSketchPosition.png)
 
 FinalSketch Position
 
 You can now pocket the sketch. Don't forget to use Symmetric to plane.
 
-![](/src/assets/images/3rdPocket.png)
+![](/images/3rdPocket.png)
 
 3rdPocket
 
@@ -321,7 +321,7 @@ So far we have seen how to position sketches with attachment modes and offsets, 
 
 Now we are faced with a more challenging problem, how do we cut away this lump that's left?
 
-![](/src/assets/images/3rdPocketMarked.png)
+![](/images/3rdPocketMarked.png)
 
 Remaining cut
 
@@ -333,20 +333,20 @@ First make the solid invisible, in fact make everything except RightAngleTriangl
 
 Now select the three points that form the plane, Don't forget to hold the Ctrl key (CMD on a Mac) while making the selection.
 
-![](/src/assets/images/TwoTriangles.png)
+![](/images/TwoTriangles.png)
 
 Selection
 
-When pressing ![](/src/assets/images/PartDesign_Plane.svg) [Create a datum plane](/PartDesign_Plane "PartDesign Plane"), the attachment Dialogue will open showing the three points you selected as references 1-3 and a mode of 'Plane By 3 Points'.
+When pressing ![](/images/PartDesign_Plane.svg) [Create a datum plane](/PartDesign_Plane "PartDesign Plane"), the attachment Dialogue will open showing the three points you selected as references 1-3 and a mode of 'Plane By 3 Points'.
 
-![](/src/assets/images/DPAttachDia.png)
+![](/images/DPAttachDia.png)
 
 attachment Dialogue
 
 Confirm and close the Dialogue. We could now use the Datum Plane to create a Sketch, but there is no need we can use the plane directly to pocket the excess material away.
 Make sure the datum Plane is selected, and click on pocket, in the pocket Dialogue select "through all" and "reversed". Close the Dialogue and we are all done.
 
-![](/src/assets/images/FinishedArticle.png)
+![](/images/FinishedArticle.png)
 
 Finished Article
 

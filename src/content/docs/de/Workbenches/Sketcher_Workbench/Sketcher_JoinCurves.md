@@ -19,7 +19,7 @@ title: Sketcher KurvenVerbinden
 
 ## Beschreibung
 
-Das Werkzeug ![](/src/assets/images/Sketcher_JoinCurves.svg) Sketcher KurvenVerbinden erstellt einen B-Spline durch Verbinden zweier vorhandener [B-Splines](/B-Splines/de "B-Splines/de") oder anderer Kanten.
+Das Werkzeug ![](/images/Sketcher_JoinCurves.svg) Sketcher KurvenVerbinden erstellt einen B-Spline durch Verbinden zweier vorhandener [B-Splines](/B-Splines/de "B-Splines/de") oder anderer Kanten.
 
 ## Anwendung
 
@@ -27,7 +27,7 @@ Das Werkzeug ![](/src/assets/images/Sketcher_JoinCurves.svg) Sketcher KurvenVerb
    - Jeweils einen Endpunkt zweier B-Splines oder anderer Kanten auswählen.
    - Einen [koinzident festgelegten](/Sketcher_ConstrainCoincident "Sketcher ConstrainCoincident") Punkt auswählen, der zwei B-Splines oder andere Kanten verbindet.
 2. Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
-   - Die Schaltfläche ![](/src/assets/images/Sketcher_JoinCurves.svg) Kurven verbinden drücken.
-   - Den Menüeintrag **Skizze → B-Spline-Werkzeuge → ![](/src/assets/images/Sketcher_JoinCurves.svg) Kurven verbinden** auswählen.
+   - Die Schaltfläche ![](/images/Sketcher_JoinCurves.svg) Kurven verbinden drücken.
+   - Den Menüeintrag **Skizze → B-Spline-Werkzeuge → ![](/images/Sketcher_JoinCurves.svg) Kurven verbinden** auswählen.
 
 Retrieved from "<http://wiki.freecad.org/index.php?title=Sketcher_JoinCurves/de&oldid=1416836>"

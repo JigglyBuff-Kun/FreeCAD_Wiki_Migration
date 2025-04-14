@@ -23,16 +23,16 @@ This documentation is not finished. Please help and contribute documentation.Gui
 
 ## Description
 
-The ![](/src/assets/images/Assembly_Add_Origin.svg) [Add origin](/Assembly3_AddOrigin "Assembly3 AddOrigin") command adds an [Origin](/App_OriginGroupExtension "App OriginGroupExtension") object to a preselected assembly tree.
+The ![](/images/Assembly_Add_Origin.svg) [Add origin](/Assembly3_AddOrigin "Assembly3 AddOrigin") command adds an [Origin](/App_OriginGroupExtension "App OriginGroupExtension") object to a preselected assembly tree.
 
 The Origin object will be placed in the Parts container and it contains 6 sub-objects representing the X, Y, and Z axes and the XY, YZ, and XZ planes.
 
-![](/src/assets/images/App_Assembly_Add_Origin-01.png) ![](/src/assets/images/App_OriginGroupExtension-02.png)
+![](/images/App_Assembly_Add_Origin-01.png) ![](/images/App_OriginGroupExtension-02.png)
 
 ## Usage
 
-1. Activate the ![](/src/assets/images/Assembly_Add_Origin.svg) **Add origin** command using one of the following:
-   - The ![](/src/assets/images/Assembly_Add_Origin.svg) [Add origin](/Assembly3_AddOrigin "Assembly3 AddOrigin") button.
-   - The **Assembly3 → Workplane and origin → ![](/src/assets/images/Assembly_Add_Origin.svg) Add origin** menu option.
+1. Activate the ![](/images/Assembly_Add_Origin.svg) **Add origin** command using one of the following:
+   - The ![](/images/Assembly_Add_Origin.svg) [Add origin](/Assembly3_AddOrigin "Assembly3 AddOrigin") button.
+   - The **Assembly3 → Workplane and origin → ![](/images/Assembly_Add_Origin.svg) Add origin** menu option.
 
 Retrieved from "<http://wiki.freecad.org/index.php?title=Assembly3_AddOrigin/en&oldid=1096261>"

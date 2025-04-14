@@ -25,8 +25,8 @@ Der Befehl **Mesh NormalenUmdrehen** dreht die Normalen von Netzobjekten um (keh
 
 1. Ein oder mehrere Netzobjekte auswählen.
 2. Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
-   - Die Schaltfläche ![](/src/assets/images/Mesh_FlipNormals.svg) Normalen umdrehen drücken.
-   - Den Menüeintrag **Netze → ![](/src/assets/images/Mesh_FlipNormals.svg) Normalen umdrehen** auswählen.
+   - Die Schaltfläche ![](/images/Mesh_FlipNormals.svg) Normalen umdrehen drücken.
+   - Den Menüeintrag **Netze → ![](/images/Mesh_FlipNormals.svg) Normalen umdrehen** auswählen.
 
 ## Hinweise
 

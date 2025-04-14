@@ -19,11 +19,11 @@ title: Draft Shape2DView
 
 ## Description
 
-The ![](/src/assets/images/Draft_Shape2DView.svg) **Draft Shape2DView** command creates 2D projections from selected objects, usually 3D solids or [Arch SectionPlanes](/Arch_SectionPlane "Arch SectionPlane"). The projections are placed in the [3D view](/3D_view "3D view").
+The ![](/images/Draft_Shape2DView.svg) **Draft Shape2DView** command creates 2D projections from selected objects, usually 3D solids or [Arch SectionPlanes](/Arch_SectionPlane "Arch SectionPlane"). The projections are placed in the [3D view](/3D_view "3D view").
 
 Draft Shape2DView projections can be displayed on a [TechDraw Workbench](/TechDraw_Workbench "TechDraw Workbench") page using the [TechDraw DraftView](/TechDraw_DraftView "TechDraw DraftView") command. Alternatively the [TechDraw Workbench](/TechDraw_Workbench "TechDraw Workbench") offer its own projection commands. But these create projections that are only displayed on the drawing page and not in the [3D view](/3D_view "3D view").
 
-![](/src/assets/images/Draft_Shape2DView_example.jpg)
+![](/images/Draft_Shape2DView_example.jpg)
 
 Projection of solid shapes onto the XY plane
 
@@ -32,14 +32,14 @@ Projection of solid shapes onto the XY plane
 1. Optionally rotate the [3D view](/3D_view "3D view"). The camera direction in the [3D view](/3D_view "3D view") determines the projection vector. For example, a [top view](/Std_ViewTop "Std ViewTop") will project onto the XY plane. The projection vector is ignored for projections created from [Arch SectionPlanes](/Arch_SectionPlane "Arch SectionPlane").
 2. Optionally select one or more objects.
 3. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/Draft_Shape2DView.svg) [Shape 2D view](/Draft_Shape2DView "Draft Shape2DView") button.
-   - Select the **Modification → ![](/src/assets/images/Draft_Shape2DView.svg) Shape 2D view** option from the menu.
+   - Press the ![](/images/Draft_Shape2DView.svg) [Shape 2D view](/Draft_Shape2DView "Draft Shape2DView") button.
+   - Select the **Modification → ![](/images/Draft_Shape2DView.svg) Shape 2D view** option from the menu.
 4. If you have not yet selected an object: select an object in the [3D view](/3D_view "3D view").
 5. The projected objects are created on the XY plane.
 
 ## How to produce plans and sections with different linewidths
 
-![](/src/assets/images/Draft_shape2dview_example_plan.png)
+![](/images/Draft_shape2dview_example_plan.png)
 
 Drawings with different linewidths for viewed and cut lines can easily be produced by using two shape2Dview objects from a same [Arch SectionPlane](/Arch_SectionPlane "Arch SectionPlane"). One of the shape2Dview objects has its projection mode set to **Solid**, which renders the viewed lines, and another set to **Cut lines** or **Cut faces** to render the cut lines. The two shape2Dviews are then placed at the same location, one on top of the other.
 

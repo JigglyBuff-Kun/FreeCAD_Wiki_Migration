@@ -6,7 +6,7 @@ title: Cfd Workbench
 
 Computional Fluid Dynamics (CFD) for FreeCAD based on OpenFOAM solver
 
-![](/src/assets/images/FreeCAD_CFDworkbench_screenshot.png)
+![](/images/FreeCAD_CFDworkbench_screenshot.png)
 
 ## References
 

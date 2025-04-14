@@ -19,13 +19,13 @@ title: CAM Deburr
 
 ## Description
 
-The ![](/src/assets/images/CAM_Deburr.svg) [Deburr](/CAM_Deburr "CAM Deburr") tool is primarily for Deburring an edge.
+The ![](/images/CAM_Deburr.svg) [Deburr](/CAM_Deburr "CAM Deburr") tool is primarily for Deburring an edge.
 
 ## Usage
 
 1. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/CAM_Deburr.svg) [Deburr](/CAM_Deburr "CAM Deburr") button.
-   - Select the **CAM → ![](/src/assets/images/CAM_Deburr.svg) Deburr** option from the menu.
+   - Press the ![](/images/CAM_Deburr.svg) [Deburr](/CAM_Deburr "CAM Deburr") button.
+   - Select the **CAM → ![](/images/CAM_Deburr.svg) Deburr** option from the menu.
 2. The **Deburr** task panel opens. See [Options](#Options).
 3. Select **Base Geometry**.
 4. Specify the required parameters.
@@ -45,7 +45,7 @@ The Final step is to activate the **Operation** section where you can specify th
 - **W**: The dimension of your edge.
 - **h**: The offset from the bottom of the tool. It's a safety feature because if the tip gets above the edge it won't cut anymore.
 
-: ![Deburring interface with the options](/src/assets/images/Path_Deburr_Operations-tab.png)
+: ![Deburring interface with the options](/images/Path_Deburr_Operations-tab.png)
 
 ## Properties
 

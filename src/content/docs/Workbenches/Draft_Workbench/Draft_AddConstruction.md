@@ -19,15 +19,15 @@ title: Draft AddConstruction
 
 ## Description
 
-The ![](/src/assets/images/Draft_AddConstruction.svg) **Draft AddConstruction** command adds objects to the [Draft construction group](/Draft_ToggleConstructionMode "Draft ToggleConstructionMode"). It also applies the [construction geometry color](/Draft_ToggleConstructionMode#Preferences "Draft ToggleConstructionMode") to the objects.
+The ![](/images/Draft_AddConstruction.svg) **Draft AddConstruction** command adds objects to the [Draft construction group](/Draft_ToggleConstructionMode "Draft ToggleConstructionMode"). It also applies the [construction geometry color](/Draft_ToggleConstructionMode#Preferences "Draft ToggleConstructionMode") to the objects.
 
 ## Usage
 
 1. Select one or more objects.
 2. There are several ways to invoke the command:
-   - [Draft](/Draft_Workbench "Draft Workbench"): Press the ![](/src/assets/images/Draft_AddConstruction.svg) [Add to construction group](/Draft_AddConstruction "Draft AddConstruction") button.
-   - Draft: Select the **Utilities → ![](/src/assets/images/Draft_AddConstruction.svg) Add to construction group** option from the menu, or from the [Tree view](/Tree_view "Tree view") or [3D view](/3D_view "3D view") context menu.
-   - [BIM](/BIM_Workbench "BIM Workbench"): Select the **Utils → ![](/src/assets/images/Draft_AddConstruction.svg) Add to construction group** option from the menu.
+   - [Draft](/Draft_Workbench "Draft Workbench"): Press the ![](/images/Draft_AddConstruction.svg) [Add to construction group](/Draft_AddConstruction "Draft AddConstruction") button.
+   - Draft: Select the **Utilities → ![](/images/Draft_AddConstruction.svg) Add to construction group** option from the menu, or from the [Tree view](/Tree_view "Tree view") or [3D view](/3D_view "3D view") context menu.
+   - [BIM](/BIM_Workbench "BIM Workbench"): Select the **Utils → ![](/images/Draft_AddConstruction.svg) Add to construction group** option from the menu.
 3. If it does not exist the construction group is created first.
 4. The objects are added to the construction group and their color properties are changed.
 

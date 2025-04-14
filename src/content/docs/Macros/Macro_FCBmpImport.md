@@ -42,7 +42,7 @@ The Select Objects button is used to select subobjects that share the same bound
 
 Full documentation can be found on github: [FCBmpImport](https://github.com/mwganson/fcbmpimport).
 
-![](/src/assets/images/FCBmpImportScreenshot.png)
+![](/images/FCBmpImportScreenshot.png)
 
 FCBmpImport screenshot‎
 
@@ -79,13 +79,13 @@ webbrowser.open("https://gist.githubusercontent.com/mwganson/ea7aa4dcb79d7492caa
 <class="rawcodeurl"><a href="<https://gist.githubusercontent.com/mwganson/ea7aa4dcb79d7492caa24e8970967174/raw/1fe247b5b93e5084866a69754854d9caedca1f09/FCBmpImport.FCMacro>">raw code</a>
 
 ToolBar Icon
-![](/src/assets/images/FCBmpImportLogo.svg)
+![](/images/FCBmpImportLogo.svg)
 
 ## Script
 
 **Macro FCBmpImport.FCMacro**
 
-[![](/src/assets/images/Nuvola_apps_download_manager.png)](https://gist.github.com/mwganson/ea7aa4dcb79d7492caa24e8970967174)
+[![](/images/Nuvola_apps_download_manager.png)](https://gist.github.com/mwganson/ea7aa4dcb79d7492caa24e8970967174)
 
 [FCBmpImport.FCMacro](https://gist.github.com/mwganson/ea7aa4dcb79d7492caa24e8970967174)
 

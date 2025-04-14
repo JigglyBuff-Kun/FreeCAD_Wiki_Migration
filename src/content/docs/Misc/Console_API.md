@@ -16,37 +16,37 @@ FreeCAD.Console.PrintMessage("Hello World!\n")
 
 ```
 
-![](/src/assets/images/Method.png) **GetStatus(\***"Log" or "Msg" or "Wrn" or "Err"**\*)**
+![](/images/Method.png) **GetStatus(\***"Log" or "Msg" or "Wrn" or "Err"**\*)**
 
 **Description**: Get the status for either Log, Msg, Wrn or Error for an observer
 
 **Returns**: a status string.
 
-![](/src/assets/images/Method.png) **PrintError(\***string**\*)**
+![](/images/Method.png) **PrintError(\***string**\*)**
 
 **Description**: Prints an error message to the output
 
 **Returns**: nothing
 
-![](/src/assets/images/Method.png) **PrintLog(\***string**\*)**
+![](/images/Method.png) **PrintLog(\***string**\*)**
 
 **Description**: Prints a log message to the output
 
 **Returns**: nothing
 
-![](/src/assets/images/Method.png) **PrintMessage(\***string**\*)**
+![](/images/Method.png) **PrintMessage(\***string**\*)**
 
 **Description**: Prints a message to the output
 
 **Returns**: nothing
 
-![](/src/assets/images/Method.png) **PrintWarning(\***string**\*)**
+![](/images/Method.png) **PrintWarning(\***string**\*)**
 
 **Description**: Prints a warning to the output
 
 **Returns**: nothing
 
-![](/src/assets/images/Method.png) **SetStatus(\***string**\*)**
+![](/images/Method.png) **SetStatus(\***string**\*)**
 
 **Description**: Set the stats for either Log, Msg, Wrn or Error for an observer
 

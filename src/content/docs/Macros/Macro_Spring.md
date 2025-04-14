@@ -30,13 +30,13 @@ title: Spring
 
 Simulates the compression and decompression of a spring.
 
-![](/src/assets/images/Spring_00.gif)
+![](/images/Spring_00.gif)
 
 ## Uses
 
-Open the 2 files below (Spring.FCMacro and Spring.FCStd) in FreeCAD with 2 screens (Menu: Windows → Tile) and click in the window and the macro then press F6 (debug macro) to run the macro or run the macro with ![](/src/assets/images/Std_DlgMacroExecuteDirect.svg)
+Open the 2 files below (Spring.FCMacro and Spring.FCStd) in FreeCAD with 2 screens (Menu: Windows → Tile) and click in the window and the macro then press F6 (debug macro) to run the macro or run the macro with ![](/images/Std_DlgMacroExecuteDirect.svg)
 
-![](/src/assets/images/Spring_02.png)
+![](/images/Spring_02.png)
 
 ## The File
 
@@ -44,7 +44,7 @@ Open the 2 files below (Spring.FCMacro and Spring.FCStd) in FreeCAD with 2 scree
 
 ## Script
 
-ToolBar Icon ![](/src/assets/images/Macro_Spring.png)
+ToolBar Icon ![](/images/Macro_Spring.png)
 
 **Spring.FCMacro**
 

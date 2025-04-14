@@ -19,27 +19,27 @@ title: Std UnterverknüpfungErstellen
 
 ## Beschreibung
 
-![](/src/assets/images/Std_LinkMakeRelative.svg) Std UnterverknüpfungErstellen erstellt ein [App Link](/App_Link "App Link")-Objekt (`App::Link` class), so wie ![](/src/assets/images/Std_LinkMake.svg) [Std VerknüpfungErstellen](/Std_LinkMake/de "Std LinkMake/de"), wird aber in erster Linie auf ausgewählte Unterelemente angewendet und setzt die Daten-Eigenschaft**Link Transform** auf `true`.
+![](/images/Std_LinkMakeRelative.svg) Std UnterverknüpfungErstellen erstellt ein [App Link](/App_Link "App Link")-Objekt (`App::Link` class), so wie ![](/images/Std_LinkMake.svg) [Std VerknüpfungErstellen](/Std_LinkMake/de "Std LinkMake/de"), wird aber in erster Linie auf ausgewählte Unterelemente angewendet und setzt die Daten-Eigenschaft**Link Transform** auf `true`.
 
 ## Anwendung
 
 Mit Auswahl:
 
 1. Ein Unterelement in der [3D-Ansicht](/3D_view/de "3D view/de") auswählen, d.h. ein Knoten, eine Kante oder eine Fläche auswählen oder irgendeine Kombination aus diesen. Die Unterelemente müssen zu einem einzigen Objekt gehören.
-2. Die Schaltfläche ![](/src/assets/images/Std_LinkMakeRelative.svg) UnterverknüpfungErstellen drücken. Das erstellte Objekt besitzt das gleiche Symbol, wie das Originalobjekt, das aber mit zwei Pfeilen überlagert ist, die darauf hinweisen, dass es sich um eine Unterverknüpfung handelt.
+2. Die Schaltfläche ![](/images/Std_LinkMakeRelative.svg) UnterverknüpfungErstellen drücken. Das erstellte Objekt besitzt das gleiche Symbol, wie das Originalobjekt, das aber mit zwei Pfeilen überlagert ist, die darauf hinweisen, dass es sich um eine Unterverknüpfung handelt.
 
 Ohne Auswahl:
 
 - Wenn kein Objekt ausgewählt wurde, macht dieser Befehl nichts.
 - Wenn ein Objekt nur in der [Baumansicht](/Tree_view/de "Tree view/de") ausgewählt wurde, aber kein Unterelement in der [3D-Ansicht](/3D_view/de "3D view/de") ausgewählt wurde, macht dieser Befehl auch nichts.
 
-![](/src/assets/images/Std_Link_tree_sublink_example.png) ![](/src/assets/images/Std_Link_sublink_example.png)
+![](/images/Std_Link_tree_sublink_example.png) ![](/images/Std_Link_sublink_example.png)
 
 Originaler Körper und drei Verknüpfungen, die von seinen Unterelementen erstellt wurden, inklusive Kanten und Flächen.
 
 ## Eigenschaften
 
-Diese Anwendung erstellt eine neue [Anwendung Verknüpfung](/App_Link/de "App Link/de"). Seine Eigenschaften sind in ![](/src/assets/images/Std_LinkMake.svg) [Std VerknüpfungErstellen](/Std_LinkMake/de "Std LinkMake/de") beschrieben.
+Diese Anwendung erstellt eine neue [Anwendung Verknüpfung](/App_Link/de "App Link/de"). Seine Eigenschaften sind in ![](/images/Std_LinkMake.svg) [Std VerknüpfungErstellen](/Std_LinkMake/de "Std LinkMake/de") beschrieben.
 
 Vor allem Daten**Link Transform** ist auf `true` gesetzt. Damit wird Daten**Placement** versteckt und an dessen statt steuert Daten**Link Placement** die Position der Verknüpfung, bezogen auf die Position Daten**Linked Object**.
 

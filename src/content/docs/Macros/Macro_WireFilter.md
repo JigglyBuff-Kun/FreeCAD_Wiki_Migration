@@ -34,7 +34,7 @@ Examples and full documentation can be found on github: [WireFilter](https://git
 
 In the screenshot below, WireFilter is used to make faces from a bullseye sketch (with nested holes within holes) for use with a PartDesign::Pad. Normally, Pad cannot manage such sketches, but if we make the face for it (using FaceMakerBullseye) and select the faces for the Pad it will be able to pad the WireFilter.
 
-![](/src/assets/images/Wirefilter_scr1.png)
+![](/images/Wirefilter_scr1.png)
 
 Macro WireFilter screenshot‎
 
@@ -75,13 +75,13 @@ webbrowser.open("https://gist.github.com/mwganson/0aedd5e9057650d0a1f0483f3cc2fa
 <class="rawcodeurl"><a href="<https://gist.github.com/mwganson/0aedd5e9057650d0a1f0483f3cc2fa6c/raw/28575fbb2042790d779bcd293c048a4123f4a771/wirefilter.FCMacro>">raw code</a>
 
 ToolBar Icon
-![](/src/assets/images/Wirefilter.svg)
+![](/images/Wirefilter.svg)
 
 ## Script
 
 **Macro Wirefilter.FCMacro**
 
-[![](/src/assets/images/Nuvola_apps_download_manager.png)](https://gist.github.com/mwganson/0aedd5e9057650d0a1f0483f3cc2fa6c)
+[![](/images/Nuvola_apps_download_manager.png)](https://gist.github.com/mwganson/0aedd5e9057650d0a1f0483f3cc2fa6c)
 
 [Wirefilter.FCMacro](https://gist.github.com/mwganson/0aedd5e9057650d0a1f0483f3cc2fa6c)
 

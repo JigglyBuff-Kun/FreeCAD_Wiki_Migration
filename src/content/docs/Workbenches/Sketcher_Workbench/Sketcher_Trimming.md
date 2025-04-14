@@ -19,16 +19,16 @@ title: Sketcher Trimming
 
 ## Description
 
-The ![](/src/assets/images/Sketcher_Trimming.svg) [Sketcher Trimming](/Sketcher_Trimming "Sketcher Trimming") tool trims an edge at the nearest intersections with other edges. If the selected edge does not intersect other edges it will be deleted.
+The ![](/images/Sketcher_Trimming.svg) [Sketcher Trimming](/Sketcher_Trimming "Sketcher Trimming") tool trims an edge at the nearest intersections with other edges. If the selected edge does not intersect other edges it will be deleted.
 
 ## Usage
 
 See also: [Drawing aids](/Sketcher_Workbench#Drawing_aids "Sketcher Workbench").
 
 1. There are several ways to invoke the tool:
-   - Press the ![](/src/assets/images/Sketcher_Trimming.svg) [Trim edge](/Sketcher_Trimming "Sketcher Trimming") button.
-   - Select the **Sketcher → Sketcher tools → ![](/src/assets/images/Sketcher_Trimming.svg) Trim edge** option from the menu.
-   - Right-click in the [3D view](/3D_view "3D view") and select the **![](/src/assets/images/Sketcher_Trimming.svg) Trim edge** option from the context menu.
+   - Press the ![](/images/Sketcher_Trimming.svg) [Trim edge](/Sketcher_Trimming "Sketcher Trimming") button.
+   - Select the **Sketcher → Sketcher tools → ![](/images/Sketcher_Trimming.svg) Trim edge** option from the menu.
+   - Right-click in the [3D view](/3D_view "3D view") and select the **![](/images/Sketcher_Trimming.svg) Trim edge** option from the context menu.
    - Use the keyboard shortcut: G then T.
 2. If there is a previous selection it is cleared. The tool does not accept a pre-selection.
 3. The cursor changes to a cross with the tool icon.

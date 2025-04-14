@@ -36,7 +36,7 @@ The file must have three coordinates X Y Z in ascii format without header
 
 ## Script
 
-ToolBar Icon ![](/src/assets/images/Macro_WireXYZ.png)
+ToolBar Icon ![](/images/Macro_WireXYZ.png)
 
 **Macro_WireXYZ.FCMacro**
 

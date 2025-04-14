@@ -28,11 +28,11 @@ Creates a nonlinear mechanical material. Currently, only plasticity with simple 
 ## Usage
 
 1. To create a new MaterialMechanicalNonlinear object:
-   1. Add a ![](/src/assets/images/FEM_MaterialSolid.svg) [Material for solid](/FEM_MaterialSolid "FEM MaterialSolid").
+   1. Add a ![](/images/FEM_MaterialSolid.svg) [Material for solid](/FEM_MaterialSolid "FEM MaterialSolid").
    2. Select it.
    3. Do one of the following:
-      - Press the ![](/src/assets/images/FEM_MaterialMechanicalNonlinear.svg) [Nonlinear mechanical material](/FEM_MaterialMechanicalNonlinear "FEM MaterialMechanicalNonlinear") button.
-      - Select the **Model → Materials → ![](/src/assets/images/FEM_MaterialMechanicalNonlinear.svg) Nonlinear mechanical material‏‎** option from the menu.
+      - Press the ![](/images/FEM_MaterialMechanicalNonlinear.svg) [Nonlinear mechanical material](/FEM_MaterialMechanicalNonlinear "FEM MaterialMechanicalNonlinear") button.
+      - Select the **Model → Materials → ![](/images/FEM_MaterialMechanicalNonlinear.svg) Nonlinear mechanical material‏‎** option from the menu.
 2. To edit an existing MaterialMechanicalNonlinear object:
    1. Select it in the [Tree view](/Tree_view "Tree view").
    2. Select the material model (isotropic (simple) hardening or [introduced in 1.0](/Release_notes_1.0 "Release notes 1.0"): kinematic hardening).

@@ -19,15 +19,15 @@ title: Sketcher Split
 
 ## Description
 
-The ![](/src/assets/images/Sketcher_Split.svg) [Sketcher Split](/Sketcher_Split "Sketcher Split") tool splits an edge. If the edge is a closed curve (i.e. a circle, an ellipse or a periodic B-spline) it is converted to an open curve (an arc, an arc of ellipse or a non-periodic B-spline respectively).
+The ![](/images/Sketcher_Split.svg) [Sketcher Split](/Sketcher_Split "Sketcher Split") tool splits an edge. If the edge is a closed curve (i.e. a circle, an ellipse or a periodic B-spline) it is converted to an open curve (an arc, an arc of ellipse or a non-periodic B-spline respectively).
 
 ## Usage
 
 See also: [Drawing aids](/Sketcher_Workbench#Drawing_aids "Sketcher Workbench").
 
 1. There are several ways to invoke the tool:
-   - Press the ![](/src/assets/images/Sketcher_Split.svg) [Split edge](/Sketcher_Split "Sketcher Split") button.
-   - Select the **Sketcher → Sketcher tools → ![](/src/assets/images/Sketcher_Split.svg) Split edge** option from the menu.
+   - Press the ![](/images/Sketcher_Split.svg) [Split edge](/Sketcher_Split "Sketcher Split") button.
+   - Select the **Sketcher → Sketcher tools → ![](/images/Sketcher_Split.svg) Split edge** option from the menu.
    - Use the keyboard shortcut: G then Z.
 2. If there is a previous selection it is cleared. The tool does not accept a pre-selection.
 3. The cursor changes to a cross with the tool icon.

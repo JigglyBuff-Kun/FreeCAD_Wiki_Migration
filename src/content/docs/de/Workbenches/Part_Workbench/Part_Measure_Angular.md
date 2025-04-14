@@ -27,14 +27,14 @@ Dieser Befehl misst den Winkel zwischen zwei geraden Kanten, zwei ebenen Fläche
 
 Die Darstellung der Maße kann in den [Einstellungen](/PartDesign_Preferences/de#Messen "PartDesign Preferences/de") angepasst werden.
 
-![](/src/assets/images/MeasureAngular1.PNG)
+![](/images/MeasureAngular1.PNG)
 
 ## Anwendung
 
 1. Zwei gerade Kanten, zwei ebene Flächen oder eine gerade Kante und eine ebene Fläche auswählen.
 2. Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
-   - Die Schaltfläche ![](/src/assets/images/Part_Measure_Angular.svg) Winkel messen drücken.
-   - Den Menüeintrag **Messen → ![](/src/assets/images/Part_Measure_Angular.svg) Winkel messen** auswählen
+   - Die Schaltfläche ![](/images/Part_Measure_Angular.svg) Winkel messen drücken.
+   - Den Menüeintrag **Messen → ![](/images/Part_Measure_Angular.svg) Winkel messen** auswählen
 3. Alternativ kann der Befehl ohne vorherige Auswahl gestartet werden. Dann öffnet sich ein Auswahldialog im [Aufgabenbereich](/Task_panel/de "Task panel/de"). Ein Steuerungswidget bietet ebenfalls Schaltflächen zum Zurücksetzen der Auswahl, zum Umschalten der Maßdarstellung in der [3D-Ansicht](/3D_view/de "3D view/de") und zum Löschen aller Maße.
 4. Messungen werden automatisch beim Schließen des Dokuments verworfen.
 
@@ -42,6 +42,6 @@ Die Darstellung der Maße kann in den [Einstellungen](/PartDesign_Preferences/de
 
 - Die Fangwerkzeuge des Arbeitsbereichs [Draft](/Draft_Workbench/de "Draft Workbench/de") können nicht mit diesem Befehl zusammen verwendet werden.
 - Um einer Zeichnung Maße hinzuzufügen, werden die Bemaßungswerkzeuge des Arbeitsbereichs [TechDraw](/TechDraw_Workbench/de "TechDraw Workbench/de") verwendet.
-- Für umfangreichere Messwerkzeuge kann der [externe Arbeitsbereich](/External_workbenches/de "External workbenches/de") ![](/src/assets/images/Manipulator_workbench_icon.svg) [Manipulator](/Manipulator_Workbench/de "Manipulator Workbench/de") installiert werden.
+- Für umfangreichere Messwerkzeuge kann der [externe Arbeitsbereich](/External_workbenches/de "External workbenches/de") ![](/images/Manipulator_workbench_icon.svg) [Manipulator](/Manipulator_Workbench/de "Manipulator Workbench/de") installiert werden.
 
 Retrieved from "<http://wiki.freecad.org/index.php?title=Part_Measure_Angular/de&oldid=1462701>"

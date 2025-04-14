@@ -21,7 +21,7 @@ title: TechDraw Beschriftung
 
 Das Werkzeug **TechDraw Beschriftung** fügt einem Zeichnungsblatt einen Textblock hinzu.
 
-![](/src/assets/images/AnnotationSample.png)
+![](/images/AnnotationSample.png)
 
 Beschriftung auf einem Zeichnungsblatt
 
@@ -29,8 +29,8 @@ Beschriftung auf einem Zeichnungsblatt
 
 1. Wenn mehrere Zeichnungsblätter im Dokument vorhanden sind: Wahlweise das gewünschte Zeichnungsblatt durch Auswahl in der [Baumansicht](/Tree_view/de "Tree view/de") aktivieren.
 2. Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
-   - Die Schaltfläche ![](/src/assets/images/TechDraw_Annotation.svg) [Anmerkung einfügen](/TechDraw_Annotation "TechDraw Annotation") drücken.
-   - Den Menüeintrag **TechDraw → Anmerkungen → ![](/src/assets/images/TechDraw_Annotation.svg) Anmerkung einfügen** auswählen.
+   - Die Schaltfläche ![](/images/TechDraw_Annotation.svg) [Anmerkung einfügen](/TechDraw_Annotation "TechDraw Annotation") drücken.
+   - Den Menüeintrag **TechDraw → Anmerkungen → ![](/images/TechDraw_Annotation.svg) Anmerkung einfügen** auswählen.
 3. Wenn mehrere Zeichnungsblätter im Dokument vorhanden sind und noch kein Blatt aktiviert wurde, wird das Dialogfeld **Blattauswahl** geöffnet:
    1. Das gewünschte Blatt auswählen.
    2. Die Schaltfläche OK drücken.
@@ -38,7 +38,7 @@ Beschriftung auf einem Zeichnungsblatt
 5. Zum Bearbeiten des Textes wird der [Eigenschafteneditor](/Property_editor/de "Property editor/de") verwendet.
 6. Wahlweise den Textblock auf die gewünschte Position ziehen.
 
-![](/src/assets/images/UpdateAnnotation.png)
+![](/images/UpdateAnnotation.png)
 
 Ändern der Beschriftung im Eigenschafteneditor
 

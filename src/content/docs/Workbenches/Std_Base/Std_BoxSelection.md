@@ -24,7 +24,7 @@ The **Std BoxSelection** command selects objects from a user defined rectangular
 ## Usage
 
 1. There are several ways to invoke the command:
-   - Select the **Edit → ![](/src/assets/images/Std_BoxSelection.svg) Box selection** option from the menu.
+   - Select the **Edit → ![](/images/Std_BoxSelection.svg) Box selection** option from the menu.
    - Use the keyboard shortcut: Shift+B.
 2. Do one of the following:
    - Drag a rectangle from left to right to select objects whose geometric center lies inside the rectangle.

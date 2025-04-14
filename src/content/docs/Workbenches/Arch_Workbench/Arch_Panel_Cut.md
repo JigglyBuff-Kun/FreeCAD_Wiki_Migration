@@ -25,12 +25,12 @@ THIS COMMAND IS PART OF THE INTEGRATEDBIM WORKBENCHIN V1.0This page has been upd
 
 The **Arch Panel Cut** tool creates, in the 3D document, a flat, 2D view of an [Arch Panel](/Arch_Panel "Arch Panel"), to be included in an [Arch Panel Sheet](/Arch_Panel_Sheet "Arch Panel Sheet") or directly exported to [DXF](/Draft_DXF "Draft DXF"). The Panel Cut objects are also supported by the [CAM Workbench](/CAM_Workbench "CAM Workbench").
 
-![](/src/assets/images/Arch_Wikihouse_02.jpg)
+![](/images/Arch_Wikihouse_02.jpg)
 
 ## Usage
 
 1. Select one or more [Arch Panel](/Arch_Panel "Arch Panel") objects.
-2. Select the **Utils → Panel tools → ![](/src/assets/images/Arch_Panel_Cut.svg) Panel Cut** option from the menu.
+2. Select the **Utils → Panel tools → ![](/images/Arch_Panel_Cut.svg) Panel Cut** option from the menu.
 3. Adjust the desired properties.
 
 ## Options

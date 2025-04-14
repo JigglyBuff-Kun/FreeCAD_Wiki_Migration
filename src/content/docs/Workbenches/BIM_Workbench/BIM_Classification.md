@@ -21,7 +21,7 @@ title: BIM Classification
 
 The **Classification manager** allows you to attribute a standard class to a BIM object or material. Standard systems are not included with FreeCAD, and you must download those that you wish to use prior to using this tool. See the [Downloading classification systems](#Downloading_classification_systems) section below.
 
-![](/src/assets/images/BIM_classification_screenshot.png)
+![](/images/BIM_classification_screenshot.png)
 
 Classification manager
 

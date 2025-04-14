@@ -12,7 +12,7 @@ However, in the field of engineering meshes present one big limitation: they are
 
 See [Mesh MeshObject](/Mesh_MeshObject "Mesh MeshObject") for more information about this type of object, and see [Polygon mesh](https://en.wikipedia.org/wiki/Polygon_mesh) for generic information in computer systems.
 
-![](/src/assets/images/Shape_and_mesh.svg)
+![](/images/Shape_and_mesh.svg)
 
 Left: parametric [shape](/Shape "Shape") defined by properties. Right: [mesh](/Mesh "Mesh"), defined by vertices and triangular surfaces.
 

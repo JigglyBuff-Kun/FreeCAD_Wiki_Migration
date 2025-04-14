@@ -23,15 +23,15 @@ title: FEM ConstraintSpring
 
 ## Description
 
-Defines a spring boundary condition to be used for mechanical analyses using the ![](/src/assets/images/FEM_SolverElmer.svg) [Elmer solver](/FEM_SolverElmer "FEM SolverElmer").
+Defines a spring boundary condition to be used for mechanical analyses using the ![](/images/FEM_SolverElmer.svg) [Elmer solver](/FEM_SolverElmer "FEM SolverElmer").
 
-[introduced in 0.21](/Release_notes_0.21 "Release notes 0.21"): The spring constraint can be used for the equations ![](/src/assets/images/FEM_EquationDeformation.svg) [Deformation](/FEM_EquationDeformation "FEM EquationDeformation") and ![](/src/assets/images/FEM_EquationElasticity.svg) [Elasticity](/FEM_EquationElasticity "FEM EquationElasticity").
+[introduced in 0.21](/Release_notes_0.21 "Release notes 0.21"): The spring constraint can be used for the equations ![](/images/FEM_EquationDeformation.svg) [Deformation](/FEM_EquationDeformation "FEM EquationDeformation") and ![](/images/FEM_EquationElasticity.svg) [Elasticity](/FEM_EquationElasticity "FEM EquationElasticity").
 
 ## Usage
 
 1. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/FEM_ConstraintSpring.svg) [Spring](/FEM_ConstraintSpring "FEM ConstraintSpring") button.
-   - Select the **Model → Mechanical boundary conditions and loads → ![](/src/assets/images/FEM_ConstraintSpring.svg) Spring** option from the menu.
+   - Press the ![](/images/FEM_ConstraintSpring.svg) [Spring](/FEM_ConstraintSpring "FEM ConstraintSpring") button.
+   - Select the **Model → Mechanical boundary conditions and loads → ![](/images/FEM_ConstraintSpring.svg) Spring** option from the menu.
 2. Press the Add button.
 3. In the [3D view](/3D_view "3D view") select the faces to which the spring should be applied. To remove faces from the selection, press the Remove button and click on them.
 4. Specify the normal or tangential stiffness (in N/m) and select which one Elmer should use.

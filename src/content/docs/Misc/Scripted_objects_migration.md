@@ -174,15 +174,15 @@ If it is not realistically possible to migrate all older objects, say, because t
 
 **Advantages**
 
-- ![](/src/assets/images/Edit_OK.svg) This is the simplest method that just requires redirecting an old class to a new class.
-- ![](/src/assets/images/Edit_OK.svg) Old properties are conserved as long as the new class doesn't override them.
-- ![](/src/assets/images/Edit_OK.svg) This is good if the old class and the new class have the same properties (handle the same type of data) but only their module or class name is different.
+- ![](/images/Edit_OK.svg) This is the simplest method that just requires redirecting an old class to a new class.
+- ![](/images/Edit_OK.svg) Old properties are conserved as long as the new class doesn't override them.
+- ![](/images/Edit_OK.svg) This is good if the old class and the new class have the same properties (handle the same type of data) but only their module or class name is different.
 
 **Disadvantages**
 
-- ![](/src/assets/images/Edit_Cancel.svg) The new class keeps the old properties of the object, which is not always desired.
-- ![](/src/assets/images/Edit_Cancel.svg) New properties or renamed properties aren't handled, so the object will load but it may not show the correct behavior of the new class.
-- ![](/src/assets/images/Edit_Cancel.svg) The old module may have to be kept indefinitely to migrate all old objects created in the past.
+- ![](/images/Edit_Cancel.svg) The new class keeps the old properties of the object, which is not always desired.
+- ![](/images/Edit_Cancel.svg) New properties or renamed properties aren't handled, so the object will load but it may not show the correct behavior of the new class.
+- ![](/images/Edit_Cancel.svg) The old module may have to be kept indefinitely to migrate all old objects created in the past.
 
 ## Method 2. Migration when restoring the document
 
@@ -251,15 +251,15 @@ Given that the classes are meant to handle the same type of object, we would lik
 
 **Advantages**
 
-- ![](/src/assets/images/Edit_OK.svg) This method allows us to check that the class that we are migrating is the right class, instead of simply redirecting to a newer class.
-- ![](/src/assets/images/Edit_OK.svg) Similar to method 1, old properties are kept as long as the new class doesn't override them.
-- ![](/src/assets/images/Edit_OK.svg) Unlike method 1, new properties are always added, however if they have the same name, they will be renamed.
-- ![](/src/assets/images/Edit_OK.svg) The migration is not immediate, we can still manipulate the information, or print messages while the object loads.
+- ![](/images/Edit_OK.svg) This method allows us to check that the class that we are migrating is the right class, instead of simply redirecting to a newer class.
+- ![](/images/Edit_OK.svg) Similar to method 1, old properties are kept as long as the new class doesn't override them.
+- ![](/images/Edit_OK.svg) Unlike method 1, new properties are always added, however if they have the same name, they will be renamed.
+- ![](/images/Edit_OK.svg) The migration is not immediate, we can still manipulate the information, or print messages while the object loads.
 
 **Disadvantages**
 
-- ![](/src/assets/images/Edit_Cancel.svg) It is more verbose than method 1 because we need to implement the `onDocumentRestored` method to migrate the object.
-- ![](/src/assets/images/Edit_Cancel.svg) It always adds the new properties, so it may create duplicated properties in case the new properties have the same name as the old properties. This has to be handled manually.
+- ![](/images/Edit_Cancel.svg) It is more verbose than method 1 because we need to implement the `onDocumentRestored` method to migrate the object.
+- ![](/images/Edit_Cancel.svg) It always adds the new properties, so it may create duplicated properties in case the new properties have the same name as the old properties. This has to be handled manually.
 
 ## Method 3. Migration when restoring the document, manually handling the properties
 
@@ -329,13 +329,13 @@ Since in the old class the `Divisions` property didn't exist, nothing was done w
 
 **Advantages**
 
-- ![](/src/assets/images/Edit_OK.svg) Similar to method 2, this method allows us to check that the class that we are migrating is the right class.
-- ![](/src/assets/images/Edit_OK.svg) We have complete control of what to do with the old properties. Typically they will be removed so that there is no name collision with new properties added. Thus we avoid duplicated properties.
-- ![](/src/assets/images/Edit_OK.svg) By saving the older values, we can manipulate the information in the restoring step as we want, and assign the corresponding values to the new properties.
+- ![](/images/Edit_OK.svg) Similar to method 2, this method allows us to check that the class that we are migrating is the right class.
+- ![](/images/Edit_OK.svg) We have complete control of what to do with the old properties. Typically they will be removed so that there is no name collision with new properties added. Thus we avoid duplicated properties.
+- ![](/images/Edit_OK.svg) By saving the older values, we can manipulate the information in the restoring step as we want, and assign the corresponding values to the new properties.
 
 **Disadvantages**
 
-- ![](/src/assets/images/Edit_Cancel.svg) This method is very verbose compared to the previous ones, because we must implement the `onDocumentRestored` method, and handle each of the properties individually (save value, delete property, re-assign value). This is problematic if the object that we want to migrate has many properties, or their values need to be transformed in very special ways.
+- ![](/images/Edit_Cancel.svg) This method is very verbose compared to the previous ones, because we must implement the `onDocumentRestored` method, and handle each of the properties individually (save value, delete property, re-assign value). This is problematic if the object that we want to migrate has many properties, or their values need to be transformed in very special ways.
 
 ## Addendum A. Creating the properties only if they do not already exist
 
@@ -386,11 +386,11 @@ Method 3 does not need this addendum to the new class because the older properti
 
 **Advantages**
 
-- ![](/src/assets/images/Edit_OK.svg) The object will retain all previous properties, but in addition it will gain new properties without repetition.
+- ![](/images/Edit_OK.svg) The object will retain all previous properties, but in addition it will gain new properties without repetition.
 
 **Disadvantages**
 
-- ![](/src/assets/images/Edit_Cancel.svg) Like method 2, it still doesn't deal with renamed properties. The old properties should be manually removed.
+- ![](/images/Edit_Cancel.svg) Like method 2, it still doesn't deal with renamed properties. The old properties should be manually removed.
 
 ## Addendum B. Migrating different versions of the old object
 
@@ -459,12 +459,12 @@ We don't save the `Version` value as we will set a new `Version` number when doi
 
 **Advantages**
 
-- ![](/src/assets/images/Edit_OK.svg) We have complete control of what to do with the old properties, and how to perform the migration.
-- ![](/src/assets/images/Edit_OK.svg) We can implement a particular method to migrate a particular version of the old object.
+- ![](/images/Edit_OK.svg) We have complete control of what to do with the old properties, and how to perform the migration.
+- ![](/images/Edit_OK.svg) We can implement a particular method to migrate a particular version of the old object.
 
 **Disadvantages**
 
-- ![](/src/assets/images/Edit_Cancel.svg) This method is very verbose because we must have a clear idea on how to handle each of the properties of each "version" that we want to migrate. If our object has many different versions created over the years, we may have to prepare a long list of methods to migrate them to the newest object.
+- ![](/images/Edit_Cancel.svg) This method is very verbose because we must have a clear idea on how to handle each of the properties of each "version" that we want to migrate. If our object has many different versions created over the years, we may have to prepare a long list of methods to migrate them to the newest object.
 
 ## Addendum B2. Using internal class attributes instead of properties
 
@@ -565,13 +565,13 @@ This should work like method 3, meaning that the old properties are removed and 
 
 **Advantages**
 
-- ![](/src/assets/images/Edit_OK.svg) Like method 3, this method allows us complete control of the migration of the old information.
-- ![](/src/assets/images/Edit_OK.svg) We avoid writing code that removes and recreates properties that are named the same.
+- ![](/images/Edit_OK.svg) Like method 3, this method allows us complete control of the migration of the old information.
+- ![](/images/Edit_OK.svg) We avoid writing code that removes and recreates properties that are named the same.
 
 **Disadvantages**
 
-- ![](/src/assets/images/Edit_Cancel.svg) Like method 3, this method is still very verbose because we have to handle the properties carefully.
-- ![](/src/assets/images/Edit_Cancel.svg) If a new [property](/Property "Property") and an old [property](/Property "Property") share the same name, the new property will be overwritten, which may be undesired behavior, especially if the two properties have different types. In this case, removing the old property, and migrating its value manually is still necessary.
+- ![](/images/Edit_Cancel.svg) Like method 3, this method is still very verbose because we have to handle the properties carefully.
+- ![](/images/Edit_Cancel.svg) If a new [property](/Property "Property") and an old [property](/Property "Property") share the same name, the new property will be overwritten, which may be undesired behavior, especially if the two properties have different types. In this case, removing the old property, and migrating its value manually is still necessary.
 
 ## Summary
 

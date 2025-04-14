@@ -6,7 +6,7 @@ title: Interface
 
 The FreeCAD [interface](/Interface "Interface") is based on Qt, a well known graphical user interface (GUI) toolkit, particularly used in Linux, but also available in Windows and MacOS.
 
-![](/src/assets/images/FreeCAD_interface_base_divisions.svg)
+![](/images/FreeCAD_interface_base_divisions.svg)
 
 Standard interface in v0.19.
 

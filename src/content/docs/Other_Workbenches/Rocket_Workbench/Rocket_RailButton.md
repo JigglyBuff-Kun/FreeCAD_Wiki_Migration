@@ -24,8 +24,8 @@ A rail button is a small button attached to the side of the rocket that allows t
 ## Usage
 
 1. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/Rocket_RailGuide.svg) [Rail Button](/Rocket_RailButton "Rocket RailButton") button.
-   - Select the **Rocket → Launch Guides→ ![](/src/assets/images/Rocket_RailButton.svg) Rail Button** option from the menu.
+   - Press the ![](/images/Rocket_RailGuide.svg) [Rail Button](/Rocket_RailButton "Rocket RailButton") button.
+   - Select the **Rocket → Launch Guides→ ![](/images/Rocket_RailButton.svg) Rail Button** option from the menu.
    - Double click on a Rail Button object in the [Tree view](/Tree_view "Tree view").
 2. Set options and press OK.
 
@@ -37,7 +37,7 @@ Rail buttons have two general shapes:
 
 - Round.
 
-![](/src/assets/images/Rocket_RailButtonRound.png)
+![](/images/Rocket_RailButtonRound.png)
 
 Round Rail Button
 
@@ -45,7 +45,7 @@ The round shape is the most common and is the simplest to manufacture in bulk. A
 
 - Airfoil.
 
-![](/src/assets/images/Rocket_RailButtonAirfoil.png)
+![](/images/Rocket_RailButtonAirfoil.png)
 
 Airfoiled Rail Button
 

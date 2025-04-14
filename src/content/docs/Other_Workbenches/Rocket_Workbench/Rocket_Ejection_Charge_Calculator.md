@@ -40,19 +40,18 @@ Ground testing should start at the low end of the recommended range to prevent d
 
 ## Usage
 
-![](/src/assets/images/Calc_ejection_charge.png)
+![](/images/Calc_ejection_charge.png)
 
 1. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/Rocket_Calculator.svg) [Ejection Charge Calculator](/Rocket_Ejection_Charge_Calculator "Rocket Ejection Charge Calculator") button.
-   - Select the **Rocket → Calculators → ![](/src/assets/images/Rocket_Calculator.svg) Ejection Charge Calculator** option from the menu.
+   - Press the ![](/images/Rocket_Calculator.svg) [Ejection Charge Calculator](/Rocket_Ejection_Charge_Calculator "Rocket Ejection Charge Calculator") button.
+   - Select the **Rocket → Calculators → ![](/images/Rocket_Calculator.svg) Ejection Charge Calculator** option from the menu.
 2. Enter the weight of your rocket and parameters for your parachute.
 
 ## Calculation
 
 Pressure is set by desired force, or force can be set by specifying the desired pressure. This is based on the force applied to the area at the end of the volume to be pressurized.
 
-: : P
-=
+# : : P
 
         F
 
@@ -71,8 +70,8 @@ Pressure is set by desired force, or force can be set by specifying the desired 
 
 where
 
-: : F
-=
+# : : F
+
 {\displaystyle F=}
 ![{\displaystyle F=}](https://wikimedia.org/api/rest_v1/media/math/render/svg/678aa813d234f6d5a404f8e20add27a8dcf2834b) desired force
 : D
@@ -82,8 +81,7 @@ where
 
 Once the desired pressure is known, the amount of black powder can be calculated using
 
-: : m
-=
+# : : m
 
         P
         V
@@ -98,8 +96,8 @@ Once the desired pressure is known, the amount of black powder can be calculated
 
 where
 
-: : P
-=
+# : : P
+
 {\displaystyle P=}
 ![{\displaystyle P=}](https://wikimedia.org/api/rest_v1/media/math/render/svg/a4db3adef01611d5cea6a0961ec02a8f1f867a15) the pressure calculated in the previous equation
 : V

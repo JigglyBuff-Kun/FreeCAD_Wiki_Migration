@@ -19,9 +19,9 @@ title: Sketcher EllipseUmMittelpunktErstellen
 
 ## Beschreibung
 
-Das Werkzeug ![](/src/assets/images/Sketcher_CreateEllipseByCenter.svg) EllipseUmMittelpunktErstellen: Erstellt eine Ellipse durch Festlegen ihres Mittelpunktes, eines Endpunktes einer ihrer Achsen und eines Punktes im Verlauf ihres Umfangs. [eingeführt in 1.0](/Release_notes_1.0/de "Release notes 1.0/de"): Oder durch Festlegen beider Endpunkte einer Achse und eines Punktes im Verlauf ihres Umfangs.
+Das Werkzeug ![](/images/Sketcher_CreateEllipseByCenter.svg) EllipseUmMittelpunktErstellen: Erstellt eine Ellipse durch Festlegen ihres Mittelpunktes, eines Endpunktes einer ihrer Achsen und eines Punktes im Verlauf ihres Umfangs. [eingeführt in 1.0](/Release_notes_1.0/de "Release notes 1.0/de"): Oder durch Festlegen beider Endpunkte einer Achse und eines Punktes im Verlauf ihres Umfangs.
 
-![](/src/assets/images/Sketcher_CreateEllipseByCenter_Example.png)
+![](/images/Sketcher_CreateEllipseByCenter_Example.png)
 
 Ellipse (weiß) mit interner Geometrie (dunkelgelb)
 
@@ -33,17 +33,17 @@ Pos-OVP = Positional [On-View-Parameters](/Sketcher_Preferences/de#Allgemein "Sk
 Dim-OVP = Dimensional On-View-Parameters (In-Ansicht-Parameter zur maßlichen Festlegung). [eingeführt in 1.0](/Release_notes_1.0/de "Release notes 1.0/de")
 
 1. Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
-   - Die Schaltfläche ![](/src/assets/images/Sketcher_CreateEllipseByCenter.svg) Ellipse um Mittelpunkt erstellen drücken.
-   - Den Menüeintrag **Skizze → Skizzengeometrien → ![](/src/assets/images/Sketcher_CreateEllipseByCenter.svg) Ellipse um Mittelpunkt erstellen** auswählen.
+   - Die Schaltfläche ![](/images/Sketcher_CreateEllipseByCenter.svg) Ellipse um Mittelpunkt erstellen drücken.
+   - Den Menüeintrag **Skizze → Skizzengeometrien → ![](/images/Sketcher_CreateEllipseByCenter.svg) Ellipse um Mittelpunkt erstellen** auswählen.
    - Das Tastaturkürzel G dann E dann E.
 2. Der Mauszeiger wandelt sich zu einem Kreuz mit Werkzeugsymbol.
 3. Der Abschnitt **Ellipsenparameter** ([eingeführt in 1.0](/Release_notes_1.0/de "Release notes 1.0/de")) wird im oberen Bereich des [Sketcher-Dialogs](/Sketcher_Dialog/de "Sketcher Dialog/de") eingefügt.
 4. Wahlweise die M-Taste drücken oder einen Eintrag in der Ausklappliste **Modus** im Abschnitt **Ellipsenparameter** auswählen, um den Werkzeugmodus zu wechseln:
-   - ![](/src/assets/images/Sketcher_CreateEllipseByCenter.svg) **Mitte**:
+   - ![](/images/Sketcher_CreateEllipseByCenter.svg) **Mitte**:
      1. Den Mittelpunkt der Ellipse auswählen; oder mit Pos-OVP: seine X- und/oder Y-Koordinate eingeben.
      2. Einen Endpunkt einer der Achsen der Ellipse auswählen; dies legt auch einen der Radien fest; oder mit Dim-OVP: diesen Radius und/oder den Winkel der Achse eingeben.
      3. Einen Punkt auswählen, um den anderen Radius der Ellipse festzulegen; oder mit Dim-OVP: diesen Radius eingeben.
-   - ![](/src/assets/images/Sketcher_CreateEllipseBy3Points.svg) **Achsen-Endpunkte**: [eingeführt in 1.0](/Release_notes_1.0/de "Release notes 1.0/de")
+   - ![](/images/Sketcher_CreateEllipseBy3Points.svg) **Achsen-Endpunkte**: [eingeführt in 1.0](/Release_notes_1.0/de "Release notes 1.0/de")
      1. Die Endpunkte einer der Achsen der Ellipse auswählen; dies legt auch einen der Radien fest; oder mit Pos-OVP: ihre X- und/oder Y-Koordinaten eingeben. Für diese Punkte werden keine Randbedingungen hinzugefügt.
      2. Einen Punkt auswählen, um den anderen Radius der Ellipse festzulegen; oder mit Pos-OVP: seine X- und/oder Y-Koordinate eingeben. Für diese Punkt wird keine Randbedingung hinzugefügt.
 5. Die Ellipse wird erstellt inklusive der internen Geometrie (Hauptachse, Nebenachse und zwei Fokus-Punkte) und mögliche auf Pos-OVP und Dim-OVP basierende Randbedingungen hinzugefügt.

@@ -21,7 +21,7 @@ title: TechDraw LengthDimension
 
 The **TechDraw LengthDimension** tool adds a linear dimension to a View. The dimension may be the distance between two points, the length of a straight edge, the perpendicular distance between two edges, or the perpendicular distance between a point and an edge.
 
-![](/src/assets/images/TechDraw_Dimension_Length_example.png)
+![](/images/TechDraw_Dimension_Length_example.png)
 
 Length dimension taken from two points
 
@@ -34,16 +34,16 @@ Length dimension taken from two points
    - Select a point and an edge. This will produce a perpendicular dimension. In 0.21 and below the dimension will only be perpendicular if the point has a perpendicular projection on the actual edge. Else the dimension will be the distance between the point and the nearest endpoint of the edge.
 2. If you have selected geometry in the 3D view: add the correct TechDraw View to the selection by selecting it in the [Tree view](/Tree_view "Tree view").
 3. There are several ways to invoke the tool:
-   - [introduced in 1.0](/Release_notes_1.0 "Release notes 1.0"): If the **Dimensioning tools** [preference](/TechDraw_Preferences#Dimensions "TechDraw Preferences") is set to `Single tool` (default): press the down arrow to the right of the ![](/src/assets/images/TechDraw_Dimension.svg)![](/src/assets/images/Toolbar_flyout_arrow.svg) button and select the **![](/src/assets/images/TechDraw_LengthDimension.svg) Insert Length Dimension** option from the dropdown.
-   - If this preference has a different value (and in 0.21 and below): press the ![](/src/assets/images/TechDraw_LengthDimension.svg) [Insert Length Dimension](/TechDraw_LengthDimension "TechDraw LengthDimension") button.
-   - Select the **TechDraw → Dimensions → ![](/src/assets/images/TechDraw_LengthDimension.svg) Insert Length Dimension** option from the menu.
+   - [introduced in 1.0](/Release_notes_1.0 "Release notes 1.0"): If the **Dimensioning tools** [preference](/TechDraw_Preferences#Dimensions "TechDraw Preferences") is set to `Single tool` (default): press the down arrow to the right of the ![](/images/TechDraw_Dimension.svg)![](/images/Toolbar_flyout_arrow.svg) button and select the **![](/images/TechDraw_LengthDimension.svg) Insert Length Dimension** option from the dropdown.
+   - If this preference has a different value (and in 0.21 and below): press the ![](/images/TechDraw_LengthDimension.svg) [Insert Length Dimension](/TechDraw_LengthDimension "TechDraw LengthDimension") button.
+   - Select the **TechDraw → Dimensions → ![](/images/TechDraw_LengthDimension.svg) Insert Length Dimension** option from the menu.
 4. A dimension is added to the View.
 5. The dimension may be dragged to the desired position.
 6. If needed, add tolerances as described on [this page](/TechDraw_Geometric_dimensioning_and_tolerancing#Tolerances "TechDraw Geometric dimensioning and tolerancing").
 
 ### Display 3D measurement
 
-The dimension will initially display the projected measurement (i.e. as shown in the drawing). If required, and if the dimension is based on 3D references, it can be changed to the actual 3D measurement by changing its Data**Measure Type** property to `True`. To base a dimension on 3D references select geometry from the [3D view](/3D_view "3D view") at creation time, or use the ![](/src/assets/images/TechDraw_DimensionRepair.svg) [TechDraw DimensionRepair](/TechDraw_DimensionRepair "TechDraw DimensionRepair") tool to update existing dimensions.
+The dimension will initially display the projected measurement (i.e. as shown in the drawing). If required, and if the dimension is based on 3D references, it can be changed to the actual 3D measurement by changing its Data**Measure Type** property to `True`. To base a dimension on 3D references select geometry from the [3D view](/3D_view "3D view") at creation time, or use the ![](/images/TechDraw_DimensionRepair.svg) [TechDraw DimensionRepair](/TechDraw_DimensionRepair "TechDraw DimensionRepair") tool to update existing dimensions.
 
 ### Change properties
 
@@ -51,15 +51,15 @@ To change the properties of a dimension object either double-click it in the dra
 
 ## Dimension dialog
 
-![](/src/assets/images/TechDraw_DimensionDialog.png)
+![](/images/TechDraw_DimensionDialog.png)
 
 The dimension dialog offers the following settings:
 
 ### Tolerancing
 
-- **Theoretically Exact**: If checked, the dimension is specified as theoretically exact. As such, it shall not have any tolerances. The dimension will be displayed with a frame around the value: ![](/src/assets/images/TechDraw_theoretically_exact.png)
+- **Theoretically Exact**: If checked, the dimension is specified as theoretically exact. As such, it shall not have any tolerances. The dimension will be displayed with a frame around the value: ![](/images/TechDraw_theoretically_exact.png)
 
-- **Equal Tolerance**: If checked, the over- and undertolerance are equal and the negated value of the overtolerance is used as undertolerance. The display will be ![](/src/assets/images/TechDraw_equal-tolerance.png), otherwise it will be ![](/src/assets/images/TechDraw_Non-equal-tolerance.png).
+- **Equal Tolerance**: If checked, the over- and undertolerance are equal and the negated value of the overtolerance is used as undertolerance. The display will be ![](/images/TechDraw_equal-tolerance.png), otherwise it will be ![](/images/TechDraw_Non-equal-tolerance.png).
 
 - **Overtolerance**: The amount by which the dimension may be larger.
 
@@ -142,12 +142,12 @@ Base
 - Data**Theoretical Exact** (`Bool`): Specifies a theoretically exact (or basic) dimension.
 
 : : `false` - a common dimension by default, possibly with tolerances.
-: `true` - a theoretical value. As such, it shall not bear any tolerances. The dimension will be displayed by a frame around the value: ![](/src/assets/images/TechDraw_theoretically_exact.png)
+: `true` - a theoretical value. As such, it shall not bear any tolerances. The dimension will be displayed by a frame around the value: ![](/images/TechDraw_theoretically_exact.png)
 
 - Data**Equal Tolerance** (`Bool`): If over- and undertolerance are equal. Then the negated value of the overtolerance is used as undertolerance.
 
-: : `true` - the negated value of the Data**Over Tolerance** is used as Data**Under Tolerance**. The display will be ![](/src/assets/images/TechDraw_equal-tolerance.png)
-: `false` - the Data**Under Tolerance** is taken into account. The display will be ![](/src/assets/images/TechDraw_Non-equal-tolerance.png)
+: : `true` - the negated value of the Data**Over Tolerance** is used as Data**Under Tolerance**. The display will be ![](/images/TechDraw_equal-tolerance.png)
+: `false` - the Data**Under Tolerance** is taken into account. The display will be ![](/images/TechDraw_Non-equal-tolerance.png)
 
 - Data**Over Tolerance** (`QuantityConstraint`): The amount by which the dimension may be larger.
 - Data**Under Tolerance** (`QuantityConstraint`): The amount by which the dimension may be smaller.
@@ -228,7 +228,7 @@ Dimension Format
 
 - View**Standard And Style** (`Enumeration`): Specifies the standard (and its style) according to which the dimension is drawn:
 
-: : ![Differences between the supported standards](/src/assets/images/TechDraw_Dimension_standardization.png)
+: : ![Differences between the supported standards](/images/TechDraw_Dimension_standardization.png)
 : `ISO Oriented` - drawn according to the standard ISO 129-1, text is rotated to be parallel with the dimension line tangent.
 : `ISO Referencing` - drawn in compliance with ISO 129-1, text is always horizontal, above the shortest possible reference line.
 : `ASME Inlined` - drawn according to the standard ASME Y14.5M, text is horizontal, inserted in a break within the dimension line or arc.

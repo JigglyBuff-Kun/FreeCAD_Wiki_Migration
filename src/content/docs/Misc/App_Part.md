@@ -4,13 +4,13 @@ title: App Part
 
 ## Introduction
 
-![](/src/assets/images/Geofeaturegroup.svg)
+![](/images/Geofeaturegroup.svg)
 
 An [App Part](/App_Part "App Part") object, or formally an `App::Part`, is an element that allows grouping objects in 3D space.
 
 It was developed to be used in assemblies, as it has an **Origin** which serves as the positional reference for the grouped objects.
 
-![](/src/assets/images/FreeCAD_core_objects.svg)
+![](/images/FreeCAD_core_objects.svg)
 
 Simplified diagram of the relationships between the core objects in FreeCAD
 

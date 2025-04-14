@@ -26,7 +26,7 @@ title: Arch Axis System Repartition
 |                                                                                                                                                                                                                                                                                                                                                                  |
 |                                                                                                                                                                                                                                                                                                                                                                  |
 
-![](/src/assets/images/ArchAxisSystemRepartition.png)
+![](/images/ArchAxisSystemRepartition.png)
 
 ArchAxisSystemRepartition
 
@@ -50,7 +50,7 @@ This macro help you to create an Arch Axis System along a line with a set of par
 
 ## Script
 
-ToolBar Icon ![](/src/assets/images/Macro_Arch_Axis_System_Repartition.png)
+ToolBar Icon ![](/images/Macro_Arch_Axis_System_Repartition.png)
 
 **Macro_Repartition.FCMacro**
 

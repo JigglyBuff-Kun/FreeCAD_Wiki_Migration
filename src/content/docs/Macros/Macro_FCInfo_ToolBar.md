@@ -60,11 +60,11 @@ webbrowser.open("https://gist.githubusercontent.com/mario52a/e382adbe41747788ad1
 
 <class="rawcodeurl"><a href="<https://gist.githubusercontent.com/mario52a/e382adbe41747788ad15a18eb206a872/raw/c825afd430d9124a77f9688824d12a78b2219348/FCInfo_ToolBar.FCMacro>">raw code</a>
 
-![FCInfo_ToolBar](/src/assets/images/Macro_FCInfo_ToolBar_00.png)
+![FCInfo_ToolBar](/images/Macro_FCInfo_ToolBar_00.png)
 
 FCInfo_ToolBar
 
-![FCInfo_ToolBar](/src/assets/images/FCInfo_ToolBar_Animate01.gif)
+![FCInfo_ToolBar](/images/FCInfo_ToolBar_Animate01.gif)
 
 FCInfo ToolBar in action
 
@@ -81,7 +81,7 @@ Use the button reset after change one option in the parameter window.
 The Unit size can be selected :
 km, hm, dam, m, dm, cm, mm, µm, nm, pm, fm, inch, link, foot, yard, perch, chain, furlong, mile, league, nautique.
 
-![FCInfo_ToolBar the info toolTip](/src/assets/images/Macro_FCInfo_ToolBar_01.png)
+![FCInfo_ToolBar the info toolTip](/images/Macro_FCInfo_ToolBar_01.png)
 
 FCInfo_ToolBar the info toolTip
 

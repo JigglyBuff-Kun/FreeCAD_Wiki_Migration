@@ -19,22 +19,22 @@ title: Surface KurveAufNetz
 
 ## Beschreibung
 
-![](/src/assets/images/Surface_CurveOnMesh.svg) [Surface KurveAufNetz](/Surface_CurveOnMesh "Surface CurveOnMesh") erstellt angenäherte Spline-Abschnitte auf der Oberfläche eines ausgewählten [Netzes](/Mesh_Workbench/de "Mesh Workbench/de").
+![](/images/Surface_CurveOnMesh.svg) [Surface KurveAufNetz](/Surface_CurveOnMesh "Surface CurveOnMesh") erstellt angenäherte Spline-Abschnitte auf der Oberfläche eines ausgewählten [Netzes](/Mesh_Workbench/de "Mesh Workbench/de").
 
-Ist das Objekt kein [Netzsondern](/Mesh/de "Mesh/de") eine parametrische [Form](/Shape/de "Shape/de") oder Fläche, muss es als erstes mit ![](/src/assets/images/Mesh_FromPartShape.svg) [Mesh AusPartForm](/Mesh_FromPartShape/de "Mesh FromPartShape/de") in ein Netz konvertiert werden.
+Ist das Objekt kein [Netzsondern](/Mesh/de "Mesh/de") eine parametrische [Form](/Shape/de "Shape/de") oder Fläche, muss es als erstes mit ![](/images/Mesh_FromPartShape.svg) [Mesh AusPartForm](/Mesh_FromPartShape/de "Mesh FromPartShape/de") in ein Netz konvertiert werden.
 
-Diese auf der Oberfläche des Netzes erstellten Kanten können später genuzt werden, um die Oberfläche parametrisch nachzubauen mit Werkzeugen wie ![](/src/assets/images/Surface_GeomFillSurface.svg) [GeomFüllfläche](/Surface_GeomFillSurface/de "Surface GeomFillSurface/de") und ![](/src/assets/images/Surface_Sections.svg) [Querschnitte](/Surface_Sections/de "Surface Sections/de").
+Diese auf der Oberfläche des Netzes erstellten Kanten können später genuzt werden, um die Oberfläche parametrisch nachzubauen mit Werkzeugen wie ![](/images/Surface_GeomFillSurface.svg) [GeomFüllfläche](/Surface_GeomFillSurface/de "Surface GeomFillSurface/de") und ![](/images/Surface_Sections.svg) [Querschnitte](/Surface_Sections/de "Surface Sections/de").
 
-![](/src/assets/images/Surface_CurveOnMesh_mesh_example.png) ![](/src/assets/images/Surface_CurveOnMesh_example.png)
+![](/images/Surface_CurveOnMesh_mesh_example.png) ![](/images/Surface_CurveOnMesh_example.png)
 
-![](/src/assets/images/Surface_CurveOnMesh_surface_example.png)
+![](/images/Surface_CurveOnMesh_surface_example.png)
 
 Above left: mesh object with selected points on the surface. Above right: splines created by picking several points on the mesh. Lower left: a parametric surface reconstructed from the approximated splines, using [Surface Sections](/Surface_Sections "Surface Sections").
 
 ## Anwendung
 
-1. Make sure you have a [mesh object](/Mesh "Mesh"). This can be created by the ![](/src/assets/images/Workbench_Mesh.svg) [Mesh Workbench](/Mesh_Workbench "Mesh Workbench"), or by importing a mesh file type, like STL, [OBJ](/Arch_OBJ "Arch OBJ"), or [DAE](/Arch_DAE "Arch DAE"). If a solid object or solid file type (STEP) is used, it can be converted to a mesh using ![](/src/assets/images/Mesh_FromPartShape.svg) [Mesh FromPartShape](/Mesh_FromPartShape "Mesh FromPartShape").
-2. Press ![](/src/assets/images/Surface_CurveOnMesh.svg) [Curve on mesh](/Surface_CurveOnMesh "Surface CurveOnMesh").
+1. Make sure you have a [mesh object](/Mesh "Mesh"). This can be created by the ![](/images/Workbench_Mesh.svg) [Mesh Workbench](/Mesh_Workbench "Mesh Workbench"), or by importing a mesh file type, like STL, [OBJ](/Arch_OBJ "Arch OBJ"), or [DAE](/Arch_DAE "Arch DAE"). If a solid object or solid file type (STEP) is used, it can be converted to a mesh using ![](/images/Mesh_FromPartShape.svg) [Mesh FromPartShape](/Mesh_FromPartShape "Mesh FromPartShape").
+2. Press ![](/images/Surface_CurveOnMesh.svg) [Curve on mesh](/Surface_CurveOnMesh "Surface CurveOnMesh").
 3. Press Start.
 4. Using the mouse pointer, pick points on the surface of the mesh in the [3D view](/3D_view "3D view"); pick as many points as necessary to draw a smooth preview line.
 5. When enough points have been added, right click on the [3D view](/3D_view "3D view") to open the context menu, and select **Create**. Depending on how smooth the original mesh is, one spline or multiple splines will be created in the [tree view](/Tree_view "Tree view").
@@ -57,7 +57,7 @@ _(Editor: this information must be verified)_
 - **Snap tolerances to vertices**: it defaults to `10 px`; it indicates the minimum distance between one point and another when picking with the pointer.
 - **Split threshold**: it defaults to `45 deg`; it indicates the angular deviation from one point in the mesh to another point necessary to create a new spline instead of extending the previous spline.
 
-**Spline approximation**, if it is ![](/src/assets/images/CheckBoxTrue.svg) checked, it will create spline objects, otherwise, it will create simple straight line objects (polyline).
+**Spline approximation**, if it is ![](/images/CheckBoxTrue.svg) checked, it will create spline objects, otherwise, it will create simple straight line objects (polyline).
 
 - **Tolerance to mesh**: it defaults to `0.2`. It is a parameter that takes into account the imperfections of the mesh; the smaller this number the more precise it will consider the mesh, particularly if it is a very fine mesh.
 - **Continuity**: it defaults to `C2`. It determines the continuity of the spline; it can be `C0` (touching), `C1` (tangent), `C2` (curvature), and `C3` (acceleration curvature).
@@ -65,9 +65,9 @@ _(Editor: this information must be verified)_
 
 ## Eigenschaften
 
-If ![](/src/assets/images/CheckBoxFalse.svg) Spline approximation is unchecked, the [Curve on mesh](/Surface_CurveOnMesh "Surface CurveOnMesh") tool creates a basic [Part Feature](/Part_Feature "Part Feature").
+If ![](/images/CheckBoxFalse.svg) Spline approximation is unchecked, the [Curve on mesh](/Surface_CurveOnMesh "Surface CurveOnMesh") tool creates a basic [Part Feature](/Part_Feature "Part Feature").
 
-If ![](/src/assets/images/CheckBoxTrue.svg) Spline approximation is checked, the [Curve on mesh](/Surface_CurveOnMesh "Surface CurveOnMesh") tool creates a ![](/src/assets/images/Part_Spline.svg) [Part Spline](/index.php?title=Part_Spline&action=edit&redlink=1 "Part Spline (page does not exist)") (`Part::Spline` class) which is derived from the basic [Part Feature](/Part_Feature "Part Feature") (`Part::Feature` class), therefore it shares all the latter's properties.
+If ![](/images/CheckBoxTrue.svg) Spline approximation is checked, the [Curve on mesh](/Surface_CurveOnMesh "Surface CurveOnMesh") tool creates a ![](/images/Part_Spline.svg) [Part Spline](/index.php?title=Part_Spline&action=edit&redlink=1 "Part Spline (page does not exist)") (`Part::Spline` class) which is derived from the basic [Part Feature](/Part_Feature "Part Feature") (`Part::Feature` class), therefore it shares all the latter's properties.
 
 In addition to the properties described in [Part Feature](/Part_Feature "Part Feature"), the Part Spline has the following properties in the [property editor](/Property_editor "Property editor").
 

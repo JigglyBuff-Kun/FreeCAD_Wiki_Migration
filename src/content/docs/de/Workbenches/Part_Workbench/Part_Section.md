@@ -19,12 +19,12 @@ title: Part Schnittkurve
 
 ## Beschreibung
 
-Der Befehl ![](/src/assets/images/f/f7/Part_Section.svg) **Part Schnittkurve** erstellt Drahtgeometrien (Linienzüge) an den Schnittkanten zweier Objekte. Das Ergebnis ist vollständig parametrisch.
+Der Befehl ![](/images/f/f7/Part_Section.svg) **Part Schnittkurve** erstellt Drahtgeometrien (Linienzüge) an den Schnittkanten zweier Objekte. Das Ergebnis ist vollständig parametrisch.
 
 - Der Schnitt zweier Festkörper oder Flächen resultiert in einer oder mehreren Schnittlinien.
 - Der Schnitt zweier Linien oder einer Linie mit einem Festkörper oder einer Fläche resultiert in einem oder mehreren Punkten.
 
-![](/src/assets/images/PartSection1_it.png)
+![](/images/PartSection1_it.png)
 
 Ein Würfel mit einem Zylinder geschnitten
 
@@ -33,8 +33,8 @@ Ein Würfel mit einem Zylinder geschnitten
 1. Zwei Objekte Auswählen.
 2. Das erste Objekt wird zur Daten-Eigenschaft**Basis** des Schnitts, aber die Auswahlreihenfolge hat keinen Einfluss auf das Ergebnis.
 3. Es gibt mehrere Möglichkeiten den Befehl aufzurufen:
-   - Die Schaltfläche ![](/src/assets/images/f/f7/Part_Section.svg) Schnittkurve drücken.
-   - Den Menüeintrag **Part → ![](/src/assets/images/f/f7/Part_Section.svg) Schnittkurve** auswählen.
+   - Die Schaltfläche ![](/images/f/f7/Part_Section.svg) Schnittkurve drücken.
+   - Den Menüeintrag **Part → ![](/images/f/f7/Part_Section.svg) Schnittkurve** auswählen.
 
 ## Eigenschaften
 
@@ -60,6 +60,6 @@ Section
 
 ## Verknüpfungen
 
-Zum Erzeugen von Querschnitten mit Schnittebenen siehe ![](/src/assets/images/Part_CrossSections.svg) [Querschnitte](/Part_CrossSections/de "Part CrossSections/de").
+Zum Erzeugen von Querschnitten mit Schnittebenen siehe ![](/images/Part_CrossSections.svg) [Querschnitte](/Part_CrossSections/de "Part CrossSections/de").
 
 Retrieved from "<http://wiki.freecad.org/index.php?title=Part_Section/de&oldid=1247160>"

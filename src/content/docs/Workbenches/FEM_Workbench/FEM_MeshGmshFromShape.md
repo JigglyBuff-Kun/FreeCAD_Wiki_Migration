@@ -33,8 +33,8 @@ Depending on your operating system and your installation package, Gmsh might be 
 
 There are several ways to invoke the command:
 
-1. - Press the ![](/src/assets/images/FEM_MeshGmshFromShape.svg) [FEM mesh from shape by Gmsh](/FEM_MeshGmshFromShape "FEM MeshGmshFromShape") button.
-   - Select the **Mesh → ![](/src/assets/images/FEM_MeshGmshFromShape.svg) FEM mesh from shape by Gmsh** option from the menu.
+1. - Press the ![](/images/FEM_MeshGmshFromShape.svg) [FEM mesh from shape by Gmsh](/FEM_MeshGmshFromShape "FEM MeshGmshFromShape") button.
+   - Select the **Mesh → ![](/images/FEM_MeshGmshFromShape.svg) FEM mesh from shape by Gmsh** option from the menu.
 2. Optionally, edit the minimum and maximum element size (the default setting often creates meshes that are too coarse). You can also change the element dimension (but the default _From shape_ setting is normally sufficient) and order.
 3. Click the Apply button and wait for the generation of the mesh to complete. [introduced in 1.0](/Release_notes_1.0 "Release notes 1.0"): Optionally, press the Cancel button to abort meshing.
 4. Click the OK button to close the task. You now should see a new FEMMeshGmsh object in your active analysis container. You can also click the Cancel button to cancel the changes or creation of the mesh object.
@@ -72,7 +72,7 @@ The Gmsh version button allows you to check the details about the currently link
   {\displaystyle 2\pi }
   ![{\displaystyle 2\pi }](https://wikimedia.org/api/rest_v1/media/math/render/svg/73efd1f6493490b058097060a572606d2c550a06) times the radius of the curvature. To get a finer mesh at small corners or holes, this value can be increased for better results
 
-![](/src/assets/images/FEM_Gmsh-MeshSizeFromCurvature.png)
+![](/images/FEM_Gmsh-MeshSizeFromCurvature.png)
 
 Effect of _Mesh Size From Curvature'_; left: set to 12, right: deactivated
 
@@ -105,13 +105,13 @@ When you get a meshing error about nonpositive Jacobians, you can try out the fo
 
 At edges and small geometric entities, the mesh has to be smaller than in areas without edges. So the mesh element size grows away from the edges. The growing strategy of Gmsh is to grow between edges of different sizes. So the growing fails when an area has the same sized edges like for example this tube:
 
-![](/src/assets/images/FEM_Gmsh-MeshGrowth-failing.png)
+![](/images/FEM_Gmsh-MeshGrowth-failing.png)
 
 Failing mesh growing because the cylindrical area is surrounded by the same edges
 
 To enable a sensible mesh growing, you must in this case add an edge to the area. In the example, this would be a circle in the middle of the cylinder. The circle is added as part of a [BooleanFragments](/Part_BooleanFragments "Part BooleanFragments") compound (to form a CompSolid), see [the project file](https://forum.freecadweb.org/download/file.php?id=146255) of the example.
 
-![](/src/assets/images/FEM_Gmsh-MeshGrowth-success.png)
+![](/images/FEM_Gmsh-MeshGrowth-success.png)
 
 Sensible mesh growing due to the additional edge in the middle of the cylindrical area
 
@@ -124,7 +124,7 @@ When we use now also Data**Recombine 3D All**, the result is better, see the low
 
 The _Simple_ recombination algorithm will leave some triangles in the mesh in case the recombining leads to badly shaped quads. In such cases use a _full-quad_ recombination algorithm, which will automatically perform a coarser mesh followed by the recombination, smoothing and subdividing. See [forum topic](https://forum.freecadweb.org/viewtopic.php?f=18&t=20351#p520392)
 
-![](/src/assets/images/FEM_Gmsh-Recombination.png)
+![](/images/FEM_Gmsh-Recombination.png)
 
 Effect of mesh element recombination.  
 Upper left: standard mesh.  

@@ -57,7 +57,7 @@ For more detailed explanations, see the [How to install macros](/How_to_install_
 ### Code
 
 ToolBar Icon
-![](/src/assets/images/Macro_SimpleProperties.png)
+![](/images/Macro_SimpleProperties.png)
 
 **Macro_SimpleProperties.FCMacro**
 

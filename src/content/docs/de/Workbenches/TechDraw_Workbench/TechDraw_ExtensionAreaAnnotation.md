@@ -21,7 +21,7 @@ title: TechDraw ErgänzungFlächenangabe
 
 Das Werkzeug **TechDraw ErgänzungFlächenangabe** berechnet die Fläche der ausgewählten Flächenbereiche und fügt eine Flächenangabe ein.
 
-![](/src/assets/images/TechDraw_ExtensionAreaAnnotationExample.png)
+![](/images/TechDraw_ExtensionAreaAnnotationExample.png)
 
 Rechts die eingefügte Flächenangabe
 
@@ -29,8 +29,8 @@ Rechts die eingefügte Flächenangabe
 
 1. Wähle einen oder mehrere Flächenbereiche.
 2. Es gibt mehrere Möglichkeiten das Werkzeug aufzurufen:
-   - Die Schaltfläche ![](/src/assets/images/TechDraw_ExtensionAreaAnnotation.svg) Flächeninhalt der ausgewählten Flächen berechnen drücken.
-   - Den Menüeintrag **TechDraw → Ergänzungen: Merkmale/Änderungen → ![](/src/assets/images/TechDraw_ExtensionAreaAnnotation.svg) Flächeninhalt der ausgewählten Flächen berechnen** auswählen.
+   - Die Schaltfläche ![](/images/TechDraw_ExtensionAreaAnnotation.svg) Flächeninhalt der ausgewählten Flächen berechnen drücken.
+   - Den Menüeintrag **TechDraw → Ergänzungen: Merkmale/Änderungen → ![](/images/TechDraw_ExtensionAreaAnnotation.svg) Flächeninhalt der ausgewählten Flächen berechnen** auswählen.
 3. Die Gesamtfläche aller Flächenbereiche wird berechnet, und als Flächenangabe eingefügt.
 
 ## Einschränkungen

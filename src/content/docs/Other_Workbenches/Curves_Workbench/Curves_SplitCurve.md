@@ -23,14 +23,14 @@ This documentation is not finished. Please help and contribute documentation.Gui
 
 ## Description
 
-The ![](/src/assets/images/Curves_SplitCurve.svg) [Curves SplitCurve](/Curves_SplitCurve "Curves SplitCurve") tool splits selected edges.
+The ![](/images/Curves_SplitCurve.svg) [Curves SplitCurve](/Curves_SplitCurve "Curves SplitCurve") tool splits selected edges.
 
 ## Usage
 
 1. Select one or more edges in the [3D view](/3D_view "3D view").
 2. There are several ways to invoke the tool:
-   - Press the ![](/src/assets/images/Curves_SplitCurve.svg) [Split curve](/Curves_SplitCurve "Curves SplitCurve") button.
-   - Select the **Curves → ![](/src/assets/images/Curves_SplitCurve.svg) Split curve** option from the menu.
+   - Press the ![](/images/Curves_SplitCurve.svg) [Split curve](/Curves_SplitCurve "Curves SplitCurve") button.
+   - Select the **Curves → ![](/images/Curves_SplitCurve.svg) Split curve** option from the menu.
 3. A **SplitCurve** object is created for each selected edge.
 
    : The edge is split by **Number** in 2 equally long curve segments by default.

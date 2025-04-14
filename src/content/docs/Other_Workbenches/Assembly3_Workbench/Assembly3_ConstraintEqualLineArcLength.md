@@ -23,7 +23,7 @@ This documentation is not finished. Please help and contribute documentation.Gui
 
 ## Description
 
-The ![](/src/assets/images/Assembly_ConstraintEqualLineArcLength.svg) [Equal Line Arc Length](/Assembly3_ConstraintEqualLineArcLength "Assembly3 ConstraintEqualLineArcLength") command constrains the length of a 2D line like a non-subdivided wire which is made with ![](/src/assets/images/Workbench_Draft.svg) [Draft Workbench](/Draft_Workbench "Draft Workbench") tools in relation with a ![](/src/assets/images/Assembly_Workplane.svg) workplane.
+The ![](/images/Assembly_ConstraintEqualLineArcLength.svg) [Equal Line Arc Length](/Assembly3_ConstraintEqualLineArcLength "Assembly3 ConstraintEqualLineArcLength") command constrains the length of a 2D line like a non-subdivided wire which is made with ![](/images/Workbench_Draft.svg) [Draft Workbench](/Draft_Workbench "Draft Workbench") tools in relation with a ![](/images/Assembly_Workplane.svg) workplane.
 
 It links the length of the 2D line with the length of an arc (2D or 3D?).
 
@@ -40,11 +40,11 @@ Add an "EqualLineArcLength" constraint to make a line of the same length as an a
 
 1. Select the 2D line to be constrained.
 2. Select a 2D arc to read its length value.
-3. Activate the ![](/src/assets/images/Assembly_ConstraintEqualLineArcLength.svg) [Equal Line Arc Length](/Assembly3_ConstraintEqualLineArcLength "Assembly3 ConstraintEqualLineArcLength") command using the:
-   - ![](/src/assets/images/Assembly_ConstraintEqualLineArcLength.svg) [Equal Line Arc Length](/Assembly3_ConstraintEqualLineArcLength "Assembly3 ConstraintEqualLineArcLength") button.
-4. Press the ![](/src/assets/images/Assembly3_workbench_icon.svg) [Solve constraints](/Assembly3_ResolveConstraints "Assembly3 ResolveConstraints") or the ![](/src/assets/images/Assembly_QuickSolve.svg) [Quick solve](/Assembly3_QuickSolve "Assembly3 QuickSolve") button to recompute
+3. Activate the ![](/images/Assembly_ConstraintEqualLineArcLength.svg) [Equal Line Arc Length](/Assembly3_ConstraintEqualLineArcLength "Assembly3 ConstraintEqualLineArcLength") command using the:
+   - ![](/images/Assembly_ConstraintEqualLineArcLength.svg) [Equal Line Arc Length](/Assembly3_ConstraintEqualLineArcLength "Assembly3 ConstraintEqualLineArcLength") button.
+4. Press the ![](/images/Assembly3_workbench_icon.svg) [Solve constraints](/Assembly3_ResolveConstraints "Assembly3 ResolveConstraints") or the ![](/images/Assembly_QuickSolve.svg) [Quick solve](/Assembly3_QuickSolve "Assembly3 QuickSolve") button to recompute
 
-: : (if ![](/src/assets/images/Assembly_AutoRecompute.svg) [Auto recompute](/Assembly3_AutoRecompute "Assembly3 AutoRecompute") and ![](/src/assets/images/Assembly_SmartRecompute.svg) [Smart recompute](/Assembly3_SmartRecompute "Assembly3 SmartRecompute") are disabled).
+: : (if ![](/images/Assembly_AutoRecompute.svg) [Auto recompute](/Assembly3_AutoRecompute "Assembly3 AutoRecompute") and ![](/images/Assembly_SmartRecompute.svg) [Smart recompute](/Assembly3_SmartRecompute "Assembly3 SmartRecompute") are disabled).
 
 Depending on the order of the selected line types following **errors** appear:
 

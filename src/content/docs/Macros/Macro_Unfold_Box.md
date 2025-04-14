@@ -30,7 +30,7 @@ title: Unfold Box
 
 The macro allows to unfold the surfaces of a box of any shape and to draw them on a page.
 
-![](/src/assets/images/Macro_unfoldBox1.png)
+![](/images/Macro_unfoldBox1.png)
 
 Macro Unfold Box
 
@@ -47,7 +47,7 @@ Forum topic: [Macro for unfolding box surfaces](http://forum.freecadweb.org/view
 - Group drawings on the same page if possible.
 - Sew the edges of the pieces or not.
 
-![Macro_unfoldBox](/src/assets/images/Macro_UnFoldBox_start_form.png)
+![Macro_unfoldBox](/images/Macro_UnFoldBox_start_form.png)
 
 ## Usage
 
@@ -58,7 +58,7 @@ Forum topic: [Macro for unfolding box surfaces](http://forum.freecadweb.org/view
 
 The unfolding algorithm will place the faces on the XY plane, however it seldom does the unfolding correctly. Thus some manual post-processing is needed to get to desired result, as shown in the picture below.
 
-![Macro_unfoldBox](/src/assets/images/MacroUnFoldBoxInstruction.png)
+![Macro_unfoldBox](/images/MacroUnFoldBoxInstruction.png)
 
 Starting point is a box like the upper left picture.
 
@@ -72,7 +72,7 @@ The finished result is shown in the lower right picture above.
 
 ## Script
 
-ToolBar icon ![](/src/assets/images/Macro_Unfold_Box.png)
+ToolBar icon ![](/images/Macro_Unfold_Box.png)
 
 **Macro_unfoldBox.FCMacro**
 

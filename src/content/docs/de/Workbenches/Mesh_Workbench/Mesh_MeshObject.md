@@ -8,9 +8,9 @@ Ein Polygonnetz PolygonnetzObjekt, oder formal ein `Mesh::MeshObject`, ist eine 
 
 Meshes are normally created with the [Mesh Workbench](/Mesh_Workbench "Mesh Workbench"), or imported from STL, OBJ, and similar mesh file formats.
 
-Please note that the ![](/src/assets/images/Workbench_FEM.svg) [FEM Workbench](/FEM_Workbench "FEM Workbench") also uses meshes, but in this case, it uses a different data structure, called [FEM FemMesh](/FEM_Mesh "FEM Mesh") (`Fem::FemMesh` class). This information does not apply to FEM meshes.
+Please note that the ![](/images/Workbench_FEM.svg) [FEM Workbench](/FEM_Workbench "FEM Workbench") also uses meshes, but in this case, it uses a different data structure, called [FEM FemMesh](/FEM_Mesh "FEM Mesh") (`Fem::FemMesh` class). This information does not apply to FEM meshes.
 
-![](/src/assets/images/FreeCAD_core_objects.svg)
+![](/images/FreeCAD_core_objects.svg)
 
 Simplified diagram of the relationships between the core objects in the program. The `Mesh::MeshObject` class is embedded in the `Mesh::Feature` object and from there it is propagated to all objects that are derived from it.
 

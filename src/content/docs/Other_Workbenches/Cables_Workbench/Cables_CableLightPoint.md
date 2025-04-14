@@ -19,13 +19,13 @@ title: Cables CableLightPoint
 
 ## Description
 
-The ![](/src/assets/images/Cables_CableLightPoint.svg) [Cable Light Point](/Cables_CableLightPoint "Cables CableLightPoint") creates a parametric light point object. The light point is a simple ring symbolizing the point where a cable exits from e.g. the wall to connect a light source (e.g. a lamp). It has default size upon creation, but some parameters, like **Diameter**, **Height** or **Thickness** can be changed later. The **Cable Light Point** belongs to the [Arch Component](/Arch_Component "Arch Component") class and inherits all of its properties. The **Cable Light Point** has two support points (one point on each side of the hole) which can be used as attachment supports for a cable passing through the ring.
+The ![](/images/Cables_CableLightPoint.svg) [Cable Light Point](/Cables_CableLightPoint "Cables CableLightPoint") creates a parametric light point object. The light point is a simple ring symbolizing the point where a cable exits from e.g. the wall to connect a light source (e.g. a lamp). It has default size upon creation, but some parameters, like **Diameter**, **Height** or **Thickness** can be changed later. The **Cable Light Point** belongs to the [Arch Component](/Arch_Component "Arch Component") class and inherits all of its properties. The **Cable Light Point** has two support points (one point on each side of the hole) which can be used as attachment supports for a cable passing through the ring.
 
 The support points are barely visible by default, but this can be changed by increasing the **Point Size** view property.
 
 **Cable Light Point** object can be colored by attaching desired [Material](/Arch_SetMaterial "Arch SetMaterial") to the **Material** property.
 
-![](/src/assets/images/Cables_CableLightPoint_Example1.png)
+![](/images/Cables_CableLightPoint_Example1.png)
 
 Example of the default Cable Light Point:  
 There are support points above and below the ring.
@@ -34,9 +34,9 @@ There are support points above and below the ring.
 
 1. Select the vertex, point on surface or object in the [3D view](/3D_view "3D view") or select nothing.
 2. Create Cable Light Point by one of these methods:
-   - Press the ![](/src/assets/images/Cables_CableLightPoint.svg) [Cable Light Point](/Cables_CableLightPoint "Cables CableLightPoint") button.
-   - Select the **Cables → ![](/src/assets/images/Cables_CableLightPoint.svg) Cable Light Point** option from the menu.
-   - Right-click in the [Tree view](/Tree_view "Tree view") or the [3D view](/3D_view "3D view") and select the **Cables → ![](/src/assets/images/Cables_CableLightPoint.svg) Cable Light Point** option from the context menu.
+   - Press the ![](/images/Cables_CableLightPoint.svg) [Cable Light Point](/Cables_CableLightPoint "Cables CableLightPoint") button.
+   - Select the **Cables → ![](/images/Cables_CableLightPoint.svg) Cable Light Point** option from the menu.
+   - Right-click in the [Tree view](/Tree_view "Tree view") or the [3D view](/3D_view "3D view") and select the **Cables → ![](/images/Cables_CableLightPoint.svg) Cable Light Point** option from the context menu.
 
 Once created the Cable Light Point is placed at the position of selected vertex, point or object in the 3D space (or at the point (0,0,0) if nothing was selected).
 
@@ -60,7 +60,7 @@ Cable Light Point
 
 The way of building a **Cable Light Point** is very similar to the [Cable Box Typical workflow](/Cables_CableBox#Typical_workflow "Cables CableBox") or [Cable Connector Typical workflow](/Cables_CableConnector#Typical_workflow "Cables CableConnector")
 
-![](/src/assets/images/Cables_CableLightPoint_Example2.png)
+![](/images/Cables_CableLightPoint_Example2.png)
 
 Example of a cable ended inside Cable Light Point.
 

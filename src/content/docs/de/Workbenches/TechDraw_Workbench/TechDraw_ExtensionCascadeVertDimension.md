@@ -21,18 +21,18 @@ title: TechDraw ErgänzungVertikaleMaßeAnordnen
 
 Das Werkzeug **TechDraw ErgänzungVertikaleMaßeAnordnen** erzeugt gleiche Abstände zwischen vertikalen Maßen.
 
-![](/src/assets/images/TechDraw_ExtensionCascadeVertDimensionExample.png)
+![](/images/TechDraw_ExtensionCascadeVertDimensionExample.png)
 
 Rechts vertikale Maße mit gleichen Abständen
 
 ## Anwendung
 
-1. Wahlweise den Abstand mit dem Werkzeug ![](/src/assets/images/TechDraw_ExtensionSelectLineAttributes.svg) [TechDraw ErgänzungLinienmerkmaleAuswählen](/TechDraw_ExtensionSelectLineAttributes/de "TechDraw ExtensionSelectLineAttributes/de") festlegen.
+1. Wahlweise den Abstand mit dem Werkzeug ![](/images/TechDraw_ExtensionSelectLineAttributes.svg) [TechDraw ErgänzungLinienmerkmaleAuswählen](/TechDraw_ExtensionSelectLineAttributes/de "TechDraw ExtensionSelectLineAttributes/de") festlegen.
 2. Zwei oder mehr vertikale Maße auswählen.
 3. Das erste Maß legt die Position fest. Dieses Maß wird nicht bewegt, die anderen Maße werden relativ zu diesem positioniert.
 4. Es gibt mehrere Möglichkeiten das Werkzeug aufzurufen:
-   - Die Schaltfläche ![](/src/assets/images/TechDraw_ExtensionCascadeVertDimension.svg) Vertikale Maße anordnen drücken.
-   - Den Menüeintrag **TechDraw → Ergänzungen: Merkmale/Änderungen → ![](/src/assets/images/TechDraw_ExtensionCascadeVertDimension.svg) Vertikale Maße anordnen** auswählen.
+   - Die Schaltfläche ![](/images/TechDraw_ExtensionCascadeVertDimension.svg) Vertikale Maße anordnen drücken.
+   - Den Menüeintrag **TechDraw → Ergänzungen: Merkmale/Änderungen → ![](/images/TechDraw_ExtensionCascadeVertDimension.svg) Vertikale Maße anordnen** auswählen.
 5. Die Maße werden mit gleichen Abständen angeordnet (und die Maßzahlen zentriert) .
 
 ## Hinweise

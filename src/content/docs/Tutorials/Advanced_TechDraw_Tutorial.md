@@ -31,31 +31,31 @@ Create points, lines, circles, arcs, etc. in TechDraw views and/ or entire "cosm
 
 ## Introduction
 
-This tutorial introduces the experienced user to some advanced use of existing tools and techniques from other workbenches to extend actually missing functionality in ![](/src/assets/images/Workbench_TechDraw.svg) [TechDraw Workbench](/TechDraw_Workbench "TechDraw Workbench").
+This tutorial introduces the experienced user to some advanced use of existing tools and techniques from other workbenches to extend actually missing functionality in ![](/images/Workbench_TechDraw.svg) [TechDraw Workbench](/TechDraw_Workbench "TechDraw Workbench").
 This tutorial is not a complete and comprehensive guide to the TechDraw Workbench and many of the tools and capabilities are not covered.
 It should contribute to overcome the difficulties that are encountered in quoting and enriching the technical drawing using TechDraw.
 This tutorial will take advanced users through the steps needed to produce challenging technical drawings of the part from the [Basic Part Design Tutorial](/Basic_Part_Design_Tutorial "Basic Part Design Tutorial") using drawing tools of the
 
-1. ![](/src/assets/images/Workbench_Draft.svg) [Draft Workbench](/Draft_Workbench "Draft Workbench") (lines, polylines, circumferences, arcs, splines, beziers, etc.), in particular the snaps, to create on the object effectively precise "cosmetic points" that could then be used for dimensioning in TechDraw.
-2. It is also possible to use the ![](/src/assets/images/Workbench_Sketcher.svg) [Sketcher Workbench](/Sketcher_Workbench "Sketcher Workbench") as
+1. ![](/images/Workbench_Draft.svg) [Draft Workbench](/Draft_Workbench "Draft Workbench") (lines, polylines, circumferences, arcs, splines, beziers, etc.), in particular the snaps, to create on the object effectively precise "cosmetic points" that could then be used for dimensioning in TechDraw.
+2. It is also possible to use the ![](/images/Workbench_Sketcher.svg) [Sketcher Workbench](/Sketcher_Workbench "Sketcher Workbench") as
    - generator of "base-sketchTD" (sketch bases for TechDraw) in 2D (e.g. such as system diagram, floor plans, elevations, views of mechanical or overall parts, etc.) or by
    - using directly the sketches that generated the 3D models, or by
    - converting to sketch the “facebinder” generated with Draft obtained from faces and/ or sections of the 3D models.
-3. To obtain particular sections (cuts on different planes or axes) to be presented on the page in TechDraw (it is advised to use a copy of the original 3D object), then through the creation of planes (even on different axes) using the ![](/src/assets/images/Workfeature_workbench_icon.svg) [Workfeature Workbench](/Workfeature_Workbench "Workfeature Workbench"), it is possible to section the copy of the 3D object ![](/src/assets/images/Part_SliceApart.svg) [Part SliceApart](/Part_SliceApart "Part SliceApart") to obtain the faces to be converted into sketch ![](/src/assets/images/Draft_Draft2Sketch.svg) [Draft Draft2Sketch](/Draft_Draft2Sketch "Draft Draft2Sketch") and then through the Sketcher Workbench edit them to make them suitable to the technical drawing that we are interested in generating in TechDraw. The [Workfeature Workbench](/Workfeature_Workbench "Workfeature Workbench") (and [Macro WorkFeatures](/Macro_WorkFeatures "Macro WorkFeatures")) are full of convenient additional functions, that allow us to easily create planes (theoretically infinite in extension and quantity) by selecting three points (vertices) _(remember that for three points passing, one and only one plane passes through three non-aligned points one and only one plane passes through three non-aligned points_) is a geometric axiom, which confirms without any ambiguity (!) the validity and importance of the WorkFeatureDev tool to create precise plans very easily.
+3. To obtain particular sections (cuts on different planes or axes) to be presented on the page in TechDraw (it is advised to use a copy of the original 3D object), then through the creation of planes (even on different axes) using the ![](/images/Workfeature_workbench_icon.svg) [Workfeature Workbench](/Workfeature_Workbench "Workfeature Workbench"), it is possible to section the copy of the 3D object ![](/images/Part_SliceApart.svg) [Part SliceApart](/Part_SliceApart "Part SliceApart") to obtain the faces to be converted into sketch ![](/images/Draft_Draft2Sketch.svg) [Draft Draft2Sketch](/Draft_Draft2Sketch "Draft Draft2Sketch") and then through the Sketcher Workbench edit them to make them suitable to the technical drawing that we are interested in generating in TechDraw. The [Workfeature Workbench](/Workfeature_Workbench "Workfeature Workbench") (and [Macro WorkFeatures](/Macro_WorkFeatures "Macro WorkFeatures")) are full of convenient additional functions, that allow us to easily create planes (theoretically infinite in extension and quantity) by selecting three points (vertices) _(remember that for three points passing, one and only one plane passes through three non-aligned points one and only one plane passes through three non-aligned points_) is a geometric axiom, which confirms without any ambiguity (!) the validity and importance of the WorkFeatureDev tool to create precise plans very easily.
 
 (\*_This is quite comparable to AutoCAD Slice command [[1]](https://knowledge.autodesk.com/support/autocad/learn-explore/caas/CloudHelp/cloudhelp/2019/ENU/AutoCAD-Core/files/GUID-27593C5E-4B89-41F2-872B-927D69517CBF-htm.html) which is based on that axiom. Without pre-building any new plane, a cutting plane using three points is defined._)
 
-_Note: These planes can be joined together by overlapping/ coinciding of two edges using the Boolean feature of ![](/src/assets/images/Part_Fuse.svg) [Part Union](/Part_Fuse "Part Fuse")._ The planes thus formed and suitably positioned (according to our provisions) will be used as \*_cutting blades_- ![](/src/assets/images/Part_SliceApart.svg) [Part SliceApart](/Part_SliceApart "Part SliceApart"), cutting our 3D object into several parts according to the chosen planar confirmation.
+_Note: These planes can be joined together by overlapping/ coinciding of two edges using the Boolean feature of ![](/images/Part_Fuse.svg) [Part Union](/Part_Fuse "Part Fuse")._ The planes thus formed and suitably positioned (according to our provisions) will be used as \*_cutting blades_- ![](/images/Part_SliceApart.svg) [Part SliceApart](/Part_SliceApart "Part SliceApart"), cutting our 3D object into several parts according to the chosen planar confirmation.
 
 ## Before You Begin
 
 The Workbenches that are used to produce the drawings of the attached examples are:
 
-- ![](/src/assets/images/Workbench_Part.svg) [Part Workbench](/Part_Workbench "Part Workbench")
-- ![](/src/assets/images/Workbench_Draft.svg) [Draft Workbench](/Draft_Workbench "Draft Workbench")
-- ![](/src/assets/images/Workbench_Sketcher.svg) [Sketcher Workbench](/Sketcher_Workbench "Sketcher Workbench")
-- ![](/src/assets/images/Workfeature_workbench_icon.svg) [Workfeature Workbench](/Workfeature_Workbench "Workfeature Workbench")
-- ![](/src/assets/images/Workbench_TechDraw.svg) [TechDraw Workbench](/TechDraw_Workbench "TechDraw Workbench")
+- ![](/images/Workbench_Part.svg) [Part Workbench](/Part_Workbench "Part Workbench")
+- ![](/images/Workbench_Draft.svg) [Draft Workbench](/Draft_Workbench "Draft Workbench")
+- ![](/images/Workbench_Sketcher.svg) [Sketcher Workbench](/Sketcher_Workbench "Sketcher Workbench")
+- ![](/images/Workfeature_workbench_icon.svg) [Workfeature Workbench](/Workfeature_Workbench "Workfeature Workbench")
+- ![](/images/Workbench_TechDraw.svg) [TechDraw Workbench](/TechDraw_Workbench "TechDraw Workbench")
 
 ## The Task
 

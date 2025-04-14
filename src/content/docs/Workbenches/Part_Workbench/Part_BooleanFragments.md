@@ -19,9 +19,9 @@ title: Part BooleanFragments
 
 ## Description
 
-The ![](/src/assets/images/Part_BooleanFragments.svg) **Part BooleanFragments** tool computes all fragments that can result from applying Boolean operations between input shapes. For example, for two intersecting spheres, three non-overlapping but touching solids are generated.
+The ![](/images/Part_BooleanFragments.svg) **Part BooleanFragments** tool computes all fragments that can result from applying Boolean operations between input shapes. For example, for two intersecting spheres, three non-overlapping but touching solids are generated.
 
-![](/src/assets/images/Part_BooleanFragments_Demo.png)
+![](/images/Part_BooleanFragments_Demo.png)
 
 In the image above, the pieces were moved apart manually afterwards, to reveal the slicing.
 
@@ -39,8 +39,8 @@ In "CompSolid" mode, the solids are joined into a compsolid (compsolid is a set 
 
 1. Select objects to be intersected. The order of selection is not important, since the action of the tool is symmetric. It is enough to select one sub-shape of each object (e.g. faces). You can also select a compound containing all shapes to be connected, e.g. a [Draft OrthoArray](/Draft_OrthoArray "Draft OrthoArray").
 2. There are several ways to invoke the tool:
-   - Press the ![](/src/assets/images/Part_BooleanFragments.svg) [Boolean fragments](/Part_BooleanFragments "Part BooleanFragments") button.
-   - Select the **Part → Split → ![](/src/assets/images/Part_BooleanFragments.svg) Boolean fragments** option from the menu.
+   - Press the ![](/images/Part_BooleanFragments.svg) [Boolean fragments](/Part_BooleanFragments "Part BooleanFragments") button.
+   - Select the **Part → Split → ![](/images/Part_BooleanFragments.svg) Boolean fragments** option from the menu.
 3. A Boolean Fragments parametric object is created. Original objects are hidden, and the result of intersection is shown in the [3D view](/3D_view "3D view").
 
 ## Properties

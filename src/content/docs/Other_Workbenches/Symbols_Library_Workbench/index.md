@@ -16,13 +16,13 @@ It is maintained by the community of users of FreeCAD and is not part of the Fre
 
 ## Symbols
 
-![](/src/assets/images/CompassRose.svg)
-![](/src/assets/images/FirstAngleProjection.svg)
-![](/src/assets/images/ThirdAngleProjection.svg)
-![](/src/assets/images/SectionMark01.png)
-![](/src/assets/images/SectionMark02.png)
-![](/src/assets/images/SectionMark03.png)
-![](/src/assets/images/SectionMark04.png)
+![](/images/CompassRose.svg)
+![](/images/FirstAngleProjection.svg)
+![](/images/ThirdAngleProjection.svg)
+![](/images/SectionMark01.png)
+![](/images/SectionMark02.png)
+![](/images/SectionMark03.png)
+![](/images/SectionMark04.png)
 
 ## Installation
 

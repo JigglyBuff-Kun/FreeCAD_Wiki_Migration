@@ -24,7 +24,7 @@ Creates a new resized mesh object with independent sizing for each axis.
 ## Usage
 
 1. Select the mesh object to be resized.
-2. Click the OpenSCAD → ![](/src/assets/images/OpenSCAD_ResizeMeshFeature.svg) Scale Resize Feature... menu.
+2. Click the OpenSCAD → ![](/images/OpenSCAD_ResizeMeshFeature.svg) Scale Resize Feature... menu.
 3. Select the desired axis in the dialog, or enter your own custom axis to use and click OK.
 
 - A new mesh object is created and resized, the original object is rendered hidden.

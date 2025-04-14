@@ -4,7 +4,7 @@ title: CfdOF Workbench
 
 :::caution
 This documentation is a work in progress. Please don't mark it as translatable since it will change in the next hours and days.
-:::[![Workbench CfdOF Icon](/src/assets/images/8/8b/Workbench_CfdOF.svg)](/File:Workbench_CfdOF.svg)
+:::[![Workbench CfdOF Icon](/images/8/8b/Workbench_CfdOF.svg)](/File:Workbench_CfdOF.svg)
 
 Workbench CfdOF Icon
 
@@ -36,7 +36,7 @@ The steps to carry out a Computational Fluid Dynamics are:
 2. Solving: running an external OpenFOAM® solver from within FreeCAD.
 3. Post-processing: exporting the results so they can be postprocessed with [ParaView](https://www.paraview.org/).
 
-![Workflow of the CfdOF Workbench](/src/assets/images/CfdOF_Workbench_workflow.svg)
+![Workflow of the CfdOF Workbench](/images/CfdOF_Workbench_workflow.svg)
 
 Workflow of the CfdOF Workbench
 
@@ -44,31 +44,31 @@ Workflow of the CfdOF Workbench
 
 ## Menu: CfdOF
 
-- ![](/src/assets/images/CfdOF_analysis.svg) [Analysis Container](/CfdOF_Analysis "CfdOF Analysis"): Creates a new container for Computational Fluid Dynamics.
+- ![](/images/CfdOF_analysis.svg) [Analysis Container](/CfdOF_Analysis "CfdOF Analysis"): Creates a new container for Computational Fluid Dynamics.
 
-- ![](/src/assets/images/CfdOF_Physics_Model.svg) [Physics Model](/CfdOF_Physics_Model "CfdOF Physics Model"): Lets you select the solver that is to be used in the CFD study.
+- ![](/images/CfdOF_Physics_Model.svg) [Physics Model](/CfdOF_Physics_Model "CfdOF Physics Model"): Lets you select the solver that is to be used in the CFD study.
 
-- ![](/src/assets/images/CfdOF_Fluid_Properties.svg) [Fluid Properties](/CfdOF_Fluid_Properties "CfdOF Fluid Properties"): Lets you input the properties of the fluids to be used in the simulation.
+- ![](/images/CfdOF_Fluid_Properties.svg) [Fluid Properties](/CfdOF_Fluid_Properties "CfdOF Fluid Properties"): Lets you input the properties of the fluids to be used in the simulation.
 
-- ![](/src/assets/images/CfdOF_CFD_Mesh.svg) [CFD Mesh](/CfdOF_CFD_Mesh "CfdOF CFD Mesh"): Lets you build the backgroud, or base, mesh from the geometry.
+- ![](/images/CfdOF_CFD_Mesh.svg) [CFD Mesh](/CfdOF_CFD_Mesh "CfdOF CFD Mesh"): Lets you build the backgroud, or base, mesh from the geometry.
 
-- ![](/src/assets/images/CfdOF_Mesh_Refinement.svg) [Mesh Refinement](/CfdOF_Mesh_Refinement "CfdOF Mesh Refinement"): Lets you refine the mesh on the surface and for a volume. Also lets you extrude a mesh.
+- ![](/images/CfdOF_Mesh_Refinement.svg) [Mesh Refinement](/CfdOF_Mesh_Refinement "CfdOF Mesh Refinement"): Lets you refine the mesh on the surface and for a volume. Also lets you extrude a mesh.
 
-- ![](/src/assets/images/CdfOF_Mesh_Dynamic.svg) [Interface Dynamic Refinement & Shockwave Dynamic Refinement](/index.php?title=CfdOF_Interface_Dynamic_Refinement_%26_Shockwave_Dynamic_Refinement&action=edit&redlink=1 "CfdOF Interface Dynamic Refinement & Shockwave Dynamic Refinement (page does not exist)"): Lets you...
+- ![](/images/CdfOF_Mesh_Dynamic.svg) [Interface Dynamic Refinement & Shockwave Dynamic Refinement](/index.php?title=CfdOF_Interface_Dynamic_Refinement_%26_Shockwave_Dynamic_Refinement&action=edit&redlink=1 "CfdOF Interface Dynamic Refinement & Shockwave Dynamic Refinement (page does not exist)"): Lets you...
 
-- ![](/src/assets/images/CfdOF_Fluid_Boundary.svg) [Fluid Boundary](/index.php?title=CfdOF_Fluid_Boundary&action=edit&redlink=1 "CfdOF Fluid Boundary (page does not exist)"): Lets you...
+- ![](/images/CfdOF_Fluid_Boundary.svg) [Fluid Boundary](/index.php?title=CfdOF_Fluid_Boundary&action=edit&redlink=1 "CfdOF Fluid Boundary (page does not exist)"): Lets you...
 
-- ![](/src/assets/images/CfdOF_Initialise_Flow_Fields.svg) [Initialise Flow Fields](/index.php?title=CfdOF_Initialise_Flow_Fields&action=edit&redlink=1 "CfdOF Initialise Flow Fields (page does not exist)"): Lets you...
+- ![](/images/CfdOF_Initialise_Flow_Fields.svg) [Initialise Flow Fields](/index.php?title=CfdOF_Initialise_Flow_Fields&action=edit&redlink=1 "CfdOF Initialise Flow Fields (page does not exist)"): Lets you...
 
-- ![](/src/assets/images/CfdOF_Initialisation_Zones.svg) [Initialisation Zones](/index.php?title=CfdOF_Initialisation_Zones&action=edit&redlink=1 "CfdOF Initialisation Zones (page does not exist)"): Lets you...
+- ![](/images/CfdOF_Initialisation_Zones.svg) [Initialisation Zones](/index.php?title=CfdOF_Initialisation_Zones&action=edit&redlink=1 "CfdOF Initialisation Zones (page does not exist)"): Lets you...
 
-- ![](/src/assets/images/CfdOF_Porous_Zone.svg) [Porous Zone](/index.php?title=CfdOF_Porous_Zone&action=edit&redlink=1 "CfdOF Porous Zone (page does not exist)"): Lets you...
+- ![](/images/CfdOF_Porous_Zone.svg) [Porous Zone](/index.php?title=CfdOF_Porous_Zone&action=edit&redlink=1 "CfdOF Porous Zone (page does not exist)"): Lets you...
 
-- ![](/src/assets/images/CfdOF_Reporting_Function.svg) [Reporting Function](/index.php?title=CfdOF_Reporting_Function&action=edit&redlink=1 "CfdOF Reporting Function (page does not exist)"): Lets you...
+- ![](/images/CfdOF_Reporting_Function.svg) [Reporting Function](/index.php?title=CfdOF_Reporting_Function&action=edit&redlink=1 "CfdOF Reporting Function (page does not exist)"): Lets you...
 
-- ![](/src/assets/images/CfdOF_Scalar_Transport_Function.svg) [Scalar Transport Function](/index.php?title=CfdOF_Scalar_Transport_Function&action=edit&redlink=1 "CfdOF Scalar Transport Function (page does not exist)"): Lets you...
+- ![](/images/CfdOF_Scalar_Transport_Function.svg) [Scalar Transport Function](/index.php?title=CfdOF_Scalar_Transport_Function&action=edit&redlink=1 "CfdOF Scalar Transport Function (page does not exist)"): Lets you...
 
-- ![](/src/assets/images/CfdOF_CFD_Solver.svg) [CFD Solver](/CfdOF_CFD_Solver "CfdOF CFD Solver"): Lets you...
+- ![](/images/CfdOF_CFD_Solver.svg) [CFD Solver](/CfdOF_CFD_Solver "CfdOF CFD Solver"): Lets you...
 
 ## Information
 

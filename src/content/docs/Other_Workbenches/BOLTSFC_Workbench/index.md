@@ -5,7 +5,7 @@ title: BOLTSFC Workbench
 :::caution
 This documentation is not finished. Please help and contribute documentation.GuiCommand modelexplains how commands should be documented. BrowseCategory:UnfinishedDocuto see more incomplete pages like this one. SeeCategory:Command Referencefor all commands.SeeWikiPagesto learn about editing the wiki pages, and go toHelp FreeCADto learn about other ways in which you can contribute.
 :::
-![](/src/assets/images/BOLTSFC_workbench_icon.svg)
+![](/images/BOLTSFC_workbench_icon.svg)
 
 The FreeCAD BOLTS External Workbench Icon
 
@@ -26,7 +26,7 @@ Detailed description [here](http://www.bolts-library.org/en/docs/0.3/freecad/usa
 
 Standard Parts Selector
 
-![](/src/assets/images/BOLTS-selector.png)
+![](/images/BOLTS-selector.png)
 
 ## Installation
 

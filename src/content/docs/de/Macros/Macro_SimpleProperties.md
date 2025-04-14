@@ -57,7 +57,7 @@ Für ausführlichere Erklärungen siehe Seite [Wie man Makros installiert](/How_
 ### Code
 
 Werkzeugleisten-Symbol
-![](/src/assets/images/Macro_SimpleProperties.png)
+![](/images/Macro_SimpleProperties.png)
 
 **Macro_SimpleProperties.FCMacro**
 

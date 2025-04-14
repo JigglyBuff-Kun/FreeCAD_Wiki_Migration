@@ -31,8 +31,8 @@ Depending on your operating system and installation package, Netgen might be bun
 
 1. Select the shape you want to analyze. For a volume, this needs to be solid or compsolid. A compsolid is necessary if your part is made from multiple materials (a compsolid can be created with the [Part BooleanFragments](/Part_BooleanFragments "Part BooleanFragments") command).
 2. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/FEM_MeshNetgenFromShape.svg) [FEM mesh from shape by Netgen](/FEM_MeshNetgenFromShape "FEM MeshNetgenFromShape") button.
-   - Select the **Mesh → ![](/src/assets/images/FEM_MeshGmshFromShape.svg) FEM mesh from shape by Netgen** option from the menu.
+   - Press the ![](/images/FEM_MeshNetgenFromShape.svg) [FEM mesh from shape by Netgen](/FEM_MeshNetgenFromShape "FEM MeshNetgenFromShape") button.
+   - Select the **Mesh → ![](/images/FEM_MeshGmshFromShape.svg) FEM mesh from shape by Netgen** option from the menu.
 3. Optionally, set the max/min element size (the default setting usually creates meshes that are too coarse) and element order (using the _Second Order_ checkbox).
 4. Optionally, change the _Fineness_ to one of the predefined choices or choose _UserDefined_ and manually edit the parameters.
 5. Click the Apply button to generate the mesh. [introduced in 1.0](/Release_notes_1.0 "Release notes 1.0"): Optionally, use the Cancel button to abort meshing if using the new Netgen implementation.

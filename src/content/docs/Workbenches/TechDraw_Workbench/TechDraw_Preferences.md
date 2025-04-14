@@ -4,7 +4,7 @@ title: TechDraw Preferences
 
 ## Introduction
 
-The preferences for the ![](/src/assets/images/Workbench_TechDraw.svg) [TechDraw Workbench](/TechDraw_Workbench "TechDraw Workbench") can be found in the [Preferences Editor](/Preferences_Editor "Preferences Editor"). In the menu select **Edit → Preferences...** and then **![](/src/assets/images/Workbench_TechDraw.svg) TechDraw**. This group is only available if the TechDraw Workbench has been loaded in the current FreeCAD session.
+The preferences for the ![](/images/Workbench_TechDraw.svg) [TechDraw Workbench](/TechDraw_Workbench "TechDraw Workbench") can be found in the [Preferences Editor](/Preferences_Editor "Preferences Editor"). In the menu select **Edit → Preferences...** and then **![](/images/Workbench_TechDraw.svg) TechDraw**. This group is only available if the TechDraw Workbench has been loaded in the current FreeCAD session.
 
 There are seven pages: [General](#General), [Scale](#Scale), [Dimensions](#Dimensions), [Annotation](#Annotation), [Colors](#Colors), [HLR](#HLR) and [Advanced](#Advanced).
 
@@ -14,7 +14,7 @@ This page has been updated for version 1.0.
 
 ## General
 
-![](/src/assets/images/Preferences_TechDraw_Page_General.png)
+![](/images/Preferences_TechDraw_Page_General.png)
 
 General preferences
 
@@ -40,10 +40,10 @@ General preferences
 ### Files
 
 - **Default Template**: Default [template](/TechDraw_Templates "TechDraw Templates") file for new pages.
-- **Template Directory**: Starting directory for toolbar button ![](/src/assets/images/TechDraw_PageTemplate.svg) [Insert Page using Template](/TechDraw_PageTemplate "TechDraw PageTemplate").
+- **Template Directory**: Starting directory for toolbar button ![](/images/TechDraw_PageTemplate.svg) [Insert Page using Template](/TechDraw_PageTemplate "TechDraw PageTemplate").
 - **Hatch Pattern File**: Default [SVG](/SVG "SVG") or [bitmap](/Bitmap "Bitmap") file for [hatches](/TechDraw_Hatch "TechDraw Hatch").
 - **Line Group File**: Alternate file for personal [line group](/TechDraw_LineGroup "TechDraw LineGroup") definitions.
-- **Welding Directory**: Default directory for toolbar button ![](/src/assets/images/TechDraw_WeldSymbol.svg) [Add Welding Information to Leader](/TechDraw_WeldSymbol "TechDraw WeldSymbol").
+- **Welding Directory**: Default directory for toolbar button ![](/images/TechDraw_WeldSymbol.svg) [Add Welding Information to Leader](/TechDraw_WeldSymbol "TechDraw WeldSymbol").
 - **PAT File**: Default PAT pattern definition file for [geometric hatches](/TechDraw_GeometricHatch "TechDraw GeometricHatch").
 - **Pattern Name**: Name of the default PAT pattern.
 - **Symbol Directory**: Alternate directory to search for SVG symbol files.
@@ -69,7 +69,7 @@ General preferences
 
 ## Scale
 
-![](/src/assets/images/Preferences_TechDraw_Page_Scale.png)
+![](/images/Preferences_TechDraw_Page_Scale.png)
 
 Scale preferences
 
@@ -88,13 +88,13 @@ Scale preferences
 
 ## Dimensions
 
-![](/src/assets/images/Preferences_TechDraw_Page_Dimensions.png)
+![](/images/Preferences_TechDraw_Page_Dimensions.png)
 
 Dimensions preferences
 
 ### Dimensions
 
-- **Standard and Style**: The standard to be used for dimensional values. The differences between the standards are shown in the image: ![](/src/assets/images/TechDraw_Dimension_standardization.png)
+- **Standard and Style**: The standard to be used for dimensional values. The differences between the standards are shown in the image: ![](/images/TechDraw_Dimension_standardization.png)
 
   Differences between the supported standards. ([Image source](https://forum.freecadweb.org/viewtopic.php?f=35&t=39571#p336144))
 
@@ -129,7 +129,7 @@ Dimensions preferences
 
 ## Annotation
 
-![](/src/assets/images/Preferences_TechDraw_Page_Annotation.png)
+![](/images/Preferences_TechDraw_Page_Annotation.png)
 
 Annotation preferences
 
@@ -173,7 +173,7 @@ Annotation preferences
 
 ## Colors
 
-![](/src/assets/images/Preferences_TechDraw_Page_Colors.png)
+![](/images/Preferences_TechDraw_Page_Colors.png)
 
 Colors preferences
 
@@ -202,7 +202,7 @@ Setup of the default colors for new pages:
 
 ## HLR
 
-![](/src/assets/images/Preferences_TechDraw_Page_HLR.png)
+![](/images/Preferences_TechDraw_Page_HLR.png)
 
 HLR preferences
 
@@ -217,7 +217,7 @@ HLR stands for _hidden line removal_.
 
 ## Advanced
 
-![](/src/assets/images/Preferences_TechDraw_Page_Advanced.png)
+![](/images/Preferences_TechDraw_Page_Advanced.png)
 
 Advanced preferences
 

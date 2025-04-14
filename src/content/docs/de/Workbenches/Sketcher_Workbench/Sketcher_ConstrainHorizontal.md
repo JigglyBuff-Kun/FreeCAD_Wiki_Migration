@@ -19,7 +19,7 @@ title: Sketcher HorizontalFestlegen
 
 ## Beschreibung
 
-Das Werkzeug ![](/src/assets/images/Sketcher_ConstrainHorizontal.svg) Sketcher HorizontalFestlegen legt Linien oder Punktpaare horizontal fest (parallel zur horizontalen Achse der Skizze).
+Das Werkzeug ![](/images/Sketcher_ConstrainHorizontal.svg) Sketcher HorizontalFestlegen legt Linien oder Punktpaare horizontal fest (parallel zur horizontalen Achse der Skizze).
 
 [eingeführt in 1.0](/Release_notes_1.0/de "Release notes 1.0/de"): In den meisten Fällen ist es ratsam das kombinierte Werkzeug [Sketcher HorVerFestlegen](/Sketcher_ConstrainHorVer/de "Sketcher ConstrainHorVer/de") zu verwenden.
 
@@ -32,10 +32,10 @@ Siehe auch: [Zeichnungshilfen](/Sketcher_Workbench/de#Zeichnungshilfen "Sketcher
 1. Sicherstellen, dass die Auswahl leer ist.
 2. Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
 
-   - [eingeführt in 1.0](/Release_notes_1.0/de "Release notes 1.0/de"): Ist die [Voreinstellung](/Sketcher_Preferences/de#Allgemein "Sketcher Preferences/de") **Kombiniertes Werkzeug für automatisch horizontal bzw. vertikal festlegen** aktiviert (Standardeinstellung): Den Abwärtspfeil rechts neben der Schaltfläche ![](/src/assets/images/Sketcher_ConstrainHorVer.svg)![](/src/assets/images/Toolbar_flyout_arrow.svg) drücken und **![](/src/assets/images/Sketcher_ConstrainHorizontal.svg) Horizontal festlegen** in der Ausklappliste auswählen.
+   - [eingeführt in 1.0](/Release_notes_1.0/de "Release notes 1.0/de"): Ist die [Voreinstellung](/Sketcher_Preferences/de#Allgemein "Sketcher Preferences/de") **Kombiniertes Werkzeug für automatisch horizontal bzw. vertikal festlegen** aktiviert (Standardeinstellung): Den Abwärtspfeil rechts neben der Schaltfläche ![](/images/Sketcher_ConstrainHorVer.svg)![](/images/Toolbar_flyout_arrow.svg) drücken und **![](/images/Sketcher_ConstrainHorizontal.svg) Horizontal festlegen** in der Ausklappliste auswählen.
 
-3. - Ist die Voreinstellung nicht aktiviert (und in 0.21 und davor): Die Schaltfläche ![](/src/assets/images/Sketcher_ConstrainHorizontal.svg) Horizontal festlegen drücken.
-   - Den Menüeintrag **Skizze → Sketcher-Randbedingungen → ![](/src/assets/images/Sketcher_ConstrainHorizontal.svg) Horizontal festlegen** auswählen.
+3. - Ist die Voreinstellung nicht aktiviert (und in 0.21 und davor): Die Schaltfläche ![](/images/Sketcher_ConstrainHorizontal.svg) Horizontal festlegen drücken.
+   - Den Menüeintrag **Skizze → Sketcher-Randbedingungen → ![](/images/Sketcher_ConstrainHorizontal.svg) Horizontal festlegen** auswählen.
    - Das Tastaturkürzel H.
 4. Der Mauszeiger wandelt sich zu einem Kreuz mit Werkzeugsymbol.
 5. Eine der folgenden Möglichkeiten auswählen:
@@ -52,7 +52,7 @@ Siehe auch: [Zeichnungshilfen](/Sketcher_Workbench/de#Zeichnungshilfen "Sketcher
    - Zwei oder mehr Punkte auswählen.
    - Eine oder mehrere Linien auswählen. Punkte können in der Auswahl enthalten sein, werden aber ignoriert.
 2. Das Werkzeug aufrufen, wie oben beschrieben oder mit der folgenden zusätzlichen Option:
-   - [eingeführt in 1.0](/Release_notes_1.0/de "Release notes 1.0/de"): Ein Rechtsklick in die [3D-Ansicht](/3D_view/de "3D view/de") und die Menüoption **![](/src/assets/images/Sketcher_ConstrainHorizontal.svg) Horizontal festlegen** im Kontextmenü auswählen.
+   - [eingeführt in 1.0](/Release_notes_1.0/de "Release notes 1.0/de"): Ein Rechtsklick in die [3D-Ansicht](/3D_view/de "3D view/de") und die Menüoption **![](/images/Sketcher_ConstrainHorizontal.svg) Horizontal festlegen** im Kontextmenü auswählen.
 3. Abhängig von der Auswahl werden eine oder mehrere Randbedingungen hinzugefügt.
 
 ## Skripten

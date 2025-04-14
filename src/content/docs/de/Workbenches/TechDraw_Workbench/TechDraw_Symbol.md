@@ -26,14 +26,14 @@ Ein Zeichnungselement kann alles sein, das beim Beschriften einer Zeichnung hilf
 
 [eingeführt in 1.0](/Release_notes_1.0/de "Release notes 1.0/de"): Auch das Werkzeug [TechDraw Ansicht](/TechDraw_View/de "TechDraw View/de") kann ein Zeichnungselement erstellen.
 
-![](/src/assets/images/TechDraw_SymbolSVG_sample.png)
+![](/images/TechDraw_SymbolSVG_sample.png)
 
 Kompassrose zum Zeichnungsblatt hinzugefügt; dieses Zeichnungselement erhält man durch Installation der Erweiterung "symbols_library" mit dem [Addon-Manager](/Std_AddonMgr/de "Std AddonMgr/de")
 
 ## Anwendung
 
 1. Wenn mehrere Zeichnungsblätter im Dokument vorhanden sind: Wahlweise das gewünschte Zeichnungsblatt durch Auswahl in der [Baumansicht](/Tree_view/de "Tree view/de") aktivieren.
-2. Den Menüeintrag **TechDraw → TechDraw Views → ![](/src/assets/images/TechDraw_Symbol.svg) SVG-Zeichnungselement einfügen** auswählen.
+2. Den Menüeintrag **TechDraw → TechDraw Views → ![](/images/TechDraw_Symbol.svg) SVG-Zeichnungselement einfügen** auswählen.
 3. Wenn mehrere Zeichnungsblätter im Dokument vorhanden sind und noch kein Blatt aktiviert wurde, wird das Dialogfenster **Blattauswahl** geöffnet:
    1. Das gewünschte Blatt auswählen.
    2. Die Schaltfläche OK drücken.

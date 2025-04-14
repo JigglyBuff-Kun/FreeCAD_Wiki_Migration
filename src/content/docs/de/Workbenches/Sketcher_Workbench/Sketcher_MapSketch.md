@@ -19,7 +19,7 @@ title: Sketcher SkizzeZuordnen
 
 ## Beschreibung
 
-Das Werkzeug ![](/src/assets/images/Sketcher_MapSketch.svg) Sketcher SkizzeZuordnen befestigt eine Skizze an ausgewählter Geometrie.
+Das Werkzeug ![](/images/Sketcher_MapSketch.svg) Sketcher SkizzeZuordnen befestigt eine Skizze an ausgewählter Geometrie.
 
 Typische Anwendungsfälle sind:
 
@@ -27,14 +27,14 @@ Typische Anwendungsfälle sind:
 - Die Skizze wurde an einer bestimmten Fläche eines Festkörpers befestigt, soll aber an einer anderen Fläche befestigt werden.
 - Ein beschädigtes Modell soll repariert werden.
 
-![](/src/assets/images/Sketcher_MapSketch_00.png)
+![](/images/Sketcher_MapSketch_00.png)
 
 ## Anwendung
 
 1. Ein Objekt mit einer Form, ein oder mehrere Knoten, Kanten und/oder Flächen und/oder eine Ebene auswählen.
 2. Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
-   - Die Schaltfläche ![](/src/assets/images/Sketcher_MapSketch.svg) Skizze einer Fläche zuordnen... drücken.
-   - Den Menüeintrag **Skizze → ![](/src/assets/images/Sketcher_MapSketch.svg) Skizze einer Fläche zuordnen...** auswählen.
+   - Die Schaltfläche ![](/images/Sketcher_MapSketch.svg) Skizze einer Fläche zuordnen... drücken.
+   - Den Menüeintrag **Skizze → ![](/images/Sketcher_MapSketch.svg) Skizze einer Fläche zuordnen...** auswählen.
 3. Der Dialog **Skizze auswählen** wird geöffnet.
 4. Eine Skizze in der Ausklappliste auswählen.
 5. Die Schaltfläche OK drücken.

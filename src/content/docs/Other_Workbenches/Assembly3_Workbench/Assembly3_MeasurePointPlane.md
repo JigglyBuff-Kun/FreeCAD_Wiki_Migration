@@ -28,6 +28,6 @@ This tool measures the distance between two objects of an assembly using a point
 ## Usage
 
 1. Select a point and a planar face.
-2. Press the ![](/src/assets/images/Assembly_MeasurePointPlaneDistance.svg) [Measure point to plane](/Assembly3_MeasurePointPlane "Assembly3 MeasurePointPlane") button.
+2. Press the ![](/images/Assembly_MeasurePointPlaneDistance.svg) [Measure point to plane](/Assembly3_MeasurePointPlane "Assembly3 MeasurePointPlane") button.
 
 Retrieved from "<http://wiki.freecad.org/index.php?title=Assembly3_MeasurePointPlane/en&oldid=909847>"

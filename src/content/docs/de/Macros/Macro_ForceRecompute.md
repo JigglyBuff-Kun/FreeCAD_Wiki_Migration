@@ -28,10 +28,10 @@ title: Neuberechnung Erzwingen
 
 ## Beschreibung
 
-Manchmal, wenn ein Benutzer Änderungen am Modell vornimmt, scheint FreeCAD diese nicht zu erkennen und zu integrieren. Zusätzlich dazu bleibt die blaue Schaltfläche ![](/src/assets/images/Std_Refresh.svg) [Aktualisieren/Neuberechnen](/Std_Refresh/de "Std Refresh/de") ausgegraut.
+Manchmal, wenn ein Benutzer Änderungen am Modell vornimmt, scheint FreeCAD diese nicht zu erkennen und zu integrieren. Zusätzlich dazu bleibt die blaue Schaltfläche ![](/images/Std_Refresh.svg) [Aktualisieren/Neuberechnen](/Std_Refresh/de "Std Refresh/de") ausgegraut.
 Daher wurde dieses kleine Makro entwickelt, um eine manuelle Neuberechnung des Modells zu erzwingen.
 
-**Hinweis:** Ab 0.17 und neuer kann die Wirkung dieses Makros über die GUI erreicht werden. Rechtsklicke auf das Projekt in der [Baumansicht](/Tree_view/de "Tree view/de") und wähle Zum Neuberechnen markieren aus dem Kontextmenü. Dadurch wird das Symbol Aktualisieren/Neuberechnen wieder aktiv. Drücke nun auf die Schaltfläche ![](/src/assets/images/Std_Refresh.svg) [Aktualisieren/Neuberechnen](/Std_Refresh/de "Std Refresh/de"), um eine Neuberechnung auszulösen.
+**Hinweis:** Ab 0.17 und neuer kann die Wirkung dieses Makros über die GUI erreicht werden. Rechtsklicke auf das Projekt in der [Baumansicht](/Tree_view/de "Tree view/de") und wähle Zum Neuberechnen markieren aus dem Kontextmenü. Dadurch wird das Symbol Aktualisieren/Neuberechnen wieder aktiv. Drücke nun auf die Schaltfläche ![](/images/Std_Refresh.svg) [Aktualisieren/Neuberechnen](/Std_Refresh/de "Std Refresh/de"), um eine Neuberechnung auszulösen.
 
 ## Anwendung
 
@@ -40,7 +40,7 @@ Bei Bedarf das Makro ausführen.
 ## Skript
 
 Werkzeugleisten-Symbol
-![](/src/assets/images/Force_Recompute.png)
+![](/images/Force_Recompute.png)
 
 **Macro Force_Recompute.py**
 

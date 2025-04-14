@@ -23,18 +23,18 @@ This documentation is not finished. Please help and contribute documentation.Gui
 
 ## Description
 
-The ![](/src/assets/images/Assembly_New_Group.svg) [Group objects](/Assembly3_GroupObjects "Assembly3 GroupObjects") command adds a new (sub-) **Group** folder object to the Assembly branch of the model tree.
+The ![](/images/Assembly_New_Group.svg) [Group objects](/Assembly3_GroupObjects "Assembly3 GroupObjects") command adds a new (sub-) **Group** folder object to the Assembly branch of the model tree.
 
-It can be used to either group **Constraints**, **Elements**, or **Parts** and will be inserted into the selected objects' group containers (![](/src/assets/images/Assembly_Assembly_Constraints_Tree.svg) **Constraints**, ![](/src/assets/images/Assembly_Assembly_Element_Tree.svg) **Elements**, or ![](/src/assets/images/Assembly_Assembly_Part_Tree.svg) **Parts**)
+It can be used to either group **Constraints**, **Elements**, or **Parts** and will be inserted into the selected objects' group containers (![](/images/Assembly_Assembly_Constraints_Tree.svg) **Constraints**, ![](/images/Assembly_Assembly_Element_Tree.svg) **Elements**, or ![](/images/Assembly_Assembly_Part_Tree.svg) **Parts**)
 
 ## Usage
 
 1. Select several **constraints**, several **elements**, or several **parts** from the assembly tree
 2. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/Assembly_New_Group.svg) [Group objects](/Assembly3_GroupObjects "Assembly3 GroupObjects") button.
-   - Select the **Assembly3 → ![](/src/assets/images/Assembly_New_Group.svg) Group objects** option from the menu.
+   - Press the ![](/images/Assembly_New_Group.svg) [Group objects](/Assembly3_GroupObjects "Assembly3 GroupObjects") button.
+   - Select the **Assembly3 → ![](/images/Assembly_New_Group.svg) Group objects** option from the menu.
    - Use the keyboard shortcut A then Z
 
-: If the selection contains different types of objects the ![](/src/assets/images/Assembly_New_Group.svg) [Group objects](/Assembly3_GroupObjects "Assembly3 GroupObjects") button will be inactive.
+: If the selection contains different types of objects the ![](/images/Assembly_New_Group.svg) [Group objects](/Assembly3_GroupObjects "Assembly3 GroupObjects") button will be inactive.
 
 Retrieved from "<http://wiki.freecad.org/index.php?title=Assembly3_GroupObjects/en&oldid=1508485>"

@@ -36,7 +36,7 @@ This macro allow to find and joint all non connected edge to the closest non con
 
 ## Script
 
-ToolBar Icon ![](/src/assets/images/Macro_JointWire.png)
+ToolBar Icon ![](/images/Macro_JointWire.png)
 
 **Macro_JointWire.FCMacro**
 

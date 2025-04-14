@@ -34,7 +34,7 @@ Ich hoffe, dass dieses Makro unsere Denkweise beim Modellieren mit CAD und CNC r
 
 Alles wird möglich, unabhängig von der Komplexität des Bildes!
 
-Das ![FCCreaLoft](/src/assets/images/FCCreaLoft.png) [Makro Loft](/Macro_Loft/de "Macro Loft/de") wird zum Automatisieren der Multi-Loft-Operation benutzt.
+Das ![FCCreaLoft](/images/FCCreaLoft.png) [Makro Loft](/Macro_Loft/de "Macro Loft/de") wird zum Automatisieren der Multi-Loft-Operation benutzt.
 
 Temporary code for external macro link. Do not use this code. This code is used exclusively by [Addon Manager](/Std_AddonMgr "Std AddonMgr"). _Link for optional manual installation: [Macro](https://gist.githubusercontent.com/mario52a/262317bc7d8555885b0e/raw/f18613c8bfd142e644ba79fc8dd34a5f72282f18/Macro%2520FCTexture.FCMacro)_
 
@@ -66,7 +66,7 @@ webbrowser.open("https://gist.githubusercontent.com/mario52a/262317bc7d8555885b0
 
 <class="rawcodeurl"><a href="<https://gist.githubusercontent.com/mario52a/262317bc7d8555885b0e/raw/f18613c8bfd142e644ba79fc8dd34a5f72282f18/Macro%2520FCTexture.FCMacro>">raw code</a>
 
-![](/src/assets/images/Texture_004_Honda.png)
+![](/images/Texture_004_Honda.png)
 
 Texture 004 Honda
 
@@ -87,59 +87,59 @@ Wichtiger Hinweis: Je nach Größe des Bildes kann das Projekt sehr groß werden
 
 ### Schnittstelle
 
-![Texture 002](/src/assets/images/Texture_002.png)
+![Texture 002](/images/Texture_002.png)
 
 Texture 002
 
 #### Koordinaten
 
-- Coordinate X ![](/src/assets/images/Std_CoordinateSystem.svg) 0,00 mm ![](/src/assets/images/SpinBox.svg): Die X-Koordinate der Position des Objekts (Standardwert: 0).
-- Coordinate Y ![](/src/assets/images/Std_CoordinateSystem.svg) 0,00 mm ![](/src/assets/images/SpinBox.svg): Die Y-Koordinate der Position des Objekts (Standardwert: 0).
-- Coordinate Z ![](/src/assets/images/Std_CoordinateSystem.svg) 0,00 mm ![](/src/assets/images/SpinBox.svg): Die Z-Koordinate der Position des Objekts (Standardwert: 0).
+- Coordinate X ![](/images/Std_CoordinateSystem.svg) 0,00 mm ![](/images/SpinBox.svg): Die X-Koordinate der Position des Objekts (Standardwert: 0).
+- Coordinate Y ![](/images/Std_CoordinateSystem.svg) 0,00 mm ![](/images/SpinBox.svg): Die Y-Koordinate der Position des Objekts (Standardwert: 0).
+- Coordinate Z ![](/images/Std_CoordinateSystem.svg) 0,00 mm ![](/images/SpinBox.svg): Die Z-Koordinate der Position des Objekts (Standardwert: 0).
 
 #### Stretching
 
-- Stretching X 0,00 mm ![](/src/assets/images/SpinBox.svg): Verkleinerung oder Vergrößerung des **X-Wertes** (Länge) des Objekts (Standardwert: 0)
-- Stretching Y 0,00 mm ![](/src/assets/images/SpinBox.svg): Verkleinerung oder Vergrößerung des **Y-Wertes** (Höhe) des Objekts of the object (Standardwert: 0)
-- Stretching Z 0,00 mm ![](/src/assets/images/SpinBox.svg): Verkleinerung oder Vergrößerung des **Z-Wertes** (Tiefe) des Objekts (Standardwert: 0)
+- Stretching X 0,00 mm ![](/images/SpinBox.svg): Verkleinerung oder Vergrößerung des **X-Wertes** (Länge) des Objekts (Standardwert: 0)
+- Stretching Y 0,00 mm ![](/images/SpinBox.svg): Verkleinerung oder Vergrößerung des **Y-Wertes** (Höhe) des Objekts of the object (Standardwert: 0)
+- Stretching Z 0,00 mm ![](/images/SpinBox.svg): Verkleinerung oder Vergrößerung des **Z-Wertes** (Tiefe) des Objekts (Standardwert: 0)
 
 #### Inversion
 
-- ![](/src/assets/images/CheckBoxFalse.svg) Axis X : Kehrt die **X**-Koordinaten des Bildes um.
-- ![](/src/assets/images/CheckBoxFalse.svg) Axis Y : Kehrt die **Y**-Koordinaten des Bildes um.
-- ![](/src/assets/images/CheckBoxFalse.svg) Axis Z : Kehrt die **Z**-Koordinaten des Bildes um.
+- ![](/images/CheckBoxFalse.svg) Axis X : Kehrt die **X**-Koordinaten des Bildes um.
+- ![](/images/CheckBoxFalse.svg) Axis Y : Kehrt die **Y**-Koordinaten des Bildes um.
+- ![](/images/CheckBoxFalse.svg) Axis Z : Kehrt die **Z**-Koordinaten des Bildes um.
 
 #### 8-Bit-Modus
 
 Der Anfangswert des Bedienungswerts passt sich automatisch an die ausgewählte Funktion an: 0, wenn die Einstellung auf Schwarz (**Schwarz**) 255 oder 20 steht, wenn die Einstellung Weiß ist (**Weiß**).
 
-- ![](/src/assets/images/RadioButtonTrue.svg) ![](/src/assets/images/Draft_Wire.svg) Wire : Die Linie (Vektor) als Linienzug (Wire) erstellen.
-- ![](/src/assets/images/RadioButtonFalse.svg) ![](/src/assets/images/Draft_BSpline.svg) Bspline : Die Linie (Vektor) als -Spline erstellen.
-- ![](/src/assets/images/RadioButtonFalse.svg) ![](/src/assets/images/Workbench_Points.svg) Cloud : Die Vektoren der Punkte in einer Punktewolke erstellen.
-- ![](/src/assets/images/RadioButtonFalse.svg) ![](/src/assets/images/Draft_Point.svg) Point : Erstellt einen Punkt an jedem Pixel (Vektor). (Hinweis: Diese Prozedur ist sehr rechenintensiv)
-- ![](/src/assets/images/CheckBoxFalse.svg) Nuance : Wenn die Option Farbton aktiviert ist, wird die Farbe des Punktes als Bild dargestellt.
+- ![](/images/RadioButtonTrue.svg) ![](/images/Draft_Wire.svg) Wire : Die Linie (Vektor) als Linienzug (Wire) erstellen.
+- ![](/images/RadioButtonFalse.svg) ![](/images/Draft_BSpline.svg) Bspline : Die Linie (Vektor) als -Spline erstellen.
+- ![](/images/RadioButtonFalse.svg) ![](/images/Workbench_Points.svg) Cloud : Die Vektoren der Punkte in einer Punktewolke erstellen.
+- ![](/images/RadioButtonFalse.svg) ![](/images/Draft_Point.svg) Point : Erstellt einen Punkt an jedem Pixel (Vektor). (Hinweis: Diese Prozedur ist sehr rechenintensiv)
+- ![](/images/CheckBoxFalse.svg) Nuance : Wenn die Option Farbton aktiviert ist, wird die Farbe des Punktes als Bild dargestellt.
 
 #### 32-Bit-Modus
 
-- ![](/src/assets/images/RadioButtonTrue.svg) Photo : Der Fotomodus wird automatisch aktiviert, wenn ein 32-Bit-Bild erkannt wird. (Hinweis: Die Prozedur ist sehr rechenintensiv)
-- ![](/src/assets/images/RadioButtonFalse.svg) Plan : Erlebt ein '**32-Bit-Bild** zu importieren und den Hintergrund des Plans ignorieren. Standardmäßig ist der Kartenhintergrund schwarz, um zu ignorieren, dass Farben mit dem Befehl **Capping** eingestellt werden können. Wenn Weiß markiert ist, wird der untere Bereich weiß angezeigt. (Hinweis: Die Prozedur ist sehr rechenintensiv)
+- ![](/images/RadioButtonTrue.svg) Photo : Der Fotomodus wird automatisch aktiviert, wenn ein 32-Bit-Bild erkannt wird. (Hinweis: Die Prozedur ist sehr rechenintensiv)
+- ![](/images/RadioButtonFalse.svg) Plan : Erlebt ein '**32-Bit-Bild** zu importieren und den Hintergrund des Plans ignorieren. Standardmäßig ist der Kartenhintergrund schwarz, um zu ignorieren, dass Farben mit dem Befehl **Capping** eingestellt werden können. Wenn Weiß markiert ist, wird der untere Bereich weiß angezeigt. (Hinweis: Die Prozedur ist sehr rechenintensiv)
 
 #### Datei
 
-- ![](/src/assets/images/CheckBoxFalse.svg) .pcd : Wenn aktiviert, wird eine Datei (originalName.bmp.pcd) im selben Verzeichnis wie die Datei (pcd v0.7) gespeichert.
-- ![](/src/assets/images/CheckBoxFalse.svg) .asc : Wenn aktiviert, wird eine Datei (originalName.bmp.asc) im selben Verzeichnis wie die Datei gespeichert. Diese Datei kann als Punktwolke verwendet werden (Format: X Y Z).
+- ![](/images/CheckBoxFalse.svg) .pcd : Wenn aktiviert, wird eine Datei (originalName.bmp.pcd) im selben Verzeichnis wie die Datei (pcd v0.7) gespeichert.
+- ![](/images/CheckBoxFalse.svg) .asc : Wenn aktiviert, wird eine Datei (originalName.bmp.asc) im selben Verzeichnis wie die Datei gespeichert. Diese Datei kann als Punktwolke verwendet werden (Format: X Y Z).
 
 #### Capping (10mm)
 
 - Slider : Die Höhe des Formulars angeben. Die Höhe wird auf dem Titelrahmen angezeigt.
-- 0 height ![](/src/assets/images/SpinBox.svg) : Die Höhe des Formulars angeben. Die Höhe wird auf dem Titelrahmen angezeigt.
-- Raw mode ![](/src/assets/images/CheckBoxFalse.svg) 20 : Zum Einstellen der Anzahl der Farben (Tiefe). Der Standardmodus ist 0-20 (was ein Filter darstellt und weitere Details entsprechend der Komplexität des Bildes liefert), sobald der Modus 0 bis 255 (der gesamte Farbbereich) markiert ist.
+- 0 height ![](/images/SpinBox.svg) : Die Höhe des Formulars angeben. Die Höhe wird auf dem Titelrahmen angezeigt.
+- Raw mode ![](/images/CheckBoxFalse.svg) 20 : Zum Einstellen der Anzahl der Farben (Tiefe). Der Standardmodus ist 0-20 (was ein Filter darstellt und weitere Details entsprechend der Komplexität des Bildes liefert), sobald der Modus 0 bis 255 (der gesamte Farbbereich) markiert ist.
 
-* ![](/src/assets/images/CheckBoxFalse.svg) : Diese Option ermöglicht Zugriff auf die Spinbox Contour.
+* ![](/images/CheckBoxFalse.svg) : Diese Option ermöglicht Zugriff auf die Spinbox Contour.
 
-- 0/2 Contour ![](/src/assets/images/SpinBox.svg) : Diese Spinbox gibt die Konturlinie an. Nicht verwenden (außer: 0 für die Basis).
-- Capping ![](/src/assets/images/CheckBoxFalse.svg) White : Diese Funktion kann auf der Farbauswahl (Weiß (Standard) oder Schwarz) festgelegt werden. Der Grad der Verkappung der Regel 20 auf 0 (oder 255 auf 0), wenn das Kontrollkästchen auf **W** (nicht markiert) oder 0 bis 20 (oder 0 bis 255) gesetzt ist, wenn das Kontrollkästchen auf **B gesetzt ist** (geprüft).
-- 20 Capping ![](/src/assets/images/SpinBox.svg) : Diese Spinbox gibt den Grad der Verkappung an.
+- 0/2 Contour ![](/images/SpinBox.svg) : Diese Spinbox gibt die Konturlinie an. Nicht verwenden (außer: 0 für die Basis).
+- Capping ![](/images/CheckBoxFalse.svg) White : Diese Funktion kann auf der Farbauswahl (Weiß (Standard) oder Schwarz) festgelegt werden. Der Grad der Verkappung der Regel 20 auf 0 (oder 255 auf 0), wenn das Kontrollkästchen auf **W** (nicht markiert) oder 0 bis 20 (oder 0 bis 255) gesetzt ist, wenn das Kontrollkästchen auf **B gesetzt ist** (geprüft).
+- 20 Capping ![](/images/SpinBox.svg) : Diese Spinbox gibt den Grad der Verkappung an.
 
 #### Befehl
 
@@ -159,7 +159,7 @@ Der Anfangswert des Bedienungswerts passt sich automatisch an die ausgewählte F
 
 ## Skript
 
-The icons .png ![](/src/assets/images/FCTexture.png) and .svg![](/src/assets/images/FCTexture.svg)
+The icons .png ![](/images/FCTexture.png) and .svg![](/images/FCTexture.svg)
 
 **Macro_Texture.FCMacro**
 
@@ -169,62 +169,62 @@ Laden Sie das Makro in Gist herunter [Macro FCTexture.FCMacro](https://gist.gith
 
 The images were inclined to enhance the 3D effect.
 
-- ![Honda](/src/assets/images/FCTexture_008.png)
+- ![Honda](/images/FCTexture_008.png)
 
   Honda
 
-- ![Here with option contour](/src/assets/images/Macro_FCTexture_008b.png)
+- ![Here with option contour](/images/Macro_FCTexture_008b.png)
 
   Here with option contour
 
-- ![Here an example of a bmp image converted to points and restoring picture the width of the image is 6.5 nm thanks for the permission of Yorik](/src/assets/images/Texture_Nano_Photo.png)
+- ![Here an example of a bmp image converted to points and restoring picture the width of the image is 6.5 nm thanks for the permission of Yorik](/images/Texture_Nano_Photo.png)
 
   Here an example of a bmp image converted to points and restoring picture the width of the image is 6.5 nm  
   [thanks for the permission of Yorik](http://forum.freecadweb.org/viewtopic.php?f=24&t=5893#p47075)
 
-- ![Here an example of a bmp image converted to object 3D of 6.7 nm width. thanks for the permission of Yorik](/src/assets/images/Texture_NanoDesign.png)
+- ![Here an example of a bmp image converted to object 3D of 6.7 nm width. thanks for the permission of Yorik](/images/Texture_NanoDesign.png)
 
   Here an example of a bmp image converted to object 3D of 6.7 nm width.  
    [thanks for the permission of Yorik](https://forum.freecad.org/viewtopic.php?f=24&t=5893#p47075)
 
-- ![The logo of FreeCAD.](/src/assets/images/Texture_001_Logo.png)
+- ![The logo of FreeCAD.](/images/Texture_001_Logo.png)
 
   The logo of FreeCAD.
 
-- ![A portion of the screen FreeCAD. The file.](/src/assets/images/Texture_002_Fe_FC.png)
+- ![A portion of the screen FreeCAD. The file.](/images/Texture_002_Fe_FC.png)
 
   A portion of the screen FreeCAD. The [file](https://forum.freecad.org/viewtopic.php?f=3&t=4708&start=10#p46353).
 
-- ![A portion of a tablecloth.](/src/assets/images/Texture_003_napperon.png)
+- ![A portion of a tablecloth.](/images/Texture_003_napperon.png)
 
   A portion of a tablecloth.
 
-- ![A diamond plate.](/src/assets/images/Texture_005_larme.png)
+- ![A diamond plate.](/images/Texture_005_larme.png)
 
   A diamond plate.
 
-- [![Mode Plan: the image on the left the white background has been ignored in the right image the colour black has been ignored (an example on the forum)](/src/assets/images/FCTexture_006.png)](/File:FCTexture_006.png "Mode Plan: the image on the left the white background has been ignored in the right image the colour black has been ignored (an example on the forum)")
+- [![Mode Plan: the image on the left the white background has been ignored in the right image the colour black has been ignored (an example on the forum)](/images/FCTexture_006.png)](/File:FCTexture_006.png "Mode Plan: the image on the left the white background has been ignored in the right image the colour black has been ignored (an example on the forum)")
 
   Mode Plan: the image on the left the white background has been ignored in the right image the colour black has been ignored (an [example](https://forum.freecad.org/viewtopic.php?f=3&t=6123&hilit=teobo&start=10#p49024) on the forum)
 
-- ![Topography from a drawing or each level is represented with a degrees of different color.](/src/assets/images/Texture_Topographie.png)
+- ![Topography from a drawing or each level is represented with a degrees of different color.](/images/Texture_Topographie.png)
 
   Topography from a drawing or each level is represented with a degrees of different color.
 
-- ![Image converted in ASCII caracter.](/src/assets/images/FCTexture_007_FreeCAD_ASCII_00.png)
+- ![Image converted in ASCII caracter.](/images/FCTexture_007_FreeCAD_ASCII_00.png)
 
   Image converted in ASCII caracter.
 
-- [![Procedure for create solid: 1: Create loft with the tools or with the Macro Loft 2: Select all and extrude with the tools 3A: For Linux Download GMSHMesh (author psicofil) Macro_GMSH Wiki page 3B: For Windows Download GmshMesh2.zip unzip the file and install it in your Mod directory (author ulrich1a) 4: Create your Mesh file and use it](/src/assets/images/FCTexture_Example.gif)](/File:FCTexture_Example.gif "Procedure for create solid: 1: Create loft with the tools or with the Macro Loft 2: Select all and extrude with the tools 3A: For Linux Download GMSHMesh (author psicofil) Macro_GMSH Wiki page 3B: For Windows Download GmshMesh2.zip unzip the file and install it in your Mod directory (author ulrich1a) 4: Create your Mesh file and use it")
+- [![Procedure for create solid: 1: Create loft with the tools or with the Macro Loft 2: Select all and extrude with the tools 3A: For Linux Download GMSHMesh (author psicofil) Macro_GMSH Wiki page 3B: For Windows Download GmshMesh2.zip unzip the file and install it in your Mod directory (author ulrich1a) 4: Create your Mesh file and use it](/images/FCTexture_Example.gif)](/File:FCTexture_Example.gif "Procedure for create solid: 1: Create loft with the tools or with the Macro Loft 2: Select all and extrude with the tools 3A: For Linux Download GMSHMesh (author psicofil) Macro_GMSH Wiki page 3B: For Windows Download GmshMesh2.zip unzip the file and install it in your Mod directory (author ulrich1a) 4: Create your Mesh file and use it")
 
   Procedure for create solid:  
-   **1:** Create loft with the ![](/src/assets/images/Part_RuledSurface.svg) tools or with the ![FCCreaLoft](/src/assets/images/FCCreaLoft.png) [Macro Loft](/Macro_Loft/de "Macro Loft/de")  
-   **2:** Select all and extrude with the tools ![](/src/assets/images/Part_Extrude.svg)  
+   **1:** Create loft with the ![](/images/Part_RuledSurface.svg) tools or with the ![FCCreaLoft](/images/FCCreaLoft.png) [Macro Loft](/Macro_Loft/de "Macro Loft/de")  
+   **2:** Select all and extrude with the tools ![](/images/Part_Extrude.svg)  
    **3A:** For Linux Download [GMSHMesh](https://github.com/psicofil/Macros_FreeCAD) (author psicofil) [Macro_GMSH Wiki page](/Macro_GMSH "Macro GMSH")  
    **3B:** For Windows Download [GmshMesh2.zip](https://forum.freecad.org/download/file.php?id=15220) unzip the file and install it in your Mod directory (author ulrich1a)  
    **4:** Create your Mesh file and use it
 
-- ![Convert solid in mesh with GmshMesh.](/src/assets/images/FCTexture_Example_Mesh.png)
+- ![Convert solid in mesh with GmshMesh.](/images/FCTexture_Example_Mesh.png)
 
   Convert solid in mesh with [GmshMesh.](/Macro_GMSH "Macro GMSH")
 
@@ -232,7 +232,7 @@ The images were inclined to enhance the 3D effect.
 
 Die Diskussion über [the forum](https://forum.freecad.org/viewtopic.php?f=24&t=5893) Um Ihre Eindrücke zu vermitteln oder kontaktieren Sie mich.
 
-Das Makro ![FCCreaLoft](/src/assets/images/FCCreaLoft.png) [Macro Loft](/Macro_Loft/de "Macro Loft/de") wird zum Automatisieren der Multi Loft-Operation benutzt.
+Das Makro ![FCCreaLoft](/images/FCCreaLoft.png) [Macro Loft](/Macro_Loft/de "Macro Loft/de") wird zum Automatisieren der Multi Loft-Operation benutzt.
 
 [apply hair cell texture](https://forum.freecad.org/viewtopic.php?f=3&t=4708&start=10#p46353)
 

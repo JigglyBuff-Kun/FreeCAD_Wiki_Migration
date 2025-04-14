@@ -21,7 +21,7 @@ title: TechDraw ErgänzungSchrägeKettenmaßeAnordnen
 
 Das Werkzeug **TechDraw ErgänzungSchrägeKettenmaßeAnordnen** verbindet schräge Maße zu einer Maßkette.
 
-![](/src/assets/images/TechDraw_ExtensionPosObliqueChainDimensionExample.png)
+![](/images/TechDraw_ExtensionPosObliqueChainDimensionExample.png)
 
 Rechts die als Kette angeordneten Maße
 
@@ -30,8 +30,8 @@ Rechts die als Kette angeordneten Maße
 1. Zwei oder mehr parallele schräge Maße auswählen.
 2. Das erste Maß legt die Position fest. Dieses Maß wird nicht bewegt.
 3. Es gibt mehrere Möglichkeiten das Werkzeug aufzurufen:
-   - Die Schaltfläche ![](/src/assets/images/TechDraw_ExtensionPosObliqueChainDimension.svg) Schräge Kettenmaße anordnen drücken.
-   - Den Menüeintrag **TechDraw → Ergänzungen: Merkmale/Änderungen → ![](/src/assets/images/TechDraw_ExtensionPosHorizChainDimension.svg) Schräge Kettenmaße anordnen** auswählen.
+   - Die Schaltfläche ![](/images/TechDraw_ExtensionPosObliqueChainDimension.svg) Schräge Kettenmaße anordnen drücken.
+   - Den Menüeintrag **TechDraw → Ergänzungen: Merkmale/Änderungen → ![](/images/TechDraw_ExtensionPosHorizChainDimension.svg) Schräge Kettenmaße anordnen** auswählen.
 4. Die Maße werden fluchtend ausgerichtet.
 
 Retrieved from "<http://wiki.freecad.org/index.php?title=TechDraw_ExtensionPosObliqueChainDimension/de&oldid=1295305>"

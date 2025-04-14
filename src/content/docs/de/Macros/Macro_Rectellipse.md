@@ -30,11 +30,11 @@ title: Rectellipse
 
 Erzeugt eine parametrische Rectellipse
 
-![](/src/assets/images/Rectellipse.png)
+![](/images/Rectellipse.png)
 
 ## Skript
 
-ToolBar Icon ![](/src/assets/images/Macro_Rectellipse.png)
+ToolBar Icon ![](/images/Macro_Rectellipse.png)
 
 **Macro_Rectellipse.FCMacro**
 

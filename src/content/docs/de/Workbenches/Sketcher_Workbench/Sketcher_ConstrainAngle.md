@@ -19,7 +19,7 @@ title: Sketcher WinkelFestlegen
 
 ## Beschreibung
 
-Das Werkzeug ![](/src/assets/images/Sketcher_ConstrainAngle.svg) Sketcher WinkelFestlegen legt den Winkel zwischen zwei Kanten fest (Linien werden als unendlich angesehen (Geraden) und offene Kurven werden auch entsprechend virtuell erweitert), den Winkel einer Linie zur horizontalen Achse der Skizze oder den überstrichenen Winkel eines Kreisbogens.
+Das Werkzeug ![](/images/Sketcher_ConstrainAngle.svg) Sketcher WinkelFestlegen legt den Winkel zwischen zwei Kanten fest (Linien werden als unendlich angesehen (Geraden) und offene Kurven werden auch entsprechend virtuell erweitert), den Winkel einer Linie zur horizontalen Achse der Skizze oder den überstrichenen Winkel eines Kreisbogens.
 
 ## Anwendung
 
@@ -29,10 +29,10 @@ Siehe auch: [Zeichnungshilfen](/Sketcher_Workbench/de#Zeichnungshilfen "Sketcher
 
 1. Make sure there is no selection.
 2. There are several ways to invoke the tool:
-   - [introduced in 1.0](/Release_notes_1.0 "Release notes 1.0"): If the **Dimensioning constraints** [preference](/Sketcher_Preferences#General "Sketcher Preferences") is set to `Single tool` (default): press the down arrow to the right of the ![](/src/assets/images/Sketcher_Dimension.svg)![](/src/assets/images/Toolbar_flyout_arrow.svg) button and select the **![](/src/assets/images/Sketcher_ConstrainAngle.svg) Constrain angle** option from the dropdown.
-   - If this preference has a different value (and in 0.21 and below): press the ![](/src/assets/images/Sketcher_ConstrainAngle.svg) [Constrain angle](/Sketcher_ConstrainAngle "Sketcher ConstrainAngle") button.
-   - Select the **Sketch → Sketcher constraints → ![](/src/assets/images/Sketcher_ConstrainAngle.svg) Constrain angle** option from the menu.
-   - [introduced in 1.0](/Release_notes_1.0 "Release notes 1.0"): Right-click in the [3D view](/3D_view "3D view") and select the **Dimension → ![](/src/assets/images/Sketcher_ConstrainAngle.svg) Constrain angle** option from the context menu.
+   - [introduced in 1.0](/Release_notes_1.0 "Release notes 1.0"): If the **Dimensioning constraints** [preference](/Sketcher_Preferences#General "Sketcher Preferences") is set to `Single tool` (default): press the down arrow to the right of the ![](/images/Sketcher_Dimension.svg)![](/images/Toolbar_flyout_arrow.svg) button and select the **![](/images/Sketcher_ConstrainAngle.svg) Constrain angle** option from the dropdown.
+   - If this preference has a different value (and in 0.21 and below): press the ![](/images/Sketcher_ConstrainAngle.svg) [Constrain angle](/Sketcher_ConstrainAngle "Sketcher ConstrainAngle") button.
+   - Select the **Sketch → Sketcher constraints → ![](/images/Sketcher_ConstrainAngle.svg) Constrain angle** option from the menu.
+   - [introduced in 1.0](/Release_notes_1.0 "Release notes 1.0"): Right-click in the [3D view](/3D_view "3D view") and select the **Dimension → ![](/images/Sketcher_ConstrainAngle.svg) Constrain angle** option from the context menu.
    - Use the keyboard shortcut: K then A.
 3. The cursor changes to a cross with the tool icon.
 4. Do one of the following:
@@ -59,25 +59,25 @@ Siehe auch: [Zeichnungshilfen](/Sketcher_Workbench/de#Zeichnungshilfen "Sketcher
 
 ### Einzelne Linie
 
-![](/src/assets/images/Sketcher_ConsraintAngle_mode1.png)
+![](/images/Sketcher_ConsraintAngle_mode1.png)
 
 Der Winkel wird zwischen der Linie und der positiven X-Achse der Skizze festgelegt.
 
 ### Einzelner Kreisbogen
 
-![](/src/assets/images/Sketcher_ConsraintAngle_mode2.png)
+![](/images/Sketcher_ConsraintAngle_mode2.png)
 
 Der überstrichene Winkel des Kreisbogens wird festgelegt.
 
 ### Zwischen zwei Linien
 
-![](/src/assets/images/Sketcher_ConsraintAngle_mode3.png)
+![](/images/Sketcher_ConsraintAngle_mode3.png)
 
 Der Winkel zwischen zwei Linien wird festgelegt. Es ist nicht erforderlich, dass sich die Linien schneiden.
 
 ### Zwischen zwei Kanten am Knotenpunkt
 
-![](/src/assets/images/Sketcher_ConsraintAngle_mode4.png)
+![](/images/Sketcher_ConsraintAngle_mode4.png)
 
 The angle between the two edges at a given point is fixed. The point can be any point, e.g. the center of a circle, the endpoint of an edge, or the origin, it can belong to either or both edges, and it can also be a [Point object](/Sketcher_CreatePoint "Sketcher CreatePoint"). If required [Point on object constraint(s)](/Sketcher_ConstrainPointOnObject "Sketcher ConstrainPointOnObject") are added to ensure the point lies on both (extended) edges. These additional constraints are called [helper constraints](/Sketcher_helper_constraint "Sketcher helper constraint").
 

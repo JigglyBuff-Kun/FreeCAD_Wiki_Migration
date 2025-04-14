@@ -19,9 +19,9 @@ title: PartDesign Mirrored
 
 ## Description
 
-The ![](/src/assets/images/PartDesign_Mirrored.svg) **PartDesign Mirrored** tool mirrors one or more features.
+The ![](/images/PartDesign_Mirrored.svg) **PartDesign Mirrored** tool mirrors one or more features.
 
-![](/src/assets/images/PartDesign_Mirrored_example.svg)
+![](/images/PartDesign_Mirrored_example.svg)
 
 A Pocket feature created from a sketch containing a circle (A) is used to create a mirrored feature. The vertical axis of the sketch (B) is used to the define the mirror plane. The result (C) is shown on the right.
 
@@ -32,8 +32,8 @@ A Pocket feature created from a sketch containing a circle (A) is used to create
 1. Optionally [activate](/PartDesign_Body#Active_status "PartDesign Body") the correct Body.
 2. Optionally select one or more features.
 3. There are several ways to invoke the tool:
-   - Press the ![](/src/assets/images/PartDesign_Mirrored.svg) [Mirrored](/PartDesign_Mirrored "PartDesign Mirrored") button.
-   - Select the **Part Design → Apply a pattern → ![](/src/assets/images/PartDesign_Mirrored.svg) Mirrored** option from the menu.
+   - Press the ![](/images/PartDesign_Mirrored.svg) [Mirrored](/PartDesign_Mirrored "PartDesign Mirrored") button.
+   - Select the **Part Design → Apply a pattern → ![](/images/PartDesign_Mirrored.svg) Mirrored** option from the menu.
 4. If there is no active Body, and there are two or more Bodies in the document, the **Active Body Required** dialog will open and prompt you to activate one. If there is a single Body it will be activated automatically.
 5. If no features were selected the **Select feature** [task panel](/Task_panel "Task panel") opens: select one or more (hold down the Ctrl key) from the list and press the OK button.
 6. The **Mirrored parameters** [task panel](/Task_panel "Task panel") opens. See [Options](#Options) for more information.

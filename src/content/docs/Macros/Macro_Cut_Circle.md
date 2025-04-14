@@ -30,7 +30,7 @@ title: Cut Circle
 
 This macro cuts circles or arcs into multiple arcs. The created arcs can be colored alternately to distinguish them.
 
-![](/src/assets/images/Macro_CutCircle_00.png)
+![](/images/Macro_CutCircle_00.png)
 
 CutCircle
 
@@ -46,7 +46,7 @@ CutCircle
 
 ## Script
 
-ToolBar Icon ![](/src/assets/images/Macro_Cut_Circle.png)
+ToolBar Icon ![](/images/Macro_Cut_Circle.png)
 
 **Macro_Cut_Circle.FCMacro**
 

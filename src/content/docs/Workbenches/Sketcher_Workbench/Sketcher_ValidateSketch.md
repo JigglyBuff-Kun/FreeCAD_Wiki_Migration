@@ -19,9 +19,9 @@ title: Sketcher ValidateSketch
 
 ## Description
 
-The ![](/src/assets/images/Sketcher_ValidateSketch.svg) [Sketcher ValidateSketch](/Sketcher_ValidateSketch "Sketcher ValidateSketch") tool can analyze and repair a sketch that is no longer editable or has invalid constraints, or add missing [coincident constraints](/Sketcher_ConstrainCoincident "Sketcher ConstrainCoincident") to a sketch created from imported geometry such as DXF files. It can also be useful to locate a missing coincidence in a native sketch that generates an error when trying to apply a PartDesign feature.
+The ![](/images/Sketcher_ValidateSketch.svg) [Sketcher ValidateSketch](/Sketcher_ValidateSketch "Sketcher ValidateSketch") tool can analyze and repair a sketch that is no longer editable or has invalid constraints, or add missing [coincident constraints](/Sketcher_ConstrainCoincident "Sketcher ConstrainCoincident") to a sketch created from imported geometry such as DXF files. It can also be useful to locate a missing coincidence in a native sketch that generates an error when trying to apply a PartDesign feature.
 
-![](/src/assets/images/Sketcher_ValidateSketch_taskpanel.png)
+![](/images/Sketcher_ValidateSketch_taskpanel.png)
 
 The Sketcher validation task panel
 
@@ -30,8 +30,8 @@ The Sketcher validation task panel
 1. This tool cannot be used while a sketch is in edit mode. To finish edit mode see [Sketcher LeaveSketch](/Sketcher_LeaveSketch "Sketcher LeaveSketch").
 2. Select a sketch.
 3. There are several ways to invoke the tool:
-   - Press the ![](/src/assets/images/Sketcher_ValidateSketch.svg) [Validate sketch...](/Sketcher_ValidateSketch "Sketcher ValidateSketch") button.
-   - Select the **Sketch → ![](/src/assets/images/Sketcher_ValidateSketch.svg) Validate sketch...** option from the menu.
+   - Press the ![](/images/Sketcher_ValidateSketch.svg) [Validate sketch...](/Sketcher_ValidateSketch "Sketcher ValidateSketch") button.
+   - Select the **Sketch → ![](/images/Sketcher_ValidateSketch.svg) Validate sketch...** option from the menu.
 4. The **Sketcher validation** task panel opens. See [Options](#Options) for more information.
 5. Press the Close button to finish.
 

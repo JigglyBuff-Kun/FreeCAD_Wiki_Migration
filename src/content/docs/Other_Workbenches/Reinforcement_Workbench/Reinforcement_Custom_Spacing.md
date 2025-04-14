@@ -8,10 +8,10 @@ The Custom Spacing tool allows a user to create rebar distribution in the struct
 
 For eg.: Given input values to Rebar Distribution dialog:
 
-![](/src/assets/images/RebarDistributionDialog.png)
+![](/images/RebarDistributionDialog.png)
 
 Output produced by Rebar Distribution dialog when user clicks on OK button:
 
-![](/src/assets/images/RebarDistribution.png)
+![](/images/RebarDistribution.png)
 
 Retrieved from "<http://wiki.freecad.org/index.php?title=Reinforcement_Custom_Spacing/en&oldid=1433616>"

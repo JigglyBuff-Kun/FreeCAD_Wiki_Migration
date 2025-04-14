@@ -19,17 +19,17 @@ title: CAM Drilling
 
 ## Description
 
-The ![](/src/assets/images/CAM_Drilling.svg) [Drilling](/CAM_Drilling "CAM Drilling") tool generates a drilling Operation in the Job.
+The ![](/images/CAM_Drilling.svg) [Drilling](/CAM_Drilling "CAM Drilling") tool generates a drilling Operation in the Job.
 
-![](/src/assets/images/Path_Drilling_Sample.png)
+![](/images/Path_Drilling_Sample.png)
 
 Above: CAM Drilling operation sample
 
 ## Usage
 
 1. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/CAM_Drilling.svg) [CAM Drilling](/CAM_Drilling "CAM Drilling") button.
-   - Select the **CAM → ![](/src/assets/images/CAM_Drilling.svg) Drilling** option from the menu.
+   - Press the ![](/images/CAM_Drilling.svg) [CAM Drilling](/CAM_Drilling "CAM Drilling") button.
+   - Select the **CAM → ![](/images/CAM_Drilling.svg) Drilling** option from the menu.
 2. In the **Operation** section:
    - Select a **ToolController**.
    - Select a **Coolant Mode**.

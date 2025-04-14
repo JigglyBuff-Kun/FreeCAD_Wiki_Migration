@@ -10,7 +10,7 @@ Doxygen is a popular tool for generating documentation from annotated C++ source
 
 This document gives a brief introduction to Doxygen, in particular how it is used in FreeCAD to document its sources. Visit the [source documentation](/Source_documentation "Source documentation") page for instructions on building the FreeCAD documentation, which is also hosted online on the [FreeCAD API website](https://www.freecadweb.org/api/).
 
-![](/src/assets/images/FreeCAD_doxygen_workflow.svg)
+![](/images/FreeCAD_doxygen_workflow.svg)
 
 General workflow to produce source code documentation with Doxygen.
 
@@ -190,7 +190,7 @@ A class to store a collection of coordinates is defined in a C++ header file. Th
 
 ## Compiling the documentation
 
-![](/src/assets/images/FreeCAD_doxygen_workflow.svg)
+![](/images/FreeCAD_doxygen_workflow.svg)
 
 General workflow to produce source code documentation with Doxygen.
 
@@ -731,7 +731,7 @@ With this configuration done, the `doxygen Doxyfile` command can be run to gener
 
 Note that existing Python files which already use the `##double hash` style for their comment blocks won't be affected by the `doxypypy` filter, and will be processed by Doxygen normally.
 
-![](/src/assets/images/FreeCAD_doxygen_doxypypy_workflow.svg)
+![](/images/FreeCAD_doxygen_doxypypy_workflow.svg)
 
 General workflow to produce source code documentation with Doxygen, when the Python files are filtered to transform the comment blocks.
 

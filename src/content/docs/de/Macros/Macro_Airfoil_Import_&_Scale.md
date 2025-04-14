@@ -32,35 +32,35 @@ Wenn das Makro gestartet wird, wird das Konfigurationsfenster angezeigt. Eine ch
 
 Siehe auch [Common Airfoil Data Import](/Common_Airfoil_Data_Import "Common Airfoil Data Import")
 
-![](/src/assets/images/Macro_Airfoil_Import_%26_Scale_00.png)
+![](/images/Macro_Airfoil_Import_%26_Scale_00.png)
 
 ### Chord Length eingeben
 
 Die chord length wird erfragt. Eine beliebige Länge in Millimetern kann eingegeben werden. Nachdem die gewünschte Länge eingegeben wurde, erstellt das Makro einen Draft-Linienzug (DWire), der den Punkten folgt, die in der zuvor ausgewählten .dat-Tragflächendatei beschrieben sind, in dem Maßstab, der für chord length eingegebenen wurde.
 
-![Linienart auswählen](/src/assets/images/Import_Airfoil_Scale_Enter_V3.png)
+![Linienart auswählen](/images/Import_Airfoil_Scale_Enter_V3.png)
 
 ### Die Datei auswählen
 
 After configuration user with a file browser that will allow you to select the desired airfoil .dat file. Browse to where you have saved the airfoil file, select it and press Open.
 
-![Select the file](/src/assets/images/Import_Airfoil_Scale_Open_V3.png)
+![Select the file](/images/Import_Airfoil_Scale_Open_V3.png)
 
 ### Airfoil selected
 
-If the airfoil has been selected in the 3D view, run the macro and the ![](/src/assets/images/RadioButtonFalse.svg) Save is available in the dialog.
+If the airfoil has been selected in the 3D view, run the macro and the ![](/images/RadioButtonFalse.svg) Save is available in the dialog.
 
 ### Airfold saved
 
-If the ![](/src/assets/images/RadioButtonTrue.svg) Save is checked the file window appear
+If the ![](/images/RadioButtonTrue.svg) Save is checked the file window appear
 
-![Save the file .dat](/src/assets/images/Import_Airfoil_Scale_Save_Enter_V3.png)
+![Save the file .dat](/images/Import_Airfoil_Scale_Save_Enter_V3.png)
 
 ### Save
 
 Specify the name of file.
 
-![Give the name of file](/src/assets/images/Import_Airfoil_Scale_Save_V3.png)
+![Give the name of file](/images/Import_Airfoil_Scale_Save_V3.png)
 
 The file is saved with 150 points of definition and not verify if the length of the airfoil follow the NACA rulles _(length 1 mm)_
 
@@ -70,7 +70,7 @@ Tools → Edit parameter... "BaseApp/Preferences/Macros/Airfoil_Import_and_Scale
 
 The file is saved in the format "Title and coordinates X Y separate by coma".
 
-![Format of NACA file](/src/assets/images/Import_Airfoil_Scale_Format.png)
+![Format of NACA file](/images/Import_Airfoil_Scale_Format.png)
 
 ## Das Makro
 
@@ -303,7 +303,7 @@ AirfoilImporterAndScaler()
 
 Beim Ausführen des Makros wird dem Benutzer zunächst ein Datei-Browser angezeigt, in dem die gewünschte .dat-Tragflächen-Datei ausgewählt werden kann. Zum Speicherort der Tragflächen-Datei navigieren, diese auswählen und Öffnen drücken.
 
-![File browser window for importing .dat airfoil files](/src/assets/images/File_browser.png)
+![File browser window for importing .dat airfoil files](/images/File_browser.png)
 
 File browser window for importing .dat airfoil files
 
@@ -311,7 +311,7 @@ File browser window for importing .dat airfoil files
 
 Once the airfoil file has been selected, a new dialog will appear asking for a chord length. Any length may be entered, in millimeters. Once your desired length is entered, the Macro will produce a Draft Wire (DWire) following the points described in the previously selected .dat airfoil file at the scale you entered for the chord length.
 
-![Chord length dialog for import and scale macro v1.5](/src/assets/images/Chord_length.png)
+![Chord length dialog for import and scale macro v1.5](/images/Chord_length.png)
 
 Chord length dialog for import and scale macro v1.5
 
@@ -321,7 +321,7 @@ Das Airfoil ist nun richtig skaliert und kann nun in Ihrem Projekt verwendet wer
 
 Die Dateiauswahl entspricht der Version 1.5. Mit Version 2 hat man nun die Wahl, entweder das resultierende Profil mit einem Draft-Linienzug (DWire) oder einem Basic Spline (B-Spline) erstellen zu lassen. Wie bei Version 1.5 wird die gewünschte chord length eingegeben. Zusätzlich kann jetzt die Art Tragfläche ausgewählt werden. Einfach auf das Optionsfeld B-Spline klicken oder wie für das Standard-DWire belassen.
 
-![Version 2 Airfoil Import and scale dialog with choice of DWire or BSpline](/src/assets/images/V2_scale.png)
+![Version 2 Airfoil Import and scale dialog with choice of DWire or BSpline](/images/V2_scale.png)
 
 Version 2 Airfoil Import and scale dialog with choice of DWire or BSpline
 
@@ -632,7 +632,7 @@ p()
 
 #### Version 2.1.2
 
-ToolBar icon ![](/src/assets/images/Macro_Airfoil_Import_%26_Scale.png)
+ToolBar icon ![](/images/Macro_Airfoil_Import_%26_Scale.png)
 
 **Macro_Airfoil_Import\_&_Scale.FCMacro**
 

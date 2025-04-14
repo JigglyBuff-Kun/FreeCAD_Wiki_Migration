@@ -32,7 +32,7 @@ Macro Honeycomb creates a fully parametric Honeycomb object that is compatible i
 
 Full documentation can be found on github: [Honeycomb](https://github.com/mwganson/honeycomb).
 
-![](/src/assets/images/Honeycomb_scr1.png)
+![](/images/Honeycomb_scr1.png)
 
 Macro Honeycomb screenshot‎
 
@@ -69,13 +69,13 @@ webbrowser.open("https://gist.github.com/mwganson/97d185ac2114701b26d3da47dccc9f
 <class="rawcodeurl"><a href="<https://gist.github.com/mwganson/97d185ac2114701b26d3da47dccc9f7a/raw/46b27ad36991a460e9772ddb5e73b3115a1329be/Honeycomb.py>">raw code</a>
 
 ToolBar Icon
-![](/src/assets/images/Macro_Honeycomb.svg)
+![](/images/Macro_Honeycomb.svg)
 
 ## Script
 
 **Macro Honeycomb.py**
 
-[![](/src/assets/images/Nuvola_apps_download_manager.png)](https://gist.github.com/mwganson/97d185ac2114701b26d3da47dccc9f7a)
+[![](/images/Nuvola_apps_download_manager.png)](https://gist.github.com/mwganson/97d185ac2114701b26d3da47dccc9f7a)
 
 [Honeycomb.py](https://gist.github.com/mwganson/97d185ac2114701b26d3da47dccc9f7a)
 

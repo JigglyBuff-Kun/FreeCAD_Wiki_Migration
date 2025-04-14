@@ -62,7 +62,7 @@ webbrowser.open("https://gist.githubusercontent.com/mario52a/4aa545c23b323cf6882
 
 ## Usage
 
-![FCCamera](/src/assets/images/Macro_FCCamera_00.png)
+![FCCamera](/images/Macro_FCCamera_00.png)
 
 FCCamera
 
@@ -72,34 +72,34 @@ FCCamera
 
 **Axe of rotation**
 
-- ![](/src/assets/images/FCCamera_01.png) Accept the rotation : Accept the rotation give to angle selected
+- ![](/images/FCCamera_01.png) Accept the rotation : Accept the rotation give to angle selected
 
 **Virtual**
 
-- ![](/src/assets/images/FCCamera_02.png) Detect camera orientation : Detect the camera orientation and print in report view. The returned value is the value provided by the function **getCameraOrientation()**.
+- ![](/images/FCCamera_02.png) Detect camera orientation : Detect the camera orientation and print in report view. The returned value is the value provided by the function **getCameraOrientation()**.
 
 **Align view to face selected**
 
-- ![](/src/assets/images/FCCamera_03.png) To Face. : Align the view to the selected face. Click and repeat the click for **NormalAt** : "(0,0,1) (0,0,-1) (0,1,0) (0,-1,0) (1,0,0) (-1,0,0)"
+- ![](/images/FCCamera_03.png) To Face. : Align the view to the selected face. Click and repeat the click for **NormalAt** : "(0,0,1) (0,0,-1) (0,1,0) (0,-1,0) (1,0,0) (-1,0,0)"
 
-- ![](/src/assets/images/FCCamera_04.png) To Axis. : Align the view to Axis face selected. Click and repeat the click for **Surface Axis** : "(0,0,1) (0,0,-1) (0,1,0) (0,-1,0) (1,0,0) (-1,0,0)"
+- ![](/images/FCCamera_04.png) To Axis. : Align the view to Axis face selected. Click and repeat the click for **Surface Axis** : "(0,0,1) (0,0,-1) (0,1,0) (0,-1,0) (1,0,0) (-1,0,0)"
 
-- ![](/src/assets/images/FCCamera_05.png) Align object to view. : Align the object selected to the actual view. The changed values are : Rotation Axis((X, Y, Z), Angle), same Euler angles : Yaw, Pitch, Roll, The Translation is not modify.
+- ![](/images/FCCamera_05.png) Align object to view. : Align the object selected to the actual view. The changed values are : Rotation Axis((X, Y, Z), Angle), same Euler angles : Yaw, Pitch, Roll, The Translation is not modify.
 
-- ![](/src/assets/images/FCCamera_06.png) Create plane of view. : A circular plane is created facing the screen to mouse click coordinates on an object. The radius of the plane is equal to the maximum dimension of BoundBox. If no object is selected, the plane is created to 0, 0, 0 coordinates with a radius of 20 mm. The radius is modifiable to line 515:
+- ![](/images/FCCamera_06.png) Create plane of view. : A circular plane is created facing the screen to mouse click coordinates on an object. The radius of the plane is equal to the maximum dimension of BoundBox. If no object is selected, the plane is created to 0, 0, 0 coordinates with a radius of 20 mm. The radius is modifiable to line 515:
 
 ```
 rayon = 20                            # Radius of plane
 
 ```
 
-- ![](/src/assets/images/FCCamera_07.png) Reset. : Reset all values
-- ![](/src/assets/images/FCCamera_00.png) Photo. : Section save the screen rotation an image in angle value
-- ![](/src/assets/images/FCCamera_08.png) Quit. : Quit FCCamera
+- ![](/images/FCCamera_07.png) Reset. : Reset all values
+- ![](/images/FCCamera_00.png) Photo. : Section save the screen rotation an image in angle value
+- ![](/images/FCCamera_08.png) Quit. : Quit FCCamera
 
 ## Section Photo
 
-![FCCamera](/src/assets/images/Macro_FCCamera_00b.png)
+![FCCamera](/images/Macro_FCCamera_00b.png)
 
 FCCamera
 
@@ -148,9 +148,9 @@ FCCamera
   - White : save image with the screen colour white
   - Black : save image with the screen colour black
 
-* ![](/src/assets/images/FCCamera_00.png) Launch : Open the file window , give the name and the path
-* ![](/src/assets/images/FCCamera_07.png) Reset : Reset the default value
-* ![](/src/assets/images/FCCamera_00.png) Return : Quit the photo panel and return to FCCamera panel
+* ![](/images/FCCamera_00.png) Launch : Open the file window , give the name and the path
+* ![](/images/FCCamera_07.png) Reset : Reset the default value
+* ![](/images/FCCamera_00.png) Return : Quit the photo panel and return to FCCamera panel
 
 ## Links
 
@@ -173,38 +173,38 @@ Download the macro to Gist [**Macro FCCamera.FCMacro**](https://gist.github.com/
 
 ### How to place an angle hole
 
-- ![Create your object](/src/assets/images/FCCamera_09.png)
+- ![Create your object](/images/FCCamera_09.png)
 
   Create your object
 
-- ![Create one cylinder and positionning like this. Give your axis, angle inclination and click the button Accept the rotation](/src/assets/images/FCCamera_10.png)
+- ![Create one cylinder and positionning like this. Give your axis, angle inclination and click the button Accept the rotation](/images/FCCamera_10.png)
 
   Create one cylinder and positionning like this.  
-  Give your axis, angle inclination and click the button ![](/src/assets/images/FCCamera_01.png) Accept the rotation
+  Give your axis, angle inclination and click the button ![](/images/FCCamera_01.png) Accept the rotation
 
-- ![Select your cylinder for create your hole](/src/assets/images/FCCamera_11.png)
+- ![Select your cylinder for create your hole](/images/FCCamera_11.png)
 
   Select your cylinder for create your hole
 
-- ![In FCCamera, click the button Align Object to View](/src/assets/images/FCCamera_12.png)
+- ![In FCCamera, click the button Align Object to View](/images/FCCamera_12.png)
 
-  In FCCamera, click the button ![](/src/assets/images/FCCamera_05.png) Align Object to View
+  In FCCamera, click the button ![](/images/FCCamera_05.png) Align Object to View
 
-- [![The cylinder moves to 15 degrees (it takes the camera's position). Do your Boolean operation](/src/assets/images/FCCamera_13.png)](/File:FCCamera_13.png "The cylinder moves to 15 degrees (it takes the camera's position). Do your Boolean operation")
+- [![The cylinder moves to 15 degrees (it takes the camera's position). Do your Boolean operation](/images/FCCamera_13.png)](/File:FCCamera_13.png "The cylinder moves to 15 degrees (it takes the camera's position). Do your Boolean operation")
 
   The cylinder moves to 15 degrees (it takes the camera's position). Do your Boolean operation
 
-- ![Your hole 15 degrees](/src/assets/images/FCCamera_14.png)
+- ![Your hole 15 degrees](/images/FCCamera_14.png)
 
   Your hole 15 degrees
 
 The same result can be achieved by creating a plan in the corner given by the mouse click position and a sketch.
 
-- ![example of the positioning of a spring on an axis of a face](/src/assets/images/Macro_FCCamera_Align_To_Face.gif)
+- ![example of the positioning of a spring on an axis of a face](/images/Macro_FCCamera_Align_To_Face.gif)
 
   example of the positioning of a spring on an axis of a face
 
-- [![Example photo rotation and save images (you must create one animate Gif with GIMP)](/src/assets/images/Test_FCCamera_Photo_01.gif)](/File:Test_FCCamera_Photo_01.gif "Example photo rotation and save images (you must create one animate Gif with GIMP)")
+- [![Example photo rotation and save images (you must create one animate Gif with GIMP)](/images/Test_FCCamera_Photo_01.gif)](/File:Test_FCCamera_Photo_01.gif "Example photo rotation and save images (you must create one animate Gif with GIMP)")
 
   Example photo rotation and save images (you must create one animate Gif [with GIMP](https://www.gimp.org/))
 

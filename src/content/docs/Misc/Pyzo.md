@@ -9,7 +9,7 @@ title: Pyzo
 Pyzo is a free and open-source Python IDE focused on interactivity and introspection, which makes it well-suited for engineering and scientific applications.
 This page describes how to use it in conjunction with FreeCAD.
 
-![](/src/assets/images/Screenshot_pyzo.png)
+![](/images/Screenshot_pyzo.png)
 
 Screenshot of Pyzo running the FreeCAD Python Interpreter
 
@@ -289,7 +289,7 @@ Editing the method and executing the cell can now be repeated as often as desire
 
 ### Creating a Custom Tool
 
-![](/src/assets/images/PyzoMyRunner.png)
+![](/images/PyzoMyRunner.png)
 
 Custom tool example "MyRunner" in Pyzo
 

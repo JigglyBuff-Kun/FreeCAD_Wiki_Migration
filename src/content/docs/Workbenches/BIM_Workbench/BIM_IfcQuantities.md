@@ -21,7 +21,7 @@ title: BIM IfcQuantities
 
 The **IFC Quantities Manager** allows you to check the explicit quantities attached to objects, to be exported to IFC.
 
-![](/src/assets/images/BIM_ifcquantities_screenshot.png)
+![](/images/BIM_ifcquantities_screenshot.png)
 
 IFC Quantities Manager
 

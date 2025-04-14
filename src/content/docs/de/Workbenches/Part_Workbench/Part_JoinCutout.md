@@ -19,16 +19,16 @@ title: Part Ausschneiden
 
 ## Beschreibung
 
-Das Werkzeug ![](/src/assets/images/Part_JoinCutout.svg) **Part Ausschneiden** erstellt einen Ausschnitt in einem Hohlkörper (z.B. einem Rohr), in den ein anderer Hohlkörper passt.
+Das Werkzeug ![](/images/Part_JoinCutout.svg) **Part Ausschneiden** erstellt einen Ausschnitt in einem Hohlkörper (z.B. einem Rohr), in den ein anderer Hohlkörper passt.
 
-![](/src/assets/images/JoinFeatures_Cutout.png)
+![](/images/JoinFeatures_Cutout.png)
 
 ## Anwendung
 
 1. Zuerst das Basisobjekt auswählen, dann das Objekt zum Einbetten. Die Reihenfolge der Auswahl ist wichtig. Es reicht aus, nur eine Teilform jedes Objekts (z.B. Flächen) auszuwählen.
 2. Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
-   - Die Schaltflächen ![](/src/assets/images/Part_JoinCutout.svg) Für Objekt ausschneiden drücken.
-   - Den Menüeintrag **Part → Verbinden → ![](/src/assets/images/Part_JoinCutout.svg) Für Objekt ausschneiden** auswählen.
+   - Die Schaltflächen ![](/images/Part_JoinCutout.svg) Für Objekt ausschneiden drücken.
+   - Den Menüeintrag **Part → Verbinden → ![](/images/Part_JoinCutout.svg) Für Objekt ausschneiden** auswählen.
 3. Ein JoinFeature-Objekt wird erstellt, dessen Modus auf 'Embed' eingestellt ist. Die originalen Objekte werden ausgeblendet und das Ergebnis des Einbettens wird in der [3D-Ansicht](/3D_view/de "3D view/de") angezeigt.
 
 ## Eigenschaften
@@ -43,11 +43,11 @@ Basis
 ## Beispiel
 
 1. Create a pipe by applying [thickness](/Part_Thickness "Part Thickness") to a [cylinder](/Part_Cylinder "Part Cylinder"):  
-   ![](/src/assets/images/JoinFeatures_Example_step1.png)
+   ![](/images/JoinFeatures_Example_step1.png)
 2. Create another, smaller diameter pipe, and [place](/Placement "Placement") it so that it pierces the wall of the first pipe:  
-   ![](/src/assets/images/JoinFeatures_Example_step2.png)
+   ![](/images/JoinFeatures_Example_step2.png)
 3. Select the first pipe, then the second pipe (order of selection is important), and click the 'Cutout for object' option from the Join tools dropdown toolbar button.  
-   ![](/src/assets/images/JoinFeatures_Example_step3_Cutout.png)
+   ![](/images/JoinFeatures_Example_step3_Cutout.png)
 
 ## Algorithmus
 
@@ -59,7 +59,7 @@ Die Algorithmen hinter den Verbindungswerkzeugen sind ziemlich einfach und es is
 
 3. Falls Daten**Refine** den Wert `True` hat, ist die entstandene Form [verfeinert](/Part_RefineShape/de "Part RefineShape/de").
 
-![](/src/assets/images/JoinFeatures-Algo-Cutout.png)
+![](/images/JoinFeatures-Algo-Cutout.png)
 
 ### Hinweise
 

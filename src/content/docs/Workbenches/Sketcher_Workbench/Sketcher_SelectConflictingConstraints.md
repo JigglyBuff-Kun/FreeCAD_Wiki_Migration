@@ -19,7 +19,7 @@ title: Sketcher SelectConflictingConstraints
 
 ## Description
 
-The ![](/src/assets/images/Sketcher_SelectConflictingConstraints.svg) [Sketcher SelectConflictingConstraints](/Sketcher_SelectConflictingConstraints "Sketcher SelectConflictingConstraints") tool selects the conflicting constraints in the sketch.
+The ![](/images/Sketcher_SelectConflictingConstraints.svg) [Sketcher SelectConflictingConstraints](/Sketcher_SelectConflictingConstraints "Sketcher SelectConflictingConstraints") tool selects the conflicting constraints in the sketch.
 
 If such constraints exist in a sketch the [Solver messages section of the Sketcher Dialog](/Sketcher_Dialog#Solver_messages "Sketcher Dialog") displays this message:
 
@@ -31,7 +31,7 @@ Where _(#, #, #)_ are the indices of the constraints. Clicking the underlined te
 
 1. There are several ways to invoke the tool:
    - Click the underlined text in the Sketcher Dialog as described above.
-   - Select the **Sketch → Sketcher visual → ![](/src/assets/images/Sketcher_SelectConflictingConstraints.svg) Select conflicting constraints** option from the menu.
+   - Select the **Sketch → Sketcher visual → ![](/images/Sketcher_SelectConflictingConstraints.svg) Select conflicting constraints** option from the menu.
    - Use the keyboard shortcut: Z then P, then C.
 2. The conflicting constraints are selected.
 3. Optionally click in an empty area in the [3D view](/3D_view "3D view") to clear the selection.

@@ -30,7 +30,7 @@ title: Half turn stairs
 
 This Macro creates a half turning Stair with the design of stairs.dat file left or right turning.
 
-![](/src/assets/images/Half_turn_stairs.png)
+![](/images/Half_turn_stairs.png)
 
 Stairs
 
@@ -42,7 +42,7 @@ Stairs
 
 ## Script
 
-ToolBar Icon ![](/src/assets/images/Half_turn_stairs.png)
+ToolBar Icon ![](/images/Half_turn_stairs.png)
 
 **Half_turn_stairs.FCMacro**
 

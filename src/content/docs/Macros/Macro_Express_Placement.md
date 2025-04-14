@@ -32,7 +32,7 @@ The macro **Express Placement** is a FreeCAD GUI addon. It allows quick editing 
 
 ## Difference and benefits
 
-![Standard vs Express](/src/assets/images/Standard_vs_express.png)
+![Standard vs Express](/images/Standard_vs_express.png)
 
 One double click to edit object placement instead of four sequential clicks - **you may work 4 times faster!**
 

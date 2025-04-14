@@ -24,8 +24,8 @@ The **Mesh FillInteractiveHole** command fills selected holes in mesh objects.
 ## Usage
 
 1. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/Mesh_FillInteractiveHole.svg) [Close hole](/Mesh_FillInteractiveHole "Mesh FillInteractiveHole") button.
-   - Select the **Meshes → ![](/src/assets/images/Mesh_FillInteractiveHole.svg) Close hole** option from the menu.
+   - Press the ![](/images/Mesh_FillInteractiveHole.svg) [Close hole](/Mesh_FillInteractiveHole "Mesh FillInteractiveHole") button.
+   - Select the **Meshes → ![](/images/Mesh_FillInteractiveHole.svg) Close hole** option from the menu.
 2. The cursor changes to a triangle icon.
 3. Select a face that shares an edge with the hole you wish to close.
 4. The hole is closed.

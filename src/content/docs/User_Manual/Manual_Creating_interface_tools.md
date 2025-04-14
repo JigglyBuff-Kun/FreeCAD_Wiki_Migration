@@ -32,25 +32,25 @@ Qt also provides another interesting tool called [Qt Designer](http://doc.qt.io/
 
 In the following exercise, we will first create a panel with Qt Creator that asks for length, width and height values, then we will create a Python class around it, that will read the values entered by the user from the panel, and create a box with the given dimensions. This Python class will then be used by FreeCAD to display and control the task panel:
 
-![](/src/assets/images/Exercise_python_07.jpg)
+![](/images/Exercise_python_07.jpg)
 
 Let's start by creating the widget. Start Qt Creator, then menu **File → New File or Project → Qt → Qt Designer Form → Dialog without buttons**. Click **Next**, give it a filename to save, click **Next**, leave all project fields to their default value ("<none>"), and **Create**. FreeCAD's Task system will automatically add OK/Cancel buttons, that's why we chose here a dialog without buttons.
 
-![](/src/assets/images/Exercise_python_06.jpg)
+![](/images/Exercise_python_06.jpg)
 
 - Find the **Label** in the list in the left panel (under the Display Widgets section), and drag it onto the canvas of our widget. Double-click the recently placed Label, and change its text to **Length**.
 - Right-click the widget canvas, and choose **Lay out → Lay out in a Grid**. This will turn our widget into a grid with currently only one cell, occupied by our first label. We can now add the next items at the left, right, top or bottom of our first label, and the grid will expand automatically.
 - Add two more labels below the first one, and change their text to Width and Height:
 
-![](/src/assets/images/Exercise_python_08.jpg)
+![](/images/Exercise_python_08.jpg)
 
 - Now place 3 **Double Spin Box** widgets (under the Input Widgets section) next to our Length, Width and Height labels. For each of them, in the lower right panel, which shows all the available settings for the selected widget, locate **Suffix** and set their suffix to **mm**. FreeCAD has a more advanced widget, that can handle different units, but that is not available in Qt Creator by default (but can be [compiled](/Compile_on_Linux#Qt_designer_plugin "Compile on Linux")), so for now we will use a standard Double Spin Box, and we add the "mm" suffix to make sure the user knows in which units they work:
 
-![](/src/assets/images/Exercise_python_09.jpg)
+![](/images/Exercise_python_09.jpg)
 
 - Now our widget is done, we just need to make sure of one last thing. Since FreeCAD will need to access that widget and read the Length, Width and Height values, we need to give proper names to those widgets, so we can easily retrieve them from within FreeCAD. Click each of the Double Spin Boxes, and in the upper right window, double-click their Object Name, and change them to something easy to remember, for example: BoxLength, BoxWidth and BoxHeight:
 
-![](/src/assets/images/Exercise_python_10.jpg)
+![](/images/Exercise_python_10.jpg)
 
 - Save the file, you can now close Qt Creator, the rest will be done in Python.
 - Open FreeCAD and create a new macro from menu **Macro → Macros → Create**

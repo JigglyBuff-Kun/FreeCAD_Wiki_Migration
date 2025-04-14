@@ -23,7 +23,7 @@ Der Befehl **Std AnsichtStereoVersetzteZeilen** stellt den Stereo-Modus der akti
 
 ## Anwendung
 
-1. Den Menüeintrag **Ansicht → Stereo → ![](/src/assets/images/Std_ViewIvStereoInterleavedRows.svg) Horizontales Interlacing** auswählen.
+1. Den Menüeintrag **Ansicht → Stereo → ![](/images/Std_ViewIvStereoInterleavedRows.svg) Horizontales Interlacing** auswählen.
 
 ## Einstellungen
 

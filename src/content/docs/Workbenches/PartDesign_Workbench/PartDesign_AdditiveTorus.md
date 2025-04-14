@@ -21,11 +21,11 @@ title: PartDesign AdditiveTorus
 
 Inserts a primitive torus in the active Body as the first feature, or fuses it to the existing feature(s).
 
-![](/src/assets/images/PartDesign_AdditiveTorus_example.png)
+![](/images/PartDesign_AdditiveTorus_example.png)
 
 ## Usage
 
-1. Press the ![](/src/assets/images/PartDesign_AdditiveTorus.svg) **Additive Torus** button. **Note**: the Additive Torus is part of an icon menu labelled _Create an additive primitive_. After launching FreeCAD, the Additive Box is the one displayed in the toolbar. To get the Torus, click on the down arrow besides the visible icon and select Additive Torus in the menu.
+1. Press the ![](/images/PartDesign_AdditiveTorus.svg) **Additive Torus** button. **Note**: the Additive Torus is part of an icon menu labelled _Create an additive primitive_. After launching FreeCAD, the Additive Box is the one displayed in the toolbar. To get the Torus, click on the down arrow besides the visible icon and select Additive Torus in the menu.
 2. Set the Primitive parameters and [Attachment](/Part_EditAttachment "Part EditAttachment").
 3. Click OK.
 4. A Torus feature appears under the active Body.

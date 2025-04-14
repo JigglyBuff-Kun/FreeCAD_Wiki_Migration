@@ -21,17 +21,17 @@ title: Std ToggleClipPlane
 
 The **Std ToggleClipPlane** command temporarily hides objects and parts of objects on one side of up to three virtual planes in the active [3D view](/3D_view "3D view").
 
-![](/src/assets/images/Std_ToggleClipPlane_example.png)
+![](/images/Std_ToggleClipPlane_example.png)
 
 A clipped hollow object
 
-![](/src/assets/images/Std_ToggleClipPlane_Dialog.png)
+![](/images/Std_ToggleClipPlane_Dialog.png)
 
 The Clipping dialog box
 
 ## Usage
 
-1. Select the **View → ![](/src/assets/images/Std_ToggleClipPlane.svg) Clipping plane** option from the menu.
+1. Select the **View → ![](/images/Std_ToggleClipPlane.svg) Clipping plane** option from the menu.
 2. The **Clipping** dialog box opens.
 3. Do one of the following:
    - Check one or more of the **Clipping X** to **Clipping Z** checkboxes.

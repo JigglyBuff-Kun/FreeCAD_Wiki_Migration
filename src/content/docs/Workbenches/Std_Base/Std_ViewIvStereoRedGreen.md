@@ -23,7 +23,7 @@ The **Std ViewIvStereoRedGreen** command changes the active [3D view](/3D_view "
 
 ## Usage
 
-1. Select the **View → Stereo → ![](/src/assets/images/Std_ViewIvStereoRedGreen.svg) Stereo red/cyan** option from the menu.
+1. Select the **View → Stereo → ![](/images/Std_ViewIvStereoRedGreen.svg) Stereo red/cyan** option from the menu.
 
 ## Preferences
 

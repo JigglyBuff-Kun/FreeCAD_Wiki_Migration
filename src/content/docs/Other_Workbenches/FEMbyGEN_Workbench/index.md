@@ -2,7 +2,7 @@
 title: FEMbyGEN Workbench
 ---
 
-![](/src/assets/images/FEMbyGEN.svg)
+![](/images/FEMbyGEN.svg)
 
 FEMbyGEN Workbench icon
 
@@ -10,7 +10,7 @@ FEMbyGEN Workbench icon
 
 FEMbyGEN is a FreeCAD addon. It provides a simple interface to choose the best solution by showing the structural behavior of your designs on screen for parametric analysis and multiple loading situations.
 
-![](/src/assets/images/Generative_Design.png)
+![](/images/Generative_Design.png)
 
 ### Intended work-flow
 
@@ -48,7 +48,7 @@ FEMbyGEN is a FreeCAD addon. It provides a simple interface to choose the best s
 
 ### Addon Manager
 
-FEMbyGEN can easily be installed via the FreeCAD ![](/src/assets/images/AddonManager.svg) [Addon Manager](/Std_AddonMgr "Std AddonMgr") from the **Tools → Addon manager** menu.
+FEMbyGEN can easily be installed via the FreeCAD ![](/images/AddonManager.svg) [Addon Manager](/Std_AddonMgr "Std AddonMgr") from the **Tools → Addon manager** menu.
 
 FEMbyGEN is under active development and will get new features frequently. Therefore you should update it regularly using also the menu **Tools → Addon manager**.
 

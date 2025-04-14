@@ -2,7 +2,7 @@
 title: KicadStepUp Workbench
 ---
 
-![](/src/assets/images/Kicad-StepUp-tools-WB.svg)
+![](/images/Kicad-StepUp-tools-WB.svg)
 
 KicadStepUp External workbench icon
 
@@ -33,11 +33,11 @@ _In progress_
 - Design a new footprint in FreeCAD to get the power of Sketch in footprints
 - Generate Blender compatible VRML files
 
-![](/src/assets/images/ECAD-MCAD-collaboration.png)
+![](/images/ECAD-MCAD-collaboration.png)
 
 ## Installation
 
-KicadStepUp is part of the [external workbenches](/External_workbenches "External workbenches"), and can be automatically installed using the ![](/src/assets/images/Std_AddonMgr.svg) [Addon manager](/Std_AddonMgr "Std AddonMgr") which is included with FreeCAD 0.17 and up, under the **Tools → AddOn manager** menu.
+KicadStepUp is part of the [external workbenches](/External_workbenches "External workbenches"), and can be automatically installed using the ![](/images/Std_AddonMgr.svg) [Addon manager](/Std_AddonMgr "Std AddonMgr") which is included with FreeCAD 0.17 and up, under the **Tools → AddOn manager** menu.
 
 ## Usage
 
@@ -82,7 +82,7 @@ A collaboration can be started with a new or an existing project. We consider he
 10. Switch to FreeCAD and select in the KicadStepUp Workbech the tool button "Pull Sketch from PCB" or the menu _ksu PushPull/ksu Pull Sketch from PCB_
 
     - first dialog with default layer "Edge.Cuts" and three choices will open. Select choice "replace PCB and Sketch in current document" \*\*\*
-    - next a file dialog should show again the file "KsuTest.kicad_pcb". Select it and press _Open_
+    - next a file dialog should show again the file "KsuTest.kicad*pcb". Select it and press \_Open*
 
       : You should see your PCB as a 3D model. Note that the hole has moved compared to your "pcb design" sketch.
       : In the tree appears a new structure with a yellow _Part Container_ with the KiCad Filename and within another _Part Container_ with "Board_Geoms_e63b" (the part with the number probably different). In the second container there are the following three files. Do not change any names in that structure, because KicadStepUp uses them to find the parts to update.

@@ -30,8 +30,8 @@ Defines an internally generated body heat given in W/kg.
 ## Usage
 
 1. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/FEM_ConstraintBodyHeatSource.svg) [Body heat source](/FEM_ConstraintBodyHeatSource "FEM ConstraintBodyHeatSource") button.
-   - Select the **Model → Thermal boundary conditions and loads → ![](/src/assets/images/FEM_ConstraintBodyHeatSource.svg) Body heat source** option from the menu.
+   - Press the ![](/images/FEM_ConstraintBodyHeatSource.svg) [Body heat source](/FEM_ConstraintBodyHeatSource "FEM ConstraintBodyHeatSource") button.
+   - Select the **Model → Thermal boundary conditions and loads → ![](/images/FEM_ConstraintBodyHeatSource.svg) Body heat source** option from the menu.
 2. 0.21 and above: Press the Add button. For a 3D analysis, select a 'solid' (body) from your model, for a 2D analysis select a face.
 3. Set the value:
    - 0.20 and below: Since the tool has no task dialog, use the [property editor](/Property_editor "Property editor") and set the property Data**Heat Source**.

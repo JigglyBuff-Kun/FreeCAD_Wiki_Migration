@@ -19,9 +19,9 @@ title: Sketcher Versatzkontur
 
 ## Beschreibung
 
-Das Werkzeug ![](/src/assets/images/Sketcher_Offset.svg) Sketcher Versatzkontur erstellt eine äquidistante Kante (Versatzkontur) um ausgewählte Kanten herum.
+Das Werkzeug ![](/images/Sketcher_Offset.svg) Sketcher Versatzkontur erstellt eine äquidistante Kante (Versatzkontur) um ausgewählte Kanten herum.
 
-![](/src/assets/images/Sketcher_OffsetExample.png)
+![](/images/Sketcher_OffsetExample.png)
 
 Äquidistante Kanten um eine geschlossene (O) und eine offene (U) Hilfsgeometrie-Polylinie
 
@@ -33,17 +33,17 @@ Dim-OVP = Dimensional [On-View-Parameters](/Sketcher_Preferences/de#Allgemein "S
 
 1. Eine oder mehrere Linien, Kreise und/oder Kreisbögen auswählen.
 2. Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
-   - Die Schaltfläche ![](/src/assets/images/Sketcher_Offset.svg) Versatzkontur drücken.
-   - Den Menüeintrag **Skizze → Sketcher Werkzeuge → ![](/src/assets/images/Sketcher_Offset.svg) Versatzkontur** auswählen.
-   - Ein Rechtsklick in der [3D-Ansicht](/3D_view/de "3D view/de") und die Menüoption **![](/src/assets/images/Sketcher_Offset.svg) Versatzkontur** im Kontextmenü auswählen.
+   - Die Schaltfläche ![](/images/Sketcher_Offset.svg) Versatzkontur drücken.
+   - Den Menüeintrag **Skizze → Sketcher Werkzeuge → ![](/images/Sketcher_Offset.svg) Versatzkontur** auswählen.
+   - Ein Rechtsklick in der [3D-Ansicht](/3D_view/de "3D view/de") und die Menüoption **![](/images/Sketcher_Offset.svg) Versatzkontur** im Kontextmenü auswählen.
    - Das Tastaturkürzel Z then T.
 3. Der Mauszeiger wandelt sich zu einem Kreuz mit Werkzeugsymbol.
 4. Der Abschnitt **Versatzparameter** wird im oberen Bereich des [Sketcher-Dialogs](/Sketcher_Dialog/de "Sketcher Dialog/de") hinzugefügt.
 5. Wahlweise die U-Taste drücken oder die CheckBox **Originalgeometrien löschen** aktivieren, um nur den neuen Umriss zu behalten.
 6. Wahlweise die J-Taste drücken oder die CheckBox **Offset-Randbedingung hinzufügen** aktivieren, um eine maßliche Randbedingung zwischen dem versetzten Umriss und der originalen Geometrie hinzuzufügen.
 7. Wahlweise die M-Taste drücken oder in der Ausklappliste des Abschnitts Versatzparameter den Werkzeugmodus auswählen:
-   - ![](/src/assets/images/Sketcher_OffsetArc.svg) **Kreisbogen**
-   - ![](/src/assets/images/Sketcher_OffsetIntersection.svg) **Schnitt**
+   - ![](/images/Sketcher_OffsetArc.svg) **Kreisbogen**
+   - ![](/images/Sketcher_OffsetIntersection.svg) **Schnitt**
 8. Einen Punkt auswählen, um den Versatzabstand festzulegen. Oder mit Dim-OVP: diesen Abstand eingeben.
 9. Die Geometrie wird erstellt und wenn **Offset-Randbedingung hinzufügen** aktiviert ist, wird eine maßliche Randbedingung hinzugefügt.
 

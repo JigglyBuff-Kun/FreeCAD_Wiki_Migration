@@ -8,7 +8,7 @@ This page lists the books about FreeCAD we know of:
 
 By Aleksander Sadowski, published May 2023, ebook/paperback
 
-![](/src/assets/images/Freecad_book_aleks.jpg)
+![](/images/Freecad_book_aleks.jpg)
 
 FreeCAD is commonly known for its steep learning curve which stems from an overwhelming amount of possibilities available to the beginner. This book simplifies the use of FreeCAD for you by equipping you with an easy workflow, while giving context to the functions you need. You will learn to create fun projects, design helpful gadgets for your house or even get on an adventure and design your own products. This book strives to condense the knowledge from beginner courses into a tangible guide that anyone can pick up and learn how to create 3D designs with FreeCAD. You will overcome your frustration with breaking models or not knowing how to recover them and make you confident enough to be able to create your own designs from beginning to end - from the first idea to the 3D printable model.
 
@@ -22,7 +22,7 @@ By the end of this book, you will be able to design your own little 3D printable
 
 By Jo Hinchliffe, published September 2022, free ebook
 
-![](/src/assets/images/Freecad_book_concretedog.png)
+![](/images/Freecad_book_concretedog.png)
 
 FreeCAD is the number one free software 3D design program, and this PDF guide is the best way to get started with it. We’ll take you from absolute beginnner to advanced user, going from the basics of drawing a line and making it 3D all the way to parametric design, importing objects from photographs, designing for sheet metal, and loads more.
 
@@ -34,7 +34,7 @@ Because FreeCAD is free software, its users can add to it, writing extensions to
 
 By Allan Brito, published August 2020, ebook/paperback
 
-![](/src/assets/images/Freecad_book_allanbrito.png)
+![](/images/Freecad_book_allanbrito.png)
 
 Do you want to start using a free and open-source software to work in your CAD related projects? Meet FreeCAD and their incredible array of options to create both technical drawings and 3D models for architecture, engineering, and more.
 
@@ -50,7 +50,7 @@ You don't need any previous experiences with FreeCAD, since we will start from t
 
 By Brad Collette, published September 2018, ebook/paperback
 
-![](/src/assets/images/Freecad_book_inventors.jpg)
+![](/images/Freecad_book_inventors.jpg)
 
 This book introduces novice and intermediate users to the most frequently used tools and techniques in FreeCAD. Part one introduces new users to FreeCAD concepts and User Interface. Part two teaches various modeling techniques with a handful of examples. Part three uses the examples to explore FreeCAD's ability to generate: Technical Drawings, Gcode for CNC machines, Ray-traced images and more.
 
@@ -60,7 +60,7 @@ This book introduces novice and intermediate users to the most frequently used t
 
 By Daniel Falck, Brad Collette, published September 2012, ebook/paperback
 
-![](/src/assets/images/Freecad_book_howto.jpg)
+![](/images/Freecad_book_howto.jpg)
 
 FreeCAD is a general purpose platform for CAD development. It can be extended to use different workbenches to solve different problems. Targeted squarely at the engineering community, FreeCAD is an open source design application built to be extended. Python, the powerful scripting language, is woven deeply into FreeCAD’s DNA and gives users unprecedented power to automate and invent.
 

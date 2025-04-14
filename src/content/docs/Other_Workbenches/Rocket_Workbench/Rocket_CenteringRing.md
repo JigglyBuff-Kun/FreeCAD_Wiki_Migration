@@ -21,15 +21,15 @@ title: Rocket CenteringRing
 
 A Centering Ring is a solid object used to hold one or more body tubes inside another body tube.
 
-![](/src/assets/images/CR_with_tubes.png)
+![](/images/CR_with_tubes.png)
 
 Conical
 
 ## Usage
 
 1. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/Rocket_CenteringRing.svg) [Centering Ring](/Rocket_CenteringRing "Rocket CenteringRing") button.
-   - Select the **Rocket → ![](/src/assets/images/Rocket_CenteringRing.svg) Centering Ring** option from the menu.
+   - Press the ![](/images/Rocket_CenteringRing.svg) [Centering Ring](/Rocket_CenteringRing "Rocket CenteringRing") button.
+   - Select the **Rocket → ![](/images/Rocket_CenteringRing.svg) Centering Ring** option from the menu.
    - Double click on a Centering Ring object in the [Tree view](/Tree_view "Tree view").
 2. Set options and press OK.
 
@@ -39,7 +39,7 @@ Conical
 
 Centering rings, especially those used for low power rocketry, often need a notch to accommodate an engine hook. The **Centering Ring** tool can generate those for you.
 
-![](/src/assets/images/Notched_CR.png)
+![](/images/Notched_CR.png)
 
 Centering ring with an engine hook notch
 

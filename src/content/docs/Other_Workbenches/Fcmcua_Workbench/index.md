@@ -2,7 +2,7 @@
 title: Fcmcua Workbench
 ---
 
-![](/src/assets/images/Fcmcua_wb.svg)
+![](/images/Fcmcua_wb.svg)
 
 Fcmcua Workbench icon
 
@@ -26,7 +26,7 @@ For further usage instructions see the [Fcmcua repository](https://github.com/he
 
 ### Connection
 
-![](/src/assets/images/Fcmcua_wb.svg)
+![](/images/Fcmcua_wb.svg)
 
 A URL to the OPC UA server must be specified in the form of `opc.tcp://127.0.0.1:4840`.
 
@@ -36,7 +36,7 @@ The connection state is displayed on the connection panel.
 
 ### Axis Settings
 
-![](/src/assets/images/Fcmcua_axes.svg)
+![](/images/Fcmcua_axes.svg)
 
 An axis node on the OPC UA server represents a one-dimensional change in the Attachment Offset of a part in the assembly. To configure this assignment the following information must be specified:
 
@@ -50,7 +50,7 @@ The value from the server can also be inverted or scaled by supplying a mathemat
 
 ### Actuator Settings
 
-![](/src/assets/images/Fcmcua_actuator.svg)
+![](/images/Fcmcua_actuator.svg)
 
 An actuator node on the OPC UA server acts as a trigger to _open_ or _close_ the actuator. To configure the actuator the following information must be specified:
 

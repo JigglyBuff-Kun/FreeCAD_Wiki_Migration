@@ -55,8 +55,8 @@ Example output: an edge, a face, and a vertex of a [Link](/Std_LinkMake "Std Lin
 
 1. Select a single object or one or more subshapes belonging to a single object.
 2. There are several ways to invoke the command:
-   - Select the **Edit → ![](/src/assets/images/Std_SendToPythonConsole.svg) Send to Python Console** option from the menu.
-   - Select the **![](/src/assets/images/Std_SendToPythonConsole.svg) Send to Python Console** option from the [Tree view](/Tree_view "Tree view") context menu or [3D view](/3D_view "3D view") context menu.
+   - Select the **Edit → ![](/images/Std_SendToPythonConsole.svg) Send to Python Console** option from the menu.
+   - Select the **![](/images/Std_SendToPythonConsole.svg) Send to Python Console** option from the [Tree view](/Tree_view "Tree view") context menu or [3D view](/3D_view "3D view") context menu.
    - Use the keyboard shortcut: Ctrl+Shift+P.
 3. If required the [Python console](/Python_console "Python console") opens.
 4. The [Python console](/Python_console "Python console") receives the keyboard focus.

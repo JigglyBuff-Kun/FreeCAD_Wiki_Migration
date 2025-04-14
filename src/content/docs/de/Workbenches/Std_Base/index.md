@@ -2,7 +2,7 @@
 title: Std Basis
 ---
 
-![](/src/assets/images/Freecad.svg)
+![](/images/Freecad.svg)
 
 Symbol Std Basis
 
@@ -34,39 +34,39 @@ Das Standardmenü setzt sich aus 7 Untermenüs zusammen. Jedes Untermenü hat ei
 
 ### Werkzeugleiste Struktur
 
-- ![](/src/assets/images/Std_Part.svg) [Baugruppe erstellen](/Std_Part/de "Std Part/de"): Erzeugt eine neue Baugruppe und macht sie aktiv.
+- ![](/images/Std_Part.svg) [Baugruppe erstellen](/Std_Part/de "Std Part/de"): Erzeugt eine neue Baugruppe und macht sie aktiv.
 
-- ![](/src/assets/images/Part_CoordinateSystem.svg)![](/src/assets/images/Toolbar_flyout_arrow_blue_background.svg) Bezugselemente erstellen: [eingeführt in 1.1](/Release_notes_1.1/de "Release notes 1.1/de")
+- ![](/images/Part_CoordinateSystem.svg)![](/images/Toolbar_flyout_arrow_blue_background.svg) Bezugselemente erstellen: [eingeführt in 1.1](/Release_notes_1.1/de "Release notes 1.1/de")
 
-- ![](/src/assets/images/Part_CoordinateSystem.svg) [Bezugssystem erstellen](/Part_CoordinateSystem/de "Part CoordinateSystem/de"): Erstellt ein Koordinatensystem (coordinate system object), das an andere Objekte befestigt werden kann. [eingeführt in 1.1](/Release_notes_1.1/de "Release notes 1.1/de")
+- ![](/images/Part_CoordinateSystem.svg) [Bezugssystem erstellen](/Part_CoordinateSystem/de "Part CoordinateSystem/de"): Erstellt ein Koordinatensystem (coordinate system object), das an andere Objekte befestigt werden kann. [eingeführt in 1.1](/Release_notes_1.1/de "Release notes 1.1/de")
 
-- ![](/src/assets/images/Part_DatumPlane.svg) [Bezugsebene erstellen](/Part_DatumPlane/de "Part DatumPlane/de"): Erstellt eine Bezugsebene (datum plane object), die an andere Objekte befestigt werden kann. [eingeführt in 1.1](/Release_notes_1.1/de "Release notes 1.1/de")
+- ![](/images/Part_DatumPlane.svg) [Bezugsebene erstellen](/Part_DatumPlane/de "Part DatumPlane/de"): Erstellt eine Bezugsebene (datum plane object), die an andere Objekte befestigt werden kann. [eingeführt in 1.1](/Release_notes_1.1/de "Release notes 1.1/de")
 
-- ![](/src/assets/images/Part_DatumLine.svg) [Bezugselinie erstellen](/Part_DatumLine/de "Part DatumLine/de"): Erstellt eine Bezugselinie (datum line object), die an andere Objekte befestigt werden kann. [eingeführt in 1.1](/Release_notes_1.1/de "Release notes 1.1/de")
+- ![](/images/Part_DatumLine.svg) [Bezugselinie erstellen](/Part_DatumLine/de "Part DatumLine/de"): Erstellt eine Bezugselinie (datum line object), die an andere Objekte befestigt werden kann. [eingeführt in 1.1](/Release_notes_1.1/de "Release notes 1.1/de")
 
-- ![](/src/assets/images/Part_DatumPoint.svg) [Bezugspunkt erstellen](/Part_DatumPoint "Part DatumPoint"): Erstellt einen Bezugspunkt (datum point object), der an andere Objekte befestigt werden kann. [eingeführt in 1.1](/Release_notes_1.1/de "Release notes 1.1/de")
+- ![](/images/Part_DatumPoint.svg) [Bezugspunkt erstellen](/Part_DatumPoint "Part DatumPoint"): Erstellt einen Bezugspunkt (datum point object), der an andere Objekte befestigt werden kann. [eingeführt in 1.1](/Release_notes_1.1/de "Release notes 1.1/de")
 
-- ![](/src/assets/images/Std_Group.svg) [Gruppe erstellen](/Std_Group/de "Std Group/de"): Legt eine neue Gruppe an.
+- ![](/images/Std_Group.svg) [Gruppe erstellen](/Std_Group/de "Std Group/de"): Legt eine neue Gruppe an.
 
-- ![](/src/assets/images/Std_LinkMake.svg)![](/src/assets/images/Toolbar_flyout_arrow_blue_background.svg) Verknüpfungswerkzeuge:
+- ![](/images/Std_LinkMake.svg)![](/images/Toolbar_flyout_arrow_blue_background.svg) Verknüpfungswerkzeuge:
 
-- ![](/src/assets/images/Std_LinkMake.svg) [Verknüpfung erstellen](/Std_LinkMake/de "Std LinkMake/de"): Erzeugt einen Link.
+- ![](/images/Std_LinkMake.svg) [Verknüpfung erstellen](/Std_LinkMake/de "Std LinkMake/de"): Erzeugt einen Link.
 
-- ![](/src/assets/images/Std_LinkMakeRelative.svg) [Unterverknüpfung erstellen](/Std_LinkMakeRelative/de "Std LinkMakeRelative/de"): Erstellt eine Verknüpfung von Unterobjekten oder Unterelementen.
+- ![](/images/Std_LinkMakeRelative.svg) [Unterverknüpfung erstellen](/Std_LinkMakeRelative/de "Std LinkMakeRelative/de"): Erstellt eine Verknüpfung von Unterobjekten oder Unterelementen.
 
-- ![](/src/assets/images/Std_LinkReplace.svg) [Durch Verknüpfung ersetzen](/Std_LinkReplace/de "Std LinkReplace/de"): Ersetzt das/die Objekt(e) durch die neue(n) Verknüpfung(en).
+- ![](/images/Std_LinkReplace.svg) [Durch Verknüpfung ersetzen](/Std_LinkReplace/de "Std LinkReplace/de"): Ersetzt das/die Objekt(e) durch die neue(n) Verknüpfung(en).
 
-- ![](/src/assets/images/Std_LinkUnlink.svg) [Verknüpfung auflösen](/Std_LinkUnlink/de "Std LinkUnlink/de"): Ersetzt den/die Link(s) durch das/die verknüpfte(n) Objekt(e).
+- ![](/images/Std_LinkUnlink.svg) [Verknüpfung auflösen](/Std_LinkUnlink/de "Std LinkUnlink/de"): Ersetzt den/die Link(s) durch das/die verknüpfte(n) Objekt(e).
 
-- ![](/src/assets/images/Std_LinkImport.svg) [Verknüpfungen importieren](/Std_LinkImport/de "Std LinkImport/de"): Importiert den/die ausgewählten externen Link(s).
+- ![](/images/Std_LinkImport.svg) [Verknüpfungen importieren](/Std_LinkImport/de "Std LinkImport/de"): Importiert den/die ausgewählten externen Link(s).
 
-- ![](/src/assets/images/Std_LinkImportAll.svg) [Alle Verknüpfungen importieren](/Std_LinkImportAll/de "Std LinkImportAll/de"): Importiert alle externen Link(s).
+- ![](/images/Std_LinkImportAll.svg) [Alle Verknüpfungen importieren](/Std_LinkImportAll/de "Std LinkImportAll/de"): Importiert alle externen Link(s).
 
-- ![](/src/assets/images/Std_VarSet.svg) [Variablensatz erstellen](/Std_VarSet/de "Std VarSet/de"): Erzeugt einen Satz von Eigenschaften, die als Variablen in [Ausdrücken](/Expressions/de "Expressions/de") verwendet werden können. [eingeführt in 1.0](/Release_notes_1.0/de "Release notes 1.0/de")
+- ![](/images/Std_VarSet.svg) [Variablensatz erstellen](/Std_VarSet/de "Std VarSet/de"): Erzeugt einen Satz von Eigenschaften, die als Variablen in [Ausdrücken](/Expressions/de "Expressions/de") verwendet werden können. [eingeführt in 1.0](/Release_notes_1.0/de "Release notes 1.0/de")
 
 ### Zusätzliche Werkzeuge
 
-- ![](/src/assets/images/Std_LinkMakeGroup.svg) [Verknüpfungsgruppe erstellen](/index.php?title=Std_LinkMakeGroup/de&action=edit&redlink=1 "Std LinkMakeGroup/de (page does not exist)"): Erzeugt eine Gruppe von Links.
+- ![](/images/Std_LinkMakeGroup.svg) [Verknüpfungsgruppe erstellen](/index.php?title=Std_LinkMakeGroup/de&action=edit&redlink=1 "Std LinkMakeGroup/de (page does not exist)"): Erzeugt eine Gruppe von Links.
 
 - [Ausdruck-Aktionen](/Std_Expressions/de "Std Expressions/de"):
 
@@ -78,26 +78,26 @@ Das Standardmenü setzt sich aus 7 Untermenüs zusammen. Jedes Untermenü hat ei
 
 : \* [Einfügen](/Std_Expressions#Paste/de "Std Expressions"): Fügt Ausdrucksdaten aus der Zwischenablage ein.
 
-- ![](/src/assets/images/Part_SelectFilter.svg) ![](/src/assets/images/Toolbar_flyout_arrow_blue_background.svg) [Auswahlfilter](/Part_SelectFilter/de "Part SelectFilter/de"): [eingeführt in 1.0](/Release_notes_1.0/de "Release notes 1.0/de")
+- ![](/images/Part_SelectFilter.svg) ![](/images/Toolbar_flyout_arrow_blue_background.svg) [Auswahlfilter](/Part_SelectFilter/de "Part SelectFilter/de"): [eingeführt in 1.0](/Release_notes_1.0/de "Release notes 1.0/de")
 
-- ![](/src/assets/images/Vertex-selection.svg) [Knotenauswahl](/Part_SelectFilter/de#Knotenauswahl "Part SelectFilter/de"): Erlaubt nur die Auswahl von Eckpunkten.
+- ![](/images/Vertex-selection.svg) [Knotenauswahl](/Part_SelectFilter/de#Knotenauswahl "Part SelectFilter/de"): Erlaubt nur die Auswahl von Eckpunkten.
 
-- ![](/src/assets/images/Edge-selection.svg) [Kantenauswahl](/Part_SelectFilter/de#Kantenauswahl "Part SelectFilter/de"): Erlaubt nur die Auswahl von Kanten.
+- ![](/images/Edge-selection.svg) [Kantenauswahl](/Part_SelectFilter/de#Kantenauswahl "Part SelectFilter/de"): Erlaubt nur die Auswahl von Kanten.
 
-- ![](/src/assets/images/Face-selection.svg) [Flächenauswahl](/Part_SelectFilter/de#Flächenauswahl "Part SelectFilter/de"): Erlaubt nur die Auswahl von Flächen.
+- ![](/images/Face-selection.svg) [Flächenauswahl](/Part_SelectFilter/de#Flächenauswahl "Part SelectFilter/de"): Erlaubt nur die Auswahl von Flächen.
 
-- ![](/src/assets/images/Clear-selection.svg) [Alle Auswahlfilter gelöscht](/Part_SelectFilter#All_selection_filters_cleared/de "Part SelectFilter"): Erlaubt die Auswahl aller Unterelemente.
+- ![](/images/Clear-selection.svg) [Alle Auswahlfilter gelöscht](/Part_SelectFilter#All_selection_filters_cleared/de "Part SelectFilter"): Erlaubt die Auswahl aller Unterelemente.
 
-- ![](/src/assets/images/Std_TreeSelectAllInstances.svg) [Alle Instanzen auswählen](/Std_TreeSelectAllInstances/de "Std TreeSelectAllInstances/de"): Wählt alle Instanzen eines Objekts in der [Baumansicht](/Tree_view/de "Tree view/de") aus.
+- ![](/images/Std_TreeSelectAllInstances.svg) [Alle Instanzen auswählen](/Std_TreeSelectAllInstances/de "Std TreeSelectAllInstances/de"): Wählt alle Instanzen eines Objekts in der [Baumansicht](/Tree_view/de "Tree view/de") aus.
 
-- ![](/src/assets/images/Std_ToggleFreeze.svg) [Einfrieren umschalten](/Std_ToggleFreeze/de "Std ToggleFreeze/de"): Schaltet den Einfrierzustand von Objekten um. [eingeführt in 1.0](/Release_notes_1.0/de "Release notes 1.0/de")
+- ![](/images/Std_ToggleFreeze.svg) [Einfrieren umschalten](/Std_ToggleFreeze/de "Std ToggleFreeze/de"): Schaltet den Einfrierzustand von Objekten um. [eingeführt in 1.0](/Release_notes_1.0/de "Release notes 1.0/de")
 
 ### Veraltete Werkzeuge
 
-- ![](/src/assets/images/View_Measure_Clear_All.svg) [Messung löschen](/View_Measure_Clear_All/de "View Measure Clear All/de"): Löscht [Part](/Part_Workbench/de "Part Workbench/de")-Messungen. Nicht verfügbar in 1.0 und neuer. Stattdessen kann [Std Messen](/Std_Measure/de "Std Measure/de") verwendet werden.
+- ![](/images/View_Measure_Clear_All.svg) [Messung löschen](/View_Measure_Clear_All/de "View Measure Clear All/de"): Löscht [Part](/Part_Workbench/de "Part Workbench/de")-Messungen. Nicht verfügbar in 1.0 und neuer. Stattdessen kann [Std Messen](/Std_Measure/de "Std Measure/de") verwendet werden.
 
-- ![](/src/assets/images/View_Measure_Toggle_All.svg) [Messung umschalten](/View_Measure_Toggle_All/de "View Measure Toggle All/de"): Schaltet die Anzeige der Part-Messungen um. Nicht verfügbar in 1.0 und neuer. Stattdessen kann [Std Messen](/Std_Measure/de "Std Measure/de") verwendet werden.
+- ![](/images/View_Measure_Toggle_All.svg) [Messung umschalten](/View_Measure_Toggle_All/de "View Measure Toggle All/de"): Schaltet die Anzeige der Part-Messungen um. Nicht verfügbar in 1.0 und neuer. Stattdessen kann [Std Messen](/Std_Measure/de "Std Measure/de") verwendet werden.
 
-- ![](/src/assets/images/Std_MeasureDistance.svg) [Entfernung messen](/Std_MeasureDistance/de "Std MeasureDistance/de"): Erzeugt ein Objekt zum Messen und Anzeigen einer Entfernung. Nicht verfügbar in 1.0 und neuer. Stattdessen kann [Std Messen](/Std_Measure/de "Std Measure/de") verwendet werden.
+- ![](/images/Std_MeasureDistance.svg) [Entfernung messen](/Std_MeasureDistance/de "Std MeasureDistance/de"): Erzeugt ein Objekt zum Messen und Anzeigen einer Entfernung. Nicht verfügbar in 1.0 und neuer. Stattdessen kann [Std Messen](/Std_Measure/de "Std Measure/de") verwendet werden.
 
 Retrieved from "<http://wiki.freecad.org/index.php?title=Std_Base/de&oldid=1537171>"

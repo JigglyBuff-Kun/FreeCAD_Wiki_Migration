@@ -23,7 +23,7 @@ The **Draft AutoGroup** command changes the active [Draft Layer](/Draft_Layer "D
 
 This command was originally intended for groups, hence its name, but was redesigned in FreeCAD version 0.19 when a layer system was introduced. Because handling layers is now the default for the command the rest of this page primarily focuses on layers.
 
-![](/src/assets/images/Draft_Tray_Menu.png)
+![](/images/Draft_Tray_Menu.png)
 
 The layer menu of the Draft Tray (image updated for version 1.1)
 
@@ -31,12 +31,12 @@ The layer menu of the Draft Tray (image updated for version 1.1)
 
 1. Optionally select the layer you want to make active in the [Tree view](/Tree_view "Tree view").
 2. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/Draft_tray_button_layer.png) button in the [Draft Tray](/Draft_Tray "Draft Tray"). This button can look different. If there is an active layer it will show the name of the layer and a layer icon with the line and face color of the layer.
-   - If you have selected a layer: select the **![](/src/assets/images/Button_right.svg) Activate this layer** option from the [Tree view](/Tree_view "Tree view") context menu.
+   - Press the ![](/images/Draft_tray_button_layer.png) button in the [Draft Tray](/Draft_Tray "Draft Tray"). This button can look different. If there is an active layer it will show the name of the layer and a layer icon with the line and face color of the layer.
+   - If you have selected a layer: select the **![](/images/Button_right.svg) Activate this layer** option from the [Tree view](/Tree_view "Tree view") context menu.
 3. If you have not yet selected a layer the layer menu opens. Do one of the following:
-   - Select **![](/src/assets/images/Button_invalid.svg) None** to work without an active layer.
+   - Select **![](/images/Button_invalid.svg) None** to work without an active layer.
    - Select an existing layer to make active.
-   - Select **![](/src/assets/images/Draft_NewLayer.svg) New Layer...** to create a new layer:
+   - Select **![](/images/Draft_NewLayer.svg) New Layer...** to create a new layer:
      1. The **Create new layer** dialog box opens. [introduced in 1.1](/Release_notes_1.1 "Release notes 1.1")
      2. Enter a **Layer name**.
      3. Press the OK button.
@@ -45,7 +45,7 @@ The layer menu of the Draft Tray (image updated for version 1.1)
 
 ## Notes
 
-- A new [layer](/Draft_Layer "Draft Layer") can also be created by right-clicking the layer container in the [Tree view](/Tree_view "Tree view") and selecting the **![](/src/assets/images/Draft_NewLayer.svg) Add new layer** option from the context menu.
+- A new [layer](/Draft_Layer "Draft Layer") can also be created by right-clicking the layer container in the [Tree view](/Tree_view "Tree view") and selecting the **![](/images/Draft_NewLayer.svg) Add new layer** option from the context menu.
 - If [Draft construction mode](/Draft_ToggleConstructionMode "Draft ToggleConstructionMode") is switched on the active [layer](/Draft_Layer "Draft Layer") is ignored.
 
 ## Preferences

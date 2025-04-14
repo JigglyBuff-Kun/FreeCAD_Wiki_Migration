@@ -32,7 +32,7 @@ Der Vorgang wird auf alle Profile ausgedehnt, um die gleiche Anzahl von Segmente
 
 ### Step 2. Beziehungen zwischen den Segmenten herstellen
 
-![](/src/assets/images/Loft_Number_of_verts_match.png)
+![](/images/Loft_Number_of_verts_match.png)
 
 Veranschaulichung der Ausformung, wobei die Anzahl der Segmente in den Profilen beibehalten wird, wenn sie übereinstimmen. Beachte wie 3 Kanten des oberen Quadrats in ein kleines polygonales Stück des unteren Profils "kollabieren".
 
@@ -47,7 +47,7 @@ Zu beachten ist auch, dass bei gleicher Segmentanzahl in Profilen der resultiere
 
 ### Step 3. Ausformungsoberfläche erstellen
 
-![](/src/assets/images/Loft_B-spline.png)
+![](/images/Loft_B-spline.png)
 
 Eine Spline-Interpolationskurve (rot), die der Ausformungsoberfläche folgt. Die Punkte, durch die interpoliert werden soll, sind als rote Quadrate dargestellt.
 

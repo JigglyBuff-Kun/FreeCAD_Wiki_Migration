@@ -36,7 +36,7 @@ Achtung, Sie benötigen eine aktuelle Version von FreeCAD, damit dies funktionie
 ## Skript
 
 Werkzeugleisten-Symbol
-![](/src/assets/images/Macro_SuperWire.png)
+![](/images/Macro_SuperWire.png)
 
 **Macro_SuperWire.FCMacro**
 

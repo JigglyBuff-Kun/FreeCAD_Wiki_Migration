@@ -25,15 +25,15 @@ title: FEM MaterialSolid
 
 Creates a material for solid.
 
-![](/src/assets/images/FEMMaterialSolidProperties.png)
+![](/images/FEMMaterialSolidProperties.png)
 
 The FEM material task panel
 
 ## Usage
 
 1. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/FEM_MaterialSolid.svg) [Material for solid](/FEM_MaterialSolid "FEM MaterialSolid") button.
-   - Select the **Model → Materials → ![](/src/assets/images/FEM_MaterialSolid.svg) Material for solid‏‎** option from the menu.
+   - Press the ![](/images/FEM_MaterialSolid.svg) [Material for solid](/FEM_MaterialSolid "FEM MaterialSolid") button.
+   - Select the **Model → Materials → ![](/images/FEM_MaterialSolid.svg) Material for solid‏‎** option from the menu.
 2. The FEM material task panel opens.
 3. Select a material from the drop-down list. For example, for engineering mechanical analysis, _CalculiX-Steel_ is a common option. Optionally press the Launch Editor button to access the [material editor](/Material_Edit "Material Edit").
 4. Optionally, press the Use this task panel button to modify material properties such as density, Young's modulus, Poisson's ratio, etc.

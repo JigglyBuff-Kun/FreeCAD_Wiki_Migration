@@ -24,7 +24,7 @@ The **Cross-sections** utility creates one or more cross-sections through the se
 ## Usage
 
 1. Select a shape.
-2. Press the ![](/src/assets/images/Part_CrossSections.svg) **Cross-sections** button.
+2. Press the ![](/images/Part_CrossSections.svg) **Cross-sections** button.
 3. Define the guiding plane.
 4. Define the position (height of the cross-section).
 5. Optionally, check **Sections** to create more than one cross-section:
@@ -40,10 +40,10 @@ The **Cross-sections** utility creates one or more cross-sections through the se
 
 ## Example
 
-![Select an object](/src/assets/images/SectionCross1.png)
+![Select an object](/images/SectionCross1.png)
 
-![Dialog window](/src/assets/images/SectionCross2.png)
+![Dialog window](/images/SectionCross2.png)
 
-![Result](/src/assets/images/SectionCross3.png)
+![Result](/images/SectionCross3.png)
 
 Retrieved from "<http://wiki.freecad.org/index.php?title=Part_CrossSections/en&oldid=1466618>"

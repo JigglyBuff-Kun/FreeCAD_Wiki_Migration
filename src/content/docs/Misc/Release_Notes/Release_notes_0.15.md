@@ -4,7 +4,7 @@ title: Release notes 0.15
 
 FreeCAD 0.15 was released on April 8, 2015. This is a summary of the most interesting changes. The complete list of changes can be found in the [Mantis changelog](http://www.freecadweb.org/tracker/changelog_page.php). Older versions at: [0.14](/Release_notes_0.14 "Release notes 0.14") - [0.13](/Release_notes_0.13 "Release notes 0.13") - [0.12](/Release_notes_0.12 "Release notes 0.12") - [0.11](/Release_notes_0.11 "Release notes 0.11")
 
-![](/src/assets/images/Spark-Plug-Plane.jpg)
+![](/images/Spark-Plug-Plane.jpg)
 
 Spark Plug Plane by r-frank
 
@@ -14,7 +14,7 @@ Spark Plug Plane by r-frank
 
 The selection window allow users to search inside the selected objects. Moreover you have now possibilities to select only one entity, unselect an entity, zoom fit on an entity and go to the entity in the tree view.
 
-![](/src/assets/images/FeatureSelectionView.jpg)
+![](/images/FeatureSelectionView.jpg)
 
 ### Units support is spreading
 
@@ -38,7 +38,7 @@ The new [units](/Quantity "Quantity") system of FreeCAD, introduced in version 0
 
 The [Sketcher](/Sketcher_Workbench "Sketcher Workbench") gained proper support for ellipses. Those can be constructed in different ways, and can be used for any kind of subsequent operation.
 
-![](/src/assets/images/Ellipse-example.png)
+![](/images/Ellipse-example.png)
 
 ### Enhanced selection tools
 
@@ -63,7 +63,7 @@ The properties view of sketch objects has also been enhanced, and named Datum co
 
 The [Spreadsheet Workbench](/Spreadsheet_Workbench "Spreadsheet Workbench") has been completely recoded. FreeCAD now possesses a state-of-the-art, robust, feature-rich spreadsheet editor. A couple of functionalities found in the previous version of this workbench have been removed, such as the property controllers, but this is a complex issue requiring more time to design properly. At the present time, however, the new spreadsheet already offer far better possibilities to gather data from your model.
 
-![](/src/assets/images/Spreadsheet_screenshot.jpg)
+![](/images/Spreadsheet_screenshot.jpg)
 
 ## Draft Workbench
 
@@ -71,7 +71,7 @@ The [Spreadsheet Workbench](/Spreadsheet_Workbench "Spreadsheet Workbench") has 
 
 For those nostalgic for old CAD software, sticky fonts (in which letters are made of simple lines, not filled shapes) can now be used with the [ShapeString](/Draft_ShapeString "Draft ShapeString") tool.
 
-![](/src/assets/images/Stickyfonts.jpg)
+![](/images/Stickyfonts.jpg)
 
 ### Minor improvements
 
@@ -86,7 +86,7 @@ For those nostalgic for old CAD software, sticky fonts (in which letters are mad
 
 The system used to export Drawing pages to DXF until now used a very complicated hack to convert the SVG code to FreeCAD object then back to DXF with the Draft exporters. Now, the export is done internally inside the Drawing module, which gives much faster and reliable results. DXF export now uses a template system similar to SVG sheets. If your Drawing page uses a certain SVG template, and a DXF template with the same name is found at the same location, it is used to generate the DXF file.
 
-![](/src/assets/images/Drawing-dxf-export.jpg)
+![](/images/Drawing-dxf-export.jpg)
 
 In the DXF file, the different views are placed as scaled blocks. This allows quickly restoring the 1:1 scale.
 
@@ -104,19 +104,19 @@ FreeCAD's [IFC importer](/Arch_IFC "Arch IFC") has received a lot of work and te
 
 This new functionality, [Arch CutPlane](/Arch_CutPlane "Arch CutPlane"), makes it possible to cut an object according to a plane defined by the face of another object. It is possible to cut the object behind or in front of the selected plane.
 
-![](/src/assets/images/Arch_CutPlane_example.jpg)
+![](/images/Arch_CutPlane_example.jpg)
 
 ### New roof tool
 
 The [Roof](/Arch_Roof "Arch Roof") tool was completely redone and now makes it possible to define different slopes for each roof side. Moreover it is possible to define a thickness of roof, the length of the overflow.
 
-![](/src/assets/images/RoofExample.png)
+![](/images/RoofExample.png)
 
 ### Panels
 
 A new [Panel](/Arch_Panel "Arch Panel") object has been added to the [Arch Workbench](/Arch_Workbench "Arch Workbench"). It allows creation all kinds of panel-like objects, and will be specially useful for panel constructions such as the [wikihouse](http://www.wikihouse.cc/) or [popup house](http://www.popup-house.com/) projects.
 
-![](/src/assets/images/Arch_Panel_example.jpg)
+![](/images/Arch_Panel_example.jpg)
 
 ### Furniture
 
@@ -134,18 +134,18 @@ There has also been some very interesting work on new workbenches and macros, th
 
 The [Assembly 2 workbench](https://github.com/hamish2014/FreeCAD_assembly2) provides tools to create multi-part assemblies, and is a very good alternative for the official Assembly workbench which is still under development (see [forum thread](http://forum.freecadweb.org/viewtopic.php?f=10&t=8577)).
 
-![](/src/assets/images/Assembly2_example.jpg)
+![](/images/Assembly2_example.jpg)
 
 ### Drawing Dimensioning
 
 The [Drawing dimensioning workbench](https://github.com/hamish2014/FreeCAD_drawing_dimensioning) adds powerful dimensioning and annotation tools to the Drawing workbench (see [forum thread](http://forum.freecadweb.org/viewtopic.php?f=10&t=8395)).
 
-![](/src/assets/images/Drawing_Dimensioning_example.jpg)
+![](/images/Drawing_Dimensioning_example.jpg)
 
 ### Work Features
 
 The [WorkFeature macro](https://github.com/Rentlau/WorkFeature) adds a wide range of helper objects such as alignment planes or axes, and tools to help you to position and align objects along those helper objects (see [forum thread](http://forum.freecadweb.org/viewtopic.php?f=22&t=9056)).
 
-![](/src/assets/images/WF.png)
+![](/images/WF.png)
 
 Retrieved from "<http://wiki.freecad.org/index.php?title=Release_notes_0.15/en&oldid=1461974>"

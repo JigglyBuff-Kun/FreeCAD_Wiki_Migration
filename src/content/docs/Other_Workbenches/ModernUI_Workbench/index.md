@@ -5,7 +5,7 @@ title: ModernUI Workbench
 :::caution
 This documentation is not finished. Please help and contribute documentation.GuiCommand modelexplains how commands should be documented. BrowseCategory:UnfinishedDocuto see more incomplete pages like this one. SeeCategory:Command Referencefor all commands.SeeWikiPagesto learn about editing the wiki pages, and go toHelp FreeCADto learn about other ways in which you can contribute.
 :::
-![](/src/assets/images/ModernUI_workbench_icon.svg)
+![](/images/ModernUI_workbench_icon.svg)
 
 Modern UI workbench icon
 
@@ -31,7 +31,7 @@ The [ModernUI Workbench](/ModernUI_Workbench "ModernUI Workbench") is an [extern
 
 ## Install
 
-Install with the ![](/src/assets/images/Std_AddonMgr.svg) [Addon Manager](/Std_AddonMgr "Std AddonMgr").
+Install with the ![](/images/Std_AddonMgr.svg) [Addon Manager](/Std_AddonMgr "Std AddonMgr").
 
 Note: To uninstall, you have to create a macro and execute it. If you do not feel confident about this, consider to not install.
 
@@ -64,7 +64,7 @@ Detailed instructions can be found on [GitHub](https://github.com/HakanSeven12/M
 
 The uninstall sequence is as follows:
 
-1. Uninstall with the ![](/src/assets/images/AddonManager.svg) [Addon Manager](/Std_AddonMgr "Std AddonMgr").
+1. Uninstall with the ![](/images/AddonManager.svg) [Addon Manager](/Std_AddonMgr "Std AddonMgr").
 2. Restart FreeCAD.
 3. Create a macro with this code:
 

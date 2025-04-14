@@ -2,11 +2,11 @@
 title: Assembly Preferences
 ---
 
-The preferences for the ![](/src/assets/images/Workbench_Assembly.svg) [Assembly Workbench](/Assembly_Workbench "Assembly Workbench") can be found in the [Preferences Editor](/Preferences_Editor "Preferences Editor"). In the menu select **Edit → Preferences...** and then **![](/src/assets/images/Workbench_Assembly.svg) Assembly**. This group is only available if the Assembly Workbench has been loaded in the current FreeCAD session.
+The preferences for the ![](/images/Workbench_Assembly.svg) [Assembly Workbench](/Assembly_Workbench "Assembly Workbench") can be found in the [Preferences Editor](/Preferences_Editor "Preferences Editor"). In the menu select **Edit → Preferences...** and then **![](/images/Workbench_Assembly.svg) Assembly**. This group is only available if the Assembly Workbench has been loaded in the current FreeCAD session.
 
 There is only one page: General.
 
-![](/src/assets/images/Preferences_Assembly_Page_General.png)
+![](/images/Preferences_Assembly_Page_General.png)
 
 On this page you can specify the following:
 

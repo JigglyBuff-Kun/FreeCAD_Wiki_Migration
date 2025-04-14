@@ -33,7 +33,7 @@ Merges materials that have the same base name (with different numeral endings li
 ## Script
 
 ToolBar Icon
-![](/src/assets/images/Macro_merge_duplicate_materials.png)
+![](/images/Macro_merge_duplicate_materials.png)
 
 **Merge duplicate materials.FCMacro**
 

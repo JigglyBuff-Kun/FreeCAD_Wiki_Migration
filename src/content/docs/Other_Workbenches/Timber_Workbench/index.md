@@ -22,21 +22,21 @@ Detailed description <http://forum.freecadweb.org/viewtopic.php?t=12559>
 
 Toolbar
 
-![](/src/assets/images/Timber-menu-orizz.png)
+![](/images/Timber-menu-orizz.png)
 
 Timber Tools
 
-- ![](/src/assets/images/Timber-Repartition.svg) **Repartition**: Make axis or structural system along a line
-- ![](/src/assets/images/Timber-Tag.svg) **Tag**: Add a tag to selected object(s)
+- ![](/images/Timber-Repartition.svg) **Repartition**: Make axis or structural system along a line
+- ![](/images/Timber-Tag.svg) **Tag**: Add a tag to selected object(s)
 
 Timber Listing
 
-- ![](/src/assets/images/Timber-Listing.svg) **Listing**: List objects
+- ![](/images/Timber-Listing.svg) **Listing**: List objects
 
 Timber Beam
 
-- ![](/src/assets/images/Timber-Beam.svg) **Timber Beam**: Creates a structure object from scratch or from a selected object (sketch, wire, face or solid)
-- ![](/src/assets/images/Timber-MachiningCut.svg) **Machining Cut**: Creates a cut machining to a Timber Beam object, relative to a plane (face)
+- ![](/images/Timber-Beam.svg) **Timber Beam**: Creates a structure object from scratch or from a selected object (sketch, wire, face or solid)
+- ![](/images/Timber-MachiningCut.svg) **Machining Cut**: Creates a cut machining to a Timber Beam object, relative to a plane (face)
 
 ## Installation
 

@@ -25,8 +25,8 @@ The **Points Merge** command creates a point cloud by combining the points of tw
 
 1. Select two or more point clouds.
 2. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/Points_Merge.svg) [Merge point clouds](/Points_Merge "Points Merge") button.
-   - Select the **Points → ![](/src/assets/images/Points_Merge.svg) Merge point clouds** option from the menu.
+   - Press the ![](/images/Points_Merge.svg) [Merge point clouds](/Points_Merge "Points Merge") button.
+   - Select the **Points → ![](/images/Points_Merge.svg) Merge point clouds** option from the menu.
 
 ## Properties
 

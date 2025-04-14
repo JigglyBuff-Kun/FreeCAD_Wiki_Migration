@@ -8,27 +8,27 @@ title: Base API
 
 The Base module is contained inside the FreeCAD module and contains constructors for different types of objects heavily used in FreeCAD.
 
-![](/src/assets/images/Class.png) **BoundBox(\***[Xmin,Ymin,Zmin,Xmax,Ymax,Zmax]**\*)**
+![](/images/Class.png) **BoundBox(\***[Xmin,Ymin,Zmin,Xmax,Ymax,Zmax]**\*)**
 
-![](/src/assets/images/Class.png) **BoundBox(\***Tuple, Tuple**\*)**
+![](/images/Class.png) **BoundBox(\***Tuple, Tuple**\*)**
 
-![](/src/assets/images/Class.png) **BoundBox(\***Vector, Vector**\*)**
+![](/images/Class.png) **BoundBox(\***Vector, Vector**\*)**
 
 **Description**:
 Creates a bounding box.
 A bounding box is an orthographic cube which is a way to describe outer boundaries. You get a bounding box from a lot of 3D types. It is often used to check if a 3D entity lies in the range of another object. Checking for bounding interference first can save a lot of computing time!
 
-![](/src/assets/images/Class.png) **Matrix(\*\***)\*\*
+![](/images/Class.png) **Matrix(\*\***)\*\*
 
 **Description**: Creates a 4x4 [Matrix](/Matrix_API "Matrix API"), that can be used to apply transformations to objects.
 
-![](/src/assets/images/Class.png) **Vector(\*\***)\*\*
+![](/images/Class.png) **Vector(\*\***)\*\*
 
-![](/src/assets/images/Class.png) **Vector(\***x, y, z**\*)**
+![](/images/Class.png) **Vector(\***x, y, z**\*)**
 
 **Description**: Creates a FreeCAD 3D [Vector](/Vector_API "Vector API"), representing a 3D point or a direction.
 
-![](/src/assets/images/Class.png) **Placement(\*\***)\*\*
+![](/images/Class.png) **Placement(\*\***)\*\*
 
 **Description**: Creates a [Placement](/Placement_API "Placement API").
 

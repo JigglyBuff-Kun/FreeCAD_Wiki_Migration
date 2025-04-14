@@ -23,13 +23,13 @@ This documentation is not finished. Please help and contribute documentation.Gui
 
 ## Description
 
-The ![](/src/assets/images/BIM_DimensionVertical.svg) [BIM DimensionVertical](/BIM_DimensionVertical "BIM DimensionVertical") tool creates an vertical dimension, a **Dimension** object...
+The ![](/images/BIM_DimensionVertical.svg) [BIM DimensionVertical](/BIM_DimensionVertical "BIM DimensionVertical") tool creates an vertical dimension, a **Dimension** object...
 
 ## Usage
 
 1. There are several ways to invoke the tool:
-   - Press the ![](/src/assets/images/BIM_DimensionVertical.svg) [Vertical dimension](/BIM_DimensionVertical "BIM DimensionVertical") button.
-   - Select the **Annotation → ![](/src/assets/images/BIM_DimensionVertical.svg) Vertical dimension** option from the menu.
+   - Press the ![](/images/BIM_DimensionVertical.svg) [Vertical dimension](/BIM_DimensionVertical "BIM DimensionVertical") button.
+   - Select the **Annotation → ![](/images/BIM_DimensionVertical.svg) Vertical dimension** option from the menu.
    - Use the keyboard shortcut: D then V.
 2. ...
 

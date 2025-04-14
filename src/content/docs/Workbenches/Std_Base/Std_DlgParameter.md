@@ -23,13 +23,13 @@ The **Std DlgParameter** command opens the Parameter Editor. In the Parameter Ed
 
 Working with the Parameter Editor requires some experience. For the most common parameters the [Preferences Editor](/Preferences_Editor "Preferences Editor") should be used instead.
 
-![](/src/assets/images/Std_DlgParameter_dialog.png)
+![](/images/Std_DlgParameter_dialog.png)
 
 The Parameter Editor dialog box
 
 ## Usage
 
-1. Select the **Tools → ![](/src/assets/images/Std_DlgParameter.svg) Edit parameters...** option from the menu.
+1. Select the **Tools → ![](/images/Std_DlgParameter.svg) Edit parameters...** option from the menu.
 2. The **Parameter Editor** dialog box opens. For more information see [Options](#Options).
 3. Optionally press the Save to disk button to immediately update the user.cfg file. This is not required as FreeCAD will automatically update that file when the application closes.
 4. Press the Close button to close the dialog box and finish the command.

@@ -60,7 +60,7 @@ webbrowser.open("https://raw.githubusercontent.com/FreeCAD/FreeCAD-macros/master
 
 <class="rawcodeurl"><a href="<https://raw.githubusercontent.com/FreeCAD/FreeCAD-macros/master/Information/CenterOfMass.FCMacro>">raw code</a>
 
-![](/src/assets/images/CenterOfMass_exemple.png)
+![](/images/CenterOfMass_exemple.png)
 
 ## Usage
 
@@ -73,7 +73,7 @@ webbrowser.open("https://raw.githubusercontent.com/FreeCAD/FreeCAD-macros/master
 - Color the solids according to density.
 - Display the location of the center of mass.
 - Export and import _masses_, _materials_ and _densities_ (even if it's not a .csv file from the macro, but columns must be named accordingly).
-- Save densities in the document (remove them again when setting material to default ![](/src/assets/images/ComboBox.svg)).
+- Save densities in the document (remove them again when setting material to default ![](/images/ComboBox.svg)).
 - You can change some preferences at **Tools → Edit parameters → Preferences → Macros**.
 
 ## Script
@@ -82,7 +82,7 @@ You can download the macro from GitHub:
 [Macro CenterOfMass.FCMacro](https://github.com/FreeCAD/FreeCAD-macros/blob/master/Information/CenterOfMass.FCMacro)
 
 You can use this icon file as a toolbar icon:
-![](/src/assets/images/Macro_CenterOfMass.svg)
+![](/images/Macro_CenterOfMass.svg)
 
 ## Link
 

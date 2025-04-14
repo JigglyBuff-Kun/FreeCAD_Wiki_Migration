@@ -21,7 +21,7 @@ title: TechDraw FaceCenterLine
 
 The **TechDraw FaceCenterLine** tool adds a centerline to selected faces.
 
-![](/src/assets/images/TechDraw_FaceCenterLine_Sample.png)
+![](/images/TechDraw_FaceCenterLine_Sample.png)
 
 Centerline added to a face
 
@@ -29,15 +29,15 @@ Centerline added to a face
 
 1. Select one or more faces in a View.
 2. There are several ways to invoke the tool:
-   - Press the ![](/src/assets/images/TechDraw_FaceCenterLine.svg) [Add Centerline to Faces](/TechDraw_FaceCenterLine "TechDraw FaceCenterLine") button.
-   - Select the **TechDraw → Add Lines → ![](/src/assets/images/TechDraw_FaceCenterLine.svg) Add Centerline to Faces** option from the menu.
+   - Press the ![](/images/TechDraw_FaceCenterLine.svg) [Add Centerline to Faces](/TechDraw_FaceCenterLine "TechDraw FaceCenterLine") button.
+   - Select the **TechDraw → Add Lines → ![](/images/TechDraw_FaceCenterLine.svg) Add Centerline to Faces** option from the menu.
 3. A task panel opens. See [Options](#Options) for more information.
 4. Press the OK button to confirm.
 5. A centerline is added at the midpoint of the bounding box of the selected face(s).
 
 ## Usage edit
 
-Any of the centerline tools (![](/src/assets/images/TechDraw_FaceCenterLine.svg) TechDraw FaceCenterLine, ![](/src/assets/images/TechDraw_2LineCenterLine.svg) [TechDraw 2LineCenterLine](/TechDraw_2LineCenterLine "TechDraw 2LineCenterLine") and ![](/src/assets/images/TechDraw_2PointCenterLine.svg) [TechDraw 2PointCenterLine](/TechDraw_2PointCenterLine "TechDraw 2PointCenterLine")) can be used to edit any centerline.
+Any of the centerline tools (![](/images/TechDraw_FaceCenterLine.svg) TechDraw FaceCenterLine, ![](/images/TechDraw_2LineCenterLine.svg) [TechDraw 2LineCenterLine](/TechDraw_2LineCenterLine "TechDraw 2LineCenterLine") and ![](/images/TechDraw_2PointCenterLine.svg) [TechDraw 2PointCenterLine](/TechDraw_2PointCenterLine "TechDraw 2PointCenterLine")) can be used to edit any centerline.
 
 1. Select a centerline.
 2. Invoke a centerline tool.
@@ -57,11 +57,11 @@ Any of the centerline tools (![](/src/assets/images/TechDraw_FaceCenterLine.svg)
 - **Color**: The color of the centerline.
 - **Weight**: The width of the centerline.
 - **Style**: The linestyle of the centerline. The options are:
-  - ![](/src/assets/images/Continuous-line.svg) **Continuous**
-  - ![](/src/assets/images/Dash-line.svg) **Dash**
-  - ![](/src/assets/images/Dot-line.svg) **Dot**
-  - ![](/src/assets/images/DashDot-line.svg) **DashDot**
-  - ![](/src/assets/images/DashDotDot-line.svg) **DashDotDot**
+  - ![](/images/Continuous-line.svg) **Continuous**
+  - ![](/images/Dash-line.svg) **Dash**
+  - ![](/images/Dot-line.svg) **Dot**
+  - ![](/images/DashDot-line.svg) **DashDot**
+  - ![](/images/DashDotDot-line.svg) **DashDotDot**
 
 ## Notes
 

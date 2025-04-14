@@ -25,7 +25,7 @@ Es kann bei der Analyse eines FreeCAD-Dokuments und beim Auffinden von Verzweigu
 
 Der Abhängigkeitsgraph ist ein reines Visualisierungswerkzeug, daher kann er nicht bearbeitet werden. Er wird automatisch aktualisiert, wenn Änderungen am Modell vorgenommen werden.
 
-![](/src/assets/images/Std_DependencyGraph_example.svg)
+![](/images/Std_DependencyGraph_example.svg)
 
 Beispiel eines Abhängigkeitsgraphen mit einem PartDesign-Körper auf der linken Seite und einem in der Arbeitsumgebung Part erzeugten Objekt auf der rechten Seite
 
@@ -33,7 +33,7 @@ Beispiel eines Abhängigkeitsgraphen mit einem PartDesign-Körper auf der linken
 
 Um den Befehl verwenden zu können, muss eine Drittanbieter Software namens [Graphviz](https://graphviz.org/) installiert sein. Wenn du diese nicht vorinstalliert hast oder sie an einem unkonventionellen Ort installiert ist, zeigt FreeCAD den folgenden Dialog an:
 
-![](/src/assets/images/FreeCAD-0.17-missing-Graphviz-error-dialogue.png)
+![](/images/FreeCAD-0.17-missing-Graphviz-error-dialogue.png)
 
 The saved path can be changed in the [Parameter Editor](/Std_DlgParameter "Std DlgParameter") under **BaseApp → Preferences → Paths → Graphviz**.
 
@@ -144,7 +144,7 @@ Und deshalb kannst du FreeCAD darauf hinweisen, in diesem Verzeichnis zu suchen.
 
 ## Anwendung
 
-1. Den Menüeintrag **Werkzeuge → ![](/src/assets/images/Std_DependencyGraph.svg) Abhängigkeitsgraph...** auswählen.
+1. Den Menüeintrag **Werkzeuge → ![](/images/Std_DependencyGraph.svg) Abhängigkeitsgraph...** auswählen.
 2. Eine neue Registerkarte mit dem Titel **Abhängigkeitsgraph** wird im [Hauptansichtsbereich](/Main_view_area/de "Main view area/de") geöffnet.
 3. Zum Vergrößern oder Verkleinern wird das Scrollrad der Maus verwendet.
 4. Die Schieberegler unten und rechts auf dem Bildschirm werden verwendet, um die Ansicht zu verschieben. Alternativ die linke Maustaste gedrückt halten und die Maus bewegen.

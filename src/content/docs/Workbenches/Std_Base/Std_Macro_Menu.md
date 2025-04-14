@@ -2,7 +2,7 @@
 title: Std Macro Menu
 ---
 
-![](/src/assets/images/Freecad.svg)
+![](/images/Freecad.svg)
 
 Std Base icon
 
@@ -30,19 +30,19 @@ The Macro menu provides tools related to the recording and execution of [macros]
 
 The following tools are available in this menu:
 
-- ![](/src/assets/images/Std_DlgMacroRecord.svg) [Macro recording...](/Std_DlgMacroRecord "Std DlgMacroRecord"): Opens a dialog box to start a macro recording session.
+- ![](/images/Std_DlgMacroRecord.svg) [Macro recording...](/Std_DlgMacroRecord "Std DlgMacroRecord"): Opens a dialog box to start a macro recording session.
 
-- ![](/src/assets/images/Std_DlgMacroExecute.svg) [Macros...](/Std_DlgMacroExecute "Std DlgMacroExecute"): Opens a dialog box to manage and execute macros.
+- ![](/images/Std_DlgMacroExecute.svg) [Macros...](/Std_DlgMacroExecute "Std DlgMacroExecute"): Opens a dialog box to manage and execute macros.
 
 * Recent macros: shows a list of recently used macros, which can be called with a key combination, for example, Ctrl+Shift+1. This can be configured in the [Preferences](/Preferences_Editor "Preferences Editor").
 
-- ![](/src/assets/images/Std_DlgMacroExecuteDirect.svg) [Execute macro](/Std_DlgMacroExecuteDirect "Std DlgMacroExecuteDirect"): Executes the macro currently in the Macro editor.
+- ![](/images/Std_DlgMacroExecuteDirect.svg) [Execute macro](/Std_DlgMacroExecuteDirect "Std DlgMacroExecuteDirect"): Executes the macro currently in the Macro editor.
 
 * [Attach to remote debugger...](/Std_MacroAttachDebugger "Std MacroAttachDebugger"): Attaches FreeCAD to a remote debugger.
 
-- ![](/src/assets/images/Std_MacroStartDebug.svg) [Debug macro](/Std_MacroStartDebug "Std MacroStartDebug"): Starts a debugging session for the macro in the Macro editor.
+- ![](/images/Std_MacroStartDebug.svg) [Debug macro](/Std_MacroStartDebug "Std MacroStartDebug"): Starts a debugging session for the macro in the Macro editor.
 
-- ![](/src/assets/images/Std_MacroStopDebug.svg) [Stop debugging](/Std_MacroStopDebug "Std MacroStopDebug"): Stops a debugging session.
+- ![](/images/Std_MacroStopDebug.svg) [Stop debugging](/Std_MacroStopDebug "Std MacroStopDebug"): Stops a debugging session.
 
 * [Step over](/Std_MacroStepOver "Std MacroStepOver"): Steps over code.
 
@@ -52,6 +52,6 @@ The following tools are available in this menu:
 
 ## Obsolete tools
 
-- ![](/src/assets/images/Std_MacroStopRecord.svg) [Stop macro recording](/Std_MacroStopRecord "Std MacroStopRecord"): Stops a macro recording session. Integrated in [Std DlgMacroRecord](/Std_DlgMacroRecord "Std DlgMacroRecord"). Not available in 1.0 and above.
+- ![](/images/Std_MacroStopRecord.svg) [Stop macro recording](/Std_MacroStopRecord "Std MacroStopRecord"): Stops a macro recording session. Integrated in [Std DlgMacroRecord](/Std_DlgMacroRecord "Std DlgMacroRecord"). Not available in 1.0 and above.
 
 Retrieved from "<http://wiki.freecad.org/index.php?title=Std_Macro_Menu/en&oldid=1454582>"

@@ -28,6 +28,6 @@ This tool measures the distance between two objects of an assembly using a point
 ## Usage
 
 1. Select a point and a straight edge.
-2. Press the ![](/src/assets/images/Assembly_MeasurePointLineDistance.svg) [Measure point to line](/Assembly3_MeasurePointLine "Assembly3 MeasurePointLine") button.
+2. Press the ![](/images/Assembly_MeasurePointLineDistance.svg) [Measure point to line](/Assembly3_MeasurePointLine "Assembly3 MeasurePointLine") button.
 
 Retrieved from "<http://wiki.freecad.org/index.php?title=Assembly3_MeasurePointLine/en&oldid=948608>"

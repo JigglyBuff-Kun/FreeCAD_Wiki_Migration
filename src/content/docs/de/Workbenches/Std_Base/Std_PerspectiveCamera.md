@@ -21,15 +21,15 @@ title: Std PerspektivKamera
 
 Der Befehl **Std PerspectivKamera** schaltet die Kamera in der aktiven [3D Ansicht](/3D_view/de "3D view/de") in den perspektivischen Ansichtsmodus. In diesem Modus erscheinen Objekte, die weiter von der Kamera entfernt sind, kleiner als solche, die näher sind.
 
-![](/src/assets/images/Std_PerspectiveCamera_example.svg)
+![](/images/Std_PerspectiveCamera_example.svg)
 
 Zwei Würfel mit den gleichen Abmessungen in perspektivischer Ansicht
 
 ## Anwendung
 
 1. Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
-   - Den Menüeintrag **Ansicht → ![](/src/assets/images/Std_PerspectiveCamera.svg) Perspektivische Ansicht** auswählen.
-   - Die Menüoption **![](/src/assets/images/Std_PerspectiveCamera.svg) Perspektivische Ansicht** im Miniwürfelmenü des [Navigationswürfels](/Navigation_Cube/de "Navigation Cube/de") auswählen.
+   - Den Menüeintrag **Ansicht → ![](/images/Std_PerspectiveCamera.svg) Perspektivische Ansicht** auswählen.
+   - Die Menüoption **![](/images/Std_PerspectiveCamera.svg) Perspektivische Ansicht** im Miniwürfelmenü des [Navigationswürfels](/Navigation_Cube/de "Navigation Cube/de") auswählen.
    - Das Tastaturkürzel: V dann P.
 
 ## Einstellungen

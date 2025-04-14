@@ -4,9 +4,9 @@ title: Draft annotation scale widget
 
 ## Description
 
-The **Draft annotation scale widget** can be used to specify the Draft annotation scale. This scale determines the View**Scale Multiplier** of new [Draft Texts](/Draft_Text "Draft Text"), [Draft Dimensions](/Draft_Dimension "Draft Dimension") and [Draft Labels](/Draft_Label "Draft Label"). The widget is only available in the ![](/src/assets/images/Workbench_Draft.svg) [Draft Workbench](/Draft_Workbench "Draft Workbench"). It is an [optional](#Preferences) GUI element that is located in the [Status bar](/Status_bar "Status bar").
+The **Draft annotation scale widget** can be used to specify the Draft annotation scale. This scale determines the View**Scale Multiplier** of new [Draft Texts](/Draft_Text "Draft Text"), [Draft Dimensions](/Draft_Dimension "Draft Dimension") and [Draft Labels](/Draft_Label "Draft Label"). The widget is only available in the ![](/images/Workbench_Draft.svg) [Draft Workbench](/Draft_Workbench "Draft Workbench"). It is an [optional](#Preferences) GUI element that is located in the [Status bar](/Status_bar "Status bar").
 
-![](/src/assets/images/Draft_annotation_scale_widget_button.png)
+![](/images/Draft_annotation_scale_widget_button.png)
 
 The Draft annotation scale widget
 
@@ -20,7 +20,7 @@ The Draft annotation scale widget
      - In the dialog box that opens enter a custom scale using the `x:x` or the `x=x` format.
      - Press Enter or the OK button.
 
-![](/src/assets/images/Draft_annotation_scale_widget_menu.png)
+![](/images/Draft_annotation_scale_widget_menu.png)
 
 The menu of the widget
 

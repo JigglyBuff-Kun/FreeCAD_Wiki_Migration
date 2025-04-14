@@ -24,8 +24,8 @@ Der Befehl **Std AnsichtNachRechtsDrehen** dreht die Kamera in der aktiven [3D-A
 ## Anwendung
 
 1. Es gibt mehrere Möglichkeiten den Befehl aufzurufen:
-   - Den Menüeintrag **Ansicht → Standardansichten → ![](/src/assets/images/Std_ViewRotateRight.svg) Nach rechts drehen** auswählen.
-   - Die Option **Standardansichten → ![](/src/assets/images/Std_ViewRotateRight.svg) Nach rechts drehen** aus dem Kontextmenü der [3D-Ansicht](/3D_view/de "3D view/de") auswählen.
+   - Den Menüeintrag **Ansicht → Standardansichten → ![](/images/Std_ViewRotateRight.svg) Nach rechts drehen** auswählen.
+   - Die Option **Standardansichten → ![](/images/Std_ViewRotateRight.svg) Nach rechts drehen** aus dem Kontextmenü der [3D-Ansicht](/3D_view/de "3D view/de") auswählen.
    - Das Tastaturkürzel: Shift+Rechts.
 
 ## Skripten

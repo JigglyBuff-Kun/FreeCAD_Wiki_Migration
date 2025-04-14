@@ -6,16 +6,16 @@ title: Interface Customization
 
 The FreeCAD interface is based on the modern [Qt](<http://en.wikipedia.org/wiki/Qt_(toolkit)>) toolkit and has a state-of-the-art organization. Some aspects of the interface can be customized. You can, for example, add custom toolbars, with tools from several workbenches or tools defined in macros, and you can create you own keyboard shortcuts. But the menus and default toolbars that come with FreeCAD and its workbenches cannot be changed.
 
-![](/src/assets/images/Std_DlgCustomize_tab_Toolbars.png)
+![](/images/Std_DlgCustomize_tab_Toolbars.png)
 
 The Customize dialog box
 
 ## Usage
 
 1. The commands available in the Customize dialog box depend on the workbenches that have been loaded in the current FreeCAD session. So you should first load all workbenches whose commands you want to have access to.
-2. There are several ways to invoke the ![](/src/assets/images/Std_DlgCustomize.svg) [Std DlgCustomize](/Std_DlgCustomize "Std DlgCustomize") command:
-   - Select the **Tools → ![](/src/assets/images/Std_DlgCustomize.svg) Customize...** option from the menu.
-   - Right-click a toolbar area and choose **![](/src/assets/images/Std_DlgCustomize.svg) Customize...** from the context menu.
+2. There are several ways to invoke the ![](/images/Std_DlgCustomize.svg) [Std DlgCustomize](/Std_DlgCustomize "Std DlgCustomize") command:
+   - Select the **Tools → ![](/images/Std_DlgCustomize.svg) Customize...** option from the menu.
+   - Right-click a toolbar area and choose **![](/images/Std_DlgCustomize.svg) Customize...** from the context menu.
 3. The **Customize** dialog box opens. For more information see [Options](#Options).
 4. The Help button does not work at this time.
 5. Press the Close button to close the dialog box.
@@ -26,7 +26,7 @@ In the Customize dialog box the following tabs are available:
 
 ### Keyboard
 
-![](/src/assets/images/Std_DlgCustomize_tab_Keyboard.png)
+![](/images/Std_DlgCustomize_tab_Keyboard.png)
 
 The Keyboard tab
 
@@ -78,7 +78,7 @@ It is also possible to search for shortcuts:
 
 ### Toolbars
 
-![](/src/assets/images/Std_DlgCustomize_tab_Toolbars.png)
+![](/images/Std_DlgCustomize_tab_Toolbars.png)
 
 The Toolbars tab
 
@@ -123,19 +123,19 @@ See [Keyboard](#Search).
 3. Select a command category from the **Category** dropdown list. Macro commands that have been set up on the [Macros](#Macros) tab appear in the `Macros` category.
 4. Select a command from the **Commands** panel, or select `<Separator>` to add a separator (a line between two toolbar buttons).
    - Optionally drag the splitter to the right of the panel to resize it.
-5. Press ![](/src/assets/images/Button_right.svg) button.
+5. Press ![](/images/Button_right.svg) button.
 
 #### Remove a command
 
 1. If required, expand the toolbar in the panel on the right.
 2. Select a command.
-3. Press ![](/src/assets/images/Button_left.svg) button.
+3. Press ![](/images/Button_left.svg) button.
 
 #### Change a command position
 
 1. If required, expand the toolbar in the panel on the right.
 2. Select a command.
-3. Press the ![](/src/assets/images/Button_up.svg) button or the ![](/src/assets/images/Button_down.svg) button.
+3. Press the ![](/images/Button_up.svg) button or the ![](/images/Button_down.svg) button.
 4. Optionally repeat this until the command is in the correct position.
 
 #### Notes
@@ -147,13 +147,13 @@ See [Keyboard](#Search).
 
 ### Macros
 
-![](/src/assets/images/Std_DlgCustomize_tab_Macros.png)
+![](/images/Std_DlgCustomize_tab_Macros.png)
 
 The Macros tab
 
-On this tab macro commands can be set up. Once set up, they can be added to custom toolbars. Macros installed with the ![](/src/assets/images/Std_AddonMgr.svg) [Addon Manager](/Std_AddonMgr "Std AddonMgr") are set up automatically, and added to a `Global` toolbar (see [Toolbars](#Toolbars)), if you confirm the **Add button** popup during the installation process.
+On this tab macro commands can be set up. Once set up, they can be added to custom toolbars. Macros installed with the ![](/images/Std_AddonMgr.svg) [Addon Manager](/Std_AddonMgr "Std AddonMgr") are set up automatically, and added to a `Global` toolbar (see [Toolbars](#Toolbars)), if you confirm the **Add button** popup during the installation process.
 
-If you want to use a macro downloaded from a different source you will have to install it manually. See [How to install macros](/How_to_install_macros "How to install macros") for more information. Note that FreeCAD uses a dedicated folder for macros and only macros in that folder can be set up. Use the ![](/src/assets/images/Std_DlgMacroExecute.svg) [Std DlgMacroExecute](/Std_DlgMacroExecute "Std DlgMacroExecute") command to find this folder on your system.
+If you want to use a macro downloaded from a different source you will have to install it manually. See [How to install macros](/How_to_install_macros "How to install macros") for more information. Note that FreeCAD uses a dedicated folder for macros and only macros in that folder can be set up. Use the ![](/images/Std_DlgMacroExecute.svg) [Std DlgMacroExecute](/Std_DlgMacroExecute "Std DlgMacroExecute") command to find this folder on your system.
 
 #### Add a macro command
 
@@ -211,7 +211,7 @@ You can also create your own theme if you are not satisfied with the themes that
 
 ## Addons
 
-Addons from the ![](/src/assets/images/Std_AddonMgr.svg) [Addon Manager](/Std_AddonMgr "Std AddonMgr") offer yet another way to customize the user interface. Several dedicated [external workbenches](/External_workbenches "External workbenches") and [Preference Packs](/Preference_Packs "Preference Packs") are available.
+Addons from the ![](/images/Std_AddonMgr.svg) [Addon Manager](/Std_AddonMgr "Std AddonMgr") offer yet another way to customize the user interface. Several dedicated [external workbenches](/External_workbenches "External workbenches") and [Preference Packs](/Preference_Packs "Preference Packs") are available.
 
 [Top](#top)
 

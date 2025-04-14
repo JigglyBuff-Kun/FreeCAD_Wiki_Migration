@@ -63,11 +63,11 @@ For modify the value : go to : FreeCAD → Menu → Tools → Edit parameters.
 - `true` 1 : the macro stay resident (Type Q to quit)
 - `false` 0 : the macro is used on run and quit after use
 
-![](/src/assets/images/DeltaXYZ.png)
+![](/images/DeltaXYZ.png)
 
 ## Script
 
-ToolBar Icon ![](/src/assets/images/Macro_Delta_xyz.png)
+ToolBar Icon ![](/images/Macro_Delta_xyz.png)
 
 **Macro_Delta_xyz.FCMacro**
 

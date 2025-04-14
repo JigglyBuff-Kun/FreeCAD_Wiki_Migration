@@ -77,7 +77,7 @@ Wenn nicht genug Elemente ausgewählt werden, bevor das Makro gestartet wird, wi
 
 Die neueste Version des Makros ist zu finden auf [MeasureCircle.FCMacro](https://raw.githubusercontent.com/FreeCAD/FreeCAD-macros/master/Information/MeasureCircle.FCMacro), aber der einfachste Weg zur Installation dieses Makros ist die Nutzung des [Addon-Managers](/Std_AddonMgr/de "Std AddonMgr/de").
 
-ToolBar Icon ![](/src/assets/images/Macro_MeasureCircle.png)
+ToolBar Icon ![](/images/Macro_MeasureCircle.png)
 
 **Macro_MeasureCircle.FCMacro**
 

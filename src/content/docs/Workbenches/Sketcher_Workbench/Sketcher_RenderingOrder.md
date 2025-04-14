@@ -19,15 +19,15 @@ title: Sketcher RenderingOrder
 
 ## Description
 
-The ![](/src/assets/images/Sketcher_RenderingOrder.svg) [Sketcher RenderingOrder](/Sketcher_RenderingOrder "Sketcher RenderingOrder") tool itself currently does not do anything. But in the related menu the rendering order of all sketches can be changed.
+The ![](/images/Sketcher_RenderingOrder.svg) [Sketcher RenderingOrder](/Sketcher_RenderingOrder "Sketcher RenderingOrder") tool itself currently does not do anything. But in the related menu the rendering order of all sketches can be changed.
 
 In case of coincident objects, the rendering order determines which elements appear on top, and are therefore selected first, in the [3D view](/3D_view "3D view").
 
 ## Usage
 
-1. Click on the down arrow to the right of the ![](/src/assets/images/Sketcher_RenderingOrder.svg) [Configure rendering order](/Sketcher_RenderingOrder "Sketcher RenderingOrder") button.
+1. Click on the down arrow to the right of the ![](/images/Sketcher_RenderingOrder.svg) [Configure rendering order](/Sketcher_RenderingOrder "Sketcher RenderingOrder") button.
 2. The rendering order list opens:  
-   ![](/src/assets/images/Sketcher_RenderingOrder_Menu.png)
+   ![](/images/Sketcher_RenderingOrder_Menu.png)
 3. Drag individual list items to change the rendering order.
 4. The button will change to match the first item in the list.
 5. Click outside the list to finish.

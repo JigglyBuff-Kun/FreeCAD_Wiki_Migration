@@ -5,19 +5,19 @@ title: Image Workbench
 :::caution
 TheImage Workbenchis no longer included after version 0.20.Its functionality has been integrated inStd Base. SeeStd ImportandStd ViewLoadImage.
 :::
-![](/src/assets/images/Workbench_Image.svg)
+![](/images/Workbench_Image.svg)
 
 Image workbench icon
 
 ## Introduction
 
-The ![](/src/assets/images/Workbench_Image.svg) [Image Workbench](/Image_Workbench "Image Workbench") manages different types of [bitmap](/Bitmap "Bitmap") images, and allows you to open them in FreeCAD.
+The ![](/images/Workbench_Image.svg) [Image Workbench](/Image_Workbench "Image Workbench") manages different types of [bitmap](/Bitmap "Bitmap") images, and allows you to open them in FreeCAD.
 
 ## Tools
 
-- ![](/src/assets/images/Image_Open.svg) [Open...](/Image_Open "Image Open"): open an image on a new viewport.
-- ![](/src/assets/images/Image_CreateImagePlane.svg) [Create image plane...](/Image_CreateImagePlane "Image CreateImagePlane"): import an image to a plane in the 3D view.
-- ![](/src/assets/images/Image_Scaling.svg) [Scale image plane](/Image_Scaling "Image Scaling"): scale an image imported to a plane.
+- ![](/images/Image_Open.svg) [Open...](/Image_Open "Image Open"): open an image on a new viewport.
+- ![](/images/Image_CreateImagePlane.svg) [Create image plane...](/Image_CreateImagePlane "Image CreateImagePlane"): import an image to a plane in the 3D view.
+- ![](/images/Image_Scaling.svg) [Scale image plane](/Image_Scaling "Image Scaling"): scale an image imported to a plane.
 
 ## Features
 

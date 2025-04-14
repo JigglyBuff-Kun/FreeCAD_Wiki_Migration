@@ -23,14 +23,14 @@ The **TechDraw Image** tool inserts a [bitmap](/Bitmap "Bitmap") image (PNG, TIF
 
 [introduced in 1.0](/Release_notes_1.0 "Release notes 1.0"): The [TechDraw View](/TechDraw_View "TechDraw View") tool can also create an Image View.
 
-![](/src/assets/images/TechDraw_Image_example.png)
+![](/images/TechDraw_Image_example.png)
 
 Image inserted in the drawing page
 
 ## Usage
 
 1. If there are multiple drawing pages in the document: optionally activate the desired page by selecting it in the [Tree view](/Tree_view "Tree view").
-2. Select the **TechDraw → TechDraw Views → ![](/src/assets/images/TechDraw_Image.svg) Insert Bitmap Image** option from the menu.
+2. Select the **TechDraw → TechDraw Views → ![](/images/TechDraw_Image.svg) Insert Bitmap Image** option from the menu.
 3. If there are multiple drawing pages in the document and you have not yet activated a page, the **Page Chooser** dialog box opens:
    1. Select the desired page.
    2. Press the OK button.

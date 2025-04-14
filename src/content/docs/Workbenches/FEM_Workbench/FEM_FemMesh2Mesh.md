@@ -28,8 +28,8 @@ This tool converts surfaces of 3D elements or whole 2D elements of a selected FE
 1. Select a FEM mesh object.
 2. Optionally also select the FEM results.
 3. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/FEM_FemMesh2Mesh.svg) [FEM mesh to mesh](/FEM_FemMesh2Mesh "FEM FemMesh2Mesh") button.
-   - Select the **Mesh → ![](/src/assets/images/FEM_FemMesh2Mesh.svg) FEM mesh to mesh** option from the menu.
+   - Press the ![](/images/FEM_FemMesh2Mesh.svg) [FEM mesh to mesh](/FEM_FemMesh2Mesh "FEM FemMesh2Mesh") button.
+   - Select the **Mesh → ![](/images/FEM_FemMesh2Mesh.svg) FEM mesh to mesh** option from the menu.
 
 ## Scripting
 

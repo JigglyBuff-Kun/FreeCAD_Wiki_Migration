@@ -33,7 +33,7 @@ This macro hidden all objects in the document (Visibility False).
 ## Script
 
 ToolBar Icon
-![](/src/assets/images/Macro_HiddenAlls.png)
+![](/images/Macro_HiddenAlls.png)
 
 **Macro_HidenAlls.FCMacro**
 

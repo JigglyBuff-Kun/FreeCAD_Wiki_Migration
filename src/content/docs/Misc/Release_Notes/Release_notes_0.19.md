@@ -6,7 +6,7 @@ title: Release notes 0.19
 
 Older FreeCAD release notes can be found in [Feature list](/Feature_list#Release_notes "Feature list").
 
-![](/src/assets/images/FreeCAD_release_0.19_main.jpg)
+![](/images/FreeCAD_release_0.19_main.jpg)
 
 _Simpson and Shipton short stroke steam engine circa 1845, using horizontal rotating piston, by "un1corn", [Users Showcase](https://forum.freecadweb.org/viewtopic.php?f=24&t=39024)._
 
@@ -93,7 +93,7 @@ Other development news:
 
 ## App::Link and assembly
 
-![](/src/assets/images/Link.svg) ![](/src/assets/images/AppLink.png)
+![](/images/Link.svg) ![](/images/AppLink.png)
 
 The "App::Link" object allows lightweight linking of objects in a document and from external documents.
 

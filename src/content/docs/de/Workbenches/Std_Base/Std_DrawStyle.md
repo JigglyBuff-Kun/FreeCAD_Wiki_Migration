@@ -24,7 +24,7 @@ Der Befehl **Std Darstellungsart** kann den Effekt der Ansicht-Eigenschaft**Disp
 ## Anwendung
 
 1. Es gibt mehrere Möglichkeiten den Befehl aufzurufen:
-   - Ein Klick auf den schwarzen Abwärtspfeil rechts von der Schaltfläche ![](/src/assets/images/Std_DrawStyleAsIs.svg) Darstellungsart und eine Darstellungsart aus dem Ausklappmenü wählen.
+   - Ein Klick auf den schwarzen Abwärtspfeil rechts von der Schaltfläche ![](/images/Std_DrawStyleAsIs.svg) Darstellungsart und eine Darstellungsart aus dem Ausklappmenü wählen.
    - Den Menüeintrag **Ansicht → Darstellungsart** auswählen und anschließend eine Darstellungsart aus dem Ausklappmenü wählen.
    - Im Kontextmenü der [3D-Ansicht](/3D_view/de "3D view/de") die Option **Darstellungsart** auswählen und anschließend eine Darstellungsart aus dem Ausklappmenü wählen.
    - Eines der Tastaturkürzel V dann 1, 2, 3, 4, 5, 6 oder 7.
@@ -35,7 +35,7 @@ Der Befehl **Std Darstellungsart** kann den Effekt der Ansicht-Eigenschaft**Disp
 
 Die Darstellungsart **Original** überlagert nicht die Ansicht-Eigenschaft**Display Mode** von Objekten.
 
-![](/src/assets/images/Std_DrawStyleAsIs_example.png)
+![](/images/Std_DrawStyleAsIs_example.png)
 
 4 identische Objekte mit jeweils unterschiedlichen Display-Modes (von links nach rechts: 'Punkte', 'Drahtgitter', 'Schattiert' und 'Flat lines') mit der aktivierten Darstellungsart 'Original'
 
@@ -43,7 +43,7 @@ Die Darstellungsart **Original** überlagert nicht die Ansicht-Eigenschaft**Disp
 
 Die Darstellungsart **Punkte** überlagert die Ansicht-Eigenschaft**Display Mode** von Objekten. Diese Darstellungsart entspricht dem Display_Mode 'Points'. Knoten werden in deckenden Farben dargestellt. Kanten und Flächen werden nicht dargestellt.
 
-![](/src/assets/images/Std_DrawStylePoints_example.png)
+![](/images/Std_DrawStylePoints_example.png)
 
 Dieselben Objekte mit Darstellungsart 'Punkte' aktiviert
 
@@ -51,7 +51,7 @@ Dieselben Objekte mit Darstellungsart 'Punkte' aktiviert
 
 Die Darstellungsart **Drahtgitter** überlagert die Ansicht-Eigenschaft**Display Mode** von Objekten. Diese Darstellungsart entspricht dem Display_Mode 'Wireframe'. Knoten und Kanten werden in deckenden Farben dargestellt. Flächen werden nicht dargestellt.
 
-![](/src/assets/images/Std_DrawStyleWireframe_example.png)
+![](/images/Std_DrawStyleWireframe_example.png)
 
 Dieselben Objekte mit Darstellungsart 'Drahtgitter' aktiviert
 
@@ -59,7 +59,7 @@ Dieselben Objekte mit Darstellungsart 'Drahtgitter' aktiviert
 
 Die Darstellungsart **Versteckte Line** überlagert die Ansicht-Eigenschaft**Display Mode** von Objekten. Objekte werden dargestellt, als wären sie in Dreiecksnetze konvertiert.
 
-![](/src/assets/images/Std_DrawStyleHiddenLine_example.png)
+![](/images/Std_DrawStyleHiddenLine_example.png)
 
 Dieselben Objekte mit Darstellungsart 'Versteckte Linie' aktiviert
 
@@ -67,7 +67,7 @@ Dieselben Objekte mit Darstellungsart 'Versteckte Linie' aktiviert
 
 Die Darstellungsart **Keine Schattierung** überlagert die Ansicht-Eigenschaft**Display Mode** von Objekten. Punkte, Kanten und Flächen werden gleichmäßig, deckend eingefärbt dargestellt.
 
-![](/src/assets/images/Std_DrawStyleNoShading_example.png)
+![](/images/Std_DrawStyleNoShading_example.png)
 
 Dieselben Objekte mit Darstellungsart 'Keine Schattierung' aktiviert
 
@@ -75,7 +75,7 @@ Dieselben Objekte mit Darstellungsart 'Keine Schattierung' aktiviert
 
 Die Darstellungsart **Schattiert** überlagert die Ansicht-Eigenschaft**Display Mode** von Objekten. Punkte und Kanten werden nicht dargestellt. Flächen werden abhängig von ihrer Ausrichtung beleuchtet.
 
-![](/src/assets/images/Std_DrawStyleShaded_example.png)
+![](/images/Std_DrawStyleShaded_example.png)
 
 Dieselben Objekte mit Darstellungsart 'Schattiert' aktiviert
 
@@ -83,7 +83,7 @@ Dieselben Objekte mit Darstellungsart 'Schattiert' aktiviert
 
 Die Darstellungsart **Flache Linien** überlagert die Ansicht-Eigenschaft**Display Mode** von Objekten. Diese Darstellungsart entspricht demDisplay-Mode 'Flat Lines' von Objekten. Punkte und Kanten werden deckend eingefärbt dargestellt. Flächen werden abhängig von ihrer Ausrichtung beleuchtet.
 
-![](/src/assets/images/Std_DrawStyleFlatLines_example.png)
+![](/images/Std_DrawStyleFlatLines_example.png)
 
 Dieselben Objekte mit Darstellungsart 'Flache Linien' aktiviert
 

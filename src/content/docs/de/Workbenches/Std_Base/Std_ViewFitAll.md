@@ -24,10 +24,10 @@ Der Befehl **Std AnsichtAllesEinpassen** zoomt und schwenkt die Kamera, bis alle
 ## Anwendung
 
 1. Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
-   - Die Schaltfläche ![](/src/assets/images/Std_ViewFitAll.svg) Einpassen drücken.
-   - Den Menüeintrag **Ansicht → Standardansichten → ![](/src/assets/images/Std_ViewFitAll.svg) Einpassen** auswählen.
-   - Die Menüoption **![](/src/assets/images/Std_ViewFitAll.svg) Einpassen** im Kontextmenü der [3D-Ansicht](/3D_view/de "3D view/de") auswählen.
-   - Die Menüoption **![](/src/assets/images/Std_ViewFitAll.svg) Einpassen** im Miniwürfelmenü des [Navigationswürfels](/Navigation_Cube/de "Navigation Cube/de") auswählen.
+   - Die Schaltfläche ![](/images/Std_ViewFitAll.svg) Einpassen drücken.
+   - Den Menüeintrag **Ansicht → Standardansichten → ![](/images/Std_ViewFitAll.svg) Einpassen** auswählen.
+   - Die Menüoption **![](/images/Std_ViewFitAll.svg) Einpassen** im Kontextmenü der [3D-Ansicht](/3D_view/de "3D view/de") auswählen.
+   - Die Menüoption **![](/images/Std_ViewFitAll.svg) Einpassen** im Miniwürfelmenü des [Navigationswürfels](/Navigation_Cube/de "Navigation Cube/de") auswählen.
    - Das Tastaturkürzel V dann F.
 
 ## Skripten

@@ -23,27 +23,27 @@ This documentation is not finished. Please help and contribute documentation.Gui
 
 ## Description
 
-The ![](/src/assets/images/SheetMetal_AddBase.svg) **SheetMetal AddBase** command creates a SheetMetal base object from a sketch.
+The ![](/images/SheetMetal_AddBase.svg) **SheetMetal AddBase** command creates a SheetMetal base object from a sketch.
 
 From an open contour it creates a prismatic **profile**:
 
-![](/src/assets/images/SheetMetal_AddBase-01.png) ![](/src/assets/images/Button_right.svg)
-![](/src/assets/images/SheetMetal_AddBase-02.png)
+![](/images/SheetMetal_AddBase-01.png) ![](/images/Button_right.svg)
+![](/images/SheetMetal_AddBase-02.png)
 
 From a closed outline it creates a base **plate** (blank):
 
-![](/src/assets/images/SheetMetal_AddBase-03.png) ![](/src/assets/images/Button_right.svg)
-![](/src/assets/images/SheetMetal_AddBase-04.png)
+![](/images/SheetMetal_AddBase-03.png) ![](/images/Button_right.svg)
+![](/images/SheetMetal_AddBase-04.png)
 
 ## Usage
 
 ### Profile
 
-1. Select an \*_open contour_- ![](/src/assets/images/Workbench_Sketcher.svg) [sketch](/Sketcher_Workbench "Sketcher Workbench").
+1. Select an \*_open contour_- ![](/images/Workbench_Sketcher.svg) [sketch](/Sketcher_Workbench "Sketcher Workbench").
 2. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/SheetMetal_AddBase.svg) [Make Base Wall](/SheetMetal_AddBase "SheetMetal AddBase") button.
-   - Select the **Sheet Metal → ![](/src/assets/images/SheetMetal_AddBase.svg) Make Base Wall** option from the menu.
-   - Right-click in the [Tree view](/Tree_view "Tree view") or the [3D view](/3D_view "3D view") and select the **Sheet Metal → ![](/src/assets/images/SheetMetal_AddBase.svg) Make Base Wall** option from the context menu.
+   - Press the ![](/images/SheetMetal_AddBase.svg) [Make Base Wall](/SheetMetal_AddBase "SheetMetal AddBase") button.
+   - Select the **Sheet Metal → ![](/images/SheetMetal_AddBase.svg) Make Base Wall** option from the menu.
+   - Right-click in the [Tree view](/Tree_view "Tree view") or the [3D view](/3D_view "3D view") and select the **Sheet Metal → ![](/images/SheetMetal_AddBase.svg) Make Base Wall** option from the context menu.
    - Use the keyboard shortcut: C then B.
 3. A **BaseBend** object is created and the **Sketched base shape properties** [Task panel](/Task_panel "Task panel") opens.
 
@@ -56,7 +56,7 @@ From a closed outline it creates a base **plate** (blank):
 
 ### Plate
 
-1. Select a \*_closed outline_- ![](/src/assets/images/Workbench_Sketcher.svg) [sketch](/Sketcher_Workbench "Sketcher Workbench").
+1. Select a \*_closed outline_- ![](/images/Workbench_Sketcher.svg) [sketch](/Sketcher_Workbench "Sketcher Workbench").
 2. Invoke the command as described above.
 3. A **BaseBend** object is created and the **Generate Sheet Metal base shape** [Task panel](/Task_panel "Task panel") opens.
 4. Optionally press the Sketch button and select a different sketch.
@@ -70,7 +70,7 @@ A task panel was introduced in version 0.6.01
 
 Double-click an existing BaseBend object in the [Tree view](/Tree_view "Tree view") to re-open the task panel and edit the parameters.
 
-![](/src/assets/images/SheetMetal_AddBase-Task.png)
+![](/images/SheetMetal_AddBase-Task.png)
 
 - Sketch: Links a different Sketch to the **Bend Sketch** property.
 - **Bend Plane**: Sets the **Bend Side** property.

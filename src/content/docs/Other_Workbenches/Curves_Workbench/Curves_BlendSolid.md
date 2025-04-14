@@ -23,14 +23,14 @@ This documentation is not finished. Please help and contribute documentation.Gui
 
 ## Description
 
-The ![](/src/assets/images/Curves_BlendSolid.svg) **Curves BlendSolid** tool creates a solid between two edges with some continuity with their support shapes.
+The ![](/images/Curves_BlendSolid.svg) **Curves BlendSolid** tool creates a solid between two edges with some continuity with their support shapes.
 
 ## Usage
 
 1. Select two faces of different solids.
 2. There are several ways to invoke the tool:
-   - Press the ![](/src/assets/images/Curves_BlendSolid.svg) [BlendSolid](/Curves_BlendSolid "Curves BlendSolid") button.
-   - Select the **Surfaces → ![](/src/assets/images/Curves_BlendSolid.svg) BlendSolid** option from the menu.
+   - Press the ![](/images/Curves_BlendSolid.svg) [BlendSolid](/Curves_BlendSolid "Curves BlendSolid") button.
+   - Select the **Surfaces → ![](/images/Curves_BlendSolid.svg) BlendSolid** option from the menu.
 3. A **Blend_Solid** object is created.
 4. Optionally edit the values in the [Property editor](/Property_editor "Property editor") to choose a different auto scale method and adjust the related properties (see Properties below).
 

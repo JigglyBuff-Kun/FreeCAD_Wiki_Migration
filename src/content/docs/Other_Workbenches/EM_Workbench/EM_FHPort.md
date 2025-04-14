@@ -21,7 +21,7 @@ title: EM FHPort
 
 The FHPort tool creates a FastHenry port between two FHNode objects.
 
-![](/src/assets/images/EM_FHPort_Example.png)
+![](/images/EM_FHPort_Example.png)
 
 FastHenry FHPort
 
@@ -29,8 +29,8 @@ FastHenry FHPort
 
 The FHPort object is based on the two existing FHNodes between which it will create a FastHenry port.
 
-1. Select two ![](/src/assets/images/EM_FHNode.svg) [FHNode](/EM_FHNode "EM FHNode") objects
-2. Press the ![](/src/assets/images/EM_FHPort.svg) [EM FHPort](/EM_FHPort "EM FHPort") button, or press E then P keys.
+1. Select two ![](/images/EM_FHNode.svg) [FHNode](/EM_FHNode "EM FHNode") objects
+2. Press the ![](/images/EM_FHPort.svg) [EM FHPort](/EM_FHPort "EM FHPort") button, or press E then P keys.
 
 ### Remarks
 

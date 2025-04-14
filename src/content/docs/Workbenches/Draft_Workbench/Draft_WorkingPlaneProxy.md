@@ -19,9 +19,9 @@ title: Draft WorkingPlaneProxy
 
 ## Description
 
-The ![](/src/assets/images/Draft_WorkingPlaneProxy.svg) **Draft WorkingPlaneProxy** command creates a working plane proxy to save the current [Draft working plane](/Draft_SelectPlane "Draft SelectPlane"). A working plane proxy can be used to quickly restore a working plane. The camera position and visibility of the objects in the [3D view](/3D_view "3D view") are also saved in the working plane proxy and can, [optionally](#Properties), be restored as well.
+The ![](/images/Draft_WorkingPlaneProxy.svg) **Draft WorkingPlaneProxy** command creates a working plane proxy to save the current [Draft working plane](/Draft_SelectPlane "Draft SelectPlane"). A working plane proxy can be used to quickly restore a working plane. The camera position and visibility of the objects in the [3D view](/3D_view "3D view") are also saved in the working plane proxy and can, [optionally](#Properties), be restored as well.
 
-![](/src/assets/images/Draft_WPProxy_example.png)
+![](/images/Draft_WPProxy_example.png)
 
 Three working plane proxies showing different orientations and offsets
 
@@ -31,9 +31,9 @@ Three working plane proxies showing different orientations and offsets
 2. Optionally change the [3D view](/3D_view "3D view").
 3. Optionally change the visibility state of objects in the document.
 4. There are several ways to invoke the command:
-   - [Draft](/Draft_Workbench "Draft Workbench"): Press the ![](/src/assets/images/Draft_WorkingPlaneProxy.svg) [Create working plane proxy](/Draft_WorkingPlaneProxy "Draft WorkingPlaneProxy") button.
-   - Draft: Select the **Utilities → ![](/src/assets/images/Draft_WorkingPlaneProxy.svg) Create working plane proxy** option from the menu, or from the [Tree view](/Tree_view "Tree view") or 3D view context menu.
-   - [BIM](/BIM_Workbench "BIM Workbench"): Select the **Utils → ![](/src/assets/images/Draft_WorkingPlaneProxy.svg) Create working plane proxy** option from the menu.
+   - [Draft](/Draft_Workbench "Draft Workbench"): Press the ![](/images/Draft_WorkingPlaneProxy.svg) [Create working plane proxy](/Draft_WorkingPlaneProxy "Draft WorkingPlaneProxy") button.
+   - Draft: Select the **Utilities → ![](/images/Draft_WorkingPlaneProxy.svg) Create working plane proxy** option from the menu, or from the [Tree view](/Tree_view "Tree view") or 3D view context menu.
+   - [BIM](/BIM_Workbench "BIM Workbench"): Select the **Utils → ![](/images/Draft_WorkingPlaneProxy.svg) Create working plane proxy** option from the menu.
 5. A working plane proxy is created.
 6. To align the [working plane](/Draft_SelectPlane "Draft SelectPlane") with a working plane proxy, double-click the working plane proxy in the [Tree view](/Tree_view "Tree view") or use it with the [Draft SelectPlane](/Draft_SelectPlane "Draft SelectPlane") command.
 
@@ -41,12 +41,12 @@ Three working plane proxies showing different orientations and offsets
 
 For a Draft WorkingPlaneProxy these additional options are available in the [Tree view](/Tree_view "Tree view") context menu:
 
-- **![](/src/assets/images/Draft_SelectPlane.svg) Write camera position**: updates the View**View Data** property of the working plane proxy with the current [3D view](/3D_view "3D view") camera settings.
-- **![](/src/assets/images/Draft_SelectPlane.svg) Write objects state**: updates the View**Visibility Map** property of the working plane proxy with the current visibility state of objects in the document.
+- **![](/images/Draft_SelectPlane.svg) Write camera position**: updates the View**View Data** property of the working plane proxy with the current [3D view](/3D_view "3D view") camera settings.
+- **![](/images/Draft_SelectPlane.svg) Write objects state**: updates the View**Visibility Map** property of the working plane proxy with the current visibility state of objects in the document.
 
 ## Notes
 
-- Working plane proxies can be [moved](/Draft_Move "Draft Move") and [rotated](/Draft_Rotate "Draft Rotate") like any other object. Use ![](/src/assets/images/Draft_Snap_Center.svg) [Draft Snap Center](/Draft_Snap_Center "Draft Snap Center") to snap to their Data**Placement** point.
+- Working plane proxies can be [moved](/Draft_Move "Draft Move") and [rotated](/Draft_Rotate "Draft Rotate") like any other object. Use ![](/images/Draft_Snap_Center.svg) [Draft Snap Center](/Draft_Snap_Center "Draft Snap Center") to snap to their Data**Placement** point.
 
 ## Properties
 

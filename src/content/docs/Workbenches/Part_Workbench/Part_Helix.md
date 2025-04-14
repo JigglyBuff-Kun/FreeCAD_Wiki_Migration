@@ -19,9 +19,9 @@ title: Part Helix
 
 ## Description
 
-A ![](/src/assets/images/Part_Helix.svg) **Part Helix** is a parametric shape that can be created with the ![](/src/assets/images/Part_Primitives.svg) [Part Primitives](/Part_Primitives "Part Primitives") command. In the coordinate system defined by its Data**Placement** property, the axis of the helix matches the Z axis and its bottom point, the start point, lies on the X axis.
+A ![](/images/Part_Helix.svg) **Part Helix** is a parametric shape that can be created with the ![](/images/Part_Primitives.svg) [Part Primitives](/Part_Primitives "Part Primitives") command. In the coordinate system defined by its Data**Placement** property, the axis of the helix matches the Z axis and its bottom point, the start point, lies on the X axis.
 
-![](/src/assets/images/Part_Helix_Example.png)
+![](/images/Part_Helix_Example.png)
 
 ## Usage
 
@@ -29,7 +29,7 @@ See [Part Primitives](/Part_Primitives#Usage "Part Primitives").
 
 ## Example
 
-![](/src/assets/images/Part_Helix_Scripting_Example.png)
+![](/images/Part_Helix_Scripting_Example.png)
 
 Part Helix from the scripting example
 

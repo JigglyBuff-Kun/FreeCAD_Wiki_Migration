@@ -61,11 +61,11 @@ Now we are ready to create a simple building with closed walls, two doors and tw
 
 : _Note:_ if the property Data**Make Face** of `DWire` is `true`, this step would create a solid block, instead of using only the contour of `DWire`.
 
-![](/src/assets/images/01_T01_wire_wall.png)
+![](/images/01_T01_wire_wall.png)
 
 Base wire for the wall; it is a closed wire that doesn't make a face
 
-![](/src/assets/images/02_T01_just_wall.png)
+![](/images/02_T01_just_wall.png)
 
 Wall constructed from the wire
 
@@ -76,7 +76,7 @@ Wall constructed from the wire
 : 8.1. Change the snapping to [Draft Midpoint](/Draft_Snap_Midpoint "Draft Snap Midpoint"), and try selecting the bottom edge of the frontal wall; rotate the [standard view](/Std_View_Menu "Std View Menu") as necessary to help you pick the edge and not the wall face; when the midpoint is active, click to place the door.
 : 8.2. Click the [Arch Window](/Arch_Window "Arch Window") tool again, and place another door, but this time in the midpoint of the rear wall; rotate the [standard view](/Std_View_Menu "Std View Menu") as necessary.
 
-![](/src/assets/images/03_T01_wall_place_door_rear.png)
+![](/images/03_T01_wall_place_door_rear.png)
 
 Snapping to the midpoint of the bottom edge of the wall to place the door
 
@@ -88,7 +88,7 @@ Snapping to the midpoint of the bottom edge of the wall to place the door
 
 : 9.2. Click the [Arch Window](/Arch_Window "Arch Window") tool again, and place another window, but this time in the midpoint of the right wall; rotate the [standard view](/Std_View_Menu "Std View Menu") as necessary. This time make the window's width (length) 1.5 m, and again make the `Sill height` 1 m.
 
-![](/src/assets/images/04_T01_wall_place_door_side_right.png)
+![](/images/04_T01_wall_place_door_side_right.png)
 
 Snapping to the midpoint of the bottom edge of the wall to place the window
 
@@ -96,7 +96,7 @@ Snapping to the midpoint of the bottom edge of the wall to place the window
 
 : 9.3. Move the `Window001` a bit higher. Select the underlying `Sketch003`, and change its Data**Position** from `[3.1 m, 2.0 m, 1.0 m]` to `[3.1 m, 2.0 m, 1.6 m]`. The entire `Window001` should move up. The wall may still show an opening in the previous position; if this happens, right click the `Wall` element, select `Mark to recompute`, and then press Ctrl+R to [recompute](/Recompute "Recompute") the model.
 
-![](/src/assets/images/04.1_T01_wall_built.png)
+![](/images/04.1_T01_wall_built.png)
 
 Wall built with doors and windows
 
@@ -118,15 +118,15 @@ _Note 2:_ occasionally the window may be placed outside the [Arch Wall](/Arch_Wa
 : 11.4. Change the `Opening mode` to Arc 90, or any other option.
 : 11.5. Click the +Create/update component button, and then Close to finish editing the door. The sketch may become hidden again.
 
-![](/src/assets/images/05_T01_window_edit.png)
+![](/images/05_T01_window_edit.png)
 
 Dialog to edit a window or a door
 
-![](/src/assets/images/06_T01_window_edit_component.png)
+![](/images/06_T01_window_edit_component.png)
 
 Dialog to edit the components that make a window or a door
 
-![](/src/assets/images/06.1_T01_window_edit_wire_door_front.png)
+![](/images/06.1_T01_window_edit_wire_door_front.png)
 
 Vertical edge of sketch selected as hinge for a door
 
@@ -136,15 +136,15 @@ Vertical edge of sketch selected as hinge for a door
 
 14. Repeat the steps with `Door001` and the underlying `Sketch001` to make the door open 75 degrees to the inside of the building. Also enable the elevation and plan symbols.
 
-![](/src/assets/images/07_T01_window_property_view.png)
+![](/images/07_T01_window_property_view.png)
 
 Property view of the door to change Opening value, Symbol elevation, Symbol plan, and other options
 
-![](/src/assets/images/08_T01_window_symbol_elevation.png)
+![](/images/08_T01_window_symbol_elevation.png)
 
 Door with opening elevation symbol, front view
 
-![](/src/assets/images/09_T01_window_symbol_plan.png)
+![](/images/09_T01_window_symbol_plan.png)
 
 Door with plan symbol, top view
 
@@ -167,15 +167,15 @@ Door with plan symbol, top view
 
 19. Repeat the steps with `Window001` and the underlying `Sketch003` to make the window open 75 degrees. Also show the elevation and plan symbols. In this case, don't pick a vertical wire of the `InnerFrame` as hinge, but pick the top horizontal wire. This means that this window will open differently from the other window. The elevation symbol will be better seen from a [right side view](/Right_side_view "Right side view"). The plan symbol will be better seen from the [front view](/Std_ViewFront "Std ViewFront"); however, since the wall is obstructing the view, you can change its View**Transparency** to a value such as 85 to see through it; alternatively you can also change its View**Display Mode** to `Wireframe` to show only its edges.
 
-![](/src/assets/images/06.2_T01_window_edit_wire_side_right.png)
+![](/images/06.2_T01_window_edit_wire_side_right.png)
 
 Horizontal edge of sketch selected as hinge for a window
 
-![](/src/assets/images/10_T01_window_all_symbol_axonometric.png)
+![](/images/10_T01_window_all_symbol_axonometric.png)
 
 Elevation and plan symbols for all elements, axonometric view
 
-![](/src/assets/images/11_T01_window_all_symbol_top.png)
+![](/images/11_T01_window_all_symbol_top.png)
 
 Elevation and plan symbols for all elements, top view
 
@@ -185,7 +185,7 @@ Elevation and plan symbols for all elements, top view
 
 _Note:_ change the property Data**Arrow size** of the section plane to a larger value, for example, `200 mm`, so that the direction of the section is clearly visible in the 3D viewport.
 
-![](/src/assets/images/11.1_T01_Arch_SectionPlane_all.png)
+![](/images/11.1_T01_Arch_SectionPlane_all.png)
 
 Section plane cutting through solid objects, including walls, doors, and windows
 
@@ -195,7 +195,7 @@ Section plane cutting through solid objects, including walls, doors, and windows
 
 23. Select this `ArchView` object, and change the property Data**Scale** to `0.02`, which is equivalent to 1:50, a scale suitable for typical buildings. This means every meter in the 3D view will be shown as 20 mm in the page. The object should appear in the center of the page, and can be moved to a better position on the left side. The two doors should look like they are open, but only the left window should look open. The reason the right window doesn't appear in the projection is that the plane defined by `Section` does not cut through this right window.
 
-![Section view of the building, A4 sheet, scale 1:50](/src/assets/images/12_T01_TechDraw_window_all_symbols.png)
+![Section view of the building, A4 sheet, scale 1:50](/images/12_T01_TechDraw_window_all_symbols.png)
 
 Section view of the building, A4 sheet, scale 1:50
 
@@ -208,7 +208,7 @@ Section plane cutting through solid objects, including walls, doors, and windows
 
 _Note:_ set Data**All On** to `true` for [TechDraw ArchView](/TechDraw_ArchView "TechDraw ArchView") objects so that all elements cut by the plane are visible in the page, regardless of their visibility state in the 3D viewport. The option Data**Show Fill** can also be set to `true` to draw a shade on the solids that were cut by the section plane.
 
-![](/src/assets/images/13_T01_TechDraw_window_all_symbols_higher.png)
+![](/images/13_T01_TechDraw_window_all_symbols_higher.png)
 
 Section view of the building, with a second plane cut, A4 sheet, scale 1:50
 
@@ -219,13 +219,13 @@ Section view of the building, with a second plane cut, A4 sheet, scale 1:50
 : 25.1. Rotate `Section002`, so that it cuts vertically through the building. Change the properties Data**Axis** to `[1, 0, 0]`, and Data**Angle** to `90`.
 : 25.2. Change the Data**Position** to `[1.5 m, -1 m, 1.5 m]`, so that the plane is in front of the building.
 
-![](/src/assets/images/14.1_T01_Arch_SectionPlane_three.png)
+![](/images/14.1_T01_Arch_SectionPlane_three.png)
 
 Section planes that cut or look at the building and the solid objects
 
 26. Go back to the [TechDraw Workbench](/TechDraw_Workbench "TechDraw Workbench"), and use the [TechDraw ArchView](/TechDraw_ArchView "TechDraw ArchView") tool on `Section002`; remember to adjust the scale to `0.02` (1:50). Change Data**Rotation** to `-90` to correct the appearance of the projections. Arrange `ArchView002` next to the other views in the page. This third projection looks at the building from the front.
 
-![](/src/assets/images/14_T01_TechDraw_window_all_symbols_elevation.png)
+![](/images/14_T01_TechDraw_window_all_symbols_elevation.png)
 
 Section view of the building, two top views, and one elevation view, A4 sheet, scale 1:50
 

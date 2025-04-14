@@ -23,14 +23,14 @@ This documentation is not finished. Please help and contribute documentation.Gui
 
 ## Description
 
-The ![](/src/assets/images/Assembly_CreateJointDistance.svg) [Assembly CreateJointDistance](/Assembly_CreateJointDistance "Assembly CreateJointDistance") tool creates a Distance joint between two selected parts, fixing the distance between both parts.
+The ![](/images/Assembly_CreateJointDistance.svg) [Assembly CreateJointDistance](/Assembly_CreateJointDistance "Assembly CreateJointDistance") tool creates a Distance joint between two selected parts, fixing the distance between both parts.
 
 ## Usage
 
 1. Optionally select two geometric entities of two different shapes. Other selections will be rejected.
 2. There are several ways to invoke the tool:
-   - Press the ![](/src/assets/images/Assembly_CreateJointDistance.svg) [Create Distance Joint](/Assembly_CreateJointDistance "Assembly CreateJointDistance") button.
-   - Select the **Assembly → ![](/src/assets/images/Assembly_CreateJointDistance.svg) Create Distance Joint** option from the menu.
+   - Press the ![](/images/Assembly_CreateJointDistance.svg) [Create Distance Joint](/Assembly_CreateJointDistance "Assembly CreateJointDistance") button.
+   - Select the **Assembly → ![](/images/Assembly_CreateJointDistance.svg) Create Distance Joint** option from the menu.
    - Use the keyboard shortcut: D.
 3. The **Create Joint** dialog opens in the [Task panel](/Task_panel "Task panel") listing the pre-selected entities.
 4. For further steps see [Assembly CreateJointFixed](/Assembly_CreateJointFixed#Usage "Assembly CreateJointFixed").

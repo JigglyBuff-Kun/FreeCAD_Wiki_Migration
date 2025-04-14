@@ -10,7 +10,7 @@ See [full and complete minimal example](#Full_and_Complete_Minimal_Example) belo
 
 The following GIF demonstrates attaching our custom box to a cylinder, and automatically updating it's position when the cylinder's position changes.
 
-![](/src/assets/images/Box-attached-to-cylinder-demo.gif)
+![](/images/Box-attached-to-cylinder-demo.gif)
 
 **NOTE:** The box is our custom scripted object, and the cylinder is a regular FreeCAD object generated from the Part workbench.
 
@@ -38,7 +38,7 @@ class Box():
 
 Without adding this code, we'll see the following warning dialog when attaching our custom scripted object to another object.
 
-![](/src/assets/images/Part-attachment-warning-dialog.png)
+![](/images/Part-attachment-warning-dialog.png)
 
 ### Update Position Based on Attached Object
 

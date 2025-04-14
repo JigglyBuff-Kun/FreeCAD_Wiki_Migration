@@ -2,7 +2,7 @@
 title: MeshRemodel Workbench
 ---
 
-![](/src/assets/images/MeshRemodel_workbench_icon.svg)
+![](/images/MeshRemodel_workbench_icon.svg)
 
 MeshRemodel Workbench Icon
 
@@ -12,7 +12,7 @@ MeshRemodel is an [external workbench](/External_workbenches "External workbench
 
 ## Installation
 
-This workbench can be installed from the ![](/src/assets/images/Std_AddonMgr.svg) [Addon Manager](/Std_AddonMgr "Std AddonMgr"). For manual installation see [Installing more workbenches](/Installing_more_workbenches "Installing more workbenches").
+This workbench can be installed from the ![](/images/Std_AddonMgr.svg) [Addon Manager](/Std_AddonMgr "Std AddonMgr"). For manual installation see [Installing more workbenches](/Installing_more_workbenches "Installing more workbenches").
 
 ## Links
 

@@ -19,9 +19,9 @@ title: Sketcher LinienzugErstellen
 
 ## Beschreibung
 
-Das Werkzeug ![](/src/assets/images/Sketcher_CreatePolyline.svg) Sketcher LinienzugErstellen erstellt eine Abfolge von Linien- und Kreisbogenabschnitten, die an ihren Endpunkten verbunden sind. Das Werkzeug besitzt mehrere Modi.
+Das Werkzeug ![](/images/Sketcher_CreatePolyline.svg) Sketcher LinienzugErstellen erstellt eine Abfolge von Linien- und Kreisbogenabschnitten, die an ihren Endpunkten verbunden sind. Das Werkzeug besitzt mehrere Modi.
 
-![](/src/assets/images/Sketcher_PolylineExample1.png)
+![](/images/Sketcher_PolylineExample1.png)
 
 Polylinie beginnt mit einer Linie, einem tangentialen Bogen, einem senkrechten Bogen und dann einer tangentialen Linie.
 
@@ -30,9 +30,9 @@ Polylinie beginnt mit einer Linie, einem tangentialen Bogen, einem senkrechten B
 Siehe auch: [Zeichnungshilfen](/Sketcher_Workbench/de#Zeichnungshilfen "Sketcher Workbench/de").
 
 1. Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
-   - Die Schaltfläche ![](/src/assets/images/Sketcher_CreatePolyline.svg) Linienzug erstellen drücken.
-   - Den Menüeintrag **Skizze → Skizzengeometrien → ![](/src/assets/images/Sketcher_CreatePolyline.svg) Linienzug erstellen** auswählen.
-   - Ein Rechtsklick in die [3D-Ansicht](/3D_view/de "3D view/de") und die Menüoption **![](/src/assets/images/Sketcher_CreatePolyline.svg) Linienzug erstellen** im Kontextmenü auswählen.
+   - Die Schaltfläche ![](/images/Sketcher_CreatePolyline.svg) Linienzug erstellen drücken.
+   - Den Menüeintrag **Skizze → Skizzengeometrien → ![](/images/Sketcher_CreatePolyline.svg) Linienzug erstellen** auswählen.
+   - Ein Rechtsklick in die [3D-Ansicht](/3D_view/de "3D view/de") und die Menüoption **![](/images/Sketcher_CreatePolyline.svg) Linienzug erstellen** im Kontextmenü auswählen.
    - Das Tastaturkürzel G then M.
 2. Der Mauszeiger wandelt sich zu einem Kreuz mit Werkzeugsymbol.
 3. Die Modi dieses Werkzeugs erfordern einen vorherigen Abschnitt. Dafür eine der folgenden Möglichkeiten auswählen:

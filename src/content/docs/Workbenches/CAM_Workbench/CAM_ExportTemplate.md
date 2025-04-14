@@ -19,13 +19,13 @@ title: CAM ExportTemplate
 
 ## Description
 
-The ![](/src/assets/images/CAM_ExportTemplate.svg) [Export Template](/CAM_ExportTemplate "CAM ExportTemplate") tool provides a convenient mechanism to save commonly used Job definitions from within an existing Job. This facilitates the setup of future Jobs, that are largely similar, by allowing Job template import during the Job creation process.
+The ![](/images/CAM_ExportTemplate.svg) [Export Template](/CAM_ExportTemplate "CAM ExportTemplate") tool provides a convenient mechanism to save commonly used Job definitions from within an existing Job. This facilitates the setup of future Jobs, that are largely similar, by allowing Job template import during the Job creation process.
 
 The **Edit → Preferences... → CAM → Job Preferences → Defaults → Template** sets the default template.
 
 ## Usage
 
-1. Select the **CAM → ![](/src/assets/images/CAM_ExportTemplate.svg) Export Template** option from the menu.
+1. Select the **CAM → ![](/images/CAM_ExportTemplate.svg) Export Template** option from the menu.
 2. Select elements for inclusion from the **Export Template** configuration dialog.
 3. The template must be saved in the Macro directory or the CAM directory, as configured in the [CAM Preferences](/CAM_Preferences "CAM Preferences").
 4. The template name must follow the pattern of job\_<template name>.json. When shown in the selection combobox, the job\_ prefix and the extension are left out.

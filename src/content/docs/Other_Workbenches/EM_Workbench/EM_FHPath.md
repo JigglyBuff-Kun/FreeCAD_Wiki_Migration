@@ -21,7 +21,7 @@ title: EM FHPath
 
 The FHPath tool inserts a FHPath object, that is a set of FastHenry segments along a path.
 
-![](/src/assets/images/EM_FHPath_Example.png)
+![](/images/EM_FHPath_Example.png)
 
 FastHenry FHPath
 
@@ -30,7 +30,7 @@ FastHenry FHPath
 The FHPath object can be based on any shape containing edges, but the FHPath object is designed to work best with the support of a sketch or a wire.
 
 1. Select one or multiple object(s) containing edges.
-2. Press the ![](/src/assets/images/EM_FHPath.svg) [EM FHPath](/EM_FHPath "EM FHPath") button, or press E then T keys. As many FHPath objects will be created as the selected objects.
+2. Press the ![](/images/EM_FHPath.svg) [EM FHPath](/EM_FHPath "EM FHPath") button, or press E then T keys. As many FHPath objects will be created as the selected objects.
 
 ### Remarks:
 

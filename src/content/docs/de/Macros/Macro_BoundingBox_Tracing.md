@@ -30,7 +30,7 @@ title: BoundingBox Tracing
 
 Dieses Makro erstellt eine rote Umrandung des Begrenzungsrahmens (BoundingBox - 6 Flächen aus 6 Rechtecken) eines Objekts, zeigt die Seitenlängen der Kanten an und das Volumen des Begrenzungsrahmens.
 
-![](/src/assets/images/Macro_BoundingBox_Tracing_00.png)
+![](/images/Macro_BoundingBox_Tracing_00.png)
 
 BoundingBox Tracing macro in action
 
@@ -41,7 +41,7 @@ BoundingBox Tracing macro in action
 
 : Result: 6 Rechtecke sind rot (kann geändert werden)
 
-![](/src/assets/images/Macro_BoundingBox_Tracing_01.png)
+![](/images/Macro_BoundingBox_Tracing_01.png)
 
 Info contener
 
@@ -55,7 +55,7 @@ Das Dateisymbol herunterladen und in das Makroverzeichnis kopieren.
 
 Klicken Sie auf das Bild, positionieren Sie im neuen Fenster die Maus über dem Bild, klicken Sie mit der rechten Maustaste und wählen Sie "Ziel speichern unter ...".
 
-ToolBar Icon ![](/src/assets/images/BoundBoxTracing.png)
+ToolBar Icon ![](/images/BoundBoxTracing.png)
 
 ## Skript
 

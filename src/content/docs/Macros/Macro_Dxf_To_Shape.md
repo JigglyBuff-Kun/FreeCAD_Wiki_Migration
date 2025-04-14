@@ -81,11 +81,11 @@ you can also Save the file to disk
 
 ( Save DataT, Read DataT, Reset DataT Are the Temporary working file)
 
-![Macro_Dxf_To_Shape](/src/assets/images/Macro_DXF_To_Shape_00.png)
+![Macro_Dxf_To_Shape](/images/Macro_DXF_To_Shape_00.png)
 
 ## Script
 
-The icon for you toolBar ![](/src/assets/images/Macro_Dxf_To_Shape.png) copy in same directory to the macro
+The icon for you toolBar ![](/images/Macro_Dxf_To_Shape.png) copy in same directory to the macro
 
 [How to Customize Toolbars](/Customize_Toolbars "Customize Toolbars"), [How to install macros](/How_to_install_macros "How to install macros")
 
@@ -93,11 +93,11 @@ The script on github [Macro_DXF_to_Shape.FCMacro](https://gist.github.com/mario5
 
 ## Example
 
-![](/src/assets/images/Macro_Dxf_To_Shape_Convert_Wire_To_BSplineCurve.gif)
+![](/images/Macro_Dxf_To_Shape_Convert_Wire_To_BSplineCurve.gif)
 
 Convert Wire (multi lines) in BsplineCurve
 
-![](/src/assets/images/Macro_Dxf_To_Shape_Convert_Wire_To_BSplineCurve02.gif)
+![](/images/Macro_Dxf_To_Shape_Convert_Wire_To_BSplineCurve02.gif)
 
 Convert wire with selected face
 

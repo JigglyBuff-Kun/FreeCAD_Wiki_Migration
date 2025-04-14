@@ -30,8 +30,8 @@ The length is set to a certain value by editing the length parameter in the prop
 ## Usage
 
 1. Select a 2D line
-2. Press the ![](/src/assets/images/Assembly_ConstraintLineLength.svg) [Line length](/Assembly3_ConstraintLineLength "Assembly3 ConstraintLineLength") button.
+2. Press the ![](/images/Assembly_ConstraintLineLength.svg) [Line length](/Assembly3_ConstraintLineLength "Assembly3 ConstraintLineLength") button.
 3. Set the **Length** value in the properties panel.
-4. Press the ![](/src/assets/images/Assembly3_workbench_icon.svg) [Solve constraints](/Assembly3_ResolveConstraints "Assembly3 ResolveConstraints") or the ![](/src/assets/images/Assembly_QuickSolve.svg) [Quick solve](/Assembly3_QuickSolve "Assembly3 QuickSolve") button to recompute.
+4. Press the ![](/images/Assembly3_workbench_icon.svg) [Solve constraints](/Assembly3_ResolveConstraints "Assembly3 ResolveConstraints") or the ![](/images/Assembly_QuickSolve.svg) [Quick solve](/Assembly3_QuickSolve "Assembly3 QuickSolve") button to recompute.
 
 Retrieved from "<http://wiki.freecad.org/index.php?title=Assembly3_ConstraintLineLength/en&oldid=923355>"

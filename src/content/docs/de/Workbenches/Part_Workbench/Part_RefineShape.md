@@ -19,16 +19,16 @@ title: Part FormAufbereiten
 
 ## Beschreibung
 
-Der Befehl ![](/src/assets/images/Part_RefineShape.svg) **Part FormAufbereiten** erstellt aus ausgewählten Objekten parametrische Kopien mit einer aufbereiteten Form. Er entfernt unnötige Kanten auf ebenen und zylindrischen Flächen.
+Der Befehl ![](/images/Part_RefineShape.svg) **Part FormAufbereiten** erstellt aus ausgewählten Objekten parametrische Kopien mit einer aufbereiteten Form. Er entfernt unnötige Kanten auf ebenen und zylindrischen Flächen.
 
-![](/src/assets/images/PartRefineShape_it.png)
+![](/images/PartRefineShape_it.png)
 
 Original mit 11 Flächen (links) und aufbereitete Kopie mit 7 Flächen (rechts).
 
 ## Anwendung
 
 1. Ein oder mehrere Objekte auswählen.
-2. Den Menüeintrag **Part → Kopie erstellen → ![](/src/assets/images/Part_RefineShape.svg) Form aufbereiten** auswählen.
+2. Den Menüeintrag **Part → Kopie erstellen → ![](/images/Part_RefineShape.svg) Form aufbereiten** auswählen.
 3. Für jedes Objekt wird eine bereinigte parametrische Kopie erstellt.
 4. Das Originalobjekt wird ausgeblendet.
 

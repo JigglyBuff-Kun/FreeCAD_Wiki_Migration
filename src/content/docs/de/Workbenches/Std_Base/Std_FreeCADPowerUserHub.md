@@ -25,6 +25,6 @@ Aktuell verweist dieser Befehl auf die Seite <https://wiki.freecad.org/Power_use
 
 ## Anwendung
 
-1. Auswahl des Menüeintrags **Hilfe → ![](/src/assets/images/Std_FreeCADPowerUserHub.svg) Python scripting Dokumentation** .
+1. Auswahl des Menüeintrags **Hilfe → ![](/images/Std_FreeCADPowerUserHub.svg) Python scripting Dokumentation** .
 
 Retrieved from "<http://wiki.freecad.org/index.php?title=Std_FreeCADPowerUserHub/de&oldid=1454754>"

@@ -25,8 +25,8 @@ Der Befehl **Mesh LöcherSchließen** füllt Lücken in Netzobjekten (mesh objec
 
 1. Ein oder mehrere Netzobjekte auswählen.
 2. Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
-   - Die Schaltfläche ![](/src/assets/images/Mesh_FillupHoles.svg) [Löcher schließen...](/Mesh_FillupHoles "Mesh FillupHoles") drücken.
-   - Den Menüeintrag **Netze → ![](/src/assets/images/Mesh_FillupHoles.svg) Löcher schließen...** auswählen.
+   - Die Schaltfläche ![](/images/Mesh_FillupHoles.svg) [Löcher schließen...](/Mesh_FillupHoles "Mesh FillupHoles") drücken.
+   - Den Menüeintrag **Netze → ![](/images/Mesh_FillupHoles.svg) Löcher schließen...** auswählen.
 3. Das Dialogfenster **Löcher schließen** wird geöffnet.
 4. Den Wert für **Löcher schließen mit maximaler Anzahl Kanten** angeben.
 5. Die Schaltfläche OK drücken, um das Dialogfenster zu schließen und den Befehl zu beenden.

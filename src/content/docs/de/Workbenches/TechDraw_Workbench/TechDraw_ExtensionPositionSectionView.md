@@ -23,27 +23,27 @@ Das Werkzeug **TechDraw ErgänzungSchnittAusrichten** richtet eine Schnittansich
 
 ## Anwendung - Ansicht auswählen
 
-![](/src/assets/images/TechDraw_ExtensionPositionSectionViewExample.png)
+![](/images/TechDraw_ExtensionPositionSectionViewExample.png)
 
 Rechts die ausgerichtete Schnittansicht
 
 1. Eine Schnittansicht auswählen.
 2. Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
-   - Die Schaltfläche ![](/src/assets/images/TechDraw_ExtensionPositionSectionView.svg) Schnittansicht ausrichten drücken.
-   - Den Menüeintrag **TechDraw → Ergänzungen: Merkmale/Änderungen → ![](/src/assets/images/TechDraw_ExtensionPositionSectionView.svg) Schnittansicht ausrichten** auswählen.
+   - Die Schaltfläche ![](/images/TechDraw_ExtensionPositionSectionView.svg) Schnittansicht ausrichten drücken.
+   - Den Menüeintrag **TechDraw → Ergänzungen: Merkmale/Änderungen → ![](/images/TechDraw_ExtensionPositionSectionView.svg) Schnittansicht ausrichten** auswählen.
 3. Die Schnittansicht wird zur Quellansicht ausgerichtet.
 
 ## Anwendung - Kante und Knoten auswählen
 
-![](/src/assets/images/TechDraw_ExtensionPositionSectionViewExample2.png)
+![](/images/TechDraw_ExtensionPositionSectionViewExample2.png)
 
 Rechts die ausgerichtete Schnittansicht
 
 1. Eine Kante (1) in einer Schnittansicht auswählen. Die Kante sollte der Projektionsrichtung entsprechen.
 2. Den zugehörigen Knoten (2) in der Quellansicht auswählen
 3. Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
-   - Die Schaltfläche ![](/src/assets/images/TechDraw_ExtensionPositionSectionView.svg) Schnittansicht ausrichten drücken.
-   - Den Menüeintrag **TechDraw → Ergänzungen: Merkmale/Änderungen → ![](/src/assets/images/TechDraw_ExtensionPositionSectionView.svg) Schnittansicht ausrichten** auswählen.
+   - Die Schaltfläche ![](/images/TechDraw_ExtensionPositionSectionView.svg) Schnittansicht ausrichten drücken.
+   - Den Menüeintrag **TechDraw → Ergänzungen: Merkmale/Änderungen → ![](/images/TechDraw_ExtensionPositionSectionView.svg) Schnittansicht ausrichten** auswählen.
 4. Die Schnittansicht wird zu ihrer Quellansicht ausgerichtet.
 
 Retrieved from "<http://wiki.freecad.org/index.php?title=TechDraw_ExtensionPositionSectionView/de&oldid=1404657>"

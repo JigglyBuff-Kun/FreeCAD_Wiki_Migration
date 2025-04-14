@@ -19,20 +19,20 @@ title: FEM EquationFlux
 
 ## Description
 
-This equation is used to calculate the fluxes resulting usually from Poisson kind of equations. These include the ![](/src/assets/images/FEM_EquationHeat.svg) [Heat equation](/FEM_EquationHeat "FEM EquationHeat") and the ![](/src/assets/images/FEM_EquationElectrostatic.svg) [Electrostatic equation](/FEM_EquationElectrostatic "FEM EquationElectrostatic").
+This equation is used to calculate the fluxes resulting usually from Poisson kind of equations. These include the ![](/images/FEM_EquationHeat.svg) [Heat equation](/FEM_EquationHeat "FEM EquationHeat") and the ![](/images/FEM_EquationElectrostatic.svg) [Electrostatic equation](/FEM_EquationElectrostatic "FEM EquationElectrostatic").
 
 For info about the math of the equation, see the [Elmer models manual](https://www.elmerfem.org/blog/documentation/), section _Flux Computation_.
 
 ## Usage
 
-1. Add an ![](/src/assets/images/FEM_SolverElmer.svg) [Elmer solver](/FEM_SolverElmer#Equations "FEM SolverElmer").
+1. Add an ![](/images/FEM_SolverElmer.svg) [Elmer solver](/FEM_SolverElmer#Equations "FEM SolverElmer").
 2. Select it in the [Tree view](/Tree_view "Tree view").
 3. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/FEM_EquationFlux.svg) [Flux equation](/FEM_EquationFlux "FEM EquationFlux") button.
-   - Select the **Solve → ![](/src/assets/images/FEM_EquationFlux.svg) Flux equation** option from the menu.
+   - Press the ![](/images/FEM_EquationFlux.svg) [Flux equation](/FEM_EquationFlux "FEM EquationFlux") button.
+   - Select the **Solve → ![](/images/FEM_EquationFlux.svg) Flux equation** option from the menu.
 4. To include the required boundary conditions, do one of the following:
-   - Invoke the ![](/src/assets/images/FEM_EquationHeat.svg) [FEM EquationHeat](/FEM_EquationHeat "FEM EquationHeat") command.
-   - Invoke the ![](/src/assets/images/FEM_EquationElectrostatic.svg) [FEM EquationElectrostatic](/FEM_EquationElectrostatic "FEM EquationElectrostatic") command.
+   - Invoke the ![](/images/FEM_EquationHeat.svg) [FEM EquationHeat](/FEM_EquationHeat "FEM EquationHeat") command.
+   - Invoke the ![](/images/FEM_EquationElectrostatic.svg) [FEM EquationElectrostatic](/FEM_EquationElectrostatic "FEM EquationElectrostatic") command.
 5. When using an electrostatic equation, change the property Data**Flux Coefficient** to _None_. and the property Data**Flux Variable** to _Potential_.
 6. Change the [equation's solver settings](#Solver_Settings) or the [general solver settings](/FEM_SolverElmer_SolverSettings "FEM SolverElmer SolverSettings") if necessary.
 
@@ -58,7 +58,7 @@ The flux equation provides these special settings:
 
 ## Analysis Feature Information
 
-The flux equation does not have its own boundary conditions. It takes the boundary conditions from the ![](/src/assets/images/FEM_EquationHeat.svg) [Heat equation](/FEM_EquationHeat "FEM EquationHeat") or the ![](/src/assets/images/FEM_EquationElectrostatic.svg) [Electrostatic equation](/FEM_EquationElectrostatic "FEM EquationElectrostatic").
+The flux equation does not have its own boundary conditions. It takes the boundary conditions from the ![](/images/FEM_EquationHeat.svg) [Heat equation](/FEM_EquationHeat "FEM EquationHeat") or the ![](/images/FEM_EquationElectrostatic.svg) [Electrostatic equation](/FEM_EquationElectrostatic "FEM EquationElectrostatic").
 
 ## Results
 

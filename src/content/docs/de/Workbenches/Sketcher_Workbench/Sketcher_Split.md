@@ -19,15 +19,15 @@ title: Sketcher Teilen
 
 ## Beschreibung
 
-Das Werkzeug ![](/src/assets/images/Sketcher_Split.svg) Sketcher Teilen teilt eine Kante in zwei auf. Ist die Kante eine geschlossene Kurve (z.B. ein Kreis, eineEllipse oder ein geschlossener B-Spline), wird sie in eine entsprechende offene Kurve umgewandelt (einen Kreisbogen, einen Ellipsenbogen oder einen offenen B-Spline).
+Das Werkzeug ![](/images/Sketcher_Split.svg) Sketcher Teilen teilt eine Kante in zwei auf. Ist die Kante eine geschlossene Kurve (z.B. ein Kreis, eineEllipse oder ein geschlossener B-Spline), wird sie in eine entsprechende offene Kurve umgewandelt (einen Kreisbogen, einen Ellipsenbogen oder einen offenen B-Spline).
 
 ## Anwendung
 
 Siehe auch: [Zeichnungshilfen](/Sketcher_Workbench/de#Zeichnungshilfen "Sketcher Workbench/de").
 
 1. Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
-   - Die Schaltfläche ![](/src/assets/images/Sketcher_Split.svg) Kante teilen drücken.
-   - Den Menüeintrag **Skizze → Sketcher-Werkzeuge →![](/src/assets/images/Sketcher_Split.svg) Kante teilen** auswählen.
+   - Die Schaltfläche ![](/images/Sketcher_Split.svg) Kante teilen drücken.
+   - Den Menüeintrag **Skizze → Sketcher-Werkzeuge →![](/images/Sketcher_Split.svg) Kante teilen** auswählen.
    - Das Tastaturkürzel G dann Z.
 2. Ist eine Vorauswahl vorhanden, wird sie geleert. Das Werkzeug akzeptiert keine Vorauswahl.
 3. Der Mauszeiger wandelt sich in ein Kreuz mit dem Werkzeugsymbol.

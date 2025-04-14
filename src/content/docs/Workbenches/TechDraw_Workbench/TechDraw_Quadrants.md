@@ -21,7 +21,7 @@ title: TechDraw Quadrants
 
 The **TechDraw Quadrant** tool adds three [cosmetic vertices](/TechDraw_CosmeticVertex "TechDraw CosmeticVertex") along the length of one or more selected edges. The vertices are placed at 25%, 50% and 75% of the length of the edges. For a circular edge this results in cosmetic vertices at 90°, 180° and 270°, in addition to its geometric vertex at 0°.
 
-![](/src/assets/images/TechDraw_CosmeticQuadrant_Sample.png)
+![](/images/TechDraw_CosmeticQuadrant_Sample.png)
 
 Cosmetic vertices at quadrant points of a circle
 
@@ -29,8 +29,8 @@ Cosmetic vertices at quadrant points of a circle
 
 1. Select one or more edges in a view. Any edge can be selected, not just circles.
 2. There are several ways to invoke the tool:
-   - Press the ![](/src/assets/images/TechDraw_Quadrants.svg) [Add Quadrant Vertices](/TechDraw_Quadrants "TechDraw Quadrants") button.
-   - Select the **TechDraw → Add Vertices → ![](/src/assets/images/TechDraw_Quadrants.svg) Add Quadrant Vertices** option from the menu.
+   - Press the ![](/images/TechDraw_Quadrants.svg) [Add Quadrant Vertices](/TechDraw_Quadrants "TechDraw Quadrants") button.
+   - Select the **TechDraw → Add Vertices → ![](/images/TechDraw_Quadrants.svg) Add Quadrant Vertices** option from the menu.
 
 ## Notes
 

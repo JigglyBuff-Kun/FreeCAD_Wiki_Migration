@@ -23,7 +23,7 @@ Der Befehl **Std AnsichtStereoVersetzteSpalten** stellt den Stereo-Modus der akt
 
 ## Anwendung
 
-1. Den Menüeintrag **Ansicht → Stereo → ![](/src/assets/images/Std_ViewIvStereoInterleavedColumns.svg) Vertikales Interlacing** auswählen.
+1. Den Menüeintrag **Ansicht → Stereo → ![](/images/Std_ViewIvStereoInterleavedColumns.svg) Vertikales Interlacing** auswählen.
 
 ## Einstellungen
 

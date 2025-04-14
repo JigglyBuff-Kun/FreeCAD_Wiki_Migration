@@ -21,7 +21,7 @@ title: PartDesign AdditiveLoft
 
 **Additive Loft** creates a solid in the active Body by making a transition between two or more sketches (also referred to as cross-sections). If the Body already contains features, the additive loft will be merged to them.
 
-![](/src/assets/images/PartDesign_AddLoft_example.png)
+![](/images/PartDesign_AddLoft_example.png)
 
 On the left: cross-sections (A), (B) and (C); created Additive loft on the right.
 
@@ -29,7 +29,7 @@ On the left: cross-sections (A), (B) and (C); created Additive loft on the right
 
 ### Dialog-based workflow
 
-1. Press the ![](/src/assets/images/PartDesign_AdditiveLoft.svg) [Additive loft](/PartDesign_AdditiveLoft "PartDesign AdditiveLoft") button.
+1. Press the ![](/images/PartDesign_AdditiveLoft.svg) [Additive loft](/PartDesign_AdditiveLoft "PartDesign AdditiveLoft") button.
 2. In the **Select feature** dialog select a sketch to be used as base profile object and click OK.
    - Alternatively, either a single sketch or the face of a 3D object ([introduced in 0.20](/Release_notes_0.20 "Release notes 0.20")) can be selected prior to pressing the Additive loft button.
 3. In the **Loft parameters**, press the Add Section button.
@@ -42,7 +42,7 @@ On the left: cross-sections (A), (B) and (C); created Additive loft on the right
    - The sketch selected at first will become the base profile object in the next step
    - The sketches selected after the first one will become the loft sections. Also here the selection order is important: The sketch selected as second will become the first loft section, the one selected as third becomes the second section and so on. (You can change the section order any time later in the loft dialog by dragging sections in the list to the desired position.
    - The first or last selection can also be a face of a 3D object ([introduced in 0.20](/Release_notes_0.20 "Release notes 0.20"))
-2. Press the ![](/src/assets/images/PartDesign_AdditiveLoft.svg) [Additive loft](/PartDesign_AdditiveLoft "PartDesign AdditiveLoft") button.
+2. Press the ![](/images/PartDesign_AdditiveLoft.svg) [Additive loft](/PartDesign_AdditiveLoft "PartDesign AdditiveLoft") button.
 3. Set options if needed and click OK.
 
 ## Options

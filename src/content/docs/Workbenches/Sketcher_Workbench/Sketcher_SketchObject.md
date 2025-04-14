@@ -4,13 +4,13 @@ title: Sketcher SketchObject
 
 ## Introduction
 
-![](/src/assets/images/Sketcher_Sketch.svg)
+![](/images/Sketcher_Sketch.svg)
 
 A [Sketcher SketchObject](/Sketcher_SketchObject "Sketcher SketchObject"), or formally a `Sketcher::SketchObject`, is the base element to create 2D objects with the [Sketcher Workbench](/Sketcher_Workbench "Sketcher Workbench").
 
 The `Sketcher::SketchObject` is derived from the [Part Part2DObject](/Part_Part2DObject "Part Part2DObject"), which means it is a [Part Feature](/Part_Feature "Part Feature") object specialized for 2D geometry. Like the Part2DObject, the SketchObject can be attached to planes and faces. In addition, the SketchObject can handle geometrical constraints.
 
-![](/src/assets/images/FreeCAD_core_objects.svg)
+![](/images/FreeCAD_core_objects.svg)
 
 Simplified diagram of the relationships between the core objects in FreeCAD
 

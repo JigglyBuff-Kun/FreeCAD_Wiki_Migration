@@ -14,81 +14,81 @@ print myObj.PropertiesList
 
 ```
 
-![](/src/assets/images/Property.png) **Content**
+![](/images/Property.png) **Content**
 
 **Returns**: An XML representation of the properties of an object.
 
-![](/src/assets/images/Property.png) **Label**
+![](/images/Property.png) **Label**
 
 **Returns**: Gets/sets the objects label. The string can be unicode.
 
-![](/src/assets/images/Property.png) **Name**
+![](/images/Property.png) **Name**
 
 **Returns**: The unique name of an object.
 
-![](/src/assets/images/Property.png) **Placement**
+![](/images/Property.png) **Placement**
 
 **Returns**: Gets/sets the Placement of an object. A placement defines an orientation (rotation) and a position (base) in 3D space. It is used when no scaling or other distortion is needed.
 
-![](/src/assets/images/Property.png) **PropertiesList**
+![](/images/Property.png) **PropertiesList**
 
 **Returns**: A list of the properties of an object
 
-![](/src/assets/images/Property.png) **State**
+![](/images/Property.png) **State**
 
 **Returns**: The FreeCAD state of an object (ie. if it needs to be recomputed)
 
-![](/src/assets/images/Property.png) **Type**
+![](/images/Property.png) **Type**
 
 **Returns**: A string describing the type of an object
 
-![](/src/assets/images/Property.png) **ViewObject**
+![](/images/Property.png) **ViewObject**
 
 **Returns**: The associated View Provider (FreeCADGUI object) of an object
 
-![](/src/assets/images/Method.png) **getAllDerivedFrom(\*\***)\*\*
+![](/images/Method.png) **getAllDerivedFrom(\*\***)\*\*
 
 **Description**:
 
 **Returns**: All descendants of this object
 
-![](/src/assets/images/Method.png) **getDocumentationOfProperty(\*\***)\*\*
+![](/images/Method.png) **getDocumentationOfProperty(\*\***)\*\*
 
 **Description**:
 
 **Returns**: The documentation string of the property of this class.
 
-![](/src/assets/images/Method.png) **getGroupOfProperty(\*\***)\*\*
+![](/images/Method.png) **getGroupOfProperty(\*\***)\*\*
 
 **Description**:
 
 **Returns**: The name of the group which the property belongs to in this class. The properties are sorted in different named groups for convenience.
 
-![](/src/assets/images/Method.png) **getPropertyByName(\*\***)\*\*
+![](/images/Method.png) **getPropertyByName(\*\***)\*\*
 
 **Description**:
 
 **Returns**: The value of a named property.
 
-![](/src/assets/images/Method.png) **getTypeOfProperty(\*\***)\*\*
+![](/images/Method.png) **getTypeOfProperty(\*\***)\*\*
 
 **Description**:
 
 **Returns**: The type of a named property. This can be (Hidden,ReadOnly,Output) or any combination.
 
-![](/src/assets/images/Method.png) **isDerivedFrom(\*\***)\*\*
+![](/images/Method.png) **isDerivedFrom(\*\***)\*\*
 
 **Description**:
 
 **Returns**: True if given type is a father
 
-![](/src/assets/images/Method.png) **purgeTouched(\*\***)\*\*
+![](/images/Method.png) **purgeTouched(\*\***)\*\*
 
 **Description**: Marks the object as unchanged
 
 **Returns**:
 
-![](/src/assets/images/Method.png) **touch(\*\***)\*\*
+![](/images/Method.png) **touch(\*\***)\*\*
 
 **Description**: Marks the object as changed (touched)
 

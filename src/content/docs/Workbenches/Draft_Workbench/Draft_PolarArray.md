@@ -19,11 +19,11 @@ title: Draft PolarArray
 
 ## Description
 
-The ![](/src/assets/images/Draft_PolarArray.svg) **Draft PolarArray** command creates an array from a selected object by placing copies along a circumference. The command can optionally create a [Link](/App_Link "App Link") array, which is more efficient than a regular array.
+The ![](/images/Draft_PolarArray.svg) **Draft PolarArray** command creates an array from a selected object by placing copies along a circumference. The command can optionally create a [Link](/App_Link "App Link") array, which is more efficient than a regular array.
 
 The command can be used on 2D objects created with the [Draft Workbench](/Draft_Workbench "Draft Workbench") or [Sketcher Workbench](/Sketcher_Workbench "Sketcher Workbench"), but also on many 3D objects such as those created with the [Part Workbench](/Part_Workbench "Part Workbench"), [PartDesign Workbench](/PartDesign_Workbench "PartDesign Workbench") or [BIM Workbench](/BIM_Workbench "BIM Workbench").
 
-![](/src/assets/images/Draft_PolarArray_example.png)
+![](/images/Draft_PolarArray_example.png)
 
 Draft PolarArray
 
@@ -33,9 +33,9 @@ See also: [Draft Snap](/Draft_Snap "Draft Snap").
 
 1. Optionally select one object.
 2. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/Draft_PolarArray.svg) [Polar array](/Draft_PolarArray "Draft PolarArray") button.
-   - [Draft](/Draft_Workbench "Draft Workbench"): Select the **Modification → Array tools → ![](/src/assets/images/Draft_PolarArray.svg) Polar array** option from the menu.
-   - [BIM](/BIM_Workbench "BIM Workbench"): Select the **Modify → ![](/src/assets/images/Draft_PolarArray.svg) Polar array** option from the menu.
+   - Press the ![](/images/Draft_PolarArray.svg) [Polar array](/Draft_PolarArray "Draft PolarArray") button.
+   - [Draft](/Draft_Workbench "Draft Workbench"): Select the **Modification → Array tools → ![](/images/Draft_PolarArray.svg) Polar array** option from the menu.
+   - [BIM](/BIM_Workbench "BIM Workbench"): Select the **Modify → ![](/images/Draft_PolarArray.svg) Polar array** option from the menu.
 3. The **Polar array** task panel opens. See [Options](#Options) for more information.
 4. If you have not yet selected an object: select one object.
 5. Enter the required parameters in the task panel.

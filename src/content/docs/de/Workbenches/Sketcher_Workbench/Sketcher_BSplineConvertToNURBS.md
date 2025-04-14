@@ -19,13 +19,13 @@ title: Sketcher BSplineUmwandelnInNURBS
 
 ## Beschreibung
 
-Das Werkzeug ![](/src/assets/images/Sketcher_BSplineConvertToNURBS.svg) Sketcher BSplineUmwandelnInNURBS wandelt Kanten in [B-Splines](/B-Splines/de "B-Splines/de").
+Das Werkzeug ![](/images/Sketcher_BSplineConvertToNURBS.svg) Sketcher BSplineUmwandelnInNURBS wandelt Kanten in [B-Splines](/B-Splines/de "B-Splines/de").
 
-![](/src/assets/images/Sketcher_BSplineConvertToNurb.png)
+![](/images/Sketcher_BSplineConvertToNurb.png)
 
 Verschiedene Objekte vor dem Konvertieren.
 
-![](/src/assets/images/Sketcher_BSplineConvertToNurb1.png)
+![](/images/Sketcher_BSplineConvertToNurb1.png)
 
 Dieselben Objekte nach dem Konvertieren.
 
@@ -33,8 +33,8 @@ Dieselben Objekte nach dem Konvertieren.
 
 1. Eine oder mehrere Kanten auswählen.
 2. Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
-   - Die Schaltfläche ![](/src/assets/images/Sketcher_BSplineConvertToNURBS.svg) Geometrie in B-Spline konvertieren drücken.
-   - Den Menüeintrag **Skizze → B-Spline-Werkzeuge → ![](/src/assets/images/Sketcher_BSplineConvertToNURBS.svg) Geometrie in B-Spline konvertieren** auswählen.
+   - Die Schaltfläche ![](/images/Sketcher_BSplineConvertToNURBS.svg) Geometrie in B-Spline konvertieren drücken.
+   - Den Menüeintrag **Skizze → B-Spline-Werkzeuge → ![](/images/Sketcher_BSplineConvertToNURBS.svg) Geometrie in B-Spline konvertieren** auswählen.
 3. Die Kanten werden umgewandelt.
 
 ## Hinweise

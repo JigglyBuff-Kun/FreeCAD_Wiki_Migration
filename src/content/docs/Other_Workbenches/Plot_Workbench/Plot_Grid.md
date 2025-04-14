@@ -21,7 +21,7 @@ title: Plot Grid
 
 This tool allows the user to enable/disable the grid lines on a specific plot.
 
-![](/src/assets/images/Plot_Trigonometric_Example.png)
+![](/images/Plot_Trigonometric_Example.png)
 
 ## Usage
 

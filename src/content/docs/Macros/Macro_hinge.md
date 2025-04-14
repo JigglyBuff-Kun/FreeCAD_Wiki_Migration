@@ -30,13 +30,13 @@ title: hinge
 
 Simulates hinge movement
 
-![](/src/assets/images/Hing_00.gif)
+![](/images/Hing_00.gif)
 
 ## Uses
 
-Open the 2 files (20140908b_Hinge-1.FCMacro and 20140908b_Hinge-1.FCStd) in FreeCAD with 2 screens (Menu: Windows > Tile) and click in the window and the macro and click F6 (debug macro) to run the macro or run the macro with ![](/src/assets/images/Std_DlgMacroExecuteDirect.svg)
+Open the 2 files (20140908b_Hinge-1.FCMacro and 20140908b_Hinge-1.FCStd) in FreeCAD with 2 screens (Menu: Windows > Tile) and click in the window and the macro and click F6 (debug macro) to run the macro or run the macro with ![](/images/Std_DlgMacroExecuteDirect.svg)
 
-![](/src/assets/images/Hing_01.png)
+![](/images/Hing_01.png)
 
 ## The File
 
@@ -44,7 +44,7 @@ Open the 2 files (20140908b_Hinge-1.FCMacro and 20140908b_Hinge-1.FCStd) in Free
 
 ## Script
 
-ToolBar Icon ![](/src/assets/images/Macro_hinge.png)
+ToolBar Icon ![](/images/Macro_hinge.png)
 
 **20140908b_Hinge-1.FCMacro**
 

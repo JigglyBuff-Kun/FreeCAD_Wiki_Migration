@@ -23,12 +23,12 @@ This documentation is not finished. Please help and contribute documentation.Gui
 
 ## Description
 
-The ![](/src/assets/images/Assembly_TreeItemDown.svg) [Move item down](/Assembly3_MoveItemDown "Assembly3 MoveItemDown") command does...
+The ![](/images/Assembly_TreeItemDown.svg) [Move item down](/Assembly3_MoveItemDown "Assembly3 MoveItemDown") command does...
 
 ## Usage
 
-1. Activate the ![](/src/assets/images/Assembly_TreeItemDown.svg) **Move item down** command using one of the following:
-   - The ![](/src/assets/images/Assembly_TreeItemDown.svg) [Move item down](/Assembly3_MoveItemDown "Assembly3 MoveItemDown") button.
-   - The **Assembly3 → ![](/src/assets/images/Assembly_TreeItemDown.svg) Move item down** menu option.
+1. Activate the ![](/images/Assembly_TreeItemDown.svg) **Move item down** command using one of the following:
+   - The ![](/images/Assembly_TreeItemDown.svg) [Move item down](/Assembly3_MoveItemDown "Assembly3 MoveItemDown") button.
+   - The **Assembly3 → ![](/images/Assembly_TreeItemDown.svg) Move item down** menu option.
 
 Retrieved from "<http://wiki.freecad.org/index.php?title=Assembly3_MoveItemDown/en&oldid=1060854>"

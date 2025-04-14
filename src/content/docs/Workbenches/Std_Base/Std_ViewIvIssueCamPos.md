@@ -30,7 +30,7 @@ Example output: camera settings after changing to [isometric view](/Std_ViewIsom
 
 ## Usage
 
-1. Select the **View → Stereo → ![](/src/assets/images/Std_ViewIvIssueCamPos.svg) Issue camera position** option from the menu.
+1. Select the **View → Stereo → ![](/images/Std_ViewIvIssueCamPos.svg) Issue camera position** option from the menu.
 
 ## Notes
 

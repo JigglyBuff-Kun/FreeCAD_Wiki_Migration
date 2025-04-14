@@ -19,17 +19,17 @@ title: Sketcher DreieckErstellen
 
 ## Beschreibung
 
-Das Werkzeug ![](/src/assets/images/Sketcher_CreateTriangle.svg) Sketcher DreieckErstellen erstellt ein gleichseitiges Dreieck. [eingeführt in 1.0](/Release_notes_1.0/de "Release notes 1.0/de"): Dies ist dasselbe Werkzeug wie [Sketcher RegelmäßigesVieleckErstellen](/Sketcher_CreateRegularPolygon/de "Sketcher CreateRegularPolygon/de") aber mit der vorgegebenen Anzahl von 3 Seiten.
+Das Werkzeug ![](/images/Sketcher_CreateTriangle.svg) Sketcher DreieckErstellen erstellt ein gleichseitiges Dreieck. [eingeführt in 1.0](/Release_notes_1.0/de "Release notes 1.0/de"): Dies ist dasselbe Werkzeug wie [Sketcher RegelmäßigesVieleckErstellen](/Sketcher_CreateRegularPolygon/de "Sketcher CreateRegularPolygon/de") aber mit der vorgegebenen Anzahl von 3 Seiten.
 
-![](/src/assets/images/SketcherCreateTriangleExample.png)
+![](/images/SketcherCreateTriangleExample.png)
 
 ## Anwendung
 
 Siehe auch: [Zeichnungshilfen](/Sketcher_Workbench/de#Zeichnungshilfen "Sketcher Workbench/de").
 
 1. Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
-   - Die Schaltfläche ![](/src/assets/images/Sketcher_CreateTriangle.svg) Dreieck drücken.
-   - Den Menüeintrag **Skizze → Skizzengeometrien → ![](/src/assets/images/Sketcher_CreateTriangle.svg) Gleichseitiges Dreieck erstellen** auswählen.
+   - Die Schaltfläche ![](/images/Sketcher_CreateTriangle.svg) Dreieck drücken.
+   - Den Menüeintrag **Skizze → Skizzengeometrien → ![](/images/Sketcher_CreateTriangle.svg) Gleichseitiges Dreieck erstellen** auswählen.
    - Das Tastaturkürzel G dann P dann 3.
 2. Für weitere Schritte siehe [Sketcher RegelmäßigesVieleckErstellen](/Sketcher_CreateRegularPolygon/de#Anwendung "Sketcher CreateRegularPolygon/de").
 

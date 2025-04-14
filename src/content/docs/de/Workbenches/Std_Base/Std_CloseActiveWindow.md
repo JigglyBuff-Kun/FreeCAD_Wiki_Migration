@@ -24,7 +24,7 @@ Der Befehl **Std Schließen** schließt das aktive Fenster. Um ein Dokument zu s
 ## Anwendung
 
 1. Es gibt mehrere Wege, den Befehl aufzurufen:
-   - Wähle die **Datei → ![](/src/assets/images/Std_CloseActiveWindow.svg) Schließen**-Option aus dem Menü.
+   - Wähle die **Datei → ![](/images/Std_CloseActiveWindow.svg) Schließen**-Option aus dem Menü.
    - Benutze den Tastaturkurzbefehl: Ctrl+F4.
 2. Um ein Dokument zu schließen: wiederhole dies für alle dazugehörigen Fenster..
 3. Beim Schließen des letzten Fensters eines nicht gesicherten Dokument öffnet sich eine Dialog-Box, die zum Sichern auffordert:

@@ -36,7 +36,7 @@ Copy the macro **Triangle AH** complete in the Python console FreeCAD
 
 ## Script
 
-ToolBar Icon ![](/src/assets/images/Macro_Triangle_AH.png)
+ToolBar Icon ![](/images/Macro_Triangle_AH.png)
 
 **Macro_triangleAH.FCMacro**
 

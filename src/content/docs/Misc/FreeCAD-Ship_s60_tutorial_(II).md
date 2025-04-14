@@ -51,7 +51,7 @@ In order to can compute GZ curve we need to know ship weights, and their positio
 
 The Ship workbench provides two different tools to generate each instance.
 
-![Weights definition tool icon.](/src/assets/images/FreeCAD-Ship-WeightIco.png)
+![Weights definition tool icon.](/images/FreeCAD-Ship-WeightIco.png)
 
 Weights definition tool icon.
 
@@ -69,7 +69,7 @@ So we will change it. Double-click over each cell we can edit the value, setting
 - Port side engine, 5000 kg, (-6.5, 0.65, 0.5) m
 - Emergency engine, 2500 kg, (0.2, 0, 2.5) m
 
-![Weights definition 3D preview.](/src/assets/images/FreeCAD-Ship-S60WeightsPreview.png)
+![Weights definition 3D preview.](/images/FreeCAD-Ship-S60WeightsPreview.png)
 
 Weights definition 3D preview.
 
@@ -89,7 +89,7 @@ We need to edit the box, so we select it at **Attributes and tags** tree, and ch
 
 Tank geometry will be common part of created box and ship geometry, so we can hide **Ship** instance, and show **s60_IowaUniversity** geometry. Selecting box and **s60_IowaUniversity** we can use Common operation generating our starboard tank geometry.
 
-![Generated tank geometry.](/src/assets/images/FreeCAD-Ship-S60TankGeometry.png)
+![Generated tank geometry.](/images/FreeCAD-Ship-S60TankGeometry.png)
 
 Generated tank geometry.
 
@@ -108,7 +108,7 @@ We can delete created Box, that we don't need anymore.
 
 If reload [FreeCAD-Ship module](/Ship_Workbench "Ship Workbench") another time, we can find tank instances generator tool.
 
-![Tank instance generation tool icon.](/src/assets/images/FreeCAD-Ship-TankIco.png)
+![Tank instance generation tool icon.](/images/FreeCAD-Ship-TankIco.png)
 
 Tank instance generation tool icon.
 
@@ -124,7 +124,7 @@ m
 
 We can repeat the same process in order to generate **PortTank**.
 
-![View of generated weights.](/src/assets/images/FreeCAD-Ship-S60WeightsTanksPreview.png)
+![View of generated weights.](/images/FreeCAD-Ship-S60WeightsTanksPreview.png)
 
 View of generated weights.
 
@@ -136,7 +136,7 @@ Figure shown our ship result that we will compute.
 
 The Ship workbench provide a tool to easily compute a _GZ_ curve.
 
-![GZ curve computation tool icon.](/src/assets/images/Ship_GZ.svg)
+![GZ curve computation tool icon.](/images/Ship_GZ.svg)
 
 GZ curve computation tool icon.
 
@@ -172,7 +172,7 @@ This files will be overwritten if you executes the tool another time.
 
 ### Results
 
-![Resultant GZ curve.](/src/assets/images/FreeCAD-Ship-s60GZ.png)
+![Resultant GZ curve.](/images/FreeCAD-Ship-s60GZ.png)
 
 Resultant GZ curve.
 

@@ -23,7 +23,7 @@ Ein neues leeres Bewegungsbahn-Objekt in die Szene einfügen.
 
 ## Anwendung
 
-![](/src/assets/images/Robot_CreateTrajectory.svg) anklicken oder den Menüeintrag Roboter → ![](/src/assets/images/Robot_CreateTrajectory.svg) Bewegungsbahn erstellen auswählen.
+![](/images/Robot_CreateTrajectory.svg) anklicken oder den Menüeintrag Roboter → ![](/images/Robot_CreateTrajectory.svg) Bewegungsbahn erstellen auswählen.
 
 ## Hinweise
 

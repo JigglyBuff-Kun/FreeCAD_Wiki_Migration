@@ -75,12 +75,12 @@ or use the `Translate` field
 
 - Use [Special:Upload](/Special:Upload "Special:Upload") to upload the custom icon in [SVG](/SVG "SVG") or PNG formats. It should have the same name as the macro.
 - Otherwise it will default to `Icon=Text-x-python.svg` [![](https://upload.wikimedia.org/wikipedia/commons/8/82/Text-x-python.svg)](/File:Text-x-python.svg).
-- For the macro used in the Python console by FreeCAD use `Icon=Text_console_python.png` ![](/src/assets/images/Text_console_python.png).
-- For the example video macro use this skeleton of the icon ![](/src/assets/images/Text_Video_Movie.png) and fill the screen for obtain ex: ![](/src/assets/images/Macro_crank_simul.png) and save the new icon with the same name of your macro.
+- For the macro used in the Python console by FreeCAD use `Icon=Text_console_python.png` ![](/images/Text_console_python.png).
+- For the example video macro use this skeleton of the icon ![](/images/Text_Video_Movie.png) and fill the screen for obtain ex: ![](/images/Macro_crank_simul.png) and save the new icon with the same name of your macro.
 
 [Template:Macro](/Template:Macro "Template:Macro") will put the information on using and installing the macros in every page.
 
-![](/src/assets/images/Macro_Recipes_MacroHowToInstall.png)
+![](/images/Macro_Recipes_MacroHowToInstall.png)
 
 [How to install macros](/How_to_install_macros "How to install macros") and [customize toolbars](/Customize_Toolbars "Customize Toolbars") links in the infobox on each macro page
 
@@ -220,7 +220,7 @@ webbrowser.open("https://gist.githubusercontent.com/mario52a/8d40ab6c018c2bde678
 
 <class="rawcodeurl"><a href="<https://gist.githubusercontent.com/mario52a/8d40ab6c018c2bde678f/raw/e16ad9ea7b38c0c47e42aa3019be01dd1267a620/FCInfo_en_Ver_1-20_Docked.FCMacro>">raw code</a>
 
-This template must be placed at the beginning of the macro page, in the _Description_ section. It must be the first block of code in the page so that the [Addon Manager](/Std_AddonMgr "Std AddonMgr") ![](/src/assets/images/Std_AddonMgr.svg) can automatically detect it and import it. See [Macro CirclePlus](/Macro_CirclePlus "Macro CirclePlus") for an example of the usage.
+This template must be placed at the beginning of the macro page, in the _Description_ section. It must be the first block of code in the page so that the [Addon Manager](/Std_AddonMgr "Std AddonMgr") ![](/images/Std_AddonMgr.svg) can automatically detect it and import it. See [Macro CirclePlus](/Macro_CirclePlus "Macro CirclePlus") for an example of the usage.
 
 **PS:** In case upgrade in GitHub the path of the RAW code is modified not forgotten modify the link in the Codeextralink template.
 

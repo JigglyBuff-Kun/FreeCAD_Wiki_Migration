@@ -28,7 +28,7 @@ This tutorial will cover how to build a ball bearing with a CSG-workflow.
 The code will produce a new FreeCAD document with 12 shapes (Inner Ring, Outer Ring and 10 balls/spheres).  
 It will look like this:
 
-![](/src/assets/images/Tutorial_BallBearing01.jpg)
+![](/images/Tutorial_BallBearing01.jpg)
 
 ### Workflow
 

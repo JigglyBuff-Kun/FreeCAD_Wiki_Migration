@@ -23,7 +23,7 @@ The **Std ViewLoadImage** command opens an image in a new tab in the [Main view 
 
 ## Usage
 
-1. Select the **Tools → ![](/src/assets/images/Std_ViewLoadImage.svg) Load image...** option from the menu.
+1. Select the **Tools → ![](/images/Std_ViewLoadImage.svg) Load image...** option from the menu.
 2. Optionally select the correct file type in the dialog box.
 3. Select a file.
 4. Press the Open button.

@@ -21,15 +21,15 @@ title: TechDraw KomplexerSchnitt
 
 Das Werkzeug **TechDraw KomplexerSchnitt** fügt einem Zeichnungsblatt eine Schnittansicht hinzu, die auf einer vorhandenen Bauteilansicht und einem Schnittprofil (Schnittkontur) basiert.
 
-![](/src/assets/images/TechDraw_QuarterSection_example.png)
+![](/images/TechDraw_QuarterSection_example.png)
 
 Halbschnitt, mit dem Werkzeug Komplexe Schnittansicht erstellt
 
-![](/src/assets/images/TechDraw_AlignedSection_example.png)
+![](/images/TechDraw_AlignedSection_example.png)
 
 Abgewinkelter Schnitt, mit dem Werkzeug Komplexe Schnittansicht erstellt
 
-![](/src/assets/images/TechDraw_OffsetSection_example.png)
+![](/images/TechDraw_OffsetSection_example.png)
 
 Abgesetzter Schnitt, mit dem Werkzeug Komplexe Schnittansicht erstellt
 
@@ -37,12 +37,12 @@ Abgesetzter Schnitt, mit dem Werkzeug Komplexe Schnittansicht erstellt
 
 1. Eine Bauteilansicht und ein Profilobjekt in der [3D-Ansicht](/3D_view/de "3D view/de") oder der [Baumansicht](/Tree_view/de "Tree view/de") auswählen. Profile sind normalerweise Skizzen, aber jedes Objekt, dessen Form in einen Draht (wire) umgewandelt werden kann, funktioniert.
 2. Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
-   - Die Schaltfläche ![](/src/assets/images/TechDraw_ComplexSection.svg) Komplexe Schnittansicht drücken.
-   - Den Menüeintrag **TechDraw → TechDraw Ansichten → ![](/src/assets/images/TechDraw_ComplexSection.svg) Komplexe Schnittansicht einfügen** auswählen.
+   - Die Schaltfläche ![](/images/TechDraw_ComplexSection.svg) Komplexe Schnittansicht drücken.
+   - Den Menüeintrag **TechDraw → TechDraw Ansichten → ![](/images/TechDraw_ComplexSection.svg) Komplexe Schnittansicht einfügen** auswählen.
 3. Im Aufgabenbereich wird ein Dialog geöffnet, der bei der Berechnung verschiedener Eigenschaften hilft. Für die Blickrichtung werden sinnvolle Werte ermittelt, diese können aber verändert werden.
 
-![](/src/assets/images/TechDraw_ComplexSection_Taskview1.png)
-![](/src/assets/images/TechDraw_ComplexSection_Taskview2.png)
+![](/images/TechDraw_ComplexSection_Taskview1.png)
+![](/images/TechDraw_ComplexSection_Taskview2.png)
 
 ## Eigenschaften
 
@@ -93,11 +93,11 @@ section.SectionNormal = (-1, 0, 0)
 
 Für weitere Information über Schnittansichten und einige Beispiele siehe: [TechDraw Schnittbeispiele](/TechDraw_Section_Examples/de "TechDraw Section Examples/de").
 
-![](/src/assets/images/TechDraw_ExampleSection-10.png)
-![](/src/assets/images/TechDraw_ExampleSection-13.png)
-![](/src/assets/images/TechDraw_ExampleSection-15.png)
-![](/src/assets/images/TechDraw_ExampleSection-17.png)
-![](/src/assets/images/TechDraw_ExampleSection-34.png)
-![](/src/assets/images/TechDraw_ExampleSection-35.png)
+![](/images/TechDraw_ExampleSection-10.png)
+![](/images/TechDraw_ExampleSection-13.png)
+![](/images/TechDraw_ExampleSection-15.png)
+![](/images/TechDraw_ExampleSection-17.png)
+![](/images/TechDraw_ExampleSection-34.png)
+![](/images/TechDraw_ExampleSection-35.png)
 
 Retrieved from "<http://wiki.freecad.org/index.php?title=TechDraw_ComplexSection/de&oldid=1571047>"

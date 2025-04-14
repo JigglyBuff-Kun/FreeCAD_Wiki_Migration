@@ -19,9 +19,9 @@ title: Sketcher HyperbelbogenErstellen
 
 ## Beschreibung
 
-Das Werkzeug ![](/src/assets/images/Sketcher_CreateArcOfHyperbola.svg) Hyperbelbogen erstellen erstellt einen Hyperbelbogen.
+Das Werkzeug ![](/images/Sketcher_CreateArcOfHyperbola.svg) Hyperbelbogen erstellen erstellt einen Hyperbelbogen.
 
-![](/src/assets/images/Sketcher_CreateArcOfHyperbola_Example.png)
+![](/images/Sketcher_CreateArcOfHyperbola_Example.png)
 
 Hyperbelbogen (weiß) mit interner Geometrie (dunkelgelb)
 
@@ -30,8 +30,8 @@ Hyperbelbogen (weiß) mit interner Geometrie (dunkelgelb)
 Siehe auch: [Zeichnungshilfen](/Sketcher_Workbench/de#Zeichnungshilfen "Sketcher Workbench/de").
 
 1. Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
-   - Die Schaltfläche ![](/src/assets/images/Sketcher_CreateArcOfHyperbola.svg) Hyperbelbogen erstellen drücken.
-   - Den Menüeintrag **Skizze → Skizzengeometrien → ![](/src/assets/images/Sketcher_CreateArcOfHyperbola.svg) Hyperbelbogen erstellen** auswählen.
+   - Die Schaltfläche ![](/images/Sketcher_CreateArcOfHyperbola.svg) Hyperbelbogen erstellen drücken.
+   - Den Menüeintrag **Skizze → Skizzengeometrien → ![](/images/Sketcher_CreateArcOfHyperbola.svg) Hyperbelbogen erstellen** auswählen.
    - Das Tastaturkürzel G dann H.
 2. Der Mauszeiger wandelt sich zu einem Kreuz mit Werkzeugsymbol.
 3. Den Mittelpunkt des Hauptradius des Bogens auswählen

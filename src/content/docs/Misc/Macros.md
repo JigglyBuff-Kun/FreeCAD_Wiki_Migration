@@ -16,11 +16,11 @@ See the [Power users hub](/Power_users_hub "Power users hub") to learn more abou
 
 ## How it works
 
-Enable the console output in the menu **Edit → Preferences → Python → Macro → Show scripts commands in python console**. You will see that in FreeCAD, every action you do, such as pressing a button, outputs a Python command. Those commands are what can be recorded in a macro. The main tool for making macros is the macros toolbar: ![](/src/assets/images/Macros_toolbar.jpg). On it you have 4 buttons: Record, stop recording, edit and play the current macro.
+Enable the console output in the menu **Edit → Preferences → Python → Macro → Show scripts commands in python console**. You will see that in FreeCAD, every action you do, such as pressing a button, outputs a Python command. Those commands are what can be recorded in a macro. The main tool for making macros is the macros toolbar: ![](/images/Macros_toolbar.jpg). On it you have 4 buttons: Record, stop recording, edit and play the current macro.
 
 It is very simple to use: Press the record button, you will be asked to give a name to your macro, then perform some actions. When you are done, click the stop recording button, and your actions will be saved. You can now access the macro dialog with the edit button.
 
-![](/src/assets/images/Macros.png)
+![](/images/Macros.png)
 
 Macro dialog, listing the macros available in the system
 
@@ -34,7 +34,7 @@ Press the record button, give a name, let's say "cylinder 10x10", then, in the [
 
 Of course it is not practical to load a macro in the editor in order to use it. FreeCAD provides much better ways to use your macro, such as assigning a keyboard shortcut to it or putting an entry in the menu. Once your macro is created, all this can be done via the **Tools → Customize** menu.
 
-![](/src/assets/images/Macros_config.jpg)
+![](/images/Macros_config.jpg)
 
 This way you can make your macro become a real tool, just like any standard FreeCAD tool. This, added to the power of python scripting within FreeCAD, makes it possible to easily add your own tools to the interface.
 

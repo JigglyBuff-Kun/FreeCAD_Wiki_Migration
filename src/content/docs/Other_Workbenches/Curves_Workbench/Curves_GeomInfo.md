@@ -23,13 +23,13 @@ This documentation is not finished. Please help and contribute documentation.Gui
 
 ## Description
 
-The ![](/src/assets/images/Curves_GeomInfo.svg) **Curves GeomInfo** command toggles the display of information about selected shapes.
+The ![](/images/Curves_GeomInfo.svg) **Curves GeomInfo** command toggles the display of information about selected shapes.
 
 ## Usage
 
 1. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/Curves_GeomInfo.svg) [GeomInfo](/Curves_GeomInfo "Curves GeomInfo") button.
-   - Select the **Misc. → ![](/src/assets/images/Curves_GeomInfo.svg) GeomInfo** option from the menu.
+   - Press the ![](/images/Curves_GeomInfo.svg) [GeomInfo](/Curves_GeomInfo "Curves GeomInfo") button.
+   - Select the **Misc. → ![](/images/Curves_GeomInfo.svg) GeomInfo** option from the menu.
 2. The state of the button changes and information is showm or hidden accordingly..
 
 ## Notes

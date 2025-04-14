@@ -60,7 +60,7 @@ webbrowser.open("https://gist.githubusercontent.com/mario52a/8d40ab6c018c2bde678
 
 <class="rawcodeurl"><a href="<https://gist.githubusercontent.com/mario52a/8d40ab6c018c2bde678f/raw/2ba412bef3a9a5a0c6da4f3be18513a585f3a301/FCInfo_en_Ver_1-30c-rmu_Docked.FCMacro>">raw code</a>
 
-![](/src/assets/images/Macro_FCInfo_00_en.png)
+![](/images/Macro_FCInfo_00_en.png)
 
 FCInfo
 
@@ -68,13 +68,13 @@ FCInfo
 
 Ein Objekt auswählen und die Anwendung starten oder zuerst die Anwendung starten und dann ein Objekt auswählen. Das Objekt wird analysiert und ein Dialog wird geöffnet, der die gesammelten Informationen anzeigt. Mit jeder neuen Auswahl wird die Längeneinheit auf **mm** zurückgesetzt und die Winkeleinheit auf **Dezimalgrad**.
 
-![window](/src/assets/images/Macro_FCInfo_06.png)
+![window](/images/Macro_FCInfo_06.png)
 
 window
 
 ### Abschnitt 1: Dokument
 
-![FCInfo Dokument](/src/assets/images/Macro_FCInfo_Document_00.png)
+![FCInfo Dokument](/images/Macro_FCInfo_Document_00.png)
 
 - Dokumentname
 - Benenung und interner Name des Objekts
@@ -86,7 +86,7 @@ _(Die Variable **switch_setVisible_GBox_001_Document** kann auf `false` gesetzt 
 
 ### Abschnitt 2: Mausklick-Koordinaten
 
-![FCInfo Koordinate](/src/assets/images/Macro_FCInfo_Coordinate_click_mouse_00.png)
+![FCInfo Koordinate](/images/Macro_FCInfo_Coordinate_click_mouse_00.png)
 
 - Die X-,Y- und Z-Koordinaten des Mausklicks
 - Die Schaltfläche erstellt Punkt, Achse, Ebene, Kopie des Achsenvektors von **FreeCAD.Vector(-24.0, 240.0, 7.0)**
@@ -95,7 +95,7 @@ _(Die Variable **switch_setVisible_GBox_002_Coordinate_Mouse** kann auf `false` 
 
 ### Abschnitt 3: Color on point
 
-![FCInfo Color_on_point](/src/assets/images/Macro_FCInfo_Color_on_point_00.png)
+![FCInfo Color_on_point](/images/Macro_FCInfo_Color_on_point_00.png)
 
 - Farbe am ausgewählten Punkt.
   - Wertebereich jeweils 0.0 bis 1.0
@@ -106,16 +106,16 @@ _(Die Variable **switch_setVisible_GBox_002_Coordinate_Mouse** kann auf `false` 
   - "**204,204,204** " : RGB dezimal: Format RGB (Qt: `setStyleSheet(u"QLineEdit {"background-color: rgb(204, 204, 204)};")`)
   - **(0.8,0.8,0.8)** : RGB float: Format RGB Gleitkommawert von 0.0 bis 1.0
   - (Die Anzahl der Nachkommastellen hängt von der Option *"x (Decimals)"*ab)
-- ![](/src/assets/images/CheckBoxFalse.svg) Sub.Objet : Ändert die Farbe des ausgewählten Objekts oder Teilobjekts. Wenn aktiviert ![](/src/assets/images/CheckBoxTrue.svg) Sub.Objet, wird die ausgewählte Fläche bzw. das ausgewählte Teilobjekt geändert oder dupliziert. Wenn deaktiviert (standard), wird das Objekt geändert (Farbe) oder dupliziert.
+- ![](/images/CheckBoxFalse.svg) Sub.Objet : Ändert die Farbe des ausgewählten Objekts oder Teilobjekts. Wenn aktiviert ![](/images/CheckBoxTrue.svg) Sub.Objet, wird die ausgewählte Fläche bzw. das ausgewählte Teilobjekt geändert oder dupliziert. Wenn deaktiviert (standard), wird das Objekt geändert (Farbe) oder dupliziert.
 - Coul. Obj : Ändert die Farbe der Form bzw. der Fläche, abhängig von der Auswahl. Im Falle von Netz- oder Punktobjekten wird das ganze Objekt eingefärbt.
 - Dupl. Obj : Dupliziert die Fläche bzw. das Objekt, abhängig von der ausgewählten Option. Im Falle von Netz- oder Punktobjekten wird das ganze Objekt eingefärbt. Beim Duplizieren eines Netzobjekts bleibt das Original erhalten und es wird eine Festkörperform erstellt. Duplizieren eines Punktobjekts erhält das original und erstellt eine Kopie.
-- 0 ![](/src/assets/images/SpinBox.svg) : Transparenzgrad der ausgewählten Fläche bzw. des ausgewählten Objekts, abhängig von der ausgewählten Option **0 = opak** , **100 = transparent**
+- 0 ![](/images/SpinBox.svg) : Transparenzgrad der ausgewählten Fläche bzw. des ausgewählten Objekts, abhängig von der ausgewählten Option **0 = opak** , **100 = transparent**
 
 _(Die Variable **switch_setVisible_GBox_003_Color** kann auf `false` gesetzt werden, um die Tafel auszublenden)_
 
 ### Sector 4: Components Mesh
 
-![FCInfo Component Mesh](/src/assets/images/Componant_Mesh_v_1-28.png)
+![FCInfo Component Mesh](/images/Componant_Mesh_v_1-28.png)
 
 If the selection is a mesh object one new window **_"Components"_** is displayed and gives:
 
@@ -127,9 +127,9 @@ _(you can checked to `false` the variable **switch_setVisible_GBox_004_Object_Me
 
 ### Sector 5: Units
 
-![FCInfo Units](/src/assets/images/Macro_FCInfo_Units_00.png)
+![FCInfo Units](/images/Macro_FCInfo_Units_00.png)
 
-- mm ![](/src/assets/images/ComboBox.svg) : If the object is a face perimeter, length of the object is displayed. Unit size can be selected :  
+- mm ![](/images/ComboBox.svg) : If the object is a face perimeter, length of the object is displayed. Unit size can be selected :  
   km, hm, dam, m, dm, cm, **mm**, µm, nm, pm, fm, inch, link, foot, yard, perch, chain, furlong, mile, league, nautique.
 - Length of the object : Length of the object or perimeter of the face 10.0 mm.
 - If the object is a circle, a second lineEdit **Radius :** is opened and display the radius and diameter of circle 2.0 mm (dia. 4.0 mm).
@@ -139,7 +139,7 @@ _(you can checked to `false` the variable **switch_setVisible_GBox_005_Value_Uni
 
 ### Sector 6: Inclination
 
-![FCInfo Inclination](/src/assets/images/Macro_FCInfo_Inclination_00.png)
+![FCInfo Inclination](/images/Macro_FCInfo_Inclination_00.png)
 
 - **Inclination of the object** can be displayed in:
   - decimal degree, ex: 174.831872611°
@@ -159,18 +159,18 @@ _(you can checked to `false` the variable **switch_setVisible_GBox_006_Inclinati
 
 ### Sector 7: Surface and Volume
 
-![FCInfo Surface and Volume](/src/assets/images/Macro_FCInfo_Surface_and_Volume_00.png)
+![FCInfo Surface and Volume](/images/Macro_FCInfo_Surface_and_Volume_00.png)
 
 - Surface of the form displayed, unit size can be selected. 600.0 mm2
 - Surface of the face displayed, unit size can be selected. 0.0 mm2
 - Volume of the form displayed, unit size can be selected. 1000.0 mm3
 - Unit , choice your unit.
-- The gram ![](/src/assets/images/ComboBox.svg) unit mass can be chosen :  
+- The gram ![](/images/ComboBox.svg) unit mass can be chosen :  
    ton,quintal, kg, hg, dag, **gram**, dg, cg, mg, µg, ng, pg, fg, gr (grain), dr (drachm), oz (once), oz t (once troy),  
   lb t (livre troy), lb (livre av), st (stone), qtr (quarter), cwt (hundredweight), tonneau fr, ct.
 - Weight of the form displayed, unit mass can be selected. 2.7 g
 - Density of the material in **kg by dm3** 2.7000 kg (by dm3)
-- Material Metal Nickel (Ni),8.27,10.0,adapt Price ![](/src/assets/images/ComboBox.svg)
+- Material Metal Nickel (Ni),8.27,10.0,adapt Price ![](/images/ComboBox.svg)
   - In beginning the macro search the file **FCInfo_material.txt**, if the file not exist, one file FCInfo_material.txt is created.
   - The file is created with 10 types of material saved in this format.
     - **Title of material , Density on dm3 , Price on dm3 , text info on choice**
@@ -209,7 +209,7 @@ _(you can checked to `false` the variable **switch_setVisible_GBox_007_Surface_a
 
 ### Sector 8: Cost
 
-![FCInfo Cost](/src/assets/images/Macro_FCInfo_Cost_00.png)
+![FCInfo Cost](/images/Macro_FCInfo_Cost_00.png)
 
 - Cost total : cost total of the object selected
 
@@ -217,12 +217,12 @@ _(you can checked to `false` the variable **switch_setVisible_GBox_007_Surface_a
 
 - Price (kg/dm3) : price of the material selected (\*Metal Aluminium (Al),2.7,**_10.0_**,adapt Price\*)
 
-10,0000 Eu (by Kg) ![](/src/assets/images/SpinBox.svg)  
+10,0000 Eu (by Kg) ![](/images/SpinBox.svg)  
 _(you can checked to `false` the variable **switch_setVisible_GBox_008_Cost_And_Price** for hidden the Box)_
 
 ### Sector 9: BoundBox
 
-![FCInfo BoundBox](/src/assets/images/Macro_FCInfo_BoundBox_00.png)
+![FCInfo BoundBox](/images/Macro_FCInfo_BoundBox_00.png)
 
 - BoundBox gives extreme dimensions of the shape.
   - maximum X length : 10.0 mm
@@ -231,14 +231,14 @@ _(you can checked to `false` the variable **switch_setVisible_GBox_008_Cost_And_
   - diagonal length : 17.3205 mm
   - Tracing : create 6 rectangles to dimensions of boundbox
   - Volume : create volume to dimensions of boundbox
-  - ![](/src/assets/images/CheckBoxFalse.svg) Text Dim. : create the dimension of the triangle _(boundbox)_
-  - If the ![](/src/assets/images/CheckBoxTrue.svg) Text Dim. is checked, the spinbox dimension of text 3,000 ![](/src/assets/images/SpinBox.svg) is operational for give your value _(3.0 by default)_
+  - ![](/images/CheckBoxFalse.svg) Text Dim. : create the dimension of the triangle _(boundbox)_
+  - If the ![](/images/CheckBoxTrue.svg) Text Dim. is checked, the spinbox dimension of text 3,000 ![](/images/SpinBox.svg) is operational for give your value _(3.0 by default)_
 
 _(you can checked to `false` the variable **switch_setVisible_GBox_009_BoundBox** for hidden the Box)_
 
 ### Sector 10: Center of:
 
-![FCInfo Center of...](/src/assets/images/Macro_FCInfo_Center_of_00.png)
+![FCInfo Center of...](/images/Macro_FCInfo_Center_of_00.png)
 
 - Center of the shape and these coordinates XYZ
 - Center of mass and these coordinates XYZ
@@ -248,7 +248,7 @@ _(you can checked to `false` the variable **switch_setVisible_GBox_010_Center_Ma
 
 ### Sector 11: Inertia
 
-![FCInfo Inertia](/src/assets/images/Macro_FCInfo_Inertia_00.png)
+![FCInfo Inertia](/images/Macro_FCInfo_Inertia_00.png)
 
 - Moment of inertia and these coordinates length and weigth
 - The button creates on point, axis, plane, copy vector axis form **FreeCAD.Vector(-24.0, 240.0, 7.0)** _(see Sector 13)_
@@ -266,9 +266,9 @@ _(you can checked to `false` the variable **switch_setVisible_GBox_011_Inertia**
 
 ### Sector 12: SpreadSheet
 
-![FCInfo Disabled](/src/assets/images/Macro_FCInfo_Disabled_module_00.png)
+![FCInfo Disabled](/images/Macro_FCInfo_Disabled_module_00.png)
 
-- ![](/src/assets/images/CheckBoxFalse.svg) Disabled module CheckBox for search or not all details of the object. If it is not checked, only the principal value is displayed.
+- ![](/images/CheckBoxFalse.svg) Disabled module CheckBox for search or not all details of the object. If it is not checked, only the principal value is displayed.
 - Vertexes and details of the shape (compt_Edge), (compt_Faces), (compt_Vector of the Face)
 - Max 200 lines in the table, if there are more than 200 lines it appears **(!+ 200)** and the number of lines
 - If the object is complicated with many objects, the time is long and the search is repeated with every mouse click. The write function in the spreadSheet included, decreases the display time for this it is disabled by default
@@ -278,18 +278,18 @@ _(you can checked to `false` the variable **switch_setVisible_GBox_012_SpreadShe
 
 ### Sector 13: SpreadSheet creation
 
-![FCInfo SpreedSheet](/src/assets/images/Macro_FCInfo_SpreedSheet_00.png)
+![FCInfo SpreedSheet](/images/Macro_FCInfo_SpreedSheet_00.png)
 
 - SpreadSheet : create a new spreadsheet in a document
 - SpreadSheet : the current spreadsheet. if the spreadsheet does not exist one spreadsheet is created
 - Refresh : refresh the list of spreadsheet in document
-- - ![](/src/assets/images/ComboBox.svg) : the spreadsheet(s) present in document
+- - ![](/images/ComboBox.svg) : the spreadsheet(s) present in document
 - Read : read the data in a spreadsheet saved **.FCInfo** or txt, asc, csv
 - Save : save the data in disk in the form selected below **.FCInfo** or txt, asc, csv
-- ![](/src/assets/images/RadioButtonTrue.svg) Tabulation : the separator is Tabulation (by default)
-- ![](/src/assets/images/RadioButtonFalse.svg) Comma : the separator is Comma
-- ![](/src/assets/images/RadioButtonFalse.svg) Semicolon : the separator is Semicolon
-- ![](/src/assets/images/RadioButtonFalse.svg) Space : the separator is Space
+- ![](/images/RadioButtonTrue.svg) Tabulation : the separator is Tabulation (by default)
+- ![](/images/RadioButtonFalse.svg) Comma : the separator is Comma
+- ![](/images/RadioButtonFalse.svg) Semicolon : the separator is Semicolon
+- ![](/images/RadioButtonFalse.svg) Space : the separator is Space
 
 Optionen zum Speichern (**Save**) oder Öffnen (**Read**) von Tabellen mit unterschiedlichen Trennzeichen wie Tab, Komma, Semikolon, Leerzeichen  
 Tab(ulation) ist das Trennzeichen für FreeCADs Arbeitsbereich [Spreadsheet\_Workbench/de|Spreadsheet]  
@@ -301,20 +301,20 @@ _(Die Variable **switch_setVisible_GBox_013_SpreadSheet_Creation** kann auf `fal
 
 ### Sector 14: Main tools
 
-![FCInfo Main](/src/assets/images/Macro_FCInfo_Main_00.png)
+![FCInfo Main](/images/Macro_FCInfo_Main_00.png)
 
-- ![](/src/assets/images/CheckBoxFalse.svg) Info : if this CheckBox is checked, the informations are displayed in the report view window
-- ![](/src/assets/images/CheckBoxFalse.svg) Point : if checked, one point is created in the coordinate displayed form : **FreeCAD.Vector(-24.0, 240.0, 7.0)**
-- ![](/src/assets/images/CheckBoxFalse.svg) Axis : if checked, one axis is created in the coordinate displayed form : **FreeCAD.Vector(-24.0, 240.0, 7.0)**
-- ![](/src/assets/images/CheckBoxFalse.svg) Plane : if checked, one axis plane is created in the coordinate displayed form : **FreeCAD.Vector(-24.0, 240.0, 7.0)**
-- ![](/src/assets/images/RadioButtonFalse.svg) Clip-B0 : None clipBoard
-- ![](/src/assets/images/RadioButtonFalse.svg) Clip-B1 : If checked the coordinate are copy in the clipBoard Form : **FreeCAD.Vector(X.0, Y.0, Z.0)** FreeCAD model
-- ![](/src/assets/images/RadioButtonFalse.svg) Clip-B2 : If checked the coordinate are copy in the clipBoard Form : **X, Y, Z** with Comma separator
-- ![](/src/assets/images/RadioButtonFalse.svg) Clip-B3 : If checked the coordinate are copy in the clipBoard Form : **X Y Z** as is with Space separator
-- ![](/src/assets/images/CheckBoxFalse.svg) Left/Right : if this CheckBox is not checked, the window macro are displayed to right (default). If it is checked the window macro are displayed to left.  
+- ![](/images/CheckBoxFalse.svg) Info : if this CheckBox is checked, the informations are displayed in the report view window
+- ![](/images/CheckBoxFalse.svg) Point : if checked, one point is created in the coordinate displayed form : **FreeCAD.Vector(-24.0, 240.0, 7.0)**
+- ![](/images/CheckBoxFalse.svg) Axis : if checked, one axis is created in the coordinate displayed form : **FreeCAD.Vector(-24.0, 240.0, 7.0)**
+- ![](/images/CheckBoxFalse.svg) Plane : if checked, one axis plane is created in the coordinate displayed form : **FreeCAD.Vector(-24.0, 240.0, 7.0)**
+- ![](/images/RadioButtonFalse.svg) Clip-B0 : None clipBoard
+- ![](/images/RadioButtonFalse.svg) Clip-B1 : If checked the coordinate are copy in the clipBoard Form : **FreeCAD.Vector(X.0, Y.0, Z.0)** FreeCAD model
+- ![](/images/RadioButtonFalse.svg) Clip-B2 : If checked the coordinate are copy in the clipBoard Form : **X, Y, Z** with Comma separator
+- ![](/images/RadioButtonFalse.svg) Clip-B3 : If checked the coordinate are copy in the clipBoard Form : **X Y Z** as is with Space separator
+- ![](/images/CheckBoxFalse.svg) Left/Right : if this CheckBox is not checked, the window macro are displayed to right (default). If it is checked the window macro are displayed to left.  
    If the option is 1 mode fly _(User parameter:BaseApp/Preferences/Macros/FCMmacros/FCInfo/**seTPositionFlyRightLeft**)_ this button is not visible .
-- 4 (Decimales) ![](/src/assets/images/SpinBox.svg) : give the number of decimal displayed
-- 12 (Dim. texte) ![](/src/assets/images/SpinBox.svg) : give the dimensionof text in the macro
+- 4 (Decimales) ![](/images/SpinBox.svg) : give the number of decimal displayed
+- 12 (Dim. texte) ![](/images/SpinBox.svg) : give the dimensionof text in the macro
 - Forum  : direction FCInfo forum tread _(you must to be connected to internet)_
 - Wiki : direction Wiki FCInfo _(you must to be connected to internet)_
 - Ref  : refresh the display of data in report view
@@ -324,11 +324,11 @@ _(you can checked to `false` the variable **switch_setVisible_GBox_014_Main_Tool
 
 Nach dem Starten des Makros bleibt das Makro aktiv und das Fenster bleibt sichtbar. Zum Verlassen des Makros Exit drücken. Wird das Makro über die Kreuz-Schaltfläche verlassen, bleibt das Makro im Speicher und die Daten werden im "Ausgabefenster" von FreeCAD angezeigt; jetzt muss FreeCAD neu gestartet werden, um es zu verlassen.
 
-- ![Rechts angedockt,](/src/assets/images/Macro_FCInfo_04.png)
+- ![Rechts angedockt,](/images/Macro_FCInfo_04.png)
 
   Rechts angedockt,
 
-- ![oder links mit Combo-Ansicht und über Tab erreichbar oder wahlweise nicht angedockt.](/src/assets/images/Macro_FCInfo_05.png)
+- ![oder links mit Combo-Ansicht und über Tab erreichbar oder wahlweise nicht angedockt.](/images/Macro_FCInfo_05.png)
 
   oder links mit Combo-Ansicht und über Tab erreichbar oder wahlweise nicht angedockt.
 
@@ -350,11 +350,11 @@ km, hm, dam, m, dm, cm, **mm**, µm, nm, pm, fm, inch, link, foot, yard, perch, 
 
 Winkel in der FCInfo-Anzeige.
 
-- ![Understanding of angles in FCInfo display](/src/assets/images/Macro_FCInfo_02.png)
+- ![Understanding of angles in FCInfo display](/images/Macro_FCInfo_02.png)
 
   Understanding of angles in FCInfo display
 
-- [![Understanding of angles in percent in FCInfo display click twice to see the animation (the image must be in full screen)](/src/assets/images/Macro_FCInfo_03.gif)](/File:Macro_FCInfo_03.gif "Understanding of angles in percent in FCInfo display click twice to see the animation (the image must be in full screen)")
+- [![Understanding of angles in percent in FCInfo display click twice to see the animation (the image must be in full screen)](/images/Macro_FCInfo_03.gif)](/File:Macro_FCInfo_03.gif "Understanding of angles in percent in FCInfo display click twice to see the animation (the image must be in full screen)")
 
   Understanding of angles in percent in FCInfo display  
    click twice to see the animation (the image must be in full screen)
@@ -486,14 +486,14 @@ Copy the contents of the macro in a file named "FCInfo.FCMacro"
 
 Or, directly in the interface of FreeCAD  
 The icon must be in the same directory as the macro.  
-Download image positioning on the icon ![](/src/assets/images/FCInfo.png) ![](/src/assets/images/FCInfoSpreadsheet.png) and then drag the mouse right click "save as" (do not change the name)
+Download image positioning on the icon ![](/images/FCInfo.png) ![](/images/FCInfoSpreadsheet.png) and then drag the mouse right click "save as" (do not change the name)
 
 **PS: Der Code ist zu lang, um in der Wiki-Seite enthalten zu sein (zur Zeit akzeptieren die Wiki-Seiten nur 64 KB), daher wurde der Makrocode in das Forum**  
  gestellt
 
 Die Makrodatei **docked to right** herunterladen
 
-[![](/src/assets/images/Nuvola_apps_download_manager.png)](https://gist.github.com/mario52a/8d40ab6c018c2bde678f)
+[![](/images/Nuvola_apps_download_manager.png)](https://gist.github.com/mario52a/8d40ab6c018c2bde678f)
 
 [last version Macro_FCInfo](https://gist.github.com/mario52a/8d40ab6c018c2bde678f)
 
@@ -509,9 +509,9 @@ In der Tabelle sind nur die ersten 200 Elemente des Objekts sichtbar. Enthält d
 
 Wenn das Fenstermakro nach der Ausführung nicht sichtbar ist, siehe das untere Fenster:
 
-![](/src/assets/images/Macro_FCInfo_08.png)
+![](/images/Macro_FCInfo_08.png)
 
-![](/src/assets/images/FCInfo_begin_00.gif)
+![](/images/FCInfo_begin_00.gif)
 
 Projekt:  
  lies die Datei direkt in einer Tabelle. done  
@@ -686,7 +686,7 @@ FreeCAD >Menu >Tools >Edit parameters... >BaseApp/Preferences/Macros/FCMmacros/F
 
 ## Verweise
 
-See Also: ![Arch Survey](/src/assets/images/Arch_Survey.svg) [Arch Survey](/Arch_Survey "Arch Survey")
+See Also: ![Arch Survey](/images/Arch_Survey.svg) [Arch Survey](/Arch_Survey "Arch Survey")
 
 Sie können Ihre Kommentare im Forum teilen [Info Workbench - Help with icons please.](http://forum.freecadweb.org/viewtopic.php?f=10&t=3185)  
 Hier noch ein Beitrag von [FCInfo Macro](http://forum.freecadweb.org/viewtopic.php?f=8&t=6005)

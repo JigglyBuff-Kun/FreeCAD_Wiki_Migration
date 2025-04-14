@@ -29,8 +29,8 @@ A [Tool Controller](/CAM_ToolController "CAM ToolController") controls how a too
 
 The user will interact via CAM menu with the tool management system in two different workflows. Each workflow has dedicated GUI elements.
 
-- ![](/src/assets/images/CAM_ToolBitLibraryOpen.svg) [Toolbit Dock](/CAM_ToolBitDock "CAM ToolBitDock") view indicated at the box top as _Tool selector_, for using tools in a CAM Job by creating Tool Controllers.
-- ![](/src/assets/images/CAM_ToolBitDock.svg) [Toolbit Library Manager](/CAM_ToolBitLibraryOpen "CAM ToolBitLibraryOpen") for managing the user's Toolbit collection with _Create Toolbit_, _Add Existing_ and _Remove_ buttons.
+- ![](/images/CAM_ToolBitLibraryOpen.svg) [Toolbit Dock](/CAM_ToolBitDock "CAM ToolBitDock") view indicated at the box top as _Tool selector_, for using tools in a CAM Job by creating Tool Controllers.
+- ![](/images/CAM_ToolBitDock.svg) [Toolbit Library Manager](/CAM_ToolBitLibraryOpen "CAM ToolBitLibraryOpen") for managing the user's Toolbit collection with _Create Toolbit_, _Add Existing_ and _Remove_ buttons.
 
 ## Organization
 
@@ -65,13 +65,13 @@ See [CAM Preferences](/CAM_Preferences "CAM Preferences") to choose whether abso
 If you have been using FreeCAD CAM workbench for a while, you may need to adjust your preferences before you can use the Toolbit system. If pressing the Tool Library button on the toolbar shows the legacy dialog, go to the page below in [CAM Preferences](/CAM_Preferences "CAM Preferences") and disable legacy tools.  
 You have to restart FreeCAD to make the change valid.
 
-![](/src/assets/images/Preferences.png)
+![](/images/Preferences.png)
 
 Disable Legacy Tools
 
 ## Getting Started with Tools in FC 0.19
 
-Read the [Migrating from Legacy Tools](#Migrating_from_Legacy_Tools) section above. The steps below will walk you through the process of getting a ToolBit into your particular ![](/src/assets/images/CAM_Job.svg) [CAM Job](/CAM_Job "CAM Job").
+Read the [Migrating from Legacy Tools](#Migrating_from_Legacy_Tools) section above. The steps below will walk you through the process of getting a ToolBit into your particular ![](/images/CAM_Job.svg) [CAM Job](/CAM_Job "CAM Job").
 
 In short, the process begins with a Tool Shape (profile) file that contains only a FreeCAD sketch of half the tool's physical shape (profile). This tool shape file is then used as the basis to create a ToolBit file containing the 3D representation of the ToolBit or cutter. One or more ToolBits are assigned to any number of Tool Libraries as needed by the user. This structure and workflow allows for sharing of Tool Shapes, ToolBits, and entire Tool Libraries - a giant leap forward from the Legacy tool management system in place prior to version 0.19.
 
@@ -93,7 +93,7 @@ Getting a cutter or tool into a CAM Job for use in operations starts with a [Too
 
 Once the desired tool shape(profile) exists, you need to create a [tool bit](/CAM_ToolBit "CAM ToolBit") using the tool shape (profile).
 
-1. In the ![](/src/assets/images/Workbench_CAM.svg) [CAM Workbench](/CAM_Workbench "CAM Workbench") menu bar, navigate to **CAM → Create Tool**.
+1. In the ![](/images/Workbench_CAM.svg) [CAM Workbench](/CAM_Workbench "CAM Workbench") menu bar, navigate to **CAM → Create Tool**.
 2. In the [Tool Bit](/CAM_ToolBit "CAM ToolBit") creation task panel that appears, give the new tool bit a name and select the corresponding tool shape file as the basis for this new tool bit.
 3. A thumbnail of the selected tool shape should appear along with a list of parameters.
 4. Set the Bit Parameters as desired.
@@ -103,7 +103,7 @@ Once the desired tool shape(profile) exists, you need to create a [tool bit](/CA
 ### Save the new ToolBit
 
 1. Locate and select the new tool bit in the object tree in the main FreeCAD window.
-2. In the ![](/src/assets/images/Workbench_CAM.svg) [CAM Workbench](/CAM_Workbench "CAM Workbench") menu bar, navigate to, and select, **CAM → Save Tool as...**.
+2. In the ![](/images/Workbench_CAM.svg) [CAM Workbench](/CAM_Workbench "CAM Workbench") menu bar, navigate to, and select, **CAM → Save Tool as...**.
 3. A pop-up window will appear.
 4. Navigate to the folder where you wish to save the new tool bit file.
 5. Enter a file name for the tool bit.
@@ -111,7 +111,7 @@ Once the desired tool shape(profile) exists, you need to create a [tool bit](/CA
 
 ### Register the ToolBit in a Tool Library
 
-1. In the ![](/src/assets/images/Workbench_CAM.svg) [CAM Workbench](/CAM_Workbench "CAM Workbench") menu bar, navigate to **CAM → Open ToolBit Library editor**.
+1. In the ![](/images/Workbench_CAM.svg) [CAM Workbench](/CAM_Workbench "CAM Workbench") menu bar, navigate to **CAM → Open ToolBit Library editor**.
 2. The [ToolBit Library Manager](/CAM_ToolBitLibraryOpen "CAM ToolBitLibraryOpen") window will open.
 3. At the top of this window, verify or set the path to the folder containing your existing tool libraries, or the location you want to store your tool libraries.
 4. Under the path entry, on the left is the Tool Libraries list area. Click on an existing tool library you wish to use as the destination for your new tool bit, or click the green plus icon to create new Tool Library in the folder identified above.

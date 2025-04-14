@@ -34,14 +34,14 @@ This macro generates a TechDraw template on the fly and inserts it into the acti
 
 If you wish, you can fill the space between the title block and the upper border of the drawing area with a BOM. You choose how many lines you need or if you fill the whole space.
 
-![](/src/assets/images/Macro_TemplateHelper_A3%2BBOM.png)
+![](/images/Macro_TemplateHelper_A3%2BBOM.png)
 
 Page with macro generated template, ISO A3 + bill of material
 
 ## Usage
 
 1. Open a FreeCAD file or add a new one.
-2. Find the macro file in your macro directory using ![](/src/assets/images/Std_DlgMacroExecute.svg) [Macros...](/Std_DlgMacroExecute "Std DlgMacroExecute") and select it.
+2. Find the macro file in your macro directory using ![](/images/Std_DlgMacroExecute.svg) [Macros...](/Std_DlgMacroExecute "Std DlgMacroExecute") and select it.
 
    : (The Script section below describes how to put it there.)
 
@@ -57,21 +57,21 @@ Page with macro generated template, ISO A3 + bill of material
 
 ## Dialogue window
 
-![](/src/assets/images/Macro_TemplateHelper_DiaWin.png)
+![](/images/Macro_TemplateHelper_DiaWin.png)
 
 Dialogue window on launch
 
-![](/src/assets/images/Macro_TemplateHelper_DiaLang.png)
+![](/images/Macro_TemplateHelper_DiaLang.png)
 
 Language options
 
 English is default and just one version, but maybe someone likes to distinguish 'merican and bri'ish English in the future... :-D
 
-![](/src/assets/images/Macro_TemplateHelper_DiaSize.png)
+![](/images/Macro_TemplateHelper_DiaSize.png)
 
 Format options, yet without A4- (landscape)
 
-![](/src/assets/images/Macro_TemplateHelper_DiaBOM.png)
+![](/images/Macro_TemplateHelper_DiaBOM.png)
 
 BOM options
 
@@ -81,10 +81,10 @@ The Macro should be found in the macro directory. To put it there, you need to:
 
 1. Select the macro below (from **#! pyth...** to **...main()**).
 2. Copy the selection.
-3. Create a new macro file using ![](/src/assets/images/Std_DlgMacroExecute.svg) [Macros...](/Std_DlgMacroExecute "Std DlgMacroExecute") and select Create.
+3. Create a new macro file using ![](/images/Std_DlgMacroExecute.svg) [Macros...](/Std_DlgMacroExecute "Std DlgMacroExecute") and select Create.
 4. Type in the name (TemplateHelper) and select OK. (_.FCMacro_ is added automatically.)
 5. Paste the clipboard content into the Editor window.
-6. Press ![](/src/assets/images/Std_DlgMacroExecuteDirect.svg) [Execute macro](/Std_DlgMacroExecuteDirect "Std DlgMacroExecuteDirect") to start the macro.
+6. Press ![](/images/Std_DlgMacroExecuteDirect.svg) [Execute macro](/Std_DlgMacroExecuteDirect "Std DlgMacroExecuteDirect") to start the macro.
 
 **TemplateHelper.FCMacro**
 

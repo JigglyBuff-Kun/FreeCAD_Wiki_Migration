@@ -23,36 +23,36 @@ title: Example Combined Footing
 
 ## Description
 
-The ![](/src/assets/images/Reinforcement_FootingRebars.svg) [Reinforcement FootingRebars](/Reinforcement_FootingRebars "Reinforcement FootingRebars") tool allows the user to create reinforcing bars inside a Footing [Arch Structure](/Arch_Structure "Arch Structure") object.
+The ![](/images/Reinforcement_FootingRebars.svg) [Reinforcement FootingRebars](/Reinforcement_FootingRebars "Reinforcement FootingRebars") tool allows the user to create reinforcing bars inside a Footing [Arch Structure](/Arch_Structure "Arch Structure") object.
 
-This tool is part of the ![](/src/assets/images/Reinforcement_Workbench.svg) [Reinforcement Workbench](/Reinforcement_Workbench "Reinforcement Workbench"), an [external workbench](/External_workbenches "External workbenches") that can be installed with the ![](/src/assets/images/Std_AddonMgr.svg) [Addon Manager](/Std_AddonMgr "Std AddonMgr").
+This tool is part of the ![](/images/Reinforcement_Workbench.svg) [Reinforcement Workbench](/Reinforcement_Workbench "Reinforcement Workbench"), an [external workbench](/External_workbenches "External workbenches") that can be installed with the ![](/images/Std_AddonMgr.svg) [Addon Manager](/Std_AddonMgr "Std AddonMgr").
 
 In this example we will create Combined Footing Reinforcement as shown in below figure.
 
-![](/src/assets/images/Combined_Footing_reinforcement.png)
+![](/images/Combined_Footing_reinforcement.png)
 
 A Example of Combined Footing reinforcement in Footing [Arch Structure](/Arch_Structure "Arch Structure")
 
-![](/src/assets/images/Side_view_of_combined_footing_of_footing_reinforcement.png)
+![](/images/Side_view_of_combined_footing_of_footing_reinforcement.png)
 
 Right view of given Footing Reinforcement example
 
-![](/src/assets/images/Combined_footing_front_view_.png)
+![](/images/Combined_footing_front_view_.png)
 
 Front view of given Footing Reinforcement example
 
 ## Usage
 
-1. Select vertical face of a previously created Footing ![](/src/assets/images/Arch_Structure.svg) [Arch Structure](/Arch_Structure "Arch Structure") object. as shown in below image.
+1. Select vertical face of a previously created Footing ![](/images/Arch_Structure.svg) [Arch Structure](/Arch_Structure "Arch Structure") object. as shown in below image.
 
-: ![](/src/assets/images/FootingSelectedFace.png)
+: ![](/images/FootingSelectedFace.png)
 : Selected face for Footing Arch Structure
 
-2. Then select ![](/src/assets/images/Reinforcement_FootingRebars.svg) [Footing Reinforcement](/Reinforcement_FootingRebars "Reinforcement FootingRebars") from the rebar tools.
+2. Then select ![](/images/Reinforcement_FootingRebars.svg) [Footing Reinforcement](/Reinforcement_FootingRebars "Reinforcement FootingRebars") from the rebar tools.
 
 3. A footing reinforcement dialog box will pop-out on screen as shown below.
 
-: ![](/src/assets/images/Footing_Reinforcement_GUI_.png)
+: ![](/images/Footing_Reinforcement_GUI_.png)
 : Dialog Box for the Footing Reinforcement
 
 4. Select the desired rebar type and other input data for rebars in parallel direction of selected face in footing reinforcement mesh as show in below image.

@@ -19,7 +19,7 @@ title: Sketcher Blaupause
 
 ## Beschreibung
 
-Das Werkzeug ![](/src/assets/images/Sketcher_CarbonCopy.svg) Sketcher Blaupause paust (kopiert) alle Geometrien und Randbedingungen aus einer anderen Skizze in die aktive Skizze durch.
+Das Werkzeug ![](/images/Sketcher_CarbonCopy.svg) Sketcher Blaupause paust (kopiert) alle Geometrien und Randbedingungen aus einer anderen Skizze in die aktive Skizze durch.
 
 Maßliche Randbedingungen, die vor der Pausfunktion bestehen, bleiben über [Ausdrücke](/Expressions/de "Expressions/de") mit den maßliche Randbedingungen der Originalskizze verknüpft.
 
@@ -27,8 +27,8 @@ Maßliche Randbedingungen, die vor der Pausfunktion bestehen, bleiben über [Aus
 
 1. Eine vorhandene [Skizze](/Sketcher_NewSketch/de "Sketcher NewSketch/de") sollte im Bearbeitungsmodus geöffnet sein. Diese Skizze ist das Ziel dieses Vorgangs.
 2. Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
-   - Die Schaltfläche ![](/src/assets/images/Sketcher_CarbonCopy.svg) [Blaupause erstellen](/Sketcher_CarbonCopy "Sketcher CarbonCopy") drücken.
-   - Den Menüeintrag **Skizze → Sketcher-Werkzeuge → ![](/src/assets/images/Sketcher_CarbonCopy.svg) Blaupause erstellen** auswählen.
+   - Die Schaltfläche ![](/images/Sketcher_CarbonCopy.svg) [Blaupause erstellen](/Sketcher_CarbonCopy "Sketcher CarbonCopy") drücken.
+   - Den Menüeintrag **Skizze → Sketcher-Werkzeuge → ![](/images/Sketcher_CarbonCopy.svg) Blaupause erstellen** auswählen.
    - Das Tastaturkürzel G dann W.
 3. Der Mauszeiger wandelt sich in ein Kreuz mit dem entsprechenden Werkzeugsymbol.
 4. Eine Kante aus einer anderen Skizze auswählen. Diese Skizze ist die Quelle dieses Vorgangs. Siehe [Hinweise](#Hinweise).

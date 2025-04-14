@@ -23,22 +23,22 @@ title: Part Spiegeln
 
 Ein Beispiel:
 
-![](/src/assets/images/PARTMirrorBeforev11.png)
+![](/images/PARTMirrorBeforev11.png)
 
 Vorher
 
-![](/src/assets/images/PARTMirrorAfterv11.png)
+![](/images/PARTMirrorAfterv11.png)
 
 Nach dem Spiegeln über die YZ-Ebene
 
 ## Anwendung
 
-![](/src/assets/images/PartMirroring_Scr1.png)
+![](/images/PartMirroring_Scr1.png)
 
 1. Wahlweise ein oder mehrere Quellobjekte auswählen.
 2. Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
-   - Die Schaltfläche ![](/src/assets/images/Part_Mirror.svg) Spiegelung... drücken.
-   - Den Menüeintrag **Part → ![](/src/assets/images/Part_Mirror.svg) Spiegelung...** auswählen.
+   - Die Schaltfläche ![](/images/Part_Mirror.svg) Spiegelung... drücken.
+   - Den Menüeintrag **Part → ![](/images/Part_Mirror.svg) Spiegelung...** auswählen.
 3. Wurde noch kein Objekt ausgewählt oder soll die Auswahl geändert werden: Ein oder mehrere Objekte in der Liste **Formen** auswählen.
 4. Eine der folgenden Möglichkeiten auswählen:
    - Eine vorgegebene **Spiegelebene** in der Ausklappliste auswählen.

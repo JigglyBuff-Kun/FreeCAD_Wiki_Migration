@@ -23,7 +23,7 @@ This documentation is not finished. Please help and contribute documentation.Gui
 
 ## Description
 
-The ![](/src/assets/images/Assembly_Import.svg) [Import from STEP](/Assembly3_ImportFromSTEP "Assembly3 ImportFromSTEP") command opens a file browser window to search and select STEP files.
+The ![](/images/Assembly_Import.svg) [Import from STEP](/Assembly3_ImportFromSTEP "Assembly3 ImportFromSTEP") command opens a file browser window to search and select STEP files.
 
 (STEP assemblies are imported into a single document.)
 
@@ -31,10 +31,10 @@ The ![](/src/assets/images/Assembly_Import.svg) [Import from STEP](/Assembly3_Im
 
 1. There are several ways to invoke the command:
    - Depending on the button condition do one of the following:
-     - Press the icon of the ![](/src/assets/images/Assembly_Import.svg)![](/src/assets/images/Toolbar_flyout_arrow.svg) [Import from STEP](/Assembly3_ImportFromSTEP "Assembly3 ImportFromSTEP") button.
-     - Press the down arrow of the ![](/src/assets/images/Assembly_ImportMulti.svg)![](/src/assets/images/Toolbar_flyout_arrow.svg) **Import as multi-document** button and select the **![](/src/assets/images/Assembly_Import.svg) Import from STEP** option from the dropdown.
-   - Select the **Assembly3 → Import from STEP → ![](/src/assets/images/Assembly_Import.svg) Import from STEP** option from the menu.
-   - Select the **Assembly → Import from STEP → ![](/src/assets/images/Assembly_Import.svg) Import from STEP** option from the [Tree view](/Tree_view "Tree view") context menu or the [3D view](/3D_view "3D view") context menu.
+     - Press the icon of the ![](/images/Assembly_Import.svg)![](/images/Toolbar_flyout_arrow.svg) [Import from STEP](/Assembly3_ImportFromSTEP "Assembly3 ImportFromSTEP") button.
+     - Press the down arrow of the ![](/images/Assembly_ImportMulti.svg)![](/images/Toolbar_flyout_arrow.svg) **Import as multi-document** button and select the **![](/images/Assembly_Import.svg) Import from STEP** option from the dropdown.
+   - Select the **Assembly3 → Import from STEP → ![](/images/Assembly_Import.svg) Import from STEP** option from the menu.
+   - Select the **Assembly → Import from STEP → ![](/images/Assembly_Import.svg) Import from STEP** option from the [Tree view](/Tree_view "Tree view") context menu or the [3D view](/3D_view "3D view") context menu.
 2. A file browser opens.
 3. Select the STEP file to import
 

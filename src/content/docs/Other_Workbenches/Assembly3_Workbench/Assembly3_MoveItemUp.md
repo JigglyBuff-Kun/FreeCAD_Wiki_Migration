@@ -23,12 +23,12 @@ This documentation is not finished. Please help and contribute documentation.Gui
 
 ## Description
 
-The ![](/src/assets/images/Assembly_TreeItemUp.svg) [Move item up](/Assembly3_MoveItemUp "Assembly3 MoveItemUp") command does...
+The ![](/images/Assembly_TreeItemUp.svg) [Move item up](/Assembly3_MoveItemUp "Assembly3 MoveItemUp") command does...
 
 ## Usage
 
-1. Activate the ![](/src/assets/images/Assembly_TreeItemUp.svg) **Move item up** command using one of the following:
-   - The ![](/src/assets/images/Assembly_TreeItemUp.svg) [Move item up](/Assembly3_MoveItemUp "Assembly3 MoveItemUp") button.
-   - The **Assembly3 → ![](/src/assets/images/Assembly_TreeItemUp.svg) Move item up** menu option.
+1. Activate the ![](/images/Assembly_TreeItemUp.svg) **Move item up** command using one of the following:
+   - The ![](/images/Assembly_TreeItemUp.svg) [Move item up](/Assembly3_MoveItemUp "Assembly3 MoveItemUp") button.
+   - The **Assembly3 → ![](/images/Assembly_TreeItemUp.svg) Move item up** menu option.
 
 Retrieved from "<http://wiki.freecad.org/index.php?title=Assembly3_MoveItemUp/en&oldid=1060858>"

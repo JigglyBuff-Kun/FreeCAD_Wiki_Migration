@@ -25,6 +25,6 @@ Currently the command points to <https://forum.freecad.org>.
 
 ## Usage
 
-1. Select the **Help → ![](/src/assets/images/Std_FreeCADForum.svg) FreeCAD Forum** option from the menu.
+1. Select the **Help → ![](/images/Std_FreeCADForum.svg) FreeCAD Forum** option from the menu.
 
 Retrieved from "<http://wiki.freecad.org/index.php?title=Std_FreeCADForum/en&oldid=1454777>"

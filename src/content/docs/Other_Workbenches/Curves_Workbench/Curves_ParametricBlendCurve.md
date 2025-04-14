@@ -23,14 +23,14 @@ This documentation is not finished. Please help and contribute documentation.Gui
 
 ## Description
 
-The ![](/src/assets/images/Curves_ParametricBlendCurve.svg) **Curves ParametricBlendCurve** tool creates a Blend curve between two edges.
+The ![](/images/Curves_ParametricBlendCurve.svg) **Curves ParametricBlendCurve** tool creates a Blend curve between two edges.
 
 ## Usage
 
 1. Select two curves.
 2. There are several ways to invoke the tool:
-   - Press the ![](/src/assets/images/Curves_ParametricBlendCurve.svg) [Blend curve](/Curves_ParametricBlendCurve "Curves ParametricBlendCurve") button.
-   - Select the **Curves → ![](/src/assets/images/Curves_ParametricBlendCurve.svg) Blend curve** option from the menu.
+   - Press the ![](/images/Curves_ParametricBlendCurve.svg) [Blend curve](/Curves_ParametricBlendCurve "Curves ParametricBlendCurve") button.
+   - Select the **Curves → ![](/images/Curves_ParametricBlendCurve.svg) Blend curve** option from the menu.
 3. A **Blend_Curve** object is created.
 4. Optionally adjust values in the [Property editor](/Property_editor "Property editor"):
    - Set the Data**Parameter1** and Data**Parameter2** properties to `0.0 mm` to use the selected cuves' start vertices to place the blend curve's start and end vertices.

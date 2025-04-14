@@ -25,8 +25,8 @@ The **TechDraw StackTop** tool moves Views to the top of the stacking order. The
 
 1. Select one or more Views on a [Page](/TechDraw_PageDefault "TechDraw PageDefault") or in the [Tree view](/Tree_view "Tree view"). For this tool, and [TechDraw StackBottom](/TechDraw_StackBottom "TechDraw StackBottom"), the selection order is relevant.
 2. There are several ways to invoke the tool:
-   - Press the ![](/src/assets/images/TechDraw_StackTop.svg) [Move view to top of stack](/TechDraw_StackTop "TechDraw StackTop") button.
-   - Select the **TechDraw → Stacking → ![](/src/assets/images/TechDraw_StackTop.svg) Move view to top of stack** option from the menu.
+   - Press the ![](/images/TechDraw_StackTop.svg) [Move view to top of stack](/TechDraw_StackTop "TechDraw StackTop") button.
+   - Select the **TechDraw → Stacking → ![](/images/TechDraw_StackTop.svg) Move view to top of stack** option from the menu.
 3. The View**Stack Order** property of the Views is changed.
 
 ## Scripting

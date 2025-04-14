@@ -23,13 +23,13 @@ This documentation is not finished. Please help and contribute documentation.Gui
 
 ## Description
 
-The ![](/src/assets/images/BIM_Leader.svg) [BIM Leader](/BIM_Leader "BIM Leader") tool creates a leader line, a **Wire** object with an arrow symbol at the last selected point.
+The ![](/images/BIM_Leader.svg) [BIM Leader](/BIM_Leader "BIM Leader") tool creates a leader line, a **Wire** object with an arrow symbol at the last selected point.
 
 ## Usage
 
 1. There are several ways to invoke the tool:
-   - Press the ![](/src/assets/images/BIM_Leader.svg) [Leader](/BIM_Leader "BIM Leader") button.
-   - Select the **Annotation → ![](/src/assets/images/BIM_Leader.svg) Leader** option from the menu.
+   - Press the ![](/images/BIM_Leader.svg) [Leader](/BIM_Leader "BIM Leader") button.
+   - Select the **Annotation → ![](/images/BIM_Leader.svg) Leader** option from the menu.
    - Use the keyboard shortcut: L then E.
 2. ...
 

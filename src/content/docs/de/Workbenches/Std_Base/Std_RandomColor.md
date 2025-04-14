@@ -27,8 +27,8 @@ Diese Seite wurde für Version 1.0 aktualisiert.
 
 1. Ein oder mehrere Objekt(e) auswählen.
 2. Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
-   - Den Menüeintrag **Ansicht → ![](/src/assets/images/Std_RandomColor.svg) Zufällige Farbe** auswählen.
-   - Die Menüoption **![](/src/assets/images/Std_RandomColor.svg) Zufällige Farbe** im Kontextmenü der [Baumansicht](/Tree_view "Tree view") oder der [3D-Ansicht](/3D_view "3D view") auswählen.
+   - Den Menüeintrag **Ansicht → ![](/images/Std_RandomColor.svg) Zufällige Farbe** auswählen.
+   - Die Menüoption **![](/images/Std_RandomColor.svg) Zufällige Farbe** im Kontextmenü der [Baumansicht](/Tree_view "Tree view") oder der [3D-Ansicht](/3D_view "3D view") auswählen.
 
 ## Hinweise
 

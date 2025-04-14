@@ -19,9 +19,9 @@ title: Part Spiral
 
 ## Description
 
-A ![](/src/assets/images/Part_Spiral.svg) **Part Spiral** is a parametric shape that can be created with the ![](/src/assets/images/Part_Primitives.svg) [Part Primitives](/Part_Primitives "Part Primitives") command. In the coordinate system defined by its Data**Placement** property, the spiral lies on the XY plane with its center at the origin and its start point on the X axis. It widens as it turns counterclockwise.
+A ![](/images/Part_Spiral.svg) **Part Spiral** is a parametric shape that can be created with the ![](/images/Part_Primitives.svg) [Part Primitives](/Part_Primitives "Part Primitives") command. In the coordinate system defined by its Data**Placement** property, the spiral lies on the XY plane with its center at the origin and its start point on the X axis. It widens as it turns counterclockwise.
 
-![](/src/assets/images/Part_Spiral_Example.png)
+![](/images/Part_Spiral_Example.png)
 
 ## Usage
 
@@ -29,7 +29,7 @@ See [Part Primitives](/Part_Primitives#Usage "Part Primitives").
 
 ## Example
 
-![](/src/assets/images/Part_Spiral_Scripting_Example.png)
+![](/images/Part_Spiral_Scripting_Example.png)
 
 Part Spiral from the scripting example
 

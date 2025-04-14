@@ -30,7 +30,7 @@ title: Stairs
 
 Create a stair elliptical
 
-![](/src/assets/images/Macro_CircularStair.png)
+![](/images/Macro_CircularStair.png)
 
 ## Usage
 
@@ -46,7 +46,7 @@ Create your stair nosing, select your object and launch the macro
 
 ## Script
 
-ToolBar Icon ![](/src/assets/images/Macro_Stairs.png)
+ToolBar Icon ![](/images/Macro_Stairs.png)
 
 **Macro_Stairs.FCMacro**
 

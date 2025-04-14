@@ -23,7 +23,7 @@ The **Std SaveAll** command saves all open documents.
 
 ## Usage
 
-1. Select the **File → ![](/src/assets/images/Std_SaveAll.svg) Save All** option from the menu.
+1. Select the **File → ![](/images/Std_SaveAll.svg) Save All** option from the menu.
 2. For new documents: enter a filename in the dialog box and press the Save button.
 
 ## Options

@@ -23,7 +23,7 @@ The **TechDraw VerticalExtentDimension** tool adds a linear dimension to a View.
 
 For more information see [TechDraw HorizontalExtentDimension](/TechDraw_HorizontalExtentDimension "TechDraw HorizontalExtentDimension").
 
-![](/src/assets/images/TechDraw_Dimension_Horizontal_Extent_example.png)
+![](/images/TechDraw_Dimension_Horizontal_Extent_example.png)
 
 Horizontal and vertical extent dimensions of a B-spline
 

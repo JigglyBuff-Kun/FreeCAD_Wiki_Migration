@@ -6,7 +6,7 @@ title: Sketcher Dialog
 
 Während eine Skizze bearbeitet wird, oder anders gesagt, während die Skizze im Bearbeitungsmodus ist, wird der Sketcher-Dialog auf der Registerkarte Aufgaben der [Combo-Ansicht](/Combo_view/de "Combo view/de") angezeigt.
 
-Zum Versetzen einer Skizze in den Bearbeitungsmodus siehe ![](/src/assets/images/Sketcher_EditSketch.svg) [Sketcher SkizzeBearbeiten](/Sketcher_EditSketch/de "Sketcher EditSketch/de"). Zum Beenden des Bearbeitungsmodus siehe ![](/src/assets/images/Sketcher_LeaveSketch.svg) [Sketcher SkizzeVerlassen](/Sketcher_LeaveSketch/de "Sketcher LeaveSketch/de").
+Zum Versetzen einer Skizze in den Bearbeitungsmodus siehe ![](/images/Sketcher_EditSketch.svg) [Sketcher SkizzeBearbeiten](/Sketcher_EditSketch/de "Sketcher EditSketch/de"). Zum Beenden des Bearbeitungsmodus siehe ![](/images/Sketcher_LeaveSketch.svg) [Sketcher SkizzeVerlassen](/Sketcher_LeaveSketch/de "Sketcher LeaveSketch/de").
 
 Der Sketcher-Dialog enthält die folgenden Abschnitten:
 
@@ -16,7 +16,7 @@ Der Sketcher-Dialog enthält die folgenden Abschnitten:
 
 Einige Werkzeuge fügen einen Abschnitt für Parameter am oberen Ende des Dialogs hinzu. Die vorhandenen Optionen und/oder Modi hängen vom jeweiligen Werkzeug ab.
 
-![](/src/assets/images/Sketcher_Dialog_Line_parameters.png)
+![](/images/Sketcher_Dialog_Line_parameters.png)
 
 Der Abschnitt Linienparameter (Line parameters) des Werkzeugs [Sketcher LinieErstellen](/Sketcher_CreateLine/de "Sketcher CreateLine/de")
 
@@ -35,11 +35,11 @@ Die möglichen Benachrichtigungen sind:
 - Unterbestimmt: n DoF(s)
 - Vollständig bestimmt
 
-Ist eine Skizze ist unterbestimmt, wird die Anzahl nicht festgelegter Freiheitsgrade angezeigt. Klickt man auf den unterstrichenen Text, werden die unterbestimmten Skizzenelemente ausgewählt. Siehe ![](/src/assets/images/Sketcher_SelectElementsWithDoFs.svg) [Sketcher UnterbestimmteElementeAuswählen](/Sketcher_SelectElementsWithDoFs/de "Sketcher SelectElementsWithDoFs/de").
+Ist eine Skizze ist unterbestimmt, wird die Anzahl nicht festgelegter Freiheitsgrade angezeigt. Klickt man auf den unterstrichenen Text, werden die unterbestimmten Skizzenelemente ausgewählt. Siehe ![](/images/Sketcher_SelectElementsWithDoFs.svg) [Sketcher UnterbestimmteElementeAuswählen](/Sketcher_SelectElementsWithDoFs/de "Sketcher SelectElementsWithDoFs/de").
 
-Besitzt eine Skizze überflüssige Randbedingungen oder ist sie überbestimmt, werden die Indizes der betroffenen Randbedingungen angezeigt. Klickt man auf den unterstrichenen Text, werden sie ausgewählt. Siehe ![](/src/assets/images/Sketcher_SelectRedundantConstraints.svg) [Sketcher ÜberflüssigeRandbedingungenAuswählen](/Sketcher_SelectRedundantConstraints/de "Sketcher SelectRedundantConstraints/de") und ![](/src/assets/images/Sketcher_SelectConflictingConstraints.svg) [Sketcher WidersprüchlicheRandbedingungenAuswählen](/Sketcher_SelectConflictingConstraints/de "Sketcher SelectConflictingConstraints/de").
+Besitzt eine Skizze überflüssige Randbedingungen oder ist sie überbestimmt, werden die Indizes der betroffenen Randbedingungen angezeigt. Klickt man auf den unterstrichenen Text, werden sie ausgewählt. Siehe ![](/images/Sketcher_SelectRedundantConstraints.svg) [Sketcher ÜberflüssigeRandbedingungenAuswählen](/Sketcher_SelectRedundantConstraints/de "Sketcher SelectRedundantConstraints/de") und ![](/images/Sketcher_SelectConflictingConstraints.svg) [Sketcher WidersprüchlicheRandbedingungenAuswählen](/Sketcher_SelectConflictingConstraints/de "Sketcher SelectConflictingConstraints/de").
 
-Fehlerhafte Randbedingungen können mit ![](/src/assets/images/Sketcher_ValidateSketch.svg) [Sketcher SkizzeÜberprüfen](/Sketcher_ValidateSketch/de "Sketcher ValidateSketch/de") korrigiert werden.
+Fehlerhafte Randbedingungen können mit ![](/images/Sketcher_ValidateSketch.svg) [Sketcher SkizzeÜberprüfen](/Sketcher_ValidateSketch/de "Sketcher ValidateSketch/de") korrigiert werden.
 
 Einige Benachrichtigungen werden aus gutem Grund in Rot dargestellt: Sie sind Warnungen, die nicht ignoriert werden sollten. Sie kennzeichnen Probleme, die behoben werden müssen, da sie den Berechnugsalgorithmus (Solver) stören. Die Benachrichtigungen schließen sich nicht gegenseitig aus. Wenn mehr als eine zutrifft, wird nur die erste auf der Liste angezeigt.
 
@@ -83,7 +83,7 @@ Vorhandene Optionen:
 
 Dieser Abschnitt listet die Randbedingungen der Skizze. Wird eine Randbedingung in der Liste deaktiviert, wird sie in der Skizze ausgeblendet. Randbedingungen können sowohl in der Liste als auch in der Skizze ausgewählt werden.
 
-Randbedingungen können auch mit ![](/src/assets/images/Sketcher_SwitchVirtualSpace.svg) [Sketcher VirtuellenBereichWechseln](/Sketcher_SwitchVirtualSpace/de "Sketcher SwitchVirtualSpace/de") aus- und eingeblendet werden..
+Randbedingungen können auch mit ![](/images/Sketcher_SwitchVirtualSpace.svg) [Sketcher VirtuellenBereichWechseln](/Sketcher_SwitchVirtualSpace/de "Sketcher SwitchVirtualSpace/de") aus- und eingeblendet werden..
 
 Vorhandene Optionen:
 

@@ -23,7 +23,7 @@ The **Std SelectAll** command selects all objects in the [Tree view](/Tree_view 
 
 ## Usage
 
-1. Select the **Edit → ![](/src/assets/images/Std_SelectAll.svg) Select All** option from the menu.
+1. Select the **Edit → ![](/images/Std_SelectAll.svg) Select All** option from the menu.
 
 ## Notes
 

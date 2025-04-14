@@ -19,9 +19,9 @@ title: PartDesign LinearPattern
 
 ## Description
 
-The ![](/src/assets/images/PartDesign_LinearPattern.svg) **PartDesign LinearPattern** tool creates a linear pattern of one or more features.
+The ![](/images/PartDesign_LinearPattern.svg) **PartDesign LinearPattern** tool creates a linear pattern of one or more features.
 
-![](/src/assets/images/PartDesign_LinearPattern_example.svg)
+![](/images/PartDesign_LinearPattern_example.svg)
 
 An L-shaped pad (B) made on top of a base pad (A, also referred to as support) is used for a linear pattern. The result (C) is shown on the right.
 
@@ -32,8 +32,8 @@ An L-shaped pad (B) made on top of a base pad (A, also referred to as support) i
 1. Optionally [activate](/PartDesign_Body#Active_status "PartDesign Body") the correct Body.
 2. Optionally select one or more features in the [Tree view](/Tree_view "Tree view") or the [3D view](/3D_view "3D view").
 3. There are several ways to invoke the tool:
-   - Press the ![](/src/assets/images/PartDesign_LinearPattern.svg) [LinearPattern](/PartDesign_LinearPattern "PartDesign LinearPattern") button.
-   - Select the **Part Design → Apply a pattern → ![](/src/assets/images/PartDesign_LinearPattern.svg) LinearPattern** option from the menu.
+   - Press the ![](/images/PartDesign_LinearPattern.svg) [LinearPattern](/PartDesign_LinearPattern "PartDesign LinearPattern") button.
+   - Select the **Part Design → Apply a pattern → ![](/images/PartDesign_LinearPattern.svg) LinearPattern** option from the menu.
 4. If there is no active Body, and there are two or more Bodies in the document, the **Active Body Required** dialog will open and prompt you to activate one. If there is a single Body it will be activated automatically.
 5. If no features were selected the **Select feature** [task panel](/Task_panel "Task panel") opens: select one or more (hold down the Ctrl key) from the list and press the OK button.
 6. The **LinearPattern parameters** [task panel](/Task_panel "Task panel") opens. See [Options](#Options) for more information.

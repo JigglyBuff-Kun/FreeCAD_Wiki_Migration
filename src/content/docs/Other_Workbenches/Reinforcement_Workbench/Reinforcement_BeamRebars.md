@@ -21,21 +21,21 @@ title: Reinforcement BeamRebars
 
 The [Reinforcement BeamRebars](/Reinforcement_BeamRebars "Reinforcement BeamRebars") tool allows the user to create reinforcing bars inside a Beam [Arch Structure](/Arch_Structure "Arch Structure") object.
 
-This tool is part of the [Reinforcement Workbench](/Reinforcement_Workbench "Reinforcement Workbench"), an [external workbench](/External_workbenches "External workbenches") that can be installed with the ![](/src/assets/images/Std_AddonMgr.svg) [Addon Manager](/Std_AddonMgr "Std AddonMgr").
+This tool is part of the [Reinforcement Workbench](/Reinforcement_Workbench "Reinforcement Workbench"), an [external workbench](/External_workbenches "External workbenches") that can be installed with the ![](/images/Std_AddonMgr.svg) [Addon Manager](/Std_AddonMgr "Std AddonMgr").
 
-![](/src/assets/images/Arch_Rebar_BeamReinforcement_example.png)
+![](/images/Arch_Rebar_BeamReinforcement_example.png)
 
 Beam Reinforcement inside a Beam [Arch Structure](/Arch_Structure "Arch Structure")
 
 ## Usage
 
-1. Select right face of a previously created beam ![](/src/assets/images/Arch_Structure.svg) [Arch Structure](/Arch_Structure "Arch Structure") object having length along x-axis. Or select front face of a previously created beam ![](/src/assets/images/Arch_Structure.svg) [Arch Structure](/Arch_Structure "Arch Structure") object having length along y-axis.
+1. Select right face of a previously created beam ![](/images/Arch_Structure.svg) [Arch Structure](/Arch_Structure "Arch Structure") object having length along x-axis. Or select front face of a previously created beam ![](/images/Arch_Structure.svg) [Arch Structure](/Arch_Structure "Arch Structure") object having length along y-axis.
 
-2. Then select ![](/src/assets/images/Reinforcement_BeamRebars.svg) [Beam Reinforcement](/Reinforcement_BeamRebars "Reinforcement BeamRebars") from the rebar tools.
+2. Then select ![](/images/Reinforcement_BeamRebars.svg) [Beam Reinforcement](/Reinforcement_BeamRebars "Reinforcement BeamRebars") from the rebar tools.
 
 3. A dialog box will pop-out on screen as shown below.
 
-: ![](/src/assets/images/BeamReinforcementDialog_Stirrups.png)
+: ![](/images/BeamReinforcementDialog_Stirrups.png)
 : Dialog Box for the Reinforcement BeamRebars tool
 
 4. Select the desired type of beam reinforcement.
@@ -44,72 +44,72 @@ Beam Reinforcement inside a Beam [Arch Structure](/Arch_Structure "Arch Structur
 
 6. Click Next and the dialog box will be updated as shown below.
 
-: ![](/src/assets/images/BeamReinforcementDialog_TopRebars.png)
+: ![](/images/BeamReinforcementDialog_TopRebars.png)
 : Dialog Box for Top Rebars data
 
 7. Set data for top rebars.
 
 : To edit Number#Diameter@Offset value, click on the Edit button next to Number#Diameter@Offset label. A dialog box will pop-out as shown below.
 
-: ![](/src/assets/images/Beam_TopReinforcement_NumberDiameterOffset.png)
+: ![](/images/Beam_TopReinforcement_NumberDiameterOffset.png)
 
 : To edit Rebar Type value, click on the Edit button next to Rebar Type label. A dialog box will pop-out as shown below.
 
-: ![](/src/assets/images/Beam_TopReinforcement_RebarType.png)
+: ![](/images/Beam_TopReinforcement_RebarType.png)
 
 : To edit Hook Orientation value, click on the Edit button next to Hook Orientation label. A dialog box will pop-out as shown below.
 
-: ![](/src/assets/images/Beam_TopReinforcement_HookOrientation.png)
+: ![](/images/Beam_TopReinforcement_HookOrientation.png)
 
 : To edit Hook Extension value, click on the Edit button next to Hook Extension label. A dialog box will pop-out as shown below.
 
-: ![](/src/assets/images/Beam_TopReinforcement_HookExtension.png)
+: ![](/images/Beam_TopReinforcement_HookExtension.png)
 
 : To edit LRebar Rounding value, click on the Edit button next to Rounding label. A dialog box will pop-out as shown below.
 
-: ![](/src/assets/images/Beam_TopReinforcement_LRebarRounding.png)
+: ![](/images/Beam_TopReinforcement_LRebarRounding.png)
 
 : To edit Layer Spacing value, click on the Edit button next to Layer Spacing label. A dialog box will pop-out as shown below.
 
-: ![](/src/assets/images/Beam_TopReinforcement_LayerSpacing.png)
+: ![](/images/Beam_TopReinforcement_LayerSpacing.png)
 
 8. Click Next and the dialog box will be updated as shown below.
 
-: ![](/src/assets/images/BeamReinforcementDialog_BottomRebars.png)
+: ![](/images/BeamReinforcementDialog_BottomRebars.png)
 : Dialog Box for Bottom Rebars data
 
 9. Set data for bottom rebars similar to top rebars data.
 
 10. Click Next and the dialog box will be updated as shown below.
 
-: ![](/src/assets/images/BeamReinforcementDialog_LeftRebars.png)
+: ![](/images/BeamReinforcementDialog_LeftRebars.png)
 : Dialog Box for Left Shear Rebars data
 
 11. Set data for left shear rebars.
 
 : To edit Number#Diameter@Offset value, click on the Edit button next to Number#Diameter@Offset label. A dialog box will pop-out as shown below.
 
-: ![](/src/assets/images/Beam_ShearReinforcement_NumberDiameterOffset.png)
+: ![](/images/Beam_ShearReinforcement_NumberDiameterOffset.png)
 
 : To edit Rebar Type value, click on the Edit button next to Rebar Type label. A dialog box will pop-out as shown below.
 
-: ![](/src/assets/images/Beam_ShearReinforcement_RebarType.png)
+: ![](/images/Beam_ShearReinforcement_RebarType.png)
 
 : To edit Hook Orientation value, click on the Edit button next to Hook Orientation label. A dialog box will pop-out as shown below.
 
-: ![](/src/assets/images/Beam_ShearReinforcement_HookOrientation.png)
+: ![](/images/Beam_ShearReinforcement_HookOrientation.png)
 
 : To edit Hook Extension value, click on the Edit button next to Hook Extension label. A dialog box will pop-out as shown below.
 
-: ![](/src/assets/images/Beam_ShearReinforcement_HookExtension.png)
+: ![](/images/Beam_ShearReinforcement_HookExtension.png)
 
 : To edit LRebar Rounding value, click on the Edit button next to Rounding label. A dialog box will pop-out as shown below.
 
-: ![](/src/assets/images/Beam_ShearReinforcement_LRebarRounding.png)
+: ![](/images/Beam_ShearReinforcement_LRebarRounding.png)
 
 12. Click Next and the dialog box will be updated as shown below.
 
-: ![](/src/assets/images/BeamReinforcementDialog_RightRebars.png)
+: ![](/images/BeamReinforcementDialog_RightRebars.png)
 : Dialog Box for Right Shear Rebars data
 
 13. Set data for right shear rebars similar to left shear rebars data.

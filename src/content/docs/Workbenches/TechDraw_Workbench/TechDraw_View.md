@@ -23,7 +23,7 @@ The **TechDraw View** tool adds a representation of one or more objects to a Dra
 
 In 0.21 and below the tool can only create a [Part View](#Properties_Part_View), which is very similar to a Projection Group Item.
 
-![](/src/assets/images/TechDraw_View_example.png)
+![](/images/TechDraw_View_example.png)
 
 View of a solid box with hidden lines
 
@@ -33,8 +33,8 @@ View of a solid box with hidden lines
 2. Select one or more objects with a Data**Shape** property in the 3D view or [Tree view](/Tree_view "Tree view"). You can also select [Std Parts](/Std_Part "Std Part") or [Std Groups](/Std_Group "Std Group") that contain such objects. When selecting in the 3D view the first selected face can be used to set the projection direction of the primary view. Do not select objects by picking a face in the 3D view if you want to use the current camera direction.
 3. If there are multiple drawing pages in the document: optionally add the desired page to the selection by selecting it in the [Tree view](/Tree_view "Tree view").
 4. There are several ways to invoke the tool:
-   - Press the ![](/src/assets/images/TechDraw_View.svg) [Insert View](/TechDraw_View "TechDraw View") button.
-   - Select the **TechDraw → TechDraw Views → ![](/src/assets/images/TechDraw_View.svg) Insert View** option from the menu.
+   - Press the ![](/images/TechDraw_View.svg) [Insert View](/TechDraw_View "TechDraw View") button.
+   - Select the **TechDraw → TechDraw Views → ![](/images/TechDraw_View.svg) Insert View** option from the menu.
 5. If there are multiple drawing pages in the document, and if no page is displayed in the [Main view area](/Main_view_area "Main view area") and you have not yet selected a page, the **Page Chooser** dialog box opens:
    1. Select the desired page.
    2. Press the OK button.
@@ -43,16 +43,16 @@ View of a solid box with hidden lines
    - **Scale**: select `Page`, `Automatic` or `Custom`. If the last option is selected: enter the scale numerator and denominator.
    - **Direction**: use the available buttons to adjust the projection direction and rotation of the primary view:
      - The [#.## #.## #.##] button in the center shows the current projection direction. The initial value depends on the **Use 3d Camera Direction** [preference](/TechDraw_Preferences#General "TechDraw Preferences"). Press the button to adjust the view direction and rotation manually.
-     - Press the ![](/src/assets/images/Arrow-up.svg), ![](/src/assets/images/Arrow-down.svg), ![](/src/assets/images/Arrow-left.svg) or ![](/src/assets/images/Arrow-right.svg) button to rotate the projection direction 90° around the horizontal or vertical axis of the view.
-     - Press the ![](/src/assets/images/Arrow-cw.svg) or ![](/src/assets/images/Arrow-ccw.svg) button to rotate the view 90° around the projection direction.
-     - Press the ![](/src/assets/images/TechDraw_ProjFront.svg) button to set projection direction of the primary view to the standard [front view](/Std_ViewFront "Std ViewFront").
-     - Press the ![](/src/assets/images/TechDraw_CameraOrientation.svg) button to set it to the first selected face, if available, or else to the current camera direction.
+     - Press the ![](/images/Arrow-up.svg), ![](/images/Arrow-down.svg), ![](/images/Arrow-left.svg) or ![](/images/Arrow-right.svg) button to rotate the projection direction 90° around the horizontal or vertical axis of the view.
+     - Press the ![](/images/Arrow-cw.svg) or ![](/images/Arrow-ccw.svg) button to rotate the view 90° around the projection direction.
+     - Press the ![](/images/TechDraw_ProjFront.svg) button to set projection direction of the primary view to the standard [front view](/Std_ViewFront "Std ViewFront").
+     - Press the ![](/images/TechDraw_CameraOrientation.svg) button to set it to the first selected face, if available, or else to the current camera direction.
    - **Secondary Projections**: optionally create secondary projections in addition to the primary view. At least one secondary projection has to be specified for all controls in this section to be displayed.
 8. After changing some parameters pressing the Apply button can be required to update the view(s).
 9. Press the OK button.
 10. A [Projection Group Item](#Properties_Projection_Group_Item) or, if there are one or more secondary projections, a [Projection Group](/TechDraw_ProjectionGroup "TechDraw ProjectionGroup") is inserted.
 
-![](/src/assets/images/TechDraw_View_Taskpanel.png)
+![](/images/TechDraw_View_Taskpanel.png)
 
 Part View [task panel](/Task_panel "Task panel")
 

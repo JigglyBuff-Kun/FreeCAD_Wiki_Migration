@@ -44,7 +44,7 @@ Full documentation can be found on github: [Joint](https://github.com/mwganson/j
 6. A parametric joint object is created.
 7. Optionally change the properties of the joint object.
 
-![](/src/assets/images/Macro_joint_scr1.png)
+![](/images/Macro_joint_scr1.png)
 
 Macro Joint screenshot -- a few of the joint types that can be made‎
 
@@ -81,13 +81,13 @@ webbrowser.open("https://gist.github.com/mwganson/09d70aa11183e57b5f5925169b4c70
 <class="rawcodeurl"><a href="<https://gist.github.com/mwganson/09d70aa11183e57b5f5925169b4c70b9/raw/2a3530b44bfbad473647d8d7060b278c95c255e1/Joint.FCMacro>">raw code</a>
 
 ToolBar Icon
-![](/src/assets/images/Macro_Joint_Icon.svg)
+![](/images/Macro_Joint_Icon.svg)
 
 ## Script
 
 **Macro Joint.FCMacro**
 
-[![](/src/assets/images/Nuvola_apps_download_manager.png)](https://gist.github.com/mwganson/09d70aa11183e57b5f5925169b4c70b9)
+[![](/images/Nuvola_apps_download_manager.png)](https://gist.github.com/mwganson/09d70aa11183e57b5f5925169b4c70b9)
 
 [Joint.FCMacro](https://gist.github.com/mwganson/09d70aa11183e57b5f5925169b4c70b9)
 

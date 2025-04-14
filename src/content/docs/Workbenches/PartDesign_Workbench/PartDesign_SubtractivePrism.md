@@ -21,13 +21,13 @@ title: PartDesign SubtractivePrism
 
 Inserts a subtractive prism in the active Body. Its shape is subtracted from the existing solid.
 
-![](/src/assets/images/PartDesign_SubtractivePrism_example.svg)
+![](/images/PartDesign_SubtractivePrism_example.svg)
 
 _On the left: active body (A) shown in grey and subtractive prism (B) shown in transparent red; result on the right._
 
 ## Usage
 
-1. Press the ![](/src/assets/images/PartDesign_SubtractivePrism.svg) **Subtractive Prism** button. **Note**: the Subtractive Prism is part of an icon menu labelled _Create an subtractive primitive_. After launching FreeCAD, the Subtractive Box is the one displayed in the toolbar. To get the Prism, click on the down arrow besides the visible icon and select Subtractive Prism in the menu.
+1. Press the ![](/images/PartDesign_SubtractivePrism.svg) **Subtractive Prism** button. **Note**: the Subtractive Prism is part of an icon menu labelled _Create an subtractive primitive_. After launching FreeCAD, the Subtractive Box is the one displayed in the toolbar. To get the Prism, click on the down arrow besides the visible icon and select Subtractive Prism in the menu.
 2. Set the Primitive parameters and [Attachment](/Part_EditAttachment "Part EditAttachment").
 3. Click OK.
 4. A Prism feature appears under the active Body.

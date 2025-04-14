@@ -58,7 +58,7 @@ webbrowser.open("http://pastebin.com/raw/2m0u94Z1")
 
 <class="rawcodeurl"><a href="<http://pastebin.com/raw/2m0u94Z1>">raw code</a>
 
-![](/src/assets/images/PythonAssistantWindowScreenSnapshot.jpg)
+![](/images/PythonAssistantWindowScreenSnapshot.jpg)
 
 ## Description
 
@@ -135,7 +135,7 @@ Most of the functionality for the PAW is provided by the contextual menu, the op
 - Alter GUI settings
   - brings up a modal window with three controls:
 
-* ![](/src/assets/images/PythonAssistantWindowGui2.jpg)
+* ![](/images/PythonAssistantWindowGui2.jpg)
   - a slider to set the percentage of the screen width dedicated to the PAW (remembering that there is a certain width which the FreeCAD main window will not go below)
   - a slider to set the percentage of the height of the screen dedicated to the PAW
   - a pair of radio buttons to indicate whether the PAW should be placed at the top or bottom of the left hand side of the screen
@@ -186,7 +186,7 @@ none (so far)
 If the script listing does not end with FreeCAD version information and a last line of "thus ends the macro..." then the Wiki has eaten the script again and you will have to download or copy it from [unabbreviated script on pastebin.com]
 :::
 
-ToolBar Icon ![](/src/assets/images/Macro_Python_Assistant_Window.png)
+ToolBar Icon ![](/images/Macro_Python_Assistant_Window.png)
 
 **Macro_Python_Assistant_Window.FCMacro**
 

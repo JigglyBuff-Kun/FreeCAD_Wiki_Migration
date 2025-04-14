@@ -23,14 +23,14 @@ This documentation is not finished. Please help and contribute documentation.Gui
 
 ## Description
 
-The ![](/src/assets/images/Curves_TruncateExtend.svg) **Curves TruncateExtend** tool cuts a shape and truncates or extends it by a given distance.
+The ![](/images/Curves_TruncateExtend.svg) **Curves TruncateExtend** tool cuts a shape and truncates or extends it by a given distance.
 
 ## Usage
 
 1. Select a shape and a plane or only a plane in a PartDesign body.
 2. There are several ways to invoke the tool:
-   - Press the ![](/src/assets/images/Curves_TruncateExtend.svg) [Truncate Extend](/Curves_TruncateExtend "Curves TruncateExtend") button.
-   - Select the **Surfaces → ![](/src/assets/images/Curves_TruncateExtend.svg) Truncate Extend** option from the menu.
+   - Press the ![](/images/Curves_TruncateExtend.svg) [Truncate Extend](/Curves_TruncateExtend "Curves TruncateExtend") button.
+   - Select the **Surfaces → ![](/images/Curves_TruncateExtend.svg) Truncate Extend** option from the menu.
 3. A Truncated_Extend object is created.
 
 Retrieved from "<http://wiki.freecad.org/index.php?title=Curves_TruncateExtend/en&oldid=1562418>"

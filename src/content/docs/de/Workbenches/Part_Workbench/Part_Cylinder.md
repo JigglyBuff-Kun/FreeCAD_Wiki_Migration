@@ -19,16 +19,16 @@ title: Part Zylinder
 
 ## Beschreibung
 
-Der Befehl ![](/src/assets/images/Part_Cylinder.svg) **Part Zylinder** erstellt einen parametrischen Festkörper, einen Zylinder. Er ist das Ergebnis der Extrusion eines Kreises entlang eines geraden Pfades. Im Koordinatensystem durch seine Daten-Eigenschaft**Placement** festgelegt, liegt die Unterseite des Zylinders auf der XY-Ebene und ihre Mitte im Ursprung.
+Der Befehl ![](/images/Part_Cylinder.svg) **Part Zylinder** erstellt einen parametrischen Festkörper, einen Zylinder. Er ist das Ergebnis der Extrusion eines Kreises entlang eines geraden Pfades. Im Koordinatensystem durch seine Daten-Eigenschaft**Placement** festgelegt, liegt die Unterseite des Zylinders auf der XY-Ebene und ihre Mitte im Ursprung.
 
 Ein Part-Zylinder kann in ein Zylindersegment gewandelt werden, indem seine Daten-Eigenschaft**Winkel** geändert wird.
 
-![](/src/assets/images/Part_Cylinder_Example.png)
+![](/images/Part_Cylinder_Example.png)
 
 ## Anwendung
 
 1. Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
-   - Die Schaltfläche ![](/src/assets/images/Part_Cylinder.svg) Zylinder drücken.
+   - Die Schaltfläche ![](/images/Part_Cylinder.svg) Zylinder drücken.
    - Den Menüeintrag **Part → Grundkörper → ![](/images/Part_Cylinder.svg) Zylinder** auswählen.
 2. Der Zylinder wird erstellt.
 3. Wahlweise die Abmessungen und die Daten-Eigenschaft**Placement** des Zylinders ändern, indem eine der folgenden Möglichkeiten ausgeführt wird:

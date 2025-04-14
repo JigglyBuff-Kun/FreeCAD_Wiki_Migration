@@ -19,15 +19,15 @@ title: Part Vereinigung
 
 ## Beschreibung
 
-Das Werkzeug ![](/src/assets/images/Part_Fuse.svg) Part Vereinigung vereinigt ausgewählte Part-Objekte zu einem. Diese Operation ist voll parametrisch und die Komponenten können geändert und das Ergebnis erneut berechnet werden.
+Das Werkzeug ![](/images/Part_Fuse.svg) Part Vereinigung vereinigt ausgewählte Part-Objekte zu einem. Diese Operation ist voll parametrisch und die Komponenten können geändert und das Ergebnis erneut berechnet werden.
 
-**Hinweis:** Dieser Befehl ist eine automatisierte Form von ![](/src/assets/images/Part_Boolean.svg) [Boolesche Operationen](/Part_Boolean/de "Part Boolean/de").
+**Hinweis:** Dieser Befehl ist eine automatisierte Form von ![](/images/Part_Boolean.svg) [Boolesche Operationen](/Part_Boolean/de "Part Boolean/de").
 
 ## Anwendung
 
 1. Wähle zwei oder mehr Formen
 2. Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
-   - Drücke die ![](/src/assets/images/Part_Fuse.svg) Part Vereinigung Schaltfläche in der **Part Werkzeuge** Werkzeugleiste
+   - Drücke die ![](/images/Part_Fuse.svg) Part Vereinigung Schaltfläche in der **Part Werkzeuge** Werkzeugleiste
    - Verwende den **Formteil → Boolesche Operation → Vereinigung** Eintrag im Part Menü
 
 ## Unterstützte Eingaben
@@ -44,6 +44,6 @@ Verbunde werden unterstützt; es wird jedoch davon ausgegangen, dass sich in ein
 
 ## Optionen
 
-Elemente können einer Vereinigung hinzugefügt und von ihr entfernt werden, indem sie mit der Maus in der Baumansicht in das Vereinigungsobjekt hinein oder aus ihm heraus gezogen werden. Um Elemente aus einer Vereinigung herauszuziehen, müssen sie auf dem Dokument-Knoten (dem Dateinamen) des Modells abgelegt werden. Eine manuelle Neuberechnung (Taste F5 oder auf die Schaltfläche ![](/src/assets/images/Std_Refresh.svg) [Aktualisieren](/Std_Refresh/de "Std Refresh/de") drücken) ist erforderlich, um die Ergebnisse zu sehen.
+Elemente können einer Vereinigung hinzugefügt und von ihr entfernt werden, indem sie mit der Maus in der Baumansicht in das Vereinigungsobjekt hinein oder aus ihm heraus gezogen werden. Um Elemente aus einer Vereinigung herauszuziehen, müssen sie auf dem Dokument-Knoten (dem Dateinamen) des Modells abgelegt werden. Eine manuelle Neuberechnung (Taste F5 oder auf die Schaltfläche ![](/images/Std_Refresh.svg) [Aktualisieren](/Std_Refresh/de "Std Refresh/de") drücken) ist erforderlich, um die Ergebnisse zu sehen.
 
 Retrieved from "<http://wiki.freecad.org/index.php?title=Part_Fuse/de&oldid=1466672>"

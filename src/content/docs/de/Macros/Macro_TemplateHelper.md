@@ -34,14 +34,14 @@ Dieses Makro erstellt im Nu eine TechDraw-Vorlage und fügt sie in das aktive Do
 
 Bei Bedarf kann der Bereich zwischen dem Schriftfeld und dem oberen Rand der Zeichnung mit einer Stückliste gefüllt werden. Dabei kann man wählen, wieviele Zeilen eingefügt werden oder ob der ganze Bereich ausgefüllt wird.
 
-![](/src/assets/images/Macro_TemplateHelper_A3%2BBOM.png)
+![](/images/Macro_TemplateHelper_A3%2BBOM.png)
 
 Zeichnungsblatt mit makrogenerierter Vorlage, ISO A3 + Stückliste
 
 ## Anwendung
 
 1. Eine FreeCAD-Datei öffnen oder eine neue hinzufügen.
-2. Das Makro befindet sich im Makro-Verzeichnis und wird mit ![](/src/assets/images/Std_DlgMacroExecute.svg) [Makros...](/Std_DlgMacroExecute/de "Std DlgMacroExecute/de") angezeigt und im Anschluss ausgewählt.
+2. Das Makro befindet sich im Makro-Verzeichnis und wird mit ![](/images/Std_DlgMacroExecute.svg) [Makros...](/Std_DlgMacroExecute/de "Std DlgMacroExecute/de") angezeigt und im Anschluss ausgewählt.
 
    : (Der Abschnitt Skript weiter unten beschreibt, wie es dort eingefügt wird.)
 
@@ -57,21 +57,21 @@ Zeichnungsblatt mit makrogenerierter Vorlage, ISO A3 + Stückliste
 
 ## Dialogfenster
 
-![](/src/assets/images/Macro_TemplateHelper_DiaWin.png)
+![](/images/Macro_TemplateHelper_DiaWin.png)
 
 Dialogfenster beim Start
 
-![](/src/assets/images/Macro_TemplateHelper_DiaLang.png)
+![](/images/Macro_TemplateHelper_DiaLang.png)
 
 Spracheinstellung
 
 Englisch ist voreingestellt und es gibt nur die eine Version, aber vielleicht möchte ja jemand in Zukunft zwischen Ami- und richtigem Englisch unterscheiden... :-D
 
-![](/src/assets/images/Macro_TemplateHelper_DiaSize.png)
+![](/images/Macro_TemplateHelper_DiaSize.png)
 
 Formateinstellungen, noch ohne A4- (Querformat)
 
-![](/src/assets/images/Macro_TemplateHelper_DiaBOM.png)
+![](/images/Macro_TemplateHelper_DiaBOM.png)
 
 Stücklisteneinstellungen
 
@@ -81,10 +81,10 @@ Das Makro sollte sich im Makro-Verzeichnis befinden. Um es dort abzulegen, muss 
 
 1. Das folgende Macro auswählen (von **#! pyth...** bis **...main()**).
 2. Die Auswahl kopieren.
-3. Eine neue Makro-Datei erstellen durch Auswahl von ![](/src/assets/images/Std_DlgMacroExecute.svg) [Makros...](/Std_DlgMacroExecute/de "Std DlgMacroExecute/de") und anschließend Erstellen.
+3. Eine neue Makro-Datei erstellen durch Auswahl von ![](/images/Std_DlgMacroExecute.svg) [Makros...](/Std_DlgMacroExecute/de "Std DlgMacroExecute/de") und anschließend Erstellen.
 4. Den Namen eingeben (TemplateHelper) und OK auswählen. (_.FCMacro_ wird automatisch angefügt)
 5. Den Inhalt der Zwischenablage in das Editorfenster einfügen.
-6. Die Schaltfläche ![](/src/assets/images/Std_DlgMacroExecuteDirect.svg) [Ausführen](/Std_DlgMacroExecuteDirect/de "Std DlgMacroExecuteDirect/de") drücken, um das Makro zu starten.
+6. Die Schaltfläche ![](/images/Std_DlgMacroExecuteDirect.svg) [Ausführen](/Std_DlgMacroExecuteDirect/de "Std DlgMacroExecuteDirect/de") drücken, um das Makro zu starten.
 
 **TemplateHelper.FCMacro**
 

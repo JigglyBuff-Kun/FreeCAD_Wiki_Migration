@@ -19,23 +19,23 @@ title: Std Part
 
 ## Description
 
-![](/src/assets/images/Std_Part.svg) [Std Part](/Std_Part "Std Part") (internally called [App Part](/App_Part "App Part")) is a general purpose container that keeps together a group of objects so that they can be moved together as a unit in the [3D view](/3D_view "3D view").
+![](/images/Std_Part.svg) [Std Part](/Std_Part "Std Part") (internally called [App Part](/App_Part "App Part")) is a general purpose container that keeps together a group of objects so that they can be moved together as a unit in the [3D view](/3D_view "3D view").
 
 The Std Part element was developed to be the basic building block to create mechanical [assemblies](/Assembly "Assembly"). In particular, it is meant to arrange objects that have a [Part TopoShape](/Part_TopoShape "Part TopoShape"), like [Part Primitives](/Part_Primitives "Part Primitives"), [PartDesign Bodies](/PartDesign_Body "PartDesign Body"), and other [Part Features](/Part_Feature "Part Feature"). The Std Part provides an [Origin object](#Origin) with local X, Y, and Z axes, and standard planes, that can be used as reference to position the contained objects. In addition, Std Parts may be nested inside other Std Parts to create a big assembly from smaller sub-assemblies.
 
 Although it is primarily intended for solid bodies, the Std Part can be used to manage any object that has a [Placement](/Placement "Placement") property, so it can also contain [Mesh Features](/Mesh_Feature "Mesh Feature"), [sketches](/Sketch "Sketch"), and other objects derived from the [App GeoFeature](/App_GeoFeature "App GeoFeature") class.
 
-Do not confuse the ![](/src/assets/images/PartDesign_Body.svg) [PartDesign Body](/PartDesign_Body "PartDesign Body") with the ![](/src/assets/images/Std_Part.svg) [Std Part](/Std_Part "Std Part"). The first one is a specific object used in the ![](/src/assets/images/Workbench_PartDesign.svg) [PartDesign Workbench](/PartDesign_Workbench "PartDesign Workbench"), intended to model a [single contiguous solid](/PartDesign_Body#Single_contiguous_solid "PartDesign Body") by means of [PartDesign Features](/PartDesign_Feature "PartDesign Feature"). On the other hand, the [Std Part](/Std_Part "Std Part") is not used for modelling, just to arrange different objects in space, with the intention to create [assemblies](/Assembly "Assembly").
+Do not confuse the ![](/images/PartDesign_Body.svg) [PartDesign Body](/PartDesign_Body "PartDesign Body") with the ![](/images/Std_Part.svg) [Std Part](/Std_Part "Std Part"). The first one is a specific object used in the ![](/images/Workbench_PartDesign.svg) [PartDesign Workbench](/PartDesign_Workbench "PartDesign Workbench"), intended to model a [single contiguous solid](/PartDesign_Body#Single_contiguous_solid "PartDesign Body") by means of [PartDesign Features](/PartDesign_Feature "PartDesign Feature"). On the other hand, the [Std Part](/Std_Part "Std Part") is not used for modelling, just to arrange different objects in space, with the intention to create [assemblies](/Assembly "Assembly").
 
-The ![](/src/assets/images/Std_Part.svg) [Std Part](/Std_Part "Std Part") tool is not defined by a particular workbench, but by the base system, thus it is found in the **structure toolbar** that is available in all [workbenches](/Workbenches "Workbenches"). To group objects arbitrarily without considering their position, use ![](/src/assets/images/Std_Group.svg) [Std Group](/Std_Group "Std Group"); this object does not affect the placements of the elements that it contains, it is essentially just a folder that is used to keep the [Tree view](/Tree_view "Tree view") organized.
+The ![](/images/Std_Part.svg) [Std Part](/Std_Part "Std Part") tool is not defined by a particular workbench, but by the base system, thus it is found in the **structure toolbar** that is available in all [workbenches](/Workbenches "Workbenches"). To group objects arbitrarily without considering their position, use ![](/images/Std_Group.svg) [Std Group](/Std_Group "Std Group"); this object does not affect the placements of the elements that it contains, it is essentially just a folder that is used to keep the [Tree view](/Tree_view "Tree view") organized.
 
-![](/src/assets/images/Std_Part-tree.png)![](/src/assets/images/Std_Part_example.png)
+![](/images/Std_Part-tree.png)![](/images/Std_Part_example.png)
 
 Left: elements inside a Std Part in the [Tree view](/Tree_view "Tree view"). Right: objects positioned in space, referred to the Origin of the Std Part.
 
 ## Usage
 
-1. Press the ![](/src/assets/images/Std_Part.svg) [Create part](/Std_Part "Std Part") button.
+1. Press the ![](/images/Std_Part.svg) [Create part](/Std_Part "Std Part") button.
 2. An empty Part is created and automatically becomes _[active](/Std_Part#Active_status "Std Part")_.
 3. To add objects to the Part, select them in [Tree view](/Tree_view "Tree view"), and drag and drop them onto the Part.
 4. To remove objects from the Part, drag them out of the Part, and onto the document label at the top of the [Tree view](/Tree_view "Tree view").
@@ -100,7 +100,7 @@ To activate or de-activate a Part:
 - Double click on it on the [Tree view](/Tree_view "Tree view"), or
 - Open the context menu (right click) and select **Active object**.
 
-![](/src/assets/images/Std_Part_active.png)
+![](/images/Std_Part_active.png)
 
 Document with two Std Parts, of which the second one is active.
 
@@ -108,7 +108,7 @@ Document with two Std Parts, of which the second one is active.
 
 The Origin consists of the three standard axes (X, Y, Z) and three standard planes (XY, XZ and YZ). [Sketches](/Sketch "Sketch") and other objects can be attached to these elements when creating them.
 
-![](/src/assets/images/Part_Origin_tree.png) ![](/src/assets/images/Part_Origin_view.png)
+![](/images/Part_Origin_tree.png) ![](/images/Part_Origin_view.png)
 
 Left: Part Origin in the [Tree view](/Tree_view "Tree view"). Right: representation of the Origin elements in the [3D view](/3D_view "3D view").
 
@@ -120,7 +120,7 @@ _Note 2:_ all elements inside the Part are referenced to the Part's Origin which
 
 The Part's visibility supersedes the visibility of any object it contains. If the Part is hidden, the objects it contains will be hidden as well, even if their individual View**Visibility** property is set to `true`. If the Part is visible, then each object's View**Visibility** determines whether the object is shown or not.
 
-![](/src/assets/images/Part_Visibility_off.png) ![](/src/assets/images/Part_Visibility_on.png)
+![](/images/Part_Visibility_off.png) ![](/images/Part_Visibility_on.png)
 
 The visibility of the Std Part determines whether the objects grouped under it are shown in the [3D view](/3D_view "3D view") or not. Left: the Part is hidden, so none of the objects will be shown in the [3D view](/3D_view "3D view"). Right: the Part is visible, so each object controls its own visibility.
 

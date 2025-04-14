@@ -25,15 +25,15 @@ title: FEM ConstraintContact
 
 Creates a contact constraint between 2 surfaces. Unlike in the case of [tie constraint](/FEM_ConstraintTie "FEM ConstraintTie"), the surfaces can separate and slide on each other (with or without friction) during the analysis.
 
-![](/src/assets/images/FEM_Contact_dialog.PNG)
+![](/images/FEM_Contact_dialog.PNG)
 
 The FEM contact task panel
 
 ## Usage
 
 1. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/FEM_ConstraintContact.svg) [Contact constraint](/FEM_ConstraintContact "FEM ConstraintContact") button.
-   - Select the **Model → Mechanical boundary conditions and loads → ![](/src/assets/images/FEM_ConstraintContact.svg) Contact constraint** option from the menu.
+   - Press the ![](/images/FEM_ConstraintContact.svg) [Contact constraint](/FEM_ConstraintContact "FEM ConstraintContact") button.
+   - Select the **Model → Mechanical boundary conditions and loads → ![](/images/FEM_ConstraintContact.svg) Contact constraint** option from the menu.
 2. Select the master face. Press the first Add button. To remove a face from the selection, click on it and press the first Remove button.
 3. Select the slave face. Press the second Add button. To remove a face from the selection, click on it and press the second Remove button.
 4. Optionally enter _Contact Stiffness_.
@@ -42,7 +42,7 @@ The FEM contact task panel
 7. Optionally enter _Friction Coefficient_. The default value of 0 means frictionless contact.
 8. [introduced in 1.0](/Release_notes_1.0 "Release notes 1.0"): Optionally enter _Stick Slope_. It's an equivalent of contact stiffness for frictional behavior. It defines the slope of the linear relationship between shear stress and relative tangential displacement in the stick range (before slipping occurs).
 
-![](/src/assets/images/FEM_contact_animation.gif)
+![](/images/FEM_contact_animation.gif)
 
 Contact example - rigid cube pressed against and sliding on a deformable block. Without contact definition, those two parts wouldn't "see" each other.
 

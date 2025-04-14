@@ -30,7 +30,7 @@ title: PropertyMemo
 
 This macro creates an additional Property (memo or other text) for your object (works only with Draft objects).
 
-![](/src/assets/images/Macro_FCPropertyMemo_00.png)
+![](/images/Macro_FCPropertyMemo_00.png)
 
 Adding one property Memo → Name
 
@@ -41,9 +41,9 @@ Launch the macro, select one Draft object, complete the fields and apply. A new 
 - **Property title** : Property title (group name) for the new property (Default: Memo).
 - **Property name** : Name for the new property.
 
-* ![](/src/assets/images/CheckBoxTrue.svg) UnCheck for String : Checkbox that determines the memo type. Check the checkbox to change the type to string instead of list.
+* ![](/images/CheckBoxTrue.svg) UnCheck for String : Checkbox that determines the memo type. Check the checkbox to change the type to string instead of list.
 
-![Example of a memo property](/src/assets/images/Macro_FCPropertyMemo_01.png)
+![Example of a memo property](/images/Macro_FCPropertyMemo_01.png)
 
 Example of a memo property
 
@@ -51,17 +51,17 @@ Example of a memo property
 - **Name** : Property name: `Name`.
 - The field is empty
 
-- ![Example of a memo property using a list](/src/assets/images/Macro_FCPropertyMemo_02.png)
+- ![Example of a memo property using a list](/images/Macro_FCPropertyMemo_02.png)
 
   Example of a memo property using a list
 
-- ![Editing the list](/src/assets/images/Macro_FCPropertyMemo_03.png)
+- ![Editing the list](/images/Macro_FCPropertyMemo_03.png)
 
   Editing the list
 
 ## Script
 
-The icon for the ToolBar ![](/src/assets/images/PropertyMemo.png)
+The icon for the ToolBar ![](/images/PropertyMemo.png)
 
 **Macro_FCPropertyMemo.FCMacro**
 

@@ -8,7 +8,7 @@ The [selection view](/Selection_view "Selection view") is a panel in the [interf
 
 A selection can be made by picking an object in the [3D view](/3D_view "3D view") or in the [tree view](/Tree_view "Tree view"). Multiple bodies can be selected by holding Ctrl.
 
-![](/src/assets/images/FreeCAD_interface_base_divisions.svg)
+![](/images/FreeCAD_interface_base_divisions.svg)
 
 Selection view indicated by the number 5, in the standard [interface](/Interface "Interface").
 
@@ -16,11 +16,11 @@ Selection view indicated by the number 5, in the standard [interface](/Interface
 
 The tree view of this example has two [PartDesign Bodies](/PartDesign_Body "PartDesign Body"), with several features each, and a simple [Part Cone](/Part_Cone "Part Cone"). The tree is as follows.
 
-![](/src/assets/images/FreeCAD_Selection_Tree_view.png)
+![](/images/FreeCAD_Selection_Tree_view.png)
 
 The selection view is empty if no object is selected in the [3D view](/3D_view "3D view") or in the [tree view](/Tree_view "Tree view").
 
-![](/src/assets/images/FreeCAD_Selection_view_empty.png) ![](/src/assets/images/FreeCAD_Selection_view_empty_3D.png)
+![](/images/FreeCAD_Selection_view_empty.png) ![](/images/FreeCAD_Selection_view_empty_3D.png)
 
 If you select an object, it will appear in the list of objects, together with the document it belongs to. Both the read-only internal `Name`, and the user changeable `Label` will be displayed.
 
@@ -31,7 +31,7 @@ Document#Name (Label)
 
 ```
 
-![](/src/assets/images/FreeCAD_Selection_view_one_object.png) ![](/src/assets/images/FreeCAD_Selection_view_one_object_3D.png)
+![](/images/FreeCAD_Selection_view_one_object.png) ![](/images/FreeCAD_Selection_view_one_object_3D.png)
 
 If you select various objects, they will be listed in the view. If these objects are located inside a type of container, for example, a [PartDesign Body](/PartDesign_Body "PartDesign Body"), the displayed name will be given in a hierarchical manner, that is, `Document#Parent.Child`. In this case, not only the child, but the entire parent will appear highlighted in the 3D view.
 
@@ -40,7 +40,7 @@ Document#Body.Feature. (Feature_label)
 
 ```
 
-![](/src/assets/images/FreeCAD_Selection_view_many_objects.png) ![](/src/assets/images/FreeCAD_Selection_view_many_objects_3D.png)
+![](/images/FreeCAD_Selection_view_many_objects.png) ![](/images/FreeCAD_Selection_view_many_objects_3D.png)
 
 Individual body elements, that is, vertices, edges, and faces, can be selected, and they will be displayed in a hierarchical manner as well.
 
@@ -51,7 +51,7 @@ Document#Body.Feature.Face (Feature_label)
 
 ```
 
-![](/src/assets/images/FreeCAD_Selection_view_many_objects_subelements.png) ![](/src/assets/images/FreeCAD_Selection_view_many_objects_subelements_3D.png)
+![](/images/FreeCAD_Selection_view_many_objects_subelements.png) ![](/images/FreeCAD_Selection_view_many_objects_subelements_3D.png)
 
 ## Search bar
 
@@ -72,6 +72,6 @@ Right clicking on an element in the list brings up various commands.
 
 if the **Picked object list** checkbox is checked, a secondary list will appear showing all the sub-elements (vertices, edges, and faces) that could be selected by a single click, even those that are behind (hidden by) other objects.
 
-![](/src/assets/images/FreeCAD_Selection_view_pick_hidden.png) ![](/src/assets/images/FreeCAD_Selection_view_pick_hidden_3D.png)
+![](/images/FreeCAD_Selection_view_pick_hidden.png) ![](/images/FreeCAD_Selection_view_pick_hidden_3D.png)
 
 Retrieved from "<http://wiki.freecad.org/index.php?title=Selection_view/en&oldid=1334238>"

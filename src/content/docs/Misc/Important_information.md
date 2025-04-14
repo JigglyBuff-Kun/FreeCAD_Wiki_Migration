@@ -17,11 +17,11 @@ Before asking for help, you need to follow these links or click the images/capti
 - [IMPORTANT: Please read first before asking for help](https://forum.freecadweb.org/viewtopic.php?f=3&t=2264) in the forum.
 - [Std About](/Std_About "Std About") command in the software itself.
 
-[![](/src/assets/images/3/3d/Important_information-updated.png)](https://forum.freecadweb.org/viewtopic.php?f=3&t=2264)
+[![](/images/3/3d/Important_information-updated.png)](https://forum.freecadweb.org/viewtopic.php?f=3&t=2264)
 
 The request for important information is located at the top of every subforum. Click the image above to follow link.
 
-![](/src/assets/images/Std_About_example.png)
+![](/images/Std_About_example.png)
 
 Window with the "[About](/Std_About "Std About")" information in the software. Do not take a picture of this window;  
 Click the Copy to clipboard button to be able to paste the information with your help request.

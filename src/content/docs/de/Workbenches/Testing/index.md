@@ -2,7 +2,7 @@
 title: Erprobung
 ---
 
-![](/src/assets/images/Workbench_Test.svg)
+![](/images/Workbench_Test.svg)
 
 Erprobung Arbeitsbereichssymbol
 

@@ -19,13 +19,13 @@ title: Draft PointArray
 
 ## Description
 
-The ![](/src/assets/images/Draft_PointArray.svg) **Draft PointArray** command creates a regular array from a selected base object by placing copies at the points from a point object. Use the [Draft PointLinkArray](/Draft_PointLinkArray "Draft PointLinkArray") command to create a more efficient [Link](/App_Link "App Link") array instead. Except for the type of array that is created, Link array or regular array, the [Draft PointLinkArray](/Draft_PointLinkArray "Draft PointLinkArray") command is identical to this command.
+The ![](/images/Draft_PointArray.svg) **Draft PointArray** command creates a regular array from a selected base object by placing copies at the points from a point object. Use the [Draft PointLinkArray](/Draft_PointLinkArray "Draft PointLinkArray") command to create a more efficient [Link](/App_Link "App Link") array instead. Except for the type of array that is created, Link array or regular array, the [Draft PointLinkArray](/Draft_PointLinkArray "Draft PointLinkArray") command is identical to this command.
 
 The base object can be a 2D object created with the [Draft Workbench](/Draft_Workbench "Draft Workbench") or [Sketcher Workbench](/Sketcher_Workbench "Sketcher Workbench"), but also a 3D object such as those created with the [Part Workbench](/Part_Workbench "Part Workbench"), [PartDesign Workbench](/PartDesign_Workbench "PartDesign Workbench") or [BIM Workbench](/BIM_Workbench "BIM Workbench").
 
 The point object can be any object with a shape and vertices (including a [Std Part](/Std_Part "Std Part") containing one or more of such objects), as well as a [mesh](/Mesh_Workbench "Mesh Workbench") and a [point cloud](/Points_Workbench "Points Workbench"). Duplicate points in the point object are filtered out.
 
-![](/src/assets/images/Draft_PointArray_Example.png)
+![](/images/Draft_PointArray_Example.png)
 
 Draft PointArray
 
@@ -34,9 +34,9 @@ Draft PointArray
 1. Select the object you wish to array.
 2. Add the point object to the selection.
 3. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/Draft_PointArray.svg) [Point array](/Draft_PointArray "Draft PointArray") button.
-   - [Draft](/Draft_Workbench "Draft Workbench"): Select the **Modification → Array tools → ![](/src/assets/images/Draft_PointArray.svg) Point array** option from the menu.
-   - [BIM](/BIM_Workbench "BIM Workbench"): Select the **Modify → ![](/src/assets/images/Draft_PointArray.svg) Point array** option from the menu.
+   - Press the ![](/images/Draft_PointArray.svg) [Point array](/Draft_PointArray "Draft PointArray") button.
+   - [Draft](/Draft_Workbench "Draft Workbench"): Select the **Modification → Array tools → ![](/images/Draft_PointArray.svg) Point array** option from the menu.
+   - [BIM](/BIM_Workbench "BIM Workbench"): Select the **Modify → ![](/images/Draft_PointArray.svg) Point array** option from the menu.
 4. The array is created.
 5. Optionally change the [properties](#Properties) of the array in the [Property editor](/Property_editor "Property editor").
 

@@ -21,7 +21,7 @@ title: TechDraw FlächenMittellinie
 
 Das Werkzeug "TechDraw FlächenMittellinie" fügt ausgewählten Flächen eine Mittellinie hinzu.
 
-![](/src/assets/images/TechDraw_FaceCenterLine_Sample.png)
+![](/images/TechDraw_FaceCenterLine_Sample.png)
 
 Mittellinie zu einer Fläche hinzufügen (links: Fläche ausgewählt / rechts: Mittellinie hinzugefügt)
 
@@ -29,17 +29,17 @@ Mittellinie zu einer Fläche hinzufügen (links: Fläche ausgewählt / rechts: M
 
 1. Eine oder mehrere Flächen in einer Ansicht auswählen.
 2. Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
-   - Die Schaltfläche ![](/src/assets/images/TechDraw_FaceCenterLine.svg) Mittellinie zu Fläche(n) hinzufügen drücken.
-   - Den Menüeintrag **TechDraw → Maßeinträge → ![](/src/assets/images/TechDraw_FaceCenterLine.svg) Mittellinie zu Fläche(n) hinzufügen** auswählen.
+   - Die Schaltfläche ![](/images/TechDraw_FaceCenterLine.svg) Mittellinie zu Fläche(n) hinzufügen drücken.
+   - Den Menüeintrag **TechDraw → Maßeinträge → ![](/images/TechDraw_FaceCenterLine.svg) Mittellinie zu Fläche(n) hinzufügen** auswählen.
 3. Ein Aufgaben-Bereich wird geöffnet. Siehe [Optionen](#Optionen) für weitere Informationen.
 4. Die Schaltfläche OK zum Bestätigen drücken.
 5. Eine Mittellinie wird am Mittelpunkt des Begrenzungsrahmens der ausgewählten Fläche(n) hinzugefügt.
 
 ## Anwendung, Bearbeiten
 
-Jedes der Mittellinienwerkzeuge (![](/src/assets/images/TechDraw_FaceCenterLine.svg) Mittellinie zu Fläche(n) hinzufügen,
-![](/src/assets/images/TechDraw_2LineCenterLine.svg) [Mittellinie zwischen 2 Linien hinzufügen](/TechDraw_2LineCenterLine/de "TechDraw 2LineCenterLine/de") oder
-![](/src/assets/images/TechDraw_2PointCenterLine.svg) [Mittellinie zwischen 2 Punkten hinzufügen](/TechDraw_2PointCenterLine/de "TechDraw 2PointCenterLine/de"))
+Jedes der Mittellinienwerkzeuge (![](/images/TechDraw_FaceCenterLine.svg) Mittellinie zu Fläche(n) hinzufügen,
+![](/images/TechDraw_2LineCenterLine.svg) [Mittellinie zwischen 2 Linien hinzufügen](/TechDraw_2LineCenterLine/de "TechDraw 2LineCenterLine/de") oder
+![](/images/TechDraw_2PointCenterLine.svg) [Mittellinie zwischen 2 Punkten hinzufügen](/TechDraw_2PointCenterLine/de "TechDraw 2PointCenterLine/de"))
 kann verwendet werden, um Mittellinien zu bearbeiten.
 
 1. Eine Mittellinie auswählen.
@@ -60,11 +60,11 @@ kann verwendet werden, um Mittellinien zu bearbeiten.
 - **Farbe**: Die Farbe der Mittllinie.
 - **Stärke**: Strichstärke der Mittellinie.
 - **Stil**: Linienart der Mittellinie. Die Optionen sind:
-  - ![](/src/assets/images/Continuous-line.svg) **Volllinie**
-  - ![](/src/assets/images/Dash-line.svg) **Strichlinie**
-  - ![](/src/assets/images/Dot-line.svg) **Punkt**
-  - ![](/src/assets/images/DashDot-line.svg) **Strich-Punkt**
-  - ![](/src/assets/images/DashDotDot-line.svg) **Strich-Zweipunkt**
+  - ![](/images/Continuous-line.svg) **Volllinie**
+  - ![](/images/Dash-line.svg) **Strichlinie**
+  - ![](/images/Dot-line.svg) **Punkt**
+  - ![](/images/DashDot-line.svg) **Strich-Punkt**
+  - ![](/images/DashDotDot-line.svg) **Strich-Zweipunkt**
 
 ## Hinweise
 

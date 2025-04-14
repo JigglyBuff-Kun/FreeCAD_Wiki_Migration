@@ -25,12 +25,12 @@ title: Sketcher requirement for a sketch
 
 The creation of a body in the workspace PartDesign is already possible and _only_ with the help of a closed curve (profile). The complete determination of all their dimensions and properties (_fully constrained_) is not yet required.
 
-That a closed curve is present, is not self-evident and not recognizable. When connecting a circular arc to a straight line, e.g. The two endpoints are created only one above the other. You must use the ![](/src/assets/images/Constraint_PointOnPoint.svg) [Coincident](/Sketcher_ConstrainCoincident "Sketcher ConstrainCoincident") constraint to make a single point that actually connects the line and the arc.
+That a closed curve is present, is not self-evident and not recognizable. When connecting a circular arc to a straight line, e.g. The two endpoints are created only one above the other. You must use the ![](/images/Constraint_PointOnPoint.svg) [Coincident](/Sketcher_ConstrainCoincident "Sketcher ConstrainCoincident") constraint to make a single point that actually connects the line and the arc.
 
-![](/src/assets/images/Skizze2a.png)
+![](/images/Skizze2a.png)
 
 A simple sketch.
-Left: Curve only in four places (red, automatic constraints when drawing with ![](/src/assets/images/Sketcher_CreatePolyline.svg) [Polyline](/Sketcher_CreatePolyline "Sketcher CreatePolyline")) closed.
+Left: Curve only in four places (red, automatic constraints when drawing with ![](/images/Sketcher_CreatePolyline.svg) [Polyline](/Sketcher_CreatePolyline "Sketcher CreatePolyline")) closed.
 Middle: Warning - ... broken face (broken curve).
 Right: Curve closed at remaining four places (green)
 
@@ -40,7 +40,7 @@ However, consistent parametric working means that the sketch is completely deter
 
 Even a relatively simple sketch may contain dozens of indeterminacies (indicated in the combo view as a "degrees of freedom" number). To eliminate them together at the end is a relatively confusing task.
 
-![](/src/assets/images/Skizze4a.png)
+![](/images/Skizze4a.png)
 
 A simple sketch; completely determined by 25 constraints, of which only 5 are dimension constraints.
 

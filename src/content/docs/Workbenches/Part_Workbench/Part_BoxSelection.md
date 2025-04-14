@@ -19,11 +19,11 @@ title: Part BoxSelection
 
 ## Description
 
-The ![](/src/assets/images/Part_BoxSelection.svg) **Part BoxSelection** command selects faces from a user defined rectangular area, a box, in the [3D view](/3D_view "3D view").
+The ![](/images/Part_BoxSelection.svg) **Part BoxSelection** command selects faces from a user defined rectangular area, a box, in the [3D view](/3D_view "3D view").
 
 ## Usage
 
-1. Select the **Part → ![](/src/assets/images/Part_BoxSelection.svg) Box selection** option from the menu.
+1. Select the **Part → ![](/images/Part_BoxSelection.svg) Box selection** option from the menu.
 2. Drag a rectangle to select faces that are (partially) inside the rectangle, or touched by it.
 
 ## Notes

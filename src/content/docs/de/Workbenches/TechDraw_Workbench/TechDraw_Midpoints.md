@@ -21,7 +21,7 @@ title: TechDraw Mittenpunkte
 
 Das Werkzeug **TechDraw Mittenpunkte** fügt einer oder mehreren Kanten einen Hilfspunkt ([Knoten](/Glossary/de#Vertex "Glossary/de")) auf halber Länge hinzu.
 
-![](/src/assets/images/TechDraw_CosmeticMidpoint_Sample.png)
+![](/images/TechDraw_CosmeticMidpoint_Sample.png)
 
 Hilfspunkte an Kantenmittenpunkten
 
@@ -29,8 +29,8 @@ Hilfspunkte an Kantenmittenpunkten
 
 1. Eine oder mehrere Kanten in einer Ansicht auswählen.
 2. Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
-   - Die Schaltfläche ![](/src/assets/images/TechDraw_Midpoints.svg) [Kantenmittelpunkte hinzufügen](/TechDraw_Midpoints "TechDraw Midpoints") drücken.
-   - Den Menüeintrag **TechDraw → Knoten hinzufügen → ![](/src/assets/images/TechDraw_Midpoints.svg) Kantenmittelpunkte hinzufügen** auswählen.
+   - Die Schaltfläche ![](/images/TechDraw_Midpoints.svg) [Kantenmittelpunkte hinzufügen](/TechDraw_Midpoints "TechDraw Midpoints") drücken.
+   - Den Menüeintrag **TechDraw → Knoten hinzufügen → ![](/images/TechDraw_Midpoints.svg) Kantenmittelpunkte hinzufügen** auswählen.
 
 ## Hinweise
 

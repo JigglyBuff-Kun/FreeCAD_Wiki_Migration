@@ -78,12 +78,12 @@ oder verwende das `Translate` Feld
 
 - Verwende [Special:Upload](/Special:Upload "Special:Upload"), um das benutzerdefinierte Symbol in den [SVG](/SVG/de "SVG/de") oder PNG Formaten hochzuladen. Es sollte den gleichen Namen wie das Makro haben.
 - Andernfalls wird es standardmäßig auf `Icon=Text-x-python.svg` [![](https://upload.wikimedia.org/wikipedia/commons/8/82/Text-x-python.svg)](/File:Text-x-python.svg) gesetzt.
-- Für das von FreeCAD in der Python Konsole verwendete Makro verwende `Icon=Text_console_python.png` ![](/src/assets/images/Text_console_python.png).
-- Für das Beispielvideomakro verwende dieses Skelett des Symbols ![](/src/assets/images/Text_Video_Movie.png) und fülle den Bildschirm aus, um z.B. folgendes zu erhalten: ![](/src/assets/images/Macro_crank_simul.png) und speichern Sie neue Symbol mit dem gleichen Namen desein Makros.
+- Für das von FreeCAD in der Python Konsole verwendete Makro verwende `Icon=Text_console_python.png` ![](/images/Text_console_python.png).
+- Für das Beispielvideomakro verwende dieses Skelett des Symbols ![](/images/Text_Video_Movie.png) und fülle den Bildschirm aus, um z.B. folgendes zu erhalten: ![](/images/Macro_crank_simul.png) und speichern Sie neue Symbol mit dem gleichen Namen desein Makros.
 
 [Template:Macro](/Template:Macro "Template:Macro") wird die Informationen zur Verwendung und Installation der Makros in jede Seite einfügen.
 
-![](/src/assets/images/Macro_Recipes_MacroHowToInstall.png)
+![](/images/Macro_Recipes_MacroHowToInstall.png)
 
 Die Verweise [Wie Makros installiert werden](/How_to_install_macros/de "How to install macros/de") und [Werkzeugleisten anpassen](/Customize_Toolbars/de "Customize Toolbars/de") in der Infobox auf jeder Makroseite
 
@@ -223,7 +223,7 @@ webbrowser.open("https://gist.githubusercontent.com/mario52a/8d40ab6c018c2bde678
 
 <class="rawcodeurl"><a href="<https://gist.githubusercontent.com/mario52a/8d40ab6c018c2bde678f/raw/e16ad9ea7b38c0c47e42aa3019be01dd1267a620/FCInfo_en_Ver_1-20_Docked.FCMacro>">raw code</a>
 
-Diese Vorlage muss am Anfang der Makroseite im Abschnitt _Beschreibung_ platziert werden. Es muss der erste Codeblock in der Seite sein, damit der ![](/src/assets/images/Std_AddonMgr.svg) [Addon-Manager](/Std_AddonMgr/de "Std AddonMgr/de") sie automatisch erkennen und importieren kann. Siehe [Makro CirclePlus](/index.php?title=Macro_CirclePlus/de&action=edit&redlink=1 "Macro CirclePlus/de (page does not exist)") für ein Anwendungsbeispiel.
+Diese Vorlage muss am Anfang der Makroseite im Abschnitt _Beschreibung_ platziert werden. Es muss der erste Codeblock in der Seite sein, damit der ![](/images/Std_AddonMgr.svg) [Addon-Manager](/Std_AddonMgr/de "Std AddonMgr/de") sie automatisch erkennen und importieren kann. Siehe [Makro CirclePlus](/index.php?title=Macro_CirclePlus/de&action=edit&redlink=1 "Macro CirclePlus/de (page does not exist)") für ein Anwendungsbeispiel.
 
 **PS:** Im Falle einer Aktualisierung in GitHub wird der Pfad des RAW Codes geändert, nicht vergessen, den Verweis in der Codeextralink Vorlage zu ändern.
 

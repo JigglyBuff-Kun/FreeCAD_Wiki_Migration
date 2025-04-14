@@ -21,11 +21,11 @@ title: Std Über FreeCAD
 
 Der Befehl **Std Über FreeCAD** öffnet ein Dialogfenster, das Informationen über das FreeCAD-Programm anzeigt.
 
-![](/src/assets/images/Help-About-Dropdown-screenshot.png)
+![](/images/Help-About-Dropdown-screenshot.png)
 
-Aktiviere den Über Dialog über **Hilfe → ![](/src/assets/images/Std_About.svg) Über FreeCAD**
+Aktiviere den Über Dialog über **Hilfe → ![](/images/Std_About.svg) Über FreeCAD**
 
-![](/src/assets/images/Std_About_example.png)
+![](/images/Std_About_example.png)
 
 Das FreeCAD-Dialogfnster Über
 
@@ -35,7 +35,7 @@ ACHTUNG: Mache kein Bildschirmfoto von diesem Dialogfeld! Drücke stattdessen di
 
 ## Anwendung
 
-1. Wähle die Option **Hilfe → ![](/src/assets/images/Std_About.svg) Über FreeCAD** aus dem Menü.
+1. Wähle die Option **Hilfe → ![](/images/Std_About.svg) Über FreeCAD** aus dem Menü.
 2. Wähle einen der Reiter: **Über**, **Credits**, **Lizenz** oder **Bibliotheken**.
 3. Wann immer du FreeCAD Versionsinformationen angeben musst, gehe wie folgt vor:
    - Drücke die Schaltfläche In Zwischenablage kopieren auf dem Reiter **Über**.

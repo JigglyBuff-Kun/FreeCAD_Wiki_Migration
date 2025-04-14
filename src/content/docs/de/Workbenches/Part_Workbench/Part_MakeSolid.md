@@ -19,14 +19,14 @@ title: Part FestkörperErstellen
 
 ## Beschreibung
 
-Der Befehl ![](/src/assets/images/Part_MakeSolid.svg) **Part FestkörperErstellen** erstellt Festkörper aus Formobjekten.
+Der Befehl ![](/images/Part_MakeSolid.svg) **Part FestkörperErstellen** erstellt Festkörper aus Formobjekten.
 
 Der Befehl wird typischerweise benutzt als ein Schritt bei der Erzeugung eines Festkörpers aus einem Netz. Siehe [Part Form aus Netz](/Part_ShapeFromMesh/de#Usage "Part ShapeFromMesh/de") für mehr Informationen.
 
 ## Anwendung
 
 1. Ein oder mehrere Formobjekte auswählen.
-2. Den Menüeintrag **Part → ![](/src/assets/images/Part_MakeSolid.svg) In Festkörper umwandeln** auswählen.
+2. Den Menüeintrag **Part → ![](/images/Part_MakeSolid.svg) In Festkörper umwandeln** auswählen.
 3. Für jedes ausgewählte Objekt wird ein separates neues Objekt erstellt.
 
 ## Hinweise

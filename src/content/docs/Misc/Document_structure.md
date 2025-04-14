@@ -2,13 +2,13 @@
 title: Document structure
 ---
 
-![](/src/assets/images/Screenshot_treeview.jpg)
+![](/images/Screenshot_treeview.jpg)
 
 A FreeCAD document contains all the objects of your scene. It can contain groups, and objects made with any workbench. You can therefore switch between workbenches, and still work on the same document. The document is what gets saved to disk when you save your work. You can also open several documents at the same time in FreeCAD, and open several views of the same document.
 
-Inside the document, the objects can be moved into groups, and have a unique name. Managing groups, objects and object names is done mainly from the [Tree view](/Tree_view "Tree view"). **Note:** It can also be done, of course, like everything in FreeCAD, from the [Python](/Python "Python") interpreter. In the [Tree view](/Tree_view "Tree view"), you can create ![](/src/assets/images/Std_Group.svg) [groups](/Std_Group "Std Group"), move objects to groups, delete objects or groups, by right-clicking in the [tree view](/Tree_view "Tree view") or on an object, rename objects by double-clicking on their names, or possibly other operations, depending on the current workbench.
+Inside the document, the objects can be moved into groups, and have a unique name. Managing groups, objects and object names is done mainly from the [Tree view](/Tree_view "Tree view"). **Note:** It can also be done, of course, like everything in FreeCAD, from the [Python](/Python "Python") interpreter. In the [Tree view](/Tree_view "Tree view"), you can create ![](/images/Std_Group.svg) [groups](/Std_Group "Std Group"), move objects to groups, delete objects or groups, by right-clicking in the [tree view](/Tree_view "Tree view") or on an object, rename objects by double-clicking on their names, or possibly other operations, depending on the current workbench.
 
-The objects inside a FreeCAD document can be of different types. Each workbench can create its own types of objects, for example the ![](/src/assets/images/Workbench_Mesh.svg) [Mesh Workbench](/Mesh_Workbench "Mesh Workbench") creates mesh objects, the ![](/src/assets/images/Workbench_Part.svg) [Part Workbench](/Part_Workbench "Part Workbench") create Part objects, the ![](/src/assets/images/Workbench_Draft.svg) [Draft Workbench](/Draft_Workbench "Draft Workbench") also creates Part objects, etc.
+The objects inside a FreeCAD document can be of different types. Each workbench can create its own types of objects, for example the ![](/images/Workbench_Mesh.svg) [Mesh Workbench](/Mesh_Workbench "Mesh Workbench") creates mesh objects, the ![](/images/Workbench_Part.svg) [Part Workbench](/Part_Workbench "Part Workbench") create Part objects, the ![](/images/Workbench_Draft.svg) [Draft Workbench](/Draft_Workbench "Draft Workbench") also creates Part objects, etc.
 
 If there is at least one document open in FreeCAD, there is always one and only one active document. That's the document that appears in the current 3D view, the document you are currently working on.
 

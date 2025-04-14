@@ -21,7 +21,7 @@ title: Ship Hydrostatics
 
 Plot the ship hydrostatics.
 
-![](/src/assets/images/FreeCAD-Ship-HydrostaticsCurves.png)
+![](/images/FreeCAD-Ship-HydrostaticsCurves.png)
 
 Hydrostatics curves example
 
@@ -188,7 +188,7 @@ While large Cb values will inexorably result in inefficient ships, with more mod
 
 ## Usage
 
-In order to compute the transversal areas curve, select a **Ship instance** (see [Ship CreateShip](/Ship_CreateShip "Ship CreateShip")), and invoke **Ship design → ![](/src/assets/images/Ship_Hydrostatics.svg) Hydrostatics**.
+In order to compute the transversal areas curve, select a **Ship instance** (see [Ship CreateShip](/Ship_CreateShip "Ship CreateShip")), and invoke **Ship design → ![](/images/Ship_Hydrostatics.svg) Hydrostatics**.
 
 The task panel is shown. You must select the trim angle as well as the range of drafts to be considered. You can also select the number of samples to be taken between the minimum and maximum draft. The larger the number of samples the longer will take the computation.
 

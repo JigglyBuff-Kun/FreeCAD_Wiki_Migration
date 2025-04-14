@@ -19,17 +19,17 @@ title: Part Ausformung
 
 ## Beschreibung
 
-Der Befel ![](/src/assets/images/Part_Loft.svg) [Part Loft](/Part_Loft "Part Loft") erstellt eine Fläche, ein Schalenobjekt oder eine Festkörper-Form aus zwei oder mehr Profilen (Querschnitten).
+Der Befel ![](/images/Part_Loft.svg) [Part Loft](/Part_Loft "Part Loft") erstellt eine Fläche, ein Schalenobjekt oder eine Festkörper-Form aus zwei oder mehr Profilen (Querschnitten).
 
-![](/src/assets/images/Part_Loft_solid_ruled_from3profiles_example_FreeCAD_0_13.jpg)
+![](/images/Part_Loft_solid_ruled_from3profiles_example_FreeCAD_0_13.jpg)
 
 Loft-Objekt über drei Profile, zwei [Part Kreisen](/Part_Circle "Part Circle") und einer [Part Ellipse](/Part_Ellipse/de "Part Ellipse/de"). Die Eigenschaften Solid und Ruled sind auf "True" gesetzt.
 
 ## Anwendung
 
 1. Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
-   - Die Schaltfläche ![](/src/assets/images/Part_Loft.svg) Ausformung... drücken.
-   - Den Menüeintrag **Part → ![](/src/assets/images/Part_Loft.svg) Ausformung...** auswählen.
+   - Die Schaltfläche ![](/images/Part_Loft.svg) Ausformung... drücken.
+   - Den Menüeintrag **Part → ![](/images/Part_Loft.svg) Ausformung...** auswählen.
 2. Der [Aufgaben-Bereich](/Task_panel/de "Task panel/de") Ausformung (Loft) wird geöffnet.
 3. In der linken Liste _Verfügbare Profiles_ das erste Profil auswählen und es dann mit dem Pfeil nach rechts in die rechte Liste _Ausgewählte Profile_ verschieben.
 4. Den letzten Schritt wiederholen für das zweite Profil und nochmals für jedes weitere Profil, wenn mehr als zwei Profile verwendet werden sollen.

@@ -28,8 +28,8 @@ title: FEM ElementGeometry2D
 ## Usage
 
 1. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/FEM_ElementGeometry2D.svg) [Shell plate thickness](/FEM_ElementGeometry2D "FEM ElementGeometry2D") button.
-   - Select the **Model → Element Geometry → ![](/src/assets/images/FEM_ElementGeometry2D.svg) Shell plate thickness** option from the menu.
+   - Press the ![](/images/FEM_ElementGeometry2D.svg) [Shell plate thickness](/FEM_ElementGeometry2D "FEM ElementGeometry2D") button.
+   - Select the **Model → Element Geometry → ![](/images/FEM_ElementGeometry2D.svg) Shell plate thickness** option from the menu.
 2. Specify the shell thickness.
 3. Optionally press the Add button in the task panel and then click on the face you want to have a prescribed thickness. If the face selection is empty, all the remaining faces (whose thickness is not defined by other [FEM ElementGeometry2D](/FEM_ElementGeometry2D "FEM ElementGeometry2D") objects) will be automatically assigned.
 

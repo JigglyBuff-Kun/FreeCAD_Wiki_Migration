@@ -25,9 +25,9 @@ The **Std Copy** command copies objects to the Clipboard.
 
 1. Select one or more objects.
 2. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/Std_Copy.svg) [Copy](/Std_Copy "Std Copy") button.
-   - Select the **Edit → ![](/src/assets/images/Std_Copy.svg) Copy** option from the menu.
-   - Select the **![](/src/assets/images/Std_Copy.svg) Copy** option from the [Tree view](/Tree_view "Tree view") context menu.
+   - Press the ![](/images/Std_Copy.svg) [Copy](/Std_Copy "Std Copy") button.
+   - Select the **Edit → ![](/images/Std_Copy.svg) Copy** option from the menu.
+   - Select the **![](/images/Std_Copy.svg) Copy** option from the [Tree view](/Tree_view "Tree view") context menu.
    - Use the keyboard shortcut: Ctrl+C.
 3. If the objects have dependencies that have not been selected, a dialog box will prompt you to specify which should be included.
 

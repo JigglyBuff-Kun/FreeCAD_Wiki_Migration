@@ -23,13 +23,13 @@ This documentation is not finished. Please help and contribute documentation.Gui
 
 ## Description
 
-The ![](/src/assets/images/TechDraw_FillTemplateFields.svg)[FillTemplateFields](/TechDraw_FillTemplateFields "TechDraw FillTemplateFields") tool fills the editable text fields in the title block of the current page.
+The ![](/images/TechDraw_FillTemplateFields.svg)[FillTemplateFields](/TechDraw_FillTemplateFields "TechDraw FillTemplateFields") tool fills the editable text fields in the title block of the current page.
 
 ## Usage
 
 1. There are several ways to invoke the tool:
-   - Press the ![](/src/assets/images/TechDraw_FillTemplateFields.svg) [Update template fields](/TechDraw_FillTemplateFields "TechDraw FillTemplateFields") button.
-   - Select the **TechDraw → Page → ![](/src/assets/images/TechDraw_FillTemplateFields.svg) Update template fields** option from the menu.
+   - Press the ![](/images/TechDraw_FillTemplateFields.svg) [Update template fields](/TechDraw_FillTemplateFields "TechDraw FillTemplateFields") button.
+   - Select the **TechDraw → Page → ![](/images/TechDraw_FillTemplateFields.svg) Update template fields** option from the menu.
 2. ...
 
 ## Notes

@@ -25,7 +25,7 @@ THIS COMMAND IS PART OF THE INTEGRATEDBIM WORKBENCHIN V1.0This page has been upd
 
 The **Arch Frame** tool is used to build all kinds of frame objects based on a profile and a layout. The profile is extruded along the edges of the layout, which can be any 2D object such as a [sketch](/Sketcher_Workbench "Sketcher Workbench"), or a [Draft object](/Draft_Workbench "Draft Workbench"). It is especially useful to create railings, or frame walls. Frame objects can then easily be turned into [wall](/Arch_Wall "Arch Wall") or [structure](/Arch_Structure "Arch Structure") objects.
 
-![](/src/assets/images/Arch_Frame_example.jpg)
+![](/images/Arch_Frame_example.jpg)
 
 Frame object created from a [Draft OrthoArray](/Draft_OrthoArray "Draft OrthoArray") of a [Draft Line](/Draft_Line "Draft Line"), using a [Draft Circle](/Draft_Circle "Draft Circle") as profile
 
@@ -33,7 +33,7 @@ Frame object created from a [Draft OrthoArray](/Draft_OrthoArray "Draft OrthoArr
 
 1. Create a layout object and a profile object, for example with the [Draft Workbench](/Draft_Workbench "Draft Workbench") or the [Sketcher Workbench](/Sketcher_Workbench "Sketcher Workbench").
 2. Select the layout object first, then, with Ctrl pressed, select the profile object.
-3. Press the ![](/src/assets/images/Arch_Frame.svg) [Frame](/Arch_Frame "Arch Frame") button, or press F then R keys.
+3. Press the ![](/images/Arch_Frame.svg) [Frame](/Arch_Frame "Arch Frame") button, or press F then R keys.
 
 ## Options
 

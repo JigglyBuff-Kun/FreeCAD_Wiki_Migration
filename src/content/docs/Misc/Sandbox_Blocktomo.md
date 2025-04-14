@@ -19,7 +19,7 @@ This text will go at the very end of the [Toothbrush Head Stand](/Toothbrush_Hea
 
 You may have noticed that in the tutorial for the plate, it was laborious to repeat 4 times the action of setting the distance to the borders (20mm). A good practice would be to set it _once_ and then duplicate it 3 times. We will look into this here.
 
-What we will do is actually duplicate the sketch, the pad and the chamfer. We could also only duplicate the sketch using ![](/src/assets/images/Sketcher_Translate.svg) [Array transform](/Sketcher_Translate "Sketcher Translate") ([introduced in 1.0](/Release_notes_1.0 "Release notes 1.0")) and then ![](/src/assets/images/Sketcher_Symmetry.svg) [Symmetry](/Sketcher_Symmetry "Sketcher Symmetry") in the Sketcher Workbench.
+What we will do is actually duplicate the sketch, the pad and the chamfer. We could also only duplicate the sketch using ![](/images/Sketcher_Translate.svg) [Array transform](/Sketcher_Translate "Sketcher Translate") ([introduced in 1.0](/Release_notes_1.0 "Release notes 1.0")) and then ![](/images/Sketcher_Symmetry.svg) [Symmetry](/Sketcher_Symmetry "Sketcher Symmetry") in the Sketcher Workbench.
 
 The point is : we make only _one_ custom sketch, and create replicas of this sketch, which will evolve with any changes applied to the original sketch.
 
@@ -36,7 +36,7 @@ Repeat the step described earlier consisting of applying a chamfer to the base o
 
 Then, in the [tree view](/Tree_view "Tree view"), select both **Pad001** and **Chamfer**.
 
-Open the ![](/src/assets/images/PartDesign_MultiTransform.svg) [PartDesign MultiTransform](/PartDesign_MultiTransform "PartDesign MultiTransform") tool . It should look like this :
+Open the ![](/images/PartDesign_MultiTransform.svg) [PartDesign MultiTransform](/PartDesign_MultiTransform "PartDesign MultiTransform") tool . It should look like this :
 
 [ScreenCapture]
 

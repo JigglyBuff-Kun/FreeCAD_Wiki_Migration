@@ -30,8 +30,8 @@ title: FEM ElementGeometry1D
 ## Usage
 
 1. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/FEM_ElementGeometry1D.svg) [Beam cross section](/FEM_ElementGeometry1D "FEM ElementGeometry1D") button.
-   - Select the **Model → Element Geometry → ![](/src/assets/images/FEM_ElementGeometry1D.svg) Beam cross section** option from the menu.
+   - Press the ![](/images/FEM_ElementGeometry1D.svg) [Beam cross section](/FEM_ElementGeometry1D "FEM ElementGeometry1D") button.
+   - Select the **Model → Element Geometry → ![](/images/FEM_ElementGeometry1D.svg) Beam cross section** option from the menu.
 2. Choose the type of cross section and specify the necessary dimensions:
    - Rectangular: width and height,
    - Circular: diameter,
@@ -40,7 +40,7 @@ title: FEM ElementGeometry1D
    - 1.1 and above: Box: height, width, thicknesses T1 - T4.
 3. Optionally, press the Add button in the task panel and then click on the edge you want to have a prescribed cross section. If the edge selection is free, all the remaining edges (whose cross section is not defined by other [FEM ElementGeometry1D](/FEM_ElementGeometry1D "FEM ElementGeometry1D") objects) will be automatically assigned.
 
-![](/src/assets/images/FEM_Beam_sections.PNG)
+![](/images/FEM_Beam_sections.PNG)
 
 Beam section types, local axes used by CalculiX and dimensions specified in FreeCAD FEM
 

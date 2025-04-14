@@ -30,7 +30,7 @@ title: Draft Circle 3 Points 3D
 
 Dieses Makro erstellt einen Kreis an 3 ausgewählten Punkten im Raum. Die Punkte können Objekte wie Würfel oder Zylinder sein. Die ausgewählten Koordinaten bilden dann den Mittelpunkt dieser Formulare.
 
-![](/src/assets/images/Macro_Draft_Circle_3_Points_3D.png)
+![](/images/Macro_Draft_Circle_3_Points_3D.png)
 
 ## Anwendung
 
@@ -44,7 +44,7 @@ Die Koordinaten **X, Y, Z** des Werts **0** oder die Ausrichtung, die keine Bere
 
 ## Skript
 
-ToolBar Icon ![](/src/assets/images/Macro_Draft_Circle_3_Points.png)
+ToolBar Icon ![](/images/Macro_Draft_Circle_3_Points.png)
 
 **Macro_Draft_Circle_3_Points_3D.FCMacro**
 

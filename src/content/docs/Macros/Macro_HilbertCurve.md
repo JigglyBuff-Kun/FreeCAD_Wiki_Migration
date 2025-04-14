@@ -34,30 +34,30 @@ This macro creates a [Hilbert curve](https://en.wikipedia.org/wiki/Hilbert_curve
 
 1. Start the macro in a FreeCAD document.
 2. In the dialog that opens choose the parameters for the Hilbert curve:
-   - Select if the curve should be 2 dimensional: ![](/src/assets/images/CheckBoxTrue.svg) 2D, or 3 dimensional: ![](/src/assets/images/CheckBoxFalse.svg) 3D.
-   - Specify the number of iterations 1 ![](/src/assets/images/SpinBox.svg). _Attention!_ Increasing the number of iterations will also increase the computation time.
-   - Specify the length of the wire segment: 10.00 ![](/src/assets/images/SpinBox.svg).
+   - Select if the curve should be 2 dimensional: ![](/images/CheckBoxTrue.svg) 2D, or 3 dimensional: ![](/images/CheckBoxFalse.svg) 3D.
+   - Specify the number of iterations 1 ![](/images/SpinBox.svg). _Attention!_ Increasing the number of iterations will also increase the computation time.
+   - Specify the length of the wire segment: 10.00 ![](/images/SpinBox.svg).
 3. Click OK to create the wire or CANCEL to exit the macro.
 
-![The Hilbert wire in 3D and 2 iterations.](/src/assets/images/HilbertCurveWire.png)
+![The Hilbert wire in 3D and 2 iterations.](/images/HilbertCurveWire.png)
 
 The Hilbert wire in 3D and 2 iterations.
 
 You can use a Hilbert curve as the path for a [Part Sweep](/Part_Sweep "Part Sweep"), but it's better to apply a radius to the wire first, or the sweep will be badly formed.
 
-![The wire of the Hilbert Curve with a radius.](/src/assets/images/HilbertCurveWireRadius.png)
+![The wire of the Hilbert Curve with a radius.](/images/HilbertCurveWireRadius.png)
 
 The wire of the Hilbert Curve with a radius.
 
 Finding the right radius may requires some testing. It depends on the length of the curve segments and the shape of the profile you want to sweep.
 
-![A solid obtained by the sweep of a circle by the Hilbert curve.](/src/assets/images/HilbertCurveSweep.png)
+![A solid obtained by the sweep of a circle by the Hilbert curve.](/images/HilbertCurveSweep.png)
 
 A solid obtained by the sweep of a circle by the Hilbert curve.
 
 ## Script
 
-ToolBar Icon ![](/src/assets/images/Hilbert_curve_icon.png)
+ToolBar Icon ![](/images/Hilbert_curve_icon.png)
 
 **Macro_HilbertCurve.FCMacro**
 

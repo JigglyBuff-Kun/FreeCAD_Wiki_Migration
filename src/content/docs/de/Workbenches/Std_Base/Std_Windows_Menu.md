@@ -2,7 +2,7 @@
 title: Std Menü Fenster
 ---
 
-![](/src/assets/images/Freecad.svg)
+![](/images/Freecad.svg)
 
 Std Basis Symbol
 
@@ -30,16 +30,16 @@ Das Menü Fenster ermöglicht das Umschalten und Neuanordnen von Fenstern des [H
 
 Die folgenden Werkzeuge sind in diesem Menü verfügbar:
 
-- ![](/src/assets/images/Std_ActivateNextWindow.svg) [Nächstes Fenster](/Std_ActivateNextWindow/de "Std ActivateNextWindow/de"): Aktiviert das folgende Fenster.
+- ![](/images/Std_ActivateNextWindow.svg) [Nächstes Fenster](/Std_ActivateNextWindow/de "Std ActivateNextWindow/de"): Aktiviert das folgende Fenster.
 
-- ![](/src/assets/images/Std_ActivatePrevWindow.svg) [Vorheriges Fenster](/Std_ActivatePrevWindow/de "Std ActivatePrevWindow/de"): Aktiviert das vorherige Fenster.
+- ![](/images/Std_ActivatePrevWindow.svg) [Vorheriges Fenster](/Std_ActivatePrevWindow/de "Std ActivatePrevWindow/de"): Aktiviert das vorherige Fenster.
 
-- ![](/src/assets/images/Std_TileWindows.svg) [Anordnen](/Std_TileWindows/de "Std TileWindows/de"): Ordnet die Fenster an.
+- ![](/images/Std_TileWindows.svg) [Anordnen](/Std_TileWindows/de "Std TileWindows/de"): Ordnet die Fenster an.
 
-- ![](/src/assets/images/Std_CascadeWindows.svg) [Überlappend](/Std_CascadeWindows/de "Std CascadeWindows/de"): Ordnet die Fenster überlappend an.
+- ![](/images/Std_CascadeWindows.svg) [Überlappend](/Std_CascadeWindows/de "Std CascadeWindows/de"): Ordnet die Fenster überlappend an.
 
 * ... Die ersten 10 Fenster werden hier aufgelistet. Ein Fenster auswählen, um es zu aktivieren.
 
-- ![](/src/assets/images/Std_Windows.svg) [Fenster...](/Std_Windows/de "Std Windows/de"): Öffnet ein Dialogfenster, in dem ein Fenster aktiviert werden kann.
+- ![](/images/Std_Windows.svg) [Fenster...](/Std_Windows/de "Std Windows/de"): Öffnet ein Dialogfenster, in dem ein Fenster aktiviert werden kann.
 
 Retrieved from "<http://wiki.freecad.org/index.php?title=Std_Windows_Menu/de&oldid=1497047>"

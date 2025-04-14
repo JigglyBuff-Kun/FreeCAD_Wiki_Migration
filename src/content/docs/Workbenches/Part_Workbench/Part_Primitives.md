@@ -19,9 +19,9 @@ title: Part Primitives
 
 ## Description
 
-The ![](/src/assets/images/Part_Primitives.svg) **Part Primitives** command opens a dialog to create one or more parametric primitives. 16 primitive types are available.
+The ![](/images/Part_Primitives.svg) **Part Primitives** command opens a dialog to create one or more parametric primitives. 16 primitive types are available.
 
-![](/src/assets/images/Part_Primitives_example.png)
+![](/images/Part_Primitives_example.png)
 
 The primitives that can be created with the command
 
@@ -30,8 +30,8 @@ The primitives that can be created with the command
 ### Create
 
 1. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/Part_Primitives.svg) [Create Primitives...](/Part_Primitives "Part Primitives") button.
-   - Select the **Part → ![](/src/assets/images/Part_Primitives.svg) Create Primitives...** option from the menu.
+   - Press the ![](/images/Part_Primitives.svg) [Create Primitives...](/Part_Primitives "Part Primitives") button.
+   - Select the **Part → ![](/images/Part_Primitives.svg) Create Primitives...** option from the menu.
 2. The **Geometric Primitives** task panel opens.
 3. Select a primitive type from the dropdown list.
 4. Specify the properties.
@@ -49,32 +49,32 @@ The primitives that can be created with the command
 4. The object is dynamically updated in the [3D view](/3D_view "3D view").
 5. Press the OK button.
 
-The properties of a Part Primitive can also be changed in the [Property editor](/Property_editor "Property editor"), and its Data**Placement** can also be changed with the ![](/src/assets/images/Std_TransformManip.svg) [Std TransformManip](/Std_TransformManip "Std TransformManip") command.
+The properties of a Part Primitive can also be changed in the [Property editor](/Property_editor "Property editor"), and its Data**Placement** can also be changed with the ![](/images/Std_TransformManip.svg) [Std TransformManip](/Std_TransformManip "Std TransformManip") command.
 
 ## Geometric Primitives
 
 The following primitives can be created:
 
-- ![](/src/assets/images/Part_Plane.svg) [Plane](/Part_Plane "Part Plane"): Creates a plane.
-- ![](/src/assets/images/Part_Box.svg) [Box](/Part_Box "Part Box"): Creates a box. This object can also be created with the [Box](/Part_Box "Part Box") tool.
-- ![](/src/assets/images/Part_Cylinder.svg) [Cylinder](/Part_Cylinder "Part Cylinder"): Creates a cylinder. This object can also be created with the [Cylinder](/Part_Cylinder "Part Cylinder") tool.
-- ![](/src/assets/images/Part_Cone.svg) [Cone](/Part_Cone "Part Cone"): Creates a cone. This object can also be created with the [Cone](/Part_Cone "Part Cone") tool.
-- ![](/src/assets/images/Part_Sphere.svg) [Sphere](/Part_Sphere "Part Sphere"): Creates a sphere. This object can also be created with the [Sphere](/Part_Sphere "Part Sphere") tool.
-- ![](/src/assets/images/Part_Ellipsoid.svg) [Ellipsoid](/Part_Ellipsoid "Part Ellipsoid"): Creates a ellipsoid.
-- ![](/src/assets/images/Part_Torus.svg) [Torus](/Part_Torus "Part Torus"): Creates a torus. This object can also be created with the [Torus](/Part_Torus "Part Torus") tool.
-- ![](/src/assets/images/Part_Prism.svg) [Prism](/Part_Prism "Part Prism"): Creates a prism.
-- ![](/src/assets/images/Part_Wedge.svg) [Wedge](/Part_Wedge "Part Wedge"): Creates a wedge.
-- ![](/src/assets/images/Part_Helix.svg) [Helix](/Part_Helix "Part Helix"): Creates a helix.
-- ![](/src/assets/images/Part_Spiral.svg) [Spiral](/Part_Spiral "Part Spiral"): Creates a spiral.
-- ![](/src/assets/images/Part_Circle.svg) [Circle](/Part_Circle "Part Circle"): Creates a circular arc.
-- ![](/src/assets/images/Part_Ellipse.svg) [Ellipse](/Part_Ellipse "Part Ellipse"): Creates an elliptical arc.
-- ![](/src/assets/images/Part_Point.svg) [Point](/Part_Point "Part Point"): Creates a point.
-- ![](/src/assets/images/Part_Line.svg) [Line](/Part_Line "Part Line"): Creates a line.
-- ![](/src/assets/images/Part_RegularPolygon.svg) [Regular polygon](/Part_RegularPolygon "Part RegularPolygon"): Creates a regular polygon.
+- ![](/images/Part_Plane.svg) [Plane](/Part_Plane "Part Plane"): Creates a plane.
+- ![](/images/Part_Box.svg) [Box](/Part_Box "Part Box"): Creates a box. This object can also be created with the [Box](/Part_Box "Part Box") tool.
+- ![](/images/Part_Cylinder.svg) [Cylinder](/Part_Cylinder "Part Cylinder"): Creates a cylinder. This object can also be created with the [Cylinder](/Part_Cylinder "Part Cylinder") tool.
+- ![](/images/Part_Cone.svg) [Cone](/Part_Cone "Part Cone"): Creates a cone. This object can also be created with the [Cone](/Part_Cone "Part Cone") tool.
+- ![](/images/Part_Sphere.svg) [Sphere](/Part_Sphere "Part Sphere"): Creates a sphere. This object can also be created with the [Sphere](/Part_Sphere "Part Sphere") tool.
+- ![](/images/Part_Ellipsoid.svg) [Ellipsoid](/Part_Ellipsoid "Part Ellipsoid"): Creates a ellipsoid.
+- ![](/images/Part_Torus.svg) [Torus](/Part_Torus "Part Torus"): Creates a torus. This object can also be created with the [Torus](/Part_Torus "Part Torus") tool.
+- ![](/images/Part_Prism.svg) [Prism](/Part_Prism "Part Prism"): Creates a prism.
+- ![](/images/Part_Wedge.svg) [Wedge](/Part_Wedge "Part Wedge"): Creates a wedge.
+- ![](/images/Part_Helix.svg) [Helix](/Part_Helix "Part Helix"): Creates a helix.
+- ![](/images/Part_Spiral.svg) [Spiral](/Part_Spiral "Part Spiral"): Creates a spiral.
+- ![](/images/Part_Circle.svg) [Circle](/Part_Circle "Part Circle"): Creates a circular arc.
+- ![](/images/Part_Ellipse.svg) [Ellipse](/Part_Ellipse "Part Ellipse"): Creates an elliptical arc.
+- ![](/images/Part_Point.svg) [Point](/Part_Point "Part Point"): Creates a point.
+- ![](/images/Part_Line.svg) [Line](/Part_Line "Part Line"): Creates a line.
+- ![](/images/Part_RegularPolygon.svg) [Regular polygon](/Part_RegularPolygon "Part RegularPolygon"): Creates a regular polygon.
 
 ## Notes
 
-- The Part Primitives command cannot create a ![](/src/assets/images/Part_Tube.svg) [Part Tube](/Part_Tube "Part Tube").
+- The Part Primitives command cannot create a ![](/images/Part_Tube.svg) [Part Tube](/Part_Tube "Part Tube").
 
 ## Scripting
 

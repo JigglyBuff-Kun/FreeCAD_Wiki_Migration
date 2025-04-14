@@ -32,7 +32,7 @@ This macro converts selected parts to VRML meshes for small size and faster load
 
 ## Script
 
-The icone ![](/src/assets/images/PartToVRML.png)
+The icone ![](/images/PartToVRML.png)
 
 **Macro_PartToVRML.FCMacro**
 

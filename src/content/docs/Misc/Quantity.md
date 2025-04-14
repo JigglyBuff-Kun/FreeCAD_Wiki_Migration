@@ -24,7 +24,7 @@ The detailed specifications you will find in the code:
 
 All physical units can be expressed as a combination of the seven [SI-Units](http://en.wikipedia.org/wiki/International_System_of_Units):
 
-![](/src/assets/images/SI-Derived-Units.jpg)
+![](/images/SI-Derived-Units.jpg)
 
 An easy way to express a unit is an integer array of size 7 (number of base units) that defines what the unit is.
 The signature of the 7 base units are:

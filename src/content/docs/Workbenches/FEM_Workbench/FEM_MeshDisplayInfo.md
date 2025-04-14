@@ -46,7 +46,7 @@ Displays basic statistics of existing mesh - number of nodes and elements of eac
 
 1. Create finite element mesh first (using one of the available techniques).
 2. Select the mesh in the [Tree view](/Tree_view "Tree view").
-3. Right click on it and choose the ![](/src/assets/images/FEM_MeshDisplayInfo.svg) [Display FEM mesh info](/FEM_MeshDisplayInfo "FEM MeshDisplayInfo") option.
+3. Right click on it and choose the ![](/images/FEM_MeshDisplayInfo.svg) [Display FEM mesh info](/FEM_MeshDisplayInfo "FEM MeshDisplayInfo") option.
 4. To close the FEM Mesh Info window, click OK.
 
 ## Scripting

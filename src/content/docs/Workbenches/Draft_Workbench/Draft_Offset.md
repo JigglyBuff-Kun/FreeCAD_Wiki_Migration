@@ -19,9 +19,9 @@ title: Draft Offset
 
 ## Description
 
-The ![](/src/assets/images/Draft_Offset.svg) **Draft Offset** command offsets each segment of a selected object over a given distance, or creates an offset copy of the selected object.
+The ![](/images/Draft_Offset.svg) **Draft Offset** command offsets each segment of a selected object over a given distance, or creates an offset copy of the selected object.
 
-![](/src/assets/images/Draft_Offset_example.jpg)
+![](/images/Draft_Offset_example.jpg)
 
 Offsetting a Draft Wire
 
@@ -31,9 +31,9 @@ See also: [Draft Snap](/Draft_Snap "Draft Snap") and [Draft Constrain](/Draft_Co
 
 1. Optionally select one object. The object must lie on the current [Draft working plane](/Draft_SelectPlane "Draft SelectPlane").
 2. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/Draft_Offset.svg) [Offset](/Draft_Offset "Draft Offset") button.
-   - [Draft](/Draft_Workbench "Draft Workbench"): Select the **Modification → ![](/src/assets/images/Draft_Offset.svg) Offset** option from the menu.
-   - [BIM](/BIM_Workbench "BIM Workbench"): Select the **Modify → ![](/src/assets/images/Draft_Offset.svg) Offset** option from the menu.
+   - Press the ![](/images/Draft_Offset.svg) [Offset](/Draft_Offset "Draft Offset") button.
+   - [Draft](/Draft_Workbench "Draft Workbench"): Select the **Modification → ![](/images/Draft_Offset.svg) Offset** option from the menu.
+   - [BIM](/BIM_Workbench "BIM Workbench"): Select the **Modify → ![](/images/Draft_Offset.svg) Offset** option from the menu.
    - Use the keyboard shortcut: O then S.
 3. If you have not yet selected an object: select an object in the [3D view](/3D_view "3D view").
 4. The **Offset** task panel opens. See [Options](#Options) for more information.

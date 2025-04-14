@@ -28,8 +28,8 @@ Creates a FEM boundary condition for the current density. To be used together wi
 ## Usage
 
 1. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/FEM_ConstraintCurrentDensity.svg) [Current density boundary condition](/FEM_ConstraintCurrentDensity "FEM ConstraintCurrentDensity") button.
-   - Select the **Model → Electromagnetic boundary conditions → ![](/src/assets/images/FEM_ConstraintCurrentDensity.svg) Current density boundary condition** option from the menu.
+   - Press the ![](/images/FEM_ConstraintCurrentDensity.svg) [Current density boundary condition](/FEM_ConstraintCurrentDensity "FEM ConstraintCurrentDensity") button.
+   - Select the **Model → Electromagnetic boundary conditions → ![](/images/FEM_ConstraintCurrentDensity.svg) Current density boundary condition** option from the menu.
 2. Press the Add button.
 3. In the [3D view](/3D_view "3D view") select the object the boundary condition should be applied to.
 
@@ -37,7 +37,7 @@ Creates a FEM boundary condition for the current density. To be used together wi
 
 The dialog offers the following settings:
 
-![](/src/assets/images/FEM_CurrentDensity_dialog.png)
+![](/images/FEM_CurrentDensity_dialog.png)
 
 - **Mode** - [introduced in 1.1](/Release_notes_1.1 "Release notes 1.1"): To choose between Custom (selected directions) and Normal (normal direction) mode.
 - **Current density\_\*\_1**: The real/imaginary part of the current density in x-direction in A/m².  

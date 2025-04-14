@@ -32,7 +32,7 @@ Dieser Code war Teil des [Draft Module](/Draft_Workbench/de "Draft Workbench/de"
 
 ## Skript
 
-Werkzeugleistensymbol ![](/src/assets/images/Macro_MacroMenu.png)
+Werkzeugleistensymbol ![](/images/Macro_MacroMenu.png)
 
 **Macro_MacroMenu.FCMacro**
 

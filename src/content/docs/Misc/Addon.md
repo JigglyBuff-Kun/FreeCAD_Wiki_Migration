@@ -16,7 +16,7 @@ There are three types of addons:
 
 ## Installation
 
-The recommended way to install addons is with the ![](/src/assets/images/Std_AddonMgr.svg) [Addon Manager](/Std_AddonMgr "Std AddonMgr").
+The recommended way to install addons is with the ![](/images/Std_AddonMgr.svg) [Addon Manager](/Std_AddonMgr "Std AddonMgr").
 
 But for macros and workbenches manual installation is also possible:
 

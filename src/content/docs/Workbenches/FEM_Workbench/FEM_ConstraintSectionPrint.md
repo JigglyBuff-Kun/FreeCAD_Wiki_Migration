@@ -30,8 +30,8 @@ Prints the predefined facial output variables (forces and moments) to the data f
 ## Usage
 
 1. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/FEM_ConstraintSectionPrint.svg) [Section print feature](/FEM_ConstraintSectionPrint "FEM ConstraintSectionPrint") button.
-   - Select the **Model → Geometrical analysis features → ![](/src/assets/images/FEM_ConstraintSectionPrint.svg) Section print feature** option from the menu.
+   - Press the ![](/images/FEM_ConstraintSectionPrint.svg) [Section print feature](/FEM_ConstraintSectionPrint "FEM ConstraintSectionPrint") button.
+   - Select the **Model → Geometrical analysis features → ![](/images/FEM_ConstraintSectionPrint.svg) Section print feature** option from the menu.
 2. Press the Add button and select a single face for which the output will be printed.
 3. [introduced in 1.0](/Release_notes_1.0 "Release notes 1.0"): From the _Variable_ list, select the variable that you want to print: _Section Force_, _Heat Flux_ or _Drag Stress_.
 

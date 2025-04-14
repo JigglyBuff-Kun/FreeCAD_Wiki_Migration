@@ -19,16 +19,16 @@ title: Part JoinEmbed
 
 ## Description
 
-The ![](/src/assets/images/Part_JoinEmbed.svg) **Part JoinEmbed** tool embeds a walled object (e.g. a pipe) into another walled object.
+The ![](/images/Part_JoinEmbed.svg) **Part JoinEmbed** tool embeds a walled object (e.g. a pipe) into another walled object.
 
-![](/src/assets/images/JoinFeatures_Embed.png)
+![](/images/JoinFeatures_Embed.png)
 
 ## Usage
 
 1. Select the base object first, then the object to be embedded. The order of selection is important. It is enough to select one sub-shape of each object (e.g. faces).
 2. There are several ways to invoke the tool:
-   - Press the ![](/src/assets/images/Part_JoinEmbed.svg) [Embed object](/Part_JoinEmbed "Part JoinEmbed") button.
-   - Select the **Part → Join → ![](/src/assets/images/Part_JoinEmbed.svg) Embed object** option from the menu.
+   - Press the ![](/images/Part_JoinEmbed.svg) [Embed object](/Part_JoinEmbed "Part JoinEmbed") button.
+   - Select the **Part → Join → ![](/images/Part_JoinEmbed.svg) Embed object** option from the menu.
 3. A Part JoinFeature object is created, with Mode set to 'Embed'. Original objects are hidden, and the result of embedding is shown in the [3D view](/3D_view "3D view").
 
 ## Properties
@@ -43,13 +43,13 @@ Base
 ## Example
 
 1. Create a pipe by applying [thickness](/Part_Thickness "Part Thickness") to a [cylinder](/Part_Cylinder "Part Cylinder"):  
-   ![](/src/assets/images/JoinFeatures_Example_step1.png)
+   ![](/images/JoinFeatures_Example_step1.png)
 2. Create another, smaller diameter pipe, and [place](/Placement "Placement") it so that it pierces the wall of the first pipe:  
-   ![](/src/assets/images/JoinFeatures_Example_step2.png)
+   ![](/images/JoinFeatures_Example_step2.png)
 3. Select the first pipe, then the second pipe (order of selection is important), and click the 'Embed object' option from the Join tools dropdown toolbar button.  
-   ![](/src/assets/images/JoinFeatures_Example_step3_Embed.png)
+   ![](/images/JoinFeatures_Example_step3_Embed.png)
 4. Use some cross-section tool ([Clipping plane](/Std_ToggleClipPlane "Std ToggleClipPlane"), [Arch Section Plane](/Arch_SectionPlane "Arch SectionPlane"), [Arch Cut Plane](/Arch_CutPlane "Arch CutPlane")) to reveal internals. On the picture below, Arch Section Plane is used.  
-   ![](/src/assets/images/JoinFeatures_Example_step4_Embed.png)
+   ![](/images/JoinFeatures_Example_step4_Embed.png)
 
 ## Algorithm
 
@@ -63,7 +63,7 @@ The algorithms behind Join tools are quite simple, and understanding them is imp
 
 4. If Refine property is true, the resulting shape is [refined](/Part_RefineShape "Part RefineShape").
 
-![](/src/assets/images/JoinFeatures-Algo-Embed.png)
+![](/images/JoinFeatures-Algo-Embed.png)
 
 ### Notes
 

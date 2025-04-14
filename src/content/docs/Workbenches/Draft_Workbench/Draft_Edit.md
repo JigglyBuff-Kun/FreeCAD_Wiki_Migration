@@ -19,9 +19,9 @@ title: Draft Edit
 
 ## Description
 
-The ![](/src/assets/images/Draft_Edit.svg) **Draft Edit** command puts selected objects in Draft Edit mode. In this mode the properties of objects can be edited graphically. Typically nodes can be moved and in some cases context menu options can be selected. The command can handle most Draft objects, but also some other objects. See [Supported objects](#Supported_objects). Supported Draft objects can also be put in Draft Edit mode with the [Std Edit](/Std_Edit "Std Edit") command.
+The ![](/images/Draft_Edit.svg) **Draft Edit** command puts selected objects in Draft Edit mode. In this mode the properties of objects can be edited graphically. Typically nodes can be moved and in some cases context menu options can be selected. The command can handle most Draft objects, but also some other objects. See [Supported objects](#Supported_objects). Supported Draft objects can also be put in Draft Edit mode with the [Std Edit](/Std_Edit "Std Edit") command.
 
-![](/src/assets/images/Draft_Edit_example.png)
+![](/images/Draft_Edit_example.png)
 
 4 objects in Draft Edit mode: a Draft Wire (red), a Draft Arc (black), a Draft BSpline (green) and a Draft BezCurve (magenta)
 
@@ -32,8 +32,8 @@ See also: [Draft Snap](/Draft_Snap "Draft Snap") and [Draft Constrain](/Draft_Co
 1. Optionally select one or more objects. Note that although multiple objects can be in Draft Edit mode, objects can only be edited one at a time.
 2. There are several ways to invoke the command:
    - If you have not yet selected an object: double-click an object in the [Tree view](/Tree_view "Tree view"). This only works for supported Draft objects.
-   - Press the ![](/src/assets/images/Draft_Edit.svg) [Edit](/Draft_Edit "Draft Edit") button.
-   - Select the **Modification → ![](/src/assets/images/Draft_Edit.svg) Edit** option from the menu.
+   - Press the ![](/images/Draft_Edit.svg) [Edit](/Draft_Edit "Draft Edit") button.
+   - Select the **Modification → ![](/images/Draft_Edit.svg) Edit** option from the menu.
    - Use the keyboard shortcut: D then E.
    - For a single object: select the **Edit** option from the [Tree view](/Tree_view "Tree view") context menu. This only works for supported Draft objects. [introduced in 0.21](/Release_notes_0.21 "Release notes 0.21")
 3. If you have not yet selected an object: select an object in the [3D view](/3D_view "3D view").
@@ -47,11 +47,11 @@ See also: [Draft Snap](/Draft_Snap "Draft Snap") and [Draft Constrain](/Draft_Co
    - Select an option from the context menu.
    - If the selected option requires point input:
      - The [Edit node task panel](#Edit_node_task_panel) opens. See [Options](#Options) for more information.
-     - Pick a point in the [3D view](/3D_view "3D view"), or type coordinates and press the ![](/src/assets/images/Draft_AddPoint.svg) Enter point button.
+     - Pick a point in the [3D view](/3D_view "3D view"), or type coordinates and press the ![](/images/Draft_AddPoint.svg) Enter point button.
 6. Optionally move a node:
    - Click the node in the [3D view](/3D_view "3D view").
    - The [Edit node task panel](#Edit_node_task_panel) opens. See [Options](#Options) for more information.
-   - Pick a point in the [3D view](/3D_view "3D view"), or type coordinates and press the ![](/src/assets/images/Draft_AddPoint.svg) Enter point button.
+   - Pick a point in the [3D view](/3D_view "3D view"), or type coordinates and press the ![](/images/Draft_AddPoint.svg) Enter point button.
    - The result depends on the object and the selected node.
 7. Press Esc or the Close button (the button at the top of the task panel, without the image) to finish the command.
 
@@ -65,7 +65,7 @@ The single character keyboard shortcuts available in the task panel can be chang
 
 ### Edit node task panel
 
-- To manually enter coordinates enter the X, Y and Z component, and press Enter after each. Or you can press the ![](/src/assets/images/Draft_AddPoint.svg) Enter point button when you have the desired values. It is advisable to move the pointer out of the [3D view](/3D_view "3D view") before entering coordinates.
+- To manually enter coordinates enter the X, Y and Z component, and press Enter after each. Or you can press the ![](/images/Draft_AddPoint.svg) Enter point button when you have the desired values. It is advisable to move the pointer out of the [3D view](/3D_view "3D view") before entering coordinates.
 - To use polar coordinates enter a value for the **Length** and a value for the **Angle**, and press Enter after each.
 - Check the **Angle** checkbox to constrain the pointer to the specified angle.
 - Press R or click the **Relative** checkbox to toggle relative mode. If relative mode is on, the coordinates of the picked point are relative to the original point, else they are relative to the coordinate system origin. [introduced in 1.0](/Release_notes_1.0 "Release notes 1.0")

@@ -25,8 +25,8 @@ Der Befehl **Std TransparenzmodusUmschalten** schaltet die Transparenz von ausge
 
 1. Ein oder mehrere Objekte auswählen.
 2. Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
-   - Den Menüeintrag **Ansicht → ![](/src/assets/images/Std_ToggleTransparency.svg) Transparenzmodus umschalten** auswählen.
-   - Die Menüoption **![](/src/assets/images/Std_ToggleTransparency.svg) Transparenzmodus umschalten** im Kontextmenü der [Baumansicht](/Tree_view/de "Tree view/de") oder der [3D-Ansicht](/3D_view/de "3D view/de") auswählen.
+   - Den Menüeintrag **Ansicht → ![](/images/Std_ToggleTransparency.svg) Transparenzmodus umschalten** auswählen.
+   - Die Menüoption **![](/images/Std_ToggleTransparency.svg) Transparenzmodus umschalten** im Kontextmenü der [Baumansicht](/Tree_view/de "Tree view/de") oder der [3D-Ansicht](/3D_view/de "3D view/de") auswählen.
    - Das Tastaturkürzel V dann T.
 3. Objekte, die transparent waren (1% oder mehr) werden opak. Opake Objekte werden zu 70% transparent.
 

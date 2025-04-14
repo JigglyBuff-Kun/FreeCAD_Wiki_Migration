@@ -24,16 +24,16 @@ The **Mesh BuildRegularSolid** command creates a regular parametric solid mesh o
 ## Usage
 
 1. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/Mesh_BuildRegularSolid.svg) [Regular solid...](/Mesh_BuildRegularSolid "Mesh BuildRegularSolid") button.
-   - Select the **Meshes → ![](/src/assets/images/Mesh_BuildRegularSolid.svg) Regular solid...** option from the menu.
+   - Press the ![](/images/Mesh_BuildRegularSolid.svg) [Regular solid...](/Mesh_BuildRegularSolid "Mesh BuildRegularSolid") button.
+   - Select the **Meshes → ![](/images/Mesh_BuildRegularSolid.svg) Regular solid...** option from the menu.
 2. The **Regular Solid** dialog box opens.
 3. First select a mesh object type from the dropdown list:
-   - **![](/src/assets/images/Mesh_Cube.svg) Cube**
-   - **![](/src/assets/images/Mesh_Cylinder.svg) Cylinder**
-   - **![](/src/assets/images/Mesh_Cone.svg) Cone**
-   - **![](/src/assets/images/Mesh_Sphere.svg) Sphere**
-   - **![](/src/assets/images/Mesh_Ellipsoid.svg) Ellipsoid**
-   - **![](/src/assets/images/Mesh_Torus.svg) Torus**
+   - **![](/images/Mesh_Cube.svg) Cube**
+   - **![](/images/Mesh_Cylinder.svg) Cylinder**
+   - **![](/images/Mesh_Cone.svg) Cone**
+   - **![](/images/Mesh_Sphere.svg) Sphere**
+   - **![](/images/Mesh_Ellipsoid.svg) Ellipsoid**
+   - **![](/images/Mesh_Torus.svg) Torus**
 4. Specify the required settings. The available settings depend on the mesh object type. See [Properties](#Properties).
 5. For meshes with curved surfaces: a higher **Sampling** value results in a finer mesh.
 6. Press the Create button to create the mesh object.

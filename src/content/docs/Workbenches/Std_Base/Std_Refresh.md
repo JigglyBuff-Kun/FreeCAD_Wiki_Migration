@@ -24,13 +24,13 @@ The **Std Refresh** command recomputes the active document. The command is disab
 ## Usage
 
 1. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/Std_Refresh.svg) [Refresh](/Std_Refresh "Std Refresh") button.
-   - Select the **Edit → ![](/src/assets/images/Std_Refresh.svg) Refresh** option from the menu.
+   - Press the ![](/images/Std_Refresh.svg) [Refresh](/Std_Refresh "Std Refresh") button.
+   - Select the **Edit → ![](/images/Std_Refresh.svg) Refresh** option from the menu.
    - Use the keyboard shortcut: F5.
 
 ## Options
 
-- To force a recompute select the document or one or more objects in the [Tree view](/Tree_view "Tree view"), choose the **![](/src/assets/images/Std_MarkToRecompute.svg) Mark to recompute** option from the context menu, and invoke the command.
+- To force a recompute select the document or one or more objects in the [Tree view](/Tree_view "Tree view"), choose the **![](/images/Std_MarkToRecompute.svg) Mark to recompute** option from the context menu, and invoke the command.
 - For objects, but not for documents, you can also choose **Recompute object** from the same context menu.
 
 ## Notes

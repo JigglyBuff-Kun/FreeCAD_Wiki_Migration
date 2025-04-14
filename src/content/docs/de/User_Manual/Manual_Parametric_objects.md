@@ -8,11 +8,11 @@ In FreeCAD sind parametrische Objekte im Prinzip kleine programmierbare Skripte,
 
 Als Beispiel stellen wir uns ein würfelförmiges Objekt vor, das durch parametrisches Modellieren erstellt wird. Wir starten mit einer grundlegenden rechteckigen 2D-Form, die Platte genannt wird, mit der Länge l und der Breite w. Diese Skizze legt die Basis unseres würfelförmigen Objekts fest. Als nächstes wird ein Arbeitsschritt zum Extrudieren festgelegt, bei dem eine Länge bestimmt wird, mit der eine Skizze zu einem 3D-Objekt ausgezogen oder aus einem 3D-Objekt herausgezogen wird. Dies ergibt eine würfelförmige Form, die auf der Form der Skizze und auf der angegebenen Extrusionslänge basiert.
 
-![](/src/assets/images/FreeCAD_022_PArametricDesignPlate.png)
+![](/images/FreeCAD_022_PArametricDesignPlate.png)
 
 Auf der Oberseite der Platte skizziere einen Kreis mit einem bestimmten Durchmesser d. Anschließend verwende diesen Kreis, um aus der Originalplatte eine Tasche zu erstellen (Material zu entfernen).
 
-![](/src/assets/images/FreeCAD_022_ParametricDesignPocket.png)
+![](/images/FreeCAD_022_ParametricDesignPocket.png)
 
 Wenn du dich entscheidest, die Abmessungen der Platte oder des Kreises zu ändern, wird das endgültige Objekt ebenfalls geändert. Dank der Verwendung eines parametrischen Designansatzes ist es nicht erforderlich, das Objekt von Anfang an neu zu erstellen.
 
@@ -25,7 +25,7 @@ Anschließend wird auf der neu geformten Oberfläche eine „Kreisskizze“ entw
 
 Durch diese Abfolge von Vorgängen – ausgehend von der Basisskizze, Hinzufügen von Volumen mit einem Pad und Erstellen detaillierter Merkmale mit zusätzlichen Skizzen und Taschen – nimmt das endgültige Objekt Gestalt an. Jeder Schritt in dieser Kette hängt von seinem Vorgänger ab und veranschaulicht die vernetzte Natur des parametrischen Designs in FreeCAD.
 
-![](/src/assets/images/FreeCAD_022_ParametricDesignDependGraph.png)
+![](/images/FreeCAD_022_ParametricDesignDependGraph.png)
 
 Nicht alle Objekte in FreeCAD sind parametrisch. Häufig enthält die Geometrie, die aus anderen Dateien importiert wird, keine Parameter und es handelt sich um einfache, nicht-parametrische Objekte. Diese können jedoch oft als Basis oder Ausgangspunkt für neu erstellte parametrische Objekte verwendet werden, was natürlich davon abhängt, was das parametrische Objekt benötigt und von der Qualität der importierten Geometrie.
 

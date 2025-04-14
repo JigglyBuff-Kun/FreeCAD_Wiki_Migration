@@ -21,17 +21,17 @@ title: PartDesign Plane
 
 Creates a **datum plane** which can be used as reference for sketches or other datum geometry. Sketches can be attached to datum planes.
 
-![](/src/assets/images/Datum_plane.png)
+![](/images/Datum_plane.png)
 
 _Datum Plane crossing 3 corners of the Cube with a Cylinder sketched on it using the Datum Plane as its X-Y Plane._
 
 ## Prerequisites
 
-A datum plane can only be created inside of a ![](/src/assets/images/PartDesign_Body.svg) [Body](/PartDesign_Body "PartDesign Body"). Every body has an origin, which is hidden by default. To be able to refer to the origin base planes, make the the origin visible. You can do this before creating a datum plane.
+A datum plane can only be created inside of a ![](/images/PartDesign_Body.svg) [Body](/PartDesign_Body "PartDesign Body"). Every body has an origin, which is hidden by default. To be able to refer to the origin base planes, make the the origin visible. You can do this before creating a datum plane.
 
 ## Usage
 
-1. Press the ![](/src/assets/images/PartDesign_Plane.svg) [Create a datum plane](/PartDesign_Plane "PartDesign Plane") button.
+1. Press the ![](/images/PartDesign_Plane.svg) [Create a datum plane](/PartDesign_Plane "PartDesign Plane") button.
 2. Define Plane parameters. Select a first reference in the 3D view to filter the available [attachment](/Part_EditAttachment "Part EditAttachment") modes.
 3. Depending on the selected reference, there may be one or more attachment modes available in the the list. The most likely one will automatically be selected and shown in bold in the list. The text _Attached with mode_ along with the attachment mode name will appear in green at the top of the Parameters panel.
 4. To add an additional reference, press the next Reference button. Once pressed its label changes to _Selecting..._ until a selection is made.

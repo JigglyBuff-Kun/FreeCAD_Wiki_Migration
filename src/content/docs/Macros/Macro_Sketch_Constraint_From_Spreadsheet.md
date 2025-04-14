@@ -34,7 +34,7 @@ Macro which, with a simple click on a spreadsheet cell, adds a length constraint
 
 Just select 1 line, 2 points or a constraint, click on a spreadsheet cell and run the macro. You can select lines, points at the ends of a line, points, circles or arcs of circles.
 
-![](/src/assets/images/SketchConstraintFromSpreadsheet1.gif)
+![](/images/SketchConstraintFromSpreadsheet1.gif)
 
 Temporary code for external macro link. Do not use this code. This code is used exclusively by [Addon Manager](/Std_AddonMgr "Std AddonMgr"). _Link for optional manual installation: [Macro](https://raw.githubusercontent.com/2cv001/FreeCAD-macros/master/Spreadsheet/Sketch_Constraint_From_Spreadsheet.FCMacro)_
 
@@ -72,7 +72,7 @@ webbrowser.open("https://raw.githubusercontent.com/2cv001/FreeCAD-macros/master/
 
 If you run the macro and have not yet created a spreadsheet, a body or a sketch, the macro suggests to create one and then opens the sketch in edition mode and the spreadsheet so that you can start filling it.
 
-![](/src/assets/images/SketchConstraintFromSpreadsheet7.gif)
+![](/images/SketchConstraintFromSpreadsheet7.gif)
 
 ### Automatic Alias creation
 
@@ -86,18 +86,18 @@ Two modes:
 
 An automatic mode where alias are automatically created using a text zone defined by a cell. The zone includes the cell and those below. These texts correspond to the alias name. The alias is created to the right of its text. The designated cell (here A3) is editable in these dialog boxes:
 
-![Alias automatic creation](/src/assets/images/SketchConstraintFromSpreadsheet2302.png)
+![Alias automatic creation](/images/SketchConstraintFromSpreadsheet2302.png)
 
-![Alias automatic creation](/src/assets/images/SketchConstraintFromSpreadsheet2303.png)
-![Alias automatic creation](/src/assets/images/SketchConstraintFromSpreadsheet2304.gif)
+![Alias automatic creation](/images/SketchConstraintFromSpreadsheet2303.png)
+![Alias automatic creation](/images/SketchConstraintFromSpreadsheet2304.gif)
 
 #### Manual mode
 
 To use manual mode don't check the "Automatic alias" option.
 
-![Alias creation](/src/assets/images/SketchConstraintFromSpreadsheet2301.png)
+![Alias creation](/images/SketchConstraintFromSpreadsheet2301.png)
 
-![Alias creation](/src/assets/images/SketchConstraintFromSpreadsheet8.gif)
+![Alias creation](/images/SketchConstraintFromSpreadsheet8.gif)
 
 ### Constraints creation
 
@@ -107,42 +107,42 @@ To use manual mode don't check the "Automatic alias" option.
 - two points (end of a line, center of a circle, etc.)
 - or a length constraint.
 
-![](/src/assets/images/SelectPoints.png)
+![](/images/SelectPoints.png)
 
 2. Click on a spreadsheet cell, with or without an alias, that has a numerical value:
 
-![](/src/assets/images/Capture1.png)
+![](/images/Capture1.png)
 
 3. Run the macro.
 
 4. Select the desired type of constraint:
 
-![](/src/assets/images/Choose_type_of_constraint.png)
+![](/images/Choose_type_of_constraint.png)
 
 If the cell has an alias, the length property of the constraint will be something like 'Spreadsheet.alias'. Otherwise, something like 'Spreadsheet.D4'.
 
-![](/src/assets/images/If_the_spreadsheet_has_an_alias.png)
+![](/images/If_the_spreadsheet_has_an_alias.png)
 
 5. If the constraint causes a conflict in the sketch and the "conflict detection" box is checked, the macro will offer to delete the new constraint:
 
-![](/src/assets/images/SketchConstraintFromSpreadsheet3.gif)
+![](/images/SketchConstraintFromSpreadsheet3.gif)
 
 If you select an existing constraint, you can change its value for a value from a spreadsheet:
 
-![](/src/assets/images/SketchConstraintFromSpreadsheet2.gif)
-![](/src/assets/images/SketchConstraintFromSpreadsheet4.gif)
+![](/images/SketchConstraintFromSpreadsheet2.gif)
+![](/images/SketchConstraintFromSpreadsheet4.gif)
 
 The macro can also handle external geometry from another sketch:
 
-![](/src/assets/images/SketchConstraintFromSpreadsheet9.gif)
+![](/images/SketchConstraintFromSpreadsheet9.gif)
 
 To make things even more refined, if, for example, a line is horizontal rather than vertical, when the dialogue box opens, the focus will be on the button for apply a horizontal constraint. If the line is vertical rather than horizontal, the focus will be on the button to apply a vertical constraint. In both cases, simply press the enter key if you are happy with this choice.
 
-![](/src/assets/images/SketchConstraintFromSpreadsheet5.gif)
+![](/images/SketchConstraintFromSpreadsheet5.gif)
 
 The macro also works for Objects properties. If you click, for example, on the Length property of a Pad, and then on a cell with the desired value, the Length property of the pad is automatically modified.
 
-![](/src/assets/images/SketchConstraintFromSpreadsheetchangePropertyPad.gif)
+![](/images/SketchConstraintFromSpreadsheetchangePropertyPad.gif)
 
 You can use formulas.
 
@@ -150,7 +150,7 @@ Principle: The macro transforms the alias before inserting it into the parameter
 
 Example of usage:
 
-![](/src/assets/images/SketchConstraintFromSpreadsheetcformulaMult.gif)
+![](/images/SketchConstraintFromSpreadsheetcformulaMult.gif)
 
 If your alias is: radius_f\_\_mul_2_plu_1  
 The expression will be:  
@@ -193,7 +193,7 @@ Thanks to L'ami René for tests and ideas.
 
 ## Script
 
-ToolBar Icon ![](/src/assets/images/Macro_Sketch_Constraint_From_Spreadsheet.svg)
+ToolBar Icon ![](/images/Macro_Sketch_Constraint_From_Spreadsheet.svg)
 
 ### Code
 
@@ -201,7 +201,7 @@ ver 02.02 2025/03/30 by 2cv001 **Macro_Sketch_Constraint_From_Spreadsheet.FCMacr
 
 #### Download
 
-[![](/src/assets/images/Nuvola_apps_download_manager.png)](https://raw.githubusercontent.com/2cv001/FreeCAD-macros/master/Spreadsheet/Sketch_Constraint_From_Spreadsheet.FCMacro)
+[![](/images/Nuvola_apps_download_manager.png)](https://raw.githubusercontent.com/2cv001/FreeCAD-macros/master/Spreadsheet/Sketch_Constraint_From_Spreadsheet.FCMacro)
 
 [Download latest version of the macro](https://raw.githubusercontent.com/2cv001/FreeCAD-macros/master/Spreadsheet/Sketch_Constraint_From_Spreadsheet.FCMacro)
 

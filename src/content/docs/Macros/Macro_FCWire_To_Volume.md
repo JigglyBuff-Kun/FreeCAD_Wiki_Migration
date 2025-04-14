@@ -30,47 +30,47 @@ title: FCWire To Volume
 
 This macro create on object boolean with the object Draft selected.
 
-![](/src/assets/images/Macro_FCWire_To_Volume_01.png)
+![](/images/Macro_FCWire_To_Volume_01.png)
 
 ## Uses
 
 Select the wires objects, enter the thickness choice the operation desired and click the button Create. Push the 2d button for create the boolean operation to 2D wire.
 
-![](/src/assets/images/Macro_FCWire_To_Volume_00.png)
+![](/images/Macro_FCWire_To_Volume_00.png)
 
 ### Thickness Solide
 
-- SpinBox ![](/src/assets/images/SpinBox.svg) : Give the thickness
+- SpinBox ![](/images/SpinBox.svg) : Give the thickness
 
 ### Choice
 
 #### Boolean
 
-![](/src/assets/images/RadioButtonTrue.svg) Intersection : Boolean operation
+![](/images/RadioButtonTrue.svg) Intersection : Boolean operation
 
-![](/src/assets/images/RadioButtonFalse.svg) Substraction : Boolean operation
+![](/images/RadioButtonFalse.svg) Substraction : Boolean operation
 
-![](/src/assets/images/RadioButtonFalse.svg) Union : Boolean operation
+![](/images/RadioButtonFalse.svg) Union : Boolean operation
 
-![](/src/assets/images/RadioButtonFalse.svg) Xor : Boolean operation
+![](/images/RadioButtonFalse.svg) Xor : Boolean operation
 
 #### Axis
 
-![](/src/assets/images/RadioButtonFalse.svg) X Axis : Axis X
+![](/images/RadioButtonFalse.svg) X Axis : Axis X
 
-![](/src/assets/images/RadioButtonFalse.svg) Y Axis : Axis Y
+![](/images/RadioButtonFalse.svg) Y Axis : Axis Y
 
-![](/src/assets/images/RadioButtonTrue.svg) Z Axis : Axis Z (default)
+![](/images/RadioButtonTrue.svg) Z Axis : Axis Z (default)
 
-![](/src/assets/images/RadioButtonFalse.svg) Direction : (Not functional Later)
+![](/images/RadioButtonFalse.svg) Direction : (Not functional Later)
 
 #### Option
 
-![](/src/assets/images/CheckBoxTrue.svg) Single object : If the checkBox is checked the object is on single object, if not the object created conserve the hierarchy of the construction the object
+![](/images/CheckBoxTrue.svg) Single object : If the checkBox is checked the object is on single object, if not the object created conserve the hierarchy of the construction the object
 
-![](/src/assets/images/CheckBoxTrue.svg) Hidden : The original object are hidden
+![](/images/CheckBoxTrue.svg) Hidden : The original object are hidden
 
-![](/src/assets/images/CheckBoxFalse.svg) Color : If it checked the object resultant is coloured in red
+![](/images/CheckBoxFalse.svg) Color : If it checked the object resultant is coloured in red
 
 #### Command
 
@@ -86,7 +86,7 @@ Select the wires objects, enter the thickness choice the operation desired and c
 
 Copy the macro in your macro folder.
 
-The icon for the tool bar ![](/src/assets/images/Macro_FCWire_To_Volume.png)
+The icon for the tool bar ![](/images/Macro_FCWire_To_Volume.png)
 
 **Macro_FCWire_To_Volume.FCMacro**
 
@@ -634,23 +634,23 @@ MainWindow.show()
 
 ## Exemple
 
-- ![Example 3D](/src/assets/images/Macro_FCWire_To_Volume_01.png)
+- ![Example 3D](/images/Macro_FCWire_To_Volume_01.png)
 
   Example 3D
 
-- ![Example 2D](/src/assets/images/Macro_FCWire_To_Volume_02.png)
+- ![Example 2D](/images/Macro_FCWire_To_Volume_02.png)
 
   Example 2D
 
-- ![Common](/src/assets/images/Macro_FCWire_To_Volume_03.png)
+- ![Common](/images/Macro_FCWire_To_Volume_03.png)
 
   Common
 
-- ![Example 2D](/src/assets/images/Macro_FCWire_To_Volume_04.png)
+- ![Example 2D](/images/Macro_FCWire_To_Volume_04.png)
 
   Example 2D
 
-- ![Union](/src/assets/images/Macro_FCWire_To_Volume_05.png)
+- ![Union](/images/Macro_FCWire_To_Volume_05.png)
 
   Union
 

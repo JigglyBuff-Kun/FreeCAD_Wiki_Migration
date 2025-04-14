@@ -23,7 +23,7 @@ Der Befehl **Mesh Schnitt** erstellt ein neues, nicht parametrisches Netzobjekt,
 
 [OpenSCAD](http://www.openscad.org/) muss installiert sein, um diesen Befehl zu verwenden und der Pfad zu seiner ausführbaren Datei muss in den Einstellungen von [OpenSCAD](/OpenSCAD_Preferences/de "OpenSCAD Preferences/de") eingetragen sein.
 
-![](/src/assets/images/Mesh_Intersection_example.png)
+![](/images/Mesh_Intersection_example.png)
 
 Links zwei Netzobjekte, rechts das Schnittobjekt beider Netzobjekte
 
@@ -31,8 +31,8 @@ Links zwei Netzobjekte, rechts das Schnittobjekt beider Netzobjekte
 
 1. Zwei oder mehr Netzobjekte, die sich teilweise überlappen, auswählen.
 2. Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
-   - Die Schaltfläche ![](/src/assets/images/Mesh_Intersection.svg) Schnitt drücken.
-   - Den Menüeintrag **Netze → Boolesche Verknüpfungen → ![](/src/assets/images/Mesh_Intersection.svg) Schnitt** auswählen.
+   - Die Schaltfläche ![](/images/Mesh_Intersection.svg) Schnitt drücken.
+   - Den Menüeintrag **Netze → Boolesche Verknüpfungen → ![](/images/Mesh_Intersection.svg) Schnitt** auswählen.
 
 ## Eigenschaften
 

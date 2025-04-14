@@ -26,7 +26,7 @@ Note that if a whole object falls inside the rectangle, the object itself, inste
 ## Anwendung
 
 1. Es gibt mehrere Wege, den Befehl aufzurufen:
-   - Den Menüeintrag **Bearbeiten → ![](/src/assets/images/Std_BoxElementSelection.svg) Box-Element Auswahl** auswählen.
+   - Den Menüeintrag **Bearbeiten → ![](/images/Std_BoxElementSelection.svg) Box-Element Auswahl** auswählen.
    - Das Tastaturkürzel: Shift+E.
 2. Eine der folgenden Möglichkeiten auswählen:
    - Ein Rechteck von links nach rechts aufziehen, um Flächen auszuwählen, deren geometrische Mittelpunkte im Rechteck liegen.

@@ -45,7 +45,7 @@ A variable may be removed from the watch list by right-clicking over it or it's 
 
 ## User Interface
 
-![](/src/assets/images/MacroVariableWatcherGui1.jpg)
+![](/images/MacroVariableWatcherGui1.jpg)
 
 ## Remarks
 
@@ -53,7 +53,7 @@ This is a pre-release version and not all aspects are finalized - especially the
 
 ## Script
 
-ToolBar Icon ![](/src/assets/images/Macro_Global_Variable_Watcher.png)
+ToolBar Icon ![](/images/Macro_Global_Variable_Watcher.png)
 
 **Macro_Global_Variable_Watcher.FCMacro**
 

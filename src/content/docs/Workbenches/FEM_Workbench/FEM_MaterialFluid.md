@@ -25,15 +25,15 @@ title: FEM MaterialFluid
 
 Creates a material for fluid.
 
-![](/src/assets/images/FEMMaterialFluidProperties.png)
+![](/images/FEMMaterialFluidProperties.png)
 
 The FEM material task panel
 
 ## Usage
 
 1. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/FEM_MaterialFluid.svg) [Material for fluid](/FEM_MaterialFluid "FEM MaterialFluid") button.
-   - Select the **Model → Materials → ![](/src/assets/images/FEM_MaterialFluid.svg) Material for fluid‏‎** option from the menu.
+   - Press the ![](/images/FEM_MaterialFluid.svg) [Material for fluid](/FEM_MaterialFluid "FEM MaterialFluid") button.
+   - Select the **Model → Materials → ![](/images/FEM_MaterialFluid.svg) Material for fluid‏‎** option from the menu.
 2. The FEM material task panel opens.
 3. Select a fluid material from the drop-down list. For Computational Fluid Dynamics (CFD), _Air_ or _Water_ are common options. Optionally press the Launch Editor button to access the [material editor](/Material_Edit "Material Edit").
 4. Optionally, press the Use this task panel button to modify material properties such as density, kinematic viscosity, thermal conductivity, etc.

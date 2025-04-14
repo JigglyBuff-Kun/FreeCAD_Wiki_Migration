@@ -24,7 +24,7 @@ Replace an object in the feature [tree view](/Tree_view "Tree view").
 ## Usage
 
 1. Multi-select in correct order old, new and parent object in the [tree view](/Tree_view "Tree view").
-2. Click on ![](/src/assets/images/OpenSCAD_ReplaceObject.svg) or choose OpenSCAD → ![](/src/assets/images/OpenSCAD_ReplaceObject.svg) Replace Object from the top menu.
+2. Click on ![](/images/OpenSCAD_ReplaceObject.svg) or choose OpenSCAD → ![](/images/OpenSCAD_ReplaceObject.svg) Replace Object from the top menu.
 
 ## Limitations
 

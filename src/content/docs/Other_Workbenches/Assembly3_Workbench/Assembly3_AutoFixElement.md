@@ -23,12 +23,12 @@ This documentation is not finished. Please help and contribute documentation.Gui
 
 ## Description
 
-The ![](/src/assets/images/Assembly_AutoFixElement.svg) [Auto fix element](/Assembly3_AutoFixElement "Assembly3 AutoFixElement") command does...
+The ![](/images/Assembly_AutoFixElement.svg) [Auto fix element](/Assembly3_AutoFixElement "Assembly3 AutoFixElement") command does...
 
 ## Usage
 
-1. Activate the ![](/src/assets/images/Assembly_AutoFixElement.svg) **Auto fix element** command using one of the following:
-   - The ![](/src/assets/images/Assembly_AutoFixElement.svg) [Auto fix element](/Assembly3_AutoFixElement "Assembly3 AutoFixElement") button.
-   - The **Assembly3 → ![](/src/assets/images/Assembly_AutoFixElement.svg) Auto fix element** menu option.
+1. Activate the ![](/images/Assembly_AutoFixElement.svg) **Auto fix element** command using one of the following:
+   - The ![](/images/Assembly_AutoFixElement.svg) [Auto fix element](/Assembly3_AutoFixElement "Assembly3 AutoFixElement") button.
+   - The **Assembly3 → ![](/images/Assembly_AutoFixElement.svg) Auto fix element** menu option.
 
 Retrieved from "<http://wiki.freecad.org/index.php?title=Assembly3_AutoFixElement/en&oldid=1059044>"

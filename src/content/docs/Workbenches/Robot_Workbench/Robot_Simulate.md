@@ -24,11 +24,11 @@ Opens the simulation dialog and lets you simulate robot movement along a traject
 ## Usage
 
 1. Select a robot and a trajectory in the [Tree view](/Tree_view "Tree view").
-2. Click on ![](/src/assets/images/Robot_Simulate.svg) or choose Robot → ![](/src/assets/images/Robot_Simulate.svg) Simulate a trajectory from the top menu.
+2. Click on ![](/images/Robot_Simulate.svg) or choose Robot → ![](/images/Robot_Simulate.svg) Simulate a trajectory from the top menu.
 
 Result: This will open up a player dialog menu in the [Tree view](/Tree_view "Tree view").
 
-![](/src/assets/images/Robot_Simulation_Player.jpg)
+![](/images/Robot_Simulation_Player.jpg)
 
 The buttons from left to right.
 

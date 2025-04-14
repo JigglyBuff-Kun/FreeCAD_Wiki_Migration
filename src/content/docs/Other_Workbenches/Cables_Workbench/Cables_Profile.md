@@ -19,18 +19,18 @@ title: Cables Profile
 
 ## Description
 
-The ![](/src/assets/images/Cables_Profile.svg) [Cable Profile](/Cables_Profile "Cables Profile") creates a ![](/src/assets/images/Sketcher_Sketch.svg) [Sketch](/Sketch "Sketch") object which represents the base profile (cross-section) of a cable. The profile is fully parametric and is created by choosing different cable properties in a dialog box (see [Usage](#Usage)). The profile contains all the cross-section information needed for a ![](/src/assets/images/Cables_Cable.svg) [Cable](/Cables_Cable "Cables Cable") creation.
+The ![](/images/Cables_Profile.svg) [Cable Profile](/Cables_Profile "Cables Profile") creates a ![](/images/Sketcher_Sketch.svg) [Sketch](/Sketch "Sketch") object which represents the base profile (cross-section) of a cable. The profile is fully parametric and is created by choosing different cable properties in a dialog box (see [Usage](#Usage)). The profile contains all the cross-section information needed for a ![](/images/Cables_Cable.svg) [Cable](/Cables_Cable "Cables Cable") creation.
 
 There are few predefined cable profile types, e.g. YDYp (flat power cable), YDY (round power cable). Additional custom profile types can be defined by the user (see [Adding custom profile types](#Adding_custom_profile_types)).
 
-It is also possible to create entire profile manually in ![](/src/assets/images/Sketcher_Sketch.svg) [Sketcher](/Sketcher_Workbench "Sketcher Workbench"). However, some rules have to be followed to successsfuly use it as a proper cable profile (see [Manual profile creation](#Manual_profile_creation)).
+It is also possible to create entire profile manually in ![](/images/Sketcher_Sketch.svg) [Sketcher](/Sketcher_Workbench "Sketcher Workbench"). However, some rules have to be followed to successsfuly use it as a proper cable profile (see [Manual profile creation](#Manual_profile_creation)).
 
 ## Usage
 
 1. Create cable profile by one of these methods:
-   - Press the ![](/src/assets/images/Cables_Profile.svg) [Cable Profile](/Cables_Profile "Cables Profile") button.
-   - Select the **Cables → ![](/src/assets/images/Cables_Profile.svg) Cable Profile** option from the menu.
-   - Right-click in the [Tree view](/Tree_view "Tree view") or the [3D view](/3D_view "3D view") and select the **Cables → ![](/src/assets/images/Cables_Profile.svg) Cable Profile** option from the context menu.
+   - Press the ![](/images/Cables_Profile.svg) [Cable Profile](/Cables_Profile "Cables Profile") button.
+   - Select the **Cables → ![](/images/Cables_Profile.svg) Cable Profile** option from the menu.
+   - Right-click in the [Tree view](/Tree_view "Tree view") or the [3D view](/3D_view "3D view") and select the **Cables → ![](/images/Cables_Profile.svg) Cable Profile** option from the context menu.
 2. The **Add a new cable profile** task panel opens.
 3. Optionally select the **Profile type**.
 4. Select the **Number of wires**.
@@ -66,18 +66,18 @@ The contents of the custom `profiles.csv` file must be modeled upon the same rul
 
 ## Manual profile creation
 
-Cable profile can be manually created in ![](/src/assets/images/Sketcher_Sketch.svg) [Sketcher](/Sketcher_Workbench "Sketcher Workbench"). The proper order of drawing closed wires must be maintained for correct cable creation by [Cable](/Cables_Cable "Cables Cable") command.
+Cable profile can be manually created in ![](/images/Sketcher_Sketch.svg) [Sketcher](/Sketcher_Workbench "Sketcher Workbench"). The proper order of drawing closed wires must be maintained for correct cable creation by [Cable](/Cables_Cable "Cables Cable") command.
 
 1. First drawn closed wire will be interpreted as **cable jacket** (w0 in the example below)
 2. Following series of closed wires must be drawn inside first wire and do not touch or cross each other. These will be interpreted as **insulations** of single wires (w1, w2, w3 in the example below).
 3. Then the next series of wires should be drawn inside the series of insulations. Each insulation wire has to have one inner wire. These will be **conductor wires** (w4, w5, w6 in the example below).
 4. Finally the series of points should be placed at the center of each **conductor wire** (p1, p2, p3 in the example below).
 
-![](/src/assets/images/Cables_Profile_Example1.png)
+![](/images/Cables_Profile_Example1.png)
 
 Example triangular profile created with Sketcher
 
-![](/src/assets/images/Cables_Profile_Example2.png)
+![](/images/Cables_Profile_Example2.png)
 
 Cable created from the triangular profile
 

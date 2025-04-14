@@ -25,8 +25,8 @@ Eine Roboter-Programmdatei exportieren. Es kann entweder ein kompaktes KUKA-Unte
 
 1. Einen Roboter und eine Bewegungsbahn in der [Baumansicht](/Tree_view/de "Tree view/de") auswählen.
 2. Es gibt mehrere Möglichkeiten eine Bewegungsbahn zu exportieren:
-   - Den Menüeintrag Robot → Bewegungsbahn exportieren → ![](/src/assets/images/Robot_Export.svg) Kompaktes KUKA-Unterprogramm... auswählen.
-   - Den Menüeintrag Robot → Bewegungsbahn exportieren → ![](/src/assets/images/Robot_Export.svg) Vollständiges KUKA-Unterprogramm... auswählen.
+   - Den Menüeintrag Robot → Bewegungsbahn exportieren → ![](/images/Robot_Export.svg) Kompaktes KUKA-Unterprogramm... auswählen.
+   - Den Menüeintrag Robot → Bewegungsbahn exportieren → ![](/images/Robot_Export.svg) Vollständiges KUKA-Unterprogramm... auswählen.
 
 Ergebnis: Eine KRL-Datei (\*.src) wird erstellt.
 

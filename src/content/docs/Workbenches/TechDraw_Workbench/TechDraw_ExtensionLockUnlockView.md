@@ -25,8 +25,8 @@ The **TechDraw ExtensionLockUnlockView** tool locks or unlocks the position of a
 
 1. Select a single drawing view.
 2. There are several ways to invoke the tool:
-   - Press the ![](/src/assets/images/TechDraw_ExtensionLockUnlockView.svg) [Lock/Unlock View](/TechDraw_ExtensionLockUnlockView "TechDraw ExtensionLockUnlockView") button.
-   - Select the **TechDraw → Extensions: Attributes/Modifications → ![](/src/assets/images/TechDraw_ExtensionLockUnlockView.svg) Lock/Unlock View** option from the menu.
-3. The Data**Lock Position** property of the view is toggled. Locked views have a red padlock icon ![](/src/assets/images/TechDraw_Lock.svg) in the lower left corner.
+   - Press the ![](/images/TechDraw_ExtensionLockUnlockView.svg) [Lock/Unlock View](/TechDraw_ExtensionLockUnlockView "TechDraw ExtensionLockUnlockView") button.
+   - Select the **TechDraw → Extensions: Attributes/Modifications → ![](/images/TechDraw_ExtensionLockUnlockView.svg) Lock/Unlock View** option from the menu.
+3. The Data**Lock Position** property of the view is toggled. Locked views have a red padlock icon ![](/images/TechDraw_Lock.svg) in the lower left corner.
 
 Retrieved from "<http://wiki.freecad.org/index.php?title=TechDraw_ExtensionLockUnlockView/en&oldid=1290701>"

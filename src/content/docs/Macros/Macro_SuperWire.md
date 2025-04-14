@@ -35,7 +35,7 @@ Attention, you need a recent version of FreeCAD for this to work
 ## Script
 
 ToolBar Icon
-![](/src/assets/images/Macro_SuperWire.png)
+![](/images/Macro_SuperWire.png)
 
 **Macro_SuperWire.FCMacro**
 

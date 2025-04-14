@@ -82,9 +82,9 @@ To Be Completed with picture example
 ### Limitations
 
 - Reference items shall all belong to the first selected object. Reference items among several objects is not supported at this time
-- Straightened object(s) shall be in a coordinate system corresponding to the global one. If you used Part container(s) to locate your objects, you should first use [Macro PlacementAbsolufy](/Macro_PlacementAbsolufy "Macro PlacementAbsolufy") ![](/src/assets/images/Macro_PlacementAbsolufy.png) on your model. If this condition isn't fulfilled, weird things can happen.
+- Straightened object(s) shall be in a coordinate system corresponding to the global one. If you used Part container(s) to locate your objects, you should first use [Macro PlacementAbsolufy](/Macro_PlacementAbsolufy "Macro PlacementAbsolufy") ![](/images/Macro_PlacementAbsolufy.png) on your model. If this condition isn't fulfilled, weird things can happen.
 
-ToolBar Icon ![](/src/assets/images/Macro_StraightenObject.png)
+ToolBar Icon ![](/images/Macro_StraightenObject.png)
 
 **Macro_StraightenObject.FCMacro**
 

@@ -23,7 +23,7 @@ This documentation is not finished. Please help and contribute documentation.Gui
 
 ## Description
 
-The ![](/src/assets/images/Assembly_ShowElementCS.svg) [Show element coordinate system](/Assembly3_ShowElementCS "Assembly3 ShowElementCS") command toggles the visibility of **element coordinate systems** (ECSs).
+The ![](/images/Assembly_ShowElementCS.svg) [Show element coordinate system](/Assembly3_ShowElementCS "Assembly3 ShowElementCS") command toggles the visibility of **element coordinate systems** (ECSs).
 
 An ECS is represented by 3 lines which meet at the elements origin:
 
@@ -31,14 +31,14 @@ An ECS is represented by 3 lines which meet at the elements origin:
 - a green line for the Y axis
 - a blue line for the Z axis
 
-![](/src/assets/images/Assembly3_ShowElementCS-01.png)
+![](/images/Assembly3_ShowElementCS-01.png)
 
 Element of a face with visible ECS
 
 ## Usage
 
-1. Activate the ![](/src/assets/images/Assembly_ShowElementCS.svg) **Show element coordinate system** command using one of the following:
-   - The ![](/src/assets/images/Assembly_ShowElementCS.svg) [Show element coordinate system](/Assembly3_ShowElementCS "Assembly3 ShowElementCS") button.
-   - The **Assembly3 → Element style → ![](/src/assets/images/Assembly_ShowElementCS.svg) Show element coordinate system** menu option.
+1. Activate the ![](/images/Assembly_ShowElementCS.svg) **Show element coordinate system** command using one of the following:
+   - The ![](/images/Assembly_ShowElementCS.svg) [Show element coordinate system](/Assembly3_ShowElementCS "Assembly3 ShowElementCS") button.
+   - The **Assembly3 → Element style → ![](/images/Assembly_ShowElementCS.svg) Show element coordinate system** menu option.
 
 Retrieved from "<http://wiki.freecad.org/index.php?title=Assembly3_ShowElementCS/en&oldid=1096402>"

@@ -19,13 +19,13 @@ title: Sketcher UrsprungAuswählen
 
 ## Beschreibung
 
-Das Werkzeug ![](/src/assets/images/Sketcher_SelectOrigin.svg) Sketcher UrsprungAuswählen wählt den Ursprung der Skizze aus.
+Das Werkzeug ![](/images/Sketcher_SelectOrigin.svg) Sketcher UrsprungAuswählen wählt den Ursprung der Skizze aus.
 
 ## Anwendung
 
 1. Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
-   - Den Menüeintrag **Skizze → Sketcher-Werkzeuge → ![](/src/assets/images/Sketcher_SelectOrigin.svg) Ursprung auswählen** auswählen.
-   - Ein Rechtsklick in den Abschnitt **Elemente** des [Sketcher-Dialogs](/Sketcher_Dialog/de "Sketcher Dialog/de") und die Menüoption **![](/src/assets/images/Sketcher_SelectOrigin.svg) Ursprung auswählen** im Kontextmenü auswählen.
+   - Den Menüeintrag **Skizze → Sketcher-Werkzeuge → ![](/images/Sketcher_SelectOrigin.svg) Ursprung auswählen** auswählen.
+   - Ein Rechtsklick in den Abschnitt **Elemente** des [Sketcher-Dialogs](/Sketcher_Dialog/de "Sketcher Dialog/de") und die Menüoption **![](/images/Sketcher_SelectOrigin.svg) Ursprung auswählen** im Kontextmenü auswählen.
    - Das Tastaturkürzel Z dann O.
 2. Der Ursprung der Skizze wird ausgewählt.
 

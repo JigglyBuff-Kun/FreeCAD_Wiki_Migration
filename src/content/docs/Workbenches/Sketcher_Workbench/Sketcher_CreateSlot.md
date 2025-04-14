@@ -19,9 +19,9 @@ title: Sketcher CreateSlot
 
 ## Description
 
-The ![](/src/assets/images/Sketcher_CreateSlot.svg) [Sketcher CreateSlot](/Sketcher_CreateSlot "Sketcher CreateSlot") tool creates a slot, a closed polyline consisting of two semicircles connected by two parallel straight lines.
+The ![](/images/Sketcher_CreateSlot.svg) [Sketcher CreateSlot](/Sketcher_CreateSlot "Sketcher CreateSlot") tool creates a slot, a closed polyline consisting of two semicircles connected by two parallel straight lines.
 
-![](/src/assets/images/SketcherCreateSlotExample.png)
+![](/images/SketcherCreateSlotExample.png)
 
 ## Usage
 
@@ -31,8 +31,8 @@ Pos-OVP = Positional [On-View-Parameters](/Sketcher_Preferences#General "Sketche
 Dim-OVP = Dimensional On-View-Parameters. [introduced in 1.0](/Release_notes_1.0 "Release notes 1.0")
 
 1. There are several ways to invoke the tool:
-   - Press the ![](/src/assets/images/Sketcher_CreateSlot.svg) [Create slot](/Sketcher_CreateSlot "Sketcher CreateSlot") button.
-   - Select the **Sketcher → Sketcher geometries → ![](/src/assets/images/Sketcher_CreateSlot.svg) Create Slot** option from the menu.
+   - Press the ![](/images/Sketcher_CreateSlot.svg) [Create slot](/Sketcher_CreateSlot "Sketcher CreateSlot") button.
+   - Select the **Sketcher → Sketcher geometries → ![](/images/Sketcher_CreateSlot.svg) Create Slot** option from the menu.
    - The keyboard shortcut: G then S.
 2. The cursor changes to a cross with the tool icon.
 3. Pick the center of the first semicircle. Or with Pos-OVP: enter its X and/or Y coordinate.

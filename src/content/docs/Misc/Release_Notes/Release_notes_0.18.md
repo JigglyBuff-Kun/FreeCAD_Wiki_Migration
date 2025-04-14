@@ -10,19 +10,19 @@ Older FreeCAD release notes can be found in [Feature list](/Feature_list#Release
 
 Extended [TechDraw](#TechDraw_Workbench) tools
 
-![](/src/assets/images/TechDraw_sheet_screenshot.png)
+![](/images/TechDraw_sheet_screenshot.png)
 
 Model by Laurent14
 
 New [sketcher](#Sketcher_Workbench) tools, more stable and robust [PartDesign](#PartDesign_Workbench)
 
-![](/src/assets/images/Part_engine_screenshot.jpg)
+![](/images/Part_engine_screenshot.jpg)
 
 Model by un1corn
 
 Enhanced and extended [Arch and BIM](#Arch_Workbench) tools
 
-![](/src/assets/images/Arch_work_screenshot.png)
+![](/images/Arch_work_screenshot.png)
 
 Model by regis
 
@@ -38,21 +38,21 @@ Model by regis
 - Generic support for US Civil / Transportation Engineering units has been added. These units include ft, ft^2, ft^3, mph, and angles as degrees/minutes/seconds. These units allow for expression of feet in decimal form, as opposed to US Building, which forces fractions of inches.
 - It is now possible to specify a custom background image for FreeCAD's main window using the option [**Preferences → General → Enable tiled background**](/Preferences_Editor#General "Preferences Editor").
 
-- ![The redesigned Start center](/src/assets/images/Start_center_0.18_screenshot.jpg)
+- ![The redesigned Start center](/images/Start_center_0.18_screenshot.jpg)
 
   The redesigned Start center
 
-- ![The navigation cube](/src/assets/images/FC018_Navigation_Cube.png)
+- ![The navigation cube](/images/FC018_Navigation_Cube.png)
 
   The navigation cube
 
-- ![FreeCAD with a custom background image](/src/assets/images/FreeCAD_with_background_image.jpg)
+- ![FreeCAD with a custom background image](/images/FreeCAD_with_background_image.jpg)
 
   FreeCAD with a custom background image
 
 ## Arch Workbench
 
-![](/src/assets/images/Arch_release018_example.jpg)
+![](/images/Arch_release018_example.jpg)
 
 The Arch workbench at work
 
@@ -75,7 +75,7 @@ The Arch workbench at work
 
 ## Draft Workbench
 
-![](/src/assets/images/Draft_release018_example.jpg)
+![](/images/Draft_release018_example.jpg)
 
 More precise Draft annotation tools
 
@@ -89,7 +89,7 @@ More precise Draft annotation tools
 
 ## FEM Workbench
 
-![](/src/assets/images/FEM-Material-dialog-018.png)
+![](/images/FEM-Material-dialog-018.png)
 
 The polished FEM material dialog
 
@@ -154,7 +154,7 @@ The material handling was improved. It is now possible to use the global FreeCAD
 
 ## Sketcher Workbench
 
-![](/src/assets/images/Sketch-clip-plane-demo.png)
+![](/images/Sketch-clip-plane-demo.png)
 
 Sketcher View Section demo
 
@@ -201,7 +201,7 @@ The TechDraw Workbench received a number of additions and improvements for v0.18
 
 ## Material Handling
 
-![](/src/assets/images/Material-Card-018.png)
+![](/images/Material-Card-018.png)
 
 A material card
 

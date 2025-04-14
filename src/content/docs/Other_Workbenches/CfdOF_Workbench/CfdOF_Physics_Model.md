@@ -30,14 +30,14 @@ The Physics Model is used to select the solver that is to be used in the CFD sim
 The Physics Model is added to the tree when the [Analysis Container](/CfdOF_Analysis "CfdOF Analysis") is created.
 
 1. There are several ways to open the Physics Model dialogue panel:
-   - Press the ![](/src/assets/images/CfdOF_Physics_Model.svg) Physics Model button.
-   - Click on the ![](/src/assets/images/CfdOF_Physics_Model.svg) **Physics Model** in the tree.
+   - Press the ![](/images/CfdOF_Physics_Model.svg) Physics Model button.
+   - Click on the ![](/images/CfdOF_Physics_Model.svg) **Physics Model** in the tree.
 
 ## Options
 
 The dialogue panel offers the following settings:
 
-![CfdOF Physics Model Dialog Panel](/src/assets/images/CfdOF_DialogPhysicsModel.png)
+![CfdOF Physics Model Dialog Panel](/images/CfdOF_DialogPhysicsModel.png)
 
 CfdOF Physics Model Dialog Panel
 
@@ -102,7 +102,7 @@ The following inputs are only available when the Moving Reference Frame (SRF) op
 
 : The example propeller below has it's **Centre of Rotation** on the origin (0, 0, 0). The blades are on the x-y plane, with a **Rotational Axis** around the z axis (0, 0, -1). The object rotates clockwise, so the reference frame rotational axis is -ve.
 
-![Propeller](/src/assets/images/CfdOF_Fluid_Properties_Propeller.png)
+![Propeller](/images/CfdOF_Fluid_Properties_Propeller.png)
 
 Propeller
 
@@ -110,6 +110,6 @@ Propeller
 
 - You will see from the image of the dialogue panel that some of the options, or input boxes, are greyed out. This is because not all of combination of the options are possible together e.g. **Steady State** can not handle **Multiphase - free surface**. To better understand the selections that are possible, and how they relate to different solvers, please visit the [Solver](/index.php?title=CfdOF_Solver&action=edit&redlink=1 "CfdOF Solver (page does not exist)") page.
 
-- The selections you make here, have an effect on the options and input boxes in other dialogue panels . To assist with workflow, we recommend you complete this dialogue box first, after you have created your ![](/src/assets/images/CfdOF_analysis.svg) [Analysis Container](/CfdOF_Analysis "CfdOF Analysis").
+- The selections you make here, have an effect on the options and input boxes in other dialogue panels . To assist with workflow, we recommend you complete this dialogue box first, after you have created your ![](/images/CfdOF_analysis.svg) [Analysis Container](/CfdOF_Analysis "CfdOF Analysis").
 
 Retrieved from "<http://wiki.freecad.org/index.php?title=CfdOF_Physics_Model&oldid=1428526>"

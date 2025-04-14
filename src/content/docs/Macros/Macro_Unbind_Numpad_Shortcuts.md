@@ -42,7 +42,7 @@ See forum thread [How to turn off (disable) Numpad navigation?](https://forum.fr
 
 ## Script
 
-ToolBar Icon ![](/src/assets/images/Macro_Unbind_Numpad_Shortcuts.png)
+ToolBar Icon ![](/images/Macro_Unbind_Numpad_Shortcuts.png)
 
 **Macro_Unbind_Numpad_Shortcuts.FCMacro**
 

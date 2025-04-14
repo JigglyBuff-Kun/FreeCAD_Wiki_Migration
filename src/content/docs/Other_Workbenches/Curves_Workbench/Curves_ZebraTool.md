@@ -23,14 +23,14 @@ This documentation is not finished. Please help and contribute documentation.Gui
 
 ## Description
 
-The ![](/src/assets/images/Curves_ZebraTool.svg) [Curves ZebraTool](/Curves_ZebraTool "Curves ZebraTool") tool creates a Zebra texture for surface inspection.
+The ![](/images/Curves_ZebraTool.svg) [Curves ZebraTool](/Curves_ZebraTool "Curves ZebraTool") tool creates a Zebra texture for surface inspection.
 
 ## Usage
 
 1. Select the surface to be tested
 2. There are several ways to invoke the tool:
-   - Press the ![](/src/assets/images/Curves_ZebraTool.svg) [ZebraTool](/Curves_ZebraTool "Curves ZebraTool") button
-   - Select the **Surfaces → ![](/src/assets/images/Curves_ZebraTool.svg) ZebraTool** option from the menu
+   - Press the ![](/images/Curves_ZebraTool.svg) [ZebraTool](/Curves_ZebraTool "Curves ZebraTool") button
+   - Select the **Surfaces → ![](/images/Curves_ZebraTool.svg) ZebraTool** option from the menu
 3. Optionally change parameters in the **Zebra Stripes Tool** [Task panel](/Task_panel "Task panel").
 4. Press any button OK, Cancel, or Quit to finish and exit the tool.
 

@@ -4,11 +4,11 @@ title: App FeaturePython
 
 ## Introduction
 
-An ![](/src/assets/images/Feature.svg) [App FeaturePython](/App_FeaturePython "App FeaturePython") object, or formally an `App::FeaturePython`, is a simple instance of the [App DocumentObject](/App_DocumentObject "App DocumentObject") in [Python](/Python "Python").
+An ![](/images/Feature.svg) [App FeaturePython](/App_FeaturePython "App FeaturePython") object, or formally an `App::FeaturePython`, is a simple instance of the [App DocumentObject](/App_DocumentObject "App DocumentObject") in [Python](/Python "Python").
 
 This is a simple object that by default doesn't have many properties, for example it doesn't have a [placement](/Placement "Placement") or a [topological shape](/Part_TopoShape "Part TopoShape"). Depending on the properties that are assigned to it, it can be used to manage different types of data.
 
-![](/src/assets/images/FreeCAD_core_objects.svg)
+![](/images/FreeCAD_core_objects.svg)
 
 Simplified diagram of the relationships between the core objects in FreeCAD
 
@@ -47,7 +47,7 @@ Base
 Display Options
 
 - View**Display Mode** (`Enumeration`): it is empty by default.
-- View**Show In Tree** (`Bool`): it defaults to `true`, in which case the object will appear in the [Tree view](/Tree_view "Tree view"); otherwise, the object will be hidden in the tree view. Once an object in the tree is invisible, you can see it again by opening the context menu over the name of the document (right-click), and selecting ![](/src/assets/images/CheckBoxTrue.svg) Show hidden items. Then the hidden item can be chosen and View**Show In Tree** can be switched back to `true`.
+- View**Show In Tree** (`Bool`): it defaults to `true`, in which case the object will appear in the [Tree view](/Tree_view "Tree view"); otherwise, the object will be hidden in the tree view. Once an object in the tree is invisible, you can see it again by opening the context menu over the name of the document (right-click), and selecting ![](/images/CheckBoxTrue.svg) Show hidden items. Then the hidden item can be chosen and View**Show In Tree** can be switched back to `true`.
 - View**Visibility** (`Bool`): it defaults to `true`, in which case the object will be visible in the [3D view](/3D_view "3D view") if it has a [Shape](/Part_TopoShape "Part TopoShape"), otherwise it will be invisible. By default this property can be toggled on and off by selecting the object, and pressing the Space bar.
 
 Selection

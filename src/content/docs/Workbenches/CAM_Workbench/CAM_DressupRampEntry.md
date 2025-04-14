@@ -19,12 +19,12 @@ title: CAM DressupRampEntry
 
 ## Description
 
-The tool ![](/src/assets/images/CAM_DressupRampEntry.svg) [DressupRampEntry](/CAM_DressupRampEntry "CAM DressupRampEntry") dresses up an existing path to add a ramp entry.
+The tool ![](/images/CAM_DressupRampEntry.svg) [DressupRampEntry](/CAM_DressupRampEntry "CAM DressupRampEntry") dresses up an existing path to add a ramp entry.
 
 ## Usage
 
 1. Select a contour or profile path objects.
-2. Select the **CAM → Path Dressup → ![](/src/assets/images/CAM_DressupRampEntry.svg) RampEntry** option from the menu.
+2. Select the **CAM → Path Dressup → ![](/images/CAM_DressupRampEntry.svg) RampEntry** option from the menu.
 
 ## Properties
 
@@ -38,11 +38,11 @@ The tool ![](/src/assets/images/CAM_DressupRampEntry.svg) [DressupRampEntry](/CA
 - **Dressup Start Depth** : The distance above the target level where ramping starts
 - **Use Start Depth** : Indicates that the ramping does not start above the stock level. If it is not set to true the first ramp can be steeper than expected.
 
-![](/src/assets/images/Ramp_method_1.png) ![](/src/assets/images/Ramp_method_2.png) ![](/src/assets/images/Ramp_method_3.png)
+![](/images/Ramp_method_1.png) ![](/images/Ramp_method_2.png) ![](/images/Ramp_method_3.png)
 
 From left to right: Ramp method 1, 2 and 3
 
-![](/src/assets/images/Ramp_method_Helix.png)
+![](/images/Ramp_method_Helix.png)
 
 Ramp method Helix
 

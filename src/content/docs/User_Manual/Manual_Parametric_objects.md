@@ -8,11 +8,11 @@ In FreeCAD, parametric objects are essentially small, programmable scripts that 
 
 For example, consider creating a solid cubic object through parametric modeling. You start with a basic 2D rectangular shape labeled as 'plate.' of length l and width w. This sketch defines the base of your cubic object. Next, you define an 'Extrude' operation, or 'Pad,' specifying the distance to push or pull the sketch into a 3D object. This results in a solid cubic form based on the Sketch's shape and the extrusion distance specified.
 
-![](/src/assets/images/FreeCAD_022_PArametricDesignPlate.png)
+![](/images/FreeCAD_022_PArametricDesignPlate.png)
 
 On the top face of the plate you sketch a circle of a given diameter d. You then use this circle to create a pocket (remove material) from the original plate.
 
-![](/src/assets/images/FreeCAD_022_ParametricDesignPocket.png)
+![](/images/FreeCAD_022_ParametricDesignPocket.png)
 
 If you decide to change either of the dimensions of the plate, or of the circle, the final object would be also modified. Thanks to the use of a parametric design approach, there is no need to redo the object from the beginning.
 
@@ -25,7 +25,7 @@ Following this, a 'Circle Sketch' is drafted on the newly formed surface. This c
 
 Through this sequence of operations—starting from the base sketch, adding volume with a pad, and creating detailed features with additional sketches and pockets—the final object takes shape. Each step in this chain depends on its predecessor, illustrating the interconnected nature of parametric design in FreeCAD.
 
-![](/src/assets/images/FreeCAD_022_ParametricDesignDependGraph.png)
+![](/images/FreeCAD_022_ParametricDesignDependGraph.png)
 
 Not all objects are parametric in FreeCAD. Often, the geometry that you import from other files won't contain any parameters and will be simple, non-parametric objects. However, these can often be used as a base, or starting point for newly created parametric objects, depending, of course, on what the parametric object requires and the quality of the imported geometry.
 

@@ -2,19 +2,19 @@
 title: CAM Workbench
 ---
 
-![](/src/assets/images/Workbench_CAM.svg)
+![](/images/Workbench_CAM.svg)
 
 CAM workbench icon
 
 ## Introduction
 
-The ![](/src/assets/images/Workbench_CAM.svg) [CAM Workbench](/CAM_Workbench "CAM Workbench") is used to produce machine instructions for [CNC machines](https://en.wikipedia.org/wiki/CNC_router) from a FreeCAD 3D model. These produce real-world 3D objects on CNC machines such as mills, lathes, lasercutters, or similar. Typically, instructions are a [G-code](https://en.wikipedia.org/wiki/G-code) dialect. A [general CNC lathe tool path sequence simulation example](https://www.ange-softs.com/SIMULCNCHTML/index.html) is presented here.
+The ![](/images/Workbench_CAM.svg) [CAM Workbench](/CAM_Workbench "CAM Workbench") is used to produce machine instructions for [CNC machines](https://en.wikipedia.org/wiki/CNC_router) from a FreeCAD 3D model. These produce real-world 3D objects on CNC machines such as mills, lathes, lasercutters, or similar. Typically, instructions are a [G-code](https://en.wikipedia.org/wiki/G-code) dialect. A [general CNC lathe tool path sequence simulation example](https://www.ange-softs.com/SIMULCNCHTML/index.html) is presented here.
 
-![](/src/assets/images/Pathwb.png)
+![](/images/Pathwb.png)
 
 The FreeCAD CAM Workbench workflow creates these machine instructions as follows:
 
-- A 3D model is the base object, typically created using one or more of the ![](/src/assets/images/Workbench_PartDesign.svg) [Part Design](/PartDesign_Workbench "PartDesign Workbench"), ![](/src/assets/images/Workbench_Part.svg) [Part](/Part_Workbench "Part Workbench") or ![](/src/assets/images/Workbench_Draft.svg) [Draft](/Draft_Workbench "Draft Workbench") Workbenches.
+- A 3D model is the base object, typically created using one or more of the ![](/images/Workbench_PartDesign.svg) [Part Design](/PartDesign_Workbench "PartDesign Workbench"), ![](/images/Workbench_Part.svg) [Part](/Part_Workbench "Part Workbench") or ![](/images/Workbench_Draft.svg) [Draft](/Draft_Workbench "Draft Workbench") Workbenches.
 - A [CAM Job](/CAM_Job "CAM Job") is created in the CAM Workbench. This contains all the information required to generate the necessary G-code to process the Job on a CNC mill: there is Stock material, the mill has a certain [set of tools](/CAM_ToolBitLibraryOpen "CAM ToolBitLibraryOpen") and it follows certain commands controlling speed and movements (usually G-code).
 - [CAM Tools](/CAM_Tools "CAM Tools") are selected as required by the Job Operations.
 - Milling paths are created using e.g. [Contour](/CAM_Profile "CAM Profile") and [Pocket](/CAM_Pocket_3D "CAM Pocket 3D") Operations. These CAM objects use internal FreeCAD G-code dialect, independent of the CNC machine.
@@ -40,9 +40,9 @@ The CAM Workbench has external dependencies including:
 
 Some current limitations of which you should be aware are:
 
-- Most of the CAM Tools are not true 3D tools but only 2.5D capable. This means that they take a fixed 2D shape and can cut it down to a given depth. However, there are two tools which produce true 3D paths: ![](/src/assets/images/CAM_3DPocket.svg) [3D Pocket](/CAM_Pocket_3D "CAM Pocket 3D") and ![](/src/assets/images/CAM_Surface.svg) [3D Surface](/CAM_Surface "CAM Surface") (which is still an [experimental feature](/CAM_experimental "CAM experimental") as of November 2020).
+- Most of the CAM Tools are not true 3D tools but only 2.5D capable. This means that they take a fixed 2D shape and can cut it down to a given depth. However, there are two tools which produce true 3D paths: ![](/images/CAM_3DPocket.svg) [3D Pocket](/CAM_Pocket_3D "CAM Pocket 3D") and ![](/images/CAM_Surface.svg) [3D Surface](/CAM_Surface "CAM Surface") (which is still an [experimental feature](/CAM_experimental "CAM experimental") as of November 2020).
 - Most of CAM workbench is designed for a simple, standard 3-axis (xyz) CNC mill/router, but lathe tools are under development in 0.19_pre.
-- Most operations in CAM workbench will return paths based on a standard endmill tool/bit only, regardless of the tool/bit type assigned in a given tool controller with the exception of the ![](/src/assets/images/CAM_Engrave.svg) [Engrave](/CAM_Engrave "CAM Engrave") and ![](/src/assets/images/CAM_Surface.svg) [3D Surface](/CAM_Surface "CAM Surface") operations.
+- Most operations in CAM workbench will return paths based on a standard endmill tool/bit only, regardless of the tool/bit type assigned in a given tool controller with the exception of the ![](/images/CAM_Engrave.svg) [Engrave](/CAM_Engrave "CAM Engrave") and ![](/images/CAM_Surface.svg) [3D Surface](/CAM_Surface "CAM Surface") operations.
 - The operations within the CAM workbench are not aware of clamping mechanisms in use to secure the model to your machine. Consequently, please review and simulate the paths you generate prior to sending the code to your machine. If necessary, model your clamping mechanisms in FreeCAD in order to better inspect the paths generated. Look for possible collisions with clamps or other obstacles along the paths.
 
 ## Units
@@ -74,7 +74,7 @@ CAM Inspection:
 
 Many of the commands have various heights and depths:
 
-![](/src/assets/images/Path-DepthsAndHeights.gif)
+![](/images/Path-DepthsAndHeights.gif)
 
 Visual reference for Depth properties (settings)
 
@@ -84,109 +84,109 @@ Some commands are experimental and not available by default. To enable them see 
 
 ### Project Commands
 
-- ![](/src/assets/images/CAM_Job.svg) [Job](/CAM_Job "CAM Job"): Creates a new CNC job.
+- ![](/images/CAM_Job.svg) [Job](/CAM_Job "CAM Job"): Creates a new CNC job.
 
-- ![](/src/assets/images/CAM_Post.svg) [Post Process](/CAM_Post "CAM Post"): Exports a project to G-code.
+- ![](/images/CAM_Post.svg) [Post Process](/CAM_Post "CAM Post"): Exports a project to G-code.
 
-- ![](/src/assets/images/CAM_Sanity.svg) [Check the CAM job for common errors](/CAM_Sanity "CAM Sanity"): Checks the selected job for missing values.
+- ![](/images/CAM_Sanity.svg) [Check the CAM job for common errors](/CAM_Sanity "CAM Sanity"): Checks the selected job for missing values.
 
-- ![](/src/assets/images/CAM_ExportTemplate.svg) [Export Template](/CAM_ExportTemplate "CAM ExportTemplate"): Export the current job as a template.
+- ![](/images/CAM_ExportTemplate.svg) [Export Template](/CAM_ExportTemplate "CAM ExportTemplate"): Export the current job as a template.
 
 ### Tool Commands
 
-- ![](/src/assets/images/CAM_Inspect.svg) [Inspect CAM Commands](/CAM_Inspect "CAM Inspect"): Shows the G-code for checking.
+- ![](/images/CAM_Inspect.svg) [Inspect CAM Commands](/CAM_Inspect "CAM Inspect"): Shows the G-code for checking.
 
-- ![](/src/assets/images/CAM_Simulator.svg) [CAM Simulator](/CAM_Simulator "CAM Simulator"): Shows the milling operation like it's done on the machine.
+- ![](/images/CAM_Simulator.svg) [CAM Simulator](/CAM_Simulator "CAM Simulator"): Shows the milling operation like it's done on the machine.
 
-- ![](/src/assets/images/CAM_SimulatorGL.svg) [CAM SimulatorGL](/CAM_SimulatorGL "CAM SimulatorGL"): Enables the new, improved CAM simulator. [introduced in 1.0](/Release_notes_1.0 "Release notes 1.0")
+- ![](/images/CAM_SimulatorGL.svg) [CAM SimulatorGL](/CAM_SimulatorGL "CAM SimulatorGL"): Enables the new, improved CAM simulator. [introduced in 1.0](/Release_notes_1.0 "Release notes 1.0")
 
-- ![](/src/assets/images/CAM_SelectLoop.svg) [Finish Selecting Loop](/CAM_SelectLoop "CAM SelectLoop"): Completes a loop from two selected edges.
+- ![](/images/CAM_SelectLoop.svg) [Finish Selecting Loop](/CAM_SelectLoop "CAM SelectLoop"): Completes a loop from two selected edges.
 
-- ![](/src/assets/images/CAM_OpActiveToggle.svg) [Toggle the Active State of the Operation](/CAM_OpActiveToggle "CAM OpActiveToggle"): Activates or de-activates a path operation.
+- ![](/images/CAM_OpActiveToggle.svg) [Toggle the Active State of the Operation](/CAM_OpActiveToggle "CAM OpActiveToggle"): Activates or de-activates a path operation.
 
-- ![](/src/assets/images/CAM_ToolBitLibraryOpen.svg) [ToolBit Library editor](/CAM_ToolBitLibraryOpen "CAM ToolBitLibraryOpen"): Opens an editor to manage ToolBit libraries.
+- ![](/images/CAM_ToolBitLibraryOpen.svg) [ToolBit Library editor](/CAM_ToolBitLibraryOpen "CAM ToolBitLibraryOpen"): Opens an editor to manage ToolBit libraries.
 
-- ![](/src/assets/images/CAM_ToolBitDock.svg) [ToolBit Dock](/CAM_ToolBitDock "CAM ToolBitDock"): Toggles the ToolBit Dock.
+- ![](/images/CAM_ToolBitDock.svg) [ToolBit Dock](/CAM_ToolBitDock "CAM ToolBitDock"): Toggles the ToolBit Dock.
 
 ### Basic Operations
 
-- ![](/src/assets/images/CAM_Profile.svg) [Profile](/CAM_Profile "CAM Profile"): Creates a profile operation of the entire model, or from one or more selected faces or edges.
+- ![](/images/CAM_Profile.svg) [Profile](/CAM_Profile "CAM Profile"): Creates a profile operation of the entire model, or from one or more selected faces or edges.
 
-- ![](/src/assets/images/CAM_Pocket_Shape.svg) [Pocket Shape](/CAM_Pocket_Shape "CAM Pocket Shape"): Creates a pocketing operation from one or more selected pocket(s).
+- ![](/images/CAM_Pocket_Shape.svg) [Pocket Shape](/CAM_Pocket_Shape "CAM Pocket Shape"): Creates a pocketing operation from one or more selected pocket(s).
 
-- ![](/src/assets/images/CAM_Drilling.svg) [Drilling](/CAM_Drilling "CAM Drilling"): Performs a drilling cycle.
+- ![](/images/CAM_Drilling.svg) [Drilling](/CAM_Drilling "CAM Drilling"): Performs a drilling cycle.
 
-- ![](/src/assets/images/CAM_MillFace.svg) [Face](/CAM_MillFace "CAM MillFace"): Creates a surfacing path.
+- ![](/images/CAM_MillFace.svg) [Face](/CAM_MillFace "CAM MillFace"): Creates a surfacing path.
 
-- ![](/src/assets/images/CAM_Helix.svg) [Helix](/CAM_Helix "CAM Helix"): Creates a helical path.
+- ![](/images/CAM_Helix.svg) [Helix](/CAM_Helix "CAM Helix"): Creates a helical path.
 
-- ![](/src/assets/images/CAM_Adaptive.svg) [Adaptive](/CAM_Adaptive "CAM Adaptive"): Creates an adaptive clearing and profiling operation.
+- ![](/images/CAM_Adaptive.svg) [Adaptive](/CAM_Adaptive "CAM Adaptive"): Creates an adaptive clearing and profiling operation.
 
-- ![](/src/assets/images/CAM_Slot.svg) [Slot](/CAM_Slot "CAM Slot"): Creates a slotting operation from selected features or custom points. [_Experimental_](/CAM_experimental "CAM experimental").
+- ![](/images/CAM_Slot.svg) [Slot](/CAM_Slot "CAM Slot"): Creates a slotting operation from selected features or custom points. [_Experimental_](/CAM_experimental "CAM experimental").
 
-- ![](/src/assets/images/CAM_Engrave.svg) [Engrave](/CAM_Engrave "CAM Engrave"): Creates an engraving path.
+- ![](/images/CAM_Engrave.svg) [Engrave](/CAM_Engrave "CAM Engrave"): Creates an engraving path.
 
-- ![](/src/assets/images/CAM_Deburr.svg) [Deburr](/CAM_Deburr "CAM Deburr"): Creates a deburr path.
+- ![](/images/CAM_Deburr.svg) [Deburr](/CAM_Deburr "CAM Deburr"): Creates a deburr path.
 
-- ![](/src/assets/images/CAM_Vcarve.svg) [Vcarve](/CAM_Vcarve "CAM Vcarve"): Creates an engraving path using a V tool shape.
+- ![](/images/CAM_Vcarve.svg) [Vcarve](/CAM_Vcarve "CAM Vcarve"): Creates an engraving path using a V tool shape.
 
 ### 3D Operations
 
-- ![](/src/assets/images/CAM_Pocket_3D.svg) [3D Pocket](/CAM_Pocket_3D "CAM Pocket 3D"): Creates a path for a 3D pocket.
+- ![](/images/CAM_Pocket_3D.svg) [3D Pocket](/CAM_Pocket_3D "CAM Pocket 3D"): Creates a path for a 3D pocket.
 
-- ![](/src/assets/images/CAM_Surface.svg) [3D Surface](/CAM_Surface "CAM Surface"): Creates a path for a 3D surface. [_Experimental_](/CAM_experimental "CAM experimental").
+- ![](/images/CAM_Surface.svg) [3D Surface](/CAM_Surface "CAM Surface"): Creates a path for a 3D surface. [_Experimental_](/CAM_experimental "CAM experimental").
 
-- ![](/src/assets/images/CAM_Waterline.svg) [Waterline](/CAM_Waterline "CAM Waterline"): Creates a waterline path for a 3D surface. [_Experimental_](/CAM_experimental "CAM experimental").
+- ![](/images/CAM_Waterline.svg) [Waterline](/CAM_Waterline "CAM Waterline"): Creates a waterline path for a 3D surface. [_Experimental_](/CAM_experimental "CAM experimental").
 
 ### Path Dressup
 
-- ![](/src/assets/images/CAM_DressupAxisMap.svg) [Axis Map](/CAM_DressupAxisMap "CAM DressupAxisMap"): Remaps one axis to another.
+- ![](/images/CAM_DressupAxisMap.svg) [Axis Map](/CAM_DressupAxisMap "CAM DressupAxisMap"): Remaps one axis to another.
 
-- ![](/src/assets/images/CAM_DressupPathBoundary.svg) [Boundary](/CAM_DressupPathBoundary "CAM DressupPathBoundary"): Adds a boundary dressup modification to a selected path.
+- ![](/images/CAM_DressupPathBoundary.svg) [Boundary](/CAM_DressupPathBoundary "CAM DressupPathBoundary"): Adds a boundary dressup modification to a selected path.
 
-- ![](/src/assets/images/CAM_DressupDogbone.svg) [Dogbone](/CAM_DressupDogbone "CAM DressupDogbone"): Adds a dogbone dressup modification to a selected path.
+- ![](/images/CAM_DressupDogbone.svg) [Dogbone](/CAM_DressupDogbone "CAM DressupDogbone"): Adds a dogbone dressup modification to a selected path.
 
-- ![](/src/assets/images/CAM_DressupDragKnife.svg) [DragKnife](/CAM_DressupDragKnife "CAM DressupDragKnife"): Adds a dragknife dressup modification to a selected path.
+- ![](/images/CAM_DressupDragKnife.svg) [DragKnife](/CAM_DressupDragKnife "CAM DressupDragKnife"): Adds a dragknife dressup modification to a selected path.
 
-- ![](/src/assets/images/CAM_DressupLeadInOut.svg) [LeadInOut](/CAM_DressupLeadInOut "CAM DressupLeadInOut"): Adds a lead-in and/or lead-out point to a selected path.
+- ![](/images/CAM_DressupLeadInOut.svg) [LeadInOut](/CAM_DressupLeadInOut "CAM DressupLeadInOut"): Adds a lead-in and/or lead-out point to a selected path.
 
-- ![](/src/assets/images/CAM_DressupRampEntry.svg) [RampEntry](/CAM_DressupRampEntry "CAM DressupRampEntry"): Adds ramp entry dressup modification to a selected path.
+- ![](/images/CAM_DressupRampEntry.svg) [RampEntry](/CAM_DressupRampEntry "CAM DressupRampEntry"): Adds ramp entry dressup modification to a selected path.
 
-- ![](/src/assets/images/CAM_DressupTag.svg) [Tag](/CAM_DressupTag "CAM DressupTag"): Adds a holding tag dressup modification to a selected path.
+- ![](/images/CAM_DressupTag.svg) [Tag](/CAM_DressupTag "CAM DressupTag"): Adds a holding tag dressup modification to a selected path.
 
-- ![](/src/assets/images/CAM_DressupZCorrect.svg) [Z Depth Correction](/CAM_DressupZCorrect "CAM DressupZCorrect"): Corrects the Z depth using Probe Map.
+- ![](/images/CAM_DressupZCorrect.svg) [Z Depth Correction](/CAM_DressupZCorrect "CAM DressupZCorrect"): Corrects the Z depth using Probe Map.
 
 ### Supplemental Commands
 
-- ![](/src/assets/images/CAM_Fixture.svg) [Fixture](/CAM_Fixture "CAM Fixture"): Changes the fixture position.
+- ![](/images/CAM_Fixture.svg) [Fixture](/CAM_Fixture "CAM Fixture"): Changes the fixture position.
 
-- ![](/src/assets/images/CAM_Comment.svg) [Comment](/CAM_Comment "CAM Comment"): Inserts a comment in the G-code of a path.
+- ![](/images/CAM_Comment.svg) [Comment](/CAM_Comment "CAM Comment"): Inserts a comment in the G-code of a path.
 
-- ![](/src/assets/images/CAM_Stop.svg) [Stop](/CAM_Stop "CAM Stop"): Inserts a full stop of the machine.
+- ![](/images/CAM_Stop.svg) [Stop](/CAM_Stop "CAM Stop"): Inserts a full stop of the machine.
 
-- ![](/src/assets/images/CAM_Custom.svg) [Custom](/CAM_Custom "CAM Custom"): Inserts custom G-code.
+- ![](/images/CAM_Custom.svg) [Custom](/CAM_Custom "CAM Custom"): Inserts custom G-code.
 
-- ![](/src/assets/images/CAM_Probe.svg) [Probe](/CAM_Probe "CAM Probe"): Creates a Probing Grid from a job stock.
+- ![](/images/CAM_Probe.svg) [Probe](/CAM_Probe "CAM Probe"): Creates a Probing Grid from a job stock.
 
-- ![](/src/assets/images/CAM_Shape.svg) [From Shape](/CAM_Shape "CAM Shape"): Creates a path object from a selected Part object. [_Experimental_](/CAM_experimental "CAM experimental").
+- ![](/images/CAM_Shape.svg) [From Shape](/CAM_Shape "CAM Shape"): Creates a path object from a selected Part object. [_Experimental_](/CAM_experimental "CAM experimental").
 
 ### Path Modification
 
-- ![](/src/assets/images/CAM_Copy.svg) [Copy the operation in the job](/CAM_Copy "CAM Copy"): Creates a parametric Copy of a selected path object.
+- ![](/images/CAM_Copy.svg) [Copy the operation in the job](/CAM_Copy "CAM Copy"): Creates a parametric Copy of a selected path object.
 
-- ![](/src/assets/images/CAM_Array.svg) [Array](/CAM_Array "CAM Array"): Creates an array by duplicating a selected path.
+- ![](/images/CAM_Array.svg) [Array](/CAM_Array "CAM Array"): Creates an array by duplicating a selected path.
 
-- ![](/src/assets/images/CAM_SimpleCopy.svg) [Simple Copy](/CAM_SimpleCopy "CAM SimpleCopy"): Creates a non-parametric copy of a selected path object.
+- ![](/images/CAM_SimpleCopy.svg) [Simple Copy](/CAM_SimpleCopy "CAM SimpleCopy"): Creates a non-parametric copy of a selected path object.
 
 ### Specialty Operations
 
-- ![](/src/assets/images/CAM_ThreadMilling.svg) [Thread Milling](/CAM_ThreadMilling "CAM ThreadMilling"): Creates a CAM Thread Milling operation from features of a base object. [_Experimental_](/CAM_experimental "CAM experimental").
+- ![](/images/CAM_ThreadMilling.svg) [Thread Milling](/CAM_ThreadMilling "CAM ThreadMilling"): Creates a CAM Thread Milling operation from features of a base object. [_Experimental_](/CAM_experimental "CAM experimental").
 
 ### Miscellaneous
 
-- ![](/src/assets/images/CAM_Area.svg) [Area](/CAM_Area "CAM Area"): Creates a feature area from selected objects. [_Experimental_](/CAM_experimental "CAM experimental").
+- ![](/images/CAM_Area.svg) [Area](/CAM_Area "CAM Area"): Creates a feature area from selected objects. [_Experimental_](/CAM_experimental "CAM experimental").
 
-- ![](/src/assets/images/CAM_Area_Workplane.svg) [Area workplane](/CAM_Area_Workplane "CAM Area Workplane"): Creates a feature area workplane. [_Experimental_](/CAM_experimental "CAM experimental").
+- ![](/images/CAM_Area_Workplane.svg) [Area workplane](/CAM_Area_Workplane "CAM Area Workplane"): Creates a feature area workplane. [_Experimental_](/CAM_experimental "CAM experimental").
 
 ## ToolBit architecture
 
@@ -207,7 +207,7 @@ Manage tools, bits, and the Tool Library. Based on the ToolBit architecture.
 
 ## Preferences
 
-- ![](/src/assets/images/Preferences-cam.svg) [Preferences...](/CAM_Preferences "CAM Preferences"): Preferences available for the CAM Workbench.
+- ![](/images/Preferences-cam.svg) [Preferences...](/CAM_Preferences "CAM Preferences"): Preferences available for the CAM Workbench.
 
 ## Scripting
 

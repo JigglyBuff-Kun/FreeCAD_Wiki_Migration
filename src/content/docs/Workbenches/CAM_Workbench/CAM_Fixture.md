@@ -23,7 +23,7 @@ This documentation is not finished. Please help and contribute documentation.Gui
 
 ## Description
 
-The tool ![](/src/assets/images/CAM_Fixture.svg) [Fixture](/CAM_Fixture "CAM Fixture") sets the Work Offset Coordinate Fixture of the machine CNC controller.
+The tool ![](/images/CAM_Fixture.svg) [Fixture](/CAM_Fixture "CAM Fixture") sets the Work Offset Coordinate Fixture of the machine CNC controller.
 
 Target Work Offset Coordinates typically include: Fixtures G53 to G59. The G-code is simply the Fixture (G53, G54, etc...). The coordinate offset fixtures represent:
 
@@ -35,7 +35,7 @@ The G59 Fixture is used to expand available fixtures. The degree of expansion im
 
 ## Usage
 
-1. Press the ![](/src/assets/images/CAM_Fixture.svg) [Fixture](/CAM_Fixture "CAM Fixture") button or use the P then F keyboard shortcut.
+1. Press the ![](/images/CAM_Fixture.svg) [Fixture](/CAM_Fixture "CAM Fixture") button or use the P then F keyboard shortcut.
 2. Select the desired Work Offset Fixture from the drop-menu.
 
 ## Properties

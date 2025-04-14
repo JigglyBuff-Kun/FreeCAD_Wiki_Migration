@@ -19,10 +19,10 @@ title: Web BrowserBack
 
 ## Description
 
-Use the ![](/src/assets/images/Web_BrowserBack.svg) **Web BrowserBack** command to go to the previous page in the list of visited web pages.
+Use the ![](/images/Web_BrowserBack.svg) **Web BrowserBack** command to go to the previous page in the list of visited web pages.
 
 ## Usage
 
-1. Press the ![](/src/assets/images/Web_BrowserBack.svg) [Previous page](/Web_BrowserBack "Web BrowserBack") button.
+1. Press the ![](/images/Web_BrowserBack.svg) [Previous page](/Web_BrowserBack "Web BrowserBack") button.
 
 Retrieved from "<http://wiki.freecad.org/index.php?title=Web_BrowserBack/en&oldid=1153536>"

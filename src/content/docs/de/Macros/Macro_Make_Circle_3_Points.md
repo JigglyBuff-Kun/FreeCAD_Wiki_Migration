@@ -30,7 +30,7 @@ title: Make Circle 3 Points
 
 Dieses Makro erstellt einen Kreis, der an 3 ausgewählten Punkten orthogonal oder in 3D im Optionsraum umschrieben wird. Punkte können Objekte wie Würfel, Zylinder usw. sein. Die ausgewählten Koordinaten bilden dann den Mittelpunkt dieser Formulare.
 
-![](/src/assets/images/Macro_Draft_Circle_3_Points01.png)
+![](/images/Macro_Draft_Circle_3_Points01.png)
 
 Erzeugt einen Kreis aus 3 ausgewählten Punkten oder Formen
 
@@ -39,7 +39,7 @@ Erzeugt einen Kreis aus 3 ausgewählten Punkten oder Formen
 Wählen Sie drei Punkte oder Formen in der 3D-Ansicht aus und führen Sie das Makro aus.  
 Wenn die Form eine Linie ist, wird die Koordinate der Mittelpunkt der Linie sein.
 
-![Circle_on_3_points](/src/assets/images/Circle_on_3_points.png)
+![Circle_on_3_points](/images/Circle_on_3_points.png)
 
 ## Optionen
 
@@ -81,28 +81,28 @@ _'Vue Dessus:'_
     :   Ansichtsfront (Z, X) = Grün (Axt Y)
     :   Ansicht-Links (Z, Y) = Rot (Axt X)
 
-- [![Kreis auf 3 Formularen (Vorderansicht),](/src/assets/images/Macro_Draft_Circle_3_Points02.png)](/File:Macro_Draft_Circle_3_Points02.png "Kreis auf 3 Formularen (Vorderansicht),")
+- [![Kreis auf 3 Formularen (Vorderansicht),](/images/Macro_Draft_Circle_3_Points02.png)](/File:Macro_Draft_Circle_3_Points02.png "Kreis auf 3 Formularen (Vorderansicht),")
 
   Kreis auf 3 Formularen (Vorderansicht),
 
-- [![orthogonal zur gewählten Form (rechte Ansicht)](/src/assets/images/Macro_Draft_Circle_3_Points03.png)](/File:Macro_Draft_Circle_3_Points03.png "orthogonal zur gewählten Form (rechte Ansicht)")
+- [![orthogonal zur gewählten Form (rechte Ansicht)](/images/Macro_Draft_Circle_3_Points03.png)](/File:Macro_Draft_Circle_3_Points03.png "orthogonal zur gewählten Form (rechte Ansicht)")
 
   orthogonal zur gewählten Form (rechte Ansicht)
 
-* ![](/src/assets/images/Macro_Draft_Circle_3_Points04.png)
+* ![](/images/Macro_Draft_Circle_3_Points04.png)
 
-- ![Drei Zuschauer orthogonale Kreise nach der gewählten Form.](/src/assets/images/Macro_Draft_Circle_3_Points05.png)
+- ![Drei Zuschauer orthogonale Kreise nach der gewählten Form.](/images/Macro_Draft_Circle_3_Points05.png)
 
   Drei Zuschauer orthogonale Kreise nach der gewählten Form.
 
 ## Skript
 
-![](/src/assets/images/View-Top.png) ![](/src/assets/images/View-Left.png) ![](/src/assets/images/View-Front.png) ![](/src/assets/images/View-C3P.png)
+![](/images/View-Top.png) ![](/images/View-Left.png) ![](/images/View-Front.png) ![](/images/View-C3P.png)
 
 Die drei Symbole müssen sich im selben Verzeichnis wie das Modul befinden.  
 Um sie herunterzuladen, bewegen Sie den Mauszeiger über das Symbol und klicken Sie mit der rechten Maustaste, um das Bild als **zu speichern.**
 
-ToolBar Icon ![](/src/assets/images/Macro_Make_Circle_3_Points.png)
+ToolBar Icon ![](/images/Macro_Make_Circle_3_Points.png)
 
 **Make_Circle_3_Points.FCMacro**
 
@@ -629,10 +629,10 @@ path = FreeCAD.ConfigGet("AppHomePath") # chemin
 
 ## Anaglyphe
 
-Hier eine Anaglyphenansicht, die es Ihnen ermöglicht, zwei verschiedene Positionen der Ansicht zu sehen, indem Sie eine Brille mit roten und Cyan-Filtern verwenden ![](/src/assets/images/Anaglyph_Tango.png).  
+Hier eine Anaglyphenansicht, die es Ihnen ermöglicht, zwei verschiedene Positionen der Ansicht zu sehen, indem Sie eine Brille mit roten und Cyan-Filtern verwenden ![](/images/Anaglyph_Tango.png).  
 Schauen Sie abwechselnd mit dem linken und dem rechten Auge, um die Ansichten separat zu sehen.
 
-![Anaglyphe](/src/assets/images/Cercle3Points2D_anaglyphe.png)
+![Anaglyphe](/images/Cercle3Points2D_anaglyphe.png)
 
 ## Crédits
 

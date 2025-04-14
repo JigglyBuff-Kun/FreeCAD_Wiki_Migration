@@ -32,7 +32,7 @@ This macro makes Cutouts for Enclosures in a very handy way
 
 Just select a face of the object that is the base for the cutout and the macro will create a clone of the external outline with a margin of 0.5mm (set in the macro)
 
-![](/src/assets/images/Easy-cutouts.gif)
+![](/images/Easy-cutouts.gif)
 
 Here a demo with an Arduino Uno enclosure
 
@@ -42,7 +42,7 @@ Just select a face of the object that is the base for the cutout and the macro w
 
 ## Script
 
-The Icon for you ToolBar ![](/src/assets/images/Macro_Easy_cutouts_for_Enclosure_Design_icon.png)
+The Icon for you ToolBar ![](/images/Macro_Easy_cutouts_for_Enclosure_Design_icon.png)
 
 **Macro_Easy_cutouts_for_Enclosure_Design.FCMacro**
 

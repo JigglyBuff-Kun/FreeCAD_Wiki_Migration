@@ -25,7 +25,7 @@ The **Std ActivatePrevWindow** command activates the previous window in the [Mai
 
 1. The Main view area must contain at least two windows.
 2. There are several ways to invoke the command:
-   - Select the **Windows → ![](/src/assets/images/Std_ActivatePrevWindow.svg) Previous** option from the menu.
+   - Select the **Windows → ![](/images/Std_ActivatePrevWindow.svg) Previous** option from the menu.
    - Use the keyboard shortcut: Ctrl+Shift+Tab.
 
 ## Notes

@@ -29,6 +29,6 @@ This tool builds a link between two objects of an assembly and matches their ori
 
 1. Place two objects into an assembly.
 2. Select one element of each object and a mirroring plane.
-3. Press the ![](/src/assets/images/Assembly_ConstraintSymmetric.svg) [Symmetric](/Assembly3_ConstraintSymmetric "Assembly3 ConstraintSymmetric") button.
+3. Press the ![](/images/Assembly_ConstraintSymmetric.svg) [Symmetric](/Assembly3_ConstraintSymmetric "Assembly3 ConstraintSymmetric") button.
 
 Retrieved from "<http://wiki.freecad.org/index.php?title=Assembly3_ConstraintSymmetric/en&oldid=887449>"

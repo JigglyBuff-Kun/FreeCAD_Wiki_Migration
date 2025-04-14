@@ -21,7 +21,7 @@ title: TechDraw ExtensionPosObliqueChainDimension
 
 The **TechDraw ExtensionPosObliqueChainDimension** tool aligns oblique dimensions to create a chain dimension.
 
-![](/src/assets/images/TechDraw_ExtensionPosObliqueChainDimensionExample.png)
+![](/images/TechDraw_ExtensionPosObliqueChainDimensionExample.png)
 
 On the right the aligned dimensions
 
@@ -30,8 +30,8 @@ On the right the aligned dimensions
 1. Select two or more parallel oblique dimensions.
 2. The first dimension defines the position. This dimension will not be moved.
 3. There are several ways to invoke the tool:
-   - Press the ![](/src/assets/images/TechDraw_ExtensionPosObliqueChainDimension.svg) [Position Oblique Chain Dimensions](/TechDraw_ExtensionPosObliqueChainDimension "TechDraw ExtensionPosObliqueChainDimension") button.
-   - Select the **TechDraw → Extensions: Attributes/Modifications → ![](/src/assets/images/TechDraw_ExtensionPosHorizChainDimension.svg) Position Oblique Chain Dimensions** option from the menu.
+   - Press the ![](/images/TechDraw_ExtensionPosObliqueChainDimension.svg) [Position Oblique Chain Dimensions](/TechDraw_ExtensionPosObliqueChainDimension "TechDraw ExtensionPosObliqueChainDimension") button.
+   - Select the **TechDraw → Extensions: Attributes/Modifications → ![](/images/TechDraw_ExtensionPosHorizChainDimension.svg) Position Oblique Chain Dimensions** option from the menu.
 4. The dimensions are aligned.
 
 Retrieved from "<http://wiki.freecad.org/index.php?title=TechDraw_ExtensionPosObliqueChainDimension/en&oldid=1290712>"

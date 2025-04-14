@@ -19,11 +19,11 @@ title: Draft ShowSnapBar
 
 ## Description
 
-The ![](/src/assets/images/Draft_ShowSnapBar.svg) **Draft ShowSnapBar** command shows the Draft Snap toolbar. Some users only want to see this toolbar when a command is active and have changed their [preferences](/Draft_Snap#Preferences "Draft Snap") accordingly. For them this command is a way to show the toolbar to inspect, and optionally change, the [snap options](/Draft_Snap "Draft Snap").
+The ![](/images/Draft_ShowSnapBar.svg) **Draft ShowSnapBar** command shows the Draft Snap toolbar. Some users only want to see this toolbar when a command is active and have changed their [preferences](/Draft_Snap#Preferences "Draft Snap") accordingly. For them this command is a way to show the toolbar to inspect, and optionally change, the [snap options](/Draft_Snap "Draft Snap").
 
 ## Usage
 
-1. Select the **Utilities → ![](/src/assets/images/Draft_ShowSnapBar.svg) Show snap toolbar** option from the menu.
+1. Select the **Utilities → ![](/images/Draft_ShowSnapBar.svg) Show snap toolbar** option from the menu.
 
 ## Notes
 

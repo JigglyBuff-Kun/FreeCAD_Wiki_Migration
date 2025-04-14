@@ -24,8 +24,8 @@ The **BIM Door** tool creates a [Window](/Arch_Window "Arch Window") object usin
 ## Usage
 
 1. There are several ways to invoke the tool:
-   - Press the ![](/src/assets/images/BIM_Door.svg) [Door](/BIM_Door "BIM Door") button.
-   - Select the **3D/BIM → ![](/src/assets/images/BIM_Door.svg) Door** option from the menu.
+   - Press the ![](/images/BIM_Door.svg) [Door](/BIM_Door "BIM Door") button.
+   - Select the **3D/BIM → ![](/images/BIM_Door.svg) Door** option from the menu.
    - Use the keyboard shortcut: D then O.
 2. For further steps see [Arch Window](/Arch_Window "Arch Window").
 

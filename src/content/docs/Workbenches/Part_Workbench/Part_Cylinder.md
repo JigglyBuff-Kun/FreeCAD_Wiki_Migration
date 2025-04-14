@@ -19,17 +19,17 @@ title: Part Cylinder
 
 ## Description
 
-The ![](/src/assets/images/Part_Cylinder.svg) **Part Cylinder** command creates a parametric cylinder solid. It is the result of extruding a circular arc along a straight path. In the coordinate system defined by its Data**Placement** property, the bottom face of the cylinder lies on the XY plane with its center at the origin.
+The ![](/images/Part_Cylinder.svg) **Part Cylinder** command creates a parametric cylinder solid. It is the result of extruding a circular arc along a straight path. In the coordinate system defined by its Data**Placement** property, the bottom face of the cylinder lies on the XY plane with its center at the origin.
 
 A Part Cylinder can be turned into a segment of a cylinder by changing its Data**Angle** property.
 
-![](/src/assets/images/Part_Cylinder_Example.png)
+![](/images/Part_Cylinder_Example.png)
 
 ## Usage
 
 1. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/Part_Cylinder.svg) [Cylinder](/Part_Cylinder "Part Cylinder") button.
-   - Select the **Part → Primitives → ![](/src/assets/images/Part_Cylinder.svg) Cylinder** option from the menu.
+   - Press the ![](/images/Part_Cylinder.svg) [Cylinder](/Part_Cylinder "Part Cylinder") button.
+   - Select the **Part → Primitives → ![](/images/Part_Cylinder.svg) Cylinder** option from the menu.
 2. The cylinder is created.
 3. Optionally change the dimensions and Data**Placement** of the cylinder by doing one of the following:
    - Double-click the object in the [Tree view](/Tree_view "Tree view"):
@@ -38,11 +38,11 @@ A Part Cylinder can be turned into a segment of a cylinder by changing its Data*
      3. The object is dynamically updated in the [3D view](/3D_view "3D view").
      4. Press the OK button.
    - Change the properties in the [Property editor](/Property_editor "Property editor").
-   - Change the Data**Placement** with the ![](/src/assets/images/Std_TransformManip.svg) [Std TransformManip](/Std_TransformManip "Std TransformManip") command.
+   - Change the Data**Placement** with the ![](/images/Std_TransformManip.svg) [Std TransformManip](/Std_TransformManip "Std TransformManip") command.
 
 ## Example
 
-![](/src/assets/images/Part_Cylinder_Scripting_Example.png)
+![](/images/Part_Cylinder_Scripting_Example.png)
 
 Part Cylinder from the scripting example
 
@@ -50,7 +50,7 @@ A Part Cylinder object created with the [scripting example](#Scripting) below is
 
 ## Notes
 
-- A Part Cylinder can also be created with the ![](/src/assets/images/Part_Primitives.svg) [Part Primitives](/Part_Primitives "Part Primitives") command. With that command you can specify the dimensions and placement at creation time.
+- A Part Cylinder can also be created with the ![](/images/Part_Primitives.svg) [Part Primitives](/Part_Primitives "Part Primitives") command. With that command you can specify the dimensions and placement at creation time.
 
 ## Properties
 

@@ -57,11 +57,11 @@ For more detailed explanations, see the [How to install macros](/How_to_install_
 For better understanding, below is an example :
 Let's suppose a simple cube whose top (yellow) face has been drafted. A cylinder is created with a padded circle whose sketch has been mapped (Flat face) to the drafted face and offset to match needs (Attachment offset) :
 
-![](/src/assets/images/Unmap_ex1.png)
+![](/images/Unmap_ex1.png)
 
 Now for some reason, you need to revert the pull direction of the draft (of course without the cylinder to move). Here is what basically happen :
 
-![](/src/assets/images/Unmap_ex2.png)
+![](/images/Unmap_ex2.png)
 
 The treeview shows an error, the 3D view isn't updated, and the circle sketch is floating in the middle of nowhere...
 
@@ -73,11 +73,11 @@ Now comes the job of the macro (that you need to run before changing the referen
 
 Which in term of picture gives the following :
 
-![](/src/assets/images/Unmap_macro.png)
+![](/images/Unmap_macro.png)
 
 ## Script
 
-ToolBar Icon ![](/src/assets/images/SketchUnmap.svg)
+ToolBar Icon ![](/images/SketchUnmap.svg)
 
 **Macro_SketchUnmap.FCMacro**
 

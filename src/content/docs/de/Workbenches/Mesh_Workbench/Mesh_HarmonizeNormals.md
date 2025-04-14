@@ -25,8 +25,8 @@ Der Befehl **Mesh Normalen ausrichten** richtet die Normalen eines Netzobjektes 
 
 1. Ein oder mehrere Netzobjekte auswählen.
 2. Es gibt mehrere Möglichkeiten den Befehl aufzurufen:
-   - Die Schaltfläche ![](/src/assets/images/Mesh_HarmonizeNormals.svg) Mesh Normalen ausrichten drücken.
-   - Den Menüeintrag **Netze → ![](/src/assets/images/Mesh_HarmonizeNormals.svg) Normalen ausrichten** auswählen.
+   - Die Schaltfläche ![](/images/Mesh_HarmonizeNormals.svg) Mesh Normalen ausrichten drücken.
+   - Den Menüeintrag **Netze → ![](/images/Mesh_HarmonizeNormals.svg) Normalen ausrichten** auswählen.
 
 ## Hinweise
 

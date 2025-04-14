@@ -34,7 +34,7 @@ This macro is an update to the [Macro 3D Parametric Curve](/Macro_3D_Parametric_
 
 It also supports saving formulas to a text file in JSON format and support for Spreadsheet integration of the current formula. Full documentation can be found [Parametric_Curve_FP](https://github.com/mwganson/Parametric_Curve_FP) on github.
 
-![](/src/assets/images/Parametric_Curve_FP_SCR.png)
+![](/images/Parametric_Curve_FP_SCR.png)
 
 Parametric_Curve_FP screenshot‎
 
@@ -71,13 +71,13 @@ webbrowser.open("https://gist.github.com/mwganson/473920ad317fb2dc3e37638112874e
 <class="rawcodeurl"><a href="<https://gist.github.com/mwganson/473920ad317fb2dc3e37638112874e2a/raw/da0639b423b73af5f71f8806c27524f468633346/Parametric_Curve_FP.py>">raw code</a>
 
 ToolBar Icon
-![](/src/assets/images/Parametric_Curve_FP.svg)
+![](/images/Parametric_Curve_FP.svg)
 
 ### Script
 
 **Macro Parametric_Curve_FP.py**
 
-[![](/src/assets/images/Nuvola_apps_download_manager.png)](https://gist.github.com/mwganson/473920ad317fb2dc3e37638112874e2a)
+[![](/images/Nuvola_apps_download_manager.png)](https://gist.github.com/mwganson/473920ad317fb2dc3e37638112874e2a)
 
 [Parametric_Curve_FP.py](https://gist.github.com/mwganson/473920ad317fb2dc3e37638112874e2a)
 

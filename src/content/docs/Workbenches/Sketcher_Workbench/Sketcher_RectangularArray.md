@@ -23,14 +23,14 @@ This tool is obsolete, it is not available in1.0 and above. UseSketcher Translat
 
 ## Description
 
-The ![](/src/assets/images/Sketcher_RectangularArray.svg) [Sketcher Rectangular array](/Sketcher_RectangularArray "Sketcher RectangularArray") command creates an array of selected sketcher elements.
+The ![](/images/Sketcher_RectangularArray.svg) [Sketcher Rectangular array](/Sketcher_RectangularArray "Sketcher RectangularArray") command creates an array of selected sketcher elements.
 
 ## Usage
 
 1. Select sketcher elements in [task panel](/Task_panel "Task panel") or in [3D view](/3D_view "3D view").
 2. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/Sketcher_RectangularArray.svg) [Rectangular array](/Sketcher_RectangularArray "Sketcher RectangularArray") button.
-   - Select the **Sketch → Sketcher tools → ![](/src/assets/images/Sketcher_RectangularArray.svg) Rectangular array** option from the menu.
+   - Press the ![](/images/Sketcher_RectangularArray.svg) [Rectangular array](/Sketcher_RectangularArray "Sketcher RectangularArray") button.
+   - Select the **Sketch → Sketcher tools → ![](/images/Sketcher_RectangularArray.svg) Rectangular array** option from the menu.
 3. Specify the options for the array in the dialog that opens.
 4. Press the OK button.
 5. Move the mouse in the [3D view](/3D_view "3D view") towards the desired reference point.  
@@ -40,7 +40,7 @@ The ![](/src/assets/images/Sketcher_RectangularArray.svg) [Sketcher Rectangular 
 
 ## Options
 
-![](/src/assets/images/Sketcher_RectangularArray_Options.jpg)
+![](/images/Sketcher_RectangularArray_Options.jpg)
 
 **Rectangular array** has the following options:
 

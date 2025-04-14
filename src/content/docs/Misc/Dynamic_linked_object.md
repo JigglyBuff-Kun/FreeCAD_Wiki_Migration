@@ -54,7 +54,7 @@ How this is accomplished:
 
 **GIF Recording**
 
-![](/src/assets/images/Dynamic-table-leg.gif)
+![](/images/Dynamic-table-leg.gif)
 
 ## FreeCAD Forum Discussion
 

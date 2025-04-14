@@ -24,7 +24,7 @@ Removes the selected objects and all children that are not referenced from other
 ## Usage
 
 1. Select object(s) to remove.
-2. Click on ![](/src/assets/images/OpenSCAD_RemoveSubtree.svg) or choose OpenSCAD → ![](/src/assets/images/OpenSCAD_RemoveSubtree.svg) Remove Objects and their children from the top menu.
+2. Click on ![](/images/OpenSCAD_RemoveSubtree.svg) or choose OpenSCAD → ![](/images/OpenSCAD_RemoveSubtree.svg) Remove Objects and their children from the top menu.
 
 ## Limitations
 

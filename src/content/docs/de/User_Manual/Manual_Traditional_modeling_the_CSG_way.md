@@ -8,7 +8,7 @@ Wie bereits früher in diesem Handbuch erläutert, unterstützt FreeCAD verschie
 
 BREP bietet mehrere Vorteile. Erstens definiert es Oberflächen mithilfe mathematischer Gleichungen und ermöglicht so eine präzise und genaue Modellierung. Diese Präzision ist für technische Anwendungen, bei denen genaue Abmessungen erforderlich sind, von entscheidender Bedeutung. Darüber hinaus stellt BREP glatte und detaillierte Oberflächen bereit, anders als [Polygonnetze](https://en.wikipedia.org/wiki/Polygon_mesh), die gekrümmte Oberflächen mit Facetten annähern. Dies ist vergleichbar mit dem Unterschied zwischen Vektorbildern, die ohne Qualitätsverlust skaliert werden können, und Bitmap-Bildern, die bei Vergrößerung pixelig erscheinen können. BREP behält umfassende topologische Informationen über das Objekt bei, einschließlich der Beziehungen zwischen Flächen, Kanten und Knotenpunkten, was für komplexe Operationen wie boolesche Berechnungen und Abrundungen unerlässlich ist.
 
-![](/src/assets/images/Mesh_vs_brep.jpg)
+![](/images/Mesh_vs_brep.jpg)
 
 Links eine Netzdarstellung und rechts eine BREP-Darstellung
 
@@ -20,13 +20,13 @@ Während andere FreeCAD-Arbeitsbereiche, wie z. B. die Arbeitsbereiche PartDesig
 
 Um die Verwendung des Arbeitsbereichs Part zu veranschaulichen, modellieren wir diesen Tisch, wobei wir ausschließlich CSG-Operationen verwenden (mit Ausnahme der Schrauben, für die wir eines der Addons verwenden, und der Abmessungen, die wir im nächsten Kapitel sehen werden):
 
-![](/src/assets/images/Exercise_table_complete.jpg)
+![](/images/Exercise_table_complete.jpg)
 
 Erstellen wir ein neues Dokument (**Strg+N** oder Menü **Datei → Neu**) für den Entwurf unseres Tisches. Das Dokument wird zunächst auf der Registerkarte „Modell“ im Bedienfeld „Combo-Ansicht“ als „unbenannt“ bezeichnet. Sobald das Dokument als "table.FCStd" gespeichert wird (**Strg+Umschalt+S** oder Menü **Datei → Speichern unter**), wird das Dokument in „table“ umbenannt, was das Projekt deutlicher identifiziert. Wir werden Millimeter (mm) als Längeneinheit verwenden. Einheiten können nach Belieben den eigenen Vorlieben angepasst werden, indem das Menü in der unteren rechten Ecke verwendet wird.
 
 Jetzt können wir zum Arbeitsbereich Part wechseln und unser erstes Tischbeins erstellen.
 
-- Die Schaltfläche ![](/src/assets/images/Part_Box.svg)**Quader** drücken
+- Die Schaltfläche ![](/images/Part_Box.svg)**Quader** drücken
 - Den Würfel auswählen und dann die folgenden Eigenschaften festlegen (auf der Registerkarte **Daten**):
   - Länge: 80 mm
   - Breite: 80 mm
@@ -39,15 +39,15 @@ Jetzt können wir zum Arbeitsbereich Part wechseln und unser erstes Tischbeins e
 
 Jetzt sollten zwei hohe Quader zu sehen sein, der eine um 8 mm sowohl in X- als auch in Y-Richtung vom anderen versetzt:
 
-![](/src/assets/images/Exercise_table_01.jpg)
+![](/images/Exercise_table_01.jpg)
 
-- Jetzt können wir den einen Quader vom anderen abziehen, um unser L-förmiges Tischbein zu erhalten: Den ursprünglichen Quader auswählen, von dem nach der Differenz-Verknüpfung Anteile übrig bleiben.Danach mit gedrückter Strg-Taste Cube001 auswählen, der von dem ersten abgezogen wird. Man beachte, dass die Auswahlreihenfolge das Ergebnis der Differenz-Verknüpfung bestimmt. Die Schaltfläche ![](/src/assets/images/Part_Cut.svg) **Differenz** drücken:
+- Jetzt können wir den einen Quader vom anderen abziehen, um unser L-förmiges Tischbein zu erhalten: Den ursprünglichen Quader auswählen, von dem nach der Differenz-Verknüpfung Anteile übrig bleiben.Danach mit gedrückter Strg-Taste Cube001 auswählen, der von dem ersten abgezogen wird. Man beachte, dass die Auswahlreihenfolge das Ergebnis der Differenz-Verknüpfung bestimmt. Die Schaltfläche ![](/images/Part_Cut.svg) **Differenz** drücken:
 
-![](/src/assets/images/Exercise_table_02.jpg)
+![](/images/Exercise_table_02.jpg)
 
 Das neu erzeugte Objekt, "Cut" genannt, enthält noch die beiden Quader, die wir als Operanden benutzt haben. Tatsächlich sind die beiden Quader weiterhin im Dokument und wurden lediglich ausgeblendet und in der Baumansicht unterhalb des Cut-Objekts angeordnet. Sie können weiterhin ausgewählt werden, indem der Pfeil neben dem Cut-Objekt ausgeklappt wird. Wenn gewünscht können sie wieder eigeblendet werden, indem die Augensymbole neben ihren Benennungen angeklickt werden, durch Auswahl in ihren Rechts-Klick-Menüs oder durch Ändern ihrer Eigenschaften.
 
-Differenz und andere boolesche Verknüpfungen können auch mit dem Werkzeug ![](/src/assets/images/Part_Boolean.svg) [Boolesche Verknüpfung](/Part_Boolean/de "Part Boolean/de") ausgeführt werden.
+Differenz und andere boolesche Verknüpfungen können auch mit dem Werkzeug ![](/images/Part_Boolean.svg) [Boolesche Verknüpfung](/Part_Boolean/de "Part Boolean/de") ausgeführt werden.
 
 - Erstellen wir nun die drei anderen Tischbeine, indem wir unseren Basisquader weitere 6 Mal kopieren. Da er sich immer noch als Kopie in der Zwischenablage befindet, können wir ihn einfach 6 Mal einfügen (Strg+V). Die Position jedes neu erstellten Quaders wie folgt ändern:
 
@@ -60,24 +60,24 @@ Differenz und andere boolesche Verknüpfungen können auch mit dem Werkzeug ![](
 
 - Nun führen wir die drei weitere Beschnittvorgänge aus, indem wir zuerst den „Host“-Quader auswählen und dann den Quader, der (aus ihm) herausgeschnitten werden soll. Wir haben jetzt vier Cut-Objekte:
 
-![](/src/assets/images/Exercise_table_03.jpg)
+![](/images/Exercise_table_03.jpg)
 
 Anstatt den Basiswürfel sechsmal zu duplizieren, hätten wir das gesamte Bein dreimal duplizieren können, indem das oben erstellte Cut-Objekt aus den ersten beiden Quadern kopiert, eingefügt und jedes ausgeschnittene Bein in die richtige Ausrichtung gedreht wird. In FreeCAD gib es oft mehrere Möglichkeiten, das gleiche Ergebnis zu erzielen. Dies sollte man sich merken, da man es oft als einfacher oder effizienter empfindet, verschiedene Techniken in unterschiedlichen Zusammenhängen einzusetzen.
 
-- Wir werden jetzt mit derselben Beschnittoperation (Differenz) Löcher für die Schrauben bohren. Da wir 8 Löcher brauchen (zwei in jedem Bein), könnten wir 8 abzuziehende Objekte erstellen. Wir können aber auch einen anderen Weg ausprobieren. Wir können 4 Zylinder erstellen, die jeweils ein Paar Beine durchdringt. Erstellen wir sie mit dem Werkzeug ![](/src/assets/images/Part_Cylinder.svg) **Zylinder**. Wir können einen Zylinder erstellen und ihn dreimal duplizieren. Jeder Zylinder erhält einen Radius von 6 mm. Dieses Mal müssen wir die Zylinder drehen und dazu die Eigenschaft **Placement** unter der Registerkarte Daten verwenden _(**Hinweis:** Die Eigenschaft Axis ändern,_ bevor _der Winkel festgelegt wird, sonst wird die Drehung nicht ausgeführt)_:
+- Wir werden jetzt mit derselben Beschnittoperation (Differenz) Löcher für die Schrauben bohren. Da wir 8 Löcher brauchen (zwei in jedem Bein), könnten wir 8 abzuziehende Objekte erstellen. Wir können aber auch einen anderen Weg ausprobieren. Wir können 4 Zylinder erstellen, die jeweils ein Paar Beine durchdringt. Erstellen wir sie mit dem Werkzeug ![](/images/Part_Cylinder.svg) **Zylinder**. Wir können einen Zylinder erstellen und ihn dreimal duplizieren. Jeder Zylinder erhält einen Radius von 6 mm. Dieses Mal müssen wir die Zylinder drehen und dazu die Eigenschaft **Placement** unter der Registerkarte Daten verwenden _(**Hinweis:** Die Eigenschaft Axis ändern,_ bevor _der Winkel festgelegt wird, sonst wird die Drehung nicht ausgeführt)_:
   - Zylinder: Höhe: 1300 mm, Winkel: 90°, Achse: x: 0, y: 1, z: 0, Position: x: -10 mm, y: 40 mm, z: 720 mm
   - Zylinder001: Höhe: 1300 mm, Winkel: 90°, Achse: x: 0, y: 1, z: 0, Position: x: -10 mm, y: 840 m, z: 720 mm
   - Zylinder002: Höhe: 900 mm, Winkel: 90°, Achse: x: -1, y: 0, z: 0, Position: x: 40 mm, y: -10 mm, z: 700 m
   - Zylinder003: Höhe: 900 mm, Winkel: 90°, Achse: x: -1, y: 0, z: 0, Position: x: 1240 mm, y: -10 mm, z: 700 mm
 
-![](/src/assets/images/Exercise_table_04.jpg)
+![](/images/Exercise_table_04.jpg)
 
 Wir stellen fest, dass die Zylinder über die Tischbeine hinausragen. Der Grund ist, dass, wie in allen auf Festkörpern basierenden 3D-Applikationen, boolesche Verknüpfungen in FreeCAD manchmal fehlschlagen, wenn Flächen von Objekten komplanar verlaufen. Wir können potentielle Fehler vermeiden, indem die Enden der Zylinder außerhalb der Beinoberflächen liegen.
 
 - Jetzt führen wir die Subtraktionen durch, um die Löcher in den Tischbeinen zu erstellen. Das erste Bein auswählen, dann mit gedrückter Strg-Taste einen der Zylinder auswählen, der es kreuz, und die Schaltfläche **Differenz** drücken. Das Loch wird im Bein erstellt und der Zylinder wird ausgeblendet. Wir können ihn finden, wenn wir dass neue Cut-Objekt des Beines in der Baumansicht ausklappen.
 - Das andere Bein auswählen, durch das der ausgeblendete Zylinder verläuft, und den Vorgang wiederholen. Dieses Mal den Zylinder in der Baumansicht auswählen, da er in der 3D-Ansicht ausgeblendet ist. (Alternativ können wir ihn wieder sichtbar machen und in der 3D-Ansicht auswählen). Diesen Vorgang für die anderen Beine wiederholen, bis jedes von ihnen zwei Löcher hat:
 
-![](/src/assets/images/Exercise_table_05.jpg)
+![](/images/Exercise_table_05.jpg)
 
 Wie man sieht, wird jetzt jedes Bein von einer Folge mehrerer Operationen beschrieben, die in der Baumansicht eingebettet sind. Die gesamte Geometrie, die wir erstellt haben, bleibt parametrisch und wir können jederzeit jeden Parameter in jeder der älteren Operationen ändern. In FreeCAD bezeichnen wir diese Folge als "Modell-Historie" (modeling history), da sie die komplette Geschichte der durchgeführten Operationen aufzeichnet.
 
@@ -94,11 +94,11 @@ Nachdem unsere fünf Teile nun fertig sind, ist es ein guter Zeitpunkt, ihnen be
 - Wir werden nun ein paar Schrauben mit einem Addon (Erweiterung) einsetzen. [Fasteners](https://github.com/shaise/FreeCAD_FastenersWB) ist ein extrem nützliches Addon, das von einem Mitglied der FreeCAD-Gemeinschaft entwickelt wurde. Man findet es in der [FreeCAD-Addons](https://github.com/FreeCAD/FreeCAD-addons)-Datenablage. Addons zu installieren ist einfach! Siehe [Addon-Manager](/Std_AddonMgr/de "Std AddonMgr/de") für weitere Informationen.
 - Sobald der Arbeitsbereich Fasteners installiert und FreeCAD erneut gestartet wurde, wird er in der Ausklappliste der Arbeitsbereiche ausgewählt. Wir werden jetzt einem der oben erstellten Löcher eine Schraube hinzufügen. Zuerst die kreisförmige Kante eines Loches in einem unserer Tischbeine auswählen.
 
-![](/src/assets/images/FastenerWorkbench.png)
+![](/images/FastenerWorkbench.png)
 
 - Dann eine der Schrauben auswählen, die im Arbeitsbereich Fasteners bereitgestellt werden. Für diese Übung verwenden wir die **EN 1665 Sechskantschraube mit Flansch, schwere Reihe**. Die Schraube wird in unserem Loch eingesetzt und an ihm ausgerichtet; und der Durchmesser wird automatisch passend zur Größe unseres Loches ausgewählt. Manchmal muss die Ausrichtung der Schraube über ihrer Eigenschaft **Invert** umgekehrt werden.
 
-![](/src/assets/images/FastenerWorkbench_sel.png)
+![](/images/FastenerWorkbench_sel.png)
 
 - Wiederhole dies für die anderen sieben Löcher und unser Tisch ist fertig!
 
@@ -106,19 +106,19 @@ Wie bereits erwähnt, kann dasselbe Ergebnis erzielt werden, auch wenn man unter
 
 Wir beginnen auf ähnliche Weise, indem wir einen Quader mit den folgenden Abmessungen erstellen: Länge 80 mm, Breite 8 mm und Höhe 750 mm
 
-- Einen Würfel erstellen, indem wir die Schaltfläche ![](/src/assets/images/Part_Box.svg)**Quader** auswählen und die folgenden Eigenschaften festlegen (auf der Registerkarte **Daten**):
+- Einen Würfel erstellen, indem wir die Schaltfläche ![](/images/Part_Box.svg)**Quader** auswählen und die folgenden Eigenschaften festlegen (auf der Registerkarte **Daten**):
   - Länge: 80 mm
   - Breite: 8 mm
   - Höhe: 750 mm
-- Als Nächstes erstellen wir einen ![](/src/assets/images/Part_Cylinder.svg) **Zylinder** mit den folgenden Eigenschaften:
+- Als Nächstes erstellen wir einen ![](/images/Part_Cylinder.svg) **Zylinder** mit den folgenden Eigenschaften:
   - Radius: 6 mm, Höhe: 100 mm, Winkel: 90°, Achse: x: 1, y: 0, z: 0, Position: x: 40 mm, y: 40 mm, z: 720 mm
-- Als Nächstes wenden wir das Beschnittwerkzeug (Differenz) an. Den Würfel auswählen, dann die Strg-Taste gedrückt halten und den Zylinder auswählen. Man beachte, dass die Reihenfolge wichtig ist, um festzulegen, welches erhalten bleibt. Dann die Schaltfläche ![](/src/assets/images/Part_Cut.svg) **Differenz** drücken.
+- Als Nächstes wenden wir das Beschnittwerkzeug (Differenz) an. Den Würfel auswählen, dann die Strg-Taste gedrückt halten und den Zylinder auswählen. Man beachte, dass die Reihenfolge wichtig ist, um festzulegen, welches erhalten bleibt. Dann die Schaltfläche ![](/images/Part_Cut.svg) **Differenz** drücken.
 - Das ausgeschnittene Objekt (cut object) kopieren und einfügen, indem wir **Strg+C** und dann **Strg+V** drücken (oder die Menüeinträge **Bearbeiten → Kopieren** und **Einfügen** auswählen):
   - Winkel: 90°, Achse: x: 0, y: 0, z: 1, Position: x: 8 mm
-- Die beiden Objekte auswählen und das Werkzeug ![](/src/assets/images/Part_Fuse.svg) **Vereinigung** anwenden. Jetzt sind die beiden Objekte verschmolzen und wir haben ein L-förmiges Tischbein.
+- Die beiden Objekte auswählen und das Werkzeug ![](/images/Part_Fuse.svg) **Vereinigung** anwenden. Jetzt sind die beiden Objekte verschmolzen und wir haben ein L-förmiges Tischbein.
 - Das verschmolzene Bein kopieren, einsetzen und wie folgt positionieren:
   - Winkel: 90°, Achse: x: 0, y: 0, z: 1, Position y: 800 mm.
-- Die beiden Beine auswählen und einen ![](/src/assets/images/Part_Compound.svg) **Verbund** erstellen.
+- Die beiden Beine auswählen und einen ![](/images/Part_Compound.svg) **Verbund** erstellen.
 - Den Verbund kopieren, einsetzen und wie folgt positionieren:
   - Winkel: 180°, Achse: x:0, y:0, z:1, Position x: 1200 mm, y: 800 mm. Wir haben unsere Beine.
 
@@ -132,7 +132,7 @@ Lasst uns die Tischplatte erstellen.
 
 Nun machen weiter, indem wir Schrauben im Arbeitsbereich Fasteners auswählen und hinzufügen.
 
-![](/src/assets/images/Tabble_alternative_complete.png)
+![](/images/Tabble_alternative_complete.png)
 
 **Die interne Struktur von Teilobjekten**
 

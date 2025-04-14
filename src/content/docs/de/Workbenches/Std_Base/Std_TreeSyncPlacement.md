@@ -24,7 +24,7 @@ Der Befehl **Std BaumSyncPosition** schaltet den Sync-Position-Modus der [Bauman
 ## Anwendung
 
 1. Es gibt mehrere Möglichkeiten den Befehl aufzurufen:
-   - Den nach unten weisenden Pfeil rechts neben der Schaltfläche ![](/src/assets/images/Std_TreeSyncView.svg) anklicken und den Eintrag **Sync-Platzierung** in der angezeigten Liste auswählen. Hinweis: Das Bild der Schaltfläche ändert sich entsprechend der Auswahl.
+   - Den nach unten weisenden Pfeil rechts neben der Schaltfläche ![](/images/Std_TreeSyncView.svg) anklicken und den Eintrag **Sync-Platzierung** in der angezeigten Liste auswählen. Hinweis: Das Bild der Schaltfläche ändert sich entsprechend der Auswahl.
    - Den Menüeintrag **Ansicht → Baumansicht-Aktionen → Sync-Platzierung** auswählen.
    - Das Tastaturkürzel T dann 3.
 

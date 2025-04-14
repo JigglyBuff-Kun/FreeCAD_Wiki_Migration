@@ -24,7 +24,7 @@ Der Befehl **Std EinfrierenUmschalten** schaltet den Zustand Eingefroren von Obj
 ## Anwendung
 
 1. Ein oder mehrere Objekte auswählen.
-2. Die Menüoption **![](/src/assets/images/Std_ToggleFreeze.svg) Enfrieren umschalten** im Kontextmenü der [Baumansicht](/Tree_view/de "Tree view/de") auswählen.
+2. Die Menüoption **![](/images/Std_ToggleFreeze.svg) Enfrieren umschalten** im Kontextmenü der [Baumansicht](/Tree_view/de "Tree view/de") auswählen.
 3. Eingefrorene Objekte werden in der Baumansicht mit dem Symbol des Befehls markiert.
 4. Wurden Objekte aufgetaut: Wahlweise das Dokument [aktualisieren](/Std_Refresh/de "Std Refresh/de").
 

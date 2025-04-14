@@ -21,7 +21,7 @@ title: EM FHPlane
 
 The FHPlane tool inserts a FastHenry uniform conductive plane object.
 
-![](/src/assets/images/EM_FHPlane_Example.png)
+![](/images/EM_FHPlane_Example.png)
 
 FastHenry FHPlane
 
@@ -29,16 +29,16 @@ FastHenry FHPlane
 
 The FHPlane object must be based on another object, that can be either a [Draft Rectangle](/Draft_Rectangle "Draft Rectangle") or a [Part Box](/Part_Box "Part Box") object. In case you based your FHPlane on a [Part Box](/Part_Box "Part Box") object, the Thickness parameter will be inherited from the Box Height value.
 
-1. Create and select a ![](/src/assets/images/Draft_Rectangle.svg) [Draft Rectangle](/Draft_Rectangle "Draft Rectangle") or a ![](/src/assets/images/Part_Box.svg) [Part Box](/Part_Box "Part Box") object
-2. Press the ![](/src/assets/images/EM_FHPlane.svg) [EM FHPlane](/EM_FHPlane "EM FHPlane") button, or press E then P keys.
+1. Create and select a ![](/images/Draft_Rectangle.svg) [Draft Rectangle](/Draft_Rectangle "Draft Rectangle") or a ![](/images/Part_Box.svg) [Part Box](/Part_Box "Part Box") object
+2. Press the ![](/images/EM_FHPlane.svg) [EM FHPlane](/EM_FHPlane "EM FHPlane") button, or press E then P keys.
 
 In addition, you can also select together with the base object (the [Draft Rectangle](/Draft_Rectangle "Draft Rectangle") or the [Part Box](/Part_Box "Part Box")) also one or more [EM FHNode](/EM_FHNode "EM FHNode") and / or one or more [EM FHPlaneHole](/EM_FHPlaneHole "EM FHPlaneHole") objects, that will be adopted by the FHPlane:
 
 1. Create a [Draft Rectangle](/Draft_Rectangle "Draft Rectangle") or a [Part Box](/Part_Box "Part Box") object
-2. Create one or more ![](/src/assets/images/EM_FHNode.svg) [EM FHNode](/EM_FHNode "EM FHNode") objects
-3. Create one or more ![](/src/assets/images/EM_FHPlaneHole.svg) [EM FHPlaneHole](/EM_FHPlaneHole "EM FHPlaneHole") objects
+2. Create one or more ![](/images/EM_FHNode.svg) [EM FHNode](/EM_FHNode "EM FHNode") objects
+3. Create one or more ![](/images/EM_FHPlaneHole.svg) [EM FHPlaneHole](/EM_FHPlaneHole "EM FHPlaneHole") objects
 4. Select the base object, the FHNode objects and the FHPlaneHole objects (for this multiple selection, you can point and click the objects in the [tree view](/Tree_view "Tree view") or in the [3D view](/3D_view "3D view"), and to perform a multiple selection just keep the CTRL key pressed while selecting).
-5. Press the ![](/src/assets/images/EM_FHPlane.svg) [EM FHPlane](/EM_FHPlane "EM FHPlane") button, or press E then P keys.
+5. Press the ![](/images/EM_FHPlane.svg) [EM FHPlane](/EM_FHPlane "EM FHPlane") button, or press E then P keys.
 
 ### Remarks:
 

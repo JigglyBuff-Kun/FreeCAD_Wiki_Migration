@@ -19,7 +19,7 @@ title: Sketcher Rotate
 
 ## Description
 
-The ![](/src/assets/images/Sketcher_Rotate.svg) [Sketcher Rotate](/Sketcher_Rotate "Sketcher Rotate") tool rotates or optionally creates rotated copies of selected elements. Copies are evenly distributed along the rotation angle.
+The ![](/images/Sketcher_Rotate.svg) [Sketcher Rotate](/Sketcher_Rotate "Sketcher Rotate") tool rotates or optionally creates rotated copies of selected elements. Copies are evenly distributed along the rotation angle.
 
 ## Usage
 
@@ -30,9 +30,9 @@ Dim-OVP = Dimensional On-View-Parameters.
 
 1. Select one or more edges and/or [Point objects](/Sketcher_CreatePoint "Sketcher CreatePoint"). Constraints, except [Horizontal](/Sketcher_ConstrainHorizontal "Sketcher ConstrainHorizontal") and [Vertical](/Sketcher_ConstrainVertical "Sketcher ConstrainVertical") constraints, restricted to the selected elements are also processed. If the original elements are rotated, any other constraints associated with them will be deleted.
 2. There are several ways to invoke the tool:
-   - Press the ![](/src/assets/images/Sketcher_Rotate.svg) [Polar transform](/Sketcher_Rotate "Sketcher Rotate") button.
-   - Select the **Sketcher → Sketcher tools → ![](/src/assets/images/Sketcher_Rotate.svg) Polar transform** option from the menu.
-   - Right-click in the [3D view](/3D_view "3D view") and select the **![](/src/assets/images/Sketcher_Rotate.svg) Polar transform** option from the context menu.
+   - Press the ![](/images/Sketcher_Rotate.svg) [Polar transform](/Sketcher_Rotate "Sketcher Rotate") button.
+   - Select the **Sketcher → Sketcher tools → ![](/images/Sketcher_Rotate.svg) Polar transform** option from the menu.
+   - Right-click in the [3D view](/3D_view "3D view") and select the **![](/images/Sketcher_Rotate.svg) Polar transform** option from the context menu.
    - The keyboard shortcut: Z then P.
 3. The cursor changes to a cross with the tool icon.
 4. The **Rotate parameters** section is added at the top of the [Sketcher Dialog](/Sketcher_Dialog "Sketcher Dialog").
@@ -40,7 +40,7 @@ Dim-OVP = Dimensional On-View-Parameters.
    - Enter a number.
    - Press the U key to increase the number.
    - Press the J key to decrease the number.
-6. Optionally check the **Apply equal constraints** checkbox to exclude dimensional constraints from the operation, and instead apply ![](/src/assets/images/Sketcher_ConstrainEqual.svg) [Equal constraints](/Sketcher_ConstrainEqual "Sketcher ConstrainEqual") between the original objects and their copies.
+6. Optionally check the **Apply equal constraints** checkbox to exclude dimensional constraints from the operation, and instead apply ![](/images/Sketcher_ConstrainEqual.svg) [Equal constraints](/Sketcher_ConstrainEqual "Sketcher ConstrainEqual") between the original objects and their copies.
 7. Pick the rotation center. Or with Pos-OVP: enter its X and/or Y coordinate.
 8. Pick a point to define the reference angle. Or with Dim-OVP: enter it.
 9. Pick a point to define rotation angle. Or with Dim-OVP: enter it.

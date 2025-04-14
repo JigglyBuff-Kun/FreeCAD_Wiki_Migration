@@ -19,16 +19,16 @@ title: Part JoinConnect
 
 ## Description
 
-The ![](/src/assets/images/Part_JoinConnect.svg) **Part JoinConnect** tool connects the interiors of two walled objects (e.g. pipes). It can also join shells and wires.
+The ![](/images/Part_JoinConnect.svg) **Part JoinConnect** tool connects the interiors of two walled objects (e.g. pipes). It can also join shells and wires.
 
-![](/src/assets/images/JoinFeatures_Connect.png)
+![](/images/JoinFeatures_Connect.png)
 
 ## Usage
 
 1. Select objects to be connected. The order of selection is not important, since the action of the tool is symmetric. It is enough to select one sub-shape of each object (e.g., faces). You can also select a compound containing all shapes to be connected, e.g. a [Draft OrthoArray](/Draft_OrthoArray "Draft OrthoArray").
 2. There are several ways to invoke the tool:
-   - Press the ![](/src/assets/images/Part_JoinConnect.svg) [Connect objects](/Part_JoinConnect "Part JoinConnect") button.
-   - Select the **Part → Join → ![](/src/assets/images/Part_JoinConnect.svg) Connect objects** option from the menu.
+   - Press the ![](/images/Part_JoinConnect.svg) [Connect objects](/Part_JoinConnect "Part JoinConnect") button.
+   - Select the **Part → Join → ![](/images/Part_JoinConnect.svg) Connect objects** option from the menu.
 3. A Connect parametric object is created. Original objects are hidden, and the result of connecting is shown in the [3D view](/3D_view "3D view").
 
 ## Properties
@@ -42,13 +42,13 @@ Connect
 ## Example
 
 1. Create a pipe by applying [thickness](/Part_Thickness "Part Thickness") to a [cylinder](/Part_Cylinder "Part Cylinder"):  
-   ![](/src/assets/images/JoinFeatures_Example_step1.png)
+   ![](/images/JoinFeatures_Example_step1.png)
 2. Create another, smaller diameter pipe, and [place](/Placement "Placement") it so that it pierces the wall of the first pipe:  
-   ![](/src/assets/images/JoinFeatures_Example_step2.png)
+   ![](/images/JoinFeatures_Example_step2.png)
 3. Select the first pipe and the second pipe, and click the 'Connect objects' option from the Join tools dropdown toolbar button.  
-   ![](/src/assets/images/JoinFeatures_Example_step3_Connect.png)
+   ![](/images/JoinFeatures_Example_step3_Connect.png)
 4. Use some cross-section tool ([Clipping plane](/Std_ToggleClipPlane "Std ToggleClipPlane"), [Arch Section Plane](/Arch_SectionPlane "Arch SectionPlane"), [Arch Cut Plane](/Arch_CutPlane "Arch CutPlane")) to reveal internals. In the picture below, Arch Section Plane is used.  
-   ![](/src/assets/images/JoinFeatures_Example_step4_Connect.png)
+   ![](/images/JoinFeatures_Example_step4_Connect.png)
 
 ## Algorithm
 

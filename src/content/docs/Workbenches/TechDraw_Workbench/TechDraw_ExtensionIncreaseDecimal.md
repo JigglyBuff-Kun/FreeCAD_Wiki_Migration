@@ -25,8 +25,8 @@ The **TechDraw ExtensionIncreaseDecimal** tool increases the number of decimal p
 
 1. Select one or more dimensions.
 2. There are several ways to invoke the tool:
-   - Press the ![](/src/assets/images/TechDraw_ExtensionIncreaseDecimal.svg) [Increase Decimal Places](/TechDraw_ExtensionIncreaseDecimal "TechDraw ExtensionIncreaseDecimal") button.
-   - Select the **TechDraw → Extensions: Dimensions → ![](/src/assets/images/TechDraw_ExtensionIncreaseDecimal.svg) Increase Decimal Places** option from the menu.
+   - Press the ![](/images/TechDraw_ExtensionIncreaseDecimal.svg) [Increase Decimal Places](/TechDraw_ExtensionIncreaseDecimal "TechDraw ExtensionIncreaseDecimal") button.
+   - Select the **TechDraw → Extensions: Dimensions → ![](/images/TechDraw_ExtensionIncreaseDecimal.svg) Increase Decimal Places** option from the menu.
 3. The number of decimal places of the selected dimensions is increased by one.
 
 ## Notes

@@ -21,14 +21,14 @@ title: PartDesign Pocket
 
 The **Pocket** tool cuts solids by extruding a sketch or a face of a solid along a straight path.
 
-![](/src/assets/images/PartDesign_Pocket_example.svg)
+![](/images/PartDesign_Pocket_example.svg)
 
 _Sketch profile (A) was mapped to the top face of base solid (B); result after pocketing through on the right._
 
 ## Usage
 
 1. Select a single sketch or one or more faces from the Body.
-2. Press the ![](/src/assets/images/PartDesign_Pocket.svg) [Pocket](/PartDesign_Pocket "PartDesign Pocket") button.
+2. Press the ![](/images/PartDesign_Pocket.svg) [Pocket](/PartDesign_Pocket "PartDesign Pocket") button.
 3. Set the Pocket parameters, see [Options](#Options) below.
 4. Press the OK button.
 
@@ -36,7 +36,7 @@ _Sketch profile (A) was mapped to the top face of base solid (B); result after p
 
 When creating a pocket, or after double-clicking an existing pocket in the [Tree view](/Tree_view "Tree view"), the **Pocket parameters** task panel is shown. It offers the following settings:
 
-![](/src/assets/images/PartDesign_Pocket_Taskpanel.png)
+![](/images/PartDesign_Pocket_Taskpanel.png)
 
 ### Type
 

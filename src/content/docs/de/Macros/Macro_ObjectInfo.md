@@ -30,7 +30,7 @@ title: ObjectInfo
 
 Dieser Arbeitsbereich gibt Volumeninformationen, Flächeninhalte, den Massenschwerpunkt und Trägheitsmomente des ausgewählten Objekts aus.
 
-![](/src/assets/images/ObjectInfoIt.png)
+![](/images/ObjectInfoIt.png)
 
 ## Installation
 

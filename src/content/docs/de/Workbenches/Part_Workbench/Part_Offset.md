@@ -23,14 +23,14 @@ Diese Dokumentation ist noch nicht fertiggestellt. Bitte hilf mit und trage etwa
 
 ## Beschreibung
 
-Das Werkzeug ![](/src/assets/images/Part_Offset.svg) **Part Versatz** erstellt parallele Kopien einer ausgewählten Form in einem bestimmten Abstand von der Grundform, wodurch ein neues Objekt entsteht.
+Das Werkzeug ![](/images/Part_Offset.svg) **Part Versatz** erstellt parallele Kopien einer ausgewählten Form in einem bestimmten Abstand von der Grundform, wodurch ein neues Objekt entsteht.
 
-![](/src/assets/images/PartOffset0.png) → ![](/src/assets/images/PartOffset1.png)
+![](/images/PartOffset0.png) → ![](/images/PartOffset1.png)
 
 ## Anwendung
 
 1. Ein Objekt auswählen, von dem ein Versatz erstellt werden soll.
-2. Die Schaltfläche ![](/src/assets/images/Part_Offset.svg) [3D-Versatz](/Part_Offset "Part Offset") drücken.
+2. Die Schaltfläche ![](/images/Part_Offset.svg) [3D-Versatz](/Part_Offset "Part Offset") drücken.
 3. Anpassen des Abstands und derParameter, die vom Originalobjekt abhängen sowie der Gültigkeit der resultierenden Objekte.
 
 ## Hinweise
@@ -39,27 +39,27 @@ Das Werkzeug ![](/src/assets/images/Part_Offset.svg) **Part Versatz** erstellt p
 
 ## Beispiele
 
-![](/src/assets/images/PartOffset0.png) → ![](/src/assets/images/PartOffset1.png)
+![](/images/PartOffset0.png) → ![](/images/PartOffset1.png)
 
 Objekt mit kleinem Versatz und abgerundeten (Bogen-) Ecken.
 
-![](/src/assets/images/PartOffset3.png)
+![](/images/PartOffset3.png)
 
 Dasselbe Objekt mit scharfen (Schnittpunkt-) Ecken.
 
-![](/src/assets/images/PartOffset2.png)
+![](/images/PartOffset2.png)
 
 Dasselbe Objekt mit großem Versatz, der die vordere linke Lücke überfüllt, und aktivierter Schnitt-Option.
 
-![](/src/assets/images/PartOffset4.png)
+![](/images/PartOffset4.png)
 
 Beliebige Form ([Draft Wire](/Draft_Wire/de "Draft Wire/de")) mit einem 3D-Versatz (ignoriert MODUS-Parameter)
 
-![](/src/assets/images/PartOffset5.png)
+![](/images/PartOffset5.png)
 
 Dieselbe Form mit einem 3D-Versatz als SKIN und _gefülltem_ Versatz
 
-![](/src/assets/images/PartOffset6.png)
+![](/images/PartOffset6.png)
 
 _gefüllter_ Versatz mit 2 Zylindern, die boolesche Ausschnitte (Differenz) erstellen. Zylinder A geht durch den FÜLL-Körper, während Zylinder B auch durch den FÜLL-Körper geht aber NICHT durch die 2D-Ausgangsform.
 

@@ -21,7 +21,7 @@ title: EM FHEquiv
 
 The FHEquiv tool short-circuits two FHNode objects.
 
-![](/src/assets/images/EM_FHEquiv_Example.png)
+![](/images/EM_FHEquiv_Example.png)
 
 FastHenry FHEquiv
 
@@ -29,8 +29,8 @@ FastHenry FHEquiv
 
 The FHEquiv object is based on the two existing FHNodes that it will short-circuit.
 
-1. Select two ![](/src/assets/images/EM_FHNode.svg) [FHNode](/EM_FHNode "EM FHNode") objects
-2. Press the ![](/src/assets/images/EM_FHEquiv.svg) [EM FHEquiv](/EM_FHEquiv "EM FHEquiv") button, or press E then E keys.
+1. Select two ![](/images/EM_FHNode.svg) [FHNode](/EM_FHNode "EM FHNode") objects
+2. Press the ![](/images/EM_FHEquiv.svg) [EM FHEquiv](/EM_FHEquiv "EM FHEquiv") button, or press E then E keys.
 
 ### Remarks
 

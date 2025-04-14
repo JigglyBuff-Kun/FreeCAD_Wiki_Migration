@@ -36,11 +36,11 @@ Copy the Macro into your FreeCAD Macro directory. Then either run the macro from
 
 When run, the Macro wil present the user with a dialog like seen below. First enter the desired distance between flats. This can be any number and can include a decimal value, it will not take fractional input. Next enter the number of sides. This number is a whole number and should be an even number as well for proper results. Lastly enter the height you wish the prism to be. Again, this can be any number and can include a decimal value. Click OK and the prism will be created in your document.
 
-![](/src/assets/images/ABP_Screenshot.png)
+![](/images/ABP_Screenshot.png)
 
 ## The Macro
 
-ToolBar Icon ![](/src/assets/images/Part_Prism_Apothem.svg)
+ToolBar Icon ![](/images/Part_Prism_Apothem.svg)
 
 **Macro_Apothem_Based_Prism_GUI.FCMacro**
 
@@ -137,7 +137,7 @@ p()
 
 SVG icon for use in custom toolbar shortcut.
 
-![](/src/assets/images/Part_Prism_Apothem.svg)
+![](/images/Part_Prism_Apothem.svg)
 
 ## Acknowledgements
 

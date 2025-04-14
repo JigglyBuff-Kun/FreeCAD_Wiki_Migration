@@ -23,14 +23,14 @@ Dieses Werkzeug ist veraltet; es wird in1.0 und neuernicht mehr zur Verfügung s
 
 ## Beschreibung
 
-Der Befehl ![](/src/assets/images/Sketcher_RectangularArray.svg) Sketcher RechteckigeAnordnung Erstellt eine Anordnung ausgewählter Skizzenelemente.
+Der Befehl ![](/images/Sketcher_RectangularArray.svg) Sketcher RechteckigeAnordnung Erstellt eine Anordnung ausgewählter Skizzenelemente.
 
 ## Anwendung
 
 1. Skizzenelemente im [Aufgabenbereich](/Task_panel "Task panel") oder in der [3D-Ansicht](/3D_view "3D view") auswäheln.
 2. Es gibt mehrereMöglichkeiten den Befehl aufzurufen:
-   - Die Schaltfläche ![](/src/assets/images/Sketcher_RectangularArray.svg) Rechteckige Anordnung drücken.
-   - Den Menüeintrag **Skizze → Skizzenwerkzeuge → ![](/src/assets/images/Sketcher_RectangularArray.svg) Rechteckige Anordnung** auswählen.
+   - Die Schaltfläche ![](/images/Sketcher_RectangularArray.svg) Rechteckige Anordnung drücken.
+   - Den Menüeintrag **Skizze → Skizzenwerkzeuge → ![](/images/Sketcher_RectangularArray.svg) Rechteckige Anordnung** auswählen.
 3. Die Optionen der Anordnung im Dialogfenster, das geöffnet wurde, festlegen.
 4. OK drücken.
 5. Die Maus in der [3D-Ansicht](/3D_view/de "3D view/de") auf den gewünschten Referenzpunkt ziehen.  
@@ -40,7 +40,7 @@ Der Befehl ![](/src/assets/images/Sketcher_RectangularArray.svg) Sketcher Rechte
 
 ## Optionen
 
-![](/src/assets/images/Sketcher_RectangularArray_Options.jpg)
+![](/images/Sketcher_RectangularArray_Options.jpg)
 
 **Rechteckige Anordnung** besitzt folgende Optionen:
 

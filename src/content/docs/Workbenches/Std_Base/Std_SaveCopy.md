@@ -23,7 +23,7 @@ The **Std SaveCopy** command saves a copy of the active document under a new fil
 
 ## Usage
 
-1. Select the **File → ![](/src/assets/images/Std_SaveCopy.svg) Save a Copy...** option from the menu.
+1. Select the **File → ![](/images/Std_SaveCopy.svg) Save a Copy...** option from the menu.
 2. Enter a filename in the dialog box.
 3. Press the Save button.
 

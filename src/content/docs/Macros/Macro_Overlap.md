@@ -26,7 +26,7 @@ title: Overlap
 |                                                                                                                                                                                                                                                                                                   |
 |                                                                                                                                                                                                                                                                                                   |
 
-![](/src/assets/images/Macro_Boolean_Overlap_Screenshot.png)
+![](/images/Macro_Boolean_Overlap_Screenshot.png)
 
 Boolean Overlap constructs a shape that covers the space occupied by no less than 'OverlapIndex' shapes. 'OverlapIndex' is a property that can be modified. Value of 1 gives the result equivalent to [Part Fuse](/Part_Fuse "Part Fuse"). Value equal to number of shapes makes the tool equivalent to [Part Common](/Part_Common "Part Common"). Default value is 2, meaning the result will fill space where there is any overlap.
 
@@ -48,7 +48,7 @@ download MacroOverlap.py and save it in macro directory:
 
 ## Script
 
-ToolBar Icon ![](/src/assets/images/Macro_Overlap.png)
+ToolBar Icon ![](/images/Macro_Overlap.png)
 
 **MacroOverlap.py**
 

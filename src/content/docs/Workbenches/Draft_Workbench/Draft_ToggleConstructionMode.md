@@ -19,17 +19,17 @@ title: Draft ToggleConstructionMode
 
 ## Description
 
-The ![](/src/assets/images/Draft_ToggleConstructionMode.svg) **Draft ToggleConstructionMode** command switches Draft construction mode on or off. If construction mode is on new [Draft](/Draft_Workbench "Draft Workbench") objects are placed in a dedicated group and given a predefined color. This feature is intended for, often temporary, construction geometry used to provide new [snap points](/Draft_Snap "Draft Snap") for creating other objects. When the construction geometry is no longer needed the construction group can easily be [hidden](/Std_HideSelection "Std HideSelection") or [deleted](/Std_Delete "Std Delete").
+The ![](/images/Draft_ToggleConstructionMode.svg) **Draft ToggleConstructionMode** command switches Draft construction mode on or off. If construction mode is on new [Draft](/Draft_Workbench "Draft Workbench") objects are placed in a dedicated group and given a predefined color. This feature is intended for, often temporary, construction geometry used to provide new [snap points](/Draft_Snap "Draft Snap") for creating other objects. When the construction geometry is no longer needed the construction group can easily be [hidden](/Std_HideSelection "Std HideSelection") or [deleted](/Std_Delete "Std Delete").
 
-![](/src/assets/images/Draft_construction_mode_example.jpg)
+![](/images/Draft_construction_mode_example.jpg)
 
 Construction geometry, in blue, used to determine the center and radius of a circle
 
 ## Usage
 
 1. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/Draft_tray_button_construction.png) button in the [Draft Tray](/Draft_Tray "Draft Tray"). This button is depressed if Draft construction mode is currently on.
-   - [Draft](/Draft_Workbench "Draft Workbench"): Select the **Utilities → ![](/src/assets/images/Draft_ToggleConstructionMode.svg) Toggle construction mode** option from the menu, or from the [Tree view](/Tree_view "Tree view") or [3D view](/3D_view "3D view") context menu.
+   - Press the ![](/images/Draft_tray_button_construction.png) button in the [Draft Tray](/Draft_Tray "Draft Tray"). This button is depressed if Draft construction mode is currently on.
+   - [Draft](/Draft_Workbench "Draft Workbench"): Select the **Utilities → ![](/images/Draft_ToggleConstructionMode.svg) Toggle construction mode** option from the menu, or from the [Tree view](/Tree_view "Tree view") or [3D view](/3D_view "3D view") context menu.
    - Draft: Use the keyboard shortcut: C then M.
 2. The button in the [Draft Tray](/Draft_Tray "Draft Tray") is updated.
 

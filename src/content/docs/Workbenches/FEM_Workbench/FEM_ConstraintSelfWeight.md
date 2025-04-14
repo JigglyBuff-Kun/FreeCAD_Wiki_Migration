@@ -30,8 +30,8 @@ Defines a gravity acceleration acting on the whole model in the prescribed direc
 ## Usage
 
 1. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/FEM_ConstraintSelfWeight.svg) [Gravity load](/FEM_ConstraintSelfWeight "FEM ConstraintSelfWeight") button.
-   - Select the **Model → Mechanical boundary conditions and loads → ![](/src/assets/images/FEM_ConstraintSelfWeight.svg) Gravity load** option from the menu.
+   - Press the ![](/images/FEM_ConstraintSelfWeight.svg) [Gravity load](/FEM_ConstraintSelfWeight "FEM ConstraintSelfWeight") button.
+   - Select the **Model → Mechanical boundary conditions and loads → ![](/images/FEM_ConstraintSelfWeight.svg) Gravity load** option from the menu.
 2. A **ConstraintSelfWeight** object is created.
 3. [introduced in 1.0](/Release_notes_1.0 "Release notes 1.0"): Optionally change its Data**Gravity Acceleration** property.
 4. Optionally change its Data**Gravity Direction** property.

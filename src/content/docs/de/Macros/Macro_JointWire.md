@@ -36,7 +36,7 @@ Mit diesem Makro können Sie alle nicht verbundenen Kanten über eine Linie mit 
 
 ## Skript
 
-Werkzeugleistensymbol ![](/src/assets/images/Macro_JointWire.png)
+Werkzeugleistensymbol ![](/images/Macro_JointWire.png)
 
 **Macro_JointWire.FCMacro**
 

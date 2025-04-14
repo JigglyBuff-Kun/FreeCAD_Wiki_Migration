@@ -24,7 +24,7 @@ The **Std PrintPdf** command is primarily intended to create [PDF](/PDF "PDF") f
 ## Usage
 
 1. If required activate the correct TechDraw page or change the 3D view to your liking.
-2. Select the **File → ![](/src/assets/images/Std_PrintPdf.svg) Export PDF...** option from the menu.
+2. Select the **File → ![](/images/Std_PrintPdf.svg) Export PDF...** option from the menu.
 3. Enter a filename in the dialog box.
 4. Press the Save button.
 

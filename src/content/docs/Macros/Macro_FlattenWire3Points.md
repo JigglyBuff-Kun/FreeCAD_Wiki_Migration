@@ -32,7 +32,7 @@ This macro flattens draft wires that are not planar on a plane defined by 3 poin
 
 ## Script
 
-ToolBar icon ![](/src/assets/images/Macro_FlattenWire3Points.png)
+ToolBar icon ![](/images/Macro_FlattenWire3Points.png)
 
 **Macro_FlattenWire3Points.FCMacro**
 

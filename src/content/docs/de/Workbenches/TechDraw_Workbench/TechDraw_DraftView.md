@@ -19,9 +19,9 @@ title: TechDraw DraftAnsicht
 
 ## Beschreibung
 
-Das Werkzeug **TechDraw DraftAnsicht** fügt eine Ansicht eines ausgewählten [Part](/Part_Workbench/de "Part Workbench/de")-basierten Objekts oder eines Gruppenobjekts in ein Zeichnungsblatt ein. Anders als beim Standardwerkzeug ![](/src/assets/images/TechDraw_View.svg) [Ansicht](/TechDraw_View/de "TechDraw View/de"), werden die mit diesem Werkzeug erstellten Ansichten mit dem Arbeitsbereich ![](/src/assets/images/Workbench_Draft.svg) [Draft](/Draft_Workbench/de "Draft Workbench/de") bearbeitet und sind besonders für die Darstellung von 2D-Objekten entwickelt. Siehe [Hinweise](#Hinweise).
+Das Werkzeug **TechDraw DraftAnsicht** fügt eine Ansicht eines ausgewählten [Part](/Part_Workbench/de "Part Workbench/de")-basierten Objekts oder eines Gruppenobjekts in ein Zeichnungsblatt ein. Anders als beim Standardwerkzeug ![](/images/TechDraw_View.svg) [Ansicht](/TechDraw_View/de "TechDraw View/de"), werden die mit diesem Werkzeug erstellten Ansichten mit dem Arbeitsbereich ![](/images/Workbench_Draft.svg) [Draft](/Draft_Workbench/de "Draft Workbench/de") bearbeitet und sind besonders für die Darstellung von 2D-Objekten entwickelt. Siehe [Hinweise](#Hinweise).
 
-![](/src/assets/images/TechDraw_DraftView_example.png)
+![](/images/TechDraw_DraftView_example.png)
 
 Draft-Elemente wie Kreise und Anordnungen importiert in ein TechDraw-Zeichnungsblatt
 
@@ -31,8 +31,8 @@ Draft-Elemente wie Kreise und Anordnungen importiert in ein TechDraw-Zeichnungsb
 2. Ein oder mehrere Objekte in der [3D-Ansicht](/3D_view/de "3D view/de") oder der [Baumansicht](/Tree_view/de "Tree view/de") auswählen. Für jedes Objekt wird eine separate Ansicht erstellt.
 3. Wenn mehrere Zeichnungsblätter im Dokument vorhanden sind: Wahlweise das gewünschte Zeichnungsblatt durch Auswahl in der [Baumansicht](/Tree_view/de "Tree view/de") aktivieren.
 4. Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
-   - Die Schaltfläche ![](/src/assets/images/TechDraw_DraftView.svg) Objekt des Arbeitsbereichs Draft einfügen drücken.
-   - Den Menüeintrag **TechDraw → Views From Other Workbenches → ![](/src/assets/images/TechDraw_DraftView.svg) Objekt des Arbeitsbereichs Draft einfügen** auswählen.
+   - Die Schaltfläche ![](/images/TechDraw_DraftView.svg) Objekt des Arbeitsbereichs Draft einfügen drücken.
+   - Den Menüeintrag **TechDraw → Views From Other Workbenches → ![](/images/TechDraw_DraftView.svg) Objekt des Arbeitsbereichs Draft einfügen** auswählen.
 5. Wenn mehrere Zeichnungsblätter im Dokument vorhanden sind und noch kein Blatt aktiviert wurde, wird das Dialogfeld **Blattauswahl** geöffnet:
    1. Das gewünschte Blatt auswählen.
    2. Die Schaltfläche OK drücken.

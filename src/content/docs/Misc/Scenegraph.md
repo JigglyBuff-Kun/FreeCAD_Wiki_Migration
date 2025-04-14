@@ -14,7 +14,7 @@ One of the big jobs FreeCAD does for you is translating OpenCASCADE geometry inf
 
 Open Inventor describes a 3D scene in the form of a [scene graph](https://en.wikipedia.org/wiki/Scene_graph), like the one below:
 
-![](/src/assets/images/Scenegraph.gif)
+![](/images/Scenegraph.gif)
 
 Image taken from [Inventor mentor](https://web.archive.org/web/20190807185912/http://www-evasion.imag.fr/~Francois.Faure/doc/inventorMentor/sgi_html/)
 

@@ -25,7 +25,7 @@ Until this point, all the tools in Ship workbench are based on a **Ship instance
 
 ## Usage
 
-In order to create a weight, select the weight geometry (see below) and invoke **Weights → ![](/src/assets/images/Ship_Weight.svg) Create a new ship weight**.
+In order to create a weight, select the weight geometry (see below) and invoke **Weights → ![](/images/Ship_Weight.svg) Create a new ship weight**.
 
 The task panel is shown, where you must select the **Ship instance** (see [Ship CreateShip](/Ship_CreateShip "Ship CreateShip")) in which the weight shall be added, as well as the density/mass.
 
@@ -45,7 +45,7 @@ Solid/volumetric weights are featured by its material density (in kg/m3, or any 
 
 The next level of abstraction are the surface-based weights. This level of abstraction can be considered for plates, or in general for any surface element with a small width.
 
-![](/src/assets/images/Thin_Plate.png)
+![](/images/Thin_Plate.png)
 
 Schematic view of a thin plate
 
@@ -57,7 +57,7 @@ Surface/area weights are featured by its area density (in kg/m2, or any other co
 
 The next level of abstraction are the line-based weights. This level of abstraction can be considered for beams, or in general for any element with small cross-sectional area compared with the longitudinal dimension.
 
-![](/src/assets/images/Thin_Beam.png)
+![](/images/Thin_Beam.png)
 
 Schematic view of a thin beam
 

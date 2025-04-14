@@ -21,14 +21,14 @@ title: Std Variablensatz erstellen
 
 Der Befehl **Std Variablensatz erstellen** erstellt einen Variablensatz. Ein Variablensatz ist ein Objekt, das einen Satz von Eigenschaften verwaltet, die als Variablen in [Ausdrücken](/Expressions/de "Expressions/de") verwendet werden können.
 
-![](/src/assets/images/Std_VarSet_Dialog.png)
+![](/images/Std_VarSet_Dialog.png)
 
 Das Dialogfeld Eigenschaft hinzufügen
 
 ## Anwendung
 
 1. Die folgenden Möglichkeiten bestehen:
-   - Anlegen eines neuen Variablensatzes: Schaltfläche ![](/src/assets/images/Std_VarSet.svg) Variablensatz erstellen drücken.
+   - Anlegen eines neuen Variablensatzes: Schaltfläche ![](/images/Std_VarSet.svg) Variablensatz erstellen drücken.
    - Bearbeitung eines bestehenden Variablensatzes: Doppelklick auf den Variablensatz in der [Baumansicht](/Tree_view/de "Tree view/de").
 2. Das Dialogfeld **Eigenschaften hinzufügen** wird angezeigt.
 3. **Name** der Eigenschaft eingeben.

@@ -30,18 +30,18 @@ Das Werkzeug **Part Verrundung** erstellt Verrundungen auf den ausgewählten Kan
 - Den Wert des Radius eingeben.
 - OK zum Bestätigen drücken.
 
-![](/src/assets/images/Dialog-fillet.png)
+![](/images/Dialog-fillet.png)
 
 ## Part Verrundung im Vergleich mit PartDesign Verrundung
 
 ## Part Verrundung VS. PartDesign Verrundung
 
-Es gibt ein weiteres Verrundungswerkzeug im Arbeitsbereich ![](/src/assets/images/Workbench_PartDesign.svg) [PartDesign](/PartDesign_Workbench/de "PartDesign Workbench/de"). Bitte beachten, dass ihre Bedienung recht unterschiedlich ist. Siehe Referenzseite zu ![](/src/assets/images/PartDesign_Fillet.svg) [PartDesign Verrundung](/PartDesign_Fillet/de "PartDesign Fillet/de") für weitere Einzelheiten zu ihren Unterschieden.
+Es gibt ein weiteres Verrundungswerkzeug im Arbeitsbereich ![](/images/Workbench_PartDesign.svg) [PartDesign](/PartDesign_Workbench/de "PartDesign Workbench/de"). Bitte beachten, dass ihre Bedienung recht unterschiedlich ist. Siehe Referenzseite zu ![](/images/PartDesign_Fillet.svg) [PartDesign Verrundung](/PartDesign_Fillet/de "PartDesign Fillet/de") für weitere Einzelheiten zu ihren Unterschieden.
 
 ## Hinweise zur Anwendung von Part Verrundung
 
 Part Verrundung bewirkt möglicherweise nichts, wenn das Ergebnis die nächste angrenzende Kante berühren oder überqueren würde. Wenn also nicht das erwartete Ergebnis erscheint, kann man es mit einem kleineren Radius versuchen.
-Dies gilt auch für ![](/src/assets/images/Part_Chamfer.svg) [Part Fase](/Part_Chamfer/de "Part Chamfer/de").
+Dies gilt auch für ![](/images/Part_Chamfer.svg) [Part Fase](/Part_Chamfer/de "Part Chamfer/de").
 
 Das Verrundungswerkzeug schlägt manchmal fehl, wenn versucht wird, komplexe Objekte zu verrunden. Eine gängige Ursache dafür kann sein, dass die zu verrundende Form nicht geometrisch korrekt ist. Dies kann darauf zurückzuführen sein, dass Linien/Ebenen usw. nicht nach früheren Operationen zur Konstruktion der Form entfernt wurden (z.B. Schneiden/Überschneidung/Fügen). Eine Reihe von Schritten kann genutzt werden, um Probleme zu minimieren:
 

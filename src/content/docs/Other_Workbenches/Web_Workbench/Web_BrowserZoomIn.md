@@ -19,10 +19,10 @@ title: Web BrowserZoomIn
 
 ## Description
 
-Use the ![](/src/assets/images/Web_BrowserZoomIn.svg) **Web BrowserZoomIn** command to zoom in on the current web page.
+Use the ![](/images/Web_BrowserZoomIn.svg) **Web BrowserZoomIn** command to zoom in on the current web page.
 
 ## Usage
 
-1. Press the ![](/src/assets/images/Web_BrowserZoomIn.svg) [Zoom in](/Web_BrowserZoomIn "Web BrowserZoomIn") button.
+1. Press the ![](/images/Web_BrowserZoomIn.svg) [Zoom in](/Web_BrowserZoomIn "Web BrowserZoomIn") button.
 
 Retrieved from "<http://wiki.freecad.org/index.php?title=Web_BrowserZoomIn/en&oldid=1153576>"

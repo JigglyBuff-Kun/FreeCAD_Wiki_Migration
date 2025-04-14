@@ -32,25 +32,25 @@ Qt bietet auch ein weiteres interessantes Werkzeug namens [Qt Designer](http://d
 
 In der folgenden Übung werden wir zuerst ein Paneel mit Qt Creator erstellen, das nach Längen-, Breiten- und Höhenwerten fragt, dann erstellen wir eine Python Klasse darum herum, die die vom Benutzer eingegebenen Werte aus dem Paneel liest, und erstellen einen Kasten mit den gegebenen Abmessungen. Diese Python Klasse wird dann von FreeCAD verwendet, um das Aufgabenpaneel anzuzeigen und zu steuern:
 
-![](/src/assets/images/Exercise_python_07.jpg)
+![](/images/Exercise_python_07.jpg)
 
 Beginnen wir mit der Erstellung des Widgets. Den Qt Creator starten, dann den Menüeintrag **Datei → Neue Datei oder Projekt → Qt → Qt → Qt Designer Form → Dialog ohne Schaltflächen** auswählen. Auf **Weiter** klicken, einen Dateinamen zum Speichern angeben, auf **Weiter** klicken, alle Projektfelder auf ihrem Standardwert ("<keine>") belassen, und **Erstellen** anklicken. Das Aufgabensystem von FreeCAD fügt automatisch OK/Abbrechen-Schaltflächen hinzu, deshalb haben wir hier einen Dialog ohne Schaltflächen gewählt.
 
-![](/src/assets/images/Exercise_python_06.jpg)
+![](/images/Exercise_python_06.jpg)
 
 - Die **Beschriftung** in der Liste in der linken Leiste suchen (unter dem Abschnitt Display Widgets) und auf die Leinwand unseres Widgets ziehen. Die zuletzt platzierte Beschriftung doppelt anklicken und ihren Text in **Länge** ändern.
 - Klicke mit der rechten Maustaste auf die Leinwand des Widgets und wähle **Darstellung → Darstellung in einem Gitter**. Dadurch wird unser Widget zu einem Gitter mit derzeit nur einer Zelle, die von unserem ersten Label belegt wird. Wir können nun die nächsten Elemente links, rechts, oben oder unten zu unserem ersten Label hinzufügen, und das Gitter wird automatisch erweitert.
 - Zwei weitere Beschriftungen unterhalb der ersten Beschriftung hinzufügen und ihren Text in Breite und Höhe ändern:
 
-![](/src/assets/images/Exercise_python_08.jpg)
+![](/images/Exercise_python_08.jpg)
 
 - Jetzt 3 **Double Spin Box** Widgets neben unseren Etiketten Länge, Breite und Höhe positionieren. Für jedes dieser Widgets in der unteren rechten Leiste, die alle verfügbaren Einstellungen für das ausgewählte Widget anzeigt, wird nach **Suffix** gesucht und deren Suffix auf **mm** gesetzt. FreeCAD hat ein fortschrittlicheres Widget, das mit verschiedenen Einheiten umgehen kann, das aber im Qt Creator nicht standardmäßig zur Verfügung steht (aber [kompiliert](/Compile_on_Linux/de#Qt_designer_plugin "Compile on Linux/de")) werden kann, so dass wir für den Moment eine normale Double-Spin-Box verwenden, und wir fügen das Suffix **mm** hinzu, um sicherzustellen, dass der Benutzer weiß, in welchen Einheiten er arbeitet:
 
-![](/src/assets/images/Exercise_python_09.jpg)
+![](/images/Exercise_python_09.jpg)
 
 - Jetzt, wo unser Widget fertig ist, müssen wir uns nur noch um eine letzte Sache kümmern. Da FreeCAD auf dieses Widget zugreifen und die Werte für Länge, Breite und Höhe einlesen muss, müssen wir diesen Widgets richtige Namen geben, damit wir sie aus FreeCAD heraus leicht wiederfinden können. Dazu klicken wir auf jede der Double-Spin-Kästchen und doppelklicken im oberen rechten Fenster auf ihren Objektnamen, und ändern sie in etwas, das wir uns leicht merken können, z.B.: BoxLänge, BoxBreite und BoxHöhe:
 
-![](/src/assets/images/Exercise_python_10.jpg)
+![](/images/Exercise_python_10.jpg)
 
 - Speichere die Datei, du kannst Qt Creator jetzt schließen, der Rest wird in Python erledigt.
 - Öffne FreeCAD und erstelle ein neues Makro aus dem Menü **Makro → Makros → Erstellen**

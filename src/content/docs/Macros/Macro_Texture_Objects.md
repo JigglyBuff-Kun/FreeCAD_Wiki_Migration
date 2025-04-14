@@ -30,7 +30,7 @@ title: Texture Objects
 
 This macro allows you to temporarily put a texture image on selected objects. To remove the textures, simply close and reopen the document.
 
-![](/src/assets/images/Textured_objects.jpg)
+![](/images/Textured_objects.jpg)
 
 ## Script
 

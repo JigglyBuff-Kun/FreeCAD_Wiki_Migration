@@ -2,37 +2,37 @@
 title: Ship Workbench
 ---
 
-![](/src/assets/images/Workbench_Ship.svg)
+![](/images/Workbench_Ship.svg)
 
 Ship workbench icon
 
 ## Introduction
 
-The ![](/src/assets/images/Workbench_Ship.svg) [Ship Workbench](/Ship_Workbench "Ship Workbench") is used to create structures that are common to ships.
+The ![](/images/Workbench_Ship.svg) [Ship Workbench](/Ship_Workbench "Ship Workbench") is used to create structures that are common to ships.
 
 ## The Tools
 
 ### Ship Design
 
-- ![](/src/assets/images/Ship_LoadExample.svg) [Load an example ship geometry](/Ship_LoadExample "Ship LoadExample")
-- ![](/src/assets/images/Ship_CreateShip.svg) [Create a new ship](/Ship_CreateShip "Ship CreateShip")
-- ![](/src/assets/images/Ship_AreasCurve.svg) [Areas curve](/Ship_AreasCurve "Ship AreasCurve")
-- ![](/src/assets/images/Ship_Hydrostatics.svg) [Hydrostatics](/Ship_Hydrostatics "Ship Hydrostatics")
+- ![](/images/Ship_LoadExample.svg) [Load an example ship geometry](/Ship_LoadExample "Ship LoadExample")
+- ![](/images/Ship_CreateShip.svg) [Create a new ship](/Ship_CreateShip "Ship CreateShip")
+- ![](/images/Ship_AreasCurve.svg) [Areas curve](/Ship_AreasCurve "Ship AreasCurve")
+- ![](/images/Ship_Hydrostatics.svg) [Hydrostatics](/Ship_Hydrostatics "Ship Hydrostatics")
 
 ### Weights
 
-- ![](/src/assets/images/Ship_Weight.svg) [Create a new ship weight](/Ship_Weight "Ship Weight")
-- ![](/src/assets/images/Ship_Tank.svg) [Create a new tank](/Ship_Tank "Ship Tank")
-- ![](/src/assets/images/Ship_Capacity.svg) [Tank capacity curve](/Ship_Capacity "Ship Capacity")
-- ![](/src/assets/images/Ship_LoadCondition.svg) [Create a new loading condition](/Ship_LoadCondition "Ship LoadCondition")
-- ![](/src/assets/images/Ship_GZ.svg) [GZ curve computation](/Ship_GZ "Ship GZ")
+- ![](/images/Ship_Weight.svg) [Create a new ship weight](/Ship_Weight "Ship Weight")
+- ![](/images/Ship_Tank.svg) [Create a new tank](/Ship_Tank "Ship Tank")
+- ![](/images/Ship_Capacity.svg) [Tank capacity curve](/Ship_Capacity "Ship Capacity")
+- ![](/images/Ship_LoadCondition.svg) [Create a new loading condition](/Ship_LoadCondition "Ship LoadCondition")
+- ![](/images/Ship_GZ.svg) [GZ curve computation](/Ship_GZ "Ship GZ")
 
 ### Resistance
 
-- ![](/src/assets/images/Ship_ResistanceAmadeo.svg) [Resistance Amadeo prediction](/Ship_ResistanceAmadeo "Ship ResistanceAmadeo")
-- ![](/src/assets/images/Ship_ResistanceBlountFox.svg) [Resistance Blount and Fox prediction](/Ship_ResistanceBlountFox "Ship ResistanceBlountFox")
-- ![](/src/assets/images/Ship_ResistanceHoltrop.svg) [Resistance Holtrop prediction](/Ship_ResistanceHoltrop "Ship ResistanceHoltrop")
-- ![](/src/assets/images/Ship_ResistanceSavitsky.svg) [Resistance Savitsky prediction](/Ship_ResistanceSavitsky "Ship ResistanceSavitsky")
+- ![](/images/Ship_ResistanceAmadeo.svg) [Resistance Amadeo prediction](/Ship_ResistanceAmadeo "Ship ResistanceAmadeo")
+- ![](/images/Ship_ResistanceBlountFox.svg) [Resistance Blount and Fox prediction](/Ship_ResistanceBlountFox "Ship ResistanceBlountFox")
+- ![](/images/Ship_ResistanceHoltrop.svg) [Resistance Holtrop prediction](/Ship_ResistanceHoltrop "Ship ResistanceHoltrop")
+- ![](/images/Ship_ResistanceSavitsky.svg) [Resistance Savitsky prediction](/Ship_ResistanceSavitsky "Ship ResistanceSavitsky")
 
 ## Tutorials
 

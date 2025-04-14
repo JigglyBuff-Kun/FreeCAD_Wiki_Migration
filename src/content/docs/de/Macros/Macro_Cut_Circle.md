@@ -30,7 +30,7 @@ title: Kreis Schneiden
 
 Dieses Makro schneidet Kreise oder Kreisbögen in mehrere Bögen. Die Bögen können zur Unterscheidung abwechselnd eingefärbt werden.
 
-![](/src/assets/images/Macro_CutCircle_00.png)
+![](/images/Macro_CutCircle_00.png)
 
 KreisSchneiden
 
@@ -46,7 +46,7 @@ KreisSchneiden
 
 ## Skript
 
-Werkzeugleistensymbol ![](/src/assets/images/Macro_Cut_Circle.png)
+Werkzeugleistensymbol ![](/images/Macro_Cut_Circle.png)
 
 **Macro_Cut_Circle.FCMacro**
 

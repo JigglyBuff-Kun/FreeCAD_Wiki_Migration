@@ -27,28 +27,28 @@ Der Befehl **Part Auswahlfilter** wird benutzt, um die Auswahl in der [3D-Ansich
 
 1. Diese Option erlaubt nur die Auswahl von Knoten.
 2. Es gibt mehrere Möglichkeiten, diese Option aufzurufen:
-   - Drücke auf den schwarzen Abwärtspfeil auf der rechten Seite des Knopfes ![](/src/assets/images/Part_SelectFilter.svg) in the Werkzeugleiste und wähle die Option **![](/src/assets/images/Vertex-selection.svg) Knoten-Auswahl** aus dem Menü. Hinweis: das Bild der Schaltfläche ändert sich je nach der gewählten Option.
+   - Drücke auf den schwarzen Abwärtspfeil auf der rechten Seite des Knopfes ![](/images/Part_SelectFilter.svg) in the Werkzeugleiste und wähle die Option **![](/images/Vertex-selection.svg) Knoten-Auswahl** aus dem Menü. Hinweis: das Bild der Schaltfläche ändert sich je nach der gewählten Option.
    - Nutze den Tastaturkürzel: X dann S.
 
 ### Kantenauswahl
 
 1. Diese Option erlaubt nur die Auswahl von Kanten.
 2. Es gibt mehrere Möglichkeiten, diese Option aufzurufen:
-   - Wähle die Option **![](/src/assets/images/Edge-selection.svg) Kanten-Auswahl** aus der Werkzeugleiste. Siehe oben.
+   - Wähle die Option **![](/images/Edge-selection.svg) Kanten-Auswahl** aus der Werkzeugleiste. Siehe oben.
    - Nutze den Tastaturkürzel: E dann S.
 
 ### Flächenauswahl
 
 1. Diese Option erlaubt nur die Auswahl von Flächen.
 2. Es gibt mehrere Möglichkeiten, diese Option aufzurufen:
-   - Wähle die Option **![](/src/assets/images/Face-selection.svg) Flächen-Auswahl** aus der Werkzeugleiste. Siehe oben.
+   - Wähle die Option **![](/images/Face-selection.svg) Flächen-Auswahl** aus der Werkzeugleiste. Siehe oben.
    - Nutze den Tastaturkürzel: F dann S.
 
 ### Alle Auswahlfilter löschen
 
 1. Diese Option ermöglicht die Auswahl aller Unterelemente und ganzer Objekte.
 2. Es gibt mehrere Möglichkeiten, diese Option aufzurufen:
-   - Wähle die Option **![](/src/assets/images/Clear-selection.svg) Alle Auswahlfilter gelöscht** aus der Werkzeugleiste. Siehe oben.
+   - Wähle die Option **![](/images/Clear-selection.svg) Alle Auswahlfilter gelöscht** aus der Werkzeugleiste. Siehe oben.
    - Nutze den Tastaturkürzel: C dann S.
 
 ## Hinweise

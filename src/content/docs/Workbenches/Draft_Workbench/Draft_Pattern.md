@@ -6,7 +6,7 @@ title: Draft Pattern
 
 [Draft](/Draft_Workbench "Draft Workbench") objects with a Data**Make Face** property can display an SVG pattern instead of a solid face color.
 
-![](/src/assets/images/DraftPatternSample.png)
+![](/images/DraftPatternSample.png)
 
 An ellipse and a polygon with an SVG pattern
 
@@ -25,99 +25,99 @@ An ellipse and a polygon with an SVG pattern
 
 ## Available patterns
 
-- ![aluminium](/src/assets/images/Aluminium.svg)
+- ![aluminium](/images/Aluminium.svg)
 
   aluminium
 
-- ![brick01](/src/assets/images/Brick01.svg)
+- ![brick01](/images/Brick01.svg)
 
   brick01
 
-- ![concrete](/src/assets/images/Concrete.svg)
+- ![concrete](/images/Concrete.svg)
 
   concrete
 
-- ![cross](/src/assets/images/Cross.svg)
+- ![cross](/images/Cross.svg)
 
   cross
 
-- ![cuprous](/src/assets/images/Cuprous.svg)
+- ![cuprous](/images/Cuprous.svg)
 
   cuprous
 
-- ![diagonal1](/src/assets/images/Diagonal1.svg)
+- ![diagonal1](/images/Diagonal1.svg)
 
   diagonal1
 
-- ![diagonal2](/src/assets/images/Diagonal2.svg)
+- ![diagonal2](/images/Diagonal2.svg)
 
   diagonal2
 
-- ![earth](/src/assets/images/Earth.svg)
+- ![earth](/images/Earth.svg)
 
   earth
 
-- ![general_steel](/src/assets/images/General_steel.svg)
+- ![general_steel](/images/General_steel.svg)
 
   general_steel
 
-- ![glass](/src/assets/images/Glass.svg)
+- ![glass](/images/Glass.svg)
 
   glass
 
-- ![hatch45L](/src/assets/images/Hatch45L.svg)
+- ![hatch45L](/images/Hatch45L.svg)
 
   hatch45L
 
-- ![hatch45R](/src/assets/images/Hatch45R.svg)
+- ![hatch45R](/images/Hatch45R.svg)
 
   hatch45R
 
-- ![hbone](/src/assets/images/Hbone.svg)
+- ![hbone](/images/Hbone.svg)
 
   hbone
 
-- ![line](/src/assets/images/Line.svg)
+- ![line](/images/Line.svg)
 
   line
 
-- ![plastic](/src/assets/images/Plastic.svg)
+- ![plastic](/images/Plastic.svg)
 
   plastic
 
-- ![plus](/src/assets/images/Plus.svg)
+- ![plus](/images/Plus.svg)
 
   plus
 
-- ![simple](/src/assets/images/Simple.svg)
+- ![simple](/images/Simple.svg)
 
   simple
 
-- ![solid](/src/assets/images/Solid.svg)
+- ![solid](/images/Solid.svg)
 
   solid
 
-- ![square](/src/assets/images/Square.svg)
+- ![square](/images/Square.svg)
 
   square
 
-- ![steel](/src/assets/images/Steel.svg)
+- ![steel](/images/Steel.svg)
 
   steel
 
-- ![titanium](/src/assets/images/Titanium.svg)
+- ![titanium](/images/Titanium.svg)
 
   titanium
 
-- ![wood](/src/assets/images/Wood.svg)
+- ![wood](/images/Wood.svg)
 
   wood
 
-- ![woodgrain](/src/assets/images/Woodgrain.svg)
+- ![woodgrain](/images/Woodgrain.svg)
 
   woodgrain
 
-- ![zinc](/src/assets/images/Zinc.svg)
+- ![zinc](/images/Zinc.svg)
 
   zinc
 

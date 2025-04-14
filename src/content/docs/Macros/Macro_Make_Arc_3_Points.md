@@ -38,7 +38,7 @@ Launch the macro, select 3 points, the arc is created and the coordinates and th
 
 ## Script
 
-The icon for the toolBar ![](/src/assets/images/Macro_Make_Arc_3_Points.png)
+The icon for the toolBar ![](/images/Macro_Make_Arc_3_Points.png)
 
 **Macro_Make_Arc_3_Points.FCMacro**
 

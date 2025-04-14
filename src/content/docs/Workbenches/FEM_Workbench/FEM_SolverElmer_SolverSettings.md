@@ -10,7 +10,7 @@ Elmer is a multiphysics solver. Therefore you can use several main equations to 
 
 There are solver settings, available for all equations. These are described here. Settings only available for a particular equation are described in the pages of the corresponding equation.
 
-Elmer offers the [solving types](#Type) _steady-state_ and _transient_ and two main solving systems, [linear system](#Linear_System) and [nonlinear system](#Nonlinear_System). The nonlinear system is used for the ![](/src/assets/images/FEM_EquationFlow.svg) [Flow equation](/FEM_EquationFlow "FEM EquationFlow") and ![](/src/assets/images/FEM_EquationHeat.svg) [Heat equation](/FEM_EquationHeat "FEM EquationHeat").
+Elmer offers the [solving types](#Type) _steady-state_ and _transient_ and two main solving systems, [linear system](#Linear_System) and [nonlinear system](#Nonlinear_System). The nonlinear system is used for the ![](/images/FEM_EquationFlow.svg) [Flow equation](/FEM_EquationFlow "FEM EquationFlow") and ![](/images/FEM_EquationHeat.svg) [Heat equation](/FEM_EquationHeat "FEM EquationHeat").
 
 # Editing Settings
 

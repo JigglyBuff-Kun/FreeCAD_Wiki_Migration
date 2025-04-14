@@ -19,9 +19,9 @@ title: Sketcher CreateArcOfParabola
 
 ## Description
 
-The ![](/src/assets/images/Sketcher_CreateArcOfParabola.svg) [Sketcher CreateArcOfParabola](/Sketcher_CreateArcOfParabola "Sketcher CreateArcOfParabola") tool creates an arc of parabola.
+The ![](/images/Sketcher_CreateArcOfParabola.svg) [Sketcher CreateArcOfParabola](/Sketcher_CreateArcOfParabola "Sketcher CreateArcOfParabola") tool creates an arc of parabola.
 
-![](/src/assets/images/Sketcher_CreateArcOfParabola_Example.png)
+![](/images/Sketcher_CreateArcOfParabola_Example.png)
 
 Arc of parabola (white) with internal geometry (dark yellow)
 
@@ -30,8 +30,8 @@ Arc of parabola (white) with internal geometry (dark yellow)
 See also: [Drawing aids](/Sketcher_Workbench#Drawing_aids "Sketcher Workbench").
 
 1. There are several ways to invoke the tool:
-   - Press the ![](/src/assets/images/Sketcher_CreateArcOfParabola.svg) [Arc of parabola by focus, vertex, endpoints](/Sketcher_CreateArcOfParabola "Sketcher CreateArcOfParabola") button.
-   - Select the **Sketcher → Sketcher geometries → ![](/src/assets/images/Sketcher_CreateArcOfParabola.svg) Create arc of parabola** option from the menu.
+   - Press the ![](/images/Sketcher_CreateArcOfParabola.svg) [Arc of parabola by focus, vertex, endpoints](/Sketcher_CreateArcOfParabola "Sketcher CreateArcOfParabola") button.
+   - Select the **Sketcher → Sketcher geometries → ![](/images/Sketcher_CreateArcOfParabola.svg) Create arc of parabola** option from the menu.
    - Use the keyboard shortcut: G then J.
 2. The cursor changes to a cross with the tool icon.
 3. Pick the focus of the arc (labelled 1 in the image above).

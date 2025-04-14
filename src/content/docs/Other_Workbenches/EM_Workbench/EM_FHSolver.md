@@ -21,7 +21,7 @@ title: EM FHSolver
 
 The FHSolver tool inserts a FHSolver object.
 
-![](/src/assets/images/EM_FHSolver_Example.png)
+![](/images/EM_FHSolver_Example.png)
 
 FHSolver object
 
@@ -29,7 +29,7 @@ FHSolver object
 
 To insert a FHSolver object in the Document:
 
-1. Press the ![](/src/assets/images/EM_FHSolver.svg) [EM FHSolver](/EM_FHSolver "EM FHSolver") button, or press E then X keys.
+1. Press the ![](/images/EM_FHSolver.svg) [EM FHSolver](/EM_FHSolver "EM FHSolver") button, or press E then X keys.
 
 ### Remarks
 

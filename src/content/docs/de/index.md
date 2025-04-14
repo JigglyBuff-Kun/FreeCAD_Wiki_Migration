@@ -8,21 +8,21 @@ Dies ist das Dokumentations-Wiki von [FreeCAD](http://www.freecad.org). Es gibt 
 
 ## Die Zentren
 
-![](/src/assets/images/Crystal_Clear_app_display.png)
+![](/images/Crystal_Clear_app_display.png)
 
 [Anwenderzentrum](/User_hub/de "User hub/de"): Diese Seite enthält Dokumentation, die für FreeCAD-Anwender im Allgemeinen nützlich ist: eine Liste aller Arbeitsbereiche, detaillierte Anweisungen zur Installation und Benutzung der FreeCAD-Anwendung, Tutorien und alles, was Du brauchst, um loszulegen.
 
-![](/src/assets/images/Crystal_Clear_app_terminal.png)
+![](/images/Crystal_Clear_app_terminal.png)
 
 [Hauptanwenderzentrum](/Power_users_hub/de "Power users hub/de"): Diese Seite enthält Dokumentation für fortgeschrittene Benutzer und Personen, die an der Erstellung von Python-Skripten interessiert sind. Dort findest Du auch ein Repositorium von Makros, Anweisungen zur Installation und Verwendung sowie weitere Informationen zur Anpassung von FreeCAD an Deine speziellen Bedürfnisse.
 
-![](/src/assets/images/Crystal_Clear_app_tutorials.png)
+![](/images/Crystal_Clear_app_tutorials.png)
 
 [Entwicklerzentrum](/Developer_hub/de "Developer hub/de"): Dieser Abschnitt enthält Material für Entwickler: Wie du FreeCAD selbst kompilierst, wie der FreeCAD-Quellcode strukturiert ist und wie du darin navigierst, und wie du neue Arbeitsbereiche entwickelst und FreeCAD in deine eigene Anwendung einbindest.
 
 ## Handbuch
 
-![](/src/assets/images/Crystal_Clear_manual.png)
+![](/images/Crystal_Clear_manual.png)
 
 [Das FreeCAD-Handbuch](/Manual:Introduction/de "Manual:Introduction/de") ist ein weiterer geradlinigerer Weg die Informationen dieses Wikis zu präsentieren. Es ist so gestaltet, dass es wie ein Buch gelesen werden kann und wird zu vielen weiteren Seiten führen, ausgehend von den Knotenpunkten oben. [eBookversionen](https://www.gitbook.com/book/yorikvanhavre/a-freecad-manual/details) gibt es ebenso, wie [eine Reihe von Übersetzungen im pdf-Format](https://www.freecad.org/manual/).
 

@@ -28,11 +28,11 @@ title: FaceToSketch
 
 ## Description
 
-This macro breaks down your form with function ![](/src/assets/images/Draft_Downgrade.svg) [Draft Downgrade](/Draft_Downgrade "Draft Downgrade") and transforms the face selected in a sketch without constraints, and ready to be modified.
+This macro breaks down your form with function ![](/images/Draft_Downgrade.svg) [Draft Downgrade](/Draft_Downgrade "Draft Downgrade") and transforms the face selected in a sketch without constraints, and ready to be modified.
 
 ## Script
 
-ToolBar Icon ![](/src/assets/images/Macro_FaceToSketch.png)
+ToolBar Icon ![](/images/Macro_FaceToSketch.png)
 
 **Macro_FaceToSketch.FCMacro**
 

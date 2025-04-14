@@ -32,13 +32,13 @@ Dadurch wird die gesamte parametrische Assoziativität eines Objekts entfernt un
 
 Vorher und nachher:
 
-![](/src/assets/images/RPH_before.png)
+![](/images/RPH_before.png)
 
-![](/src/assets/images/RPH_after.png)
+![](/images/RPH_after.png)
 
 ## Skript
 
-ToolBar Icon ![](/src/assets/images/Macro_Remove_parametric_history.png)
+ToolBar Icon ![](/images/Macro_Remove_parametric_history.png)
 
 **Remove parametric history.FCMacro**
 

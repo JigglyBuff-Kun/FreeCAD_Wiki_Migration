@@ -19,13 +19,13 @@ title: Draft Fillet
 
 ## Description
 
-The ![](/src/assets/images/Draft_Fillet.svg) **Draft Fillet** command creates a fillet, a rounded corner, or a chamfer, a straight edge, between two selected edges.
+The ![](/images/Draft_Fillet.svg) **Draft Fillet** command creates a fillet, a rounded corner, or a chamfer, a straight edge, between two selected edges.
 
 In 0.21 and below the command only works properly if both selected edges are straight.
 
 In 1.0 and below if the selected objects have multiple edges, their first edge will be used. This may not be the edge that was picked in the [3D view](/3D_view "3D view").
 
-![](/src/assets/images/Draft_Fillet_example.png)
+![](/images/Draft_Fillet_example.png)
 
 Several fillets and chamfers created between two edges
 
@@ -33,9 +33,9 @@ Several fillets and chamfers created between two edges
 
 1. Select two edges that meet in a single point.
 2. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/Draft_Fillet.svg) [Fillet](/Draft_Fillet "Draft Fillet") button.
-   - [Draft](/Draft_Workbench "Draft Workbench"): Select the **Drafting → ![](/src/assets/images/Draft_Fillet.svg) Fillet** option from the menu.
-   - [BIM](/BIM_Workbench "BIM Workbench"): Select the **2D Drafting → ![](/src/assets/images/Draft_Fillet.svg) Fillet** option from the menu.
+   - Press the ![](/images/Draft_Fillet.svg) [Fillet](/Draft_Fillet "Draft Fillet") button.
+   - [Draft](/Draft_Workbench "Draft Workbench"): Select the **Drafting → ![](/images/Draft_Fillet.svg) Fillet** option from the menu.
+   - [BIM](/BIM_Workbench "BIM Workbench"): Select the **2D Drafting → ![](/images/Draft_Fillet.svg) Fillet** option from the menu.
    - Use the keyboard shortcut: F then I.
 3. Enter the **Fillet radius**. Note that the command will not succeed if the radius is too large for the selected edge objects.
 4. Optionally check the **Delete original objects** option.

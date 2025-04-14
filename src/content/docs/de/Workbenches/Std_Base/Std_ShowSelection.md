@@ -28,8 +28,8 @@ Der Befehl **Std AuswahlEinblenden** zeigt ausgewählte Objekte in der [3D-Ansic
    - Aufgepasst, bei der Auswahl aller Objekte in der Baumansicht mit der Tastenkombination Ctrl+A; diese wählt auch Unterelemente von [PartDesign-Körpern](/PartDesign_Body/de "PartDesign Body/de") aus und Objekte, die in [Part-Boolesche-Verknüpfungen](/Part_Boolean/de "Part Boolean/de") verwendet werden. In den meisten Fällen sollten diese unsichtbar bleiben.
    - Objekte, die in [Part-Boolesche-Verknüpfungen](/Part_Boolean/de "Part Boolean/de") verwendet werden, Ctrl+A in einer 3D-Ansicht verwendet wird.
 2. Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
-   - Den Menüeintrag **Ansicht → Sichtbarkeit → ![](/src/assets/images/Std_ShowSelection.svg) Auswahl einblenden** auswählen.
-   - Die Menüoption **![](/src/assets/images/Std_ShowSelection.svg) Auswahl einblenden** im Kontextmenü der Baumansicht auswählen.
+   - Den Menüeintrag **Ansicht → Sichtbarkeit → ![](/images/Std_ShowSelection.svg) Auswahl einblenden** auswählen.
+   - Die Menüoption **![](/images/Std_ShowSelection.svg) Auswahl einblenden** im Kontextmenü der Baumansicht auswählen.
 
 ## Hinweise
 

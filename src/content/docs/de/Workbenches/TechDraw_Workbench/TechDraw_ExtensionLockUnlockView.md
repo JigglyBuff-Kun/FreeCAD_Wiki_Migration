@@ -25,8 +25,8 @@ Das Werkzeug **TechDraw ErgänzungAnsichtSperrenEntsperren** sperrt oder entsper
 
 1. Eine einzelne Ansicht auswählen.
 2. Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
-   - Die Schaltfläche ![](/src/assets/images/TechDraw_ExtensionLockUnlockView.svg) Ansicht fixieren/lösen drücken.
-   - Den Menüeintrag **TechDraw → Ergänzungen: Merkmale/Änderungen → ![](/src/assets/images/TechDraw_ExtensionLockUnlockView.svg) Ansicht fixieren/lösen** auswählen.
-3. Die Daten-Eigenschaft**Lock Position** der Ansicht wird umgeschaltet. Gesperrte Ansichten haben ein rotes Schlosssymbol ![](/src/assets/images/TechDraw_Lock.svg) in der linken unteren Ecke.
+   - Die Schaltfläche ![](/images/TechDraw_ExtensionLockUnlockView.svg) Ansicht fixieren/lösen drücken.
+   - Den Menüeintrag **TechDraw → Ergänzungen: Merkmale/Änderungen → ![](/images/TechDraw_ExtensionLockUnlockView.svg) Ansicht fixieren/lösen** auswählen.
+3. Die Daten-Eigenschaft**Lock Position** der Ansicht wird umgeschaltet. Gesperrte Ansichten haben ein rotes Schlosssymbol ![](/images/TechDraw_Lock.svg) in der linken unteren Ecke.
 
 Retrieved from "<http://wiki.freecad.org/index.php?title=TechDraw_ExtensionLockUnlockView/de&oldid=1295319>"

@@ -19,14 +19,14 @@ title: Sketcher Projection
 
 ## Description
 
-The ![](/src/assets/images/Sketcher_Projection.svg) [Sketcher Projection](/Sketcher_Projection "Sketcher Projection") tool ([introduced in 1.1](/Release_notes_1.1 "Release notes 1.1")) projects edges and/or vertices belonging to objects outside the sketch onto the sketch plane. The projected geometry is called "external geometry". It stays parametrically linked to its source objects. External geometry is marked with a dedicated [color](/Sketcher_Preferences#Appearance "Sketcher Preferences") (default magenta). It can be defining geometry that is visible outside the sketch or construction geometry that is not visible outside the sketch.
+The ![](/images/Sketcher_Projection.svg) [Sketcher Projection](/Sketcher_Projection "Sketcher Projection") tool ([introduced in 1.1](/Release_notes_1.1 "Release notes 1.1")) projects edges and/or vertices belonging to objects outside the sketch onto the sketch plane. The projected geometry is called "external geometry". It stays parametrically linked to its source objects. External geometry is marked with a dedicated [color](/Sketcher_Preferences#Appearance "Sketcher Preferences") (default magenta). It can be defining geometry that is visible outside the sketch or construction geometry that is not visible outside the sketch.
 
 ## Usage
 
 1. There are several ways to invoke the tool:
-   - Press the ![](/src/assets/images/Sketcher_Projection.svg) [Create external projection geometry](/Sketcher_Projection "Sketcher Projection") button.
-   - Select the **Sketcher → Sketcher tools → ![](/src/assets/images/Sketcher_Projection.svg) Create external projection geometry** option from the menu.
-   - Right-click in the [3D view](/3D_view "3D view") and select the **![](/src/assets/images/Sketcher_Projection.svg) Create external projection geometry** option from the context menu.
+   - Press the ![](/images/Sketcher_Projection.svg) [Create external projection geometry](/Sketcher_Projection "Sketcher Projection") button.
+   - Select the **Sketcher → Sketcher tools → ![](/images/Sketcher_Projection.svg) Create external projection geometry** option from the menu.
+   - Right-click in the [3D view](/3D_view "3D view") and select the **![](/images/Sketcher_Projection.svg) Create external projection geometry** option from the context menu.
    - Use the keyboard shortcut: G then X.
 2. The cursor changes to a cross with the tool icon.
 3. Select one or more external faces, edges and/or vertices. See [Notes](#Notes).

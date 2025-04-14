@@ -48,7 +48,7 @@ For more detailed explanations, see the [How to install macros](/How_to_install_
 
 ## Script
 
-ToolBar Icon ![](/src/assets/images/Macro_PlacementAbsolufy.png)
+ToolBar Icon ![](/images/Macro_PlacementAbsolufy.png)
 
 **Macro_PlacementAbsolufy.FCMacro**
 

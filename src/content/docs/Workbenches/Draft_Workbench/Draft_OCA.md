@@ -4,7 +4,7 @@ title: Draft OCA
 
 ## Description
 
-Draft OCA is a software module used by the ![](/src/assets/images/Std_Open.svg) [Std Open](/Std_Open "Std Open"), ![](/src/assets/images/Std_Import.svg) [Std Import](/Std_Import "Std Import") and ![](/src/assets/images/Std_Export.svg) [Std Export](/Std_Export "Std Export") commands to handle the [OCA file format](http://groups.google.com/group/open_cad_format).
+Draft OCA is a software module used by the ![](/images/Std_Open.svg) [Std Open](/Std_Open "Std Open"), ![](/images/Std_Import.svg) [Std Import](/Std_Import "Std Import") and ![](/images/Std_Export.svg) [Std Export](/Std_Export "Std Export") commands to handle the [OCA file format](http://groups.google.com/group/open_cad_format).
 
 The OCA file format is a community effort to create a free, simple and open CAD file format. OCA is largely based on the GCAD file format generated from [gCAD3D](http://www.gcad3d.org/). Both formats can be imported in FreeCAD, and the OCA files exported by FreeCAD can be opened in gCAD3D.
 

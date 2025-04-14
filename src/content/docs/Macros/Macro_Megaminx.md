@@ -35,7 +35,7 @@ Megaminx document open at a time, although only one can be active.
 
 ## Script
 
-ToolBar icon ![](/src/assets/images/Macro_Megaminx.png)
+ToolBar icon ![](/images/Macro_Megaminx.png)
 
 Temporary code for external macro link. Do not use this code. This code is used exclusively by [Addon Manager](/Std_AddonMgr "Std AddonMgr"). _Link for optional manual installation: [Macro](https://raw.githubusercontent.com/rparkins999/Megaminx/master/Megaminx.FCMacro)_
 
@@ -69,7 +69,7 @@ webbrowser.open("https://raw.githubusercontent.com/rparkins999/Megaminx/master/M
 
 **Macro_Megaminx.FCMacro**
 
-![](/src/assets/images/Macro_Megaminx.png)
+![](/images/Macro_Megaminx.png)
 
 ## Use
 

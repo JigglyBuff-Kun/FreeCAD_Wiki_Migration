@@ -19,14 +19,14 @@ title: Spreadsheet AusrichtenVMitte
 
 ## Beschreibung
 
-Das Werkzeug ![](/src/assets/images/Spreadsheet_AlignVCenter.svg) **Spreadsheet AusrichtenVMitte** zentriert den Inhalt ausgewählter Zellen vertikal.
+Das Werkzeug ![](/images/Spreadsheet_AlignVCenter.svg) **Spreadsheet AusrichtenVMitte** zentriert den Inhalt ausgewählter Zellen vertikal.
 
 ## Anwendung
 
 1. Sicherstellen, dass eine [Kalkulationstabelle](/Spreadsheet_CreateSheet/de "Spreadsheet CreateSheet/de") aktiviert ist.
 2. Eine oder mehrere Zellen auswählen.
 3. Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
-   - Die Schaltfläche ![](/src/assets/images/Spreadsheet_AlignVCenter.svg) Vertikal zentrieren drücken.
-   - Den Menüeintrag **Kalkulationstabelle → Ausrichtung → ![](/src/assets/images/Spreadsheet_AlignVCenter.svg) Vertikal zentrieren** auswählen.
+   - Die Schaltfläche ![](/images/Spreadsheet_AlignVCenter.svg) Vertikal zentrieren drücken.
+   - Den Menüeintrag **Kalkulationstabelle → Ausrichtung → ![](/images/Spreadsheet_AlignVCenter.svg) Vertikal zentrieren** auswählen.
 
 Retrieved from "<http://wiki.freecad.org/index.php?title=Spreadsheet_AlignVCenter/de&oldid=1507636>"

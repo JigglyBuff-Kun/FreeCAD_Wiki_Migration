@@ -21,13 +21,13 @@ title: Std Texturabbildung
 
 Der Befehl **Std Texturabbildung** bildet temporär eine Textur auf allen Objekten einer [3D-Ansicht](/3D_view "3D view") ab.
 
-![](/src/assets/images/Std_TextureMapping_example.png)
+![](/images/Std_TextureMapping_example.png)
 
 Zwei Objekte mit einem 120 by 120 Pixel großen Bild eines Schachbrettmusters belegt
 
 ## Anwendung
 
-1. Menüeintrag **Ansicht → ![](/src/assets/images/Std_TextureMapping.svg) Texturabbildung...** auswählen.
+1. Menüeintrag **Ansicht → ![](/images/Std_TextureMapping.svg) Texturabbildung...** auswählen.
 2. Der Aufgaben-Bereich "Textur" wird geöffnet.
 3. Wahlweise die Checkbox **Umgebung** aktivieren.
 4. DieSchaltfläche ... drücken.

@@ -19,7 +19,7 @@ title: Part Punkt
 
 ## Beschreibung
 
-Ein ![](/src/assets/images/Part_Point.svg) **Part Knoten** ist ein parametrischer Punkt, der mit dem Befehl ![](/src/assets/images/Part_Primitives.svg) [Part Grundelemente](/Part_Primitives/de "Part Primitives/de") erstellt werden kann. Seine Koordinaten beziehen sich auf das in seiner Daten-Eigenschaft**Placement** festgelegte Koordinatensystem.  
+Ein ![](/images/Part_Point.svg) **Part Knoten** ist ein parametrischer Punkt, der mit dem Befehl ![](/images/Part_Primitives.svg) [Part Grundelemente](/Part_Primitives/de "Part Primitives/de") erstellt werden kann. Seine Koordinaten beziehen sich auf das in seiner Daten-Eigenschaft**Placement** festgelegte Koordinatensystem.  
 (Mit dem Eintrag **Punkt** in der Auswahlliste wird ein Objekt **Knoten** erstellt.)
 
 ## Anwendung

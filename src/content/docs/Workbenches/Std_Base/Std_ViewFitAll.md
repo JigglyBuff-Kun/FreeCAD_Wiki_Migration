@@ -24,10 +24,10 @@ The **Std ViewFitAll** command zooms and pans the camera so that all visible obj
 ## Usage
 
 1. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/Std_ViewFitAll.svg) [Fit all](/Std_ViewFitAll "Std ViewFitAll") button.
-   - Select the **View → Standard views → ![](/src/assets/images/Std_ViewFitAll.svg) Fit all** option from the menu.
-   - Select the **![](/src/assets/images/Std_ViewFitAll.svg) Fit all** option from the [3D view](/3D_view "3D view") context menu.
-   - Select the **![](/src/assets/images/Std_ViewFitAll.svg) Fit all** option from the Mini-cube menu of the [Navigation Cube](/Navigation_Cube "Navigation Cube").
+   - Press the ![](/images/Std_ViewFitAll.svg) [Fit all](/Std_ViewFitAll "Std ViewFitAll") button.
+   - Select the **View → Standard views → ![](/images/Std_ViewFitAll.svg) Fit all** option from the menu.
+   - Select the **![](/images/Std_ViewFitAll.svg) Fit all** option from the [3D view](/3D_view "3D view") context menu.
+   - Select the **![](/images/Std_ViewFitAll.svg) Fit all** option from the Mini-cube menu of the [Navigation Cube](/Navigation_Cube "Navigation Cube").
    - Use the keyboard shortcut: V then F.
 
 ## Scripting

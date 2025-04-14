@@ -21,7 +21,7 @@ title: Netz KnotenKrümmung
 
 Der Befehl **Mesh Knotenkrümmumg** erstellt Mesh-Krümmumgsobjekte (\*\_Curvature objects) für Mesh-Objekte (Netzobjekte). Ein Krümmumgsobjekt stellt die Krümmung eines Netzes dar und setzt unterschiedliche Farben für konvexe, ebene und konkave Bereiche ein.
 
-![](/src/assets/images/Mesh_VertexCurvature_example.png)
+![](/images/Mesh_VertexCurvature_example.png)
 
 Beispiel eines Mesh-Krümmungsobjekts
 
@@ -29,9 +29,9 @@ Beispiel eines Mesh-Krümmungsobjekts
 
 1. Select one or more mesh objects.
 2. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/Mesh_VertexCurvature.svg) [Curvature plot](/Mesh_VertexCurvature "Mesh VertexCurvature") button.
-   - Select the **Meshes → ![](/src/assets/images/Mesh_VertexCurvature.svg) Curvature plot** option from the menu.
-   - Select the **![](/src/assets/images/Mesh_VertexCurvature.svg) Curvature plot** option from the [Tree view](/Tree_view "Tree view") context menu or [3D view](/3D_view "3D view") context menu.
+   - Press the ![](/images/Mesh_VertexCurvature.svg) [Curvature plot](/Mesh_VertexCurvature "Mesh VertexCurvature") button.
+   - Select the **Meshes → ![](/images/Mesh_VertexCurvature.svg) Curvature plot** option from the menu.
+   - Select the **![](/images/Mesh_VertexCurvature.svg) Curvature plot** option from the [Tree view](/Tree_view "Tree view") context menu or [3D view](/3D_view "3D view") context menu.
 
 ## Eigenschaften
 

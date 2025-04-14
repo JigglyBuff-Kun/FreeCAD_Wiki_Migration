@@ -27,13 +27,13 @@ The **Arch SectionPlane** tool places in the current document a section plane "t
 
 The Section Plane alone won't create any view of its objects set. For that, you must create a [TechDraw ArchView](/TechDraw_ArchView "TechDraw ArchView") to create a view in a [TechDraw page](/TechDraw_Workbench "TechDraw Workbench").
 
-![](/src/assets/images/Arch_SectionPlane_example.jpg)
+![](/images/Arch_SectionPlane_example.jpg)
 
 ## Usage
 
 1. Optionally, set the [Draft Working Plane](/Draft_SelectPlane "Draft SelectPlane") to reflect the plane where you want to place the Section Plane.
 2. Select objects you want to be included in your section view.
-3. Press the ![](/src/assets/images/Arch_SectionPlane.svg) [Section Plane](/Arch_SectionPlane "Arch SectionPlane") button or press S then P keys.
+3. Press the ![](/images/Arch_SectionPlane.svg) [Section Plane](/Arch_SectionPlane "Arch SectionPlane") button or press S then P keys.
 4. [Move](/Draft_Move "Draft Move")/[rotate](/Draft_Rotate "Draft Rotate") the Section Plane into correct position if needed.
 5. Select the Section Plane if not selected already.
 6. Use either [Draft Shape2DView](/Draft_Shape2DView "Draft Shape2DView") or [TechDraw ArchView](/TechDraw_ArchView "TechDraw ArchView") to create a view.
@@ -44,15 +44,15 @@ The Section Plane alone won't create any view of its objects set. For that, you 
 
 - With a section plane object selected, use the [Draft Shape2DView](/Draft_Shape2DView "Draft Shape2DView") tool to create a shape object representing the section view in the document.
 
-![](/src/assets/images/Arch_Section_example2.jpg)
+![](/images/Arch_Section_example2.jpg)
 
 - Create [TechDraw ArchView](/TechDraw_ArchView "TechDraw ArchView").
 
-![](/src/assets/images/Arch_Section_example3.jpg)
+![](/images/Arch_Section_example3.jpg)
 
 - The Section Plane can also be used to show the entire 3D view cut by an infinite plane. This is only visual, and won't affect the geometry of the objects being cut.
 
-![](/src/assets/images/Arch_SectionPlane_CutView.jpg)
+![](/images/Arch_SectionPlane_CutView.jpg)
 
 ## Properties
 
@@ -63,7 +63,7 @@ The Section Plane alone won't create any view of its objects set. For that, you 
 - View**Cut View**: If this is `true`, the whole 3D view will be cut at the location of this section plane.
 - View**Clip view**: if this is `true`, it will clip the view to the display height and length of the section plane. This effectively turns the section plane into an orthographic camera, limiting the field of view.
 
-![](/src/assets/images/Arch_SectionPlane_ClipView.png)
+![](/images/Arch_SectionPlane_ClipView.png)
 
 The Arch SectionPlane with the clip view option will behave like a camera, limiting the field of view.
 

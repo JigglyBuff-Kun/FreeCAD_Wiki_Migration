@@ -32,6 +32,6 @@ Based on one planar element's ICS the line element's start and end point are pos
 1. Place two objects into an assembly
 2. Select a line elements of one object
 3. Select a planar face element of the second object
-4. Press the ![](/src/assets/images/Assembly_ConstraintLineHorizontal.svg) [Line horizontal](/Assembly3_ConstraintLineHorizontal "Assembly3 ConstraintLineHorizontal") button.
+4. Press the ![](/images/Assembly_ConstraintLineHorizontal.svg) [Line horizontal](/Assembly3_ConstraintLineHorizontal "Assembly3 ConstraintLineHorizontal") button.
 
 Retrieved from "<http://wiki.freecad.org/index.php?title=Assembly3_ConstraintLineHorizontal/en&oldid=923344>"

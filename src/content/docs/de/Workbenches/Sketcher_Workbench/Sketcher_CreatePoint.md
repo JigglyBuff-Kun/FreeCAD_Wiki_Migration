@@ -19,7 +19,7 @@ title: Sketcher PunktErstellen
 
 ## Beschreibung
 
-Das Werkzeug ![](/src/assets/images/Sketcher_CreatePoint.svg) Sketcher PunktErstellen erstellt einen Punkt.
+Das Werkzeug ![](/images/Sketcher_CreatePoint.svg) Sketcher PunktErstellen erstellt einen Punkt.
 
 ## Anwendung
 
@@ -28,9 +28,9 @@ Siehe auch: [Zeichnungshilfen](/Sketcher_Workbench/de#Zeichnungshilfen "Sketcher
 Pos-OVP = Positional [On-View-Parameters](/Sketcher_Preferences/de#Allgemein "Sketcher Preferences/de") (In-Ansicht-Parameter zur Lagebestimmung). [eingeführt in 1.0](/Release_notes_1.0/de "Release notes 1.0/de")
 
 1. Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
-   - Die Schaltfläche ![](/src/assets/images/Sketcher_CreatePoint.svg) Punkt erstellen drücken.
-   - Den Menüeintrag **Skizze → Skizzengeometrien → ![](/src/assets/images/Sketcher_CreatePoint.svg) Punkt erstellen** auswählen.
-   - Ein Rechtsklick in die [3D-Ansicht](/3D_view/de "3D view/de") und die Menüoption **![](/src/assets/images/Sketcher_CreatePoint.svg) Punkt erstellen** im Kontextmenü auswählen.
+   - Die Schaltfläche ![](/images/Sketcher_CreatePoint.svg) Punkt erstellen drücken.
+   - Den Menüeintrag **Skizze → Skizzengeometrien → ![](/images/Sketcher_CreatePoint.svg) Punkt erstellen** auswählen.
+   - Ein Rechtsklick in die [3D-Ansicht](/3D_view/de "3D view/de") und die Menüoption **![](/images/Sketcher_CreatePoint.svg) Punkt erstellen** im Kontextmenü auswählen.
    - Das Tastaturkürzel G then Y.
 
 Der Mauszeiger wandelt sich zu einem Kreuz mit Werkzeugsymbol.

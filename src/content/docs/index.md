@@ -8,21 +8,21 @@ This is the documentation wiki of [FreeCAD](http://www.freecad.org). There are s
 
 ## The hubs
 
-![](/src/assets/images/Crystal_Clear_app_display.png)
+![](/images/Crystal_Clear_app_display.png)
 
 [Users hub](/User_hub "User hub"): This page contains documentation useful for FreeCAD users in general: a list of all the workbenches, detailed instructions on how to install and use the FreeCAD application, tutorials, and all you need to get started.
 
-![](/src/assets/images/Crystal_Clear_app_terminal.png)
+![](/images/Crystal_Clear_app_terminal.png)
 
 [Power users hub](/Power_users_hub "Power users hub"): This page gathers documentation for advanced users and people interested in writing Python scripts. There you will alvso find a repository of macros, instructions on how to install and use them, and more information about customizing FreeCAD to your specific needs.
 
-![](/src/assets/images/Crystal_Clear_app_tutorials.png)
+![](/images/Crystal_Clear_app_tutorials.png)
 
 [Developers hub](/Developer_hub "Developer hub"): This section contains material for developers: How to compile FreeCAD yourself, how the FreeCAD source code is structured, how to navigate the source code, how to develop new workbenches, and embed FreeCAD in your own application.
 
 ## Manual
 
-![](/src/assets/images/Crystal_Clear_manual.png)
+![](/images/Crystal_Clear_manual.png)
 
 [The FreeCAD manual](/Manual:Introduction "Manual:Introduction") is another, more linear way to present the information contained in this wiki. It is designed to be read like a book, and will gently introduce you to many other pages from the hubs above. [ebook versions](https://www.gitbook.com/book/yorikvanhavre/a-freecad-manual/details) are also available, as well as [a couple of translations in pdf format](https://www.freecad.org/manual/).
 

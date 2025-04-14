@@ -23,7 +23,7 @@ Der Befehl **Std AllesSchließen** schließt alle Fenster und dadurch alle Dokum
 
 ## Anwendung
 
-1. Wähle die **Datei → ![](/src/assets/images/Std_CloseAllWindows.svg) Alles Schließen**-Option aus dem Menü.
+1. Wähle die **Datei → ![](/images/Std_CloseAllWindows.svg) Alles Schließen**-Option aus dem Menü.
 2. Falls es nicht gesicherte Dokumente gibt, öffnet sich eine Dialog-Box, die zum Sichern auffordert:
    - Drücke die Speichern-Schaltfläche zum Sichern des aktiven Dokuments. Falls erforderlich, gib zuerst den Dateinamen ein.
    - Drücke die Schließen ohne zu Speichern-Schaltfläche, um das aktive Dokument zu verlassen und alle Änderungen zu verlieren.

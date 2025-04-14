@@ -21,18 +21,18 @@ title: TechDraw ErgänzungHorizontaleMaßeAnordnen
 
 Das Werkzeug **TechDraw ErgänzungHorizontaleMaßeAnordnen** erzeugt gleiche Abstände zwischen horizontalen Maßen.
 
-![](/src/assets/images/TechDraw_ExtensionCascadeHorizDimensionExample.png)
+![](/images/TechDraw_ExtensionCascadeHorizDimensionExample.png)
 
 Rechts horizontale Maße mit gleichen Abständen
 
 ## Anwendung
 
-1. Wahlweise den Abstand mit dem Werkzeug ![](/src/assets/images/TechDraw_ExtensionSelectLineAttributes.svg) [TechDraw ErgänzungLinienmerkmaleAuswählen](/TechDraw_ExtensionSelectLineAttributes/de "TechDraw ExtensionSelectLineAttributes/de") festlegen.
+1. Wahlweise den Abstand mit dem Werkzeug ![](/images/TechDraw_ExtensionSelectLineAttributes.svg) [TechDraw ErgänzungLinienmerkmaleAuswählen](/TechDraw_ExtensionSelectLineAttributes/de "TechDraw ExtensionSelectLineAttributes/de") festlegen.
 2. Zwei oder mehr horizontale Maße auswählen.
 3. Das erste Maß legt die Position fest. Dieses Maß wird nicht bewegt, die anderen Maße werden relativ zu diesem positioniert.
 4. Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
-   - Die Schaltfläche ![](/src/assets/images/TechDraw_ExtensionCascadeHorizDimension.svg) Horizontale Maße anordnen drücken.
-   - Den Menüeintrag **TechDraw → Ergänzungen: Merkmale/Änderungen → ![](/src/assets/images/TechDraw_ExtensionCascadeHorizDimension.svg) Horizontale Maße anordnen** auswählen.
+   - Die Schaltfläche ![](/images/TechDraw_ExtensionCascadeHorizDimension.svg) Horizontale Maße anordnen drücken.
+   - Den Menüeintrag **TechDraw → Ergänzungen: Merkmale/Änderungen → ![](/images/TechDraw_ExtensionCascadeHorizDimension.svg) Horizontale Maße anordnen** auswählen.
 5. Die Maße werden mit gleichen Abständen angeordnet, die Maßzahlen werden zentriert.
 
 ## Hinweise

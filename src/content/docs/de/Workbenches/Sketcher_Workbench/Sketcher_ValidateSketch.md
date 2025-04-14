@@ -19,9 +19,9 @@ title: Sketcher SkizzeÜberprüfen
 
 ## Beschreibung
 
-Das Werkzeug ![](/src/assets/images/Sketcher_ValidateSketch.svg) Sketcher SkizzeÜberprüfen kann eine Skizze analysieren und reparieren, die sich nicht mehr bearbeiten lässt oder ungültige Randbedingungen enthält, oder fehlende Randbedingungen des Typs [Koinzident festleggen](/Sketcher_ConstrainCoincident/de "Sketcher ConstrainCoincident/de") zu einer Skizze hinzufügen, die aus importierter Geometrie, wie DXF-Dateien, erstellt wurde. Es eignet sich auch dazu, eine fehlende Deckungsgleichheit (Koinzidenz) in einer mit dem Sketcher erstellten Skizze zu finden, die bei dem Versuch, sie für ein PartDesign-Formelement zu verwenden, einen Fehler verursacht.
+Das Werkzeug ![](/images/Sketcher_ValidateSketch.svg) Sketcher SkizzeÜberprüfen kann eine Skizze analysieren und reparieren, die sich nicht mehr bearbeiten lässt oder ungültige Randbedingungen enthält, oder fehlende Randbedingungen des Typs [Koinzident festleggen](/Sketcher_ConstrainCoincident/de "Sketcher ConstrainCoincident/de") zu einer Skizze hinzufügen, die aus importierter Geometrie, wie DXF-Dateien, erstellt wurde. Es eignet sich auch dazu, eine fehlende Deckungsgleichheit (Koinzidenz) in einer mit dem Sketcher erstellten Skizze zu finden, die bei dem Versuch, sie für ein PartDesign-Formelement zu verwenden, einen Fehler verursacht.
 
-![](/src/assets/images/Sketcher_ValidateSketch_taskpanel.png)
+![](/images/Sketcher_ValidateSketch_taskpanel.png)
 
 Das Skizzierer Aufgabenpaneel Validierung
 
@@ -30,7 +30,7 @@ Das Skizzierer Aufgabenpaneel Validierung
 1. Dieses Werkzeug kann nicht für eine Skizze verwendet werden, die sich im Bearbeitungsmodus befindet. Zum Beenden des Bearbeitungsmodus siehe [Sketcher SkizzeVerlassen](/Sketcher_LeaveSketch/de "Sketcher LeaveSketch/de").
 2. Eine Skizze auswählen.
 3. Es gibt mehrere Möglichkeiten, Das Werkzeug aufzurufen:
-   - Die Schaltfläche ![](/src/assets/images/Sketcher_ValidateSketch.svg) Skizze überprüfen... drücken.
+   - Die Schaltfläche ![](/images/Sketcher_ValidateSketch.svg) Skizze überprüfen... drücken.
    - Den Menüeintrag **Skizze → Skizze überprüfen...** auswählen.
 4. Der Aufgaben-Dialog **Skizzenprüfung** wird geöffnet. Siehe [Optionen](#Optionen) für weitere Informationen.
 5. Zum Beenden die Schaltfläche Schließen drücken.

@@ -23,11 +23,11 @@ This documentation is not finished. Please help and contribute documentation.Gui
 
 ## Description
 
-The ![](/src/assets/images/Assembly_Add_WorkplaneZY.svg) [Add ZY workplane](/Assembly3_AddZYWorkplane "Assembly3 AddZYWorkplane") command adds a ZY Workplane to an active assembly.
+The ![](/images/Assembly_Add_WorkplaneZY.svg) [Add ZY workplane](/Assembly3_AddZYWorkplane "Assembly3 AddZYWorkplane") command adds a ZY Workplane to an active assembly.
 
 A Workplane object will be created inside the Parts container of the assembly tree and a related workplane item will be placed in the 3D view. It is placed at the assembly's origin and oriented according to the assembly's YZ plane, if the Assembly object was selected directly.
 
-![](/src/assets/images/Assembly_Add_Workplane-01.png) ![](/src/assets/images/Assembly_AddZYWorkplane-04.png)
+![](/images/Assembly_Add_Workplane-01.png) ![](/images/Assembly_AddZYWorkplane-04.png)
 
 The assembly can also be selected indirectly by some item belonging to the assembly. Then the workplane is placed at the item's origin but it is still oriented according to the assembly's YZ plane.
 
@@ -35,8 +35,8 @@ Valid items are e.g. elements, bodies, vertexes, edges, faces, origins, and othe
 
 ## Usage
 
-1. Activate the ![](/src/assets/images/Assembly_Add_WorkplaneZY.svg) **Add ZY workplane** command using one of the following:
-   - The ![](/src/assets/images/Assembly_Add_WorkplaneZY.svg) [Add ZY workplane](/Assembly3_AddZYWorkplane "Assembly3 AddZYWorkplane") button.
-   - The **Assembly3 → Workplane and origin → ![](/src/assets/images/Assembly_Add_WorkplaneZY.svg) Add ZY workplane** menu option.
+1. Activate the ![](/images/Assembly_Add_WorkplaneZY.svg) **Add ZY workplane** command using one of the following:
+   - The ![](/images/Assembly_Add_WorkplaneZY.svg) [Add ZY workplane](/Assembly3_AddZYWorkplane "Assembly3 AddZYWorkplane") button.
+   - The **Assembly3 → Workplane and origin → ![](/images/Assembly_Add_WorkplaneZY.svg) Add ZY workplane** menu option.
 
 Retrieved from "<http://wiki.freecad.org/index.php?title=Assembly3_AddZYWorkplane/en&oldid=1096284>"

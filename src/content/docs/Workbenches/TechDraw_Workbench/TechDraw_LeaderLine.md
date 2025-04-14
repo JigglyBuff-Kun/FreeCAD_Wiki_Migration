@@ -21,7 +21,7 @@ title: TechDraw LeaderLine
 
 The **TechDraw LeaderLine** tool adds a line to a View. Other annotation objects (such as [Rich Text Annotations](/TechDraw_RichTextAnnotation "TechDraw RichTextAnnotation")) can be connected to the leaderline to form complex annotations.
 
-![](/src/assets/images/TechDraw_LeaderLine_sample.png)
+![](/images/TechDraw_LeaderLine_sample.png)
 
 Leaderline added to a View
 
@@ -29,8 +29,8 @@ Leaderline added to a View
 
 1. Select a View.
 2. There are several ways to invoke the tool:
-   - Press the ![](/src/assets/images/TechDraw_LeaderLine.svg) [Add Leaderline to View](/TechDraw_LeaderLine "TechDraw LeaderLine") button.
-   - Select the **TechDraw → Add Lines → ![](/src/assets/images/TechDraw_LeaderLine.svg) Add Leaderline to View** option from the menu.
+   - Press the ![](/images/TechDraw_LeaderLine.svg) [Add Leaderline to View](/TechDraw_LeaderLine "TechDraw LeaderLine") button.
+   - Select the **TechDraw → Add Lines → ![](/images/TechDraw_LeaderLine.svg) Add Leaderline to View** option from the menu.
 3. A task panel opens.
 4. Press the Pick points button.
 5. Pick the first point on the page to define the start point of the line.
@@ -65,7 +65,7 @@ Leaderline added to a View
 
 Base
 
-- Data**Start Symbol** (`Enumeration`): The symbol at the start of the leaderline. Options: ![](/src/assets/images/Arrowfilled.svg) Filled Arrow, ![](/src/assets/images/Arrowopen.svg) Open Arrow, ![](/src/assets/images/Arrowtick.svg) Tick, ![](/src/assets/images/Arrowdot.svg) Dot, ![](/src/assets/images/Arrowopendot.svg) Open Circle, ![](/src/assets/images/Arrowfork.svg) Fork, ![](/src/assets/images/Arrowpyramid.svg) Filled Triangle, None.
+- Data**Start Symbol** (`Enumeration`): The symbol at the start of the leaderline. Options: ![](/images/Arrowfilled.svg) Filled Arrow, ![](/images/Arrowopen.svg) Open Arrow, ![](/images/Arrowtick.svg) Tick, ![](/images/Arrowdot.svg) Dot, ![](/images/Arrowopendot.svg) Open Circle, ![](/images/Arrowfork.svg) Fork, ![](/images/Arrowpyramid.svg) Filled Triangle, None.
 - Data**End Symbol** (`Enumeration`): The symbol at the end of the leaderline. Idem.
 - Data**X** (`Distance`): The X coordinate of the leaderline relative to the View.
 - Data**Y** (`Distance`): The Y coordinate of the leaderline relative to the View.
@@ -87,7 +87,7 @@ Base
 Line Format
 
 - View**Color** (`Color`): The color of the leaderline.
-- View**Line Style** (`Enumeration`): The style of the leaderline. Options: NoLine, ![](/src/assets/images/Continuous-line.svg) Continuous, ![](/src/assets/images/Dash-line.svg) Dash, ![](/src/assets/images/Dot-line.svg) Dot, ![](/src/assets/images/DashDot-line.svg) DashDot, ![Length](/src/assets/images/DashDotDot-line.svg) DashDotDot.
+- View**Line Style** (`Enumeration`): The style of the leaderline. Options: NoLine, ![](/images/Continuous-line.svg) Continuous, ![](/images/Dash-line.svg) Dash, ![](/images/Dot-line.svg) Dot, ![](/images/DashDot-line.svg) DashDot, ![Length](/images/DashDotDot-line.svg) DashDotDot.
 - View**Line Width** (`Length`): The width of the leaderline.
 
 ## Scripting

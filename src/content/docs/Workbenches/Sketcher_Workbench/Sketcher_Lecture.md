@@ -8,7 +8,7 @@ User _chrisb_ wrote the more than 80 page Sketcher Lecture. It is a reference ma
 
 The manual is a work in progress, as some sections are reviewed and updated depending on the development occurring on the [Sketcher Workbench](/Sketcher_Workbench "Sketcher Workbench"). The original manual was written for FreeCAD 0.17, then it was updated for 0.18 and 0.19. The latest manual can be found in the forum thread, [Sketcher tutorial](https://forum.freecadweb.org/viewtopic.php?f=36&t=30104).
 
-![](/src/assets/images/Sketcher_reference.png)
+![](/images/Sketcher_reference.png)
 
 Example sketch in the Sketcher Lecture.
 

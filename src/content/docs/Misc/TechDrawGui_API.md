@@ -26,19 +26,19 @@ TechDrawGui.exportPageAsSvg(p, f)
 
 ```
 
-![](/src/assets/images/Method.png) **exportPageAsPdf(\***pageObject, filePath**\*)**
+![](/images/Method.png) **exportPageAsPdf(\***pageObject, filePath**\*)**
 
 **Description**: save a copy of pageObject in PDF format to location filePath
 
 **Returns**: none
 
-![](/src/assets/images/Method.png) **exportPageAsSvg(\***pageObject, filePath**\*)**
+![](/images/Method.png) **exportPageAsSvg(\***pageObject, filePath**\*)**
 
 **Description**: save a copy of pageObject in SVG format to location filePath
 
 **Returns**: none
 
-![](/src/assets/images/Method.png) **copyActiveViewToSvgFile(\***document, filePath, (options)**\*)**
+![](/images/Method.png) **copyActiveViewToSvgFile(\***document, filePath, (options)**\*)**
 
 **Description**: save a copy of the active view for "document" to file "filePath"
 
@@ -54,7 +54,7 @@ Options:
 - border - float - empty space around image
 - mode - int - rendering mode (AS_IS, WIREFRAME, POINTS, WIREFRAME_OVERLAY, HIDDEN_LINE, BOUNDING_BOX)
 
-![](/src/assets/images/Method.png) **addQGIToView(\***view, QGraphicsItem**\*)**
+![](/images/Method.png) **addQGIToView(\***view, QGraphicsItem**\*)**
 
 **Description**: add a QGraphicsItem (created using PySide) to a View
 

@@ -30,61 +30,61 @@ Detailed description [here](http://freecadbuch.de/doku.php?id=Animation%20Wokben
 
 Toolbar
 
-![](/src/assets/images/Animation-menu-orizz.png)
+![](/images/Animation-menu-orizz.png)
 
 Drop down menu
 
-- ![](/src/assets/images/Animation_Mover.png) **Mover**: moves objects during a time intervall along the motion Vector.
-- ![](/src/assets/images/Animation_Rotator.png) **Rotator**: rotates objects during a time intervall. Further parameters are Rotation Axis/Direction, Center of Rotation and Angle.
-- ![](/src/assets/images/Animation_Tranquillizer.png) **Tranquillizer**: slows the render process if the animation runs to fast.
-- ![](/src/assets/images/Animation_Photographer.png) **Photographer**: creates a picture of a given format and size to a render directory for every time step.
-- ![](/src/assets/images/Animation_Plugger.png) **Plugger**: connects a newly created object to an already animated shuttle object or to a vertex of an animated sketch to enable using sketcher to calculate complex transformations with some constraints by means of the shuttle object.
-- ![](/src/assets/images/Animation_Adjuster.png) **Adjuster**: enables to calculate a value by a basic linear function. Now sketches can become animated by changing values in constraints.
-- ![](/src/assets/images/Animation_Styler.png) **Styler**: controls the Gui-object. Visibility, Transparency and Shape Color can be changed on the fly.
-- ![](/src/assets/images/Animation_Billboard.png) **Billboard**: Billboard and Moviescreen are features to display extra information like texts or images during the animation.
-- ![](/src/assets/images/Animation_Moviescreen.png) **Moviescreen**: Billboard and Moviescreen are features to display extra information like texts or images during the animation.
-- ![](/src/assets/images/Animation_Extruder.png) **Extruder**: can be used to demonstrate the functionality of a miller or a 3D printer.
-- ![](/src/assets/images/Animation_Viewpoint.png) **Viewpoint**:
-- ![](/src/assets/images/Animation_Manager.png) **Manager**:
-- ![](/src/assets/images/Animation_Bounder.png) **Bounder**: limits the values of the Placement to an intervall. It is the projection of a motion to a min/max limited space.
-- ![](/src/assets/images/Animation_Filler.png) **Filler**: can be used to fill the volume of a part from bottom to top like to fill a bottle with wine. It can work as running slice trough the part like a ct scan.
-- ![](/src/assets/images/Animation_Gearing.png) **Gearing**: animates the rotation of 2 or 3 gears or a star-planet-moon system.
-- ![](/src/assets/images/Animation_Kartan.png) **Kartan**: animates a Kardan joint.
-- ![](/src/assets/images/Animation_Scaler.png) **Scaler**:
-- ![](/src/assets/images/Animation_Placer.png) **Placer**:
-- ![](/src/assets/images/Animation_Diagram.png) **Diagram**:
-- ![](/src/assets/images/Animation_Collision.png) **Collision**:
-- ![](/src/assets/images/Animation_Combiner.png) **Combiner**:
-- ![](/src/assets/images/Animation_AnimationControlPanel.png) **AnimationControlPanel**:
-- ![](/src/assets/images/Animation_Pather.png) **Pather**:
-- ![](/src/assets/images/Animation_Snapshot.png) **Snapshot**:
-- ![](/src/assets/images/Animation_ViewSequence.png) **ViewSequence**:
-- ![](/src/assets/images/Animation_Speeder.png) **Speeder**:
-- ![](/src/assets/images/Animation_Toucher.png) **Toucher**:
-- ![](/src/assets/images/Animation_Tracker.png) **Tracker**:
-- ![](/src/assets/images/Animation_Trackreader.png) **Trackreader**:
-- ![](/src/assets/images/Animation_Abroller.png) **Abroller**:
-- ![](/src/assets/images/Animation_Delta.png) **Delta**:
-- ![](/src/assets/images/Animation_Sum.png) **Sum**:
-- ![](/src/assets/images/Animation_Assembly2Controller.png) **Assembly2Controller**:
-- ![](/src/assets/images/Animation_Connector.png) **Connector**:
+- ![](/images/Animation_Mover.png) **Mover**: moves objects during a time intervall along the motion Vector.
+- ![](/images/Animation_Rotator.png) **Rotator**: rotates objects during a time intervall. Further parameters are Rotation Axis/Direction, Center of Rotation and Angle.
+- ![](/images/Animation_Tranquillizer.png) **Tranquillizer**: slows the render process if the animation runs to fast.
+- ![](/images/Animation_Photographer.png) **Photographer**: creates a picture of a given format and size to a render directory for every time step.
+- ![](/images/Animation_Plugger.png) **Plugger**: connects a newly created object to an already animated shuttle object or to a vertex of an animated sketch to enable using sketcher to calculate complex transformations with some constraints by means of the shuttle object.
+- ![](/images/Animation_Adjuster.png) **Adjuster**: enables to calculate a value by a basic linear function. Now sketches can become animated by changing values in constraints.
+- ![](/images/Animation_Styler.png) **Styler**: controls the Gui-object. Visibility, Transparency and Shape Color can be changed on the fly.
+- ![](/images/Animation_Billboard.png) **Billboard**: Billboard and Moviescreen are features to display extra information like texts or images during the animation.
+- ![](/images/Animation_Moviescreen.png) **Moviescreen**: Billboard and Moviescreen are features to display extra information like texts or images during the animation.
+- ![](/images/Animation_Extruder.png) **Extruder**: can be used to demonstrate the functionality of a miller or a 3D printer.
+- ![](/images/Animation_Viewpoint.png) **Viewpoint**:
+- ![](/images/Animation_Manager.png) **Manager**:
+- ![](/images/Animation_Bounder.png) **Bounder**: limits the values of the Placement to an intervall. It is the projection of a motion to a min/max limited space.
+- ![](/images/Animation_Filler.png) **Filler**: can be used to fill the volume of a part from bottom to top like to fill a bottle with wine. It can work as running slice trough the part like a ct scan.
+- ![](/images/Animation_Gearing.png) **Gearing**: animates the rotation of 2 or 3 gears or a star-planet-moon system.
+- ![](/images/Animation_Kartan.png) **Kartan**: animates a Kardan joint.
+- ![](/images/Animation_Scaler.png) **Scaler**:
+- ![](/images/Animation_Placer.png) **Placer**:
+- ![](/images/Animation_Diagram.png) **Diagram**:
+- ![](/images/Animation_Collision.png) **Collision**:
+- ![](/images/Animation_Combiner.png) **Combiner**:
+- ![](/images/Animation_AnimationControlPanel.png) **AnimationControlPanel**:
+- ![](/images/Animation_Pather.png) **Pather**:
+- ![](/images/Animation_Snapshot.png) **Snapshot**:
+- ![](/images/Animation_ViewSequence.png) **ViewSequence**:
+- ![](/images/Animation_Speeder.png) **Speeder**:
+- ![](/images/Animation_Toucher.png) **Toucher**:
+- ![](/images/Animation_Tracker.png) **Tracker**:
+- ![](/images/Animation_Trackreader.png) **Trackreader**:
+- ![](/images/Animation_Abroller.png) **Abroller**:
+- ![](/images/Animation_Delta.png) **Delta**:
+- ![](/images/Animation_Sum.png) **Sum**:
+- ![](/images/Animation_Assembly2Controller.png) **Assembly2Controller**:
+- ![](/images/Animation_Connector.png) **Connector**:
 
 Other
 
-- ![](/src/assets/images/Animation_Animation.png) **Animation**:
-- ![](/src/assets/images/Animation_CaseAction.png) **Case action**:
-- ![](/src/assets/images/Animation_FalseAction.png) **False action**:
-- ![](/src/assets/images/Animation_FollowMe.png) **Follow me**:
-- ![](/src/assets/images/Animation_LoopAction.png) **Loop action**:
-- ![](/src/assets/images/Animation_QueryAction.png) **Query action**:
-- ![](/src/assets/images/Animation_RepeatAction.png) **Repeat action**:
-- ![](/src/assets/images/Animation_ScriptAction.png) **Script action**:
-- ![](/src/assets/images/Animation_TrueAction.png) **True action**:
-- ![](/src/assets/images/Animation_WhileAction.png) **While action**:
-- ![](/src/assets/images/Animation_Reset.png) **Reset**:
-- ![](/src/assets/images/Animation_Icon1.png) **Icon1**:
-- ![](/src/assets/images/Animation_Icon2.png) **Icon2**:
-- ![](/src/assets/images/Animation_Icon3.png) **Icon3**:
+- ![](/images/Animation_Animation.png) **Animation**:
+- ![](/images/Animation_CaseAction.png) **Case action**:
+- ![](/images/Animation_FalseAction.png) **False action**:
+- ![](/images/Animation_FollowMe.png) **Follow me**:
+- ![](/images/Animation_LoopAction.png) **Loop action**:
+- ![](/images/Animation_QueryAction.png) **Query action**:
+- ![](/images/Animation_RepeatAction.png) **Repeat action**:
+- ![](/images/Animation_ScriptAction.png) **Script action**:
+- ![](/images/Animation_TrueAction.png) **True action**:
+- ![](/images/Animation_WhileAction.png) **While action**:
+- ![](/images/Animation_Reset.png) **Reset**:
+- ![](/images/Animation_Icon1.png) **Icon1**:
+- ![](/images/Animation_Icon2.png) **Icon2**:
+- ![](/images/Animation_Icon3.png) **Icon3**:
 
 ## Links to Animation WB
 

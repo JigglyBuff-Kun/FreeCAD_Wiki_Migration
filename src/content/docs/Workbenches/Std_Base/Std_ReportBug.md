@@ -25,6 +25,6 @@ Currently the command points to <https://github.com/FreeCAD/FreeCAD/issues>.
 
 ## Usage
 
-1. Select the **Help → ![](/src/assets/images/Std_ReportBug.svg) Report an issue** option from the menu.
+1. Select the **Help → ![](/images/Std_ReportBug.svg) Report an issue** option from the menu.
 
 Retrieved from "<http://wiki.freecad.org/index.php?title=Std_ReportBug/en&oldid=1530101>"

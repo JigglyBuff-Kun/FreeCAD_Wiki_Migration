@@ -27,8 +27,8 @@ Siehe [TechDraw Längenmaß](/TechDraw_LengthDimension/de#Begrenzungen "TechDraw
 
 1. Das Maß, das korrigiert werden soll, auswählen und wahlweise die neuen Geometriereferenzen wie Punkte oder Kanten in der TechDraw-Ansicht oder in der [3D-Ansicht](/3D_view/de "3D view/de") auswählen.
 2. Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
-   - Die Schaltfläche ![](/src/assets/images/TechDraw_DimensionRepair.svg) Maßreferenzen reparieren drücken.
-   - Den Menüeintrag **TechDraw → Maßeinträge → ![](/src/assets/images/TechDraw_DimensionRepair.svg) Maßreferenzen reparieren** auswählen.
+   - Die Schaltfläche ![](/images/TechDraw_DimensionRepair.svg) Maßreferenzen reparieren drücken.
+   - Den Menüeintrag **TechDraw → Maßeinträge → ![](/images/TechDraw_DimensionRepair.svg) Maßreferenzen reparieren** auswählen.
 3. Der Aufgabenbereich **Maß Reparieren** wird geöffnet und zeigt das ausgewählte Maß und die aktuellen Maßreferenzen an.
 4. Wenn noch nicht erfolgt, neue Geometriereferenzen auswählen.
 5. Die Schaltfläche Referenzen durch aktuelle Auswahl ersetzen drücken.

@@ -23,7 +23,7 @@ Der **Std AnsichtIvStereoVierfachPuffer** Befehl ändert den aktiven [3D Ansicht
 
 ## Anwendung
 
-1. Wähle die **Ansicht → Stereo → ![](/src/assets/images/Std_ViewIvStereoQuadBuff.svg) Stereo Vierfach Puffer** Option aus dem Menü.
+1. Wähle die **Ansicht → Stereo → ![](/images/Std_ViewIvStereoQuadBuff.svg) Stereo Vierfach Puffer** Option aus dem Menü.
 
 ## Einstellungen
 

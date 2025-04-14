@@ -25,10 +25,10 @@ Der Befehl **Std AnsichtAuswahlEinpassen** zoomt und schwenkt die Kamera, so das
 
 1. Ein oder mehrere Objekte auswählen.
 2. Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
-   - Die Schaltfläche ![](/src/assets/images/Std_ViewFitSelection.svg) Auswahl einpassen drücken.
-   - Den Menüeintrag **Ansicht → Standardansichten → ![](/src/assets/images/Std_ViewFitSelection.png) Auswahl einpassen** auswählen.
-   - Die Menüoption **![](/src/assets/images/Std_ViewFitSelection.svg) Auswahl einpassen** im Kontextmenü der [3D-Ansicht](/3D_view/de "3D view/de") auswählen.
-   - Die Menüoption **![](/src/assets/images/Std_ViewFitSelection.svg) Auswahl einpassen** im Miniwürfel-Menü des [Navigationswürfels](/Navigation_Cube/de "Navigation Cube/de") auswählen.
+   - Die Schaltfläche ![](/images/Std_ViewFitSelection.svg) Auswahl einpassen drücken.
+   - Den Menüeintrag **Ansicht → Standardansichten → ![](/images/Std_ViewFitSelection.png) Auswahl einpassen** auswählen.
+   - Die Menüoption **![](/images/Std_ViewFitSelection.svg) Auswahl einpassen** im Kontextmenü der [3D-Ansicht](/3D_view/de "3D view/de") auswählen.
+   - Die Menüoption **![](/images/Std_ViewFitSelection.svg) Auswahl einpassen** im Miniwürfel-Menü des [Navigationswürfels](/Navigation_Cube/de "Navigation Cube/de") auswählen.
    - Das Tastaturkürzel V, dann S.
 
 ## Skripten

@@ -25,6 +25,6 @@ Aktuell verweist dieser Befehl auf die Seite <https://wiki.freecad.org/Frequentl
 
 ## Anwendung
 
-1. Auswahl des Menüeintrags **Hilfe → ![](/src/assets/images/Std_FreeCADFAQ.svg) FreeCAD FAQ**.
+1. Auswahl des Menüeintrags **Hilfe → ![](/images/Std_FreeCADFAQ.svg) FreeCAD FAQ**.
 
 Retrieved from "<http://wiki.freecad.org/index.php?title=Std_FreeCADFAQ/de&oldid=1454772>"

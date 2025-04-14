@@ -23,17 +23,17 @@ This documentation is not finished. Please help and contribute documentation.Gui
 
 ## Description
 
-The ![](/src/assets/images/Assembly_AxialMove.svg) [Axial move](/Assembly3_AxialMove "Assembly3 AxialMove") command provides a tool to move a part within an assembly context.  
+The ![](/images/Assembly_AxialMove.svg) [Axial move](/Assembly3_AxialMove "Assembly3 AxialMove") command provides a tool to move a part within an assembly context.  
  It consists of 3 arcs with spherical handles to rotate the part and 3 arrow handles to move the part without rotation which represent the selected object's implicit coordinate system (ICS).
 
-![](/src/assets/images/Assembly3_AxialMove.png)
+![](/images/Assembly3_AxialMove.png)
 
 ## Usage
 
 1. Select either a face, an edge, or a vertex of the 3D part or the whole part in the assembly tree.
-2. Activate the ![](/src/assets/images/Assembly_AxialMove.svg) **Axial move** command using one of the following:
-   - The ![](/src/assets/images/Assembly_AxialMove.svg) [Axial move part](/Assembly3_AxialMove "Assembly3 AxialMove") button.
-   - The **Assembly3 → ![](/src/assets/images/Assembly_AxialMove.svg) Axial move part** menu option.
+2. Activate the ![](/images/Assembly_AxialMove.svg) **Axial move** command using one of the following:
+   - The ![](/images/Assembly_AxialMove.svg) [Axial move part](/Assembly3_AxialMove "Assembly3 AxialMove") button.
+   - The **Assembly3 → ![](/images/Assembly_AxialMove.svg) Axial move part** menu option.
    - The keyboard shortcut: A then A.
 3. Drag the handles to reposition the part.
 4. To fix the position and leave the tool use one of the following:

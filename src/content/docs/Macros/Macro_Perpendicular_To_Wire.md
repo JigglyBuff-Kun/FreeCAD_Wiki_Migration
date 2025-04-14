@@ -32,14 +32,14 @@ This macro positions an object perpendicularly to the selected wire.
 
 ## Usage
 
-1. Install the macro via the ![](/src/assets/images/Std_AddonMgr.svg) [Addon Manager](/Std_AddonMgr "Std AddonMgr")
+1. Install the macro via the ![](/images/Std_AddonMgr.svg) [Addon Manager](/Std_AddonMgr "Std AddonMgr")
 2. Select the path (may be an element or sub-element)
 3. Select the object to align
 4. Execute the macro
 
 ## Script
 
-The macro toolbar icon: ![](/src/assets/images/Macro_Perpendicular_To_Wire.png)
+The macro toolbar icon: ![](/images/Macro_Perpendicular_To_Wire.png)
 
 **Macro Perpendicular To Wire.FCMacro**
 
@@ -93,7 +93,7 @@ v=pointsDirection[0].sub(pointsDirection[1])          # perpendicular of first >
 
 ```
 
-: ![](/src/assets/images/Macro_Perpendicular_To_Wire_01.png)
+: ![](/images/Macro_Perpendicular_To_Wire_01.png)
 
 2:
 
@@ -103,7 +103,7 @@ pl.Base = pointsDirection[-1]                        # position base last point
 
 ```
 
-: ![](/src/assets/images/Macro_Perpendicular_To_Wire_02.png)
+: ![](/images/Macro_Perpendicular_To_Wire_02.png)
 
 3:
 
@@ -113,7 +113,7 @@ pl.Base = pointsDirection[100]                     # position base point 100
 
 ```
 
-: ![](/src/assets/images/Macro_Perpendicular_To_Wire_03.png)
+: ![](/images/Macro_Perpendicular_To_Wire_03.png)
 
 4:
 
@@ -123,7 +123,7 @@ pl.Base = pointsDirection[0]                          # position base first poin
 
 ```
 
-: ![](/src/assets/images/Macro_Perpendicular_To_Wire_04.png)
+: ![](/images/Macro_Perpendicular_To_Wire_04.png)
 
 Other parameters to `discretize()` are as follows:
 
@@ -144,9 +144,9 @@ Other parameters to `discretize()` are as follows:
 
 ## Example
 
-![](/src/assets/images/Macro_Perpendicular_To_Wire_05.gif)
+![](/images/Macro_Perpendicular_To_Wire_05.gif)
 
-![](/src/assets/images/Macro_Perpendicular_To_Wire.gif)
+![](/images/Macro_Perpendicular_To_Wire.gif)
 
 ## Discussions
 

@@ -19,13 +19,13 @@ title: Sketcher DeleteAllConstraints
 
 ## Description
 
-The ![](/src/assets/images/Sketcher_DeleteAllConstraints.svg) [Sketcher DeleteAllConstraints](/Sketcher_DeleteAllConstraints "Sketcher DeleteAllConstraints") tool deletes all constraints from the sketch.
+The ![](/images/Sketcher_DeleteAllConstraints.svg) [Sketcher DeleteAllConstraints](/Sketcher_DeleteAllConstraints "Sketcher DeleteAllConstraints") tool deletes all constraints from the sketch.
 
 ## Usage
 
 1. There are several ways to invoke the tool:
-   - Select the **Sketch → Sketcher tools → ![](/src/assets/images/Sketcher_DeleteAllConstraints.svg) Delete all constraints** option from the menu.
-   - [introduced in 1.0](/Release_notes_1.0 "Release notes 1.0"): Right-click in the [3D view](/3D_view "3D view") and select the **![](/src/assets/images/Sketcher_DeleteAllConstraints.svg) Delete all constraints** option from the context menu (not available if there is a selection).
+   - Select the **Sketch → Sketcher tools → ![](/images/Sketcher_DeleteAllConstraints.svg) Delete all constraints** option from the menu.
+   - [introduced in 1.0](/Release_notes_1.0 "Release notes 1.0"): Right-click in the [3D view](/3D_view "3D view") and select the **![](/images/Sketcher_DeleteAllConstraints.svg) Delete all constraints** option from the context menu (not available if there is a selection).
 2. The **Delete All Constraints** dialog opens.
 3. Press the Yes button to confirm and finish the tool.
 

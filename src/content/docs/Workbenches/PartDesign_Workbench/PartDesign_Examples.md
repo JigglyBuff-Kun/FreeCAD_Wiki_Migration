@@ -14,7 +14,7 @@ This is a collection of examples that can be achieved with certain tools. For de
 
 ## Pad
 
-![](/src/assets/images/PartDesign_Pad.svg) [PartDesign Pad](/PartDesign_Pad "PartDesign Pad") is a tool to create Pad objects, which are prismatic objects such as extrusion objects, cylinders, cones, cubes, wedges...
+![](/images/PartDesign_Pad.svg) [PartDesign Pad](/PartDesign_Pad "PartDesign Pad") is a tool to create Pad objects, which are prismatic objects such as extrusion objects, cylinders, cones, cubes, wedges...
 
 Each object is based on an outline (yellow), that defines the cross-section shape (preferably made with the [Sketcher Workbench](/Sketcher_Workbench "Sketcher Workbench")).
 
@@ -46,7 +46,7 @@ By default it is the normal direction of the plane containing the outline (sketc
 
 ## Additive Pipe
 
-![](/src/assets/images/PartDesign_AdditivePipe.svg) [PartDesign Additive pipe](/PartDesign_AdditivePipe "PartDesign AdditivePipe") is a tool to create AdditivePipe objects such as sweep objects, extrusion objects, rotation objects, cylinders, cones, cubes, pyramids, spheres...
+![](/images/PartDesign_AdditivePipe.svg) [PartDesign Additive pipe](/PartDesign_AdditivePipe "PartDesign AdditivePipe") is a tool to create AdditivePipe objects such as sweep objects, extrusion objects, rotation objects, cylinders, cones, cubes, pyramids, spheres...
 
 Each object is based on at least two lines (preferably made with the [Sketcher Workbench](/Sketcher_Workbench "Sketcher Workbench")):
 

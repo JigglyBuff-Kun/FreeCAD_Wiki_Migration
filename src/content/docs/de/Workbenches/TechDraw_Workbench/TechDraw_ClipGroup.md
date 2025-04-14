@@ -21,7 +21,7 @@ title: TechDraw Ausschnittsgruppe
 
 Das Werkzeug **TechDraw Ausschnittsgruppe** erstellt ein Ausschnittfenster, das Ansichten enthalten kann.
 
-![](/src/assets/images/TechDraw_Clipview.png)
+![](/images/TechDraw_Clipview.png)
 
 Ausschnittfenster, das verschiedene vorhandene Ansichten beschneidet
 
@@ -29,8 +29,8 @@ Ausschnittfenster, das verschiedene vorhandene Ansichten beschneidet
 
 1. # Wenn mehrere Zeichnungsblätter im Dokument vorhanden sind: Wahlweise das gewünschte Zeichnungsblatt durch Auswahl in der [Baumansicht](/Tree_view/de "Tree view/de") aktivieren.
 2. Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
-   - Die Schaltfläche ![](/src/assets/images/TechDraw_ClipGroup.svg) Ausschnittsgruppe einfügen drücken.
-   - Den Menüeintrag **TechDraw → TechDraw Ausschnittsgruppe → ![](/src/assets/images/TechDraw_ClipGroup.svg) Ausschnittsgruppe einfügen** auswählen.
+   - Die Schaltfläche ![](/images/TechDraw_ClipGroup.svg) Ausschnittsgruppe einfügen drücken.
+   - Den Menüeintrag **TechDraw → TechDraw Ausschnittsgruppe → ![](/images/TechDraw_ClipGroup.svg) Ausschnittsgruppe einfügen** auswählen.
 3. Wenn mehrere Zeichnungsblätter im Dokument vorhanden sind und noch kein Blatt aktiviert wurde, wird das Dialogfeld **Blattauswahl** geöffnet:
    1. Das gewünschte Blatt auswählen.
    2. Die Schaltfläche OK drücken.

@@ -2,7 +2,7 @@
 title: Pyramids and polyhedrons Workbench
 ---
 
-![](/src/assets/images/Pyramids-and-Polyhedrons_workbench_icon.svg)
+![](/images/Pyramids-and-Polyhedrons_workbench_icon.svg)
 
 The Pyramids-and-Polyhedrons Workbench Icon
 
@@ -16,15 +16,15 @@ This workbench creates:
 
 Parameters like radius and side, ...can be adjusted just like with normal parts.
 
-![](/src/assets/images/Pyramids-and-Polyhedrons_workbench.png)
+![](/images/Pyramids-and-Polyhedrons_workbench.png)
 
-![](/src/assets/images/Polyhedrons.png)
+![](/images/Polyhedrons.png)
 
 ## Installation
 
 **Install via the Addon manager**
 
-To install the Addon use the ![](/src/assets/images/Std_AddonMgr.svg) [Addon manager](/Std_AddonMgr "Std AddonMgr") to seamlessly download the Pyramids and Polygons Workbench.
+To install the Addon use the ![](/images/Std_AddonMgr.svg) [Addon manager](/Std_AddonMgr "Std AddonMgr") to seamlessly download the Pyramids and Polygons Workbench.
 
 **Manual install**
 

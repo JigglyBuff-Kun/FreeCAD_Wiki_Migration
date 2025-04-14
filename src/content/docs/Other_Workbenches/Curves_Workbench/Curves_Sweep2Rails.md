@@ -23,13 +23,13 @@ This documentation is not finished. Please help and contribute documentation.Gui
 
 ## Description
 
-The ![](/src/assets/images/Curves_Sweep2Rails.svg) **Curves Sweep2Rails** tool does...
+The ![](/images/Curves_Sweep2Rails.svg) **Curves Sweep2Rails** tool does...
 
 ## Usage
 
 1. There are several ways to invoke the tool:
-   - Press the ![](/src/assets/images/Curves_Sweep2Rails.svg) [Sweep2Rails](/Curves_Sweep2Rails "Curves Sweep2Rails") button.
-   - Select the **Surfaces → ![](/src/assets/images/Curves_Sweep2Rails.svg) Sweep2Rails** option from the menu.
+   - Press the ![](/images/Curves_Sweep2Rails.svg) [Sweep2Rails](/Curves_Sweep2Rails "Curves Sweep2Rails") button.
+   - Select the **Surfaces → ![](/images/Curves_Sweep2Rails.svg) Sweep2Rails** option from the menu.
 2. A Sweep_2_rails object is created.
 
 Retrieved from "<http://wiki.freecad.org/index.php?title=Curves_Sweep2Rails/en&oldid=1562440>"

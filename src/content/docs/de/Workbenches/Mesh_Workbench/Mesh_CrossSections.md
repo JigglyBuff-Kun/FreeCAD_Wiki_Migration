@@ -25,8 +25,8 @@ Der Befehl **Mesh Schnittkonturen** erstellt mehrere Schnittkonturen auf Netzobj
 
 1. Ein oder mehrere Netzobjekte auswählen.
 2. Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
-   - Die Schaltfläche ![](/src/assets/images/Mesh_CrossSections.svg) Schnitte... drücken.
-   - Den Menüeintrag **Vetze → Schneiden → ![](/src/assets/images/Mesh_CrossSections.svg) Schnitte...** auswählen.
+   - Die Schaltfläche ![](/images/Mesh_CrossSections.svg) Schnitte... drücken.
+   - Den Menüeintrag **Vetze → Schneiden → ![](/images/Mesh_CrossSections.svg) Schnitte...** auswählen.
 3. Der Aufgaben-Bereich **Schnitte** twird geöffnet.
 4. Die Ebenen, die verwendet werden, um die Schnittkonturen zu erstellen, werden in der [3D-Ansicht](/3D_view/de "3D view/de") ausgewählt; sie werden entsprechend der Eingaben im Aufgaben-Bereich aktualisiert.
 5. Die **Führungsebene** (Bezugsebene) auswählen:

@@ -24,8 +24,8 @@ Der Befehl **Std Speichern** speichert das aktive Dokument.
 ## Anwendung
 
 1. Es gibt mehrere Möglichkeiten das Werkzeug aufzurufen:
-   - Die Schaltfläche ![](/src/assets/images/Std_Save.svg) Speichern drücken.
-   - Den Menüeintrag **Datei → ![](/src/assets/images/Std_Save.svg) Speichern** auswählen.
+   - Die Schaltfläche ![](/images/Std_Save.svg) Speichern drücken.
+   - Den Menüeintrag **Datei → ![](/images/Std_Save.svg) Speichern** auswählen.
    - Das Tastaturkürzel Ctrl+S.
 2. Für neue Dokumente: Einen Dateinamen im Dialogfeld eintragen und die Schaltfläche Speichern drücken.
 

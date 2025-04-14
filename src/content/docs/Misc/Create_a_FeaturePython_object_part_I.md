@@ -140,13 +140,13 @@ mybox = box.create('my_box')
 
 ```
 
-![](/src/assets/images/Fpo_treeview.png)
+![](/images/Fpo_treeview.png)
 
 You should see a new object appear in the [Tree view](/Tree_view "Tree view") labelled "my_box".
 
 Note that the icon is gray. FreeCAD is telling us that the object is not able to display anything in the [3D view](/3D_view "3D view"). Click on the object and look at its properties in the [Property editor](/Property_editor "Property editor"). There is not much there, just the name of the object.
 
-Also note that there is a small blue check mark next to the FeaturePython object in the Tree view. That is because when an object is created or changed it is "touched" and needs to be recomputed. Pressing the ![](/src/assets/images/Std_Refresh.svg) [Std Refresh](/Std_Refresh "Std Refresh") button will accomplish this. We will add some code to automate this later.
+Also note that there is a small blue check mark next to the FeaturePython object in the Tree view. That is because when an object is created or changed it is "touched" and needs to be recomputed. Pressing the ![](/images/Std_Refresh.svg) [Std Refresh](/Std_Refresh "Std Refresh") button will accomplish this. We will add some code to automate this later.
 
 Let's look at our object's attributes:
 
@@ -270,7 +270,7 @@ App.ActiveDocument.recompute()
 
 **Be careful where you recompute a FeaturePython object. Recomputing should be handled by a method external to its class.**
 
-![](/src/assets/images/Fpo_box_properties.png)
+![](/images/Fpo_box_properties.png)
 
 Now, test your changes as follows:
 

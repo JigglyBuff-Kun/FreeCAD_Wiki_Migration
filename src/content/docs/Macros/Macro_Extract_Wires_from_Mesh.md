@@ -33,7 +33,7 @@ Finds boundary wires in selected mesh objects. Boundary wires are formed from al
 ## Script
 
 ToolBar Icon
-![](/src/assets/images/Macro_Extract_Wires_from_Mesh.png)
+![](/images/Macro_Extract_Wires_from_Mesh.png)
 
 **Macro_Extract_Wires_from_Mesh.FCMacro**
 

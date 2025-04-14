@@ -21,7 +21,7 @@ title: TechDraw DetailView
 
 The **TechDraw DetailView** tool creates a view of a small area of an existing view.
 
-![](/src/assets/images/ViewDetail.png)
+![](/images/ViewDetail.png)
 
 Detail view with a circular outline
 
@@ -29,8 +29,8 @@ Detail view with a circular outline
 
 1. Select a base view for the detail view.
 2. There are several ways to invoke the tool:
-   - Press the ![](/src/assets/images/TechDraw_DetailView.svg) [Insert Detail View](/TechDraw_DetailView "TechDraw DetailView") button.
-   - Select the **TechDraw → TechDraw Views → ![](/src/assets/images/TechDraw_DetailView.svg) Insert Detail View** option from the menu.
+   - Press the ![](/images/TechDraw_DetailView.svg) [Insert Detail View](/TechDraw_DetailView "TechDraw DetailView") button.
+   - Select the **TechDraw → TechDraw Views → ![](/images/TechDraw_DetailView.svg) Insert Detail View** option from the menu.
 3. A highlight outline is added to the base view, a detail view is added to the page, and a task panel opens.
 4. For clarity it is best to move the detail view so that it no longer overlaps the base view: hold down the left mouse button on its frame or label and drag it to a new position.
 5. To change the position of the highlight outline do one of the following:

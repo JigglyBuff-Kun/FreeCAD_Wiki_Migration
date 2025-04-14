@@ -19,13 +19,13 @@ title: Cables CableConnector
 
 ## Description
 
-The ![](/src/assets/images/Cables_CableConnector.svg) [Cable Connector](/Cables_CableConnector "Cables CableConnector") creates a parametric connector object. The connector is a model of electrically conductive metal block (for simplicity without external insulation). From an electrical point of view, all wires connected to a connector form one electrical node. The connector has default size upon creation, but some parameters, like **Height**, **Hole**, **Hole Diameter** or **Number of Holes** can be changed later. The **Cable Connector** belongs to the [Arch Component](/Arch_Component "Arch Component") class and inherits all of its properties. The **Cable Connector** has a parametrically defined number of holes equipped with support points. Each hole has two support points (one point on each side of the hole) which can be used as attachment supports for wires passing through the hole.
+The ![](/images/Cables_CableConnector.svg) [Cable Connector](/Cables_CableConnector "Cables CableConnector") creates a parametric connector object. The connector is a model of electrically conductive metal block (for simplicity without external insulation). From an electrical point of view, all wires connected to a connector form one electrical node. The connector has default size upon creation, but some parameters, like **Height**, **Hole**, **Hole Diameter** or **Number of Holes** can be changed later. The **Cable Connector** belongs to the [Arch Component](/Arch_Component "Arch Component") class and inherits all of its properties. The **Cable Connector** has a parametrically defined number of holes equipped with support points. Each hole has two support points (one point on each side of the hole) which can be used as attachment supports for wires passing through the hole.
 
 The support points are barely visible by default, but this can be changed by increasing the **Point Size** view property.
 
 **Cable Connector** object can be colored by attaching desired [Material](/Arch_SetMaterial "Arch SetMaterial") to the **Material** property.
 
-![](/src/assets/images/Cables_CableConnector_Example1.png)
+![](/images/Cables_CableConnector_Example1.png)
 
 Example of the default Cable Connector:  
 There are support points above and below holes.
@@ -34,9 +34,9 @@ There are support points above and below holes.
 
 1. Select the vertex, point on surface or object in the [3D view](/3D_view "3D view") or select nothing.
 2. Create Cable Connector by one of these methods:
-   - Press the ![](/src/assets/images/Cables_CableConnector.svg) [Cable Connector](/Cables_CableConnector "Cables CableConnector") button.
-   - Select the **Cables → ![](/src/assets/images/Cables_CableConnector.svg) Cable Connector** option from the menu.
-   - Right-click in the [Tree view](/Tree_view "Tree view") or the [3D view](/3D_view "3D view") and select the **Cables → ![](/src/assets/images/Cables_CableConnector.svg) Cable Connector** option from the context menu.
+   - Press the ![](/images/Cables_CableConnector.svg) [Cable Connector](/Cables_CableConnector "Cables CableConnector") button.
+   - Select the **Cables → ![](/images/Cables_CableConnector.svg) Cable Connector** option from the menu.
+   - Right-click in the [Tree view](/Tree_view "Tree view") or the [3D view](/3D_view "3D view") and select the **Cables → ![](/images/Cables_CableConnector.svg) Cable Connector** option from the context menu.
 
 Once created the Cable Connector is placed at the position of selected vertex, point or object in the 3D space (or at the point (0,0,0) if nothing was selected).
 
@@ -72,7 +72,7 @@ This workflow shows how to build a connector, a cable box, a cable and how one s
 9. When the desired shape of the subwire has been built, the **Sub Wires Fillet Radius** property of a **Cable** can be set e.g. to 4mm.
 10. Unhide **Cable** and **Cable Box** shapes in a [Tree view](/Tree_view "Tree view") e.g. by pressing SPACE key.
 
-![](/src/assets/images/Cables_CableConnector_Example2_static.png)
+![](/images/Cables_CableConnector_Example2_static.png)
 
 Example of cable subwire passed through the hole of Cable Connector.
 

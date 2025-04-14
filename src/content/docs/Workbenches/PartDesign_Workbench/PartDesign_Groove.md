@@ -21,14 +21,14 @@ title: PartDesign Groove
 
 The **Groove** tool revolves a selected sketch or profile about a given axis, cutting out material from the support .
 
-![](/src/assets/images/PartDesign_Groove_example.svg)
+![](/images/PartDesign_Groove_example.svg)
 
 Above: sketch (A) is revolved around axis (B); resulting groove on solid (C) is shown right.
 
 ## Usage
 
 1. Select a single sketch or one or more faces from the Body.
-2. Press the ![](/src/assets/images/PartDesign_Groove.svg) [Groove](/PartDesign_Groove "PartDesign Groove") button.
+2. Press the ![](/images/PartDesign_Groove.svg) [Groove](/PartDesign_Groove "PartDesign Groove") button.
 3. Set the Groove parameters, see [Options](#Options) below.
 4. Press the OK button.
 
@@ -36,7 +36,7 @@ Above: sketch (A) is revolved around axis (B); resulting groove on solid (C) is 
 
 When creating a groove, or after double-clicking an existing groove in the [Tree view](/Tree_view "Tree view"), the **Groove parameters** task panel is shown. It offers the following settings:
 
-![](/src/assets/images/Partdesign_groove_parameters.png)
+![](/images/Partdesign_groove_parameters.png)
 
 ### Type
 
@@ -121,7 +121,7 @@ Sketch Based
 
 ## Notes
 
-- A ![](/src/assets/images/PartDesign_ShapeBinder.svg) [ShapeBinder](/PartDesign_ShapeBinder "PartDesign ShapeBinder") cannot be used for the profile.
-- When using a ![](/src/assets/images/PartDesign_SubShapeBinder.svg) [SubShapeBinder](/PartDesign_SubShapeBinder "PartDesign SubShapeBinder") for the profile, selecting the binder in the [Tree view](/Tree_view "Tree view") will fail, instead the binder's face has to selected in the [3D view](/3D_view "3D view").
+- A ![](/images/PartDesign_ShapeBinder.svg) [ShapeBinder](/PartDesign_ShapeBinder "PartDesign ShapeBinder") cannot be used for the profile.
+- When using a ![](/images/PartDesign_SubShapeBinder.svg) [SubShapeBinder](/PartDesign_SubShapeBinder "PartDesign SubShapeBinder") for the profile, selecting the binder in the [Tree view](/Tree_view "Tree view") will fail, instead the binder's face has to selected in the [3D view](/3D_view "3D view").
 
 Retrieved from "<http://wiki.freecad.org/index.php?title=PartDesign_Groove/en&oldid=1402166>"

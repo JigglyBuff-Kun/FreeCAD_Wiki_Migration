@@ -21,7 +21,7 @@ title: TechDraw FormatierterBeschriftungstext
 
 Das Werkzeug **TechDraw FormatierterBeschriftungstext** fügt einer [Hinweislinie](/TechDraw_LeaderLine/de "TechDraw LeaderLine/de") oder einer Ansicht einen formatierten Beschriftungsblock hinzu .
 
-![](/src/assets/images/TechDraw_RichTextBlock_sample.png)
+![](/images/TechDraw_RichTextBlock_sample.png)
 
 Eigenständiger formatierter Beschriftungstext
 
@@ -30,14 +30,14 @@ Eigenständiger formatierter Beschriftungstext
 1. Wenn mehrere Zeichnungsblätter im Dokument vorhanden sind: Wahlweise das gewünschte Zeichnungsblatt durch Auswahl in der [Baumansicht](/Tree_view/de "Tree view/de") aktivieren.
 2. Um eine formatierte (Rich-Text-) Beschriftung an eine [Hinweislinie](/TechDraw_LeaderLine/de "TechDraw LeaderLine/de") anzuhängen, wird die Linie in der [Baumansicht](/Tree_view/de "Tree view/de") oder auf dem Zeichnungsblatt ausgewählt.
 3. Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
-   - Die Schaltfläche ![](/src/assets/images/TechDraw_RichTextAnnotation.svg) Formatierten Beschriftungstext einfügen drücken.
-   - Den Menüeintrag **TechDraw → Beschriftungen → ![](/src/assets/images/TechDraw_RichTextAnnotation.svg) Formatierten Beschriftungstext einfügen** auswählen.
+   - Die Schaltfläche ![](/images/TechDraw_RichTextAnnotation.svg) Formatierten Beschriftungstext einfügen drücken.
+   - Den Menüeintrag **TechDraw → Beschriftungen → ![](/images/TechDraw_RichTextAnnotation.svg) Formatierten Beschriftungstext einfügen** auswählen.
 4. Wenn mehrere Zeichnungsblätter im Dokument vorhanden sind und noch kein Blatt aktiviert wurde, wird das Dialogfeld **Blattauswahl** geöffnet:
    1. Das gewünschte Blatt auswählen.
    2. Die Schaltfläche OK drücken.
 5. Der Aufgaben-Bereich wird geöffnet und ermöglicht eine schnelle Eingabe von Text.
 6. Die Schaltfläche Rich-Text-Editor starten öffnet einen voll ausgestatteten Editor:
-   1. Ist die Texteingabe abgaschlossen, wird die Schaltfläche ![](/src/assets/images/Document-save.svg) gedrückt, um die Änderungen zu speichern und den Editor zu schließen.
+   1. Ist die Texteingabe abgaschlossen, wird die Schaltfläche ![](/images/Document-save.svg) gedrückt, um die Änderungen zu speichern und den Editor zu schließen.
 7. Die Schaltfläche OK drücken, um den Aufgaben-Bereich zu schließen.
 
 ## Hinweise

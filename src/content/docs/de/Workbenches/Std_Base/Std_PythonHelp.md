@@ -25,7 +25,7 @@ Der Webserver basiert auf dem Python Modul [pydoc](https://docs.python.org/3.8/l
 
 ## Anwendung
 
-1. Wähle die **Hilfe → ![](/src/assets/images/Std_PythonHelp.svg) Automatische Python Modul Dokumentation** aus dem Menü.
+1. Wähle die **Hilfe → ![](/images/Std_PythonHelp.svg) Automatische Python Modul Dokumentation** aus dem Menü.
 2. Klicke auf einen der Verweise, um die Dokumentation einer bestimmten Klasse oder Funktion aufzurufen.
 
 Retrieved from "<http://wiki.freecad.org/index.php?title=Std_PythonHelp/de&oldid=1457360>"

@@ -32,13 +32,13 @@ This will remove all parametric associativity from an object, leaving it as a "d
 
 Before and after:
 
-![](/src/assets/images/RPH_before.png)
+![](/images/RPH_before.png)
 
-![](/src/assets/images/RPH_after.png)
+![](/images/RPH_after.png)
 
 ## Script
 
-ToolBar Icon ![](/src/assets/images/Macro_Remove_parametric_history.png)
+ToolBar Icon ![](/images/Macro_Remove_parametric_history.png)
 
 **Remove parametric history.FCMacro**
 

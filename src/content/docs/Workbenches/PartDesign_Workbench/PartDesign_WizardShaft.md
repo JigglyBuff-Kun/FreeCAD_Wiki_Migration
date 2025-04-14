@@ -23,15 +23,15 @@ This tool allows you to create a shaft from a table of values, and to analyse fo
 
 ## Usage
 
-You can start the wizard from the Part Design menu **Part Design → ![](/src/assets/images/PartDesign_WizardShaft.svg) Shaft design wizard...**.
+You can start the wizard from the Part Design menu **Part Design → ![](/images/PartDesign_WizardShaft.svg) Shaft design wizard...**.
 
 The wizard will start and show a default table, the corresponding shaft part and force/moment graphs.
 
-![](/src/assets/images/WizardShaft_Part.jpg)
+![](/images/WizardShaft_Part.jpg)
 
 The top of the window is taken up by the table. It is organized into numbered columns which correspond to segments of the shaft. A shaft segment is characterized by having certain length and diameter. The main window shows two tabs. One is the shaft part itself (a revolution feature), shown in the image above. The second tab shows graphs of the shear forces and moments created by the loads defined in the table.
 
-![](/src/assets/images/Shaftwizard1.jpg)
+![](/images/Shaftwizard1.jpg)
 
 ## Prerequisites
 

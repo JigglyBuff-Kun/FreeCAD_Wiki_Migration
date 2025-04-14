@@ -21,17 +21,17 @@ title: Std ViewIsometric
 
 The **Std ViewIsometric** command realigns the camera in the active [3D view](/3D_view "3D view") to obtain an [isometric](https://en.wikipedia.org/wiki/Isometric_projection) view. For a truly isometric view the 3D view must be in [orthographic mode](/Std_OrthographicCamera "Std OrthographicCamera"), but the command also works if the view is in [perspective mode](/Std_PerspectiveCamera "Std PerspectiveCamera").
 
-![](/src/assets/images/Std_ViewIsometric_example.svg)
+![](/images/Std_ViewIsometric_example.svg)
 
 The [axis cross](/Std_AxisCross "Std AxisCross") and a cube in isometric view
 
 ## Usage
 
 1. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/Std_ViewIsometric.svg) [Isometric](/Std_ViewIsometric "Std ViewIsometric") button.
-   - Select the **View → Standard views → Axonometric → ![](/src/assets/images/Std_ViewIsometric.svg) Isometric** option from the menu.
-   - Select the **Standard views → ![](/src/assets/images/Std_ViewIsometric.svg) Isometric** option from the [3D view](/3D_view "3D view") context menu.
-   - Select the **![](/src/assets/images/Std_ViewIsometric.svg) Isometric** option from the Mini-cube menu of the [Navigation Cube](/Navigation_Cube "Navigation Cube").
+   - Press the ![](/images/Std_ViewIsometric.svg) [Isometric](/Std_ViewIsometric "Std ViewIsometric") button.
+   - Select the **View → Standard views → Axonometric → ![](/images/Std_ViewIsometric.svg) Isometric** option from the menu.
+   - Select the **Standard views → ![](/images/Std_ViewIsometric.svg) Isometric** option from the [3D view](/3D_view "3D view") context menu.
+   - Select the **![](/images/Std_ViewIsometric.svg) Isometric** option from the Mini-cube menu of the [Navigation Cube](/Navigation_Cube "Navigation Cube").
    - Use the keyboard shortcut: 0.
 
 ## Scripting

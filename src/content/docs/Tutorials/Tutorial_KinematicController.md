@@ -177,7 +177,7 @@ Note: Collecting a `panel_list` allows us to launch all panels at once. (I canno
 
 Running the macro will display a clean empty dialog window waiting for widgets:
 
-![An empty dialog window](/src/assets/images/Tutorial_KinCon-01.png)
+![An empty dialog window](/images/Tutorial_KinCon-01.png)
 
 **And the macro so far...**
 
@@ -397,7 +397,7 @@ self.label_end = QLabel((str(round(self.end_value, 1)) + self.unit_suffix), self
 
 Running the macro with a kinematic assembly document would create a dialog window like this:
 
-![A dialog window displaying start value, current Value, and end value](/src/assets/images/Tutorial_KinCon-02.png)
+![A dialog window displaying start value, current Value, and end value](/images/Tutorial_KinCon-02.png)
 
 The dialog window displaying the constraint label and driver type in the title, and the start value, current value and end value on the first line in the main area
 
@@ -596,7 +596,7 @@ Running the command `"asm3CmdQuickSolve"` starts the solver to rearrange the ass
 
 The dialog window with the slider should look like this and is ready to control a motion:
 
-![Two dialog windows with a slider](/src/assets/images/Tutorial_KinCon-03.png)
+![Two dialog windows with a slider](/images/Tutorial_KinCon-03.png)
 
 Dialog windows with the added slider, one for an Angle driver and one for a Distance driver
 
@@ -659,7 +659,7 @@ Both convert the received string value to a floating point number and change eit
 
 The dialog window with text entry fields should look like this and is ready to change the range of a motion:
 
-![Two dialog windows with line edit fields](/src/assets/images/Tutorial_KinCon-04.png)
+![Two dialog windows with line edit fields](/images/Tutorial_KinCon-04.png)
 
 Dialog windows with line edit fields, again for an angle and a distance driver
 
@@ -936,7 +936,7 @@ With no steps left the slider is set to the first/last slider position, just in 
 
 The dialog window with buttons should look like this and can now move the assembly by 10 steps towards the wanted start/end position:
 
-![Dialog window with buttons](/src/assets/images/Tutorial_KinCon-05.png)
+![Dialog window with buttons](/images/Tutorial_KinCon-05.png)
 
 Dialog window with buttons
 
@@ -1199,7 +1199,7 @@ The related method `self.onEntrySteps()` just fills the parameter `self.step_val
 
 The dialog window able to change the number of steps should look like this:
 
-![Dialog window with another text entry field](/src/assets/images/Tutorial_KinCon-06.png)
+![Dialog window with another text entry field](/images/Tutorial_KinCon-06.png)
 
 Dialog window with another text entry field
 
@@ -1281,7 +1281,7 @@ Then follow file tag to finish the image name, image height and width, and how t
 
 To always have a 3 digit number leading zeros have to be prefixed to the counter parameter.
 
-Finally the scripted version of the command ![](/src/assets/images/Std_ViewScreenShot.svg) [Std ViewScreenShot](/Std_ViewScreenShot "Std ViewScreenShot") is used to take a picture based on the mentioned parameters.
+Finally the scripted version of the command ![](/images/Std_ViewScreenShot.svg) [Std ViewScreenShot](/Std_ViewScreenShot "Std ViewScreenShot") is used to take a picture based on the mentioned parameters.
 
 Still no pictures taken!?! No problem, as this method doesn't get called yet, and so we need to insert a call in the while loop of `onForward()` and `onBackward()`. Right after `time.sleep(0.2)` we insert this line:
 
@@ -1296,7 +1296,7 @@ Now the macro should be ready to control an assembly and to take pictures for an
 
 The final version of the dialog window:
 
-![Dialog window finished](/src/assets/images/Tutorial_KinCon-07.png)
+![Dialog window finished](/images/Tutorial_KinCon-07.png)
 
 Dialog windows finished
 

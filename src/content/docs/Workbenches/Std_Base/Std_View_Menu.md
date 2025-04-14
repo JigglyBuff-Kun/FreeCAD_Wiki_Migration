@@ -2,7 +2,7 @@
 title: Std View Menu
 ---
 
-![](/src/assets/images/Freecad.svg)
+![](/images/Freecad.svg)
 
 Std Base icon
 
@@ -30,32 +30,32 @@ The View menu provides tools to change the [3D view](/3D_view "3D view") and the
 
 The following tools are available in this menu:
 
-- ![](/src/assets/images/Std_ViewCreate.svg) [Create new view](/Std_ViewCreate "Std ViewCreate"): Creates a new 3D view.
+- ![](/images/Std_ViewCreate.svg) [Create new view](/Std_ViewCreate "Std ViewCreate"): Creates a new 3D view.
 
-- ![](/src/assets/images/Std_OrthographicCamera.svg) [Orthographic view](/Std_OrthographicCamera "Std OrthographicCamera"): Switches to orthographic view mode.
+- ![](/images/Std_OrthographicCamera.svg) [Orthographic view](/Std_OrthographicCamera "Std OrthographicCamera"): Switches to orthographic view mode.
 
-- ![](/src/assets/images/Std_PerspectiveCamera.svg) [Perspective view](/Std_PerspectiveCamera "Std PerspectiveCamera"): Switches to perspective view mode.
+- ![](/images/Std_PerspectiveCamera.svg) [Perspective view](/Std_PerspectiveCamera "Std PerspectiveCamera"): Switches to perspective view mode.
 
-- ![](/src/assets/images/Std_MainFullscreen.svg) [Fullscreen](/Std_MainFullscreen "Std MainFullscreen"): Toggles the main window's fullscreen mode.
+- ![](/images/Std_MainFullscreen.svg) [Fullscreen](/Std_MainFullscreen "Std MainFullscreen"): Toggles the main window's fullscreen mode.
 
 * Standard views
 
-  - ![](/src/assets/images/Std_ViewFitAll.svg) [Fit all](/Std_ViewFitAll "Std ViewFitAll"): Fits all visible objects inside the view.
-  - ![](/src/assets/images/Std_ViewFitSelection.svg) [Fit selection](/Std_ViewFitSelection "Std ViewFitSelection"): Fits selected objects inside the view.
-  - ![](/src/assets/images/Std_AlignToSelection.svg) [Align to selection](/Std_AlignToSelection "Std AlignToSelection"): Aligns the view with the selection. [introduced in 1.0](/Release_notes_1.0 "Release notes 1.0")
+  - ![](/images/Std_ViewFitAll.svg) [Fit all](/Std_ViewFitAll "Std ViewFitAll"): Fits all visible objects inside the view.
+  - ![](/images/Std_ViewFitSelection.svg) [Fit selection](/Std_ViewFitSelection "Std ViewFitSelection"): Fits selected objects inside the view.
+  - ![](/images/Std_AlignToSelection.svg) [Align to selection](/Std_AlignToSelection "Std AlignToSelection"): Aligns the view with the selection. [introduced in 1.0](/Release_notes_1.0 "Release notes 1.0")
   - Axonometric
-    - ![](/src/assets/images/Std_ViewIsometric.svg) [Isometric](/Std_ViewIsometric "Std ViewIsometric"): Switches to an isometric view.
-    - ![](/src/assets/images/Std_ViewDimetric.svg) [Dimetric](/Std_ViewDimetric "Std ViewDimetric"): Switches to a dimetric view.
-    - ![](/src/assets/images/Std_ViewTrimetric.svg) [Trimetric](/Std_ViewTrimetric "Std ViewTrimetric"): Switches to a trimetric view.
-  - ![](/src/assets/images/Std_ViewHome.svg) [Home](/Std_ViewHome "Std ViewHome"): Switches to the default home view.
-  - ![](/src/assets/images/Std_ViewFront.svg) [Front](/Std_ViewFront "Std ViewFront"): Switches to the front view.
-  - ![](/src/assets/images/Std_ViewTop.svg) [Top](/Std_ViewTop "Std ViewTop"): Switches to the top view.
-  - ![](/src/assets/images/Std_ViewRight.svg) [Right](/Std_ViewRight "Std ViewRight"): Switches to the right view.
-  - ![](/src/assets/images/Std_ViewRear.svg) [Rear](/Std_ViewRear "Std ViewRear"): Switches to the rear view.
-  - ![](/src/assets/images/Std_ViewBottom.svg) [Bottom](/Std_ViewBottom "Std ViewBottom"): Switches to the bottom view.
-  - ![](/src/assets/images/Std_ViewLeft.svg) [Left](/Std_ViewLeft "Std ViewLeft"): Switches to the left view.
-  - ![](/src/assets/images/Std_ViewRotateLeft.svg) [Rotate Left](/Std_ViewRotateLeft "Std ViewRotateLeft"): Rotates the view to the left.
-  - ![](/src/assets/images/Std_ViewRotateRight.svg) [Rotate Right](/Std_ViewRotateRight "Std ViewRotateRight"): Rotates the view to the right.
+    - ![](/images/Std_ViewIsometric.svg) [Isometric](/Std_ViewIsometric "Std ViewIsometric"): Switches to an isometric view.
+    - ![](/images/Std_ViewDimetric.svg) [Dimetric](/Std_ViewDimetric "Std ViewDimetric"): Switches to a dimetric view.
+    - ![](/images/Std_ViewTrimetric.svg) [Trimetric](/Std_ViewTrimetric "Std ViewTrimetric"): Switches to a trimetric view.
+  - ![](/images/Std_ViewHome.svg) [Home](/Std_ViewHome "Std ViewHome"): Switches to the default home view.
+  - ![](/images/Std_ViewFront.svg) [Front](/Std_ViewFront "Std ViewFront"): Switches to the front view.
+  - ![](/images/Std_ViewTop.svg) [Top](/Std_ViewTop "Std ViewTop"): Switches to the top view.
+  - ![](/images/Std_ViewRight.svg) [Right](/Std_ViewRight "Std ViewRight"): Switches to the right view.
+  - ![](/images/Std_ViewRear.svg) [Rear](/Std_ViewRear "Std ViewRear"): Switches to the rear view.
+  - ![](/images/Std_ViewBottom.svg) [Bottom](/Std_ViewBottom "Std ViewBottom"): Switches to the bottom view.
+  - ![](/images/Std_ViewLeft.svg) [Left](/Std_ViewLeft "Std ViewLeft"): Switches to the left view.
+  - ![](/images/Std_ViewRotateLeft.svg) [Rotate Left](/Std_ViewRotateLeft "Std ViewRotateLeft"): Rotates the view to the left.
+  - ![](/images/Std_ViewRotateRight.svg) [Rotate Right](/Std_ViewRotateRight "Std ViewRotateRight"): Rotates the view to the right.
   - [Store working view](/Std_StoreWorkingView "Std StoreWorkingView"): Stores the camera settings of the active 3D view in its working view. [introduced in 0.21](/Release_notes_0.21 "Release notes 0.21")
   - [Recall working view](/Std_RecallWorkingView "Std RecallWorkingView"): Recalls the active 3D view's stored working view. [introduced in 0.21](/Release_notes_0.21 "Release notes 0.21")
 
@@ -67,65 +67,65 @@ The following tools are available in this menu:
   - [Clear views](/Std_FreezeViews#Clear_views "Std FreezeViews"): Deletes all frozen views.
 
 * [Draw style](/Std_DrawStyle "Std DrawStyle")
-  - ![](/src/assets/images/Std_DrawStyleAsIs.svg) [As is](/Std_DrawStyle#As_is "Std DrawStyle"): Switches the draw style to: As is.
-  - ![](/src/assets/images/Std_DrawStylePoints.svg) [Points](/Std_DrawStyle#Points "Std DrawStyle"): Switches the draw style to: Points.
-  - ![](/src/assets/images/Std_DrawStyleWireFrame.svg) [Wireframe](/Std_DrawStyle#Wireframe "Std DrawStyle"): Switches the draw style to: Wireframe.
-  - ![](/src/assets/images/Std_DrawStyleHiddenLine.svg) [Hidden line](/Std_DrawStyle#Hidden_line "Std DrawStyle"): Switches the draw style to: Hidden line.
-  - ![](/src/assets/images/Std_DrawStyleNoShading.svg) [No shading](/Std_DrawStyle#No_shading "Std DrawStyle"): Switches the draw style to: No shading.
-  - ![](/src/assets/images/Std_DrawStyleShaded.svg) [Shaded](/Std_DrawStyle#Shaded "Std DrawStyle"): Switches the draw style to: Shaded.
-  - ![](/src/assets/images/Std_DrawStyleFlatLines.svg) [Flat lines](/Std_DrawStyle#Flat_lines "Std DrawStyle"): Switches the draw style to: Flat lines.
+  - ![](/images/Std_DrawStyleAsIs.svg) [As is](/Std_DrawStyle#As_is "Std DrawStyle"): Switches the draw style to: As is.
+  - ![](/images/Std_DrawStylePoints.svg) [Points](/Std_DrawStyle#Points "Std DrawStyle"): Switches the draw style to: Points.
+  - ![](/images/Std_DrawStyleWireFrame.svg) [Wireframe](/Std_DrawStyle#Wireframe "Std DrawStyle"): Switches the draw style to: Wireframe.
+  - ![](/images/Std_DrawStyleHiddenLine.svg) [Hidden line](/Std_DrawStyle#Hidden_line "Std DrawStyle"): Switches the draw style to: Hidden line.
+  - ![](/images/Std_DrawStyleNoShading.svg) [No shading](/Std_DrawStyle#No_shading "Std DrawStyle"): Switches the draw style to: No shading.
+  - ![](/images/Std_DrawStyleShaded.svg) [Shaded](/Std_DrawStyle#Shaded "Std DrawStyle"): Switches the draw style to: Shaded.
+  - ![](/images/Std_DrawStyleFlatLines.svg) [Flat lines](/Std_DrawStyle#Flat_lines "Std DrawStyle"): Switches the draw style to: Flat lines.
 
-- ![](/src/assets/images/Std_SelBoundingBox.svg) [Bounding box](/Std_SelBoundingBox "Std SelBoundingBox"): Toggles the bounding box highlighting mode.
+- ![](/images/Std_SelBoundingBox.svg) [Bounding box](/Std_SelBoundingBox "Std SelBoundingBox"): Toggles the bounding box highlighting mode.
 
 * Stereo
 
-  - ![](/src/assets/images/Std_ViewIvStereoRedGreen.svg) [Stereo red/cyan](/Std_ViewIvStereoRedGreen "Std ViewIvStereoRedGreen"): Switches to red/cyan stereo view.
-  - ![](/src/assets/images/Std_ViewIvStereoQuadBuff.svg) [Stereo quad buffer](/Std_ViewIvStereoQuadBuff "Std ViewIvStereoQuadBuff"): Switches to quad buffer stereo view.
-  - ![](/src/assets/images/Std_ViewIvStereoInterleavedRows.svg) [Stereo Interleaved Rows](/Std_ViewIvStereoInterleavedRows "Std ViewIvStereoInterleavedRows"): Switches to interleaved rows stereo view.
-  - ![](/src/assets/images/Std_ViewIvStereoInterleavedColumns.svg) [Stereo Interleaved Columns](/Std_ViewIvStereoInterleavedColumns "Std ViewIvStereoInterleavedColumns"): Switches to interleaved columns stereo view.
-  - ![](/src/assets/images/Std_ViewIvStereoOff.svg) [Stereo Off](/Std_ViewIvStereoOff "Std ViewIvStereoOff"): Switches stereo view off.
-  - ![](/src/assets/images/Std_ViewIvIssueCamPos.svg) [Issue camera position](/Std_ViewIvIssueCamPos "Std ViewIvIssueCamPos"): Prints camera settings in the [Report view](/Report_view "Report view") and the [Python console](/Python_console "Python console").
+  - ![](/images/Std_ViewIvStereoRedGreen.svg) [Stereo red/cyan](/Std_ViewIvStereoRedGreen "Std ViewIvStereoRedGreen"): Switches to red/cyan stereo view.
+  - ![](/images/Std_ViewIvStereoQuadBuff.svg) [Stereo quad buffer](/Std_ViewIvStereoQuadBuff "Std ViewIvStereoQuadBuff"): Switches to quad buffer stereo view.
+  - ![](/images/Std_ViewIvStereoInterleavedRows.svg) [Stereo Interleaved Rows](/Std_ViewIvStereoInterleavedRows "Std ViewIvStereoInterleavedRows"): Switches to interleaved rows stereo view.
+  - ![](/images/Std_ViewIvStereoInterleavedColumns.svg) [Stereo Interleaved Columns](/Std_ViewIvStereoInterleavedColumns "Std ViewIvStereoInterleavedColumns"): Switches to interleaved columns stereo view.
+  - ![](/images/Std_ViewIvStereoOff.svg) [Stereo Off](/Std_ViewIvStereoOff "Std ViewIvStereoOff"): Switches stereo view off.
+  - ![](/images/Std_ViewIvIssueCamPos.svg) [Issue camera position](/Std_ViewIvIssueCamPos "Std ViewIvIssueCamPos"): Prints camera settings in the [Report view](/Report_view "Report view") and the [Python console](/Python_console "Python console").
 
 * Zoom
 
-  - ![](/src/assets/images/Std_ViewZoomIn.svg) [Zoom In](/Std_ViewZoomIn "Std ViewZoomIn"): Zooms the view in.
-  - ![](/src/assets/images/Std_ViewZoomOut.svg) [Zoom Out](/Std_ViewZoomOut "Std ViewZoomOut"): Zooms the view out.
-  - ![](/src/assets/images/Std_ViewBoxZoom.svg) [Box zoom](/Std_ViewBoxZoom "Std ViewBoxZoom"): Zooms the view in on a rectangular area.
+  - ![](/images/Std_ViewZoomIn.svg) [Zoom In](/Std_ViewZoomIn "Std ViewZoomIn"): Zooms the view in.
+  - ![](/images/Std_ViewZoomOut.svg) [Zoom Out](/Std_ViewZoomOut "Std ViewZoomOut"): Zooms the view out.
+  - ![](/images/Std_ViewBoxZoom.svg) [Box zoom](/Std_ViewBoxZoom "Std ViewBoxZoom"): Zooms the view in on a rectangular area.
 
 * Document window
   - [Docked](/Std_ViewDockUndockFullscreen#Docked "Std ViewDockUndockFullscreen"): Docks a 3D view.
   - [Undocked](/Std_ViewDockUndockFullscreen#Undocked "Std ViewDockUndockFullscreen"): Undocks a 3D view.
-  - ![](/src/assets/images/Std_ViewFullscreen.svg) [Fullscreen](/Std_ViewFullscreen "Std ViewFullscreen"): Toggles a 3D view's fullscreen mode.
+  - ![](/images/Std_ViewFullscreen.svg) [Fullscreen](/Std_ViewFullscreen "Std ViewFullscreen"): Toggles a 3D view's fullscreen mode.
 
-- ![](/src/assets/images/Std_AxisCross.svg) [Toggle axis cross](/Std_AxisCross "Std AxisCross"): Toggles the axis cross.
+- ![](/images/Std_AxisCross.svg) [Toggle axis cross](/Std_AxisCross "Std AxisCross"): Toggles the axis cross.
 
-- ![](/src/assets/images/Std_ToggleClipPlane.svg) [Clipping plane](/Std_ToggleClipPlane "Std ToggleClipPlane"): Temporarily clips objects.
+- ![](/images/Std_ToggleClipPlane.svg) [Clipping plane](/Std_ToggleClipPlane "Std ToggleClipPlane"): Temporarily clips objects.
 
-- ![](/src/assets/images/Part_SectionCut.svg) [Persistent section cut](/Part_SectionCut "Part SectionCut"): Creates persistent cuts of objects and assemblies. _-- Available if the [Part Workbench](/Part_Workbench "Part Workbench") or the [PartDesign Workbench](/PartDesign_Workbench "PartDesign Workbench") has been loaded._
+- ![](/images/Part_SectionCut.svg) [Persistent section cut](/Part_SectionCut "Part SectionCut"): Creates persistent cuts of objects and assemblies. _-- Available if the [Part Workbench](/Part_Workbench "Part Workbench") or the [PartDesign Workbench](/PartDesign_Workbench "PartDesign Workbench") has been loaded._
 
-- ![](/src/assets/images/Std_TextureMapping.svg) [Texture mapping...](/Std_TextureMapping "Std TextureMapping"): Temporarily maps a texture onto all objects.
+- ![](/images/Std_TextureMapping.svg) [Texture mapping...](/Std_TextureMapping "Std TextureMapping"): Temporarily maps a texture onto all objects.
 
 * Visibility
-  - ![](/src/assets/images/Std_ToggleVisibility.svg) [Toggle visibility](/Std_ToggleVisibility "Std ToggleVisibility"): Toggles the visibility of selected objects.
-  - ![](/src/assets/images/Std_ShowSelection.svg) [Show selection](/Std_ShowSelection "Std ShowSelection"): Shows selected objects.
-  - ![](/src/assets/images/Std_HideSelection.svg) [Hide selection](/Std_HideSelection "Std HideSelection"): Hides selected objects.
-  - ![](/src/assets/images/Std_SelectVisibleObjects.svg) [Select visible objects](/Std_SelectVisibleObjects "Std SelectVisibleObjects"): Selects all visible objects.
-  - ![](/src/assets/images/Std_ToggleObjects.svg) [Toggle all objects](/Std_ToggleObjects "Std ToggleObjects"): Toggles the visibility of all objects.
-  - ![](/src/assets/images/Std_ShowObjects.svg) [Show all objects](/Std_ShowObjects "Std ShowObjects"): Shows all objects.
-  - ![](/src/assets/images/Std_HideObjects.svg) [Hide all objects](/Std_HideObjects "Std HideObjects"): Hides all objects.
-  - ![](/src/assets/images/Std_ToggleSelectability.svg) [Toggle selectability](/Std_ToggleSelectability "Std ToggleSelectability"): Toggles the selectability of objects.
+  - ![](/images/Std_ToggleVisibility.svg) [Toggle visibility](/Std_ToggleVisibility "Std ToggleVisibility"): Toggles the visibility of selected objects.
+  - ![](/images/Std_ShowSelection.svg) [Show selection](/Std_ShowSelection "Std ShowSelection"): Shows selected objects.
+  - ![](/images/Std_HideSelection.svg) [Hide selection](/Std_HideSelection "Std HideSelection"): Hides selected objects.
+  - ![](/images/Std_SelectVisibleObjects.svg) [Select visible objects](/Std_SelectVisibleObjects "Std SelectVisibleObjects"): Selects all visible objects.
+  - ![](/images/Std_ToggleObjects.svg) [Toggle all objects](/Std_ToggleObjects "Std ToggleObjects"): Toggles the visibility of all objects.
+  - ![](/images/Std_ShowObjects.svg) [Show all objects](/Std_ShowObjects "Std ShowObjects"): Shows all objects.
+  - ![](/images/Std_HideObjects.svg) [Hide all objects](/Std_HideObjects "Std HideObjects"): Hides all objects.
+  - ![](/images/Std_ToggleSelectability.svg) [Toggle selectability](/Std_ToggleSelectability "Std ToggleSelectability"): Toggles the selectability of objects.
 
-- ![](/src/assets/images/Std_ToggleNavigation.svg) [Toggle navigation/Edit mode](/Std_ToggleNavigation "Std ToggleNavigation"): Toggles between navigation mode and edit mode.
+- ![](/images/Std_ToggleNavigation.svg) [Toggle navigation/Edit mode](/Std_ToggleNavigation "Std ToggleNavigation"): Toggles between navigation mode and edit mode.
 
-- ![](/src/assets/images/Std_SetMaterial.svg) [Material...](/Std_SetMaterial "Std SetMaterial"): Sets the material of selected objects. _-- Available if the [Material Workbench](/Material_Workbench "Material Workbench") has been loaded directly or indirectly (via for example the [Part Workbench](/Part_Workbench "Part Workbench") or the [PartDesign Workbench](/PartDesign_Workbench "PartDesign Workbench"))._ [introduced in 1.0](/Release_notes_1.0 "Release notes 1.0")
+- ![](/images/Std_SetMaterial.svg) [Material...](/Std_SetMaterial "Std SetMaterial"): Sets the material of selected objects. _-- Available if the [Material Workbench](/Material_Workbench "Material Workbench") has been loaded directly or indirectly (via for example the [Part Workbench](/Part_Workbench "Part Workbench") or the [PartDesign Workbench](/PartDesign_Workbench "PartDesign Workbench"))._ [introduced in 1.0](/Release_notes_1.0 "Release notes 1.0")
 
-- ![](/src/assets/images/Std_SetAppearance.svg) [Appearance...](/Std_SetAppearance "Std SetAppearance"): Sets the display properties of selected objects. _-- Available if the [Material Workbench](/Material_Workbench "Material Workbench") has been loaded directly or indirectly (via for example the [Part Workbench](/Part_Workbench "Part Workbench") or the [PartDesign Workbench](/PartDesign_Workbench "PartDesign Workbench"))._
+- ![](/images/Std_SetAppearance.svg) [Appearance...](/Std_SetAppearance "Std SetAppearance"): Sets the display properties of selected objects. _-- Available if the [Material Workbench](/Material_Workbench "Material Workbench") has been loaded directly or indirectly (via for example the [Part Workbench](/Part_Workbench "Part Workbench") or the [PartDesign Workbench](/PartDesign_Workbench "PartDesign Workbench"))._
 
-- ![](/src/assets/images/Std_RandomColor.svg) [Random color](/Std_RandomColor "Std RandomColor"): Applies a random diffuse color to objects.
+- ![](/images/Std_RandomColor.svg) [Random color](/Std_RandomColor "Std RandomColor"): Applies a random diffuse color to objects.
 
-- ![](/src/assets/images/Part_ColorPerFace.svg) [Color per face](/Part_ColorPerFace "Part ColorPerFace"): Sets the display properties of selected faces. _-- Available if the [Part Workbench](/Part_Workbench "Part Workbench") or the [PartDesign Workbench](/PartDesign_Workbench "PartDesign Workbench") is active._
+- ![](/images/Part_ColorPerFace.svg) [Color per face](/Part_ColorPerFace "Part ColorPerFace"): Sets the display properties of selected faces. _-- Available if the [Part Workbench](/Part_Workbench "Part Workbench") or the [PartDesign Workbench](/PartDesign_Workbench "PartDesign Workbench") is active._
 
-- ![](/src/assets/images/Std_ToggleTransparency.svg) [Toggle transparency](/Std_ToggleTransparency "Std ToggleTransparency"): Toggles the transparency of selected objects. [introduced in 1.0](/Release_notes_1.0 "Release notes 1.0")
+- ![](/images/Std_ToggleTransparency.svg) [Toggle transparency](/Std_ToggleTransparency "Std ToggleTransparency"): Toggles the transparency of selected objects. [introduced in 1.0](/Release_notes_1.0 "Release notes 1.0")
 
 * [Workbench](/Std_Workbench "Std Workbench") _-- Select a workbench from the submenu._
 
@@ -168,9 +168,9 @@ The following tools are available in this menu:
 
 * Link navigation
 
-  - ![](/src/assets/images/Std_LinkSelectLinked.svg) [Go to linked object](/Std_LinkSelectLinked "Std LinkSelectLinked"): Selects the linked object and switches to its document.
-  - ![](/src/assets/images/Std_LinkSelectLinkedFinal.svg) [Go to the deepest linked object](/Std_LinkSelectLinkedFinal "Std LinkSelectLinkedFinal"): Selects the deepest linked object and switches to its document.
-  - ![](/src/assets/images/Std_LinkSelectAllLinks.svg) [Select all links](/Std_LinkSelectAllLinks "Std LinkSelectAllLinks"): Selects all links to an object.
+  - ![](/images/Std_LinkSelectLinked.svg) [Go to linked object](/Std_LinkSelectLinked "Std LinkSelectLinked"): Selects the linked object and switches to its document.
+  - ![](/images/Std_LinkSelectLinkedFinal.svg) [Go to the deepest linked object](/Std_LinkSelectLinkedFinal "Std LinkSelectLinkedFinal"): Selects the deepest linked object and switches to its document.
+  - ![](/images/Std_LinkSelectAllLinks.svg) [Select all links](/Std_LinkSelectAllLinks "Std LinkSelectAllLinks"): Selects all links to an object.
 
 * Tree view actions
 
@@ -182,10 +182,10 @@ The following tools are available in this menu:
   - [Single document](/Std_TreeSingleDocument "Std TreeSingleDocument"): Switches the Tree view to SingleDocument mode.
   - [Multi document](/Std_TreeMultiDocument "Std TreeMultiDocument"): Switches the Tree view to MultiDocument mode.
   - [Collapse/Expand](/Std_TreeCollapseDocument "Std TreeCollapseDocument"): Switches the Tree view to CollapseDocument mode.
-  - ![](/src/assets/images/Std_TreeDrag.svg) [Initiate dragging](/Std_TreeDrag "Std TreeDrag"): Initiates a drag operation for selected objects in the Tree view.
-  - ![](/src/assets/images/Std_TreeSelection.svg) [Go to selection](/Std_TreeSelection "Std TreeSelection"): Scrolls the Tree view to the first created object in a 3D view selection.
-  - ![](/src/assets/images/Std_SelBack.svg) [Selection back](/Std_SelBack "Std SelBack"): Restores the previous Tree view selection.
-  - ![](/src/assets/images/Std_SelForward.svg) [Selection forward](/Std_SelForward "Std SelForward"): Restores the next Tree view selection.
+  - ![](/images/Std_TreeDrag.svg) [Initiate dragging](/Std_TreeDrag "Std TreeDrag"): Initiates a drag operation for selected objects in the Tree view.
+  - ![](/images/Std_TreeSelection.svg) [Go to selection](/Std_TreeSelection "Std TreeSelection"): Scrolls the Tree view to the first created object in a 3D view selection.
+  - ![](/images/Std_SelBack.svg) [Selection back](/Std_SelBack "Std SelBack"): Restores the previous Tree view selection.
+  - ![](/images/Std_SelForward.svg) [Selection forward](/Std_SelForward "Std SelForward"): Restores the next Tree view selection.
 
 * [Status bar](/Std_ViewStatusBar "Std ViewStatusBar"): Toggles the display of the [Status bar](/Status_bar "Status bar").
 

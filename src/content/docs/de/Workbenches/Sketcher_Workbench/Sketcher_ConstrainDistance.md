@@ -19,9 +19,9 @@ title: Sketcher AbstandFestlegen
 
 ## Beschreibung
 
-Das Werkzeug ![](/src/assets/images/Sketcher_ConstrainDistance.svg) Abstand festlegen: Legt die Länge einer Linie, den Abstand zwischen zwei Punkten, den senkrechten Abstand eines Punktes zu einer Linie fest; oder [eingeführt in 0.21](/Release_notes_0.21/de "Release notes 0.21/de") den Abstand zwischen den Kanten zweier Kreise oder Kreisbögen oder zwischen der Kante eines Kreises oder Kreisbogens und einer Linie; oder [eingeführt in 1.0](/Release_notes_1.0/de "Release notes 1.0/de") die Länge eines Kreisbogens.
+Das Werkzeug ![](/images/Sketcher_ConstrainDistance.svg) Abstand festlegen: Legt die Länge einer Linie, den Abstand zwischen zwei Punkten, den senkrechten Abstand eines Punktes zu einer Linie fest; oder [eingeführt in 0.21](/Release_notes_0.21/de "Release notes 0.21/de") den Abstand zwischen den Kanten zweier Kreise oder Kreisbögen oder zwischen der Kante eines Kreises oder Kreisbogens und einer Linie; oder [eingeführt in 1.0](/Release_notes_1.0/de "Release notes 1.0/de") die Länge eines Kreisbogens.
 
-![](/src/assets/images/Sketcher_ConstrainDistance_example.png)
+![](/images/Sketcher_ConstrainDistance_example.png)
 
 ## Anwendung
 
@@ -31,10 +31,10 @@ Siehe auch: [Zeichnungshilfen](/Sketcher_Workbench/de#Zeichnungshilfen "Sketcher
 
 1. Sicherstellen, dass nichts ausgewählt ist.
 2. Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
-   - [eingeführt in 1.0](/Release_notes_1.0/de "Release notes 1.0/de"): Ist die [Voreinstellung](/Sketcher_Preferences/de#Allgemein "Sketcher Preferences/de") **Werkzeuge für Maßeinträge** auf `Einzelnes Werkzeug` (Standardeinstellung) gesetz: Den Abwärtspfeil rechts neben der Schaltfläche ![](/src/assets/images/Sketcher_Dimension.svg)![](/src/assets/images/Toolbar_flyout_arrow.svg) drücken und im Ausklappmenü **![](/src/assets/images/Sketcher_ConstrainDistance.svg) Abstand festlegen** auswählen.
-   - Hat die Voreinstellung einen anderen Wert (und in 0.21 und davor): Die Schaltfläche ![](/src/assets/images/Sketcher_ConstrainDistance.svg) Abstand festlegen drücken.
-   - Den Menüeintrag **Skizze → Sketcher-Randbedingungen → ![](/src/assets/images/Sketcher_ConstrainDistance.svg) Abstand festlegen** auswählen.
-   - [eingeführt in 1.0](/Release_notes_1.0/de "Release notes 1.0/de"): Ein Rechtsklick in die [3D-Ansicht](/3D_view/de "3D view/de") und die Menüoption **Bemaßung → ![](/src/assets/images/Sketcher_ConstrainDistance.svg) Abstand festlegen** im Kontextmenü auswählen.
+   - [eingeführt in 1.0](/Release_notes_1.0/de "Release notes 1.0/de"): Ist die [Voreinstellung](/Sketcher_Preferences/de#Allgemein "Sketcher Preferences/de") **Werkzeuge für Maßeinträge** auf `Einzelnes Werkzeug` (Standardeinstellung) gesetz: Den Abwärtspfeil rechts neben der Schaltfläche ![](/images/Sketcher_Dimension.svg)![](/images/Toolbar_flyout_arrow.svg) drücken und im Ausklappmenü **![](/images/Sketcher_ConstrainDistance.svg) Abstand festlegen** auswählen.
+   - Hat die Voreinstellung einen anderen Wert (und in 0.21 und davor): Die Schaltfläche ![](/images/Sketcher_ConstrainDistance.svg) Abstand festlegen drücken.
+   - Den Menüeintrag **Skizze → Sketcher-Randbedingungen → ![](/images/Sketcher_ConstrainDistance.svg) Abstand festlegen** auswählen.
+   - [eingeführt in 1.0](/Release_notes_1.0/de "Release notes 1.0/de"): Ein Rechtsklick in die [3D-Ansicht](/3D_view/de "3D view/de") und die Menüoption **Bemaßung → ![](/images/Sketcher_ConstrainDistance.svg) Abstand festlegen** im Kontextmenü auswählen.
    - Das Tastaturkürzel I.
 3. Für weitere Schritte siehe [Sketcher XAbstandFestlegen](/Sketcher_ConstrainDistanceX/de#Fortsetzen-Modus "Sketcher ConstrainDistanceX/de").
 

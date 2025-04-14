@@ -19,14 +19,14 @@ title: Curves ReflectLines
 
 ## Description
 
-The ![](/src/assets/images/Curves_ReflectLines.svg) **Curves ReflectLines** tool creates the reflect lines on a shape, according to a view direction.
+The ![](/images/Curves_ReflectLines.svg) **Curves ReflectLines** tool creates the reflect lines on a shape, according to a view direction.
 
 ## Usage
 
 1. Select an object.
 2. There are several ways to invoke the tool:
-   - Press the ![](/src/assets/images/Curves_ReflectLines.svg) [Reflect Lines](/Curves_ReflectLines "Curves ReflectLines") button.
-   - Select the **Surfaces → ![](/src/assets/images/Curves_ReflectLines.svg) Reflect Lines** option from the menu.
+   - Press the ![](/images/Curves_ReflectLines.svg) [Reflect Lines](/Curves_ReflectLines "Curves ReflectLines") button.
+   - Select the **Surfaces → ![](/images/Curves_ReflectLines.svg) Reflect Lines** option from the menu.
 3. If the selected object is not a **ReflectLines** object a **ReflectLines** object is created.
 4. The view direction of the ReflectLines object will be set according to the current camera direction.
 5. Optionally edit the values in the [Property editor](/Property_editor "Property editor") to choose the lines to be created, and where they are placed and also adjust the related properties (see Properties below).

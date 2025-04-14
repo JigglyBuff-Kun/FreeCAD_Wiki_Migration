@@ -30,8 +30,8 @@ Siehe [TechDraw Längenmaß](/TechDraw_LengthDimension/de#Begrenzungen "TechDraw
 1. Zwei Punktobjekte in der [Baumansicht](/Tree_view/de "Tree view/de") oder der [3D-Ansicht](/3D_view/de "3D view/de") auswählen.
 2. Die korrekte TechDraw-Ansicht zur Auswahl hinzufügen, indem sie in der [Baumansicht](/Tree_view/de "Tree view/de") ausgewählt wird.
 3. Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
-   - Die Schaltfläche ![](/src/assets/images/TechDraw_LandmarkDimension.svg) [Maß zwischen Orientierungspunkten hinzufügen - EXPERIMENTELL](/TechDraw_LandmarkDimension "TechDraw LandmarkDimension") drücken.
-   - Den Menüeintrag **TechDraw → Maßeinträge → ![](/src/assets/images/TechDraw_LandmarkDimension.svg) Maß zwischen Orientierungspunkten hinzufügen - EXPERIMENTELL** auswählen.
+   - Die Schaltfläche ![](/images/TechDraw_LandmarkDimension.svg) [Maß zwischen Orientierungspunkten hinzufügen - EXPERIMENTELL](/TechDraw_LandmarkDimension "TechDraw LandmarkDimension") drücken.
+   - Den Menüeintrag **TechDraw → Maßeinträge → ![](/images/TechDraw_LandmarkDimension.svg) Maß zwischen Orientierungspunkten hinzufügen - EXPERIMENTELL** auswählen.
 4. Ein Maß wird zur Ansicht hinzugefügt.
 5. Das Maß kann an die gewünschte Position gezogen werden.
 6. Falls erforderlich, können Toleranzen, wie auf der [GD&T-Seite](/TechDraw_Geometric_dimensioning_and_tolerancing/de#Toleranzen "TechDraw Geometric dimensioning and tolerancing/de") beschrieben, hinzugefügt werden.

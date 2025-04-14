@@ -24,13 +24,13 @@ The **Std Redo** command reverses the action of the [Std Undo](/Std_Undo "Std Un
 ## Usage
 
 1. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/Std_Redo.svg) [Redo](/Std_Redo "Std Redo") button.
-   - Select the **Edit → ![](/src/assets/images/Std_Redo.svg) Redo** option from the menu.
+   - Press the ![](/images/Std_Redo.svg) [Redo](/Std_Redo "Std Redo") button.
+   - Select the **Edit → ![](/images/Std_Redo.svg) Redo** option from the menu.
    - Use the keyboard shortcut: Ctrl+Y.
 
 ## Options
 
-- To redo multiple actions click on the black down arrow to the right of the ![](/src/assets/images/Std_Redo.svg) [Redo](/Std_Redo "Std Redo") button and select from the list.
+- To redo multiple actions click on the black down arrow to the right of the ![](/images/Std_Redo.svg) [Redo](/Std_Redo "Std Redo") button and select from the list.
 
 ## Preferences
 

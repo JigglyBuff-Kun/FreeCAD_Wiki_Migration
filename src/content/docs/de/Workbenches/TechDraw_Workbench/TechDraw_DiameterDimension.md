@@ -23,7 +23,7 @@ Das Werkzeug **TechDraw MaßDurchmesser** fügt einer Ansicht ein Durchmesserma�
 
 Für weitere Informationen siehe [TechDraw MaßRadius](/TechDraw_RadiusDimension/de "TechDraw RadiusDimension/de").
 
-![](/src/assets/images/TechDraw_Dimension_Diameter_example.png)
+![](/images/TechDraw_Dimension_Diameter_example.png)
 
 Messen eines Kreises, angeben des Durchmessers
 

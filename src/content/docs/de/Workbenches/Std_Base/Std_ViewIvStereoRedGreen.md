@@ -23,7 +23,7 @@ Der Befehl **Std AnsichtStereoRotGrün** stellt den Stereo-Modus der aktiven [3D
 
 ## Anwendung
 
-1. Den Menüeintrag **Ansicht → Stereo → ![](/src/assets/images/Std_ViewIvStereoRedGreen.svg) Stereo rot/cyan** auswählen.
+1. Den Menüeintrag **Ansicht → Stereo → ![](/images/Std_ViewIvStereoRedGreen.svg) Stereo rot/cyan** auswählen.
 
 ## Einstellungen
 

@@ -21,13 +21,13 @@ title: Std ViewCreate
 
 The **Std ViewCreate** command creates a new [3D view](/3D_view "3D view") for the active document. Additional 3D views can be useful if you want to inspect the model from multiple directions or at different zoom levels.
 
-![](/src/assets/images/ViewCreate1.png)
+![](/images/ViewCreate1.png)
 
 The FreeCAD interface with multiple 3D views
 
 ## Usage
 
-1. Select the **View → ![](/src/assets/images/Std_ViewCreate.svg) Create new view** option from the menu.
+1. Select the **View → ![](/images/Std_ViewCreate.svg) Create new view** option from the menu.
 
 ## Options
 

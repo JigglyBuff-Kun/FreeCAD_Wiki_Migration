@@ -19,7 +19,7 @@ title: Sketcher ConstrainHorVer
 
 ## Description
 
-The ![](/src/assets/images/Sketcher_ConstrainHorVer.svg) [Sketcher ConstrainHorVer](/Sketcher_ConstrainHorVer "Sketcher ConstrainHorVer") tool constrains lines or pairs of points to be horizontal (parallel to the horizontal axis of the sketch) or vertical, whichever is closest to the current alignment.
+The ![](/images/Sketcher_ConstrainHorVer.svg) [Sketcher ConstrainHorVer](/Sketcher_ConstrainHorVer "Sketcher ConstrainHorVer") tool constrains lines or pairs of points to be horizontal (parallel to the horizontal axis of the sketch) or vertical, whichever is closest to the current alignment.
 
 This tool combines the [Sketcher ConstrainHorizontal](/Sketcher_ConstrainHorizontal "Sketcher ConstrainHorizontal") and [Sketcher ConstrainVertical](/Sketcher_ConstrainVertical "Sketcher ConstrainVertical") tools.
 
@@ -31,9 +31,9 @@ See also: [Drawing aids](/Sketcher_Workbench#Drawing_aids "Sketcher Workbench").
 
 1. Make sure there is no selection.
 2. There are several ways to invoke the tool:
-   - If the **Auto tool for Horizontal/Vertical** [preference](/Sketcher_Preferences#General "Sketcher Preferences") is selected (default): press the ![](/src/assets/images/Sketcher_ConstrainHorVer.svg) [Constrain horizontal/vertical](/Sketcher_ConstrainHorVer "Sketcher ConstrainHorVer") button.
-   - Select the **Sketch → Sketcher constraints → ![](/src/assets/images/Sketcher_ConstrainHorVer.svg) Constrain horizontal/vertical** option from the menu.
-   - Right-click in the [3D view](/3D_view "3D view") and select the **Constrain → ![](/src/assets/images/Sketcher_ConstrainHorVer.svg) Constrain horizontal/vertical** option from the context menu.
+   - If the **Auto tool for Horizontal/Vertical** [preference](/Sketcher_Preferences#General "Sketcher Preferences") is selected (default): press the ![](/images/Sketcher_ConstrainHorVer.svg) [Constrain horizontal/vertical](/Sketcher_ConstrainHorVer "Sketcher ConstrainHorVer") button.
+   - Select the **Sketch → Sketcher constraints → ![](/images/Sketcher_ConstrainHorVer.svg) Constrain horizontal/vertical** option from the menu.
+   - Right-click in the [3D view](/3D_view "3D view") and select the **Constrain → ![](/images/Sketcher_ConstrainHorVer.svg) Constrain horizontal/vertical** option from the context menu.
    - Use the keyboard shortcut: A.
 3. The cursor changes to a cross with the tool icon.
 4. Do one of the following:
@@ -49,7 +49,7 @@ See also: [Drawing aids](/Sketcher_Workbench#Drawing_aids "Sketcher Workbench").
    - Select two or more points (the selection order can be relevant see [Notes](#Notes)).
    - Select one or more lines. Points can be included in the selection, but will be ignored.
 2. Invoke the tool as explained above, or with the following additional option:
-   - Right-click in the [3D view](/3D_view "3D view") and select the **![](/src/assets/images/Sketcher_ConstrainHorVer.svg) Constrain horizontal/vertical** option from the context menu.
+   - Right-click in the [3D view](/3D_view "3D view") and select the **![](/images/Sketcher_ConstrainHorVer.svg) Constrain horizontal/vertical** option from the context menu.
 3. Depending on the selection one or more constraints are added.
 
 ## Notes

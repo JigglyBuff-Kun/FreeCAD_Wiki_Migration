@@ -25,8 +25,8 @@ Displays the value of a selected field at a picked point.
 
 1. Select a previously created [result pipeline](/FEM_PostPipelineFromResult "FEM PostPipelineFromResult") or another filter (except of a line filter).
 2. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/FEM_PostFilterDataAtPoint.svg) [Data at point clip filter](/FEM_PostFilterDataAtPoint "FEM PostFilterDataAtPoint") button.
-   - Select the **Results → ![](/src/assets/images/FEM_PostFilterDataAtPoint.svg) Data at point clip filter** option from the menu.
+   - Press the ![](/images/FEM_PostFilterDataAtPoint.svg) [Data at point clip filter](/FEM_PostFilterDataAtPoint "FEM PostFilterDataAtPoint") button.
+   - Select the **Results → ![](/images/FEM_PostFilterDataAtPoint.svg) Data at point clip filter** option from the menu.
 3. Select a result **Field**.
 4. Now
    - either click the Select Point button and subsequently pick the desired point in the mesh.

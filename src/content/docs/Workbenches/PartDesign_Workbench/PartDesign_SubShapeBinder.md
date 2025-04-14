@@ -25,12 +25,12 @@ A SubShapeBinder will track the relative placement of the referenced geometry, w
 
 The referenced geometry can consist of one or multiple elements. Each element can be an individual object (for example a [PartDesign Body](/PartDesign_Body "PartDesign Body")), a subobject (for example a [Part Box](/Part_Box "Part Box") inside a [Std Part](/Std_Part "Std Part"), or a [sketch](/PartDesign_NewSketch "PartDesign NewSketch") or [Feature](/PartDesign_Feature "PartDesign Feature") inside a Body), or a subelement (a face, edge or vertex). Which geometry should be selected depends on the intended purpose of the SubShapeBinder. For a Boolean operation you would need to select a solid. For a [Pad operation](/PartDesign_Pad "PartDesign Pad") a face, a sketch or a planar wire can be used. And for the [external geometry](/Sketcher_External "Sketcher External") in a sketch, or to attach a sketch, any combination of subelements may be appropriate. Elements can belong to different parent objects, and can even belong to the Body the SubShapeBinder is nested in. Because a SubShapeBinder is [Link-based](/Std_LinkMake "Std LinkMake") the referenced geometry can also belong to an external document.
 
-![](/src/assets/images/PartDesign_SubShapeBinder_example_1.png) ![](/src/assets/images/PartDesign_SubShapeBinder_example_2.png)
+![](/images/PartDesign_SubShapeBinder_example_1.png) ![](/images/PartDesign_SubShapeBinder_example_2.png)
 
 On the left two solids created in two separate [Bodies](/PartDesign_Body "PartDesign Body").  
 On the right two SubShapeBinders referencing geometry from the first Body, nested in the second Body, and moved to a different position.
 
-![](/src/assets/images/PartDesign_SubShapeBinder_example_3.png)
+![](/images/PartDesign_SubShapeBinder_example_3.png)
 
 The two SubShapeBinders are used to create a [Boolean cut](/PartDesign_Boolean "PartDesign Boolean") and a [Pad](/PartDesign_Pad "PartDesign Pad") in the second Body.
 
@@ -41,10 +41,10 @@ The two SubShapeBinders are used to create a [Boolean cut](/PartDesign_Boolean "
 1. If there are multiple Bodies in the document: optionally [activate the Body](/PartDesign_Body#Active_status "PartDesign Body") the SubShapeBinder should be nested in.
 2. Select the required geometry. Subelements can only be selected in the [3D view](/3D_view "3D view").
 3. There are several ways to invoke the tool:
-   - Press the ![](/src/assets/images/PartDesign_SubShapeBinder.svg) [PartDesign SubShapeBinder](/PartDesign_SubShapeBinder "PartDesign SubShapeBinder") button.
-   - Select the **Part Design → ![](/src/assets/images/PartDesign_SubShapeBinder.svg) Create a sub-object(s) shape binder** option from the menu.
+   - Press the ![](/images/PartDesign_SubShapeBinder.svg) [PartDesign SubShapeBinder](/PartDesign_SubShapeBinder "PartDesign SubShapeBinder") button.
+   - Select the **Part Design → ![](/images/PartDesign_SubShapeBinder.svg) Create a sub-object(s) shape binder** option from the menu.
 4. The SubShapeBinder is created.
-5. If there is only one Body in the document the SubShapeBinder is automatically added to it and the Body is activated. If this is the case and the SubShapeBinder should not be nested, it can be dragged out of the Body and dropped onto the ![](/src/assets/images/Document.svg) document node in the [Tree view](/Tree_view "Tree view").
+5. If there is only one Body in the document the SubShapeBinder is automatically added to it and the Body is activated. If this is the case and the SubShapeBinder should not be nested, it can be dragged out of the Body and dropped onto the ![](/images/Document.svg) document node in the [Tree view](/Tree_view "Tree view").
 
 ### External document
 

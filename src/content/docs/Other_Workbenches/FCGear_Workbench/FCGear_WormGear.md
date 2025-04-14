@@ -25,16 +25,16 @@ For a single-start worm, each full turn (360 degrees) of the worm advances the g
 
 A worm can only be used with a worm wheel. This is called a worm drive. Like other gear arrangements, a worm drive can reduce rotational speed or transmit higher torque. One of the major advantages of worm gear drive units are that they can transfer motion in 90 degrees. A worm drive is also self-locking.
 
-![](/src/assets/images/Worm-Gear_example.png)
+![](/images/Worm-Gear_example.png)
 
 Worm gear (No. of teeth 3)
 
 ## Usage
 
-1. Switch to the ![](/src/assets/images/FCGear_workbench_icon.svg) [FCGear Workbench](/FCGear_Workbench "FCGear Workbench").
+1. Switch to the ![](/images/FCGear_workbench_icon.svg) [FCGear Workbench](/FCGear_Workbench "FCGear Workbench").
 2. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/FCGear_WormGear.svg) [Worm Gear](/FCGear_WormGear "FCGear WormGear") button in the toolbar.
-   - Select the **Gear → ![](/src/assets/images/FCGear_WormGear.svg) Worm Gear** option from the menu.
+   - Press the ![](/images/FCGear_WormGear.svg) [Worm Gear](/FCGear_WormGear "FCGear WormGear") button in the toolbar.
+   - Select the **Gear → ![](/images/FCGear_WormGear.svg) Worm Gear** option from the menu.
 3. Change the gear parameter to the required conditions (see [Properties](#Properties)).
 
 ## Properties
@@ -87,7 +87,7 @@ version
 
 The worm wheel must be designed manually. For this purpose [FCGear InvoluteGear](/FCGear_InvoluteGear "FCGear InvoluteGear") can be used for a simple construction. In any case, in-depth knowledge of the gear types is required.
 
-![](/src/assets/images/Worm-Gear_example3.png)
+![](/images/Worm-Gear_example3.png)
 
 Worm with worm wheel
 

@@ -21,7 +21,7 @@ title: TechDraw CommandAddOffsetVertex/de
 
 Der Befehl **TechDraw CommandAddOffsetVertex** fügt einen Hilfspunkt mit einem bestimmten Versatz zu einem ausgewählten Knoten hinzu.
 
-![](/src/assets/images/TechDraw_CommandAddOffsetVertex_Example.png)
+![](/images/TechDraw_CommandAddOffsetVertex_Example.png)
 
 Ausgewählter Knoten und hinzugefügter Hilfspunkt
 
@@ -29,8 +29,8 @@ Ausgewählter Knoten und hinzugefügter Hilfspunkt
 
 1. Einen Knoten auswählen.
 2. Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
-   - Die Schaltfläche ![](/src/assets/images/TechDraw_CommandAddOffsetVertex.svg) Add an offset vertex drücken.
-   - Den Menüeintrag **TechDraw → Ergänzungen: Mittellinien/Gewinde → ![](/src/assets/images/TechDraw_CommandAddOffsetVertex.svg) Add an offset vertex** auswählen.
+   - Die Schaltfläche ![](/images/TechDraw_CommandAddOffsetVertex.svg) Add an offset vertex drücken.
+   - Den Menüeintrag **TechDraw → Ergänzungen: Mittellinien/Gewinde → ![](/images/TechDraw_CommandAddOffsetVertex.svg) Add an offset vertex** auswählen.
 3. Der Aufgaben-Bereich wird geöffnet.
 4. Die gewünschten (positiven oder negativen) Werte für **X-Versatz** und **Y-Versatz** in mm eingeben.
 5. Die Schaltfläche OK drücken.

@@ -19,7 +19,7 @@ title: Part Befestigen
 
 ## Beschreibung
 
-Der Befehl ![](/src/assets/images/Part_EditAttachment.svg) **Part Befestigen** befestigt ein Objekt an einem oder mehreren anderen Objekten. Das befestigte Objekt ist mit den referenzierten Objekten verknüpft, d.h. wenn sich die [Positionierung](/Std_Placement/de "Std Placement/de") oder die Geometrie der referenzierten Objekte ändert, wird die Positionierung des befestigten Objekts entsprechend aktualisiert.
+Der Befehl ![](/images/Part_EditAttachment.svg) **Part Befestigen** befestigt ein Objekt an einem oder mehreren anderen Objekten. Das befestigte Objekt ist mit den referenzierten Objekten verknüpft, d.h. wenn sich die [Positionierung](/Std_Placement/de "Std Placement/de") oder die Geometrie der referenzierten Objekte ändert, wird die Positionierung des befestigten Objekts entsprechend aktualisiert.
 
 ## Befestigungswerkzeuge
 
@@ -41,7 +41,7 @@ Der Rest dieser Seite hat den Fokus auf dem Werkzeug 3D-Engine. Die Verfahren de
 1. Das Objekt auswählen, das befestigt werden soll.
 2. Eine der folgenden Möglichkeiten ausführen:
    - Wenn das Objekt schon eine Daten-Eigenschaft**Map Mode** besitzt: Im [Eigenschafteneditor](/Property_editor/de "Property editor/de") in dieses Feld klicken und die Schaltfläche ... drücken, die dann erscheint.
-   - Den Menüeintrag **Part → ![](/src/assets/images/Part_EditAttachment.svg) Befestigung...** auswählen.
+   - Den Menüeintrag **Part → ![](/images/Part_EditAttachment.svg) Befestigung...** auswählen.
 3. Das Aufgaben-Fenster **Befestigen** wird geöffnet.
 4. Oben im Aufgaben-Fenster steht _Nicht befestigt_. Die erste Schaltfläche Auswählen... wird hervorgehoben, um anzuzeigen, dass eine Auswahl in der [3D-Ansicht](/3D_view/de "3D view/de") erwartet wird.
 5. Einen Knoten, eine Kante oder eine Fläche bzw. Ebene auswählen, der/die zu einem anderen Objekt gehört.
@@ -58,7 +58,7 @@ Der Rest dieser Seite hat den Fokus auf dem Werkzeug 3D-Engine. Die Verfahren de
 
 ### 3D-Engine
 
-![](/src/assets/images/Part_Offset_Tasks.png)
+![](/images/Part_Offset_Tasks.png)
 
 #### Deaktiviert
 
@@ -123,7 +123,7 @@ Ist kein Knoten verknüpft, legt die Daten-Eigenschaft**Map Path Parameter** den
 
 #### Frenet NBT
 
-![](/src/assets/images/Attacher_mode_FrenetNB.png)
+![](/images/Attacher_mode_FrenetNB.png)
 
 Die X- und Y-Achsen werden an der normalen (N) und der binormalen (B) Achse des [Frenet-Serret-Koordinatensystems](https://de.wikipedia.org/wiki/Frenetsche_Formeln) ([Frenet-Serret coordinate system](https://en.wikipedia.org/wiki/Frenet%E2%80%93Serret_formulas)) in einem Punkt auf einer gekrümmten Kante ausgerichtet. Ein optionaler Knoten legt fest, an welcher Stelle.
 
@@ -138,7 +138,7 @@ _Frenet NBT_ entspricht _Z tangential zur Kante_, außer dass die X-Achse eindeu
 
 #### Frenet TNB
 
-![](/src/assets/images/Attacher_mode_FrenetTN.png)
+![](/images/Attacher_mode_FrenetTN.png)
 
 Die X- und Y-Achsen werden an der tangentialen (T) und der normalen (N) Achse des Frenet-Serret-Koordinatensystems in einem Punkt auf einer gekrümmten Kante ausgerichtet. Ein optionaler Knoten legt fest, an welcher Stelle.
 
@@ -146,7 +146,7 @@ Siehe [Frenet NBT](#Frenet_NBT).
 
 #### Frenet TBN
 
-![](/src/assets/images/Attacher_mode_FrenetTB.png)
+![](/images/Attacher_mode_FrenetTB.png)
 
 Die X- und Y-Achsen werden an die tangentiale (T) und die binormale Achse des Frenet-Serret Koordinatensystems in einem Punkt auf einer gekrümmten Kante angeglichen. Ein optionaler Knoten legt fest, an welcher Stelle.
 
@@ -190,7 +190,7 @@ Siehe [XY-Ebene durch 3 Punkte](#XY-Ebene_durch_3_Punkte).
 
 #### Faltung
 
-![](/src/assets/images/Attacher_mode_Folding.png)
+![](/images/Attacher_mode_Folding.png)
 
 Dies ist ein spezieller Modus zum Falten von Polyedern. Vier Linien mit einem gemeinsamen Punkt in dieser Reihenfolge auswählen: erste Verbindungslinie (1), erste Faltlinie (2), zweite Faltlinie (3), zweite Verbindungslinie (4). Zum ableiten des Koordinatensystems werden die Verbindungslinien deckungsgleich ausgerichtet, indem Linie 1 um Linie 2 geschwenkt wird und Linie 4 um Linie 3. Der Ursprung wird auf den gemeinsamen Punkt gesetzt, die X-Achse der Linie 2 angeglichen und die Y-Achse2 der Richtung der deckungsgleichen Verbindungslinien angeglichen.
 

@@ -19,16 +19,16 @@ title: Part RefineShape
 
 ## Description
 
-The ![](/src/assets/images/Part_RefineShape.svg) **Part RefineShape** command creates parametric copies with a refined shape from selected objects. It removes unnecessary edges from planar and cylindrical faces.
+The ![](/images/Part_RefineShape.svg) **Part RefineShape** command creates parametric copies with a refined shape from selected objects. It removes unnecessary edges from planar and cylindrical faces.
 
-![](/src/assets/images/PartRefineShape_it.png)
+![](/images/PartRefineShape_it.png)
 
 Original with 11 faces (left), and refined copy with 7 faces (right).
 
 ## Usage
 
 1. Select one or more objects.
-2. Select the **Part → Create a copy → ![](/src/assets/images/Part_RefineShape.svg) Refine shape** option from the menu.
+2. Select the **Part → Create a copy → ![](/images/Part_RefineShape.svg) Refine shape** option from the menu.
 3. For each object a cleaned, parametric copy is created
 4. The original objects are hidden.
 

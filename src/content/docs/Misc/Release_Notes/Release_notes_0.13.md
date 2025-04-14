@@ -6,7 +6,7 @@ This is a summary of the most interesting changes occured in FreeCAD since lates
 
 Older versions: [0.12](/Release_notes_0.12 "Release notes 0.12") - [0.11](/Release_notes_0.11 "Release notes 0.11")
 
-![](/src/assets/images/FreeCAD013.jpg)
+![](/images/FreeCAD013.jpg)
 
 _modeled in FreeCAD by psicofil_
 
@@ -29,13 +29,13 @@ _modeled in FreeCAD by psicofil_
 
 - **Point Creation**
 
-![](/src/assets/images/Release-0.13-PointTool.png)
+![](/images/Release-0.13-PointTool.png)
 
 Points can now be added and used as a feature within a sketch
 
 - **Sketch Origin**
 
-![](/src/assets/images/Release-0.13-Origin.png)
+![](/images/Release-0.13-Origin.png)
 
 User can now use the sketch's origin to define geometry as well as the sketch axes.
 
@@ -46,7 +46,7 @@ User can now use the sketch's origin to define geometry as well as the sketch ax
 
 - **Improved Datum Label and Constraint Visuals:**
 
-![](/src/assets/images/Release-0.13-SketcherDimensions.png)
+![](/images/Release-0.13-SketcherDimensions.png)
 
 - - Each constraint label (including arrows) will correctly scale to the size of the scene automatically to the 3D viewport
   - Datum label text for Distance, Distance X, Distance Y and Radius can be freely positioned now with greater control.
@@ -55,11 +55,11 @@ User can now use the sketch's origin to define geometry as well as the sketch ax
 
 - **Fully constrained Sketches are now highlighted:**
 
-![The sketch color turns from white to green to indicate it is fully constrained. These default colors can be customized.](/src/assets/images/Release-0.13-SketcherFullyConstrained.png)
+![The sketch color turns from white to green to indicate it is fully constrained. These default colors can be customized.](/images/Release-0.13-SketcherFullyConstrained.png)
 
 - **Rubber band selection:**
 
-![](/src/assets/images/Release-0.13-RubberBandSelection.png)
+![](/images/Release-0.13-RubberBandSelection.png)
 
 Geometry (Points, Lines and Curves) may be selected by dragging on the background to create a rectangular selection.
 
@@ -77,7 +77,7 @@ Geometry (Points, Lines and Curves) may be selected by dragging on the backgroun
 - **DXF importer**: The DXF importer now supports points (translate to [Draft Point](/Draft_Point "Draft Point")) and leaders (translate to [Draft Wire](/Draft_Wire "Draft Wire"))
 - **Brand-new snapping system**: The [snapping system](/Draft_Snap "Draft Snap") of the Draft module has been rewritten almost from scratch. It is now much easier to extend and use in other scripts and modules, has now new visuals with snap cursor icons, and a toolbar that allows to switch on/off individual snap locations or the whole snapping system.
 
-![](/src/assets/images/013-draft-snap.jpg)
+![](/images/013-draft-snap.jpg)
 
 - **Better constraining**: When entering 3D points, besides the existing Shift-constraining, you can now constrain the movement in X, Y or Z direction by pressing the X, Y or Z keys. Pressing them again switches constraining off.
 - **Draft <-> Sketch conversion**: The Draft workbench now features a new [Draft2Sketch](/Draft_Draft2Sketch "Draft Draft2Sketch") conversion tool, that converts selected Draft objects (or any flat shape) to Sketches, and vice-versa.
@@ -85,31 +85,31 @@ Geometry (Points, Lines and Curves) may be selected by dragging on the backgroun
 - **SVG importer**: The SVG importer now has much better support of bezier curves. Global definition of user units is now respected and the geometry is scaled properly to millimeter. Support for new elements such as ellipses rounded rectangles has been added. The parser has been reworked and now handles paths from Adobe Illustrator.
 - **Curved corners**: Several Draft objects ([Wires](/Draft_Wire "Draft Wire"), [Rectangles](/Draft_Rectangle "Draft Rectangle") and [Polygons](/Draft_Polygon "Draft Polygon")) now have a **Fillet Radius** property, which curves their corners by the given radius value.
 
-![](/src/assets/images/013-draft-fillet.jpg)
+![](/images/013-draft-fillet.jpg)
 
 - **2D view object**: The new [Shape2DView](/Draft_Shape2DView "Draft Shape2DView") tool allows to quickly place a 2D view of a selected object in the document. You can specify the projection vector.
 
-![](/src/assets/images/013-draft-shape2dview.jpg)
+![](/images/013-draft-shape2dview.jpg)
 
 ## Arch module
 
 - **Draft integration**: The Arch and Draft modules are now tightly integrated. The Arch tools use the [Draft snapping](/Draft_Snap "Draft Snap") system, and all the Draft tools are present in the Arch workbench. In fact, if you like, you can now completely switch off the Draft module (Preferences -> Draft -> Hide the Draft workbench)
 - **New wall tool**: The [wall tool](/Arch_Wall "Arch Wall") has been greatly enhanced, and now features a direct drawing mode, that is activated when you press the Wall button with no object selected, that allows you to draw walls like you draw simple lines. In additions, walls now auto-connect when you snap to an existing wall.
 
-![](/src/assets/images/013-arch-wall.jpg)
+![](/images/013-arch-wall.jpg)
 
 - **New roof tool**: A new [roof tool](/Arch_Roof "Arch Roof") is now available in the Arch module, that allows you to quickly create sloped roofs from a selected face.
 - **New window tool**: [Windows](/Arch_Window "Arch Window") are now created directly on top of a flat shape that contains one or more wires, such as a rectangle or a sketch. If that shape was drawn directly on a wall face, the window will automatically cut an opening in the wall.
 - **New sections system**: It is now very simple to create 2D plans, sections and elevations from your model: Place a [Section Plane](/Arch_SectionPlane "Arch SectionPlane") object, orient it the way you want, edit it to include the objects it must see, and you are done!
 - **New solid renderer**: In addition to the OpenCasCADe-based wireframe 2D renderer currently used by the [Drawing Workbench](/Drawing_Workbench "Drawing Workbench"), the Arch module now features a new 2D renderer, that is able to render filled faces to a SVG Drawing sheet, giving much nicer 2D views.
 
-![](/src/assets/images/013-arch-vrm.jpg)
+![](/images/013-arch-vrm.jpg)
 
 - **IFC import with [IfcOpenShell](http://www.ifcopenshell.org)**: The Arch module can now use [IfcOpenShell](http://www.ifcopenshell.org) if it is installed on your system. This allows for much more powerful IFC import, and all the contents of the IFC file are guaranteed to be imported.
 - **New floor and building objects**: Building and floors are now groups, so you can add and remove objects from them with a simple drag&drop from the tree view.
 - **New axes system**: A new [axes system](/Arch_Axis "Arch Axis") feature has been added, that allows to quickly layout complex axes systems. These axes can then be added to [Structure](/Arch_Structure "Arch Structure") objects, so they spread automatically on the grid nodes.
 
-![](/src/assets/images/013-arch-axes.jpg)
+![](/images/013-arch-axes.jpg)
 
 - **Arch objects from meshes**: [Walls](/Arch_Wall "Arch Wall") and [structures](/Arch_Structure "Arch Structure") can now be made directly from a mesh, provided it is closed, solid and all edges are [manifold](http://doc.spatial.com/index.php/Manifold_and_Non-manifold_Objects). This allows for very quick transformation of geometry imported from other applications such as [blender](http://www.blender.org) into valid Arch objects.
 

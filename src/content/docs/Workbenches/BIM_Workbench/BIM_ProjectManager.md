@@ -21,7 +21,7 @@ title: BIM ProjectManager
 
 The **BIM Project Setup** dialog allows you to create a basic set of guide objects in the current document or in a new document, that will help you to start modeling a BIM project.
 
-![](/src/assets/images/BIM_project_screenshot.png)
+![](/images/BIM_project_screenshot.png)
 
 BIM Project Setup
 

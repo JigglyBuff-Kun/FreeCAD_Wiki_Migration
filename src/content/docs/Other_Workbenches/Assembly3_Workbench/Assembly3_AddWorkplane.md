@@ -23,11 +23,11 @@ This documentation is not finished. Please help and contribute documentation.Gui
 
 ## Description
 
-The ![](/src/assets/images/Assembly_Add_Workplane.svg) [Add workplane](/Assembly3_AddWorkplane "Assembly3 AddWorkplane") command adds a Workplane to an active assembly.
+The ![](/images/Assembly_Add_Workplane.svg) [Add workplane](/Assembly3_AddWorkplane "Assembly3 AddWorkplane") command adds a Workplane to an active assembly.
 
 A Workplane object will be created inside the Parts container of the assembly tree and a related workplane item will be placed in the 3D view. It is placed at the assembly's origin and oriented according to the assembly's XY plane, if the Assembly object was selected directly.
 
-![](/src/assets/images/Assembly_Add_Workplane-01.png) ![](/src/assets/images/Assembly_Add_Workplane-02.png)
+![](/images/Assembly_Add_Workplane-01.png) ![](/images/Assembly_Add_Workplane-02.png)
 
 The assembly can also be selected indirectly by some item belonging to the assembly. Then the workplane is placed at the item's origin and oriented according to this item's local XY plane.
 
@@ -35,8 +35,8 @@ Valid items are e.g. elements, bodies, vertexes, edges, faces, origins, and othe
 
 ## Usage
 
-1. Activate the ![](/src/assets/images/Assembly_Add_Workplane.svg) **Add workplane** command using one of the following:
-   - The ![](/src/assets/images/Assembly_Add_Workplane.svg) [Add workplane](/Assembly3_AddWorkplane "Assembly3 AddWorkplane") button.
-   - The **Assembly3 → Workplane and origin → ![](/src/assets/images/Assembly_Add_Workplane.svg) Add workplane** menu option.
+1. Activate the ![](/images/Assembly_Add_Workplane.svg) **Add workplane** command using one of the following:
+   - The ![](/images/Assembly_Add_Workplane.svg) [Add workplane](/Assembly3_AddWorkplane "Assembly3 AddWorkplane") button.
+   - The **Assembly3 → Workplane and origin → ![](/images/Assembly_Add_Workplane.svg) Add workplane** menu option.
 
 Retrieved from "<http://wiki.freecad.org/index.php?title=Assembly3_AddWorkplane/en&oldid=1096415>"

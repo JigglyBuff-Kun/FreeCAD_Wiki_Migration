@@ -12,37 +12,37 @@ See also [video tutorials](/Video_tutorials "Video tutorials") and [books](/Book
 
 ## Architecture and BIM
 
-- [![Arch_tutorial (v0.14) This is the essential introduction to the Arch Workbench. It is extensive and showcases a typical workflow, from importing plans in DXF format to building the 3D model.](/src/assets/images/Arch_tutorial_00.jpg)](/Arch_tutorial "Arch_tutorial (v0.14) This is the essential introduction to the Arch Workbench. It is extensive and showcases a typical workflow, from importing plans in DXF format to building the 3D model.")
+- [![Arch_tutorial (v0.14) This is the essential introduction to the Arch Workbench. It is extensive and showcases a typical workflow, from importing plans in DXF format to building the 3D model.](/images/Arch_tutorial_00.jpg)](/Arch_tutorial "Arch_tutorial (v0.14) This is the essential introduction to the Arch Workbench. It is extensive and showcases a typical workflow, from importing plans in DXF format to building the 3D model.")
 
   [Arch_tutorial](/Arch_tutorial "Arch tutorial") (v0.14)  
   This is the essential introduction to the Arch Workbench. It is extensive and showcases a typical workflow, from importing plans in DXF format to building the 3D model.
 
-- [![BIM modeling How to model a small house, produce a blueprint with TechDraw, and export to IFC.](/src/assets/images/Exercise_arch_01.jpg)](/Manual:BIM_modeling "BIM modeling How to model a small house, produce a blueprint with TechDraw, and export to IFC. ")
+- [![BIM modeling How to model a small house, produce a blueprint with TechDraw, and export to IFC.](/images/Exercise_arch_01.jpg)](/Manual:BIM_modeling "BIM modeling How to model a small house, produce a blueprint with TechDraw, and export to IFC. ")
 
   [BIM modeling](/Manual:BIM_modeling "Manual:BIM modeling")  
   How to model a small house, produce a blueprint with TechDraw, and export to IFC.
 
-- [![Open windows and doors (v0.18) How to display windows and doors as open, with elevation and plan symbols, and produce a basic floor plan with TechDraw.](/src/assets/images/11_T01_window_all_symbol_top.png)](/Tutorial_for_open_windows "Open windows and doors (v0.18) How to display windows and doors as open, with elevation and plan symbols, and produce a basic floor plan with TechDraw.")
+- [![Open windows and doors (v0.18) How to display windows and doors as open, with elevation and plan symbols, and produce a basic floor plan with TechDraw.](/images/11_T01_window_all_symbol_top.png)](/Tutorial_for_open_windows "Open windows and doors (v0.18) How to display windows and doors as open, with elevation and plan symbols, and produce a basic floor plan with TechDraw.")
 
   [Open windows and doors](/Tutorial_for_open_windows "Tutorial for open windows") (v0.18)  
   How to display windows and doors as open, with elevation and plan symbols, and produce a basic floor plan with TechDraw.
 
-- [![Design custom windows (v0.18) How to draw custom doors and windows using the Sketcher, and adjust their normals to correctly place them in walls.](/src/assets/images/17_T02_sketch_2_attached_correctly.png)](/Tutorial_custom_placing_of_windows_and_doors "Design custom windows (v0.18) How to draw custom doors and windows using the Sketcher, and adjust their normals to correctly place them in walls.")
+- [![Design custom windows (v0.18) How to draw custom doors and windows using the Sketcher, and adjust their normals to correctly place them in walls.](/images/17_T02_sketch_2_attached_correctly.png)](/Tutorial_custom_placing_of_windows_and_doors "Design custom windows (v0.18) How to draw custom doors and windows using the Sketcher, and adjust their normals to correctly place them in walls.")
 
   [Design custom windows](/Tutorial_custom_placing_of_windows_and_doors "Tutorial custom placing of windows and doors") (v0.18)  
   How to draw custom doors and windows using the Sketcher, and adjust their normals to correctly place them in walls.
 
-- [![Arch panel tutorial (v0.15) Modeling a microhouse roof panel by using the Sketcher, the Window tool, and the Panel tool.](/src/assets/images/Arch_panel_tutorial_01.jpg)](/Arch_panel_tutorial "Arch panel tutorial (v0.15) Modeling a microhouse roof panel by using the Sketcher, the Window tool, and the Panel tool.")
+- [![Arch panel tutorial (v0.15) Modeling a microhouse roof panel by using the Sketcher, the Window tool, and the Panel tool.](/images/Arch_panel_tutorial_01.jpg)](/Arch_panel_tutorial "Arch panel tutorial (v0.15) Modeling a microhouse roof panel by using the Sketcher, the Window tool, and the Panel tool.")
 
   [Arch panel tutorial](/Arch_panel_tutorial "Arch panel tutorial") (v0.15)  
   Modeling a microhouse roof panel by using the Sketcher, the Window tool, and the Panel tool.
 
-- [![WikiHouse modelling Re-modeling the WikiHouse project using sketches and panels, starting from importing a mesh model created in SketchUp.](/src/assets/images/Arch_Wikihouse_01.jpg)](/Wikihouse_porting_tutorial "WikiHouse modelling Re-modeling the WikiHouse project using sketches and panels, starting from importing a mesh model created in SketchUp. ")
+- [![WikiHouse modelling Re-modeling the WikiHouse project using sketches and panels, starting from importing a mesh model created in SketchUp.](/images/Arch_Wikihouse_01.jpg)](/Wikihouse_porting_tutorial "WikiHouse modelling Re-modeling the WikiHouse project using sketches and panels, starting from importing a mesh model created in SketchUp. ")
 
   [WikiHouse modelling](/Wikihouse_porting_tutorial "Wikihouse porting tutorial")  
   Re-modeling the WikiHouse project using sketches and panels, starting from importing a mesh model created in SketchUp.
 
-- [![Native IFC Tutorial Learn to work with native IFC files, objects and concepts in the BIM workbench.](/src/assets/images/Nativeifc-tutorial-01.jpg)](/NativeIFC_Tutorial "Native IFC Tutorial Learn to work with native IFC files, objects and concepts in the BIM workbench. ")
+- [![Native IFC Tutorial Learn to work with native IFC files, objects and concepts in the BIM workbench.](/images/Nativeifc-tutorial-01.jpg)](/NativeIFC_Tutorial "Native IFC Tutorial Learn to work with native IFC files, objects and concepts in the BIM workbench. ")
 
   [Native IFC Tutorial](/NativeIFC_Tutorial "NativeIFC Tutorial")  
   Learn to work with native IFC files, objects and concepts in the BIM workbench.
@@ -56,67 +56,67 @@ FreeCAD provides two main workflows to modeling parts:
 
 Please note that the [PartDesign Workbench](/PartDesign_Workbench "PartDesign Workbench") workflow was considerably changed from FreeCAD 0.17 onward; some of the tutorials haven't been updated and may refer to the 0.16 version.
 
-- [![Creating a simple part with Part Workbench An introduction to FreeCAD and Part Workbench using primitive solids.](/src/assets/images/GGTuto1_Vue.PNG)](/Creating_a_simple_part_with_Part_WB "Creating a simple part with Part Workbench An introduction to FreeCAD and Part Workbench using primitive solids. ")
+- [![Creating a simple part with Part Workbench An introduction to FreeCAD and Part Workbench using primitive solids.](/images/GGTuto1_Vue.PNG)](/Creating_a_simple_part_with_Part_WB "Creating a simple part with Part Workbench An introduction to FreeCAD and Part Workbench using primitive solids. ")
 
   [Creating a simple part with Part Workbench](/Creating_a_simple_part_with_Part_WB "Creating a simple part with Part WB")  
   An introduction to FreeCAD and Part Workbench using primitive solids.
 
-- [![Creating a simple part with Draft and Part Workbench An introduction to modeling solids with Draft Workbench by creating a 2d profile in draft.](/src/assets/images/GGTuto1_Vue.PNG)](/Creating_a_simple_part_with_Draft_and_Part_WB "Creating a simple part with Draft and Part Workbench An introduction to modeling solids with Draft Workbench by creating a 2d profile in draft. ")
+- [![Creating a simple part with Draft and Part Workbench An introduction to modeling solids with Draft Workbench by creating a 2d profile in draft.](/images/GGTuto1_Vue.PNG)](/Creating_a_simple_part_with_Draft_and_Part_WB "Creating a simple part with Draft and Part Workbench An introduction to modeling solids with Draft Workbench by creating a 2d profile in draft. ")
 
   [Creating a simple part with Draft and Part Workbench](/Creating_a_simple_part_with_Draft_and_Part_WB "Creating a simple part with Draft and Part WB")  
   An introduction to modeling solids with Draft Workbench by creating a 2d profile in draft.
 
-- [![Creating a simple part with PartDesign (v0.17) An introduction to the PartDesign workflow: tracing a sketch, using pad, pocket, and moving the object.](/src/assets/images/GGTuto1_Vue.PNG)](/Creating_a_simple_part_with_PartDesign "Creating a simple part with PartDesign (v0.17) An introduction to the PartDesign workflow: tracing a sketch, using pad, pocket, and moving the object.")
+- [![Creating a simple part with PartDesign (v0.17) An introduction to the PartDesign workflow: tracing a sketch, using pad, pocket, and moving the object.](/images/GGTuto1_Vue.PNG)](/Creating_a_simple_part_with_PartDesign "Creating a simple part with PartDesign (v0.17) An introduction to the PartDesign workflow: tracing a sketch, using pad, pocket, and moving the object.")
 
   [Creating a simple part with PartDesign](/Creating_a_simple_part_with_PartDesign "Creating a simple part with PartDesign") (v0.17)  
   An introduction to the PartDesign workflow: tracing a sketch, using pad, pocket, and moving the object.
 
-- [![Basic Part Design Tutorial (v0.17) Model a simple part using a feature editing methodology: creating a sketch, using pad, external references, pocket, and mirror.](/src/assets/images/Pd_tut_final_solid.png)](/Basic_Part_Design_Tutorial "Basic Part Design Tutorial (v0.17) Model a simple part using a feature editing methodology: creating a sketch, using pad, external references, pocket, and mirror.")
+- [![Basic Part Design Tutorial (v0.17) Model a simple part using a feature editing methodology: creating a sketch, using pad, external references, pocket, and mirror.](/images/Pd_tut_final_solid.png)](/Basic_Part_Design_Tutorial "Basic Part Design Tutorial (v0.17) Model a simple part using a feature editing methodology: creating a sketch, using pad, external references, pocket, and mirror.")
 
   [Basic Part Design Tutorial](/Basic_Part_Design_Tutorial "Basic Part Design Tutorial") (v0.17)  
   Model a simple part using a feature editing methodology: creating a sketch, using pad, external references, pocket, and mirror.
 
-- [![Basic Part Design Tutorial 019 (v0.19 or above) An updated version of the previous tutorial that creates the same model using techniques that avoid the topological naming problem.](/src/assets/images/Pd_tut_final_solid.png)](/Basic_Part_Design_Tutorial_019 "Basic Part Design Tutorial 019 (v0.19 or above) An updated version of the previous tutorial that creates the same model using techniques that avoid the topological naming problem.")
+- [![Basic Part Design Tutorial 019 (v0.19 or above) An updated version of the previous tutorial that creates the same model using techniques that avoid the topological naming problem.](/images/Pd_tut_final_solid.png)](/Basic_Part_Design_Tutorial_019 "Basic Part Design Tutorial 019 (v0.19 or above) An updated version of the previous tutorial that creates the same model using techniques that avoid the topological naming problem.")
 
   [Basic Part Design Tutorial 019](/Basic_Part_Design_Tutorial_019 "Basic Part Design Tutorial 019") (v0.19 or above)  
   An updated version of the previous tutorial that creates the same model using techniques that avoid the [topological naming problem](/Topological_naming_problem "Topological naming problem").
 
-- [![Model an electric toothbrush head stand (v0.16 or above) Multiple features used: sketch, distance and coincident constraints, pad, external references, fillet, chamfer, linear pattern, and draft.](/src/assets/images/TBHS-model.png)](/Toothbrush_Head_Stand "Model an electric toothbrush head stand (v0.16 or above) Multiple features used: sketch, distance and coincident constraints, pad, external references, fillet, chamfer, linear pattern, and draft.")
+- [![Model an electric toothbrush head stand (v0.16 or above) Multiple features used: sketch, distance and coincident constraints, pad, external references, fillet, chamfer, linear pattern, and draft.](/images/TBHS-model.png)](/Toothbrush_Head_Stand "Model an electric toothbrush head stand (v0.16 or above) Multiple features used: sketch, distance and coincident constraints, pad, external references, fillet, chamfer, linear pattern, and draft.")
 
   [Model an electric toothbrush head stand](/Toothbrush_Head_Stand "Toothbrush Head Stand") (v0.16 or above)  
   Multiple features used: sketch, distance and coincident constraints, pad, external references, fillet, chamfer, linear pattern, and draft.
 
-- [![Modeling for product design (v0.16) Modeling a Lego block: sketches, vertical and horizontal distance constraints, pad, pocket, external reference, linear pattern, and assembly.](/src/assets/images/Exercise_lego_01.jpg)](/Manual:Modeling_for_product_design "Modeling for product design (v0.16) Modeling a Lego block: sketches, vertical and horizontal distance constraints, pad, pocket, external reference, linear pattern, and assembly.")
+- [![Modeling for product design (v0.16) Modeling a Lego block: sketches, vertical and horizontal distance constraints, pad, pocket, external reference, linear pattern, and assembly.](/images/Exercise_lego_01.jpg)](/Manual:Modeling_for_product_design "Modeling for product design (v0.16) Modeling a Lego block: sketches, vertical and horizontal distance constraints, pad, pocket, external reference, linear pattern, and assembly.")
 
   [Modeling for product design](/Manual:Modeling_for_product_design "Manual:Modeling for product design") (v0.16)  
   Modeling a Lego block: sketches, vertical and horizontal distance constraints, pad, pocket, external reference, linear pattern, and assembly.
 
-- [![Traditional modeling, the CSG way Modeling a table by using simple solids like cubes and cylinders, and performing boolean operations (fusions and cuts) with them.](/src/assets/images/Exercise_table_complete.jpg)](/Manual:Traditional_modeling,_the_CSG_way "Traditional modeling, the CSG way Modeling a table by using simple solids like cubes and cylinders, and performing boolean operations (fusions and cuts) with them.")
+- [![Traditional modeling, the CSG way Modeling a table by using simple solids like cubes and cylinders, and performing boolean operations (fusions and cuts) with them.](/images/Exercise_table_complete.jpg)](/Manual:Traditional_modeling,_the_CSG_way "Traditional modeling, the CSG way Modeling a table by using simple solids like cubes and cylinders, and performing boolean operations (fusions and cuts) with them.")
 
   [Traditional modeling, the CSG way](/Manual:Traditional_modeling,_the_CSG_way "Manual:Traditional modeling, the CSG way")  
   Modeling a table by using simple solids like cubes and cylinders, and performing boolean operations (fusions and cuts) with them.
 
-- [![Draft ShapeString tutorial (v0.19) Create engraved text on a solid: extrude a shapestring to make it solid, then use a boolean cut to carve it from another solid.](/src/assets/images/08_T04_Part_ShapesString_Extrude_final_cut.png)](/Draft_ShapeString_tutorial "Draft ShapeString tutorial (v0.19) Create engraved text on a solid: extrude a shapestring to make it solid, then use a boolean cut to carve it from another solid.")
+- [![Draft ShapeString tutorial (v0.19) Create engraved text on a solid: extrude a shapestring to make it solid, then use a boolean cut to carve it from another solid.](/images/08_T04_Part_ShapesString_Extrude_final_cut.png)](/Draft_ShapeString_tutorial "Draft ShapeString tutorial (v0.19) Create engraved text on a solid: extrude a shapestring to make it solid, then use a boolean cut to carve it from another solid.")
 
   [Draft ShapeString tutorial](/Draft_ShapeString_tutorial "Draft ShapeString tutorial") (v0.19)  
   Create engraved text on a solid: extrude a shapestring to make it solid, then use a boolean cut to carve it from another solid.
 
-- [![Create a wiffle ball (v0.19) Use solid primitives, like cubes and cylinders, and boolean operations, like union and cut, to create a hollowed ball.](/src/assets/images/10_T03_Part_ball_fillet.png)](/Whiffle_Ball_tutorial "Create a wiffle ball (v0.19) Use solid primitives, like cubes and cylinders, and boolean operations, like union and cut, to create a hollowed ball.")
+- [![Create a wiffle ball (v0.19) Use solid primitives, like cubes and cylinders, and boolean operations, like union and cut, to create a hollowed ball.](/images/10_T03_Part_ball_fillet.png)](/Whiffle_Ball_tutorial "Create a wiffle ball (v0.19) Use solid primitives, like cubes and cylinders, and boolean operations, like union and cut, to create a hollowed ball.")
 
   [Create a wiffle ball](/Whiffle_Ball_tutorial "Whiffle Ball tutorial") (v0.19)  
   Use solid primitives, like cubes and cylinders, and boolean operations, like union and cut, to create a hollowed ball.
 
-- [![Basic modeling tutorial Create an iron angle by two methods: using solid primitives, and boolean operations (CSG); and by extruding a planar profile.](/src/assets/images/Tutorial-normand06.jpg)](/Basic_modeling_tutorial "Basic modeling tutorial Create an iron angle by two methods: using solid primitives, and boolean operations (CSG); and by extruding a planar profile.")
+- [![Basic modeling tutorial Create an iron angle by two methods: using solid primitives, and boolean operations (CSG); and by extruding a planar profile.](/images/Tutorial-normand06.jpg)](/Basic_modeling_tutorial "Basic modeling tutorial Create an iron angle by two methods: using solid primitives, and boolean operations (CSG); and by extruding a planar profile.")
 
   [Basic modeling tutorial](/Basic_modeling_tutorial "Basic modeling tutorial")  
   Create an iron angle by two methods: using solid primitives, and boolean operations (CSG); and by extruding a planar profile.
 
-- [![Aeroplane tutorial Understand placements in FreeCAD by creating a simple aeroplane model. Then learn about rotation angles, yaw (Z), pitch (Y), and roll (X).](/src/assets/images/HTCaeroplane04.png)](/Aeroplane "Aeroplane tutorial Understand placements in FreeCAD by creating a simple aeroplane model. Then learn about rotation angles, yaw (Z), pitch (Y), and roll (X).")
+- [![Aeroplane tutorial Understand placements in FreeCAD by creating a simple aeroplane model. Then learn about rotation angles, yaw (Z), pitch (Y), and roll (X).](/images/HTCaeroplane04.png)](/Aeroplane "Aeroplane tutorial Understand placements in FreeCAD by creating a simple aeroplane model. Then learn about rotation angles, yaw (Z), pitch (Y), and roll (X).")
 
   [Aeroplane tutorial](/Aeroplane "Aeroplane")  
   Understand placements in FreeCAD by creating a simple aeroplane model. Then learn about rotation angles, yaw (Z), pitch (Y), and roll (X).
 
-- [![Thread for screw tutorial (v0.19) Understand how to create threads with several techniques that include use of the tools Part Helix, PartDesign AdditivePipe, Part Sweep, Part Fuse, and Part Cut.](/src/assets/images/T13_14_Threads_components.png)](/Thread_for_Screw_Tutorial "Thread for screw tutorial (v0.19) Understand how to create threads with several techniques that include use of the tools Part Helix, PartDesign AdditivePipe, Part Sweep, Part Fuse, and Part Cut.")
+- [![Thread for screw tutorial (v0.19) Understand how to create threads with several techniques that include use of the tools Part Helix, PartDesign AdditivePipe, Part Sweep, Part Fuse, and Part Cut.](/images/T13_14_Threads_components.png)](/Thread_for_Screw_Tutorial "Thread for screw tutorial (v0.19) Understand how to create threads with several techniques that include use of the tools Part Helix, PartDesign AdditivePipe, Part Sweep, Part Fuse, and Part Cut.")
 
   [Thread for screw tutorial](/Thread_for_Screw_Tutorial "Thread for Screw Tutorial") (v0.19)  
   Understand how to create threads with several techniques that include use of the tools [Part Helix](/Part_Helix "Part Helix"), [PartDesign AdditivePipe](/PartDesign_AdditivePipe "PartDesign AdditivePipe"), [Part Sweep](/Part_Sweep "Part Sweep"), [Part Fuse](/Part_Fuse "Part Fuse"), and [Part Cut](/Part_Cut "Part Cut").
@@ -130,115 +130,115 @@ The Raspberry Pi project has made simple tutorials that are easy to follow, part
 
 ## Drafting and Sketching
 
-- [![Traditional 2D drafting Draw a floor plan with lines, wires, rectangles, circular arcs, and add hatch patterns, annotations, and dimensions. Export the result to DXF.](/src/assets/images/Exercise_cabin_01.jpg)](/Manual:Traditional_2D_drafting "Traditional 2D drafting Draw a floor plan with lines, wires, rectangles, circular arcs, and add hatch patterns, annotations, and dimensions. Export the result to DXF. ")
+- [![Traditional 2D drafting Draw a floor plan with lines, wires, rectangles, circular arcs, and add hatch patterns, annotations, and dimensions. Export the result to DXF.](/images/Exercise_cabin_01.jpg)](/Manual:Traditional_2D_drafting "Traditional 2D drafting Draw a floor plan with lines, wires, rectangles, circular arcs, and add hatch patterns, annotations, and dimensions. Export the result to DXF. ")
 
   [Traditional 2D drafting](/Manual:Traditional_2D_drafting "Manual:Traditional 2D drafting")  
   Draw a floor plan with lines, wires, rectangles, circular arcs, and add hatch patterns, annotations, and dimensions. Export the result to DXF.
 
-- [![Draft tutorial (v0.19) This is a basic introduction to the tools of the Draft Workbench: working plane, grid, line, arc, upgrade, rectangle, circle, polygon, arrays, dimensions, annotations, and shapestring.](/src/assets/images/00_Dr01_Draft_Tutorial_final.png)](/Draft_tutorial "Draft tutorial (v0.19) This is a basic introduction to the tools of the Draft Workbench: working plane, grid, line, arc, upgrade, rectangle, circle, polygon, arrays, dimensions, annotations, and shapestring.")
+- [![Draft tutorial (v0.19) This is a basic introduction to the tools of the Draft Workbench: working plane, grid, line, arc, upgrade, rectangle, circle, polygon, arrays, dimensions, annotations, and shapestring.](/images/00_Dr01_Draft_Tutorial_final.png)](/Draft_tutorial "Draft tutorial (v0.19) This is a basic introduction to the tools of the Draft Workbench: working plane, grid, line, arc, upgrade, rectangle, circle, polygon, arrays, dimensions, annotations, and shapestring.")
 
   [Draft tutorial](/Draft_tutorial "Draft tutorial") (v0.19)  
   This is a basic introduction to the tools of the [Draft Workbench](/Draft_Workbench "Draft Workbench"): working plane, grid, line, arc, upgrade, rectangle, circle, polygon, arrays, dimensions, annotations, and shapestring.
 
-- [![Sketcher Lecture (v0.19) This is a more than 80 page PDF document that serves as a detailed manual for the Sketcher Workbench. It explains the basics of Sketcher usage, and goes into a lot of detail about the creation of geometrical shapes, and each of the constraints.](/src/assets/images/Sketcher_reference.png)](/Sketcher_Lecture "Sketcher Lecture (v0.19) This is a more than 80 page PDF document that serves as a detailed manual for the Sketcher Workbench. It explains the basics of Sketcher usage, and goes into a lot of detail about the creation of geometrical shapes, and each of the constraints.")
+- [![Sketcher Lecture (v0.19) This is a more than 80 page PDF document that serves as a detailed manual for the Sketcher Workbench. It explains the basics of Sketcher usage, and goes into a lot of detail about the creation of geometrical shapes, and each of the constraints.](/images/Sketcher_reference.png)](/Sketcher_Lecture "Sketcher Lecture (v0.19) This is a more than 80 page PDF document that serves as a detailed manual for the Sketcher Workbench. It explains the basics of Sketcher usage, and goes into a lot of detail about the creation of geometrical shapes, and each of the constraints.")
 
   [Sketcher Lecture](/Sketcher_Lecture "Sketcher Lecture") (v0.19)  
    This is a more than 80 page PDF document that serves as a detailed manual for the [Sketcher Workbench](/Sketcher_Workbench "Sketcher Workbench"). It explains the basics of Sketcher usage, and goes into a lot of detail about the creation of geometrical shapes, and each of the constraints.
 
-- [![Basic_Sketcher_Tutorial (v0.19) This is a basic introduction to the tools of the Sketcher Workbench: construction mode, line, circle, arc, constraints (equality, vertical, horizontal, tangential, distance, angle, radius).](/src/assets/images/09b_Sk01_Sketcher_fully_constrained_clean.png)](/Basic_Sketcher_Tutorial "Basic_Sketcher_Tutorial (v0.19) This is a basic introduction to the tools of the Sketcher Workbench: construction mode, line, circle, arc, constraints (equality, vertical, horizontal, tangential, distance, angle, radius).")
+- [![Basic_Sketcher_Tutorial (v0.19) This is a basic introduction to the tools of the Sketcher Workbench: construction mode, line, circle, arc, constraints (equality, vertical, horizontal, tangential, distance, angle, radius).](/images/09b_Sk01_Sketcher_fully_constrained_clean.png)](/Basic_Sketcher_Tutorial "Basic_Sketcher_Tutorial (v0.19) This is a basic introduction to the tools of the Sketcher Workbench: construction mode, line, circle, arc, constraints (equality, vertical, horizontal, tangential, distance, angle, radius).")
 
   [Basic_Sketcher_Tutorial](/Basic_Sketcher_Tutorial "Basic Sketcher Tutorial") (v0.19)  
   This is a basic introduction to the tools of the Sketcher Workbench: construction mode, line, circle, arc, constraints (equality, vertical, horizontal, tangential, distance, angle, radius).
 
-- [![Sketcher constraints practices (v0.19) Learn to efficiently constrain a sketch. Prefer geometric constraints over datum constraints.](/src/assets/images/03d_Sk02_Sketcher_Rectangle_constrained_length.png)](/Sketcher_Micro_Tutorial_-_Constraint_Practices "Sketcher constraints practices (v0.19) Learn to efficiently constrain a sketch. Prefer geometric constraints over datum constraints.")
+- [![Sketcher constraints practices (v0.19) Learn to efficiently constrain a sketch. Prefer geometric constraints over datum constraints.](/images/03d_Sk02_Sketcher_Rectangle_constrained_length.png)](/Sketcher_Micro_Tutorial_-_Constraint_Practices "Sketcher constraints practices (v0.19) Learn to efficiently constrain a sketch. Prefer geometric constraints over datum constraints.")
 
   [Sketcher constraints practices](/Sketcher_Micro_Tutorial_-_Constraint_Practices "Sketcher Micro Tutorial - Constraint Practices") (v0.19)  
   Learn to efficiently constrain a sketch. Prefer geometric constraints over datum constraints.
 
 ## Technical Drawings
 
-- [![Basic TechDraw Tutorial (v0.17) This is the essential introduction to the tools of the TechDraw Workbench: page, view, scale, vertical and horizontal dimensions, annotations, projection groups, linking dimensions to the 3D view.](/src/assets/images/TDTut_ProjGroup21.png)](/Basic_TechDraw_Tutorial "Basic TechDraw Tutorial (v0.17) This is the essential introduction to the tools of the TechDraw Workbench: page, view, scale, vertical and horizontal dimensions, annotations, projection groups, linking dimensions to the 3D view.")
+- [![Basic TechDraw Tutorial (v0.17) This is the essential introduction to the tools of the TechDraw Workbench: page, view, scale, vertical and horizontal dimensions, annotations, projection groups, linking dimensions to the 3D view.](/images/TDTut_ProjGroup21.png)](/Basic_TechDraw_Tutorial "Basic TechDraw Tutorial (v0.17) This is the essential introduction to the tools of the TechDraw Workbench: page, view, scale, vertical and horizontal dimensions, annotations, projection groups, linking dimensions to the 3D view.")
 
   [Basic TechDraw Tutorial](/Basic_TechDraw_Tutorial "Basic TechDraw Tutorial") (v0.17)  
   This is the essential introduction to the tools of the TechDraw Workbench: page, view, scale, vertical and horizontal dimensions, annotations, projection groups, linking dimensions to the 3D view.
 
-- [![Creating a new background template (v0.17) Instructions to create a page template in Inkscape for using it with the TechDraw Workbench. Determine the size of the sheet, draw a frame for the page, define fixed text, and editable text fields.](/src/assets/images/FCTemplateHow.png)](/TechDraw_TemplateHowTo "Creating a new background template (v0.17) Instructions to create a page template in Inkscape for using it with the TechDraw Workbench. Determine the size of the sheet, draw a frame for the page, define fixed text, and editable text fields.")
+- [![Creating a new background template (v0.17) Instructions to create a page template in Inkscape for using it with the TechDraw Workbench. Determine the size of the sheet, draw a frame for the page, define fixed text, and editable text fields.](/images/FCTemplateHow.png)](/TechDraw_TemplateHowTo "Creating a new background template (v0.17) Instructions to create a page template in Inkscape for using it with the TechDraw Workbench. Determine the size of the sheet, draw a frame for the page, define fixed text, and editable text fields.")
 
   [Creating a new background template](/TechDraw_TemplateHowTo "TechDraw TemplateHowTo") (v0.17)  
   Instructions to create a page template in Inkscape for using it with the TechDraw Workbench. Determine the size of the sheet, draw a frame for the page, define fixed text, and editable text fields.
 
-- [![Measurement Of Angles On Holes (v0.19) Instructions for adding center lines and subsequent angle representations on holes.](/src/assets/images/AnHi1.png)](/Measurement_Of_Angles_On_Holes "Measurement Of Angles On Holes (v0.19) Instructions for adding center lines and subsequent angle representations on holes.")
+- [![Measurement Of Angles On Holes (v0.19) Instructions for adding center lines and subsequent angle representations on holes.](/images/AnHi1.png)](/Measurement_Of_Angles_On_Holes "Measurement Of Angles On Holes (v0.19) Instructions for adding center lines and subsequent angle representations on holes.")
 
   [Measurement Of Angles On Holes](/Measurement_Of_Angles_On_Holes "Measurement Of Angles On Holes") (v0.19)  
    Instructions for adding center lines and subsequent angle representations on holes.
 
 ## FEM
 
-- [![FEM Geometry Preparation and Meshing (v0.21) This is a general reference for the most common issues related to geometry preparation and meshing for FEM. It contains several tips and explains the current capabilities of the FEM workbench in terms of geometry and mesh handling.](/src/assets/images/FEM_locally_refined_mesh.PNG)](/FEM_Geometry_Preparation_and_Meshing "FEM Geometry Preparation and Meshing (v0.21) This is a general reference for the most common issues related to geometry preparation and meshing for FEM. It contains several tips and explains the current capabilities of the FEM workbench in terms of geometry and mesh handling.")
+- [![FEM Geometry Preparation and Meshing (v0.21) This is a general reference for the most common issues related to geometry preparation and meshing for FEM. It contains several tips and explains the current capabilities of the FEM workbench in terms of geometry and mesh handling.](/images/FEM_locally_refined_mesh.PNG)](/FEM_Geometry_Preparation_and_Meshing "FEM Geometry Preparation and Meshing (v0.21) This is a general reference for the most common issues related to geometry preparation and meshing for FEM. It contains several tips and explains the current capabilities of the FEM workbench in terms of geometry and mesh handling.")
 
   [FEM Geometry Preparation and Meshing](/FEM_Geometry_Preparation_and_Meshing "FEM Geometry Preparation and Meshing") (v0.21)  
   This is a general reference for the most common issues related to geometry preparation and meshing for FEM. It contains several tips and explains the current capabilities of the FEM workbench in terms of geometry and mesh handling.
 
-- [![CalculiX cantilever FEM analysis (v0.20) This is an example included in every installation of FreeCAD; it demonstrates a basic analysis with the CalculiX FE solver. Purge the current result, re-run the solver, and view the displacements and stresses in the deformed mesh in the viewport.](/src/assets/images/FEM_example01_pic00.jpg)](/FEM_CalculiX_Cantilever_3D "CalculiX cantilever FEM analysis (v0.20) This is an example included in every installation of FreeCAD; it demonstrates a basic analysis with the CalculiX FE solver. Purge the current result, re-run the solver, and view the displacements and stresses in the deformed mesh in the viewport.")
+- [![CalculiX cantilever FEM analysis (v0.20) This is an example included in every installation of FreeCAD; it demonstrates a basic analysis with the CalculiX FE solver. Purge the current result, re-run the solver, and view the displacements and stresses in the deformed mesh in the viewport.](/images/FEM_example01_pic00.jpg)](/FEM_CalculiX_Cantilever_3D "CalculiX cantilever FEM analysis (v0.20) This is an example included in every installation of FreeCAD; it demonstrates a basic analysis with the CalculiX FE solver. Purge the current result, re-run the solver, and view the displacements and stresses in the deformed mesh in the viewport.")
 
   [CalculiX cantilever FEM analysis](/FEM_CalculiX_Cantilever_3D "FEM CalculiX Cantilever 3D") (v0.20)  
   This is an example included in every installation of FreeCAD; it demonstrates a basic analysis with the CalculiX FE solver. Purge the current result, re-run the solver, and view the displacements and stresses in the deformed mesh in the viewport.
 
-- [![Simple FEM introduction (v0.20) This is a short introduction to the steps required to perform an analysis in the FEM Workbench: model your object, create a mesh, add constraints and forces, add a material, run the solver, and visualize the results.](/src/assets/images/FEM_tutorial_result.png)](/FEM_tutorial "Simple FEM introduction (v0.20) This is a short introduction to the steps required to perform an analysis in the FEM Workbench: model your object, create a mesh, add constraints and forces, add a material, run the solver, and visualize the results.")
+- [![Simple FEM introduction (v0.20) This is a short introduction to the steps required to perform an analysis in the FEM Workbench: model your object, create a mesh, add constraints and forces, add a material, run the solver, and visualize the results.](/images/FEM_tutorial_result.png)](/FEM_tutorial "Simple FEM introduction (v0.20) This is a short introduction to the steps required to perform an analysis in the FEM Workbench: model your object, create a mesh, add constraints and forces, add a material, run the solver, and visualize the results.")
 
   [Simple FEM introduction](/FEM_tutorial "FEM tutorial") (v0.20)  
   This is a short introduction to the steps required to perform an analysis in the FEM Workbench: model your object, create a mesh, add constraints and forces, add a material, run the solver, and visualize the results.
 
-- [![FEM shear analysis of a composite block (v0.17) Study the deformation of a block made of a hard nucleus surrounded by a softer material: create mesh regions, add materials, set up sliding constraints, add shear loads, run the solver, and visualize the results with a clip plane.](/src/assets/images/Figure_11_Deformed_Mesh.png)](/FEM_Shear_of_a_Composite_Block "FEM shear analysis of a composite block (v0.17) Study the deformation of a block made of a hard nucleus surrounded by a softer material: create mesh regions, add materials, set up sliding constraints, add shear loads, run the solver, and visualize the results with a clip plane.")
+- [![FEM shear analysis of a composite block (v0.17) Study the deformation of a block made of a hard nucleus surrounded by a softer material: create mesh regions, add materials, set up sliding constraints, add shear loads, run the solver, and visualize the results with a clip plane.](/images/Figure_11_Deformed_Mesh.png)](/FEM_Shear_of_a_Composite_Block "FEM shear analysis of a composite block (v0.17) Study the deformation of a block made of a hard nucleus surrounded by a softer material: create mesh regions, add materials, set up sliding constraints, add shear loads, run the solver, and visualize the results with a clip plane.")
 
   [FEM shear analysis of a composite block](/FEM_Shear_of_a_Composite_Block "FEM Shear of a Composite Block") (v0.17)  
   Study the deformation of a block made of a hard nucleus surrounded by a softer material: create mesh regions, add materials, set up sliding constraints, add shear loads, run the solver, and visualize the results with a clip plane.
 
-- [![Analysis of reinforced concrete with FEM (v0.19) Estimate the level of reinforcement required in a concrete structure to prevent brittle failure under tension or shear.](/src/assets/images/Femconcrete_Wall_3D_rx_PSS.png)](/Analysis_of_reinforced_concrete_with_FEM "Analysis of reinforced concrete with FEM (v0.19) Estimate the level of reinforcement required in a concrete structure to prevent brittle failure under tension or shear.")
+- [![Analysis of reinforced concrete with FEM (v0.19) Estimate the level of reinforcement required in a concrete structure to prevent brittle failure under tension or shear.](/images/Femconcrete_Wall_3D_rx_PSS.png)](/Analysis_of_reinforced_concrete_with_FEM "Analysis of reinforced concrete with FEM (v0.19) Estimate the level of reinforcement required in a concrete structure to prevent brittle failure under tension or shear.")
 
   [Analysis of reinforced concrete with FEM](/Analysis_of_reinforced_concrete_with_FEM "Analysis of reinforced concrete with FEM") (v0.19)  
   Estimate the level of reinforcement required in a concrete structure to prevent brittle failure under tension or shear.
 
-- [![Electrostatic equation – Capacitance of two balls (v0.19) This example shows how to simulate a capacitance. It illustrates how to setup the example, study its various parts, solve it using the Elmer Solver and visualize the results using Clip Filter.](/src/assets/images/Two_balls_result_2-cropped.png)](/FEM_Example_Capacitance_Two_Balls "Electrostatic equation – Capacitance of two balls (v0.19) This example shows how to simulate a capacitance. It illustrates how to setup the example, study its various parts, solve it using the Elmer Solver and visualize the results using Clip Filter.")
+- [![Electrostatic equation – Capacitance of two balls (v0.19) This example shows how to simulate a capacitance. It illustrates how to setup the example, study its various parts, solve it using the Elmer Solver and visualize the results using Clip Filter.](/images/Two_balls_result_2-cropped.png)](/FEM_Example_Capacitance_Two_Balls "Electrostatic equation – Capacitance of two balls (v0.19) This example shows how to simulate a capacitance. It illustrates how to setup the example, study its various parts, solve it using the Elmer Solver and visualize the results using Clip Filter.")
 
   [Electrostatic equation – Capacitance of two balls](/FEM_Example_Capacitance_Two_Balls "FEM Example Capacitance Two Balls") (v0.19)  
   This example shows how to simulate a capacitance. It illustrates how to setup the example, study its various parts, solve it using the [Elmer Solver](/FEM_SolverElmer "FEM SolverElmer") and visualize the results using [Clip Filter](/FEM_PostFilterClipRegion "FEM PostFilterClipRegion").
 
-- [![Post-Processing of FEM results with Paraview (v0.19) This tutorial explains the basics of transferring data from the FEM Workbench to Paraview and shows some of the options and settings for displaying data.](/src/assets/images/FEM_post-processing_Paraview.png)](/Post-Processing_of_FEM_Results_with_Paraview "Post-Processing of FEM results with Paraview (v0.19) This tutorial explains the basics of transferring data from the FEM Workbench to Paraview and shows some of the options and settings for displaying data.")
+- [![Post-Processing of FEM results with Paraview (v0.19) This tutorial explains the basics of transferring data from the FEM Workbench to Paraview and shows some of the options and settings for displaying data.](/images/FEM_post-processing_Paraview.png)](/Post-Processing_of_FEM_Results_with_Paraview "Post-Processing of FEM results with Paraview (v0.19) This tutorial explains the basics of transferring data from the FEM Workbench to Paraview and shows some of the options and settings for displaying data.")
 
   [Post-Processing of FEM results with Paraview](/Post-Processing_of_FEM_Results_with_Paraview "Post-Processing of FEM Results with Paraview") (v0.19)  
   This tutorial explains the basics of transferring data from the FEM Workbench to Paraview and shows some of the options and settings for displaying data.
 
 ## CNC & 3D Printing
 
-- [![CAM Workbench for the impatient This is a quick presentation of the workflow for the CAM Workbench: create a job, define the output, define the milling tool, define the path operations, start the simulation, and generate a G-code output file.](/src/assets/images/Path-WalkThroughResult.gif)](/CAM_Walkthrough_for_the_Impatient "CAM Workbench for the impatient This is a quick presentation of the workflow for the CAM Workbench: create a job, define the output, define the milling tool, define the path operations, start the simulation, and generate a G-code output file. ")
+- [![CAM Workbench for the impatient This is a quick presentation of the workflow for the CAM Workbench: create a job, define the output, define the milling tool, define the path operations, start the simulation, and generate a G-code output file.](/images/Path-WalkThroughResult.gif)](/CAM_Walkthrough_for_the_Impatient "CAM Workbench for the impatient This is a quick presentation of the workflow for the CAM Workbench: create a job, define the output, define the milling tool, define the path operations, start the simulation, and generate a G-code output file. ")
 
   [CAM Workbench for the impatient](/CAM_Walkthrough_for_the_Impatient "CAM Walkthrough for the Impatient")  
   This is a quick presentation of the workflow for the CAM Workbench: create a job, define the output, define the milling tool, define the path operations, start the simulation, and generate a G-code output file.
 
-- [![Preparing models for 3D printing (v0.16) Convert a solid object to a mesh object using the Mesh Workbench, export the mesh to STL format, and use Slic3r to prepare the G-code. Alternatively use the Cura Workbench or the CAM Workbench to generate the G-code.](/src/assets/images/Exercise_meshing_03.jpg)](/Manual:Preparing_models_for_3D_printing "Preparing models for 3D printing (v0.16) Convert a solid object to a mesh object using the Mesh Workbench, export the mesh to STL format, and use Slic3r to prepare the G-code. Alternatively use the Cura Workbench or the CAM Workbench to generate the G-code.")
+- [![Preparing models for 3D printing (v0.16) Convert a solid object to a mesh object using the Mesh Workbench, export the mesh to STL format, and use Slic3r to prepare the G-code. Alternatively use the Cura Workbench or the CAM Workbench to generate the G-code.](/images/Exercise_meshing_03.jpg)](/Manual:Preparing_models_for_3D_printing "Preparing models for 3D printing (v0.16) Convert a solid object to a mesh object using the Mesh Workbench, export the mesh to STL format, and use Slic3r to prepare the G-code. Alternatively use the Cura Workbench or the CAM Workbench to generate the G-code.")
 
   [Preparing models for 3D printing](/index.php?title=Preparing_models_for_3D_printing&action=edit&redlink=1 "Preparing models for 3D printing (page does not exist)") (v0.16)  
   Convert a solid object to a mesh object using the Mesh Workbench, export the mesh to STL format, and use Slic3r to prepare the G-code. Alternatively use the Cura Workbench or the CAM Workbench to generate the G-code.
 
 ## Rendering
 
-- [![Creating renderings Quickly produce a rendered image of your bodies with POV-Ray and LuxRender, if they are installed in your system.](/src/assets/images/Exercise_raytracing_05.jpg)](/Manual:Creating_renderings "Creating renderings Quickly produce a rendered image of your bodies with POV-Ray and LuxRender, if they are installed in your system. ")
+- [![Creating renderings Quickly produce a rendered image of your bodies with POV-Ray and LuxRender, if they are installed in your system.](/images/Exercise_raytracing_05.jpg)](/Manual:Creating_renderings "Creating renderings Quickly produce a rendered image of your bodies with POV-Ray and LuxRender, if they are installed in your system. ")
 
   [Creating renderings](/Manual:Creating_renderings "Manual:Creating renderings")  
   Quickly produce a rendered image of your bodies with POV-Ray and LuxRender, if they are installed in your system.
 
-- [![Raytracing_tutorial (v0.16) Describes the basic workflow of the Raytracing Workbench using POV-Ray or LuxRender: set the path to the renderers, create a project, set the camera position, select the model, run the renderer.](/src/assets/images/Raytracing_tutorial_result.png)](/Raytracing_tutorial "Raytracing_tutorial (v0.16) Describes the basic workflow of the Raytracing Workbench using POV-Ray or LuxRender: set the path to the renderers, create a project, set the camera position, select the model, run the renderer.")
+- [![Raytracing_tutorial (v0.16) Describes the basic workflow of the Raytracing Workbench using POV-Ray or LuxRender: set the path to the renderers, create a project, set the camera position, select the model, run the renderer.](/images/Raytracing_tutorial_result.png)](/Raytracing_tutorial "Raytracing_tutorial (v0.16) Describes the basic workflow of the Raytracing Workbench using POV-Ray or LuxRender: set the path to the renderers, create a project, set the camera position, select the model, run the renderer.")
 
   [Raytracing_tutorial](/Raytracing_tutorial "Raytracing tutorial") (v0.16)  
   Describes the basic workflow of the Raytracing Workbench using POV-Ray or LuxRender: set the path to the renderers, create a project, set the camera position, select the model, run the renderer.
 
-- [![Intermediate FreeCAD and POV-ray tutorial (v0.18) Workflow to produce a better render with POV-Ray: create a project, add objects, set the camera, save the .pov file, manually edit the file to improve the textures, planes, lights, and then run the renderer.](/src/assets/images/12_T04_FreeCAD_POVray_render_floor_wood_walls_radiosity_final.png)](/Tutorial_FreeCAD_POV_ray "Intermediate FreeCAD and POV-ray tutorial (v0.18) Workflow to produce a better render with POV-Ray: create a project, add objects, set the camera, save the .pov file, manually edit the file to improve the textures, planes, lights, and then run the renderer.")
+- [![Intermediate FreeCAD and POV-ray tutorial (v0.18) Workflow to produce a better render with POV-Ray: create a project, add objects, set the camera, save the .pov file, manually edit the file to improve the textures, planes, lights, and then run the renderer.](/images/12_T04_FreeCAD_POVray_render_floor_wood_walls_radiosity_final.png)](/Tutorial_FreeCAD_POV_ray "Intermediate FreeCAD and POV-ray tutorial (v0.18) Workflow to produce a better render with POV-Ray: create a project, add objects, set the camera, save the .pov file, manually edit the file to improve the textures, planes, lights, and then run the renderer.")
 
   [Intermediate FreeCAD and POV-ray tutorial](/Tutorial_FreeCAD_POV_ray "Tutorial FreeCAD POV ray") (v0.18)  
   Workflow to produce a better render with POV-Ray: create a project, add objects, set the camera, save the .pov file, manually edit the file to improve the textures, planes, lights, and then run the renderer.
 
-- [![Rendering a FreeCAD assembly with Blender (v0.18) Export bodies from FreeCAD to Wavefront .obj, import the file into Blender, set up a simple Sun light, assign basic materials with the Principled BSDF shader, and produce a rendered image with EEVEE and Cycles.](/src/assets/images/07_T03_FreeCAD_Blender_EEVEE_render.png)](/Tutorial_Render_with_Blender "Rendering a FreeCAD assembly with Blender (v0.18) Export bodies from FreeCAD to Wavefront .obj, import the file into Blender, set up a simple Sun light, assign basic materials with the Principled BSDF shader, and produce a rendered image with EEVEE and Cycles.")
+- [![Rendering a FreeCAD assembly with Blender (v0.18) Export bodies from FreeCAD to Wavefront .obj, import the file into Blender, set up a simple Sun light, assign basic materials with the Principled BSDF shader, and produce a rendered image with EEVEE and Cycles.](/images/07_T03_FreeCAD_Blender_EEVEE_render.png)](/Tutorial_Render_with_Blender "Rendering a FreeCAD assembly with Blender (v0.18) Export bodies from FreeCAD to Wavefront .obj, import the file into Blender, set up a simple Sun light, assign basic materials with the Principled BSDF shader, and produce a rendered image with EEVEE and Cycles.")
 
   [Rendering a FreeCAD assembly with Blender](/Tutorial_Render_with_Blender "Tutorial Render with Blender") (v0.18)  
   Export bodies from FreeCAD to Wavefront .obj, import the file into Blender, set up a simple Sun light, assign basic materials with the Principled BSDF shader, and produce a rendered image with EEVEE and Cycles.
@@ -249,7 +249,7 @@ The Raspberry Pi project has made simple tutorials that are easy to follow, part
 Development of theRobot Workbenchis currently abandoned. Please inquire on our forum regarding any news or alternative workbenches.
 :::
 
-- [![Robot tutorial (v0.17) Simulate the movement of an industrial robot: set up a trajectory, set up home position, change the robot position, insert various waypoints, and simulate the robot movement.](/src/assets/images/Robot_Tutorial_RobotSimulation.gif)](/Robot_tutorial "Robot tutorial (v0.17) Simulate the movement of an industrial robot: set up a trajectory, set up home position, change the robot position, insert various waypoints, and simulate the robot movement.")
+- [![Robot tutorial (v0.17) Simulate the movement of an industrial robot: set up a trajectory, set up home position, change the robot position, insert various waypoints, and simulate the robot movement.](/images/Robot_Tutorial_RobotSimulation.gif)](/Robot_tutorial "Robot tutorial (v0.17) Simulate the movement of an industrial robot: set up a trajectory, set up home position, change the robot position, insert various waypoints, and simulate the robot movement.")
 
   [Robot tutorial](/Robot_tutorial "Robot tutorial") (v0.17)  
   Simulate the movement of an industrial robot: set up a trajectory, set up home position, change the robot position, insert various waypoints, and simulate the robot movement.

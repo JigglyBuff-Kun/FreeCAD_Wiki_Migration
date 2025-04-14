@@ -30,13 +30,13 @@ title: MessageBox
 
 Show how to give information to the user in macros
 
-![](/src/assets/images/Macro_MessageBox_00.png)
+![](/images/Macro_MessageBox_00.png)
 
 MessageBox
 
 ## Script
 
-ToolBar Icon ![](/src/assets/images/Macro_MessageBox.png)
+ToolBar Icon ![](/images/Macro_MessageBox.png)
 
 **Macro_MessageBox.FCMacro**
 

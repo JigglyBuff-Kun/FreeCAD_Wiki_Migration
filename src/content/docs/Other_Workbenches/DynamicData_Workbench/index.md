@@ -2,7 +2,7 @@
 title: DynamicData Workbench
 ---
 
-![](/src/assets/images/DynamicData_workbench_icon.svg)
+![](/images/DynamicData_workbench_icon.svg)
 
 DynamicData External Workbench Icon
 

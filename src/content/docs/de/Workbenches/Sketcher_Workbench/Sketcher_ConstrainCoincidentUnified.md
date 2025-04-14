@@ -19,7 +19,7 @@ title: Sketcher KoinzidentFestlegenKombiniert
 
 ## Beschreibung
 
-Das Werkzeug ![](/src/assets/images/Sketcher_ConstrainCoincidentUnified.svg) Sketcher KoinzidentFestlegenKombiniert legt Deckungsgleichheit zwischen Punkten fest, verbindet Punkte mit Kanten oder Achsen (Linien werden als unendlich angesehen und offene Kurven werden auch virtuell verlängert) oder legt Kreise, Kreisbögen und/oder Ellipsen konzentrisch fest (indem ihre Mittelpunkte deckungsgleich festgelegt werden).
+Das Werkzeug ![](/images/Sketcher_ConstrainCoincidentUnified.svg) Sketcher KoinzidentFestlegenKombiniert legt Deckungsgleichheit zwischen Punkten fest, verbindet Punkte mit Kanten oder Achsen (Linien werden als unendlich angesehen und offene Kurven werden auch virtuell verlängert) oder legt Kreise, Kreisbögen und/oder Ellipsen konzentrisch fest (indem ihre Mittelpunkte deckungsgleich festgelegt werden).
 
 Dieses Werkzeug ersetzt die Werkzeuge [Sketcher KoinzidentFestlegen](/Sketcher_ConstrainCoincident/de "Sketcher ConstrainCoincident/de") und [Sketcher PunktAufObjektFestlegen](/Sketcher_ConstrainPointOnObject/de "Sketcher ConstrainPointOnObject/de"), wenn die Option **Kombiniertes Werkzeug für Koinzidenz und Punkt-auf-Objekt-Randbedingungen** in den [Voreinstellungen](/Sketcher_Preferences/de#Allgemein "Sketcher Preferences/de") ausgewählt wurde.
 
@@ -31,9 +31,9 @@ Siehe auch: [Zeichnungshilfen](/Sketcher_Workbench/de#Zeichnungshilfen "Sketcher
 
 1. Sicherstellen, dass die Auswahl leer ist.
 2. Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
-   - Die Schaltfläche ![](/src/assets/images/Sketcher_ConstrainCoincidentUnified.svg) Koinzidenz festlegen drücken.
-   - Den Menüeintrag **Skizze → Sketcher-Randbedingungen → ![](/src/assets/images/Sketcher_ConstrainCoincidentUnified.svg) Koinzidenz festlegen** auswählen.
-   - Ein Rechtsklick in die [3D-Ansicht](/3D_view/de "3D view/de") und die Menüoption **![](/src/assets/images/Sketcher_ConstrainCoincidentUnified.svg) Koinzidenz festlegen** im Kontextmenü auswählen.
+   - Die Schaltfläche ![](/images/Sketcher_ConstrainCoincidentUnified.svg) Koinzidenz festlegen drücken.
+   - Den Menüeintrag **Skizze → Sketcher-Randbedingungen → ![](/images/Sketcher_ConstrainCoincidentUnified.svg) Koinzidenz festlegen** auswählen.
+   - Ein Rechtsklick in die [3D-Ansicht](/3D_view/de "3D view/de") und die Menüoption **![](/images/Sketcher_ConstrainCoincidentUnified.svg) Koinzidenz festlegen** im Kontextmenü auswählen.
    - Das Tastaturkürzel C.
 3. Der Mauszeiger wandelt sich zu einem Kreuz mit Werkzeugsymbol.
 4. Eine der folgenden Möglichkeiten auswählen:
@@ -53,7 +53,7 @@ Siehe auch: [Zeichnungshilfen](/Sketcher_Workbench/de#Zeichnungshilfen "Sketcher
    - Mehrere Punkte und eine einzelne Kante auswählen (in beliebiger Reihenfolge).
    - Einen einzelnen Punkt und mehrere Kanten auswählen (in beliebiger Reihenfolge).
 2. Das Werkzeug aufrufen, wie oben beschrieben oder mit der folgenden zusätzlichen Möglichkeit:
-   - Ein Rechtsklick in die [3D-Ansicht](/3D_view/de "3D view/de") und die Menüoption **![](/src/assets/images/Sketcher_ConstrainCoincidentUnified.svg) Constrain coincident** im Kontextmenü auswählen.
+   - Ein Rechtsklick in die [3D-Ansicht](/3D_view/de "3D view/de") und die Menüoption **![](/images/Sketcher_ConstrainCoincidentUnified.svg) Constrain coincident** im Kontextmenü auswählen.
 3. Abhängig von der Auswahl werden eine oder mehrere Randbedingungen hinzugefügt.
 
 ## Hinweise

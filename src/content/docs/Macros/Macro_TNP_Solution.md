@@ -28,7 +28,7 @@ title: TNP Solution
 
 ## Description
 
-![](/src/assets/images/TNP_solution.gif)
+![](/images/TNP_solution.gif)
 
 This is one solution for Topological Naming Problem example described at the page: [Topological Naming Problem](/Topological_naming_problem "Topological naming problem")
 
@@ -220,15 +220,15 @@ The specific implementation may be different. In this example the plane is XY, b
 
 Here I change Cube objects into PartDesign Thickness objects:
 
-![](/src/assets/images/TNP_solution_1.gif)
+![](/images/TNP_solution_1.gif)
 
 On the example below, I change Cubes into PartDesign Chamfers, so I had to store key for edges:
 
-![](/src/assets/images/TNP_solution_2.gif)
+![](/images/TNP_solution_2.gif)
 
 This example below is little more complicated because as you see at the GUI screen, the references to the object and face changes automatically. But also to make a hole I call function defined in my library not directly in the tool. So, I had to use small trick with selection and deselection, to get new reference:
 
-![](/src/assets/images/TNP_solution_3.gif)
+![](/images/TNP_solution_3.gif)
 
 There are many such problems when programming in FreeCAD, but they can all be solved in a similar way. I hope, it helps.
 

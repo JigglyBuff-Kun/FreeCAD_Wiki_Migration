@@ -19,11 +19,11 @@ title: Draft Move
 
 ## Description
 
-The ![](/src/assets/images/Draft_Move.svg) **Draft Move** command moves or copies selected objects from one point to another. In subelement mode the command moves selected points and edges, or copies selected edges, of [Draft Lines](/Draft_Line "Draft Line") and [Draft Wires](/Draft_Wire "Draft Wire").
+The ![](/images/Draft_Move.svg) **Draft Move** command moves or copies selected objects from one point to another. In subelement mode the command moves selected points and edges, or copies selected edges, of [Draft Lines](/Draft_Line "Draft Line") and [Draft Wires](/Draft_Wire "Draft Wire").
 
 The command can be used on 2D objects created with the [Draft Workbench](/Draft_Workbench "Draft Workbench") or [Sketcher Workbench](/Sketcher_Workbench "Sketcher Workbench"), but also on many 3D objects such as those created with the [Part Workbench](/Part_Workbench "Part Workbench"), [PartDesign Workbench](/PartDesign_Workbench "PartDesign Workbench") or [BIM Workbench](/BIM_Workbench "BIM Workbench").
 
-![](/src/assets/images/Draft_Move_example.jpg)
+![](/images/Draft_Move_example.jpg)
 
 Moving an object from one point to another
 
@@ -33,21 +33,21 @@ See also: [Draft Snap](/Draft_Snap "Draft Snap") and [Draft Constrain](/Draft_Co
 
 1. Optionally select one or more objects, or one or more subelements of [Draft Lines](/Draft_Line "Draft Line") or [Draft Wires](/Draft_Wire "Draft Wire").
 2. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/Draft_Move.svg) [Move](/Draft_Move "Draft Move") button.
-   - [Draft](/Draft_Workbench "Draft Workbench"): Select the **Modification → ![](/src/assets/images/Draft_Move.svg) Move** option from the menu.
-   - [BIM](/BIM_Workbench "BIM Workbench"): Select the **Modify → ![](/src/assets/images/Draft_Move.svg) Move** option from the menu.
+   - Press the ![](/images/Draft_Move.svg) [Move](/Draft_Move "Draft Move") button.
+   - [Draft](/Draft_Workbench "Draft Workbench"): Select the **Modification → ![](/images/Draft_Move.svg) Move** option from the menu.
+   - [BIM](/BIM_Workbench "BIM Workbench"): Select the **Modify → ![](/images/Draft_Move.svg) Move** option from the menu.
    - Use the keyboard shortcut: M then V.
 3. If you have not yet selected an object: select an object in the [3D view](/3D_view "3D view").
 4. The **Move** task panel opens. See [Options](#Options) for more information.
 5. If subelements have been selected: check the **Modify subelements** checkbox to switch on subelement mode.
-6. Pick the first point, the base point, in the [3D view](/3D_view "3D view"), or type coordinates and press the ![](/src/assets/images/Draft_AddPoint.svg) Enter point button.
-7. Pick the second point, the target point, in the [3D view](/3D_view "3D view"), or type coordinates and press the ![](/src/assets/images/Draft_AddPoint.svg) Enter point button.
+6. Pick the first point, the base point, in the [3D view](/3D_view "3D view"), or type coordinates and press the ![](/images/Draft_AddPoint.svg) Enter point button.
+7. Pick the second point, the target point, in the [3D view](/3D_view "3D view"), or type coordinates and press the ![](/images/Draft_AddPoint.svg) Enter point button.
 
 ## Options
 
 The single character keyboard shortcuts available in the task panel can be changed. See [Draft Preferences](/Draft_Preferences "Draft Preferences"). The shortcuts mentioned here are the default shortcuts (for version 1.0).
 
-- To manually enter coordinates enter the X, Y and Z component, and press Enter after each. Or you can press the ![](/src/assets/images/Draft_AddPoint.svg) Enter point button when you have the desired values. It is advisable to move the pointer out of the [3D view](/3D_view "3D view") before entering coordinates.
+- To manually enter coordinates enter the X, Y and Z component, and press Enter after each. Or you can press the ![](/images/Draft_AddPoint.svg) Enter point button when you have the desired values. It is advisable to move the pointer out of the [3D view](/3D_view "3D view") before entering coordinates.
 - To use polar coordinates enter a value for the **Length** and a value for the **Angle**, and press Enter after each.
 - Check the **Angle** checkbox to constrain the pointer to the specified angle.
 - Press L to change the focus from the **X** input box to the **Length** input box and back. Depending on the input box that receives the focus the **Angle** checkbox is checked or unchecked.

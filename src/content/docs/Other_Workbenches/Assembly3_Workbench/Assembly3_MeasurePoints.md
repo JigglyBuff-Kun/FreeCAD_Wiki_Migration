@@ -28,6 +28,6 @@ This tool measures the distance between two objects of an assembly using two poi
 ## Usage
 
 1. Select two points.
-2. Press the ![](/src/assets/images/Assembly_MeasurePointDistance.svg) [Measure point to point](/Assembly3_MeasurePoints "Assembly3 MeasurePoints") button.
+2. Press the ![](/images/Assembly_MeasurePointDistance.svg) [Measure point to point](/Assembly3_MeasurePoints "Assembly3 MeasurePoints") button.
 
 Retrieved from "<http://wiki.freecad.org/index.php?title=Assembly3_MeasurePoints/en&oldid=909856>"

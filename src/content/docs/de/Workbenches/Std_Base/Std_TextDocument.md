@@ -23,7 +23,7 @@ Der Befehl **Std Textdokument** erstellt ein Objekt, das beliebigen Text aufnehm
 
 ## Anwendung
 
-1. Den Menüeintrag **Werkzeuge → ![](/src/assets/images/Std_TextDocument.svg) Textdokument hinzufügen** auswählen.
+1. Den Menüeintrag **Werkzeuge → ![](/images/Std_TextDocument.svg) Textdokument hinzufügen** auswählen.
 2. Das neu erstellte Objekt in der [Baumansicht](/Tree_view/de "Tree view/de") doppelklicken, um eine Registerkarte zu öffnen, in die der Text geschrieben wird.
 3. Text hizufügen.
 4. Registerkarte schließen und die Datei speichern, wenn danach gefragt wird.
@@ -45,7 +45,7 @@ Siehe auch: [Autogenerierte API-Dokumentation](https://freecad.github.io/SourceD
 
 Siehe [Part Formelement](/Part_Feature/de "Part Feature/de") für allgemeine Informationen zum Hinzufügen von Objekten zu einem Dokument.
 
-Ein `App::TextDocument`-Objekt (Textdokument) wird mit der `addObject()`-Methode des Dokuments erstellt. Sobald ein Textdokument existiert, werden seine Textinformationen in seinem Attribut `Text` gespeichert. Dieses Attribut kann in anderen Objekten verwendet werden, z.B. als Zeichenkette in einer ![](/src/assets/images/Draft_ShapeString.svg) [Draft Textform](/Draft_ShapeString/de "Draft ShapeString/de").
+Ein `App::TextDocument`-Objekt (Textdokument) wird mit der `addObject()`-Methode des Dokuments erstellt. Sobald ein Textdokument existiert, werden seine Textinformationen in seinem Attribut `Text` gespeichert. Dieses Attribut kann in anderen Objekten verwendet werden, z.B. als Zeichenkette in einer ![](/images/Draft_ShapeString.svg) [Draft Textform](/Draft_ShapeString/de "Draft ShapeString/de").
 
 ```
 import FreeCAD as App

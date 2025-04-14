@@ -29,9 +29,9 @@ Wendet [Deckungsgleiche Beschränkung](/Sketcher_ConstrainCoincident/de "Sketche
 
 1. Nicht verbundene Elemente in der [3D-Ansicht](/3D_view/de "3D view/de") oder im [Aufgabenbereich](/Task_panel/de "Task panel/de") auf der linken Seite des Bildschirms auswählen.
 2. Rufe den Befehl auf verschiedene Weise auf:
-   - Die Schaltfläche ![](/src/assets/images/Sketcher_ConnectLines.svg)Linien verbinden drücken.
+   - Die Schaltfläche ![](/images/Sketcher_ConnectLines.svg)Linien verbinden drücken.
    - Das Tastaturkürzel Z dann J.
-   - Verwende den **Skizze→ Skizzen-Werkzeuge → ![](/src/assets/images/Sketcher_ConnectLines.svg) Linien verbinden** Eintrag aus dem oberen Menü.
+   - Verwende den **Skizze→ Skizzen-Werkzeuge → ![](/images/Sketcher_ConnectLines.svg) Linien verbinden** Eintrag aus dem oberen Menü.
 
 ## Hinweise
 

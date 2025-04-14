@@ -21,7 +21,7 @@ title: TechDraw Hilfskreis
 
 Das Werkzeug **TechDraw Hilfskreis** fügt an einem ausgewählten Mittelpunkt einen Hilfskreis hinzu. Es kann ein 2D- oder 3D-Punkt sein.
 
-![](/src/assets/images/CosmeticCircleSample.png)
+![](/images/CosmeticCircleSample.png)
 
 Hilfskreis
 
@@ -30,8 +30,8 @@ Hilfskreis
 1. Einen Punkt in einer TechDraw-Ansicht oder in der [3D-Ansicht](/3D_view/de "3D view/de") auswählen.
 2. Wurde ein Punkt in der 3D-Ansicht ausgewählt: Die korrekte TechDraw-Ansicht zur Auswahl hinzufügen, indem sie in der [Baumansicht](/Tree_view/de "Tree view/de") ausgewählt wird.
 3. Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
-   - Die Schaltfläche ![](/src/assets/images/TechDraw_CosmeticCircle.svg) [Hilfkreis hinzufügen](/TechDraw_CosmeticCircle "TechDraw CosmeticCircle") drücken.
-   - Den Menüeintrag **TechDraw → Linien hinzufügen → ![](/src/assets/images/TechDraw_CosmeticCircle.svg) Hilfskreis hinzufügen** auswählen.
+   - Die Schaltfläche ![](/images/TechDraw_CosmeticCircle.svg) [Hilfkreis hinzufügen](/TechDraw_CosmeticCircle "TechDraw CosmeticCircle") drücken.
+   - Den Menüeintrag **TechDraw → Linien hinzufügen → ![](/images/TechDraw_CosmeticCircle.svg) Hilfskreis hinzufügen** auswählen.
 4. Der Aufgaben-Bereich wird geöffnet.
 5. Wahlweise die Koordinaten des Mittelpunktes, den Radius sowie Start- und Endwinkel des Kreises anpassen.
 6. Die Schaltfläche OK drücken.
@@ -43,8 +43,8 @@ Zum Ändern der Attribute eines Hilfskreises:
 
 1. Den Hilfskreis auswählen..
 2. Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
-   - Die Schaltfläche ![](/src/assets/images/TechDraw_CosmeticCircle.svg) [Hilfkreis hinzufügen](/TechDraw_CosmeticCircle "TechDraw CosmeticCircle") drücken.
-   - Den Menüeintrag **TechDraw → Linien hinzufügen → ![](/src/assets/images/TechDraw_CosmeticCircle.svg) Hilfskreis hinzufügen** auswählen.
+   - Die Schaltfläche ![](/images/TechDraw_CosmeticCircle.svg) [Hilfkreis hinzufügen](/TechDraw_CosmeticCircle "TechDraw CosmeticCircle") drücken.
+   - Den Menüeintrag **TechDraw → Linien hinzufügen → ![](/images/TechDraw_CosmeticCircle.svg) Hilfskreis hinzufügen** auswählen.
 3. Der Aufgaben-Bereich wird geöffnet.
 4. Die Koordinaten des Mittelpunktes, den Radius sowie Start- und Endwinkel des Kreises anpassen.
 5. Die Schaltfläche OK drücken.
@@ -52,7 +52,7 @@ Zum Ändern der Attribute eines Hilfskreises:
 ## Hinweise
 
 - Um einen Hilfskreis zu löschen, wird er ausgewählt und die Entf-Taste gedrückt. [eingeführt in 0.22](/Release_notes_0.22/de "Release notes 0.22/de")
-- Um die Darstellung eines Hilfskreises anzupassen, wird ![](/src/assets/images/TechDraw_DecorateLine.svg) [TechDraw LiniendarstellungÄndern](/TechDraw_DecorateLine/de "TechDraw DecorateLine/de") verwendet.
+- Um die Darstellung eines Hilfskreises anzupassen, wird ![](/images/TechDraw_DecorateLine.svg) [TechDraw LiniendarstellungÄndern](/TechDraw_DecorateLine/de "TechDraw DecorateLine/de") verwendet.
 
 ## Eigenschaften
 

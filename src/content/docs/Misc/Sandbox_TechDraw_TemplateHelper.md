@@ -1232,7 +1232,7 @@ The tote bag concept could be used to shorten function calls as the needed param
 
 And this is the resulting Page:
 
-![TechDraw page A3](/src/assets/images/TechDraw_TemplateHelper_A3.png)
+![TechDraw page A3](/images/TechDraw_TemplateHelper_A3.png)
 
 ## Set up a user interface
 

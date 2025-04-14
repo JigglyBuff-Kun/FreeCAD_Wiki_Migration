@@ -4,7 +4,7 @@ title: Sketcher Einstellungen
 
 ## Einleitung
 
-Die Einstellungen für den Arbeitsbereich ![](/src/assets/images/Workbench_Sketcher.svg) [Sketcher](/Sketcher_Workbench/de "Sketcher Workbench/de") befinden sich im [Voreinstellungseditor](/Preferences_Editor "Preferences Editor"). Im Menü wählt man **Bearbeiten → Einstellungen...** und dann **![](/src/assets/images/Workbench_Sketcher.svg) Sketcher**. Diese Gruppe steht nur dann zur Verfügung, wenn der Arbeitsbereich Sketcher in der aktuellen FreeCAD-Sitzung geladen wurde
+Die Einstellungen für den Arbeitsbereich ![](/images/Workbench_Sketcher.svg) [Sketcher](/Sketcher_Workbench/de "Sketcher Workbench/de") befinden sich im [Voreinstellungseditor](/Preferences_Editor "Preferences Editor"). Im Menü wählt man **Bearbeiten → Einstellungen...** und dann **![](/images/Workbench_Sketcher.svg) Sketcher**. Diese Gruppe steht nur dann zur Verfügung, wenn der Arbeitsbereich Sketcher in der aktuellen FreeCAD-Sitzung geladen wurde
 
 Es gibt vier Seiten: [Allgemein](#Allgemein), [Raster](#Raster), [Anzeige](#Anzeige) und [Darstellung](#Darstellung).
 
@@ -16,7 +16,7 @@ In 0.21 und davor hieß die Seite [Darstellung](#Darstellung) noch "Farben".
 
 ## Allgemein
 
-![](/src/assets/images/Preferences_Sketcher_Page_General.png)
+![](/images/Preferences_Sketcher_Page_General.png)
 
 Auf dieser Seite "Allgemein" kann Folgendes festgelegt werden:
 
@@ -37,7 +37,7 @@ Auf dieser Seite "Allgemein" kann Folgendes festgelegt werden:
 
 ### Raster
 
-![](/src/assets/images/Preferences_Sketcher_Page_Grid.png)
+![](/images/Preferences_Sketcher_Page_Grid.png)
 
 Auf dieser Seite kann Folgendes festgelegt werden:
 
@@ -52,7 +52,7 @@ Auf dieser Seite kann Folgendes festgelegt werden:
 
 ## Anzeige
 
-![](/src/assets/images/Preferences_Sketcher_Page_Display.png)
+![](/images/Preferences_Sketcher_Page_Display.png)
 
 Auf dieser Seite kann Folgendes festgelegt werden:
 
@@ -78,7 +78,7 @@ Auf dieser Seite kann Folgendes festgelegt werden:
 
 ## Darstellung
 
-![](/src/assets/images/Preferences_Sketcher_Page_Appearance.png)
+![](/images/Preferences_Sketcher_Page_Appearance.png)
 
 Unless otherwise stated these preferences are only used while a sketch is in edit mode.
 
@@ -113,11 +113,11 @@ Es gibt eine weitere Einstellung, die einen Einfluss auf Skizzen hat. Ist die Ei
 
 Siehe [Forumsbeitrag](https://forum.freecad.org/viewtopic.php?t=70975&start=10).
 
-![](/src/assets/images/Sketcher-Preferences-Note-Arrowhead-01.png) ![](/src/assets/images/Sketcher-Preferences-Note-Arrowhead-02.png)
+![](/images/Sketcher-Preferences-Note-Arrowhead-01.png) ![](/images/Sketcher-Preferences-Note-Arrowhead-02.png)
 
 Vorderansicht, Raster aktiviert und Raster deaktiviert
 
-![](/src/assets/images/Sketcher-Preferences-Note-Arrowhead-03.png) ![](/src/assets/images/Sketcher-Preferences-Note-Arrowhead-04.png)
+![](/images/Sketcher-Preferences-Note-Arrowhead-03.png) ![](/images/Sketcher-Preferences-Note-Arrowhead-04.png)
 
 Rückansicht, Raster aktiviert und Raster deaktiviert; die Pfeilspitzen fehlen an den gegenüberliegenden Enden und zusätzlich auch die Maßzahl
 

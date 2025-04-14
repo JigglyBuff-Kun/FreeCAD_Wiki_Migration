@@ -30,7 +30,7 @@ title: Constraint Draft
 
 Simple example animation Draft wires by use the [expressions](/Expressions "Expressions") for associate many wires and simulate or verify the movement. Here the circle rotation create the movement for all objects connected
 
-![](/src/assets/images/Constraint_Draft00.gif)
+![](/images/Constraint_Draft00.gif)
 
 Animation use the constraint expression
 
@@ -48,9 +48,9 @@ Select the complete code and paste in the Python Console
 
 How copy the code snippet
 
-![How copy the animation code](/src/assets/images/Constraint_Draft_Code01.gif)
+![How copy the animation code](/images/Constraint_Draft_Code01.gif)
 
-ToolBar Icon ![](/src/assets/images/Macro_Constraint_Draft.png)
+ToolBar Icon ![](/images/Macro_Constraint_Draft.png)
 
 **Macro_Constraint_Draft.FCMacro**
 
@@ -79,7 +79,7 @@ else:
 
 ## Rotation with FreeCAD tools
 
-![Rotation with FreeCAD tools](/src/assets/images/Constraint_Draft01.gif)
+![Rotation with FreeCAD tools](/images/Constraint_Draft01.gif)
 
 ## Link
 

@@ -21,14 +21,14 @@ title: PartDesign SubtractiveHelix
 
 The **SubtractiveHelix** tool modifies a solid by sweeping a selected sketch or 2D object along a helix path cutting away the material.
 
-![](/src/assets/images/PartDesign_SubtractiveHelix_example_overview.png)
+![](/images/PartDesign_SubtractiveHelix_example_overview.png)
 
 _The profile (B), is swept around axis (A) in order to produce the helical groove (C) in the pre-existing work piece_
 
 ## Usage
 
 1. Select the sketch to be swept into a helix. A face on the existing solid can alternatively be used.
-2. Press the ![](/src/assets/images/PartDesign_SubtractiveHelix.svg) [PartDesign SubtractiveHelix](/PartDesign_SubtractiveHelix "PartDesign SubtractiveHelix") button.
+2. Press the ![](/images/PartDesign_SubtractiveHelix.svg) [PartDesign SubtractiveHelix](/PartDesign_SubtractiveHelix "PartDesign SubtractiveHelix") button.
 3. Set the Helix parameters (see next section).
 4. Inspect the Helix in the view window, to ensure that the parameters do not result in a self intersecting helix.
 5. Press OK.
@@ -37,7 +37,7 @@ _The profile (B), is swept around axis (A) in order to produce the helical groov
 
 When creating a SubtractiveHelix, the **Helix parameters** dialogue offers several parameters specifying how the sketch should be swept.
 
-![](/src/assets/images/PartDesign_SubtractiveHelix_taskpanel.png)
+![](/images/PartDesign_SubtractiveHelix_taskpanel.png)
 
 ### Axis
 
@@ -115,7 +115,7 @@ If checked, the helix will be shown in the view, and updated automatically on ev
 
 ## Notes
 
-- A ![](/src/assets/images/PartDesign_ShapeBinder.svg) [ShapeBinder](/PartDesign_ShapeBinder "PartDesign ShapeBinder") cannot be used for the profile.
-- When using a ![](/src/assets/images/d/d2/PartDesign_SubShapeBinder.svg) [SubShapeBinder](/PartDesign_SubShapeBinder "PartDesign SubShapeBinder") for the profile, selecting the binder in the [Tree view](/Tree_view "Tree view") will fail, instead the binder's face has to selected in the [3D view](/3D_view "3D view").
+- A ![](/images/PartDesign_ShapeBinder.svg) [ShapeBinder](/PartDesign_ShapeBinder "PartDesign ShapeBinder") cannot be used for the profile.
+- When using a ![](/images/d/d2/PartDesign_SubShapeBinder.svg) [SubShapeBinder](/PartDesign_SubShapeBinder "PartDesign SubShapeBinder") for the profile, selecting the binder in the [Tree view](/Tree_view "Tree view") will fail, instead the binder's face has to selected in the [3D view](/3D_view "3D view").
 
 Retrieved from "<http://wiki.freecad.org/index.php?title=PartDesign_SubtractiveHelix/en&oldid=1424622>"

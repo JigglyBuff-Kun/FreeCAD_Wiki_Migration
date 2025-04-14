@@ -25,7 +25,7 @@ THIS COMMAND IS PART OF THE INTEGRATEDBIM WORKBENCHIN V1.0This page has been upd
 
 The **Arch Space** tool allows you to define an empty volume, either by basing it on a solid shape, or by defining its boundaries, or a mix of both. If it is based solely on boundaries, the volume is calculated by starting from the bounding box of all the given boundaries, and subtracting the spaces behind each boundary. The Space object always defines a solid volume. The floor area of a space object, calculated by intersecting a horizontal plane at the center of mass of the space volume, can also be displayed.
 
-![](/src/assets/images/Arch_Space_example.jpg)
+![](/images/Arch_Space_example.jpg)
 
 Space object created from an existing solid object, then two wall faces are added as boundaries.
 
@@ -33,24 +33,24 @@ Space object created from an existing solid object, then two wall faces are adde
 
 1. Select an existing solid object, or faces on boundary objects.
 2. Invoke the command using several methods:
-   - Pressing the ![](/src/assets/images/Arch_Space.svg) [Space](/Arch_Space "Arch Space") button in the toolbar.
+   - Pressing the ![](/images/Arch_Space.svg) [Space](/Arch_Space "Arch Space") button in the toolbar.
    - Using the S then P keyboard keys
    - Using the **3D/BIM → Space** entry from the top menu
 
-Once a space has been created, you can also add or remove boundaries to/from it using the ![](/src/assets/images/Arch_Add.svg) [Add](/Arch_Add "Arch Add") or ![](/src/assets/images/Arch_Remove.svg) [Remove](/Arch_Remove "Arch Remove") buttons in the toolbar. Alternatively, you can also do this in the Tasks panel or in the [Property editor](/Property_editor "Property editor").
+Once a space has been created, you can also add or remove boundaries to/from it using the ![](/images/Arch_Add.svg) [Add](/Arch_Add "Arch Add") or ![](/images/Arch_Remove.svg) [Remove](/Arch_Remove "Arch Remove") buttons in the toolbar. Alternatively, you can also do this in the Tasks panel or in the [Property editor](/Property_editor "Property editor").
 
 As an example, to add a boundary, given a space that intersects a wall:
 
 1. Select the wall face that intersects the space. That will be the new boundary.
 2. Keeping the Ctrl key pressed, select the space.
-3. Press the ![](/src/assets/images/Arch_Add.svg) [Add](/Arch_Add "Arch Add") button in the toolbar.
+3. Press the ![](/images/Arch_Add.svg) [Add](/Arch_Add "Arch Add") button in the toolbar.
 4. The wall face now defines a new boundary, and the space will only extend up to the wall face in the direction facing it.
 
 The same example: add a boundary, given a space that intersects a wall. This time we're using the Tasks panel:
 
 1. Double-click the space object in the Tree View. This will activate its Tasks panel.
 2. Select the wall face that intersects the space. That will be the new boundary.
-3. Press the ![](/src/assets/images/Arch_Add.svg) [Add](/Arch_Add "Arch Add") button in the Tasks panel. The name of the wall face will be displayed in the "Space boundaries" section there.
+3. Press the ![](/images/Arch_Add.svg) [Add](/Arch_Add "Arch Add") button in the Tasks panel. The name of the wall face will be displayed in the "Space boundaries" section there.
 4. Press the OK button in the Tasks panel.
 5. The wall face now defines a new boundary, and the space will only extend up to the wall face in the direction facing it.
 

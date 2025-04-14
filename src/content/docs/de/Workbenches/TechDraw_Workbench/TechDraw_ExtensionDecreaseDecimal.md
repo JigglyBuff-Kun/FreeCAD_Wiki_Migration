@@ -25,8 +25,8 @@ Das Werkzeug **TechDraw ErgänzungDezimalstellenzahlVerringern** verringert die 
 
 1. Ein oder mehrere Maße auswählen.
 2. Es gibt mehrere Möglichkeiten das Werkzeug aufzurufen:
-   - Die Schaltfläche ![](/src/assets/images/TechDraw_ExtensionDecreaseDecimal.svg) Dezimalstellenanzahl verringern drücken.
-   - Den Menüeintrag **TechDraw → Ergänzungen: Maße → ![](/src/assets/images/TechDraw_ExtensionDecreaseDecimal.svg) Dezimalstellenanzahl verringern** auswählen.
+   - Die Schaltfläche ![](/images/TechDraw_ExtensionDecreaseDecimal.svg) Dezimalstellenanzahl verringern drücken.
+   - Den Menüeintrag **TechDraw → Ergänzungen: Maße → ![](/images/TechDraw_ExtensionDecreaseDecimal.svg) Dezimalstellenanzahl verringern** auswählen.
 3. Die Anzahl der Dezimalstellen der ausgewählten Maße wird um eins verringert.
 
 ## Hinweise

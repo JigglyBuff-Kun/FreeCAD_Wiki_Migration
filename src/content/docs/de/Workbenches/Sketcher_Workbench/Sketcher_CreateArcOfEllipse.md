@@ -19,9 +19,9 @@ title: Sketcher EllipsenbogenErstellen
 
 ## Beschreibung
 
-Das Werkzzeug ![](/src/assets/images/Sketcher_CreateArcOfEllipse.svg) Ellipsenbogen erstellen erstellt einen Ellipsenbogen.
+Das Werkzzeug ![](/images/Sketcher_CreateArcOfEllipse.svg) Ellipsenbogen erstellen erstellt einen Ellipsenbogen.
 
-![](/src/assets/images/Sketcher_CreateArcOfEllipse_Example.png)
+![](/images/Sketcher_CreateArcOfEllipse_Example.png)
 
 Ellipsenbogen (weiß) mit interner Geometrie (dunkelgelb)
 
@@ -30,8 +30,8 @@ Ellipsenbogen (weiß) mit interner Geometrie (dunkelgelb)
 Siehe auch: [Zeichnungshilfen](/Sketcher_Workbench/de#Zeichnungshilfen "Sketcher Workbench/de").
 
 1. Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
-   - Die Schaltfläche ![](/src/assets/images/Sketcher_CreateArcOfEllipse.svg) Ellipsenbogen erstellen drücken.
-   - Den Menüeintrag **Skizze → Skizzengeometrien → ![](/src/assets/images/Sketcher_CreateArcOfEllipse.svg) Ellipsenbogen erstellen** auswählen.
+   - Die Schaltfläche ![](/images/Sketcher_CreateArcOfEllipse.svg) Ellipsenbogen erstellen drücken.
+   - Den Menüeintrag **Skizze → Skizzengeometrien → ![](/images/Sketcher_CreateArcOfEllipse.svg) Ellipsenbogen erstellen** auswählen.
    - Das Tastaturkürzel G dann E dann A.
 2. Der Mauszeiger wandelt sich zu einem Kreuz mit Werkzeugsymbol.
 3. Den Mittelpunkt des Bogens auswählen.

@@ -19,14 +19,14 @@ title: Draft FlipDimension
 
 ## Description
 
-The ![](/src/assets/images/Draft_FlipDimension.svg) **Draft FlipDimension** command rotates the dimension text of selected [Draft Dimensions](/Draft_Dimension "Draft Dimension") 180° around the dimension line. It can be used to correct dimensions whose text appears mirrored. The command does not work properly for angular dimensions.
+The ![](/images/Draft_FlipDimension.svg) **Draft FlipDimension** command rotates the dimension text of selected [Draft Dimensions](/Draft_Dimension "Draft Dimension") 180° around the dimension line. It can be used to correct dimensions whose text appears mirrored. The command does not work properly for angular dimensions.
 
 ## Usage
 
 1. Select one or more [Draft Dimensions](/Draft_Dimension "Draft Dimension").
 2. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/Draft_FlipDimension.svg) [Flip dimension](/Draft_FlipDimension "Draft FlipDimension") button.
-   - Select the **Modification → ![](/src/assets/images/Draft_FlipDimension.svg) Flip dimension** option from the menu.
+   - Press the ![](/images/Draft_FlipDimension.svg) [Flip dimension](/Draft_FlipDimension "Draft FlipDimension") button.
+   - Select the **Modification → ![](/images/Draft_FlipDimension.svg) Flip dimension** option from the menu.
 
 ## Notes
 

@@ -19,14 +19,14 @@ title: Draft Split
 
 ## Description
 
-The ![](/src/assets/images/Draft_Split.svg) **Draft Split** command splits a [Draft Line](/Draft_Line "Draft Line") or [Draft Wire](/Draft_Wire "Draft Wire") at a specified point or edge. This command is the counterpart of the [Draft Join](/Draft_Join "Draft Join") command.
+The ![](/images/Draft_Split.svg) **Draft Split** command splits a [Draft Line](/Draft_Line "Draft Line") or [Draft Wire](/Draft_Wire "Draft Wire") at a specified point or edge. This command is the counterpart of the [Draft Join](/Draft_Join "Draft Join") command.
 
 ## Usage
 
 1. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/Draft_Split.svg) [Split](/Draft_Split "Draft Split") button.
-   - [Draft](/Draft_Workbench "Draft Workbench"): Select the **Modification → ![](/src/assets/images/Draft_Split.svg) Split** option from the menu.
-   - [BIM](/BIM_Workbench "BIM Workbench"): Select the **Modify → ![](/src/assets/images/Draft_Split.svg) Split** option from the menu.
+   - Press the ![](/images/Draft_Split.svg) [Split](/Draft_Split "Draft Split") button.
+   - [Draft](/Draft_Workbench "Draft Workbench"): Select the **Modification → ![](/images/Draft_Split.svg) Split** option from the menu.
+   - [BIM](/BIM_Workbench "BIM Workbench"): Select the **Modify → ![](/images/Draft_Split.svg) Split** option from the menu.
    - Use the keyboard shortcut: S then P.
 2. Move the pointer over the correct edge of a [Draft Line](/Draft_Line "Draft Line") or [Draft Wire](/Draft_Wire "Draft Wire").
 3. The edge is highlighted.

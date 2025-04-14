@@ -23,7 +23,7 @@ The **Std HideObjects** command hides all objects belonging to the active docume
 
 ## Usage
 
-1. Select the **View → Visibility → ![](/src/assets/images/Std_HideObjects.svg) Hide all objects** option from the menu.
+1. Select the **View → Visibility → ![](/images/Std_HideObjects.svg) Hide all objects** option from the menu.
 
 ## Notes
 

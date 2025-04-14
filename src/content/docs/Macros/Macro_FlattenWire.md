@@ -33,7 +33,7 @@ This macro flattens draft wires that are not planar to their median Z coordinate
 ## Script
 
 ToolBar Icon
-![](/src/assets/images/Macro_FlattenWire.png)
+![](/images/Macro_FlattenWire.png)
 
 **Macro_FlattenWire.FCMacro**
 

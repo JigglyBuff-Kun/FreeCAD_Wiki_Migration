@@ -21,16 +21,16 @@ title: FCGear CycloidGear
 
 Cycloidal gears are very sensitive to an inaccurate adjustment of the centre distance, which then leads to a change in the transmission ratio. For these reasons, cycloidal gears are hardly found in mechanical engineering but are only used in special cases such as in the watch industry, for roots type blowers or for the drive of gear racks.
 
-![](/src/assets/images/Cycloid-Gear_example_1.png)
+![](/images/Cycloid-Gear_example_1.png)
 
 From left to right: Spur gearing, helical gearing, double helical gearing
 
 ## Usage
 
-1. Switch to the ![](/src/assets/images/FCGear_workbench_icon.svg) [FCGear Workbench](/FCGear_Workbench "FCGear Workbench").
+1. Switch to the ![](/images/FCGear_workbench_icon.svg) [FCGear Workbench](/FCGear_Workbench "FCGear Workbench").
 2. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/FCGear_CycloidGear.svg) [Cycloid Gear](/FCGear_CycloidGear "FCGear CycloidGear") button in the toolbar.
-   - Select the **Gear → ![](/src/assets/images/FCGear_CycloidGear.svg) Cycloid Gear** option from the menu.
+   - Press the ![](/images/FCGear_CycloidGear.svg) [Cycloid Gear](/FCGear_CycloidGear "FCGear CycloidGear") button in the toolbar.
+   - Select the **Gear → ![](/images/FCGear_CycloidGear.svg) Cycloid Gear** option from the menu.
 3. Change the gear parameter to the required conditions (see [Properties](#Properties)).
 
 ## Properties
@@ -119,6 +119,6 @@ See [FCGear InvoluteGear](/FCGear_InvoluteGear#Useful_formulas "FCGear InvoluteG
 
 ## Properties cycloid parameter view
 
-![](/src/assets/images/CycloidGear_inner-outer-diameter_2.svg)
+![](/images/CycloidGear_inner-outer-diameter_2.svg)
 
 Retrieved from "<http://wiki.freecad.org/index.php?title=FCGear_CycloidGear/en&oldid=1195175>"

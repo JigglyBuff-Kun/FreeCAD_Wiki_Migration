@@ -414,7 +414,7 @@ The editable texts are sorted according to font size. The group tag defines the 
 
 ### Complete template
 
-![](/src/assets/images/TechDraw_PageDefault.svg)
+![](/images/TechDraw_PageDefault.svg)
 
 ```
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>

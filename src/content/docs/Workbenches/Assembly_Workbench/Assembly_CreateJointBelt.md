@@ -23,14 +23,14 @@ This documentation is not finished. Please help and contribute documentation.Gui
 
 ## Description
 
-The ![](/src/assets/images/Assembly_CreateJointBelt.svg) [Assembly CreateJointBelt](/Assembly_CreateJointBelt "Assembly CreateJointBelt") tool creates a belt joint that couples the rotation of two parts of two different revolute joints. In connection with the already existing joints this joint can be used to simulate belt drives, timing gears, etc.
+The ![](/images/Assembly_CreateJointBelt.svg) [Assembly CreateJointBelt](/Assembly_CreateJointBelt "Assembly CreateJointBelt") tool creates a belt joint that couples the rotation of two parts of two different revolute joints. In connection with the already existing joints this joint can be used to simulate belt drives, timing gears, etc.
 
 ## Usage
 
 1. Optionally select two geometric entities of two different parts that have previously been used to define two Revolute joints.
 2. There are several ways to invoke the tool:
-   - Press the ![](/src/assets/images/Assembly_CreateJointBelt.svg) [Create Belt Joint](/Assembly_CreateJointBelt "Assembly CreateJointBelt") button.
-   - Select the **Assembly → Create Gear/Belt Joint → ![](/src/assets/images/Assembly_CreateJointBelt.svg) Create Belt Joint** option from the menu.
+   - Press the ![](/images/Assembly_CreateJointBelt.svg) [Create Belt Joint](/Assembly_CreateJointBelt "Assembly CreateJointBelt") button.
+   - Select the **Assembly → Create Gear/Belt Joint → ![](/images/Assembly_CreateJointBelt.svg) Create Belt Joint** option from the menu.
 3. The **Create Joint** dialog opens in the [Task panel](/Task_panel "Task panel") listing the pre-selected entities.
 4. For further steps see [Assembly CreateJointFixed](/Assembly_CreateJointFixed#Usage "Assembly CreateJointFixed").
 

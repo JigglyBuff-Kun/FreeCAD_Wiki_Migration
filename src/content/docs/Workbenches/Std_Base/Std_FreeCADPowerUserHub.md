@@ -25,6 +25,6 @@ Currently the command points to <https://wiki.freecad.org/Power_users_hub>.
 
 ## Usage
 
-1. Select the **Help → ![](/src/assets/images/Std_FreeCADPowerUserHub.svg) Python scripting documentation** option from the menu.
+1. Select the **Help → ![](/images/Std_FreeCADPowerUserHub.svg) Python scripting documentation** option from the menu.
 
 Retrieved from "<http://wiki.freecad.org/index.php?title=Std_FreeCADPowerUserHub/en&oldid=1454755>"

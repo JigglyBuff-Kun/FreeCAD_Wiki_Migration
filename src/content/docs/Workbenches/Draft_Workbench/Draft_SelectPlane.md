@@ -19,13 +19,13 @@ title: Draft SelectPlane
 
 ## Description
 
-The ![](/src/assets/images/Draft_SelectPlane.svg) **Draft SelectPlane** command defines the current Draft working plane. This is the plane in the [3D view](/3D_view "3D view") where new [Draft](/Draft_Workbench "Draft Workbench") objects are created. A working plane can be based on one of several [presets](#Usage_with_presets) or on a selection. The selection can be created before ([pre-selection](#Usage_with_pre-selection)) or after ([post-selection](#Usage_with_post-selection)) starting the command.
+The ![](/images/Draft_SelectPlane.svg) **Draft SelectPlane** command defines the current Draft working plane. This is the plane in the [3D view](/3D_view "3D view") where new [Draft](/Draft_Workbench "Draft Workbench") objects are created. A working plane can be based on one of several [presets](#Usage_with_presets) or on a selection. The selection can be created before ([pre-selection](#Usage_with_pre-selection)) or after ([post-selection](#Usage_with_post-selection)) starting the command.
 
 [introduced in 1.0](/Release_notes_1.0 "Release notes 1.0"): For each 3D view a separate working plane is stored.
 
-The ![](/src/assets/images/Draft_tray_button_plane.png) button in the [Draft Tray](/Draft_Tray "Draft Tray") changes depending on the current working plane. [introduced in 1.0](/Release_notes_1.0 "Release notes 1.0"): If the working plane is not set to **Auto** an asterisk (**\***) is appended to the button label if the origin of the working plane does not match the global origin.
+The ![](/images/Draft_tray_button_plane.png) button in the [Draft Tray](/Draft_Tray "Draft Tray") changes depending on the current working plane. [introduced in 1.0](/Release_notes_1.0 "Release notes 1.0"): If the working plane is not set to **Auto** an asterisk (**\***) is appended to the button label if the origin of the working plane does not match the global origin.
 
-![](/src/assets/images/WorkingPlane_example.png)
+![](/images/WorkingPlane_example.png)
 
 Shapes created on different working planes
 
@@ -47,8 +47,8 @@ Shapes created on different working planes
      - Three vertices.
      - An edge and a vertex, or two edges. The combined vertices must define a plane. ([introduced in 1.0](/Release_notes_1.0 "Release notes 1.0"))
 2. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/Draft_tray_button_plane.png) button in the [Draft Tray](/Draft_Tray "Draft Tray").
-   - [Draft](/Draft_Workbench "Draft Workbench"): Select the **Utilities → ![](/src/assets/images/Draft_SelectPlane.svg) Select plane** option from the menu, or from the [Tree view](/Tree_view "Tree view") or [3D view](/3D_view "3D view") context menu.
+   - Press the ![](/images/Draft_tray_button_plane.png) button in the [Draft Tray](/Draft_Tray "Draft Tray").
+   - [Draft](/Draft_Workbench "Draft Workbench"): Select the **Utilities → ![](/images/Draft_SelectPlane.svg) Select plane** option from the menu, or from the [Tree view](/Tree_view "Tree view") or [3D view](/3D_view "3D view") context menu.
    - Draft: Use the keyboard shortcut: W then P.
 3. The working plane and the button in the [Draft Tray](/Draft_Tray "Draft Tray") are updated.
 
@@ -71,22 +71,22 @@ Shapes created on different working planes
 
 ## Options
 
-- Press the ![](/src/assets/images/View-top.svg) Top (XY) button to align the working plane with the XY plane of the global coordinate system.
-- Press the ![](/src/assets/images/View-front.svg) Front (XZ) button to align the working plane with the XZ plane of the global coordinate system.
-- Press the ![](/src/assets/images/View-right.svg) Side (YZ) button to align the working plane with the YZ plane of the global coordinate system.
-- Press the ![](/src/assets/images/View-isometric.svg) Align to view button to align the working plane with the current [3D view](/3D_view "3D view"). If the **Center plane on view** checkbox is not checked the working plane origin will match the origin of the global coordinate system, else it will match the center of the current [3D view](/3D_view "3D view").
-- Press the ![](/src/assets/images/View-axonometric.svg) Automatic button to set the working plane to **Auto**. A working plane set to **Auto** will automatically align with the current [3D view](/3D_view "3D view") whenever a Draft or [BIM](/BIM_Workbench "BIM Workbench") command requiring point input is started. This is equivalent to pressing the ![](/src/assets/images/View-isometric.svg) Align to view button before using the command. Additionally the working plane will align to planar faces that have been selected before starting the command, or when points on planar faces are picked during the command.
+- Press the ![](/images/View-top.svg) Top (XY) button to align the working plane with the XY plane of the global coordinate system.
+- Press the ![](/images/View-front.svg) Front (XZ) button to align the working plane with the XZ plane of the global coordinate system.
+- Press the ![](/images/View-right.svg) Side (YZ) button to align the working plane with the YZ plane of the global coordinate system.
+- Press the ![](/images/View-isometric.svg) Align to view button to align the working plane with the current [3D view](/3D_view "3D view"). If the **Center plane on view** checkbox is not checked the working plane origin will match the origin of the global coordinate system, else it will match the center of the current [3D view](/3D_view "3D view").
+- Press the ![](/images/View-axonometric.svg) Automatic button to set the working plane to **Auto**. A working plane set to **Auto** will automatically align with the current [3D view](/3D_view "3D view") whenever a Draft or [BIM](/BIM_Workbench "BIM Workbench") command requiring point input is started. This is equivalent to pressing the ![](/images/View-isometric.svg) Align to view button before using the command. Additionally the working plane will align to planar faces that have been selected before starting the command, or when points on planar faces are picked during the command.
 - The **Offset** defines the perpendicular distance between the calculated plane and the actual working plane.
-- Check the **Center plane on view** checkbox to put the origin of the working plane in the center of to the current [3D view](/3D_view "3D view"). This option can be useful in combination with the ![](/src/assets/images/View-isometric.svg) Align to view button.
-- Select a vertex in the [3D view](/3D_view "3D view") and press the ![](/src/assets/images/Draft_Move.svg) Move working plane button to move the working plane so that its origin matches the position of the selected vertex.
+- Check the **Center plane on view** checkbox to put the origin of the working plane in the center of to the current [3D view](/3D_view "3D view"). This option can be useful in combination with the ![](/images/View-isometric.svg) Align to view button.
+- Select a vertex in the [3D view](/3D_view "3D view") and press the ![](/images/Draft_Move.svg) Move working plane button to move the working plane so that its origin matches the position of the selected vertex.
 - The **Grid color** button allows to quickly change the color of the grid. [introduced in 1.0](/Release_notes_1.0 "Release notes 1.0")
 - The **Grid spacing** defines the distance between grid lines.
 - The **Major lines every** value determines where major grid lines are drawn. Major grid lines are slightly thicker than minor grid lines. For example if the grid spacing is `0.5 m` and there is a main line every `10 squares`, such a line will occur every `5 m`.
 - The **Grid size** value determines the number of squares in the X and Y direction of the grid.
 - The **Snapping radius** is the maximum distance at which [Draft Snap Grid](/Draft_Snap_Grid "Draft Snap Grid") detects the intersections of grid lines.
-- Press the ![](/src/assets/images/View-fullscreen.svg) Center view button to align the [3D view](/3D_view "3D view") with the current working plane.
-- Press the ![](/src/assets/images/Sel-back.svg) Previous button to reset the working plane to its previous position.
-- Press the Next ![](/src/assets/images/Sel-forward.svg) button to reset the working plane to its next position. [introduced in 1.0](/Release_notes_1.0 "Release notes 1.0")
+- Press the ![](/images/View-fullscreen.svg) Center view button to align the [3D view](/3D_view "3D view") with the current working plane.
+- Press the ![](/images/Sel-back.svg) Previous button to reset the working plane to its previous position.
+- Press the Next ![](/images/Sel-forward.svg) button to reset the working plane to its next position. [introduced in 1.0](/Release_notes_1.0 "Release notes 1.0")
 - Press Esc or the Close button to abort the command.
 
 ## Notes

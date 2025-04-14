@@ -19,15 +19,15 @@ title: Part FormAusNetz
 
 ## Einleitung
 
-Der Befehl ![](/src/assets/images/Part_ShapeFromMesh.svg) Part FormAusNetz erzeugt eine Form aus einem [Netzobjekt](/Mesh/de "Mesh/de"). Netzobjekte haben in FreeCAD nur begrenzte Bearbeitungsmöglichkeiten, ihre Konvertierung in [Formen](/Shape/de "Shape/de") ermöglicht ihre Verwendung mit booleschen Verknüpfungen und vielen weiteren Bearbeitungsbefehlen.
+Der Befehl ![](/images/Part_ShapeFromMesh.svg) Part FormAusNetz erzeugt eine Form aus einem [Netzobjekt](/Mesh/de "Mesh/de"). Netzobjekte haben in FreeCAD nur begrenzte Bearbeitungsmöglichkeiten, ihre Konvertierung in [Formen](/Shape/de "Shape/de") ermöglicht ihre Verwendung mit booleschen Verknüpfungen und vielen weiteren Bearbeitungsbefehlen.
 
-Der umgekehrte Vorgang wird mit ![](/src/assets/images/Mesh_FromPartShape.svg) [Mesh NetzAusPartForm](/Mesh_FromPartShape/de "Mesh FromPartShape/de") aus dem Arbeitsbereich ![](/src/assets/images/Workbench_Mesh.svg) [Mesh](/Mesh_Workbench/de "Mesh Workbench/de") ausgeführt.
+Der umgekehrte Vorgang wird mit ![](/images/Mesh_FromPartShape.svg) [Mesh NetzAusPartForm](/Mesh_FromPartShape/de "Mesh FromPartShape/de") aus dem Arbeitsbereich ![](/images/Workbench_Mesh.svg) [Mesh](/Mesh_Workbench/de "Mesh Workbench/de") ausgeführt.
 
 ## Anwendung
 
-1. Das Analysieren und Reparieren der Netzobjekte sollte, wenn erforderlich, bevor dieser Befehl gestartet wird. Geeignete Werkzeuge für diese Aufgabe findet man im Arbeitsbereich ![](/src/assets/images/Workbench_Mesh.svg) [Mesh](/Mesh_Workbench/de "Mesh Workbench/de").
+1. Das Analysieren und Reparieren der Netzobjekte sollte, wenn erforderlich, bevor dieser Befehl gestartet wird. Geeignete Werkzeuge für diese Aufgabe findet man im Arbeitsbereich ![](/images/Workbench_Mesh.svg) [Mesh](/Mesh_Workbench/de "Mesh Workbench/de").
 2. Ein oder mehrere Netzobjekte auswählen.
-3. Den Menüeintrag **Part → ![](/src/assets/images/Part_ShapeFromMesh.svg) Form aus Dreiecksnetz erstellen** auswählen.
+3. Den Menüeintrag **Part → ![](/images/Part_ShapeFromMesh.svg) Form aus Dreiecksnetz erstellen** auswählen.
 4. Das Dialogfenster **Form aus Netz** wird geöffnet.
 5. Wahlweise die Checkbox **Form nähen** aktivieren und eine Toleranz festlegen:
    - Diese Option wird normalerweise nicht gebraucht. Sie ist für Netzobjekte vorgesehen, die nicht wasserdicht sind und kleine Lücken zwischen Kanten aufweisen.
@@ -35,8 +35,8 @@ Der umgekehrte Vorgang wird mit ![](/src/assets/images/Mesh_FromPartShape.svg) [
    - Der Vorgang des Vernähens kann eine hohe Rechenleistung erfordern.
 6. Die Schaltfläche OK drücken.
 7. Zu jedem ausgewählten Netzobjekt wird eine [Form](/Shape/de "Shape/de") (Shape object) als separates neues Objekt erstellt.
-8. Wahlweise ![](/src/assets/images/Part_RefineShape.svg) [Part FormAufbereiten](/Part_RefineShape/de "Part RefineShape/de") auf diese Objekte anwenden.
-9. Wahlweise die endgültigen Objekte mit ![](/src/assets/images/Part_MakeSolid.svg) [Part FestkörperErstellen](/Part_MakeSolid/de "Part MakeSolid/de") in Festkörper umwandeln.
+8. Wahlweise ![](/images/Part_RefineShape.svg) [Part FormAufbereiten](/Part_RefineShape/de "Part RefineShape/de") auf diese Objekte anwenden.
+9. Wahlweise die endgültigen Objekte mit ![](/images/Part_MakeSolid.svg) [Part FestkörperErstellen](/Part_MakeSolid/de "Part MakeSolid/de") in Festkörper umwandeln.
 
 ## Eigenschaften
 

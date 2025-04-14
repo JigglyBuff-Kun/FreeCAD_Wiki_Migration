@@ -27,7 +27,7 @@ This tutorial was originally written for a now deprecated development version of
 | _None_               |
 |                      |
 
-![](/src/assets/images/HolderTop1-1.jpg)
+![](/images/HolderTop1-1.jpg)
 
 Bearing Holder Tutorial - Finished bearing holder (top)
 
@@ -49,7 +49,7 @@ The holder will be a sand cast with a minimum wall thickness of 5mm, a draft ang
 
 ## Setting up the skeleton geometry
 
-![](/src/assets/images/HolderTop1-2.jpg)
+![](/images/HolderTop1-2.jpg)
 
 Bearing holder with the two most important skeleton planes
 
@@ -57,7 +57,7 @@ The idea of skeleton geometry is to capture the basic design dimensions in a sin
 
 The alternative to skeleton geometry is to have a table of the basic design dimensions that assign a symbolic name to each dimension, and then use the symbolic name wherever the dimensions is required to build the model. FreeCAD does not allow this approach yet.
 
-![](/src/assets/images/HolderTop1-3.jpg)
+![](/images/HolderTop1-3.jpg)
 
 Base planes and all datum planes
 
@@ -72,7 +72,7 @@ It is advisable to give clear names to the skeleton geometry. Most of the time, 
 
 ## The solid geometry
 
-![](/src/assets/images/HolderTop1-4.jpg)
+![](/images/HolderTop1-4.jpg)
 
 Sketch of the first pad
 
@@ -82,7 +82,7 @@ You are probably wondering why there is a small straight segment at the bottom o
 
 When you have done the sketch (which is a bit tricky because of the 2 degree tangential lines), just pad it symmetrically to the sketch plane with a length of 62mm: 34mm for the bearing, 2x 9mm for the sealing rings, 2x 5mm for the wall thickness.
 
-![](/src/assets/images/HolderTop1-5.jpg)
+![](/images/HolderTop1-5.jpg)
 
 Sketch of the cut-away at the side of the pad
 
@@ -92,7 +92,7 @@ The only two important dimensions in the sketch are 3mm of machining allowance a
 
 After you have created the sketch, pocket it up to the datum plane marking the bearing side plus 5mm wall thickness. If you ever want to modify the holder to be able to hold wider bearings, all you have to do is to change the dimension of these datum planes, and the cut-out depth will follow along.
 
-![](/src/assets/images/HolderTop1-6.jpg)
+![](/images/HolderTop1-6.jpg)
 
 Sketch of the cut-away inside the pad
 
@@ -100,13 +100,13 @@ To reduce the amount of machining required, we also want to cut away some materi
 
 After creating the sketches, pocket them: Symetrically 28mm for the bearing cut-out (34mm - 2x machining allowance) and one-sided 23mm for the cut-outs for the sealing rings: 34mm / 2 for half the bearing width + 9mm for the sealing rings - 3mm machining allowance.
 
-![](/src/assets/images/HolderTop1-7.jpg)
+![](/images/HolderTop1-7.jpg)
 
 Main geometry of the holder top
 
 Your part should now look like the picture on the right. Note how the different cut-aways combine to create an almost uniform wall thickness, which will make the casting easier and less liable to have pores.
 
-![](/src/assets/images/HolderTop1-8.jpg)
+![](/images/HolderTop1-8.jpg)
 
 Sketch with draft where the bolts will be
 
@@ -114,7 +114,7 @@ Now all that remains is to create some material for the bolts to go through. You
 
 Here again the skeleton planes come in useful. You will need the bolt axis plane and the bolt head plane as external geometry. Then, create a straight line for the rotation axis and make sure it is constrained to the bolt axis plane reference. Toggle it to be construction geometry. Then, sketch the rest of the contour. The important dimensions are the machining allowance at the top and bottom and the radius of 12mm: 7mm for the hole radius + 5mm wall thickness.
 
-![](/src/assets/images/HolderTop1-9.jpg)
+![](/images/HolderTop1-9.jpg)
 
 Finished geometry of the holder top (without draft and fillets)
 
@@ -122,13 +122,13 @@ Create a revolution feature from the sketch and then mirror it on the YZ-plane. 
 
 ## Applying draft to the side faces
 
-![](/src/assets/images/HolderTop1-10.jpg)
+![](/images/HolderTop1-10.jpg)
 
 The neutral plane for creating drafts
 
 The next step is to apply drafts on all faces. Its important to consider the location of the neutral plane, that is, the plane which the face is "rotated" around. If we choose as neutral plane the bottom of the holder, then we will have a problem with the wall thickness in the top part of the holder. Therefore, we create a datum plane at an offset of 40mm from the XZ plane as a compromise between the top of the holder becoming to thin and the bottom becoming to wide.
 
-![](/src/assets/images/HolderTop1-11.jpg)
+![](/images/HolderTop1-11.jpg)
 
 Applying draft to the side faces of the holder
 
@@ -138,7 +138,7 @@ The dialog will force you to select a neutral plane before completing. You can l
 
 ## Filleting the holder
 
-![](/src/assets/images/HolderTop1-13.jpg)
+![](/images/HolderTop1-13.jpg)
 
 Fillet where the bolts will go
 
@@ -146,19 +146,19 @@ We can now fillet the part. The picture shows the first set of fillets. Start wi
 
 As with drafts, in a complex part you should fillet only one edge at a time to avoid unnecessary failures if the base geometry changes.
 
-![](/src/assets/images/HolderTop1-12.jpg)
+![](/images/HolderTop1-12.jpg)
 
 Filleting the outside of the holder
 
 The rest of the fillets are simply 3mm radius. Looking at the picture on the right, the two highlighted fillets could actually be filleted with 5mm to achieve a more uniform wall thickness for the casting. After machining, the minimum wall thickness of 5mm would still be maintained. But again the fact that OpenCascade can't handle overlapping fillets prevents us from doing this for the inner of the two highlighted fillets.
 
-![](/src/assets/images/HolderTop1-14.jpg)
+![](/images/HolderTop1-14.jpg)
 
 Filleting the inside of the holder - problematic edge
 
 Filleting the inside of the part presents us with a difficulty that cannot be solved with the current tools in the PartDesign workbench. The highlighted edge cannot be filleted at all, again because the rounds would overlap. This could be worked around by creating a sweep instead of a fillet, except that sweeps are not implemented in PartDesign yet. For the time being, we are forced to leave the edge as it is.
 
-![](/src/assets/images/HolderTop1-15.jpg)
+![](/images/HolderTop1-15.jpg)
 
 The filleted part (except for the impossible edge)
 
@@ -166,11 +166,11 @@ The picture on the right shows the finished part in the state it will be before 
 
 ## Machining
 
-![](/src/assets/images/HolderTop1-16.jpg)
+![](/images/HolderTop1-16.jpg)
 
 Machining the top and bottom of the holder
 
-![](/src/assets/images/HolderTop1-17.jpg)
+![](/images/HolderTop1-17.jpg)
 
 Machining the inside of the bearing holder
 
@@ -185,7 +185,7 @@ Before starting on the machining geometry, I like to place a datum point in the 
 
 To machine the bottom of the holder, just sketch a large rectangle on the XZ plane and pocket it. For the top, sketch a circle on the datum plane defining the bolt head location, and then mirror the pocket on the YZ plane. In the same way, create a pocket for the hole which the bolt will go through and mirror it. To machine the inside of the holder, create a sketch on the YZ plane and groove it.
 
-![](/src/assets/images/HolderTop1-1.jpg)
+![](/images/HolderTop1-1.jpg)
 
 Finished part
 

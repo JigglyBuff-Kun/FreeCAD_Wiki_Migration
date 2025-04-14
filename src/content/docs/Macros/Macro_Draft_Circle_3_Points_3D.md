@@ -30,7 +30,7 @@ title: Draft Circle 3 Points 3D
 
 This macro creates a circle on 3 selected points in the space. The points can be objects such as cubes, cylinder, then selected coordinates will be the centre of these forms.
 
-![](/src/assets/images/Macro_Draft_Circle_3_Points_3D.png)
+![](/images/Macro_Draft_Circle_3_Points_3D.png)
 
 ## Usage
 
@@ -44,7 +44,7 @@ The coordinates **X, Y, Z** of value **0** or alignment not allowing not calcula
 
 ## Script
 
-ToolBar Icon ![](/src/assets/images/Macro_Draft_Circle_3_Points.png)
+ToolBar Icon ![](/images/Macro_Draft_Circle_3_Points.png)
 
 **Macro_Draft_Circle_3_Points_3D.FCMacro**
 

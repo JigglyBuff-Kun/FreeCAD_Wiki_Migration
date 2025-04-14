@@ -27,13 +27,13 @@ Ship works over **Ship entities**, that must be created on top of provided geome
 - Starboard geometry must be included at negatives _y_ domain.
 - Origin (0,0,0) point is the **Midship section** (Midpoint between after and forward perpendicular) and **base line** intersection.
 
-![](/src/assets/images/FreeCAD-Ship-SignCriteria.jpg)
+![](/images/FreeCAD-Ship-SignCriteria.jpg)
 
 Ship sign criteria
 
 ## Usage
 
-In order to create a **Ship instance** (in other words, a New Ship), select the hull solid geometry and invoke **Ship design → ![](/src/assets/images/Ship_CreateShip.svg) Create a new ship**.
+In order to create a **Ship instance** (in other words, a New Ship), select the hull solid geometry and invoke **Ship design → ![](/images/Ship_CreateShip.svg) Create a new ship**.
 
 The task panel and a free-surface annotation in the [3D view](/3D_view "3D view") are shown. The annotation is temporary and will be removed when you close the tool, so don't worry about that.
 
@@ -47,13 +47,13 @@ Main dimensions must be introduced here:
 - Beam: Total ship beam.
 - Draft: Design draft.
 
-![](/src/assets/images/FreeCAD-Ship-S60ShipCreationFront.png)
+![](/images/FreeCAD-Ship-S60ShipCreationFront.png)
 
 Length annotations
 
 Usually the Length between perpendiculars depends on design draft, so if you don't know what is the length of your ship you can set draft, and fit length in order to get bow and draft intersection.
 
-![](/src/assets/images/FreeCAD-Ship-S60ShipCreationSide.png)
+![](/images/FreeCAD-Ship-S60ShipCreationSide.png)
 
 Beam annotations
 

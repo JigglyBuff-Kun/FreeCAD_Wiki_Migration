@@ -19,24 +19,24 @@ title: Standard Teil
 
 ## Beschreibung
 
-![](/src/assets/images/Std_Part.svg) Std Teil, intern [App-Part](/App_Part/de "App Part/de") genannt, ist ein Sammelbehälter zur allgemeinen Verwendung, der eine Gruppe von Objekten (Baugruppe) zusammenhält, so dass sie zusammen als Einheit in der [3D-Ansicht](/3D_view/de "3D view/de") bewegt werden können.
+![](/images/Std_Part.svg) Std Teil, intern [App-Part](/App_Part/de "App Part/de") genannt, ist ein Sammelbehälter zur allgemeinen Verwendung, der eine Gruppe von Objekten (Baugruppe) zusammenhält, so dass sie zusammen als Einheit in der [3D-Ansicht](/3D_view/de "3D view/de") bewegt werden können.
 
 Das 'Std Part'-Element wurde entwickelt, um als Grundbaustein zur Zusammenstellung von mechanischen [Zusammenbauten](/Assembly/de "Assembly/de") (Baugruppen) zu dienen. Es dient zum Anordnen von Objekten, die eine [Part TopoForm](/Part_TopoShape/de "Part TopoShape/de") haben, wie [Part Grundkörper](/Part_Primitives/de "Part Primitives/de"), [PartDesign Körper](/PartDesign_Body/de "PartDesign Body/de") und andere [Part Formelement](/Part_Feature/de "Part Feature/de").
 Das 'Std Part' stellt ein [Ursprungsobjekt](#Ursprung) mit lokalen X-, Y- und Z-Achsen und Standardebenen zur Verfügung, die als Bezug für die Positionierung der enthaltenen Objekte dienen können. Zusätzlich können 'Std Parts' in andere 'Std Parts' eingebettet werden, um eine Gesamtbaugruppe aus kleineren Unterbaugruppen zu erstellen.
 
 Obwohl es hauptsächlich für Festkörper gedacht ist, kann das 'Std Part' zur Handhabung aller Objekte verwendet werden, die die Eigenschaft [Placement](/Placement/de "Placement/de") besitzen. Daher kann es auch [Mesh Formelemente](/Mesh_Feature/de "Mesh Feature/de"), [Skizzen](/Sketch/de "Sketch/de") und andere Objekte enthalten, die von der Klasse [App-GeoFeature](/App_GeoFeature/de "App GeoFeature/de") abgeleitet werden.
 
-Ein ![](/src/assets/images/PartDesign_Body.svg) [PartDesign Körper](/PartDesign_Body/de "PartDesign Body/de") darf nicht mit einem ![](/src/assets/images/Std_Part.svg) Std Teil verwechselt werden. Das erste ist ein entsprechendes Objekt aus dem Arbeitsbereich ![](/src/assets/images/Workbench_PartDesign.svg) [PartDesign](/PartDesign_Workbench/de "PartDesign Workbench/de"), zum Erstellen [einteiliger, zusammenhängender Festkörper](/PartDesign_Body/de#Einzeln_zusammenhängender_Körper "PartDesign Body/de") aus [PartDesign Formelementen](/PartDesign_Feature/de "PartDesign Feature/de"). Das Std Teil wird im Gegensatz dazu nicht zur Erstellung von Objekten verwendet, sondern um unterschiedliche Objekte im Raum anzuordnen, mit der Absicht [Baugruppen](/Assembly/de "Assembly/de") zu erstellen.
+Ein ![](/images/PartDesign_Body.svg) [PartDesign Körper](/PartDesign_Body/de "PartDesign Body/de") darf nicht mit einem ![](/images/Std_Part.svg) Std Teil verwechselt werden. Das erste ist ein entsprechendes Objekt aus dem Arbeitsbereich ![](/images/Workbench_PartDesign.svg) [PartDesign](/PartDesign_Workbench/de "PartDesign Workbench/de"), zum Erstellen [einteiliger, zusammenhängender Festkörper](/PartDesign_Body/de#Einzeln_zusammenhängender_Körper "PartDesign Body/de") aus [PartDesign Formelementen](/PartDesign_Feature/de "PartDesign Feature/de"). Das Std Teil wird im Gegensatz dazu nicht zur Erstellung von Objekten verwendet, sondern um unterschiedliche Objekte im Raum anzuordnen, mit der Absicht [Baugruppen](/Assembly/de "Assembly/de") zu erstellen.
 
-Das Werkzeug ![](/src/assets/images/Std_Part.svg) Std Part wird nicht durch einen bestimmten Arbeitsbereich festgelegt, sondern durch das Grundsystem. Daher befindet es sich in der **structure toolbar**, die es in allen [Arbeitsbereichen](/Workbenches/de "Workbenches/de") gibt. Mit der Schaltfläche ![](/src/assets/images/Std_Group.svg) [Std Gruppe](/Std_Group/de "Std Group/de") können Objekte in der Baumansicht frei gruppiert werden, ohne ihre Position zu berücksichtigen. Dieses Objekt beeinflußt die Positionen seiner Elemente nicht. Es ist im wesentlichen nur ein Ordner mit dem die [Baumansicht](/Tree_view/de "Tree view/de") geordnet werden kann.
+Das Werkzeug ![](/images/Std_Part.svg) Std Part wird nicht durch einen bestimmten Arbeitsbereich festgelegt, sondern durch das Grundsystem. Daher befindet es sich in der **structure toolbar**, die es in allen [Arbeitsbereichen](/Workbenches/de "Workbenches/de") gibt. Mit der Schaltfläche ![](/images/Std_Group.svg) [Std Gruppe](/Std_Group/de "Std Group/de") können Objekte in der Baumansicht frei gruppiert werden, ohne ihre Position zu berücksichtigen. Dieses Objekt beeinflußt die Positionen seiner Elemente nicht. Es ist im wesentlichen nur ein Ordner mit dem die [Baumansicht](/Tree_view/de "Tree view/de") geordnet werden kann.
 
-![](/src/assets/images/Std_Part-tree.png)![](/src/assets/images/Std_Part_example.png)
+![](/images/Std_Part-tree.png)![](/images/Std_Part_example.png)
 
 Links: Elemente innerhalb eines Std Teils (Part-Objekt) in der [Baumansicht](/Tree_view/de "Tree view/de"). Rechts: Objekte im Raum positioniert, bezogen auf den Ursprung des Std Teils.
 
 ## Anwendung
 
-1. Die Schaltfläche ![](/src/assets/images/Std_Part.svg) Baugruppe erstellen betätigen.
+1. Die Schaltfläche ![](/images/Std_Part.svg) Baugruppe erstellen betätigen.
 2. Ein leeres Teil wird erzeugt und wird automatisch _[aktiv](/Std_Part#Active_status "Std Part")_.
 3. In der [Baumansicht](/Tree_view/de "Tree view/de") Objekte wählen und durch Drag & Drop auf dieses Teil ziehen, um sie zum Teil hinzuzufügen.
 4. Um Objekte aus einem Teil zu entfernen, zieht man es per Drag & Drop aus dem Teil auf die Dokumentenbeschriftung oben in der [Baumansicht](/Tree_view/de "Tree view/de").
@@ -101,7 +101,7 @@ Ein Part-Objekt aktivieren oder deaktivieren:
 - Doppelklick auf das Part-Objekt in der [Baumansicht](/Tree_view/de "Tree view/de") oder
 - Das Kontextmenü öffnen (Rechtsklick) und **Aktives Objekt** wählen.
 
-![](/src/assets/images/Std_Part_active.png)
+![](/images/Std_Part_active.png)
 
 Dokument mit zwei Std Teilen, in der das zweite aktiv ist.
 
@@ -109,7 +109,7 @@ Dokument mit zwei Std Teilen, in der das zweite aktiv ist.
 
 Der Ursprung besteht aus den drei Standardachsen (X, Y, Z) und drei Standardebenen (XY, XZ und YZ). An diese können [Skizzen](/Sketch/de "Sketch/de") und andere Objekte angehängt werden, wenn sie erstellt werden.
 
-![](/src/assets/images/Part_Origin_tree.png) ![](/src/assets/images/Part_Origin_view.png)
+![](/images/Part_Origin_tree.png) ![](/images/Part_Origin_view.png)
 
 Links: Teil Ursprung in der [Baumansicht](/Tree_view/de "Tree view/de"). Rechts: Ansicht der Ursprungselemente in der [3D-Ansicht](/3D_view/de "3D view/de").
 
@@ -121,7 +121,7 @@ _Hinweis 2:_ alle Elemente innerhalb einer Baugruppe beziehen sich auf den Urspr
 
 Die Sichtbarkeit der Baugruppe überlagert die Sichtbarkeit jedes darin enthaltenen Objekts. Wenn die Baugruppe ausgeblendet ist, werden auch die darin enthaltenen Objekte ausgeblendet, auch wenn ihre jeweilige Ansicht-Eigenschaft**Sichtbarkeit** auf `true` (wahr) gesetzt ist. Ist die Baugruppe sichtbar, entscheidet die Ansicht-Eigenschaft**Sichtbarkeit** des jeweiligen Objekts, ob das Objekt angezeigt wird oder nicht.
 
-![](/src/assets/images/Part_Visibility_off.png) ![](/src/assets/images/Part_Visibility_on.png)
+![](/images/Part_Visibility_off.png) ![](/images/Part_Visibility_on.png)
 
 Die Sichtbarkeit des Std Teils (Part-Objekt) bestimmt, ob die Objekte, die in der Baugruppe zusammengestellt sind, in der [3D-Ansicht](/3D_view/de "3D view/de") angezeigt werden oder nicht. Links: die Baugruppe ist ausgeblendet und keines der Objekte wird in der [3D-Ansicht](/3D_view/de "3D view/de") angezeigt. Rechts: die Baugruppe ist sichtbar und jedes Objekt bestimmt seine Sichtbarkeit selbst.
 

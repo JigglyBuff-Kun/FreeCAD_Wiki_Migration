@@ -2,7 +2,7 @@
 title: Handbuch Was ist FreeCAD
 ---
 
-![](/src/assets/images/FreeCAD_022_example.png)
+![](/images/FreeCAD_022_example.png)
 
 Wie im vorherigen Abschnitt beschrieben, ist FreeCAD eine parametrische 3D-Computer-Aided-Design-Anwendung (CAD-Programm). [Parametrisches Konstruieren](https://en.wikipedia.org/wiki/Parametric_design) ist eine Methode zum Konstruieren von Objekten, die darauf basiert, Parameter und die Zusammenhänge zwischen ihnen festzulegen. Bei dieser Herangehensweise werden Änderungen an Parametern automatisch an die zugehörigen Elemente der Konstruktion weitergegeben und ermöglichen schnelle Änderungsschleifen und Anpassungen.
 

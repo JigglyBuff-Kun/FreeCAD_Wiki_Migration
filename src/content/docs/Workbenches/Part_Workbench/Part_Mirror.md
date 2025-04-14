@@ -23,22 +23,22 @@ title: Part Mirror
 
 An example:
 
-![](/src/assets/images/PARTMirrorBeforev11.png)
+![](/images/PARTMirrorBeforev11.png)
 
 Before
 
-![](/src/assets/images/PARTMirrorAfterv11.png)
+![](/images/PARTMirrorAfterv11.png)
 
 After mirrored through YZ plane
 
 ## Usage
 
-![](/src/assets/images/PartMirroring_Scr1.png)
+![](/images/PartMirroring_Scr1.png)
 
 1. Optionally select one or more source objects.
 2. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/Part_Mirror.svg) [Mirroring...](/Part_Mirror "Part Mirror") button.
-   - Select the **Part → ![](/src/assets/images/Part_Mirror.svg) Mirroring...** option from the menu.
+   - Press the ![](/images/Part_Mirror.svg) [Mirroring...](/Part_Mirror "Part Mirror") button.
+   - Select the **Part → ![](/images/Part_Mirror.svg) Mirroring...** option from the menu.
 3. If you have not yet selected objects or want to change the selection: pick one or more objects from the **Shapes** list.
 4. Do one of the following:
    - Select a standard **Mirror plane** from the dropdown list.

@@ -25,9 +25,9 @@ The **Mesh Export** command exports a mesh object to a mesh file format. Several
 
 1. Select a single mesh object.
 2. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/Mesh_Export.svg) [Export mesh...](/Mesh_Export "Mesh Export") button.
-   - Select the **Meshes → ![](/src/assets/images/Mesh_Export.svg) Export mesh...** option from the menu.
-   - Select the **![](/src/assets/images/Mesh_Export.svg) Export mesh...** option from the [Tree view](/Tree_view "Tree view") context menu or [3D view](/3D_view "3D view") context menu.
+   - Press the ![](/images/Mesh_Export.svg) [Export mesh...](/Mesh_Export "Mesh Export") button.
+   - Select the **Meshes → ![](/images/Mesh_Export.svg) Export mesh...** option from the menu.
+   - Select the **![](/images/Mesh_Export.svg) Export mesh...** option from the [Tree view](/Tree_view "Tree view") context menu or [3D view](/3D_view "3D view") context menu.
 3. Select the correct file format in the dialog box.
 4. Enter a filename. If you have selected the `All files (*.*)` option in the previous step, and do not specify a file extension here, the .stl extension will be used.
 5. Press the Save button.

@@ -25,24 +25,24 @@ THIS COMMAND IS OBSOLETEIt is not available in1.0 and above. UseBIM Materialinst
 
 The Multi-Material tool defines a list of [materials](/Material "Material") with, for each material, a name and a thickness value. This multi-materials list can then be added to an [Arch](/Arch_Workbench "Arch Workbench") object instead of a single [Arch Material](/Arch_SetMaterial "Arch SetMaterial") .
 
-![](/src/assets/images/Arch_multimaterial_example.png)
+![](/images/Arch_multimaterial_example.png)
 
 Not all Arch objects can currently make use of multi-materials, and the use they do of it differs. Currently:
 
-- ![](/src/assets/images/Arch_Wall.svg) [Walls](/Arch_Wall "Arch Wall") with a MultiMaterial will use the material definitions and thicknesses to create a multi-layer wall
-- ![](/src/assets/images/Arch_Window.svg) [Windows](/Arch_Window "Arch Window") with a MultiMaterial will attribute materials with a given name defined inside the MultiMaterial to window components with a same name or type (see below). Material thickness is not considered.
-- ![](/src/assets/images/Arch_Panel.svg) [Panels](/Arch_Panel "Arch Panel") with a MultiMaterial will use the material definitions and thicknesses to create a multi-layer panel
+- ![](/images/Arch_Wall.svg) [Walls](/Arch_Wall "Arch Wall") with a MultiMaterial will use the material definitions and thicknesses to create a multi-layer wall
+- ![](/images/Arch_Window.svg) [Windows](/Arch_Window "Arch Window") with a MultiMaterial will attribute materials with a given name defined inside the MultiMaterial to window components with a same name or type (see below). Material thickness is not considered.
+- ![](/images/Arch_Panel.svg) [Panels](/Arch_Panel "Arch Panel") with a MultiMaterial will use the material definitions and thicknesses to create a multi-layer panel
 
 ## Usage
 
-1. Create first a series of ![](/src/assets/images/Arch_SetMaterial.svg) [Arch Materials](/Arch_SetMaterial "Arch SetMaterial") that you will need in your Multi-Material.
+1. Create first a series of ![](/images/Arch_SetMaterial.svg) [Arch Materials](/Arch_SetMaterial "Arch SetMaterial") that you will need in your Multi-Material.
 2. Optionally, select an Arch object you wish to attribute the new Multi-Material to.
-3. Press the ![](/src/assets/images/Arch_MultiMaterial.svg) [Multi-Material](/Arch_MultiMaterial "Arch MultiMaterial") button.
+3. Press the ![](/images/Arch_MultiMaterial.svg) [Multi-Material](/Arch_MultiMaterial "Arch MultiMaterial") button.
 4. Set the desired material layers.
 
 ## Options
 
-![](/src/assets/images/Arch_multimaterial_panel.png)
+![](/images/Arch_multimaterial_panel.png)
 
 Upon creating or editing a multi-material by double-clicking it in the tree, the following options are available:
 

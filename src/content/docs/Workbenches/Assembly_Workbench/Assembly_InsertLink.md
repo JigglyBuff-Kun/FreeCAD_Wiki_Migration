@@ -23,13 +23,13 @@ This documentation is not finished. Please help and contribute documentation.Gui
 
 ## Description
 
-The ![](/src/assets/images/Assembly_InsertLink.svg) [Assembly InsertLink](/Assembly_InsertLink "Assembly InsertLink") tool inserts a component into the active assembly. This creates dynamic links (called components here) to parts, bodies, primitives, and assemblies.
+The ![](/images/Assembly_InsertLink.svg) [Assembly InsertLink](/Assembly_InsertLink "Assembly InsertLink") tool inserts a component into the active assembly. This creates dynamic links (called components here) to parts, bodies, primitives, and assemblies.
 
 ## Usage
 
 1. There are several ways to invoke the tool:
-   - Press the ![](/src/assets/images/Assembly_InsertLink.svg) [Insert Component](/Assembly_InsertLink "Assembly InsertLink") button.
-   - Select the **Assembly → ![](/src/assets/images/Assembly_InsertLink.svg) Insert Component** option from the menu.
+   - Press the ![](/images/Assembly_InsertLink.svg) [Insert Component](/Assembly_InsertLink "Assembly InsertLink") button.
+   - Select the **Assembly → ![](/images/Assembly_InsertLink.svg) Insert Component** option from the menu.
    - Use the keyboard shortcut: I.
 2. The **Insert Component** dialog opens in the [Task panel](/Task_panel "Task panel") listing elements available to be used as components.
 3. ...

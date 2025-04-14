@@ -21,13 +21,13 @@ title: PartDesign SubtractiveEllipsoid
 
 Inserts a subtractive ellipsoid in the active Body. Its shape is subtracted from the existing solid.
 
-![](/src/assets/images/PartDesign_SubtractiveEllipsoid_example.svg)
+![](/images/PartDesign_SubtractiveEllipsoid_example.svg)
 
 _On the left: active body (A) shown in grey and subtractive ellipsoid (B) shown in transparent red; result on the right._
 
 ## Usage
 
-1. Press the ![](/src/assets/images/PartDesign_SubtractiveEllipsoid.svg) **Subtractive Ellipsoid** button. **Note**: the Subtractive Ellipsoid is part of an icon menu labelled _Create an subtractive primitive_. After launching FreeCAD, the Subtractive Box is the one displayed in the toolbar. To get to the Ellipsoid button, click on the down arrow besides the visible icon and select Subtractive Ellipsoid in the menu.
+1. Press the ![](/images/PartDesign_SubtractiveEllipsoid.svg) **Subtractive Ellipsoid** button. **Note**: the Subtractive Ellipsoid is part of an icon menu labelled _Create an subtractive primitive_. After launching FreeCAD, the Subtractive Box is the one displayed in the toolbar. To get to the Ellipsoid button, click on the down arrow besides the visible icon and select Subtractive Ellipsoid in the menu.
 2. Set the Primitive parameters and [Attachment](/Part_EditAttachment "Part EditAttachment").
 3. Click OK.
 4. An Ellipsoid feature appears under the active Body.

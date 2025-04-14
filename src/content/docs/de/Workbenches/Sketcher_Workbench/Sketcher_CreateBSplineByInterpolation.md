@@ -19,15 +19,15 @@ title: Sketcher B-SplineDurchInterpolationErstellen
 
 ## Beschreibung
 
-Das Werkzeug ![](/src/assets/images/Sketcher_CreateBSplineByInterpolation.svg) [Sketcher GeschlossenenB-SplineDurchInterpolationErstellen](/Sketcher_CreateBSplineByInterpolation "Sketcher CreateBSplineByInterpolation") erstellt eine [B-Spline](/B-Splines/de "B-Splines/de")-Kurve durch Knotenpunkte. [eingeführt in 1.0](/Release_notes_1.0/de "Release notes 1.0/de"): Dies ist dasselbe Werkzeug wie [Sketcher B-SplineErstellen](/Sketcher_CreateBSpline/de "Sketcher CreateBSpline/de") aber mit einem anderen Startmodus.
+Das Werkzeug ![](/images/Sketcher_CreateBSplineByInterpolation.svg) [Sketcher GeschlossenenB-SplineDurchInterpolationErstellen](/Sketcher_CreateBSplineByInterpolation "Sketcher CreateBSplineByInterpolation") erstellt eine [B-Spline](/B-Splines/de "B-Splines/de")-Kurve durch Knotenpunkte. [eingeführt in 1.0](/Release_notes_1.0/de "Release notes 1.0/de"): Dies ist dasselbe Werkzeug wie [Sketcher B-SplineErstellen](/Sketcher_CreateBSpline/de "Sketcher CreateBSpline/de") aber mit einem anderen Startmodus.
 
 ## Anwendung
 
 Siehe auch: [Zeichnungshilfen](/Sketcher_Workbench/de#Zeichnungshilfen "Sketcher Workbench/de").
 
 1. Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
-   - Die Schaltfläche![](/src/assets/images/Sketcher_CreateBSplineByInterpolation.svg) B-Spline durch Knoten drücken.
-   - Den Menüeintrag **Skizze → Skizzengeometrien → ![](/src/assets/images/Sketcher_CreateBSplineByInterpolation.svg) B-Spline durch Knoten erstellen** auswählen.
+   - Die Schaltfläche![](/images/Sketcher_CreateBSplineByInterpolation.svg) B-Spline durch Knoten drücken.
+   - Den Menüeintrag **Skizze → Skizzengeometrien → ![](/images/Sketcher_CreateBSplineByInterpolation.svg) B-Spline durch Knoten erstellen** auswählen.
    - Das Tastaturkürzel G then B, then I.
 2. Für weitere Schritte siehe [Sketcher B-SplineErstellen](/Sketcher_CreateBSpline/de#Anwendung "Sketcher CreateBSpline/de").
 

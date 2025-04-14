@@ -19,7 +19,7 @@ Usually when writing computer programs, you open a text editor or your special p
 
 In Python that whole process can be done transparently inside the Python interpreter. The interpreter is a Python window with a command prompt, where you can simply type Python code. If you have installed Python on your computer (download it from the [Python website](https://www.python.org/) if you are on Windows or Mac, install it from your package repository if you are on GNU/Linux), you will have a Python interpreter in your start menu. But, as already mentioned, FreeCAD also has a built-in Python interpreter: the [Python console](/Python_console "Python console").
 
-![](/src/assets/images/FreeCAD_Python_console.png)
+![](/images/FreeCAD_Python_console.png)
 
 The FreeCAD Python console
 

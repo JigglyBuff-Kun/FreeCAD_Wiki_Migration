@@ -60,7 +60,7 @@ webbrowser.open("https://raw.githubusercontent.com/ulrich1a/sheet_ufo/master/she
 
 <class="rawcodeurl"><a href="<https://raw.githubusercontent.com/ulrich1a/sheet_ufo/master/sheet_ufo.py>">raw code</a>
 
-![](/src/assets/images/Unfolding_test2.png)
+![](/images/Unfolding_test2.png)
 
 ## Usage
 
@@ -81,7 +81,7 @@ An updated version is available at: <https://github.com/ulrich1a/sheet_ufo>
 
 ## Script
 
-ToolBar Icon ![](/src/assets/images/Macro_Sheet_Metal_Unfolder.png)
+ToolBar Icon ![](/images/Macro_Sheet_Metal_Unfolder.png)
 
 **Sheet Metal Unfolder.py**
 

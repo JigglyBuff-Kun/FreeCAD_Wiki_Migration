@@ -24,7 +24,7 @@ Dieser Befehl erstellt einen Verbund aus Objekten mit einer topologischen Form w
 ## Anwendung
 
 1. Die topologischen Formen markieren, die dem Verbund in der [Baumansicht](/Tree_view/de "Tree view/de") hinzugefügt werden sollen.
-2. Den Menüeintrag **Part → Verbund → Erzeuge Verbund** im Part-Menü auswählen oder die Schaltfläche ![](/src/assets/images/Part_Compound.svg) drücken.
+2. Den Menüeintrag **Part → Verbund → Erzeuge Verbund** im Part-Menü auswählen oder die Schaltfläche ![](/images/Part_Compound.svg) drücken.
 
 ## Hinweise
 

@@ -33,12 +33,12 @@ Git is a complex tool, consider learning the basics of it before using this tool
 
 1. Make sure the [Report view](/Report_view "Report view") is open since Git messages will be printed there.
 2. Save the current active document making sure the saved file is inside an existing git repository. It can be in a subdirectory.
-3. Select menu **Web Tools → ![](/src/assets/images/WebTools_Git.svg) [Git](/WebTools_Git "WebTools Git")**
+3. Select menu **Web Tools → ![](/images/WebTools_Git.svg) [Git](/WebTools_Git "WebTools Git")**
 4. This opens up a [Task panel](/Task_panel "Task panel") in the [Combo view](/Combo_view "Combo view").
 
 ## Options
 
-![](/src/assets/images/Arch_Git_panel.jpg)
+![](/images/Arch_Git_panel.jpg)
 
 Tasks tab showing Git interface
 

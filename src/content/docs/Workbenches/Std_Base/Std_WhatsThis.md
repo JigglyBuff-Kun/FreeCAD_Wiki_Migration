@@ -26,8 +26,8 @@ Since FreeCAD version 0.20 this command and the Help system are managed by a sep
 ## Usage
 
 1. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/Std_WhatsThis.svg) [What's This?](/Std_WhatsThis "Std WhatsThis") button.
-   - Select the **Help → ![](/src/assets/images/Std_WhatsThis.svg) What's This?** option from the menu.
+   - Press the ![](/images/Std_WhatsThis.svg) [What's This?](/Std_WhatsThis "Std WhatsThis") button.
+   - Select the **Help → ![](/images/Std_WhatsThis.svg) What's This?** option from the menu.
    - Use the keyboard shortcut: Shift+F1.
 2. Click a toolbar button or a menu option.
 3. The help documentation for the selected command opens.

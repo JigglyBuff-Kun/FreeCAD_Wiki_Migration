@@ -8,13 +8,13 @@ The [status bar](/Status_bar "Status bar") is a simple ribbon that appears at th
 
 When the mouse pointer is over a button or menu, the usage information of that command is displayed both in a textual popup and in the status bar.
 
-![](/src/assets/images/FreeCAD_Status_bar.png)
+![](/images/FreeCAD_Status_bar.png)
 
 The status bar shows the [mouse navigation](/Mouse_navigation "Mouse navigation") mode and the zoom level on the right. The zoom level gives the size of the current [3D view](/3D_view "3D view") in appropriate units for the current scale, for example, millimeters (mm) or meters (m).
 
 The status bar also shows the last pre-selected object (any object under the pointer is pre-selected) or element of an object (vertex, edge, face), and the coordinates of the mouse pointer when the last pre-selection occurred; this is useful to know immediately the coordinate of specific vertices in your shapes. The 3D coordinates update automatically as long as the mouse pointer floats over a geometrical element; the update stops when the mouse pointer rests over an empty space in the [3D view](/3D_view "3D view").
 
-![](/src/assets/images/FreeCAD_Status_bar_selected.png)
+![](/images/FreeCAD_Status_bar_selected.png)
 
 ## Quick measure
 

@@ -4,11 +4,11 @@ title: App GeoFeature
 
 ## Introduction
 
-![](/src/assets/images/Feature.svg)
+![](/images/Feature.svg)
 
 An [App GeoFeature](/App_GeoFeature "App GeoFeature") object, or formally an `App::GeoFeature`, is the base class of most objects that will display geometrical elements in the [3D view](/3D_view "3D view") because it includes a Data**Placement** property.
 
-![](/src/assets/images/FreeCAD_core_objects.svg)
+![](/images/FreeCAD_core_objects.svg)
 
 Simplified diagram of the relationships between the core objects in FreeCAD
 

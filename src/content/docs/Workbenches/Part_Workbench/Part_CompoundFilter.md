@@ -17,7 +17,7 @@ title: Part CompoundFilter
 | _None_                                   |
 |                                          |
 
-![](/src/assets/images/CompoundFilter.png)
+![](/images/CompoundFilter.png)
 
 ## Description
 

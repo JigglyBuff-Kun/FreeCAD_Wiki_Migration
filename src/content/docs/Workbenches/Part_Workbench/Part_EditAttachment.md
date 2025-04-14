@@ -19,7 +19,7 @@ title: Part EditAttachment
 
 ## Description
 
-The ![](/src/assets/images/Part_EditAttachment.svg) **Part EditAttachment** command attaches an object to one or more other objects. The attached object is linked to the referenced object(s), which means that if the [placement](/Std_Placement "Std Placement") or geometry of the referenced object(s) is changed, the placement of the attached object will update accordingly.
+The ![](/images/Part_EditAttachment.svg) **Part EditAttachment** command attaches an object to one or more other objects. The attached object is linked to the referenced object(s), which means that if the [placement](/Std_Placement "Std Placement") or geometry of the referenced object(s) is changed, the placement of the attached object will update accordingly.
 
 ## Attacher engines
 
@@ -41,7 +41,7 @@ The rest of this page focuses on the Engine 3D. The modes of the other engines a
 1. Select the object to be attached.
 2. Do one of the following:
    - If the object already has a Data**Map Mode** property: click in that field in the [Property editor](/Property_editor "Property editor") and press the ... button that appears.
-   - Select the **Part → ![](/src/assets/images/Part_EditAttachment.svg) Attachment...** option from the menu.
+   - Select the **Part → ![](/images/Part_EditAttachment.svg) Attachment...** option from the menu.
 3. The **Attachment** task panel opens.
 4. At the top of the task panel _Not attached_ can be read. The first button labeled Selecting... is highlighted to indicate a selection in the [3D view](/3D_view "3D view") is expected.
 5. Select a vertex, edge or face/plane belonging to another object.
@@ -58,7 +58,7 @@ The rest of this page focuses on the Engine 3D. The modes of the other engines a
 
 ### Engine 3D
 
-![](/src/assets/images/Part_Offset_Tasks.png)
+![](/images/Part_Offset_Tasks.png)
 
 #### Deactivated
 
@@ -123,7 +123,7 @@ If no vertex is linked the Data**Map Path Parameter** property determines the po
 
 #### Frenet NBT
 
-![](/src/assets/images/Attacher_mode_FrenetNB.png)
+![](/images/Attacher_mode_FrenetNB.png)
 
 The X and Y axes are aligned to the normal (N) and binormal (B) axes of the [Frenet-Serret coordinate system](https://en.wikipedia.org/wiki/Frenet%E2%80%93Serret_formulas) at a point on a curved edge. An optional vertex defines where.
 
@@ -138,7 +138,7 @@ _Frenet NBT_ is similar to _Z tangent to edge_, except that the X axis is well-d
 
 #### Frenet TNB
 
-![](/src/assets/images/Attacher_mode_FrenetTN.png)
+![](/images/Attacher_mode_FrenetTN.png)
 
 The X and Y axes are aligned to the tangent (T) and normal (N) axes of the Frenet-Serret coordinate system at a point on a curved edge. An optional vertex defines where.
 
@@ -146,7 +146,7 @@ See [Frenet NBT](#Frenet_NBT).
 
 #### Frenet TBN
 
-![](/src/assets/images/Attacher_mode_FrenetTB.png)
+![](/images/Attacher_mode_FrenetTB.png)
 
 The X and Y axes are aligned to the tangent (T) and binormal (B) axes of the Frenet-Serret coordinate system at a point on a curved edge. An optional vertex defines where.
 
@@ -190,7 +190,7 @@ See [XY plane by 3 points](#XY_plane_by_3_points).
 
 #### Folding
 
-![](/src/assets/images/Attacher_mode_Folding.png)
+![](/images/Attacher_mode_Folding.png)
 
 This is a special mode for folding polyhedra. Select four lines that share a common point in this order: contour line (1), fold line (2), other fold line (3), other contour line (4). To determine the coordinate system the selected contour lines are made coincident by rotating line 1 around line 2, and line 4 around line 3. The origin is matched with the common point, the X axis is matched with line 2, the Y axis is aligned towards the direction of the coincident contour lines.
 

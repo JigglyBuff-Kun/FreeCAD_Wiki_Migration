@@ -28,13 +28,13 @@ The Arch Building is a special type of FreeCAD group object particularly suited 
 ## Usage
 
 1. Optionally, select one or more objects to be included in your new building.
-2. Press the ![](/src/assets/images/Arch_Building.svg) [Building](/Arch_Building "Arch Building") button, or press the B then U keys.
+2. Press the ![](/images/Arch_Building.svg) [Building](/Arch_Building "Arch Building") button, or press the B then U keys.
 
 ## Options
 
 - Starting from FreeCAD version 0.18, the Building object is actually a [BuildingPart](/Arch_BuildingPart "Arch BuildingPart") with its Data**IFC Type** property set to "Building". You can convert any BuildingPart to a Building simply by changing its IFC Type.
-- After creating a building, you can add more objects to it by drag and dropping them in the Tree View or by using the ![](/src/assets/images/Arch_Add.svg) [Arch Add](/Arch_Add "Arch Add") tool.
-- You can remove objects from a building by drag and dropping them out of it the Tree View or by using the ![](/src/assets/images/Arch_Remove.svg) [Arch Remove](/Arch_Remove "Arch Remove") tool.
+- After creating a building, you can add more objects to it by drag and dropping them in the Tree View or by using the ![](/images/Arch_Add.svg) [Arch Add](/Arch_Add "Arch Add") tool.
+- You can remove objects from a building by drag and dropping them out of it the Tree View or by using the ![](/images/Arch_Remove.svg) [Arch Remove](/Arch_Remove "Arch Remove") tool.
 
 ## Properties
 

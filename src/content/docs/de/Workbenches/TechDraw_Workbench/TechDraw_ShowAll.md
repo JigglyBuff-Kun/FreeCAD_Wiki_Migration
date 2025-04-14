@@ -25,13 +25,13 @@ Das Werkzeug **TechDraw AllesAnzeigen** ist dazu gedacht, unsichtbare Linien ein
 
 1. Eine Ansicht mit unsichtbaren Linien auf einem Zeichnungsblatt oder in der [Baumansicht](/Tree_view/de "Tree view/de"). auswählen.
 2. Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
-   - Die Schaltfläche ![](/src/assets/images/TechDraw_ShowAll.svg) Ausgeblendete Kanten ein-/ausblenden drücken.
-   - Den Menüeintrag **TechDraw → Linien hinzufügen → ![](/src/assets/images/TechDraw_ShowAll.svg) Ausgeblendete Kanten ein-/ausblenden** auswählen.
+   - Die Schaltfläche ![](/images/TechDraw_ShowAll.svg) Ausgeblendete Kanten ein-/ausblenden drücken.
+   - Den Menüeintrag **TechDraw → Linien hinzufügen → ![](/images/TechDraw_ShowAll.svg) Ausgeblendete Kanten ein-/ausblenden** auswählen.
 3. Alle unsichtbaren (ausgeblendeten) Linien in der Ansicht werden entweder eingeblendet oder ausgeblendet.
 
 ## Hinweise
 
-- Um unsichtbare Linien dauerhaft sichtbar zu machen, wird das Werkzeug ![](/src/assets/images/TechDraw_DecorateLine.svg) [TechDraw LiniendarstellungÄndern](/TechDraw_DecorateLine/de "TechDraw DecorateLine/de") verwendet.
+- Um unsichtbare Linien dauerhaft sichtbar zu machen, wird das Werkzeug ![](/images/TechDraw_DecorateLine.svg) [TechDraw LiniendarstellungÄndern](/TechDraw_DecorateLine/de "TechDraw DecorateLine/de") verwendet.
 
 ## Skripten
 

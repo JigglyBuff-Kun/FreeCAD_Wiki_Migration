@@ -25,10 +25,10 @@ Der Befehl **Std ZumLetztenVerknüpftenObjektGehen** wählt die Daten-Eigenschaf
 
 1. Ein Link-Objekt auswählen.
 2. Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
-   - Den Menüeintrag **Ansicht → Verknüpfungsnavigation → ![](/src/assets/images/Std_LinkSelectLinkedFinal.svg) Zum tiefsten verknüpften Objekt gehen** auswählen.
-   - Die Menüoption **Verknüpfungen... → ![](/src/assets/images/Std_LinkSelectLinkedFinal.svg) Zum letzten verlinkten Objekt gehen** im Kontextmenü der [Baumansicht](/Tree_view/de "Tree view/de") auswählen.
+   - Den Menüeintrag **Ansicht → Verknüpfungsnavigation → ![](/images/Std_LinkSelectLinkedFinal.svg) Zum tiefsten verknüpften Objekt gehen** auswählen.
+   - Die Menüoption **Verknüpfungen... → ![](/images/Std_LinkSelectLinkedFinal.svg) Zum letzten verlinkten Objekt gehen** im Kontextmenü der [Baumansicht](/Tree_view/de "Tree view/de") auswählen.
    - Das Tastaturkürzel S dann D.
 3. Das letzte verknüpfte Objekt ist ausgewählt. Wenn dieses Objekt zu einem externen Dokument gehört, ist jenes jetzt aktiviert.
-4. Wahlweise kann ![](/src/assets/images/Std_SelBack.svg) [Std AuswahlZurück](/Std_SelBack/de "Std SelBack/de") benutzt werden, um das Link-Objekt erneut auszuwählen.
+4. Wahlweise kann ![](/images/Std_SelBack.svg) [Std AuswahlZurück](/Std_SelBack/de "Std SelBack/de") benutzt werden, um das Link-Objekt erneut auszuwählen.
 
 Retrieved from "<http://wiki.freecad.org/index.php?title=Std_LinkSelectLinkedFinal/de&oldid=1453516>"

@@ -17,9 +17,9 @@ If you plan to install FreeCAD on a virtual machine, be aware that its performan
 ### Installing on Windows
 
 1. Download an installer (.exe) from the download page. The FreeCAD installers should work on any Windows version starting from Windows 7.
-2. Accept the terms of the LGPL license; this will be one of the few cases where you can really, safely click the "accept" button without reading the text. No hidden clauses: ![](/src/assets/images/LicenseAgreement_0212.jpeg)
-3. You can leave the default path here, or change it if you wish: ![](/src/assets/images/Path0212.jpeg)
-4. Make sure to check all the components to install: ![](/src/assets/images/Components0212.jpeg)
+2. Accept the terms of the LGPL license; this will be one of the few cases where you can really, safely click the "accept" button without reading the text. No hidden clauses: ![](/images/LicenseAgreement_0212.jpeg)
+3. You can leave the default path here, or change it if you wish: ![](/images/Path0212.jpeg)
+4. Make sure to check all the components to install: ![](/images/Components0212.jpeg)
 5. That’s it. The installation is now complete and you can start exploring the capabilities of FreeCAD.
 
 **Installing a development version**
@@ -32,7 +32,7 @@ For users of modern Linux distributions such as Ubuntu, Fedora, openSUSE, Debian
 
 1. Open the software manager and search for "freecad":
 2. Click the "install" button and that's it, FreeCAD gets installed. Don't forget to rate it afterwards!  
-   ![](/src/assets/images/LinuxInstallation.png)
+   ![](/images/LinuxInstallation.png)
 
 **Alternative ways**
 
@@ -43,10 +43,10 @@ One of the great pleasures of using Linux is the vast array of options available
 Installing FreeCAD on Mac OSX is nowadays as easy as on other platforms. However, since there are fewer people in the community who own a Mac, the available packages sometimes lag a few versions behind the other platforms.
 
 1. Download a zipped package corresponding to your version.
-2. Open the Downloads folder, and expand the downloaded zip file: ![](/src/assets/images/Freecad-mac-01.jpg)
-3. Drag the FreeCAD application from inside the zip to the Applications folder: ![](/src/assets/images/Freecad-mac-02.jpg)
-4. That's it, FreeCAD is installed! ![](/src/assets/images/Freecad-mac-03.jpg)
-5. If the system prevents FreeCAD from launching due to restricted permissions for applications not coming from the App store, you will need to enable it in the system settings: ![](/src/assets/images/Freecad-mac-04.jpg)
+2. Open the Downloads folder, and expand the downloaded zip file: ![](/images/Freecad-mac-01.jpg)
+3. Drag the FreeCAD application from inside the zip to the Applications folder: ![](/images/Freecad-mac-02.jpg)
+4. That's it, FreeCAD is installed! ![](/images/Freecad-mac-03.jpg)
+5. If the system prevents FreeCAD from launching due to restricted permissions for applications not coming from the App store, you will need to enable it in the system settings: ![](/images/Freecad-mac-04.jpg)
 
 ### Uninstalling
 
@@ -58,14 +58,14 @@ After installing FreeCAD, you'll likely want to personalize it by adjusting some
 
 #### General category, General tab
 
-![](/src/assets/images/FreeCAD_022_GeneralGen.png)
+![](/images/FreeCAD_022_GeneralGen.png)
 
 1. **Language**: By default, FreeCAD will select your operating system's language, but you have the option to change it. Thanks to the dedication of many contributors, FreeCAD is available in a wide array of languages.
 2. **Units**: This setting allows you to choose the default units system for your projects.
 
 #### General category, Document tab
 
-![](/src/assets/images/FreeCAD_022_GeneralDoc.png)
+![](/images/FreeCAD_022_GeneralDoc.png)
 
 1. **Create a new document at startup**: FreeCAD will automatically open a new document each time the program starts.
 2. **Storage options**: Configure settings here to help you recover your work in the event of a crash.
@@ -73,20 +73,20 @@ After installing FreeCAD, you'll likely want to personalize it by adjusting some
 
 #### Display category, Navigation tab
 
-![](/src/assets/images/FreeCAD_022_DisplayNav.png)
+![](/images/FreeCAD_022_DisplayNav.png)
 
 1. **Zoom at cursor**: When enabled, zoom actions center on the mouse cursor. If disabled, zoom focuses on the center of the view.
 2. **Invert zoom**: This option reverses the zoom direction in relation to mouse movement.
 
 #### Workbenches tab
 
-![](/src/assets/images/FreeCAD_022_WBMenu.png)
+![](/images/FreeCAD_022_WBMenu.png)
 
 Although FreeCAD typically opens to the start page, this setting lets you bypass it. You can start directly in your preferred workbench. Additionally, you can customize which workbenches are displayed in the selector menu.
 
 #### Import-Export tab
 
-![](/src/assets/images/FreeCAD_022_ImportExport.png)
+![](/images/FreeCAD_022_ImportExport.png)
 
 Here, define basic parameters for importing and exporting in various formats.
 
@@ -94,7 +94,7 @@ Here, define basic parameters for importing and exporting in various formats.
 
 As the FreeCAD community expands and the ease of customization grows, numerous external contributions and side projects by community members and enthusiasts start popping up all over the internet. Many of these projects take the form of workbenches or macros, and you can easily add them to your toolbox via the [Addon Manager](/Std_AddonMgr "Std AddonMgr"), which is accessible from the Tools menu. The Addon Manager opens up a world of possibilities, allowing you to install various interesting components, such as:
 
-![](/src/assets/images/FreeCAD_022_AddonsMenu.png)
+![](/images/FreeCAD_022_AddonsMenu.png)
 
 1. A [Parts library](https://github.com/FreeCAD/FreeCAD-library). This library is a treasure trove of useful models or model fragments crafted by FreeCAD users. All items in this library are freely available for use in your projects and can be accessed directly within your FreeCAD setup.
 2. [Additional workbenches](https://github.com/FreeCAD/FreeCAD-addons). These are specialized extensions that enhance FreeCAD’s functionality for specific tasks. Example applications include animating model parts or managing specific construction processes like sheet metal folding or BIM (Building Information Modeling). Detailed information about each workbench, including an overview of the tools it contains, is provided on each addon's page, accessible through the corresponding link in the addon manager.

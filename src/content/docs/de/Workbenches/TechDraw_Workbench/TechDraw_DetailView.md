@@ -21,7 +21,7 @@ title: TechDraw Detailansicht
 
 Das Werkzeug **TechDraw Detailansicht** erstellt eine Ansicht eines kleinen Bereichs einer vorhandenen Ansicht.
 
-![](/src/assets/images/ViewDetail.png)
+![](/images/ViewDetail.png)
 
 Detailansicht mit einem kreisförmigem Rahmen
 
@@ -29,8 +29,8 @@ Detailansicht mit einem kreisförmigem Rahmen
 
 1. Eine Basisansicht für die Detailansicht auswählen.
 2. Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
-   - Die Schaltfläche ![](/src/assets/images/TechDraw_DetailView.svg) Detailansicht einfügen drücken.
-   - Den Menüeintrag **TechDraw → TechDraw Ansichten → ![](/src/assets/images/TechDraw_DetailView.svg) Detailansicht einfügen** auswählen.
+   - Die Schaltfläche ![](/images/TechDraw_DetailView.svg) Detailansicht einfügen drücken.
+   - Den Menüeintrag **TechDraw → TechDraw Ansichten → ![](/images/TechDraw_DetailView.svg) Detailansicht einfügen** auswählen.
 3. Ein Auswahlumriss wird zur Basisansicht hinzugefügt, eine Detailansicht zum Zeichnungsblatt hinzugefügt und ein Aufgaben-Bereich wird geöffnet.
 4. Für die Übersicht ist es am besten, die Detailansicht zu verschieben, sodass sie die Basisansicht nicht länger überlappt: Die linke Maustaste über ihrem Rahmen oder auf ihrer Benennung gedrückt halten und sie auf eine neue Position ziehen.
 5. Zum Ändern der Position des Auswahlumrisses gibt es folgende Möglichkeiten:

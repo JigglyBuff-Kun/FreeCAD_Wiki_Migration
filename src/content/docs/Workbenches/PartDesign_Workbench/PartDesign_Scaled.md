@@ -19,17 +19,17 @@ title: PartDesign Scaled
 
 ## Description
 
-![](/src/assets/images/PartDesign_Scaled.svg) **PartDesign Scaled** is one of the transformation options of ![](/src/assets/images/PartDesign_MultiTransform.svg) [MultiTransform](/PartDesign_MultiTransform "PartDesign MultiTransform"). Contrary to the other options it is not available as a separate tool. It turns a transformation result into a sequence of scaled objects with evenly distributed scale factors. Starting with the unscaled base feature of the previous transformation the scale factor increases or decreases until reaching the given value at the last item.
+![](/images/PartDesign_Scaled.svg) **PartDesign Scaled** is one of the transformation options of ![](/images/PartDesign_MultiTransform.svg) [MultiTransform](/PartDesign_MultiTransform "PartDesign MultiTransform"). Contrary to the other options it is not available as a separate tool. It turns a transformation result into a sequence of scaled objects with evenly distributed scale factors. Starting with the unscaled base feature of the previous transformation the scale factor increases or decreases until reaching the given value at the last item.
 
-![](/src/assets/images/PartDesign_Scaled-01.png) ![](/src/assets/images/Button_right.svg) ![](/src/assets/images/PartDesign_Scaled-02.png)
+![](/images/PartDesign_Scaled-01.png) ![](/images/Button_right.svg) ![](/images/PartDesign_Scaled-02.png)
 
 A linear pattern and a polar pattern → Scaled the linear pattern with 3 steps (occurrences) and the polar pattern with 12 steps
 
-If there is no previous transformation within the ![](/src/assets/images/PartDesign_MultiTransform.svg) [MultiTransform](/PartDesign_MultiTransform "PartDesign MultiTransform") feature, scaled items will be placed at the same position as the base feature. This may result in unexpected shapes if the base feature isn't covered completely by the scaled object. And thus it is not recommended to use **Scaled** as the first transformation of a MultiTransform feature.
+If there is no previous transformation within the ![](/images/PartDesign_MultiTransform.svg) [MultiTransform](/PartDesign_MultiTransform "PartDesign MultiTransform") feature, scaled items will be placed at the same position as the base feature. This may result in unexpected shapes if the base feature isn't covered completely by the scaled object. And thus it is not recommended to use **Scaled** as the first transformation of a MultiTransform feature.
 
-![](/src/assets/images/PartDesign_Scaled-03.png) ![](/src/assets/images/Button_right.svg)
-![](/src/assets/images/PartDesign_Scaled-04.png) ![](/src/assets/images/Button_right.svg)
-![](/src/assets/images/PartDesign_Scaled-05.png)
+![](/images/PartDesign_Scaled-03.png) ![](/images/Button_right.svg)
+![](/images/PartDesign_Scaled-04.png) ![](/images/Button_right.svg)
+![](/images/PartDesign_Scaled-05.png)
 
 A base feature with a hole → Scaled object with 2 occurrences → Scaled object with 4 occurrences
 
@@ -50,8 +50,8 @@ A base feature with a hole → Scaled object with 2 occurrences → Scaled objec
 
 1. Select a feature of the current body in the [Tree view](/Tree_view "Tree view").
 2. Do one of the following:
-   - Press the ![](/src/assets/images/PartDesign_MultiTransform.svg) [MultiTransform](/PartDesign_MultiTransform "PartDesign MultiTransform") button.
-   - Select the **Part Design → Apply a pattern → ![](/src/assets/images/PartDesign_MultiTransform.svg) Create MultiTransform** option from the menu.
+   - Press the ![](/images/PartDesign_MultiTransform.svg) [MultiTransform](/PartDesign_MultiTransform "PartDesign MultiTransform") button.
+   - Select the **Part Design → Apply a pattern → ![](/images/PartDesign_MultiTransform.svg) Create MultiTransform** option from the menu.
 3. The **MultiTransform parameters** [task panel](/Task_panel "Task panel") opens. See above.
 
 ## Options

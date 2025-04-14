@@ -8,13 +8,13 @@ This documentation is not finished. Please help and contribute documentation.Gui
 
 ## Introduction
 
-I think the ![](/src/assets/images/Workbench_Sketcher.svg) [Sketcher Workbench](/Sketcher_Workbench "Sketcher Workbench") needs some examples that are not detailed tutorials or videos...
+I think the ![](/images/Workbench_Sketcher.svg) [Sketcher Workbench](/Sketcher_Workbench "Sketcher Workbench") needs some examples that are not detailed tutorials or videos...
 
 ## Film hinge
 
 A film hinge is the tiny piece of bendable plastic that connects the two sides of an injection moulded object such as a conduit with a lid, or both halves of a dust protecting plug enclosure.
 
-This example uses some kind of master sketch to stack some dependent sketches upon it. It also shows how to attach and animate a simple clip based on ![](/src/assets/images/Workbench_PartDesign.svg) [PartDesign](/PartDesign_Workbench "PartDesign Workbench") features and ![](/src/assets/images/Workbench_Sketcher.svg) [Sketcher](/Sketcher_Workbench "Sketcher Workbench") constraints. The use of ![](/src/assets/images/Bound-expression.svg) [expressions](/Expressions "Expressions") as described below requires FreeCAD **V 0.21 or higher**.
+This example uses some kind of master sketch to stack some dependent sketches upon it. It also shows how to attach and animate a simple clip based on ![](/images/Workbench_PartDesign.svg) [PartDesign](/PartDesign_Workbench "PartDesign Workbench") features and ![](/images/Workbench_Sketcher.svg) [Sketcher](/Sketcher_Workbench "Sketcher Workbench") constraints. The use of ![](/images/Bound-expression.svg) [expressions](/Expressions "Expressions") as described below requires FreeCAD **V 0.21 or higher**.
 
 ### Basic sketch
 
@@ -24,7 +24,7 @@ The midpoint of a line connecting both end points indicates the position of the 
 
 (Some hidden extra explanation and workflow description can be expanded over there -->
 
-![](/src/assets/images/Sketcher_ExampleHinge-01.gif)
+![](/images/Sketcher_ExampleHinge-01.gif)
 
 Master sketch and the animated final film hinge (click on the image if the animation has stopped after some repetitions)
 
@@ -34,7 +34,7 @@ For a semi circle, the arc length is the radius multiplied by Pi (**l = r \* Pi*
 
 ### Intermediate sketch
 
-The arc of this film hinge has a constant length and a variable radius. One input is the NeutralRadius of the basic sketch; to have it at hand in this sketch, it is linked as ![](/src/assets/images/Sketcher_External.svg) [external geometry](/Sketcher_External "Sketcher External") having a reference dimension called ReferenceRadius
+The arc of this film hinge has a constant length and a variable radius. One input is the NeutralRadius of the basic sketch; to have it at hand in this sketch, it is linked as ![](/images/Sketcher_External.svg) [external geometry](/Sketcher_External "Sketcher External") having a reference dimension called ReferenceRadius
 
 A pie segment of construction geometry displays the relation between the arc and the radius for a given angle.  
 **InputLength = ReferenceRadius \* Pi**  
@@ -45,13 +45,13 @@ with constant length results in:
 And with Pi eliminated we get:  
 **ReferenceRadius = DynamicRadius \* ArcAngle / 180°** or **DynamicRadius = ReferenceRadius \* 180° / ArcAngle**
 
-: The ![](/src/assets/images/Bound-expression.svg) [expression](/Expressions "Expressions") for the DynamicRadius value: `.Constraints.ReferenceRadius * 180 ° / .Constraints.ArcAngle`
+: The ![](/images/Bound-expression.svg) [expression](/Expressions "Expressions") for the DynamicRadius value: `.Constraints.ReferenceRadius * 180 ° / .Constraints.ArcAngle`
 
 A film hinge is usually symmetric and so another arc with the same center point called HalfArc is used for the output and represents one half of the hinge arc.
 
-: The ![](/src/assets/images/Bound-expression.svg) [expression](/Expressions "Expressions") for the HalfArc value: `.Constraints.ArcAngle / 2`
+: The ![](/images/Bound-expression.svg) [expression](/Expressions "Expressions") for the HalfArc value: `.Constraints.ArcAngle / 2`
 
-![](/src/assets/images/Sketcher_ExampleHinge-02.png)
+![](/images/Sketcher_ExampleHinge-02.png)
 
 Intermediate sketch showing the DynamicRadius of the hinge arc of 4 (mm) at a given angle of 45° (and the half arc for output)
 
@@ -61,21 +61,21 @@ This sketch defines the thickness and the adjacent geometry of the film hinge. T
 
 This film hinge is intended to keep the connected parts touching each other when closed. This can be achieved by calculating a circular arc of the needed length then create a strip with constant thickness and finally apply fillets where the strip meets the object halves. The last step somehow shortens the loop, but in the real world this is not a problem, because the arc will never be circular and so the fillets have an influence on the arc's curvature but not on its functionality.
 
-![](/src/assets/images/Sketcher_ExampleHinge-03.png)
+![](/images/Sketcher_ExampleHinge-03.png)
 
 Hinge sketch showing the outline of the hinge based on the external geometry from the half arc of the intermediate sketch
 
-![](/src/assets/images/Sketcher_ExampleHinge-04.png)
-![](/src/assets/images/Sketcher_ExampleHinge-05.png)
+![](/images/Sketcher_ExampleHinge-04.png)
+![](/images/Sketcher_ExampleHinge-05.png)
 
-Left: ![](/src/assets/images/PartDesign_Pad.svg) [padded](/PartDesign_Pad "PartDesign Pad") half hinge with sketch visible. Right: half hinge with added ![](/src/assets/images/PartDesign_Fillet.svg) [fillet](/PartDesign_Fillet "PartDesign Fillet")
+Left: ![](/images/PartDesign_Pad.svg) [padded](/PartDesign_Pad "PartDesign Pad") half hinge with sketch visible. Right: half hinge with added ![](/images/PartDesign_Fillet.svg) [fillet](/PartDesign_Fillet "PartDesign Fillet")
 
-![](/src/assets/images/Sketcher_ExampleHinge-06.png) ![](/src/assets/images/Button_right.svg)
-![](/src/assets/images/Sketcher_ExampleHinge-07.png)
+![](/images/Sketcher_ExampleHinge-06.png) ![](/images/Button_right.svg)
+![](/images/Sketcher_ExampleHinge-07.png)
 
-Half hinge with selected mirror plane → ![](/src/assets/images/PartDesign_Mirrored.svg) [mirrored](/PartDesign_Mirrored "PartDesign Mirrored") film hinge
+Half hinge with selected mirror plane → ![](/images/PartDesign_Mirrored.svg) [mirrored](/PartDesign_Mirrored "PartDesign Mirrored") film hinge
 
-Hint: ![](/src/assets/images/Part_Mirror.svg) [Part Mirror](/Part_Mirror "Part Mirror") only accepts the three basic planes and so can not be used in such a case.
+Hint: ![](/images/Part_Mirror.svg) [Part Mirror](/Part_Mirror "Part Mirror") only accepts the three basic planes and so can not be used in such a case.
 
 : (In retrospect it was a wise decision to start this example with the combination of PartDesign and Sketcher.)
 
@@ -116,7 +116,7 @@ A short explanation:
 
 Two halves of a clip stuff are waiting to get attached to the hinge, one on the static side and one on the movable side.
 
-![](/src/assets/images/Sketcher_ExampleHinge-08.png)
+![](/images/Sketcher_ExampleHinge-08.png)
 
 Two halves of a simple clip
 
@@ -124,35 +124,35 @@ The static side is easy:
 
 1. Activate the body and adjust the position and orientation properties in the properties editor until it matches with the film hinge.
 2. Activate the hinge body.
-3. Select the ![](/src/assets/images/PartDesign_Boolean.svg) [PartDesign Boolean](/PartDesign_Boolean "PartDesign Boolean") tool with the (default) Fuse option.
+3. Select the ![](/images/PartDesign_Boolean.svg) [PartDesign Boolean](/PartDesign_Boolean "PartDesign Boolean") tool with the (default) Fuse option.
 4. In the dialog press the Add body button.
 5. select the **body** of the static half of the clip.
 6. Press OK to finish and close the dialog.
 
-![](/src/assets/images/Sketcher_ExampleHinge-09.png) ![](/src/assets/images/Button_right.svg)
-![](/src/assets/images/Sketcher_ExampleHinge-10.png)
+![](/images/Sketcher_ExampleHinge-09.png) ![](/images/Button_right.svg)
+![](/images/Sketcher_ExampleHinge-10.png)
 
-Film hinge and static half in modelling position → film hinge with relocated and ![](/src/assets/images/PartDesign_Boolean.svg) [fused](/PartDesign_Boolean "PartDesign Boolean") static half
+Film hinge and static half in modelling position → film hinge with relocated and ![](/images/PartDesign_Boolean.svg) [fused](/PartDesign_Boolean "PartDesign Boolean") static half
 
 But the moving side is different: The related half of the clip geometry has to move into the right position before a (re-) calculation of a Fuse operation gets started.
 
 At this point I'm missing an "Attachment with offset" function like that of Assembly3 to attach the clip geometry to one of the moving faces. But after a bit of experimenting and tweaking I found out:
 
-- ![](/src/assets/images/Std_Part.svg) [Std Part](/Std_Part "Std Part") and ![](/src/assets/images/PartDesign_Body.svg) [PartDesign Body](/PartDesign_Body "PartDesign Body") containers are not supported by ![](/src/assets/images/Part_EditAttachment.svg) [Part Attachment](/Part_EditAttachment#Limitations "Part EditAttachment").
+- ![](/images/Std_Part.svg) [Std Part](/Std_Part "Std Part") and ![](/images/PartDesign_Body.svg) [PartDesign Body](/PartDesign_Body "PartDesign Body") containers are not supported by ![](/images/Part_EditAttachment.svg) [Part Attachment](/Part_EditAttachment#Limitations "Part EditAttachment").
 
 : While it is possible to use Attachment to align them, the attachment won't be parametrically linked.
 
 - Attachment can be applied to a PartDesign feature. This and features depending on it are repositioned according to the base geometry. But!:
   - Independent PartDesign features won't move and so it will change the resulting shape and break it in the end.
   - We are advised to keep features independent to avoid impacts due to the [Topological naming problem](/Topological_naming_problem "Topological naming problem").
-- ![](/src/assets/images/PartDesign_Clone.svg) [PartDesign Clone](/PartDesign_Clone "PartDesign Clone") creates a body with a single feature that can be use with Attachment.
+- ![](/images/PartDesign_Clone.svg) [PartDesign Clone](/PartDesign_Clone "PartDesign Clone") creates a body with a single feature that can be use with Attachment.
 
 With that in mind, a workflow could look like this:
 
 1. Select the body of the movable half.
-2. Use the ![](/src/assets/images/PartDesign_Clone.svg) [Create a clone](/PartDesign_Clone "PartDesign Clone") command.
+2. Use the ![](/images/PartDesign_Clone.svg) [Create a clone](/PartDesign_Clone "PartDesign Clone") command.
 3. In the new body select the Clone object in the Tree view.
-4. Use the ![](/src/assets/images/Part_EditAttachment.svg) [Part Attachment](/Part_EditAttachment "Part EditAttachment") tool to add attachment properties to the Clone object.
+4. Use the ![](/images/Part_EditAttachment.svg) [Part Attachment](/Part_EditAttachment "Part EditAttachment") tool to add attachment properties to the Clone object.
 5. The Attachment dialog opens.
    - Select a vertex for the origin.
    - Select an edge for the first direction.
@@ -160,27 +160,27 @@ With that in mind, a workflow could look like this:
    - Probe the attachment modes to find the best fitting one.
    - Tweak rotation and coordinate values until until the geometry is in modelling position again.
 6. Press OK to close the dialog.
-7. With the hinge body still active select the ![](/src/assets/images/PartDesign_Boolean.svg) [PartDesign Boolean](/PartDesign_Boolean "PartDesign Boolean") tool.
+7. With the hinge body still active select the ![](/images/PartDesign_Boolean.svg) [PartDesign Boolean](/PartDesign_Boolean "PartDesign Boolean") tool.
 8. In the dialog press the Add body button.
 9. select the body of the movable half .
 10. Press OK to finish and close the dialog.
 
-![](/src/assets/images/Sketcher_ExampleHinge-14.png)
+![](/images/Sketcher_ExampleHinge-14.png)
 
-The movable half will be ![](/src/assets/images/Part_EditAttachment.svg) [attached](/Part_EditAttachment "Part EditAttachment") to a corner of the movable hinge side (Map Mode OXZ: vertex, edge, edge)
+The movable half will be ![](/images/Part_EditAttachment.svg) [attached](/Part_EditAttachment "Part EditAttachment") to a corner of the movable hinge side (Map Mode OXZ: vertex, edge, edge)
 
 In retrospect it would have been wiser to provide the attachment geometry with the IntermediateSketch to avoid another source of the [Topological naming problem](/Topological_naming_problem "Topological naming problem").
 
-![](/src/assets/images/Sketcher_ExampleHinge-11.png) ![](/src/assets/images/Button_right.svg)
-![](/src/assets/images/Sketcher_ExampleHinge-12.png)
+![](/images/Sketcher_ExampleHinge-11.png) ![](/images/Button_right.svg)
+![](/images/Sketcher_ExampleHinge-12.png)
 
-The clip so far and the movable half in modelling position → finished clip with ![](/src/assets/images/Part_EditAttachment.svg) [attached](/Part_EditAttachment "Part EditAttachment") and ![](/src/assets/images/PartDesign_Boolean.svg) [fused](/PartDesign_Boolean "PartDesign Boolean") movable half
+The clip so far and the movable half in modelling position → finished clip with ![](/images/Part_EditAttachment.svg) [attached](/Part_EditAttachment "Part EditAttachment") and ![](/images/PartDesign_Boolean.svg) [fused](/PartDesign_Boolean "PartDesign Boolean") movable half
 
 Now the result should be a single solid clip, that can be closed and opened by changing the ArcAngle of the film hinge. Allowed angles: 0.1° to 180°, the film section must not get straight, and more than closed doesn't make sense. (At 180° the object may get fused at tangent or overlapping areas, but a little extra gap could help if that is not acceptable.)
 
-![](/src/assets/images/Sketcher_ExampleHinge-13.png) ![](/src/assets/images/Button_right.svg)
-![](/src/assets/images/Sketcher_ExampleHinge-15.png) ![](/src/assets/images/Button_right.svg)
-![](/src/assets/images/Sketcher_ExampleHinge-16.png)
+![](/images/Sketcher_ExampleHinge-13.png) ![](/images/Button_right.svg)
+![](/images/Sketcher_ExampleHinge-15.png) ![](/images/Button_right.svg)
+![](/images/Sketcher_ExampleHinge-16.png)
 
 Clip almost closed → Clip half closed → Clip in mould condition
 

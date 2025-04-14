@@ -24,7 +24,7 @@ Exports the selected raytracing project to a file.
 ## Usage
 
 1. Select raytracing project in the [tree view](/Tree_view "Tree view").
-2. Click on ![](/src/assets/images/Raytracing_ExportProject.svg) or choose Raytracing → ![](/src/assets/images/Raytracing_ExportProject.svg) Export project... from the top menu.
+2. Click on ![](/images/Raytracing_ExportProject.svg) or choose Raytracing → ![](/images/Raytracing_ExportProject.svg) Export project... from the top menu.
 
 ## Limitations
 

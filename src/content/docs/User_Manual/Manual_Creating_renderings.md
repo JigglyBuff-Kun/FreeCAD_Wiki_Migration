@@ -16,28 +16,28 @@ Before using the Render Workbench in FreeCAD, you'll need to install both the wo
 
 Once POV-Ray or LuxCorerender is installed, we need to set the path to their main executable in the FreeCAD preferences. This is usually only required on Windows and Mac. On Linux, FreeCAD will pick it from the standard locations. The location of the povray or luxrender executables can be found by searching your system for files named povray (or povray.exe on Windows) and luxrender (or luxrender.exe on Windows). In the **Preferences** tab you can designate the path as well as set up some parameters.
 
-![](/src/assets/images/FreeCAD_Render_Preferences.png)
+![](/images/FreeCAD_Render_Preferences.png)
 
 ### Rendering with PovRay
 
 We will use the table we have been modelling in the [traditional modeling](/Manual:Traditional_modeling,_the_CSG_way "Manual:Traditional modeling, the CSG way") chapter to produce renderings with PovRay.
 
-- Start by loading the table.FCStd file that we modelled earlier or from the link at the bottom of this chapter and entering the ![](/src/assets/images/Render_workbench_icon.svg) [workbench](https://github.com/FreeCAD/FreeCAD-render%7Crender).
-- Create a rendering project by pressing the button in the toolbar corresponding to your renderer. For our example, we will choose the ![](/src/assets/images/Render_Povray.svg) povray renderer.
+- Start by loading the table.FCStd file that we modelled earlier or from the link at the bottom of this chapter and entering the ![](/images/Render_workbench_icon.svg) [workbench](https://github.com/FreeCAD/FreeCAD-render%7Crender).
+- Create a rendering project by pressing the button in the toolbar corresponding to your renderer. For our example, we will choose the ![](/images/Render_Povray.svg) povray renderer.
 - Select a template suitable for your project. We will be going with the **povray_sunlight.pov** one.
 - You can also try other templates after you create a new project, simply by editing its **Template** property.
 - A new project has now been created:
 
-![](/src/assets/images/FreeCAD_Render_Project.png)
+![](/images/FreeCAD_Render_Project.png)
 
-- You can add the desired objects to the project by selecting them and pressing on the ![](/src/assets/images/Render_RenderingView.svg) [rendering view](/index.php?title=Render_RenderingView&action=edit&redlink=1 "Render RenderingView (page does not exist)") option.
+- You can add the desired objects to the project by selecting them and pressing on the ![](/images/Render_RenderingView.svg) [rendering view](/index.php?title=Render_RenderingView&action=edit&redlink=1 "Render RenderingView (page does not exist)") option.
 
-![](/src/assets/images/FreeCAD_Render_Bodies.png)
+![](/images/FreeCAD_Render_Bodies.png)
 
-- If we wish we can apply a material to our bodies by pressing on the ![](/src/assets/images/Arch_SetMaterial.svg) [Material](/Arch_SetMaterial "Arch SetMaterial") option. For our case, we will choose the matte option.
-- We can now press on the ![](/src/assets/images/Render_workbench_icon.svg) button and our rendered result will appear in a separate window.
+- If we wish we can apply a material to our bodies by pressing on the ![](/images/Arch_SetMaterial.svg) [Material](/Arch_SetMaterial "Arch SetMaterial") option. For our case, we will choose the matte option.
+- We can now press on the ![](/images/Render_workbench_icon.svg) button and our rendered result will appear in a separate window.
 
-![](/src/assets/images/FreeCAD_Render_Result.png)
+![](/images/FreeCAD_Render_Result.png)
 
 Truth be told, the end result is not very impressive. The rendering process is iterative and takes time and patience to achieve high-quality outcomes. Additionally, as mentioned above, POV-Ray is somewhat limited in terms of realism. Feel free to experiment with different renderers. The procedure remains largely the same, with the only difference being the selection of a different renderer at the start of the process.
 

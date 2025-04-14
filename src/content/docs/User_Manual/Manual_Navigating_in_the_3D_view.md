@@ -10,7 +10,7 @@ FreeCAD operates within a three-dimensional [Euclidean space](https://en.wikiped
 
 Every location in FreeCAD's space is determined by (x, y, z) coordinates. For instance, a point located at coordinates (2,3,1) is positioned 2 units along the X axis, 3 units along the Y axis, and 1 unit along the Z axis. Navigating this space is akin to manipulating a camera. You can move the camera left, right, up, or down (panning), swivel it around the focal point (rotating), or move it closer to or away from objects (zooming), allowing you to explore your design from various perspectives.
 
-![](/src/assets/images/3dspace_coordinates.jpg)
+![](/images/3dspace_coordinates.jpg)
 
 ### The FreeCAD 3D view
 
@@ -18,7 +18,7 @@ Every location in FreeCAD's space is determined by (x, y, z) coordinates. For in
 
 Navigating the [3D view](/3D_view "3D view") in FreeCAD can be achieved using various inputs including a mouse, a Space Navigator device, keyboard shortcuts, a touchpad, or any combination thereof. FreeCAD offers a range of [navigation styles](/Mouse_navigation "Mouse navigation") that define how the three fundamental viewing operations—pan, rotate, and zoom—are executed. Additionally, these styles govern how objects are selected within the workspace. To access and switch between these navigation styles, you can navigate to the Preferences screen or simply right-click in the [3D view](/3D_view "3D view"). Additionally, there is a third, more immediate option for altering the navigation style directly from the user interface located in the lower-right part of the screen.
 
-![](/src/assets/images/FreeCAD_022_NavigationMethod.png)
+![](/images/FreeCAD_022_NavigationMethod.png)
 
 Each of these styles allocates different mouse buttons, or mouse + keyboard combinations, or mouse gestures, to these four operations. The following table shows the principal available styles. Keyboard keys and mouse buttons indicated in magenta must be held down.
 
@@ -38,18 +38,18 @@ Each of these styles allocates different mouse buttons, or mouse + keyboard comb
 
 It's worth noting that when a user hovers over the navigation styles menu located at the bottom right of the screen, a tooltip will appear. This tooltip provides a brief description of the highlighted navigation style, offering immediate guidance on its use.
 
-![](/src/assets/images/FreeCAD_022_NavigationHover.png)
+![](/images/FreeCAD_022_NavigationHover.png)
 
 #### Keyboard navigation
 
 Alternatively, some keyboard controls are always available, no matter the navigation style:
 
-- Ctrl + ![](/src/assets/images/Ascii_043.svg) and Ctrl + ![](/src/assets/images/Ascii_022.svg) or PgUp and PgDn to zoom in and out, respectively.
-- The arrow keys, ![](/src/assets/images/Ascii_017.svg)![](/src/assets/images/Ascii_016.svg)![](/src/assets/images/Ascii_030.svg)![](/src/assets/images/Ascii_031.svg), to pan the view left/right and up/down.
-- Shift + ![](/src/assets/images/Ascii_017.svg) and Shift + ![](/src/assets/images/Ascii_016.svg) to rotate the view by 90 degrees.
-- The numeric keys, ![](/src/assets/images/Ascii_048.svg)![](/src/assets/images/Ascii_049.svg)![](/src/assets/images/Ascii_050.svg)![](/src/assets/images/Ascii_051.svg)![](/src/assets/images/Ascii_052.svg)![](/src/assets/images/Ascii_053.svg)![](/src/assets/images/Ascii_054.svg), for the seven standard views: ![](/src/assets/images/Std_ViewIsometric.svg) [Isometric](/Std_ViewIsometric "Std ViewIsometric"), ![](/src/assets/images/Std_ViewFront.svg) [Front](/Std_ViewFront "Std ViewFront"), ![](/src/assets/images/Std_ViewTop.svg) [Top](/Std_ViewTop "Std ViewTop"), ![](/src/assets/images/Std_ViewRight.svg) [Right](/Std_ViewRight "Std ViewRight"), ![](/src/assets/images/Std_ViewRear.svg) [Rear](/Std_ViewRear "Std ViewRear"), ![](/src/assets/images/Std_ViewBottom.svg) [Bottom](/Std_ViewBottom "Std ViewBottom"), and ![](/src/assets/images/Std_ViewLeft.svg) [Left](/Std_ViewLeft "Std ViewLeft")
-- VO will set the camera in ![](/src/assets/images/View-isometric.svg) [Orthographic view](/Std_OrthographicCamera "Std OrthographicCamera").
-- While VP sets it in ![](/src/assets/images/View-perspective.svg) [Perspective view](/Std_PerspectiveCamera "Std PerspectiveCamera").
+- Ctrl + ![](/images/Ascii_043.svg) and Ctrl + ![](/images/Ascii_022.svg) or PgUp and PgDn to zoom in and out, respectively.
+- The arrow keys, ![](/images/Ascii_017.svg)![](/images/Ascii_016.svg)![](/images/Ascii_030.svg)![](/images/Ascii_031.svg), to pan the view left/right and up/down.
+- Shift + ![](/images/Ascii_017.svg) and Shift + ![](/images/Ascii_016.svg) to rotate the view by 90 degrees.
+- The numeric keys, ![](/images/Ascii_048.svg)![](/images/Ascii_049.svg)![](/images/Ascii_050.svg)![](/images/Ascii_051.svg)![](/images/Ascii_052.svg)![](/images/Ascii_053.svg)![](/images/Ascii_054.svg), for the seven standard views: ![](/images/Std_ViewIsometric.svg) [Isometric](/Std_ViewIsometric "Std ViewIsometric"), ![](/images/Std_ViewFront.svg) [Front](/Std_ViewFront "Std ViewFront"), ![](/images/Std_ViewTop.svg) [Top](/Std_ViewTop "Std ViewTop"), ![](/images/Std_ViewRight.svg) [Right](/Std_ViewRight "Std ViewRight"), ![](/images/Std_ViewRear.svg) [Rear](/Std_ViewRear "Std ViewRear"), ![](/images/Std_ViewBottom.svg) [Bottom](/Std_ViewBottom "Std ViewBottom"), and ![](/images/Std_ViewLeft.svg) [Left](/Std_ViewLeft "Std ViewLeft")
+- VO will set the camera in ![](/images/View-isometric.svg) [Orthographic view](/Std_OrthographicCamera "Std OrthographicCamera").
+- While VP sets it in ![](/images/View-perspective.svg) [Perspective view](/Std_PerspectiveCamera "Std PerspectiveCamera").
 - Ctrl will allow you to select more than one object or element
 
 These controls are also available from the [View menu](/Std_View_Menu "Std View Menu") and some from the View toolbar.
@@ -58,7 +58,7 @@ These controls are also available from the [View menu](/Std_View_Menu "Std View 
 
 In the default setup, there is a [Navigation Cube](/Navigation_Cube "Navigation Cube") in the upper right corner of the 3D view. This may be used to change the view.
 
-![](/src/assets/images/FreeCAD_022_Cube.png)
+![](/images/FreeCAD_022_Cube.png)
 
 Clicking on a face of the cube will switch the view to that face. Clicking one of the four triangular arrows rotates the view 45 degrees in the indicated direction. Clicking one of the two curved arrows rotates the view 45 degrees in the indicated direction around a line pointing towards you. Clicking the round button in the top right corner of the cube rotates the view 180 degrees around the vertical axis of the view.
 
@@ -75,7 +75,7 @@ Objects in the 3D view can be selected by clicking them with the corresponding m
 
 A panel called "Selection view", available from the View menu, can also be turned on, which shows you what is currently selected:
 
-![](/src/assets/images/Selection_view.jpg)
+![](/images/Selection_view.jpg)
 
 You can also use the Selection View to select objects by searching for a particular object.
 

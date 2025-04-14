@@ -19,7 +19,7 @@ title: Sketcher VertikalFestlegen
 
 ## Beschreibung
 
-Das Werkzeug ![](/src/assets/images/Sketcher_ConstrainVertical.svg) Sketcher VertikalFestlegen legt Linien oder Punktpaare vertikal fest (parallel zur vertikalen Achse der Skizze).
+Das Werkzeug ![](/images/Sketcher_ConstrainVertical.svg) Sketcher VertikalFestlegen legt Linien oder Punktpaare vertikal fest (parallel zur vertikalen Achse der Skizze).
 
 [eingeführt in 1.0](/Release_notes_1.0/de "Release notes 1.0/de"): In den meisten Fällen ist es ratsam das kombinierte Werkzeug [Sketcher HorVerFestlegen](/Sketcher_ConstrainHorVer/de "Sketcher ConstrainHorVer/de") zu verwenden.
 
@@ -31,9 +31,9 @@ Siehe auch: [Zeichnungshilfen](/Sketcher_Workbench/de#Zeichnungshilfen "Sketcher
 
 1. Die Linien oder Knoten auswählen, die vertikal festgelegt werden sollen.
 2. Um den Befehl VertikalFestlegen aufzurufen:
-   - Die Schaltfläche ![](/src/assets/images/Sketcher_ConstrainVertical.svg) Vertikal festlegen drücken.
+   - Die Schaltfläche ![](/images/Sketcher_ConstrainVertical.svg) Vertikal festlegen drücken.
    - Das Tastaturkürzel V verwenden.
-   - Den Menüeintrag **Skizze → Sketcher-Randbedingungen → ![](/src/assets/images/Sketcher_ConstrainVertical.svg) Vertikal festlegen** im Sketch-Menü anklicken.
+   - Den Menüeintrag **Skizze → Sketcher-Randbedingungen → ![](/images/Sketcher_ConstrainVertical.svg) Vertikal festlegen** im Sketch-Menü anklicken.
 3. Alternativ kann das Werkzeug ohne vorherige Auswahl gestartet werden, dann erwartet es eine Auswahl.
 4. Ein Rechtsklick oder einmal Esc drücken, um das Werkzeug zu verlassen.
 

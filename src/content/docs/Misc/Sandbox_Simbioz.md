@@ -37,9 +37,9 @@ This brief tutorial will teach you how to change the origin coordinates of a par
 
 ## Changing Placement
 
-Assuming you have already created a [Part](/Glossary#Part "Glossary") with the ![](/src/assets/images/Workbench_Part.svg) [Part Workbench](/Part_Workbench "Part Workbench"), you now want to change it's origin coordinates to somewhere else on/within the part.
+Assuming you have already created a [Part](/Glossary#Part "Glossary") with the ![](/images/Workbench_Part.svg) [Part Workbench](/Part_Workbench "Part Workbench"), you now want to change it's origin coordinates to somewhere else on/within the part.
 
-Go to the ![](/src/assets/images/Lattice2_workbench_icon.svg) [Lattice2 Workbench](/Lattice2_Workbench "Lattice2 Workbench") and create an ![](/src/assets/images/Lattice2_AttachablePlacement.svg) [Attachable Placement](/Lattice2_AttachablePlacement "Lattice2 AttachablePlacement"), select where you want the new origin to be located, the ![](/src/assets/images/Part_EditAttachment.svg) [Part EditAttachment](/Part_EditAttachment "Part EditAttachment") utility will appear.
+Go to the ![](/images/Lattice2_workbench_icon.svg) [Lattice2 Workbench](/Lattice2_Workbench "Lattice2 Workbench") and create an ![](/images/Lattice2_AttachablePlacement.svg) [Attachable Placement](/Lattice2_AttachablePlacement "Lattice2 AttachablePlacement"), select where you want the new origin to be located, the ![](/images/Part_EditAttachment.svg) [Part EditAttachment](/Part_EditAttachment "Part EditAttachment") utility will appear.
 
 object and select an attachment mode in the attachment tab.
 

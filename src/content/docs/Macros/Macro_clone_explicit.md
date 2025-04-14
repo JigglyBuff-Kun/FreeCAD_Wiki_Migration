@@ -47,7 +47,7 @@ This clone is a copy of the original object, as in the **Edit → Duplicate sele
 
 ## Script
 
-ToolBar Icon ![](/src/assets/images/Macro_clone_explicit.png)
+ToolBar Icon ![](/images/Macro_clone_explicit.png)
 
 **Macro_clone_explicit.FCMacro**
 

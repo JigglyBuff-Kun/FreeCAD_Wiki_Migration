@@ -23,14 +23,14 @@ This documentation is not finished. Please help and contribute documentation.Gui
 
 ## Description
 
-The ![](/src/assets/images/Assembly_CreateJointRackPinion.svg) [Assembly CreateJointRackPinion](/Assembly_CreateJointRackPinion "Assembly CreateJointRackPinion") tool creates a rack and pinion joint that couples the translation of a part of a slider joint and the rotation of a part of a revolute joint.
+The ![](/images/Assembly_CreateJointRackPinion.svg) [Assembly CreateJointRackPinion](/Assembly_CreateJointRackPinion "Assembly CreateJointRackPinion") tool creates a rack and pinion joint that couples the translation of a part of a slider joint and the rotation of a part of a revolute joint.
 
 ## Usage
 
 1. Optionally select two geometric entities of two different parts that have previously been used to define a Slider joint and a Revolute joint.
 2. There are several ways to invoke the tool:
-   - Press the ![](/src/assets/images/Assembly_CreateJointRackPinion.svg) [Create Rack and Pinion Joint](/Assembly_CreateJointRackPinion "Assembly CreateJointRackPinion") button.
-   - Select the **Assembly → ![](/src/assets/images/Assembly_CreateJointRackPinion.svg) Create Rack and Pinion Joint** option from the menu.
+   - Press the ![](/images/Assembly_CreateJointRackPinion.svg) [Create Rack and Pinion Joint](/Assembly_CreateJointRackPinion "Assembly CreateJointRackPinion") button.
+   - Select the **Assembly → ![](/images/Assembly_CreateJointRackPinion.svg) Create Rack and Pinion Joint** option from the menu.
    - Use the keyboard shortcut: Q.
 3. The **Create Joint** dialog opens in the [Task panel](/Task_panel "Task panel") listing the pre-selected entities.
 4. For further steps see [Assembly CreateJointFixed](/Assembly_CreateJointFixed#Usage "Assembly CreateJointFixed").

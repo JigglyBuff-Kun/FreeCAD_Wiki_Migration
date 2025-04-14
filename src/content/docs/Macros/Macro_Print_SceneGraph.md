@@ -33,7 +33,7 @@ This macro traverses the SceneGraph and prints all the nodes and their fields in
 ## Script
 
 ToolBar Icon
-![](/src/assets/images/Macro_Print_SceneGraph.png)
+![](/images/Macro_Print_SceneGraph.png)
 
 **Macro_Print_SceneGraph.FCMacro**
 

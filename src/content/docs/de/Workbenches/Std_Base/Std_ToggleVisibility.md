@@ -28,8 +28,8 @@ Der Befehl **Std SichtbarkeitUmschalten** schaltet die Sichtbarkeit von ausgewä
    - Vorsicht bei der Verwendung von Ctrl+A zur Auswahl von Objekten in der Baumansicht. Dies schließt auch die Unterelemente von [PartDesign Körpern](/PartDesign_Body/de "PartDesign Body/de") und Objekte, die von [Part Boolesche Operationen](/Part_Boolean/de "Part Boolean/de") verwendet werden, ein. In den meisten Fällen sollten sie unsichtbar bleiben.
    - Objekte, die von [Part Boolesche Operationen](/Part_Boolean/de "Part Boolean/de") verwendet werden, werden auch ausgewählt, wenn man Ctrl+A in einer 3D-Ansicht verwendet.
 2. Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
-   - Den Menüeintrag **Ansicht → Sichtbarkeit → ![](/src/assets/images/Std_ToggleVisibility.svg) Ein/Ausblenden** auswählen.
-   - Die Menüoption **![](/src/assets/images/Std_ToggleVisibility.svg) Ein/Ausblenden** im Kontextmenü der Baumansicht oder der 3d-Ansicht auswählen.
+   - Den Menüeintrag **Ansicht → Sichtbarkeit → ![](/images/Std_ToggleVisibility.svg) Ein/Ausblenden** auswählen.
+   - Die Menüoption **![](/images/Std_ToggleVisibility.svg) Ein/Ausblenden** im Kontextmenü der Baumansicht oder der 3d-Ansicht auswählen.
    - Das Tastaturkürzel Leertaste.
 
 ## Hinweise

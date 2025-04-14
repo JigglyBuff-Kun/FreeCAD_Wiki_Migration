@@ -21,12 +21,12 @@ The following are derived directly from [Part Feature](/Part_Feature "Part Featu
 ## Usage
 
 1. Switch to the [PartDesign Workbench](/PartDesign_Workbench "PartDesign Workbench").
-2. Press ![](/src/assets/images/PartDesign_Body.svg) [PartDesign Body](/PartDesign_Body "PartDesign Body").
+2. Press ![](/images/PartDesign_Body.svg) [PartDesign Body](/PartDesign_Body "PartDesign Body").
 3. Select the Origin of the Body, and make it visible by pressing the Space bar in your keyboard.
-4. Press ![](/src/assets/images/PartDesign_Plane.svg) [PartDesign Plane](/PartDesign_Plane "PartDesign Plane") to open the plane [task panel](/Task_panel "Task panel").
+4. Press ![](/images/PartDesign_Plane.svg) [PartDesign Plane](/PartDesign_Plane "PartDesign Plane") to open the plane [task panel](/Task_panel "Task panel").
 5. In the [3D view](/3D_view "3D view"), click on one of the standard planes, for example, the XY plane. Then press OK to close the task panel.
-6. Now in the [tree view](/Tree_view "Tree view"), select the newly created DatumPlane, and then press ![](/src/assets/images/PartDesign_NewSketch.svg) [PartDesign NewSketch](/PartDesign_NewSketch "PartDesign NewSketch").
-7. Create a closed wire, and then use ![](/src/assets/images/PartDesign_Pad.svg) [PartDesign Pad](/PartDesign_Pad "PartDesign Pad") to extrude the sketch, and create an initial solid.
+6. Now in the [tree view](/Tree_view "Tree view"), select the newly created DatumPlane, and then press ![](/images/PartDesign_NewSketch.svg) [PartDesign NewSketch](/PartDesign_NewSketch "PartDesign NewSketch").
+7. Create a closed wire, and then use ![](/images/PartDesign_Pad.svg) [PartDesign Pad](/PartDesign_Pad "PartDesign Pad") to extrude the sketch, and create an initial solid.
 
 Now you can move and rotate the DatumPlane as you wish, by changing its properties in the [property editor](/Property_editor "Property editor"), and the Sketch and Pad will follow its new [Placement](/Placement "Placement").
 

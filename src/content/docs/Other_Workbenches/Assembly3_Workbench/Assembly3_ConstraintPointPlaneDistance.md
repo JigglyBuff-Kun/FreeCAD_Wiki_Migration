@@ -29,6 +29,6 @@ This tool builds a link between two objects of an assembly and fixes the distanc
 
 1. Place two objects into an assembly.
 2. Select one point element of one object and one planar face element of the other object.
-3. Press the ![](/src/assets/images/Assembly_ConstraintPointPlaneDistance.svg) [Point plane distance](/Assembly3_ConstraintPointPlaneDistance "Assembly3 ConstraintPointPlaneDistance") button.
+3. Press the ![](/images/Assembly_ConstraintPointPlaneDistance.svg) [Point plane distance](/Assembly3_ConstraintPointPlaneDistance "Assembly3 ConstraintPointPlaneDistance") button.
 
 Retrieved from "<http://wiki.freecad.org/index.php?title=Assembly3_ConstraintPointPlaneDistance/en&oldid=887373>"

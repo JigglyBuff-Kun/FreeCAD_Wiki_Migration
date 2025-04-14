@@ -23,15 +23,15 @@ This documentation is not finished. Please help and contribute documentation.Gui
 
 ## Description
 
-The ![](/src/assets/images/SheetMetal_AddFoldWall.svg) **SheetMetal AddFoldWall** command folds a sheet metal plate (blank) at a chosen line.
+The ![](/images/SheetMetal_AddFoldWall.svg) **SheetMetal AddFoldWall** command folds a sheet metal plate (blank) at a chosen line.
 
 It can be used with a pre-cut blank to
 
 - create a perforated bend zone
 - leave planar sections within the bend area and beyond e.g. tabs. (needs gaps in the bend line)
 
-![](/src/assets/images/SheetMetal_AddFoldWall-13.png) ![](/src/assets/images/Button_right.svg)
-![](/src/assets/images/SheetMetal_AddFoldWall-14.png)
+![](/images/SheetMetal_AddFoldWall-13.png) ![](/images/Button_right.svg)
+![](/images/SheetMetal_AddFoldWall-14.png)
 
 Pre-cut blank and bend line with two gaps → perforated bend zone with some still planar geometry
 
@@ -39,12 +39,12 @@ Pre-cut blank and bend line with two gaps → perforated bend zone with some sti
 
 1. Select the face to be bent.
 2. Hold down the Ctrl key (or the Command key on macOS).
-3. Select the coplanar ![](/src/assets/images/Workbench_Sketcher.svg) [sketch](/Sketcher_Workbench "Sketcher Workbench") (i.e. lying on the same plane) containing the **bend line (segments)** (preferably from the [tree view](/Tree_view "Tree view")).
+3. Select the coplanar ![](/images/Workbench_Sketcher.svg) [sketch](/Sketcher_Workbench "Sketcher Workbench") (i.e. lying on the same plane) containing the **bend line (segments)** (preferably from the [tree view](/Tree_view "Tree view")).
 4. Release the Ctrl key (or the Command key).
 5. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/SheetMetal_AddFoldWall.svg) [Fold a Wall](/SheetMetal_AddFoldWall "SheetMetal AddFoldWall") button.
-   - Select the **Sheet Metal → ![](/src/assets/images/SheetMetal_AddFoldWall.svg) Fold a Wall** option from the menu.
-   - Right-click in the [Tree view](/Tree_view "Tree view") or the [3D view](/3D_view "3D view") and select the **Sheet Metal → ![](/src/assets/images/SheetMetal_AddFoldWall.svg) Fold a Wall** option from the context menu.
+   - Press the ![](/images/SheetMetal_AddFoldWall.svg) [Fold a Wall](/SheetMetal_AddFoldWall "SheetMetal AddFoldWall") button.
+   - Select the **Sheet Metal → ![](/images/SheetMetal_AddFoldWall.svg) Fold a Wall** option from the menu.
+   - Right-click in the [Tree view](/Tree_view "Tree view") or the [3D view](/3D_view "3D view") and select the **Sheet Metal → ![](/images/SheetMetal_AddFoldWall.svg) Fold a Wall** option from the context menu.
    - Use the keyboard shortcut: C Then F.
 6. A **Fold** object is created and the **Fold on sketch line properties** [Task panel](/Task_panel "Task panel") opens.
 7. Optionally press the Base Object button and select a different face.
@@ -53,8 +53,8 @@ Pre-cut blank and bend line with two gaps → perforated bend zone with some sti
 10. Press the OK button to finish the command and close the Task panel.
 11. Optionally adjust the parameters in the [Property editor](/Property_editor "Property editor").
 
-![](/src/assets/images/SheetMetal_AddFoldWall-15.png) ![](/src/assets/images/Button_right.svg)
-![](/src/assets/images/SheetMetal_AddFoldWall-14.png)
+![](/images/SheetMetal_AddFoldWall-15.png) ![](/images/Button_right.svg)
+![](/images/SheetMetal_AddFoldWall-14.png)
 
 The bend line(s) lying in the middle of the perforation → to keep the bend centred the same way the property Data**Position** has to be set to `middle`
 
@@ -64,7 +64,7 @@ A task panel was introduced in version 0.5.00
 
 Double-click an existing Fold object in the [Tree view](/Tree_view "Tree view") to re-open the task panel and edit the parameters.
 
-![](/src/assets/images/SheetMetal_AddFoldWall-Task.png)
+![](/images/SheetMetal_AddFoldWall-Task.png)
 
 - Base Object: Links a different Sketch to the **base Object** property.
 - Bend Line: Links a different Sketch to the **Bend Line** property.
@@ -107,7 +107,7 @@ Parameters
 
 ## Example
 
-![](/src/assets/images/SheetMetal_AddFoldWall-01.png)
+![](/images/SheetMetal_AddFoldWall-01.png)
 
 A simple clip
 
@@ -122,10 +122,10 @@ This clip is made of a blank that receives three folds and so we need four sketc
 
 Easiest way to guarantee that one face of the blank and all folding lines are coplanar is to create all sketches on the same plane - the **XY_Plane** in this case.
 
-The folding lines could be created with other tools but hey, we have a ![](/src/assets/images/Workbench_Sketcher.svg) [Sketcher](/Sketcher_Workbench "Sketcher Workbench")!
+The folding lines could be created with other tools but hey, we have a ![](/images/Workbench_Sketcher.svg) [Sketcher](/Sketcher_Workbench "Sketcher Workbench")!
 
-![](/src/assets/images/SheetMetal_AddFoldWall-21.png)
-![](/src/assets/images/SheetMetal_AddFoldWall-20.png)
+![](/images/SheetMetal_AddFoldWall-21.png)
+![](/images/SheetMetal_AddFoldWall-20.png)
 
 Sketches on their common plane and their representation in the model tree
 
@@ -134,9 +134,9 @@ Sketches on their common plane and their representation in the model tree
 1. Create a blank
 
    1. Select the outline sketch
-   2. Press the ![](/src/assets/images/SheetMetal_AddBase.svg)[Make Base Wall](/SheetMetal_AddBase "SheetMetal AddBase") button  
+   2. Press the ![](/images/SheetMetal_AddBase.svg)[Make Base Wall](/SheetMetal_AddBase "SheetMetal AddBase") button  
        or use the keyboard shortcut: C then B  
-       ![](/src/assets/images/SheetMetal_AddFoldWall-02.png) ![](/src/assets/images/SheetMetal_AddFoldWall-03.png)
+       ![](/images/SheetMetal_AddFoldWall-02.png) ![](/images/SheetMetal_AddFoldWall-03.png)
 
       (The blank is padded in z direction and so it has to be flipped  
        each time, to select the bottom face that is lying on the sketch plane)
@@ -145,26 +145,26 @@ Sketches on their common plane and their representation in the model tree
    1. Select the blank's **bottom face**
    2. Select the **sketch** named **_Tip Fold line_** (preferably from the tree view)  
       (and don't forget the control/command key )
-   3. Press the ![](/src/assets/images/SheetMetal_AddFoldWall.svg) [Fold a wall](/SheetMetal_AddFoldWall "SheetMetal AddFoldWall") button  
+   3. Press the ![](/images/SheetMetal_AddFoldWall.svg) [Fold a wall](/SheetMetal_AddFoldWall "SheetMetal AddFoldWall") button  
        or use the keyboard shortcut: C then F  
-      ![](/src/assets/images/SheetMetal_AddFoldWall-10.png) ![](/src/assets/images/SheetMetal_AddFoldWall-04.png) ![](/src/assets/images/SheetMetal_AddFoldWall-05.png)
+      ![](/images/SheetMetal_AddFoldWall-10.png) ![](/images/SheetMetal_AddFoldWall-04.png) ![](/images/SheetMetal_AddFoldWall-05.png)
    4. The fold should be 90° down and so some values in the properties window need to be set e.g.:
       - the **angle** value to 60°
       - the **invert** value to true for an upward bend
 3. Create the downward fold
    1. Select the blank's **bottom face**
    2. And then the **sketch** named **_Down-Fold line_**
-   3. Press the ![](/src/assets/images/SheetMetal_AddFoldWall.svg) [Fold a wall](/SheetMetal_AddFoldWall "SheetMetal AddFoldWall") button  
+   3. Press the ![](/images/SheetMetal_AddFoldWall.svg) [Fold a wall](/SheetMetal_AddFoldWall "SheetMetal AddFoldWall") button  
        or use the keyboard shortcut: C then F  
-      ![](/src/assets/images/SheetMetal_AddFoldWall-11.png) ![](/src/assets/images/SheetMetal_AddFoldWall-06.png) ![](/src/assets/images/SheetMetal_AddFoldWall-07.png)
+      ![](/images/SheetMetal_AddFoldWall-11.png) ![](/images/SheetMetal_AddFoldWall-06.png) ![](/images/SheetMetal_AddFoldWall-07.png)
    4. Set the **angle** value to 92°
    5. If the wrong section of the part moved set the **invertbend** value to true
 4. To create the upward fold
    1. select the blank's **bottom face**
    2. and then the **sketch** named **_Up-Fold line_**
-   3. Press the ![](/src/assets/images/SheetMetal_AddFoldWall.svg) [Fold a wall](/SheetMetal_AddFoldWall "SheetMetal AddFoldWall") button  
+   3. Press the ![](/images/SheetMetal_AddFoldWall.svg) [Fold a wall](/SheetMetal_AddFoldWall "SheetMetal AddFoldWall") button  
        or use the keyboard shortcut: C then F  
-      ![](/src/assets/images/SheetMetal_AddFoldWall-12.png) ![](/src/assets/images/SheetMetal_AddFoldWall-08.png) ![](/src/assets/images/SheetMetal_AddFoldWall-09.png)
+      ![](/images/SheetMetal_AddFoldWall-12.png) ![](/images/SheetMetal_AddFoldWall-08.png) ![](/images/SheetMetal_AddFoldWall-09.png)
    4. Set the **angle** value to 80°
    5. If the fold is downward set the **invert** value to true
    6. If needed set the **invertbend** value to true

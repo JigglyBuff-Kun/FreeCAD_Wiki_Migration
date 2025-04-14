@@ -21,7 +21,7 @@ title: Part Scale
 
 **Part Scale** scales shapes by a specified factor in all directions or by distinct factors in each cardinal direction. In the case of distinct factors, the shapes may be distorted.
 
-![](/src/assets/images/Part_Scale_demo.png)
+![](/images/Part_Scale_demo.png)
 
 Examples of scaling
 
@@ -29,8 +29,8 @@ Examples of scaling
 
 1. Select one or more shapes in the [3D view](/3D_view "3D view") or in the [Tree view](/Tree_view "Tree view").
 2. There are several ways to invoke the command:
-   - Press the ![](/src/assets/images/Part_Scale.svg) [Scale...](/Part_Scale "Part Scale") button.
-   - Select the **Part → ![](/src/assets/images/Part_Scale.svg) Scale...** option from the menu.
+   - Press the ![](/images/Part_Scale.svg) [Scale...](/Part_Scale "Part Scale") button.
+   - Select the **Part → ![](/images/Part_Scale.svg) Scale...** option from the menu.
 3. A [tasks panel](#Task_panel) opens.
 4. Choose **Uniform Scaling** or **Non-Uniform Scaling**.
 5. Set the scaling factor(s).
@@ -42,7 +42,7 @@ The Tree view will list as many Scale objects as there were selected shapes. Eac
 
 ## Task panel
 
-![](/src/assets/images/Part_Scale_dialog.png)
+![](/images/Part_Scale_dialog.png)
 
 - OK button creates the scaled object, and closes the task panel.
 - Close button closes the task panel without doing anything.

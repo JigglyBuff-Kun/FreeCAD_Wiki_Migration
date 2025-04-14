@@ -32,11 +32,11 @@ Macro for easy scaling of drawings, graphics, diagrams, blueprints and similar 2
 
 Note: For photos of objects, or images involving objects lying at different distances from the viewpoint, the effect of [Parallax](https://en.wikipedia.org/wiki/Parallax) (distortion due to "difference in the apparent position of an object viewed along two different lines of sight") must be kept in mind. In the following diagram the 2 blue objects are co-planar with the plane being perpendicular to the user viewpoint and scaling can be used:
 
-![](/src/assets/images/Perspective.png)
+![](/images/Perspective.png)
 
 In the second diagram, the red and green objects are not co-planar with the 2 blue objects and scaling can not be used. Additionally the fact that the red object is co-planar with 1 blue object can not be determined from the single diagram based on the user viewpoint:
 
-![](/src/assets/images/Parallax.jpg)
+![](/images/Parallax.jpg)
 
 ## Usage
 
@@ -48,7 +48,7 @@ In the second diagram, the red and green objects are not co-planar with the 2 bl
 
 ## Script
 
-ToolBar Icon ![](/src/assets/images/Image_Scaling.svg)
+ToolBar Icon ![](/images/Image_Scaling.svg)
 
 **Macro_Image_Scaling.FCMacro**
 

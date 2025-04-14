@@ -4,7 +4,7 @@ title: Creating and manipulating geometry
 
 In earlier chapters, we explored the various workbenches in FreeCAD and how each introduces its own set of tools and geometry types. The same principles apply when working with FreeCAD through Python scripting.
 
-We also observed that most FreeCAD workbenches rely on one foundational workbench: the ![](/src/assets/images/Workbench_Part.svg) [Part Workbench](/Part_Workbench "Part Workbench"). Many other workbenches, such as the ![](/src/assets/images/Workbench_Draft.svg) [Draft Workbench](/Draft_Workbench "Draft Workbench"), utilize the Part Workbench's tools and geometry, which is exactly what we will do in this chapter—use Python to create and manipulate Part geometry.
+We also observed that most FreeCAD workbenches rely on one foundational workbench: the ![](/images/Workbench_Part.svg) [Part Workbench](/Part_Workbench "Part Workbench"). Many other workbenches, such as the ![](/images/Workbench_Draft.svg) [Draft Workbench](/Draft_Workbench "Draft Workbench"), utilize the Part Workbench's tools and geometry, which is exactly what we will do in this chapter—use Python to create and manipulate Part geometry.
 
 To begin working with Part geometry in Python, we need to perform the scripting equivalent of switching to the Part Workbench: importing the Part module.
 
@@ -123,11 +123,11 @@ To summarize the concept of Part Shapes: Everything begins with **Vertexes**, th
 
 We can now try creating complex shapes from scratch, by constructing all their components one by one. For example, let's try to create a volume like this:
 
-![](/src/assets/images/Exercise_python_03.jpg)
+![](/images/Exercise_python_03.jpg)
 
 We will start by creating a planar shape like this:
 
-![](/src/assets/images/Wire.png)
+![](/images/Wire.png)
 
 First, let's create the four base points:
 
@@ -141,7 +141,7 @@ V4 = FreeCAD.Vector(0,-10,0)
 
 Then we can create the two linear segments:
 
-![](/src/assets/images/Line.png)
+![](/images/Line.png)
 
 ```
 L1 = Part.LineSegment(V1,V2)
@@ -158,7 +158,7 @@ print(Edge.Curve)
 
 allows you to understand the underlying structure of the edge and how it was constructed. Now, let’s return to our exercise and proceed with building the arc segments. To create an arc, we need three points: a start point, an end point, and a midpoint that determines the curvature. For this purpose, we can use the convenient **Part.Arc** function, which takes these three points as input and generates the base geometry for an arc.
 
-![](/src/assets/images/Circel.png)
+![](/images/Circel.png)
 
 ```
 VC1 = FreeCAD.Vector(-10,0,0)
