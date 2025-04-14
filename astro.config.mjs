@@ -2,11 +2,14 @@
 import { defineConfig } from "astro/config";
 import starlight from "@astrojs/starlight";
 import starlightImageZoom from "starlight-image-zoom";
+import netlify from "@astrojs/netlify";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://JigglyBuff-Kun@github.io",
-  base: "FreeCAD_Wiki_Migration",
+  output: "server",
+  adapter: netlify({
+    edgeMiddleware: true,
+  }),
   integrations: [
     starlight({
       plugins: [starlightImageZoom()],
